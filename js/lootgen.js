@@ -873,7 +873,7 @@ const randomLootTables = {
 		let dispRarity = "";
 		switch (rarity) {
 			case "none": dispRarity = ""; dispItemType = "Mundane"; break;
-			case "varies": dispRarity = `of Varying rarity`; break;
+			case "varia": dispRarity = `of Varying rarity`; break;
 			case "unknown (magic)": dispRarity = `of Unknown rarity`; break;
 			case "unknown": dispRarity = `of Unknown rarity`; dispItemType = "Mundane"; break;
 			case "artifact": dispRarity = `that are Artifacts`; break;

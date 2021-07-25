@@ -148,7 +148,7 @@ class ItemParser extends BaseParser {
 				case "legendary": stats.rarity = rarity; return true;
 				case "artifact": stats.rarity = rarity; return true;
 				case "rarity varies": {
-					stats.rarity = "varies";
+					stats.rarity = "varia";
 					stats.__prop = "itemGroup";
 					return true;
 				}

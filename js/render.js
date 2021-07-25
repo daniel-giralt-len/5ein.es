@@ -5600,7 +5600,7 @@ Renderer.item = {
 		</div>`;
 	},
 
-	_hiddenRarity: new Set(["none", "unknown", "unknown (magic)", "varies"]),
+	_hiddenRarity: new Set(["none", "unknown", "unknown (magic)", "varia"]),
 	doRenderRarity (rarity) {
 		return !Renderer.item._hiddenRarity.has(rarity);
 	},

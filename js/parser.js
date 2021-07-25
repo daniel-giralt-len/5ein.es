@@ -244,7 +244,7 @@ Parser.getSpeedString = (it) => {
 		}
 		return stack.join(joiner) + (it.speed.note ? ` ${it.speed.note}` : "");
 	} else {
-		return it.speed + (it.speed === "Varies" ? "" : " ft. ");
+		return it.speed + (it.speed === "Varia" ? "" : " ft. ");
 	}
 };
 
@@ -775,7 +775,7 @@ Parser._costSplitRegexp = Parser._decimalSeparator === "." ? new RegExp(/(\d+(\.
 Parser.coinValueToNumber = function (value) {
 	if (!value) return 0;
 	// handle oddities
-	if (value === "Varies") return 0;
+	if (value === "Varia") return 0;
 
 	value = value
 		.replace(/\s*/, "")
@@ -2174,7 +2174,7 @@ Parser.SIZE_ABV_TO_FULL[SZ_LARGE] = "Large";
 Parser.SIZE_ABV_TO_FULL[SZ_HUGE] = "Huge";
 Parser.SIZE_ABV_TO_FULL[SZ_GARGANTUAN] = "Gargantuan";
 Parser.SIZE_ABV_TO_FULL[SZ_COLOSSAL] = "Colossal";
-Parser.SIZE_ABV_TO_FULL[SZ_VARIES] = "Varies";
+Parser.SIZE_ABV_TO_FULL[SZ_VARIES] = "Varia";
 
 Parser.XP_CHART_ALT = {
 	"0": 10,

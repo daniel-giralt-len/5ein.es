@@ -111,7 +111,7 @@ class PageFilterItems extends PageFilterEquipment {
 			case "very rare": return 4;
 			case "legendary": return 5;
 			case "artifact": return 6;
-			case "varies": return 7;
+			case "varia": return 7;
 			case "unknown (magic)": return 8;
 			case "unknown": return 9;
 			default: return 10;
