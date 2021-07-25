@@ -1,0 +1,248 @@
+{
+	"feat": [
+		{
+			"name": "Dragon Wings",
+			"source": "UAFeatsForRaces",
+			"effects": [
+				{
+					"name": "Flying Speed",
+					"changes": [
+						{
+							"key": "data.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mobile",
+			"source": "PHB",
+			"effects": [
+				{
+					"name": "Movement Speed Increase",
+					"changes": [
+						{
+							"key": "data.attributes.movement.walk",
+							"mode": "ADD",
+							"value": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Squat Nimbleness",
+			"source": "UAFeatsForRaces",
+			"effects": [
+				{
+					"name": "Movement Speed Increase",
+					"changes": [
+						{
+							"key": "data.attributes.movement.walk",
+							"mode": "ADD",
+							"value": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Squat Nimbleness",
+			"source": "XGE",
+			"effects": [
+				{
+					"name": "Movement Speed Increase",
+					"changes": [
+						{
+							"key": "data.attributes.movement.walk",
+							"mode": "ADD",
+							"value": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Resilient",
+			"source": "PHB",
+			"effects": [
+				{
+					"name": "Saving Throw Proficiency",
+					"changes": [
+						{
+							"key": "data.abilities.<$keys(import.chosenAbilityScoreIncrease)$>.proficient",
+							"mode": "UPGRADE",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Observant",
+			"source": "PHB",
+			"effects": [
+				{
+					"changes": [
+						{
+							"key": "flags.dnd5e.observantFeat",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Alert",
+			"source": "PHB",
+			"effects": [
+				{
+					"changes": [
+						{
+							"key": "flags.dnd5e.initiativeAlert",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elven Accuracy",
+			"source": "XGE",
+			"effects": [
+				{
+					"changes": [
+						{
+							"key": "flags.dnd5e.elvenAccuracy",
+							"mode": "OVERRIDE",
+							"value": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tough",
+			"source": "PHB",
+			"effects": [
+				{
+					"name": "HP Increase",
+					"changes": [
+						{
+							"key": "data.attributes.hp.max",
+							"mode": "ADD",
+							"value": "2 * @details.level"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Initiate",
+			"source": "TCE",
+			"entries": [
+				"Your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
+				"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Archery"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Close Quarters Shooter|UALightDarkUnderdark"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Defense"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Dueling"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Great Weapon Fighting"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Mariner|UAWaterborneAdventures"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Protection"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Tunnel Fighter|UALightDarkUnderdark"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Two-Weapon Fighting"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Superior Technique|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Blind Fighting|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Interception|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Thrown Weapon Fighting|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Unarmed Fighting|UAClassFeatureVariants"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Blind Fighting|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Interception|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Superior Technique|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Thrown Weapon Fighting|TCE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Unarmed Fighting|TCE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lucky",
+			"source": "PHB",
+			"data": {
+				"activation.type": "none",
+				"activation.cost": 0,
+				"uses.value": 3,
+				"uses.max": 3,
+				"uses.per": "lr",
+				"actionType": "other",
+				"formula": "1d20"
+			}
+		}
+	]
+}
