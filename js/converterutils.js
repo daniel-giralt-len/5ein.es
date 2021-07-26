@@ -350,7 +350,7 @@ class TagCondition {
 TagCondition._ALL_LEGENDARY_GROUPS = null;
 TagCondition._ALL_SPELLS = null;
 TagCondition._CONDITIONS = [
-	"blinded",
+	"encegat",
 	"charmed",
 	"deafened",
 	"exhaustion",

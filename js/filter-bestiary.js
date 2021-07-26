@@ -370,7 +370,7 @@ PageFilterBestiary._NEUT_ALIGNS = ["NX", "NY"];
 PageFilterBestiary.MISC_FILTER_SPELLCASTER = "Spellcaster, ";
 PageFilterBestiary.DMG_TYPES = [...Parser.DMG_TYPES];
 PageFilterBestiary.CONDS = [
-	"blinded",
+	"encegat",
 	"charmed",
 	"deafened",
 	"exhaustion",
