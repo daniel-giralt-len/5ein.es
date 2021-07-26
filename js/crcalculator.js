@@ -33,7 +33,7 @@ function addMonsterFeatures (mfData) {
 
 	function changeSize ($selSize) {
 		const newSize = $selSize.val();
-		if (newSize === "Tiny") $("#hdval").html("d4");
+		if (newSize === "Diminut") $("#hdval").html("d4");
 		if (newSize === "Small") $("#hdval").html("d6");
 		if (newSize === "Medium") $("#hdval").html("d8");
 		if (newSize === "Large") $("#hdval").html("d10");
