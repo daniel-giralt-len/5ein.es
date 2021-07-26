@@ -3123,7 +3123,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 };
 
 Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "thunder"];
-Parser.CONDITIONS = ["encegat", "fascinat", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
+Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
 	"Acrobatics": [

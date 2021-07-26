@@ -372,8 +372,8 @@ PageFilterBestiary.DMG_TYPES = [...Parser.DMG_TYPES];
 PageFilterBestiary.CONDS = [
 	"encegat",
 	"fascinat",
-	"deafened",
-	"exhaustion",
+	"eixordat",
+	"exhaust",
 	"frightened",
 	"grappled",
 	"incapacitated",

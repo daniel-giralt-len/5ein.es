@@ -352,8 +352,8 @@ TagCondition._ALL_SPELLS = null;
 TagCondition._CONDITIONS = [
 	"encegat",
 	"fascinat",
-	"deafened",
-	"exhaustion",
+	"eixordat",
+	"exhaust",
 	"frightened",
 	"grappled",
 	"incapacitated",
