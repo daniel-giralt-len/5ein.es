@@ -98,7 +98,7 @@ class CreatureBuilder extends Builder {
 		delete creature.hasToken;
 		delete creature.uniqueId;
 
-		// Semi-gracefully handle e.g. ERLW's Steel Defender
+		// Semi-gracefully handle e.g. ERLW's Steel Defender (Defensor d'Acer)
 		if (creature.passive != null && typeof creature.passive === "string") delete creature.passive;
 
 		const meta = {...(opts.meta || {}), ...this.getInitialMetaState()};
