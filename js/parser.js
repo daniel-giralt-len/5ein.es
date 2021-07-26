@@ -2227,7 +2227,7 @@ Parser.WEAPON_ABV_TO_FULL = {
 Parser.CONDITION_TO_COLOR = {
 	"encegat": "#525252",
 	"fascinat": "#f01789",
-	"Deafened": "#ababab",
+	"Eixordat": "#ababab",
 	"Exhausted": "#947a47",
 	"Frightened": "#c9ca18",
 	"Grappled": "#8784a0",
