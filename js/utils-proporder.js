@@ -864,7 +864,7 @@ PropOrder._ITEM = [
 	"hammer",
 	"mace",
 	"net",
-	"poison",
+	"verí",
 	"spear",
 	"staff",
 	"stealth",

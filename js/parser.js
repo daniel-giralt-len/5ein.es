@@ -3115,14 +3115,14 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"L": "lightning",
 	"N": "necrotic",
 	"P": "piercing",
-	"I": "poison",
+	"I": "verí",
 	"Y": "psychic",
 	"R": "radiant",
 	"S": "slashing",
 	"T": "thunder",
 };
 
-Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"];
+Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "verí", "psychic", "radiant", "slashing", "thunder"];
 Parser.CONDITIONS = ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
