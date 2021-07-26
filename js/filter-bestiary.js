@@ -380,7 +380,7 @@ PageFilterBestiary.CONDS = [
 	"invisible",
 	"paralitzat",
 	"petrificat",
-	"poisoned",
+	"emmetzinat",
 	"prone",
 	"restrained",
 	"stunned",

@@ -360,7 +360,7 @@ TagCondition._CONDITIONS = [
 	"invisible",
 	"paralitzat",
 	"petrificat",
-	"poisoned",
+	"emmetzinat",
 	"prone",
 	"restrained",
 	"stunned",
