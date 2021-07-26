@@ -371,7 +371,7 @@ PageFilterBestiary.MISC_FILTER_SPELLCASTER = "Spellcaster, ";
 PageFilterBestiary.DMG_TYPES = [...Parser.DMG_TYPES];
 PageFilterBestiary.CONDS = [
 	"encegat",
-	"charmed",
+	"fascinat",
 	"deafened",
 	"exhaustion",
 	"frightened",

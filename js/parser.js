@@ -2226,7 +2226,7 @@ Parser.WEAPON_ABV_TO_FULL = {
 
 Parser.CONDITION_TO_COLOR = {
 	"encegat": "#525252",
-	"Charmed": "#f01789",
+	"fascinat": "#f01789",
 	"Deafened": "#ababab",
 	"Exhausted": "#947a47",
 	"Frightened": "#c9ca18",
@@ -3123,7 +3123,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 };
 
 Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "thunder"];
-Parser.CONDITIONS = ["encegat", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
+Parser.CONDITIONS = ["encegat", "fascinat", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
 	"Acrobatics": [

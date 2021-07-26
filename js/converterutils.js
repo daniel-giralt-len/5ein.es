@@ -351,7 +351,7 @@ TagCondition._ALL_LEGENDARY_GROUPS = null;
 TagCondition._ALL_SPELLS = null;
 TagCondition._CONDITIONS = [
 	"encegat",
-	"charmed",
+	"fascinat",
 	"deafened",
 	"exhaustion",
 	"frightened",
