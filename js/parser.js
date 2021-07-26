@@ -1617,7 +1617,7 @@ Parser.alignmentAbvToFull = function (alignment) {
 				return "evil";
 			// "special" values
 			case "U":
-				return "unaligned";
+				return "sense alineament";
 			case "A":
 				return "any alignment";
 		}
