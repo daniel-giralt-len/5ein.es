@@ -617,7 +617,7 @@ class SenseTag {
 	}
 
 	static _fnTag (strMod) {
-		return strMod.replace(/(tremorsense|blindsight|truesight|darkvision)/g, (...m) => `{@sense ${m[0]}}`);
+		return strMod.replace(/(tremorsense|visió a cegues|truesight|darkvision)/g, (...m) => `{@sense ${m[0]}}`);
 	}
 }
 

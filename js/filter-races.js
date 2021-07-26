@@ -763,7 +763,7 @@ class PageFilterRaces extends PageFilter {
 			items: [
 				"Amphibious",
 				"Armor Proficiency",
-				"Blindsight",
+				"Visió a cegues",
 				"Condition Immunity",
 				"Damage Immunity",
 				"Damage Resistance",
