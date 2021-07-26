@@ -374,7 +374,7 @@ PageFilterBestiary.CONDS = [
 	"fascinat",
 	"eixordat",
 	"exhaust",
-	"frightened",
+	"acovardat",
 	"grappled",
 	"incapacitated",
 	"invisible",
