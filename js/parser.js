@@ -3116,13 +3116,13 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"N": "necrotic",
 	"P": "piercing",
 	"I": "verí",
-	"Y": "psychic",
+	"Y": "psíquic",
 	"R": "radiant",
 	"S": "slashing",
 	"T": "thunder",
 };
 
-Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "verí", "psychic", "radiant", "slashing", "thunder"];
+Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "thunder"];
 Parser.CONDITIONS = ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
