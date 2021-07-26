@@ -264,7 +264,7 @@ class CreatureConverter extends BaseConverter {
 CreatureConverter.SAMPLE_TEXT =
 	`Mammon
 Huge fiend (devil), lawful evil
-Armor Class 20 (natural armor)
+Armor Class 20 (armadura natural)
 Hit Points 378 (28d12 + 196)
 Speed 50 ft.
 STR DEX CON INT WIS CHA

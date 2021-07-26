@@ -769,7 +769,7 @@
 					} else {
 						return { // fill the gap with natural armor
 							ac: target,
-							from: ["natural armor"],
+							from: ["armadura natural"],
 						}
 					}
 				} else if (dexMismatch < 0 && canAdjustDex) { // increase/reduce DEX to move the AC up/down
@@ -1134,7 +1134,7 @@
 			const handleNaturalArmor = () => {
 				// if there's natural armor, try adjusting dex, then try adjusting it
 
-				if (acItem.from && acItem.from.map(it => it._).includes("natural armor")) {
+				if (acItem.from && acItem.from.map(it => it._).includes("armadura natural")) {
 					if (canAdjustDex) {
 						acItem.ac = target;
 						delete acItem._acBeforePreAdjustment;
@@ -2189,11 +2189,11 @@
 			;
 
 			// Try to convert to "from" AC
-			const mSimpleNatural = /^(\d+) \(natural armor\)$/i.exec(it.special);
+			const mSimpleNatural = /^(\d+) \(armadura natural\)$/i.exec(it.special);
 			if (mSimpleNatural) {
 				delete it.special;
 				it.ac = Number(mSimpleNatural[1]);
-				it.from = ["natural armor"];
+				it.from = ["armadura natural"];
 			}
 
 			return it;

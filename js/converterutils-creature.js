@@ -85,6 +85,7 @@ class AcConvert {
 
 						// au naturel
 						case "natural armor":
+						case "armadura natural":
 						case "natural armour":
 						case "natural":
 							froms.push("natural armor");

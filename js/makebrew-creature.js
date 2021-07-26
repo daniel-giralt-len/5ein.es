@@ -3124,7 +3124,7 @@ CreatureBuilder._ALIGNMENTS = [
 ];
 CreatureBuilder._AC_COMMON = {
 	"Unarmored Defense": "unarmored defense",
-	"Natural Armor": "natural armor",
+	"Armadura Natural": "Armadura Natural",
 };
 CreatureBuilder._LANGUAGE_BLACKLIST = new Set(["CS", "X", "XX"]);
 CreatureBuilder._rowSortOrder = 0;

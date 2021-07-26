@@ -772,7 +772,7 @@ class PageFilterRaces extends PageFilter {
 				"Feat",
 				"Improved Resting",
 				"Monstrous Race",
-				"Natural Armor",
+				"Armadura Natural",
 				"NPC Race",
 				"Powerful Build",
 				"Skill Proficiency",
