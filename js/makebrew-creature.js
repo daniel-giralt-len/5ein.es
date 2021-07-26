@@ -2560,7 +2560,7 @@ class CreatureBuilder extends Builder {
 									return {
 										name: $iptName.val().trim() || "Unarmed Strike",
 										entries: [
-											`${ptAtk} ${ptHit}, ${ptRange}, one target. {@h}${ptDamageFull}.`,
+											`${ptAtk} ${ptHit}, ${ptRange}, un objectiu. {@h}${ptDamageFull}.`,
 										],
 									};
 								};

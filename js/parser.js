@@ -1985,7 +1985,7 @@ Parser.TRAP_INIT_TO_FULL[2] = "initiative count 20";
 Parser.TRAP_INIT_TO_FULL[3] = "initiative count 20 and initiative count 10";
 
 Parser.ATK_TYPE_TO_FULL = {};
-Parser.ATK_TYPE_TO_FULL["MW"] = "Melee Weapon Attack";
+Parser.ATK_TYPE_TO_FULL["MW"] = "Atac armat melé";
 Parser.ATK_TYPE_TO_FULL["RW"] = "Ranged Weapon Attack";
 
 Parser.bookOrdinalToAbv = (ordinal, preNoSuff) => {
