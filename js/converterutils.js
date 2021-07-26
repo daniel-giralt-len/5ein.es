@@ -443,7 +443,7 @@ class DiceConvert {
 	static _walkerStringHandler (isTagHits, str) {
 		if (isTagHits) {
 			// replace e.g. "+X to hit"
-			str = str.replace(/([-+])?\d+(?= to hit)/g, function (match) {
+			str = str.replace(/([-+])?\d+(?= a impactar)/g, function (match) {
 				const cleanMatch = match.startsWith("+") ? match.replace("+", "") : match;
 				return `{@hit ${cleanMatch}}`
 			});

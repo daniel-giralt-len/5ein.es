@@ -2529,7 +2529,7 @@ class CreatureBuilder extends Builder {
 									const [melee, ranged] = [$cbMelee.prop("checked") ? "mw" : false, $cbRanged.prop("checked") ? "rw" : false];
 
 									const ptAtk = `{@atk ${[melee ? "mw" : null, ranged ? "rw" : null].filter(Boolean).join(",")}}`;
-									const ptHit = `{@hit ${pb + abilMod}} to hit`;
+									const ptHit = `{@hit ${pb + abilMod}} a impactar`;
 									const ptRange = [
 										melee ? `reach ${UiUtil.strToInt($iptMeleeRange.val(), 5, {fallbackOnNaN: 5})} ft.` : null,
 										ranged ? (() => {
