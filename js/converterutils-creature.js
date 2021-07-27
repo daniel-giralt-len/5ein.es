@@ -60,7 +60,7 @@ class AcConvert {
 						case "barding scraps":
 						case "patchwork armor":
 						case "see natural armor feature":
-						case "barkskin trait":
+						case "pell d'escorça trait":
 						case "sylvan warrior":
 						case "cage":
 						case "chains":
@@ -93,7 +93,7 @@ class AcConvert {
 
 						// spells
 						case "foresight bonus": froms.push(`{@spell foresight} bonus`); break;
-						case "natural barkskin": froms.push(`natural {@spell barkskin}`); break;
+						case "natural pell d'escorça": froms.push(`natural {@spell pell d'escorça}`); break;
 						case "mage armor": froms.push("{@spell mage armor}"); break;
 
 						// armor (mostly handled by the item lookup; these are mis-named exceptions (usually for homebrew))
@@ -129,13 +129,13 @@ class AcConvert {
 
 								if (itemMeta.isExact) froms.push(`{@item ${fromLow}${itemMeta.source === SRC_DMG ? "" : `|${itemMeta.source}`}}`);
 								else froms.push(`{@item ${itemMeta.name}${itemMeta.source === SRC_DMG ? "|" : `|${itemMeta.source}`}|${fromLow}}`);
-							} else if (fromLow.endsWith("with mage armor") || fromLow.endsWith("with barkskin")) {
+							} else if (fromLow.endsWith("with mage armor") || fromLow.endsWith("with pell d'escorça")) {
 								const numMatch = /(\d+) with (.*)/.exec(fromLow);
 								if (!numMatch) throw new Error("Spell AC but no leading number?");
 
 								let spell = null;
 								if (numMatch[2] === "mage armor") spell = `{@spell mage armor}`;
-								else if (numMatch[2] === "barkskin") spell = `{@spell barkskin}`;
+								else if (numMatch[2] === "pell d'escorça") spell = `{@spell pell d'escorça}`;
 								else throw new Error(`Unhandled spell! ${numMatch[2]}`);
 
 								nxtAc = {
