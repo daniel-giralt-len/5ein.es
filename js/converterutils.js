@@ -355,7 +355,7 @@ TagCondition._CONDITIONS = [
 	"eixordat",
 	"exhaust",
 	"acovardat",
-	"grappled",
+	"pres",
 	"incapacitated",
 	"invisible",
 	"paralitzat",
