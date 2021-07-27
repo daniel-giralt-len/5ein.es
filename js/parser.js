@@ -1195,7 +1195,7 @@ Parser.DURATION_TYPES = [
 
 Parser.DURATION_AMOUNT_TYPES = [
 	"turn",
-	"round",
+	"ronda",
 	"minute",
 	"hour",
 	"day",
@@ -2037,7 +2037,7 @@ Parser.SKL_ABVS = [
 Parser.SP_TM_ACTION = "action";
 Parser.SP_TM_B_ACTION = "bonus";
 Parser.SP_TM_REACTION = "reaction";
-Parser.SP_TM_ROUND = "round";
+Parser.SP_TM_ROUND = "ronda";
 Parser.SP_TM_MINS = "minute";
 Parser.SP_TM_HRS = "hour";
 Parser.SP_TIME_SINGLETONS = [Parser.SP_TM_ACTION, Parser.SP_TM_B_ACTION, Parser.SP_TM_REACTION, Parser.SP_TM_ROUND];

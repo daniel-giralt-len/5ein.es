@@ -140,7 +140,7 @@ class InitiativeTracker {
 		const $btnAddMonster = $(`<button class="btn btn-success btn-xs dm-init-lockable mr-2" title="Add Monster"><span class="glyphicon glyphicon-print"/></button>`).appendTo($wrpAdd);
 		$(`<button class="btn btn-default btn-xs mr-2" title="Next Turn"><span class="glyphicon glyphicon-step-forward"/></button>`).appendTo($wrpAddNext)
 			.click(() => setNextActive());
-		const $iptRound = $(`<input class="form-control ipt-sm dm_init__rounds" type="number" min="1" title="Round">`)
+		const $iptRound = $(`<input class="form-control ipt-sm dm_init__rounds" type="number" min="1" title="Ronda">`)
 			.val(state.n || 1)
 			.change(() => doUpdateExternalStates())
 			.appendTo($wrpAddNext);

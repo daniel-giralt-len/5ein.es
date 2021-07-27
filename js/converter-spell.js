@@ -309,7 +309,7 @@ class SpellParser extends BaseParser {
 			case "hour":
 			case "minute":
 			case "action":
-			case "round":
+			case "ronda":
 			case "reaction": return unit;
 
 			case "bonus action": return "bonus";

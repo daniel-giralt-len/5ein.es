@@ -971,7 +971,7 @@ Renderer.dice.lang = {
 			case "summonspelllevel": self.tokenStack.push(Renderer.dice.tk.SUMMON_SPELL_LEVEL); self.hasSummonSpellLevel = true; break;
 			case "floor": self.tokenStack.push(Renderer.dice.tk.FLOOR); break;
 			case "ceil": self.tokenStack.push(Renderer.dice.tk.CEIL); break;
-			case "round": self.tokenStack.push(Renderer.dice.tk.ROUND); break;
+			case "ronda": self.tokenStack.push(Renderer.dice.tk.ROUND); break;
 			case "avg": self.tokenStack.push(Renderer.dice.tk.AVERAGE); break;
 			case "d": self.tokenStack.push(Renderer.dice.tk.DICE); break;
 			case "dh": self.tokenStack.push(Renderer.dice.tk.DROP_HIGHEST); break;
@@ -1264,7 +1264,7 @@ Renderer.dice.tk.PB = Renderer.dice.tk._new("PB", "pb");
 Renderer.dice.tk.SUMMON_SPELL_LEVEL = Renderer.dice.tk._new("SUMMON_SPELL_LEVEL", "summonspelllevel");
 Renderer.dice.tk.FLOOR = Renderer.dice.tk._new("FLOOR", "floor");
 Renderer.dice.tk.CEIL = Renderer.dice.tk._new("CEIL", "ceil");
-Renderer.dice.tk.ROUND = Renderer.dice.tk._new("ROUND", "round");
+Renderer.dice.tk.ROUND = Renderer.dice.tk._new("RONDA", "ronda");
 Renderer.dice.tk.AVERAGE = Renderer.dice.tk._new("AVERAGE", "avg");
 Renderer.dice.tk.DICE = Renderer.dice.tk._new("DICE", "d");
 Renderer.dice.tk.DROP_HIGHEST = Renderer.dice.tk._new("DH", "dh", {isDiceModifier: true});
@@ -1551,7 +1551,7 @@ Renderer.dice.parsed = {
 			switch (symFunc.type) {
 				case Renderer.dice.tk.FLOOR.type: out = "floor"; break;
 				case Renderer.dice.tk.CEIL.type: out = "ceil"; break;
-				case Renderer.dice.tk.ROUND.type: out = "round"; break;
+				case Renderer.dice.tk.ROUND.type: out = "ronda"; break;
 				case Renderer.dice.tk.AVERAGE.type: out = "avg"; break;
 				default: throw new Error(`Unimplemented!`);
 			}

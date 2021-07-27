@@ -151,7 +151,7 @@ class PageFilterSpells extends PageFilter {
 				if (!fDur.duration) return "Special";
 				switch (fDur.duration.type) {
 					case "turn":
-					case "round": return "1 Round";
+					case "ronda": return "1 Round";
 
 					case "minute": {
 						const amt = fDur.duration.amount || 0;
