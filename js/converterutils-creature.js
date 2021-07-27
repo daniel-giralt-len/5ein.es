@@ -454,7 +454,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"devil's sight": "Devil's Sight",
 		"devil sight": "Devil's Sight",
 
-		"immutable form": "Immutable Form",
+		"forma immutable": "Forma Immutable",
 	},
 	action: {
 		"multiattack": "Multiattack",
