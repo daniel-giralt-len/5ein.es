@@ -293,7 +293,7 @@ class SpellsPage extends ListPage {
 					},
 				},
 				entries: {name: "Text", transform: (it) => Renderer.get().render({type: "entries", entries: it}, 1), flex: 3},
-				entriesHigherLevel: {name: "At Higher Levels", transform: (it) => Renderer.get().render({type: "entries", entries: (it || [])}, 1), flex: 2},
+				entriesHigherLevel: {name: "A Nivells Superiors", transform: (it) => Renderer.get().render({type: "entries", entries: (it || [])}, 1), flex: 2},
 			},
 			{generator: ListUtil.basicFilterGenerator},
 			(a, b) => SortUtil.ascSort(a.name, b.name) || SortUtil.ascSort(a.source, b.source),
