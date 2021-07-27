@@ -127,7 +127,7 @@ class SpellParser extends BaseParser {
 				ptrI,
 				toConvert,
 				{
-					fnStop: (curLine) => /^(?:At Higher Levels|Classes)/gi.test(curLine),
+					fnStop: (curLine) => /^(?:A Nivells Superiors|Classes)/gi.test(curLine),
 				},
 			);
 			i = ptrI._;
