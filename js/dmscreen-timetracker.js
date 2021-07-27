@@ -1408,7 +1408,7 @@ class TimeTrackerRoot_Clock_Weather extends TimeTrackerComponent {
 }
 TimeTrackerRoot_Clock_Weather._TEMPERATURES = [
 	"freezing",
-	"cold",
+	"fred",
 	"mild",
 	"hot",
 	"scorching",
