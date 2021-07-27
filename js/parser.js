@@ -2117,7 +2117,7 @@ Parser.ATB_ABV_TO_FULL = {
 	"str": "Strength",
 	"dex": "Dexterity",
 	"con": "Constitution",
-	"int": "Intelligence",
+	"int": "Intel·ligència",
 	"wis": "Wisdom",
 	"cha": "Charisma",
 };

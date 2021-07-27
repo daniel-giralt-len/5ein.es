@@ -70,7 +70,7 @@ class PageFilterBestiary extends PageFilter {
 		this._strengthFilter = new RangeFilter({header: "Strength", min: 1, max: 30});
 		this._dexterityFilter = new RangeFilter({header: "Dexterity", min: 1, max: 30});
 		this._constitutionFilter = new RangeFilter({header: "Constitution", min: 1, max: 30});
-		this._intelligenceFilter = new RangeFilter({header: "Intelligence", min: 1, max: 30});
+		this._intelligenceFilter = new RangeFilter({header: "Intel·ligència", min: 1, max: 30});
 		this._wisdomFilter = new RangeFilter({header: "Wisdom", min: 1, max: 30});
 		this._charismaFilter = new RangeFilter({header: "Charisma", min: 1, max: 30});
 		this._abilityScoreFilter = new MultiFilter({

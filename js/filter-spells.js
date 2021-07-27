@@ -354,13 +354,13 @@ class PageFilterSpells extends PageFilter {
 		});
 		const saveFilter = new Filter({
 			header: "Saving Throw",
-			items: ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"],
+			items: ["strength", "dexterity", "constitution", "intel·ligència", "wisdom", "charisma"],
 			displayFn: PageFilterSpells.getFilterAbilitySave,
 			itemSortFn: null,
 		});
 		const checkFilter = new Filter({
 			header: "Ability Check",
-			items: ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"],
+			items: ["strength", "dexterity", "constitution", "intel·ligència", "wisdom", "charisma"],
 			displayFn: PageFilterSpells.getFilterAbilityCheck,
 			itemSortFn: null,
 		});
