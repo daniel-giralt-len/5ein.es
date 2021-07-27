@@ -2237,7 +2237,7 @@ Parser.CONDITION_TO_COLOR = {
 	"Petrificat": "#a0a0a0",
 	"Emmetzinat": "#4dc200",
 	"Enderrocat": "#5e60a0",
-	"Restrained": "#d98000",
+	"Retingut": "#d98000",
 	"Stunned": "#a23bcb",
 	"Unconscious": "#3a40ad",
 
@@ -3123,7 +3123,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 };
 
 Parser.DMG_TYPES = ["àcid", "bludgeoning", "fred", "foc", "force", "elèctric", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "tro"];
-Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "pres", "incapacitated", "invisible", "paralitzat", "petrificat", "emmetzinat", "enderrocat", "restrained", "stunned", "unconscious"];
+Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "pres", "incapacitated", "invisible", "paralitzat", "petrificat", "emmetzinat", "enderrocat", "retingut", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
 	"Acrobatics": [

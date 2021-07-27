@@ -362,7 +362,7 @@ TagCondition._CONDITIONS = [
 	"petrificat",
 	"emmetzinat",
 	"enderrocat",
-	"restrained",
+	"retingut",
 	"stunned",
 	"unconscious",
 ];

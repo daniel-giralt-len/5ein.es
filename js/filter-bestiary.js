@@ -382,7 +382,7 @@ PageFilterBestiary.CONDS = [
 	"petrificat",
 	"emmetzinat",
 	"enderrocat",
-	"restrained",
+	"retingut",
 	"stunned",
 	"unconscious",
 	// not really a condition, but whatever
