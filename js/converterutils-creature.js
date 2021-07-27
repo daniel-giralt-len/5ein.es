@@ -541,7 +541,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Celestial": "CE",
 	"Common": "C",
 	"can't speak": "CS",
-	"Draconic": "DR",
+	"Dracònic": "DR",
 	"Dwarvish": "D",
 	"Elvish": "E",
 	"Giant": "GI",

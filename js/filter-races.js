@@ -794,7 +794,7 @@ class PageFilterRaces extends PageFilter {
 				"Celestial",
 				"Choose",
 				"Common",
-				"Draconic",
+				"Dracònic",
 				"Dwarvish",
 				"Elvish",
 				"Giant",
