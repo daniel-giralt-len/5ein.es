@@ -361,7 +361,7 @@ TagCondition._CONDITIONS = [
 	"paralitzat",
 	"petrificat",
 	"emmetzinat",
-	"prone",
+	"enderrocat",
 	"restrained",
 	"stunned",
 	"unconscious",

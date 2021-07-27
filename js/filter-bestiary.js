@@ -381,7 +381,7 @@ PageFilterBestiary.CONDS = [
 	"paralitzat",
 	"petrificat",
 	"emmetzinat",
-	"prone",
+	"enderrocat",
 	"restrained",
 	"stunned",
 	"unconscious",
