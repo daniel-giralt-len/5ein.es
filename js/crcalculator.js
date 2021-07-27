@@ -36,7 +36,7 @@ function addMonsterFeatures (mfData) {
 		if (newSize === "Diminut") $("#hdval").html("d4");
 		if (newSize === "Small") $("#hdval").html("d6");
 		if (newSize === "Medium") $("#hdval").html("d8");
-		if (newSize === "Large") $("#hdval").html("d10");
+		if (newSize === "Gran") $("#hdval").html("d10");
 		if (newSize === "Huge") $("#hdval").html("d12");
 		if (newSize === "Gargantuan") $("#hdval").html("d20");
 		$("#hp").val(calculateHp());
