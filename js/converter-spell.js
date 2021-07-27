@@ -261,7 +261,7 @@ class SpellParser extends BaseParser {
 
 		const range = ConvertUtil.cleanDashes(line.split_handleColon("Range", 1)[1].trim());
 
-		if (range.toLowerCase() === "self") return stats.range = {type: "point", distance: {type: "self"}};
+		if (range.toLowerCase() === "llançador") return stats.range = {type: "point", distance: {type: "llançador"}};
 		if (range.toLowerCase() === "special") return stats.range = {type: "special"};
 		if (range.toLowerCase() === "unlimited") return stats.range = {type: "point", distance: {type: "unlimited"}};
 		if (range.toLowerCase() === "unlimited on the same plane") return stats.range = {type: "point", distance: {type: "plane"}};

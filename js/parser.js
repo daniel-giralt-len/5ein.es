@@ -960,7 +960,7 @@ RNG_RADIUS = "radius";
 RNG_SPHERE = "sphere";
 RNG_HEMISPHERE = "hemisphere";
 RNG_CYLINDER = "cylinder"; // homebrew only
-RNG_SELF = "self";
+RNG_SELF = "llançador";
 RNG_SIGHT = "sight";
 RNG_UNLIMITED = "unlimited";
 RNG_UNLIMITED_SAME_PLANE = "plane";
@@ -975,7 +975,7 @@ Parser.SP_RANGE_TYPE_TO_FULL = {
 	[RNG_SPHERE]: "Sphere",
 	[RNG_HEMISPHERE]: "Hemisphere",
 	[RNG_CYLINDER]: "Cylinder",
-	[RNG_SELF]: "Self",
+	[RNG_SELF]: "Llançador",
 	[RNG_SIGHT]: "Sight",
 	[RNG_UNLIMITED]: "Unlimited",
 	[RNG_UNLIMITED_SAME_PLANE]: "Unlimited on the same plane",
@@ -1054,7 +1054,7 @@ Parser.spRangeToShortHtml._renderPoint = function (range) {
 };
 Parser.spRangeToShortHtml._renderArea = function (range) {
 	const size = range.distance;
-	return `<span class="fas fa-fw ${Parser.spRangeTypeToIcon(RNG_SELF)} help-subtle" title="Self"></span> ${size.amount}<span class="ve-small">-${Parser.getSingletonUnit(size.type, true)}</span> ${Parser.spRangeToShortHtml._getAreaStyleString(range)}`;
+	return `<span class="fas fa-fw ${Parser.spRangeTypeToIcon(RNG_SELF)} help-subtle" title="Llançador"></span> ${size.amount}<span class="ve-small">-${Parser.getSingletonUnit(size.type, true)}</span> ${Parser.spRangeToShortHtml._getAreaStyleString(range)}`;
 };
 Parser.spRangeToShortHtml._getAreaStyleString = function (range) {
 	return `<span class="fas fa-fw ${Parser.spRangeTypeToIcon(range.type)} help-subtle" title="${Parser.spRangeTypeToFull(range.type)}"></span>`

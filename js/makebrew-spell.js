@@ -66,7 +66,7 @@ class SpellBuilder extends Builder {
 			range: {
 				type: "point",
 				distance: {
-					type: "self",
+					type: "llançador",
 				},
 			},
 			duration: [
