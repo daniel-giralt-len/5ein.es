@@ -145,7 +145,7 @@ class RenderBestiary {
 		<tr>${options.selSummonSpellLevel ? $$`<td colspan="6"><strong>Spell Level</strong> ${options.selSummonSpellLevel}</td>` : ""}</tr>
 
 		${allTraits ? `<tr><td class="divider" colspan="6"><div></div></td></tr>${RenderBestiary._getRenderedSection("trait", allTraits, 1)}` : ""}
-		${allActions ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">Actions${mon.actionNote ? ` (<span class="small">${mon.actionNote}</span>)` : ""}</span></td></tr>
+		${allActions ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">Actions${mon.actionNote ? ` (<span class="petit">${mon.actionNote}</span>)` : ""}</span></td></tr>
 		${RenderBestiary._getRenderedSection("action", allActions, 1)}` : ""}
 		${mon.bonus ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">Bonus Actions</span></td></tr>
 		${RenderBestiary._getRenderedSection("bonus", mon.bonus, 1)}` : ""}

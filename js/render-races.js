@@ -63,7 +63,7 @@ class RenderRaces {
 								<div class="race__disp-result-height"></div>
 								<div class="mr-2">; </div>
 								<div class="race__disp-result-weight mr-1"></div>
-								<div class="small">lb.</div>
+								<div class="petit">lb.</div>
 							</div>
 							<button class="btn btn-default btn-xs my-1 race__btn-roll-height-weight">Roll</button>
 						</div>`,
