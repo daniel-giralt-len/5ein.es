@@ -4643,7 +4643,7 @@ Renderer.monster = {
 				5: {
 					U: ["telekinesis", "hold monster", "dimension door", "wall of stone", "wall of force"],
 					G: ["cloudkill", "charm monster|XGE", "modify memory", "mislead", "hallucinatory terrain", "dimension door"],
-					Z: ["steel wind strike|XGE", "control weather", "control winds|XGE", "watery sphere|XGE", "storm sphere|XGE", "tidal wave|XGE"],
+					Z: ["steel wind strike|XGE", "control weather", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
 					O: ["hold monster", "immolation|XGE", "wall of fire", "greater invisibility", "dimension door"],
 					S: ["cone of cold", "ice storm", "teleportation circle", "skill empowerment|XGE", "creation", "Mordenkainen's private sanctum"],
 				},
