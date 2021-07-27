@@ -1695,8 +1695,8 @@ function Renderer () {
 			type: "dice",
 			rollable: true,
 			subType: "d20",
-			displayText: "your spell attack modifier",
-			toRoll: `1d20 + #$prompt_number:title=Enter your Spell Attack Modifier$#`,
+			displayText: "el teu modificador d'atac de conjurs",
+			toRoll: `1d20 + #$prompt_number:title=Enter el teu Modificador d'Atac de Conjurs$#`,
 		};
 		return this._recursiveRender(fauxEntry, textStack, meta);
 	};
@@ -9032,7 +9032,7 @@ Renderer._stripTagLayer = function (str) {
 						throw new Error(`Unhandled tag: ${tag}`);
 					}
 
-					case "@hitYourSpellAttack": return "your spell attack modifier";
+					case "@hitYourSpellAttack": return "el teu modificador d'atac de conjurs";
 
 					case "@comic":
 					case "@comicH1":

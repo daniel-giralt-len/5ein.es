@@ -706,7 +706,7 @@ class DamageTypeTag {
 					it.entries,
 					{
 						string: (str) => {
-							// if (str.includes("your spell attack modifier")) debugger
+							// if (str.includes("el teu modificador d'atac de conjurs")) debugger
 							str.replace(RollerUtil.REGEX_DAMAGE_DICE, (m0, average, prefix, diceExp, suffix) => {
 								suffix.replace(ConverterConst.RE_DAMAGE_TYPE, (m0, pre, type) => typeSet.add(DamageTypeTag._TYPE_LOOKUP[type]));
 							});
