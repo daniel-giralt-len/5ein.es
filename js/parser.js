@@ -3119,10 +3119,10 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"Y": "psíquic",
 	"R": "radiant",
 	"S": "slashing",
-	"T": "thunder",
+	"T": "tro",
 };
 
-Parser.DMG_TYPES = ["àcid", "bludgeoning", "fred", "foc", "force", "elèctric", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "thunder"];
+Parser.DMG_TYPES = ["àcid", "bludgeoning", "fred", "foc", "force", "elèctric", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "tro"];
 Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "grappled", "incapacitated", "invisible", "paralitzat", "petrificat", "emmetzinat", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
