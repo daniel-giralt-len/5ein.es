@@ -1277,7 +1277,7 @@ class CreatureBuilder extends Builder {
 
 			const $iptSpeed = $(`<input class="form-control form-control--minimal input-xs mr-2">`)
 				.change(() => doUpdateProp());
-			const $iptCond = $(`<input class="form-control form-control--minimal input-xs" placeholder="${prop === "fly" ? "(hover)/when..." : "when..."}">`)
+			const $iptCond = $(`<input class="form-control form-control--minimal input-xs" placeholder="${prop === "fly" ? "(flotar)/when..." : "when..."}">`)
 				.change(() => doUpdateProp());
 
 			const initial = this._state.speed[prop];
