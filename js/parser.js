@@ -3110,7 +3110,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"A": "àcid",
 	"B": "bludgeoning",
 	"C": "fred",
-	"F": "fire",
+	"F": "foc",
 	"O": "force",
 	"L": "lightning",
 	"N": "necrotic",
@@ -3122,7 +3122,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"T": "thunder",
 };
 
-Parser.DMG_TYPES = ["àcid", "bludgeoning", "fred", "fire", "force", "lightning", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "thunder"];
+Parser.DMG_TYPES = ["àcid", "bludgeoning", "fred", "foc", "force", "lightning", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "thunder"];
 Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "grappled", "incapacitated", "invisible", "paralitzat", "petrificat", "emmetzinat", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
