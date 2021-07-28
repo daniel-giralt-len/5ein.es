@@ -955,7 +955,7 @@ RNG_SPECIAL = "special";
 RNG_POINT = "point";
 RNG_LINE = "line";
 RNG_CUBE = "cube";
-RNG_CONE = "cone";
+RNG_CONE = "con";
 RNG_RADIUS = "radius";
 RNG_SPHERE = "sphere";
 RNG_HEMISPHERE = "hemisphere";
@@ -970,7 +970,7 @@ Parser.SP_RANGE_TYPE_TO_FULL = {
 	[RNG_POINT]: "Point",
 	[RNG_LINE]: "Line",
 	[RNG_CUBE]: "Cube",
-	[RNG_CONE]: "Cone",
+	[RNG_CONE]: "Con",
 	[RNG_RADIUS]: "Radius",
 	[RNG_SPHERE]: "Sphere",
 	[RNG_HEMISPHERE]: "Hemisphere",
@@ -1266,7 +1266,7 @@ Parser.SPELL_AREA_TYPE_TO_FULL = {
 	ST: "Single Target",
 	MT: "Multiple Targets",
 	C: "Cube",
-	N: "Cone",
+	N: "Con",
 	Y: "Cylinder",
 	S: "Sphere",
 	R: "Circle",
