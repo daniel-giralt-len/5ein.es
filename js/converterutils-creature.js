@@ -572,7 +572,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Grung": "OTH",
 	"Homarid": "OTH",
 	"Hook Horror": "OTH",
-	"Ice Toad": "OTH",
+	"Gripau de Gel": "OTH",
 	"Ixitxachitl": "OTH",
 	"Kruthik": "OTH",
 	"Netherese": "OTH",
