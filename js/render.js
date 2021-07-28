@@ -4654,10 +4654,10 @@ Renderer.monster = {
 				7: {
 					B: ["power word pain|XGE", "finger of death", "disintegrate", "hold monster"],
 					U: ["chain lightning", "forcecage", "teleport", "etherealness"],
-					G: ["project image", "mirage arcane", "prismatic spray", "teleport"],
+					G: ["project image", "mirage arcane", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "chain lightning", "scatter|XGE", "teleport", "disintegrate", "lightning bolt"],
 					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Bigby's hand", "mental prison|XGE", "seeming"],
-					S: ["Otiluke's freezing sphere", "prismatic spray", "wall of ice", "contingency", "arcane gate"],
+					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingency", "arcane gate"],
 				},
 				8: {
 					O: ["sunburst", "delayed blast fireball", "antimagic field", "teleport", "globe of invulnerability", "maze"],
