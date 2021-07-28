@@ -363,7 +363,7 @@ TagCondition._CONDITIONS = [
 	"emmetzinat",
 	"enderrocat",
 	"retingut",
-	"stunned",
+	"atordit",
 	"unconscious",
 ];
 TagCondition._CONDITION_MATCHERS = TagCondition._CONDITIONS.map(it => new RegExp(`(${it})`, "g"));

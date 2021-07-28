@@ -383,7 +383,7 @@ PageFilterBestiary.CONDS = [
 	"emmetzinat",
 	"enderrocat",
 	"retingut",
-	"stunned",
+	"atordit",
 	"unconscious",
 	// not really a condition, but whatever
 	"disease",
