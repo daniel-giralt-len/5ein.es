@@ -4621,7 +4621,7 @@ Renderer.monster = {
 		function getExampleSpells (maxSpellLevel, color) {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
-					B: ["darkness", "Melf's acid arrow", "fog cloud", "scorching ray"],
+					B: ["darkness", "Melf's acid arrow", "fog cloud", "raig d'incendi"],
 					G: ["ray of sickness", "charm person", "detect thoughts", "invisibility", "suggestion"],
 					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
 					A: ["see invisibility", "magic mouth", "blindness/deafness", "sleep", "detect thoughts"],
@@ -4630,7 +4630,7 @@ Renderer.monster = {
 				},
 				3: {
 					U: ["wall of sand|XGE", "thunder step|XGE", "lightning bolt", "blink", "magic missile", "slow"],
-					R: ["bola de foc", "scorching ray", "haste", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
+					R: ["bola de foc", "raig d'incendi", "haste", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
 					O: ["slow", "bola de foc", "dispel magic", "counterspell", "Aganazzar's scorcher|XGE", "shield"],
 					S: ["sleet storm", "protection from energy", "catnap|XGE", "locate object", "identify", "Leomund's tiny hut"],
 				},
