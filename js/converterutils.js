@@ -364,7 +364,7 @@ TagCondition._CONDITIONS = [
 	"enderrocat",
 	"retingut",
 	"atordit",
-	"unconscious",
+	"inconscient",
 ];
 TagCondition._CONDITION_MATCHERS = TagCondition._CONDITIONS.map(it => new RegExp(`(${it})`, "g"));
 TagCondition._CONDITION_MATCHER_WORD = new RegExp(`(^|[ "(\\u2013\\u2014])(${TagCondition._CONDITIONS.join("|")})([ "',.:;)\\u2013\\u2014]|$)`, "g");

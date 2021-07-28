@@ -384,7 +384,7 @@ PageFilterBestiary.CONDS = [
 	"enderrocat",
 	"retingut",
 	"atordit",
-	"unconscious",
+	"inconscient",
 	// not really a condition, but whatever
 	"disease",
 ];
