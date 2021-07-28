@@ -565,7 +565,7 @@ PageFilterSpells._META_ADD_M_CONSUMED = "Material is Consumed";
 PageFilterSpells._META_ADD_M_CONSUMED_OPTIONAL = "Material is Optionally Consumed";
 
 PageFilterSpells.F_RNG_POINT = "Point";
-PageFilterSpells.F_RNG_SELF_AREA = "Self (Area)";
+PageFilterSpells.F_RNG_SELF_AREA = "Llançador (Area)";
 PageFilterSpells.F_RNG_SELF = "Llançador";
 PageFilterSpells.F_RNG_TOUCH = "Touch";
 PageFilterSpells.F_RNG_SPECIAL = "Special";
