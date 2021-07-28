@@ -890,36 +890,36 @@ class AlignmentUtil {
 }
 // These are arranged in order of preferred precedence
 AlignmentUtil.ALIGNMENTS_RAW = {
-	"lawful good": ["L", "G"],
-	"neutral good": ["N", "G"],
-	"chaotic good": ["C", "G"],
-	"chaotic neutral": ["C", "N"],
-	"lawful evil": ["L", "E"],
-	"lawful neutral": ["L", "N"],
-	"neutral evil": ["N", "E"],
-	"chaotic evil": ["C", "E"],
+	"legal bo": ["L", "G"],
+	"neutral bo": ["N", "G"],
+	"caòtic bo": ["C", "G"],
+	"caòtic neutral": ["C", "N"],
+	"legal malvat": ["L", "E"],
+	"legal neutral": ["L", "N"],
+	"neutral malvat": ["N", "E"],
+	"caòtic malvat": ["C", "E"],
 
-	"(?:any )?non-good( alignment)?": ["L", "NX", "C", "NY", "E"],
-	"(?:any )?non-lawful( alignment)?": ["NX", "C", "G", "NY", "E"],
-	"(?:any )?non-evil( alignment)?": ["L", "NX", "C", "NY", "G"],
-	"(?:any )?non-chaotic( alignment)?": ["NX", "L", "G", "NY", "E"],
+	"(?:qualsevol )?(alineament )?no-bo": ["L", "NX", "C", "NY", "E"],
+	"(?:qualsevol )?(alineament )?no-legal": ["NX", "C", "G", "NY", "E"],
+	"(?:qualsevol )?(alineament )?no-malvat": ["L", "NX", "C", "NY", "G"],
+	"(?:qualsevol )?(alineament )?no-caòtic": ["NX", "L", "G", "NY", "E"],
 
-	"(?:any )?chaotic( alignment)?": ["C", "G", "NY", "E"],
-	"(?:any )?evil( alignment)?": ["L", "NX", "C", "E"],
-	"(?:any )?lawful( alignment)?": ["L", "G", "NY", "E"],
-	"(?:any )?good( alignment)?": ["L", "NX", "C", "G"],
+	"(?:qualsevol )?(alineament )?caòtic": ["C", "G", "NY", "E"],
+	"(?:qualsevol )?(alineament )?malvat": ["L", "NX", "C", "E"],
+	"(?:qualsevol )?(alineament )?legal": ["L", "G", "NY", "E"],
+	"(?:qualsevol )?(alineament )?bo": ["L", "NX", "C", "G"],
 
-	"good": ["G"],
-	"lawful": ["L"],
+	"bo": ["G"],
+	"legal": ["L"],
 	"neutral": ["N"],
-	"chaotic": ["C"],
-	"evil": ["E"],
+	"caòtic": ["C"],
+	"malvat": ["E"],
 
-	"(?:any )?neutral( alignment)?": ["NX", "NY", "N"],
+	"(?:qualsevol )?(alineament )?neutral": ["NX", "NY", "N"],
 
-	"unaligned": ["U"],
+	"sense alineament": ["U"],
 
-	"any alignment": ["A"],
+	"qualsevol alignment": ["A"],
 };
 AlignmentUtil.ALIGNMENTS = {};
 Object.entries(AlignmentUtil.ALIGNMENTS_RAW).forEach(([k, v]) => {

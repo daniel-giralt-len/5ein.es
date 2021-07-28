@@ -1602,24 +1602,24 @@ Parser.alignmentAbvToFull = function (alignment) {
 		alignment = alignment.toUpperCase();
 		switch (alignment) {
 			case "L":
-				return "lawful";
+				return "legal";
 			case "N":
 				return "neutral";
 			case "NX":
-				return "neutral (law/chaos axis)";
+				return "neutral (eix legal/caòtic)";
 			case "NY":
-				return "neutral (good/evil axis)";
+				return "neutral (eix bo/malvat)";
 			case "C":
-				return "chaotic";
+				return "caòtic";
 			case "G":
-				return "good";
+				return "bo";
 			case "E":
-				return "evil";
+				return "malvat";
 			// "special" values
 			case "U":
 				return "sense alineament";
 			case "A":
-				return "any alignment";
+				return "qualsevol alineament";
 		}
 		return alignment;
 	}

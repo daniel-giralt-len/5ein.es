@@ -464,13 +464,13 @@ const LIFE_EVENTS_WEIRD_STUFF = [
 ];
 
 const SUPP_ALIGNMENT = [
-	{min: 1, max: 3, result: () => rollOnArray(["Chaotic evil", "Chaotic neutral"]), display: "Chaotic evil (50%) or chaotic neutral (50%)"},
-	{min: 4, max: 5, result: "Lawful evil"},
-	{min: 6, max: 8, result: "Neutral evil"},
+	{min: 1, max: 3, result: () => rollOnArray(["Caòtic malvat", "Caòtic neutral"]), display: "Caòtic malvat (50%) or Caòtic neutral (50%)"},
+	{min: 4, max: 5, result: "Lawful malvat"},
+	{min: 6, max: 8, result: "Neutral malvat"},
 	{min: 9, max: 12, result: "Neutral"},
-	{min: 13, max: 15, result: "Neutral good"},
-	{min: 16, max: 17, result: () => rollOnArray(["Lawful good", "Lawful neutral"]), display: "Lawful good (50%) or lawful neutral (50%)"},
-	{min: 18, result: () => rollOnArray(["Chaotic good", "Chaotic neutral"]), display: "Chaotic good (50%) or chaotic neutral (50%)"},
+	{min: 13, max: 15, result: "Neutral bo"},
+	{min: 16, max: 17, result: () => rollOnArray(["Lawful bo", "Lawful neutral"]), display: "Lawful bo (50%) or lawful neutral (50%)"},
+	{min: 18, result: () => rollOnArray(["Caòtic bo", "Caòtic neutral"]), display: "Caòtic bo (50%) or Caòtic neutral (50%)"},
 ];
 
 const SUPP_DEATH = [
