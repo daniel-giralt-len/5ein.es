@@ -406,7 +406,7 @@ Range: 90 feet
 Components: V, S, M (a diamond worth at least 50 gp)
 Duration: Instantani
 You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.
-A Nivells Superiors. Quan llances aquest conjur emprant una ranura de nivell 2 o superior, the damage increases by 1d8 for each slot level above 1st.`;
+A Nivells Superiors. Quan llances aquest conjur emprant una ranura de nivell 2 o superior, the damage increases by 1d8 per cada nivell per sobre de 1.`;
 // endregion
 
 class ItemConverter extends BaseConverter {
