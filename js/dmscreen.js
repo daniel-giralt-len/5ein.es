@@ -3318,7 +3318,7 @@ class UnitConverter {
 	static make$Converter (board, state) {
 		const units = [
 			new UnitConverterUnit("Inches", "2.54", "Centimetres", "0.394"),
-			new UnitConverterUnit("Feet", "0.305", "Metres", "3.28"),
+			new UnitConverterUnit("Peus", "0.305", "Metres", "3.28"),
 			new UnitConverterUnit("Miles", "1.61", "Kilometres", "0.620"),
 			new UnitConverterUnit("Pounds", "0.454", "Kilograms", "2.20"),
 			new UnitConverterUnit("Gallons", "3.79", "Litres", "0.264"),

@@ -986,10 +986,10 @@ Parser.spRangeTypeToFull = function (range) {
 	return Parser._parse_aToB(Parser.SP_RANGE_TYPE_TO_FULL, range);
 };
 
-UNT_FEET = "feet";
+UNT_FEET = "peus";
 UNT_MILES = "miles";
 Parser.SP_DIST_TYPE_TO_FULL = {
-	[UNT_FEET]: "Feet",
+	[UNT_FEET]: "Peus",
 	[UNT_MILES]: "Miles",
 	[RNG_SELF]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_SELF],
 	[RNG_TOUCH]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_TOUCH],
@@ -1196,7 +1196,7 @@ Parser.DURATION_TYPES = [
 Parser.DURATION_AMOUNT_TYPES = [
 	"turn",
 	"ronda",
-	"minute",
+	"minut",
 	"hour",
 	"day",
 	"week",
@@ -2038,7 +2038,7 @@ Parser.SP_TM_ACTION = "action";
 Parser.SP_TM_B_ACTION = "bonus";
 Parser.SP_TM_REACTION = "reaction";
 Parser.SP_TM_ROUND = "ronda";
-Parser.SP_TM_MINS = "minute";
+Parser.SP_TM_MINS = "minut";
 Parser.SP_TM_HRS = "hour";
 Parser.SP_TIME_SINGLETONS = [Parser.SP_TM_ACTION, Parser.SP_TM_B_ACTION, Parser.SP_TM_REACTION, Parser.SP_TM_ROUND];
 Parser.SP_TIME_TO_FULL = {
