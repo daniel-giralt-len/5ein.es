@@ -4641,10 +4641,10 @@ Renderer.monster = {
 					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "major image", "charm monster|XGE"],
 				},
 				5: {
-					U: ["telekinesis", "hold monster", "dimension door", "wall of stone", "wall of force"],
-					G: ["matanúvol", "charm monster|XGE", "modify memory", "mislead", "hallucinatory terrain", "dimension door"],
+					U: ["telekinesis", "hold monster", "porta dimensional", "wall of stone", "wall of force"],
+					G: ["matanúvol", "charm monster|XGE", "modify memory", "mislead", "hallucinatory terrain", "porta dimensional"],
 					Z: ["steel wind strike|XGE", "control weather", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
-					O: ["hold monster", "immolation|XGE", "wall of fire", "greater invisibility", "dimension door"],
+					O: ["hold monster", "immolation|XGE", "wall of fire", "greater invisibility", "porta dimensional"],
 					S: ["cone of cold", "ice storm", "teleportation circle", "skill empowerment|XGE", "creation", "Mordenkainen's private sanctum"],
 				},
 				6: {

@@ -331,7 +331,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >• 1st level (4 slots): detect magic, magic missile, shield, thunderwave
 >• 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image
 >• 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball
->• 4th level (3 slots): blight, dimension door
+>• 4th level (3 slots): blight, porta dimensional
 >• 5th level (3 slots): cloudkill, scrying
 >• 6th level (1 slot): disintegrate, globe of invulnerability
 >• 7th level (1 slot): finger of death, plane shift
