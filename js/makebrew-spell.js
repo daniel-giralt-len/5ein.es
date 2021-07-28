@@ -745,7 +745,7 @@ class SpellBuilder extends Builder {
 
 	__$getClassesInputs (cb) {
 		const DEFAULT_CLASS = {name: "Wizard", source: SRC_PHB};
-		const DEFAULT_SUBCLASS = {name: "Evocation", source: SRC_PHB};
+		const DEFAULT_SUBCLASS = {name: "Evocació", source: SRC_PHB};
 
 		const [$rowCls, $rowInnerCls] = BuilderUi.getLabelledRowTuple("Classes", {isMarked: true});
 		const [$rowSc, $rowInnerSc] = BuilderUi.getLabelledRowTuple("Subclasses", {isMarked: true});

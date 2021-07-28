@@ -2081,15 +2081,15 @@ Parser.spTimeToShort = function (time, isHtml) {
 		: `${time.number} ${isHtml ? `<span class="ve-small">` : ""}${Parser.spTimeUnitToAbv(time.unit)}${isHtml ? `</span>` : ""}${time.condition ? "*" : ""}`;
 };
 
-SKL_ABJ = "Abjuration";
-SKL_EVO = "Evocation";
-SKL_ENC = "Enchantment";
-SKL_ILL = "Illusion";
-SKL_DIV = "Divination";
-SKL_NEC = "Necromancy";
-SKL_TRA = "Transmutation";
-SKL_CON = "Conjuration";
-SKL_PSI = "Psionic";
+SKL_ABJ = "Abjuració";
+SKL_EVO = "Evocació";
+SKL_ENC = "Encantament";
+SKL_ILL = "Il·lusió";
+SKL_DIV = "Divinació";
+SKL_NEC = "Nigromància";
+SKL_TRA = "Transmutació";
+SKL_CON = "Conjuració";
+SKL_PSI = "Psiònic";
 
 Parser.SP_SCHOOL_ABV_TO_FULL = {};
 Parser.SP_SCHOOL_ABV_TO_FULL[SKL_ABV_ABJ] = SKL_ABJ;
