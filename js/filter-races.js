@@ -806,7 +806,7 @@ class PageFilterRaces extends PageFilter {
 				"Other",
 				"Primordial",
 				"Sylvan",
-				"Undercommon",
+				"Sotacomú",
 			],
 			umbrellaItems: ["Choose"],
 		});

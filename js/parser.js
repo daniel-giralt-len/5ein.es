@@ -421,7 +421,7 @@ Parser.LANGUAGES_EXOTIC = [
 	"Primordial",
 	"Sylvan",
 	"Terran",
-	"Undercommon",
+	"Sotacomú",
 ];
 
 Parser.LANGUAGES_SECRET = [
@@ -1492,7 +1492,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"T": "Terran",
 	"TC": "Thieves' cant",
 	"TP": "Telepathy",
-	"U": "Undercommon",
+	"U": "Sotacomú",
 	"X": "Any (Choose)",
 	"XX": "All",
 };

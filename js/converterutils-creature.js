@@ -553,7 +553,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Primordial": "P",
 	"Sylvan": "S",
 	"Terran": "T",
-	"Undercommon": "U",
+	"Sotacomú": "U",
 	"Aarakocra": "OTH",
 	"one additional": "X",
 	"Blink Dog": "OTH",
