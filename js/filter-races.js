@@ -777,7 +777,7 @@ class PageFilterRaces extends PageFilter {
 				"Powerful Build",
 				"Skill Proficiency",
 				"Spellcasting",
-				"Sunlight Sensitivity",
+				"Sensible al Sol",
 				"Tool Proficiency",
 				"Unarmed Strike",
 				"Uncommon Race",

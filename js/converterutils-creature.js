@@ -426,10 +426,10 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"spider climb": "Spider Climb",
 
-		"sunlight sensitivity": "Sunlight Sensitivity",
-		"sunlight hypersensitivity": "Sunlight Sensitivity",
+		"sensible al sol": "Sensible al Sol",
+		"sunlight hypersensitivity": "Sensible al Sol",
 		"light sensitivity": "Light Sensitivity",
-		"vampire weaknesses": "Sunlight Sensitivity",
+		"vampire weaknesses": "Sensible al Sol",
 
 		"amphibious": "Amphibious",
 
