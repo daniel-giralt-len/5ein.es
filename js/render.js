@@ -4990,7 +4990,7 @@ Renderer.monster = {
 		if (!spellActions?.length) return actions;
 
 		// Actions are generally ordered as:
-		//  - "Multiattack"
+		//  - "Multi-atac"
 		//  - Attack actions
 		//  - Other actions (alphabetical)
 		// Insert our spellcasting section into the "Other actions" part, in an alphabetically-appropriate place.

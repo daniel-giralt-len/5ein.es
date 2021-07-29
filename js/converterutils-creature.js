@@ -457,7 +457,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"forma immutable": "Forma Immutable",
 	},
 	action: {
-		"multiattack": "Multiattack",
+		"multi-atac": "Multi-atac",
 		"frightful presence": "Frightful Presence",
 		"teleport": "Teleport",
 		"swallow": "Swallow",
