@@ -405,7 +405,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"keen sight and smell": "Sentits Aguts",
 		"keen hearing and sight": "Sentits Aguts",
 		"keen hearing": "Sentits Aguts",
-		"keen smell": "Sentits Aguts",
+		"olfacte agut": "Sentits Aguts",
 		"sentits aguts": "Sentits Aguts",
 
 		"hold breath": "Hold Breath",
