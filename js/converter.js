@@ -341,7 +341,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 >
 >### Actions
->***Paralyzing Touch.*** Melee Spell Attack: +12 a impactar, 5 peus d'abast, one creature. *Hit*: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>***Paralyzing Touch.*** Melee Spell Attack: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 >
 >### Legendary Actions
 >The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
