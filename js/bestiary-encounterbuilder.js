@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * TODO rework this to use doubled multipliers for XP, so we avoid the 0.5x issue for 6+ party sizes. Then scale
+ * TODO rework this to use doubled multipliers for PX, so we avoid the 0.5x issue for 6+ party sizes. Then scale
  *   everything back down at the end.
  */
 class EncounterBuilder extends ProxyBase {
@@ -100,7 +100,7 @@ class EncounterBuilder extends ProxyBase {
 					return `${it.count}× ${it.name}`;
 				})
 				.join(", ");
-			MiscUtil.pCopyTextToClipboard(`${toCopyCreatures} (${xpTotal.toLocaleString()} XP)`);
+			MiscUtil.pCopyTextToClipboard(`${toCopyCreatures} (${xpTotal.toLocaleString()} PX)`);
 			JqueryUtil.showCopiedEffect($btnSvTxt);
 		});
 	}
@@ -448,7 +448,7 @@ class EncounterBuilder extends ProxyBase {
 		this.generateCache();
 
 		const closestSolution = (() => {
-			// If there are enough players that single-monster XP is halved, try generating a range of solutions.
+			// If there are enough players that single-monster PX is halved, try generating a range of solutions.
 			if (partyMeta.cntPlayers > 5) {
 				const NUM_SAMPLES = 10; // should ideally be divisible by 2
 				const solutions = [...new Array(NUM_SAMPLES)]
@@ -488,7 +488,7 @@ class EncounterBuilder extends ProxyBase {
 			.sort((a, b) => SortUtil.ascSort(b.crNum, a.crNum));
 		const standardXpValues = new Set(Object.values(Parser.XP_CHART_ALT));
 		const getXps = budget => _xps.filter(it => {
-			// Make TftYP values (i.e. those that are not real XP thresholds) get skipped 9/10 times
+			// Make TftYP values (i.e. those that are not real PX thresholds) get skipped 9/10 times
 			if (!standardXpValues.has(it) && RollerUtil.randomise(10) !== 10) return false;
 			return it <= budget;
 		});
@@ -506,7 +506,7 @@ class EncounterBuilder extends ProxyBase {
 
 			const meta = _meta.filter(it => it.xp <= budgetRemaining);
 
-			// If we're a large party and we're doing a "single creature worth less XP" generation, force the generation
+			// If we're a large party and we're doing a "single creature worth less PX" generation, force the generation
 			//   to stop.
 			if (rawBudget !== budget && curr.count === 1 && (rawBudget - curr.baseXp) <= 0) {
 				return 0;
@@ -543,7 +543,7 @@ class EncounterBuilder extends ProxyBase {
 
 		let skipCount = 0;
 		const doSkip = (xps, encounter, xp) => {
-			// if there are existing entries at this XP, don't skip
+			// if there are existing entries at this PX, don't skip
 			const existing = encounter.filter(it => it.xp === xp);
 			if (existing.length) return false;
 
@@ -767,15 +767,15 @@ class EncounterBuilder extends ProxyBase {
 	updateDifficulty () {
 		const {partyMeta, encounter} = this.calculateXp();
 
-		const $elEasy = $(`.ecgen__easy`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_EASY}">Easy:</span> ${partyMeta.easy.toLocaleString()} XP`);
-		const $elmed = $(`.ecgen__medium`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_MEDIUM}">Medium:</span> ${partyMeta.medium.toLocaleString()} XP`);
-		const $elHard = $(`.ecgen__hard`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_HARD}">Hard:</span> ${partyMeta.hard.toLocaleString()} XP`);
-		const $elDeadly = $(`.ecgen__deadly`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_DEADLY}">Deadly:</span> ${partyMeta.deadly.toLocaleString()} XP`);
-		const $elAbsurd = $(`.ecgen__absurd`).removeClass("bold").html(`<span class="help" title="${EncounterBuilder._TITLE_ABSURD}">Absurd:</span> ${partyMeta.absurd.toLocaleString()} XP`);
+		const $elEasy = $(`.ecgen__easy`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_EASY}">Easy:</span> ${partyMeta.easy.toLocaleString()} PX`);
+		const $elmed = $(`.ecgen__medium`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_MEDIUM}">Medium:</span> ${partyMeta.medium.toLocaleString()} PX`);
+		const $elHard = $(`.ecgen__hard`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_HARD}">Hard:</span> ${partyMeta.hard.toLocaleString()} PX`);
+		const $elDeadly = $(`.ecgen__deadly`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_DEADLY}">Deadly:</span> ${partyMeta.deadly.toLocaleString()} PX`);
+		const $elAbsurd = $(`.ecgen__absurd`).removeClass("bold").html(`<span class="help" title="${EncounterBuilder._TITLE_ABSURD}">Absurd:</span> ${partyMeta.absurd.toLocaleString()} PX`);
 
 		$(`.ecgen__ttk`).html(`<span class="help" title="${EncounterBuilder._TITLE_TTK}">TTK:</span> ${this._getApproxTurnsToKill().toFixed(2)}`);
 
-		$(`.ecgen__daily_budget`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_BUDGET_DAILY}">Daily Budget:</span> ${partyMeta.dailyBudget.toLocaleString()} XP`);
+		$(`.ecgen__daily_budget`).removeClass("bold").html(`<span class="help-subtle" title="${EncounterBuilder._TITLE_BUDGET_DAILY}">Daily Budget:</span> ${partyMeta.dailyBudget.toLocaleString()} PX`);
 
 		let difficulty = "Trivial";
 		if (encounter.adjustedXp >= partyMeta.absurd) {
@@ -798,7 +798,7 @@ class EncounterBuilder extends ProxyBase {
 		if (encounter.relevantCount) {
 			$(`.ecgen__req_creatures`).showVe();
 			$(`.ecgen__rating`).text(`Difficulty: ${difficulty}`);
-			$(`.ecgen__raw_total`).text(`Total XP: ${encounter.baseXp.toLocaleString()}`);
+			$(`.ecgen__raw_total`).text(`Total PX: ${encounter.baseXp.toLocaleString()}`);
 			$(`.ecgen__raw_per_player`).text(`(${Math.floor(encounter.baseXp / partyMeta.cntPlayers).toLocaleString()} per player)`);
 
 			// TODO(Future) update this based on the actual method being used
@@ -814,7 +814,7 @@ class EncounterBuilder extends ProxyBase {
 						entries: [
 							`&dagger; [...] don't count any monsters whose challenge rating is significantly below the average challenge rating of the other monsters in the group [...]`,
 						],
-						"by": "{@book Dungeon Master's Guide, page 82|DMG|3|4 Modify Total XP for Multiple Monsters}",
+						"by": "{@book Dungeon Master's Guide, page 82|DMG|3|4 Modify Total PX for Multiple Monsters}",
 					},
 					`<hr>`,
 					{
@@ -870,7 +870,7 @@ class EncounterBuilder extends ProxyBase {
 				Renderer.hover.updatePredefinedHover(this._infoHoverId, infoEntry);
 			}
 
-			$(`.ecgen__adjusted_total`).text(`Adjusted XP: ${encounter.adjustedXp.toLocaleString()}`);
+			$(`.ecgen__adjusted_total`).text(`Adjusted PX: ${encounter.adjustedXp.toLocaleString()}`);
 			$(`.ecgen__adjusted_per_player`).text(`(${Math.floor(encounter.adjustedXp / partyMeta.cntPlayers).toLocaleString()} per player)`);
 		} else {
 			$(`.ecgen__req_creatures`).hideVe();
@@ -1375,7 +1375,7 @@ EncounterBuilder._TITLE_MEDIUM = "A medium encounter usually has one or two scar
 EncounterBuilder._TITLE_HARD = "A hard encounter could go badly for the adventurers. Weaker characters might get taken out of the fight, and there's a slim chance that one or more characters might die.";
 EncounterBuilder._TITLE_DEADLY = "A deadly encounter could be lethal for one or more player characters. Survival often requires good tactics and quick thinking, and the party risks defeat";
 EncounterBuilder._TITLE_ABSURD = "An &quot;absurd&quot; encounter is a deadly encounter as per the rules, but is differentiated here to provide an additional tool for judging just how deadly a &quot;deadly&quot; encounter will be. It is calculated as: &quot;deadly + (deadly - hard)&quot;.";
-EncounterBuilder._TITLE_BUDGET_DAILY = "This provides a rough estimate of the adjusted XP value for encounters the party can handle before the characters will need to take a long rest.";
+EncounterBuilder._TITLE_BUDGET_DAILY = "This provides a rough estimate of the adjusted PX value for encounters the party can handle before the characters will need to take a long rest.";
 EncounterBuilder._TITLE_TTK = "Time to Kill: The estimated number of turns the party will require to defeat the encounter. This assumes single-target damage only.";
 
 class EncounterPartyMeta {

@@ -276,7 +276,7 @@ Damage Immunities fire, poison; bludgeoning, piercing, and slashing from weapons
 Condition Immunities charmed, exhaustion, frightened, poisoned
 Senses truesight 120 ft., passive Perception 23
 Languages all, telepathy 120 ft.
-Challenge 25 (75,000 XP)
+Challenge 25 (75,000 PX)
 Innate Spellcasting. Mammon's innate spellcasting ability is Charisma (spell save DC 24, +16 a impactar with spell attacks). He can innately cast the following spells, requiring no material components:
 At will: charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
 3/day each: animate objects, counterspell, creation, instant summons, legend lore, teleport
@@ -319,7 +319,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >- **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
 >- **Senses** truesight 120 ft., passive Perception 19
 >- **Languages** Common plus up to five other languages
->- **Challenge** 21 (33000 XP)
+>- **Challenge** 21 (33000 PX)
 >___
 >***Legendary Resistance (3/Day).*** If the lich fails a saving throw, it can choose to succeed instead.
 >

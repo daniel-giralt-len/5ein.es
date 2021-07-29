@@ -971,7 +971,7 @@ class BestiaryPage extends ListPage {
 		this._$dispCrTotal = this._$dispCrTotal || $(`#totalcr`);
 		const xp = EncounterBuilderUtils.calculateListEncounterXp(encounterBuilder.lastPartyMeta);
 		const monCount = ListUtil.sublist.items.map(it => it.values.count).reduce((a, b) => a + b, 0);
-		this._$dispCrTotal.html(`${monCount} creature${monCount === 1 ? "" : "s"}; ${xp.baseXp.toLocaleString()} XP (<span class="help" title="Adjusted Encounter XP">Enc</span>: ${(xp.adjustedXp).toLocaleString()} XP)`);
+		this._$dispCrTotal.html(`${monCount} creature${monCount === 1 ? "" : "s"}; ${xp.baseXp.toLocaleString()} PX (<span class="help" title="Adjusted Encounter PX">Enc</span>: ${(xp.adjustedXp).toLocaleString()} PX)`);
 		if (encounterBuilder.isActive()) encounterBuilder.updateDifficulty();
 		else encounterBuilder.doSaveState();
 	}

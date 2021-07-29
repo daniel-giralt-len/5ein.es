@@ -1356,7 +1356,7 @@ Parser.monCrToFull = function (cr, {xp = null, isMythic = false} = {}) {
 		if (Parser.crToNumber(cr) >= VeCt.CR_CUSTOM) return cr;
 
 		xp = xp != null ? Parser._addCommas(xp) : Parser.crToXp(cr);
-		return `${cr} (${xp} XP${isMythic ? `, or ${Parser.crToXp(cr, {isDouble: true})} XP as a mythic encounter` : ""})`;
+		return `${cr} (${xp} PX${isMythic ? `, or ${Parser.crToXp(cr, {isDouble: true})} PX as a mythic encounter` : ""})`;
 	} else {
 		const stack = [Parser.monCrToFull(cr.cr, {xp: cr.xp, isMythic})];
 		if (cr.lair) stack.push(`${Parser.monCrToFull(cr.lair)} when encountered in lair`);
