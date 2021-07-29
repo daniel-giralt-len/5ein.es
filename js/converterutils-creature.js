@@ -539,7 +539,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Aquan": "AQ",
 	"Auran": "AU",
 	"Celestial": "CE",
-	"Common": "C",
+	"Comú": "C",
 	"can't speak": "CS",
 	"Dracònic": "DR",
 	"Dwarvish": "D",

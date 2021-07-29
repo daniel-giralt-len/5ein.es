@@ -4062,7 +4062,7 @@ Renderer.race = {
 					entries: ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."],
 				});
 
-				r.languageProficiencies = r.languageProficiencies || [{"common": true, "anyStandard": 1}];
+				r.languageProficiencies = r.languageProficiencies || [{"comú": true, "anyStandard": 1}];
 			}
 
 			if (r.subraces && !r.subraces.length) delete r.subraces;

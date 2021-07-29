@@ -399,7 +399,7 @@ Parser.skillToShort = function (skill) {
 };
 
 Parser.LANGUAGES_STANDARD = [
-	"Common",
+	"Comú",
 	"Dwarvish",
 	"Elvish",
 	"Giant",
@@ -1469,7 +1469,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"AB": "Abyssal",
 	"AQ": "Aquan",
 	"AU": "Auran",
-	"C": "Common",
+	"C": "Comú",
 	"CE": "Celestial",
 	"CS": "Can't Speak Known Languages",
 	"D": "Dwarvish",
@@ -1667,7 +1667,7 @@ Parser.weightToFull = function (lbs, isSmallUnit) {
 	].filter(Boolean).join(", ");
 };
 
-Parser.ITEM_RARITIES = ["none", "common", "uncommon", "rare", "very rare", "legendary", "artifact", "unknown", "unknown (magic)", "other"];
+Parser.ITEM_RARITIES = ["none", "comú", "uncommon", "rare", "very rare", "legendary", "artifact", "unknown", "unknown (magic)", "other"];
 
 Parser.CAT_ID_CREATURE = 1;
 Parser.CAT_ID_SPELL = 2;

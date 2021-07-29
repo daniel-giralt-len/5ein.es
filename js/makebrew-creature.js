@@ -1772,7 +1772,7 @@ class CreatureBuilder extends Builder {
 			.click(async () => {
 				const language = await InputUiUtil.pGetUserString({
 					title: "Enter a Language",
-					default: "Common",
+					default: "Comú",
 					autocomplete: availLanguages,
 				});
 
