@@ -2123,7 +2123,7 @@ Parser.ATB_ABV_TO_FULL = {
 };
 
 TP_ABERRATION = "aberration";
-TP_BEAST = "beast";
+TP_BEAST = "bèstia";
 TP_CELESTIAL = "celestial";
 TP_CONSTRUCT = "constructe";
 TP_DRAGON = "drac";
