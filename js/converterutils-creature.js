@@ -460,7 +460,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"multi-atac": "Multi-atac",
 		"frightful presence": "Frightful Presence",
 		"teleport": "Teleport",
-		"swallow": "Swallow",
+		"empassar": "Empassar",
 		"tentacle": "Tentacles",
 		"tentacles": "Tentacles",
 		"change shape": "Shapechanger",
@@ -480,7 +480,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 };
 TraitActionTag.tagsDeep = {
 	action: {
-		"Swallow": strEntries => /swallowed/i.test(strEntries),
+		"Empassar": strEntries => /swallowed/i.test(strEntries),
 	},
 };
 
