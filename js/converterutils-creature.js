@@ -410,7 +410,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"hold breath": "Hold Breath",
 
-		"charge": "Charge",
+		"carregar": "Carregar",
 
 		"ascendència faèrica": "Ascendència Faèrica",
 
