@@ -378,7 +378,7 @@ class TraitActionTag {
 }
 TraitActionTag.tags = { // true = map directly; string = map to this string
 	trait: {
-		"turn immunity": "Turn Immunity",
+		"immunitat a expulsar": "Immunitat a Expulsar",
 		"brute": "Brute",
 		"antimagic susceptibility": "Antimagic Susceptibility",
 		"sneak attack": "Sneak Attack",
@@ -399,7 +399,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"rampage": "Rampage",
 		"rejuvenation": "Rejuvenation",
 		"web walker": "Web Walker",
-		"incorporeal movement": "Incorporeal Movement",
+		"moviment incorpori": "Moviment Incorpori",
 
 		"keen hearing and smell": "Keen Senses",
 		"keen sight and smell": "Keen Senses",
