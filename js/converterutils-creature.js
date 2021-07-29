@@ -384,7 +384,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"sneak attack": "Sneak Attack",
 		"reckless": "Reckless",
 		"web sense": "Web Sense",
-		"flyby": "Flyby",
+		"passar volant": "Passar Volant",
 		"pounce": "Pounce",
 		"water breathing": "Water Breathing",
 
