@@ -28,7 +28,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"greatsword",
 	"halberd",
 	"lance",
-	"longsword",
+	"espasa llarga",
 	"maul",
 	"morningstar",
 	"pike",
