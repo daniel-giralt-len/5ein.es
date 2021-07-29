@@ -873,7 +873,7 @@ MiscTag._RANGED_WEAPONS = [
 	"light crossbow",
 	"shortbow",
 	"sling",
-	"blowgun",
+	"sarbatana",
 	"hand crossbow",
 	"ballesta pesada",
 	"longbow",
