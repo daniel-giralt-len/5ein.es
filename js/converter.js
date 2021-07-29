@@ -277,7 +277,7 @@ Condition Immunities charmed, exhaustion, frightened, poisoned
 Senses truesight 120 ft., passive Perception 23
 Languages all, telepathy 120 ft.
 Challenge 25 (75,000 PX)
-Innate Spellcasting. Mammon's innate spellcasting ability is Charisma (spell save DC 24, +16 a impactar with spell attacks). He can innately cast the following spells, requiring no material components:
+Innate Spellcasting. Mammon's innate spellcasting ability is Charisma (spell save DC 24, +16 a impactar with spell attacks). He pot llançar els conjurs següents innatament (no requereix components materials):
 At will: charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
 3/day each: animate objects, counterspell, creation, instant summons, legend lore, teleport
 1/day: imprisonment (minimus containment only, inside gems), sunburst
