@@ -796,7 +796,7 @@ class PageFilterRaces extends PageFilter {
 				"Comú",
 				"Dracònic",
 				"Dwarvish",
-				"Elvish",
+				"Èlfic",
 				"Giant",
 				"Gnomish",
 				"Goblin",

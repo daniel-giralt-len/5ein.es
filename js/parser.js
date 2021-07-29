@@ -401,7 +401,7 @@ Parser.skillToShort = function (skill) {
 Parser.LANGUAGES_STANDARD = [
 	"Comú",
 	"Dwarvish",
-	"Elvish",
+	"Èlfic",
 	"Giant",
 	"Gnomish",
 	"Goblin",
@@ -1476,7 +1476,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"DR": "Dracònic",
 	"DS": "Deep Speech",
 	"DU": "Druidic",
-	"E": "Elvish",
+	"E": "Èlfic",
 	"G": "Gnomish",
 	"GI": "Giant",
 	"GO": "Goblin",
