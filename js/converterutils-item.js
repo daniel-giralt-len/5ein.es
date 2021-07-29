@@ -533,7 +533,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a humanoid", "by a small humanoid"
-		req = req.replace(/a (?:\b(tiny|small|medium|large|huge|gargantuan)\b )?\b(aberration|beast|celestial|construct|dragon|elemental|fey|fiend|giant|humanoid|monstrosity|ooze|plant|undead)\b/gi, (...m) => {
+		req = req.replace(/a (?:\b(tiny|small|medium|large|huge|gargantuan)\b )?\b(aberration|beast|celestial|construct|dragon|elemental|fey|fiend|giant|humanoid|monstrositat|ooze|plant|undead)\b/gi, (...m) => {
 			const size = m[1] ? m[1][0].toUpperCase() : null;
 			const out = {creatureType: m[2].toLowerCase()};
 			if (size) out.size = size;
