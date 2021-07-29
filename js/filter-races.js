@@ -835,7 +835,7 @@ class PageFilterRaces extends PageFilter {
 		race._fTraits.push(...(race.traitTags || []));
 		race._fSources = SourceFilter.getCompleteFilterSources(race);
 		race._fLangs = PageFilterRaces.getLanguageProficiencyTags(race.languageProficiencies);
-		race._fCreatureTypes = race.creatureTypes ? race.creatureTypes.map(it => it.choose || it).flat() : ["humanoid"];
+		race._fCreatureTypes = race.creatureTypes ? race.creatureTypes.map(it => it.choose || it).flat() : ["humanoide"];
 		race._fMisc = race.srd ? ["SRD"] : [];
 		if (race._isBaseRace) race._fMisc.push("Base Race");
 		if (race._isBaseRace || !race._isSubRace) race._fMisc.push("Key Race");

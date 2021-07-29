@@ -9,7 +9,7 @@ class RenderRaces {
 		${Renderer.utils.getExcludedTr(race, "race")}
 		${Renderer.utils.getNameTr(race, {controlRhs: race.soundClip ? RenderRaces._getPronunciationButton(race) : "", page: UrlUtil.PG_RACES})}
 		<tr><td colspan="6"><b>Ability Scores:</b> ${(race.ability ? Renderer.getAbilityData(race.ability) : {asText: "None"}).asText}</td></tr>
-		${(race.creatureTypes || []).filter(it => it.toLowerCase() !== "humanoid").length ? `<tr><td colspan="6"><b>Creature Type:</b> ${Parser.raceCreatureTypesToFull(race.creatureTypes)}</td></tr>` : ""}
+		${(race.creatureTypes || []).filter(it => it.toLowerCase() !== "humanoide").length ? `<tr><td colspan="6"><b>Creature Type:</b> ${Parser.raceCreatureTypesToFull(race.creatureTypes)}</td></tr>` : ""}
 		<tr><td colspan="6"><b>Size:</b> ${(race.size || [SZ_VARIES]).map(sz => Parser.sizeAbvToFull(sz)).join("/")}</td></tr>
 		<tr><td colspan="6"><b>Speed:</b> ${Parser.getSpeedString(race)}</td></tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
