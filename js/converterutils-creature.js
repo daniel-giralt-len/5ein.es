@@ -418,7 +418,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"pack tactics": "Pack Tactics",
 
-		"regeneration": "Regeneration",
+		"regeneració": "Regeneració",
 
 		"shapechanger": "Shapechanger",
 
