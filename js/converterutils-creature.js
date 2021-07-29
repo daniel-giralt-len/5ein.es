@@ -466,7 +466,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"change shape": "Shapechanger",
 	},
 	reaction: {
-		"parry": "Parry",
+		"parada": "Parada",
 	},
 	bonus: {
 		// unused
