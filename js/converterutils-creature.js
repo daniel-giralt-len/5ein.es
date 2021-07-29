@@ -392,7 +392,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"turn defiance": "Turn Resistance",
 		"turning defiance": "Turn Resistance",
 		"turn resistance aura": "Turn Resistance",
-		"undead fortitude": "Undead Fortitude",
+		"resiliència no-morta": "Resiliència No-morta",
 
 		"aggressive": "Aggressive",
 		"illumination": "Illumination",
