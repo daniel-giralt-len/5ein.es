@@ -2256,10 +2256,10 @@ SortUtil = {
 	},
 
 	/**
-	 * "Special Equipment" first, then alphabetical
+	 * "Equipament Especial" first, then alphabetical
 	 */
 	_MON_TRAIT_ORDER: [
-		"special equipment",
+		"equipament especial",
 		"shapechanger",
 	],
 	monTraitSort: (a, b) => {
