@@ -41,7 +41,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"whip",
 	"blowgun",
 	"hand crossbow",
-	"heavy crossbow",
+	"ballesta pesada",
 	"longbow",
 	"net",
 ];

@@ -875,7 +875,7 @@ MiscTag._RANGED_WEAPONS = [
 	"sling",
 	"blowgun",
 	"hand crossbow",
-	"heavy crossbow",
+	"ballesta pesada",
 	"longbow",
 ];
 MiscTag._RANGED_WEAPON_MATCHERS = MiscTag._RANGED_WEAPONS.map(it => new RegExp(`(^|[^\\w])(${it})([^\\w]|$)`, "gi"));
