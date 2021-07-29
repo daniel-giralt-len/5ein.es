@@ -412,7 +412,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"charge": "Charge",
 
-		"fey ancestry": "Fey Ancestry",
+		"ascendència faèrica": "Ascendència Faèrica",
 
 		"siege monster": "Siege Monster",
 
