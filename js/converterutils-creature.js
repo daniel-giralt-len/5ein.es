@@ -333,7 +333,7 @@ class TraitActionTag {
 						if (mapped === true) m[outProp].add(t.name);
 						else m[outProp].add(mapped)
 					} else if (isTraits() && cleanName.startsWith("keen ")) {
-						m[outProp].add("Keen Senses");
+						m[outProp].add("Sentits Aguts");
 					} else if (isTraits() && cleanName.endsWith(" absorption")) {
 						m[outProp].add("Damage Absorption");
 					} else {
@@ -401,12 +401,12 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"web walker": "Web Walker",
 		"moviment incorpori": "Moviment Incorpori",
 
-		"keen hearing and smell": "Keen Senses",
-		"keen sight and smell": "Keen Senses",
-		"keen hearing and sight": "Keen Senses",
-		"keen hearing": "Keen Senses",
-		"keen smell": "Keen Senses",
-		"keen senses": "Keen Senses",
+		"keen hearing and smell": "Sentits Aguts",
+		"keen sight and smell": "Sentits Aguts",
+		"keen hearing and sight": "Sentits Aguts",
+		"keen hearing": "Sentits Aguts",
+		"keen smell": "Sentits Aguts",
+		"sentits aguts": "Sentits Aguts",
 
 		"hold breath": "Hold Breath",
 
