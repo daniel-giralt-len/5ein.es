@@ -3118,11 +3118,11 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"I": "verí",
 	"Y": "psíquic",
 	"R": "radiant",
-	"S": "slashing",
+	"S": "tallant",
 	"T": "tro",
 };
 
-Parser.DMG_TYPES = ["àcid", "contundent", "fred", "foc", "força", "elèctric", "necrotic", "perforant", "verí", "psíquic", "radiant", "slashing", "tro"];
+Parser.DMG_TYPES = ["àcid", "contundent", "fred", "foc", "força", "elèctric", "necrotic", "perforant", "verí", "psíquic", "radiant", "tallant", "tro"];
 Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "pres", "incapacitat", "invisible", "paralitzat", "petrificat", "emmetzinat", "enderrocat", "retingut", "atordit", "inconscient"];
 
 Parser.SKILL_JSON_TO_FULL = {
