@@ -3108,7 +3108,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 
 Parser.DMGTYPE_JSON_TO_FULL = {
 	"A": "àcid",
-	"B": "bludgeoning",
+	"B": "contundent",
 	"C": "fred",
 	"F": "foc",
 	"O": "força",
@@ -3122,7 +3122,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 	"T": "tro",
 };
 
-Parser.DMG_TYPES = ["àcid", "bludgeoning", "fred", "foc", "força", "elèctric", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "tro"];
+Parser.DMG_TYPES = ["àcid", "contundent", "fred", "foc", "força", "elèctric", "necrotic", "piercing", "verí", "psíquic", "radiant", "slashing", "tro"];
 Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "pres", "incapacitat", "invisible", "paralitzat", "petrificat", "emmetzinat", "enderrocat", "retingut", "atordit", "inconscient"];
 
 Parser.SKILL_JSON_TO_FULL = {
