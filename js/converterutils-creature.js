@@ -544,7 +544,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Dracònic": "DR",
 	"Nan": "D",
 	"Èlfic": "E",
-	"Giant": "GI",
+	"Gegantès": "GI",
 	"Gnomish": "G",
 	"Goblin": "GO",
 	"Halfling": "H",
