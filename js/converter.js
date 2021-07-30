@@ -275,7 +275,7 @@ Damage Resistances cold
 Damage Immunities fire, poison; bludgeoning, piercing, and slashing from weapons that aren't silvered
 Condition Immunities charmed, exhaustion, frightened, poisoned
 Senses visió veraç 120 peus, passive Perception 23
-Languages all, telepathy 120 ft.
+Languages all, telepatía 120 peus
 Challenge 25 (75,000 PX)
 Innate Spellcasting. Mammon's innate spellcasting ability is Charisma (spell save DC 24, +16 a impactar with spell attacks). He pot llançar els conjurs següents innatament (no requereix components materials):
 At will: charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
