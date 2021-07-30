@@ -525,7 +525,7 @@
 		_LIGHT: {
 			"padded armor": 11,
 			"leather armor": 11,
-			"studded leather armor": 12,
+			"armadura de cuir tatxonada": 12,
 		},
 		_MAGE_ARMOR: "@spell mage armor",
 
@@ -1007,7 +1007,7 @@
 								this._dropShield(acItem);
 								return true;
 							} else if (canAdjustDex && isMedium(targetNoShield, true) === -1) { // drop to light
-								acItem.from[i]._ = this._replaceTag(acItem.from[i]._, mediumTag, `studded leather armor|phb`);
+								acItem.from[i]._ = this._replaceTag(acItem.from[i]._, mediumTag, `armadura de cuir tatxonada|phb`);
 								acItem.ac = (acItem.ac - tagAc - Math.min(2, Parser.getAbilityModNumber(mon.dex))) + 12 + Parser.getAbilityModNumber(mon.dex);
 								delete acItem._acBeforePreAdjustment;
 								return false;
@@ -1041,13 +1041,13 @@
 							case 11:
 								return [`padded armor|phb`, `leather armor|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 12:
-								return `studded leather armor|phb`;
+								return `armadura de cuir tatxonada|phb`;
 							case 13:
 								return [`+1 padded armor|dmg`, `+1 leather armor|dmg`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 14:
-								return [`+2 padded armor|dmg`, `+2 leather armor|dmg`, `+1 studded leather armor|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
+								return [`+2 padded armor|dmg`, `+2 leather armor|dmg`, `+1 armadura de cuir tatxonada|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
 							case 15:
-								return `+2 studded leather armor|dmg`;
+								return `+2 armadura de cuir tatxonada|dmg`;
 						}
 					};
 
@@ -1334,7 +1334,7 @@
 	},
 
 	_wepThrownFinesse: ["daga", "dart"],
-	_wepFinesse: ["daga", "dart", "rapier", "simitarra", "shortsword", "whip"],
+	_wepFinesse: ["daga", "dart", "rapier", "simitarra", "espasa curta", "whip"],
 	_wepThrown: ["handaxe", "javelin", "light hammer", "spear", "trident", "net"],
 	_getModBeingScaled (strMod, dexMod, modFromAbil, name, content) {
 		const guessMod = () => {

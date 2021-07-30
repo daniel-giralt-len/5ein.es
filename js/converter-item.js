@@ -346,7 +346,7 @@ class ItemParser extends BaseParser {
 ItemParser._ALL_ITEMS = null;
 ItemParser._ALL_CLASSES = null;
 ItemParser._MAPPED_ITEM_NAMES = {
-	"studded leather": "studded leather armor",
+	"cuir tatxonat": "armadura de cuir tatxonada",
 	"leather": "leather armor",
 };
 

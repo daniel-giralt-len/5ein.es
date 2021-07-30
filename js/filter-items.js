@@ -174,7 +174,7 @@ class PageFilterItems extends PageFilterEquipment {
 						case "wis":
 						case "cha": out.push(`${Parser.attAbvToFull(prop)}: ${val} or Higher`); break;
 
-						case "spellcasting": out.push("Spellcaster"); break;
+						case "spellcasting": out.push("Conjurador"); break;
 						case "psionics": out.push("Psionics"); break;
 					}
 				});
