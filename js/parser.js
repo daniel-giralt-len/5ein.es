@@ -410,7 +410,7 @@ Parser.LANGUAGES_STANDARD = [
 ];
 
 Parser.LANGUAGES_EXOTIC = [
-	"Abyssal",
+	"Abismal",
 	"Aquan",
 	"Auran",
 	"Celestial",
@@ -1466,7 +1466,7 @@ Parser.monMiscTagToFull = function (tag) {
 };
 
 Parser.MON_LANGUAGE_TAG_TO_FULL = {
-	"AB": "Abyssal",
+	"AB": "Abismal",
 	"AQ": "Aquan",
 	"AU": "Auran",
 	"C": "Comú",

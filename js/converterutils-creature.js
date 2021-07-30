@@ -535,7 +535,7 @@ class LanguageTag {
 	}
 }
 LanguageTag.LANGUAGE_MAP = {
-	"Abyssal": "AB",
+	"Abismal": "AB",
 	"Aquan": "AQ",
 	"Auran": "AU",
 	"Celestial": "CE",

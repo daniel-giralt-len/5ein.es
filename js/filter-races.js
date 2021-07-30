@@ -790,7 +790,7 @@ class PageFilterRaces extends PageFilter {
 		this._languageFilter = new Filter({
 			header: "Languages",
 			items: [
-				"Abyssal",
+				"Abismal",
 				"Celestial",
 				"Choose",
 				"Comú",
