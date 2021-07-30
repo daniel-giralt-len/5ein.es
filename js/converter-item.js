@@ -326,7 +326,7 @@ class ItemParser extends BaseParser {
 	}
 
 	static _setQuarterstaffStats (stats) {
-		const cpyStatsQuarterstaff = MiscUtil.copy(ItemParser._ALL_ITEMS.find(it => it.name === "Quarterstaff" && it.source === SRC_PHB));
+		const cpyStatsQuarterstaff = MiscUtil.copy(ItemParser._ALL_ITEMS.find(it => it.name === "Bastó" && it.source === SRC_PHB));
 
 		// remove unwanted properties
 		delete cpyStatsQuarterstaff.name;
