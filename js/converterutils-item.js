@@ -47,7 +47,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 ];
 ConverterUtilsItem.BASIC_ARMORS = [
 	"padded armor",
-	"leather armor",
+	"armadura de cuir",
 	"armadura de cuir tatxonada",
 	"hide armor",
 	"chain shirt",

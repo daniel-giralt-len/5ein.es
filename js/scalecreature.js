@@ -524,7 +524,7 @@
 		},
 		_LIGHT: {
 			"padded armor": 11,
-			"leather armor": 11,
+			"armadura de cuir": 11,
 			"armadura de cuir tatxonada": 12,
 		},
 		_MAGE_ARMOR: "@spell mage armor",
@@ -648,7 +648,7 @@
 				const enchToGive = Math.min(3, acItem._enchTotal);
 				acItem._enchTotal -= enchToGive;
 				acItem.ac += enchToGive + 1;
-				(acItem.from = acItem.from || []).unshift(`{@item +${enchToGive} leather armor}`);
+				(acItem.from = acItem.from || []).unshift(`{@item +${enchToGive} armadura de cuir}`);
 
 				if (acItem._enchTotal > 0) acItem.ac += acItem._enchTotal; // as a fallback, add any remaining enchantment AC to the total
 			}
@@ -1039,13 +1039,13 @@
 					const getByBase = (base) => {
 						switch (base) {
 							case 11:
-								return [`padded armor|phb`, `leather armor|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
+								return [`padded armor|phb`, `armadura de cuir|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 12:
 								return `armadura de cuir tatxonada|phb`;
 							case 13:
-								return [`+1 padded armor|dmg`, `+1 leather armor|dmg`][RollerUtil.roll(1, ScaleCreature._rng)];
+								return [`+1 padded armor|dmg`, `+1 armadura de cuir|dmg`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 14:
-								return [`+2 padded armor|dmg`, `+2 leather armor|dmg`, `+1 armadura de cuir tatxonada|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
+								return [`+2 padded armor|dmg`, `+2 armadura de cuir|dmg`, `+1 armadura de cuir tatxonada|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
 							case 15:
 								return `+2 armadura de cuir tatxonada|dmg`;
 						}

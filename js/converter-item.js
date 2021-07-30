@@ -347,7 +347,7 @@ ItemParser._ALL_ITEMS = null;
 ItemParser._ALL_CLASSES = null;
 ItemParser._MAPPED_ITEM_NAMES = {
 	"cuir tatxonat": "armadura de cuir tatxonada",
-	"leather": "leather armor",
+	"leather": "armadura de cuir",
 };
 
 if (typeof module !== "undefined") {
