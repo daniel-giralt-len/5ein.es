@@ -138,7 +138,7 @@ class FeatParser extends BaseParser {
 
 					if (typeof obj.items[0] === "string" && /^increase your/i.test(obj.items[0])) {
 						const abils = [];
-						obj.items[0].replace(/(Strength|Dexterity|Constitution|Intel·ligència|Saviesa|Carisma)/g, (...m) => {
+						obj.items[0].replace(/(Strength|Dexterity|Constitució|Intel·ligència|Saviesa|Carisma)/g, (...m) => {
 							abils.push(m[1].toLowerCase().slice(0, 3));
 						});
 

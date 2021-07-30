@@ -69,7 +69,7 @@ class PageFilterBestiary extends PageFilter {
 		this._speedTypeFilter = new Filter({header: "Speed Type", items: ["walk", "burrow", "climb", "fly", "hover", "swim"], displayFn: StrUtil.uppercaseFirst});
 		this._strengthFilter = new RangeFilter({header: "Strength", min: 1, max: 30});
 		this._dexterityFilter = new RangeFilter({header: "Dexterity", min: 1, max: 30});
-		this._constitutionFilter = new RangeFilter({header: "Constitution", min: 1, max: 30});
+		this._constitutionFilter = new RangeFilter({header: "Constitució", min: 1, max: 30});
 		this._intelligenceFilter = new RangeFilter({header: "Intel·ligència", min: 1, max: 30});
 		this._wisdomFilter = new RangeFilter({header: "Saviesa", min: 1, max: 30});
 		this._charismaFilter = new RangeFilter({header: "Carisma", min: 1, max: 30});

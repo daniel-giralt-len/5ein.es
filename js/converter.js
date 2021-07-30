@@ -293,7 +293,7 @@ ACTIONS
 Multiattack. Mammon makes three attacks.
 Purse. Melee Weapon Attack: +14 a impactar, 10 peus d'abast, un objectiu. Hit: 19 (3d8 + 6) de dany contundent mes 18 (4d8) de dany radiant.
 Molten Coins. Ranged Weapon Attack: +14 a impactar, 40/120 peus d'abast, un objectiu. Hit: 16 (3d6 + 6) de dany contundent mes 18 (4d8) de dany de foc.
-Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. The creature must make a DC 24 Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a greater restoration spell or comparable magic.
+Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. The creature must make a DC 24 Constitució saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a greater restoration spell or comparable magic.
 LEGENDARY ACTIONS
 Mammon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Mammon regains spent legendary actions at the start of his turn.
 Attack. Mammon makes one purse or molten coins attack.
@@ -341,7 +341,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 >
 >### Actions
->***Paralyzing Touch.*** Melee Spell Attack: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
+>***Paralyzing Touch.*** Melee Spell Attack: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
 >
 >### Legendary Actions
 >The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
@@ -349,7 +349,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >- **Cantrip.** The lich casts a cantrip.
 >- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
 >- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
->- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) de dany necròtic on a failed save, ; si supera, en rep la meitat.
+>- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitució saving throw against this magic, taking 21 (6d6) de dany necròtic on a failed save, ; si supera, en rep la meitat.
 >
 >`;
 // endregion

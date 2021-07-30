@@ -2116,7 +2116,7 @@ Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_PSI] = "Psi.";
 Parser.ATB_ABV_TO_FULL = {
 	"str": "Strength",
 	"dex": "Dexterity",
-	"con": "Constitution",
+	"con": "Constitució",
 	"int": "Intel·ligència",
 	"wis": "Saviesa",
 	"cha": "Carisma",

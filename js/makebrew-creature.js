@@ -1140,7 +1140,7 @@ class CreatureBuilder extends Builder {
 				doUpdateState();
 			});
 
-		const $btnAutoSimpleFormula = $(`<button class="btn btn-xs btn-default ${this._meta.autoCalc.hpModifier ? "active" : ""}" title="Auto-calculate modifier from Constitution"><span class="glyphicon glyphicon-refresh"/></button>`)
+		const $btnAutoSimpleFormula = $(`<button class="btn btn-xs btn-default ${this._meta.autoCalc.hpModifier ? "active" : ""}" title="Auto-calculate modifier from Constitució"><span class="glyphicon glyphicon-refresh"/></button>`)
 			.click(() => {
 				if (this._meta.autoCalc.hpModifier) {
 					this._meta.autoCalc.hpModifier = false;
