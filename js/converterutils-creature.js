@@ -394,7 +394,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"turn resistance aura": "Resistir l'Expulsió",
 		"resiliència no-morta": "Resiliència No-morta",
 
-		"aggressive": "Aggressive",
+		"agressivitat": "Agressivitat",
 		"illumination": "Illumination",
 		"rampage": "Rampage",
 		"rejuvenation": "Rejuvenation",
