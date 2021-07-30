@@ -856,7 +856,7 @@ PropOrder._ITEM = [
 	"armor",
 	"barding",
 	"bow",
-	"club",
+	"garrot",
 	"crossbow",
 	"daga",
 	"firearm",
