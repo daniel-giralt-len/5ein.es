@@ -458,7 +458,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 	},
 	action: {
 		"multi-atac": "Multi-atac",
-		"frightful presence": "Frightful Presence",
+		"presència aterradora": "Presència Aterradora",
 		"teleport": "Teleport",
 		"empassar": "Empassar",
 		"tentacle": "Tentacles",
