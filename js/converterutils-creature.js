@@ -422,7 +422,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"shapechanger": "Shapechanger",
 
-		"false appearance": "False Appearance",
+		"falsa aparença": "Falsa Aparença",
 
 		"grimpat d'aranya": "Grimpat d'Aranya",
 
