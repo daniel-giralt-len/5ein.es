@@ -167,7 +167,7 @@ class PageFilterBestiary extends PageFilter {
 		this._traitFilter = new Filter({
 			header: "Traits",
 			items: [
-				"Aggressive", "Ambusher", "Amorphous", "Amfibi", "Antimagic Susceptibility", "Brute", "Carregar", "Damage Absorption", "Death Burst", "Devil's Sight", "False Appearance", "Ascendència Faèrica", "Passar Volant", "Hold Breath", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Legendary Resistances", "Light Sensitivity", "Magic Resistance", "Magic Weapons", "Pack Tactics", "Pounce", "Rampage", "Reckless", "Regeneració", "Rejuvenation", "Shapechanger", "Siege Monster", "Sneak Attack", "Spider Climb", "Sensible al Sol", "Immunitat a Expulsar", "Turn Resistance", "Resiliència No-morta", "Water Breathing", "Web Sense", "Web Walker",
+				"Aggressive", "Ambusher", "Amorphous", "Amfibi", "Antimagic Susceptibility", "Brute", "Carregar", "Damage Absorption", "Death Burst", "Devil's Sight", "False Appearance", "Ascendència Faèrica", "Passar Volant", "Hold Breath", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Legendary Resistances", "Light Sensitivity", "Magic Resistance", "Magic Weapons", "Pack Tactics", "Abraonar", "Rampage", "Reckless", "Regeneració", "Rejuvenation", "Shapechanger", "Siege Monster", "Sneak Attack", "Spider Climb", "Sensible al Sol", "Immunitat a Expulsar", "Turn Resistance", "Resiliència No-morta", "Water Breathing", "Web Sense", "Web Walker",
 			],
 		});
 		this._actionReactionFilter = new Filter({
