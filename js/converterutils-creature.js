@@ -870,7 +870,7 @@ MiscTag._THROWN_WEAPONS = [
 ];
 MiscTag._THROWN_WEAPON_MATCHERS = MiscTag._THROWN_WEAPONS.map(it => new RegExp(`(^|[^\\w])(${it})([^\\w]|$)`, "gi"));
 MiscTag._RANGED_WEAPONS = [
-	"light crossbow",
+	"ballesta lleugera",
 	"shortbow",
 	"sling",
 	"sarbatana",

@@ -17,7 +17,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"quarterstaff",
 	"sickle",
 	"spear",
-	"light crossbow",
+	"ballesta lleugera",
 	"dart",
 	"shortbow",
 	"sling",
