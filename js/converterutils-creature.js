@@ -1039,9 +1039,9 @@ class SpellcastingTraitConvert {
 
 	/**
 	 * Add other actions/reactions with names such as:
-	 * - "Fire Storm (7th-Level Spell; 1/Day)"
+	 * - "Fire Storm (Conjur de Nivell 7; 1/Dia)"
 	 * - "Shocking Grasp (Cantrip)"
-	 * - "Shield (1st-Level Spell; 3/Day)"
+	 * - "Shield (Conjur de Nivell 1; 3/Dia)"
 	 * as hidden spells (if they don't already exist). */
 	static _addSplitOutSpells ({spellcastingEntry, arrayOther}) {
 		if (!arrayOther?.length) return;
