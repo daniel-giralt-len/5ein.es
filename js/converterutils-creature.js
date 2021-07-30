@@ -388,10 +388,10 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"abraonar": "Abraonar",
 		"water breathing": "Water Breathing",
 
-		"turn resistance": "Turn Resistance",
-		"turn defiance": "Turn Resistance",
-		"turning defiance": "Turn Resistance",
-		"turn resistance aura": "Turn Resistance",
+		"resistir l'expulsió": "Resistir l'Expulsió",
+		"turn defiance": "Resistir l'Expulsió",
+		"turning defiance": "Resistir l'Expulsió",
+		"turn resistance aura": "Resistir l'Expulsió",
 		"resiliència no-morta": "Resiliència No-morta",
 
 		"aggressive": "Aggressive",
