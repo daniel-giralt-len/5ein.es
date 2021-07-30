@@ -424,7 +424,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"false appearance": "False Appearance",
 
-		"spider climb": "Spider Climb",
+		"grimpat d'aranya": "Grimpat d'Aranya",
 
 		"sensible al sol": "Sensible al Sol",
 		"sunlight hypersensitivity": "Sensible al Sol",
