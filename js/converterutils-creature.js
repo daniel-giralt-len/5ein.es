@@ -380,7 +380,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 	trait: {
 		"immunitat a expulsar": "Immunitat a Expulsar",
 		"brute": "Brute",
-		"antimagic susceptibility": "Antimagic Susceptibility",
+		"debilitat antimàgica": "Debilitat Antimàgica",
 		"sneak attack": "Sneak Attack",
 		"reckless": "Reckless",
 		"web sense": "Web Sense",

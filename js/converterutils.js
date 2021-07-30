@@ -209,7 +209,7 @@ class TagCondition {
 			postObject: () => nameStack.pop(),
 			string: [
 				(str) => {
-					if (nameStack.includes("Antimagic Susceptibility")) return str;
+					if (nameStack.includes("Debilitat Antimàgica")) return str;
 					if (nameStack.includes("Sneak Attack (1/Turn)")) return str;
 					const ptrStack = {_: ""};
 					return TagCondition._walkerStringHandler(ptrStack, 0, 0, str, inflictedSet)
