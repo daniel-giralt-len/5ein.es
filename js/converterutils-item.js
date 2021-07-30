@@ -514,7 +514,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a creature that can speak Infernal"
-		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Draconic|Druidic|Nan|Elvish|Giant|Gnomish|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Sylvan|Terran|Thieves' cant|Undercommon)\b/g, (...m) => {
+		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Draconic|Druidic|Nan|Elvish|Giant|Gnomesc|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Sylvan|Terran|Thieves' cant|Undercommon)\b/g, (...m) => {
 			tags.push({languageProficiency: m[1].toLowerCase()});
 			return "";
 		});
