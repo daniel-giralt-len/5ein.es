@@ -830,7 +830,7 @@ MakeCards.utils = class {
 			}
 			if (item.type === "HA" && item.strength) {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push(`Speed reduced by 10 feet if Strength score less than ${item.strength}.`);
+				item._fullEntries.push(`Speed reduced by 10 feet if Força score less than ${item.strength}.`);
 			}
 		} else if (item.resist) {
 			if (item.type === "P") {

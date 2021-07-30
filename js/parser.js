@@ -2114,7 +2114,7 @@ Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_CON] = "Conj.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_PSI] = "Psi.";
 
 Parser.ATB_ABV_TO_FULL = {
-	"str": "Strength",
+	"str": "Força",
 	"dex": "Destresa",
 	"con": "Constitució",
 	"int": "Intel·ligència",
@@ -3136,7 +3136,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Your Intel·ligència (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
 	],
 	"Athletics": [
-		"Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
+		"Your Força (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
 		{
 			"type": "list",
 			"items": [

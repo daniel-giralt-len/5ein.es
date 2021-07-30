@@ -735,14 +735,14 @@ class PageFilterRaces extends PageFilter {
 			header: "Ability Bonus (Including Subrace) (Legacy)",
 			items: [
 				"Player Choice",
-				"Any Strength Increase",
+				"Any Força Increase",
 				"Any Destresa Increase",
 				"Any Constitució Increase",
 				"Any Intel·ligència Increase",
 				"Any Saviesa Increase",
 				"Any Carisma Increase",
-				"Strength +2",
-				"Strength +1",
+				"Força +2",
+				"Força +1",
 				"Destresa +2",
 				"Destresa +1",
 				"Constitució +2",
@@ -918,7 +918,7 @@ class PageFilterRaces extends PageFilter {
 	}
 }
 PageFilterRaces.ASI_SORT_POS = {
-	Strength: 0,
+	Força: 0,
 	Destresa: 1,
 	Constitució: 2,
 	Intel·ligència: 3,
