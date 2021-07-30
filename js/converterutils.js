@@ -832,7 +832,7 @@ class ConvertUtil {
 
 	static getCleanTraitActionName (name) {
 		return name
-			// capitalise unit in e.g. "(3/Day)"
+			// capitalise unit in e.g. "(3/Dia)"
 			.replace(/(\(\d+\/)([a-z])([^)]+\))/g, (...m) => `${m[1]}${m[2].toUpperCase()}${m[3]}`)
 		;
 	}
