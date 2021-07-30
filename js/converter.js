@@ -286,7 +286,7 @@ Cantrips (at will): fire bolt, light, mage hand, prestidigitation
 1st level (4 slots): mage armor, magic missile, shield
 2nd level (3 slots): misty step, suggestion
 3rd level (3 slots): fly, lightning bolt
-Legendary Resistance (3/day). If Mammon fails a saving throw, he can choose to succeed instead.
+Resistència Llegendària (3/Dia). If Mammon fails a saving throw, he can choose to succeed instead.
 Magic Resistance. Mammon has advantage on saving throws against spells and other magical effects.
 Magic Weapons. Mammon's weapon attacks are magical.
 ACTIONS
@@ -321,7 +321,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >- **Languages** Common plus up to five other languages
 >- **Challenge** 21 (33000 PX)
 >___
->***Legendary Resistance (3/Day).*** If the lich fails a saving throw, it can choose to succeed instead.
+>***Resistència Llegendària (3/Dia).*** If the lich fails a saving throw, it can choose to succeed instead.
 >
 >***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
 >
