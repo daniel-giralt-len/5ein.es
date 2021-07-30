@@ -402,7 +402,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"moviment incorpori": "Moviment Incorpori",
 
 		"keen hearing and smell": "Sentits Aguts",
-		"keen sight and smell": "Sentits Aguts",
+		"oída i olfacte aguts": "Sentits Aguts",
 		"keen hearing and sight": "Sentits Aguts",
 		"keen hearing": "Sentits Aguts",
 		"olfacte agut": "Sentits Aguts",
