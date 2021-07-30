@@ -431,7 +431,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"light sensitivity": "Light Sensitivity",
 		"vampire weaknesses": "Sensible al Sol",
 
-		"amphibious": "Amphibious",
+		"amfibi": "Amfibi",
 
 		"legendary resistance": "Legendary Resistances",
 

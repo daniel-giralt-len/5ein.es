@@ -761,7 +761,7 @@ class PageFilterRaces extends PageFilter {
 		this._traitFilter = new Filter({
 			header: "Traits",
 			items: [
-				"Amphibious",
+				"Amfibi",
 				"Armor Proficiency",
 				"Visió a cegues",
 				"Condition Immunity",
