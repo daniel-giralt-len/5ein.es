@@ -400,7 +400,7 @@ Parser.skillToShort = function (skill) {
 
 Parser.LANGUAGES_STANDARD = [
 	"Comú",
-	"Dwarvish",
+	"Nan",
 	"Èlfic",
 	"Giant",
 	"Gnomish",
@@ -1472,7 +1472,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"C": "Comú",
 	"CE": "Celestial",
 	"CS": "Can't Speak Known Languages",
-	"D": "Dwarvish",
+	"D": "Nan",
 	"DR": "Dracònic",
 	"DS": "Deep Speech",
 	"DU": "Druidic",
