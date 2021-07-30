@@ -795,7 +795,7 @@ class PageFilterRaces extends PageFilter {
 				"Choose",
 				"Comú",
 				"Dracònic",
-				"Nan",
+				"Nannès",
 				"Èlfic",
 				"Gegantès",
 				"Gnomish",

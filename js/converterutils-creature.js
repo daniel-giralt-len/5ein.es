@@ -542,7 +542,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Comú": "C",
 	"can't speak": "CS",
 	"Dracònic": "DR",
-	"Nan": "D",
+	"Nannès": "D",
 	"Èlfic": "E",
 	"Gegantès": "GI",
 	"Gnomish": "G",
