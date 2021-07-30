@@ -321,7 +321,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >- **Languages** Common plus up to five other languages
 >- **Challenge** 21 (33000 PX)
 >___
->***Resistència Llegendària (3/Dia).*** If the lich fails a saving throw, it can choose to succeed instead.
+>***Resistència Llegendària (3/Dia).*** Si the lich falla una salvació, pot escollir superar-la.
 >
 >***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
 >
