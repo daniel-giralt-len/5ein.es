@@ -2122,18 +2122,18 @@ Parser.ATB_ABV_TO_FULL = {
 	"cha": "Charisma",
 };
 
-TP_ABERRATION = "aberration";
+TP_ABERRATION = "aberració";
 TP_BEAST = "bèstia";
 TP_CELESTIAL = "celestial";
 TP_CONSTRUCT = "constructe";
 TP_DRAGON = "drac";
 TP_ELEMENTAL = "elemental";
-TP_FEY = "fey";
+TP_FEY = "fata";
 TP_FIEND = "infernal";
-TP_GIANT = "giant";
+TP_GIANT = "gegant";
 TP_HUMANOID = "humanoide";
 TP_MONSTROSITY = "monstrositat";
-TP_OOZE = "ooze";
+TP_OOZE = "llim";
 TP_PLANT = "planta";
 TP_UNDEAD = "no-mort";
 Parser.MON_TYPES = [TP_ABERRATION, TP_BEAST, TP_CELESTIAL, TP_CONSTRUCT, TP_DRAGON, TP_ELEMENTAL, TP_FEY, TP_FIEND, TP_GIANT, TP_HUMANOID, TP_MONSTROSITY, TP_OOZE, TP_PLANT, TP_UNDEAD];
