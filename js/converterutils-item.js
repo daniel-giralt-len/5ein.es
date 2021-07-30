@@ -42,7 +42,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"sarbatana",
 	"hand crossbow",
 	"ballesta pesada",
-	"longbow",
+	"arc llarg",
 	"net",
 ];
 ConverterUtilsItem.BASIC_ARMORS = [
