@@ -72,7 +72,7 @@ class AcConvert {
 						case "natural and mystic armor":
 						case "padded armor":
 						case "padded leather":
-						case "parrying dagger":
+						case "parrying daga":
 						case "plant fiber armor":
 						case "plus armor worn":
 						case "rag armor":
@@ -859,7 +859,7 @@ class MiscTag {
 	}
 }
 MiscTag._THROWN_WEAPONS = [
-	"dagger",
+	"daga",
 	"handaxe",
 	"javelin",
 	"light hammer",

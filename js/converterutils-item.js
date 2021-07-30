@@ -8,7 +8,7 @@ if (typeof module !== "undefined") {
 class ConverterUtilsItem {}
 ConverterUtilsItem.BASIC_WEAPONS = [
 	"club",
-	"dagger",
+	"daga",
 	"greatclub",
 	"handaxe",
 	"javelin",
