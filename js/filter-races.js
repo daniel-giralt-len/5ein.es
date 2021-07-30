@@ -776,7 +776,7 @@ class PageFilterRaces extends PageFilter {
 				"NPC Race",
 				"Powerful Build",
 				"Skill Proficiency",
-				"Spellcasting",
+				"Llançament de Conjurs",
 				"Sensible al Sol",
 				"Tool Proficiency",
 				"Unarmed Strike",
@@ -828,7 +828,7 @@ class PageFilterRaces extends PageFilter {
 			race.conditionImmune ? "Condition Immunity" : null,
 			race.skillProficiencies ? "Skill Proficiency" : null,
 			race.feats ? "Feat" : null,
-			race.additionalSpells ? "Spellcasting" : null,
+			race.additionalSpells ? "Llançament de Conjurs" : null,
 			race.armorProficiencies ? "Armor Proficiency" : null,
 			race.weaponProficiencies ? "Weapon Proficiency" : null,
 		].filter(it => it);

@@ -22,7 +22,7 @@ class PageFilterFeats extends PageFilter {
 		});
 		this._otherPrereqFilter = new Filter({
 			header: "Other",
-			items: ["Ability", "Race", "Psionics", "Proficiency", "Special", "Spellcasting"],
+			items: ["Ability", "Race", "Psionics", "Proficiency", "Special", "Llançament de Conjurs"],
 		});
 		this._levelFilter = new Filter({
 			header: "Level",
@@ -34,7 +34,7 @@ class PageFilterFeats extends PageFilter {
 			items: [
 				"Armor Proficiency",
 				"Skill Proficiency",
-				"Spellcasting",
+				"Llançament de Conjurs",
 				"Tool Proficiency",
 				"Weapon Proficiency",
 			],
@@ -57,7 +57,7 @@ class PageFilterFeats extends PageFilter {
 			feat.immune ? "Damage Immunity" : null,
 			feat.conditionImmune ? "Condition Immunity" : null,
 			feat.skillProficiencies ? "Skill Proficiency" : null,
-			feat.additionalSpells ? "Spellcasting" : null,
+			feat.additionalSpells ? "Llançament de Conjurs" : null,
 			feat.armorProficiencies ? "Armor Proficiency" : null,
 			feat.weaponProficiencies ? "Weapon Proficiency" : null,
 			feat.toolProficiencies ? "Tool Proficiency" : null,

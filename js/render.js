@@ -2863,8 +2863,8 @@ Renderer.utils = {
 							});
 							return isListMode ? parts.join("/") : parts.joinConjunct(", ", " or ");
 						}
-						case "spellcasting": return isListMode ? "Spellcasting" : "The ability to cast at least one spell";
-						case "spellcasting2020": return isListMode ? "Spellcasting" : "Spellcasting or Pact Magic feature";
+						case "spellcasting": return isListMode ? "Llançament de Conjurs" : "The ability to cast at least one spell";
+						case "spellcasting2020": return isListMode ? "Llançament de Conjurs" : "Spellcasting or Pact Magic feature";
 						case "psionics": return isListMode ? "Psionics" : (isTextMode ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("Psionic Talent feature or {@feat Wild Talent|UA2020PsionicOptionsRevisited} feat");
 						default: throw new Error(`Unhandled key: ${k}`);
 					}
@@ -4996,7 +4996,7 @@ Renderer.monster = {
 		// Insert our spellcasting section into the "Other actions" part, in an alphabetically-appropriate place.
 
 		const ixLastAttack = actions.findLastIndex(it => it.entries && it.entries.length && typeof it.entries[0] === "string" && it.entries[0].includes(`{@atk `))
-		const ixNext = actions.findIndex((act, ix) => ix > ixLastAttack && act.name && SortUtil.ascSortLower(act.name, "Spellcasting") >= 0);
+		const ixNext = actions.findIndex((act, ix) => ix > ixLastAttack && act.name && SortUtil.ascSortLower(act.name, "Llançament de Conjurs") >= 0);
 		actions.splice(ixNext, 0, ...spellActions);
 		return actions;
 	},

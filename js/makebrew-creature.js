@@ -1919,7 +1919,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getSpellcastingInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Spellcasting", {isMarked: true});
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Llançament de Conjurs", {isMarked: true});
 
 		const traitRows = [];
 		const $wrpRows = $(`<div/>`).appendTo($rowInner);
@@ -2005,7 +2005,7 @@ class CreatureBuilder extends Builder {
 
 		const $iptName = $(`<input class="form-control form-control--minimal input-xs mr-2" placeholder="Trait name">`)
 			.change(() => doUpdateState());
-		$iptName.val(trait ? trait.name : "Spellcasting");
+		$iptName.val(trait ? trait.name : "Llançament de Conjurs");
 
 		const $btnToggleHeader = $(`<button class="btn btn-xs btn-default mr-2">Header</button>`)
 			.click(() => {
