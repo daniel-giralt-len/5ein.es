@@ -964,7 +964,7 @@ RNG_SELF = "llançador";
 RNG_SIGHT = "sight";
 RNG_UNLIMITED = "unlimited";
 RNG_UNLIMITED_SAME_PLANE = "plane";
-RNG_TOUCH = "touch";
+RNG_TOUCH = "tocar";
 Parser.SP_RANGE_TYPE_TO_FULL = {
 	[RNG_SPECIAL]: "Special",
 	[RNG_POINT]: "Point",
@@ -979,7 +979,7 @@ Parser.SP_RANGE_TYPE_TO_FULL = {
 	[RNG_SIGHT]: "Sight",
 	[RNG_UNLIMITED]: "Unlimited",
 	[RNG_UNLIMITED_SAME_PLANE]: "Unlimited on the same plane",
-	[RNG_TOUCH]: "Touch",
+	[RNG_TOUCH]: "Tocar",
 };
 
 Parser.spRangeTypeToFull = function (range) {

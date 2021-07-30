@@ -266,7 +266,7 @@ class SpellParser extends BaseParser {
 		if (range.toLowerCase() === "unlimited") return stats.range = {type: "point", distance: {type: "unlimited"}};
 		if (range.toLowerCase() === "unlimited on the same plane") return stats.range = {type: "point", distance: {type: "plane"}};
 		if (range.toLowerCase() === "sight") return stats.range = {type: "point", distance: {type: "sight"}};
-		if (range.toLowerCase() === "touch") return stats.range = {type: "point", distance: {type: "touch"}};
+		if (range.toLowerCase() === "tocar") return stats.range = {type: "point", distance: {type: "tocar"}};
 
 		const cleanRange = range.replace(/(\d),(\d)/g, "$1$2");
 

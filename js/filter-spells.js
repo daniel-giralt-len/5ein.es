@@ -567,7 +567,7 @@ PageFilterSpells._META_ADD_M_CONSUMED_OPTIONAL = "Material is Optionally Consume
 PageFilterSpells.F_RNG_POINT = "Point";
 PageFilterSpells.F_RNG_SELF_AREA = "Llançador (Area)";
 PageFilterSpells.F_RNG_SELF = "Llançador";
-PageFilterSpells.F_RNG_TOUCH = "Touch";
+PageFilterSpells.F_RNG_TOUCH = "Tocar";
 PageFilterSpells.F_RNG_SPECIAL = "Special";
 
 PageFilterSpells._META_FILTER_BASE_ITEMS = [PageFilterSpells._META_ADD_CONC, PageFilterSpells._META_ADD_V, PageFilterSpells._META_ADD_S, PageFilterSpells._META_ADD_M, PageFilterSpells._META_ADD_R, PageFilterSpells._META_ADD_M_COST, PageFilterSpells._META_ADD_M_CONSUMED, PageFilterSpells._META_ADD_M_CONSUMED_OPTIONAL, ...Object.keys(Parser.SP_MISC_TAG_TO_FULL)];
