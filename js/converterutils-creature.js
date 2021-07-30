@@ -551,7 +551,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Infernal": "I",
 	"Orc": "O",
 	"Primordial": "P",
-	"Sylvan": "S",
+	"Silvànic": "S",
 	"Terran": "T",
 	"Sotacomú": "U",
 	"Aarakocra": "OTH",

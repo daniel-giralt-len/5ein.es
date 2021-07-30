@@ -805,7 +805,7 @@ class PageFilterRaces extends PageFilter {
 				"Orc",
 				"Other",
 				"Primordial",
-				"Sylvan",
+				"Silvànic",
 				"Sotacomú",
 			],
 			umbrellaItems: ["Choose"],
