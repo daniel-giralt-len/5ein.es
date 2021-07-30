@@ -868,7 +868,7 @@ PropOrder._ITEM = [
 	"spear",
 	"staff",
 	"stealth",
-	"sword",
+	"espasa",
 	"weapon",
 
 	"hasRefs",
