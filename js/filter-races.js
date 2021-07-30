@@ -740,7 +740,7 @@ class PageFilterRaces extends PageFilter {
 				"Any Constitution Increase",
 				"Any Intelligence Increase",
 				"Any Wisdom Increase",
-				"Any Charisma Increase",
+				"Any Carisma Increase",
 				"Strength +2",
 				"Strength +1",
 				"Dexterity +2",
@@ -751,8 +751,8 @@ class PageFilterRaces extends PageFilter {
 				"Intelligence +1",
 				"Wisdom +2",
 				"Wisdom +1",
-				"Charisma +2",
-				"Charisma +1",
+				"Carisma +2",
+				"Carisma +1",
 			],
 			itemSortFn: PageFilterRaces.filterAscSortAsi,
 		});
@@ -923,7 +923,7 @@ PageFilterRaces.ASI_SORT_POS = {
 	Constitution: 2,
 	Intelligence: 3,
 	Wisdom: 4,
-	Charisma: 5,
+	Carisma: 5,
 };
 
 class ModalFilterRaces extends ModalFilter {

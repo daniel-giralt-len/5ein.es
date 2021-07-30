@@ -129,12 +129,12 @@ class BaseParser {
 		// Opening brackets (e.g. damage; "(1d6 + 2)")
 		if (/^\(/.test(cleanLine) && !opts.noParenthesis) return true;
 		// An ability score name followed by "saving throw"
-		if (/^(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)\s+saving throw/.test(cleanLine) && !opts.noSavingThrow) return true;
+		if (/^(Strength|Dexterity|Constitution|Intelligence|Wisdom|Carisma)\s+saving throw/.test(cleanLine) && !opts.noSavingThrow) return true;
 		// An ability score name
-		if (/^(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)\s/.test(cleanLine) && !opts.noAbilityName) return true;
+		if (/^(Strength|Dexterity|Constitution|Intelligence|Wisdom|Carisma)\s/.test(cleanLine) && !opts.noAbilityName) return true;
 		// "Hit:" e.g. inside creature attacks
 		if (/^Hit:/.test(cleanLine) && !opts.noHit) return true;
-		if (/^(Intelligence|Wisdom|Charisma)\s+\(/.test(cleanLine) && !opts.noSpellcastingAbility) return true;
+		if (/^(Intelligence|Wisdom|Carisma)\s+\(/.test(cleanLine) && !opts.noSpellcastingAbility) return true;
 
 		return false;
 	}
