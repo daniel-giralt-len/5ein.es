@@ -438,7 +438,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"magic weapon": "Magic Weapons",
 		"magic weapons": "Magic Weapons",
 
-		"magic resistance": "Magic Resistance",
+		"resistència a la màgia": "Resistència a la Màgia",
 
 		"spell immunity": "Spell Immunity",
 
