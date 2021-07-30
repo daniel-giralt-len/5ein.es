@@ -33,7 +33,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"morningstar",
 	"pike",
 	"rapier",
-	"scimitar",
+	"simitarra",
 	"shortsword",
 	"trident",
 	"war pick",
