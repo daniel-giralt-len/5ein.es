@@ -433,7 +433,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"amfibi": "Amfibi",
 
-		"resistència llegendària": "Resistència Llegendàrias",
+		"resistència llegendària": "Resistències Llegendàries",
 
 		"magic weapon": "Magic Weapons",
 		"magic weapons": "Magic Weapons",
