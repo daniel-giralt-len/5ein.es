@@ -739,7 +739,7 @@ class PageFilterRaces extends PageFilter {
 				"Any Dexterity Increase",
 				"Any Constitution Increase",
 				"Any Intelligence Increase",
-				"Any Wisdom Increase",
+				"Any Saviesa Increase",
 				"Any Carisma Increase",
 				"Strength +2",
 				"Strength +1",
@@ -749,8 +749,8 @@ class PageFilterRaces extends PageFilter {
 				"Constitution +1",
 				"Intelligence +2",
 				"Intelligence +1",
-				"Wisdom +2",
-				"Wisdom +1",
+				"Saviesa +2",
+				"Saviesa +1",
 				"Carisma +2",
 				"Carisma +1",
 			],
@@ -922,7 +922,7 @@ PageFilterRaces.ASI_SORT_POS = {
 	Dexterity: 1,
 	Constitution: 2,
 	Intelligence: 3,
-	Wisdom: 4,
+	Saviesa: 4,
 	Carisma: 5,
 };
 

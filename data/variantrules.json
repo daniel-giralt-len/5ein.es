@@ -570,7 +570,7 @@
 					"entries": [
 						"Whatever D&D race you choose for your character, you get a trait called Ability Score Increase. This increase reflects an archetypal bit of excellence in the adventurers of this kind in D&D's past. For example, if you're a dwarf, your Constitution increases by 2, because dwarf heroes in D&D are often exceptionally tough. This increase doesn't apply to every dwarf, just to dwarf adventurers, and it exists to reinforce an archetype. That reinforcement is appropriate if you want to lean into the archetype, but it's unhelpful if your character doesn't conform to the archetype.",
 						"If you'd like your character to follow their own path, you may ignore your Ability Score Increase trait and assign ability score increases tailored to your character. Here's how to do it: take any ability score increase you gain in your race or subrace and apply it to an ability score of your choice. If you gain more than one increase, you can't apply those increases to the same ability score, and you can't increase a score above 20.",
-						"For example, if the Ability Score Increase trait of your race or subrace increases your Constitution by 2 and your Wisdom by 1, you could instead increase your Intelligence by 2 and your Carisma by 1."
+						"For example, if the Ability Score Increase trait of your race or subrace increases your Constitution by 2 and your Saviesa by 1, you could instead increase your Intelligence by 2 and your Carisma by 1."
 					]
 				},
 				{
@@ -1555,7 +1555,7 @@
 					"entries": [
 						"The character must make a series of checks, with the DC for all the checks chosen by the character according to the amount of profit sought from the crime.",
 						"The chosen DC can be 10, 15, 20, or 25. Successful completion of the crime yields a number of gold pieces, as shown on the Loot Value table.",
-						"To attempt a crime, the character makes three checks: Dexterity (Stealth), Dexterity using thieves' tools, and the player's choice of Intelligence (Investigation), Wisdom (Perception), or Carisma (Deception).",
+						"To attempt a crime, the character makes three checks: Dexterity (Stealth), Dexterity using thieves' tools, and the player's choice of Intelligence (Investigation), Saviesa (Perception), or Carisma (Deception).",
 						"If none of the checks are successful, the character is caught and jailed. The character must pay a fine equal to the profit the crime would have earned and must spend one week in jail for each 25 gp of the fine.",
 						"If only one check is successful, the heist fails but the character escapes.",
 						"If two checks are successful, the heist is a partial success, netting the character half the payout.",
@@ -1679,7 +1679,7 @@
 					"name": "Resolution",
 					"entries": [
 						"The character must make a series of checks, with a DC determined at random based on the quality of the competition that the character runs into. Part of the risk of gambling is that one never knows who might end up sitting across the table.",
-						"The character makes three checks: Wisdom (Insight), Carisma (Deception), and Carisma (Intimidation). If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.",
+						"The character makes three checks: Saviesa (Insight), Carisma (Deception), and Carisma (Intimidation). If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.",
 						{
 							"type": "table",
 							"caption": "Gambling Results",
@@ -3506,7 +3506,7 @@
 					"name": "Fear",
 					"type": "entries",
 					"entries": [
-						"When adventurers confront threats they have no hope of overcoming, you can call for them to make a Wisdom saving throw. Set the DC according to the circumstances. A character who fails the save becomes {@condition frightened} for 1 minute. The character can repeat the saving throw at the end of each of his or her turns, ending the effect on the character on a successful save."
+						"When adventurers confront threats they have no hope of overcoming, you can call for them to make a Saviesa saving throw. Set the DC according to the circumstances. A character who fails the save becomes {@condition frightened} for 1 minute. The character can repeat the saving throw at the end of each of his or her turns, ending the effect on the character on a successful save."
 					]
 				},
 				{
@@ -3608,7 +3608,7 @@
 					"type": "entries",
 					"name": "Fear",
 					"entries": [
-						"An overwhelming foe or horrid monster doesn't need magic or some supernatural ability to strike fear into the most stalwart adventurers. During any frightful encounter, you can call on a character to make a saving throw to resist being scared. The character must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} until the end of their next turn.",
+						"An overwhelming foe or horrid monster doesn't need magic or some supernatural ability to strike fear into the most stalwart adventurers. During any frightful encounter, you can call on a character to make a saving throw to resist being scared. The character must succeed on a DC 15 Saviesa saving throw or become {@condition frightened} until the end of their next turn.",
 						"Any of the following circumstances might be reasons to have one or more characters make saving throws to resist being {@condition frightened}:",
 						{
 							"type": "list",
@@ -3995,7 +3995,7 @@
 					"type": "entries",
 					"name": "Detecting Haunted Traps",
 					"entries": [
-						"Every haunted trap has an emanation, which might be as subtle as a drop in temperature or as overt as an object moving of its own accord. A haunted trap's emanation occurs before the trap takes effect. A character notices the emanation if their passive Wisdom ({@skill Perception}) score equals or exceeds 10 + the trap's Haunt Bonus. A character who notices the haunted trap has until the start of their next turn to react, which might include fleeing to avoid the trap or attempting to disarm it (see the following section). Class features and spells, such as Divine Sense and {@spell detect evil and good}, that discern desecration also detect haunted traps."
+						"Every haunted trap has an emanation, which might be as subtle as a drop in temperature or as overt as an object moving of its own accord. A haunted trap's emanation occurs before the trap takes effect. A character notices the emanation if their passive Saviesa ({@skill Perception}) score equals or exceeds 10 + the trap's Haunt Bonus. A character who notices the haunted trap has until the start of their next turn to react, which might include fleeing to avoid the trap or attempting to disarm it (see the following section). Class features and spells, such as Divine Sense and {@spell detect evil and good}, that discern desecration also detect haunted traps."
 					]
 				},
 				{
@@ -4018,7 +4018,7 @@
 							"name": "Danse Macabre",
 							"entries": [
 								"{@i Haunt Bonus +4}",
-								"This haunted trap affects a 20-foot-radius sphere centered on an ancient but pristine instrument. When a creature enters the area, the trap's emanation manifests as the sound of distant, mournful music. A round later, a phantom performer appears and begins playing the instrument for the next minute. While the performer plays, any creature that enters or starts its turn in the haunted trap's area must succeed on a DC 14 Wisdom saving throw or float 20 feet into the air and be affected by the spell {@spell Otto's irresistible dance}. There they are joined by illusory dancers as they dance for the remainder of the performer's song. As an action, a dancing creature can repeat the saving throw to end the effect on itself, whereupon it falls 20 feet and takes {@dice 2d6} de dany contundent. If a creature's saving throw to resist the trap or to stop dancing is successful, the creature is immune to the haunted trap for the next 24 hours.",
+								"This haunted trap affects a 20-foot-radius sphere centered on an ancient but pristine instrument. When a creature enters the area, the trap's emanation manifests as the sound of distant, mournful music. A round later, a phantom performer appears and begins playing the instrument for the next minute. While the performer plays, any creature that enters or starts its turn in the haunted trap's area must succeed on a DC 14 Saviesa saving throw or float 20 feet into the air and be affected by the spell {@spell Otto's irresistible dance}. There they are joined by illusory dancers as they dance for the remainder of the performer's song. As an action, a dancing creature can repeat the saving throw to end the effect on itself, whereupon it falls 20 feet and takes {@dice 2d6} de dany contundent. If a creature's saving throw to resist the trap or to stop dancing is successful, the creature is immune to the haunted trap for the next 24 hours.",
 								"While the phantom performer plays, any creature within the haunted trap's area can use an action to try to convince the performer to stop playing, doing so with a successful DC 14 Carisma ({@skill Persuasion}) check. When the performer stops playing, all creatures affected by the haunted trap are freed from its effects and float to the ground safely."
 							]
 						},
@@ -4027,7 +4027,7 @@
 							"name": "Faceless Malice",
 							"entries": [
 								"{@i Haunt Bonus +2}",
-								"This haunted trap affects a 15-foot-cube in front of an ornate mirror hanging on a wall. When a visible creature enters the area, the trap's emanation manifests as the creature's distorted reflection in the mirror. If that creature is still in the area at the start of its next turn, it must succeed on a DC 12 Wisdom saving throw or be {@condition blinded}, {@condition deafened}, and rendered unable to speak for 1 minute. Additionally, an illusion makes it appear that the creature has had its face erased. The {@spell remove curse} spell ends this effect, as does destroying the mirror. The mirror has AC 12, 10 hit points, vulnerability to dany contundent, and immunity to poison and psychic damage. After a creature fails its saving throw against the trap, the trap won't activate again for 24 hours.",
+								"This haunted trap affects a 15-foot-cube in front of an ornate mirror hanging on a wall. When a visible creature enters the area, the trap's emanation manifests as the creature's distorted reflection in the mirror. If that creature is still in the area at the start of its next turn, it must succeed on a DC 12 Saviesa saving throw or be {@condition blinded}, {@condition deafened}, and rendered unable to speak for 1 minute. Additionally, an illusion makes it appear that the creature has had its face erased. The {@spell remove curse} spell ends this effect, as does destroying the mirror. The mirror has AC 12, 10 hit points, vulnerability to dany contundent, and immunity to poison and psychic damage. After a creature fails its saving throw against the trap, the trap won't activate again for 24 hours.",
 								{
 									"type": "image",
 									"href": {
@@ -4045,7 +4045,7 @@
 							"name": "Icon of the Lower Aerial Kingdoms",
 							"entries": [
 								"{@i Haunt Bonus +6}",
-								"This haunted trap is tied to the 10-foot-radius sphere surrounding an ominous, 1-foot-tall statue of a menacing, four-winged, birdlike figure. Once per day, when a creature enters the area, the trap's emanation manifests as the sound of distant flapping wings and a rush of warm air. If that creature is still in the area at the start of its next turn, it must succeed on a DC 16 Wisdom saving throw or be {@condition charmed} and {@condition incapacitated} for 1 minute. These conditions last until the creature is damaged or someone else uses an action to shake the creature. If the affected creature remains {@condition charmed} for the full minute, they are then affected as per the spell {@spell magic jar}, their soul entering the statue and being replaced by the spirit of a disembodied fiend. This effect ends when {@spell dispel evil and good} or a similar spell is cast on the affected creature, or when the statue is destroyed. The statue has AC 17, 15 hit points, and immunity to poison and psychic damage.",
+								"This haunted trap is tied to the 10-foot-radius sphere surrounding an ominous, 1-foot-tall statue of a menacing, four-winged, birdlike figure. Once per day, when a creature enters the area, the trap's emanation manifests as the sound of distant flapping wings and a rush of warm air. If that creature is still in the area at the start of its next turn, it must succeed on a DC 16 Saviesa saving throw or be {@condition charmed} and {@condition incapacitated} for 1 minute. These conditions last until the creature is damaged or someone else uses an action to shake the creature. If the affected creature remains {@condition charmed} for the full minute, they are then affected as per the spell {@spell magic jar}, their soul entering the statue and being replaced by the spirit of a disembodied fiend. This effect ends when {@spell dispel evil and good} or a similar spell is cast on the affected creature, or when the statue is destroyed. The statue has AC 17, 15 hit points, and immunity to poison and psychic damage.",
 								"This haunted trap manifests as the result of a fiendish influence. Casting {@spell dispel evil and good} on the statue permanently disarms the haunted trap."
 							]
 						},
@@ -4054,7 +4054,7 @@
 							"name": "Morbid Memory",
 							"entries": [
 								"{@i Haunt Bonus +0}",
-								"A morbid memory trap presents little danger, but it proves useful in revealing important and unsettling glimpses into an area's past. This haunted trap affects a single room or 30-foot-square area. When a creature enters the area, the trap's emanation manifests as faint, disembodied whispers. If that creature is still in the area at the start of its next turn, an illusory scene plays out, repeating some terrible event that happened in the area. This vision typically lasts 1 minute. When the vision ends, all creatures in the area that saw the illusion must succeed on a DC 10 Wisdom saving throw or become {@condition frightened} of the area for the next {@dice 1d4} rounds. {@condition Frightened} creatures must take the {@action Dash} action and move away from the haunted area by the safest available route on each of their turns, unless there is nowhere else to move. After the haunted trap is activated, it won't activate again for 24 hours."
+								"A morbid memory trap presents little danger, but it proves useful in revealing important and unsettling glimpses into an area's past. This haunted trap affects a single room or 30-foot-square area. When a creature enters the area, the trap's emanation manifests as faint, disembodied whispers. If that creature is still in the area at the start of its next turn, an illusory scene plays out, repeating some terrible event that happened in the area. This vision typically lasts 1 minute. When the vision ends, all creatures in the area that saw the illusion must succeed on a DC 10 Saviesa saving throw or become {@condition frightened} of the area for the next {@dice 1d4} rounds. {@condition Frightened} creatures must take the {@action Dash} action and move away from the haunted area by the safest available route on each of their turns, unless there is nowhere else to move. After the haunted trap is activated, it won't activate again for 24 hours."
 							]
 						}
 					]
@@ -4420,7 +4420,7 @@
 						],
 						[
 							"14-16",
-							"{@bold Festering Wound.} Your hit point maximum is reduced by 1 every 24 hours the wound persists. If your hit point maximum drops to 0, you die. The wound heals if you receive magical healing. Alternatively, someone can tend to the wound and make a DC 15 Wisdom (Medicine) check once every 24 hours. After ten successes, the wound heals."
+							"{@bold Festering Wound.} Your hit point maximum is reduced by 1 every 24 hours the wound persists. If your hit point maximum drops to 0, you die. The wound heals if you receive magical healing. Alternatively, someone can tend to the wound and make a DC 15 Saviesa (Medicine) check once every 24 hours. After ten successes, the wound heals."
 						],
 						[
 							"17-20",
@@ -4611,7 +4611,7 @@
 					"name": "Going Mad",
 					"entries": [
 						"Various magical effects can inflict madness on an otherwise stable mind. Certain spells, such as contact other plane and symbol, can cause insanity, and you can use the madness rules here instead of the spell effects in the Player's Handbook. Diseases, poisons, and planar effects such as psychic wind or the howling winds of Pandemonium can all inflict madness. Some artifacts can also break the psyche of a character who uses or becomes attuned to them.",
-						"Resisting a madness-inducing effect usually requires a Wisdom or Carisma saving throw. If your game includes the Sanity score (see chapter 9, \"Dungeon Master's Workshop\"), a creature makes a Sanity saving throw instead."
+						"Resisting a madness-inducing effect usually requires a Saviesa or Carisma saving throw. If your game includes the Sanity score (see chapter 9, \"Dungeon Master's Workshop\"), a creature makes a Sanity saving throw instead."
 					]
 				},
 				{
@@ -4698,7 +4698,7 @@
 								],
 								[
 									"21-30",
-									"The character suffers extreme paranoia. The character has disadvantage on Wisdom and Carisma checks"
+									"The character suffers extreme paranoia. The character has disadvantage on Saviesa and Carisma checks"
 								],
 								[
 									"31-40",
@@ -4726,7 +4726,7 @@
 								],
 								[
 									"86-90",
-									"Whenever the character takes damage, he or she must succeed on a DC 15 Wisdom saving throw or be affected as though he or she failed a saving throw against the {@spell confusion} spell. The confusion effect lasts for 1 minute."
+									"Whenever the character takes damage, he or she must succeed on a DC 15 Saviesa saving throw or be affected as though he or she failed a saving throw against the {@spell confusion} spell. The confusion effect lasts for 1 minute."
 								],
 								[
 									"91-95",
@@ -5572,7 +5572,7 @@
 						"The group is reduced to half its original size with no losses on the opposing side."
 					]
 				},
-				"To determine whether a creature or group of creatures flees, make a DC 10 Wisdom saving throw for the creature or the group's leader. If the opposition is overwhelming, the saving throw is made with disadvantage, or you can decide that the save fails automatically. If a group's leader can't make the saving throw for whatever reason, have the creature in the group with the next highest Carisma score make the saving throw instead.",
+				"To determine whether a creature or group of creatures flees, make a DC 10 Saviesa saving throw for the creature or the group's leader. If the opposition is overwhelming, the saving throw is made with disadvantage, or you can decide that the save fails automatically. If a group's leader can't make the saving throw for whatever reason, have the creature in the group with the next highest Carisma score make the saving throw instead.",
 				"On a failed save, the affected creature or group flees by the most expeditious route. If escape is impossible, the creature or group surrenders. If a creature or group that surrenders is attacked by its conquerors, the battle might resume, and it's unlikely that further attempts to flee or surrender will be made.",
 				"A failed saving throw isn't always to the adventurers' benefit. For example, an ogre that flees from combat might put the rest of the dungeon on alert or run off with treasure that the characters had hoped to plunder."
 			]
@@ -5600,7 +5600,7 @@
 					"type": "entries",
 					"name": "Prerequisites",
 					"entries": [
-						"To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, a barbarian who decides to multiclass into the druid class must have both Strength and Wisdom scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores.",
+						"To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, a barbarian who decides to multiclass into the druid class must have both Strength and Saviesa scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores.",
 						{
 							"type": "table",
 							"caption": "Multiclassing Prerequisites",
@@ -5623,11 +5623,11 @@
 								],
 								[
 									"{@class Cleric}",
-									"Wisdom 13"
+									"Saviesa 13"
 								],
 								[
 									"{@class Druid}",
-									"Wisdom 13"
+									"Saviesa 13"
 								],
 								[
 									"{@class Fighter}",
@@ -5635,7 +5635,7 @@
 								],
 								[
 									"{@class Monk}",
-									"Dexterity 13 and Wisdom 13"
+									"Dexterity 13 and Saviesa 13"
 								],
 								[
 									"{@class Paladin}",
@@ -5643,7 +5643,7 @@
 								],
 								[
 									"{@class Ranger}",
-									"Dexterity 13 and Wisdom 13"
+									"Dexterity 13 and Saviesa 13"
 								],
 								[
 									"{@class Rogue}",
@@ -6321,7 +6321,7 @@
 										],
 										[
 											"4",
-											"When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Wisdom saving throw or be {@condition blinded} for 8 hours."
+											"When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Saviesa saving throw or be {@condition blinded} for 8 hours."
 										],
 										[
 											"5",
@@ -6329,7 +6329,7 @@
 										],
 										[
 											"6",
-											"When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Wisdom saving throw or gain a random form of long-term madness (see \"{@book Madness|DMG|8|Madness}\" in chapter 8, \"{@adventure Running the Game|DMG|-1},\" of the {@book Dungeon Master's Guide|DMG})."
+											"When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Saviesa saving throw or gain a random form of long-term madness (see \"{@book Madness|DMG|8|Madness}\" in chapter 8, \"{@adventure Running the Game|DMG|-1},\" of the {@book Dungeon Master's Guide|DMG})."
 										]
 									]
 								},
@@ -7000,7 +7000,7 @@
 						"If your players roll their ability scores, have them roll for the added ability scores."
 					]
 				},
-				"If you ever need to make a check or saving throw for Honor or Sanity for a monster that lacks the score, you can use Carisma for Honor and Wisdom for Sanity.",
+				"If you ever need to make a check or saving throw for Honor or Sanity for a monster that lacks the score, you can use Carisma for Honor and Saviesa for Sanity.",
 				{
 					"type": "entries",
 					"name": "Honor Score",
@@ -7409,7 +7409,7 @@
 					"name": "Lure Lights",
 					"entries": [
 						"When aboleths die, their souls sometimes gather in clusters called lure lights. These 100-foot-diameter collections of pale, yellow lights are found in the deep ocean below depths of 1,000 feet. They glow with bright light in a 100-foot radius and dim light for another 100 feet.",
-						"Any creature that can see the lure lights must succeed on a DC 14 Wisdom saving throw or be {@condition charmed} by the lights for 24 hours or until the lights are destroyed. A creature that succeeds on the saving throw is immune to the effect of the lure lights for 24 hours.",
+						"Any creature that can see the lure lights must succeed on a DC 14 Saviesa saving throw or be {@condition charmed} by the lights for 24 hours or until the lights are destroyed. A creature that succeeds on the saving throw is immune to the effect of the lure lights for 24 hours.",
 						"While {@condition charmed} by the lights, a creature can't willingly move out of line of sight of them and defends them to the death. If forcibly moved away from the lights, the creature tries to find its way back to them. The creature can't take a short or long rest while under this effect. After 24 hours, the {@condition charmed} creature gains one level of {@condition exhaustion} and must repeat the saving throw if it is within line of sight of the lights, ending the effect on itself on a success. If the lights aren't within line of sight at this time, the creature succeeds automatically.",
 						"Each cluster of lure lights has AC 17, 100 hit points, and immunity to necrotic and poison damage."
 					]
@@ -7532,7 +7532,7 @@
 							"type": "entries",
 							"name": "Navigating Sandbars",
 							"entries": [
-								"Sandbars make dangerous obstacles for vessels, particularly at high tide when they are less noticeable. The crew of a ship moving toward a sandbar beneath the waves must have a passive Wisdom ({@skill Perception}) score of 12 or higher or fail to see the sandbar in the way (see \"{@adventure Noticing Threats|GoS|8|Noticing Threats}\"). When a ship passes over a submerged sandbar, the sandbar counts as difficult terrain, and the ship must succeed on a Dexterity saving throw. The DC of this save corresponds with the depth of the sandbar, as listed on the Sandbar DCs table. If the ship fails this save, it gets stuck on the sandbar. A ship can become unstuck by using an action to make a Strength check, with a bonus equal to the crew's quality, against the sandbar's DC.",
+								"Sandbars make dangerous obstacles for vessels, particularly at high tide when they are less noticeable. The crew of a ship moving toward a sandbar beneath the waves must have a passive Saviesa ({@skill Perception}) score of 12 or higher or fail to see the sandbar in the way (see \"{@adventure Noticing Threats|GoS|8|Noticing Threats}\"). When a ship passes over a submerged sandbar, the sandbar counts as difficult terrain, and the ship must succeed on a Dexterity saving throw. The DC of this save corresponds with the depth of the sandbar, as listed on the Sandbar DCs table. If the ship fails this save, it gets stuck on the sandbar. A ship can become unstuck by using an action to make a Strength check, with a bonus equal to the crew's quality, against the sandbar's DC.",
 								{
 									"type": "table",
 									"caption": "Sandbar DCs",
@@ -7728,7 +7728,7 @@
 										],
 										[
 											"Quartermaster",
-											"Wisdom ({@skill Nature})"
+											"Saviesa ({@skill Nature})"
 										]
 									]
 								},
@@ -7837,7 +7837,7 @@
 						"{@b Captain}. The captain issues orders. The best captains have high Intelligence and Carisma scores, as well as proficiency with water vehicles and the {@skill Intimidation} and {@skill Persuasion} skills.",
 						"{@b First Mate}. This specialist keeps the crew's morale high by providing supervision, encouragement, and discipline. A first mate benefits from a high Carisma score, as well as proficiency with the {@skill Intimidation} and {@skill Persuasion} skills.",
 						"{@b Bosun}. The bosun (or boatswain) provides technical advice to the captain and crew and leads repair and maintenance efforts. A good bosun has a high Strength score, as well as proficiency with {@item carpenter's tools|PHB} and the {@skill Athletics} skill.",
-						"{@b Quartermaster}. The quartermaster plots the ship's course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Wisdom score, as well as proficiency with {@item navigator's tools|PHB} and the {@skill Nature} skill.",
+						"{@b Quartermaster}. The quartermaster plots the ship's course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Saviesa score, as well as proficiency with {@item navigator's tools|PHB} and the {@skill Nature} skill.",
 						"{@b Surgeon}. The ship's surgeon tends to injuries, keeps illnesses from spreading throughout the ship, and oversees sanitation. A capable surgeon benefits from a high Intelligence score, as well as proficiency with {@item Herbalism Kit|PHB|herbalism kits} and the {@skill Medicine} skill.",
 						"{@b Cook}. A ship's cook works with the limited ingredients aboard a ship to make meals. A skilled cook keeps the crew's morale in top shape, while a poor one drags down the entire crew's performance. A talented cook has a high Constitution score, as well as proficiency with {@item brewer's supplies|PHB} and {@item cook's utensils|PHB}."
 					]
@@ -7983,7 +7983,7 @@
 							"type": "entries",
 							"name": "Memory Loss",
 							"entries": [
-								"A creature that leaves the Feywild must make a DC 10 Wisdom saving throw. Fey creatures automatically succeed on the saving throw, as do any creatures, like elves, that have the Fey Ancestry trait. A creature that fails the saving throw remembers nothing from its time spent in the Feywild. On a successful save, the creature's memories remain intact but are a little hazy. Any spell that can end a curse can restore the creature's lost memories."
+								"A creature that leaves the Feywild must make a DC 10 Saviesa saving throw. Fey creatures automatically succeed on the saving throw, as do any creatures, like elves, that have the Fey Ancestry trait. A creature that fails the saving throw remembers nothing from its time spent in the Feywild. On a successful save, the creature's memories remain intact but are a little hazy. Any spell that can end a curse can restore the creature's lost memories."
 							]
 						},
 						{
@@ -8039,7 +8039,7 @@
 					"name": "Shadowfell: Shadowfell Despair",
 					"entries": [
 						"A melancholic atmosphere pervades the Shadowfell. Extended forays to this plane can afflict characters with despair, as reflected in this optional rule.",
-						"When you deem it appropriate, though usually not more than once per day, you can require a character not native to the Shadowfell to make a DC 10 Wisdom saving throw. On a failure, the character is affected by despair. Roll a {@dice d6} to determine the effects, using the Shadowfell Despair table. You can substitute different despair effects of your own creation.",
+						"When you deem it appropriate, though usually not more than once per day, you can require a character not native to the Shadowfell to make a DC 10 Saviesa saving throw. On a failure, the character is affected by despair. Roll a {@dice d6} to determine the effects, using the Shadowfell Despair table. You can substitute different despair effects of your own creation.",
 						{
 							"type": "table",
 							"caption": "Shadowfell Despair",
@@ -8062,11 +8062,11 @@
 								],
 								[
 									"6",
-									"{@bold Madness.} The character has disadvantage on ability checks and saving throws that use Intelligence, Wisdom, or Carisma, and gains the following flaw: \"I can't tell what's real anymore.\""
+									"{@bold Madness.} The character has disadvantage on ability checks and saving throws that use Intelligence, Saviesa, or Carisma, and gains the following flaw: \"I can't tell what's real anymore.\""
 								]
 							]
 						},
-						"If a character is already suffering a despair effect and fails the saving throw, the new despair effect replaces the old one. After finishing a long rest, a character can attempt to overcome the despair with a DC 15 Wisdom saving throw. (The DC is higher because it's harder to shake off despair once it has taken hold.) On a successful save, the despair effect ends for that character.",
+						"If a character is already suffering a despair effect and fails the saving throw, the new despair effect replaces the old one. After finishing a long rest, a character can attempt to overcome the despair with a DC 15 Saviesa saving throw. (The DC is higher because it's harder to shake off despair once it has taken hold.) On a successful save, the despair effect ends for that character.",
 						"A {@spell calm emotions} spell removes despair, as does any spell or other magical effect that removes a curse."
 					]
 				},
@@ -8088,21 +8088,21 @@
 					"type": "entries",
 					"name": "Bytopia: Pervasive Goodwill",
 					"entries": [
-						"At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the {@spell dispel evil and good} spell on the creature also restores its original alignment."
+						"At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good must make a DC 10 Saviesa saving throw. On a failed save, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the {@spell dispel evil and good} spell on the creature also restores its original alignment."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Elysium: Overwhelming Joy",
 					"entries": [
-						"Visitors spending any time on this plane risk becoming trapped by overwhelming sensations of contentment and happiness. At the end of each long rest taken on this plane, a visitor must make a DC 10 Wisdom saving throw. On a failed save, the creature is unwilling to leave the plane before taking another long rest. After three failed saving throws, the creature never willingly leaves the plane and, if forcibly removed, does everything in its power to return to the plane. A {@spell dispel evil and good} spell removes this effect from the creature."
+						"Visitors spending any time on this plane risk becoming trapped by overwhelming sensations of contentment and happiness. At the end of each long rest taken on this plane, a visitor must make a DC 10 Saviesa saving throw. On a failed save, the creature is unwilling to leave the plane before taking another long rest. After three failed saving throws, the creature never willingly leaves the plane and, if forcibly removed, does everything in its power to return to the plane. A {@spell dispel evil and good} spell removes this effect from the creature."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "The Beastlands: Hunter's Paradise",
 					"entries": [
-						"Visitors to the Beastlands find their hunting and stalking capabilities improved, and characters have advantage on Wisdom ({@skill Animal Handling}), Wisdom ({@skill Perception}), and Wisdom ({@skill Survival}) checks while there."
+						"Visitors to the Beastlands find their hunting and stalking capabilities improved, and characters have advantage on Saviesa ({@skill Animal Handling}), Saviesa ({@skill Perception}), and Saviesa ({@skill Survival}) checks while there."
 					]
 				},
 				{
@@ -8139,7 +8139,7 @@
 					"type": "entries",
 					"name": "Pandemonium: Mad Winds",
 					"entries": [
-						"A visitor must make a DC 10 Wisdom saving throw after each hour spent among the howling winds. On a failed save, the creature gains one level of {@condition exhaustion}. A creature that reaches six levels of {@condition exhaustion} while on this plane doesn't die. Instead, the creature gains a random form of indefinite madness, as described in chapter 8, \"Running the Game.\" Finishing a long rest doesn't reduce a creature's {@condition exhaustion} level unless the creature can somehow escape the maddening winds."
+						"A visitor must make a DC 10 Saviesa saving throw after each hour spent among the howling winds. On a failed save, the creature gains one level of {@condition exhaustion}. A creature that reaches six levels of {@condition exhaustion} while on this plane doesn't die. Instead, the creature gains a random form of indefinite madness, as described in chapter 8, \"Running the Game.\" Finishing a long rest doesn't reduce a creature's {@condition exhaustion} level unless the creature can somehow escape the maddening winds."
 					]
 				},
 				{
@@ -8193,7 +8193,7 @@
 					"type": "entries",
 					"name": "Hades: Vile Transformation",
 					"entries": [
-						"At the end of each long rest taken on the plane, a visitor must make a DC 10 Wisdom saving throw. On a failed save, the creature gains one level of {@condition exhaustion}, which can't be removed while the creature remains in Hades. If the creature reaches six levels of {@condition exhaustion}, it doesn't die. Instead, the creature permanently transforms into a larva, whereupon all levels of {@condition exhaustion} afflicting the creature are removed.",
+						"At the end of each long rest taken on the plane, a visitor must make a DC 10 Saviesa saving throw. On a failed save, the creature gains one level of {@condition exhaustion}, which can't be removed while the creature remains in Hades. If the creature reaches six levels of {@condition exhaustion}, it doesn't die. Instead, the creature permanently transforms into a larva, whereupon all levels of {@condition exhaustion} afflicting the creature are removed.",
 						"A larva is a miserable fiend that retains the facial features of its previous form but has the body of a fat worm. A larva has only a few faint memories of its previous life and the statistics in the {@creature larva|dmg} stat block. Hades is crawling with larvae. Night hags, liches, and rakshasas harvest them for use in vile rituals. Other fiends like to feed on them."
 					]
 				},
@@ -8208,7 +8208,7 @@
 					"type": "entries",
 					"name": "The Nine Hells: Pervasive Evil",
 					"entries": [
-						"Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the {@spell dispel evil and good} spell on the creature also restores its original alignment."
+						"Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Saviesa saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the {@spell dispel evil and good} spell on the creature also restores its original alignment."
 					]
 				},
 				{
@@ -8229,7 +8229,7 @@
 					"type": "entries",
 					"name": "Mechanus: Imposing Order",
 					"entries": [
-						"At the end of each long rest taken on this plane, a visitor that isn't lawful neutral must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful neutral. The creature's alignment reverts to normal after one day spent on a plane other than Mechanus. Casting the {@spell dispel evil and good} spell on the creature also restores its original alignment."
+						"At the end of each long rest taken on this plane, a visitor that isn't lawful neutral must make a DC 10 Saviesa saving throw. On a failed save, the creature's alignment changes to lawful neutral. The creature's alignment reverts to normal after one day spent on a plane other than Mechanus. Casting the {@spell dispel evil and good} spell on the creature also restores its original alignment."
 					]
 				},
 				{
@@ -9940,7 +9940,7 @@
 						{
 							"type": "item",
 							"name": "Quartermaster.",
-							"entry": "The quartermaster plots the ship's course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Wisdom score, as well as proficiency with navigator's tools and the Nature skill."
+							"entry": "The quartermaster plots the ship's course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Saviesa score, as well as proficiency with navigator's tools and the Nature skill."
 						},
 						{
 							"type": "item",
@@ -10002,8 +10002,8 @@
 							"type": "entries",
 							"name": "Ability Scores",
 							"entries": [
-								"A ship has the six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Carisma) and the corresponding modifiers.",
-								"The Strength of a ship expresses its size and weight. Dexterity represents a ship's ease of handling. A ship's Constitution covers its durability and the quality of its construction. Ships usually have a score of 0 in Intelligence, Wisdom, and Carisma.",
+								"A ship has the six ability scores (Strength, Dexterity, Constitution, Intelligence, Saviesa, and Carisma) and the corresponding modifiers.",
+								"The Strength of a ship expresses its size and weight. Dexterity represents a ship's ease of handling. A ship's Constitution covers its durability and the quality of its construction. Ships usually have a score of 0 in Intelligence, Saviesa, and Carisma.",
 								"If a ship has a 0 in a score, it automatically fails any ability check or saving throw that uses that score."
 							]
 						},
@@ -10131,7 +10131,7 @@
 							"type": "entries",
 							"name": "Ability Scores",
 							"entries": [
-								"A ship has the six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Carisma) and corresponding modifiers. A ship's Strength represents its size and weight. Dexterity represents a ship's ease of handling. A ship's Constitution covers its durability and the quality of its construction. Ships usually have a score of 0 in Intelligence, Wisdom, and Carisma.",
+								"A ship has the six ability scores (Strength, Dexterity, Constitution, Intelligence, Saviesa, and Carisma) and corresponding modifiers. A ship's Strength represents its size and weight. Dexterity represents a ship's ease of handling. A ship's Constitution covers its durability and the quality of its construction. Ships usually have a score of 0 in Intelligence, Saviesa, and Carisma.",
 								"If a ship has a 0 in a score, it automatically fails any ability check or saving throw that uses that score."
 							]
 						},
@@ -10524,7 +10524,7 @@
 										"type": "entries",
 										"name": "Ability Score Improvement",
 										"entries": [
-											"The spellcaster's Int. (mage) or Wis. (healer) score increases by 2, raising the modifier by 1, so increase the following numbers by 1: the spellcaster's spell save DC and the bonus a impactar of spell attacks, the bonuses in the Skills entry of the mage, the Wisdom saving throw bonus of the healer, and the passive Perception of the healer. Spellcasting. The spellcaster learns another cantrip: {@spell resistance} (healer) or {@spell mage hand} (mage)."
+											"The spellcaster's Int. (mage) or Wis. (healer) score increases by 2, raising the modifier by 1, so increase the following numbers by 1: the spellcaster's spell save DC and the bonus a impactar of spell attacks, the bonuses in the Skills entry of the mage, the Saviesa saving throw bonus of the healer, and the passive Perception of the healer. Spellcasting. The spellcaster learns another cantrip: {@spell resistance} (healer) or {@spell mage hand} (mage)."
 										]
 									}
 								],
@@ -10827,7 +10827,7 @@
 							"rows": [
 								[
 									"{@class Barbarian}",
-									"Strength, Dexterity, or Wisdom"
+									"Strength, Dexterity, or Saviesa"
 								],
 								[
 									"{@class Bard}",
@@ -10835,15 +10835,15 @@
 								],
 								[
 									"{@class Cleric}",
-									"Intelligence, Wisdom, or Carisma"
+									"Intelligence, Saviesa, or Carisma"
 								],
 								[
 									"{@class Druid}",
-									"Intelligence or Wisdom"
+									"Intelligence or Saviesa"
 								],
 								[
 									"{@class Fighter}",
-									"Strength, Dexterity, or Wisdom"
+									"Strength, Dexterity, or Saviesa"
 								],
 								[
 									"{@class Monk}",
@@ -10851,15 +10851,15 @@
 								],
 								[
 									"{@class Paladin}",
-									"Strength, Wisdom, or Carisma"
+									"Strength, Saviesa, or Carisma"
 								],
 								[
 									"{@class Ranger}",
-									"Strength, Dexterity, or Wisdom"
+									"Strength, Dexterity, or Saviesa"
 								],
 								[
 									"{@class Rogue}",
-									"Dexterity, Intelligence, Wisdom, or Carisma"
+									"Dexterity, Intelligence, Saviesa, or Carisma"
 								],
 								[
 									"{@class Sorcerer}",
@@ -10871,7 +10871,7 @@
 								],
 								[
 									"{@class Wizard}",
-									"Intelligence or Wisdom"
+									"Intelligence or Saviesa"
 								]
 							]
 						},
@@ -10924,7 +10924,7 @@
 					"name": "Waking Someone",
 					"entries": [
 						"A creature that is naturally sleeping, as opposed to being in a magically or chemically induced sleep, wakes up if it takes any damage or if someone else uses an action to shake or slap the creature awake. A sudden loud noise\u2014such as yelling, thunder, or a ringing bell\u2014also awakens someone that is sleeping naturally.",
-						"Whispers don't disturb sleep, unless a sleeper's passive Wisdom (Perception) score is 20 or higher and the whispers are within 10 feet of the sleeper. Speech at a normal volume awakens a sleeper if the environment is otherwise silent (no wind, birdsong, crickets, street sounds, or the like) and the sleeper has a passive Wisdom (Perception) score of 15 or higher."
+						"Whispers don't disturb sleep, unless a sleeper's passive Saviesa (Perception) score is 20 or higher and the whispers are within 10 feet of the sleeper. Speech at a normal volume awakens a sleeper if the environment is otherwise silent (no wind, birdsong, crickets, street sounds, or the like) and the sleeper has a passive Saviesa (Perception) score of 15 or higher."
 					]
 				},
 				{
@@ -11150,7 +11150,7 @@
 					"entries": [
 						"Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.",
 						"If the character perceived the casting, the spell's effect, or both, the character can make an Intelligence (Arcana) check with their reaction or action. The DC equals 15 + the spell's level. If the spell is cast as a class spell and the character is a member of that class, the check is made with advantage. For example, if the spellcaster casts a spell as a cleric, another cleric has advantage on the check to identify the spell. Some spells aren't associated with any class when they're cast, such as when a monster uses its Innate Spellcasting trait.",
-						"This Intelligence (Arcana) check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose spellcasting ability is Wisdom or Carisma. Being able to cast spells doesn't by itself make you adept at deducing exactly what others are doing when they cast their spells."
+						"This Intelligence (Arcana) check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose spellcasting ability is Saviesa or Carisma. Being able to cast spells doesn't by itself make you adept at deducing exactly what others are doing when they cast their spells."
 					]
 				},
 				{
@@ -11757,7 +11757,7 @@
 									"type": "entries",
 									"name": "Added Benefit",
 									"entries": [
-										"In addition, consider giving characters who have both a relevant skill and a relevant tool proficiency an added benefit on a successful check. This benefit might be in the form of more detailed information or could simulate the effect of a different sort of successful check. For example, a character proficient with {@item mason's tools|phb} makes a successful Wisdom ({@skill Perception}) check to find a secret door in a stone wall. Not only does the character notice the door's presence, but you decide that the tool proficiency entitles the character to an automatic success on an Intelligence ({@skill Investigation}) check to determine how to open the door."
+										"In addition, consider giving characters who have both a relevant skill and a relevant tool proficiency an added benefit on a successful check. This benefit might be in the form of more detailed information or could simulate the effect of a different sort of successful check. For example, a character proficient with {@item mason's tools|phb} makes a successful Saviesa ({@skill Perception}) check to find a secret door in a stone wall. Not only does the character notice the door's presence, but you decide that the tool proficiency entitles the character to an automatic success on an Intelligence ({@skill Investigation}) check to determine how to open the door."
 									]
 								}
 							]
@@ -13518,7 +13518,7 @@
 							"type": "entries",
 							"name": "Forage",
 							"entries": [
-								"The character casts fishing lines, keeping an eye out for sources of food, making a Wisdom ({@skill Survival}) check when the DM calls for it."
+								"The character casts fishing lines, keeping an eye out for sources of food, making a Saviesa ({@skill Survival}) check when the DM calls for it."
 							]
 						},
 						{
@@ -13532,14 +13532,14 @@
 							"type": "entries",
 							"name": "Navigate (Quartermaster Only)",
 							"entries": [
-								"The quartermaster can try to prevent the ship from becoming lost, making a Wisdom ({@skill Survival}) check when the DM calls for it. (See \"{@book Becoming Lost|DMG|5|Becoming Lost}\" in chapter 5 of the {@book Dungeon Master's Guide|DMG} for more information.)"
+								"The quartermaster can try to prevent the ship from becoming lost, making a Saviesa ({@skill Survival}) check when the DM calls for it. (See \"{@book Becoming Lost|DMG|5|Becoming Lost}\" in chapter 5 of the {@book Dungeon Master's Guide|DMG} for more information.)"
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Noticing Threats",
 							"entries": [
-								"Use the passive Wisdom ({@skill Perception}) score of the player characters or the crew to determine whether anyone on the ship notices a hidden threat. The crew has a passive Wisdom ({@skill Perception}) score equal to 10 + the crew's quality score. The DM might decide that a threat can be noticed only by characters in a specific area of the ship. For example, only characters below deck might have a chance to hear or spot a creature hiding on board."
+								"Use the passive Saviesa ({@skill Perception}) score of the player characters or the crew to determine whether anyone on the ship notices a hidden threat. The crew has a passive Saviesa ({@skill Perception}) score equal to 10 + the crew's quality score. The DM might decide that a threat can be noticed only by characters in a specific area of the ship. For example, only characters below deck might have a chance to hear or spot a creature hiding on board."
 							]
 						},
 						{
@@ -13895,7 +13895,7 @@
 										],
 										[
 											"Quartermaster",
-											"Wisdom ({@skill Nature})"
+											"Saviesa ({@skill Nature})"
 										]
 									]
 								},
@@ -14093,7 +14093,7 @@
 										],
 										[
 											"Quartermaster",
-											"Wisdom ({@skill Nature})"
+											"Saviesa ({@skill Nature})"
 										]
 									]
 								},
@@ -14166,7 +14166,7 @@
 							"type": "entries",
 							"name": "Forage",
 							"entries": [
-								"The character casts out fishing lines, keeping an eye out for sources of food, making a Wisdom (Survival) check when the DM calls for it."
+								"The character casts out fishing lines, keeping an eye out for sources of food, making a Saviesa (Survival) check when the DM calls for it."
 							]
 						},
 						{
@@ -14180,14 +14180,14 @@
 							"type": "entries",
 							"name": "Navigate (Quartermaster Only)",
 							"entries": [
-								"The quartermaster can try to prevent the group from becoming lost, making a Wisdom (Survival) check when the DM calls for it. (See \"{@book Becoming Lost|dmg|5|becoming lost}\" in chapter 5 of the Dungeon Master's Guide for more information.)"
+								"The quartermaster can try to prevent the group from becoming lost, making a Saviesa (Survival) check when the DM calls for it. (See \"{@book Becoming Lost|dmg|5|becoming lost}\" in chapter 5 of the Dungeon Master's Guide for more information.)"
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Noticing Threats",
 							"entries": [
-								"Use the passive Wisdom (Perception) score of the characters or the crew to determine whether anyone on the ship notices a hidden threat. The crew has a passive Wisdom (Perception) score equal to 10 + the crew's quality score. The DM might decide that a threat can be noticed only by characters in a specific area of the ship. For example, only characters below deck might have a chance to hear or spot a creature hiding on board."
+								"Use the passive Saviesa (Perception) score of the characters or the crew to determine whether anyone on the ship notices a hidden threat. The crew has a passive Saviesa (Perception) score equal to 10 + the crew's quality score. The DM might decide that a threat can be noticed only by characters in a specific area of the ship. For example, only characters below deck might have a chance to hear or spot a creature hiding on board."
 							]
 						},
 						{
@@ -14243,7 +14243,7 @@
 										],
 										[
 											"Quartermaster ",
-											"Wisdom (Nature)"
+											"Saviesa (Nature)"
 										],
 										[
 											"Surgeon",
@@ -14322,7 +14322,7 @@
 									"type": "entries",
 									"name": "Plague",
 									"entries": [
-										"An illness sweeps through the ranks, perhaps caused by rats or insects that made their way aboard. The surgeon must make a DC 15 Wisdom (Medicine) check. On a failed check, the crew's quality score decreases by 5 for {@dice 1d6} days."
+										"An illness sweeps through the ranks, perhaps caused by rats or insects that made their way aboard. The surgeon must make a DC 15 Saviesa (Medicine) check. On a failed check, the crew's quality score decreases by 5 for {@dice 1d6} days."
 									]
 								},
 								{
@@ -14444,7 +14444,7 @@
 									"name": "Glowing Mosaic",
 									"entries": [
 										"Pink, purple, and blue crystals cover the walls in a mosaic that depicts merfolk raising their hands toward an aboleth. These crystals give off dim light that fills the cave. A {@spell detect magic} spell or similar effect reveals an aura of divination magic radiating from the mosaic.",
-										"A creature that takes a short or long rest in the cave receives at the end of the rest a vague vision of a danger it might face within the next 10 days. If the creature isn't an aberration, it must succeed on a DC 14 Wisdom saving throw or gain a random form of short-term madness (see \"{@book Madness|DMG|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|DMG}).",
+										"A creature that takes a short or long rest in the cave receives at the end of the rest a vague vision of a danger it might face within the next 10 days. If the creature isn't an aberration, it must succeed on a DC 14 Saviesa saving throw or gain a random form of short-term madness (see \"{@book Madness|DMG|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|DMG}).",
 										"Removing a crystal from the wall causes that crystal to stop glowing and become worthless. Removing all of the crystals from the wall by hand takes 24 hours of work divided by the number of creatures performing the task (rounded down). As long as at least one crystal remains embedded in the wall, the mosaic's magic functions."
 									]
 								}
@@ -14462,7 +14462,7 @@
 									"entries": [
 										"A pedestal-like rock near the middle of the reef rises 5 feet above the coral. The rock holds an algae-covered stone statue of an enormous clam. A character who makes a successful DC 20 Intelligence ({@skill History}) check knows that the clam is the symbol of the aboleth Ogrorlo.",
 										"A {@spell detect magic} spell or similar effect reveals an aura of enchantment magic emanating from the statue. Every night at midnight the statue sheds bright green light in a 20-foot radius and dim light for another 20 feet for 4 hours.",
-										"A creature that touches the statue feels bolstered and happy, gaining 10 temporary hit points. This feeling also makes the creature more likely to trust others, giving it disadvantage on Wisdom ({@skill Insight}) checks and saving throws against being {@condition charmed} for the next 24 hours.",
+										"A creature that touches the statue feels bolstered and happy, gaining 10 temporary hit points. This feeling also makes the creature more likely to trust others, giving it disadvantage on Saviesa ({@skill Insight}) checks and saving throws against being {@condition charmed} for the next 24 hours.",
 										"The statue can affect a creature only once every 24 hours. Aberrations and creatures that can't be {@condition charmed} are unaffected if they touch the statue."
 									]
 								}
@@ -14503,7 +14503,7 @@
 							"name": "C5. Giant Anemone",
 							"entries": [
 								"This enormous orange, red, and purple anemone anchored to the side of a boulder is a trap from the time of Ogrorlo meant to guard the cove.",
-								"When a creature starts its turn within 20 feet of the anemone, it must make a DC 14 Wisdom saving throw. On a failure, the creature abandons whatever it is doing and gives in to a sudden overwhelming urge to touch the anemone, attacking creatures that get in its way. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Aberrations, beasts, and creatures that can't be {@condition charmed} are immune to this effect. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this effect for the next 24 hours.",
+								"When a creature starts its turn within 20 feet of the anemone, it must make a DC 14 Saviesa saving throw. On a failure, the creature abandons whatever it is doing and gives in to a sudden overwhelming urge to touch the anemone, attacking creatures that get in its way. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Aberrations, beasts, and creatures that can't be {@condition charmed} are immune to this effect. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this effect for the next 24 hours.",
 								"The anemone's tentacles deliver a poisonous sting. A creature that touches the anemone must make a DC 12 Constitution saving throw, taking 11 ({@dice 2d10}) de dany de verí on a failed save, ; si supera, en rep la meitat.",
 								"The anemone has AC 10 and 45 hit points."
 							]
@@ -14608,7 +14608,7 @@
 												"They don't carry longbows."
 											]
 										},
-										"When the merfolk spy the characters, Talnad begs them for help, saying she dropped her seashell necklace in the gorge. The merfolk don't have a light source to search the bottom of the gorge and hope the characters can help. A character who makes a successful Wisdom ({@skill Insight}) check contested by Talnad's Carisma ({@skill Deception}) check discerns that she isn't telling the whole truth.",
+										"When the merfolk spy the characters, Talnad begs them for help, saying she dropped her seashell necklace in the gorge. The merfolk don't have a light source to search the bottom of the gorge and hope the characters can help. A character who makes a successful Saviesa ({@skill Insight}) check contested by Talnad's Carisma ({@skill Deception}) check discerns that she isn't telling the whole truth.",
 										"If the characters follow the merfolk into the gorge, Talnad and Valas lead the group to Allero and then attack. If the characters refuse to help, the merfolk whistle for Allero and attack when the octopus arrives. If this battle goes poorly for the merfolk, they dive to the bottom of the gorge toward the chuul, hoping the characters follow.",
 										"A character who captures one or both of the merfolk and makes a successful DC 12 Carisma ({@skill Intimidation}) check convinces the merfolk to reveal the truth about the floating bones. Otherwise the merfolk deny knowing anything about the bones."
 									]
@@ -14617,7 +14617,7 @@
 									"type": "entries",
 									"name": "Disturbed Grave",
 									"entries": [
-										"If a character examines the merfolk mass grave, a successful DC 12 Intelligence ({@skill Investigation}) or Wisdom ({@skill Survival}) check reveals marks in the mud on the ground\u2014some of the bones were recently dug up by webbed humanoid hands."
+										"If a character examines the merfolk mass grave, a successful DC 12 Intelligence ({@skill Investigation}) or Saviesa ({@skill Survival}) check reveals marks in the mud on the ground\u2014some of the bones were recently dug up by webbed humanoid hands."
 									]
 								}
 							]
@@ -14675,7 +14675,7 @@
 									"type": "entries",
 									"name": "Help from New Friends",
 									"entries": [
-										"If the three {@creature Sea Hag||sea hags} spot the characters, they approach in the guise of three merfolk named Ranna, Caulau, and Vira, who claim that the rest of their tribe was killed by the minions of Granny Nightshade. They try to convince the characters to attack the night hag's fortress. A character who makes a successful Wisdom ({@skill Insight}) check contested by the hags' Carisma ({@skill Deception}) checks discerns that the \"merfolk\" aren't telling the truth about their tribe. If called out on their lies, the hags reveal their true nature and ask for the characters' help in overthrowing Granny Nightshade. They agree to give the characters a share of the night hag's treasure when they depose her.",
+										"If the three {@creature Sea Hag||sea hags} spot the characters, they approach in the guise of three merfolk named Ranna, Caulau, and Vira, who claim that the rest of their tribe was killed by the minions of Granny Nightshade. They try to convince the characters to attack the night hag's fortress. A character who makes a successful Saviesa ({@skill Insight}) check contested by the hags' Carisma ({@skill Deception}) checks discerns that the \"merfolk\" aren't telling the truth about their tribe. If called out on their lies, the hags reveal their true nature and ask for the characters' help in overthrowing Granny Nightshade. They agree to give the characters a share of the night hag's treasure when they depose her.",
 										"If the characters attack, the hags fight back until one of them falls, and then the other two flee."
 									]
 								},
@@ -14853,7 +14853,7 @@
 									"type": "entries",
 									"name": "Treasure",
 									"entries": [
-										"A character who succeeds on a DC 13 Wisdom ({@skill Perception}) check while searching the room finds a set of gilded navigator's tools (100 gp) amid a great deal of ruined paper and deteriorated clothing."
+										"A character who succeeds on a DC 13 Saviesa ({@skill Perception}) check while searching the room finds a set of gilded navigator's tools (100 gp) amid a great deal of ruined paper and deteriorated clothing."
 									]
 								}
 							]
@@ -14986,7 +14986,7 @@
 									"type": "entries",
 									"name": "Cursed Daga",
 									"entries": [
-										"The cursed dagger, decorated with the hand and eye symbol of Vecna, is hidden beneath the statue of St. Cuthbert in {@adventure area M3|GoS|8|M3. Cargo Hold}. A character can spot it with a successful DC 17 Wisdom ({@skill Perception}) check. A {@spell detect magic} spell or similar effect reveals an aura of necromancy magic radiating from the dagger.",
+										"The cursed dagger, decorated with the hand and eye symbol of Vecna, is hidden beneath the statue of St. Cuthbert in {@adventure area M3|GoS|8|M3. Cargo Hold}. A character can spot it with a successful DC 17 Saviesa ({@skill Perception}) check. A {@spell detect magic} spell or similar effect reveals an aura of necromancy magic radiating from the dagger.",
 										"Whenever an undead creature is destroyed within 500 feet of the dagger, the creature's essence is trapped in the blade, and {@dice 1d10} days later the creature re-forms with all its hit points in a space within 10 feet of the dagger. When a creature that is not undead and does not worship Vecna touches the dagger, that creature must succeed on a DC 12 Constitution saving throw or become {@condition paralyzed} for 1 hour. If the creature is still touching the dagger when the condition ends, that creature must repeat the saving throw, becoming subject to the effect again on a failure.",
 										"A character who examines the dagger and succeeds on a DC 15 Intelligence ({@skill Arcana}) check discerns that casting {@spell dispel magic} on the dagger or striking the dagger with a magic or adamantine weapon will cause the dagger to break. The ghosts in area M9 know how to destroy the dagger. If the dagger is destroyed, the undead it created are destroyed, and their souls return to the afterlife."
 									]
@@ -15304,7 +15304,7 @@
 									"name": "W6d. Priest's Room",
 									"entries": [
 										"Broken wood furniture and rusty mattress springs cover the floor.",
-										"A character notices the outline of a secret compartment in the wall with a successful DC 15 Wisdom ({@skill Perception}) check. The compartment holds an iron holy symbol of Erythnul."
+										"A character notices the outline of a secret compartment in the wall with a successful DC 15 Saviesa ({@skill Perception}) check. The compartment holds an iron holy symbol of Erythnul."
 									]
 								},
 								{
@@ -15387,7 +15387,7 @@
 									"type": "entries",
 									"name": "W7g. Grand Staircase",
 									"entries": [
-										"This staircase's stone railing is carved to look like a long tentacle. A {@creature giant octopus} lives under the stairs and attacks only if disturbed. {@creature Yalaga Maladwyn|GoS} (see {@adventure area W7c|GoS|8| W7c. Meditation Chamber. Tattered tapestries and cold, rusty braziers decorate this chamber. {@creature Yalaga Maladwyn|GoS} sits cross-legged in the center of the room. She is a drow priestess of Lolth, with the following changes:}) feeds this octopus and considers it a friend. A character can peacefully coax the octopus from its nest with a successful DC 15 Wisdom ({@skill Animal Handling}) check.",
+										"This staircase's stone railing is carved to look like a long tentacle. A {@creature giant octopus} lives under the stairs and attacks only if disturbed. {@creature Yalaga Maladwyn|GoS} (see {@adventure area W7c|GoS|8| W7c. Meditation Chamber. Tattered tapestries and cold, rusty braziers decorate this chamber. {@creature Yalaga Maladwyn|GoS} sits cross-legged in the center of the room. She is a drow priestess of Lolth, with the following changes:}) feeds this octopus and considers it a friend. A character can peacefully coax the octopus from its nest with a successful DC 15 Saviesa ({@skill Animal Handling}) check.",
 										"A gold kraken statuette (100 gp) lies amid the waste in the octopus's nest."
 									]
 								},
@@ -15409,7 +15409,7 @@
 									"type": "entries",
 									"name": "W7j. Tower Roof",
 									"entries": [
-										"The top of this tower holds an indentation of one of Vaalastroth's tentacles, marking where the kraken touched the building to bless it. A creature that touches the indentation feels an overwhelming desire to pray to the kraken. If a creature offers a prayer to Vaalastroth, the creature must make a DC 15 Wisdom saving throw. On a successful save, the creature gains a {@i charm of animal conjuring} (see \"{@adventure Charms|DMG|-1}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG}), but can conjure only {@creature Octopus||octopuses} and {@creature Giant Octopus||giant octopuses}. On a failed save, the creature takes 16 ({@dice 3d10}) de dany psíquic."
+										"The top of this tower holds an indentation of one of Vaalastroth's tentacles, marking where the kraken touched the building to bless it. A creature that touches the indentation feels an overwhelming desire to pray to the kraken. If a creature offers a prayer to Vaalastroth, the creature must make a DC 15 Saviesa saving throw. On a successful save, the creature gains a {@i charm of animal conjuring} (see \"{@adventure Charms|DMG|-1}\" in chapter 7 of the {@book Dungeon Master's Guide|DMG}), but can conjure only {@creature Octopus||octopuses} and {@creature Giant Octopus||giant octopuses}. On a failed save, the creature takes 16 ({@dice 3d10}) de dany psíquic."
 									]
 								}
 							]

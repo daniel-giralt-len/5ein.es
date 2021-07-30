@@ -297,7 +297,7 @@ Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus actio
 LEGENDARY ACTIONS
 Mammon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Mammon regains spent legendary actions at the start of his turn.
 Attack. Mammon makes one purse or molten coins attack.
-Make It Rain! Mammon casts gold and jewels into a 5-foot radius within 60 feet. One creature within 60 feet of the treasure that can see it must make a DC 24 Wisdom saving throw. On a failure, the creature must use its reaction to move its speed toward the trinkets, which vanish at the end of the turn.
+Make It Rain! Mammon casts gold and jewels into a 5-foot radius within 60 feet. One creature within 60 feet of the treasure that can see it must make a DC 24 Saviesa saving throw. On a failure, the creature must use its reaction to move its speed toward the trinkets, which vanish at the end of the turn.
 Deep Pockets (3 actions). Mammon recharges his Your Weight In Gold ability.`;
 CreatureConverter.SAMPLE_MARKDOWN =
 	`___
@@ -348,7 +348,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >
 >- **Cantrip.** The lich casts a cantrip.
 >- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
->- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
+>- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
 >- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) de dany necròtic on a failed save, ; si supera, en rep la meitat.
 >
 >`;
@@ -518,7 +518,7 @@ class FeatConverter extends BaseConverter {
 FeatConverter.SAMPLE_TEXT = `Metamagic Adept
 Prerequisite: Spellcasting or Pact Magic feature
 You’ve learned how to exert your will on your spells to alter how they function. You gain the following benefits:
-• Increase your Intelligence, Wisdom, or Carisma score by 1, to a maximum of 20.
+• Increase your Intelligence, Saviesa, or Carisma score by 1, to a maximum of 20.
 • You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamagic options with another one from the sorcerer class.
 • You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest.
 `;
