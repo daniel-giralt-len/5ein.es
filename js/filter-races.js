@@ -736,15 +736,15 @@ class PageFilterRaces extends PageFilter {
 			items: [
 				"Player Choice",
 				"Any Strength Increase",
-				"Any Dexterity Increase",
+				"Any Destresa Increase",
 				"Any Constitució Increase",
 				"Any Intel·ligència Increase",
 				"Any Saviesa Increase",
 				"Any Carisma Increase",
 				"Strength +2",
 				"Strength +1",
-				"Dexterity +2",
-				"Dexterity +1",
+				"Destresa +2",
+				"Destresa +1",
 				"Constitució +2",
 				"Constitució +1",
 				"Intel·ligència +2",
@@ -919,7 +919,7 @@ class PageFilterRaces extends PageFilter {
 }
 PageFilterRaces.ASI_SORT_POS = {
 	Strength: 0,
-	Dexterity: 1,
+	Destresa: 1,
 	Constitució: 2,
 	Intel·ligència: 3,
 	Saviesa: 4,

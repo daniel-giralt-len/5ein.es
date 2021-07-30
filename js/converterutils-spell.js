@@ -47,7 +47,7 @@ class ConditionInflictTagger {
 class SavingThrowTagger {
 	static tryRun (sp, options) {
 		sp.savingThrow = [];
-		JSON.stringify([sp.entries, sp.entriesHigherLevel]).replace(/(Strength|Dexterity|Constitució|Intel·ligència|Saviesa|Carisma) saving throw/ig, (...m) => sp.savingThrow.push(m[1].toLowerCase()));
+		JSON.stringify([sp.entries, sp.entriesHigherLevel]).replace(/(Strength|Destresa|Constitució|Intel·ligència|Saviesa|Carisma) saving throw/ig, (...m) => sp.savingThrow.push(m[1].toLowerCase()));
 		if (!sp.savingThrow.length) delete sp.savingThrow;
 		else sp.savingThrow = [...new Set(sp.savingThrow)].sort(SortUtil.ascSort);
 	}
@@ -56,7 +56,7 @@ class SavingThrowTagger {
 class AbilityCheckTagger {
 	static tryRun (sp, options) {
 		sp.abilityCheck = [];
-		JSON.stringify([sp.entries, sp.entriesHigherLevel]).replace(/a (Strength|Dexterity|Constitució|Intel·ligència|Saviesa|Carisma) check/ig, (...m) => sp.abilityCheck.push(m[1].toLowerCase()));
+		JSON.stringify([sp.entries, sp.entriesHigherLevel]).replace(/a (Strength|Destresa|Constitució|Intel·ligència|Saviesa|Carisma) check/ig, (...m) => sp.abilityCheck.push(m[1].toLowerCase()));
 		if (!sp.abilityCheck.length) delete sp.abilityCheck;
 		else sp.abilityCheck = [...new Set(sp.abilityCheck)].sort(SortUtil.ascSort);
 	}

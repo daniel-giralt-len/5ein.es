@@ -2115,7 +2115,7 @@ Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_PSI] = "Psi.";
 
 Parser.ATB_ABV_TO_FULL = {
 	"str": "Strength",
-	"dex": "Dexterity",
+	"dex": "Destresa",
 	"con": "Constitució",
 	"int": "Intel·ligència",
 	"wis": "Saviesa",
@@ -3127,7 +3127,7 @@ Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", 
 
 Parser.SKILL_JSON_TO_FULL = {
 	"Acrobatics": [
-		"Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.",
+		"Your Destresa (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Destresa (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.",
 	],
 	"Animal Handling": [
 		"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Saviesa (Animal Handling) check. You also make a Saviesa (Animal Handling) check to control your mount when you attempt a risky maneuver.",
@@ -3180,10 +3180,10 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Your Intel·ligència (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
 	],
 	"Sleight of Hand": [
-		"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The DM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
+		"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Destresa (Sleight of Hand) check. The DM might also call for a Destresa (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
 	],
 	"Stealth": [
-		"Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
+		"Make a Destresa (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
 	],
 	"Survival": [
 		"The DM might ask you to make a Saviesa (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.",

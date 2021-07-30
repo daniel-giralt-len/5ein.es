@@ -6019,7 +6019,7 @@ Renderer.item = {
 		if (item.type === "LA" || item.type === "MA" || item.type === "HA") {
 			if (item.stealth) {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push({type: "wrapper", wrapped: "The wearer has disadvantage on Dexterity ({@skill Stealth}) checks.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
+				item._fullEntries.push({type: "wrapper", wrapped: "The wearer has disadvantage on Destresa ({@skill Stealth}) checks.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 			}
 			if (item.type === "HA" && item.strength) {
 				Renderer.item._initFullEntries(item);

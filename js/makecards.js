@@ -826,7 +826,7 @@ MakeCards.utils = class {
 			}
 			if (item.stealth) {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("Disadvantage on Stealth (Dexterity) checks.");
+				item._fullEntries.push("Disadvantage on Stealth (Destresa) checks.");
 			}
 			if (item.type === "HA" && item.strength) {
 				Renderer.item._initFullEntries(item);

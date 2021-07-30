@@ -129,9 +129,9 @@ class BaseParser {
 		// Opening brackets (e.g. damage; "(1d6 + 2)")
 		if (/^\(/.test(cleanLine) && !opts.noParenthesis) return true;
 		// An ability score name followed by "saving throw"
-		if (/^(Strength|Dexterity|Constitució|Intel·ligència|Saviesa|Carisma)\s+saving throw/.test(cleanLine) && !opts.noSavingThrow) return true;
+		if (/^(Strength|Destresa|Constitució|Intel·ligència|Saviesa|Carisma)\s+saving throw/.test(cleanLine) && !opts.noSavingThrow) return true;
 		// An ability score name
-		if (/^(Strength|Dexterity|Constitució|Intel·ligència|Saviesa|Carisma)\s/.test(cleanLine) && !opts.noAbilityName) return true;
+		if (/^(Strength|Destresa|Constitució|Intel·ligència|Saviesa|Carisma)\s/.test(cleanLine) && !opts.noAbilityName) return true;
 		// "Hit:" e.g. inside creature attacks
 		if (/^Hit:/.test(cleanLine) && !opts.noHit) return true;
 		if (/^(Intel·ligència|Saviesa|Carisma)\s+\(/.test(cleanLine) && !opts.noSpellcastingAbility) return true;
