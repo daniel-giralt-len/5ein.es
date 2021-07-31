@@ -199,8 +199,8 @@ const PARENTS_HALF_ORC = [
 const PARENTS_TIEFLING = [
 	{min: 1, max: 4, display: "Both parents were humans, their infernal heritage dormant until you came along.", _races: ["Humà", "Humà"]},
 	{min: 5, max: 6, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a tiefling and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a human.` }, display: "One parent was a tiefling and the other was a human.", _races: ["Humà", "Tíflin"]},
-	{min: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a tiefling and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a devil.` }, display: "One parent was a tiefling and the other was a devil.", _races: ["Devil", "Tíflin"]},
-	{min: 8, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a devil.` }, display: "One parent was a human and the other was a devil.", _races: ["Humà", "Devil"]},
+	{min: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a tiefling and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a devil.` }, display: "One parent was a tiefling and the other was a devil.", _races: ["Diable", "Tíflin"]},
+	{min: 8, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a devil.` }, display: "One parent was a human and the other was a devil.", _races: ["Humà", "Diable"]},
 ];
 
 const BIRTHPLACES = [
@@ -416,7 +416,7 @@ const LIFE_EVENTS_SUPERNATURAL = [
 	{min: 41, max: 50, result: "You escaped certain death and believe it was the intervention of a god that saved you."},
 	{min: 51, max: 60, result: "You witnessed a minor miracle."},
 	{min: 61, max: 70, result: "You explored an empty house and found it to be haunted."},
-	{min: 71, max: 75, result: () => { const p = RNG(6); return `You were briefly possessed. Roll a {@dice d6} to determine what type of creature possessed you: 1, celestial; 2, devil; 3, demon; 4, fey; 5, elemental; 6, undead ${fmtChoice(`${p}; ${["celestial", "devil", "demon", "fey", "elemental", "no-mort"][p - 1]}`)}.` }, display: "You were briefly possessed. Roll a {@dice d6} to determine what type of creature possessed you: 1, celestial; 2, devil; 3, demon; 4, fey; 5, elemental; 6, undead."},
+	{min: 71, max: 75, result: () => { const p = RNG(6); return `You were briefly possessed. Roll a {@dice d6} to determine what type of creature possessed you: 1, celestial; 2, devil; 3, demon; 4, fey; 5, elemental; 6, undead ${fmtChoice(`${p}; ${["celestial", "diable", "demon", "fey", "elemental", "no-mort"][p - 1]}`)}.` }, display: "You were briefly possessed. Roll a {@dice d6} to determine what type of creature possessed you: 1, celestial; 2, devil; 3, demon; 4, fey; 5, elemental; 6, undead."},
 	{min: 76, max: 80, result: "You saw a ghost."},
 	{min: 81, max: 85, result: "You saw a ghoul feeding on a corpse."},
 	{min: 86, max: 90, result: "A celestial or a fiend visited you in your dreams to give a warning of dangers to come."},
@@ -612,7 +612,7 @@ function onJsonLoad (lifeData, nameData) {
 			} else if (nameMeta.name === "Tíflin") {
 				const cpy = MiscUtil.copy(nameMeta);
 				cpy.tables = cpy.tables.filter(it => it.option !== "Virtue");
-				nameTables["devil"] = MiscUtil.copy(nameMeta);
+				nameTables["diable"] = MiscUtil.copy(nameMeta);
 			}
 		});
 }
