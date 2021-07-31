@@ -4629,7 +4629,7 @@ Renderer.monster = {
 					C: ["knock", "sleep", "detect thoughts", "blindness/deafness", "tasha's hideous laughter"],
 				},
 				3: {
-					U: ["wall of sand|XGE", "thunder step|XGE", "lightning bolt", "blink", "magic missile", "slow"],
+					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "blink", "magic missile", "slow"],
 					R: ["bola de foc", "raig d'incendi", "haste", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
 					O: ["slow", "bola de foc", "dispel magic", "counterspell", "Aganazzar's scorcher|XGE", "shield"],
 					S: ["sleet storm", "protection from energy", "catnap|XGE", "locate object", "identify", "Leomund's tiny hut"],
@@ -4655,7 +4655,7 @@ Renderer.monster = {
 					B: ["power word pain|XGE", "finger of death", "disintegrate", "hold monster"],
 					U: ["chain lightning", "forcecage", "teleport", "etherealness"],
 					G: ["project image", "mirage arcane", "esprai prismàtic", "teleport"],
-					Z: ["whirlwind|XGE", "chain lightning", "scatter|XGE", "teleport", "disintegrate", "lightning bolt"],
+					Z: ["whirlwind|XGE", "chain lightning", "scatter|XGE", "teleport", "disintegrate", "llampec"],
 					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Bigby's hand", "mental prison|XGE", "seeming"],
 					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingency", "arcane gate"],
 				},
