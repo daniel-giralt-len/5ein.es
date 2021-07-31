@@ -210,7 +210,7 @@ class TagCondition {
 			string: [
 				(str) => {
 					if (nameStack.includes("Debilitat Antimàgica")) return str;
-					if (nameStack.includes("Atac Furtiu (1/Turn)")) return str;
+					if (nameStack.includes("Atac Furtiu (1/Torn)")) return str;
 					const ptrStack = {_: ""};
 					return TagCondition._walkerStringHandler(ptrStack, 0, 0, str, inflictedSet)
 				},
