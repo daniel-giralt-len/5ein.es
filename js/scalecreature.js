@@ -516,7 +516,7 @@
 			"plate armor": 18,
 		},
 		_MEDIUM: {
-			"hide armor": 12,
+			"armadura de pells": 12,
 			"chain shirt": 13,
 			"scale mail": 14,
 			"breastplate": 14,

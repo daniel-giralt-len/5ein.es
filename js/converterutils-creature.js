@@ -147,7 +147,7 @@ class AcConvert {
 								// If there's an existing condition, flag a warning
 								if (cur.condition && cbMan) cbMan(fromLow, `AC requires manual checking: ${mon.name} ${mon.source} p${mon.page}`);
 								cur.condition = `${cur.condition ? `${cur.condition} ` : ""}${fromLow}`;
-							} else if (/scraps of .*?armor/i.test(fromLow)) { // e.g. "scraps of hide armor"
+							} else if (/scraps of .*?armor/i.test(fromLow)) { // e.g. "scraps of armadura de pells"
 								froms.push(fromLow);
 							} else {
 								if (cbMan) cbMan(fromLow, `AC requires manual checking: ${mon.name} ${mon.source} p${mon.page}`);
