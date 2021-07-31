@@ -1526,7 +1526,7 @@ InitiativeTracker.STAT_COLUMNS = {
 		get: mon => (mon.hp || {}).formula,
 	},
 	armorClass: {
-		name: "Armor Class",
+		name: "Classe d'Armadura",
 		abv: "AC",
 		get: mon => mon.ac[0] ? (mon.ac[0].ac || mon.ac[0]) : null,
 	},

@@ -204,7 +204,7 @@ class PageFilterItems extends PageFilterEquipment {
 			displayFn: StrUtil.toTitleCase,
 		});
 		this._attunementFilter = new Filter({header: "Attunement", items: [...PageFilterItems._FILTER_BASE_ITEMS_ATTUNEMENT], itemSortFn: PageFilterItems._sortAttunementFilter});
-		this._bonusFilter = new Filter({header: "Bonus", items: ["Armor Class", "Proficiency Bonus", "Spell Attacks", "Spell Save DC", "Saving Throws", "Weapon Attack and Damage Rolls", "Weapon Attack Rolls", "Weapon Damage Rolls"]});
+		this._bonusFilter = new Filter({header: "Bonus", items: ["Classe d'Armadura", "Proficiency Bonus", "Spell Attacks", "Spell Save DC", "Saving Throws", "Weapon Attack and Damage Rolls", "Weapon Attack Rolls", "Weapon Damage Rolls"]});
 		this._rechargeTypeFilter = new Filter({header: "Recharge Type", displayFn: Parser.itemRechargeToFull})
 		this._miscFilter = new Filter({header: "Miscellaneous", items: ["Ability Score Adjustment", "Charges", "Cursed", "Grants Proficiency", "Has Images", "Has Info", "Item Group", "Magic", "Mundane", "Sentient", "SRD"], isSrdFilter: true});
 		this._baseSourceFilter = new SourceFilter({header: "Base Source", selFn: null});
@@ -233,7 +233,7 @@ class PageFilterItems extends PageFilterEquipment {
 		item._fBaseItemAll = item._fBaseItemSelf ? [item._fBaseItemSelf, ...item._fBaseItem] : item._fBaseItem;
 
 		item._fBonus = [];
-		if (item.bonusAc) item._fBonus.push("Armor Class");
+		if (item.bonusAc) item._fBonus.push("Classe d'Armadura");
 		if (item.bonusWeapon) item._fBonus.push("Weapon Attack and Damage Rolls");
 		if (item.bonusWeaponAttack) item._fBonus.push("Weapon Attack Rolls");
 		if (item.bonusWeaponDamage) item._fBonus.push("Weapon Damage Rolls");

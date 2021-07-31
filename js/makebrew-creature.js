@@ -834,7 +834,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getAcInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Armor Class", {isMarked: true});
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Classe d'Armadura", {isMarked: true});
 
 		const doUpdateState = () => {
 			this._state.ac = acRows.map($row => $row.getAc());

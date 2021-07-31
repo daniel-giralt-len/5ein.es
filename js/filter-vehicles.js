@@ -19,7 +19,7 @@ class PageFilterVehicles extends PageFilter {
 		});
 		this._terrainFilter = new Filter({header: "Terrain", items: ["land", "sea", "air"], displayFn: StrUtil.uppercaseFirst});
 		this._speedFilter = new RangeFilter({header: "Speed"});
-		this._acFilter = new RangeFilter({header: "Armor Class"});
+		this._acFilter = new RangeFilter({header: "Classe d'Armadura"});
 		this._hpFilter = new RangeFilter({header: "Hit Points"});
 		this._hpFilter = new RangeFilter({header: "Hit Points"});
 		this._creatureCapacityFilter = new RangeFilter({header: "Creature Capacity"});
