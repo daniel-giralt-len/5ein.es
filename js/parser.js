@@ -420,7 +420,7 @@ Parser.LANGUAGES_EXOTIC = [
 	"Infernal",
 	"Primordial",
 	"Silvànic",
-	"Terran",
+	"Terrani",
 	"Sotacomú",
 ];
 
@@ -1489,7 +1489,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"OTH": "Other",
 	"P": "Primordial",
 	"S": "Silvànic",
-	"T": "Terran",
+	"T": "Terrani",
 	"TC": "Thieves' cant",
 	"TP": "Telepathy",
 	"U": "Sotacomú",

@@ -552,7 +552,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Orc": "O",
 	"Primordial": "P",
 	"Silvànic": "S",
-	"Terran": "T",
+	"Terrani": "T",
 	"Sotacomú": "U",
 	"Aarakocra": "OTH",
 	"one additional": "X",
