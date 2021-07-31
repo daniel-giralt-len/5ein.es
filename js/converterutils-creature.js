@@ -414,7 +414,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"ascendència faèrica": "Ascendència Faèrica",
 
-		"siege monster": "Siege Monster",
+		"monstre de setge": "Monstre de Setge",
 
 		"pack tactics": "Pack Tactics",
 
