@@ -416,7 +416,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"monstre de setge": "Monstre de Setge",
 
-		"pack tactics": "Pack Tactics",
+		"estratègies de manada": "Estratègies de Manada",
 
 		"regeneració": "Regeneració",
 
