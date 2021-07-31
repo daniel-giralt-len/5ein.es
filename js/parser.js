@@ -426,7 +426,7 @@ Parser.LANGUAGES_EXOTIC = [
 
 Parser.LANGUAGES_SECRET = [
 	"Druidic",
-	"Thieves' cant",
+	"Argot de Lladres",
 ];
 
 Parser.LANGUAGES_ALL = [
@@ -1490,7 +1490,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"P": "Primordial",
 	"S": "Silvànic",
 	"T": "Terrani",
-	"TC": "Thieves' cant",
+	"TC": "Argot de Lladres",
 	"TP": "Telepathy",
 	"U": "Sotacomú",
 	"X": "Any (Choose)",
