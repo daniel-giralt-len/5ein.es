@@ -516,7 +516,7 @@ const SUPP_OCCUPATION = [
 	{min: 61, max: 75, result: "Laborer"},
 	{min: 76, max: 80, result: "Merchant"},
 	{min: 81, max: 85, result: () => `Politician or bureaucrat ${choose("politician", "bureaucrat")}`, display: "Politician or bureaucrat"},
-	{min: 86, max: 90, result: "Priest"},
+	{min: 86, max: 90, result: "Sacerdot"},
 	{min: 91, max: 95, result: "Sailor"},
 	{min: 96, max: 100, result: "Soldier"},
 ];
