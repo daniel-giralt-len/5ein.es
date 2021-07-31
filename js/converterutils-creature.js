@@ -580,7 +580,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Otyugh": "OTH",
 	"Primal": "OTH",
 	"Sahuagin": "OTH",
-	"Sphinx": "OTH",
+	"Esfinx": "OTH",
 	"Thayan": "OTH",
 	"Thri-kreen": "OTH",
 	"Tlincalli": "OTH",
