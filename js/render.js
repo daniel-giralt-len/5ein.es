@@ -4653,7 +4653,7 @@ Renderer.monster = {
 				},
 				7: {
 					B: ["power word pain|XGE", "finger of death", "disintegrate", "hold monster"],
-					U: ["chain lightning", "forcecage", "teleport", "etherealness"],
+					U: ["chain lightning", "forcecage", "teleport", "eterietat"],
 					G: ["project image", "mirage arcane", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "chain lightning", "scatter|XGE", "teleport", "disintegrate", "llampec"],
 					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Bigby's hand", "mental prison|XGE", "seeming"],
