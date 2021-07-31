@@ -2260,7 +2260,7 @@ SortUtil = {
 	 */
 	_MON_TRAIT_ORDER: [
 		"equipament especial",
-		"shapechanger",
+		"canviaformes",
 	],
 	monTraitSort: (a, b) => {
 		if (a.sort != null && b.sort != null) return a.sort - b.sort;

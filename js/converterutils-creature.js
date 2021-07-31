@@ -420,7 +420,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"regeneració": "Regeneració",
 
-		"shapechanger": "Shapechanger",
+		"canviaformes": "Canviaformes",
 
 		"falsa aparença": "Falsa Aparença",
 
@@ -463,7 +463,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"empassar": "Empassar",
 		"tentacle": "Tentacles",
 		"tentacles": "Tentacles",
-		"change shape": "Shapechanger",
+		"change shape": "Canviaformes",
 	},
 	reaction: {
 		"parada": "Parada",
