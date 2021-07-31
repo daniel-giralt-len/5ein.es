@@ -178,7 +178,7 @@ class ItemParser extends BaseParser {
 				case "rod": stats.type = "RD"; continue;
 				case "wand": stats.type = "WD"; continue;
 				case "ammunition": stats.type = "A"; continue;
-				case "staff": stats.staff = true; continue;
+				case "bastó": stats.staff = true; continue;
 				case "master rune": stats.type = "MR"; continue;
 				case "scroll": stats.type = "SC"; continue;
 			}
@@ -240,7 +240,7 @@ class ItemParser extends BaseParser {
 			const mBaseWeapon = /^(weapon|staff) \(([^)]+)\)$/i.exec(part);
 			const mBaseArmor = /^armor \(([^)]+)\)$/i.exec(part);
 			if (mBaseWeapon) {
-				if (mBaseWeapon[1].toLowerCase() === "staff") stats.staff = true;
+				if (mBaseWeapon[1].toLowerCase() === "bastó") stats.staff = true;
 				baseItem = ItemParser.getItem(mBaseWeapon[2]);
 				if (!baseItem) throw new Error(`Could not find base item "${mBaseWeapon[2]}"`);
 				continue;

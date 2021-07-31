@@ -5432,8 +5432,8 @@ Renderer.item = {
 			typeListText.push("tattoo");
 		}
 		if (item.staff) {
-			typeHtml.push("staff");
-			typeListText.push("staff");
+			typeHtml.push("bastó");
+			typeListText.push("bastó");
 		}
 		if (item.ammo) {
 			typeHtml.push(`ammunition`);
