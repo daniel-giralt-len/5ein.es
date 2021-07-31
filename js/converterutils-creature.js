@@ -408,7 +408,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"olfacte agut": "Sentits Aguts",
 		"sentits aguts": "Sentits Aguts",
 
-		"hold breath": "Hold Breath",
+		"aguantar la respiració": "Aguantar la Respiració",
 
 		"carregar": "Carregar",
 
