@@ -401,7 +401,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"web walker": "Web Walker",
 		"moviment incorpori": "Moviment Incorpori",
 
-		"keen hearing and smell": "Sentits Aguts",
+		"oïda i olfacte aguts": "Sentits Aguts",
 		"oída i olfacte aguts": "Sentits Aguts",
 		"keen hearing and sight": "Sentits Aguts",
 		"keen hearing": "Sentits Aguts",
