@@ -246,7 +246,7 @@ class ItemParser extends BaseParser {
 				continue;
 			} else if (mBaseArmor) {
 				baseItem = ItemParser.getItem(mBaseArmor[1]);
-				if (!baseItem) baseItem = ItemParser.getItem(`${mBaseArmor[1]} armor`); // "armor (plate)" -> "plate armor"
+				if (!baseItem) baseItem = ItemParser.getItem(`${mBaseArmor[1]} armor`); // "armor (plate)" -> "armadura de plaques"
 				if (!baseItem) throw new Error(`Could not find base item "${mBaseArmor[1]}"`);
 				continue
 			}

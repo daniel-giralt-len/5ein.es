@@ -105,7 +105,7 @@ class AcConvert {
 						case "plate mail":
 						case "platemail":
 						case "full plate":
-							froms.push("{@item plate armor|phb}");
+							froms.push("{@item armadura de plaques|phb}");
 							break;
 
 						case "scale armor": froms.push("{@item scale mail|phb}"); break;

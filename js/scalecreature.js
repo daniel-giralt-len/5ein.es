@@ -513,7 +513,7 @@
 			"ring mail": 14,
 			"chain mail": 16,
 			"splint armor": 17,
-			"plate armor": 18,
+			"armadura de plaques": 18,
 		},
 		_MEDIUM: {
 			"armadura de pells": 12,
@@ -872,11 +872,11 @@
 					if (nonEnch) return `${nonEnch}|phb`;
 					switch (ac) {
 						case 19:
-							return [`+1 plate armor|dmg`, `+2 splint armor|dmg`][RollerUtil.roll(1, ScaleCreature._rng)];
+							return [`+1 armadura de plaques|dmg`, `+2 splint armor|dmg`][RollerUtil.roll(1, ScaleCreature._rng)];
 						case 20:
-							return `+2 plate armor|dmg`;
+							return `+2 armadura de plaques|dmg`;
 						case PL3_PLATE:
-							return `+3 plate armor|dmg`
+							return `+3 armadura de plaques|dmg`
 					}
 				};
 

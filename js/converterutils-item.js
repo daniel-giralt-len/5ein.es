@@ -57,7 +57,7 @@ ConverterUtilsItem.BASIC_ARMORS = [
 	"ring mail",
 	"chain mail",
 	"splint armor",
-	"plate armor",
+	"armadura de plaques",
 	"shield",
 ];
 
