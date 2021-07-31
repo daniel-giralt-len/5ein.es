@@ -179,7 +179,7 @@ function rollOnArray (lst) {
 	return lst[RNG(lst.length) - 1]
 }
 
-const RACES_SELECTABLE = ["Dwarf", "Elf", "Half-Elf", "Half-Orc", "Tiefling"];
+const RACES_SELECTABLE = ["Dwarf", "Elf", "Half-Elf", "Semi-Orc", "Tiefling"];
 const RACES_UNSELECTABLE = ["Humà", "Halfling", "Dragonborn", "Gnome"];
 
 const PARENTS_HALF_ELF = [
@@ -191,9 +191,9 @@ const PARENTS_HALF_ELF = [
 
 const PARENTS_HALF_ORC = [
 	{min: 1, max: 3, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an orc and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a human.` }, display: "One parent was an orc and the other was a human.", _races: ["Orc", "Humà"]},
-	{min: 4, max: 5, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an orc and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-orc.` }, display: "One parent was an orc and the other was a half-orc.", _races: ["Orc", "Half-Orc"]},
-	{min: 6, max: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-orc.` }, display: "One parent was a human and the other was a half-orc.", _races: ["Humà", "Half-Orc"]},
-	{min: 8, display: "Both parents were half-orcs.", _races: ["Half-Orc", "Half-Orc"]},
+	{min: 4, max: 5, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an orc and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-orc.` }, display: "One parent was an orc and the other was a half-orc.", _races: ["Orc", "Semi-Orc"]},
+	{min: 6, max: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-orc.` }, display: "One parent was a human and the other was a half-orc.", _races: ["Humà", "Semi-Orc"]},
+	{min: 8, display: "Both parents were half-orcs.", _races: ["Semi-Orc", "Semi-Orc"]},
 ];
 
 const PARENTS_TIEFLING = [
@@ -529,7 +529,7 @@ const SUPP_RACE = [
 	{min: 71, max: 75, result: "Dragonborn"},
 	{min: 76, max: 80, result: "Gnome"},
 	{min: 81, max: 85, result: "Half-elf"},
-	{min: 86, max: 90, result: "Half-orc"},
+	{min: 86, max: 90, result: "Semi-orc"},
 	{min: 91, max: 95, result: "Tiefling"},
 	{min: 96, max: 100, result: "DM’s choice"},
 ];
@@ -607,7 +607,7 @@ function onJsonLoad (lifeData, nameData) {
 				const cpy = MiscUtil.copy(nameMeta);
 				if (nameTables["halfelf"]) nameTables["halfelf"].tables.push(...cpy.tables);
 				else nameTables["halfelf"] = cpy;
-			} else if (nameMeta.name === "Half-Orc") {
+			} else if (nameMeta.name === "Semi-Orc") {
 				nameTables["orc"] = MiscUtil.copy(nameMeta);
 			} else if (nameMeta.name === "Tiefling") {
 				const cpy = MiscUtil.copy(nameMeta);
@@ -675,7 +675,7 @@ function sectParents () {
 				parentRaces = rolled._races;
 				break;
 			}
-			case "half-orc": {
+			case "semi-orc": {
 				const rolled = GenUtil.getFromTable(PARENTS_HALF_ORC, RNG(8));
 				parentage = `<b>${race} parents:</b> ${rolled.result}`;
 				parentRaces = rolled._races;
