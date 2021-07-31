@@ -281,7 +281,7 @@ Innate Spellcasting. Mammon's innate spellcasting ability is Carisma (spell save
 At will: charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
 3/day each: animate objects, counterspell, creation, instant summons, legend lore, teleport
 1/day: imprisonment (minimus containment only, inside gems), sunburst
-Spellcasting. Mammon is a 6th level spellcaster. His spellcasting ability is Intel·ligència (spell save DC 13; +5 a impactar amb atacs màgics). Té els següents conjurs de wizard preparats:
+Spellcasting. Mammon is a 6th level spellcaster. His spellcasting ability is Intel·ligència (spell save DC 13; +5 a impactar amb atacs màgics). Té els següents conjurs de mag preparats:
 Cantrips (at will): fire bolt, light, mage hand, prestidigitation
 1st level (4 slots): mage armor, magic missile, shield
 2nd level (3 slots): misty step, suggestion
