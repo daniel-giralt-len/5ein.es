@@ -222,7 +222,7 @@ class LootGen {
 			// region Add a display for coinage + art/gem objects, combined
 			const totalCoinValue = formattedCoinMeta.gpTotal + worthOfArtAndGems;
 			if (totalCoinValue) {
-				treasure.push(`<i class="ve-muted">${totalCoinValue} gp of coins, art objects, and/or gems, divided as follows:</i>`)
+				treasure.push(`<i class="ve-muted">${totalCoinValue} gp of coins, objectes d'art, and/or gems, divided as follows:</i>`)
 			}
 			// endregion
 
