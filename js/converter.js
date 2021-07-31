@@ -286,7 +286,7 @@ Cantrips (at will): fire bolt, light, mage hand, prestidigitation
 1st level (4 slots): mage armor, magic missile, shield
 2nd level (3 slots): misty step, suggestion
 3rd level (3 slots): fly, lightning bolt
-Resistència Llegendària (3/Dia). If Mammon fails a saving throw, he can choose to succeed instead.
+Resistència Llegendària (3/Dia). Si Mammon falla una tirada de salvació pot escollir superar-la.
 Magic Resistance. Mammon té avantatge a salvar contra conjurs i altres efectes màgics.
 Magic Weapons. Mammon's weapon attacks are magical.
 ACTIONS
