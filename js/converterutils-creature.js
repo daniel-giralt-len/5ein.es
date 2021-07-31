@@ -381,7 +381,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"immunitat a expulsar": "Immunitat a Expulsar",
 		"brute": "Brute",
 		"debilitat antimàgica": "Debilitat Antimàgica",
-		"sneak attack": "Sneak Attack",
+		"atac furtiu": "Atac Furtiu",
 		"reckless": "Reckless",
 		"web sense": "Web Sense",
 		"passar volant": "Passar Volant",

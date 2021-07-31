@@ -8,7 +8,7 @@ Note that this list is being created retroactively, and is as-yet incomplete.
 
 - Page numbers (`page`)
 - Data "tagging" (render `@tag` syntax)
-	- This is partially automated, see `node/tag-json.js` (although many false positives are generated, e.g. "Sneak Attack" being tagged as the Attack action)
+	- This is partially automated, see `node/tag-json.js` (although many false positives are generated, e.g. "Atac Furtiu" being tagged as the Attack action)
 	- Some tags are too specific to automate, such as many of those using `@filter`
 - Instances where `_copy` could be utilised, e.g. by converting adventure NPCs which are "commoner with X attributes"  to a `_copy` of "commoner" with the appropriate modifications
 
