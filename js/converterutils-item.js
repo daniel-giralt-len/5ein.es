@@ -53,7 +53,7 @@ ConverterUtilsItem.BASIC_ARMORS = [
 	"chain shirt",
 	"scale mail",
 	"breastplate",
-	"half plate armor",
+	"mitja armadura de plaques",
 	"ring mail",
 	"chain mail",
 	"splint armor",

@@ -520,7 +520,7 @@
 			"chain shirt": 13,
 			"scale mail": 14,
 			"breastplate": 14,
-			"half plate armor": 15,
+			"mitja armadura de plaques": 15,
 		},
 		_LIGHT: {
 			"padded armor": 11,
@@ -907,7 +907,7 @@
 							} else { // drop to medium
 								const [tagBase, tagMod] = this._getAcBaseAndMod(this._LIGHT, heavyTag);
 								const tagAc = tagBase + tagMod;
-								acItem.from[i]._ = this._replaceTag(acItem.from[i]._, heavyTag, `half plate armor|phb`);
+								acItem.from[i]._ = this._replaceTag(acItem.from[i]._, heavyTag, `mitja armadura de plaques|phb`);
 								acItem.ac = (acItem.ac - tagAc) + 15 + Math.min(2, Parser.getAbilityModNumber(mon.dex));
 								delete acItem._acBeforePreAdjustment;
 								return false;
@@ -935,11 +935,11 @@
 							case 14:
 								return [`scale mail|phb`, `breastplate|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 16:
-								return [`+1 half plate armor|dmg`, `+2 breastplate|dmg`, `+2 scale mail|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
+								return [`+1 mitja armadura de plaques|dmg`, `+2 breastplate|dmg`, `+2 scale mail|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
 							case 17:
-								return `+2 half plate armor|dmg`;
+								return `+2 mitja armadura de plaques|dmg`;
 							case 18:
-								return `+3 half plate armor|dmg`;
+								return `+3 mitja armadura de plaques|dmg`;
 							default: {
 								const nonEnch = Object.keys(this._MEDIUM).find(it => this._MEDIUM[it] === base);
 								return `${nonEnch}|phb`;
