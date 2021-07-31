@@ -179,14 +179,14 @@ function rollOnArray (lst) {
 	return lst[RNG(lst.length) - 1]
 }
 
-const RACES_SELECTABLE = ["Dwarf", "Elf", "Half-Elf", "Semi-Orc", "Tiefling"];
+const RACES_SELECTABLE = ["Dwarf", "Elf", "Semi-Elf", "Semi-Orc", "Tiefling"];
 const RACES_UNSELECTABLE = ["Humà", "Halfling", "Dragonborn", "Gnome"];
 
 const PARENTS_HALF_ELF = [
 	{min: 1, max: 5, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a human.` }, display: "One parent was an elf and the other was a human.", _races: ["Elf", "Humà"]},
-	{min: 6, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-elf.` }, display: "One parent was an elf and the other was a half-elf.", _races: ["Elf", "Half-Elf"]},
-	{min: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-elf.` }, display: "One parent was a human and the other was a half-elf.", _races: ["Half-Elf", "Humà"]},
-	{min: 8, result: "Both parents were half-elves.", _races: ["Half-Elf", "Half-Elf"]},
+	{min: 6, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-elf.` }, display: "One parent was an elf and the other was a half-elf.", _races: ["Elf", "Semi-Elf"]},
+	{min: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-elf.` }, display: "One parent was a human and the other was a half-elf.", _races: ["Semi-Elf", "Humà"]},
+	{min: 8, result: "Both parents were half-elves.", _races: ["Semi-Elf", "Semi-Elf"]},
 ];
 
 const PARENTS_HALF_ORC = [
@@ -528,7 +528,7 @@ const SUPP_RACE = [
 	{min: 61, max: 70, result: "Halfling"},
 	{min: 71, max: 75, result: "Dragonborn"},
 	{min: 76, max: 80, result: "Gnome"},
-	{min: 81, max: 85, result: "Half-elf"},
+	{min: 81, max: 85, result: "Semi-elf"},
 	{min: 86, max: 90, result: "Semi-orc"},
 	{min: 91, max: 95, result: "Tiefling"},
 	{min: 96, max: 100, result: "DM’s choice"},
@@ -669,7 +669,7 @@ function sectParents () {
 	let parentage = null;
 	if (knowParents) {
 		switch (race.toLowerCase()) {
-			case "half-elf": {
+			case "semi-elf": {
 				const rolled = GenUtil.getFromTable(PARENTS_HALF_ELF, RNG(8));
 				parentage = `<b>${race} parents:</b> ${rolled.result}`;
 				parentRaces = rolled._races;

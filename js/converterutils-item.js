@@ -526,7 +526,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a dwarf"
-		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Half-Elf|Semi-Orc|Halfling|Human|Tiefling|Warforged)\b/gi, (...m) => {
+		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Semi-Elf|Semi-Orc|Halfling|Human|Tiefling|Warforged)\b/gi, (...m) => {
 			const source = m[1].toLowerCase() === "warforged" ? SRC_ERLW : "";
 			tags.push({race: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
