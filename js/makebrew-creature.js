@@ -480,7 +480,7 @@ class CreatureBuilder extends Builder {
 		this.__$getTokenInput(cb).appendTo(miscTab.$wrpTab);
 		this.$getFluffInput(cb).appendTo(miscTab.$wrpTab);
 		this.__$getEnvironmentInput(cb).appendTo(miscTab.$wrpTab);
-		BuilderUi.$getStateIptString("Group", cb, this._state, {title: "The family this creature belongs to, e.g. 'Modrons' in the case of a Duodrone."}, "group").appendTo(miscTab.$wrpTab);
+		BuilderUi.$getStateIptString("Group", cb, this._state, {title: "The family this creature belongs to, e.g. 'Modrons' in the case of a Duodron."}, "group").appendTo(miscTab.$wrpTab);
 		this.__$getSoundClipInput(cb).appendTo(miscTab.$wrpTab);
 		BuilderUi.$getStateIptEnum(
 			"Dragon Casting Color",
