@@ -180,7 +180,7 @@ function rollOnArray (lst) {
 }
 
 const RACES_SELECTABLE = ["Dwarf", "Elf", "Semi-Elf", "Semi-Orc", "Tiefling"];
-const RACES_UNSELECTABLE = ["Humà", "Halfling", "Dragonborn", "Gnome"];
+const RACES_UNSELECTABLE = ["Humà", "Halfling", "Dragonborn", "Gnom"];
 
 const PARENTS_HALF_ELF = [
 	{min: 1, max: 5, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a human.` }, display: "One parent was an elf and the other was a human.", _races: ["Elf", "Humà"]},
@@ -527,7 +527,7 @@ const SUPP_RACE = [
 	{min: 51, max: 60, result: "Elf"},
 	{min: 61, max: 70, result: "Halfling"},
 	{min: 71, max: 75, result: "Dragonborn"},
-	{min: 76, max: 80, result: "Gnome"},
+	{min: 76, max: 80, result: "Gnom"},
 	{min: 81, max: 85, result: "Semi-elf"},
 	{min: 86, max: 90, result: "Semi-orc"},
 	{min: 91, max: 95, result: "Tiefling"},
