@@ -277,11 +277,11 @@ Condition Immunities charmed, exhaustion, frightened, poisoned
 Senses visió veraç 120 peus, passive Perception 23
 Languages all, telepatía 120 peus
 Challenge 25 (75,000 PX)
-Innate Spellcasting. Mammon's innate spellcasting ability is Carisma (spell save DC 24, +16 a impactar with spell attacks). He pot llançar els conjurs següents innatament (no requereix components materials):
+Innate Spellcasting. Mammon's innate spellcasting ability is Carisma (spell save DC 24, +16 a impactar amb atacs màgics). He pot llançar els conjurs següents innatament (no requereix components materials):
 At will: charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
 3/day each: animate objects, counterspell, creation, instant summons, legend lore, teleport
 1/day: imprisonment (minimus containment only, inside gems), sunburst
-Spellcasting. Mammon is a 6th level spellcaster. His spellcasting ability is Intel·ligència (spell save DC 13; +5 a impactar with spell attacks). Té els següents conjurs de wizard preparats:
+Spellcasting. Mammon is a 6th level spellcaster. His spellcasting ability is Intel·ligència (spell save DC 13; +5 a impactar amb atacs màgics). Té els següents conjurs de wizard preparats:
 Cantrips (at will): fire bolt, light, mage hand, prestidigitation
 1st level (4 slots): mage armor, magic missile, shield
 2nd level (3 slots): misty step, suggestion
@@ -325,7 +325,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >
 >***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
 >
->***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intel·ligència (spell save DC 20, +12 a impactar with spell attacks). The lich has the following wizard spells prepared:
+>***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intel·ligència (spell save DC 20, +12 a impactar amb atacs màgics). The lich has the following wizard spells prepared:
 >
 >• Cantrips (at will): mage hand, prestidigitation, ray of frost
 >• 1st level (4 slots): detect magic, magic missile, shield, thunderwave
