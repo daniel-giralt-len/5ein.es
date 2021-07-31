@@ -20,7 +20,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"ballesta lleugera",
 	"dart",
 	"arc curt",
-	"sling",
+	"fona",
 	"destral de guerra",
 	"flail",
 	"glaive",

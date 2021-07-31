@@ -872,7 +872,7 @@ MiscTag._THROWN_WEAPON_MATCHERS = MiscTag._THROWN_WEAPONS.map(it => new RegExp(`
 MiscTag._RANGED_WEAPONS = [
 	"ballesta lleugera",
 	"arc curt",
-	"sling",
+	"fona",
 	"sarbatana",
 	"hand crossbow",
 	"ballesta pesada",
