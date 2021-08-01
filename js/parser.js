@@ -948,7 +948,7 @@ Parser.spTimeListToFull = function (times, isStripTags) {
 };
 
 Parser.getTimeToFull = function (time) {
-	return `${time.number ? `${time.number} ` : ""}${time.unit === "bonus" ? "bonus action" : time.unit}${time.number > 1 ? "s" : ""}`;
+	return `${time.number ? `${time.number} ` : ""}${time.unit === "bonus" ? "acció bonus" : time.unit}${time.number > 1 ? "s" : ""}`;
 };
 
 RNG_SPECIAL = "special";
@@ -2043,7 +2043,7 @@ Parser.SP_TM_HRS = "hour";
 Parser.SP_TIME_SINGLETONS = [Parser.SP_TM_ACTION, Parser.SP_TM_B_ACTION, Parser.SP_TM_REACTION, Parser.SP_TM_ROUND];
 Parser.SP_TIME_TO_FULL = {
 	[Parser.SP_TM_ACTION]: "Action",
-	[Parser.SP_TM_B_ACTION]: "Bonus Action",
+	[Parser.SP_TM_B_ACTION]: "Acció Bonus",
 	[Parser.SP_TM_REACTION]: "Reaction",
 	[Parser.SP_TM_ROUND]: "Rounds",
 	[Parser.SP_TM_MINS]: "Minutes",

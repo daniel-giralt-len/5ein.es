@@ -2652,7 +2652,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getBonusActionInput (cb) {
-		return this.__$getGenericEntryInput(cb, {name: "Bonus Actions", shortName: "Bonus Action", prop: "bonus"});
+		return this.__$getGenericEntryInput(cb, {name: "Bonus Actions", shortName: "Acció Bonus", prop: "bonus"});
 	}
 
 	__$getLegendaryActionInput (cb) {

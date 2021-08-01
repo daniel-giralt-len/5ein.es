@@ -25,7 +25,7 @@ class CreatureParser extends BaseParser {
 		options = this._getValidOptions(options);
 
 		function startNextPhase (cur) {
-			return (!cur.toUpperCase().indexOf("ACTION") || !cur.toUpperCase().indexOf("LEGENDARY ACTION") || !cur.toUpperCase().indexOf("MYTHIC ACTION") || !cur.toUpperCase().indexOf("REACTION") || !cur.toUpperCase().indexOf("BONUS ACTION"))
+			return (!cur.toUpperCase().indexOf("ACTION") || !cur.toUpperCase().indexOf("LEGENDARY ACTION") || !cur.toUpperCase().indexOf("MYTHIC ACTION") || !cur.toUpperCase().indexOf("REACTION") || !cur.toUpperCase().indexOf("ACCIÓ BONUS"))
 		}
 
 		/**
@@ -49,7 +49,7 @@ class CreatureParser extends BaseParser {
 				"LEGENDARY ACTION",
 				"MYTHIC ACTION",
 				"REACTION",
-				"BONUS ACTION",
+				"ACCIÓ BONUS",
 			];
 
 			if (curLine) {
@@ -280,7 +280,7 @@ class CreatureParser extends BaseParser {
 						if (mActionNote) stats.actionNote = mActionNote[1];
 					}
 					isReactions = !curLine.toUpperCase().indexOf_handleColon("REACTION");
-					isBonusActions = !curLine.toUpperCase().indexOf_handleColon("BONUS ACTION");
+					isBonusActions = !curLine.toUpperCase().indexOf_handleColon("ACCIÓ BONUS");
 					isLegendaryActions = !curLine.toUpperCase().indexOf_handleColon("LEGENDARY ACTION");
 					isLegendaryDescription = isLegendaryActions;
 					isMythicActions = !curLine.toUpperCase().indexOf_handleColon("MYTHIC ACTION");

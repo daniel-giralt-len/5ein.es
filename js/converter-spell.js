@@ -312,7 +312,7 @@ class SpellParser extends BaseParser {
 			case "ronda":
 			case "reaction": return unit;
 
-			case "bonus action": return "bonus";
+			case "acció bonus": return "bonus";
 
 			default:
 				options.cbWarning(`Unit part "${unit}" requires manual conversion`);
