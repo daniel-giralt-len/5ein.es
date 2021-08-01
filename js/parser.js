@@ -425,7 +425,7 @@ Parser.LANGUAGES_EXOTIC = [
 ];
 
 Parser.LANGUAGES_SECRET = [
-	"Druidic",
+	"Druídic",
 	"Argot de Lladres",
 ];
 
@@ -1475,7 +1475,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"D": "Nannès",
 	"DR": "Dracònic",
 	"DS": "Deep Speech",
-	"DU": "Druidic",
+	"DU": "Druídic",
 	"E": "Èlfic",
 	"G": "Gnomesc",
 	"GI": "Gegantès",
