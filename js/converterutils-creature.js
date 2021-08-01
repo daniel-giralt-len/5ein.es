@@ -991,7 +991,7 @@ class SpellcastingTraitConvert {
 			}
 		}
 
-		// move asterisks before commas (e.g. "chaos bolt,*" -> "chaos bolt*,")
+		// move asterisks before commas (e.g. "vira del caos,*" -> "vira del caos*,")
 		spellPart = spellPart.replace(/,\s*\*/g, "*,");
 
 		return spellPart.split(StrUtil.COMMAS_NOT_IN_PARENTHESES_REGEX).map(it => this._parseSpell(it));
