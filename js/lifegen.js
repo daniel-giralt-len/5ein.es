@@ -223,7 +223,7 @@ const BIRTHPLACES = [
 	{min: 92, max: 93, result: () => `In a prison or in the headquarters of a secret organization ${choose("prison", "headquarters of a secret organization")}`, display: "In a prison or in the headquarters of a secret organization"},
 	{min: 94, max: 95, result: "In a sage's laboratory"},
 	{min: 96, result: "In the Feywild"},
-	{min: 97, result: "In the Shadowfell"},
+	{min: 97, result: "In the Erm de l'Ombra"},
 	{min: 98, result: () => `On the Astral Plane or the Ethereal Plane ${choose("Astral Plane", "Ethereal Plane")}`, display: "On the Astral Plane or the Ethereal Plane"},
 	{min: 99, result: "On an Inner Plane of your choice"},
 	{min: 100, result: "On an Outer Plane of your choice"},
@@ -420,7 +420,7 @@ const LIFE_EVENTS_SUPERNATURAL = [
 	{min: 76, max: 80, result: "You saw a ghost."},
 	{min: 81, max: 85, result: "You saw a ghoul feeding on a corpse."},
 	{min: 86, max: 90, result: "A celestial or a fiend visited you in your dreams to give a warning of dangers to come."},
-	{min: 91, max: 95, result: () => `You briefly visited the Feywild or the Shadowfell ${choose("Feywild", "Shadowfell")}.`, "results": "You briefly visited the Feywild or the Shadowfell."},
+	{min: 91, max: 95, result: () => `You briefly visited the Feywild or the Erm de l'Ombra ${choose("Feywild", "Erm de l'Ombra")}.`, "results": "You briefly visited the Feywild or the Erm de l'Ombra."},
 	{min: 96, max: 100, result: "You saw a portal that you believe leads to another plane of existence."},
 ];
 
