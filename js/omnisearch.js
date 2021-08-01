@@ -496,7 +496,7 @@ class Omnisearch {
 		`);
 	}
 }
-Omnisearch._PLACEHOLDER_TEXT = "Search everywhere...";
+Omnisearch._PLACEHOLDER_TEXT = "Busca...";
 Omnisearch._searchIndex = null;
 Omnisearch._adventureBookLookup = null; // A map of `<sourceLower>: (adventureCatId|bookCatId)`
 Omnisearch._pLoadSearch = null;

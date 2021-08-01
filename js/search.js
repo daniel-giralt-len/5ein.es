@@ -14,7 +14,7 @@ class SearchPage {
 
 		Omnisearch.initState();
 
-		const $iptSearch = $(`<input class="form-control pg-search__ipt" placeholder="Search everywhere..." title="Disclaimer: unlikely to search everywhere. Use with caution.">`)
+		const $iptSearch = $(`<input class="form-control pg-search__ipt" placeholder="Busca..." title="Disclaimer: unlikely to search everywhere. Use with caution.">`)
 			.keydown(evt => {
 				if (evt.key !== "Enter") return;
 				$btnSearch.click();
