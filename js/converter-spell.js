@@ -398,7 +398,7 @@ class SpellParser extends BaseParser {
 		const dur = line.split_handleColon("Duration", 1)[1].trim();
 
 		if (dur.toLowerCase() === "instantani") return stats.duration = [{type: "instant"}];
-		if (dur.toLowerCase() === "instantani (see text)") return stats.duration = [{type: "instant", condition: "see text"}];
+		if (dur.toLowerCase() === "instantani (see text)") return stats.duration = [{type: "instant", condition: "llegir text"}];
 		if (dur.toLowerCase() === "special") return stats.duration = [{type: "special"}];
 		if (dur.toLowerCase() === "permanent") return stats.duration = [{type: "permanent"}];
 
