@@ -666,7 +666,7 @@ class SideMenu {
 			const $wrpHistItem = $(`<div class="sidemenu__history-item"/>`).appendTo(this.$wrpHistory);
 			const $cvrHistItem = $(`<div class="sidemenu__history-item-cover"/>`).appendTo($wrpHistItem);
 			const $btnRemove = $(`<div class="panel-history-control-remove-wrapper"><span class="panel-history-control-remove glyphicon glyphicon-remove" title="Remove"/></div>`).appendTo($cvrHistItem);
-			const $ctrlMove = $(`<div class="panel-history-control-middle" title="Move"/>`).appendTo($cvrHistItem);
+			const $ctrlMove = $(`<div class="panel-history-control-middle" title="Moure"/>`).appendTo($cvrHistItem);
 
 			$btnRemove.on("click", () => {
 				this.board.exiledPanels[i].destroy();
@@ -1720,7 +1720,7 @@ class Panel {
 				openAddMenu();
 			}).appendTo($pnl);
 
-			const $ctrlMove = $(`<div class="panel-control-icon glyphicon glyphicon-move" title="Move"/>`).appendTo($ctrlBar);
+			const $ctrlMove = $(`<div class="panel-control-icon glyphicon glyphicon-move" title="Moure"/>`).appendTo($ctrlBar);
 			$ctrlMove.on("click", () => {
 				this.toggleMovable();
 			});
