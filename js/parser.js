@@ -3183,7 +3183,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Destresa (Sleight of Hand) check. The DM might also call for a Destresa (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
 	],
 	"Stealth": [
-		"Make a Destresa (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
+		"Make a Destresa (Sigil) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
 	],
 	"Survival": [
 		"The DM might ask you to make a Saviesa (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.",
