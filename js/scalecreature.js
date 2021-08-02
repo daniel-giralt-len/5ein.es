@@ -2203,7 +2203,7 @@
 	_scale_hp (mon, toSpellLevel, state) {
 		if (!mon.hp?.special) return;
 		mon.hp.special = mon.hp.special
-			// "40 + 10 for each spell level above 4th"
+			// "40 + 10 per cada nivell per sobre de 4"
 			.replace(/(\d+)\s*\+\s*(\d+) for each spell level above (\d+)(?:st|nd|rd|th)/g, (...m) => {
 				const [, hpBase, hpPlus, spLevelMin] = m;
 				return Number(hpBase) + (Number(hpPlus) * (toSpellLevel - Number(spLevelMin)));
