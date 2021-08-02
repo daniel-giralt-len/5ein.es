@@ -323,7 +323,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >___
 >***Resistència Llegendària (3/Dia).*** Si the lich falla una salvació, pot escollir superar-la.
 >
->***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
+>***Rejovenir.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
 >
 >***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intel·ligència (spell save DC 20, +12 a impactar amb atacs màgics). The lich has the following wizard spells prepared:
 >

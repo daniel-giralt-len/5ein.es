@@ -397,7 +397,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"agressivitat": "Agressivitat",
 		"illumination": "Illumination",
 		"rampage": "Rampage",
-		"rejuvenation": "Rejuvenation",
+		"rejovenir": "Rejovenir",
 		"web walker": "Web Walker",
 		"moviment incorpori": "Moviment Incorpori",
 
