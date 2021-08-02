@@ -2223,7 +2223,7 @@
 			{
 				string: (str) => {
 					str = str
-						// "The aberration makes a number of attacks equal to half this spell's level (rounded down)."
+						// "The aberration makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
 						.replace(/a number of attacks equal to half this spell's level \(rounded down\)/g, (...m) => {
 							return `${Parser.numberToText(Math.floor(toSpellLevel / 2))} attacks`
 						})

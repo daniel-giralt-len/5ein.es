@@ -4677,7 +4677,7 @@ Renderer.monster = {
 			name: "Dragons as Innate Spellcasters",
 			entries: [
 				"Dragons are innately magical creatures that can master a few spells as they age, using this variant.",
-				`A drac or older dragon can innately cast a number of spells equal to its Carisma modifier. Each spell can be cast once per day, requiring no material components, and the spell's level can be no higher than one-third the dragon's challenge rating (rounded down). The dragon's bonus to hit with spell attacks is equal to its proficiency bonus + its Carisma bonus. The Juvenil's spell save DC equals 8 + its proficiency bonus + its Carisma modifier.`,
+				`A drac or older dragon can innately cast a number of spells equal to its Carisma modifier. Each spell can be cast once per day, requiring no material components, and the spell's level can be no higher than one-third the dragon's challenge rating (arrodoneix a la baixa). The dragon's bonus to hit with spell attacks is equal to its proficiency bonus + its Carisma bonus. The Juvenil's spell save DC equals 8 + its proficiency bonus + its Carisma modifier.`,
 				`{@note This dragon can innately cast ${Parser.numberToText(chaMod)} spell${chaMod === 1 ? "" : "s"}, once per day${chaMod === 1 ? "" : " each"}, requiring no material components. ${levelString} The dragon's spell save DC is ${pb + chaMod + 8}, and it has {@hit ${pb + chaMod}} to hit with spell attacks. See the {@filter spell page|spells|level=${[...new Array(maxSpellLevel + 1)].map((it, i) => i).join(";")}} for a list of spells the dragon is capable of casting.${exampleSpells ? ` A selection of examples are shown below:` : ""}}`,
 			],
 		};
