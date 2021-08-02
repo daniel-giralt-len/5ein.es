@@ -3127,7 +3127,7 @@ Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", 
 
 Parser.SKILL_JSON_TO_FULL = {
 	"Acrobatics": [
-		"Your Destresa (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Destresa (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.",
+		"Your Destresa (Acrobàcies) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Destresa (Acrobàcies) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.",
 	],
 	"Animal Handling": [
 		"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Saviesa (Animal Handling) check. You also make a Saviesa (Animal Handling) check to control your mount when you attempt a risky maneuver.",
@@ -3136,7 +3136,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Your Intel·ligència (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
 	],
 	"Athletics": [
-		"Your Força (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
+		"Your Força (Atletisme) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
 		{
 			"type": "list",
 			"items": [
