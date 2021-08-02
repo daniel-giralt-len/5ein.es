@@ -335,7 +335,7 @@ class TraitActionTag {
 					} else if (isTraits() && cleanName.startsWith("keen ")) {
 						m[outProp].add("Sentits Aguts");
 					} else if (isTraits() && cleanName.endsWith(" absorption")) {
-						m[outProp].add("Damage Absorption");
+						m[outProp].add("Absorbir Dany");
 					} else {
 						if (cbMan) cbMan(prop, outProp, cleanName);
 					}
