@@ -167,7 +167,7 @@ class PageFilterBestiary extends PageFilter {
 		this._traitFilter = new Filter({
 			header: "Traits",
 			items: [
-				"Agressivitat", "Ambusher", "Amorphous", "Amfibi", "Debilitat Antimàgica", "Brute", "Carregar", "Absorbir Dany", "Death Burst", "Devil's Sight", "Falsa Aparença", "Ascendència Faèrica", "Passar Volant", "Aguantar la Respiració", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Resistències Llegendàries", "Light Sensitivity", "Resistència a la Màgia", "Armament Màgic", "Estratègies de Manada", "Abraonar", "Rampage", "Reckless", "Regeneració", "Rejovenir", "Canviaformes", "Monstre de Setge", "Atac Furtiu", "Grimpat d'Aranya", "Sensible al Sol", "Immunitat a Expulsar", "Resistir l'Expulsió", "Resiliència No-morta", "Respirar sota l'aigua", "Web Sense", "Web Walker",
+				"Agressivitat", "Ambusher", "Amorf", "Amfibi", "Debilitat Antimàgica", "Brute", "Carregar", "Absorbir Dany", "Death Burst", "Devil's Sight", "Falsa Aparença", "Ascendència Faèrica", "Passar Volant", "Aguantar la Respiració", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Resistències Llegendàries", "Light Sensitivity", "Resistència a la Màgia", "Armament Màgic", "Estratègies de Manada", "Abraonar", "Rampage", "Reckless", "Regeneració", "Rejovenir", "Canviaformes", "Monstre de Setge", "Atac Furtiu", "Grimpat d'Aranya", "Sensible al Sol", "Immunitat a Expulsar", "Resistir l'Expulsió", "Resiliència No-morta", "Respirar sota l'aigua", "Web Sense", "Web Walker",
 			],
 		});
 		this._actionReactionFilter = new Filter({

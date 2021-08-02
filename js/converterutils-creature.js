@@ -445,8 +445,8 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"ambush": "Ambusher",
 		"ambusher": "Ambusher",
 
-		"amorphous": "Amorphous",
-		"amorf": "Amorphous",
+		"amorf": "Amorf",
+		"amorf": "Amorf",
 
 		"death burst": "Death Burst",
 		"death throes": "Death Burst",
