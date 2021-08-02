@@ -604,7 +604,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"telepathy": "TP",
 	"argot de lladres": "TC",
 	"Argot de Lladres": "TC",
-	"Deep Speech": "DS",
+	"Parla Profunda": "DS",
 	"Gnoll": "OTH",
 	"Ignan": "IG",
 	"Modron": "OTH",
