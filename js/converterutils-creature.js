@@ -448,8 +448,8 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"amorf": "Amorf",
 		"amorf": "Amorf",
 
-		"death burst": "Death Burst",
-		"acaballes de la mortalitat": "Death Burst",
+		"cadàver detonant": "Cadàver Detonant",
+		"acaballes de la mortalitat": "Cadàver Detonant",
 
 		"devil's sight": "Devil's Sight",
 		"devil sight": "Devil's Sight",
