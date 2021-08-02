@@ -386,7 +386,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"web sense": "Web Sense",
 		"passar volant": "Passar Volant",
 		"abraonar": "Abraonar",
-		"water breathing": "Water Breathing",
+		"respirar sota l'aigua": "Respirar sota l'aigua",
 
 		"resistir l'expulsió": "Resistir l'Expulsió",
 		"turn defiance": "Resistir l'Expulsió",
