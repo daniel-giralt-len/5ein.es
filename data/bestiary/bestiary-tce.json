@@ -1662,13 +1662,13 @@
 				}
 			],
 			"hp": {
-				"special": "30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 per cada nivell per sobre de 3"
+				"special": "30 (Fantasmal i Pútrida only) or 20 (Només Esquelètica) + 10 per cada nivell per sobre de 3"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 40,
-					"condition": "(ghostly only; hover)"
+					"condition": "(flotar només Fantasmal)"
 				},
 				"canHover": true
 			},
@@ -1697,13 +1697,13 @@
 			],
 			"trait": [
 				{
-					"name": "Incorporeal Passage (Només Ghostly)",
+					"name": "Incorporeal Passage (Només Fantasmal)",
 					"entries": [
 						"L'esperit pot moure's a través d'altres criatures i objectes com si fossin terreny difícil. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes {@damage 1d10} de dany de força for every 5 feet traveled."
 					]
 				},
 				{
-					"name": "Festering Aura (Només Putrid)",
+					"name": "Festering Aura (Només Pútrida)",
 					"entries": [
 						"Any creature, other than you, that starts its turn within 5 feet of L'esperit ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla or be {@condition poisoned} until the start of its next turn."
 					]
@@ -1717,19 +1717,19 @@
 					]
 				},
 				{
-					"name": "Deathly Touch (Només Ghostly)",
+					"name": "Deathly Touch (Només Fantasmal)",
 					"entries": [
 						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, and the creature ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla or be {@condition frightened} of the undead until the end of the target's next turn."
 					]
 				},
 				{
-					"name": "Grave Bolt (Només Skeletal)",
+					"name": "Grave Bolt (Només Esquelètica)",
 					"entries": [
 						"{@atk rs} {@hitYourSpellAttack} a impactar, 150 peus d'abast, un objectiu. {@h}{@damage 2d4 + 3 + summonSpellLevel} de dany necròtic."
 					]
 				},
 				{
-					"name": "Rotting Claw (Només Putrid)",
+					"name": "Rotting Claw (Només Pútrida)",
 					"entries": [
 						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany tallant. If the target is {@condition poisoned}, it ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla or be {@condition paralyzed} fins el final del seu proper torn."
 					]
