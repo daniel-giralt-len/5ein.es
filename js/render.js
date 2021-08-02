@@ -3263,8 +3263,8 @@ Renderer.get = () => {
 
 Renderer.class = {
 	getHitDiceEntry (clsHd) { return clsHd ? {toRoll: `${clsHd.number}d${clsHd.faces}`, rollable: true} : null; },
-	getHitPointsAtFirstLevel (clsHd) { return clsHd ? `${clsHd.number * clsHd.faces} + your Constitució modifier` : null; },
-	getHitPointsAtHigherLevels (className, clsHd, hdEntry) { return className && clsHd && hdEntry ? `${Renderer.getEntryDice(hdEntry, "Hit die")} (or ${((clsHd.number * clsHd.faces) / 2 + 1)}) + your Constitució modifier per ${className} level after 1st` : null; },
+	getHitPointsAtFirstLevel (clsHd) { return clsHd ? `${clsHd.number * clsHd.faces} + el teu modificador de Constitució` : null; },
+	getHitPointsAtHigherLevels (className, clsHd, hdEntry) { return className && clsHd && hdEntry ? `${Renderer.getEntryDice(hdEntry, "Hit die")} (or ${((clsHd.number * clsHd.faces) / 2 + 1)}) + el teu modificador de Constitució per ${className} level after 1st` : null; },
 
 	getRenderedArmorProfs (armorProfs) { return armorProfs.map(a => Renderer.get().render(a.full ? a.full : a === "light" || a === "medium" || a === "heavy" ? `{@filter ${a} armor|items|type=${a} armor}` : a)).join(", "); },
 	getRenderedWeaponProfs (weaponProfs) { return weaponProfs.map(w => Renderer.get().render(w === "simple" || w === "martial" ? `{@filter ${w} weapons|items|type=${w} weapon}` : w.optional ? `<span class="help help--hover" title="Optional Proficiency">${w.proficiency}</span>` : w)).join(", "); },
