@@ -2184,7 +2184,7 @@
 			if (!it.special) return it;
 
 			it.special = it.special
-				// "11 + the level of the spell (natural armor)"
+				// "11 + el nivell del conjur (natural armor)"
 				.replace(/(\d+)\s*\+\s*the level of the spell/g, (...m) => Number(m[1]) + toSpellLevel)
 			;
 
