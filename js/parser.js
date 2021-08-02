@@ -1309,7 +1309,7 @@ Parser.monTypeToFullObj = function (type) {
 	const out = {type: "", tags: [], asText: ""};
 
 	if (typeof type === "string") {
-		// handles e.g. "fey"
+		// handles e.g. "fata"
 		out.type = type;
 		out.asText = type;
 		return out;
