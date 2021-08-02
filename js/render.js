@@ -5015,7 +5015,7 @@ Renderer.monster = {
 		if (mon.skill.other || mon.skill.special) {
 			const others = mon.skill.other && mon.skill.other.map(it => {
 				if (it.oneOf) {
-					return `plus one of the following: ${doSortMapJoinSkillKeys(it.oneOf, Object.keys(it.oneOf), true)}`
+					return `plus un/a dels següents: ${doSortMapJoinSkillKeys(it.oneOf, Object.keys(it.oneOf), true)}`
 				}
 				throw new Error(`Unhandled monster "other" skill properties!`)
 			});
