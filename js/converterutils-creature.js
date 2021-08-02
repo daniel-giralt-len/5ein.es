@@ -451,8 +451,8 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"cadàver detonant": "Cadàver Detonant",
 		"acaballes de la mortalitat": "Cadàver Detonant",
 
-		"devil's sight": "Devil's Sight",
-		"devil sight": "Devil's Sight",
+		"ulls de diables": "Ulls de Diables",
+		"devil sight": "Ulls de Diables",
 
 		"forma immutable": "Forma Immutable",
 	},
