@@ -18,7 +18,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"sickle",
 	"spear",
 	"ballesta lleugera",
-	"dart",
+	"dard",
 	"arc curt",
 	"fona",
 	"destral de guerra",

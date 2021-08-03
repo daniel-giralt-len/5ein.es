@@ -865,7 +865,7 @@ MiscTag._THROWN_WEAPONS = [
 	"light hammer",
 	"spear",
 	"trident",
-	"dart",
+	"dard",
 	"net",
 ];
 MiscTag._THROWN_WEAPON_MATCHERS = MiscTag._THROWN_WEAPONS.map(it => new RegExp(`(^|[^\\w])(${it})([^\\w]|$)`, "gi"));
