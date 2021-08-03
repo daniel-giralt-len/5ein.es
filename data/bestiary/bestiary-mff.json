@@ -1,7 +1,7 @@
 {
 	"monster": [
 		{
-			"name": "Instecte Assasí",
+			"name": "Insecte Assasí",
 			"source": "MFF",
 			"page": 4,
 			"size": "M",
@@ -46,14 +46,14 @@
 				"paralitzat"
 			],
 			"languages": [
-				"understands Druidic però no pot parlar"
+				"compren Druídic però no pot parlar"
 			],
 			"cr": "3",
 			"trait": [
 				{
 					"name": "Olfacte Agut",
 					"entries": [
-						"The instecte assasí té avantatge a tirades de Saviesa (Percepció) que involucrin olor."
+						"L'Insecte assasí té avantatge a tirades de Saviesa (Percepció) que involucrin olor."
 					]
 				}
 			],
@@ -61,20 +61,20 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The instecte assasí makes two bite attacks."
+						"L'Insecte assasí fa dues Mossegades."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 11} o be {@condition poisoned} for 1 minute. While {@condition poisoned} this way, the target is {@condition paralyzed}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 11} o estar {@condition poisoned} durant 1 minut. Estar {@condition poisoned} també provoca estar {@condition paralyzed}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
 					"name": "Ovipositor",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}The target is infested with {@dice 1d3} instecte assasí eggs, which immediately hatch into instecte assasí maggots. A l'inici de cada torn de the target, the target takes {@dice 1d6} de dany perforant per maggot infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these instecte assasí maggots. After this time, the maggots are too far under the skin to be burned.",
-						"If a target infested by instecte assasí maggots ends its turn with 0 hit points, it dies as the maggots burrow into its heart and kill it. Any effect that cures disease kills all instecte assasí maggots infesting the target."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}L'objectiu és infectat amb {@dice 1d3} ous d'Insecte assasí eggs, que s'obren immediatament tornant-se larves d'Insecte assasí. A l'inici de cada torn de l'objectiu, rep {@dice 1d6} de dany perforant per larva viva. Posant foc a la ferida abans del final del proper torn de l'objectiu li fa 1 de dany de foc i mata les larves. Després les larves ja estàn massa endins de la pell per ser cremades.",
+						"Si un objectiu infectat per larves acaba el seu torn amb 0 punts de vida, es mor: les larves li arriben al cor i se'l mengen. Qualsevol efecte que curi malalties mata a les larves.."
 					]
 				}
 			],
@@ -153,9 +153,9 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Radiant Eyes",
+					"name": "Ulls Radiant",
 					"entries": [
-						"While its eyes are open, a blindheim projects bright light en un con de 60 peus and dim light for an additional 60 feet. It sets the orientation of this cone al final de cada torn seu. All creatures that can see the blindheim have disadvantage on attack rolls while in the area of bright light and within 15 feet of the blindheim. Creatures with the Sensible al Sol trait that can see the blindheim have disadvantage on attack rolls anywhere in the area of bright light."
+						"Mentre tingui els ulls oberts el blindheim projecta llum forta en un con de 60 peus i llum tènue a uns 60 peus adicionals. Reorienta el con al final de cada torn seu. Tota criatura dins de l'àrea de llum forta o a 15 peus del bindheim tenen desavantatge a impactar. A més les criatures amb el tret Sensible al Sol tenen desavantatge a impactar a l'àrea de llum tènue."
 					]
 				}
 			],
@@ -167,9 +167,9 @@
 					]
 				},
 				{
-					"name": "Radiant Blast",
+					"name": "Esclat Radiant",
 					"entries": [
-						"Radiant energy erupts from the blindheim's eyes en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12} or take 7 ({@damage 2d6}) de dany radiant and be {@condition blinded} until the end of the blindheim's next turn. Creatures with the Sensible al Sol trait have disadvantage on this saving throw."
+						"El blindheim bombardeja un con de 15 peus amb energia radiant. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12}. Qui falli rep 7 ({@damage 2d6}) de dany radiant i està {@condition blinded} fins el final del següent torn del blindheim. A més les criatures amb el tret Sensible al Sol tenen desavantatge a aquesta salvada."
 					]
 				}
 			],
@@ -192,7 +192,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Crab Folk",
+			"name": "Persones Cranc",
 			"source": "MFF",
 			"page": 6,
 			"size": "L",
@@ -230,9 +230,9 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Limited Amphibiousness",
+					"name": "Mig Amfibi",
 					"entries": [
-						"The crab folk can breathe air and water, but it needs to be submerged once every 24 hours to avoid suffocating."
+						"The persones cranc pot respirar aire i a l'aigua, però ha de submergir-se cada 24 hores per evitar sufocar-se."
 					]
 				}
 			],
@@ -240,13 +240,13 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The crab folk makes two claw attacks."
+						"The persones cranc makes two claw attacks."
 					]
 				},
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent i l'objectiu està {@condition grappled} ({@dc 14} per escapar). Mentre duri aquesta presa, the crab folk can automatically hit the target with its claw, and the crab folk can't make attacks with that claw against other targets. The crab folk has two claws, each of which can grapple only un objectiu."
+						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent i l'objectiu està {@condition grappled} ({@dc 14} per escapar). Mentre duri aquesta presa, the persones cranc can automatically hit the target with its claw, and the persones cranc can't make attacks with that claw against other targets. The persones cranc has two claws, each of which can grapple only un objectiu."
 					]
 				}
 			],
