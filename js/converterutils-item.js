@@ -25,7 +25,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"flail",
 	"glaive",
 	"greataxe",
-	"greatsword",
+	"espasa gran",
 	"halberd",
 	"lance",
 	"espasa llarga",
