@@ -99,7 +99,7 @@ class AcConvert {
 						// armor (mostly handled by the item lookup; these are mis-named exceptions (usually for homebrew))
 						case "chainmail":
 						case "chain armor":
-							froms.push("{@item chain mail|phb}");
+							froms.push("{@item cota de malla|phb}");
 							break;
 
 						case "plate mail":

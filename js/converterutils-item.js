@@ -55,7 +55,7 @@ ConverterUtilsItem.BASIC_ARMORS = [
 	"breastplate",
 	"mitja armadura de plaques",
 	"ring mail",
-	"chain mail",
+	"cota de malla",
 	"splint armor",
 	"armadura de plaques",
 	"shield",

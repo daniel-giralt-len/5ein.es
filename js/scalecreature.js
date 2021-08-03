@@ -511,7 +511,7 @@
 
 		_HEAVY: {
 			"ring mail": 14,
-			"chain mail": 16,
+			"cota de malla": 16,
 			"splint armor": 17,
 			"armadura de plaques": 18,
 		},
@@ -682,7 +682,7 @@
 				acItem.from = acItem.from.map(f => {
 					if (f._) f = f._; // if a previous loop modified it
 
-					const m = /@item (\+\d+) ([^+\d]+)\|([^|}]+)/gi.exec(f); // e.g. {@item +1 chain mail}
+					const m = /@item (\+\d+) ([^+\d]+)\|([^|}]+)/gi.exec(f); // e.g. {@item +1 cota de malla}
 					if (m) {
 						const [_, name, bonus, source] = m;
 
