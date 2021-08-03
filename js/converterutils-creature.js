@@ -404,7 +404,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"oïda i olfacte aguts": "Sentits Aguts",
 		"oída i olfacte aguts": "Sentits Aguts",
 		"keen hearing and sight": "Sentits Aguts",
-		"keen hearing": "Sentits Aguts",
+		"oïda aguda": "Sentits Aguts",
 		"olfacte agut": "Sentits Aguts",
 		"sentits aguts": "Sentits Aguts",
 
