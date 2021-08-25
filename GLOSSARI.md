@@ -58,6 +58,7 @@
 |Intimidation|Intimidació
 |Investigation|Investigació
 |Invisible|Invisible
+|Item|Ítem
 |Level|Nivell
 |Lightly obscured|Poc ofuscat
 |Medicine|Medicina

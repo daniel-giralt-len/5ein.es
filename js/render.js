@@ -4631,7 +4631,7 @@ Renderer.monster = {
 				3: {
 					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "blink", "magic missile", "slow"],
 					R: ["bola de foc", "raig d'incendi", "haste", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
-					O: ["slow", "bola de foc", "dispel magic", "counterspell", "Aganazzar's scorcher|XGE", "shield"],
+					O: ["slow", "bola de foc", "dissipar màgia", "counterspell", "Aganazzar's scorcher|XGE", "shield"],
 					S: ["sleet storm", "protection from energy", "catnap|XGE", "locate object", "identify", "Leomund's tiny hut"],
 				},
 				4: {
