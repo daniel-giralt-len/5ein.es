@@ -3,7 +3,6 @@
 |(Melee/Ranged) {Weapon/Spell} Attack|Atac {Armat/Màgic} (Melé/A Distància)
 |(Skill) Saving Throw|Salvar per (Habilitat)
 |(Spell) slot|Ranura (de conjur)
-|1 mile|1.5 km (es converteix)
 |5 feet|5 peus
 |Acrobatics|Acrobàcies
 |Alignment|Alineament
