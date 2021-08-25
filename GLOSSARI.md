@@ -26,7 +26,7 @@
 |Constitution|Constitució
 |Copper pieces|Coures
 |Damage|Dany
-|Darkvision|Visió fosca
+|Darkvision|Visió de Foscor
 |Deafened|Eixordat
 |Death save|Salvada de mort
 |Deception|Engany
