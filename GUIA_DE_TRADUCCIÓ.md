@@ -26,6 +26,10 @@ La **llista de fitxers** a traduir [és aquí](translationProgress.csv). Cada fi
 
 Per evitar que dues persones acabin traduint el mateix, envia pel canal de whatsapp quin fitxer estàs traduint.
 
+Si treballes amb git, fes commit cada cop que tradueixis un objecte sencer: un capítol, un objecte, un conjur, un monstre... Divideix tan com puguis.
+
+Si fas servir Regex, pots buscar i reemplaçar a múltiples fitxers per ajudar a traduir en massa i a estandaritzar l'estil d'escriptura a tot el material. Ves amb compte!
+
 Un cop hagis traduït un fitxer sencer, tens dues opcions:
 - Haver fet fork al repositori i fer una pull request.
 - Enviar-me el fitxer a mi pel whatsapp.
