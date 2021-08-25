@@ -27,7 +27,7 @@
 |Copper pieces|Coures
 |Damage|Dany
 |Darkvision|Visió fosca
-|Deafened|Eixordit
+|Deafened|Eixordat
 |Death save|Salvada de mort
 |Deception|Engany
 |Dexterity|Destresa|
