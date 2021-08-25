@@ -405,14 +405,14 @@ class SpellParser extends BaseParser {
 		const mConcOrUpTo = /^(concentration, )?up to (\d+|an?) (hour|minute|turn|round|week|day|year)(?:s)?$/i.exec(dur);
 		if (mConcOrUpTo) {
 			const amount = mConcOrUpTo[2].toLowerCase().startsWith("a") ? 1 : Number(mConcOrUpTo[2]);
-			const out = {type: "timed", duration: {type: this._getCleanTimeUnit(mConcOrUpTo[3], true, options), amount}, concentration: true};
+			const out = {type: "cronometrada", duration: {type: this._getCleanTimeUnit(mConcOrUpTo[3], true, options), amount}, concentration: true};
 			if (mConcOrUpTo[1]) out.concentration = true;
 			else out.upTo = true;
 			return stats.duration = [out];
 		}
 
 		const mTimed = /^(\d+) (hour|minute|turn|round|week|day|year)(?:s)?$/i.exec(dur);
-		if (mTimed) return stats.duration = [{type: "timed", duration: {type: this._getCleanTimeUnit(mTimed[2], true, options), amount: Number(mTimed[1])}}];
+		if (mTimed) return stats.duration = [{type: "cronometrada", duration: {type: this._getCleanTimeUnit(mTimed[2], true, options), amount: Number(mTimed[1])}}];
 
 		const mDispelledTriggered = /^until dispelled( or triggered)?$/i.exec(dur);
 		if (mDispelledTriggered) {

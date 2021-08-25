@@ -147,7 +147,7 @@ class PageFilterSpells extends PageFilter {
 		const fDur = spell.duration[0] || {type: "special"};
 		switch (fDur.type) {
 			case "instant": return "Instant";
-			case "timed": {
+			case "cronometrada": {
 				if (!fDur.duration) return "Special";
 				switch (fDur.duration.type) {
 					case "turn":

@@ -1170,7 +1170,7 @@ Parser.spDurationToFull = function (dur) {
 				return "Special";
 			case "instant":
 				return `Instantani${d.condition ? ` (${d.condition})` : ""}`;
-			case "timed":
+			case "cronometrada":
 				return `${d.concentration ? "Concentration, " : ""}${d.concentration ? "u" : d.duration.upTo ? "U" : ""}${d.concentration || d.duration.upTo ? "p to " : ""}${d.duration.amount} ${d.duration.amount === 1 ? d.duration.type : `${d.duration.type}s`}`;
 			case "permanent": {
 				if (d.ends) {
@@ -1188,7 +1188,7 @@ Parser.spDurationToFull = function (dur) {
 
 Parser.DURATION_TYPES = [
 	{type: "instant", full: "Instantani"},
-	{type: "timed", hasAmount: true},
+	{type: "cronometrada", hasAmount: true},
 	{type: "permanent", hasEnds: true},
 	{type: "special"},
 ];
