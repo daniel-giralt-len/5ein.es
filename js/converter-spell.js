@@ -277,7 +277,7 @@ class SpellParser extends BaseParser {
 		if (mSelfRadius) return stats.range = {type: "radius", distance: {type: getUnit(mSelfRadius[2]), amount: Number(mSelfRadius[1])}};
 
 		const mSelfSphere = /^self \((\d+)-(foot|mile)-radius sphere\)$/i.exec(cleanRange);
-		if (mSelfSphere) return stats.range = {type: "sphere", distance: {type: getUnit(mSelfSphere[2]), amount: Number(mSelfSphere[1])}};
+		if (mSelfSphere) return stats.range = {type: "esfera", distance: {type: getUnit(mSelfSphere[2]), amount: Number(mSelfSphere[1])}};
 
 		const mSelfCone = /^self \((\d+)-(foot|mile) cone\)$/i.exec(cleanRange);
 		if (mSelfCone) return stats.range = {type: "con", distance: {type: getUnit(mSelfCone[2]), amount: Number(mSelfCone[1])}};
