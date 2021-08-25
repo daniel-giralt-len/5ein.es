@@ -803,7 +803,7 @@
 			],
 			"entries": [
 				"Crees un servent no-mort. Escull una pila d'ossos o cadàver d'un humanoide Petit o Mitjà que estiguin a l'abast. Imbueixes a l'objectiu un facsímil de vida terrible, tornant-lo no-mort. Esdevè un {@creature skeleton} si has triat ossos o un {@creature zombie} si has triat un cadàver (el MM té el bloc d'estats de les criatures).",
-				"A caa torn teu pots, com a acció bonus, donar ordres a qualsevol criatura creata amb aquest conjur si és a 60 peus d'abast (si controles a múltiples criatures pots donar la mateixa ordre a més d'una alhora). Esculls l'acció i el moviment de la criatura durant el seu proper torn, o li pots donar una ordre general (patrullar una cambra o passadís). Si no dones ordres, la criatura es defensarà contra criatures hostils i prous. La criatura seguirà una ordre fins que la completi.",
+				"A cada torn teu pots, com a acció bonus, donar ordres a qualsevol criatura creada amb aquest conjur si és a 60 peus d'abast (si controles a múltiples criatures pots donar la mateixa ordre a més d'una alhora). Esculls l'acció i el moviment de la criatura durant el seu proper torn, o li pots donar una ordre general (patrullar una cambra o passadís). Si no dones ordres, la criatura es defensarà contra criatures hostils i prous. La criatura seguirà una ordre fins que la completi.",
 				"Tens control de la criatura durant 24 hores; després deixa d'obeïr-te. Per mantenir el control 24 hores més has de re-llançar aquest conjur sobre la criatura abans no passin les 24 hores inicials. Si llances aquest conjur per allargar-ne la duració d'aquesta manera, pots llançar-lo sobre fins a quatre criatures."
 			],
 			"entriesHigherLevel": [
@@ -922,18 +922,18 @@
 				}
 			],
 			"entries": [
-				"Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.",
-				"As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+				"Dones vida i ordres a objectes. Tria fins a deu objectes no-màgics a l'abast que no siguin duts ni vestits. Els objectius Mitjans compten com a dos, els Grans com a quatre, els Enormes com a vuit. No pots animar objectes majors que els Enormes. Cada objectiu s'anima i esdevè una criatura sota el teu control durant la duració del conjur o fins que es quedi a 0 punts de cop.",
+				"A cada torn teu pots, com a acció bonus, donar ordres a qualsevol criatura creada amb aquest conjur si és a 500 peus d'abast (si controles a múltiples criatures pots donar la mateixa ordre a més d'una alhora). Esculls l'acció i el moviment de la criatura durant el seu proper torn, o li pots donar una ordre general (patrullar una cambra o passadís). Si no dones ordres, la criatura es defensarà contra criatures hostils i prous. La criatura seguirà una ordre fins que la completi.",
 				{
 					"type": "table",
-					"caption": "Objecte animat Statistics",
+					"caption": "Estadístiques d'Objecte animat",
 					"colLabels": [
-						"Size",
-						"HP",
+						"Tamany",
+						"PC",
 						"CA",
-						"Attack",
-						"Str",
-						"Dex"
+						"Atac",
+						"Frç",
+						"Des"
 					],
 					"colStyles": [
 						"col-2",
@@ -945,56 +945,56 @@
 					],
 					"rows": [
 						[
-							"{@creature objecte animat (diminut)|phb|Tiny}",
+							"{@creature objecte animat (diminut)|phb|Diminut}",
 							"20",
 							"18",
-							"{@hit +8} a impactar, {@damage 1d4 + 4} damage",
+							"{@hit +8} a impactar, {@damage 1d4 + 4} de dany",
 							"{@dice 1d20 - 3|4}",
 							"{@dice 1d20 + 4|18}"
 						],
 						[
-							"{@creature objecte animat (petit)|phb|Small}",
+							"{@creature objecte animat (petit)|phb|Petit}",
 							"25",
 							"16",
-							"{@hit +6} a impactar, {@damage 1d8 + 2} damage",
+							"{@hit +6} a impactar, {@damage 1d8 + 2} de dany",
 							"{@dice 1d20 - 2|6}",
 							"{@dice 1d20 + 2|14}"
 						],
 						[
-							"{@creature objecte animat (mitjà)|phb|Medium}",
+							"{@creature objecte animat (mitjà)|phb|Mitjà}",
 							"40",
 							"13",
-							"{@hit +5} a impactar, {@damage 2d6 + 1} damage",
+							"{@hit +5} a impactar, {@damage 2d6 + 1} de dany",
 							"{@dice 1d20|10}",
 							"{@dice 1d20 + 1|12}"
 						],
 						[
-							"{@creature objecte animat (gran)|phb|Large}",
+							"{@creature objecte animat (gran)|phb|Gran}",
 							"50",
 							"10",
-							"{@hit +6} a impactar, {@damage 2d10 + 2} damage",
+							"{@hit +6} a impactar, {@damage 2d10 + 2} de dany",
 							"{@dice 1d20 + 2|14}",
 							"{@dice 1d20|10}"
 						],
 						[
-							"{@creature objecte animat (enorme)|phb|Huge}",
+							"{@creature objecte animat (enorme)|phb|Enorme}",
 							"80",
 							"10",
-							"{@hit +8} a impactar, {@damage 2d12 + 4} damage",
+							"{@hit +8} a impactar, {@damage 2d12 + 4} de dany",
 							"{@dice 1d20 + 4|18}",
 							"{@dice 1d20 - 3|6}"
 						]
 					]
 				},
-				"An objecte animat is a construct with AC, hit points, attacks, Força, and Destresa determined by its size. Its Constitució is 10 and its Intel·ligència and Saviesa are 3, and its Carisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has una velocitat de vol de 30 peus and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has visió a cegues with a radius of 30 feet and is blind beyond that distance. When the objecte animat es queda a 0 punts de cop, it reverts to its original object form, and any remaining damage carries over to its original object form.",
-				"If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and dany contundent determined by its size. The DM might rule that a specific object inflicts slashing or piercing damage based on its form."
+				"Un objecte animat és un constructe amb CA, punts de cop, atacs, Força, i Destresa que depenen del seu tamany. La Constitució és 10 i la Intel·ligència i la Saviesa són 3, i la Carisma és 1. Té una velocitat de 30 peus; però si no té peus o forma de locomoció la velocitat serà de vol (i flota). Si l'objecte està lligat a una superfície o a un objecte major, com ara una cadena lligada a la paret, la velocitat és 0. Té visió a cegues amb 30 peus d'abast i és cec més enllà. Quan l'objecte animat es queda a 0 punts de cop torna a ser un objecte normal, i rep el dany residual de l'atac que l'ha deixat a 0 punts de cop com a objecte inanimat.",
+				"Si ordenes que un objecte ataqui, farà un atac melé contra una criatura a 5 peus d'abast. Fa un Colpeig amb unbonus d'atac i  un dany contundent que depenen del tamany. El/La/Li MM pot canviar el dany a tallant o perforant depenent de l'objecte."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Si llances aquest conjur amb una ranura de nivell 6 o superior, you can animate two additional objects per cada nivell per sobre de 5."
+						"Si llances aquest conjur amb una ranura de nivell 6 o superior, pots animar dos objectes adicionals per cada nivell per sobre de 5."
 					]
 				}
 			],

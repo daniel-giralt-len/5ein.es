@@ -64,6 +64,7 @@
 |Melee|Melé
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
 |Nature|Naturalesa
+|Nonmagical|No-màgic
 |Paralyzed|Paralitzat
 |Perception|Percepció
 |Performance|Faràndula
