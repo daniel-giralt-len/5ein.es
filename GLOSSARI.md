@@ -48,6 +48,7 @@
 |Hit Dice|Daus de Cop
 |Hit Points|Punts de Cop
 |Incapacitated|Incapacitat
+|Increase (by)|Incrementen (en)
 |Initiative|Iniciativa
 |Insight|Perspicàcia
 |Intelligence|Intel·ligència
@@ -97,5 +98,6 @@
 |Truesight|Visió veraç
 |Unconscious|Inconscient
 |Warlock|Bruixot/a/i
+|Within range|A l'abast
 |Wisdom|Saviesa
 |XP|PX
