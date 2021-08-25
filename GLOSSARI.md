@@ -9,6 +9,7 @@
 |Animal Handling|Tracte Animal
 |Arcana|Arcana
 |Armor Class, AC|Classe d'Armadura, CA
+|As an action|, com a acció,
 |Athletics|Atletisme
 |Attack roll|Tirada d'impacte
 |Background|Rerefons
