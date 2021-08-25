@@ -4660,7 +4660,7 @@ Renderer.monster = {
 					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingency", "arcane gate"],
 				},
 				8: {
-					O: ["sunburst", "delayed blast fireball", "antimagic field", "teleport", "globe of invulnerability", "maze"],
+					O: ["sunburst", "delayed blast fireball", "camp antimàgic", "teleport", "globe of invulnerability", "maze"],
 				},
 			};
 
