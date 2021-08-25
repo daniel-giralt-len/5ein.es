@@ -18,6 +18,7 @@
 |Bonus action|Acció bonus
 |Bright light|Llum forta
 |Cantrip| Truc
+|Challenge Rating (CR)|Valor de Repte (VR)
 |Charisma|Carisma
 |Charmed|Fascinat
 |Choose...|Escull... (no tria)
@@ -35,6 +36,7 @@
 |Dim light|Llum tènue
 |Disengage|Desenganxar-se
 |Dragonborn|Sang de Drac
+|Drops to 0 hit points|Es queda a 0 punts de cop
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
 |Frightened|Acovardat
