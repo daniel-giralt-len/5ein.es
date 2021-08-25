@@ -20,6 +20,7 @@
 |Cantrip| Truc
 |Charisma|Carisma
 |Charmed|Fascinat
+|Choose...|Escull... (no tria)
 |Class|Classe
 |Constitution|Constitució
 |Copper pieces|Coures
@@ -91,6 +92,7 @@
 |Strength|Força|
 |Stunned|Atordit
 |Survival|Supervivència
+|Target|Objectiu
 |To hit|A impactar
 |Truesight|Visió veraç
 |Unconscious|Inconscient
