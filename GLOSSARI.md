@@ -61,6 +61,7 @@
 |Investigation|Investigació
 |Invisible|Invisible
 |Item|Ítem
+|Language|Idioma
 |Level|Nivell
 |Lightly obscured|Poc ofuscat
 |Medicine|Medicina
