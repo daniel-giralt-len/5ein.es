@@ -66,6 +66,8 @@
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
 |Nature|Naturalesa
 |Nonmagical|No-màgic
+|On a save|Si supera
+|On a failure|Si falla
 |Paralyzed|Paralitzat
 |Perception|Percepció
 |Performance|Faràndula
