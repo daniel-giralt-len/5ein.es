@@ -41,6 +41,7 @@
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
 |Frightened|Acovardat
+|Gear|Equipament
 |Gold pieces|Ors
 |Grapple|Presa
 |Grappled|Apresat
