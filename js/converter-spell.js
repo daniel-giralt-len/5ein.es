@@ -414,7 +414,7 @@ class SpellParser extends BaseParser {
 		const mTimed = /^(\d+) (hour|minute|turn|round|week|day|year)(?:s)?$/i.exec(dur);
 		if (mTimed) return stats.duration = [{type: "cronometrada", duration: {type: this._getCleanTimeUnit(mTimed[2], true, options), amount: Number(mTimed[1])}}];
 
-		const mDispelledTriggered = /^until dispelled( or triggered)?$/i.exec(dur);
+		const mDispelledTriggered = /^fins que sigui dissipat( or triggered)?$/i.exec(dur);
 		if (mDispelledTriggered) {
 			const out = {type: "permanent", ends: ["dispel"]};
 			if (mDispelledTriggered[1]) out.ends.push("trigger");
