@@ -10,7 +10,7 @@ Resulta que el material de Dracs i Masmorres no està traduït al català... Per
 
 Opcionals (si programes aniràs més per feina):
 - Saber [REGEX](https://www.sitepoint.com/learn-regex/) (expressions regulars) per traduir en massa.
-- Tenir [VsCode](https://code.visualstudio.com/) per areemplaçar regex en massa
+- Tenir [VsCode](https://code.visualstudio.com/) per a reemplaçar regex en massa
 - Saber git i tenir compte a [GitHub](https://github.com/).
 
 ## El procediment
@@ -41,4 +41,8 @@ Sigui com sigui, revisaré el fitxer, editaré, i el mergejaré al repositori.
 - Intentem fer el llenguatge tan neutre com sigui possible.
 
 ## Els detalls
+Recursos que fem servir:
+- [Diccionari.cat](http://www.diccionari.cat/) per saber si una paraula és vàlida
+- [Diccionari de sinònims](https://www.softcatala.org/diccionari-de-sinonims)
+
 [5e.tools](https://5e.tools/index.html) és una pàgina web que té molt contingut de DnD 5e online de franc, i és la que ens serveix com a base. Els autors animen a clonar-la d'aquesta manera.
