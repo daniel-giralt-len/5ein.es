@@ -102,6 +102,7 @@
 |Stunned|Atordit
 |Survival|Supervivència
 |Target|Objectiu
+|Teleport|Teletransportació O BÉ Teleportació
 |To hit|A impactar
 |Truesight|Visió veraç
 |Unconscious|Inconscient
