@@ -50,6 +50,7 @@
 |History|Història
 |Hit Dice|Daus de Cop
 |Hit Points|Punts de Cop
+|Hover|Flotar
 |Incapacitated|Incapacitat
 |Increase (by)|Incrementen (en)
 |Initiative|Iniciativa
