@@ -2208,7 +2208,7 @@
 				const [, hpBase, hpPlus, spLevelMin] = m;
 				return Number(hpBase) + (Number(hpPlus) * (toSpellLevel - Number(spLevelMin)));
 			})
-			// "equal the aberration's Constitució modifier + your spellcasting ability modifier + ten times the spell's level"
+			// "equal the aberration's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
 			.replace(/(ten) times the spell's level/g, (...m) => {
 				const [, numMult] = m;
 				return Parser.textToNumber(numMult) * toSpellLevel;
