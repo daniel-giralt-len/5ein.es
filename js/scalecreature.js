@@ -1341,7 +1341,7 @@
 			name = name.toLowerCase();
 			content = content.replace(/{@atk ([A-Za-z,]+)}/gi, (_, p1) => Renderer.attackTagToFull(p1)).toLowerCase();
 
-			const isMeleeOrRangedWep = content.includes("melee or ranged weapon attack:");
+			const isMeleeOrRangedWep = content.includes("melee or atac armat a distància:");
 			if (isMeleeOrRangedWep) {
 				const wtf = this._wepThrownFinesse.find(it => content.includes(it));
 				if (wtf) return "dex";
@@ -1362,7 +1362,7 @@
 				return "str";
 			}
 
-			const isRangedWep = content.includes("ranged weapon attack:");
+			const isRangedWep = content.includes("atac armat a distància:");
 			if (isRangedWep) {
 				const wt = this._wepThrown.find(it => content.includes(it));
 				if (wt) return "str"; // this should realistically only catch Nets

@@ -229,13 +229,13 @@ class TagAttack {
 }
 TagAttack.MAP = {
 	"atac armat melé:": "{@atk mw}",
-	"ranged weapon attack:": "{@atk rw}",
+	"atac armat a distància:": "{@atk rw}",
 	"melee attack:": "{@atk m}",
 	"ranged attack:": "{@atk r}",
 	"area attack:": "{@atk a}",
 	"area weapon attack:": "{@atk aw}",
 	"atac màgic melé:": "{@atk ms}",
-	"melee or ranged weapon attack:": "{@atk mw,rw}",
+	"melee or atac armat a distància:": "{@atk mw,rw}",
 	"atac màgic a distància": "{@atk rs}",
 	"melee or atac màgic a distància": "{@atk ms,rs}",
 	"melee or ranged attack:": "{@atk m,r}",
