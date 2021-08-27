@@ -1355,7 +1355,7 @@
 				return null;
 			}
 
-			const isMeleeWep = content.includes("melee weapon attack:");
+			const isMeleeWep = content.includes("atac armat melé:");
 			if (isMeleeWep) {
 				const wf = this._wepFinesse.find(it => content.includes(it));
 				if (wf) return "dex";

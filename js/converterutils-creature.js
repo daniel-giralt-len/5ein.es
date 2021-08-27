@@ -228,7 +228,7 @@ class TagAttack {
 	}
 }
 TagAttack.MAP = {
-	"melee weapon attack:": "{@atk mw}",
+	"atac armat melé:": "{@atk mw}",
 	"ranged weapon attack:": "{@atk rw}",
 	"melee attack:": "{@atk m}",
 	"ranged attack:": "{@atk r}",
