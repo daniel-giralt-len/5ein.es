@@ -116,7 +116,7 @@ class LootGen {
 							<td/>
 							<td>
 								<span style="display: inline-block; min-width: 40px;">${r.min}${r.max ? `\u2212${r.max}` : ""}</span>
-								${subLink}
+								${supampalluga}
 							</td>
 						</tr>`;
 					});
