@@ -4622,7 +4622,7 @@ Renderer.monster = {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
 					B: ["darkness", "Melf's acid arrow", "fog cloud", "raig d'incendi"],
-					G: ["ray of sickness", "charm person", "detect thoughts", "invisibilitat", "suggestion"],
+					G: ["ray of sickness", "fascinar persona", "detect thoughts", "invisibilitat", "suggestion"],
 					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
 					A: ["see invisibility", "magic mouth", "ceguera/sordera", "sleep", "detect thoughts"],
 					Z: ["gust of wind", "misty step", "locate object", "difuminar", "witch bolt", "thunderwave", "shield"],
