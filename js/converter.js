@@ -341,7 +341,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 >
 >### Actions
->***Paralyzing Touch.*** Melee Spell Attack: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
+>***Paralyzing Touch.*** Atac màgic melé: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
 >
 >### Legendary Actions
 >The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
