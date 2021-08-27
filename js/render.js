@@ -4635,7 +4635,7 @@ Renderer.monster = {
 					S: ["sleet storm", "protection from energy", "catnap|XGE", "locate object", "identify", "Leomund's tiny hut"],
 				},
 				4: {
-					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "blight", "hunger of Hadar"],
+					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "hunger of Hadar"],
 					W: ["fire shield", "ice storm", "sleet storm"],
 					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "hypnotic pattern", "tongues"],
 					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "major image", "charm monster|XGE"],
