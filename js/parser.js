@@ -987,10 +987,10 @@ Parser.spRangeTypeToFull = function (range) {
 };
 
 UNT_FEET = "peus";
-UNT_MILES = "miles";
+UNT_MILES = "milles";
 Parser.SP_DIST_TYPE_TO_FULL = {
 	[UNT_FEET]: "Peus",
-	[UNT_MILES]: "Miles",
+	[UNT_MILES]: "milles",
 	[RNG_SELF]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_SELF],
 	[RNG_TOUCH]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_TOUCH],
 	[RNG_SIGHT]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_SIGHT],
