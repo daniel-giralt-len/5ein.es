@@ -6211,7 +6211,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powder or sand that is colored red, yellow, and blue"
+				"m": "un pessic de pols o sorra de colors (vermell, groc, i blau)"
 			},
 			"duration": [
 				{
@@ -6223,15 +6223,16 @@
 				}
 			],
 			"entries": [
-				"A dazzling array of flashing, colored light springs from your hand. Roll {@dice 6d10}; the total is how many hit points of creatures this spell can effect. Creatures en un con de 15 peus originating from you are affected in ascending order of their current hit points (ignoring {@condition unconscious} creatures and creatures that can't see).",
-				"Starting with the creature that has the lowest current hit points, each creature affected by this spell is {@condition blinded} until the end of your next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+				"Tot de llums de colors pampalluguejants surten de la teva mà. Tira {@dice 6d10}; això serà la bassa de punts de cop. Considera totes les criatures en un con de 15 peus que comenci en tu, exceptuant les criatures {@condition unconscious} i les que no puguin veure-hi.",
+				"Comença amb la criatura amb menys punts de cop de totes. Si la bassa és major o igual als seus punts de cop, la criatura estarà {@condition blinded} fins el final del teu proper torn. Ara resta els seus punts de cop de la bassa, i repeteix el procés amb la bassa que quedi i la següent criatura amb els menors punts de cop.",
+				"El procés segueix repetint-se fins que la bassa sigui menor als punts de cop de la criatura actual."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 2 o superior, roll an additional {@scaledice 6d10|1-9|2d10} per cada nivell per sobre d'1."
+						"Quan llances aquest conjur emprant una ranura de nivell 2 o superior, la bassa incrementa en {@scaledice 6d10|1-9|2d10} per cada nivell per sobre d'1."
 					]
 				}
 			],
