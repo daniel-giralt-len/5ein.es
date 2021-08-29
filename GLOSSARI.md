@@ -103,6 +103,7 @@
 |Strength|Força|
 |Stunned|Atordit
 |Survival|Supervivència
+|Take an action|Prendre una acció
 |Target|Objectiu
 |Teleport|Teletransportació O BÉ Teleportació
 |To hit|A impactar
