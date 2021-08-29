@@ -257,7 +257,7 @@ class SpellParser extends BaseParser {
 	}
 
 	static _setCleanRange (stats, line, options) {
-		const getUnit = (str) => str.toLowerCase().includes("mile") ? "miles" : "peus";
+		const getUnit = (str) => str.toLowerCase().includes("mile") ? "milles" : "peus";
 
 		const range = ConvertUtil.cleanDashes(line.split_handleColon("Range", 1)[1].trim());
 
