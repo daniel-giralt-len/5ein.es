@@ -399,7 +399,7 @@ class SpellConverter extends BaseConverter {
 	}
 }
 // region sample
-SpellConverter.SAMPLE_TEXT = `Chromatic Orb
+SpellConverter.SAMPLE_TEXT = `Esfera Cromàtica
 1st-level evocation
 Casting Time: 1 action
 Range: 90 feet
