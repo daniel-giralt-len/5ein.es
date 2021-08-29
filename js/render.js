@@ -4657,7 +4657,7 @@ Renderer.monster = {
 					G: ["project image", "mirage arcane", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "disintegrate", "llampec"],
 					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Mà d'en Bigby", "mental prison|XGE", "seeming"],
-					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingency", "portal arcà"],
+					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
 				},
 				8: {
 					O: ["sunburst", "delayed blast fireball", "camp antimàgic", "teleport", "globe of invulnerability", "maze"],
