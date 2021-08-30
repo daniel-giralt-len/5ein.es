@@ -6,7 +6,7 @@ UtilBookReference = {
 		switch (refId) {
 			case "bookref-quick":
 				return [
-					"Character Creation",
+					"Character Creació",
 					"Equipment",
 					"Playing the Game",
 					"Combat",
