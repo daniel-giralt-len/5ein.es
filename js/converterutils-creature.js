@@ -642,7 +642,7 @@ class SenseFilterTag {
 }
 SenseFilterTag.TAGS = {
 	"visió a cegues": "B",
-	"darkvision": "D",
+	"visió de foscor": "D",
 	"tremorsense": "T",
 	"truesight": "U",
 };

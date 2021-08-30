@@ -1045,7 +1045,7 @@ PropOrder._RACE = [
 
 	"heightAndWeight",
 
-	"darkvision",
+	"visió de foscor",
 	"feats",
 
 	new PropOrder._ArrayKey("traitTags", {fnSort: SortUtil.ascSortLower}),

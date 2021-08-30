@@ -767,7 +767,7 @@ class PageFilterRaces extends PageFilter {
 				"Condition Immunity",
 				"Damage Immunity",
 				"Damage Resistance",
-				"Darkvision", "Superior Darkvision",
+				"Visió de Foscor", "Superior Visió de Foscor",
 				"Dragonmark",
 				"Feat",
 				"Improved Resting",
@@ -822,7 +822,7 @@ class PageFilterRaces extends PageFilter {
 	static mutateForFilters (race) {
 		race._fSpeed = race.speed ? race.speed.walk ? [race.speed.climb ? "Climb" : null, race.speed.fly ? "Fly" : null, race.speed.swim ? "Swim" : null, PageFilterRaces.getSpeedRating(race.speed.walk)].filter(it => it) : [PageFilterRaces.getSpeedRating(race.speed)] : [];
 		race._fTraits = [
-			race.darkvision === 120 ? "Superior Darkvision" : race.darkvision ? "Darkvision" : null,
+			race.darkvision === 120 ? "Superior Visió de Foscor" : race.darkvision ? "Visió de Foscor" : null,
 			race.resist ? "Damage Resistance" : null,
 			race.immune ? "Damage Immunity" : null,
 			race.conditionImmune ? "Condition Immunity" : null,

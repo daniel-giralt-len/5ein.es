@@ -1425,8 +1425,8 @@ Parser.getFullCondImm = function (condImm, isPlainText) {
 
 Parser.MON_SENSE_TAG_TO_FULL = {
 	"B": "visió a cegues",
-	"D": "darkvision",
-	"SD": "superior darkvision",
+	"D": "visió de foscor",
+	"SD": "superior visió de foscor",
 	"T": "tremorsense",
 	"U": "truesight",
 };
@@ -3194,7 +3194,7 @@ Parser.SENSE_JSON_TO_FULL = {
 	"visió a cegues": [
 		"Una criatura amb visió a cegues pot percebre el seu entorn sense necessitar veure-hi, abarcant un radi específic. Aquelles criatures sense ulls, com els llims, o bé les criatures amb ecolocació o altres sentits augmentats, com els ratpenats o els dracs, tenen aquest sentit",
 	],
-	"darkvision": [
+	"visió de foscor": [
 		"Many creatures in fantasy gaming worlds, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in dim light as if it were bright light and in darkness as if it were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in that darkness, only shades of gray.",
 	],
 	"tremorsense": [
