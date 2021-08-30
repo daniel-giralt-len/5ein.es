@@ -104,7 +104,7 @@ class BaseParser {
 	 * @param [opts.noSavingThrow] Disable saving throw checking.
 	 * @param [opts.noAbilityName] Disable ability checking.
 	 * @param [opts.noHit] Disable "Hit:" checking.
-	 * @param [opts.noSpellcastingAbility] Disable spellcasting ability checking.
+	 * @param [opts.noSpellcastingAbility] Disable habilitat de llançament de conjurs checking.
 	 */
 	static _isContinuationLine (entryArray, curLine, opts) {
 		opts = opts || {};
