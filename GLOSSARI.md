@@ -5,6 +5,7 @@
 |(Spell) slot|Ranura (de conjur)
 |5 feet|5 peus
 |Acrobatics|Acrobàcies
+|Adamantine|Adamantí
 |Alignment|Alineament
 |Animal Handling|Tracte Animal
 |Arcana|Arcana
@@ -66,6 +67,7 @@
 |Lightly obscured|Poc ofuscat
 |Medicine|Medicina
 |Melee|Melé
+|Mithral|Mitrall
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
 |Nature|Naturalesa
 |Nonmagical|No-màgic
