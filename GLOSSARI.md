@@ -29,6 +29,7 @@
 |Damage|Dany
 |Darkvision|Visió de Foscor
 |Deafened|Eixordat
+|Demiplane|Demiplà
 |Death save|Salvada de mort
 |Deception|Engany
 |Dexterity|Destresa|
