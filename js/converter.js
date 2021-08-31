@@ -278,7 +278,7 @@ Senses visió veraç 120 peus, passive Perception 23
 Languages all, telepatía 120 peus
 Challenge 25 (75,000 PX)
 Innate Spellcasting. Mammon's habilitat de llançament de conjurs innata is Carisma (spell save DC 24, +16 a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):
-At will: fascinar persona, detect magic, dissipar màgia, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
+At will: fascinar persona, detectar màgia, dissipar màgia, fabricate (Mammon can create valuable objects), heat metal, arcanist's magic aura
 3/day each: animar objectes, contraconjur, creation, instant summons, legend lore, teleport
 1/day: imprisonment (minimus containment only, inside gems), sunburst
 Spellcasting. Mammon is a 6th level spellcaster. His habilitat de llançament de conjurs is Intel·ligència (spell save DC 13; +5 a impactar amb atacs màgics). Té els següents conjurs de mag preparats:
@@ -328,7 +328,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >***Spellcasting.*** The lich is an 18th-level spellcaster. Its habilitat de llançament de conjurs is Intel·ligència (spell save DC 20, +12 a impactar amb atacs màgics). The lich has the following wizard spells prepared:
 >
 >• Cantrips (at will): mage hand, prestidigitation, ray of frost
->• 1st level (4 slots): detect magic, magic missile, shield, thunderwave
+>• 1st level (4 slots): detectar màgia, magic missile, shield, thunderwave
 >• 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image
 >• 3rd level (3 slots): animar els morts, contraconjur, dissipar màgia, fireball
 >• 4th level (3 slots): blight, porta dimensional
