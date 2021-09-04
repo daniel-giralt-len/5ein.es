@@ -4660,7 +4660,7 @@ Renderer.monster = {
 					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
 				},
 				8: {
-					O: ["sunburst", "Bola de Foc Posposada", "camp antimàgic", "teleport", "globe of invulnerability", "maze"],
+					O: ["sunburst", "Bola de Foc Posposada", "camp antimàgic", "teleport", "globe of invulnerability", "laberint"],
 				},
 			};
 
