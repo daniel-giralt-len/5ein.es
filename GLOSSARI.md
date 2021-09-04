@@ -93,7 +93,8 @@
 |Restrained|Retingut
 |Rogue|Pícar/a/i
 |Saving Throw|Salvada
-|Shadowfell|l'Erm de l'Ombre
+|Shadowfell|l'Erm de l'Ombra
+|Shapechanger|Canviaformes
 |Silver pieces|Argents
 |Skills|Habilitats
 |Sleight of Hand|Joc de Mans
