@@ -4638,7 +4638,7 @@ Renderer.monster = {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "hunger of Hadar"],
 					W: ["fire shield", "ice storm", "sleet storm"],
 					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "hypnotic pattern", "tongues"],
-					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "major image", "charm monster|XGE"],
+					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
 				},
 				5: {
 					U: ["telekinesis", "hold monster", "porta dimensional", "wall of stone", "wall of force"],
