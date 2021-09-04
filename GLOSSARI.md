@@ -42,6 +42,7 @@
 |Dungeon Master (DM)|Mestre de Masmorres (MM)
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
+|Feywild|Terra Fata
 |Frightened|Acovardat
 |Gear|Equipament
 |Gold pieces|Ors
@@ -92,6 +93,7 @@
 |Restrained|Retingut
 |Rogue|Pícar/a/i
 |Saving Throw|Salvada
+|Shadowfell|l'Erm de l'Ombre
 |Silver pieces|Argents
 |Skills|Habilitats
 |Sleight of Hand|Joc de Mans
