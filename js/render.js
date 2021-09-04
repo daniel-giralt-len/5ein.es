@@ -4654,7 +4654,7 @@ Renderer.monster = {
 				7: {
 					B: ["power word pain|XGE", "finger of death", "desintegrar", "hold monster"],
 					U: ["llamp en cadena", "forcecage", "teleport", "eterietat"],
-					G: ["project image", "mirage arcane", "esprai prismàtic", "teleport"],
+					G: ["project image", "miratge arcà", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "desintegrar", "llampec"],
 					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Mà d'en Bigby", "mental prison|XGE", "seeming"],
 					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
