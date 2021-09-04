@@ -435,7 +435,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"resistència llegendària": "Resistències Llegendàries",
 
-		"magic weapon": "Armament Màgic",
+		"arma màgica": "Armament Màgic",
 		"armament màgic": "Armament Màgic",
 
 		"resistència a la màgia": "Resistència a la Màgia",
