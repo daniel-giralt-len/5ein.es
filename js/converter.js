@@ -284,7 +284,7 @@ At will: fascinar persona, detectar màgia, dissipar màgia, fabricate (Mammon c
 Spellcasting. Mammon is a 6th level spellcaster. His habilitat de llançament de conjurs is Intel·ligència (spell save DC 13; +5 a impactar amb atacs màgics). Té els següents conjurs de mag preparats:
 Cantrips (at will): fire bolt, light, mage hand, prestidigitation
 1st level (4 slots): mage armor, magic missile, shield
-2nd level (3 slots): misty step, suggestion
+2nd level (3 slots): pas boira, suggestion
 3rd level (3 slots): fly, lightning bolt
 Resistència Llegendària (3/Dia). Si Mammon falla una tirada de salvació pot escollir superar-la.
 Magic Resistance. Mammon té avantatge a salvar contra conjurs i altres efectes màgics.

@@ -4625,7 +4625,7 @@ Renderer.monster = {
 					G: ["ray of sickness", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
 					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
 					A: ["see invisibility", "magic mouth", "ceguera/sordera", "sleep", "detectar pensaments"],
-					Z: ["gust of wind", "misty step", "locate object", "difuminar", "witch bolt", "thunderwave", "shield"],
+					Z: ["gust of wind", "pas boira", "locate object", "difuminar", "witch bolt", "thunderwave", "shield"],
 					C: ["knock", "sleep", "detectar pensaments", "ceguera/sordera", "tasha's hideous laughter"],
 				},
 				3: {
