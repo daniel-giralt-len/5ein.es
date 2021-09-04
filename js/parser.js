@@ -961,7 +961,7 @@ RNG_SPHERE = "esfera";
 RNG_HEMISPHERE = "hemisphere";
 RNG_CYLINDER = "cylinder"; // homebrew only
 RNG_SELF = "llançador";
-RNG_SIGHT = "sight";
+RNG_SIGHT = "a vista";
 RNG_UNLIMITED = "unlimited";
 RNG_UNLIMITED_SAME_PLANE = "plane";
 RNG_TOUCH = "tocar";
@@ -976,7 +976,7 @@ Parser.SP_RANGE_TYPE_TO_FULL = {
 	[RNG_HEMISPHERE]: "Hemisphere",
 	[RNG_CYLINDER]: "Cylinder",
 	[RNG_SELF]: "Llançador",
-	[RNG_SIGHT]: "Sight",
+	[RNG_SIGHT]: "a Vista",
 	[RNG_UNLIMITED]: "Unlimited",
 	[RNG_UNLIMITED_SAME_PLANE]: "Unlimited on the same plane",
 	[RNG_TOUCH]: "Tocar",
