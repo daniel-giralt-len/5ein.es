@@ -487,7 +487,7 @@ class TimeTrackerBase extends TimeTrackerComponent {
 	}
 }
 TimeTrackerBase._DEFAULT_STATE__DAY = {
-	name: "Day",
+	name: "Dia",
 	isDeleted: false,
 };
 TimeTrackerBase._DEFAULT_STATE__MONTH = {
@@ -956,7 +956,7 @@ class TimeTrackerRoot_Clock extends TimeTrackerComponent {
 					const isDay = numHours >= it.sunriseHour && numHours < it.sunsetHour;
 					const hoursToDayNight = isDay ? it.sunsetHour - numHours
 						: numHours < it.sunriseHour ? it.sunriseHour - numHours : (this._parent.get("hoursPerDay") + it.sunriseHour) - numHours;
-					return `<b class="mr-2">${isDay ? "Day" : "Night"}</b> <span class="small text-muted">(${hoursToDayNight === 1 ? `Less than 1 hour` : `More than ${hoursToDayNight - 1} hour${hoursToDayNight === 2 ? "" : "s"}`} to sun${isDay ? "set" : "rise"})</span>`;
+					return `<b class="mr-2">${isDay ? "Dia" : "Night"}</b> <span class="small text-muted">(${hoursToDayNight === 1 ? `Less than 1 hour` : `More than ${hoursToDayNight - 1} hour${hoursToDayNight === 2 ? "" : "s"}`} to sun${isDay ? "set" : "rise"})</span>`;
 				}).join("/");
 
 				if (dayNightHtml !== lastDayNightHtml) {
@@ -1924,7 +1924,7 @@ class TimeTrackerRoot_Calendar extends TimeTrackerComponent {
 				const diffMonths = nxt - month;
 				doModMonths(diffMonths);
 			});
-		const $iptDay = opts.isHideDays ? null : $(`<input class="form-control form-control--minimal text-center input-xs dm-time__calendar-ipt-date dm-time__calendar-ipt-date--slashed-left" title="Day">`)
+		const $iptDay = opts.isHideDays ? null : $(`<input class="form-control form-control--minimal text-center input-xs dm-time__calendar-ipt-date dm-time__calendar-ipt-date--slashed-left" title="Dia">`)
 			.change(() => {
 				const {
 					secsPerDay,
@@ -2821,7 +2821,7 @@ class TimeTrackerRoot_Settings extends TimeTrackerComponent {
 		this._parent.addHook("unitsWindSpeed", hookWindUnits);
 		hookWindUnits();
 
-		const metaDays = this._render_getChildMeta("days", TimeTrackerRoot_Settings_Day, "Day", TimeTrackerRoot.getGenericDay);
+		const metaDays = this._render_getChildMeta("days", TimeTrackerRoot_Settings_Day, "Dia", TimeTrackerRoot.getGenericDay);
 		const metaMonths = this._render_getChildMeta("months", TimeTrackerRoot_Settings_Month, "Month", TimeTrackerRoot.getGenericMonth);
 		const metaSeasons = this._render_getChildMeta(
 			"seasons",

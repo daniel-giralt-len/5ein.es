@@ -1198,7 +1198,7 @@ Parser.DURATION_AMOUNT_TYPES = [
 	"ronda",
 	"minut",
 	"hour",
-	"day",
+	"dia",
 	"week",
 	"year",
 ];

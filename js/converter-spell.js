@@ -304,7 +304,7 @@ class SpellParser extends BaseParser {
 			case "actions":
 			case "rounds": return unit.slice(0, -1);
 
-			case "day":
+			case "dia":
 			case "year":
 			case "hour":
 			case "minut":

@@ -137,7 +137,7 @@ class StyleSwitcher {
 StyleSwitcher._STORAGE_DAY_NIGHT = "StyleSwitcher_style";
 StyleSwitcher._STORAGE_IS_MANUAL_MODE = "StyleSwitcher_style-is-manual-mode";
 StyleSwitcher._STORAGE_WIDE = "StyleSwitcher_style-wide";
-StyleSwitcher._STYLE_DAY = "day";
+StyleSwitcher._STYLE_DAY = "dia";
 StyleSwitcher._STYLE_NIGHT = "night";
 StyleSwitcher._STYLE_NIGHT_ALT = "nightAlt";
 StyleSwitcher._NIGHT_CLASS = "night-mode";
