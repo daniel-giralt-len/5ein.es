@@ -329,7 +329,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >
 >• Cantrips (at will): mage hand, prestidigitation, ray of frost
 >• 1st level (4 slots): detectar màgia, magic missile, shield, thunderwave
->• 2nd level (3 slots): detectar pensaments, invisibility, Fletxa Àcida d'en Melf, mirror image
+>• 2nd level (3 slots): detectar pensaments, invisibility, Fletxa Àcida d'en Melf, imatge mirall
 >• 3rd level (3 slots): animar els morts, contraconjur, dissipar màgia, fireball
 >• 4th level (3 slots): blight, porta dimensional
 >• 5th level (3 slots): cloudkill, scrying
