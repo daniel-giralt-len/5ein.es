@@ -416,7 +416,7 @@ class SpellParser extends BaseParser {
 
 		const mDispelledTriggered = /^fins que sigui dissipat( or triggered)?$/i.exec(dur);
 		if (mDispelledTriggered) {
-			const out = {type: "permanent", ends: ["dispel"]};
+			const out = {type: "permanent", ends: ["dissipar"]};
 			if (mDispelledTriggered[1]) out.ends.push("trigger");
 			return stats.duration = [out];
 		}

@@ -694,7 +694,7 @@ class SpellBuilder extends Builder {
 		const $wrpEndRows = $(`<div class="flex-col"/>`);
 		const $btnAddEnd = $(`<button class="btn btn-xs btn-default">Add &quot;Until&quot; Clause</button>`)
 			.click(() => {
-				SpellBuilder.__$getDurationInput__getDurationRow__getEndRow(doUpdateState, endRows, "dispel").$wrp.appendTo($wrpEndRows);
+				SpellBuilder.__$getDurationInput__getDurationRow__getEndRow(doUpdateState, endRows, "dissipar").$wrp.appendTo($wrpEndRows);
 				doUpdateState();
 			});
 		const $stageEnds = $$`<div class="mb-2">
