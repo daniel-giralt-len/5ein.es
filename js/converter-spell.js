@@ -483,7 +483,7 @@ Object.entries({
 	"enchantment": "E",
 	"evocation": "V",
 	"illusion": "I",
-	"divination": "D",
+	"endevinació": "D",
 }).forEach(([k, v]) => {
 	SpellParser._RES_SCHOOL.push({
 		output: v,
