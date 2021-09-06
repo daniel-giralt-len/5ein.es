@@ -2094,7 +2094,7 @@
 				if (numArcanum === 0) return delete sc.daily["1e"];
 
 				if (curNumSpells > numArcanum) {
-					// map each existing spell e.g. `{@spell gate}` to an object of the form `{original: "{@spell gate}", level: 9}`
+					// map each existing spell e.g. `{@spell portal}` to an object of the form `{original: "{@spell portal}", level: 9}`
 					const curSpells = sc.daily["1e"].map(it => {
 						const m = /{@spell ([^|}]+)(?:\|([^|}]+))?[|}]/.exec(it);
 						if (m) {
