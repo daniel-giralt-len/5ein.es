@@ -4660,7 +4660,7 @@ Renderer.monster = {
 					S: ["Esfera Glaçada de l'Otiluk", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
 				},
 				8: {
-					O: ["sunburst", "Bola de Foc Posposada", "camp antimàgic", "teleport", "globe of invulnerability", "laberint"],
+					O: ["sunburst", "Bola de Foc Posposada", "camp antimàgic", "teleport", "globus d'invulnerabilitat", "laberint"],
 				},
 			};
 

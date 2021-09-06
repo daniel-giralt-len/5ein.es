@@ -333,7 +333,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >• 3rd level (3 slots): animar els morts, contraconjur, dissipar màgia, fireball
 >• 4th level (3 slots): blight, porta dimensional
 >• 5th level (3 slots): cloudkill, scrying
->• 6th level (1 slot): disintegrate, globe of invulnerability
+>• 6th level (1 slot): disintegrate, globus d'invulnerabilitat
 >• 7th level (1 slot): finger of death, plane shift
 >• 8th level (1 slot): dominar criatura, power word stun
 >• 9th level (1 slot): power word kill
