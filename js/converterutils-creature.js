@@ -1204,7 +1204,7 @@ class SpeedConvert {
 		}
 	}
 }
-SpeedConvert._SPEED_TYPES = new Set(["walk", "fly", "swim", "climb", "burrow"]);
+SpeedConvert._SPEED_TYPES = new Set(["walk", "volar", "swim", "climb", "burrow"]);
 
 class DetectNamedCreature {
 	static tryRun (mon) {

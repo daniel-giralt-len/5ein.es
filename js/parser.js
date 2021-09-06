@@ -236,7 +236,7 @@ Parser.getSpeedString = (it) => {
 		procSpeed("walk");
 		procSpeed("burrow");
 		procSpeed("climb");
-		procSpeed("fly");
+		procSpeed("volar");
 		procSpeed("swim");
 		if (it.speed.choose) {
 			joiner = "; ";
@@ -252,7 +252,7 @@ Parser.SPEED_TO_PROGRESSIVE = {
 	"walk": "walking",
 	"burrow": "burrowing",
 	"climb": "climbing",
-	"fly": "flying",
+	"volar": "flying",
 	"swim": "swimming",
 };
 
