@@ -92,7 +92,7 @@ class AcConvert {
 							break;
 
 						// spells
-						case "foresight bonus": froms.push(`{@spell foresight} bonus`); break;
+						case "foresight bonus": froms.push(`{@spell presagiar} bonus`); break;
 						case "natural pell d'escorça": froms.push(`natural {@spell pell d'escorça}`); break;
 						case "mage armor": froms.push("{@spell mage armor}"); break;
 
