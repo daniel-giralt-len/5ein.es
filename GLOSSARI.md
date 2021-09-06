@@ -39,6 +39,7 @@
 |Disengage|Desenganxar-se
 |Dragonborn|Sang de Drac
 |Drops to 0 hit points|Es queda a 0 punts de cop
+|Drow|Dróu
 |Dungeon Master (DM)|Mestre de Masmorres (MM)
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
