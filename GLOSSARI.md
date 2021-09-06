@@ -75,6 +75,7 @@
 |Nonmagical|No-màgic
 |On a save|Si supera
 |On a failure|Si falla
+|Otiluke|Otiluk
 |Paralyzed|Paralitzat
 |Perception|Percepció
 |Performance|Faràndula
