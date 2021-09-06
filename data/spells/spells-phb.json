@@ -8200,7 +8200,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Contactes, mentalment, amb un semidéu, l'esperit d'algú savi mort fa molt, o alguna mena d'entitat misteriosa d'un altre plà. La comunicació pot fatigar-te la ment o esberlar-te-la. Quan llances el conjur has de salvar per Intel·ligència (CD 15). Si falles, reps {@damage 6d6} de dany psíquic i embogeixes fins que facis un Descans Llarg. Si embogeixes no pots prendre accions, no comprèns el que diuen altres criatures, no pots llegir, i només pots barbotejar. Una {@spell greater restoration} acaba aquest efecte prematurament.",
+				"Contactes, mentalment, amb un semidéu, l'esperit d'algú savi mort fa molt, o alguna mena d'entitat misteriosa d'un altre plà. La comunicació pot fatigar-te la ment o esberlar-te-la. Quan llances el conjur has de salvar per Intel·ligència (CD 15). Si falles, reps {@damage 6d6} de dany psíquic i embogeixes fins que facis un Descans Llarg. Si embogeixes no pots prendre accions, no comprèns el que diuen altres criatures, no pots llegir, i només pots barbotejar. Una {@spell restabliment superior} acaba aquest efecte prematurament.",
 				"Si superes la salvada, pots fer-li fins a cinc preguntes a l'entitat. Les has de formular abans no acabi el conjur. El/la/li MM respondrà les preguntes amb una sola paraula, com ara \"sí,\" \"no,\" \"potser,\" \"mai,\" \"irrellevant,\"; o \"incert\" si l'entitat no en coneix la resposta. Si una resposta d'una sola paraula fos poc clara, el/la/li MM pot decidir replicar amb una resposta curta."
 			],
 			"damageInflict": [
@@ -14941,7 +14941,7 @@
 				"You blast the mind of a creature que puguis veure a l'abast, attempting to shatter its intellect and personality. The target takes {@damage 4d6} de dany psíquic and ha de salvar per Intel·ligència.",
 				"Si falla, the creature's Intel·ligència and Carisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.",
 				"At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.",
-				"The spell can also be ended by {@spell greater restoration}, {@spell heal}, or {@spell wish}."
+				"The spell can also be ended by {@spell restabliment superior}, {@spell heal}, or {@spell wish}."
 			],
 			"damageInflict": [
 				"psíquic"
@@ -17566,7 +17566,7 @@
 			"entries": [
 				"Imposes una ordre màgica a una criatura que puguis veure a l'abast i forces que la segueixi o que no faci alguna cosa que decideixis. Si la criatura et pot comprendre, ha de salvar per Saviesa. Si falla, esdevé {@condition charmed} per tu durant la duració del conjur. {@condition charmed} així, rep {@damage 5d10} de dany psíquic cada cop que contradigui les teves instruccions, però només un cop per dia. A una criatura que no et comprengui no li afecta el conjur.",
 				"Pots ordenar el que vulguis a part d'una instrucció suïcida. Si ho fas, el conjur acaba.",
-				"Pots acabar el conjur prematurament dissipant-lo com a acció. També l'acaba un {@spell remove curse}, {@spell greater restoration}, o {@spell wish}."
+				"Pots acabar el conjur prematurament dissipant-lo com a acció. També l'acaba un {@spell remove curse}, {@spell restabliment superior}, o {@spell wish}."
 			],
 			"entriesHigherLevel": [
 				{
@@ -18567,7 +18567,7 @@
 			]
 		},
 		{
-			"name": "Greater Restoration",
+			"name": "Restabliment Superior",
 			"source": "PHB",
 			"page": 246,
 			"srd": true,
@@ -18589,7 +18589,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "diamond dust que valgui 100 ors o més (el conjur ho consumeix)",
+					"text": "pols de diamant que valgui 100 ors o més (el conjur ho consumeix)",
 					"cost": 10000,
 					"consume": true
 				}
@@ -18600,14 +18600,14 @@
 				}
 			],
 			"entries": [
-				"You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's {@condition exhaustion} level by one, or end one of the following effects on the target:",
+				"Imbueixes energia positiva en una criatura amb un efecte debilitant. Redueixes el seu nivell d'{@condition exhaustion} en un, o bé acabes un dels efecte següents de l'objectiu:",
 				{
 					"type": "list",
 					"items": [
-						"One effect that {@condition charmed} or {@condition petrified} the target",
-						"One curse, including the target's attunement to a cursed magic item",
-						"Any reduction to one of the target's ability scores",
-						"One effect reducing the target's hit point maximum"
+						"Un efecte que el tingui {@condition charmed} o {@condition petrified}",
+						"Una maledicció, que podria estar en un dels ítems màgics harmonitzats",
+						"Una reducció de les puntuacions d'habilitat",
+						"Un efecte reductor dels punts de cop màxims"
 					]
 				}
 			],
@@ -26445,7 +26445,7 @@
 				"Mentre duri la fascinació pots canviar el record d'un esdeveniment de les últimes 24 hores. La duració màxima de l'esdeveniment és 10 minuts. Pots eliminar el record, permetre que el recordi amb claredat, canviar els fets de l'esdeveniment, o reemplaçar-lo per un de diferent.",
 				"Has d'explicar-li a l'objectiu com canviarà el record i ha de comprendre el teu idioma. La ment omplirà els buits que t'hagis deixat a la descripció. Si el conjur s'acaba prematurament els records no seran alterats. Sinò, els records s'alteren quan acaba el conjur.",
 				"Una memòra modificada no canvia, necessàriament, l'actitud d'una criatura, sobretot si contradiu els seus ideals naturals, alineament, o instints. Un record absurd, com que a la criatura li encanta banyar-se en àcid, serà desestimada com si fos un malson. Si és massa absurda, el/la/li MM pot dictar que una memòria no afectarà a una craitura.",
-				"El conjur {@spell remove curse} o bé una {@spell greater restoration} li retorna la memòria de debò."
+				"El conjur {@spell remove curse} o bé una {@spell restabliment superior} li retorna la memòria de debò."
 			],
 			"entriesHigherLevel": [
 				{
@@ -39554,7 +39554,7 @@
 					"type": "list",
 					"items": [
 						"You create one object of up to 25,000 ors in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it apareix en un espai desocupat you can see on the ground.",
-						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@spell greater restoration} spell.",
+						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@spell restabliment superior} spell.",
 						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
 						"You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a {@creature lich}'s drenar vida attack.",
 						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a {@spell wish} spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."

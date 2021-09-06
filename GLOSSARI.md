@@ -4,6 +4,7 @@
 |(Skill) Saving Throw|Salvar per (Habilitat)
 |(Spell) slot|Ranura (de conjur)
 |5 feet|5 peus
+|Ability score|Puntuació d'habilitat
 |Acrobatics|Acrobàcies
 |Adamantine|Adamantí
 |Alignment|Alineament
@@ -13,6 +14,7 @@
 |As an action|, com a acció,
 |Athletics|Atletisme
 |Attack roll|Tirada d'impacte
+|Attune|Harmonitzar
 |Background|Rerefons
 |Blinded|Encegat
 |Blindsight|Visió a cegues
