@@ -4638,13 +4638,13 @@ Renderer.monster = {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "hunger of Hadar"],
 					W: ["fire shield", "ice storm", "sleet storm"],
 					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "hypnotic pattern", "tongues"],
-					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
+					C: ["polymorph", "invisibilitat superior", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
 				},
 				5: {
 					U: ["telekinesis", "hold monster", "porta dimensional", "wall of stone", "wall of force"],
 					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "hallucinatory terrain", "porta dimensional"],
 					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
-					O: ["hold monster", "immolation|XGE", "wall of fire", "greater invisibility", "porta dimensional"],
+					O: ["hold monster", "immolation|XGE", "wall of fire", "invisibilitat superior", "porta dimensional"],
 					S: ["cone of cold", "ice storm", "teleportation circle", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
 				},
 				6: {
