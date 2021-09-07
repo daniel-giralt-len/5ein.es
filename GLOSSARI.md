@@ -44,6 +44,7 @@
 |Drops to 0 hit points|Es queda a 0 punts de cop
 |Drow|Dróu
 |Dungeon Master (DM)|Mestre de Masmorres (MM)
+|Eldritch|Èldritx
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
 |Feywild|Terra Fata
