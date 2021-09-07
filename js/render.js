@@ -4637,7 +4637,7 @@ Renderer.monster = {
 				4: {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
 					W: ["fire shield", "ice storm", "sleet storm"],
-					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "hypnotic pattern", "tongues"],
+					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "senefes hipnòtiques", "tongues"],
 					C: ["polymorph", "invisibilitat superior", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
 				},
 				5: {
