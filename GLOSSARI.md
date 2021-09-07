@@ -26,6 +26,7 @@
 |Charmed|Fascinat
 |Choose...|Escull... (no tria)
 |Class|Classe
+|Climbing speed|Velocitat d'escalada
 |Constitution|Constitució
 |Copper pieces|Coures
 |Damage|Dany
