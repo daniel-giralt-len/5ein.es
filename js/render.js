@@ -4641,18 +4641,18 @@ Renderer.monster = {
 					C: ["polymorph", "invisibilitat superior", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
 				},
 				5: {
-					U: ["telekinesis", "immobilitzar monstre", "porta dimensional", "wall of stone", "wall of force"],
+					U: ["telekinesis", "immobilitzar criatura", "porta dimensional", "wall of stone", "wall of force"],
 					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
 					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
-					O: ["immobilitzar monstre", "immolation|XGE", "wall of fire", "invisibilitat superior", "porta dimensional"],
+					O: ["immobilitzar criatura", "immolation|XGE", "wall of fire", "invisibilitat superior", "porta dimensional"],
 					S: ["cone of cold", "ice storm", "teleportation circle", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
 				},
 				6: {
 					W: ["cone of cold", "wall of ice"],
-					A: ["scrying", "Rary's telepathic bond", "Dansa Irresistible de l'Otto", "legend lore", "immobilitzar monstre", "dream"],
+					A: ["scrying", "Rary's telepathic bond", "Dansa Irresistible de l'Otto", "legend lore", "immobilitzar criatura", "dream"],
 				},
 				7: {
-					B: ["power word pain|XGE", "finger of death", "desintegrar", "immobilitzar monstre"],
+					B: ["power word pain|XGE", "finger of death", "desintegrar", "immobilitzar criatura"],
 					U: ["llamp en cadena", "gàbia de força", "teleport", "eterietat"],
 					G: ["project image", "miratge arcà", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "desintegrar", "llampec"],
