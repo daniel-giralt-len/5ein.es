@@ -12911,7 +12911,7 @@
 			]
 		},
 		{
-			"name": "Earthquake",
+			"name": "Terratrèmol",
 			"source": "PHB",
 			"page": 236,
 			"srd": true,
@@ -12933,7 +12933,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of dirt, a piece of rock, and a lump of clay"
+				"m": "un pessic de terra, una pedra, i una mica de fang"
 			},
 			"duration": [
 				{
@@ -12946,23 +12946,23 @@
 				}
 			],
 			"entries": [
-				"You create a seismic disturbance at a point on the ground que puguis veure a l'abast. Durant la duració del conjur, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point and shakes creatures and structures in contact with the ground in that area.",
-				"The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating ha de salvar per Constitució. Si falla, the creature's concentration is broken.",
-				"Quan llances el conjur and at the end of each turn you spend concentrating on it, each creature on the ground in the area ha de salvar per Destresa. Si falla, the creature is knocked {@condition prone}.",
-				"This spell can have additional effects depending on the terrain in the area, as determined by the DM.",
+				"Crees un seisme a un punt al terra que puguis veure a l'abast. Durant la duració del conjur, un trèmol intens fractura el terra en un cercles de 100 peus de radi centrat en aquell punt i sacseja a les criatures i les estructures a dins de l'àrea.",
+				"El terra esdevé terreny difícil. Tota criatura al terra de l'àrea que s'està concentrant en un conjur ha de salvar per Constitució. Si falla, la seva concentració es trenca.",
+				"Quan llances el conjur i al final de cada torn teu que t'hi concentres, tota criatura al terra de l'àrea ha de salvar per Destresa. Si falla, cau {@condition prone}.",
+				"Aquest conjur pot tenir efectes adicionals depenent del terreny; ho dicta el/la/li MM.",
 				{
 					"type": "entries",
-					"name": "Fissures",
+					"name": "Fisures",
 					"entries": [
-						"Fissures open throughout the spell's area at the start of your next turn after you cast the spell. A total of {@dice 1d6} such fissures open in locations chosen by the DM. Each is {@dice 1d10 × 10} feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Destresa saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.",
-						"A fissure that opens beneath a structure causes it to automatically collapse (see below)."
+						"El terra s'esquerda a dins de l'àrea a l'inici del teu torn després que llancis el conjur.  {@dice 1d6} fisures s'obren a llocs escollits pel/la/li MM. Cadascuna té {@dice 1d10 × 10} peus de profunditat, fa 10 peus d'ample, i s'extèn d'una punta a l'altra de l'àrea del conjur. Una criatura que estava on ha aparegut una fisura ha de salvar per Destresa saving. Si falla, hi cau. Si supera, es mou per no caure-hi.",
+						"Una fisura que s'obri sota una estructura l'ensorra immeadiatament (més a sota)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Structures",
+					"name": "Estructures",
 					"entries": [
-						"The tremor deals 50 dany contundent to any structure in contact with the ground in the area quan llances el conjur and a l'inici de cada torn teu mentre duri el conjur. If a structure es queda a 0 punts de cop, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height ha de salvar per Destresa. Si falla, rep {@damage 5d6} de dany contundent, is knocked {@condition prone}, and is buried in the rubble, requiring una tirada de Força ({@skill Atletisme}) amb CD 20 as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. Si supera en rep la meitat and doesn't fall {@condition prone} or become buried."
+						"El trèmol fa 50 de dany contundent a tota estructura que estigui tocant el terra. El dany es fa quan llances el conjur i a l'inici de cada torn teu mentre duri el conjur. Si una estructura es queda a 0 punts de cop, s'ensorra i pot danyar a criatures properes. Una criatura que estigui a l'abast de l'estructura (la meitat de la distància de l'alçada de l'estructura) ha de salvar per Destresa. Si falla, rep {@damage 5d6} de dany contundent, cau {@condition prone}, i queda enterrada a les runes; haurà de, com a acció, fer una tirada de Força ({@skill Atletisme}) amb CD 20 per a escapar. El/la/li pot incrementar o decrementar la CD depenent de la naturalesa de la runa. Si supera rep la meitat del dany i no queda {@condition prone} ni enterrada."
 					]
 				}
 			],
