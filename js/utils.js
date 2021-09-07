@@ -5807,7 +5807,7 @@ CryptUtil = {
 	},
 
 	hex2Dec (hex) {
-		return parseInt(`0x${hex}`);
+		return parseInt(`0x${embruix}`);
 	},
 
 	md5: (s) => {
