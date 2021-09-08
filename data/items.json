@@ -3287,7 +3287,7 @@
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The crown has 10 charges. While wearing it, pots, com a acció, expend some of its charges to cast one of the following spells from it (spell save DC 16): {@spell fascinar persona} (1 charge), {@spell desintegrar} (6 charges), {@spell fear} (3 charges), {@spell finger of death} (7 charges), {@spell carn a pedra} (6 charges), {@spell immobilitzar humanoide} (2 charges), {@spell ray of enfeeblement} (2 charges), {@spell sleep} (1 charge), {@spell slow} (3 charges), {@spell telekinesis} (5 charges).",
+						"The crown has 10 charges. While wearing it, pots, com a acció, expend some of its charges to cast one of the following spells from it (spell save DC 16): {@spell fascinar persona} (1 charge), {@spell desintegrar} (6 charges), {@spell temor} (3 charges), {@spell finger of death} (7 charges), {@spell carn a pedra} (6 charges), {@spell immobilitzar humanoide} (2 charges), {@spell ray of enfeeblement} (2 charges), {@spell sleep} (1 charge), {@spell slow} (3 charges), {@spell telekinesis} (5 charges).",
 						"The crown regains {@dice 1d6 + 3} expended charges daily at dawn."
 					]
 				},
@@ -3303,7 +3303,7 @@
 			"attachedSpells": [
 				"fascinar persona",
 				"desintegrar",
-				"fear",
+				"temor",
 				"finger of death",
 				"carn a pedra",
 				"immobilitzar humanoide",
@@ -13325,7 +13325,7 @@
 					"type": "entries",
 					"name": "Dormant",
 					"entries": [
-						"Most of the book is blank, but the following spells are recorded in the first pages of the tome: {@spell alarm}, {@spell camp antimàgic}, {@spell Mà d'en Bigby}, {@spell plaga}, {@spell fascinar persona}, {@spell confusió}, {@spell controlar el temps}, {@spell crear no-morts}, {@spell detectar pensaments}, {@spell engrandir/enxiquir}, {@spell fear}, {@spell presagiar}, {@spell forma gasosa}, {@spell glif de guarda}, {@spell recordar llegendes}, {@spell Barraca Diminuta d'en Leomund}, {@spell suggestió massiva}, {@spell desconcertar}, {@spell pas boira}, {@spell Gos Lleial d'en Mordenkainen}, {@spell esprai prismàtic}, {@spell ray of enfeeblement}, {@spell silent image}, {@spell teleport}, and {@spell thunderwave}.",
+						"Most of the book is blank, but the following spells are recorded in the first pages of the tome: {@spell alarm}, {@spell camp antimàgic}, {@spell Mà d'en Bigby}, {@spell plaga}, {@spell fascinar persona}, {@spell confusió}, {@spell controlar el temps}, {@spell crear no-morts}, {@spell detectar pensaments}, {@spell engrandir/enxiquir}, {@spell temor}, {@spell presagiar}, {@spell forma gasosa}, {@spell glif de guarda}, {@spell recordar llegendes}, {@spell Barraca Diminuta d'en Leomund}, {@spell suggestió massiva}, {@spell desconcertar}, {@spell pas boira}, {@spell Gos Lleial d'en Mordenkainen}, {@spell esprai prismàtic}, {@spell ray of enfeeblement}, {@spell silent image}, {@spell teleport}, and {@spell thunderwave}.",
 						"You can use the grimoire as your spellbook, and you can scribe new spells into it as normal. When you prepare wizard spells using the grimoire, the number of wizard spells you can prepare increases by 1."
 					]
 				},
@@ -19621,7 +19621,7 @@
 					"rows": [
 						[
 							"1",
-							"{@spell fear}"
+							"{@spell temor}"
 						],
 						[
 							"2",
@@ -24567,14 +24567,14 @@
 					"type": "list",
 					"items": [
 						"{@spell Amistat Animal} (save DC 13)",
-						"{@spell Fear} (save DC 13), targeting only beasts that have an Intel·ligència of 3 or lower",
+						"{@spell Temor} (save DC 13), targeting only beasts that have an Intel·ligència of 3 or lower",
 						"{@spell Speak with animals}"
 					]
 				}
 			],
 			"attachedSpells": [
 				"amistat animal",
-				"fear",
+				"temor",
 				"speak with animals"
 			],
 			"lootTables": [
@@ -31370,7 +31370,7 @@
 							"items": [
 								"You can speak, read, and write Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-								"While holding the morningstar, pots, com a acció, cast one of the following spells from it (save DC 13): {@spell fascinar persona}, {@spell dominar humanoide}, or {@spell fear}. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.",
+								"While holding the morningstar, pots, com a acció, cast one of the following spells from it (save DC 13): {@spell fascinar persona}, {@spell dominar humanoide}, or {@spell temor}. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.",
 								"While holding the morningstar, you have advantage on Carisma ({@skill Intimidació}) checks."
 							]
 						}
@@ -31419,7 +31419,7 @@
 			"attachedSpells": [
 				"fascinar persona",
 				"dominar humanoide",
-				"fear"
+				"temor"
 			]
 		},
 		{
@@ -34614,7 +34614,7 @@
 			]
 		},
 		{
-			"name": "Wand of Fear",
+			"name": "Wand of Temor",
 			"source": "DMG",
 			"page": 210,
 			"srd": true,
@@ -34635,7 +34635,7 @@
 					]
 				},
 				{
-					"name": "Cone of Fear",
+					"name": "Cone of Temor",
 					"type": "entries",
 					"entries": [
 						"While holding the wand, pots, com a acció, expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Saviesa saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the Dodge action. Al final de cada torn seu, a creature can repeat the saving throw, ending the effect on itself on a success."
