@@ -4649,7 +4649,7 @@ Renderer.monster = {
 				},
 				6: {
 					W: ["cone of cold", "wall of ice"],
-					A: ["scrying", "Rary's telepathic bond", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
+					A: ["scrying", "Vincle Telepàtic d'en Rary", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
 				},
 				7: {
 					B: ["power word pain|XGE", "dit de la mort", "desintegrar", "immobilitzar criatura"],
