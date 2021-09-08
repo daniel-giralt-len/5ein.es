@@ -4632,7 +4632,7 @@ Renderer.monster = {
 					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "slow"],
 					R: ["bola de foc", "raig d'incendi", "pressa", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
 					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "shield"],
-					S: ["sleet storm", "protection from energy", "catnap|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
+					S: ["sleet storm", "protegir de l'energia", "catnap|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
