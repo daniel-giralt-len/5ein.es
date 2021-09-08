@@ -4656,7 +4656,7 @@ Renderer.monster = {
 					U: ["llamp en cadena", "gàbia de força", "teleport", "eterietat"],
 					G: ["projectar imatge", "miratge arcà", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "desintegrar", "llampec"],
-					C: ["symbol", "simulacrum", "invertir la gravetat", "projectar imatge", "Mà d'en Bigby", "mental prison|XGE", "aparentar"],
+					C: ["symbol", "simulacre", "invertir la gravetat", "projectar imatge", "Mà d'en Bigby", "mental prison|XGE", "aparentar"],
 					S: ["Esfera Glaçada de l'Otiluk", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
 				},
 				8: {
