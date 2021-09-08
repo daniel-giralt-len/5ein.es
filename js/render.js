@@ -4629,9 +4629,9 @@ Renderer.monster = {
 					C: ["picaporta", "adormir", "detectar pensaments", "ceguera/sordera", "tasha's hideous laughter"],
 				},
 				3: {
-					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "slow"],
+					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
 					R: ["bola de foc", "raig d'incendi", "pressa", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
-					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "escut"],
+					O: ["alentir", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "escut"],
 					S: ["tempesta d'aiguaneu", "protegir de l'energia", "catnap|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {
