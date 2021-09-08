@@ -29174,7 +29174,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Prismatic Wall",
+			"name": "Paret Prismàtica",
 			"source": "PHB",
 			"page": 267,
 			"srd": true,
@@ -29207,58 +29207,58 @@
 				}
 			],
 			"entries": [
-				"A shimmering, multicolored plane of light forms a vertical opaque wall\u2014up to 90 feet long, 30 feet high, and 1 inch thick\u2014centrada en un punt que puguis veure a l'abast. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place durant la duració del conjur. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.",
-				"The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, ha de salvar per Constitució. Si falla, become {@condition blinded} for 1 minute.",
-				"The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature ha de salvar per Destresa or be affected by that layer's properties as described below.",
-				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so durant la duració del conjur. An camp antimàgic has no effect on a prismatic wall.",
+				"Un pla multicolor i brillant forma una paret vertical opaca, que pot medir fins a 90 peus de llarg, 30 d'alt, i 1 polzada de gruix centrada en un punt que puguis veure a l'abast. Alternativament pots fer-ne de la paret una esfera de fins a 30 peus de diàmetre centrada en un punt que a l'abast. La paret roman al lloc durant la duració del conjur. Si la paret apareix intersectant un espai ocupat per una criatura el conjur falla, i la teva acció i ranura es gasten.",
+				"La paret desprèn llum forta a 100 peus d'abast i llum tènue uns 100 peus adicionals. Tu i les criatures que esculls quan llances el conjur poden atansar-se a la paret i atravessar-la sense malmeses. Si qualsevol altre criatura que pugui veure la paret s'hi acosta a 20 peus o menys (o comença el seu torn a aquesta distància) ha de salvar per Constitució. Si falla, esdevé {@condition blinded} durant 1 minut.",
+				"La paret està formada de 7 capes, i cadascuna té un color diferent. Quan una criatura intenta atravessar la paret, atravessa totes les capes; una rere l'altre. La criatura ha de ha de salvar per Destresa a cada capa que atravessa. Si falla, és afectada per la capa que estava atravessant.",
+				"La paret pot ser destruida capa per capa, de vermell a violeta, amb mètodes específics per a cada capa. Un cop es destrueixi una capa, roman destruida durant la duració del conjur. Un camp antimàgic no afecta a una paret prismàtica.",
 				{
 					"type": "entries",
-					"name": "Red",
+					"name": "Vermella",
 					"entries": [
-						"The creature takes {@damage 10d6} de dany de foc ; si supera, en rep la meitat. While this layer is in place, nonmagical ranged attacks can't pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it."
+						"Si falla, la criatura rep {@damage 10d6} de dany de foc; si supera, en rep la meitat. Mentre la capa existeixi, atacs a distància no-màgics no la poden atravessar. La capa es pot destruir si rep, com a mínim, 25 de dany de foc."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Orange",
+					"name": "Taronja",
 					"entries": [
-						"The creature takes {@damage 10d6} de dany d'àcid ; si supera, en rep la meitat. While this layer is in place, magical ranged attacks can't pass through the wall. The layer is destroyed by a strong wind."
+						"Si falla, la criatura rep {@damage 10d6} de dany d'àcid; si supera, en rep la meitat. Mentre la capa existeixi, els atacs màgics a distància no la poden atravessar. Aquesta capa es pot destruir amb una ràfega de vent forta."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Yellow",
+					"name": "Groga",
 					"entries": [
-						"The creature takes {@damage 10d6} de dany elèctric ; si supera, en rep la meitat. This layer can be destroyed by dealing at least 60 force damage to it."
+						"Si falla, la criatura rep {@damage 10d6} de dany elèctric; si supera, en rep la meitat. Aquesta capa es pot destruir si rep, com a mínim, 60 de dany de força."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Green",
+					"name": "Verda",
 					"entries": [
-						"The creature takes {@damage 10d6} de dany de verí ; si supera, en rep la meitat. A passaparets spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer."
+						"Si falla, la criatura rep {@damage 10d6} de dany de verí; si supera, en rep la meitat. El conjur passaparets o un conjur de nivell equivalent o superior que obri portals a una superfície pot destruir aquesta capa."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Blue",
+					"name": "Blava",
 					"entries": [
-						"The creature takes {@damage 10d6} de dany de fred ; si supera, en rep la meitat. This layer can be destroyed by dealing at least 25 fire damage to it."
+						"Si falla, la criatura rep {@damage 10d6} de dany de fred; si supera, en rep la meitat. Aquesta capa es pot destruir si rep, com a mínim, 25 de dany de foc."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Indigo",
+					"name": "Índia",
 					"entries": [
-						"Si falla, the creature is {@condition restrained}. It must then make a Constitució saving throw al final de cada torn seu. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.",
-						"While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a daylight spell or a similar spell of equal or higher level."
+						"Si falla, la criatura esdevé {@condition restrained}. Ha de salvar per Constitució al final de cada torn seu. Si supera 3 vegades, el conjur li acaba. Si falla 3 cops, es queda {@condition petrified} permanentment. Les superades i falles no han de ser consecutives.",
+						"Mentre aquesta capa existeixi no la pot atravessar cap conjur. Pot ser detruida amb llum forta provinent del conjur Llum del Dia o un conjur similar de nivell equivalent o superior."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Violet",
+					"name": "Violeta",
 					"entries": [
-						"Si falla, the creature is {@condition blinded}. It must then make a Saviesa saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a {@spell dissipar màgia} spell or a similar spell of equal or higher level that can end spells and magical effects."
+						"Si falla, la criatura esdevé {@condition blinded}. Ha de salvar per Saviesa a l'inici del teu proper torn. Si supera, la ceguera acaba. Si falla, la criatura és teletransportada a un altre pla d'existència (escull el/la/li MM) i ja no està {@condition blinded}. (Normalment, une criatura forània al pla on es troba torna al seu pla d'origen, i les que no solen anar al Pla Etèri o a l'Astral.) Aquesta capa pot ser destruida amb el conjur {@spell dissipar màgia} o un conjur de nivell equivalent o superior que pugui acabar conjurs o efectes màgics."
 					]
 				}
 			],
