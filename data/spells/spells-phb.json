@@ -31947,7 +31947,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Scrying",
+			"name": "Escodrinyar",
 			"source": "PHB",
 			"page": 273,
 			"srd": true,
@@ -31969,7 +31969,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a focus que valgui com a mínim 1,000 ors, such as a crystal ball, a silver mirror, or a font filled with holy water",
+					"text": "un focus que valgui com a mínim 1,000 ors, com ara una bola de vidre, un espill de plata, o una font plena d'aigua beneïda",
 					"cost": 100000
 				}
 			},
@@ -31984,13 +31984,13 @@
 				}
 			],
 			"entries": [
-				"You can see and hear a particular creature you choose that is on the same plane of existence as you. The target ha de salvar per Saviesa, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
+				"Pots veure i sentir a una criatura específica que escullis. Ha d'estar en el teu pla d'existència. L'objectiu ha de salvar per Saviesa; la CD es modificarà depenent de la familiaritat que tinguis amb l'objectiu i la vostra connexió física. Si l'objectiu sap que estàs llançant aquest conjur, pot fallar-lo voluntàriament si vol ésser observat.",
 				{
 					"type": "table",
-					"caption": "Knowledge of Target",
+					"caption": "Familiaritat amb l'Objectiu",
 					"colLabels": [
-						"Knowledge",
-						"Save Modifier"
+						"Familiaritat",
+						"Modificador de Salvada"
 					],
 					"colStyles": [
 						"col-11",
@@ -31998,25 +31998,25 @@
 					],
 					"rows": [
 						[
-							"Secondhand (you have heard of the target)",
+							"N'has sentit a parlar",
 							"+5"
 						],
 						[
-							"Firsthand (you have met the target)",
+							"L'has conegut",
 							"+0"
 						],
 						[
-							"Familiar (you know the target well)",
+							"Hi ets familiar",
 							"-5"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Connection to Target",
+					"caption": "Connexió amb l'Objectiu",
 					"colLabels": [
-						"Connection",
-						"Save Modifier"
+						"Connexió",
+						"Modificador de Salvada"
 					],
 					"colStyles": [
 						"col-11",
@@ -32024,22 +32024,22 @@
 					],
 					"rows": [
 						[
-							"Likeness or picture",
+							"Aparença descrita o dibuix",
 							"-2"
 						],
 						[
-							"Possession or garment",
+							"Possessió o peça de roba",
 							"-4"
 						],
 						[
-							"Body part, lock of hair, bit of nail, or the like",
+							"Part del cos, metxa de cabell, una ungla, o similar",
 							"-10"
 						]
 					]
 				},
-				"On a successful save, the target isn't affected, and you can't use this spell against it again for 24 hours.",
-				"Si falla, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it durant la duració del conjur. A creature that can see {@condition invisible} objects sees the sensor as a luminous orb about the size of your fist.",
-				"Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move."
+				"Si supera, el conjur no afecta a l'objectiu i hi és immune durant 24 hores.",
+				"Si falla, el conjur crea un sensor invisible a 10 peus de l'objectiu. Pots veure i escoltar a través del sensor com si hi fossis. El sensor segueix a l'objectiu, qeudant-s'hi sempre a 10 peus durant la duració del conjur. Una criatura que pot veure objectes {@condition invisible} veu el sensor com un globus lluminós del tamany del teu puny.",
+				"En ves d'una criatura, pots designar un lloc com a objectiu. Si ho fas, el sensor apareix a aquell lloc i no es mou."
 			],
 			"savingThrow": [
 				"wisdom"
