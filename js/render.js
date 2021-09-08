@@ -4652,7 +4652,7 @@ Renderer.monster = {
 					A: ["scrying", "Rary's telepathic bond", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
 				},
 				7: {
-					B: ["power word pain|XGE", "finger of death", "desintegrar", "immobilitzar criatura"],
+					B: ["power word pain|XGE", "dit de la mort", "desintegrar", "immobilitzar criatura"],
 					U: ["llamp en cadena", "gàbia de força", "teleport", "eterietat"],
 					G: ["project image", "miratge arcà", "esprai prismàtic", "teleport"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "desintegrar", "llampec"],
