@@ -81,6 +81,7 @@
 |On a save|Si supera
 |On a failure|Si falla
 |Otiluke|Otiluk
+|Outer Planes|Plans Externs
 |Paralyzed|Paralitzat
 |Perception|Percepció
 |Performance|Faràndula
