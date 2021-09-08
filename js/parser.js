@@ -2438,7 +2438,7 @@ SRC_3PP_SUFFIX = " 3pp";
 
 AL_PREFIX = "Adventurers League: ";
 AL_PREFIX_SHORT = "AL: ";
-PS_PREFIX = "Plane Shift: ";
+PS_PREFIX = "Saltar de Pla: ";
 PS_PREFIX_SHORT = "PS: ";
 UA_PREFIX = "Unearthed Arcana: ";
 UA_PREFIX_SHORT = "UA: ";

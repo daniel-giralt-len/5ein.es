@@ -21,6 +21,7 @@
 |Bonus action|Acció bonus
 |Bright light|Llum forta
 |Cantrip| Truc
+|City of Brass|Ciutat Llautó
 |Challenge Rating (CR)|Valor de Repte (VR)
 |Charisma|Carisma
 |Charmed|Fascinat

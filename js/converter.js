@@ -334,7 +334,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >• 4th level (3 slots): blight, porta dimensional
 >• 5th level (3 slots): cloudkill, scrying
 >• 6th level (1 slot): disintegrate, globus d'invulnerabilitat
->• 7th level (1 slot): dit de la mort, plane shift
+>• 7th level (1 slot): dit de la mort, saltar de pla
 >• 8th level (1 slot): dominar criatura, power word stun
 >• 9th level (1 slot): power word kill
 >
