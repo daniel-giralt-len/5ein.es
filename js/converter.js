@@ -336,7 +336,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >• 6th level (1 slot): disintegrate, globus d'invulnerabilitat
 >• 7th level (1 slot): dit de la mort, saltar de pla
 >• 8th level (1 slot): dominar criatura, power word stun
->• 9th level (1 slot): power word kill
+>• 9th level (1 slot): paraula de poder matar
 >
 >***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 >
