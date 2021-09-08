@@ -69,6 +69,7 @@
 |Investigation|Investigació
 |Invisible|Invisible
 |Item|Ítem
+|Lair|Llar
 |Language|Idioma
 |Level|Nivell
 |Lightly obscured|Poc ofuscat
