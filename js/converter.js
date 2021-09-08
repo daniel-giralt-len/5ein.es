@@ -282,7 +282,7 @@ At will: fascinar persona, detectar màgia, dissipar màgia, fabricate (Mammon c
 3/day each: animar objectes, contraconjur, creation, insta-convocacions, recordar llegendes, teleport
 1/day: imprisonment (minimus containment only, inside gems), sunburst
 Spellcasting. Mammon is a 6th level spellcaster. His habilitat de llançament de conjurs is Intel·ligència (spell save DC 13; +5 a impactar amb atacs màgics). Té els següents conjurs de mag preparats:
-Cantrips (at will): fire bolt, light, mà de mag, prestidigitation
+Cantrips (at will): sageta de foc, light, mà de mag, prestidigitation
 1st level (4 slots): armadura de mag, missil màgic, shield
 2nd level (3 slots): pas boira, suggestion
 3rd level (3 slots): fly, lightning bolt
