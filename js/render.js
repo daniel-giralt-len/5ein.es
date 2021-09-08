@@ -4625,13 +4625,13 @@ Renderer.monster = {
 					G: ["raig d'arcada", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
 					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
 					A: ["veure invisibilitat", "boca màgica", "ceguera/sordera", "sleep", "detectar pensaments"],
-					Z: ["ràfega de vent", "pas boira", "localitzar objecte", "difuminar", "witch bolt", "thunderwave", "shield"],
+					Z: ["ràfega de vent", "pas boira", "localitzar objecte", "difuminar", "witch bolt", "thunderwave", "escut"],
 					C: ["picaporta", "sleep", "detectar pensaments", "ceguera/sordera", "tasha's hideous laughter"],
 				},
 				3: {
 					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "slow"],
 					R: ["bola de foc", "raig d'incendi", "pressa", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
-					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "shield"],
+					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "escut"],
 					S: ["sleet storm", "protegir de l'energia", "catnap|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {

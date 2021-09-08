@@ -3092,7 +3092,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"R": "ranged weapon",
 	"RD": "rod",
 	"RG": "ring",
-	"S": "shield",
+	"S": "escut",
 	"SC": "scroll",
 	"SCF": "spellcasting focus",
 	"OTH": "other",
