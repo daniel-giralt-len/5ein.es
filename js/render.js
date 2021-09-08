@@ -8654,8 +8654,8 @@ Renderer.hover = {
 	},
 
 	getRefMetaFromTag (str) {
-		// convert e.g. `"{#itemEntry Ring of Resistance|DMG}"`
-		//   to `{type: "refItemEntry", "itemEntry": "Ring of Resistance|DMG"}`
+		// convert e.g. `"{#itemEntry Ring of Resistència|DMG}"`
+		//   to `{type: "refItemEntry", "itemEntry": "Ring of Resistència|DMG"}`
 		str = str.slice(2, -1);
 		const [tag, ...refParts] = str.split(" ");
 		const ref = refParts.join(" ");

@@ -36,7 +36,7 @@ class CreatureParser extends BaseParser {
 				"SAVING THROWS",
 				"SKILLS",
 				"DAMAGE VULNERABILITIES",
-				"DAMAGE RESISTANCE",
+				"DAMAGE RESISTÈNCIA",
 				"DAMAGE IMMUNITIES",
 				"CONDITION IMMUNITIES",
 				"SENSES",
@@ -196,7 +196,7 @@ class CreatureParser extends BaseParser {
 			}
 
 			// damage resistances (optional)
-			if (!curLine.indexOf_handleColon("Damage Resistance")) {
+			if (!curLine.indexOf_handleColon("Damage Resistència")) {
 				// noinspection StatementWithEmptyBodyJS
 				while (absorbBrokenLine());
 				this._setCleanDamageRes(stats, curLine, options);
@@ -586,7 +586,7 @@ class CreatureParser extends BaseParser {
 				}
 
 				// damage resistances (optional)
-				if (~curLine.indexOf("Damage Resistance")) {
+				if (~curLine.indexOf("Damage Resistència")) {
 					this._setCleanDamageRes(stats, stripDashStarStar(curLine));
 					continue;
 				}
@@ -1115,7 +1115,7 @@ class CreatureParser extends BaseParser {
 	}
 
 	static _setCleanDamageRes (stats, line, options) {
-		stats.resist = (line.toLowerCase().includes("resistances") ? line.split_handleColon("Resistances", 1) : line.split_handleColon("Resistance", 1))[1].trim();
+		stats.resist = (line.toLowerCase().includes("resistances") ? line.split_handleColon("Resistances", 1) : line.split_handleColon("Resistència", 1))[1].trim();
 		stats.resist = this._tryParseDamageResVulnImmune(stats.resist, "resist", options);
 	}
 

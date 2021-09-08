@@ -385,7 +385,7 @@ class DamageResistanceTag {
 	static tryRun (it, opts) {
 		DamageResistanceImmunityVulnerabilityTag.tryRun(
 			"resist",
-			/you (?:have|gain|are) (?:resistance|resistant) (?:to|against) [^?.!]+/ig,
+			/you (?:have|gain|are) (?:resistència|resistant) (?:to|against) [^?.!]+/ig,
 			it,
 			opts,
 		);

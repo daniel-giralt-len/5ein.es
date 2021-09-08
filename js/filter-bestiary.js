@@ -149,7 +149,7 @@ class PageFilterBestiary extends PageFilter {
 			displayFn: StrUtil.uppercaseFirst,
 		});
 		this._resistFilter = new Filter({
-			header: "Resistance",
+			header: "Resistència",
 			items: PageFilterBestiary.DMG_TYPES,
 			displayFn: StrUtil.uppercaseFirst,
 		});

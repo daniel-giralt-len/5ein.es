@@ -1530,7 +1530,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getResistInput (cb) {
-		return this.__$getDefencesInput(cb, "Damage Resistances", "Resistance", "resist")
+		return this.__$getDefencesInput(cb, "Damage Resistances", "Resistència", "resist")
 	}
 
 	__$getImmuneInput (cb) {
