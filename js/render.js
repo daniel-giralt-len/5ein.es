@@ -4632,11 +4632,11 @@ Renderer.monster = {
 					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "slow"],
 					R: ["bola de foc", "raig d'incendi", "pressa", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
 					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "escut"],
-					S: ["sleet storm", "protegir de l'energia", "catnap|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
+					S: ["tempesta d'aiguaneu", "protegir de l'energia", "catnap|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
-					W: ["escut de foc", "tempesta de gel", "sleet storm"],
+					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
 					A: ["charm monster|XGE", "encàrrec", "wall of sand|XGE", "senefes hipnòtiques", "tongues"],
 					C: ["polimorfia", "invisibilitat superior", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
 				},
