@@ -4638,7 +4638,7 @@ Renderer.monster = {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
 					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
 					A: ["charm monster|XGE", "encàrrec", "wall of sand|XGE", "senefes hipnòtiques", "tongues"],
-					C: ["polimorfia", "invisibilitat superior", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
+					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "charm monster|XGE"],
 				},
 				5: {
 					U: ["telekinesis", "immobilitzar criatura", "porta dimensional", "wall of stone", "wall of force"],
