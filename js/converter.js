@@ -349,7 +349,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >- **Cantrip.** The lich casts a cantrip.
 >- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
 >- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
->- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitució saving throw against this magic, taking 21 (6d6) de dany necròtic ; si supera, en rep la meitat.
+>- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitució saving throw against this magic, taking 21 (6d6) de dany necròtic; si supera, en rep la meitat.
 >
 >`;
 // endregion
