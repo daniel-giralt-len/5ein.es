@@ -1491,7 +1491,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"S": "Silvànic",
 	"T": "Terrani",
 	"TC": "Argot de Lladres",
-	"TP": "Telepathy",
+	"TP": "Telepatia",
 	"U": "Sotacomú",
 	"X": "Any (Choose)",
 	"XX": "All",

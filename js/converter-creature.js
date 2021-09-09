@@ -1152,7 +1152,7 @@ class CreatureParser extends BaseParser {
 				.split(/(\W)/g)
 				.map(s => {
 					return s
-						.replace(/Telepathy/g, "telepathy")
+						.replace(/Telepathy/g, "Telepatia")
 						.replace(/All/g, "all")
 						.replace(/Understands/g, "understands")
 						.replace(/Cant/g, "cant")
