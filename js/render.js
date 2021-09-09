@@ -4652,7 +4652,7 @@ Renderer.monster = {
 					A: ["escodrinyar", "Vincle Telepàtic d'en Rary", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
 				},
 				7: {
-					B: ["power word pain|XGE", "dit de la mort", "desintegrar", "immobilitzar criatura"],
+					B: ["paraula de poder dolor|XGE", "dit de la mort", "desintegrar", "immobilitzar criatura"],
 					U: ["llamp en cadena", "gàbia de força", "teleportació", "eterietat"],
 					G: ["projectar imatge", "miratge arcà", "esprai prismàtic", "teleportació"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleportació", "desintegrar", "llampec"],
