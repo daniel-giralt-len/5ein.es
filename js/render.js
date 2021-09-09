@@ -4629,7 +4629,7 @@ Renderer.monster = {
 					C: ["picaporta", "adormir", "detectar pensaments", "ceguera/sordera", "Riure Horrible de la Tasha"],
 				},
 				3: {
-					U: ["wall of sand|XGE", "Passa del Tro|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
+					U: ["Paret de Sorra|XGE", "Passa del Tro|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
 					R: ["bola de foc", "raig d'incendi", "pressa", "terra en erupció|XGE", "Socarrador d'Aganazzar|XGE"],
 					O: ["alentir", "bola de foc", "dissipar màgia", "contraconjur", "Socarrador d'Aganazzar|XGE", "escut"],
 					S: ["tempesta d'aiguaneu", "protegir de l'energia", "becaina|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
@@ -4637,7 +4637,7 @@ Renderer.monster = {
 				4: {
 					B: ["Esfera Vitriòlica|XGE", "radiància malaltissa|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
 					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
-					A: ["fascinar criatura|XGE", "encàrrec", "wall of sand|XGE", "senefes hipnòtiques", "llenguatges"],
+					A: ["fascinar criatura|XGE", "encàrrec", "Paret de Sorra|XGE", "senefes hipnòtiques", "llenguatges"],
 					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
 				},
 				5: {
