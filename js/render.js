@@ -4641,7 +4641,7 @@ Renderer.monster = {
 					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "charm monster|XGE"],
 				},
 				5: {
-					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "wall of stone", "wall of force"],
+					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "wall of stone", "paret de força"],
 					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
 					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
 					O: ["immobilitzar criatura", "immolation|XGE", "paret de foc", "invisibilitat superior", "porta dimensional"],
