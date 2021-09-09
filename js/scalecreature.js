@@ -233,7 +233,7 @@
 	},
 
 	// cantrips that should be preserved when lowering the number of cantrips known, to ensure caster effectiveness
-	_protectedCantrips: ["esquitx àcid", "mà morta", "missil èldritx", "sageta de foc", "esprai de verí", "produir flama", "raig gebre", "sacred flame", "braó electritzant", "thorn whip", "vicious mockery"],
+	_protectedCantrips: ["esquitx àcid", "mà morta", "missil èldritx", "sageta de foc", "esprai de verí", "produir flama", "raig gebre", "sacred flame", "braó electritzant", "fuet d'espines", "vicious mockery"],
 
 	// analysis of official data + some manual smoothing
 	_crToCasterLevelAvg: {
