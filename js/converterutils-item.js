@@ -92,7 +92,7 @@ class RechargeTypeTag {
 		const strEntries = JSON.stringify(obj.entries, null, 2);
 
 		const mDawn = /charges? at dawn|charges? daily at dawn|charges? each day at dawn|charges and regains all of them at dawn|charges and regains[^.]+each dawn|recharging them all each dawn|charges that are replenished each dawn/gi.exec(strEntries);
-		if (mDawn) return obj.recharge = "dawn";
+		if (mDawn) return obj.recharge = "trenc d'alba";
 
 		const mDusk = /charges? daily at dusk|charges? each day at dusk/gi.exec(strEntries);
 		if (mDusk) return obj.recharge = "dusk";

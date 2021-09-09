@@ -758,7 +758,7 @@ Parser.ITEM_RECHARGE_TO_FULL = {
 	round: "Every Round",
 	restShort: "Short Rest",
 	restLong: "Long Rest",
-	dawn: "Dawn",
+	dawn: "Trenc d'Alba",
 	dusk: "Dusk",
 	midnight: "Midnight",
 	special: "Special",
