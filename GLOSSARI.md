@@ -82,6 +82,7 @@
 |Nonmagical|No-màgic
 |On a save|Si supera
 |On a failure|Si falla
+|Oozes|Llims
 |Otiluke|Otiluk
 |Outer Planes|Plans Externs
 |Paralyzed|Paralitzat
