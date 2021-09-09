@@ -341,14 +341,14 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 >
 >### Actions
->***Paralyzing Touch.*** Atac màgic melé: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
+>***Paralyzing Touch.*** Atac màgic melé: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
 >
 >### Legendary Actions
 >The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
 >
 >- **Cantrip.** The lich casts a cantrip.
 >- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
->- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
+>- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
 >- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitució saving throw against this magic, taking 21 (6d6) de dany necròtic; si supera, en rep la meitat.
 >
 >`;
