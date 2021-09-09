@@ -4648,7 +4648,7 @@ Renderer.monster = {
 					S: ["cone of cold", "tempesta de gel", "cercle de teletransport", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
 				},
 				6: {
-					W: ["cone of cold", "wall of ice"],
+					W: ["cone of cold", "paret de glaç"],
 					A: ["escodrinyar", "Vincle Telepàtic d'en Rary", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
 				},
 				7: {
@@ -4657,7 +4657,7 @@ Renderer.monster = {
 					G: ["projectar imatge", "miratge arcà", "esprai prismàtic", "teleportació"],
 					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleportació", "desintegrar", "llampec"],
 					C: ["symbol", "simulacre", "invertir la gravetat", "projectar imatge", "Mà d'en Bigby", "mental prison|XGE", "aparentar"],
-					S: ["Esfera Glaçada de l'Otiluk", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
+					S: ["Esfera Glaçada de l'Otiluk", "esprai prismàtic", "paret de glaç", "contingència", "portal arcà"],
 				},
 				8: {
 					O: ["Explosió Solar", "Bola de Foc Posposada", "camp antimàgic", "teleportació", "globus d'invulnerabilitat", "laberint"],
