@@ -4625,7 +4625,7 @@ Renderer.monster = {
 					G: ["raig d'arcada", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
 					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
 					A: ["veure invisibilitat", "boca màgica", "ceguera/sordera", "adormir", "detectar pensaments"],
-					Z: ["ràfega de vent", "pas boira", "localitzar objecte", "difuminar", "witch bolt", "tronada", "escut"],
+					Z: ["ràfega de vent", "pas boira", "localitzar objecte", "difuminar", "llampec bruixot", "tronada", "escut"],
 					C: ["picaporta", "adormir", "detectar pensaments", "ceguera/sordera", "Riure Horrible de la Tasha"],
 				},
 				3: {
