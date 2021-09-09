@@ -4629,7 +4629,7 @@ Renderer.monster = {
 					C: ["picaporta", "adormir", "detectar pensaments", "ceguera/sordera", "Riure Horrible de la Tasha"],
 				},
 				3: {
-					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
+					U: ["wall of sand|XGE", "Passa del Tro|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
 					R: ["bola de foc", "raig d'incendi", "pressa", "terra en erupció|XGE", "Socarrador d'Aganazzar|XGE"],
 					O: ["alentir", "bola de foc", "dissipar màgia", "contraconjur", "Socarrador d'Aganazzar|XGE", "escut"],
 					S: ["tempesta d'aiguaneu", "protegir de l'energia", "becaina|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
