@@ -5600,7 +5600,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "un receptacle amb sang d'un humanoide mort ga 24 hores",
+					"text": "un receptacle amb sang d'un humanoide mort fa 24 hores o menys",
 					"consume": "optional"
 				}
 			},
@@ -5617,7 +5617,7 @@
 			"entries": [
 				"Formules paraules fastigoses i convoques un dimoni d'entre el caos de l'Abisme. Tria'n el tipus: ha de ser d'un {@filter VR de 5 o menor|bestiary|challenge rating=[&0;&5]|tag=demon|miscellaneous=!swarm}, com ara {@creature shadow demon} o {@creature barlgura}. El dimoni apareix en un espai desocupat que puguis veure a l'abast. El dimoni desapareix quan es queda a 0 punts de cop o quan s'acaba el conjur.",
 				"Tira l'iniciativa pel el dimoni (té els seus propis torns). Quan el convoques, i a cada torn teu posterior li pots donar una ordre verbal (no requereix acció) que li digui què fer al seu proper torn. Si no n'hi dones, actuarà atacant a qualsevol criatura a l'abast que l'hagi atacat.",
-				"Al final de cada torn de el dimoni aquest salva per Carisma. El dimoni té desavantatge si et saps el seu nom veritable. Si falla, el dimoni segueix obeïnt-te. Si supera, perds el control del dimoni durant la resta de la duració, i el dimoni es dedicarà a parseguir i atacar els no-dimonis més propers tan bé com pugui. Si se't trenca la concentració abans que s'acabi el conjur, un dimonit descontrolat així es quedarà durant {@dice 1d6} rondes si encara té punts de cop. Passat aquest temps desapareixerà.",
+				"Al final de cada torn de el dimoni aquest salva per Carisma. El dimoni té desavantatge si et saps el seu nom veritable. Si falla, el dimoni segueix obeïnt-te. Si supera, perds el control del dimoni durant la resta de la duració, i el dimoni es dedicarà a perseguir i atacar els no-dimonis més propers tan bé com pugui. Si se't trenca la concentració abans que s'acabi el conjur, un dimonit descontrolat així es quedarà durant {@dice 1d6} rondes si encara té punts de cop. Passat aquest temps desapareixerà.",
 				"Com a part del conjur pots formar un cercle al terra amb la sang del component material. El cercle és prou gran com per a envoltar-te a tu. Mentre duri el conjur, el dimoni convocat no pot atravessar ni malmetre el cercle i no pot designar com a objectiu a ningú que hi sigui a dins. Fer aquest cercle consumeix el component material."
 			],
 			"entriesHigherLevel": [
@@ -5650,7 +5650,7 @@
 			}
 		},
 		{
-			"name": "Summon Lesser Demons",
+			"name": "Convocar Dimonis Inferior",
 			"source": "XGE",
 			"page": 167,
 			"level": 3,
@@ -5672,7 +5672,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a vial of blood from a humanoid killed within the past 24 hours",
+					"text": "un receptacle amb sang d'un humanoide mort fa 24 hores o menys",
 					"consume": "optional"
 				}
 			},
@@ -5687,12 +5687,12 @@
 				}
 			],
 			"entries": [
-				"You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",
+				"Formules paraules fastigoses i convoques dimonis d'entre el caos de l'Abisme. Tira a la taula per saber què passa.",
 				{
 					"type": "table",
 					"colLabels": [
 						"{@dice d6}",
-						"Demons Summoned"
+						"Dimonis Convocats"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -5707,7 +5707,7 @@
 									"max": 2
 								}
 							},
-							"Two {@filter demons amb un valor de repte de 1 o menor|bestiary|challenge rating=[&0;&1]|tag=demon|miscellaneous=!swarm}"
+							"Dos {@filter dimonis amb un VR de 1 o menor|bestiary|challenge rating=[&0;&1]|tag=demon|miscellaneous=!swarm}"
 						],
 						[
 							{
@@ -5717,7 +5717,7 @@
 									"max": 4
 								}
 							},
-							"Four {@filter demons amb un valor de repte de 1/2 o menor|bestiary|challenge rating=[&0;&1/2]|tag=demon|miscellaneous=!swarm}"
+							"Quatre {@filter dimonis amb un VR de 1/2 o menor|bestiary|challenge rating=[&0;&1/2]|tag=demon|miscellaneous=!swarm}"
 						],
 						[
 							{
@@ -5727,20 +5727,20 @@
 									"max": 6
 								}
 							},
-							"Eight {@filter demons amb un valor de repte de 1/4 o menor|bestiary|challenge rating=[&0;&1/4]|tag=demon|miscellaneous=!swarm}"
+							"Vuit {@filter dimonis amb un VR de 1/4 o menor|bestiary|challenge rating=[&0;&1/4]|tag=demon|miscellaneous=!swarm}"
 						]
 					]
 				},
-				"The DM chooses the demons, such as {@creature manes} or {@creature dretch||dretches}, and you choose the unoccupied spaces que puguis veure a l'abast where they appear. A summoned demon disappears when it es queda a 0 punts de cop o quan s'acaba el conjur.",
-				"The demons are hostile to all creatures, including you. Tira l'iniciativa pel the summoned demons as a group (té els seus propis torns). The demons pursue and attack the nearest non-demons to the best of their ability.",
-				"As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can't cross the circle or harm it, and they can't target anyone within it. Using the material component in this manner consumes it quan acaba el conjur."
+				"El/la/li MM tria els dimonis, com ara {@creature manes} o {@creature dretch||dretches}. Tu esculls en quins espais desocupats que puguis veure a l'abast apareixen. Un dimoni convocar desapareix quan es queda a 0 punts de cop o quan s'acaba el conjur.",
+				"Els dimonis són hostils vers a tothom, incloent-te a tu. Tira l'iniciativa pel the summoned demons as a group (té els seus propis torns). Es dedicaran a perseguir i atacar els no-dimonis més propers tan bé com puguin.",
+				"Com a part del conjur pots formar un cercle al terra amb la sang del component material. El cercle és prou gran com per a envoltar-te a tu. Mentre duri el conjur, els dimonis convocat no poden atravessar ni malmetre el cercle i no poden designar com a objectiu a ningú que hi sigui a dins. Fer aquest cercle consumeix el component material."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances el conjur using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons."
+						"Quan llances el conjur amb una ranura de nivell 6 o 7, convoques el doble de dimonis. Amb una de nivell 8 o 9, en convoques el triple."
 					]
 				}
 			],
