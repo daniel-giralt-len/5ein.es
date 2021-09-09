@@ -802,7 +802,7 @@
 				}
 			],
 			"entries": [
-				"Crees un servent no-mort. Escull una pila d'ossos o cadàver d'un humanoide Petit o Mitjà que estiguin a l'abast. Imbueixes a l'objectiu un facsímil de vida terrible, tornant-lo no-mort. Esdevè un {@creature skeleton} si has triat ossos o un {@creature zombie} si has triat un cadàver (el MM té el bloc d'estats de les criatures).",
+				"Crees un servent no-mort. Escull una pila d'ossos o cadàver d'un humanoide Petit o Mitjà que estiguin a l'abast. Imbueixes a l'objectiu un facsímil de vida terrible, tornant-lo no-mort. Esdevè un {@creature skeleton} si has triat ossos o un {@creature zombie} si has triat un cadàver (el/la/li MM té el bloc d'estats de les criatures).",
 				"A cada torn teu pots, com a acció bonus, donar ordres a qualsevol criatura creada amb aquest conjur si és a 60 peus d'abast (si controles a múltiples criatures pots donar la mateixa ordre a més d'una alhora). Esculls l'acció i el moviment de la criatura durant el seu proper torn, o li pots donar una ordre general (patrullar una cambra o passadís). Si no dones ordres, la criatura es defensarà contra criatures hostils i prous. La criatura seguirà una ordre fins que la completi.",
 				"Tens control de la criatura durant 24 hores; després deixa d'obeïr-te. Per mantenir el control 24 hores més has de re-llançar aquest conjur sobre la criatura abans no passin les 24 hores inicials. Si llances aquest conjur per allargar-ne la duració d'aquesta manera, pots llançar-lo sobre fins a quatre criatures."
 			],
@@ -28603,7 +28603,7 @@
 			"entries": [
 				"El conjur transforma una criatura que puguis veure a l'abast en una nova forma. Una criatura involuntària ha de salvar per Saviesa per evitar l'efecte. El conjur no afecta als canviaformes o a les criatures a 0 punts de cop.",
 				"La transformació dura la duració del conjur o fins que l'objectiu es queda a 0 punts de cop o mor. La nova forma pot ser tota {@filter any beast|bestiary|type=beast|miscellaneous=!swarm} amb un VR equivalent o menor al de l'objectiu (o al seu nivell si l'objectiu no té VR). Les estadístiques de l'objectiu (incloent les puntuacions mentals) es reemplacen pels de la bèstia. Retè la seva personalitat i alineament.",
-				"L'objectiu assumeix els punts de cop de la seva nova forma. Quan retorna a la seva forma original, l'objectiu retorna als punts de cop que tenia abans no ser transformat. Si retorna degut a quedar-se a 0 punts de cop en la nova forma, qualsevol dany residual que quedi es resta als punts de cop de la forma original. Si aquesta resta no deixa a l'objectiu a 0 punts de cop, aquest no estarà inconscient.",
+				"L'objectiu assumeix els punts de cop de la seva nova forma. Quan retorna a la seva forma original, l'objectiu retorna als punts de cop que tenia abans no ser transformat. Si retorna degut a quedar-se a 0 punts de cop en la nova forma, qualsevol dany residual que quedi es resta als punts de cop de la forma original. Si aquesta resta no deixa a l'objectiu a 0 punts de cop, aquest no estarà {@condition unconscious}.",
 				"La criatura està limitada d'accions per la seva nova forma. No pot parlar, llançar conjurs, ni fer cap acció que requereixi mans ni parla.",
 				"El seu equipament es fon en la nova forma. La criatura no pot interactuar ni beneficiar-se del seu equipament."
 			],
@@ -37476,7 +37476,7 @@
 			}
 		},
 		{
-			"name": "True Polimorfia",
+			"name": "Polimorfia Veritable",
 			"source": "PHB",
 			"page": 283,
 			"srd": true,
@@ -37498,7 +37498,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke"
+				"m": "una gota de mercuri, goma aràbiga, i fum"
 			},
 			"duration": [
 				{
@@ -37511,31 +37511,31 @@
 				}
 			],
 			"entries": [
-				"Escull una criatura or nonmagical object que puguis veure a l'abast. You transform the creature into a different creature, the creature into a nonmagical object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts durant la duració del conjur, or until the target es queda a 0 punts de cop or dies. If you concentrate on this spell for the full duration, the transformation lasts until it is dispelled.",
-				"This spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature pot salvar per Saviesa, and if it succeeds, it isn't affected by this spell.",
+				"Escull una criatura objecte no-màgic (no pot ser dut ni vestit) que puguis veure a l'abast. Pots transformar una criatura en una criatura o un objecte no-màgic, o un objecte en una criatura. La transformació dura la duració del conjur o fins que l'objectiu es queda a 0 punts de cop o mor. Si et concentres en aquest conjur durant tota la duració, la transformació es mantè fins que es dissipi.",
+				"Una criatura involuntària ha de salvar per Saviesa per evitar l'efecte. El conjur no afecta als canviaformes o a les criatures a 0 punts de cop.",
 				{
 					"type": "entries",
-					"name": "Creature into Creature",
+					"name": "De Criatura a Criatura",
 					"entries": [
-						"If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality."
+						"Si transformes una criatura en una altra, la nova forma pot ser qualsevol amb un VR equivalent o menor al de l'objectiu (o al seu nivell si l'objectiu no té VR). Les estadístiques de l'objectiu (incloent les puntuacions mentals) es reemplacen pels de la bèstia. Retè la seva personalitat i alineament."
 					]
 				},
-				"The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}.",
-				"The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech unless its new form is capable of such actions.",
-				"The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.",
+				"L'objectiu assumeix els punts de cop de la seva nova forma. Quan retorna a la seva forma original, l'objectiu retorna als punts de cop que tenia abans no ser transformat. Si retorna degut a quedar-se a 0 punts de cop en la nova forma, qualsevol dany residual que quedi es resta als punts de cop de la forma original. Si aquesta resta no deixa a l'objectiu a 0 punts de cop, aquest no estarà {@condition unconscious}.",
+				"La criatura està limitada d'accions per la seva nova forma. No pot parlar, llançar conjurs, ni fer cap acció que requereixi mans ni parla.",
+				"El seu equipament es fon en la nova forma. La criatura no pot interactuar ni beneficiar-se del seu equipament.",
 				{
 					"type": "entries",
-					"name": "Object into Creature",
+					"name": "D'Objecte a Criatura",
 					"entries": [
-						"You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature's challenge rating is {@filter 9 or lower|bestiary|challenge rating=[&0;&9]|miscellaneous=!swarm}. The creature is friendly to you and your companions. It acts on each of your turns. You decide what action it takes and how it moves. The DM has the creature's statistics and resolves all of its actions and movement."
+						"Pots tornar un objecte en una criatura qualsevol, però ha de ser d'un tamany igual o menor que el de l'objecte, i el VR ha de ser {@filter 9 o menor|bestiary|challenge rating=[&0;&9]|miscellaneous=!swarm}. La criatura és amistosa vers a tu i els teus aliats. Té el seu propi torn. Decideixes quina acció prèn i com es mou. el/la/li MM té el bloc d'estats de la criatura i resol les seves accions i moviemnt."
 					]
 				},
-				"If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.",
+				"Si el conjur esdevé permanent, ja no controles a la criatura. Potser roman amistosa, depenent de com l'hagis tractada.",
 				{
 					"type": "entries",
-					"name": "Creature into Object",
+					"name": "De Criatura a Objecte",
 					"entries": [
-						"If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form."
+						"Si transformes una criatura en un objecte, tot allò que dugui i vesteixi es fon en la nova forma. L'objecte no pot tenir un tamany major que el de la criatura. Les seves estadístiques es tornen les de l'objecte. Quan s'acaba el conjur i la criatura retorna a la seva forma original no recorda haver-se haver-se tornat un objecte."
 					]
 				}
 			],
