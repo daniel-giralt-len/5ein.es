@@ -5,6 +5,7 @@
 |(Spell) slot|Ranura (de conjur)
 |5 feet|5 peus
 |Ability score|Puntuació d'habilitat
+|Abyss|Abisme
 |Acrobatics|Acrobàcies
 |Adamantine|Adamantí
 |Alignment|Alineament
