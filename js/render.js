@@ -4630,7 +4630,7 @@ Renderer.monster = {
 				},
 				3: {
 					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
-					R: ["bola de foc", "raig d'incendi", "pressa", "erupting earth|XGE", "Socarrador d'Aganazzar|XGE"],
+					R: ["bola de foc", "raig d'incendi", "pressa", "terra en erupció|XGE", "Socarrador d'Aganazzar|XGE"],
 					O: ["alentir", "bola de foc", "dissipar màgia", "contraconjur", "Socarrador d'Aganazzar|XGE", "escut"],
 					S: ["tempesta d'aiguaneu", "protegir de l'energia", "becaina|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
