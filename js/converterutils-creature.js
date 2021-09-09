@@ -459,7 +459,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 	action: {
 		"multi-atac": "Multi-atac",
 		"presència aterradora": "Presència Aterradora",
-		"teleport": "Teleport",
+		"teleportació": "Teleportació",
 		"empassar": "Empassar",
 		"tentacle": "Tentacles",
 		"tentacles": "Tentacles",

@@ -36344,7 +36344,7 @@
 			}
 		},
 		{
-			"name": "Teleport",
+			"name": "Teleportació",
 			"source": "PHB",
 			"page": 281,
 			"srd": true,
@@ -36372,17 +36372,17 @@
 				}
 			],
 			"entries": [
-				"This spell instantly transports you and up to eight willing creatures of your choice que puguis veure a l'abast, or a single object que puguis veure a l'abast, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature.",
-				"The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls {@dice d100} and consults the table.",
+				"El conjur et teleporta a tu i fins a 8 criatures voluntàries que puguis veure a l'abast (o bé 1 objecte que puguis veure a l'abast) a una destinació que escullis. Si teleportes un objecte ha de cabre en un cub de 10 peus de costat i no pot estar dut ni subjectat per una criatura involuntària.",
+				"Has de conèixer el destí i ha d'estar en el mateix pla d'existència. L'èxit de la teleportació depèn de la teva familiaritat amb el destí. El/la/li tira un {@dice d100} i consulta la taula.",
 				{
 					"type": "table",
-					"caption": "Teleportation",
+					"caption": "Teleportació",
 					"colLabels": [
-						"Familiarity",
-						"Mishap",
-						"Similar Area",
-						"Off Target",
-						"On Target"
+						"Familiaritat",
+						"Contratemps",
+						"Àrea Similar",
+						"Fallar l'objectiu",
+						"Encertar l'objectiu"
 					],
 					"colStyles": [
 						"col-8",
@@ -36393,49 +36393,49 @@
 					],
 					"rows": [
 						[
-							"Permanent circle",
+							"Cercle Permanent",
 							"\u2014",
 							"\u2014",
 							"\u2014",
 							"01\u2013100"
 						],
 						[
-							"Associated object",
+							"Objecte associat",
 							"\u2014",
 							"\u2014",
 							"\u2014",
 							"01\u2013100"
 						],
 						[
-							"Very familiar",
+							"Molt familiar",
 							"01\u201305",
 							"06\u201313",
 							"14\u201324",
 							"25\u2013100"
 						],
 						[
-							"Seen casually",
+							"Vist algun cop",
 							"01\u201333",
 							"34\u201343",
 							"44\u201353",
 							"54\u2013100"
 						],
 						[
-							"Viewed once",
+							"Vist un cop",
 							"01\u201343",
 							"44\u201353",
 							"54\u201373",
 							"74\u2013100"
 						],
 						[
-							"Description",
+							"Descripció",
 							"01\u201343",
 							"44\u201353",
 							"54\u201373",
 							"74\u2013100"
 						],
 						[
-							"False destination",
+							"Destí fals",
 							"01\u201350",
 							"51\u2013100",
 							"\u2014",
@@ -36445,39 +36445,39 @@
 				},
 				{
 					"type": "entries",
-					"name": "Familiarity",
+					"name": "Familiaritat",
 					"entries": [
-						"\"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb."
+						"\"Cercle Permanent\" es refereix a un cercle de teleportació del qual en coneixes la seqüència segell. \"Objecte associat\" significa que tens un objecte que s'ha près del lloc destí en els últims 6 mesos: un volum de la llibrera d'un mag, un llençol del palau reial, o un tros de marbre de la tomba secreta d'un lítx."
 					]
 				},
-				"\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see quan llances el conjur. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.",
-				"\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.",
+				"\"Molt familiar\" és un lloc que freqüentes, que estudies freqüentment, o que puguis veure quan llances el conjur. \"Vist algun cop\" és un lloc que has visitat de vegades. \"Vist un cop\" és un lloc que has vist un cop, possiblement mitjançant la màgia. \"Descripció\" és un lloc del que te n'han parlat, o que vegis en un mapa.",
+				"\"Destí fals\" és un lloc que no existeix. Potser has escodrinyat un santuari enemic però t'has topat amb una il·lusió, o estàs provant de teleportar-te a un lloc familiar que ja no existeix.",
 				{
 					"type": "entries",
-					"name": "On Target",
+					"name": "Encertar l'Objectiu",
 					"entries": [
-						"You and your group (or the target object) appear where you want to."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Off Target",
-					"entries": [
-						"You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is {@dice 1d10 × 1d10} percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two {@dice d10}s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a {@dice d8} and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble."
+						"Tu i el teu grup (o objecte) apareixeu on vols."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Similar Area",
+					"name": "Fallar l'Objectiu",
 					"entries": [
-						"You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane."
+						"Tu i el teu grup (o objecte) apareixeu a prop del destí però allunyats una distància a l'atzar. La distància d'allunyatge és un {@dice 1d10 × 1d10} percent de la distància que havieu de viatjar. Per exemple, si havieu de viatjar 120 milles, heu fallat l'objectiu, i heu tret un 5 i un 3 (15%), esteu a 18 milles de distància de l'objectiu. El/la/li MM deteremina la direcció d'allunyatge a l'atzar amb un {@dice d8}: 1 pel nord, 2 pel nord-est, 3 per l'est, i així. Si et volies teleportar a una ciutat a la costa i acabeu 18 milles mar endins, podrieu tenir problemes."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mishap",
+					"name": "Àrea Similar",
 					"entries": [
-						"The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes {@damage 3d10} de dany de força, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time)."
+						"Tu i el teu grup (o objecte) aneu a parar a una àrea similar visual o temàticament al destí. Si volies anar al laboratoria de casa teva potser acabes al laboratori d'un altre mag o a una botigua de subministraments alquímics. En general apareixes a l'àrea similar més propera a on eres, però el conjur no té límit d'abast; podries acabar a qualsevol lloc del pla."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contratemps",
+					"entries": [
+						"La màgia caòtica del conjur et dificulta el viatge. Tota criatura (i objecte) que viatgi rep {@damage 3d10} de dany de força, i el/la/li MM torna a tirar en aquesta taula (pot haver-hi més d'un contratemps)."
 					]
 				}
 			],

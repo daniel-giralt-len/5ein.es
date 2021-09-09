@@ -173,7 +173,7 @@ class PageFilterBestiary extends PageFilter {
 		this._actionReactionFilter = new Filter({
 			header: "Actions & Reactions",
 			items: [
-				"Presència Aterradora", "Multi-atac", "Parada", "Empassar", "Teleport", "Tentacles",
+				"Presència Aterradora", "Multi-atac", "Parada", "Empassar", "Teleportació", "Tentacles",
 			],
 		});
 		this._miscFilter = new Filter({
