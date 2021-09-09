@@ -4635,7 +4635,7 @@ Renderer.monster = {
 					S: ["tempesta d'aiguaneu", "protegir de l'energia", "becaina|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {
-					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
+					B: ["vitriolic sphere|XGE", "radiància malaltissa|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
 					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
 					A: ["fascinar criatura|XGE", "encàrrec", "wall of sand|XGE", "senefes hipnòtiques", "llenguatges"],
 					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
