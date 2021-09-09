@@ -4637,12 +4637,12 @@ Renderer.monster = {
 				4: {
 					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
 					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
-					A: ["charm monster|XGE", "encàrrec", "wall of sand|XGE", "senefes hipnòtiques", "llenguatges"],
-					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "charm monster|XGE"],
+					A: ["fascinar criatura|XGE", "encàrrec", "wall of sand|XGE", "senefes hipnòtiques", "llenguatges"],
+					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
 				},
 				5: {
 					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "paret de pedra", "paret de força"],
-					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
+					G: ["matanúvol", "fascinar criatura|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
 					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
 					O: ["immobilitzar criatura", "immolation|XGE", "paret de foc", "invisibilitat superior", "porta dimensional"],
 					S: ["cone of cold", "tempesta de gel", "cercle de teletransport", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
