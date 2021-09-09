@@ -29,6 +29,7 @@
 |Class|Classe
 |Climbing speed|Velocitat d'escalada
 |Constitution|Constitució
+|Contest|Enfrontat
 |Copper pieces|Coures
 |Damage|Dany
 |Darkvision|Visió de Foscor
