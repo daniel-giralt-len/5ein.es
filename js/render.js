@@ -4645,7 +4645,7 @@ Renderer.monster = {
 					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
 					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
 					O: ["immobilitzar criatura", "immolation|XGE", "wall of fire", "invisibilitat superior", "porta dimensional"],
-					S: ["cone of cold", "tempesta de gel", "teleportation circle", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
+					S: ["cone of cold", "tempesta de gel", "cercle de teleportació", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
 				},
 				6: {
 					W: ["cone of cold", "wall of ice"],
