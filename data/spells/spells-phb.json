@@ -1338,7 +1338,7 @@
 					"type": "entries",
 					"name": "Antipatia",
 					"entries": [
-						"L'encantament fa que la mena de criatures tinguin l'impuls de marxar de l'àrea o d'evitar l'objectiu. Quan una criatura d'aquesta mena vegi l'objectiu o hi estigui a 60 peus, ha de salvar per Saviesa. Si falla, esdevé {@condition frightened}. Continua {@condition frightened} mentre pugui veure l'objectiu o estigui a 60 peus d'abast. Mentre tingui aquest {@condition frightened} la criatura ha de moure's cap a un lloc on no pugui veure l'objectiu. Si la criatura es mou més enllà de 60 peus de l'objectiu i no la pot veure, deixa d'estar {@condition frightened}, però tornarà a estar {@condition frightened} automàticament si torna a veure a l'objectiu o torna a quedar-se a 60 peus d'abast de nou."
+						"L'encantament fa que la mena de criatures tinguin l'impuls de marxar de l'àrea o d'evitar l'objectiu. Quan una criatura d'aquesta mena vegi l'objectiu o hi estigui a 60 peus, ha de salvar per Saviesa. Si falla, esdevé {@condition acovardit}. Continua {@condition acovardit} mentre pugui veure l'objectiu o estigui a 60 peus d'abast. Mentre tingui aquest {@condition acovardit} la criatura ha de moure's cap a un lloc on no pugui veure l'objectiu. Si la criatura es mou més enllà de 60 peus de l'objectiu i no la pot veure, deixa d'estar {@condition acovardit}, però tornarà a estar {@condition acovardit} automàticament si torna a veure a l'objectiu o torna a quedar-se a 60 peus d'abast de nou."
 					]
 				},
 				{
@@ -1359,7 +1359,7 @@
 				"Una criatura que salvi contra aquest efecte és immune durant un minut. Després pot tornar a ser afectada."
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			],
 			"savingThrow": [
 				"wisdom"
@@ -2290,7 +2290,7 @@
 				}
 			],
 			"entries": [
-				"Irradies màgia purificadora en un radi de 30 peus. Mentre el conjur duri l'aura es mou amb tu: sempre n'ets el centre. Tota criatura no-hostil dins l'aura (tu també) no pot caure malalta, és resistent al dany de verí, i salva amb avantatge contra efectes que causin les condicions {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, i {@condition stunned}."
+				"Irradies màgia purificadora en un radi de 30 peus. Mentre el conjur duri l'aura es mou amb tu: sempre n'ets el centre. Tota criatura no-hostil dins l'aura (tu també) no pot caure malalta, és resistent al dany de verí, i salva amb avantatge contra efectes que causin les condicions {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition acovardit}, {@condition paralyzed}, {@condition poisoned}, i {@condition stunned}."
 			],
 			"damageResist": [
 				"verí"
@@ -5053,7 +5053,7 @@
 			],
 			"entries": [
 				"Proves de suprimir emocions fortes en un grup de gent. Escull tants humanoides com vulguis en una esfera de 20 peus de radi. Han de salvar per Carisma. La salvada es pot fallar voluntàriament. Qui falli rep un dels dos efectes següents (escull tu).",
-				"Suprimeixes qualsevol efecte de l'objectiu que el tingui {@condition fascinat} o {@condition frightened}. Quan el conjur acabi l'efecte suprimit continua, si no és que la seva duració s'hagi acabat.",
+				"Suprimeixes qualsevol efecte de l'objectiu que el tingui {@condition fascinat} o {@condition acovardit}. Quan el conjur acabi l'efecte suprimit continua, si no és que la seva duració s'hagi acabat.",
 				"Alternativament pots fer que cada objectiu senti indiferència vers les criatures (contra qui és hostil) que escullis. La indiferència s'acaba si l'objectiu és atacat o malmès per un conjur o si veu que els seus aliats són malmesos. Quan el conjur acaba la criatura torna a ser hostil excepte el/la/li MM determina que no."
 			],
 			"savingThrow": [
@@ -11625,7 +11625,7 @@
 					"type": "entries",
 					"name": "Trencar Conjur",
 					"entries": [
-						"Com a acció, toques una criatura que estigui {@condition fascinat}, {@condition frightened}, o posseïda per un celestial, elemental, fata, infernal, o no mort. La condició o possessió s'acaba.."
+						"Com a acció, toques una criatura que estigui {@condition fascinat}, {@condition acovardit}, o posseïda per un celestial, elemental, fata, infernal, o no mort. La condició o possessió s'acaba.."
 					]
 				},
 				{
@@ -14228,7 +14228,7 @@
 					"type": "entries",
 					"name": "Pànic",
 					"entries": [
-						"L'objectiu està {@condition frightened} per a tu. A cada torn seu ha de prendre l'acció {@action Dash} per allunyar-se de tu pel camí més curt i segur. Si no pot moure's, no es mou. Si l'objectiu aconsegueix allunyar-se a 60 peus de tu en un lloc que no et pugui veure, l'efecte s'acaba."
+						"L'objectiu està {@condition acovardit} per a tu. A cada torn seu ha de prendre l'acció {@action Dash} per allunyar-se de tu pel camí més curt i segur. Si no pot moure's, no es mou. Si l'objectiu aconsegueix allunyar-se a 60 peus de tu en un lloc que no et pugui veure, l'efecte s'acaba."
 					]
 				},
 				{
@@ -14240,7 +14240,7 @@
 				}
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"inconscient"
 			],
 			"savingThrow": [
@@ -14731,11 +14731,11 @@
 				}
 			],
 			"entries": [
-				"Projectes imatges fantasmagòriques de la pitjor por de les criatures. Tota criatura en un con de 30 peus ha de salvar per Saviesa. Qui falli deixa anar allò que dugui i esdevé {@condition frightened} durant la duració del conjur.",
-				"{@condition frightened} així, tota criatura ha de prendre l'acció {@action Dash} i allunyar-se de tu pel camí més segur possible a cada torn seu. Qui no es pugui moure no es mou. Si la criatura acaba el seu torn a un lloc on no et pugui veure, pot tornar a salvar per Saviesa. Si supera, el conjur s'acaba en aquella criatura."
+				"Projectes imatges fantasmagòriques de la pitjor por de les criatures. Tota criatura en un con de 30 peus ha de salvar per Saviesa. Qui falli deixa anar allò que dugui i esdevé {@condition acovardit} durant la duració del conjur.",
+				"{@condition acovardit} així, tota criatura ha de prendre l'acció {@action Dash} i allunyar-se de tu pel camí més segur possible a cada torn seu. Qui no es pugui moure no es mou. Si la criatura acaba el seu torn a un lloc on no et pugui veure, pot tornar a salvar per Saviesa. Si supera, el conjur s'acaba en aquella criatura."
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			],
 			"savingThrow": [
 				"wisdom"
@@ -19437,13 +19437,13 @@
 			],
 			"entries": [
 				"Toques un punt i imbueixes l'àrea al voltant amb poder sagrat (o profà). L'àrea pot fer fins a 60 peus de radi, i el conjur falla si l'àrea intersecta una altra àrea consagrada. L'àrea del conjur rep els efectes següents.",
-				"Els celestials, els elementals, les fates, els infernals, i els no morts no poden entrar l'àrea. Aquesta tampoc poden fascinar, acovardir, ni posseïr cap criatura de dins de l'àrea. Tota criatura a dins de l'àrea que estigués {@condition fascinat}, {@condition frightened}, o posseïda per una criatura d'aquests tipus no ho estarà dins de l'àrea. Pots excluir un o més tipus de criatura d'aquest efecte.",
+				"Els celestials, els elementals, les fates, els infernals, i els no morts no poden entrar l'àrea. Aquesta tampoc poden fascinar, acovardir, ni posseïr cap criatura de dins de l'àrea. Tota criatura a dins de l'àrea que estigués {@condition fascinat}, {@condition acovardit}, o posseïda per una criatura d'aquests tipus no ho estarà dins de l'àrea. Pots excluir un o més tipus de criatura d'aquest efecte.",
 				"Pots vincular un efecte adicional a l'àrea. Escull-ne un de la llista següent, o bé un que et proposi el/la/li MM. Alguns d'aquests efectes s'apliquen a les criatures a l'àrea, i pots designar si afecta a tota criatura, a les que adoren a una divinitat o líder específic, o un tipus específic com ara orcs o trols. Quan una criatura que li hagi d'afectar aquest afecte entri l'àrea del conjur per primer cop en un torn o hi començi el torn, pot salvar per Carisma. Si supera, la criatura ignora l'efecte adicional fins que surti de l'àrea.",
 				{
 					"type": "entries",
 					"name": "Coratge",
 					"entries": [
-						"Les criatures afectades no poden estar {@condition frightened} dins de l'àrea."
+						"Les criatures afectades no poden estar {@condition acovardit} dins de l'àrea."
 					]
 				},
 				{
@@ -19492,7 +19492,7 @@
 					"type": "entries",
 					"name": "Por",
 					"entries": [
-						"Les criatures afectades estan {@condition frightened} dins de l'àrea"
+						"Les criatures afectades estan {@condition acovardit} dins de l'àrea"
 					]
 				},
 				{
@@ -20319,7 +20319,7 @@
 			],
 			"entries": [
 				"Convoques un banquet magnífic amb menjar i beure. El banquet tarda 1 hora en ser consumit i desapareix quan hagia passat aquest temps, i els beneficis no s'activen fins que passi aquest temps. Fins a 12 criatures poden participar en el banquet.",
-				"Una criatura que participi en el banquet: es cura de tota malaltia i verí; es torna immune al verí i a estar {@condition frightened}; té avantatge a les salvades de Saviesa; i els seus punts de cop màxims (i els seus punts de cop actuals) incrementen en {@dice 2d10}. Aquests beneficis duren 24 hores."
+				"Una criatura que participi en el banquet: es cura de tota malaltia i verí; es torna immune al verí i a estar {@condition acovardit}; té avantatge a les salvades de Saviesa; i els seus punts de cop màxims (i els seus punts de cop actuals) incrementen en {@dice 2d10}. Aquests beneficis duren 24 hores."
 			],
 			"damageImmune": [
 				"verí"
@@ -20386,7 +20386,7 @@
 				}
 			],
 			"entries": [
-				"Dones coratge a una criatura voluntària que toquis. Mentre duri el conjur, la criature és immune a estar {@condition frightened} i rep el teu modificador de llançament de conjurs en punts de cop temporals a l'inici de cada torn seu. Quan acaba el conjur, els punts temporals que li quedin s'esvaeixen."
+				"Dones coratge a una criatura voluntària que toquis. Mentre duri el conjur, la criature és immune a estar {@condition acovardit} i rep el teu modificador de llançament de conjurs en punts de cop temporals a l'inici de cada torn seu. Quan acaba el conjur, els punts temporals que li quedin s'esvaeixen."
 			],
 			"entriesHigherLevel": [
 				{
@@ -24198,7 +24198,7 @@
 					"items": [
 						"La criatura no pot entrar-hi de manera no màgica. Si vol teleportar-s'hi de forma planar o interplanar ha de superar una salvada de Carisma.",
 						"La criatura té desavantatge a impactar les criatures de dins del cilindre.",
-						"Els objectius a dins del cilindre no poden ser{@condition fascinat}, {@condition frightened}, ni posseïts per la criatura."
+						"Els objectius a dins del cilindre no poden ser{@condition fascinat}, {@condition acovardit}, ni posseïts per la criatura."
 					]
 				},
 				"Quan llances el conjur, pots escollir que la màgia funcioni al revès: que la criatura no pugui sortir del cilindre i protegir als objectius que siguin a fora."
@@ -27879,7 +27879,7 @@
 				}
 			],
 			"entries": [
-				"T'aprofites dels malsons d'una criatura que puguis veure a l'abast i crees una il·lusió de les seves pitjors pors que només pot veure l'objectiu, que ha de salvar per Saviesa. Si falla, esdevé {@condition frightened} durant la duració del conjur. Mentre duri el conjur, de salvar per Saviesa. Si falla, rep {@damage 4d10} de dany psíquic. Qualsevol salvada superada acaba el conjur."
+				"T'aprofites dels malsons d'una criatura que puguis veure a l'abast i crees una il·lusió de les seves pitjors pors que només pot veure l'objectiu, que ha de salvar per Saviesa. Si falla, esdevé {@condition acovardit} durant la duració del conjur. Mentre duri el conjur, de salvar per Saviesa. Si falla, rep {@damage 4d10} de dany psíquic. Qualsevol salvada superada acaba el conjur."
 			],
 			"entriesHigherLevel": [
 				{
@@ -27894,7 +27894,7 @@
 				"psíquic"
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			],
 			"savingThrow": [
 				"wisdom"
@@ -28699,7 +28699,7 @@
 				}
 			],
 			"entries": [
-				"Una energia curativa nega a una criatura que toques, que recupera tots els seus punts de cop. Si la criatura està {@condition fascinat}, {@condition frightened}, {@condition paralyzed}, o {@condition stunned}, les condicions s'acaben. Si està {@condition prone} pot, com a reacció, aixecar-se. Aquest conjur no afecta a no-morts ni a constructes."
+				"Una energia curativa nega a una criatura que toques, que recupera tots els seus punts de cop. Si la criatura està {@condition fascinat}, {@condition acovardit}, {@condition paralyzed}, o {@condition stunned}, les condicions s'acaben. Si està {@condition prone} pot, com a reacció, aixecar-se. Aquest conjur no afecta a no-morts ni a constructes."
 			],
 			"miscTags": [
 				"HL"
@@ -29798,7 +29798,7 @@
 			],
 			"entries": [
 				"Mentre duri el conjur, una criatura voluntària que toques està protegida vers aquests tipus de criatura: aberracions, celestials, elementals, fates, infernals, i no-morts.",
-				"La protecció imposa desavantatge a impactar d'aquests tipus de criatures si ataquen a l'objectiu. A més, l'objectiu no pot ésser {@condition fascinat}, {@condition frightened}, ni posseït per aquests tipus; si ja ho estigués, té avantatge a tota tirada de salvació rellevant que pogués fer per acabar aquest efecte (si n'hi ha)."
+				"La protecció imposa desavantatge a impactar d'aquests tipus de criatures si ataquen a l'objectiu. A més, l'objectiu no pot ésser {@condition fascinat}, {@condition acovardit}, ni posseït per aquests tipus; si ja ho estigués, té avantatge a tota tirada de salvació rellevant que pogués fer per acabar aquest efecte (si n'hi ha)."
 			],
 			"areaTags": [
 				"ST"
@@ -36009,7 +36009,7 @@
 					"type": "entries",
 					"name": "Temor",
 					"entries": [
-						"Tot objectiu de salvar per Saviesa. Qui falli esdevé {@condition frightened} durant 1 minut. {@condition frightened} així deixa anar allò que dugui i s'ha d'allunyar com a mínim 30 peus del glif, si pot."
+						"Tot objectiu de salvar per Saviesa. Qui falli esdevé {@condition acovardit} durant 1 minut. {@condition acovardit} així deixa anar allò que dugui i s'ha d'allunyar com a mínim 30 peus del glif, si pot."
 					]
 				},
 				{
@@ -36052,7 +36052,7 @@
 				"necròtic"
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"incapacitat",
 				"atordit",
 				"inconscient"
@@ -39292,13 +39292,13 @@
 				}
 			],
 			"entries": [
-				"Absorbeixes els pitjors malsons d'un grup de criatures i els projectes a les seves ments; només elles els poden veure. Tota criatura en una esfera de 30 peus de radi centrada en un punt a l'abast ha de salvar per Saviesa. Qui falli esdevé {@condition frightened} durant la duració del conjur. La il·lusió convoca els pitjors temors de la criatura i els manifesta com a amenaçes imparables. Al final de cada torn d'una criatura {@condition frightened} aquesta ha de salvar per Saviesa. Si falla, rep {@damage 4d10} de dany psíquic. Si supera, el conjur acaba per a ella."
+				"Absorbeixes els pitjors malsons d'un grup de criatures i els projectes a les seves ments; només elles els poden veure. Tota criatura en una esfera de 30 peus de radi centrada en un punt a l'abast ha de salvar per Saviesa. Qui falli esdevé {@condition acovardit} durant la duració del conjur. La il·lusió convoca els pitjors temors de la criatura i els manifesta com a amenaçes imparables. Al final de cada torn d'una criatura {@condition acovardit} aquesta ha de salvar per Saviesa. Si falla, rep {@damage 4d10} de dany psíquic. Si supera, el conjur acaba per a ella."
 			],
 			"damageInflict": [
 				"psíquic"
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			],
 			"savingThrow": [
 				"wisdom"
@@ -39770,13 +39770,13 @@
 				}
 			],
 			"entries": [
-				"El proper cop que impactis a una criatura amb un atac armat abans no acabi aquest conjur, el teu atac fa {@damage 1d6} de dany psíquic adicional a l'objectiu. A més, si l'objectiu és una criatura, ha de salvar per Saviesa. Si fallà, està {@condition frightened} per tu mentre duri el conjur. Com a acció, la criatura pot salvar per Saviesa contra la teva CD de salvació de conjur. Si supera, el conjur acaba i la condició també."
+				"El proper cop que impactis a una criatura amb un atac armat abans no acabi aquest conjur, el teu atac fa {@damage 1d6} de dany psíquic adicional a l'objectiu. A més, si l'objectiu és una criatura, ha de salvar per Saviesa. Si fallà, està {@condition acovardit} per tu mentre duri el conjur. Com a acció, la criatura pot salvar per Saviesa contra la teva CD de salvació de conjur. Si supera, el conjur acaba i la condició també."
 			],
 			"damageInflict": [
 				"psíquic"
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			],
 			"savingThrow": [
 				"wisdom"

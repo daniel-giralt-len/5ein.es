@@ -374,7 +374,7 @@ PageFilterBestiary.CONDS = [
 	"fascinat",
 	"eixordat",
 	"exhaust",
-	"acovardat",
+	"acovardit",
 	"pres",
 	"incapacitat",
 	"invisible",

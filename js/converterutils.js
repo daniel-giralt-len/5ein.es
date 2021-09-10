@@ -354,7 +354,7 @@ TagCondition._CONDITIONS = [
 	"fascinat",
 	"eixordat",
 	"exhaust",
-	"acovardat",
+	"acovardit",
 	"pres",
 	"incapacitat",
 	"invisible",
