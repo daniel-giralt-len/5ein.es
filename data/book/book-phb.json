@@ -3043,7 +3043,7 @@
 											"name": "Net",
 											"page": 148,
 											"entries": [
-												"A Large or smaller creature hit by a net is {@condition retingut} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Força check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+												"A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Força check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
 											],
 											"id": "099"
 										}
@@ -8197,13 +8197,13 @@
 							"page": 195,
 							"entries": [
 								"When you want to grab a creature or wrestle with it, you can use the {@action Attack} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-								"Using at least one free hand, you try to seize the target by making a grapple check, una tirada de Força ({@skill Atletisme}) contested by the target's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitat}. If you succeed, you subject the target to the {@condition pres} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no requereix acció).",
+								"Using at least one free hand, you try to seize the target by making a grapple check, una tirada de Força ({@skill Atletisme}) contested by the target's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitat}. If you succeed, you subject the target to the {@condition grappled} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no requereix acció).",
 								{
 									"type": "entries",
 									"name": "Escaping a Grapple",
 									"page": 195,
 									"entries": [
-										"A {@condition pres} creature can use its action to escape. To do so, it must succeed on a Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check contested by your Força ({@skill Atletisme}) check."
+										"A {@condition grappled} creature can use its action to escape. To do so, it must succeed on a Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check contested by your Força ({@skill Atletisme}) check."
 									],
 									"id": "1a5"
 								},
@@ -8212,7 +8212,7 @@
 									"name": "Moving a Grappled Target",
 									"page": 195,
 									"entries": [
-										"When you move, you can drag or carry the {@condition pres} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
+										"When you move, you can drag or carry the {@condition grappled} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
 									],
 									"id": "1a6"
 								}
@@ -10907,14 +10907,14 @@
 								"{@condition eixordat}",
 								"{@condition exhaust}",
 								"{@condition acovardit}",
-								"{@condition pres}",
+								"{@condition grappled}",
 								"{@condition incapacitat}",
 								"{@condition invisible}",
 								"{@condition paralitzat}",
 								"{@condition petrificat}",
 								"{@condition emmetzinat}",
 								"{@condition enderrocat}",
-								"{@condition retingut}",
+								"{@condition restrained}",
 								"{@condition atordit}",
 								"{@condition inconscient}"
 							],

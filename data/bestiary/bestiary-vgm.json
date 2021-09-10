@@ -514,7 +514,7 @@
 				{
 					"name": "Crushing Hug",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}36 ({@damage 9d6 + 5}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 15} per escapar) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 ({@damage 9d6 + 5}) de dany contundent at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}36 ({@damage 9d6 + 5}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 15} per escapar) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 ({@damage 9d6 + 5}) de dany contundent at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way."
 					]
 				}
 			],
@@ -1517,7 +1517,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}22 ({@damage 5d6 + 5}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 15} per escapar) if it is a Large or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the banderhobb can't use its bite attack or tongue attack on another target."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}22 ({@damage 5d6 + 5}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 15} per escapar) if it is a Large or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the banderhobb can't use its bite attack or tongue attack on another target."
 					]
 				},
 				{
@@ -1529,7 +1529,7 @@
 				{
 					"name": "Empassar",
 					"entries": [
-						"The banderhobb makes a bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is {@condition encegat} and {@condition retingut}, it has total cover against attacks and other effects outside the banderhobb and it takes 10 ({@damage 3d6}) de dany necròtic at the start of each of the banderhobb's turns. A creature reduced to 0 hit points in this way stops taking necrotic damage and becomes stable.",
+						"The banderhobb makes a bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the banderhobb and it takes 10 ({@damage 3d6}) de dany necròtic at the start of each of the banderhobb's turns. A creature reduced to 0 hit points in this way stops taking necrotic damage and becomes stable.",
 						"The banderhobb can have only un objectiu swallowed at a time. While the banderhobb isn't {@condition incapacitat}, it can regurgitate the creature at any time (no requereix acció) in a space within 5 feet of it. The creature exits {@condition enderrocat}. If the banderhobb dies, it likewise regurgitates a swallowed creature."
 					]
 				},
@@ -2896,7 +2896,7 @@
 					"entries": [
 						"The boggle creates a puddle of oil that is either slippery or sticky (boggle's choice). The puddle is 1 inch deep and covers the ground in the boggle's space. The puddle is terreny difícil For all creatures except boggles and lasts for 1 hour.",
 						"If the oil is slippery, any creature that enters the puddle's area or starts its turn there ha de salvar per Destresa amb {@dc 11} or fall {@condition enderrocat}.",
-						"If the oil is sticky, any creature that enters the puddle's area or starts its turn there ha de salvar per Força amb {@dc 11} or be {@condition retingut}. On its turn. a creature can use an action to try to extricate itself from the sticky puddle, ending the effect and moving into the nearest safe unoccupied space with a successful {@dc 11} Força check."
+						"If the oil is sticky, any creature that enters the puddle's area or starts its turn there ha de salvar per Força amb {@dc 11} or be {@condition restrained}. On its turn. a creature can use an action to try to extricate itself from the sticky puddle, ending the effect and moving into the nearest safe unoccupied space with a successful {@dc 11} Força check."
 					]
 				}
 			],
@@ -3329,7 +3329,7 @@
 				{
 					"name": "Adhesive Filament",
 					"entries": [
-						"The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is {@condition pres} by the cave fisher ({@dc 13} per escapar), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 13} Força check to pull free. Destroying the filament causes no damage to the cave fisher, which can extrude a replacement filament on its next turn"
+						"The cave fisher can use its action to extend a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature adhered to the filament is {@condition grappled} by the cave fisher ({@dc 13} per escapar), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage), but a weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 13} Força check to pull free. Destroying the filament causes no damage to the cave fisher, which can extrude a replacement filament on its next turn"
 					]
 				},
 				{
@@ -3361,7 +3361,7 @@
 				{
 					"name": "Filament",
 					"entries": [
-						"One creature {@condition pres} by the cave fisher's adhesive filament ha de salvar per Força amb {@dc 13}, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can't extrude another filament."
+						"One creature {@condition grappled} by the cave fisher's adhesive filament ha de salvar per Força amb {@dc 13}, provided that the target weighs 200 pounds or less. On a failure, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes a claw attack against it as a bonus action. Reeling up the target releases anyone else who was attached to the filament. Until the grapple ends on the target, the cave fisher can't extrude another filament."
 					]
 				}
 			],
@@ -3756,7 +3756,7 @@
 				{
 					"name": "Web {@recharge 5}",
 					"entries": [
-						"{@atk rw} {@hit 5} a impactar, 30/60 peus d'abast, one Large or smaller creature. {@h}The target is {@condition retingut} by webbing. Com a acció, the {@condition retingut} target can make a {@dc 11} Força check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						"{@atk rw} {@hit 5} a impactar, 30/60 peus d'abast, one Large or smaller creature. {@h}The target is {@condition restrained} by webbing. Com a acció, the {@condition restrained} target can make a {@dc 11} Força check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
 				}
 			],
@@ -4584,13 +4584,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 20 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 14} per escapar) if it is a Huge or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles."
+						"{@atk mw} {@hit 8} a impactar, 20 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 14} per escapar) if it is a Huge or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles."
 					]
 				},
 				{
 					"name": "Blood Drain",
 					"entries": [
-						"One creature {@condition pres} by a tentacle of the death kiss ha de salvar per Constitució amb {@dc 16}. Si falla, rep 22 ({@damage 4d10}) de dany elèctric, and the death kiss regains half as many hit points."
+						"One creature {@condition grappled} by a tentacle of the death kiss ha de salvar per Constitució amb {@dc 16}. Si falla, rep 22 ({@damage 4d10}) de dany elèctric, and the death kiss regains half as many hit points."
 					]
 				}
 			],
@@ -5627,7 +5627,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 30 peus d'abast, un objectiu. {@h}20 ({@damage 4d8 + 2}) de dany contundent. If the target is a Huge or smaller creature, it is {@condition pres} ({@dc 15} per escapar) and takes 9 ({@damage 1d8 + 5}) de dany psíquic a l'inici de cada torn seu until the grapple ends. The elder brain can have up to four targets {@condition pres} at a time."
+						"{@atk mw} {@hit 7} a impactar, 30 peus d'abast, un objectiu. {@h}20 ({@damage 4d8 + 2}) de dany contundent. If the target is a Huge or smaller creature, it is {@condition grappled} ({@dc 15} per escapar) and takes 9 ({@damage 1d8 + 5}) de dany psíquic a l'inici de cada torn seu until the grapple ends. The elder brain can have up to four targets {@condition grappled} at a time."
 					]
 				},
 				{
@@ -6776,14 +6776,14 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 20 peus d'abast, un objectiu. {@h}19 ({@damage 3d8 + 6}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 16} per escapar) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles."
+						"{@atk mw} {@hit 10} a impactar, 20 peus d'abast, un objectiu. {@h}19 ({@damage 3d8 + 6}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 16} per escapar) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}22 ({@damage 3d10 + 6}) de dany perforant, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is {@condition encegat} and {@condition retingut}, has total cover against attacks and other effects outside the froghemoth, and takes 10 ({@damage 3d6}) de dany d'àcid at the start of each of the froghemoth's turns.",
-						"The froghemoth's gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, each of which falls {@condition enderrocat} in a space within 10 feet of the froghemoth. Si the froghemoth mor, una criatura empassada ja no està {@condition retingut} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}22 ({@damage 3d10 + 6}) de dany perforant, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is {@condition encegat} and {@condition restrained}, has total cover against attacks and other effects outside the froghemoth, and takes 10 ({@damage 3d6}) de dany d'àcid at the start of each of the froghemoth's turns.",
+						"The froghemoth's gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, each of which falls {@condition enderrocat} in a space within 10 feet of the froghemoth. Si the froghemoth mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				},
 				{
@@ -9056,13 +9056,13 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, una criatura. {@h}21 ({@damage 3d10 + 5}) de dany psíquic. If the target is Large or smaller, it is {@condition pres} ({@dc 15} per escapar) iha de salvar per Intel·ligència amb {@dc 20} or be {@condition atordit} mentre duri aquesta presa."
+						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, una criatura. {@h}21 ({@damage 3d10 + 5}) de dany psíquic. If the target is Large or smaller, it is {@condition grappled} ({@dc 15} per escapar) iha de salvar per Intel·ligència amb {@dc 20} or be {@condition atordit} mentre duri aquesta presa."
 					]
 				},
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition pres} by the lich. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition grappled} by the lich. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain."
 					]
 				},
 				{
@@ -10120,7 +10120,7 @@
 				{
 					"name": "Command Hair",
 					"entries": [
-						"The korred has at least one 50-foot-long rope woven out of its hair. Com a acció bonus, the korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target ha de salvar per Destresa amb {@dc 13} or become {@condition pres} by the rope ({@dc 13} per escapar). Mentre duri aquesta presa. the target is {@condition retingut}. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes {@condition incapacitat}.",
+						"The korred has at least one 50-foot-long rope woven out of its hair. Com a acció bonus, the korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target ha de salvar per Destresa amb {@dc 13} or become {@condition grappled} by the rope ({@dc 13} per escapar). Mentre duri aquesta presa. the target is {@condition restrained}. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes {@condition incapacitat}.",
 						"A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred's turns while it has at least 1 hit point and the korred is alive. If the rope es queda a 0 punts de cop, it is destroyed."
 					]
 				},
@@ -11088,13 +11088,13 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}15 ({@damage 2d10 + 4}) de dany psíquic. If the target is Medium or smaller, it is {@condition pres} ({@dc 15} per escapar) iha de salvar per Intel·ligència amb {@dc 15} or be {@condition atordit} mentre duri aquesta presa."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}15 ({@damage 2d10 + 4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 15} per escapar) iha de salvar per Intel·ligència amb {@dc 15} or be {@condition atordit} mentre duri aquesta presa."
 					]
 				},
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition pres} by the mind flayer. {@h}The target takes 55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition grappled} by the mind flayer. {@h}The target takes 55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain."
 					]
 				},
 				{
@@ -11227,7 +11227,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, una criatura. {@h}20 ({@damage 4d8 + 2}) de dany psíquic. if the target is Large or smaller, it is {@condition pres} ({@dc 13} per escapar) iha de salvar per Intel·ligència amb {@dc 13} or be {@condition atordit} mentre duri aquesta presa."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, una criatura. {@h}20 ({@damage 4d8 + 2}) de dany psíquic. if the target is Large or smaller, it is {@condition grappled} ({@dc 13} per escapar) iha de salvar per Intel·ligència amb {@dc 13} or be {@condition atordit} mentre duri aquesta presa."
 					]
 				},
 				{
@@ -11273,7 +11273,7 @@
 									"name": "6. Telekinetic Ray.",
 									"style": "italic",
 									"entries": [
-										"If the target is a creature, it ha de salvar per Força amb {@dc 13}. Si falla, the mindwitness moves it up to 30 feet in any direction, and it is {@condition retingut} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitat}.",
+										"If the target is a creature, it ha de salvar per Força amb {@dc 13}. Si falla, the mindwitness moves it up to 30 feet in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitat}.",
 										"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 									]
 								}
@@ -11473,7 +11473,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 15 peus d'abast, un objectiu. {@h}15 ({@damage 3d8 + 2}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 14} per escapar) if it is a Large or smaller creature. Mentre duri aquesta presa. the target is {@condition retingut} and takes 15 ({@damage 3d8 + 2}) de dany contundent at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target."
+						"{@atk mw} {@hit 6} a impactar, 15 peus d'abast, un objectiu. {@h}15 ({@damage 3d8 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 14} per escapar) if it is a Large or smaller creature. Mentre duri aquesta presa. the target is {@condition restrained} and takes 15 ({@damage 3d8 + 2}) de dany contundent at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target."
 					]
 				},
 				{
@@ -12269,8 +12269,8 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 13} a impactar, 15 peus d'abast, un objectiu. {@h}21 ({@damage 3d8 + 8}) de dany contundent mes 13 ({@damage 3d8}) de dany psíquic. If the target is a Large or smaller creature, ha de salvar per Força amb {@dc 18} or be swallowed by the neothelid. A swallowed creature is {@condition encegat} and {@condition retingut}, it has total cover against attacks and other effects outside the neothelid, and it takes 35 ({@damage 10d6}) de dany d'àcid at the start of each of the neothelid's turns.",
-						"Si the neothelid rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 18} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the neothelid. If the neothelid dies, a swallowed creature is no longer {@condition retingut} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
+						"{@atk mw} {@hit 13} a impactar, 15 peus d'abast, un objectiu. {@h}21 ({@damage 3d8 + 8}) de dany contundent mes 13 ({@damage 3d8}) de dany psíquic. If the target is a Large or smaller creature, ha de salvar per Força amb {@dc 18} or be swallowed by the neothelid. A swallowed creature is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the neothelid, and it takes 35 ({@damage 10d6}) de dany d'àcid at the start of each of the neothelid's turns.",
+						"Si the neothelid rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 18} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the neothelid. If the neothelid dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				},
 				{
@@ -13326,7 +13326,7 @@
 				{
 					"name": "Blurred Movement",
 					"entries": [
-						"Attack rolls against the quickling have disadvantage unless the quickling is {@condition incapacitat} or {@condition retingut}."
+						"Attack rolls against the quickling have disadvantage unless the quickling is {@condition incapacitat} or {@condition restrained}."
 					]
 				},
 				{
@@ -13766,7 +13766,7 @@
 								{
 									"type": "item",
 									"name": "Tentacle.",
-									"entry": "{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 12} per escapar) if it is a Medium or smaller creature. Mentre duri aquesta presa, the sea spawn can't use this tentacle on another target."
+									"entry": "{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 12} per escapar) if it is a Medium or smaller creature. Mentre duri aquesta presa, the sea spawn can't use this tentacle on another target."
 								}
 							]
 						}
@@ -14212,7 +14212,7 @@
 				{
 					"name": "Life Leech",
 					"entries": [
-						"One Large or smaller creature that the slithering tracker can see within 5 feet of ha de salvar per Destresa amb {@dc 13} or be {@condition pres} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut} and unable to breathe unless it can breathe water. In addition, the {@condition pres} target takes 16 ({@damage 3d10}) de dany necròtic a l'inici de cada torn seu. The slithering tracker can grapple only un objectiu at a time."
+						"One Large or smaller creature that the slithering tracker can see within 5 feet of ha de salvar per Destresa amb {@dc 13} or be {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained} and unable to breathe unless it can breathe water. In addition, the {@condition grappled} target takes 16 ({@damage 3d10}) de dany necròtic a l'inici de cada torn seu. The slithering tracker can grapple only un objectiu at a time."
 					]
 				}
 			],
@@ -15440,7 +15440,7 @@
 				{
 					"name": "Spiked Chain",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 11} per escapar) if it is a Large or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the tlincalli can't use the spiked chain against another target."
+						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 11} per escapar) if it is a Large or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the tlincalli can't use the spiked chain against another target."
 					]
 				},
 				{
@@ -15703,7 +15703,7 @@
 				{
 					"name": "Smother",
 					"entries": [
-						"One Large or smaller creature within 5 feet of the trapper ha de salvar per Destresa amb {@dc 14} or be {@condition pres} ({@dc 14} per escapar). Until the grapple ends, the target takes 17 ({@damage 4d6 + 3}) de dany contundent mes 3 ({@damage 1d6}) de dany d'àcid a l'inici de cada torn seu. While {@condition pres} in this way, the target is {@condition retingut}, {@condition encegat}, and at risk of suffocating. The trapper can smother only one creature at a time."
+						"One Large or smaller creature within 5 feet of the trapper ha de salvar per Destresa amb {@dc 14} or be {@condition grappled} ({@dc 14} per escapar). Until the grapple ends, the target takes 17 ({@damage 4d6 + 3}) de dany contundent mes 3 ({@damage 1d6}) de dany d'àcid a l'inici de cada torn seu. While {@condition grappled} in this way, the target is {@condition restrained}, {@condition encegat}, and at risk of suffocating. The trapper can smother only one creature at a time."
 					]
 				}
 			],
@@ -15842,13 +15842,13 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, una criatura. {@h}27 ({@damage 4d10 + 5}) de dany psíquic. If the target is Large or smaller, it is {@condition pres} ({@dc 14} per escapar) iha de salvar per Intel·ligència amb {@dc 17} or be {@condition atordit} mentre duri aquesta presa."
+						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, una criatura. {@h}27 ({@damage 4d10 + 5}) de dany psíquic. If the target is Large or smaller, it is {@condition grappled} ({@dc 14} per escapar) iha de salvar per Intel·ligència amb {@dc 17} or be {@condition atordit} mentre duri aquesta presa."
 					]
 				},
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition pres} by the ulitharid. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition grappled} by the ulitharid. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain."
 					]
 				},
 				{
@@ -18020,7 +18020,7 @@
 				{
 					"name": "Constrènyer",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 15 peus d'abast, one Large or smaller creature. {@h}16 ({@damage 3d6 + 6}) de dany contundent mes 7 ({@damage 2d6}) de dany d'àcid, i l'objectiu està {@condition pres} ({@dc 16} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut} and takes 16 ({@damage 3d6 + 6}) de dany contundent mes 7 ({@damage 2d6}) de dany d'àcid a l'inici de cada torn seu, and the anathema can't constrict another target."
+						"{@atk mw} {@hit 10} a impactar, 15 peus d'abast, one Large or smaller creature. {@h}16 ({@damage 3d6 + 6}) de dany contundent mes 7 ({@damage 2d6}) de dany d'àcid, i l'objectiu està {@condition grappled} ({@dc 16} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained} and takes 16 ({@damage 3d6 + 6}) de dany contundent mes 7 ({@damage 2d6}) de dany d'àcid a l'inici de cada torn seu, and the anathema can't constrict another target."
 					]
 				},
 				{
@@ -18974,7 +18974,7 @@
 				{
 					"name": "Constrènyer",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 14} per escapar) if it is a Large or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the yuan-ti can't constrict another target."
+						"{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 14} per escapar) if it is a Large or smaller creature. Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the yuan-ti can't constrict another target."
 					]
 				},
 				{

@@ -686,7 +686,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 15 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent. The target is {@condition pres} ({@dc 12} per escapar) if it is a Large or smaller creature. Mentre duri aquesta presa, the dolgaunt can't use the same tentacle on another target. The dolgaunt has two tentacles."
+						"{@atk mw} {@hit 6} a impactar, 15 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent. The target is {@condition grappled} ({@dc 12} per escapar) if it is a Large or smaller creature. Mentre duri aquesta presa, the dolgaunt can't use the same tentacle on another target. The dolgaunt has two tentacles."
 					]
 				},
 				{
@@ -698,7 +698,7 @@
 				{
 					"name": "Vitality Drain",
 					"entries": [
-						"One creature {@condition pres} by a tentacle of the dolgaunt ha de salvar per Constitució amb {@dc 11}. Si falla, rep 9 ({@damage 2d8}) de dany necròtic, and the dolgaunt regains a number of hit points equal to half the necrotic damage taken."
+						"One creature {@condition grappled} by a tentacle of the dolgaunt ha de salvar per Constitució amb {@dc 11}. Si falla, rep 9 ({@damage 2d8}) de dany necròtic, and the dolgaunt regains a number of hit points equal to half the necrotic damage taken."
 					]
 				}
 			],
@@ -1079,13 +1079,13 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Dyrrn makes one Tentacle Whip attack and uses its Corruption once. Dyrrn can replace its Tentacle Whip attack with Extract Brain if it has a creature {@condition pres}."
+						"Dyrrn makes one Tentacle Whip attack and uses its Corruption once. Dyrrn can replace its Tentacle Whip attack with Extract Brain if it has a creature {@condition grappled}."
 					]
 				},
 				{
 					"name": "Tentacle Whip",
 					"entries": [
-						"{@atk mw} {@hit 15} a impactar, 10 peus d'abast, un objectiu. {@h}24 ({@damage 3d10 + 8}) de dany tallant. If the target is a Medium or smaller creature, it is {@condition pres} ({@dc 23} per escapar), pulled into an unoccupied space within 5 feet of Dyrrn, iha de salvar per Intel·ligència amb {@dc 23} or be {@condition atordit} mentre duri aquesta presa. Dyrrn can't use the same tentacle whip on another target mentre duri aquesta presa. Dyrrn has two tentacle whips."
+						"{@atk mw} {@hit 15} a impactar, 10 peus d'abast, un objectiu. {@h}24 ({@damage 3d10 + 8}) de dany tallant. If the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 23} per escapar), pulled into an unoccupied space within 5 feet of Dyrrn, iha de salvar per Intel·ligència amb {@dc 23} or be {@condition atordit} mentre duri aquesta presa. Dyrrn can't use the same tentacle whip on another target mentre duri aquesta presa. Dyrrn has two tentacle whips."
 					]
 				},
 				{
@@ -1098,7 +1098,7 @@
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 15} a impactar, 5 peus d'abast, one {@condition incapacitat} creature {@condition pres} by Dyrrn. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, Dyrrn kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 15} a impactar, 5 peus d'abast, one {@condition incapacitat} creature {@condition grappled} by Dyrrn. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, Dyrrn kills the target by extracting and devouring its brain."
 					]
 				}
 			],
@@ -1713,7 +1713,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 13} or take an extra 3 ({@damage 1d6}) de dany perforant and be {@condition pres} ({@dc 13} per escapar). The defender can have only one creature {@condition pres} in this way at a time."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 13} or take an extra 3 ({@damage 1d6}) de dany perforant and be {@condition grappled} ({@dc 13} per escapar). The defender can have only one creature {@condition grappled} in this way at a time."
 					]
 				}
 			],
@@ -3967,7 +3967,7 @@
 				{
 					"name": "Bladed Armor",
 					"entries": [
-						"A creature that grapples the Lord of Blades or is {@condition pres} by him takes 13 ({@damage 3d8}) de dany tallant. A creature takes 13 ({@damage 3d8}) de dany tallant if it starts its turn grappling or being {@condition pres} by the Lord of Blades."
+						"A creature that grapples the Lord of Blades or is {@condition grappled} by him takes 13 ({@damage 3d8}) de dany tallant. A creature takes 13 ({@damage 3d8}) de dany tallant if it starts its turn grappling or being {@condition grappled} by the Lord of Blades."
 					]
 				},
 				{
@@ -4147,7 +4147,7 @@
 				{
 					"name": "Pincer",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d10 + 3}) de dany contundent. The target is {@condition pres} ({@dc 14} per escapar) if it is a Large or smaller creature. The quori has two pincers, each of which can grapple un objectiu."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d10 + 3}) de dany contundent. The target is {@condition grappled} ({@dc 14} per escapar) if it is a Large or smaller creature. The quori has two pincers, each of which can grapple un objectiu."
 					]
 				},
 				{
@@ -4906,7 +4906,7 @@
 				{
 					"name": "Esclafar",
 					"entries": [
-						"The colossus stomps one of its feet a un punt del terra within 20 feet of it. Any creature in un cilindre de 20 peus de radi i 20 d'alçada centered on this point ha de salvar per Destresa amb {@dc 26} or take 33 ({@damage 6d10}) de dany contundent and fall {@condition enderrocat}. Until the colossus uses its Stomp again or moves, the creature is {@condition retingut}. While {@condition retingut} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Força check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition retingut}.",
+						"The colossus stomps one of its feet a un punt del terra within 20 feet of it. Any creature in un cilindre de 20 peus de radi i 20 d'alçada centered on this point ha de salvar per Destresa amb {@dc 26} or take 33 ({@damage 6d10}) de dany contundent and fall {@condition enderrocat}. Until the colossus uses its Stomp again or moves, the creature is {@condition restrained}. While {@condition restrained} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Força check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition restrained}.",
 						"Structures, as well as nonmagical objects that are neither being worn nor carried, take the same amount of damage if they are in the cylinder (no save)."
 					]
 				},

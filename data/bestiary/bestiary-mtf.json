@@ -1823,7 +1823,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 15} per escapar) and is moved up to 5 feet toward the balhannoth. Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles."
+						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 15} per escapar) and is moved up to 5 feet toward the balhannoth. Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles."
 					]
 				}
 			],
@@ -1831,13 +1831,13 @@
 				{
 					"name": "Bite Attack",
 					"entries": [
-						"The balhannoth makes one bite attack against one creature it has {@condition pres}."
+						"The balhannoth makes one bite attack against one creature it has {@condition grappled}."
 					]
 				},
 				{
 					"name": "Teleportació",
 					"entries": [
-						"The balhannoth magically teleports, along with any equipment it is wearing or carrying and any creatures it has {@condition pres}, up to 60 feet to an unoccupied space it can see."
+						"The balhannoth magically teleports, along with any equipment it is wearing or carrying and any creatures it has {@condition grappled}, up to 60 feet to an unoccupied space it can see."
 					]
 				},
 				{
@@ -2749,7 +2749,7 @@
 				{
 					"name": "Piercing Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}20 ({@damage 3d10 + 4}) de dany perforant. If the target is a creature, the boneclaw can pull the target up to 10 feet toward itself, i l'objectiu està {@condition pres} ({@dc 14} per escapar). The boneclaw has two claws. While a claw grapples a target, the claw can attack only that target."
+						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}20 ({@damage 3d10 + 4}) de dany perforant. If the target is a creature, the boneclaw can pull the target up to 10 feet toward itself, i l'objectiu està {@condition grappled} ({@dc 14} per escapar). The boneclaw has two claws. While a claw grapples a target, the claw can attack only that target."
 					]
 				},
 				{
@@ -3286,7 +3286,7 @@
 				{
 					"name": "Tongue",
 					"entries": [
-						"{@atk rw} {@hit 7} a impactar, 30 peus d'abast, un objectiu. {@h}17 ({@damage 2d12 + 4}) de dany perforant. If the target is Medium or smaller, it is {@condition pres} ({@dc 15} per escapar), pulled up to 30 feet toward the canoloth, i està {@condition retingut} until the grapple ends. The canoloth can grapple un objectiu at a time with its tongue."
+						"{@atk rw} {@hit 7} a impactar, 30 peus d'abast, un objectiu. {@h}17 ({@damage 2d12 + 4}) de dany perforant. If the target is Medium or smaller, it is {@condition grappled} ({@dc 15} per escapar), pulled up to 30 feet toward the canoloth, i està {@condition restrained} until the grapple ends. The canoloth can grapple un objectiu at a time with its tongue."
 					]
 				}
 			],
@@ -3409,7 +3409,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}5 ({@damage 1d4 + 3}) de dany contundent mes 3 ({@damage 1d6}) de dany perforant. If the target is a Large or smaller creature, it is {@condition pres} ({@dc 15} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
+						"{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}5 ({@damage 1d4 + 3}) de dany contundent mes 3 ({@damage 1d6}) de dany perforant. If the target is a Large or smaller creature, it is {@condition grappled} ({@dc 15} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
 					]
 				}
 			],
@@ -3884,7 +3884,7 @@
 				{
 					"name": "Vira del Més Enllàs",
 					"entries": [
-						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, one or two targets. {@h}18 ({@damage 4d8}) de dany necròtic. If the target is Large or smaller, ha de salvar per Força amb {@dc 16} or become {@condition retingut} as shadowy tendrils wrap around it durant 1 minut. A {@condition retingut} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, one or two targets. {@h}18 ({@damage 4d8}) de dany necròtic. If the target is Large or smaller, ha de salvar per Força amb {@dc 16} or become {@condition restrained} as shadowy tendrils wrap around it durant 1 minut. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -5066,7 +5066,7 @@
 				{
 					"name": "Web (Giant Spider Form Only Recharge 5\u20136)",
 					"entries": [
-						"{@atk rw} {@hit 8} a impactar, 30/60 peus d'abast, un objectiu. {@h}The target is {@condition retingut} by webbing. Com a acció, the {@condition retingut} target can make a {@dc 15} Força check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						"{@atk rw} {@hit 8} a impactar, 30/60 peus d'abast, un objectiu. {@h}The target is {@condition restrained} by webbing. Com a acció, the {@condition restrained} target can make a {@dc 15} Força check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
 				}
 			],
@@ -8293,7 +8293,7 @@
 				{
 					"name": "Sticky Leg",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}The target is stuck to the steeder's leg i està {@condition pres} until it escapes ({@dc 12} per escapar). The steeder can have only one creature {@condition pres} at a time."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}The target is stuck to the steeder's leg i està {@condition grappled} until it escapes ({@dc 12} per escapar). The steeder can have only one creature {@condition grappled} at a time."
 					]
 				}
 			],
@@ -8629,7 +8629,7 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 16} a impactar, 15 peus d'abast, un objectiu. {@h}20 ({@damage 2d10 + 9}) de dany contundent. If the target is a Large or smaller creature, it is also {@condition pres} ({@dc 24} per escapar). The {@condition pres} target is also {@condition retingut}. Fraz-Urb'luu can grapple only one creature with his tail at a time."
+						"{@atk mw} {@hit 16} a impactar, 15 peus d'abast, un objectiu. {@h}20 ({@damage 2d10 + 9}) de dany contundent. If the target is a Large or smaller creature, it is also {@condition grappled} ({@dc 24} per escapar). The {@condition grappled} target is also {@condition restrained}. Fraz-Urb'luu can grapple only one creature with his tail at a time."
 					]
 				},
 				{
@@ -8943,7 +8943,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 16} a impactar, 15 peus d'abast, un objectiu. {@h}23 ({@damage 4d6 + 9}) de dany tallant. If the target is Large or smaller, it is {@condition pres} ({@dc 24}) i està {@condition retingut} until the grapple ends. Geryon can grapple one creature at a time. If the target is already {@condition pres} by Geryon, the target takes an extra 27 ({@damage 6d8}) de dany tallant."
+						"{@atk mw} {@hit 16} a impactar, 15 peus d'abast, un objectiu. {@h}23 ({@damage 4d6 + 9}) de dany tallant. If the target is Large or smaller, it is {@condition grappled} ({@dc 24}) i està {@condition restrained} until the grapple ends. Geryon can grapple one creature at a time. If the target is already {@condition grappled} by Geryon, the target takes an extra 27 ({@damage 6d8}) de dany tallant."
 					]
 				},
 				{
@@ -10716,7 +10716,7 @@
 					"name": "Flesh-Crushing Stride",
 					"entries": [
 						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters ha de salvar per Destresa amb {@dc 18}. Si supera, the creature is pushed to the nearest space out of the hellfire engine's path. Si falla, the creature falls {@condition enderrocat} and takes 28 ({@damage 8d6}) de dany contundent.",
-						"If the hellfire engine remains in the {@condition enderrocat} creature's space, the creature is also {@condition retingut} until it's no longer in the same space as the hellfire engine. While {@condition retingut} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Força check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition retingut}."
+						"If the hellfire engine remains in the {@condition enderrocat} creature's space, the creature is also {@condition restrained} until it's no longer in the same space as the hellfire engine. While {@condition restrained} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Força check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition restrained}."
 					]
 				},
 				{
@@ -12063,7 +12063,7 @@
 				{
 					"name": "Sticky Leg",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Small or Tiny creature. {@h}The target is stuck to the steeder's leg i està {@condition pres} until it escapes ({@dc 12} per escapar). The steeder can have only one creature {@condition pres} at a time."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Small or Tiny creature. {@h}The target is stuck to the steeder's leg i està {@condition grappled} until it escapes ({@dc 12} per escapar). The steeder can have only one creature {@condition grappled} at a time."
 					]
 				}
 			],
@@ -12470,7 +12470,7 @@
 				{
 					"name": "Garrote",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu of the meazel's size or smaller. {@h}6 ({@damage 1d6 + 3}) de dany contundent, i l'objectiu està {@condition pres} (escape {@dc 13} with disadvantage). Until the grapple ends, the target takes 10 ({@damage 2d6 + 3}) de dany contundent at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu of the meazel's size or smaller. {@h}6 ({@damage 1d6 + 3}) de dany contundent, i l'objectiu està {@condition grappled} (escape {@dc 13} with disadvantage). Until the grapple ends, the target takes 10 ({@damage 2d6 + 3}) de dany contundent at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
 					]
 				},
 				{
@@ -14172,7 +14172,7 @@
 				{
 					"name": "Harpoon",
 					"entries": [
-						"{@atk rw} {@hit 7} a impactar, 50/200 peus d'abast, un objectiu. {@h}9 ({@damage 1d10 + 4}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 12} per escapar). While {@condition pres} in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the oaken bolter. A creature takes 5 ({@damage 1d10}) de dany tallant if it escapes from the grapple or if it tries and fails. Com a acció bonus, the oaken bolter can pull a creature {@condition pres} by it 20 feet closer. The oaken bolter can grapple only one creature at a time."
+						"{@atk rw} {@hit 7} a impactar, 50/200 peus d'abast, un objectiu. {@h}9 ({@damage 1d10 + 4}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). While {@condition grappled} in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the oaken bolter. A creature takes 5 ({@damage 1d10}) de dany tallant if it escapes from the grapple or if it tries and fails. Com a acció bonus, the oaken bolter can pull a creature {@condition grappled} by it 20 feet closer. The oaken bolter can grapple only one creature at a time."
 					]
 				},
 				{
@@ -14803,7 +14803,7 @@
 				{
 					"name": "Transfixing Gaze",
 					"entries": [
-						"The oinoloth targets one creature it can see within 30 feet of it. The target ha de salvar per Saviesa amb {@dc 16} against this magic or be {@condition fascinat} until the end of the oinoloth's next turn. While {@condition fascinat} in this way, the target is {@condition retingut}. If the target's saving throw is successful, the target is immune to the oinoloth's gaze for the next 24 hours."
+						"The oinoloth targets one creature it can see within 30 feet of it. The target ha de salvar per Saviesa amb {@dc 16} against this magic or be {@condition fascinat} until the end of the oinoloth's next turn. While {@condition fascinat} in this way, the target is {@condition restrained}. If the target's saving throw is successful, the target is immune to the oinoloth's gaze for the next 24 hours."
 					]
 				}
 			],
@@ -15208,7 +15208,7 @@
 								{
 									"type": "item",
 									"name": "4. Entanglement",
-									"entry": "The target must make a successful {@dc 17} Destresa saving throw or be {@condition retingut} for 1 hour by strands of sticky webbing. A {@condition retingut} creature can escape by using an action to make a successful {@dc 17} Destresa or Força check. Any creature other than an orthon that touches the {@condition retingut} creature must make a successful {@dc 17} Destresa saving throw or become similarly {@condition retingut}."
+									"entry": "The target must make a successful {@dc 17} Destresa saving throw or be {@condition restrained} for 1 hour by strands of sticky webbing. A {@condition restrained} creature can escape by using an action to make a successful {@dc 17} Destresa or Força check. Any creature other than an orthon that touches the {@condition restrained} creature must make a successful {@dc 17} Destresa saving throw or become similarly {@condition restrained}."
 								},
 								{
 									"type": "item",
@@ -15968,7 +15968,7 @@
 				{
 					"name": "Crippling Temor",
 					"entries": [
-						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it ha de salvar per Saviesa amb {@dc 11}. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. Si supera, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. Si falla, the creature becomes {@condition acovardit} durant 1 minut. While {@condition acovardit} in this way, the creature is {@condition retingut}. Al final de cada torn de the {@condition acovardit} creature, it can repeat the saving throw, ending the effect on itself on a success."
+						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it ha de salvar per Saviesa amb {@dc 11}. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. Si supera, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. Si falla, the creature becomes {@condition acovardit} durant 1 minut. While {@condition acovardit} in this way, the creature is {@condition restrained}. Al final de cada torn de the {@condition acovardit} creature, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -16239,7 +16239,7 @@
 						{
 							"type": "list",
 							"items": [
-								"The target is {@condition pres} ({@dc 14} per escapar) if it is a Medium or smaller creature. Durant aquesta presa, l'objectiu també està {@condition retingut}, and the shadow dancer can't grapple another target.",
+								"The target is {@condition grappled} ({@dc 14} per escapar) if it is a Medium or smaller creature. Durant aquesta presa, l'objectiu també està {@condition restrained}, and the shadow dancer can't grapple another target.",
 								"The target is knocked {@condition enderrocat}.",
 								"The target takes 22 ({@damage 4d10}) de dany necròtic."
 							]
@@ -17750,7 +17750,7 @@
 				{
 					"name": "Plague of Worms {@recharge}",
 					"entries": [
-						"Each creature other than a star spawn within 10 feet of the larva mage ha de salvar per Destresa amb {@dc 19}. On a failure the target takes 22 ({@damage 5d8}) de dany necròtic i està {@condition encegat} and {@condition retingut} by masses of swarming worms. The affected creature takes 22 ({@damage 5d8}) de dany necròtic at the start of each of the larva mage's turns. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Each creature other than a star spawn within 10 feet of the larva mage ha de salvar per Destresa amb {@dc 19}. On a failure the target takes 22 ({@damage 5d8}) de dany necròtic i està {@condition encegat} and {@condition restrained} by masses of swarming worms. The affected creature takes 22 ({@damage 5d8}) de dany necròtic at the start of each of the larva mage's turns. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -17778,7 +17778,7 @@
 				{
 					"name": "Feed (Costa 3 Accions)",
 					"entries": [
-						"Each creature {@condition retingut} by the larva mage's Plague of Worms takes 13 ({@damage 3d8}) de dany necròtic, and the larva mage gains 6 temporary hit points."
+						"Each creature {@condition restrained} by the larva mage's Plague of Worms takes 13 ({@damage 3d8}) de dany necròtic, and the larva mage gains 6 temporary hit points."
 					]
 				}
 			],
@@ -18320,7 +18320,7 @@
 				{
 					"name": "Petrifying Claws",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d10 + 3}) de dany tallant, o 14 ({@damage 2d10 + 3}) de dany tallant if the attack roll had advantage. If the target is a creature, ha de salvar per Constitució amb {@dc 12}, or it begins to turn to stone i està {@condition retingut} fins el final del seu proper torn. when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition petrificat} for 24 hours."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d10 + 3}) de dany tallant, o 14 ({@damage 2d10 + 3}) de dany tallant if the attack roll had advantage. If the target is a creature, ha de salvar per Constitució amb {@dc 12}, or it begins to turn to stone i està {@condition restrained} fins el final del seu proper torn. when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition petrificat} for 24 hours."
 					]
 				}
 			],
@@ -19077,7 +19077,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}18 ({@damage 4d6 + 4}) de dany tallant. If the target is Medium or smaller, it is {@condition pres} ({@dc 16} per escapar) i està {@condition retingut} until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
+						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}18 ({@damage 4d6 + 4}) de dany tallant. If the target is Medium or smaller, it is {@condition grappled} ({@dc 16} per escapar) i està {@condition restrained} until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
 					]
 				}
 			],
@@ -19190,14 +19190,14 @@
 				{
 					"name": "Harpoon Arm",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 60 peus d'abast, un objectiu. {@h}21 ({@damage 4d8 + 3}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 15} per escapar) if it is a Large or smaller creature.",
+						"{@atk mw} {@hit 7} a impactar, 60 peus d'abast, un objectiu. {@h}21 ({@damage 4d8 + 3}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 15} per escapar) if it is a Large or smaller creature.",
 						"The Lonely has two harpoon arms and can grapple up to two creatures at once."
 					]
 				},
 				{
 					"name": "Sorrowful Embrace",
 					"entries": [
-						"Each creature {@condition pres} by the Lonely ha de salvar per Saviesa amb {@dc 15}. A creature takes 18 ({@damage 4d8}) de dany psíquic; si supera, en rep la meitat. In either case, the Lonely pulls each creature {@condition pres} by it up to 30 feet straight toward it."
+						"Each creature {@condition grappled} by the Lonely ha de salvar per Saviesa amb {@dc 15}. A creature takes 18 ({@damage 4d8}) de dany psíquic; si supera, en rep la meitat. In either case, the Lonely pulls each creature {@condition grappled} by it up to 30 feet straight toward it."
 					]
 				}
 			],
@@ -19305,7 +19305,7 @@
 				{
 					"name": "Embrace",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 4d10 + 3}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 14} per escapar) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition acovardit}, and it takes 27 ({@damage 6d8}) de dany psíquic al final de cada torn seu. The Lost can embrace only one creature at a time."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 4d10 + 3}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 14} per escapar) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition acovardit}, and it takes 27 ({@damage 6d8}) de dany psíquic al final de cada torn seu. The Lost can embrace only one creature at a time."
 					]
 				}
 			],
@@ -19313,7 +19313,7 @@
 				{
 					"name": "Tightening Embrace",
 					"entries": [
-						"If the Lost takes damage while it has a creature {@condition pres}, that creature takes 18 ({@damage 4d8}) de dany psíquic."
+						"If the Lost takes damage while it has a creature {@condition grappled}, that creature takes 18 ({@damage 4d8}) de dany psíquic."
 					]
 				}
 			],
@@ -21434,7 +21434,7 @@
 					"name": "Earth-Shaking Movement",
 					"entries": [
 						"As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes terreny difícil durant 1 minut. Each creature on the ground that is concentrating ha de salvar per Constitució amb {@dc 25} or the creature's concentration is broken.",
-						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height ha de salvar per Destresa amb {@dc 25}. Si falla, rep 17 ({@damage 5d6}) de dany contundent, is knocked {@condition enderrocat}, and is trapped in the rubble. A trapped creature is {@condition retingut}, requiring a successful {@dc 20} Força (Atletisme) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. Si supera en rep la meitat and doesn't fall {@condition enderrocat} or become trapped."
+						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height ha de salvar per Destresa amb {@dc 25}. Si falla, rep 17 ({@damage 5d6}) de dany contundent, is knocked {@condition enderrocat}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Força (Atletisme) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. Si supera en rep la meitat and doesn't fall {@condition enderrocat} or become trapped."
 					]
 				},
 				{
@@ -21510,7 +21510,7 @@
 				{
 					"name": "Retract (Costa 2 Accions)",
 					"entries": [
-						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition retingut}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition restrained}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
 					]
 				},
 				{

@@ -4059,7 +4059,7 @@ Renderer.race = {
 				r.entries.push({
 					type: "entries",
 					name: "Languages",
-					entries: ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."],
+					entries: ["Pots parlar, llegir, i escriure Common and one other language that you and your DM agree is appropriate for your character."],
 				});
 
 				r.languageProficiencies = r.languageProficiencies || [{"comú": true, "anyStandard": 1}];

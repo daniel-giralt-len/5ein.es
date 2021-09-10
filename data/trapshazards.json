@@ -63,7 +63,7 @@
 			"entries": [
 				"This trap uses a trip wire to release a net suspended from the ceiling.",
 				"The trip wire is 3 inches off the ground and stretches between two columns or trees. The net is hidden by cobwebs or foliage. The DC to spot the trip wire and net is 10. A successful DC 15 Destresa check using thieves' tools breaks the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.",
-				"When the trap is triggered, the net is released, covering a 10-foot-square area. Those in the area are trapped under the net and {@condition retingut}, and those that fail a DC 10 Força saving throw are also knocked {@condition enderrocat}.",
+				"When the trap is triggered, the net is released, covering a 10-foot-square area. Those in the area are trapped under the net and {@condition restrained}, and those that fail a DC 10 Força saving throw are also knocked {@condition enderrocat}.",
 				"A creature can use its action to make a DC 10 Força check, freeing itself or another creature within its reach on a success. The net has AC 10 and 20 hit points.",
 				"Dealing 5 slashing damage to the net (AC 10) destroys a 5-foot-square section of it, freeing any creature trapped in that section."
 			]
@@ -129,7 +129,7 @@
 			"tier": 1,
 			"threat": 2,
 			"effect": [
-				"A net covering a 10-foot-by-10-foot area centered on the trip wire falls to the floor as a bell rings. Any creature fully within this area must succeed on a DC 15 Destresa saving throw or be {@condition retingut}. A creature can use its action to make a DC 10 Força check to try to free itself or another creature in the net. Dealing 5 slashing damage to the net (AC 10, 20hp) also frees a creature without harming the creature."
+				"A net covering a 10-foot-by-10-foot area centered on the trip wire falls to the floor as a bell rings. Any creature fully within this area must succeed on a DC 15 Destresa saving throw or be {@condition restrained}. A creature can use its action to make a DC 10 Força check to try to free itself or another creature in the net. Dealing 5 slashing damage to the net (AC 10, 20hp) also frees a creature without harming the creature."
 			],
 			"trigger": [
 				"A trip wire strung across a hallway is rigged to a large net. If the trip wire is broken, the net falls on intruders. An iron bell is also rigged to the trip wire. It rings when the trap activates, alerting nearby guards."
@@ -622,7 +622,7 @@
 				"The following rules can be used for rockslides as well as avalanches.",
 				"An avalanche is a mass of snow and debris falling rapidly down a mountainside. A typical avalanche is 300 feet wide, 150 feet long, and 30 feet thick. Creatures in the path of an avalanche can avoid it or escape it if they're close to its edge, but outrunning one is almost impossible.",
 				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition enderrocat}, and the creature must make a DC 15 Força saving throw, taking {@dice 1d10} de dany contundent; si supera, en rep la meitat.",
-				"When an avalanche stops, the snow settles and buries creatures in it. A creature buried in this way is {@condition encegat} and {@condition retingut} and has total cover. The creature gains one level of {@condition exhaust} for every 5 minutes it spends buried in the snow. It can try to dig itself free com a acció, breaking the surface and ending the blinded and restrained conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
+				"When an avalanche stops, the snow settles and buries creatures in it. A creature buried in this way is {@condition encegat} and {@condition restrained} and has total cover. The creature gains one level of {@condition exhaust} for every 5 minutes it spends buried in the snow. It can try to dig itself free com a acció, breaking the surface and ending the blinded and restrained conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
 				"A creature that is not restrained or {@condition incapacitat} can spend 1 minute freeing another creature buried in the snow. Once free, that creature is no longer blinded or restrained by the avalanche."
 			]
 		},
@@ -634,8 +634,8 @@
 			"entries": [
 				"A typical avalanche (or rockslide) is 300 feet wide, 150 feet long, and 30 feet thick. Creatures in the path of an avalanche can avoid it or escape it if they're close to its edge, but outrunning one is almost impossible.",
 				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition enderrocat}, and the creature must make a DC 15 Força saving throw, taking {@dice 1d10} de dany contundent; si supera, en rep la meitat.",
-				"When an avalanche stops, the snow and other debris settle and bury creatures. A creature buried in this way is {@condition encegat} and {@condition retingut}, and it has total cover. The creature gains 1 level of {@condition exhaust} for every 5 minutes it spends buried. It can try to dig itself free com a acció, breaking the surface and ending the {@condition encegat} and {@condition retingut} conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
-				"A creature that is not {@condition retingut} or {@condition incapacitat} can spend 1 minute freeing a buried creature. Once free, that creature is no longer {@condition encegat} or {@condition retingut} by the avalanche."
+				"When an avalanche stops, the snow and other debris settle and bury creatures. A creature buried in this way is {@condition encegat} and {@condition restrained}, and it has total cover. The creature gains 1 level of {@condition exhaust} for every 5 minutes it spends buried. It can try to dig itself free com a acció, breaking the surface and ending the {@condition encegat} and {@condition restrained} conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
+				"A creature that is not {@condition restrained} or {@condition incapacitat} can spend 1 minute freeing a buried creature. Once free, that creature is no longer {@condition encegat} or {@condition restrained} by the avalanche."
 			]
 		},
 		{
@@ -997,7 +997,7 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"A quicksand pit covers the ground in roughly a 10-foot square area and is usually 10 feet deep. When a creature enters the area, it sinks {@dice 1d4+1} feet into the quicksand and becomes {@condition retingut}. A l'inici de cada torn de the creature, it sinks another {@dice 1d4} feet. As long as the creature isn't completely submerged in quicksand, it can escape by using its action and succeeding on a Força check. The DC is 10 plus the number of feet the creature has sunk into the quicksand. A creature that is completely submerged in quicksand can't breathe (see the {@book suffocation|phb|8|suffocating} rules in the {@i Player's Handbook}).",
+				"A quicksand pit covers the ground in roughly a 10-foot square area and is usually 10 feet deep. When a creature enters the area, it sinks {@dice 1d4+1} feet into the quicksand and becomes {@condition restrained}. A l'inici de cada torn de the creature, it sinks another {@dice 1d4} feet. As long as the creature isn't completely submerged in quicksand, it can escape by using its action and succeeding on a Força check. The DC is 10 plus the number of feet the creature has sunk into the quicksand. A creature that is completely submerged in quicksand can't breathe (see the {@book suffocation|phb|8|suffocating} rules in the {@i Player's Handbook}).",
 				"A creature can pull another creature within its reach out of a quicksand pit by using its action and succeeding on a Força check. The DC is 5 plus the number of feet the target creature has sunk into the quicksand."
 			]
 		},
@@ -1065,7 +1065,7 @@
 			"source": "DMG",
 			"page": 105,
 			"entries": [
-				"Giant spiders weave thick, sticky webs across passages and at the bottom of pits to snare prey. These web-filled areas are terreny difícil. Moreover, a creature entering a webbed area for the first time on a turn or starting its turn there must succeed on a DC 12 Destresa saving throw or become {@condition retingut} by the webs. A {@condition retingut} creature can use its action to try to escape, doing so with a successful DC 12 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check.",
+				"Giant spiders weave thick, sticky webs across passages and at the bottom of pits to snare prey. These web-filled areas are terreny difícil. Moreover, a creature entering a webbed area for the first time on a turn or starting its turn there must succeed on a DC 12 Destresa saving throw or become {@condition restrained} by the webs. A {@condition restrained} creature can use its action to try to escape, doing so with a successful DC 12 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check.",
 				"Each 10-foot cube of giant webs has AC 10, 15 hit points, vulnerability to fire, and immunity to bludgeoning, piercing, and psychic damage."
 			]
 		},

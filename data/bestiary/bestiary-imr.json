@@ -485,7 +485,7 @@
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"Si una criatura que pugui veure la medusa comença el torn a 30 peus seus, la medusa pot forçar-la a salvar per Constitució amb {@dc 14}. Per poder fer-ho, la medusa no pot estar {@condition incapacitat} i ha de poder veure la criatura. Si la criatura falla per més de 5, es {@condition petrificat} immediatament. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) i està {@condition retingut}. La criatura {@condition retingut} ha de repetir la salvada a l'inici del seu proper torn. Si falla, estarà {@condition petrificat}. Si supera, l'efecte es cancel·la. La petrificació continuarà fins que un efecte màgic com ara {@spell restabliment superior} la cancel·li.",
+						"Si una criatura que pugui veure la medusa comença el torn a 30 peus seus, la medusa pot forçar-la a salvar per Constitució amb {@dc 14}. Per poder fer-ho, la medusa no pot estar {@condition incapacitat} i ha de poder veure la criatura. Si la criatura falla per més de 5, es {@condition petrificat} immediatament. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) i està {@condition restrained}. La criatura {@condition restrained} ha de repetir la salvada a l'inici del seu proper torn. Si falla, estarà {@condition petrificat}. Si supera, l'efecte es cancel·la. La petrificació continuarà fins que un efecte màgic com ara {@spell restabliment superior} la cancel·li.",
 						"Una criatura no sorpresa pot desviar la mirada per evitar la salvada al principi del seu torn. Si ho fa, no veurà la medusa fins el principi del seu proper torn (on pot tornar a desviar la mirada). Si en algun moment la criatura mira a la medusa, ha de salvar immediatament.",
 						"Si la medusa es veu el reflexe a una superfície polida a 30 metres d'abast en una àrea de llum forta es veurà afectada per la seva pròpia maledicció."
 					]
@@ -938,13 +938,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany contundent. If the target is Large or smaller, it is {@condition pres} ({@dc 16} per escapar) and {@condition retingut} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple un objectiu."
+						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany contundent. If the target is Large or smaller, it is {@condition grappled} ({@dc 16} per escapar) and {@condition restrained} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple un objectiu."
 					]
 				},
 				{
 					"name": "Batre Tencacle",
 					"entries": [
-						"The neo-otyugh slams creatures {@condition pres} by it into each other or a solid surface. Each creature ha de salvar per Constitució amb {@dc 16} or take 15 ({@damage 3d6 + 5}) de dany contundent and be {@condition atordit} until the end of the neo-otyugh's next turn. Si supera, the target takes half the dany contundent i no està {@condition atordit}."
+						"The neo-otyugh slams creatures {@condition grappled} by it into each other or a solid surface. Each creature ha de salvar per Constitució amb {@dc 16} or take 15 ({@damage 3d6 + 5}) de dany contundent and be {@condition atordit} until the end of the neo-otyugh's next turn. Si supera, the target takes half the dany contundent i no està {@condition atordit}."
 					]
 				}
 			],
@@ -1695,7 +1695,7 @@
 				{
 					"name": "Llibertat de Moviments",
 					"entries": [
-						"The kraken thessal ignores terreny difícil, and magical effects can't reduce its speed or cause it to be {@condition retingut}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition pres}."
+						"The kraken thessal ignores terreny difícil, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
 					]
 				}
 			],
@@ -1709,20 +1709,20 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant mes 5 ({@damage 1d10}) de dany d'àcid. If the target is a Medium or smaller creature {@condition pres} by the kraken thessal, that creature is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition retingut}, té cobertura total contra atacs fora de the kraken thessal, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de the kraken thessal's.",
-						"If the kraken thessal takes 35 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 23} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of the kraken thessal. Si the kraken thessal mor, una criatura empassada ja no està {@condition retingut} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
+						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant mes 5 ({@damage 1d10}) de dany d'àcid. If the target is a Medium or smaller creature {@condition grappled} by the kraken thessal, that creature is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the kraken thessal, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de the kraken thessal's.",
+						"If the kraken thessal takes 35 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 23} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of the kraken thessal. Si the kraken thessal mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 12} a impactar, 20 peus d'abast, un objectiu. {@h}17 ({@damage 3d6 + 7}) de dany tallant, i l'objectiu està {@condition pres} ({@dc 16} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}. The kraken thessal té deu tentacles, i cadascun pot apresar un objectiu."
+						"{@atk mw} {@hit 12} a impactar, 20 peus d'abast, un objectiu. {@h}17 ({@damage 3d6 + 7}) de dany tallant, i l'objectiu està {@condition grappled} ({@dc 16} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}. The kraken thessal té deu tentacles, i cadascun pot apresar un objectiu."
 					]
 				},
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition pres} by the kraken thessal is thrown up to 40 feet in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
+						"One Medium or smaller object held or creature {@condition grappled} by the kraken thessal is thrown up to 40 feet in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -1890,7 +1890,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 12} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and that head of the crocodile can't bite another target."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and that head of the crocodile can't bite another target."
 					]
 				}
 			],

@@ -3129,7 +3129,7 @@
 					"name": "Vampire Weaknesses",
 					"entries": [
 						"The vampire has the following flaws:",
-						"{@i Enraged by Celestial.} If it hears words of Celestial spoken, the vampire must try to attack the source of those spoken words on its next turn. If these words come from multiple sources and from opposite directions, the vampire is {@condition retingut}. Otherwise, it moves to attack what it perceives to be the closest source.",
+						"{@i Enraged by Celestial.} If it hears words of Celestial spoken, the vampire must try to attack the source of those spoken words on its next turn. If these words come from multiple sources and from opposite directions, the vampire is {@condition restrained}. Otherwise, it moves to attack what it perceives to be the closest source.",
 						"{@i Repulsed by Perfume.} The vampire has disadvantage on melee attack rolls made against any creature wearing perfume or carrying an open container of it.",
 						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitat} in its resting place, the vampire is {@condition paralitzat} until the stake is removed.",
 						"{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. it té desavantatge quan li toca llum solar and ability checks."
@@ -3286,13 +3286,13 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}15 ({@damage 2d10 + 4}) de dany psíquic. If the target is Medium or smaller, it is {@condition pres} ({@dc 9} per escapar) iha de salvar per Intel·ligència amb {@dc 15} or be {@condition atordit} mentre duri aquesta presa."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}15 ({@damage 2d10 + 4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 9} per escapar) iha de salvar per Intel·ligència amb {@dc 15} or be {@condition atordit} mentre duri aquesta presa."
 					]
 				},
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition pres} by the ceremorph. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the ceremorph kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one {@condition incapacitat} humanoid {@condition grappled} by the ceremorph. {@h}55 ({@damage 10d10}) de dany perforant. If this damage reduces the target to 0 hit points, the ceremorph kills the target by extracting and devouring its brain."
 					]
 				},
 				{
@@ -3409,13 +3409,13 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 0} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 2d4}) de dany psíquic. If the target is Medium or smaller, it is {@condition pres} ({@dc 7} per escapar) iha de salvar per Intel·ligència amb {@dc 7} or be {@condition atordit} mentre duri aquesta presa."
+						"{@atk mw} {@hit 0} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 2d4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 7} per escapar) iha de salvar per Intel·ligència amb {@dc 7} or be {@condition atordit} mentre duri aquesta presa."
 					]
 				},
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 0} a impactar, 5 peus d'abast, one {@condition incapacitat} creature {@condition pres} by the squidling. {@h}27 ({@damage 5d10}) de dany perforant. If this damage reduces the target to 0 hit points, the squidling kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 0} a impactar, 5 peus d'abast, one {@condition incapacitat} creature {@condition grappled} by the squidling. {@h}27 ({@damage 5d10}) de dany perforant. If this damage reduces the target to 0 hit points, the squidling kills the target by extracting and devouring its brain."
 					]
 				},
 				{
@@ -5577,7 +5577,7 @@
 				{
 					"name": "Grasping Hand",
 					"entries": [
-						"The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target ha de salvar per Destresa amb {@dc 15} or be {@condition pres} ({@dc 15} per escapar). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) de dany contundent a l'inici de cada torn seu. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends."
+						"The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target ha de salvar per Destresa amb {@dc 15} or be {@condition grappled} ({@dc 15} per escapar). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) de dany contundent a l'inici de cada torn seu. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends."
 					]
 				}
 			],
@@ -7507,7 +7507,7 @@
 				{
 					"name": "Adhesive (Només en forma d'objecte)",
 					"entries": [
-						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition pres} by it ({@dc 16} per escapar). Ability checks made to escape this grapple have disadvantage."
+						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it ({@dc 16} per escapar). Ability checks made to escape this grapple have disadvantage."
 					]
 				},
 				{
@@ -7519,7 +7519,7 @@
 				{
 					"name": "Grappler",
 					"entries": [
-						"The mimic has advantage on attack rolls against any creature {@condition pres} by it."
+						"The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
 					]
 				},
 				{

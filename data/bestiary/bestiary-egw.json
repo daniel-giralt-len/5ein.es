@@ -250,7 +250,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany tallant mes 11 ({@damage 2d10}) de dany de força, i l'objectiu està {@condition pres} ({@dc 16} per escapar) if it's a creature. The nullifier has two claws, each of which can grapple one creature."
+						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany tallant mes 11 ({@damage 2d10}) de dany de força, i l'objectiu està {@condition grappled} ({@dc 16} per escapar) if it's a creature. The nullifier has two claws, each of which can grapple one creature."
 					]
 				}
 			],
@@ -1351,14 +1351,14 @@
 				{
 					"name": "Barbed Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 13} a impactar, 10 peus d'abast, una criatura. {@h}25 ({@damage 5d6 + 8}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 18} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}. The tentacles can grapple only one creature at a time."
+						"{@atk mw} {@hit 13} a impactar, 10 peus d'abast, una criatura. {@h}25 ({@damage 5d6 + 8}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 18} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}. The tentacles can grapple only one creature at a time."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 13} a impactar, 10 peus d'abast, un objectiu. {@h}30 ({@damage 5d8 + 8}) de dany perforant. If the target is a Large or smaller creature, ha de salvar per Destresa amb {@dc 18} or be swallowed by the worm. A swallowed creature is {@condition encegat} and {@condition retingut}, has total cover against attacks and other effects outside the worm, and takes 21 ({@damage 6d6}) de dany de foc at the start of each of the worm's turns.",
-						"Si the worm rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 21} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the worm. If the worm dies, a swallowed creature is no longer {@condition retingut} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
+						"{@atk mw} {@hit 13} a impactar, 10 peus d'abast, un objectiu. {@h}30 ({@damage 5d8 + 8}) de dany perforant. If the target is a Large or smaller creature, ha de salvar per Destresa amb {@dc 18} or be swallowed by the worm. A swallowed creature is {@condition encegat} and {@condition restrained}, has total cover against attacks and other effects outside the worm, and takes 21 ({@damage 6d6}) de dany de foc at the start of each of the worm's turns.",
+						"Si the worm rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 21} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the worm. If the worm dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -1633,7 +1633,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 15} a impactar, 10 peus d'abast, un objectiu. {@h}22 ({@damage 3d8 + 9}) de dany perforant mes 10 ({@damage 3d6}) de dany de fred. If the target is a Large or smaller creature, ha de salvar per Destresa amb {@dc 20} or be swallowed by the worm. A swallowed creature is {@condition encegat} and {@condition retingut}, has total cover against attacks and other effects outside the worm, and takes 10 ({@damage 3d6}) de dany d'àcid and 10 ({@damage 3d6}) de dany de fred at the start of each of the worm's turns.",
+						"{@atk mw} {@hit 15} a impactar, 10 peus d'abast, un objectiu. {@h}22 ({@damage 3d8 + 9}) de dany perforant mes 10 ({@damage 3d6}) de dany de fred. If the target is a Large or smaller creature, ha de salvar per Destresa amb {@dc 20} or be swallowed by the worm. A swallowed creature is {@condition encegat} and {@condition restrained}, has total cover against attacks and other effects outside the worm, and takes 10 ({@damage 3d6}) de dany d'àcid and 10 ({@damage 3d6}) de dany de fred at the start of each of the worm's turns.",
 						"Si the worm rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 20} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the worm."
 					]
 				},
@@ -1899,7 +1899,7 @@
 				{
 					"name": "Snatch",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}13 ({@damage 2d6 + 6}) de dany tallant mes 7 ({@damage 2d6}) de dany necròtic, i l'objectiu està {@condition pres} ({@dc 17} per escapar). While {@condition pres} in this way, the target is {@condition retingut}."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}13 ({@damage 2d6 + 6}) de dany tallant mes 7 ({@damage 2d6}) de dany necròtic, i l'objectiu està {@condition grappled} ({@dc 17} per escapar). While {@condition grappled} in this way, the target is {@condition restrained}."
 					]
 				},
 				{
@@ -2098,7 +2098,7 @@
 					"name": "Massive Frame",
 					"entries": [
 						"The tortoise can carry up to 20,000 pounds of weight atop its shell, but moves at half speed if the weight exceeds 10,000 pounds. Medium or smaller creatures can move underneath the tortoise while it's not {@condition enderrocat}.",
-						"Any creature under the tortoise when it falls {@condition enderrocat} is {@condition pres} ({@dc 18} per escapar). Until the grapple ends, the creature is {@condition enderrocat} and {@condition retingut}."
+						"Any creature under the tortoise when it falls {@condition enderrocat} is {@condition grappled} ({@dc 18} per escapar). Until the grapple ends, the creature is {@condition enderrocat} and {@condition restrained}."
 					]
 				}
 			],
@@ -3276,7 +3276,7 @@
 				{
 					"name": "As Water",
 					"entries": [
-						"The sea fury transforms into a wave of foaming seawater, along with whatever it is wearing or carrying, and moves up to its speed sense provocar atacs d'oportunitat. While in this form, it can't be {@condition pres} or {@condition retingut}. It reverts to its true form at the end of this movement."
+						"The sea fury transforms into a wave of foaming seawater, along with whatever it is wearing or carrying, and moves up to its speed sense provocar atacs d'oportunitat. While in this form, it can't be {@condition grappled} or {@condition restrained}. It reverts to its true form at the end of this movement."
 					]
 				},
 				{
@@ -3685,7 +3685,7 @@
 				{
 					"name": "Petrifying Secretions",
 					"entries": [
-						"A creature ha de salvar per Constitució amb {@dc 13} if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition pres} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone i està {@condition retingut}, and it must repeat the saving throw at the end of its next turn. Si supera, the effect ends. On a failure, the creature is {@condition petrificat}."
+						"A creature ha de salvar per Constitució amb {@dc 13} if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition grappled} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone i està {@condition restrained}, and it must repeat the saving throw at the end of its next turn. Si supera, the effect ends. On a failure, the creature is {@condition petrificat}."
 					]
 				}
 			],
@@ -3705,7 +3705,7 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 15 peus d'abast, un objectiu. {@h}14 ({@damage 2d10 + 3}) de dany contundent. If the target is a Large or smaller creature, it is {@condition pres} ({@dc 12} per escapar)."
+						"{@atk mw} {@hit 6} a impactar, 15 peus d'abast, un objectiu. {@h}14 ({@damage 2d10 + 3}) de dany contundent. If the target is a Large or smaller creature, it is {@condition grappled} ({@dc 12} per escapar)."
 					]
 				}
 			],
@@ -3848,7 +3848,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 13} a impactar, 5 peus d'abast, una criatura. {@h}21 ({@damage 2d12 + 8}) de dany perforant, i l'objectiu està {@condition pres} ({@dc 21} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition retingut}, and the udaak can't bite another target."
+						"{@atk mw} {@hit 13} a impactar, 5 peus d'abast, una criatura. {@h}21 ({@damage 2d12 + 8}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 21} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the udaak can't bite another target."
 					]
 				},
 				{
@@ -3860,8 +3860,8 @@
 				{
 					"name": "Empassar",
 					"entries": [
-						"The udaak makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. A swallowed creature is {@condition encegat} and {@condition retingut}, it has total cover against attacks and other effects outside the udaak, and it takes 21 ({@damage 6d6}) de dany d'àcid at the start of each of the udaak's turns.",
-						"Si the udaak rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 21} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the udaak. If the udaak dies, a swallowed creature is no longer {@condition retingut} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
+						"The udaak makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. A swallowed creature is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the udaak, and it takes 21 ({@damage 6d6}) de dany d'àcid at the start of each of the udaak's turns.",
+						"Si the udaak rep 30 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 21} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the udaak. If the udaak dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],

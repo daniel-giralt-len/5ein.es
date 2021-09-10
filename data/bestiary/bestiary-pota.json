@@ -1689,7 +1689,7 @@
 					"name": "Shapechanger (2/Dia)",
 					"entries": [
 						"The fathomer can use its action to polymorph into a Medium serpent composed of water, or back into its true form. Anything the fathomer is wearing or carrying is subsumed into the serpent form during the change, inaccessible until the fathomer returns to its true form. The fathomer reverts to its true form after 4 hours, unless it can expend another use of this trait. If the fathomer is knocked {@condition inconscient} or dies, it also reverts to its true form.",
-						"While in serpent form, the fathomer gains a swimming speed of 40 feet, the ability to breathe underwater, immunity to poison damage, as well as resistance to fire damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. It also has immunity to the following conditions: {@condition exhaust}, {@condition pres}, {@condition paralitzat}, {@condition emmetzinat}, {@condition retingut}, {@condition enderrocat}, {@condition inconscient}. The serpent form can enter a hostile creature's space and stop there. In addition, if water can pass through a space, the serpent can do so without squeezing."
+						"While in serpent form, the fathomer gains a swimming speed of 40 feet, the ability to breathe underwater, immunity to poison damage, as well as resistance to fire damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. It also has immunity to the following conditions: {@condition exhaust}, {@condition grappled}, {@condition paralitzat}, {@condition emmetzinat}, {@condition restrained}, {@condition enderrocat}, {@condition inconscient}. The serpent form can enter a hostile creature's space and stop there. In addition, if water can pass through a space, the serpent can do so without squeezing."
 					]
 				},
 				{
@@ -1703,7 +1703,7 @@
 				{
 					"name": "Constrict (Només en forma de Serpent)",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany contundent. If the target is Medium or smaller, it is {@condition pres} ({@dc 12} per escapar). Durant aquesta presa, l'objectiu també està {@condition retingut}, and the fathomer can't constrict another target."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany contundent. If the target is Medium or smaller, it is {@condition grappled} ({@dc 12} per escapar). Durant aquesta presa, l'objectiu també està {@condition restrained}, and the fathomer can't constrict another target."
 					]
 				},
 				{
@@ -2185,7 +2185,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 13} per escapar). Until the grapple ends, Gar can't attack other creatures with his claw."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 13} per escapar). Until the grapple ends, Gar can't attack other creatures with his claw."
 					]
 				},
 				{
@@ -2338,7 +2338,7 @@
 				{
 					"name": "Garrote",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one Medium or Small creature against which Ghald has advantage on the attack roll. {@h}9 ({@damage 2d4 + 4}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 15} per escapar). Until the grapple ends, the target can't breathe, and Ghald has advantage on attack rolls against it."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one Medium or Small creature against which Ghald has advantage on the attack roll. {@h}9 ({@damage 2d4 + 4}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 15} per escapar). Until the grapple ends, the target can't breathe, and Ghald has advantage on attack rolls against it."
 					]
 				}
 			],
@@ -3262,7 +3262,7 @@
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"When a creature that can see Marlos's eyes starts its turn within 30 feet of him, Marlos can force it to make a {@dc 14} Constitució saving throw if Marlos isn't {@condition incapacitat} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrificat}. Si falla per menys es comença a tornar de pedra i està {@condition retingut}. The {@condition retingut} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrificat} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell restabliment superior} spell or other magic.",
+						"When a creature that can see Marlos's eyes starts its turn within 30 feet of him, Marlos can force it to make a {@dc 14} Constitució saving throw if Marlos isn't {@condition incapacitat} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrificat}. Si falla per menys es comença a tornar de pedra i està {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrificat} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell restabliment superior} spell or other magic.",
 						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Marlos fins a l'inici del seu següent torn, when it can decide to avert its eyes again. If the creature looks at Marlos in the meantime, it must immediately make the save.",
 						"If Marlos sees himself reflected on a polished surface within 30 feet of him and in an area of bright light, Marlos is, due to his curse, affected by his own gaze."
 					]
@@ -3492,7 +3492,7 @@
 							"items": {
 								"name": "Tendril",
 								"entries": [
-									"{@atk mw} {@hit 7} a impactar, 50 peus d'abast, una criatura. {@h}4 ({@damage 1d8}) de dany de foc i l'objectiu està {@condition pres} (CD 15 per escapar). Durant aquesta presa, l'objectiu també està {@condition retingut} and has disadvantage on Força checks and Força saving throws, and the roper can't use the same tendril on another target. A creature takes 4 ({@damage 1d8}) de dany de foc each time it ends its turn grappled by the roper."
+									"{@atk mw} {@hit 7} a impactar, 50 peus d'abast, una criatura. {@h}4 ({@damage 1d8}) de dany de foc i l'objectiu està {@condition grappled} (CD 15 per escapar). Durant aquesta presa, l'objectiu també està {@condition restrained} and has disadvantage on Força checks and Força saving throws, and the roper can't use the same tendril on another target. A creature takes 4 ({@damage 1d8}) de dany de foc each time it ends its turn grappled by the roper."
 								]
 							}
 						},
@@ -3886,7 +3886,7 @@
 				{
 					"name": "Colpeig",
 					"entries": [
-						"{@atk mw} {@hit 11} a impactar, 10 peus d'abast, un objectiu. {@h}21 ({@damage 3d10 + 5}) de dany contundent, i l'objectiu està {@condition pres} ({@dc 19} per escapar). Olhydra can grapple up to four targets. When Olhydra moves, all creatures she is grappling move with her."
+						"{@atk mw} {@hit 11} a impactar, 10 peus d'abast, un objectiu. {@h}21 ({@damage 3d10 + 5}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 19} per escapar). Olhydra can grapple up to four targets. When Olhydra moves, all creatures she is grappling move with her."
 					]
 				},
 				{
@@ -3918,7 +3918,7 @@
 				{
 					"name": "Water to Acid (Costa 3 Accions)",
 					"entries": [
-						"Olhydra transforms her watery body into acid. This effect lasts until Olhydra's next turn. Any creature that comes into contact with Olhydra or hits her with a melee attack while standing within 5 feet of her takes 11 ({@damage 2d10}) de dany d'àcid. Any creature {@condition pres} by Olhydra takes 22 ({@damage 4d10}) de dany d'àcid at the start of its turn."
+						"Olhydra transforms her watery body into acid. This effect lasts until Olhydra's next turn. Any creature that comes into contact with Olhydra or hits her with a melee attack while standing within 5 feet of her takes 11 ({@damage 2d10}) de dany d'àcid. Any creature {@condition grappled} by Olhydra takes 22 ({@damage 4d10}) de dany d'àcid at the start of its turn."
 					]
 				}
 			],
@@ -4071,7 +4071,7 @@
 				{
 					"name": "Eye of Frost",
 					"entries": [
-						"The one-eyed shiver casts {@spell ray of frost} from its missing eye. If it hits, the target is also {@condition retingut}. A target {@condition retingut} in this way can end the condition by using an action, succeeding on a {@dc 13} Força check."
+						"The one-eyed shiver casts {@spell ray of frost} from its missing eye. If it hits, the target is also {@condition restrained}. A target {@condition restrained} in this way can end the condition by using an action, succeeding on a {@dc 13} Força check."
 					]
 				}
 			],
@@ -4319,7 +4319,7 @@
 				{
 					"name": "Searing Armor",
 					"entries": [
-						"The razerblast's armor is hot. Any creature grappling the razerblast or {@condition pres} by it takes 5 ({@damage 1d10}) de dany de foc at the end of that creature's turn."
+						"The razerblast's armor is hot. Any creature grappling the razerblast or {@condition grappled} by it takes 5 ({@damage 1d10}) de dany de foc at the end of that creature's turn."
 					]
 				},
 				{

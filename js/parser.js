@@ -1087,13 +1087,13 @@ Parser.spRangeToFull._renderPoint = function (range) {
 };
 Parser.spRangeToFull._renderArea = function (range) {
 	const size = range.distance;
-	return `Llançador (${size.amount}-${Parser.getSingletonUnit(size.type)}${Parser.spRangeToFull._getAreaStyleString(range)}${range.type === RNG_CYLINDER ? `${size.amountSecondary != null && size.typeSecondary != null ? `, ${size.amountSecondary}-${Parser.getSingletonUnit(size.typeSecondary)}-high` : ""} cylinder` : ""})`;
+	return `Llançador (${Parser.spRangeToFull._getAreaStyleString(range)}${range.type === RNG_CYLINDER ? `${size.amountSecondary != null && size.typeSecondary != null ? `, ${size.amountSecondary}-${Parser.getSingletonUnit(size.typeSecondary)} d'alt` : ""} cilindre` : ""} de ${size.amount} ${Parser.getSingletonUnit(size.type)})`;
 };
 Parser.spRangeToFull._getAreaStyleString = function (range) {
 	switch (range.type) {
-		case RNG_SPHERE: return " radius";
-		case RNG_HEMISPHERE: return `-radius ${range.type}`;
-		case RNG_CYLINDER: return "-radius";
+		case RNG_SPHERE: return "radi";
+		case RNG_HEMISPHERE: return `${range.type} de radi`;
+		case RNG_CYLINDER: return "radi";
 		default: return ` ${range.type}`;
 	}
 };
@@ -1101,9 +1101,9 @@ Parser.spRangeToFull._getAreaStyleString = function (range) {
 Parser.getSingletonUnit = function (unit, isShort) {
 	switch (unit) {
 		case UNT_FEET:
-			return isShort ? "ft." : "foot";
+			return isShort ? "p." : "peus";
 		case UNT_MILES:
-			return isShort ? "mi." : "mile";
+			return isShort ? "mi." : "milles";
 		default: {
 			const fromBrew = MiscUtil.get(BrewUtil.homebrewMeta, "spellDistanceUnits", unit, "singular");
 			if (fromBrew) return fromBrew;

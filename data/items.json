@@ -1498,7 +1498,7 @@
 						[
 							"5",
 							"Each extended claw makes the following atac armat melé: {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h} 7 ({@damage 2d6}) de dany contundent.",
-							"Each extended claw makes the following atac armat melé: {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h} The target is {@condition pres} ({@dc 15} per escapar)."
+							"Each extended claw makes the following atac armat melé: {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h} The target is {@condition grappled} ({@dc 15} per escapar)."
 						],
 						[
 							"6",
@@ -3411,7 +3411,7 @@
 					"items": [
 						"You have advantage on saving throws against poison, and you have resistance against poison damage.",
 						"You have {@sense visió de foscor} out to a range of 60 feet.",
-						"You can speak, read, and write Dwarvish."
+						"Pots parlar, llegir, i escriure Dwarvish."
 					]
 				}
 			],
@@ -4034,7 +4034,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Abyssal.",
+								"Pots parlar, llegir, i escriure Abyssal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.",
 								"Whenever you kill a humanoid with an attack using the Blade of Broken Mirrors, the blade remembers the creature's appearance. While holding the dagger, pots, com a acció, change your form to match any humanoid the blade remembers. Your statistics, other than your size, don't change. Any equipment you are wearing or carrying isn't transformed. You can revert to your true appearance as an action. You revert to your true appearance automatically when you die. When the Blade of Broken Mirrors attunes to a new wielder, the appearances of humanoids it has killed are wiped from its memory."
 							]
@@ -6506,7 +6506,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function fins el final del teu proper torn. This property is suppressed while you are {@condition incapacitat}, {@condition retingut}, or otherwise unable to move."
+				"While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function fins el final del teu proper torn. This property is suppressed while you are {@condition incapacitat}, {@condition restrained}, or otherwise unable to move."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -6783,7 +6783,7 @@
 					"type": "entries",
 					"name": "Grasping Tendrils",
 					"entries": [
-						"While the tattoo is on your skin, you can, com a acció, cause the tattoo to extrude into inky tendrils, which reach for una criatura que puguis veure a 15 peus d'abast. The creature must succeed on a DC 14 Força saving throw or rep {@damage 3d6} de dany de força and be {@condition pres} by you. Com a acció, the creature can escape the grapple by succeeding on a DC 14 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check. The grapple also ends if you halt it (no requereix acció), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature."
+						"While the tattoo is on your skin, you can, com a acció, cause the tattoo to extrude into inky tendrils, which reach for una criatura que puguis veure a 15 peus d'abast. The creature must succeed on a DC 14 Força saving throw or rep {@damage 3d6} de dany de força and be {@condition grappled} by you. Com a acció, the creature can escape the grapple by succeeding on a DC 14 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check. The grapple also ends if you halt it (no requereix acció), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature."
 					]
 				}
 			]
@@ -6797,7 +6797,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo has long intertwining designs. While the tattoo is on your skin, you can, com a acció, cause the tattoo to extrude into inky tendrils, which reach for una criatura que puguis veure a 15 peus d'abast. The creature must succeed on a DC 14 Força saving throw or rep {@damage 3d6} de dany de força and be {@condition pres} by you. Com a acció, the creature can escape the grapple by succeeding on a DC 14 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check. The grapple also ends if you halt it (no requereix acció), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
+				"This tattoo has long intertwining designs. While the tattoo is on your skin, you can, com a acció, cause the tattoo to extrude into inky tendrils, which reach for una criatura que puguis veure a 15 peus d'abast. The creature must succeed on a DC 14 Força saving throw or rep {@damage 3d6} de dany de força and be {@condition grappled} by you. Com a acció, the creature can escape the grapple by succeeding on a DC 14 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check. The grapple also ends if you halt it (no requereix acció), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
 				{
 					"type": "entries",
 					"name": "Tattoo Attunement",
@@ -6941,7 +6941,7 @@
 				"A concertina is a less charming kind of accordion.",
 				"In addition to knocking out a killer polka, a creature playing the concertina can use an action to cause an area of mist or water up to 30 feet in diameter and 6 inches deep to freeze solid.",
 				"Once used, this feature of the concertina can't be used again until the next dawn.",
-				"Any creatures touching the floor must succeed on a DC 20 Destresa saving throw or be restrained by the ice. Com a acció, a {@condition retingut} creature can attempt to free itself or another creature within its reach from the ice, doing so with a successful DC 20 Força ({@skill Atletisme}) check. A character freed from the ice is no longer restrained by it. The ice melts in an hour."
+				"Any creatures touching the floor must succeed on a DC 20 Destresa saving throw or be restrained by the ice. Com a acció, a {@condition restrained} creature can attempt to free itself or another creature within its reach from the ice, doing so with a successful DC 20 Força ({@skill Atletisme}) check. A character freed from the ice is no longer restrained by it. The ice melts in an hour."
 			]
 		},
 		{
@@ -10538,7 +10538,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 4,
 			"entries": [
-				"To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech.",
+				"To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, pots parlar, llegir, i escriure Deep Speech.",
 				{
 					"type": "entries",
 					"name": "Spells",
@@ -12618,7 +12618,7 @@
 							"type": "list",
 							"items": [
 								"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-								"You can't be {@condition pres} or {@condition retingut}.",
+								"You can't be {@condition grappled} or {@condition restrained}.",
 								"You can move through creatures and solid objects as if they were terreny difícil. If you end your turn in a solid object, you rep {@damage 1d10} de dany de força. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you rep {@damage 1d10} de dany de força for every 5 feet traveled."
 							]
 						}
@@ -12643,7 +12643,7 @@
 					"type": "list",
 					"items": [
 						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-						"You can't be {@condition pres} or {@condition retingut}.",
+						"You can't be {@condition grappled} or {@condition restrained}.",
 						"You can move through creatures and solid objects as if they were terreny difícil. If you end your turn in a solid object, you rep {@damage 1d10} de dany de força. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you rep {@damage 1d10} de dany de força for every 5 feet traveled."
 					]
 				},
@@ -13404,7 +13404,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Abyssal and Infernal.",
+								"Pots parlar, llegir, i escriure Abyssal and Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra {@damage 2d6} de dany contundent to the target. If you do, you rep {@damage 1d6} de dany psíquic. The warhammer deals double damage to objects and structures.",
 								"While holding this weapon, you have advantage on Saviesa ({@skill Perspicàcia}) checks made to discern a lie spoken in a language you understand."
 							]
@@ -16502,8 +16502,8 @@
 			"weight": 1,
 			"entries": [
 				"This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. Pots, com a acció, speak the paraula màgica and throw the sphere at a Huge or smaller creature que puguis veure a 60 peus d'abast. As the sphere moves through the air, it opens into a tangle of metal bands.",
-				"Make a ranged attack roll with an attack bonus equal to your Destresa modifier plus your proficiency bonus. Si impacta, the target is {@condition retingut} until you take a bonus action to speak the paraula màgica again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
-				"A creature, including the one {@condition retingut}, can use an action to make a DC 20 Força check to break the iron bands. On a success, the item is destroyed, and the {@condition retingut} creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.",
+				"Make a ranged attack roll with an attack bonus equal to your Destresa modifier plus your proficiency bonus. Si impacta, the target is {@condition restrained} until you take a bonus action to speak the paraula màgica again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
+				"A creature, including the one {@condition restrained}, can use an action to make a DC 20 Força check to break the iron bands. On a success, the item is destroyed, and the {@condition restrained} creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.",
 				"Once the bands are used, they can't be used again until the next dawn."
 			],
 			"lootTables": [
@@ -17607,7 +17607,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Abyssal and Draconic.",
+								"Pots parlar, llegir, i escriure Abyssal and Draconic.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 								"You can attempt to poison any creature that is hit by the whip. The creature must succeed on a DC 13 Constitució saving throw or suffer the effect of one of the following poisons of your choice; once a poison other than Serpent Venom has been used, that poison can't be used again until the next dawn:",
 								{
@@ -17655,7 +17655,7 @@
 							"items": [
 								"The weapon's bonus to attack and damage rolls increases to +3.",
 								"The saving throw DC for the weapon's poisons increases to 17.",
-								"The weapon gains a new poison option called Cocatriu Tears. A creature that fails the saving throw against this poison begins to turn to stone i està {@condition retingut}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrificat} for 24 hours."
+								"The weapon gains a new poison option called Cocatriu Tears. A creature that fails the saving throw against this poison begins to turn to stone i està {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrificat} for 24 hours."
 							]
 						}
 					]
@@ -18651,7 +18651,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Infernal.",
+								"Pots parlar, llegir, i escriure Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 								"While holding the mace, pots, com a acció bonus, speak its Infernal paraula màgica, causing flames to erupt from the head. These flames shed llum forta en un radi de 40 peus i llum tènue uns 40 peus adicionals. While the mace is ablaze, it deals an extra {@damage 1d6} de dany de foc to any target it hits. The flames last until you use a bonus action to speak the paraula màgica again or until you are no longer holding the mace.",
 								"While holding the mace, pots, com a acció, summon an {@creature imp}. Any devil you summon with this mace és amistós vers a tu i als teus aliats durant la duració del conjur. The imp obeys any verbal commands that you issue to it and returns to els Nou Inferns 10 minutes after you summoned it. This property can't be used again until the next dawn."
@@ -20548,7 +20548,7 @@
 			"bonusAc": "+2",
 			"stealth": true,
 			"entries": [
-				"You gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the {@condition pres} condition on yourself."
+				"You gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the {@condition grappled} condition on yourself."
 			]
 		},
 		{
@@ -24779,7 +24779,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
-				"While you wear this ring, terreny difícil doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {@condition paralitzat} or {@condition retingut}."
+				"While you wear this ring, terreny difícil doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {@condition paralitzat} or {@condition restrained}."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -25859,8 +25859,8 @@
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its paraula màgica, the other end darts forward to entangle una criatura que puguis veure a 20 peus d'abast. The target must succeed on a DC 15 Destresa saving throw or become {@condition retingut}.",
-				"You can release the creature by using a bonus action to speak a second paraula màgica. A target {@condition retingut} by the rope can use an action to make a DC 15 Força or Destresa check (target's choice). On a success, the creature is no longer {@condition retingut} by the rope.",
+				"This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its paraula màgica, the other end darts forward to entangle una criatura que puguis veure a 20 peus d'abast. The target must succeed on a DC 15 Destresa saving throw or become {@condition restrained}.",
+				"You can release the creature by using a bonus action to speak a second paraula màgica. A target {@condition restrained} by the rope can use an action to make a DC 15 Força or Destresa check (target's choice). On a success, the creature is no longer {@condition restrained} by the rope.",
 				"The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope es queda a 0 punts de cop, it is destroyed."
 			],
 			"lootTables": [
@@ -26004,7 +26004,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Abyssal and Orc.",
+								"Pots parlar, llegir, i escriure Abyssal and Orc.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d8} de dany perforant to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.",
 								"As a reaction when you are hit by a melee attack, you can make a melee attack with Ruin's Wake with advantage against the attacker. You can't use this property again until you finish a short or long rest."
 							]
@@ -27315,7 +27315,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Abyssal, Elvish, and Undercommon.",
+								"Pots parlar, llegir, i escriure Abyssal, Elvish, and Undercommon.",
 								"You have {@sense visió de foscor} out to a range of 60 feet. If you already have {@sense visió de foscor}, being attuned to the rapier increases the range of your {@sense visió de foscor} by 60 feet.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 								"Pots, com a acció, cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitució saving throw or become {@condition emmetzinat} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition inconscient} while {@condition emmetzinat} in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.",
@@ -30653,7 +30653,7 @@
 								{
 									"type": "item",
 									"name": "Angelic Language",
-									"entry": "You can speak, read, and write Celestial."
+									"entry": "Pots parlar, llegir, i escriure Celestial."
 								},
 								{
 									"type": "item",
@@ -30988,7 +30988,7 @@
 			"type": "OTH",
 			"rarity": "none",
 			"entries": [
-				"A tangler grenade is an alchemical, nonmagical item with an ovoid resin shell that shatters on impact. An as action, a creature can throw a tangler grenade at a point up to 60 feet away. Each creature within 10 feet of a shattered tangler grenade must succeed on a DC 15 Destresa saving throw or be {@condition retingut} by sticky white webs. Com a acció, a creature can try to free itself or another creature within its reach from the webs, doing so with a successful DC 20 Força ({@skill Atletisme}) check. A gallon of alcohol dissolves the webs produced by a single tangler grenade. Otherwise, the webs dissolve on their own after 1 hour, freeing any creatures {@condition retingut} by them."
+				"A tangler grenade is an alchemical, nonmagical item with an ovoid resin shell that shatters on impact. An as action, a creature can throw a tangler grenade at a point up to 60 feet away. Each creature within 10 feet of a shattered tangler grenade must succeed on a DC 15 Destresa saving throw or be {@condition restrained} by sticky white webs. Com a acció, a creature can try to free itself or another creature within its reach from the webs, doing so with a successful DC 20 Força ({@skill Atletisme}) check. A gallon of alcohol dissolves the webs produced by a single tangler grenade. Otherwise, the webs dissolve on their own after 1 hour, freeing any creatures {@condition restrained} by them."
 			]
 		},
 		{
@@ -31368,7 +31368,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Infernal.",
+								"Pots parlar, llegir, i escriure Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 								"While holding the morningstar, pots, com a acció, cast one of the following spells from it (save DC 13): {@spell fascinar persona}, {@spell dominar humanoide}, or {@spell temor}. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.",
 								"While holding the morningstar, you have advantage on Carisma ({@skill Intimidació}) checks."
@@ -34541,7 +34541,7 @@
 					"name": "Assisted Escape",
 					"type": "entries",
 					"entries": [
-						"While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being {@condition paralitzat} or {@condition retingut}, or you can expend 1 charge and gain advantage on any check you make to escape a grapple."
+						"While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being {@condition paralitzat} or {@condition restrained}, or you can expend 1 charge and gain advantage on any check you make to escape a grapple."
 					]
 				}
 			],
@@ -34980,8 +34980,8 @@
 			"recharge": "midnight",
 			"charges": 7,
 			"entries": [
-				"Crafted by the {@creature drow}, this slim black wand has 7 charges. While holding it, pots, com a acció, expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intel·ligència modifier, if you don't have a spellcasting modifier) plus your proficiency bonus. Si impacta, the glob expands and dries on the target, which is {@condition retingut} for 1 hour. After that time, the viscous material cracks and falls away.",
-				"Applying a pint or more of alcohol to the {@condition retingut} creature dissolves the glob instantly, as does the application of {@item oil of eterietat} or {@item universal solvent}. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own.",
+				"Crafted by the {@creature drow}, this slim black wand has 7 charges. While holding it, pots, com a acció, expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intel·ligència modifier, if you don't have a spellcasting modifier) plus your proficiency bonus. Si impacta, the glob expands and dries on the target, which is {@condition restrained} for 1 hour. After that time, the viscous material cracks and falls away.",
+				"Applying a pint or more of alcohol to the {@condition restrained} creature dissolves the glob instantly, as does the application of {@item oil of eterietat} or {@item universal solvent}. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at midnight. If you expend the wands last charge, roll a {@dice d20}. On a 1, the wand melts into harmless slime and is destroyed.",
 				"A wand of viscous globs is destroyed if exposed to sunlight for 1 hour without interruption."
 			]
@@ -35155,7 +35155,7 @@
 						],
 						[
 							"98-00",
-							"If you targeted a creature, it must make a DC 15 Constitució saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly {@condition petrificat}. On any other failed save, the target is {@condition retingut} and begins to turn to stone. While {@condition retingut} in this way, the target must repeat the saving throw at the end of its next turn, becoming {@condition petrificat} on a failure or ending the effect on a success. The petrification lasts until the target is freed by the {@spell restabliment superior} spell or similar magic."
+							"If you targeted a creature, it must make a DC 15 Constitució saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly {@condition petrificat}. On any other failed save, the target is {@condition restrained} and begins to turn to stone. While {@condition restrained} in this way, the target must repeat the saving throw at the end of its next turn, becoming {@condition petrificat} on a failure or ending the effect on a success. The petrification lasts until the target is freed by the {@spell restabliment superior} spell or similar magic."
 						]
 					]
 				}
@@ -35861,7 +35861,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You can speak, read, and write Draconic and Infernal.",
+								"Pots parlar, llegir, i escriure Draconic and Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 								"As a bonus action while holding the war pick, you can cause the following effect: each creature of your choice that is within 30 feet of you and is aware of you must succeed on a DC 13 Saviesa saving throw or become {@condition acovardit} of you durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to your Presència Aterradora for the next 24 hours. This property can't be used again until the next dawn.",
 								"While holding the war pick, pots, com a acció, exhale destructive energy. Pick a damage type from the Will of the Talon Alèns d'Atac table. Tota criatura dins de l'àrea of the exhalation must make a DC 13 saving throw, the type of which is specified in the table. Qui falli, rep {@damage 3d6} damage; qui superi, en rep la meitat."
