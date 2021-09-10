@@ -461,7 +461,7 @@
 					},
 					"name": "Call to Inaction",
 					"entries": [
-						"If you spend 1 minute conversing with a creature, you can attempt to seed it with overwhelming ennui. At the end of the minute, pots, com a acció, force the creature salvar per Saviesa. The save automatically succeeds if the target is immune to being {@condition charmed}. Si falla, it sits i està {@condition incapacitated} until your concentration ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage. Si supera, the creature is unaffected and has no inkling of your attempt to bend its will."
+						"If you spend 1 minute conversing with a creature, you can attempt to seed it with overwhelming ennui. At the end of the minute, pots, com a acció, force the creature salvar per Saviesa. The save automatically succeeds if the target is immune to being {@condition fascinat}. Si falla, it sits i està {@condition incapacitated} until your concentration ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage. Si supera, the creature is unaffected and has no inkling of your attempt to bend its will."
 					]
 				},
 				{
@@ -573,7 +573,7 @@
 					},
 					"name": "Primal Fury",
 					"entries": [
-						"Com a acció, choose una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Carisma. Si falla, rep {@scaledamage 1d6|1-7|1d6|psi} de dany psíquic per psi point spent on this ability and immediately use its reaction to move its speed in a straight line toward its nearest enemy. The save automatically succeeds if the target is immune to being {@condition charmed}."
+						"Com a acció, choose una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Carisma. Si falla, rep {@scaledamage 1d6|1-7|1d6|psi} de dany psíquic per psi point spent on this ability and immediately use its reaction to move its speed in a straight line toward its nearest enemy. The save automatically succeeds if the target is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -587,7 +587,7 @@
 					},
 					"name": "Fighting Words",
 					"entries": [
-						"If you spend 1 minute conversing with a creature, you can attempt to leave a simmering violence in its mind. At the end of the minute, pots, com a acció, force the creature salvar per Saviesa to resist feeling violent urges against one creature you describe to it or name. The save automatically succeeds if the target is immune to being {@condition charmed}. Si falla, the target attacks the chosen creature if it sees that creature before your concentration ends, using weapons or spells against a creature it was already hostile toward or unarmed strikes against an ally or a creature it was neutral toward. Once the fight starts, it continues to attack for 5 rounds before this effect ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage from any creature other than the one it has been incited against. Si supera, the creature is unaffected and has no inkling of your attempt to bend its will."
+						"If you spend 1 minute conversing with a creature, you can attempt to leave a simmering violence in its mind. At the end of the minute, pots, com a acció, force the creature salvar per Saviesa to resist feeling violent urges against one creature you describe to it or name. The save automatically succeeds if the target is immune to being {@condition fascinat}. Si falla, the target attacks the chosen creature if it sees that creature before your concentration ends, using weapons or spells against a creature it was already hostile toward or unarmed strikes against an ally or a creature it was neutral toward. Once the fight starts, it continues to attack for 5 rounds before this effect ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage from any creature other than the one it has been incited against. Si supera, the creature is unaffected and has no inkling of your attempt to bend its will."
 					]
 				},
 				{
@@ -597,7 +597,7 @@
 					},
 					"name": "Mindless Courage",
 					"entries": [
-						"You cause a creature's bloodlust to overcome its sense of preservation. Com a acció bonus, choose una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Saviesa or, until the end of your next turn, it can't willingly move unless its movement brings it closer to its nearest enemy that it can see. The save automatically succeeds if the target is immune to being {@condition charmed}."
+						"You cause a creature's bloodlust to overcome its sense of preservation. Com a acció bonus, choose una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Saviesa or, until the end of your next turn, it can't willingly move unless its movement brings it closer to its nearest enemy that it can see. The save automatically succeeds if the target is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -611,7 +611,7 @@
 					},
 					"name": "Punishing Fury",
 					"entries": [
-						"You cause a creature's rage to grow so hot that it attacks without heeding its own safety. Com a acció bonus, choose una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Saviesa or, until your concentration ends, any creature within 5 feet of it can use a reaction to make a melee attack against it whenever the target makes a melee attack. The save automatically succeeds if the target is immune to being {@condition charmed}."
+						"You cause a creature's rage to grow so hot that it attacks without heeding its own safety. Com a acció bonus, choose una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Saviesa or, until your concentration ends, any creature within 5 feet of it can use a reaction to make a melee attack against it whenever the target makes a melee attack. The save automatically succeeds if the target is immune to being {@condition fascinat}."
 					]
 				}
 			]
@@ -860,8 +860,8 @@
 					},
 					"name": "Charming Presence",
 					"entries": [
-						"Com a acció, you exert an aura of sympathetic power. Roll {@dice 2d8} per psi point spent on this ability; the total is how many hit points worth of creatures this option can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximums, ignoring {@condition incapacitated} creatures, creatures immune to being {@condition charmed}, and creatures engaged in combat.",
-						"Starting with the creature that has the lowest hit point maximum, each creature affected by this option is {@condition charmed} by you for 10 minutes, regarding you as a friendly acquaintance. Subtract each creature's hit point maximum from the total before moving on to the next creature. A creature's hit point maximum must be equal to or less than the remaining total for that creature to be affected"
+						"Com a acció, you exert an aura of sympathetic power. Roll {@dice 2d8} per psi point spent on this ability; the total is how many hit points worth of creatures this option can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximums, ignoring {@condition incapacitated} creatures, creatures immune to being {@condition fascinat}, and creatures engaged in combat.",
+						"Starting with the creature that has the lowest hit point maximum, each creature affected by this option is {@condition fascinat} by you for 10 minutes, regarding you as a friendly acquaintance. Subtract each creature's hit point maximum from the total before moving on to the next creature. A creature's hit point maximum must be equal to or less than the remaining total for that creature to be affected"
 					]
 				},
 				{
@@ -889,7 +889,7 @@
 					},
 					"name": "Invoke Awe",
 					"entries": [
-						"Com a acció, you exert an aura that inspires awe in others. Choose up to 5 creatures que puguis veure a 60 peus d'abast. Each target must succeed on an Intel·ligència saving throw or be {@condition charmed} by you until your concentration ends. While {@condition charmed}, the target obeys all your verbal commands tan bé com pugui and without doing anything obviously self-destructive. The {@condition charmed} target will attack only creatures that it has seen attack you since it was {@condition charmed} or that it was already hostile toward. Al final de cada torn seu, it can repeat the saving throw, ending the effect on itself on a success."
+						"Com a acció, you exert an aura that inspires awe in others. Choose up to 5 creatures que puguis veure a 60 peus d'abast. Each target must succeed on an Intel·ligència saving throw or be {@condition fascinat} by you until your concentration ends. While {@condition fascinat}, the target obeys all your verbal commands tan bé com pugui and without doing anything obviously self-destructive. The {@condition fascinat} target will attack only creatures that it has seen attack you since it was {@condition fascinat} or that it was already hostile toward. Al final de cada torn seu, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -1936,7 +1936,7 @@
 			"page": 28,
 			"type": "T",
 			"entries": [
-				"Com a acció, you beguile one humanoid que puguis veure a 120 peus d'abast. L'objectiu ha de salvar per Carisma or be {@condition charmed} by you until the end of your next turn."
+				"Com a acció, you beguile one humanoid que puguis veure a 120 peus d'abast. L'objectiu ha de salvar per Carisma or be {@condition fascinat} by you until the end of your next turn."
 			]
 		},
 		{
@@ -2547,7 +2547,7 @@
 					},
 					"name": "Forceful Query",
 					"entries": [
-						"Com a acció, you ask a question of one creature that can see and hear you within 30 feet of you. The question must be phrased so that it can be answered with a yes or no, otherwise this ability fails. L'objectiu ha de salvar per Saviesa, or it replies with a truthful answer. A creature is immune to this ability if it is immune to being {@condition charmed}."
+						"Com a acció, you ask a question of one creature that can see and hear you within 30 feet of you. The question must be phrased so that it can be answered with a yes or no, otherwise this ability fails. L'objectiu ha de salvar per Saviesa, or it replies with a truthful answer. A creature is immune to this ability if it is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -2626,7 +2626,7 @@
 					},
 					"name": "Phantom Betrayal",
 					"entries": [
-						"Com a acció, you plant delusional paranoia in a creature's mind. Escull una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Intel·ligència. or until your concentration ends, it must target its allies with attacks and other damaging effects. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. A creature is immune to this ability if it is immune to being {@condition charmed}."
+						"Com a acció, you plant delusional paranoia in a creature's mind. Escull una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Intel·ligència. or until your concentration ends, it must target its allies with attacks and other damaging effects. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. A creature is immune to this ability if it is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -2663,7 +2663,7 @@
 					},
 					"name": "Exacting Query",
 					"entries": [
-						"Com a acció, you target one creature you can communicate with via telepathy. L'objectiu ha de salvar per Intel·ligència. Si falla, the target truthfully answers one question you ask it via telepathy. Si supera, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being {@condition charmed}."
+						"Com a acció, you target one creature you can communicate with via telepathy. L'objectiu ha de salvar per Intel·ligència. Si falla, the target truthfully answers one question you ask it via telepathy. Si supera, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -2673,7 +2673,7 @@
 					},
 					"name": "Occluded Mind",
 					"entries": [
-						"Com a acció, you target one creature you can communicate with via telepathy. L'objectiu ha de salvar per Intel·ligència. Si falla, the target believes one statement of your choice for the next 5 minutes that you communicate to it via telepathy. The statement can be up to ten words long, and it must describe you or a creature or an object the target can see. Si supera, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being {@condition charmed}."
+						"Com a acció, you target one creature you can communicate with via telepathy. L'objectiu ha de salvar per Intel·ligència. Si falla, the target believes one statement of your choice for the next 5 minutes that you communicate to it via telepathy. The statement can be up to ten words long, and it must describe you or a creature or an object the target can see. Si supera, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -2683,7 +2683,7 @@
 					},
 					"name": "Broken Will",
 					"entries": [
-						"Com a acció, you target one creature you can communicate with via telepathy. L'objectiu ha de salvar per Intel·ligència. Si falla, you choose the target's movement and action on its next turn. Si supera, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being {@condition charmed}."
+						"Com a acció, you target one creature you can communicate with via telepathy. L'objectiu ha de salvar per Intel·ligència. Si falla, you choose the target's movement and action on its next turn. Si supera, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being {@condition fascinat}."
 					]
 				},
 				{
@@ -2711,7 +2711,7 @@
 					},
 					"name": "Psychic Domination",
 					"entries": [
-						"Com a acció, you target una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Intel·ligència. or you choose the creature's actions and movement on its turns until your concentration ends. Al final de cada torn seu, it can repeat the saving throw, ending the effect on itself on a success. A creature is immune to this ability if it is immune to being {@condition charmed}."
+						"Com a acció, you target una criatura que puguis veure a 60 peus d'abast. L'objectiu ha de salvar per Intel·ligència. or you choose the creature's actions and movement on its turns until your concentration ends. Al final de cada torn seu, it can repeat the saving throw, ending the effect on itself on a success. A creature is immune to this ability if it is immune to being {@condition fascinat}."
 					]
 				}
 			]
