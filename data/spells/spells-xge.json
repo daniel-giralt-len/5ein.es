@@ -323,7 +323,7 @@
 			"entries": [
 				"Crees fins a 6 pilars que surten disparats del terra en llocs que puguis veure a l'abast. Cada pilar és un cilindre de 5 peus de diàmetre i fins a 30 peus d'laçada. El terra on apareixen ha de ser com a mínim tan ample com el diàmetre, i pot haver-hi una criatura Mitjana o menor en aquell punt. Els pilars tenen una CA de 5 i 30 punts de cop. Quan es quedin a 0 punts de cop, s'ensorren i creen terreny difícil en un radi de 10 peus que dura fins que es netegi la runa. Cada quadrat de 5 peus de costat de runa requereix 1 minut de neteja manual.",
 				"Si el pilar surt a sota d'una criatura, aquesta ha de salvar per Destresa. Si falla, se l'endurà el pilar. Una criatura pot fallar la salvada voluntàriament.",
-				"Si un pilar no pot assolir la seva alçada màxima (per exemple, si es troba un sostre) i té una criatura a sobre, aquesta rep {@damage 6d6} de dany contundent i està {@condition restrained} (atrapada entre el pilar i l'obstacle). {@condition restrained} així, una criatura pot, com a acció, fer una tirada de Força o de Destresa (escull ella) contra la teva CD de salvació de llançament de conjurs. Si supera, ja no està {@condition restrained} i haurà de baixar-se del pilar o caure."
+				"Si un pilar no pot assolir la seva alçada màxima (per exemple, si es troba un sostre) i té una criatura a sobre, aquesta rep {@damage 6d6} de dany contundent i està {@condition retingut} (atrapada entre el pilar i l'obstacle). {@condition retingut} així, una criatura pot, com a acció, fer una tirada de Força o de Destresa (escull ella) contra la teva CD de salvació de llançament de conjurs. Si supera, ja no està {@condition retingut} i haurà de baixar-se del pilar o caure."
 			],
 			"entriesHigherLevel": [
 				{
@@ -470,7 +470,7 @@
 				}
 			],
 			"entries": [
-				"Amb un gest apaivagador, tu i fins a 3 criatures voluntàries que puguis veure a l'abast quedeu {@condition unconscious} durant la duració del conjur. El conjur acaba prematurament per a un objectiu si rep mal o si algú, com a acció, el desperta. Si un objectiu roman {@condition unconscious} durant tota la duració del conjur obtè els beneficis d'un Descans Curt i no li pot afectar aquest conjur de nou fins que acabi un Descans Llarg."
+				"Amb un gest apaivagador, tu i fins a 3 criatures voluntàries que puguis veure a l'abast quedeu {@condition inconscient} durant la duració del conjur. El conjur acaba prematurament per a un objectiu si rep mal o si algú, com a acció, el desperta. Si un objectiu roman {@condition inconscient} durant tota la duració del conjur obtè els beneficis d'un Descans Curt i no li pot afectar aquest conjur de nou fins que acabi un Descans Llarg."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3835,7 +3835,7 @@
 			"entries": [
 				"Transformes fins a 10 criatures que puguis veure a l'abast. Una criatura involuntària ha de salvar per Saviesa per evitar l'efecte. El conjur no afecta als canviaformes involuntaris.",
 				"Cada criatura adopta la forma d'una bèstia que escullis, no han de ser totes la mateixa. La nova forma pot ser qualsevol {@filter any beast|bestiary|type=beast|miscellaneous=!swarm} amb un VR equivalent o menor al de l'objectiu (o al seu nivell dividit per 2 si l'objectiu no té VR). Les estadístiques de l'objectiu (incloent les puntuacions mentals) es reemplacen pels de la bèstia. Retè la seva personalitat i alineament.",
-				"Cada objectiu assumeix els punts de cop de la seva nova forma. Quan un objectiu retorna a la seva forma original, l'objectiu retorna als punts de cop que tenia abans no ser transformat. Si retorna degut a quedar-se a 0 punts de cop en la nova forma, qualsevol dany residual que quedi es resta als punts de cop de la forma original. Si aquesta resta no deixa a l'objectiu a 0 punts de cop, aquest no estarà {@condition unconscious}.",
+				"Cada objectiu assumeix els punts de cop de la seva nova forma. Quan un objectiu retorna a la seva forma original, l'objectiu retorna als punts de cop que tenia abans no ser transformat. Si retorna degut a quedar-se a 0 punts de cop en la nova forma, qualsevol dany residual que quedi es resta als punts de cop de la forma original. Si aquesta resta no deixa a l'objectiu a 0 punts de cop, aquest no estarà {@condition inconscient}.",
 				"La criatura està limitada d'accions per la seva nova forma. No pot parlar, llançar conjurs, ni fer cap acció que requereixi mans ni parla.",
 				"El seu equipament es fon en la nova forma. La criatura no pot interactuar ni beneficiar-se del seu equipament."
 			],
@@ -3914,9 +3914,9 @@
 				}
 			],
 			"entries": [
-				"Escull un quadrat de 5 peus de costat desocupat al terra  que puguis veure a l'abast. Una ma Mitjana feta de terra compacta n'emergeix i prova d'agafar a una criatura que puguis veure que hi estigui a 5 peus d'abast. L'objectiu ha de salvar per Força. Si falla, rep {@damage 2d6} de dany contundent i està {@condition restrained} durant la duració del conjur.",
-				"Com a acció, pots esclafar l'objectiu  {@condition restrained}. Ha de salvar per Força. Si falla, rep {@damage 2d6} de dany contundent; si supera, en rep la meitat.",
-				"Per escapar-ne, l'objectiu pot, com a acció, fer una tirada de Força contra la teva CD de salvació de conjur. Si supera, s'escapa i ja no està  {@condition restrained} per la mà.",
+				"Escull un quadrat de 5 peus de costat desocupat al terra  que puguis veure a l'abast. Una ma Mitjana feta de terra compacta n'emergeix i prova d'agafar a una criatura que puguis veure que hi estigui a 5 peus d'abast. L'objectiu ha de salvar per Força. Si falla, rep {@damage 2d6} de dany contundent i està {@condition retingut} durant la duració del conjur.",
+				"Com a acció, pots esclafar l'objectiu  {@condition retingut}. Ha de salvar per Força. Si falla, rep {@damage 2d6} de dany contundent; si supera, en rep la meitat.",
+				"Per escapar-ne, l'objectiu pot, com a acció, fer una tirada de Força contra la teva CD de salvació de conjur. Si supera, s'escapa i ja no està  {@condition retingut} per la mà.",
 				"Com a acció, pots deixar anar a un objectiu per: provar d'atrapar a un altre objectiu; o moure la mà a un espai a l'abast del conjur."
 			],
 			"damageInflict": [
@@ -4056,7 +4056,7 @@
 				}
 			],
 			"entries": [
-				"Proves d'atrapar a una criatura en una garjola il·lusòra que només ella percep. Una criatura que puguis veure a l'abast ha de salvar per Intel·ligència. Supera automàticament si és immune a estar {@condition fascinat}. Si supera, l'objectiu rep {@damage 5d10} de dany psíquic i el conjur acaba. Si falla, rep {@damage 5d10} de dany psíquic, i fas que l'àrea immediatament al seu voltant sigui perillosa d'alguna manera. Per exemple pot percebre estar envoltada de foc, espases giratòries, o dents que masteguen. Sigui com sigui, l'objectiu no pot veure ni sentir a través de la il·lusió i està {@condition restrained} durant la duració del conjur. Si algú mou a l'objectiu fora de la il·lusió, l'impacta amb un atac melé a través, o s'atansa a tocar-lo a través de la il·lusió, l'objectiu rep {@damage 10d10} de dany psíquic, i el conjur acaba."
+				"Proves d'atrapar a una criatura en una garjola il·lusòra que només ella percep. Una criatura que puguis veure a l'abast ha de salvar per Intel·ligència. Supera automàticament si és immune a estar {@condition fascinat}. Si supera, l'objectiu rep {@damage 5d10} de dany psíquic i el conjur acaba. Si falla, rep {@damage 5d10} de dany psíquic, i fas que l'àrea immediatament al seu voltant sigui perillosa d'alguna manera. Per exemple pot percebre estar envoltada de foc, espases giratòries, o dents que masteguen. Sigui com sigui, l'objectiu no pot veure ni sentir a través de la il·lusió i està {@condition retingut} durant la duració del conjur. Si algú mou a l'objectiu fora de la il·lusió, l'impacta amb un atac melé a través, o s'atansa a tocar-lo a través de la il·lusió, l'objectiu rep {@damage 10d10} de dany psíquic, i el conjur acaba."
 			],
 			"damageInflict": [
 				"psíquic"
@@ -5243,9 +5243,9 @@
 			"entries": [
 				"Quan llances el conjur fas un cèrcol de corda de 5 peus de radi al terra o a una superfície plana al'abast. Quan acabes la corda desapareix i es torna una trampa màgica.",
 				"És gairebé invisible i s'ha de tirar ({@skill Investigation}) contra la teva CD de salvada de conjur per ser percebuda.",
-				"El parany s'activa quan una criatura Petita, Mitjana, o Gran entra al cèrcol Ha de salvar per Destresa. Si falla s'enlaira 3 peus i es queda penjant. La criatura hi està {@condition restrained} fins que el conjur s'acabi.",
-				"Una criatura {@condition restrained} pot salvar de Destresa al final de cada torn seu, cancel·lant l'efecte quan superi. Alternativament, la criatura afectada o una altra pot, com a acció, fer una tirada d'Intel·ligència ({@skill Arcana}) contra la teva CD de salvada de conjur. Si supera, la condició {@condition restrained} es cancel·la.",
-				"Després que la trampa hagi estat activada i ja no tingui a ningú {@condition restrained} el conjur s'acaba."
+				"El parany s'activa quan una criatura Petita, Mitjana, o Gran entra al cèrcol Ha de salvar per Destresa. Si falla s'enlaira 3 peus i es queda penjant. La criatura hi està {@condition retingut} fins que el conjur s'acabi.",
+				"Una criatura {@condition retingut} pot salvar de Destresa al final de cada torn seu, cancel·lant l'efecte quan superi. Alternativament, la criatura afectada o una altra pot, com a acció, fer una tirada d'Intel·ligència ({@skill Arcana}) contra la teva CD de salvada de conjur. Si supera, la condició {@condition retingut} es cancel·la.",
+				"Després que la trampa hagi estat activada i ja no tingui a ningú {@condition retingut} el conjur s'acaba."
 			],
 			"conditionInflict": [
 				"retingut"
@@ -6400,13 +6400,13 @@
 						"Tota pedra no-màgica a làrea esdevé fang dens que flueix durant la duració del conjur."
 					]
 				},
-				"El terra a l'àrea es torna prou enfangat que les criatures s'hi poden enfonsar. Cada 1 peu que una criatura es mogui costa 4 peus de moviemnt. Tota criatura que: està al terra de l'àrea quan llances el conjur; hi entri per primer cop en un torn; o hi acabi el seu torn, ha de salvar per Força. Si falla, s'enfonsa al fang i està {@condition restrained}. Pot, com a acció, deixar d'estar {@condition restrained} escapant del fang.",
+				"El terra a l'àrea es torna prou enfangat que les criatures s'hi poden enfonsar. Cada 1 peu que una criatura es mogui costa 4 peus de moviemnt. Tota criatura que: està al terra de l'àrea quan llances el conjur; hi entri per primer cop en un torn; o hi acabi el seu torn, ha de salvar per Força. Si falla, s'enfonsa al fang i està {@condition retingut}. Pot, com a acció, deixar d'estar {@condition retingut} escapant del fang.",
 				"Si llances el conjur al sostre el fang cau. Tota criatura que hi estigui a sota ha de salvar per Destresa. Qui falli, rep {@damage 4d8} de dany contundent; qui superi, en rep la meitat.",
 				{
 					"type": "entries",
 					"name": "De Fang a Pedra",
 					"entries": [
-						"Fang o arenes movedisses no-màgiques en l'àrea en una profunditat màxima de 10 peus es tornen pedra tova durant la duració del conjur. Tota criatura que estigui al fang quan es transforma ha de salvar per Destresa. Qui superi és expulsat a la superfície en un espai desocupat. Qui falli esdevé {@condition restrained} a la pedra. Una criatura {@condition restrained} (o una altra a l'abast) pot, com a acció, prova de trencar la pedra amb una tirada de Força (CD 20). També es pot provar de trencar la roca; té una CA de 15 i 25 punts de cop, i és immune al mal psíquic."
+						"Fang o arenes movedisses no-màgiques en l'àrea en una profunditat màxima de 10 peus es tornen pedra tova durant la duració del conjur. Tota criatura que estigui al fang quan es transforma ha de salvar per Destresa. Qui superi és expulsat a la superfície en un espai desocupat. Qui falli esdevé {@condition retingut} a la pedra. Una criatura {@condition retingut} (o una altra a l'abast) pot, com a acció, prova de trencar la pedra amb una tirada de Força (CD 20). També es pot provar de trencar la roca; té una CA de 15 i 25 punts de cop, i és immune al mal psíquic."
 					]
 				}
 			],
@@ -6885,10 +6885,10 @@
 			],
 			"entries": [
 				"Convoques una esfera d'aigua amb un radi de 5 peus en un punt que puguis veure a l'abast. L'esfera pot flotar fins a 10 peus del terra. L'esfera roman durant la duració del conjur.",
-				"Tota criatura a dins de l'àrea ha de salvar per Força. Qui superi és expulsada a l'espai desocupat més proper de l'àrea (la criatura escull quin). Una criatura Enorme o major super automàticament. Una criatura Gran o menor pot fallar voluntàriament. Si falla, la creature està {@condition restrained} a dins de l'esfera i envoltada d'aigua. Al final de cada torn seu, una criatura {@condition restrained} pot repetir la salvada. Si supera, acaba l'efecte en ella.",
+				"Tota criatura a dins de l'àrea ha de salvar per Força. Qui superi és expulsada a l'espai desocupat més proper de l'àrea (la criatura escull quin). Una criatura Enorme o major super automàticament. Una criatura Gran o menor pot fallar voluntàriament. Si falla, la creature està {@condition retingut} a dins de l'esfera i envoltada d'aigua. Al final de cada torn seu, una criatura {@condition retingut} pot repetir la salvada. Si supera, acaba l'efecte en ella.",
 				"L'esfera pot retenir fins a 4 criatures Mitjanes o menors, o bé una criatura Gran. Si l'esfera retè una criatura més del que pot, una criatura retinguda prèviament (a l'atzar) cau de l'esfera i es queda {@condition enderrocat} en un espai a 5 peus de l'esfera.",
-				"Com a acció, pots moure l'esfera fins a 30 peus en una línia recta. Si es mou per sobre d'un forat, esvoranc, o altre desnivell, descèn inòcuament fins que floti a 10 peus del terra. Tota criatura {@condition restrained} per l'esfera es mou amb ella. Pots embestir a criatures amb l'esfera, forçant-los la tirada de salvació.",
-				"Quan acaba el conjur, L'esfera cau al terra i apaga tota flama no-màgica a 30 peus d'abast. Tota criatura {@condition restrained} per l'esfera cau {@condition enderrocat} a l'espai on quedi. Llavors l'aigua desapareix."
+				"Com a acció, pots moure l'esfera fins a 30 peus en una línia recta. Si es mou per sobre d'un forat, esvoranc, o altre desnivell, descèn inòcuament fins que floti a 10 peus del terra. Tota criatura {@condition retingut} per l'esfera es mou amb ella. Pots embestir a criatures amb l'esfera, forçant-los la tirada de salvació.",
+				"Quan acaba el conjur, L'esfera cau al terra i apaga tota flama no-màgica a 30 peus d'abast. Tota criatura {@condition retingut} per l'esfera cau {@condition enderrocat} a l'espai on quedi. Llavors l'aigua desapareix."
 			],
 			"conditionInflict": [
 				"enderrocat",
@@ -6961,8 +6961,8 @@
 			],
 			"entries": [
 				"Un cicló apareix a un punt that que puguis veure a l'abast. És un cilindre de 10 peus de radi i 30 d'alçada centrat en aquell punt. Mentre duri el conjur, pots, com a acció, moure el cicló fins a 30 peus en qualsevol direcció seguint el terra. El cicló xucla tot objecte Mitja o menor que no estigui ancorat al terra ni duts ni vestits.",
-				"Una criatura que entra l'àrea (o viceversa) per primer cop en un torn ha de salvar per Destresa. Això inclou quan el cicló apareix. Qui falli, rep {@damage 10d6} de dany contundent; qui superi, en rep la meitat. A més, tota criatura Gran o menor que falli ha de salvar per Força. Si falla, esdevé {@condition restrained} a dins del cicló mentre duri el conjur. Quan una criatura comença el seu torn {@condition restrained} pel cicló, puja 5 peus a dins del cicló si no està ja a dalt de tot. Tota criatura {@condition restrained} es mou amb el cicló i cau quan acaba el conjur.",
-				"Tota criatura {@condition restrained}, pot, com a acció, tirar per a Força o Destresa contra la teva CD de salvació de conjur. Si supera, ja no està {@condition restrained} i és llançada {@dice 3d6 × 10} peus en una direcció a l'atzar."
+				"Una criatura que entra l'àrea (o viceversa) per primer cop en un torn ha de salvar per Destresa. Això inclou quan el cicló apareix. Qui falli, rep {@damage 10d6} de dany contundent; qui superi, en rep la meitat. A més, tota criatura Gran o menor que falli ha de salvar per Força. Si falla, esdevé {@condition retingut} a dins del cicló mentre duri el conjur. Quan una criatura comença el seu torn {@condition retingut} pel cicló, puja 5 peus a dins del cicló si no està ja a dalt de tot. Tota criatura {@condition retingut} es mou amb el cicló i cau quan acaba el conjur.",
+				"Tota criatura {@condition retingut}, pot, com a acció, tirar per a Força o Destresa contra la teva CD de salvació de conjur. Si supera, ja no està {@condition retingut} i és llançada {@dice 3d6 × 10} peus en una direcció a l'atzar."
 			],
 			"damageInflict": [
 				"contundent"
@@ -7118,7 +7118,7 @@
 					"type": "entries",
 					"name": "Arrels i Lianes",
 					"entries": [
-						"Al final de cada torn teu, una criatura que escullis que estigui al terra de l'àrea ha de salvar per Força. Si falla, esdevé {@condition restrained} mentre duri el conjur. Una criatura {@condition restrained} així pot, com a acció, fer una tirada de Força ({@skill Atletisme}) contra la teva CD de salvació de conjur. Si supera, acaba la condició per a ella."
+						"Al final de cada torn teu, una criatura que escullis que estigui al terra de l'àrea ha de salvar per Força. Si falla, esdevé {@condition retingut} mentre duri el conjur. Una criatura {@condition retingut} així pot, com a acció, fer una tirada de Força ({@skill Atletisme}) contra la teva CD de salvació de conjur. Si supera, acaba la condició per a ella."
 					]
 				},
 				{

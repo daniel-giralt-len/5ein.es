@@ -90,14 +90,14 @@
 				{
 					"name": "Vine Lash",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 20 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany tallant. If the target is a creature, it is {@condition grappled} ({@dc 15} per escapar). Durant aquesta presa, l'objectiu també està {@condition restrained}. The plant has four vines, each of which can grapple un objectiu."
+						"{@atk mw} {@hit 7} a impactar, 20 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany tallant. If the target is a creature, it is {@condition pres} ({@dc 15} per escapar). Durant aquesta presa, l'objectiu també està {@condition retingut}. The plant has four vines, each of which can grapple un objectiu."
 					]
 				},
 				{
 					"name": "Entrapping Pod",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one Medium or smaller creature {@condition grappled} by the plant. {@h}22 ({@damage 4d8 + 4}) de dany d'àcid, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is {@condition restrained}, and it has total cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a {@dc 16} Constitució saving throw or be {@condition atordit} by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of {@condition exhaust} for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
-						"Com a acció, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful {@dc 15} Força check. If the plant dies, the target is no longer {@condition restrained} and can escape from the pod by spending 10 feet of movement, exiting {@condition enderrocat}. The plant has one pod, which can envelop one creature at a time."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one Medium or smaller creature {@condition pres} by the plant. {@h}22 ({@damage 4d8 + 4}) de dany d'àcid, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is {@condition retingut}, and it has total cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a {@dc 16} Constitució saving throw or be {@condition atordit} by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of {@condition exhaust} for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
+						"Com a acció, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful {@dc 15} Força check. If the plant dies, the target is no longer {@condition retingut} and can escape from the pod by spending 10 feet of movement, exiting {@condition enderrocat}. The plant has one pod, which can envelop one creature at a time."
 					]
 				}
 			],
@@ -191,7 +191,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The boneless makes two Slam attacks. If both attacks hit a Large or smaller creature, the creature is {@condition grappled} ({@dc 13} per escapar), and the boneless can use Crushing Embrace."
+						"The boneless makes two Slam attacks. If both attacks hit a Large or smaller creature, the creature is {@condition pres} ({@dc 13} per escapar), and the boneless can use Crushing Embrace."
 					]
 				},
 				{
@@ -203,7 +203,7 @@
 				{
 					"name": "Crushing Embrace",
 					"entries": [
-						"The boneless wraps its body around a Large or smaller creature {@condition grappled} by it. While the boneless is attached, the target is {@condition encegat} and is unable to breathe. The target ha de salvar per Força amb {@dc 13} at the start of each of the boneless' turns or take 5 ({@damage 1d4 + 3}) de dany contundent. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful {@dc 13} Força check. When the boneless dies, it detaches from any creature it is attached to."
+						"The boneless wraps its body around a Large or smaller creature {@condition pres} by it. While the boneless is attached, the target is {@condition encegat} and is unable to breathe. The target ha de salvar per Força amb {@dc 13} at the start of each of the boneless' turns or take 5 ({@damage 1d4 + 3}) de dany contundent. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful {@dc 13} Força check. When the boneless dies, it detaches from any creature it is attached to."
 					]
 				}
 			],
@@ -379,7 +379,7 @@
 				{
 					"name": "Soul Swap",
 					"entries": [
-						"The carrionette targets a creature it can see within 15 feet of it that is cursed by its Silver Needle. Unless the target is protected by a protegir del bé i del mal spell, ha de salvar per Carisma amb {@dc 12} or have its consciousness swapped with the carrionette. The carrionette gains control of the target's body, and the target is {@condition unconscious} for 1 hour, after which it gains control of the carrionette's body. While controlling the target's body, the carrionette retains its Intel·ligència, Saviesa, and Carisma scores. It otherwise uses the controlled body's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The carrionette targets a creature it can see within 15 feet of it that is cursed by its Silver Needle. Unless the target is protected by a protegir del bé i del mal spell, ha de salvar per Carisma amb {@dc 12} or have its consciousness swapped with the carrionette. The carrionette gains control of the target's body, and the target is {@condition inconscient} for 1 hour, after which it gains control of the carrionette's body. While controlling the target's body, the carrionette retains its Intel·ligència, Saviesa, and Carisma scores. It otherwise uses the controlled body's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
 						"If the carrionette's body is destroyed, both the carrionette and the target die. A protegir del bé i del mal spell cast on the controlled body drives the carrionette out and returns the consciousness of both creatures to their original bodies. The swap is also undone if the controlled body takes damage from the carrionette's Silver Needle."
 					]
 				}
@@ -465,7 +465,7 @@
 				{
 					"name": "Petrifying Bite (Només Petrifying Head)",
 					"entries": [
-						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 10} o be {@condition restrained} as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is {@condition petrified} for 10 minutes."
+						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 10} o be {@condition retingut} as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is {@condition petrificat} for 10 minutes."
 					]
 				}
 			],
@@ -539,7 +539,7 @@
 				{
 					"name": "Headless Summoning (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"If the dullahan is reduced to 0 hit points, it doesn't die or fall {@condition unconscious}. Instead, it regains 97 hit points. In addition, it summons three {@creature death's head|VRGR|death's heads}, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 PX (11,800 PX total) for defeating the dullahan after it uses Headless Summoning."
+						"If the dullahan is reduced to 0 hit points, it doesn't die or fall {@condition inconscient}. Instead, it regains 97 hit points. In addition, it summons three {@creature death's head|VRGR|death's heads}, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 PX (11,800 PX total) for defeating the dullahan after it uses Headless Summoning."
 					]
 				},
 				{
@@ -2202,7 +2202,7 @@
 				{
 					"name": "Pseudòpode",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition paralyzed} until the start of the necrichor's next turn."
+						"{@atk mw} {@hit 5} a impactar, 10 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition paralitzat} until the start of the necrichor's next turn."
 					]
 				},
 				{
@@ -2515,7 +2515,7 @@
 				{
 					"name": "Soul Blade",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 2d4 + 2}) de dany perforant, and if the target is a creature, it is {@condition paralyzed} until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy Soul Tattoo on the priest. The soul is freed if the priest dies."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 2d4 + 2}) de dany perforant, and if the target is a creature, it is {@condition paralitzat} until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy Soul Tattoo on the priest. The soul is freed if the priest dies."
 					]
 				},
 				{
@@ -2744,7 +2744,7 @@
 				{
 					"name": "Flying Stone",
 					"entries": [
-						"The target takes 22 ({@damage 5d8}) de dany contundent i està {@condition incapacitated} until the start of the juggernaut's next turn, and the implement vanishes."
+						"The target takes 22 ({@damage 5d8}) de dany contundent i està {@condition incapacitat} until the start of the juggernaut's next turn, and the implement vanishes."
 					]
 				},
 				{
@@ -3405,7 +3405,7 @@
 				{
 					"name": "Grasping Limbs",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 0 peus d'abast, one creature in the swarm's space. {@h}7 ({@damage 2d6}) de dany necròtic, i la criatura ha de salvar per Força amb {@dc 12} or be {@condition restrained}. The creature can repeat the saving throw al final de cada torn seu, taking 7 ({@damage 2d6}) de dany necròtic on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies."
+						"{@atk mw} {@hit 4} a impactar, 0 peus d'abast, one creature in the swarm's space. {@h}7 ({@damage 2d6}) de dany necròtic, i la criatura ha de salvar per Força amb {@dc 12} or be {@condition retingut}. The creature can repeat the saving throw al final de cada torn seu, taking 7 ({@damage 2d6}) de dany necròtic on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies."
 					]
 				}
 			],
@@ -3449,7 +3449,7 @@
 								{
 									"name": "Grappler",
 									"entries": [
-										"The Bagman has advantage on attack rolls against any creature {@condition grappled} by it."
+										"The Bagman has advantage on attack rolls against any creature {@condition pres} by it."
 									]
 								},
 								{
@@ -3863,7 +3863,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}7 ({@damage 1d6 + 4}) de dany perforant, and if the target is a creature, it is {@condition grappled} ({@dc 15} per escapar)."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}7 ({@damage 1d6 + 4}) de dany perforant, and if the target is a creature, it is {@condition pres} ({@dc 15} per escapar)."
 					]
 				},
 				{
@@ -3877,7 +3877,7 @@
 				{
 					"name": "Disrupt Psyche (Recharge 5-6)",
 					"entries": [
-						"The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Tota criatura dins de l'àrea ha de salvar per Intel·ligència amb {@dc 15} or be {@condition incapacitated} durant 1 minut. La criatura {@condition incapacitated} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Tota criatura dins de l'àrea ha de salvar per Intel·ligència amb {@dc 15} or be {@condition incapacitat} durant 1 minut. La criatura {@condition incapacitat} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -4000,7 +4000,7 @@
 					"name": "Flesh Entomb {@recharge 5}",
 					"entries": [
 						"The zombie flings a detached clump of corpses at a creature it can see within 30 feet of it. The target ha de salvar per Força amb {@dc 16} or take 16 ({@damage 3d10}) de dany contundent, and if the target is a Large or smaller creature, it becomes entombed in dead flesh.",
-						"A creature entombed in the dead flesh is {@condition restrained}, has total cover against attacks and other effects outside the dead flesh, and takes 10 ({@damage 3d6}) de dany necròtic a l'inici de cada torn seu. The creature can be freed if the dead flesh is destroyed. The dead flesh is a Large object with AC 10, 25 hit points, and immunity to poison and psychic damage."
+						"A creature entombed in the dead flesh is {@condition retingut}, has total cover against attacks and other effects outside the dead flesh, and takes 10 ({@damage 3d6}) de dany necròtic a l'inici de cada torn seu. The creature can be freed if the dead flesh is destroyed. The dead flesh is a Large object with AC 10, 25 hit points, and immunity to poison and psychic damage."
 					]
 				}
 			],
