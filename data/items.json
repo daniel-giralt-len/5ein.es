@@ -824,7 +824,7 @@
 					"type": "entries",
 					"name": "Reforged",
 					"entries": [
-						"While holding the hammer, you have resistance to fire damage and are immune to {@condition exhaustion}. Additionally, you have proficiency with smith's tools and have advantage on all ability checks made using them."
+						"While holding the hammer, you have resistance to fire damage and are immune to {@condition exhaust}. Additionally, you have proficiency with smith's tools and have advantage on all ability checks made using them."
 					]
 				},
 				{
@@ -1596,7 +1596,7 @@
 					"type": "entries",
 					"name": "Esprai de Verí",
 					"entries": [
-						"The canó expels poison gas en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 15 Constitució saving throw. Si falla, rep 22 ({@damage 4d10}) de dany de verí i està {@condition poisoned} durant 1 minut. Si supera, la criatura rep la meitat del dany i no està {@condition poisoned}. A creature {@condition poisoned} in this way can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
+						"The canó expels poison gas en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 15 Constitució saving throw. Si falla, rep 22 ({@damage 4d10}) de dany de verí i està {@condition emmetzinat} durant 1 minut. Si supera, la criatura rep la meitat del dany i no està {@condition emmetzinat}. A creature {@condition emmetzinat} in this way can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -1777,7 +1777,7 @@
 			"value": 15000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must make a DC 10 Constitució saving throw. Si falla, rep 6 ({@dice 1d12}) de dany de verí i està {@condition poisoned} for 24 hours. Si supera, the creature takes half damage i no està {@condition poisoned}."
+				"A creature subjected to this poison must make a DC 10 Constitució saving throw. Si falla, rep 6 ({@dice 1d12}) de dany de verí i està {@condition emmetzinat} for 24 hours. Si supera, the creature takes half damage i no està {@condition emmetzinat}."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -2282,7 +2282,7 @@
 					"rows": [
 						[
 							"01",
-							"{@dice 5d4} toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitució saving throw or take {@dice 5d6} de dany de verí and become {@condition poisoned} for 1 hour. On an even roll, the eater gains {@dice 5d6} temporary hit points for 1 hour."
+							"{@dice 5d4} toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitució saving throw or take {@dice 5d6} de dany de verí and become {@condition emmetzinat} for 1 hour. On an even roll, the eater gains {@dice 5d6} temporary hit points for 1 hour."
 						],
 						[
 							"02-10",
@@ -2665,7 +2665,7 @@
 			"weight": 2,
 			"value": 100,
 			"entries": [
-				"Com a acció, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Destresa saving throw or fall {@condition prone}. A creature moving through the area at half speed doesn't need to make the saving throw."
+				"Com a acció, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Destresa saving throw or fall {@condition enderrocat}. A creature moving through the area at half speed doesn't need to make the saving throw."
 			],
 			"packContents": [
 				{
@@ -2860,7 +2860,7 @@
 						],
 						[
 							"31\u201332",
-							"A bead that suppresses your hearing when secreted inside either ear, causing you to be {@condition deafened}"
+							"A bead that suppresses your hearing when secreted inside either ear, causing you to be {@condition eixordat}"
 						],
 						[
 							"33\u201334",
@@ -3153,7 +3153,7 @@
 			"value": 10000,
 			"verí": true,
 			"entries": [
-				"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the {@condition poisoned} weapon or ammunition must make a DC 10 Constitució saving throw or take {@dice 1d4} de dany de verí. Once applied, the poison retains potency for 1 minute before drying."
+				"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the {@condition emmetzinat} weapon or ammunition must make a DC 10 Constitució saving throw or take {@dice 1d4} de dany de verí. Once applied, the poison retains potency for 1 minute before drying."
 			]
 		},
 		{
@@ -3189,7 +3189,7 @@
 			"charges": 3,
 			"entries": [
 				"While holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
-				"Additionally, the shield has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it {@condition prone}, or both."
+				"Additionally, the shield has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it {@condition enderrocat}, or both."
 			]
 		},
 		{
@@ -3685,7 +3685,7 @@
 			"value": 30000,
 			"entries": [
 				"This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be {@condition fascinat} or {@condition acovardit} for {@dice 1d6} hours.",
-				"For each dose of black sap consumed, a creature must succeed on a DC 15 Constitució saving throw or become {@condition poisoned} for {@dice 2d4} hours\u2014an effect that is cumulative with multiple doses."
+				"For each dose of black sap consumed, a creature must succeed on a DC 15 Constitució saving throw or become {@condition emmetzinat} for {@dice 2d4} hours\u2014an effect that is cumulative with multiple doses."
 			]
 		},
 		{
@@ -4135,7 +4135,7 @@
 			"rarity": "none",
 			"value": 20000,
 			"entries": [
-				"This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intel·ligència and Saviesa checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitució saving throw or become {@condition poisoned} for {@dice 1d6} hours and suffer the effects of a confusion spell durant 1 minut. An undead creature subjected to a dose of blight ichor gains advantage on all Destresa checks and is immune to the {@condition acovardit} condition for 1 hour."
+				"This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intel·ligència and Saviesa checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitució saving throw or become {@condition emmetzinat} for {@dice 1d6} hours and suffer the effects of a confusion spell durant 1 minut. An undead creature subjected to a dose of blight ichor gains advantage on all Destresa checks and is immune to the {@condition acovardit} condition for 1 hour."
 			]
 		},
 		{
@@ -5829,7 +5829,7 @@
 			"value": 20000,
 			"verí": true,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature carrion crawler}. A creature subjected to this poison must succeed on a DC 13 Constitució saving throw or be {@condition poisoned} durant 1 minut. The {@condition poisoned} creature is {@condition paralyzed}. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+				"This poison must be harvested from a dead or {@condition incapacitated} {@creature carrion crawler}. A creature subjected to this poison must succeed on a DC 13 Constitució saving throw or be {@condition emmetzinat} durant 1 minut. The {@condition emmetzinat} creature is {@condition paralyzed}. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 			],
 			"poisonTypes": [
 				"contact"
@@ -6727,7 +6727,7 @@
 					"type": "entries",
 					"name": "Maintain Shoes",
 					"entries": [
-						"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaustion}."
+						"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaust}."
 					]
 				},
 				{
@@ -7199,7 +7199,7 @@
 			"weight": 0.25,
 			"value": 200,
 			"entries": [
-				"A crampon is a metal plate with spikes that is strapped to the sole of a boot. A creature wearing crampons can't fall {@condition prone} while moving across {@hazard slippery ice}."
+				"A crampon is a metal plate with spikes that is strapped to the sole of a boot. A creature wearing crampons can't fall {@condition enderrocat} while moving across {@hazard slippery ice}."
 			]
 		},
 		{
@@ -7719,7 +7719,7 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"Pots, com a acció, cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitució saving throw or take {@dice 2d10} de dany de verí and become {@condition poisoned} durant 1 minut. The dagger can't be used this way again until the next dawn."
+				"Pots, com a acció, cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitució saving throw or take {@dice 2d10} de dany de verí and become {@condition emmetzinat} durant 1 minut. The dagger can't be used this way again until the next dawn."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -7734,8 +7734,8 @@
 			"rarity": "unknown (magic)",
 			"value": 500,
 			"entries": [
-				"This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice must succeed on a DC 14 Constitució saving throw or begin a comic dance that lasts durant 1 minut. Humanoids that can't be {@condition poisoned} are immune to this magical effect.",
-				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Destresa saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer can repeat the saving throw, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {@condition poisoned} condition for 1 hour."
+				"This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice must succeed on a DC 14 Constitució saving throw or begin a comic dance that lasts durant 1 minut. Humanoids that can't be {@condition emmetzinat} are immune to this magical effect.",
+				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Destresa saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer can repeat the saving throw, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {@condition emmetzinat} condition for 1 hour."
 			]
 		},
 		{
@@ -7886,7 +7886,7 @@
 					"items": [
 						"\"Stream\" produces 1 gallon of water.",
 						"\"Fountain\" produces 5 gallons of water.",
-						"\"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at una criatura que puguis veure a 30 peus d'abast. The target must succeed on a DC 13 Força saving throw or take {@dice 1d4} de dany contundent and fall {@condition prone}. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you."
+						"\"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at una criatura que puguis veure a 30 peus d'abast. The target must succeed on a DC 13 Força saving throw or take {@dice 1d4} de dany contundent and fall {@condition enderrocat}. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you."
 					]
 				}
 			],
@@ -9870,8 +9870,8 @@
 				"The low, moaning drone of the Draakhorn discomfits normal animals within a few miles, and it alerts all dragons within two thousand miles to rise and be wary, for great danger is at hand. Coded blasts were once used to signal specific messages. Knowledge of those codes has been lost to the ages.",
 				"Those with knowledge of the Draakhorn's history know that it was first built to signal danger to chromatic dragons\u2014a purpose the Cult of the Dragon has corrupted to call chromatic dragons to the Well of Dragons from across the North.",
 				"Within 50 feet of any enclosed space where the horn is blown, the air begins to shimmer from the sound. Any character within 20 feet of the entry to the enclosed space must succeed on a DC 12 Força check to continue pushing against the pressure of the sound. A failure indicates the character can advance no farther toward the entry.",
-				"For any character entering the enclosed space, the sound fades to silence\u2014because any creature that enters the enclosed space is temporarily {@condition deafened} and must make a DC 12 Constitució saving throw. Success indicates the deafness ends 2 minutes after the Draakhorn ceases to sound. Failure indicates the character remains {@condition deafened} for 1 hour after the Draakhorn ceases to sound.",
-				"While the horn is sounding, a creature must make a DC 15 Constitució saving throw the first time on a turn the creature enters a 150-foot cone in front of the horn or starts its turn there. Si falla, rep 27 ({@dice 6d8}) de dany de tro i està {@condition prone}. Si supera, the creature takes half damage i no està {@condition prone}."
+				"For any character entering the enclosed space, the sound fades to silence\u2014because any creature that enters the enclosed space is temporarily {@condition eixordat} and must make a DC 12 Constitució saving throw. Success indicates the deafness ends 2 minutes after the Draakhorn ceases to sound. Failure indicates the character remains {@condition eixordat} for 1 hour after the Draakhorn ceases to sound.",
+				"While the horn is sounding, a creature must make a DC 15 Constitució saving throw the first time on a turn the creature enters a 150-foot cone in front of the horn or starts its turn there. Si falla, rep 27 ({@dice 6d8}) de dany de tro i està {@condition enderrocat}. Si supera, the creature takes half damage i no està {@condition enderrocat}."
 			],
 			"hasFluffImages": true
 		},
@@ -10095,7 +10095,7 @@
 			"type": "OTH",
 			"rarity": "none",
 			"entries": [
-				"A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the creature is immune to fear, and the first time it es queda a 0 punts de cop without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
+				"A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {@condition emmetzinat} for 1 hour. While {@condition emmetzinat} in this way, the creature is immune to fear, and the first time it es queda a 0 punts de cop without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
 			]
 		},
 		{
@@ -10130,7 +10130,7 @@
 			"value": 20000,
 			"verí": true,
 			"entries": [
-				"This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitució saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitució saving throw or be {@condition emmetzinat} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition emmetzinat} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
 			],
 			"poisonTypes": [
 				"injury"
@@ -10525,7 +10525,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"While held up to your ear, this horn suppresses the effects of the {@condition deafened} condition on you, allowing you to hear normally."
+				"While held up to your ear, this horn suppresses the effects of the {@condition eixordat} condition on you, allowing you to hear normally."
 			]
 		},
 		{
@@ -10890,7 +10890,7 @@
 					"type": "entries",
 					"name": "Property",
 					"entries": [
-						"You create a wave of water that bursts out from you in a 10-foot radius. Each creature of your choice that you can see in that area rep {@damage 2d6} de dany de fred iha de salvar per Força amb la teva CD de salvació de conjur. Si falla or be pushed 10 feet away from you and fall {@condition prone}."
+						"You create a wave of water that bursts out from you in a 10-foot radius. Each creature of your choice that you can see in that area rep {@damage 2d6} de dany de fred iha de salvar per Força amb la teva CD de salvació de conjur. Si falla or be pushed 10 feet away from you and fall {@condition enderrocat}."
 					]
 				}
 			]
@@ -10974,7 +10974,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. The clear red liquid has tiny bubbles of light in it."
+				"When you drink this potion, it cures any disease afflicting you, and it removes the {@condition encegat}, {@condition eixordat}, {@condition paralyzed}, and {@condition emmetzinat} conditions. The clear red liquid has tiny bubbles of light in it."
 			],
 			"lootTables": [
 				"Magic Item Table C"
@@ -11300,7 +11300,7 @@
 			"value": 30000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitució saving throw or become {@condition poisoned} for 8 hours. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"A creature subjected to this poison must succeed on a DC 15 Constitució saving throw or become {@condition emmetzinat} for 8 hours. The {@condition emmetzinat} creature is {@condition unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -11471,7 +11471,7 @@
 							"type": "list",
 							"items": [
 								"You are immune to disease and poison.",
-								"Using the eye's X-ray vision never causes you to suffer {@condition exhaustion}.",
+								"Using the eye's X-ray vision never causes you to suffer {@condition exhaust}.",
 								"You experience premonitions of danger and, unless you are {@condition incapacitated}, can't be surprised.",
 								"If you start your turn with at least 1 hit point, you regain {@dice 1d10} hit points.",
 								"If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the {@item Hand of Vecna}. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. Si impacta, the target must succeed on a DC 18 Constitució saving throw or drop to 0 hit points.",
@@ -12396,7 +12396,7 @@
 					"type": "list",
 					"items": [
 						"If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the evocation school.",
-						"When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra {@damage 2d6} de dany de força to the creature and knock the creature {@condition prone} if it is Large or smaller."
+						"When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra {@damage 2d6} de dany de força to the creature and knock the creature {@condition enderrocat} if it is Large or smaller."
 					]
 				}
 			],
@@ -12537,7 +12537,7 @@
 					"type": "list",
 					"items": [
 						"The first paraula màgica causes the gem to shed llum forta en un radi de 30 peus i llum tènue uns 30 peus adicionals. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the paraula màgica or until you use another function of the gem.",
-						"The second paraula màgica expends 1 charge and causes the gem to fire a brilliant beam of light at una criatura que puguis veure a 60 peus d'abast. The creature must succeed on a DC 15 Constitució saving throw or become {@condition blinded} durant 1 minut. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.",
+						"The second paraula màgica expends 1 charge and causes the gem to fire a brilliant beam of light at una criatura que puguis veure a 60 peus d'abast. The creature must succeed on a DC 15 Constitució saving throw or become {@condition encegat} durant 1 minut. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.",
 						"The third paraula màgica expends 5 charges and causes the gem to flare with blinding light en un con de 30 peus originating from it. Tota criatura a dins del con must make a saving throw as if struck by the beam created with the second paraula màgica."
 					]
 				},
@@ -13628,8 +13628,8 @@
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
-				"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@dice 3d10} de dany psíquic i està {@condition blinded} for 24 hours.",
-				"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+				"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@dice 3d10} de dany psíquic i està {@condition encegat} for 24 hours.",
+				"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition encegat}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
 			]
 		},
 		{
@@ -13751,7 +13751,7 @@
 							"type": "list",
 							"items": [
 								"You are immune to disease and poison.",
-								"Using the eye's X-ray vision never causes you to suffer {@condition exhaustion}.",
+								"Using the eye's X-ray vision never causes you to suffer {@condition exhaust}.",
 								"You experience premonitions of danger and, unless you are {@condition incapacitated}, can't be surprised.",
 								"If you start your turn with at least 1 hit point, you regain {@dice 1d10} hit points.",
 								"If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the Hand of Vecna. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. Si impacta, the target must succeed on a DC 18 Constitució saving throw or drop to 0 hit points.",
@@ -14682,7 +14682,7 @@
 						[
 							"11-14",
 							"Yellow with black stripes",
-							"Once removed from the hook, this awful-tasting fish can be thrown up to 120 feet, targeting a creature the thrower can see. The target must succeed on a DC 15 Força saving throw or be knocked {@condition prone}. The fish then disappears."
+							"Once removed from the hook, this awful-tasting fish can be thrown up to 120 feet, targeting a creature the thrower can see. The target must succeed on a DC 15 Força saving throw or be knocked {@condition enderrocat}. The fish then disappears."
 						],
 						[
 							"15-18",
@@ -14718,7 +14718,7 @@
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"Pots, com a acció, speak the horn's paraula màgica and then blow the horn, which emits a thunderous blast en un con de 30 peus that is audible 600 feet away. Tota criatura a dins del con must make a DC 15 Constitució saving throw. Qui falli rep {@dice 5d6} de dany de tro i està {@condition deafened} durant 1 minut. Qui superi en rep la meitat i no està {@condition deafened}. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take {@dice 10d6} de dany de tro instead of {@dice 5d6}.",
+				"Pots, com a acció, speak the horn's paraula màgica and then blow the horn, which emits a thunderous blast en un con de 30 peus that is audible 600 feet away. Tota criatura a dins del con must make a DC 15 Constitució saving throw. Qui falli rep {@dice 5d6} de dany de tro i està {@condition eixordat} durant 1 minut. Qui superi en rep la meitat i no està {@condition eixordat}. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take {@dice 10d6} de dany de tro instead of {@dice 5d6}.",
 				"Each use of the horn's magic has a {@chance 20} chance of causing the horn to explode. The explosion deals {@dice 10d6} de dany de foc to the blower and destroys the horn."
 			],
 			"lootTables": [
@@ -14736,7 +14736,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 4,
 			"entries": [
-				"This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horns blare, provided the creature is within 600 feet of the horn and not {@condition deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
+				"This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horns blare, provided the creature is within 600 feet of the horn and not {@condition eixordat}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
 			]
 		},
 		{
@@ -15269,7 +15269,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
-				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores terreny difícil. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {@condition exhaustion} from a forced march."
+				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores terreny difícil. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {@condition exhaust} from a forced march."
 			],
 			"lootTables": [
 				"Magic Item Table D"
@@ -16890,7 +16890,7 @@
 					"type": "list",
 					"items": [
 						"The serpent is a construct that understands and obeys whoever was holding the staff when it transformed.",
-						"It has immunity to poison damage and the {@condition poisoned} condition. No necessita aire, menjar, beure, ni dormir.",
+						"It has immunity to poison damage and the {@condition emmetzinat} condition. No necessita aire, menjar, beure, ni dormir.",
 						"When it es queda a 0 punts de cop, roll a {@dice d6}. On a roll of 1, the snake turns to dust and is destroyed. On any other roll, it changes back into a staff and breaks into {@dice 1d4 + 1} pieces that must be magically mended before the staff can be used again."
 					]
 				}
@@ -17170,7 +17170,7 @@
 			"wondrous": true,
 			"entries": [
 				"This glass jar, 3 inches in diameter, contains {@dice 1d4 + 1} doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.",
-				"Com a acció, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains {@dice 2d8 + 2} hit points, ceases to be {@condition poisoned}, and is cured of any disease."
+				"Com a acció, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains {@dice 2d8 + 2} hit points, ceases to be {@condition emmetzinat}, and is cured of any disease."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -17276,7 +17276,7 @@
 					"type": "entries",
 					"name": "Sun's Retaliation",
 					"entries": [
-						"When you take damage from a creature within 5 feet of you, you can use your reaction to make a melee attack with the spear against that creature. Si impacta, the spear deals damage as normal, and the creature is {@condition blinded} fins a l'inici del seu següent torn. This property of the spear can't be used again until the next dawn."
+						"When you take damage from a creature within 5 feet of you, you can use your reaction to make a melee attack with the spear against that creature. Si impacta, the spear deals damage as normal, and the creature is {@condition encegat} fins a l'inici del seu següent torn. This property of the spear can't be used again until the next dawn."
 					]
 				},
 				{
@@ -17377,7 +17377,7 @@
 					"type": "entries",
 					"name": "Resistant",
 					"entries": [
-						"While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the {@condition poisoned} condition."
+						"While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the {@condition emmetzinat} condition."
 					]
 				},
 				{
@@ -17617,7 +17617,7 @@
 										{
 											"type": "item",
 											"name": "Dead Eyes.",
-											"entry": "A creature that fails the saving throw against this poison is {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the creature is {@condition blinded}."
+											"entry": "A creature that fails the saving throw against this poison is {@condition emmetzinat} for 1 hour. While {@condition emmetzinat} in this way, the creature is {@condition encegat}."
 										},
 										{
 											"type": "item",
@@ -17640,7 +17640,7 @@
 							"items": [
 								"The weapon's bonus to attack and damage rolls increases to +2.",
 								"The saving throw DC for the weapon's poisons increases to 15.",
-								"The weapon gains a new poison option called Ghoul's Blood. A creature that fails the saving throw against this poison is {@condition poisoned} durant 1 minut. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+								"The weapon gains a new poison option called Ghoul's Blood. A creature that fails the saving throw against this poison is {@condition emmetzinat} durant 1 minut. While {@condition emmetzinat} in this way, the creature is {@condition paralyzed}. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 							]
 						}
 					]
@@ -18770,7 +18770,7 @@
 			"value": 25000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitució saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature is {@condition blinded}."
+				"A creature subjected to this poison must succeed on a DC 15 Constitució saving throw or become {@condition emmetzinat} for 1 hour. The {@condition emmetzinat} creature is {@condition encegat}."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -19944,7 +19944,7 @@
 						],
 						[
 							"95-96",
-							"Pots, com a acció bonus, cause the moonblade to flash brightly. Each creature that can see you and is within 30 feet of you must succeed on a DC 15 Constitució saving throw or become {@condition blinded} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. This property can't be used again until you take a short rest while attuned to the weapon."
+							"Pots, com a acció bonus, cause the moonblade to flash brightly. Each creature that can see you and is within 30 feet of you must succeed on a DC 15 Constitució saving throw or become {@condition encegat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. This property can't be used again until you take a short rest while attuned to the weapon."
 						],
 						[
 							"97-98",
@@ -20748,7 +20748,7 @@
 			"value": 40000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitució saving throw or become {@condition poisoned} for 24 hours. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage."
+				"A creature subjected to this poison must succeed on a DC 13 Constitució saving throw or become {@condition emmetzinat} for 24 hours. The {@condition emmetzinat} creature is {@condition unconscious}. The creature wakes up if it takes damage."
 			],
 			"poisonTypes": [
 				"contact"
@@ -20770,7 +20770,7 @@
 			"rarity": "none",
 			"value": 5000,
 			"entries": [
-				"These dried leaves of the Olisuba tree, when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Olisuba tea during a long rest, your {@condition exhaustion} level is reduced by 2 instead of 1 at the end of that long rest."
+				"These dried leaves of the Olisuba tree, when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Olisuba tea during a long rest, your {@condition exhaust} level is reduced by 2 instead of 1 at the end of that long rest."
 			]
 		},
 		{
@@ -21046,7 +21046,7 @@
 								{
 									"type": "item",
 									"name": "Boots.",
-									"entry": "The pair of boots is now an uncommon magic item that requires attunement. While you wear the boots, you have advantage on Força saving throws, and you can use your reaction to avoid being knocked {@condition prone}."
+									"entry": "The pair of boots is now an uncommon magic item that requires attunement. While you wear the boots, you have advantage on Força saving throws, and you can use your reaction to avoid being knocked {@condition enderrocat}."
 								}
 							]
 						}
@@ -21091,7 +21091,7 @@
 					"type": "entries",
 					"name": "Crushing Brand (Complex Property)",
 					"entries": [
-						"Over the course of a short rest, you inscribe this rune using dirt or crushed stone onto one weapon that deals dany contundent. The weapon gains a ghostly brown aura, and dany contundent dealt by the weapon ignores resistance and immunity. If you roll the maximum on the weapon's damage die or dice, the target of your attack is knocked {@condition prone} if it is a creature.",
+						"Over the course of a short rest, you inscribe this rune using dirt or crushed stone onto one weapon that deals dany contundent. The weapon gains a ghostly brown aura, and dany contundent dealt by the weapon ignores resistance and immunity. If you roll the maximum on the weapon's damage die or dice, the target of your attack is knocked {@condition enderrocat} if it is a creature.",
 						"In addition, you can expend a spell slot to grant the weapon a bonus to attack rolls and damage rolls equal to the spell slot's level divided by three.",
 						"These effects last for 24 hours or until you use this property again."
 					]
@@ -21107,7 +21107,7 @@
 					"type": "entries",
 					"name": "Overwhelming Bolt (Complex Property)",
 					"entries": [
-						"Com a acció, you scribe this rune using dirt or crushed rock onto a creature within your reach as you expend a spell slot. The creature must succeed on a Força saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature rep {@damage 2d8} de dany contundent mes {@damage 1d8} de dany contundent per level of the expended spell slot i està {@condition prone}. Si supera en rep la meitat and is not knocked {@condition prone}."
+						"Com a acció, you scribe this rune using dirt or crushed rock onto a creature within your reach as you expend a spell slot. The creature must succeed on a Força saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature rep {@damage 2d8} de dany contundent mes {@damage 1d8} de dany contundent per level of the expended spell slot i està {@condition enderrocat}. Si supera en rep la meitat and is not knocked {@condition enderrocat}."
 					]
 				}
 			]
@@ -21542,7 +21542,7 @@
 					"type": "entries",
 					"name": "Property",
 					"entries": [
-						"You can end one of the following conditions affecting yourself or una criatura que puguis veure a 30 peus d'abast: {@condition fascinat}, {@condition blinded}, {@condition deafened}, {@condition acovardit}, {@condition poisoned}, or {@condition atordit}."
+						"You can end one of the following conditions affecting yourself or una criatura que puguis veure a 30 peus d'abast: {@condition fascinat}, {@condition encegat}, {@condition eixordat}, {@condition acovardit}, {@condition emmetzinat}, or {@condition atordit}."
 					]
 				}
 			]
@@ -21698,7 +21698,7 @@
 			"value": 25000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 16 Constitució saving throw or take 3 ({@dice 1d6}) de dany de verí and become {@condition poisoned}. The {@condition poisoned} creature must repeat the saving throw every 24 hours, taking 3 ({@dice 1d6}) de dany de verí on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
+				"A creature subjected to this poison must succeed on a DC 16 Constitució saving throw or take 3 ({@dice 1d6}) de dany de verí and become {@condition emmetzinat}. The {@condition emmetzinat} creature must repeat the saving throw every 24 hours, taking 3 ({@dice 1d6}) de dany de verí on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -22025,7 +22025,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the {@condition poisoned} condition and have immunity to poison damage."
+				"This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the {@condition emmetzinat} condition and have immunity to poison damage."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -22123,7 +22123,7 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"A character attuned to the sword regains the maximum possible number of hit points from expended Hit Dice. However, the attuned character must eat twice as much food each day (a minimum of 2 pounds) to avoid {@condition exhaustion} (see \"The Environment\" in chapter 8 of the Player's Handbook.)"
+				"A character attuned to the sword regains the maximum possible number of hit points from expended Hit Dice. However, the attuned character must eat twice as much food each day (a minimum of 2 pounds) to avoid {@condition exhaust} (see \"The Environment\" in chapter 8 of the Player's Handbook.)"
 			]
 		},
 		{
@@ -22491,7 +22491,7 @@
 					"type": "entries",
 					"name": "Investigation, Perception",
 					"entries": [
-						"Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect {@condition poisoned} objects or try to extract clues from events that involve poison."
+						"Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect {@condition emmetzinat} objects or try to extract clues from events that involve poison."
 					]
 				},
 				{
@@ -22528,7 +22528,7 @@
 					],
 					"rows": [
 						[
-							"Spot a {@condition poisoned} object",
+							"Spot a {@condition emmetzinat} object",
 							"10"
 						],
 						[
@@ -23226,7 +23226,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"This concoction looks, smells, and tastes like a {@item potion of healing} or other beneficial potion. However, it is actually poison masked by illusion magic. An {@spell identificar} spell reveals its true nature.",
-				"If you drink it, you take {@dice 3d6} de dany de verí, and you must succeed on a DC 13 Constitució saving throw or be {@condition poisoned}. A l'inici de cada torn teu while you are {@condition poisoned} in this way, you take {@dice 3d6} de dany de verí. Al final de cada torn teu, you can repeat the saving throw. Si supera, the poison damage you take on your subsequent turns decreases by {@dice 1d6}. The poison ends when the damage decreases to 0."
+				"If you drink it, you take {@dice 3d6} de dany de verí, and you must succeed on a DC 13 Constitució saving throw or be {@condition emmetzinat}. A l'inici de cada torn teu while you are {@condition emmetzinat} in this way, you take {@dice 3d6} de dany de verí. Al final de cada torn teu, you can repeat the saving throw. Si supera, the poison damage you take on your subsequent turns decreases by {@dice 1d6}. The poison ends when the damage decreases to 0."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -23408,7 +23408,7 @@
 			"tier": "minor",
 			"rarity": "very rare",
 			"entries": [
-				"When you drink this potion, it removes any {@condition exhaustion} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+				"When you drink this potion, it removes any {@condition exhaust} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
 			],
 			"lootTables": [
 				"Magic Item Table D"
@@ -25111,7 +25111,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
-				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + el teu modificador de Constitució. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaustion}, reduce your level of {@condition exhaustion} by 1. Once the ring is used, it turns to dust and is destroyed."
+				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + el teu modificador de Constitució. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaust}, reduce your level of {@condition exhaust} by 1. Once the ring is used, it turns to dust and is destroyed."
 			]
 		},
 		{
@@ -25307,7 +25307,7 @@
 							"items": [
 								"You can expend 1 charge as an action and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point que puguis veure a 300 peus d'abast. The temperature in that area drops 20 degrees per minute, to a minimum of -30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless you use the ring to end it com a acció, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
 								"You can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: {@spell Mà d'en Bigby} (2 charges; the hand is made of ice, is immune to cold damage, and deals dany contundent instead of force damage as a clenched fist), {@spell con de fred} (2 charges), flesh to ice (3 charges; as {@spell carn a pedra} except that the target turns to solid ice with the density and durability of stone), {@spell tempesta de gel} (2 charges), {@spell Esfera Glaçada de l'Otiluk} (3 charges), {@spell tempesta d'aiguaneu} (1 charge), {@spell brot d'espines} (1 charge; the spikes are made of ice), or {@spell paret de glaç} (2 charges).",
-								"You can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition fascinat}, {@condition exhaustion}, {@condition acovardit}, {@condition paralyzed}, {@condition petrified}, and {@condition poisoned}. The ice creature obeys only its creator's commands. The ice object or creature apareix en un espai desocupat within 60 feet of you. It melts into a pool of normal water after 24 hours or when it es queda a 0 punts de cop. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
+								"You can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition fascinat}, {@condition exhaust}, {@condition acovardit}, {@condition paralyzed}, {@condition petrified}, and {@condition emmetzinat}. The ice creature obeys only its creator's commands. The ice object or creature apareix en un espai desocupat within 60 feet of you. It melts into a pool of normal water after 24 hours or when it es queda a 0 punts de cop. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
 							]
 						}
 					]
@@ -25350,7 +25350,7 @@
 			"reqAttune": true,
 			"entries": [
 				"While wearing this ring, pots, com a acció, speak its paraula màgica. When you do so, you can see into and through solid matter durant 1 minut. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does una fulla fina de plom.",
-				"Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitució saving throw or gain one level of {@condition exhaustion}."
+				"Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitució saving throw or gain one level of {@condition exhaust}."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -25388,7 +25388,7 @@
 					]
 				},
 				"The eyes on the robe can't be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.",
-				"A {@spell llum} spell cast on the robe or a {@spell llum del dia} spell cast within 5 feet of the robe causes you to estar {@condition blinded} durant 1 minut. Al final de cada torn teu, you pot salvar per Constitució (DC 11 for {@spell llum} or DC 15 for {@spell llum del dia}), ending the blindness on a success."
+				"A {@spell llum} spell cast on the robe or a {@spell llum del dia} spell cast within 5 feet of the robe causes you to estar {@condition encegat} durant 1 minut. Al final de cada torn teu, you pot salvar per Constitució (DC 11 for {@spell llum} or DC 15 for {@spell llum del dia}), ending the blindness on a success."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -26138,7 +26138,7 @@
 			"rarity": "unknown",
 			"value": 5000,
 			"entries": [
-				"Any creature that ingests a ryath root gains {@dice 2d4} temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitució saving throw or suffer the {@condition poisoned} condition for 1 hour."
+				"Any creature that ingests a ryath root gains {@dice 2d4} temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitució saving throw or suffer the {@condition emmetzinat} condition for 1 hour."
 			]
 		},
 		{
@@ -27063,7 +27063,7 @@
 			"ac": 2,
 			"entries": [
 				"A {@creature mind flayer} skilled at crafting magic items creates a shield of far sight by harvesting an eye from an intelligent humanoid and magically implanting it on the outer surface of a nonmagical shield. The shield becomes a magic item once the eyes is implanted, whereupon the {@creature mind flayer} can give the shield to a thrall or hang it on a wall in its lair. As long as the shield is on the same plane of existence as its creator, the {@creature mind flayer} can see through the shield's eye, which has {@sense visió de foscor} out to a range of 60 feet. While peering through this magical eye, the {@creature mind flayer} can use its Explosió Mental action as though it were standing behind the shield.",
-				"If a shield of far sight is destroyed, the {@creature mind flayer} that created it is {@condition blinded} for {@dice 2d12} hours."
+				"If a shield of far sight is destroyed, the {@creature mind flayer} that created it is {@condition encegat} for {@dice 2d12} hours."
 			]
 		},
 		{
@@ -27318,7 +27318,7 @@
 								"You can speak, read, and write Abyssal, Elvish, and Undercommon.",
 								"You have {@sense visió de foscor} out to a range of 60 feet. If you already have {@sense visió de foscor}, being attuned to the rapier increases the range of your {@sense visió de foscor} by 60 feet.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-								"Pots, com a acció, cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitució saving throw or become {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.",
+								"Pots, com a acció, cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitució saving throw or become {@condition emmetzinat} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition emmetzinat} in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.",
 								"While carrying the rapier, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. Additionally, you can't be caught in webs of any sort and can move through webs as if they were terreny difícil."
 							]
 						}
@@ -27614,7 +27614,7 @@
 			"bastó": true,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While holding it, you gain a +1 bonus to spell attack rolls.",
-				"If a flying creature que puguis veure a 30 peus d'abast makes an attack roll against you, you can use your reaction to hold the staff aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitució saving throw or be {@condition blinded} fins a l'inici del seu següent torn."
+				"If a flying creature que puguis veure a 30 peus d'abast makes an attack roll against you, you can use your reaction to hold the staff aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitució saving throw or be {@condition encegat} fins a l'inici del seu següent torn."
 			],
 			"hasFluffImages": true
 		},
@@ -27652,7 +27652,7 @@
 			"value": 5000,
 			"entries": [
 				"A gos de trineu (use the {@creature wolf} stat block in appendix A of the Monster Manual) costs 50 gp and can pull 360 pounds.",
-				"Gossos de Trineu must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of {@condition exhaustion}."
+				"Gossos de Trineu must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of {@condition exhaust}."
 			]
 		},
 		{
@@ -27894,7 +27894,7 @@
 			"value": 15000,
 			"entries": [
 				"Soothsalts are derived from a naturally occurring crystalline substance discovered throughout the wilds of the Miskath Strand. The crimson crystals have been mined from cavernous veins like those in the mouth of the Miskath Pit and found within smaller geode formations near sites ravaged by the Calamity. Soothsalts are consumed orally in lozenge-sized doses, and frequent users can be identified by the telltale crimson stain around their mouths. A creature subjected to a dose of soothsalts gains advantage on all Intel·ligència checks for {@dice 1d4} hours.",
-				"For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitució saving throw or gain one level of {@condition exhaustion}\u2014an effect which is cumulative with multiple doses."
+				"For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitució saving throw or gain one level of {@condition exhaust}\u2014an effect which is cumulative with multiple doses."
 			]
 		},
 		{
@@ -29407,7 +29407,7 @@
 							"type": "list",
 							"items": [
 								"Your proficiency bonus to Intel·ligència ({@skill Arcana}) and Intel·ligència ({@skill Història}) checks is doubled.",
-								"You can't be {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition acovardit}, {@condition petrified}, or {@condition atordit}.",
+								"You can't be {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition petrified}, or {@condition atordit}.",
 								"Undead with a challenge rating of 2 or lower will neither threaten nor attack you unless you harm them.",
 								"You can wield the staff as a +3 quarterstaff that deals an extra 10 ({@dice 3d6}) de dany necròtic on a hit."
 							]
@@ -29715,7 +29715,7 @@
 					"type": "entries",
 					"name": "Esclat de Tro",
 					"entries": [
-						"Pots, com a acció, cause the staff to issue a deafening Esclat de Tro, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitució saving throw. Qui falli rep {@dice 2d6} de dany de tro and becomes {@condition deafened} durant 1 minut. Qui superi takes half damage i no està {@condition deafened}."
+						"Pots, com a acció, cause the staff to issue a deafening Esclat de Tro, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitució saving throw. Qui falli rep {@dice 2d6} de dany de tro and becomes {@condition eixordat} durant 1 minut. Qui superi takes half damage i no està {@condition eixordat}."
 					]
 				},
 				{
@@ -30865,7 +30865,7 @@
 					"type": "entries",
 					"name": "Searing Radiance",
 					"entries": [
-						"The sword deals an extra 9 ({@dice 2d8}) de dany radiant to any creature it hits, o 16 ({@dice 3d10}) de dany radiant if you're wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitució saving throw or be {@condition blinded} fins el final del seu proper torn."
+						"The sword deals an extra 9 ({@dice 2d8}) de dany radiant to any creature it hits, o 16 ({@dice 3d10}) de dany radiant if you're wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitució saving throw or be {@condition encegat} fins el final del seu proper torn."
 					]
 				},
 				{
@@ -31163,7 +31163,7 @@
 									"5",
 									"Dooms of the Malpheggi (emerald lizardfolk fang)",
 									"1 {@creature lizard queen||lizardfolk queen} and 4 {@creature lizardfolk}",
-									"You gain reptilian scales, granting you a +2 bonus to your AC. Additionally, when you finish a long rest, you must succeed on a DC 15 Constitució saving throw or gain 1 level of {@condition exhaustion}."
+									"You gain reptilian scales, granting you a +2 bonus to your AC. Additionally, when you finish a long rest, you must succeed on a DC 15 Constitució saving throw or gain 1 level of {@condition exhaust}."
 								],
 								[
 									"6",
@@ -31211,7 +31211,7 @@
 									"13",
 									"Three Bridges to the Sky (lapis lazuli oni fang)",
 									"3 {@creature oni}",
-									"Obtens una velocitat de vol de 30 peus, and you can use the tooth to cast the {@spell detectar màgia} spell at will. While you are attuned to fewer than 3 magic items, you gain 1 level of {@condition exhaustion} that can't be removed until you are attuned to three or more magic items."
+									"Obtens una velocitat de vol de 30 peus, and you can use the tooth to cast the {@spell detectar màgia} spell at will. While you are attuned to fewer than 3 magic items, you gain 1 level of {@condition exhaust} that can't be removed until you are attuned to three or more magic items."
 								],
 								[
 									"14",
@@ -31247,7 +31247,7 @@
 									"19",
 									"Incendax's Tooth (ruby-veined red dragon fang)",
 									"1 {@creature drac vermell ancià}",
-									"You gain immunity to fire damage, and com a acció, you can exhale fire en un con de 90 peus. Tota criatura dins de l'àrea must make a DC 24 Destresa saving throw. Si falla, rep {@damage 26d6} de dany de foc; si supera, en rep la meitat. After using the breath weapon, you gain 2 levels of {@condition exhaustion}."
+									"You gain immunity to fire damage, and com a acció, you can exhale fire en un con de 90 peus. Tota criatura dins de l'àrea must make a DC 24 Destresa saving throw. Si falla, rep {@damage 26d6} de dany de foc; si supera, en rep la meitat. After using the breath weapon, you gain 2 levels of {@condition exhaust}."
 								],
 								[
 									"20",
@@ -31540,7 +31540,7 @@
 						[
 							"01",
 							"Tens una velocitat de vol de 150 peus but lose all other movement.",
-							"You are {@condition blinded}."
+							"You are {@condition encegat}."
 						],
 						[
 							"02",
@@ -31590,7 +31590,7 @@
 						[
 							"11",
 							"Your clothes are wrapped in illusion that makes them appear to be the very latest style, drawing praise and attention. You have a +1 bonus to Carisma checks.",
-							"Any food and drink you eat spoils as you swallow it. Each time you eat or drink, you are {@condition poisoned} for 1 hour."
+							"Any food and drink you eat spoils as you swallow it. Each time you eat or drink, you are {@condition emmetzinat} for 1 hour."
 						],
 						[
 							"12",
@@ -31605,7 +31605,7 @@
 						[
 							"14",
 							"You constantly see afterimages of all events that occurred within 30 feet of you over the previous hour.",
-							"You are distracted by voices and visions, forcing you to succeed on a Saviesa saving throw every 4 hours or gain one level of {@condition exhaustion}."
+							"You are distracted by voices and visions, forcing you to succeed on a Saviesa saving throw every 4 hours or gain one level of {@condition exhaust}."
 						],
 						[
 							"15",
@@ -31624,8 +31624,8 @@
 						],
 						[
 							"18",
-							"While you are afflicted by a disease or suffering the {@condition poisoned} or {@condition acovardit} condition, whenever you hit a humanoid with a melee attack, the target must succeed on a DC 15 Constitució saving throw. Si falla, you transfer the disease or the condition to the target, and the disease or condition ends for you.",
-							"Water becomes intensely acidic to you. If you are submerged in water, you take {@dice 1d6} de dany d'àcid a l'inici de cada torn teu, and drinking pure water causes you to be {@condition poisoned} for 1 hour."
+							"While you are afflicted by a disease or suffering the {@condition emmetzinat} or {@condition acovardit} condition, whenever you hit a humanoid with a melee attack, the target must succeed on a DC 15 Constitució saving throw. Si falla, you transfer the disease or the condition to the target, and the disease or condition ends for you.",
+							"Water becomes intensely acidic to you. If you are submerged in water, you take {@dice 1d6} de dany d'àcid a l'inici de cada torn teu, and drinking pure water causes you to be {@condition emmetzinat} for 1 hour."
 						],
 						[
 							"19",
@@ -31845,7 +31845,7 @@
 						[
 							"62",
 							"The first creature you hit with a weapon attack on each of your turns takes {@dice 1d4} de dany de foc at the start of its next turn.",
-							"You are {@condition blinded} while in bright light, and your shadow takes on a monstrous appearance."
+							"You are {@condition encegat} while in bright light, and your shadow takes on a monstrous appearance."
 						],
 						[
 							"63",
@@ -31890,7 +31890,7 @@
 						[
 							"71",
 							"Whenever you roll a 20 on a {@dice d20}, you can immediately end one effect on you.",
-							"Whenever you roll a 1 on a {@dice d20}, you are {@condition blinded} until the end of your next turn."
+							"Whenever you roll a 1 on a {@dice d20}, you are {@condition encegat} until the end of your next turn."
 						],
 						[
 							"72",
@@ -31939,7 +31939,7 @@
 						],
 						[
 							"81",
-							"Your blood is venomous, granting you immunity to poison and to the {@condition poisoned} condition. You can cast the {@spell parlar animal} spell at will, but you can use it to communicate only with snakes.",
+							"Your blood is venomous, granting you immunity to poison and to the {@condition emmetzinat} condition. You can cast the {@spell parlar animal} spell at will, but you can use it to communicate only with snakes.",
 							"Your tongue is long and forked, causing you to speak in a hiss. You have disadvantage on Carisma checks involving speech, and you must succeed on a DC 15 Constitució check to cast a spell with a verbal component."
 						],
 						[
@@ -32004,7 +32004,7 @@
 						],
 						[
 							"94",
-							"Com a acció, you cause a swirling storm of rocks and dust to surround you in a 10-foot radius durant 1 minut. Each creature hostile to you that enters the area must succeed on a DC 12 Constitució saving throw or take {@dice 1d6} de dany contundent and be {@condition blinded} for 1 round. You can use this property three times.",
+							"Com a acció, you cause a swirling storm of rocks and dust to surround you in a 10-foot radius durant 1 minut. Each creature hostile to you that enters the area must succeed on a DC 12 Constitució saving throw or take {@dice 1d6} de dany contundent and be {@condition encegat} for 1 round. You can use this property three times.",
 							"{@creature fire elemental||Fire elementals}, {@creature water elemental||water elementals}, and other creatures of fire and water (as determined by the DM) regard you as their enemy, and focus their attacks against you to the exclusion of all else."
 						],
 						[
@@ -32581,7 +32581,7 @@
 			"value": 60000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitució saving throw or become {@condition poisoned} for {@dice 4d6} hours. The {@condition poisoned} creature is {@condition incapacitated}."
+				"A creature subjected to this poison must succeed on a DC 15 Constitució saving throw or become {@condition emmetzinat} for {@dice 4d6} hours. The {@condition emmetzinat} creature is {@condition incapacitated}."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -34199,7 +34199,7 @@
 			"value": 15000,
 			"verí": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 11 Constitució saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zona de la veritat} spell."
+				"A creature subjected to this poison must succeed on a DC 11 Constitució saving throw or become {@condition emmetzinat} for 1 hour. The {@condition emmetzinat} creature can't knowingly speak a lie, as if under the effect of a {@spell zona de la veritat} spell."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -34389,7 +34389,7 @@
 							"type": "list",
 							"items": [
 								"You gain a climbing speed equal to your walking speed.",
-								"Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + el teu modificador de Força, instead of the dany contundent normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a DC 17 Constitució saving throw or be {@condition poisoned} durant 1 minut. The target can repeat the saving throw al final de cada torn seu, ending the condition on itself on a success.",
+								"Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + el teu modificador de Força, instead of the dany contundent normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a DC 17 Constitució saving throw or be {@condition emmetzinat} durant 1 minut. The target can repeat the saving throw al final de cada torn seu, ending the condition on itself on a success.",
 								"When you cast the {@spell polimorfia} spell using the Verminshroud, you can transform into a {@creature giant scorpion}."
 							]
 						}
@@ -35147,7 +35147,7 @@
 						],
 						[
 							"91-95",
-							"A burst of colorful shimmering light extends from you in a 30-foot radius. You and tota criatura dins de l'àrea that can see must succeed on a DC 15 Constitució saving throw or become {@condition blinded} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+							"A burst of colorful shimmering light extends from you in a 30-foot radius. You and tota criatura dins de l'àrea that can see must succeed on a DC 15 Constitució saving throw or become {@condition encegat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 						],
 						[
 							"96-97",
@@ -35340,7 +35340,7 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"Waythe is a unique greatsword most recently in the possession of a high-ranking {@creature cloud giant} ambassador.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature of the giant type with it, the giant takes an extra {@dice 2d6} de dany tallant, and it must succeed on a DC 15 Força saving throw or fall {@condition prone}.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature of the giant type with it, the giant takes an extra {@dice 2d6} de dany tallant, and it must succeed on a DC 15 Força saving throw or fall {@condition enderrocat}.",
 				"The sword also functions as a {@item wand of enemy detection}. It regains all of its expended charges at dawn and isn't at risk of crumbling if its last charge is used.",
 				{
 					"name": "Sentience",
@@ -35811,7 +35811,7 @@
 			"rarity": "unknown",
 			"value": 2500,
 			"entries": [
-				"Introducing the juice of a wildroot into a {@condition poisoned} creature's bloodstream (for example, by rubbing it on an open wound) rids the creature of the {@condition poisoned} condition. Once used in this way, a wildroot loses this property."
+				"Introducing the juice of a wildroot into a {@condition emmetzinat} creature's bloodstream (for example, by rubbing it on an open wound) rids the creature of the {@condition emmetzinat} condition. Once used in this way, a wildroot loses this property."
 			]
 		},
 		{
@@ -36408,7 +36408,7 @@
 			"rarity": "none",
 			"value": 1000,
 			"entries": [
-				"Zabou mushrooms feed on offal and the rotting wood of dead trees. If handled carefully, a zabou can be picked or uprooted without causing it to release its spores. If crushed or struck, a zabou releases its spores in a 10-foot-radius sphere. A zabou can also be hurled up to 30 feet away or dropped like a grenade, releasing its cloud of spores on impact. Any creature in that area must succeed on a DC 10 Constitució saving throw or be {@condition poisoned} durant 1 minut. The {@condition poisoned} creature's skin itches for the duration. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+				"Zabou mushrooms feed on offal and the rotting wood of dead trees. If handled carefully, a zabou can be picked or uprooted without causing it to release its spores. If crushed or struck, a zabou releases its spores in a 10-foot-radius sphere. A zabou can also be hurled up to 30 feet away or dropped like a grenade, releasing its cloud of spores on impact. Any creature in that area must succeed on a DC 10 Constitució saving throw or be {@condition emmetzinat} durant 1 minut. The {@condition emmetzinat} creature's skin itches for the duration. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 			]
 		},
 		{

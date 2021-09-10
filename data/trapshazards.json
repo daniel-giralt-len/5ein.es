@@ -63,7 +63,7 @@
 			"entries": [
 				"This trap uses a trip wire to release a net suspended from the ceiling.",
 				"The trip wire is 3 inches off the ground and stretches between two columns or trees. The net is hidden by cobwebs or foliage. The DC to spot the trip wire and net is 10. A successful DC 15 Destresa check using thieves' tools breaks the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.",
-				"When the trap is triggered, the net is released, covering a 10-foot-square area. Those in the area are trapped under the net and {@condition restrained}, and those that fail a DC 10 Força saving throw are also knocked {@condition prone}.",
+				"When the trap is triggered, the net is released, covering a 10-foot-square area. Those in the area are trapped under the net and {@condition restrained}, and those that fail a DC 10 Força saving throw are also knocked {@condition enderrocat}.",
 				"A creature can use its action to make a DC 10 Força check, freeing itself or another creature within its reach on a success. The net has AC 10 and 20 hit points.",
 				"Dealing 5 slashing damage to the net (AC 10) destroys a 5-foot-square section of it, freeing any creature trapped in that section."
 			]
@@ -166,7 +166,7 @@
 						{
 							"type": "item",
 							"name": "Crushing Pillars (Initiative 10).",
-							"entry": "Each creature in the 50-foot-long area beyond the first 80 feet of the hallway must make a DC 15 Destresa saving throw. Qui falli rep 11 ({@dice 2d10}) de dany contundent i està {@condition prone}. Si supera en rep la meitat i no està {@condition prone}."
+							"entry": "Each creature in the 50-foot-long area beyond the first 80 feet of the hallway must make a DC 15 Destresa saving throw. Qui falli rep 11 ({@dice 2d10}) de dany contundent i està {@condition enderrocat}. Si supera en rep la meitat i no està {@condition enderrocat}."
 						},
 						{
 							"type": "item",
@@ -339,7 +339,7 @@
 			"trapHazType": "MECH",
 			"entries": [
 				"A poisoned needle is hidden within a treasure chest's lock, or in something else that a creature might open. Opening the chest without the proper key causes the needle to spring out, delivering a dose of poison.",
-				"When the trap is triggered, the needle extends 3 inches straight out from the lock. A creature within range takes 1 piercing damage and 11 ({@dice 2d10}) de dany de verí, and must succeed on a DC 15 Constitució saving throw or be {@condition poisoned} for 1 hour.",
+				"When the trap is triggered, the needle extends 3 inches straight out from the lock. A creature within range takes 1 piercing damage and 11 ({@dice 2d10}) de dany de verí, and must succeed on a DC 15 Constitució saving throw or be {@condition emmetzinat} for 1 hour.",
 				"A successful DC 20 Intel·ligència ({@skill Investigació}) check allows a character to deduce the trap's presence from alterations made to the lock to accommodate the needle.",
 				"A successful DC 15 Destresa check using {@item thieves' tools|phb} disarms the trap, removing the needle from the lock. Unsuccessfully attempting to pick the lock triggers the trap."
 			]
@@ -352,7 +352,7 @@
 			"tier": 1,
 			"threat": 3,
 			"effect": [
-				"The triggering creature must make a DC 20 Constitució saving throw. Si falla, rep 14 ({@dice 4d6}) de dany de verí i està {@condition poisoned} for 10 minutes. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. Si supera, la criatura rep la meitat del dany i no està {@condition poisoned}."
+				"The triggering creature must make a DC 20 Constitució saving throw. Si falla, rep 14 ({@dice 4d6}) de dany de verí i està {@condition emmetzinat} for 10 minutes. While {@condition emmetzinat} in this way, the creature is {@condition paralyzed}. Si supera, la criatura rep la meitat del dany i no està {@condition emmetzinat}."
 			],
 			"trigger": [
 				"Anyone attempting to pick or open the lock triggers the trap."
@@ -422,7 +422,7 @@
 										],
 										[
 											"4",
-											"Buffeting winds force each creature in the room to succeed on a DC 20 Força saving throw or be knocked {@condition prone}."
+											"Buffeting winds force each creature in the room to succeed on a DC 20 Força saving throw or be knocked {@condition enderrocat}."
 										],
 										[
 											"5",
@@ -487,7 +487,7 @@
 				"With a successful DC 15 Saviesa ({@skill Percepció}) check, a character can spot the trapdoor and pressure plate.",
 				"A search of the floor accompanied by a successful DC 15 Intel·ligència ({@skill Investigació}) check reveals variations in the mortar and stone that betray the pressure plate's presence. The same check made while inspecting the ceiling notes variations in the stonework that reveal the trapdoor. Wedging an iron spike or other object under the pressure plate prevents the trap from activating.",
 				"Activation of the sphere requires all creatures present to roll initiative. The sphere rolls initiative with a {@hit +8} bonus. On its turn, it moves 60 feet in a straight line.",
-				"The sphere can move through creatures' spaces, and creatures can move through its space, treating it as terreny difícil. Whenever the sphere enters a creature's space or a creature enters its space while it's rolling, that creature must succeed on a DC 15 Destresa saving throw or take 55 ({@dice 10d10}) de dany contundent and be knocked {@condition prone}.",
+				"The sphere can move through creatures' spaces, and creatures can move through its space, treating it as terreny difícil. Whenever the sphere enters a creature's space or a creature enters its space while it's rolling, that creature must succeed on a DC 15 Destresa saving throw or take 55 ({@dice 10d10}) de dany contundent and be knocked {@condition enderrocat}.",
 				"The sphere stops when it hits a wall or similar barrier. It can't go around corners, but smart dungeon builders incorporate gentle, curving turns into nearby passages that allow the sphere to keep moving.",
 				"Com a acció, a creature within 5 feet of the sphere can attempt to slow it down with a DC 20 Força check. On a successful check, the sphere's speed is reduced by 15 feet. If the sphere's speed drops to 0, it stops moving and is no longer a threat."
 			]
@@ -565,7 +565,7 @@
 						{
 							"type": "item",
 							"name": "Sphere of Crushing Doom (Initiative 10).",
-							"entry": "The trap's active element is a sphere of steel that almost fills the 10-foot width of the hallway and rolls to the bottom of the slope on its turn. Each creature in the sphere's path must make a DC 20 Força saving throw. Qui falli rep 22 ({@dice 4d10}) de dany contundent i està {@condition prone}. Qui superi en rep la meitat i no està {@condition prone}. Objects that block the sphere, such as a conjured wall, take maximum damage from the impact."
+							"entry": "The trap's active element is a sphere of steel that almost fills the 10-foot width of the hallway and rolls to the bottom of the slope on its turn. Each creature in the sphere's path must make a DC 20 Força saving throw. Qui falli rep 22 ({@dice 4d10}) de dany contundent i està {@condition enderrocat}. Qui superi en rep la meitat i no està {@condition enderrocat}. Objects that block the sphere, such as a conjured wall, take maximum damage from the impact."
 						}
 					]
 				}
@@ -621,8 +621,8 @@
 			"entries": [
 				"The following rules can be used for rockslides as well as avalanches.",
 				"An avalanche is a mass of snow and debris falling rapidly down a mountainside. A typical avalanche is 300 feet wide, 150 feet long, and 30 feet thick. Creatures in the path of an avalanche can avoid it or escape it if they're close to its edge, but outrunning one is almost impossible.",
-				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition prone}, and the creature must make a DC 15 Força saving throw, taking {@dice 1d10} de dany contundent; si supera, en rep la meitat.",
-				"When an avalanche stops, the snow settles and buries creatures in it. A creature buried in this way is {@condition blinded} and {@condition restrained} and has total cover. The creature gains one level of {@condition exhaustion} for every 5 minutes it spends buried in the snow. It can try to dig itself free com a acció, breaking the surface and ending the blinded and restrained conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
+				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition enderrocat}, and the creature must make a DC 15 Força saving throw, taking {@dice 1d10} de dany contundent; si supera, en rep la meitat.",
+				"When an avalanche stops, the snow settles and buries creatures in it. A creature buried in this way is {@condition encegat} and {@condition restrained} and has total cover. The creature gains one level of {@condition exhaust} for every 5 minutes it spends buried in the snow. It can try to dig itself free com a acció, breaking the surface and ending the blinded and restrained conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
 				"A creature that is not restrained or {@condition incapacitated} can spend 1 minute freeing another creature buried in the snow. Once free, that creature is no longer blinded or restrained by the avalanche."
 			]
 		},
@@ -633,9 +633,9 @@
 			"trapHazType": "WLD",
 			"entries": [
 				"A typical avalanche (or rockslide) is 300 feet wide, 150 feet long, and 30 feet thick. Creatures in the path of an avalanche can avoid it or escape it if they're close to its edge, but outrunning one is almost impossible.",
-				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition prone}, and the creature must make a DC 15 Força saving throw, taking {@dice 1d10} de dany contundent; si supera, en rep la meitat.",
-				"When an avalanche stops, the snow and other debris settle and bury creatures. A creature buried in this way is {@condition blinded} and {@condition restrained}, and it has total cover. The creature gains 1 level of {@condition exhaustion} for every 5 minutes it spends buried. It can try to dig itself free com a acció, breaking the surface and ending the {@condition blinded} and {@condition restrained} conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
-				"A creature that is not {@condition restrained} or {@condition incapacitated} can spend 1 minute freeing a buried creature. Once free, that creature is no longer {@condition blinded} or {@condition restrained} by the avalanche."
+				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition enderrocat}, and the creature must make a DC 15 Força saving throw, taking {@dice 1d10} de dany contundent; si supera, en rep la meitat.",
+				"When an avalanche stops, the snow and other debris settle and bury creatures. A creature buried in this way is {@condition encegat} and {@condition restrained}, and it has total cover. The creature gains 1 level of {@condition exhaust} for every 5 minutes it spends buried. It can try to dig itself free com a acció, breaking the surface and ending the {@condition encegat} and {@condition restrained} conditions on itself with a successful DC 15 Força ({@skill Atletisme}) check. A creature that fails this check three times can't attempt to dig itself out again.",
+				"A creature that is not {@condition restrained} or {@condition incapacitated} can spend 1 minute freeing a buried creature. Once free, that creature is no longer {@condition encegat} or {@condition restrained} by the avalanche."
 			]
 		},
 		{
@@ -722,7 +722,7 @@
 						],
 						[
 							"31\u201335",
-							"The target's ears tear free from its head and scurry away; the target is {@condition deafened}."
+							"The target's ears tear free from its head and scurry away; the target is {@condition eixordat}."
 						],
 						[
 							"36\u201340",
@@ -797,7 +797,7 @@
 			"page": 110,
 			"trapHazType": "WTH",
 			"entries": [
-				"Whenever the temperature is at or below 0 degrees Fahrenheit, a creature exposed to the cold must succeed on a DC 10 Constitució saving throw at the end of each hour or gain one level of {@condition exhaustion}. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates."
+				"Whenever the temperature is at or below 0 degrees Fahrenheit, a creature exposed to the cold must succeed on a DC 10 Constitució saving throw at the end of each hour or gain one level of {@condition exhaust}. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates."
 			]
 		},
 		{
@@ -806,7 +806,7 @@
 			"page": 110,
 			"trapHazType": "WTH",
 			"entries": [
-				"When the temperature is at or above 100 degrees Fahrenheit, a creature exposed to the heat and without access to drinkable water must succeed on a Constitució saving throw at the end of each hour or gain one level of {@condition exhaustion}. The DC is 5 for the first hour and increases by 1 for each additional hour.",
+				"When the temperature is at or above 100 degrees Fahrenheit, a creature exposed to the heat and without access to drinkable water must succeed on a Constitució saving throw at the end of each hour or gain one level of {@condition exhaust}. The DC is 5 for the first hour and increases by 1 for each additional hour.",
 				"Creatures wearing medium or heavy armor, or who are clad in heavy clothing, have disadvantage on the saving throw. Creatures with resistance or immunity to fire damage automatically succeed on the saving throw, as do creatures naturally adapted to hot climates."
 			]
 		},
@@ -825,7 +825,7 @@
 			"page": 170,
 			"trapHazType": "WLD",
 			"entries": [
-				"If a creature falls into the space of a second creature and neither of them is Tiny, the second creature must succeed on a DC 15 Destresa saving throw or be impacted by the falling creature, and any damage resulting from the fall is divided evenly between them. The impacted creature is also knocked {@condition prone}, unless it is two or more sizes larger than the falling creature."
+				"If a creature falls into the space of a second creature and neither of them is Tiny, the second creature must succeed on a DC 15 Destresa saving throw or be impacted by the falling creature, and any damage resulting from the fall is divided evenly between them. The impacted creature is also knocked {@condition enderrocat}, unless it is two or more sizes larger than the falling creature."
 			]
 		},
 		{
@@ -854,7 +854,7 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"A creature can be immersed in frigid water for a number of minutes equal to its Constitució score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a DC 10 Constitució saving throw or gain one level of {@condition exhaustion}. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures that are naturally adapted to living in ice-cold water."
+				"A creature can be immersed in frigid water for a number of minutes equal to its Constitució score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a DC 10 Constitució saving throw or gain one level of {@condition exhaust}. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures that are naturally adapted to living in ice-cold water."
 			]
 		},
 		{
@@ -1017,7 +1017,7 @@
 			"page": 196,
 			"entries": [
 				"The fungus known as russet mold is reddish-brown in color and found only in places that are dark, warm, and wet. Russet mold that spreads out across a metal object can be mistaken for natural rust, and a successful DC 15 Intel·ligència ({@skill Natura}) or Saviesa ({@skill Supervivència}) check is required to identify it accurately by sight in such a case.",
-				"Any creature that comes within 5 feet of russet mold must make a DC 13 Constitució saving throw as the mold emits a puff of spores. Si falla, the creature becomes {@condition poisoned}. While {@condition poisoned} in this way, the creature takes 7 ({@dice 2d6}) de dany de verí a l'inici de cada torn seu, sprouting mold as it takes damage. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Any magic that neutralizes poison or cures disease kills the infestation. A creature reduced to 0 hit points by the mold's poison damage dies. If the dead creature is a beast, a giant, or a humanoid, one or more newborn {@creature Vegepygmy|vgm|vegepygmies} emerge from its body 24 hours later: one newborn from a Small corpse, two from a Medium corpse, four from a Large corpse, eight from a Huge corpse, or sixteen from a Gargantuan corpse.",
+				"Any creature that comes within 5 feet of russet mold must make a DC 13 Constitució saving throw as the mold emits a puff of spores. Si falla, the creature becomes {@condition emmetzinat}. While {@condition emmetzinat} in this way, the creature takes 7 ({@dice 2d6}) de dany de verí a l'inici de cada torn seu, sprouting mold as it takes damage. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Any magic that neutralizes poison or cures disease kills the infestation. A creature reduced to 0 hit points by the mold's poison damage dies. If the dead creature is a beast, a giant, or a humanoid, one or more newborn {@creature Vegepygmy|vgm|vegepygmies} emerge from its body 24 hours later: one newborn from a Small corpse, two from a Medium corpse, four from a Large corpse, eight from a Huge corpse, or sixteen from a Gargantuan corpse.",
 				"Russet mold can be hard to kill, since weapons and most types of damage do it no harm. Effects that deal acid, necrotic, or radiant damage kill 1 square foot of russet mold per 1 damage dealt. A pound of salt, a gallon of alcohol, or a magical effect that cures disease kills russet mold in a square area that is 10 feet on a side. Sunlight kills any russet mold in the light's area."
 			]
 		},
@@ -1027,7 +1027,7 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"Slippery ice is terreny difícil. When a creature moves onto slippery ice for the first time on a turn, it must succeed on una tirada de Destresa ({@skill Acrobàcies}) amb CD 10 or fall {@condition prone}."
+				"Slippery ice is terreny difícil. When a creature moves onto slippery ice for the first time on a turn, it must succeed on una tirada de Destresa ({@skill Acrobàcies}) amb CD 10 or fall {@condition enderrocat}."
 			]
 		},
 		{
@@ -1074,7 +1074,7 @@
 			"source": "DMG",
 			"page": 105,
 			"entries": [
-				"Yellow mold grows in dark places, and one patch covers a 5-foot square. If touched, the mold ejects a cloud of spores that fills a 10-foot cube originating from the mold. Any creature in the area must succeed on a DC 15 Constitució saving throw or take 11 ({@dice 2d10}) de dany de verí and become {@condition poisoned} durant 1 minut. While {@condition poisoned} in this way, the creature takes 5 ({@dice 1d10}) de dany de verí a l'inici de cada torn seu. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself on a successful save.",
+				"Yellow mold grows in dark places, and one patch covers a 5-foot square. If touched, the mold ejects a cloud of spores that fills a 10-foot cube originating from the mold. Any creature in the area must succeed on a DC 15 Constitució saving throw or take 11 ({@dice 2d10}) de dany de verí and become {@condition emmetzinat} durant 1 minut. While {@condition emmetzinat} in this way, the creature takes 5 ({@dice 1d10}) de dany de verí a l'inici de cada torn seu. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself on a successful save.",
 				"Sunlight or any amount of fire damage instantly destroys one patch of yellow mold."
 			]
 		}

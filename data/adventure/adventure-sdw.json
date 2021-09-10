@@ -389,7 +389,7 @@
 							"id": "01e",
 							"entries": [
 								"Rising from the marsh mere yards from Leilon, Idol Island contains the remains of crumbled statues of forgotten human nobles. The settlers claim to hear voices whispering from the island at night, inviting them to view their destinies. If the characters walk by the island at night, they hear these whispers as well.",
-								"A character who spends the night on the island taking a long rest has vague, prophetic dreams of adventures to come. For instance, the character might view the face of an drac verd ancià, a horde of zombies, or a sahuagin attack. At the end of the rest, the character must make a DC 13 Saviesa saving throw. On a success, the character is bolstered by the strange dreams and gains inspiration. On a failure, the character gains a level of {@condition exhaustion}."
+								"A character who spends the night on the island taking a long rest has vague, prophetic dreams of adventures to come. For instance, the character might view the face of an drac verd ancià, a horde of zombies, or a sahuagin attack. At the end of the rest, the character must make a DC 13 Saviesa saving throw. On a success, the character is bolstered by the strange dreams and gains inspiration. On a failure, the character gains a level of {@condition exhaust}."
 							]
 						},
 						{
@@ -1196,7 +1196,7 @@
 									"id": "06b",
 									"entries": [
 										"The remains of ghouls, skeletons, zombies, and some other undead lay scattered across this cavern, torn to pieces by Claugiyliamatar. A creature with a passive Saviesa ({@skill Percepció}) score of 17 of higher notices that the surfaces of the chamber are covered with a very fine green dust. This dust is made of tiny, hallucinogenic spores created by moss in the chamber. A {@spell detectar màgia} spell reveals that the moss and spores radiate auras of enchantment magic.",
-										"Whenever a creature enters this cavern, it must make a DC 15 Constitució saving throw. On a success, the creature is immune to the effect of the spores for 24 hours. Si falla, the creature is {@condition poisoned} durant 1 minut. While {@condition poisoned}, the creature is delirious and feels the need to frolic. A l'inici del seu torn, the {@condition poisoned} creature rolls on the Frolic Direction table and moves its full speed in a direction indicated by the roll. The creature moves in a straight line that direction without regard for its own safety, stumbling into hazards and obstacles or over ledges. If a creature runs into a statue, stalagmite, or wall and still has movement left, the creature takes {@dice 1d6} de dany contundent per 10 feet of remaining movement (arrodoneix a la baixa). The creature can repeat the saving throw at the end of its turns, ending the effect on a success.",
+										"Whenever a creature enters this cavern, it must make a DC 15 Constitució saving throw. On a success, the creature is immune to the effect of the spores for 24 hours. Si falla, the creature is {@condition emmetzinat} durant 1 minut. While {@condition emmetzinat}, the creature is delirious and feels the need to frolic. A l'inici del seu torn, the {@condition emmetzinat} creature rolls on the Frolic Direction table and moves its full speed in a direction indicated by the roll. The creature moves in a straight line that direction without regard for its own safety, stumbling into hazards and obstacles or over ledges. If a creature runs into a statue, stalagmite, or wall and still has movement left, the creature takes {@dice 1d6} de dany contundent per 10 feet of remaining movement (arrodoneix a la baixa). The creature can repeat the saving throw at the end of its turns, ending the effect on a success.",
 										{
 											"type": "table",
 											"caption": "Frolic Direction",
@@ -1326,7 +1326,7 @@
 									"name": "C9. Zuri's Hidden Hoard",
 									"id": "074",
 									"entries": [
-										"A 5-foot-square patch of moss in the center of this area hides a spiked pit trap. A creature notices the moss is not actually attached to the ground with a successful DC 15 Saviesa ({@skill Percepció}) check. A Medium or smaller creature that steps on the moss falls 10 feet onto the {@condition poisoned} spikes at the pit's bottom, taking 3 ({@dice 1d6}) de dany contundent and 11 ({@dice 2d10}) de dany perforant, and it must make a DC 13 Constitució saving throw, taking 22 ({@dice 4d10}) de dany de verí; si supera, en rep la meitat.",
+										"A 5-foot-square patch of moss in the center of this area hides a spiked pit trap. A creature notices the moss is not actually attached to the ground with a successful DC 15 Saviesa ({@skill Percepció}) check. A Medium or smaller creature that steps on the moss falls 10 feet onto the {@condition emmetzinat} spikes at the pit's bottom, taking 3 ({@dice 1d6}) de dany contundent and 11 ({@dice 2d10}) de dany perforant, and it must make a DC 13 Constitució saving throw, taking 22 ({@dice 4d10}) de dany de verí; si supera, en rep la meitat.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -1716,7 +1716,7 @@
 									"name": "D1. Coastal Rocks",
 									"id": "09a",
 									"entries": [
-										"The dreadnaught rests on slippery sea rocks that are regularly dashed by waves. These rocks count as terreny difícil. During combat, any creature that ends its turn on the rocks must roll a die: on an odd result, a wave smashes into them and they must succeed on a DC 15 Força saving throw or fall {@condition prone}."
+										"The dreadnaught rests on slippery sea rocks that are regularly dashed by waves. These rocks count as terreny difícil. During combat, any creature that ends its turn on the rocks must roll a die: on an odd result, a wave smashes into them and they must succeed on a DC 15 Força saving throw or fall {@condition enderrocat}."
 									]
 								},
 								{
@@ -2132,7 +2132,7 @@
 									"id": "0c8",
 									"entries": [
 										"The Chimera Crew dug a 10-foot-deep pit trap with a 10-foot-square opening in the ground along the hole in the north wall. The pit is covered by a large tarp anchored on the pit's edge and camouflaged with dirt and debris. A creature with a passive Saviesa ({@skill Percepció}) score of 14 or higher notices the pit.",
-										"Any creature that steps on the tarp falls into the pit and pulls the tarp with it, taking 3 ({@dice 1d6}) de dany contundent and landing {@condition prone}. The bottom of the pit contains a {@creature swarm of poisonous snakes}. Climbing the walls of the pit without equipment requires a successful DC 15 Força ({@skill Atletisme}) check."
+										"Any creature that steps on the tarp falls into the pit and pulls the tarp with it, taking 3 ({@dice 1d6}) de dany contundent and landing {@condition enderrocat}. The bottom of the pit contains a {@creature swarm of poisonous snakes}. Climbing the walls of the pit without equipment requires a successful DC 15 Força ({@skill Atletisme}) check."
 									]
 								},
 								{
@@ -2181,7 +2181,7 @@
 											"name": "Slippery Mud",
 											"id": "0ce",
 											"entries": [
-												"When a creature standing in the courtyard is hit by an attack that is a critical hit, the target must succeed on a DC 15 Destresa saving throw or fall {@condition prone}."
+												"When a creature standing in the courtyard is hit by an attack that is a critical hit, the target must succeed on a DC 15 Destresa saving throw or fall {@condition enderrocat}."
 											]
 										}
 									]
@@ -2502,7 +2502,7 @@
 											"type": "list",
 											"items": [
 												"The shark is undead and no necessita aire, menjar, beure, ni dormir.",
-												"The shark is vulnerable to dany contundent, immune to poison damage and the {@condition poisoned} condition, and cannot gain levels of {@condition exhaustion}.",
+												"The shark is vulnerable to dany contundent, immune to poison damage and the {@condition emmetzinat} condition, and cannot gain levels of {@condition exhaust}.",
 												"The shark has had skeletal feet attached by some demented necromancer and gains a walking speed of 20 feet."
 											]
 										}

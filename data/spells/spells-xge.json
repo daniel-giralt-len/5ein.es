@@ -1075,7 +1075,7 @@
 					"type": "entries",
 					"name": "Bufar cap Avall",
 					"entries": [
-						"El bent bufa cap al terra des d'adalt del cub. Els atacs armats a distància que passin pel o acabin dins del cub siguin amb desavantage. Una criatura que hi entri volant per primer cop en un torn o hi començi el torn volant ha de salvar per Força. Si falla, cau {@condition prone}."
+						"El bent bufa cap al terra des d'adalt del cub. Els atacs armats a distància que passin pel o acabin dins del cub siguin amb desavantage. Una criatura que hi entri volant per primer cop en un torn o hi començi el torn volant ha de salvar per Força. Si falla, cau {@condition enderrocat}."
 					]
 				},
 				{
@@ -1759,7 +1759,7 @@
 				}
 			],
 			"entries": [
-				"Causes un trèmol a la terra a l'abast. Tota criatura excepte tu a l'àrea ha de salvar per Destresa. Qui falli rep {@damage 1d6} de dany contundent i està {@condition prone}. Si el terra de l'àrea és pedra o terra poc compactat, esdevé terreny difícil fins que es netegi. Cada quadrat de 5 peus de costat de runa requereix 1 minut de neteja manual."
+				"Causes un trèmol a la terra a l'abast. Tota criatura excepte tu a l'àrea ha de salvar per Destresa. Qui falli rep {@damage 1d6} de dany contundent i està {@condition enderrocat}. Si el terra de l'àrea és pedra o terra poc compactat, esdevé terreny difícil fins que es netegi. Cada quadrat de 5 peus de costat de runa requereix 1 minut de neteja manual."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2741,7 +2741,7 @@
 			],
 			"entries": [
 				"Imbueixes una arma que toquis amb poder diví. Mentre duri el conjur, l'arma desprèn forta en un radi de 30 peus i llum tènue uns 30 peus adicionals. A més, els atacs armats amb aquesta arma fan  {@damage 2d8} de dany radiant extra quan impacten. Si l'arma no era màgica, ho és durant la duració del conjur.",
-				"Com a acció bonus en el teu torn, pots acabar el conjur i emetre un esclat de radiància. Tota criatura que escullis que puguis veure a 30 peus de l'arma ha de salvar per Constitució. Qui falli rep {@damage 4d8} de dany radiant, i està {@condition blinded} durant 1 minut. Qui superi en rep la meitat i no està {@condition blinded}. Al final de cada torn seu, una criatura {@condition blinded} així pot salvar per Constitució. Si supera, acaba el conjur en ella."
+				"Com a acció bonus en el teu torn, pots acabar el conjur i emetre un esclat de radiància. Tota criatura que escullis que puguis veure a 30 peus de l'arma ha de salvar per Constitució. Qui falli rep {@damage 4d8} de dany radiant, i està {@condition encegat} durant 1 minut. Qui superi en rep la meitat i no està {@condition encegat}. Al final de cada torn seu, una criatura {@condition encegat} així pot salvar per Constitució. Si supera, acaba el conjur en ella."
 			],
 			"damageInflict": [
 				"radiant"
@@ -3355,7 +3355,7 @@
 					"type": "list",
 					"items": [
 						"Ets resistent als danys contundent, perforant, i tallant d'atacs no-màrigcs.",
-						"Pots, com a acció, crear un trèmol al terra a 15 peus de radi de tu. La resta de criatures a l'àrea han de salvar per Destresa. Qui falli cau {@condition prone}.",
+						"Pots, com a acció, crear un trèmol al terra a 15 peus de radi de tu. La resta de criatures a l'àrea han de salvar per Destresa. Qui falli cau {@condition enderrocat}.",
 						"Pots moure't per terreny difícil causat per la terra o la pedra sense gastar moviment extra. Pots atravessar el terra o la pedra com si fos aire però no ha pots acabar el torn. No desestabilitzes el sòld per on passes. Si acabes el teu torn a dins del sòlid ets expulsat a l'espai desocupat més proper, el conjur acaba, i estàs {@condition atordit} fins el final del teu proper torn."
 					]
 				}
@@ -4673,7 +4673,7 @@
 					"type": "entries",
 					"name": "Focs d'artifici",
 					"entries": [
-						"L'àrea explota en focs artificials. Tota criatura a 10 peus de l'àrea ha de salvar per Constitució. Qui falli esdevé {@condition blinded} fins el final del teu proper torn."
+						"L'àrea explota en focs artificials. Tota criatura a 10 peus de l'àrea ha de salvar per Constitució. Qui falli esdevé {@condition encegat} fins el final del teu proper torn."
 					]
 				},
 				{
@@ -5032,7 +5032,7 @@
 			],
 			"entries": [
 				"Una llum tènue i verda surt d'una esfera de 30 peus de radi centrada en un punt a l'bast. La llum s'extén per les cantonades, i dura la duració del conjur.",
-				"Quan una criatura entra a l'àrea per primer cop en un torn o hi començi el torn, ha de salvar per Constitució. Si falla, rep {@damage 4d10} de dany radiant, i rep un nivell d'{@condition exhaustion}, a més d'emetre una llum verda i tènue en un radi de 5 peus. Aquesta llum l'impossibilita beneficiar-se d'estar {@condition invisible}. La llum i l'{@condition exhaustion} causades per aquest conjur s'esvaeixen quan acaba el conjur."
+				"Quan una criatura entra a l'àrea per primer cop en un torn o hi començi el torn, ha de salvar per Constitució. Si falla, rep {@damage 4d10} de dany radiant, i rep un nivell d'{@condition exhaust}, a més d'emetre una llum verda i tènue en un radi de 5 peus. Aquesta llum l'impossibilita beneficiar-se d'estar {@condition invisible}. La llum i l'{@condition exhaust} causades per aquest conjur s'esvaeixen quan acaba el conjur."
 			],
 			"damageInflict": [
 				"radiant"
@@ -5933,7 +5933,7 @@
 						"Pots atacar dos cops, i no un, quan prèns l'acció {@action Attack} en el teu torn. Ignores aquest benefici si ja pots atacar més d'un cop gràcies a un tret com l'Atac Extra."
 					]
 				},
-				"Quan acaba el conjur, immediatament, has de salvar per Constitució (CD 15). Si falles, reps un nivell d'{@condition exhaustion}."
+				"Quan acaba el conjur, immediatament, has de salvar per Constitució (CD 15). Si falles, reps un nivell d'{@condition exhaust}."
 			],
 			"damageInflict": [
 				"força"
@@ -6167,7 +6167,7 @@
 				}
 			],
 			"entries": [
-				"Conjures una onada d'aigua que impacta a una àrea a l'abast. L'àrea pot ser fins a 30 peus de llarg, 10 peus d'ample, i 10 peus d'alt. Tota criatura dins de l'àrea ha de salvar per Destresa. Qui falli rep {@damage 4d8} de dany contundent i està {@condition prone}. Qui superi en rep la meitat i no està {@condition prone}. Després l'aigua s'escampa pel terra en totes direccions, i apaga focs desprotegits a la seva àrea i en un radi de 30 peus. Finalment, l'aigua desapareix."
+				"Conjures una onada d'aigua que impacta a una àrea a l'abast. L'àrea pot ser fins a 30 peus de llarg, 10 peus d'ample, i 10 peus d'alt. Tota criatura dins de l'àrea ha de salvar per Destresa. Qui falli rep {@damage 4d8} de dany contundent i està {@condition enderrocat}. Qui superi en rep la meitat i no està {@condition enderrocat}. Després l'aigua s'escampa pel terra en totes direccions, i apaga focs desprotegits a la seva àrea i en un radi de 30 peus. Finalment, l'aigua desapareix."
 			],
 			"damageInflict": [
 				"contundent"
@@ -6563,7 +6563,7 @@
 			],
 			"entries": [
 				"Convoques una paret de llum brillant a l'abast. Pot ser una barrera horitzontal, vertical o diagonal (escull). Pot estar en una superfície o flotant. La pots fer fins a 60 peus de llarga, 10 d'alta, i 5 de gruixuda. Bloqueja la visió a través, però les criatures poden moure's a través. Desprèn llum forta a 120 peus i llum tènue uns 120 peus adicionals.",
-				"Quan apareix la paret, tota criatura a dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 4d8} de dany radiant, i està {@condition blinded} durant 1 minut. Qui superi en rep la meitat i no està {@condition blinded}. Una criatura {@condition blinded} així pot salvar per Constitució al final de cada torn seu. Si supera, acaba l'efecte en ella.",
+				"Quan apareix la paret, tota criatura a dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 4d8} de dany radiant, i està {@condition encegat} durant 1 minut. Qui superi en rep la meitat i no està {@condition encegat}. Una criatura {@condition encegat} així pot salvar per Constitució al final de cada torn seu. Si supera, acaba l'efecte en ella.",
 				"Una criatura que acabi el seu torn a dins de la paret rep {@damage 4d8} de dany radiant.",
 				"Mentre duri el conjur, pots, com a acció, llançar un raig de llum de la paret a una criatura que hi sigui a 60 peus. Fes un atac màgic a distància. Si impacta, l'objectiu rep {@damage 4d8} de dany radiant. Fallis o impactis, redueixes la llargada de la paret en 10 peus. Si la seva llargada es queda a 0, el conjur acaba."
 			],
@@ -6660,7 +6660,7 @@
 				}
 			],
 			"entries": [
-				"Crees una paret de sorra girant a un punt que puguis veure a l'abast. La pots fer fins a 30 peus de llarga, 10 d'alta, i 10 peus de gruixuda, i desapareix quan acaba el conjur. Bloqueja línia de visió però no el moviment. Una criatura a dins de la peret es considera {@condition blinded}, i ha de gastar 3 peus de moviment per cada 1 que es mogui allà a dins."
+				"Crees una paret de sorra girant a un punt que puguis veure a l'abast. La pots fer fins a 30 peus de llarga, 10 d'alta, i 10 peus de gruixuda, i desapareix quan acaba el conjur. Bloqueja línia de visió però no el moviment. Una criatura a dins de la peret es considera {@condition encegat}, i ha de gastar 3 peus de moviment per cada 1 que es mogui allà a dins."
 			],
 			"conditionInflict": [
 				"encegat"
@@ -6886,9 +6886,9 @@
 			"entries": [
 				"Convoques una esfera d'aigua amb un radi de 5 peus en un punt que puguis veure a l'abast. L'esfera pot flotar fins a 10 peus del terra. L'esfera roman durant la duració del conjur.",
 				"Tota criatura a dins de l'àrea ha de salvar per Força. Qui superi és expulsada a l'espai desocupat més proper de l'àrea (la criatura escull quin). Una criatura Enorme o major super automàticament. Una criatura Gran o menor pot fallar voluntàriament. Si falla, la creature està {@condition restrained} a dins de l'esfera i envoltada d'aigua. Al final de cada torn seu, una criatura {@condition restrained} pot repetir la salvada. Si supera, acaba l'efecte en ella.",
-				"L'esfera pot retenir fins a 4 criatures Mitjanes o menors, o bé una criatura Gran. Si l'esfera retè una criatura més del que pot, una criatura retinguda prèviament (a l'atzar) cau de l'esfera i es queda {@condition prone} en un espai a 5 peus de l'esfera.",
+				"L'esfera pot retenir fins a 4 criatures Mitjanes o menors, o bé una criatura Gran. Si l'esfera retè una criatura més del que pot, una criatura retinguda prèviament (a l'atzar) cau de l'esfera i es queda {@condition enderrocat} en un espai a 5 peus de l'esfera.",
 				"Com a acció, pots moure l'esfera fins a 30 peus en una línia recta. Si es mou per sobre d'un forat, esvoranc, o altre desnivell, descèn inòcuament fins que floti a 10 peus del terra. Tota criatura {@condition restrained} per l'esfera es mou amb ella. Pots embestir a criatures amb l'esfera, forçant-los la tirada de salvació.",
-				"Quan acaba el conjur, L'esfera cau al terra i apaga tota flama no-màgica a 30 peus d'abast. Tota criatura {@condition restrained} per l'esfera cau {@condition prone} a l'espai on quedi. Llavors l'aigua desapareix."
+				"Quan acaba el conjur, L'esfera cau al terra i apaga tota flama no-màgica a 30 peus d'abast. Tota criatura {@condition restrained} per l'esfera cau {@condition enderrocat} a l'espai on quedi. Llavors l'aigua desapareix."
 			],
 			"conditionInflict": [
 				"enderrocat",
@@ -7125,7 +7125,7 @@
 					"type": "entries",
 					"name": "Roques",
 					"entries": [
-						"Com a acció bonus en el teu torn, pots llançar una pedra lliure de l'àrea a una criatura que puguis veure a dins de l'àrea. Fes un atac màgic a distància contra l'objectiu. Si impacta, l'objectiu rep {@damage 3d8} de dany contundent no-màgic, i ha de salvar per Força. Si falla, cau {@condition prone}."
+						"Com a acció bonus en el teu torn, pots llançar una pedra lliure de l'àrea a una criatura que puguis veure a dins de l'àrea. Fes un atac màgic a distància contra l'objectiu. Si impacta, l'objectiu rep {@damage 3d8} de dany contundent no-màgic, i ha de salvar per Força. Si falla, cau {@condition enderrocat}."
 					]
 				}
 			],

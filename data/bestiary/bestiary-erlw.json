@@ -165,7 +165,7 @@
 									"type": "item",
 									"name": "4. Blinding Ray.",
 									"style": "italic",
-									"entry": "The target and each creature within 10 feet of ha de salvar per Constitució amb {@dc 22} or take 19 ({@damage 3d12}) de dany radiant and be {@condition blinded} durant 1 minut. Until this blindness ends, Belyshyrra can see through the {@condition blinded} creature's eyes. La criatura {@condition blinded} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+									"entry": "The target and each creature within 10 feet of ha de salvar per Constitució amb {@dc 22} or take 19 ({@damage 3d12}) de dany radiant and be {@condition encegat} durant 1 minut. Until this blindness ends, Belyshyrra can see through the {@condition encegat} creature's eyes. La criatura {@condition encegat} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 								}
 							]
 						}
@@ -188,7 +188,7 @@
 				{
 					"name": "Rend Reality (Costa 3 Accions)",
 					"entries": [
-						"Belashyrra rips at the bonds of reality in its immediate area. Each creature within 10 feet of Belashyrra ha de salvar per Constitució amb {@dc 22} or take 19 ({@damage 3d12}) de dany de força and gain one level of {@condition exhaustion}."
+						"Belashyrra rips at the bonds of reality in its immediate area. Each creature within 10 feet of Belashyrra ha de salvar per Constitució amb {@dc 22} or take 19 ({@damage 3d12}) de dany de força and gain one level of {@condition exhaust}."
 					]
 				}
 			],
@@ -529,7 +529,7 @@
 				{
 					"name": "Abraonar",
 					"entries": [
-						"Si el clawfoot es mou, com a mínim, 20 peus directe cap a una criatura i l'impacta amb un atac Urpa, tot al mateix torn, l'objectiu ha de salvar per Força {@dc 11}. Si falla, està {@condition prone}. Si l'objectiu està {@condition prone}, el clawfoot pot fer un atac Mossegada com a acció bonus."
+						"Si el clawfoot es mou, com a mínim, 20 peus directe cap a una criatura i l'impacta amb un atac Urpa, tot al mateix torn, l'objectiu ha de salvar per Força {@dc 11}. Si falla, està {@condition enderrocat}. Si l'objectiu està {@condition enderrocat}, el clawfoot pot fer un atac Mossegada com a acció bonus."
 					]
 				}
 			],
@@ -773,7 +773,7 @@
 				{
 					"name": "Dual Consciousness",
 					"entries": [
-						"The dolgrim has advantage on saving throws against being {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition acovardit}, {@condition atordit}, and knocked {@condition unconscious}."
+						"The dolgrim has advantage on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition unconscious}."
 					]
 				}
 			],
@@ -1407,7 +1407,7 @@
 				{
 					"name": "Idyllic Touch",
 					"entries": [
-						"{@atk ms} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 1d10 + 4}) de dany de força. If the target is a creature, ha de salvar per Saviesa amb {@dc 16} or fall {@condition prone} in a fit of laughter."
+						"{@atk ms} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 1d10 + 4}) de dany de força. If the target is a creature, ha de salvar per Saviesa amb {@dc 16} or fall {@condition enderrocat} in a fit of laughter."
 					]
 				},
 				{
@@ -1884,13 +1884,13 @@
 					"name": "Mind Seed (1/Dia)",
 					"entries": [
 						"The quori touches one humanoid, which ha de salvar per Intel·ligència amb {@dc 21} or be cursed. The curse lasts until it's removed by a anul·lar maledicció or restabliment superior spell.",
-						"The cursed target suffers 1 level of {@condition exhaustion} every 24 hours, and finishing a long rest doesn't reduce its {@condition exhaustion}. If the cursed target reaches {@condition exhaustion} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition exhaustion} is removed. Only the {@spell desig} spell can free the thrall from this control."
+						"The cursed target suffers 1 level of {@condition exhaust} every 24 hours, and finishing a long rest doesn't reduce its {@condition exhaust}. If the cursed target reaches {@condition exhaust} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition exhaust} is removed. Only the {@spell desig} spell can free the thrall from this control."
 					]
 				},
 				{
 					"name": "Swarm of Eyes {@recharge}",
 					"entries": [
-						"The quori creates a swarm of spectral eyes that fills a 30-foot-radius sphere centered on a point it can see within 60 feet of it. Tota criatura dins de l'àrea ha de salvar per Saviesa amb {@dc 21}. On a failure, a creature takes 45 ({@damage 10d8}) de dany psíquic, and it is {@condition blinded} durant 1 minut. On a success, a creature takes half as much damage i no està {@condition blinded}. Una criatura {@condition blinded} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"The quori creates a swarm of spectral eyes that fills a 30-foot-radius sphere centered on a point it can see within 60 feet of it. Tota criatura dins de l'àrea ha de salvar per Saviesa amb {@dc 21}. On a failure, a creature takes 45 ({@damage 10d8}) de dany psíquic, and it is {@condition encegat} durant 1 minut. On a success, a creature takes half as much damage i no està {@condition encegat}. Una criatura {@condition encegat} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -2355,7 +2355,7 @@
 				{
 					"name": "Alè de Poison {@recharge 5}",
 					"entries": [
-						"Illmarrow exhales poisonous gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 20}. Qui falli rep 35 ({@damage 10d6}) de dany de verí i està {@condition poisoned} durant 1 minut. While {@condition poisoned} in this way, the creature can't regain hit points. Si supera, la criatura rep la meitat del dany i no està {@condition poisoned}.",
+						"Illmarrow exhales poisonous gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 20}. Qui falli rep 35 ({@damage 10d6}) de dany de verí i està {@condition emmetzinat} durant 1 minut. While {@condition emmetzinat} in this way, the creature can't regain hit points. Si supera, la criatura rep la meitat del dany i no està {@condition emmetzinat}.",
 						"A humanoid reduced to 0 hit points by this damage dies and rises at the start of Illmarrow's next turn as a zombie. The zombie acts immediately after Illmarrow in the initiative count and is permanently under her command, following her verbal orders."
 					]
 				}
@@ -3973,13 +3973,13 @@
 				{
 					"name": "Carregar",
 					"entries": [
-						"If the Lord of Blades moves at least 10 feet straight toward a target and then hits it with his adamantine sixblade on the same turn, the target takes an extra 11 ({@damage 2d10}) de dany tallant. If the target is a creature, ha de salvar per Força amb {@dc 19} or be pushed up to 10 feet away and knocked {@condition prone}."
+						"If the Lord of Blades moves at least 10 feet straight toward a target and then hits it with his adamantine sixblade on the same turn, the target takes an extra 11 ({@damage 2d10}) de dany tallant. If the target is a creature, ha de salvar per Força amb {@dc 19} or be pushed up to 10 feet away and knocked {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Warforged Resilience",
 					"entries": [
-						"The Lord of Blades has advantage on saving throws against being {@condition poisoned}, is immune to disease, and him no pot ésser adormit màgicament."
+						"The Lord of Blades has advantage on saving throws against being {@condition emmetzinat}, is immune to disease, and him no pot ésser adormit màgicament."
 					]
 				}
 			],
@@ -4396,7 +4396,7 @@
 				{
 					"name": "Shimmering Aura (Costa 2 Accions)",
 					"entries": [
-						"The councilor channels positive energy into its Aura of Radiance. Until the end of the councilor's next turn, desprén llum forta en un radi de 30 peus, i llum ténue uns 30 peus adicionals. Any creature that starts its turn in the bright light ha de salvar per Constitució amb {@dc 17} or be {@condition blinded} until the end of the councilor's next turn."
+						"The councilor channels positive energy into its Aura of Radiance. Until the end of the councilor's next turn, desprén llum forta en un radi de 30 peus, i llum ténue uns 30 peus adicionals. Any creature that starts its turn in the bright light ha de salvar per Constitució amb {@dc 17} or be {@condition encegat} until the end of the councilor's next turn."
 					]
 				}
 			],
@@ -4693,7 +4693,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 13} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -4900,13 +4900,13 @@
 				{
 					"name": "Eldritch Turret",
 					"entries": [
-						"{@atk rs} {@hit 18} a impactar, 300 peus d'abast, un objectiu. {@h}18 ({@damage 4d8}) de dany de força, and if the target is a creature, it is knocked {@condition prone}."
+						"{@atk rs} {@hit 18} a impactar, 300 peus d'abast, un objectiu. {@h}18 ({@damage 4d8}) de dany de força, and if the target is a creature, it is knocked {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Esclafar",
 					"entries": [
-						"The colossus stomps one of its feet a un punt del terra within 20 feet of it. Any creature in un cilindre de 20 peus de radi i 20 d'alçada centered on this point ha de salvar per Destresa amb {@dc 26} or take 33 ({@damage 6d10}) de dany contundent and fall {@condition prone}. Until the colossus uses its Stomp again or moves, the creature is {@condition restrained}. While {@condition restrained} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Força check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition restrained}.",
+						"The colossus stomps one of its feet a un punt del terra within 20 feet of it. Any creature in un cilindre de 20 peus de radi i 20 d'alçada centered on this point ha de salvar per Destresa amb {@dc 26} or take 33 ({@damage 6d10}) de dany contundent and fall {@condition enderrocat}. Until the colossus uses its Stomp again or moves, the creature is {@condition restrained}. While {@condition restrained} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Força check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition restrained}.",
 						"Structures, as well as nonmagical objects that are neither being worn nor carried, take the same amount of damage if they are in the cylinder (no save)."
 					]
 				},
@@ -5004,7 +5004,7 @@
 				{
 					"name": "Warforged Resilience",
 					"entries": [
-						"The warforged has advantage on saving throws against being {@condition poisoned} and is immune to disease. it no pot ésser adormit màgicament."
+						"The warforged has advantage on saving throws against being {@condition emmetzinat} and is immune to disease. it no pot ésser adormit màgicament."
 					]
 				}
 			],
@@ -5130,13 +5130,13 @@
 				{
 					"name": "Axehand",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, un objectiu. {@h}19 ({@damage 3d8 + 6}) de dany tallant, mes 11 ({@damage 2d10}) de dany tallant if the target is {@condition prone}."
+						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, un objectiu. {@h}19 ({@damage 3d8 + 6}) de dany tallant, mes 11 ({@damage 2d10}) de dany tallant if the target is {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Hammerfist",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, un objectiu. {@h}19 ({@damage 3d8 + 6}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 17} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, un objectiu. {@h}19 ({@damage 3d8 + 6}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 17} or be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -5272,7 +5272,7 @@
 				{
 					"name": "Martial Prowess (1/Torn)",
 					"entries": [
-						"When the rakshasa hits a creature with a atac armat melé, the attack deals an extra 11 ({@dice 2d10}) damage of the weapon's type, and la criatura ha de salvar per Força amb {@dc 15}. On a failure, the rakshasa can push the creature up to 10 feet away from it, knock the creature {@condition prone}, or make the creature drop one item it is holding of the rakshasa's choice."
+						"When the rakshasa hits a creature with a atac armat melé, the attack deals an extra 11 ({@dice 2d10}) damage of the weapon's type, and la criatura ha de salvar per Força amb {@dc 15}. On a failure, the rakshasa can push the creature up to 10 feet away from it, knock the creature {@condition enderrocat}, or make the creature drop one item it is holding of the rakshasa's choice."
 					]
 				}
 			],

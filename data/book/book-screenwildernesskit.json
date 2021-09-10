@@ -352,7 +352,7 @@
 							"name": "Tracking Supplies",
 							"entries": [
 								"Use the accompanying Supply Tracker to note whether you are tracking a short or long cycle journey and how many units of food and water you are carrying. At the Supply step of each cycle, mark off a box for each unit of food or water consumed.",
-								"A character unable to eat or drink gains 1 level of {@condition exhaustion} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
+								"A character unable to eat or drink gains 1 level of {@condition exhaust} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
 							],
 							"id": "006"
 						},
@@ -442,11 +442,11 @@
 								],
 								[
 									5,
-									"Make a DC 10 Constitució saving throw. Ona failed save, you are {@condition blinded} by blowing sand,dirt, ash, snow,or pollen until the end of your turn. While {@condition blinded} in this way, your speed is halved."
+									"Make a DC 10 Constitució saving throw. Ona failed save, you are {@condition encegat} by blowing sand,dirt, ash, snow,or pollen until the end of your turn. While {@condition encegat} in this way, your speed is halved."
 								],
 								[
 									6,
-									"A sudden drop catches you by surprise. Make a DC 10 Destresa saving throw to navigate the impediment. On failed save, you fall {@dice 1d4 x 5} feet. Si falla, rep {@damage 1d6} de dany contundent per 10 feet fallen as normal, and land {@condition prone}."
+									"A sudden drop catches you by surprise. Make a DC 10 Destresa saving throw to navigate the impediment. On failed save, you fall {@dice 1d4 x 5} feet. Si falla, rep {@damage 1d6} de dany contundent per 10 feet fallen as normal, and land {@condition enderrocat}."
 								],
 								[
 									7,
@@ -474,8 +474,8 @@
 							"type": "entries",
 							"name": "Dashing",
 							"entries": [
-								"Over the course of a chase, you can take the {@action Dash} action a limited number of times before you risk {@condition exhaustion}. That number equals 3 + el teu modificador de Constitució. Each additional {@action Dash} action you take after that number during the chase requires you to succeed on a DC 10 Constitució check at the end of your turn or gain | level of {@condition exhaustion}.",
-								"You drop out of the chase if your {@condition exhaustion} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition exhaustion} you gained by taking the {@action Dash} action additional times during the chase."
+								"Over the course of a chase, you can take the {@action Dash} action a limited number of times before you risk {@condition exhaust}. That number equals 3 + el teu modificador de Constitució. Each additional {@action Dash} action you take after that number during the chase requires you to succeed on a DC 10 Constitució check at the end of your turn or gain | level of {@condition exhaust}.",
+								"You drop out of the chase if your {@condition exhaust} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition exhaust} you gained by taking the {@action Dash} action additional times during the chase."
 							],
 							"id": "00a"
 						},

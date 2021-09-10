@@ -920,7 +920,7 @@
 													"name": "What Can You See",
 													"id": "03a",
 													"entries": [
-														"One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured. In a lightly obscured area\u2014such as dim light, patchy fog, or moderate foliage\u2014creatures have disadvantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista. In a heavily obscured area\u2014such as darkness, opaque fog, or dense foliage\u2014vision is blocked, effectively imposing the {@condition blinded} condition, as explained in the appendix."
+														"One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured. In a lightly obscured area\u2014such as dim light, patchy fog, or moderate foliage\u2014creatures have disadvantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista. In a heavily obscured area\u2014such as darkness, opaque fog, or dense foliage\u2014vision is blocked, effectively imposing the {@condition encegat} condition, as explained in the appendix."
 													]
 												}
 											]
@@ -1689,9 +1689,9 @@
 							"name": "Being Prone",
 							"id": "06e",
 							"entries": [
-								"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are {@condition prone}, a condition described in {@book appendix A|RMR|4}.",
-								"You can {@b drop {@condition prone}} without using any of your speed. {@b Standing up} takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.",
-								"To move while {@condition prone}, you must {@b crawl} or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in terreny difícil, therefore, costs 3 feet of movement."
+								"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are {@condition enderrocat}, a condition described in {@book appendix A|RMR|4}.",
+								"You can {@b drop {@condition enderrocat}} without using any of your speed. {@b Standing up} takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.",
+								"To move while {@condition enderrocat}, you must {@b crawl} or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in terreny difícil, therefore, costs 3 feet of movement."
 							]
 						},
 						{
@@ -2775,7 +2775,7 @@
 									"entries": [
 										"When you make a long jump, you cover a number of feet up to your Força score if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your DM might allow you to make una tirada de Força ({@skill Atletisme}) to jump farther than you normally can.",
 										"This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on una tirada de Força ({@skill Atletisme}) amb CD 10 to clear a low obstacle (no taller than a quarter of the jump's distance). Otherwise, you hit it.",
-										"When you land in terreny difícil, you must succeed on una tirada de Destresa ({@skill Acrobàcies}) amb CD 10 to land on your feet. Otherwise, you land {@condition prone}."
+										"When you land in terreny difícil, you must succeed on una tirada de Destresa ({@skill Acrobàcies}) amb CD 10 to land on your feet. Otherwise, you land {@condition enderrocat}."
 									]
 								},
 								{
@@ -5371,7 +5371,7 @@
 					"id": "138",
 					"entries": [
 						"Presented in alphabetical order, these spells are used by characters and monsters in this set.",
-						"Some of the spells cause {@b conditions}, including {@condition fascinat}, {@condition deafened}, {@condition acovardit}, {@condition invisible}, {@condition paralyzed}, {@condition prone}, {@condition restrained}, and {@condition unconscious}. Consult {@book appendix A|RMR|4} to learn a condition's effects in the game.",
+						"Some of the spells cause {@b conditions}, including {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition invisible}, {@condition paralyzed}, {@condition enderrocat}, {@condition restrained}, and {@condition unconscious}. Consult {@book appendix A|RMR|4} to learn a condition's effects in the game.",
 						{
 							"type": "entries",
 							"name": "Auxiliar",
@@ -5659,7 +5659,7 @@
 											"name": "Grovel",
 											"id": "14e",
 											"entries": [
-												"The target falls {@condition prone} and then ends its turn."
+												"The target falls {@condition enderrocat} and then ends its turn."
 											]
 										},
 										{
@@ -6254,7 +6254,7 @@
 										"{@b Duration}: Instantaneous"
 									]
 								},
-								"You touch a creature and can end either one disease or one condition afflicting it. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}.",
+								"You touch a creature and can end either one disease or one condition afflicting it. The condition can be {@condition encegat}, {@condition eixordat}, {@condition paralyzed}, or {@condition emmetzinat}.",
 								{
 									"type": "inset",
 									"id": "179",
@@ -6809,7 +6809,7 @@
 										"{@b Duration}: Concentration, up to 10 minutes"
 									]
 								},
-								"For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+								"For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition eixordat} while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
 								"{@comic I like busting this one out on enemy spellcasters and then throwing up the universal sign language for \"Oops! Guess you're f***ed!\"}"
 							]
 						},
@@ -7130,8 +7130,8 @@
 			"name": "Appendix A: Conditions",
 			"id": "1ac",
 			"entries": [
-				"Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as {@condition blinded}, are impairments, but a few, such as {@condition invisible}, can be advantageous.",
-				"A condition lasts either until it is countered (the {@condition prone} condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.",
+				"Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as {@condition encegat}, are impairments, but a few, such as {@condition invisible}, can be advantageous.",
+				"A condition lasts either until it is countered (the {@condition enderrocat} condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.",
 				"If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.",
 				"The following definitions specify what happens to a creature while it is subjected to a condition.",
 				{
@@ -7142,7 +7142,7 @@
 						{
 							"type": "list",
 							"items": [
-								"A {@condition blinded} creature can't see and automatically fails any ability check that requires sight.",
+								"A {@condition encegat} creature can't see and automatically fails any ability check that requires sight.",
 								"Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
 							]
 						}
@@ -7179,7 +7179,7 @@
 						{
 							"type": "list",
 							"items": [
-								"A {@condition deafened} creature can't hear and automatically fails any ability check that requires hearing."
+								"A {@condition eixordat} creature can't hear and automatically fails any ability check that requires hearing."
 							]
 						}
 					]
@@ -7358,7 +7358,7 @@
 						{
 							"type": "list",
 							"items": [
-								"A {@condition poisoned} creature has disadvantage on attack rolls and ability checks."
+								"A {@condition emmetzinat} creature has disadvantage on attack rolls and ability checks."
 							]
 						}
 					]
@@ -7380,7 +7380,7 @@
 						{
 							"type": "list",
 							"items": [
-								"A {@condition prone} creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
+								"A {@condition enderrocat} creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
 								"The creature has disadvantage on attack rolls.",
 								"An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
 							]
@@ -7444,7 +7444,7 @@
 							"type": "list",
 							"items": [
 								"An {@condition unconscious} creature is {@condition incapacitated} (see the condition), can't move or speak, and is unaware of its surroundings.",
-								"The creature drops whatever it's holding and falls {@condition prone}.",
+								"The creature drops whatever it's holding and falls {@condition enderrocat}.",
 								"The creature automatically fails Força and Destresa saving throws.",
 								"Attack rolls against the creature have advantage.",
 								"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."

@@ -3455,7 +3455,7 @@
 			"ruleType": "O",
 			"type": "section",
 			"entries": [
-				"Falling from a great height is a significant risk for adventurers and their foes. The rule given in the Player's Handbook is simple: at the end of a fall, you take {@dice 1d6} de dany contundent for every 10 feet you fell, to a maximum of {@dice 20d6}. You also land {@condition prone}, unless you somehow avoid taking damage from the fall. Here are two optional rules that expand on that simple rule.",
+				"Falling from a great height is a significant risk for adventurers and their foes. The rule given in the Player's Handbook is simple: at the end of a fall, you take {@dice 1d6} de dany contundent for every 10 feet you fell, to a maximum of {@dice 20d6}. You also land {@condition enderrocat}, unless you somehow avoid taking damage from the fall. Here are two optional rules that expand on that simple rule.",
 				{
 					"type": "entries",
 					"name": "Rate of Falling",
@@ -3468,9 +3468,9 @@
 					"type": "entries",
 					"name": "Flying Creatures and Falling",
 					"entries": [
-						"A flying creature in flight falls if it is knocked {@condition prone}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as the {@spell volar} spell.",
-						"If you'd like a flying creature to have a better chance of surviving a fall than a non-flying creature does, use this rule: subtract the creature's current flying speed from the distance it fell before calculating falling damage. This rule is helpful to a flier that is knocked {@condition prone} but is still conscious and has a current flying speed that is greater than 0 feet. The rule is designed to simulate the creature flapping its wings furiously or taking similar measures to slow the velocity of its fall.",
-						"If you use the rule for rate of falling in the previous section, a flying creature descends 500 feet on the turn when it falls, just as other creatures do. But if that creature starts any of its later turns still falling i està {@condition prone}, it can halt the fall on its turn by spending half its flying speed to counter the {@condition prone} condition (as if it were standing up in midair)."
+						"A flying creature in flight falls if it is knocked {@condition enderrocat}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as the {@spell volar} spell.",
+						"If you'd like a flying creature to have a better chance of surviving a fall than a non-flying creature does, use this rule: subtract the creature's current flying speed from the distance it fell before calculating falling damage. This rule is helpful to a flier that is knocked {@condition enderrocat} but is still conscious and has a current flying speed that is greater than 0 feet. The rule is designed to simulate the creature flapping its wings furiously or taking similar measures to slow the velocity of its fall.",
+						"If you use the rule for rate of falling in the previous section, a flying creature descends 500 feet on the turn when it falls, just as other creatures do. But if that creature starts any of its later turns still falling i està {@condition enderrocat}, it can halt the fall on its turn by spending half its flying speed to counter the {@condition enderrocat} condition (as if it were standing up in midair)."
 					]
 				}
 			]
@@ -4027,7 +4027,7 @@
 							"name": "Faceless Malice",
 							"entries": [
 								"{@i Haunt Bonus +2}",
-								"This haunted trap affects a 15-foot-cube in front of an ornate mirror hanging on a wall. When a visible creature enters the area, the trap's emanation manifests as the creature's distorted reflection in the mirror. If that creature is still in the area at the start of its next turn, it must succeed on a DC 12 Saviesa saving throw or be {@condition blinded}, {@condition deafened}, and rendered unable to speak durant 1 minut. Additionally, an illusion makes it appear that the creature has had its face erased. The {@spell anul·lar maledicció} spell ends this effect, as does destroying the mirror. The mirror has AC 12, 10 hit points, vulnerability to dany contundent, and immunity to poison and psychic damage. After a creature fails its saving throw against the trap, the trap won't activate again for 24 hours.",
+								"This haunted trap affects a 15-foot-cube in front of an ornate mirror hanging on a wall. When a visible creature enters the area, the trap's emanation manifests as the creature's distorted reflection in the mirror. If that creature is still in the area at the start of its next turn, it must succeed on a DC 12 Saviesa saving throw or be {@condition encegat}, {@condition eixordat}, and rendered unable to speak durant 1 minut. Additionally, an illusion makes it appear that the creature has had its face erased. The {@spell anul·lar maledicció} spell ends this effect, as does destroying the mirror. The mirror has AC 12, 10 hit points, vulnerability to dany contundent, and immunity to poison and psychic damage. After a creature fails its saving throw against the trap, the trap won't activate again for 24 hours.",
 								{
 									"type": "image",
 									"href": {
@@ -4392,7 +4392,7 @@
 					"rows": [
 						[
 							"1",
-							"{@bold Lose an Eye.} You have disadvantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista and on ranged attack rolls. Magic such as the {@spell regeneració} spell can restore the lost eye. If you have no eyes left after sustaining this injury, you're {@condition blinded}."
+							"{@bold Lose an Eye.} You have disadvantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista and on ranged attack rolls. Magic such as the {@spell regeneració} spell can restore the lost eye. If you have no eyes left after sustaining this injury, you're {@condition encegat}."
 						],
 						[
 							"2",
@@ -4400,11 +4400,11 @@
 						],
 						[
 							"3",
-							"{@bold Lose a Foot or Leg.} Your speed on foot is halved, and you must use a cane or crutch to move unless you have a peg leg or other prosthesis. You fall {@condition prone} after using the Dash action. You have disadvantage on Destresa checks made to balance. Magic such as the {@spell regeneració} spell can restore the lost appendage."
+							"{@bold Lose a Foot or Leg.} Your speed on foot is halved, and you must use a cane or crutch to move unless you have a peg leg or other prosthesis. You fall {@condition enderrocat} after using the Dash action. You have disadvantage on Destresa checks made to balance. Magic such as the {@spell regeneració} spell can restore the lost appendage."
 						],
 						[
 							"4",
-							"{@bold Limp.} Your speed on foot is reduced by 5 feet. You must make a DC 10 Destresa saving throw after using the Dash action. If you fail the save, you fall {@condition prone}. Magical healing removes the limp."
+							"{@bold Limp.} Your speed on foot is reduced by 5 feet. You must make a DC 10 Destresa saving throw after using the Dash action. If you fail the save, you fall {@condition enderrocat}. Magical healing removes the limp."
 						],
 						[
 							"5-7",
@@ -4714,7 +4714,7 @@
 								],
 								[
 									"56-65",
-									"The character is {@condition blinded} (25%) or {@condition deafened} (75%)."
+									"The character is {@condition encegat} (25%) or {@condition eixordat} (75%)."
 								],
 								[
 									"66-75",
@@ -6313,7 +6313,7 @@
 										],
 										[
 											"2",
-											"Creatures that aren't inhabitants of the island must succeed on a Constitució saving throw at the end of each hour they spend on the island. If they fail, they gain one level of {@condition exhaustion}. The DC for this check equals 10 + the number of hours spent on the island."
+											"Creatures that aren't inhabitants of the island must succeed on a Constitució saving throw at the end of each hour they spend on the island. If they fail, they gain one level of {@condition exhaust}. The DC for this check equals 10 + the number of hours spent on the island."
 										],
 										[
 											"3",
@@ -6321,7 +6321,7 @@
 										],
 										[
 											"4",
-											"When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Saviesa saving throw or be {@condition blinded} for 8 hours."
+											"When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Saviesa saving throw or be {@condition encegat} for 8 hours."
 										],
 										[
 											"5",
@@ -7181,7 +7181,7 @@
 							"type": "entries",
 							"name": "Currents and Travel",
 							"entries": [
-								"When a vessel or creature travels in the same direction as a current, that current's speed is added to the vessel or creature's travel pace. A creature or vessel traveling against a current has that current's speed subtracted from the vessel or creature's travel pace. If this results in a negative travel pace, the vessel or creature can let the current carry it. Alternatively, the crew of the vessel or the creature can fight against the current by rowing or swimming hard, moving at half the vessel or creature's normal pace. Vessels and creatures fighting against a current ha de salvar per Constitució at the end of every hour traveled, with a bonus equal to the crew's quality (if they have crew). Vessels that fail have their crew's quality score decreased by 1. Creatures that fail gain one level of {@condition exhaustion}. The DC for this saving throw is 10 + 1 for every consecutive hour spent fighting the current."
+								"When a vessel or creature travels in the same direction as a current, that current's speed is added to the vessel or creature's travel pace. A creature or vessel traveling against a current has that current's speed subtracted from the vessel or creature's travel pace. If this results in a negative travel pace, the vessel or creature can let the current carry it. Alternatively, the crew of the vessel or the creature can fight against the current by rowing or swimming hard, moving at half the vessel or creature's normal pace. Vessels and creatures fighting against a current ha de salvar per Constitució at the end of every hour traveled, with a bonus equal to the crew's quality (if they have crew). Vessels that fail have their crew's quality score decreased by 1. Creatures that fail gain one level of {@condition exhaust}. The DC for this saving throw is 10 + 1 for every consecutive hour spent fighting the current."
 							]
 						},
 						{
@@ -7401,7 +7401,7 @@
 					"name": "Kraken's Grave",
 					"entries": [
 						"When krakens die, their bodies often rot on the seafloor. In such cases, the ground absorbs the decaying kraken's supernatural energy, marking the area with a dark stain in the shape of the kraken's body. This stain is called a kraken's grave.",
-						"When a creature moves within 30 feet of a kraken's grave or starts its turn there, that creature must succeed on una tirada de Destresa ({@skill Sigil}) amb CD 14 or it disturbs the grave. If a creature disturbs the grave, a tendril made of lightning stretches from the ground and attacks the creature with a +7 bonus a impactar. Si impacta, the target takes 10 ({@dice 3d6}) de dany elèctric, and it must succeed on a DC 14 Constitució saving throw or become {@condition blinded} for the next {@dice 2d4} hours."
+						"When a creature moves within 30 feet of a kraken's grave or starts its turn there, that creature must succeed on una tirada de Destresa ({@skill Sigil}) amb CD 14 or it disturbs the grave. If a creature disturbs the grave, a tendril made of lightning stretches from the ground and attacks the creature with a +7 bonus a impactar. Si impacta, the target takes 10 ({@dice 3d6}) de dany elèctric, and it must succeed on a DC 14 Constitució saving throw or become {@condition encegat} for the next {@dice 2d4} hours."
 					]
 				},
 				{
@@ -7410,7 +7410,7 @@
 					"entries": [
 						"When aboleths die, their souls sometimes gather in clusters called lure lights. These 100-foot-diameter collections of pale, yellow lights are found in the deep ocean below depths of 1,000 feet. They glow with bright light in a 100-foot radius and dim light for another 100 feet.",
 						"Any creature that can see the lure lights must succeed on a DC 14 Saviesa saving throw or be {@condition fascinat} by the lights for 24 hours or until the lights are destroyed. A creature that succeeds on the saving throw is immune to the effect of the lure lights for 24 hours.",
-						"While {@condition fascinat} by the lights, a creature can't willingly move out of line of sight of them and defends them to the death. If forcibly moved away from the lights, the creature tries to find its way back to them. The creature can't take a short or long rest while under this effect. After 24 hours, the {@condition fascinat} creature gains one level of {@condition exhaustion} and must repeat the saving throw if it is within line of sight of the lights, ending the effect on itself on a success. If the lights aren't within line of sight at this time, the creature succeeds automatically.",
+						"While {@condition fascinat} by the lights, a creature can't willingly move out of line of sight of them and defends them to the death. If forcibly moved away from the lights, the creature tries to find its way back to them. The creature can't take a short or long rest while under this effect. After 24 hours, the {@condition fascinat} creature gains one level of {@condition exhaust} and must repeat the saving throw if it is within line of sight of the lights, ending the effect on itself on a success. If the lights aren't within line of sight at this time, the creature succeeds automatically.",
 						"Each cluster of lure lights has AC 17, 100 hit points, and immunity to necrotic and poison damage."
 					]
 				},
@@ -8074,7 +8074,7 @@
 					"type": "entries",
 					"name": "Outer Planes: Psychic Dissonance",
 					"entries": [
-						"Each of the Outer Planes emanates a psychic dissonance that affects visitors of an incompatible alignment\u2014good creatures on the Lower Planes, evil ones on the Upper Planes\u2014if they spend too much time on the plane. You can reflect this dissonance with this optional rule. At the end of a long rest spent on an incompatible plane, a visitor must make a DC 10 Constitució saving throw. Si falla, the creature gains one level of {@condition exhaustion}. Incompatibility between lawful and chaotic alignments doesn't have the same effect, so Mechanus and Limbo lack this quality."
+						"Each of the Outer Planes emanates a psychic dissonance that affects visitors of an incompatible alignment\u2014good creatures on the Lower Planes, evil ones on the Upper Planes\u2014if they spend too much time on the plane. You can reflect this dissonance with this optional rule. At the end of a long rest spent on an incompatible plane, a visitor must make a DC 10 Constitució saving throw. Si falla, the creature gains one level of {@condition exhaust}. Incompatibility between lawful and chaotic alignments doesn't have the same effect, so Mechanus and Limbo lack this quality."
 					]
 				},
 				{
@@ -8139,7 +8139,7 @@
 					"type": "entries",
 					"name": "Pandemonium: Mad Winds",
 					"entries": [
-						"A visitor must make a DC 10 Saviesa saving throw after each hour spent among the howling winds. Si falla, the creature gains one level of {@condition exhaustion}. A creature that reaches six levels of {@condition exhaustion} while on this plane doesn't die. Instead, the creature gains a random form of indefinite madness, as described in chapter 8, \"Running the Game.\" Finishing a long rest doesn't reduce a creature's {@condition exhaustion} level unless the creature can somehow escape the maddening winds."
+						"A visitor must make a DC 10 Saviesa saving throw after each hour spent among the howling winds. Si falla, the creature gains one level of {@condition exhaust}. A creature that reaches six levels of {@condition exhaust} while on this plane doesn't die. Instead, the creature gains a random form of indefinite madness, as described in chapter 8, \"Running the Game.\" Finishing a long rest doesn't reduce a creature's {@condition exhaust} level unless the creature can somehow escape the maddening winds."
 					]
 				},
 				{
@@ -8193,7 +8193,7 @@
 					"type": "entries",
 					"name": "Hades: Vile Transformation",
 					"entries": [
-						"At the end of each long rest taken on the plane, a visitor must make a DC 10 Saviesa saving throw. Si falla, the creature gains one level of {@condition exhaustion}, which can't be removed while the creature remains in Hades. If the creature reaches six levels of {@condition exhaustion}, it doesn't die. Instead, the creature permanently transforms into a larva, whereupon all levels of {@condition exhaustion} afflicting the creature are removed.",
+						"At the end of each long rest taken on the plane, a visitor must make a DC 10 Saviesa saving throw. Si falla, the creature gains one level of {@condition exhaust}, which can't be removed while the creature remains in Hades. If the creature reaches six levels of {@condition exhaust}, it doesn't die. Instead, the creature permanently transforms into a larva, whereupon all levels of {@condition exhaust} afflicting the creature are removed.",
 						"A larva is a miserable fiend that retains the facial features of its previous form but has the body of a fat worm. A larva has only a few faint memories of its previous life and the statistics in the {@creature larva|dmg} stat block. Hades is crawling with larvae. Night hags, liches, and rakshasas harvest them for use in vile rituals. Other fiends like to feed on them."
 					]
 				},
@@ -8236,7 +8236,7 @@
 					"type": "entries",
 					"name": "Arcadia: Planar Vitality",
 					"entries": [
-						"While on this plane, creatures can't be {@condition acovardit} or {@condition poisoned}, and they are immune to disease and poisons."
+						"While on this plane, creatures can't be {@condition acovardit} or {@condition emmetzinat}, and they are immune to disease and poisons."
 					]
 				}
 			]
@@ -10012,7 +10012,7 @@
 							"name": "Vulnerabilities, Resistances, and Immunities",
 							"entries": [
 								"A ship's vulnerabilities, resistances, and immunities apply to all its components, unless otherwise noted in the stat block.",
-								"Ships are typically immune to poison and psychic damage. Ships are also usually immune to the following conditions: {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition exhaustion}, {@condition acovardit}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition atordit}, and {@condition unconscious}."
+								"Ships are typically immune to poison and psychic damage. Ships are also usually immune to the following conditions: {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition exhaust}, {@condition acovardit}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition emmetzinat}, {@condition enderrocat}, {@condition atordit}, and {@condition unconscious}."
 							]
 						}
 					]
@@ -10932,7 +10932,7 @@
 					"name": "Sleeping in Armor",
 					"entries": [
 						"Sleeping in light armor has no adverse effect on the wearer, but sleeping in medium or heavy armor makes it difficult to recover fully during a long rest.",
-						"When you finish a long rest during which you slept in medium or heavy armor, you regain only one quarter of your spent Hit Dice (minimum of one die). If you have any levels of {@condition exhaustion}, the rest doesn't reduce your {@condition exhaustion} level."
+						"When you finish a long rest during which you slept in medium or heavy armor, you regain only one quarter of your spent Hit Dice (minimum of one die). If you have any levels of {@condition exhaust}, the rest doesn't reduce your {@condition exhaust} level."
 					]
 				},
 				{
@@ -10940,8 +10940,8 @@
 					"name": "Going without a Long Rest",
 					"entries": [
 						"A long rest is never mandatory, but going without sleep does have its consequences. If you want to account for the effects of sleep deprivation on characters and creatures, use these rules.",
-						"Whenever you end a 24-hour period without finishing a long rest, you must succeed on a DC 10 Constitució saving throw or suffer one level of {@condition exhaustion}.",
-						"It becomes harder to fight off {@condition exhaustion} if you stay awake for multiple days. After the first 24 hours, the DC increases by 5 for each consecutive 24-hour period without a long rest. The DC resets to 10 when you finish a long rest."
+						"Whenever you end a 24-hour period without finishing a long rest, you must succeed on a DC 10 Constitució saving throw or suffer one level of {@condition exhaust}.",
+						"It becomes harder to fight off {@condition exhaust} if you stay awake for multiple days. After the first 24 hours, the DC increases by 5 for each consecutive 24-hour period without a long rest. The DC resets to 10 when you finish a long rest."
 					]
 				}
 			]
@@ -12194,7 +12194,7 @@
 									"type": "entries",
 									"name": "Maintain Shoes",
 									"entries": [
-										"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaustion}."
+										"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaust}."
 									]
 								},
 								{
@@ -13052,7 +13052,7 @@
 									"type": "entries",
 									"name": "Investigation, Perception",
 									"entries": [
-										"Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect {@condition poisoned} objects or try to extract clues from events that involve poison."
+										"Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect {@condition emmetzinat} objects or try to extract clues from events that involve poison."
 									]
 								},
 								{
@@ -13089,7 +13089,7 @@
 									],
 									"rows": [
 										[
-											"Spot a {@condition poisoned} object",
+											"Spot a {@condition emmetzinat} object",
 											"10"
 										],
 										[
@@ -14691,7 +14691,7 @@
 									"type": "entries",
 									"name": "Polluted Water",
 									"entries": [
-										"At the end of every hour spent immersed in the cove's water, a creature that isn't a hag ha de salvar per Constitució. Si falla, become {@condition poisoned} for 1 hour. The DC for this saving throw equals 10 + the number of continuous hours spent in the cove's water. If the hags die or leave the cove, this effect ends {@dice 1d10} days later."
+										"At the end of every hour spent immersed in the cove's water, a creature that isn't a hag ha de salvar per Constitució. Si falla, become {@condition emmetzinat} for 1 hour. The DC for this saving throw equals 10 + the number of continuous hours spent in the cove's water. If the hags die or leave the cove, this effect ends {@dice 1d10} days later."
 									]
 								}
 							]
@@ -14733,7 +14733,7 @@
 					"name": "Wreck Features",
 					"entries": [
 						"The {@i Marshal} has the following features:",
-						"{@b Barnacles}. The outside of the {@i Marshal} is covered in all manner of sharp barnacles. A creature that is pushed against the outside of the ship by magic like the {@spell tronada} spell, or by a shove attack, or that falls {@condition prone} onto a barnacle-covered surface takes 3 ({@dice 1d6}) de dany tallant.",
+						"{@b Barnacles}. The outside of the {@i Marshal} is covered in all manner of sharp barnacles. A creature that is pushed against the outside of the ship by magic like the {@spell tronada} spell, or by a shove attack, or that falls {@condition enderrocat} onto a barnacle-covered surface takes 3 ({@dice 1d6}) de dany tallant.",
 						"{@b Ceilings}. The ceilings of the {@i Marshal}'s lower deck are 8 feet high, with 6-foot-high doorways connecting the chambers.",
 						"{@b Depth}. The sea floor is 40 feet below the surface of the water. The {@i Marshal}'s highest point is 5 feet below the surface of the water. The depth of the rocks and various decks of the ship are noted on map A.6.",
 						"{@b Light}. The exposed decks of the {@i Marshal} and areas outside the ship are brightly lit by the sun during the day and dimly lit by the moon at night. The interior of the ship and the sea cave are concealed in darkness.",
@@ -14822,7 +14822,7 @@
 									"entries": [
 										"The missionaries of St. Cuthbert planned to stay for months or years in most ports, so they brought along a statue of their sacred deity to display at each stop. The statue weighs 1,500 pounds.",
 										"A {@spell detectar màgia} spell or similar effect reveals auras of enchantment and necromancy magic radiating from the statue. A creature of any nonchaotic alignment that prays to St. Cuthbert for 1 minute while within 10 feet of the statue is affected as if it just drank a {@item potion of heroisme}. The statue grants this benefit to no more than one creature every 24 hours.",
-										"A creature of any chaotic alignment that prays to St. Cuthbert for 1 minute while within 10 feet of the statue must succeed on a DC 15 Constitució saving throw or become {@condition blinded} for 1 hour."
+										"A creature of any chaotic alignment that prays to St. Cuthbert for 1 minute while within 10 feet of the statue must succeed on a DC 15 Constitució saving throw or become {@condition encegat} for 1 hour."
 									]
 								}
 							]

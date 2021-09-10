@@ -2290,7 +2290,7 @@
 				}
 			],
 			"entries": [
-				"Irradies màgia purificadora en un radi de 30 peus. Mentre el conjur duri l'aura es mou amb tu: sempre n'ets el centre. Tota criatura no-hostil dins l'aura (tu també) no pot caure malalta, és resistent al dany de verí, i salva amb avantatge contra efectes que causin les condicions {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition acovardit}, {@condition paralyzed}, {@condition poisoned}, i {@condition atordit}."
+				"Irradies màgia purificadora en un radi de 30 peus. Mentre el conjur duri l'aura es mou amb tu: sempre n'ets el centre. Tota criatura no-hostil dins l'aura (tu també) no pot caure malalta, és resistent al dany de verí, i salva amb avantatge contra efectes que causin les condicions {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition paralyzed}, {@condition emmetzinat}, i {@condition atordit}."
 			],
 			"damageResist": [
 				"verí"
@@ -3333,7 +3333,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Toques una bèstia voluntària. Durant la duració del conjur pots, com a acció, veure a través dels seus ulls i sentir el que senti. Continuaràs fent-ho fins que tornis als teus sentits normals com a acció. Mentre empris els sentits de la bèstia reps els seus beneficis i sentits especials. Tanmateix, estaràs {@condition blinded} i {@condition deafened} dels teus sentits propis."
+				"Toques una bèstia voluntària. Durant la duració del conjur pots, com a acció, veure a través dels seus ulls i sentir el que senti. Continuaràs fent-ho fins que tornis als teus sentits normals com a acció. Mentre empris els sentits de la bèstia reps els seus beneficis i sentits especials. Tanmateix, estaràs {@condition encegat} i {@condition eixordat} dels teus sentits propis."
 			],
 			"areaTags": [
 				"ST"
@@ -4115,8 +4115,8 @@
 				}
 			],
 			"entries": [
-				"El proper cop que impactis a una criatura amb un atac armat abans no acabi aquest conjur, la teva arma s'encendrà amb llum brillant i l'atac farà {@damage 3d8} de dany radiant adicional a l'objectiu. A més l'objectiu ha de salvar per Constitució. Si falla, es queda {@condition blinded} fins que acabi el conjur.",
-				"L'objectiu pot repetir la salvada de Constitució al final de cada torn seu. Si supera, deixa d'estar {@condition blinded} per aquest conjur."
+				"El proper cop que impactis a una criatura amb un atac armat abans no acabi aquest conjur, la teva arma s'encendrà amb llum brillant i l'atac farà {@damage 3d8} de dany radiant adicional a l'objectiu. A més l'objectiu ha de salvar per Constitució. Si falla, es queda {@condition encegat} fins que acabi el conjur.",
+				"L'objectiu pot repetir la salvada de Constitució al final de cada torn seu. Si supera, deixa d'estar {@condition encegat} per aquest conjur."
 			],
 			"damageInflict": [
 				"radiant"
@@ -4204,7 +4204,7 @@
 				}
 			],
 			"entries": [
-				"Cegues o eixordes a un enemic. Escull una criatura que puguis veure a l'abast; ha de salvar per Constitució. Si falla, està {@condition blinded} o bé {@condition deafened} (esculs tu) durant la duració del conjur. Al final de cada torn seu, pot salvar per Constitució de nou. Si supera, el conjur s'acaba"
+				"Cegues o eixordes a un enemic. Escull una criatura que puguis veure a l'abast; ha de salvar per Constitució. Si falla, està {@condition encegat} o bé {@condition eixordat} (esculs tu) durant la duració del conjur. Al final de cada torn seu, pot salvar per Constitució de nou. Si supera, el conjur s'acaba"
 			],
 			"entriesHigherLevel": [
 				{
@@ -6225,7 +6225,7 @@
 			"entries": [
 				"Tot de llums de colors pampalluguejants surten de la teva mà. Tira {@dice 6d10}; això serà una reserva de punts de cop.",
 				"El conjur pot afectar a totes les criatures en un con de 15 peus que comenci en tu (exceptuant les criatures {@condition unconscious} i les que no puguin veure-hi).",
-				"D'aquestes criatures, comença amb la que tingui menys punts de cop. Si la teva reserva de punts de cop és major o igual als seus punts de cop, la criatura estarà {@condition blinded} fins el final del teu proper torn. Ara resta els seus punts de cop de la teva reserva. Repeteix aquest procés amb la reserva restant i amb la següent criatura amb els menors punts de cop.",
+				"D'aquestes criatures, comença amb la que tingui menys punts de cop. Si la teva reserva de punts de cop és major o igual als seus punts de cop, la criatura estarà {@condition encegat} fins el final del teu proper torn. Ara resta els seus punts de cop de la teva reserva. Repeteix aquest procés amb la reserva restant i amb la següent criatura amb els menors punts de cop.",
 				"Ves repetint el procés fins que la teva reserva sigui menor als punts de cop de la criatura actual. Quan passi això el procés s'acaba; per tant, la resta de criatures (aquesta última inclosa) no els afectarà el conjur."
 			],
 			"entriesHigherLevel": [
@@ -6328,7 +6328,7 @@
 					"type": "entries",
 					"name": "Gateja",
 					"entries": [
-						"L'objectiu s'acota esdevenint {@condition prone} i acaba el seu torn."
+						"L'objectiu s'acota esdevenint {@condition enderrocat} i acaba el seu torn."
 					]
 				},
 				{
@@ -8262,14 +8262,14 @@
 				}
 			],
 			"entries": [
-				"Escampes malalties per tot el que toques. Fes un atac màgic melé contra una criatura al teu abast. Si impacta, l'objectiu està {@condition poisoned}.",
-				"Al final de cada torn de l'objectiu {@condition poisoned} ha de salvar per Constitució. Si supera tres vegades ja no està {@condition poisoned} i el conjur acaba. Si falla tres cops l'objectiu ja no està {@condition poisoned} però rep una de les malalties següents, que durarà la duració del conjur.",
+				"Escampes malalties per tot el que toques. Fes un atac màgic melé contra una criatura al teu abast. Si impacta, l'objectiu està {@condition emmetzinat}.",
+				"Al final de cada torn de l'objectiu {@condition emmetzinat} ha de salvar per Constitució. Si supera tres vegades ja no està {@condition emmetzinat} i el conjur acaba. Si falla tres cops l'objectiu ja no està {@condition emmetzinat} però rep una de les malalties següents, que durarà la duració del conjur.",
 				"Com que la malaltia és natural, tot efecte (màgic o comú) que curi (o alleugi) una malaltia l'afectarà.",
 				{
 					"type": "entries",
 					"name": "Malaltia de Ceguera",
 					"entries": [
-						"Una migranya terrible s'escampa pel cap de la criatura i els seus ulls es tornen completament blancs. Té desavantatge a tota tirada de Saviesa (simples, habilitats, i salvades). També està {@condition blinded}."
+						"Una migranya terrible s'escampa pel cap de la criatura i els seus ulls es tornen completament blancs. Té desavantatge a tota tirada de Saviesa (simples, habilitats, i salvades). També està {@condition encegat}."
 					]
 				},
 				{
@@ -10708,7 +10708,7 @@
 				}
 			],
 			"entries": [
-				"Colpeges el terra creant un esclat d'energia divina que surt de tu disparada. Tota criatura que escullis a 30 peus de tu ha de salvar per Constitució. Qui falli rep {@damage 5d6} de dany de tro i {@damage 5d6} de dany radiant o necròtic (escull-lo), a més de quedar-se {@condition prone}. Qui salvi rep la meitat dels danys i no es queda {@condition prone}."
+				"Colpeges el terra creant un esclat d'energia divina que surt de tu disparada. Tota criatura que escullis a 30 peus de tu ha de salvar per Constitució. Qui falli rep {@damage 5d6} de dany de tro i {@damage 5d6} de dany radiant o necròtic (escull-lo), a més de quedar-se {@condition enderrocat}. Qui salvi rep la meitat dels danys i no es queda {@condition enderrocat}."
 			],
 			"damageInflict": [
 				"necròtic",
@@ -11863,7 +11863,7 @@
 				}
 			],
 			"entries": [
-				"Xiuxiueges una melodia discordant per a una sola criatura que et pugui sentir a l'abast, donant-li un dolor terrible L'objectiu ha de salvar per Saviesa. Si falla, rep {@damage 3d6} de dany psíquic i ha de, com a reacció, allunyar-se de tu el màxim de la seva velocitat; no caurà en perills evidents, com ara una foguera o un forat. Si supera, l'objectiu rep la meitat del dany i no s'ha d'allunya. Una criatura {@condition deafened} supera automàticament la salvada."
+				"Xiuxiueges una melodia discordant per a una sola criatura que et pugui sentir a l'abast, donant-li un dolor terrible L'objectiu ha de salvar per Saviesa. Si falla, rep {@damage 3d6} de dany psíquic i ha de, com a reacció, allunyar-se de tu el màxim de la seva velocitat; no caurà en perills evidents, com ara una foguera o un forat. Si supera, l'objectiu rep la meitat del dany i no s'ha d'allunya. Una criatura {@condition eixordat} supera automàticament la salvada."
 			],
 			"entriesHigherLevel": [
 				{
@@ -12179,9 +12179,9 @@
 				{
 					"type": "list",
 					"items": [
-						"50 o inferior: {@condition deafened} durant 1 minut",
-						"40 o inferior: {@condition deafened} i {@condition blinded} durant 10 minuts",
-						"30 o inferior: {@condition blinded}, {@condition deafened}, i {@condition atordit} durant 1 hora",
+						"50 o inferior: {@condition eixordat} durant 1 minut",
+						"40 o inferior: {@condition eixordat} i {@condition encegat} durant 10 minuts",
+						"30 o inferior: {@condition encegat}, {@condition eixordat}, i {@condition atordit} durant 1 hora",
 						"20 o inferior: mort instantània"
 					]
 				},
@@ -12948,7 +12948,7 @@
 			"entries": [
 				"Crees un seisme a un punt al terra que puguis veure a l'abast. Durant la duració del conjur, un trèmol intens fractura el terra en un cercles de 100 peus de radi centrat en aquell punt i sacseja a les criatures i les estructures a dins de l'àrea.",
 				"El terra esdevé terreny difícil. Tota criatura al terra de l'àrea que s'està concentrant en un conjur ha de salvar per Constitució. Si falla, la seva concentració es trenca.",
-				"Quan llances el conjur i al final de cada torn teu que t'hi concentres, tota criatura al terra de l'àrea ha de salvar per Destresa. Si falla, cau {@condition prone}.",
+				"Quan llances el conjur i al final de cada torn teu que t'hi concentres, tota criatura al terra de l'àrea ha de salvar per Destresa. Si falla, cau {@condition enderrocat}.",
 				"Aquest conjur pot tenir efectes adicionals depenent del terreny; ho dicta el/la/li MM.",
 				{
 					"type": "entries",
@@ -12962,7 +12962,7 @@
 					"type": "entries",
 					"name": "Estructures",
 					"entries": [
-						"El trèmol fa 50 de dany contundent a tota estructura que estigui tocant el terra. El dany es fa quan llances el conjur i a l'inici de cada torn teu mentre duri el conjur. Si una estructura es queda a 0 punts de cop, s'ensorra i pot danyar a criatures properes. Una criatura que estigui a l'abast de l'estructura (la meitat de la distància de l'alçada de l'estructura) ha de salvar per Destresa. Si falla, rep {@damage 5d6} de dany contundent, cau {@condition prone}, i queda enterrada a les runes; haurà de, com a acció, fer una tirada de Força ({@skill Atletisme}) amb CD 20 per a escapar. El/la/li pot incrementar o decrementar la CD depenent de la naturalesa de la runa. Si supera rep la meitat del dany i no queda {@condition prone} ni enterrada."
+						"El trèmol fa 50 de dany contundent a tota estructura que estigui tocant el terra. El dany es fa quan llances el conjur i a l'inici de cada torn teu mentre duri el conjur. Si una estructura es queda a 0 punts de cop, s'ensorra i pot danyar a criatures properes. Una criatura que estigui a l'abast de l'estructura (la meitat de la distància de l'alçada de l'estructura) ha de salvar per Destresa. Si falla, rep {@damage 5d6} de dany contundent, cau {@condition enderrocat}, i queda enterrada a les runes; haurà de, com a acció, fer una tirada de Força ({@skill Atletisme}) amb CD 20 per a escapar. El/la/li pot incrementar o decrementar la CD depenent de la naturalesa de la runa. Si supera rep la meitat del dany i no queda {@condition enderrocat} ni enterrada."
 					]
 				}
 			],
@@ -15013,7 +15013,7 @@
 			},
 			"entries": [
 				"Toques una criatura voluntària i la deixes en un estat catatònic indistingible de la mort.",
-				"Durant la duració del conjur o fins que, com a acció, toquis l'objectiu per a dissipar-ne el conjur, l'objectiu sembla mort a qualsevol inspecció externa i a conjurs per determinar-ne l'estat. L'objectiu: es està {@condition blinded}; {@condition incapacitated}; la seva velocitat es torna 0; té resistència a tot tipus de dany excepte el psíquic; i les malalties o {@condition poisoned} que tingués abans (o rebi durant) del conjur no l'afecten mentre duri el conjur."
+				"Durant la duració del conjur o fins que, com a acció, toquis l'objectiu per a dissipar-ne el conjur, l'objectiu sembla mort a qualsevol inspecció externa i a conjurs per determinar-ne l'estat. L'objectiu: es està {@condition encegat}; {@condition incapacitated}; la seva velocitat es torna 0; té resistència a tot tipus de dany excepte el psíquic; i les malalties o {@condition emmetzinat} que tingués abans (o rebi durant) del conjur no l'afecten mentre duri el conjur."
 			],
 			"damageResist": [
 				"àcid",
@@ -18285,7 +18285,7 @@
 			],
 			"entries": [
 				"Cobreixes un quadrat de 10 peus de costat amb greix i esdevé terreny difícil durant la duració del conjur.",
-				"Quan apareix el greix tota criatura dins de l'àrea ha de salvar per Destresa. Qui falli, cau {@condition prone}. Tota criatura que entri a l'àrea o hi acabi el seu torn també ha de salvar per Destresa o caure {@condition prone}."
+				"Quan apareix el greix tota criatura dins de l'àrea ha de salvar per Destresa. Qui falli, cau {@condition enderrocat}. Tota criatura que entri a l'àrea o hi acabi el seu torn també ha de salvar per Destresa o caure {@condition enderrocat}."
 			],
 			"conditionInflict": [
 				"enderrocat"
@@ -18600,7 +18600,7 @@
 				}
 			],
 			"entries": [
-				"Imbueixes energia positiva en una criatura amb un efecte debilitant. Redueixes el seu nivell d'{@condition exhaustion} en un, o bé acabes un dels efecte següents de l'objectiu:",
+				"Imbueixes energia positiva en una criatura amb un efecte debilitant. Redueixes el seu nivell d'{@condition exhaust} en un, o bé acabes un dels efecte següents de l'objectiu:",
 				{
 					"type": "list",
 					"items": [
@@ -21029,7 +21029,7 @@
 				}
 			],
 			"entries": [
-				"Extèns llum divina que es torna una radiància a 30 peus al teu voltant. Quan llances el conjur, les criatures que escullis desprenen llum tènue a 5 peus de radi i tenen avantatge a totes les salvades, i tota criatura té desavantatge a impactar-les mentre duri el conjur. A més, si un infernal o un no-mort impacta una d'aquestes criatures, l'aura brilla amb una llum extrema: l'atacant ha de salvar per Constitució. Si falla, es queda {@condition blinded} mentre duri el conjur."
+				"Extèns llum divina que es torna una radiància a 30 peus al teu voltant. Quan llances el conjur, les criatures que escullis desprenen llum tènue a 5 peus de radi i tenen avantatge a totes les salvades, i tota criatura té desavantatge a impactar-les mentre duri el conjur. A més, si un infernal o un no-mort impacta una d'aquestes criatures, l'aura brilla amb una llum extrema: l'atacant ha de salvar per Constitució. Si falla, es queda {@condition encegat} mentre duri el conjur."
 			],
 			"conditionInflict": [
 				"encegat"
@@ -21084,7 +21084,7 @@
 				}
 			],
 			"entries": [
-				"Obres un portal a la foscor que hi ha entre les estrelles, a una regió d'horrors incomprensibles. Una esfera de 20 peus de radi (centrada en un punt a l'abast) emana foscor i fred durant la duració del conjur. Aquest buit és ple de xiuxiuejos i sorolls impossibles que es poden sentir fins a 30 peus de distància. Cap llum, màgica o no-màgica, pot il·luminar l'àrea. Les criatures completament dins l'àrea es consideren {@condition blinded}.",
+				"Obres un portal a la foscor que hi ha entre les estrelles, a una regió d'horrors incomprensibles. Una esfera de 20 peus de radi (centrada en un punt a l'abast) emana foscor i fred durant la duració del conjur. Aquest buit és ple de xiuxiuejos i sorolls impossibles que es poden sentir fins a 30 peus de distància. Cap llum, màgica o no-màgica, pot il·luminar l'àrea. Les criatures completament dins l'àrea es consideren {@condition encegat}.",
 				"L'àrea és una ruptura a la realitat que es considera terreny difíci. Tota criatura que comenci el seu torn dins de l'àrea rep {@damage 2d6} de dany de fred. Tota criatura que hi acabi el seu torn ha de salvar per Destresa. Si falla, rep {@damage 2d6} de dany d'àcid que li fan uns tentacles difuminats."
 			],
 			"damageInflict": [
@@ -22900,7 +22900,7 @@
 				}
 			],
 			"entries": [
-				"Toques una criatura i li acabes un dels efectes següents: una malaltia, {@condition blinded}, {@condition deafened}, {@condition paralyzed}, o bé {@condition poisoned}."
+				"Toques una criatura i li acabes un dels efectes següents: una malaltia, {@condition encegat}, {@condition eixordat}, {@condition paralyzed}, o bé {@condition emmetzinat}."
 			],
 			"areaTags": [
 				"ST"
@@ -24963,7 +24963,7 @@
 				}
 			],
 			"entries": [
-				"Energia sanadora flueix de tu a les criatures al teu voltant. Divideix 700 punts de cop de sanació entre totes les criatures que escullis i que puguis veure a l'abast. Les criatures que curis així també es recuperen d'estar {@condition blinded} o {@condition deafened}. Aquest conjur no afecta a no-morts ni a constructes."
+				"Energia sanadora flueix de tu a les criatures al teu voltant. Divideix 700 punts de cop de sanació entre totes les criatures que escullis i que puguis veure a l'abast. Les criatures que curis així també es recuperen d'estar {@condition encegat} o {@condition eixordat}. Aquest conjur no afecta a no-morts ni a constructes."
 			],
 			"miscTags": [
 				"HL",
@@ -25266,7 +25266,7 @@
 			"entries": [
 				"Entres a un objecte o superfície de pedra prou gran com per a contenir-te. T'hi fons tu i allò que portis durant la duració del conjur. Com a moviment, entres per un punt que puguis tocar, i ets impossible de detectar per mitjans no-màgics.",
 				"Fos així, no pots veure a l'exterior de la pedra i tens desavantatge a les tirades de Saviesa ({@skill Percepció}) per escoltar l'exterior. Saps el temps que passa i pots llançar-te conjurs a tu. Com a moviment pots sortir de la pedra per on has entrat; el conjur s'acaba. No pots moure't si no és així.",
-				"Dany menor a la pedra no t'afecta, però canviar-li la forma o destruir-la parcialment, de tal manera que no hi càpigues, et fa {@damage 6d6} de dany contundent i te n'expulsa. Si la pedra es destrueix completament (o es transmuta en una altra substància) et fa 50 de dany contundent. Quan t'expulsen així caus {@condition prone} en l'espai desocupat més proper al teu punt d'entrada."
+				"Dany menor a la pedra no t'afecta, però canviar-li la forma o destruir-la parcialment, de tal manera que no hi càpigues, et fa {@damage 6d6} de dany contundent i te n'expulsa. Si la pedra es destrueix completament (o es transmuta en una altra substància) et fa 50 de dany contundent. Quan t'expulsen així caus {@condition enderrocat} en l'espai desocupat més proper al teu punt d'entrada."
 			],
 			"damageInflict": [
 				"contundent"
@@ -26111,7 +26111,7 @@
 			"entries": [
 				"Esdevéns {@condition invisible} i, al mateix temps, crees un clon il·lusori de tu al teu lloc, que dura la duració del conjur. La teva invisibilitat també, però s'acaba prematurament si ataques o llançes un conjur.",
 				"Pots, com a acció, moure el clon fins a dues vegades la teva velocitat i fer-lo parlar, gesticular, o comportar-se com vulguis.",
-				"Pots veure i sentir a través del clon. A cada torn teu, com a acció bonus, pots alternar entre els teus sentits i els seus. Mentre ets als seus, et consideres {@condition blinded} i {@condition deafened} del teu entorn."
+				"Pots veure i sentir a través del clon. A cada torn teu, com a acció bonus, pots alternar entre els teus sentits i els seus. Mentre ets als seus, et consideres {@condition encegat} i {@condition eixordat} del teu entorn."
 			],
 			"conditionInflict": [
 				"encegat",
@@ -28699,7 +28699,7 @@
 				}
 			],
 			"entries": [
-				"Una energia curativa nega a una criatura que toques, que recupera tots els seus punts de cop. Si la criatura està {@condition fascinat}, {@condition acovardit}, {@condition paralyzed}, o {@condition atordit}, les condicions s'acaben. Si està {@condition prone} pot, com a reacció, aixecar-se. Aquest conjur no afecta a no-morts ni a constructes."
+				"Una energia curativa nega a una criatura que toques, que recupera tots els seus punts de cop. Si la criatura està {@condition fascinat}, {@condition acovardit}, {@condition paralyzed}, o {@condition atordit}, les condicions s'acaben. Si està {@condition enderrocat} pot, com a reacció, aixecar-se. Aquest conjur no afecta a no-morts ni a constructes."
 			],
 			"miscTags": [
 				"HL"
@@ -29113,7 +29113,7 @@
 					"type": "entries",
 					"name": "7-Violeta",
 					"entries": [
-						"Si falla, l'objectiu queda {@condition blinded}. Ha de salvar per Saviesa a l'inici del teu proper torn. Si supera, la ceguera acaba. Si falla, la criatura és teletransportada a un altre pla d'existència (escull el/la/li MM) i ja no està {@condition blinded}. (Normalment, une criatura forània al pla on es troba torna al seu pla d'origen, i les que no solen anar al Pla Etèri o a l'Astral.)"
+						"Si falla, l'objectiu queda {@condition encegat}. Ha de salvar per Saviesa a l'inici del teu proper torn. Si supera, la ceguera acaba. Si falla, la criatura és teletransportada a un altre pla d'existència (escull el/la/li MM) i ja no està {@condition encegat}. (Normalment, une criatura forània al pla on es troba torna al seu pla d'origen, i les que no solen anar al Pla Etèri o a l'Astral.)"
 					]
 				},
 				{
@@ -29208,7 +29208,7 @@
 			],
 			"entries": [
 				"Un pla multicolor i brillant forma una paret vertical opaca, que pot medir fins a 90 peus de llarg, 30 d'alt, i 1 polzada de gruix centrada en un punt que puguis veure a l'abast. Alternativament pots fer-ne de la paret una esfera de fins a 30 peus de diàmetre centrada en un punt que a l'abast. La paret roman al lloc durant la duració del conjur. Si la paret apareix intersectant un espai ocupat per una criatura el conjur falla, i la teva acció i ranura es gasten.",
-				"La paret desprèn llum forta a 100 peus d'abast i llum tènue uns 100 peus adicionals. Tu i les criatures que esculls quan llances el conjur poden atansar-se a la paret i atravessar-la sense malmeses. Si qualsevol altre criatura que pugui veure la paret s'hi acosta a 20 peus o menys (o comença el seu torn a aquesta distància) ha de salvar per Constitució. Si falla, esdevé {@condition blinded} durant 1 minut.",
+				"La paret desprèn llum forta a 100 peus d'abast i llum tènue uns 100 peus adicionals. Tu i les criatures que esculls quan llances el conjur poden atansar-se a la paret i atravessar-la sense malmeses. Si qualsevol altre criatura que pugui veure la paret s'hi acosta a 20 peus o menys (o comença el seu torn a aquesta distància) ha de salvar per Constitució. Si falla, esdevé {@condition encegat} durant 1 minut.",
 				"La paret està formada de 7 capes, i cadascuna té un color diferent. Quan una criatura intenta atravessar la paret, atravessa totes les capes; una rere l'altre. La criatura ha de ha de salvar per Destresa a cada capa que atravessa. Si falla, és afectada per la capa que estava atravessant.",
 				"La paret pot ser destruida capa per capa, de vermell a violeta, amb mètodes específics per a cada capa. Un cop es destrueixi una capa, roman destruida durant la duració del conjur. Un camp antimàgic no afecta a una paret prismàtica.",
 				{
@@ -29258,7 +29258,7 @@
 					"type": "entries",
 					"name": "Violeta",
 					"entries": [
-						"Si falla, la criatura esdevé {@condition blinded}. Ha de salvar per Saviesa a l'inici del teu proper torn. Si supera, la ceguera acaba. Si falla, la criatura és teletransportada a un altre pla d'existència (escull el/la/li MM) i ja no està {@condition blinded}. (Normalment, une criatura forània al pla on es troba torna al seu pla d'origen, i les que no solen anar al Pla Etèri o a l'Astral.) Aquesta capa pot ser destruida amb el conjur {@spell dissipar màgia} o un conjur de nivell equivalent o superior que pugui acabar conjurs o efectes màgics."
+						"Si falla, la criatura esdevé {@condition encegat}. Ha de salvar per Saviesa a l'inici del teu proper torn. Si supera, la ceguera acaba. Si falla, la criatura és teletransportada a un altre pla d'existència (escull el/la/li MM) i ja no està {@condition encegat}. (Normalment, une criatura forània al pla on es troba torna al seu pla d'origen, i les que no solen anar al Pla Etèri o a l'Astral.) Aquesta capa pot ser destruida amb el conjur {@spell dissipar màgia} o un conjur de nivell equivalent o superior que pugui acabar conjurs o efectes màgics."
 					]
 				}
 			],
@@ -29492,7 +29492,7 @@
 			"entries": [
 				"Crees una còpia il·lusoria de tu que dura la duració del conjur. Pot apareixer a qualsevol lloc a l'abast que hagis vist abans; els obstacles que hi puguin haver entremig no importen. La il·lusió té la teva aparença i sons però és intangible. Si rep dany, desapareix i el conjur s'acaba.",
 				"Pots, com a acció, moure la teva il·lusió tant com la teva velocitat i fer-la gesticular, parlar, i comportar-se com escullis. Imita els teus manerismes a la perfecció.",
-				"Pots veure i sentir a través dels seus ulls i orelles com si fossis al seu lloc. Al teu torn, com a acció bonus, pots canviar entre emprar els teus sentits i els de la il·lusió. Mentre facis servir els seus sentits, estaràs {@condition blinded} i {@condition deafened} del teu voltant.",
+				"Pots veure i sentir a través dels seus ulls i orelles com si fossis al seu lloc. Al teu torn, com a acció bonus, pots canviar entre emprar els teus sentits i els de la il·lusió. Mentre facis servir els seus sentits, estaràs {@condition encegat} i {@condition eixordat} del teu voltant.",
 				"Tota interacció física revelarà que és una il·lusió (és atravessable). Una criatura pot, com a acció, tirar Intel·ligència ({@skill Investigació}) contra la teva CD de salvació de conjur. Si supera, reconeix que és una il·lusió; llavors pot veure-hi a través i tot soroll que faci li sonarà buit."
 			],
 			"conditionInflict": [
@@ -30006,8 +30006,8 @@
 				}
 			],
 			"entries": [
-				"Toques a una criatura. Si està {@condition poisoned}, neutralitzes a la metzina. Si en tingués més d'una, en neutralitzes una que sàpigues que l'afligeix (o una a l'atzar).",
-				"Durant la duració del conjur, l'objectiu té avantatge a salvar contra quedar-se {@condition poisoned}, i és resistent al mal de verí."
+				"Toques a una criatura. Si està {@condition emmetzinat}, neutralitzes a la metzina. Si en tingués més d'una, en neutralitzes una que sàpigues que l'afligeix (o una a l'atzar).",
+				"Durant la duració del conjur, l'objectiu té avantatge a salvar contra quedar-se {@condition emmetzinat}, i és resistent al mal de verí."
 			],
 			"damageResist": [
 				"verí"
@@ -30646,7 +30646,7 @@
 				}
 			],
 			"entries": [
-				"Un raig d'energia verda malaltia esepetega cap a una criatura a l'abast. Fes un atac màgic a distància contra l'objectiu. Si impacta, l'objectiu rep {@damage 2d8} de dany de verí iha de salvar per Constitució. Si falla, també esdevé {@condition poisoned} fins el final del teu proper torn."
+				"Un raig d'energia verda malaltia esepetega cap a una criatura a l'abast. Fes un atac màgic a distància contra l'objectiu. Si impacta, l'objectiu rep {@damage 2d8} de dany de verí iha de salvar per Constitució. Si falla, també esdevé {@condition emmetzinat} fins el final del teu proper torn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -33403,7 +33403,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Durant la duració del conjur, cap so pot crear-se ni atravessar una esfera de 20 peus de radi centrada a un punt a l'abast. Tota criatura (o objecte) completament a dins de l'àrea és immune al dany de tro i es considera {@condition deafened}. No s'hi poden llançar conjurs amb component verbal."
+				"Durant la duració del conjur, cap so pot crear-se ni atravessar una esfera de 20 peus de radi centrada a un punt a l'abast. Tota criatura (o objecte) completament a dins de l'àrea és immune al dany de tro i es considera {@condition eixordat}. No s'hi poden llançar conjurs amb component verbal."
 			],
 			"conditionInflict": [
 				"eixordat"
@@ -33833,7 +33833,7 @@
 			],
 			"entries": [
 				"Mentre duri el conjur, aiguaneu i pluga glaçades cauen en un cilindre de 40 peus de radi i 20 d'alt centrat en un punt a l'abast. L'àrea està molt ofuscada, i tot foc exposat s'apaga.",
-				"El terra es nega de gel, fent-lo terreny difícil. Qun una The ground in the area is covered with slick ice, making it terreny difícil. Quan una criatura entra a dins de l'àrea per primer cop en un torn o hi començi el torn, ha de salvar per Destresa. Si falla, cau {@condition prone}.",
+				"El terra es nega de gel, fent-lo terreny difícil. Qun una The ground in the area is covered with slick ice, making it terreny difícil. Quan una criatura entra a dins de l'àrea per primer cop en un torn o hi començi el torn, ha de salvar per Destresa. Si falla, cau {@condition enderrocat}.",
 				"Si una criatura comença el seu torn a dins de l'àrea i s'està concentrant en un conjur, ha de salvar per Constitució. Si falla, se li trenca la concentració."
 			],
 			"conditionInflict": [
@@ -35585,7 +35585,7 @@
 				}
 			],
 			"entries": [
-				"Formes uns núvols de tempesta en un radi de 360 peus centrat en un punt que puguis veure a l'abast. Es veuen llamps, sonen trons, i es crea un vent fort a la zona. Tota criatura que estigui sota el núvol a fins 5,000 peus de distància vertical quan apareix ha de salvar per Constitució. Qui falli rep {@damage 2d6} de dany de tro i esdevé {@condition deafened} durant 5 minuts.",
+				"Formes uns núvols de tempesta en un radi de 360 peus centrat en un punt que puguis veure a l'abast. Es veuen llamps, sonen trons, i es crea un vent fort a la zona. Tota criatura que estigui sota el núvol a fins 5,000 peus de distància vertical quan apareix ha de salvar per Constitució. Qui falli rep {@damage 2d6} de dany de tro i esdevé {@condition eixordat} durant 5 minuts.",
 				"A cada ronda que mantinguis concentració en aquest conjur, la tempesta produirà efectes diferents començant en el teu torn.",
 				{
 					"type": "entries",
@@ -35791,7 +35791,7 @@
 				}
 			],
 			"entries": [
-				"Un feix de llum enlluernegant surt de la teva mà. Cobreix una línia de 60 peus de llarg i 5 d'ample. Tota criatura a dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 6d8} de dany radiant i està {@condition blinded} fins el teu proper torn. Qui superi en rep la meitat i no està {@condition blinded} pel conjur. Els no-morts i els llims salven amb desavantatge.",
+				"Un feix de llum enlluernegant surt de la teva mà. Cobreix una línia de 60 peus de llarg i 5 d'ample. Tota criatura a dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 6d8} de dany radiant i està {@condition encegat} fins el teu proper torn. Qui superi en rep la meitat i no està {@condition encegat} pel conjur. Els no-morts i els llims salven amb desavantatge.",
 				"Mentre duri el conjur pots, com a acció, crear una nova línia de llum.",
 				"Durant la duració del conjur, una engruna de brillantor et brilla a la mà. Desprén llum forta en un radi de 30 peus, i llum ténue uns 30 peus adicionals. Aquesta llum és llum solar."
 			],
@@ -35862,8 +35862,8 @@
 				}
 			],
 			"entries": [
-				"Convoques llum solar radiant en un radi de 60 peus centrat a un punt a l'abast. Tota criatura a dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 12d6} de dany radiant i està {@condition blinded} durant 1 minut. Qui superi en rep la meitat i no està {@condition blinded} per aquest conjur. Els no-morts i els llims salven amb desavantatge",
-				"Una criatura {@condition blinded} així pot repetir la salvada de Constitució al final de cada torn seu. Si supera, deixa d'estar {@condition blinded}.",
+				"Convoques llum solar radiant en un radi de 60 peus centrat a un punt a l'abast. Tota criatura a dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 12d6} de dany radiant i està {@condition encegat} durant 1 minut. Qui superi en rep la meitat i no està {@condition encegat} per aquest conjur. Els no-morts i els llims salven amb desavantatge",
+				"Una criatura {@condition encegat} així pot repetir la salvada de Constitució al final de cada torn seu. Si supera, deixa d'estar {@condition encegat}.",
 				"Aquest conjur dissipa qualsevol foscor a l'àrea creada per un conjur."
 			],
 			"damageInflict": [
@@ -36134,7 +36134,7 @@
 				}
 			],
 			"entries": [
-				"Escull una criatura que puguis veure a l'abast. Tot li comença a fer una gràcia terrible i comença a enriolar-se. L'objectiu ha de salvar per Saviesa. Si falla, cau {@condition prone}, esdevé {@condition incapacitated}, i no es pot aixecar durant la duració del conjur. Una criatura amb una Intel·ligència de 4 o menor no li afecta el conjur.",
+				"Escull una criatura que puguis veure a l'abast. Tot li comença a fer una gràcia terrible i comença a enriolar-se. L'objectiu ha de salvar per Saviesa. Si falla, cau {@condition enderrocat}, esdevé {@condition incapacitated}, i no es pot aixecar durant la duració del conjur. Una criatura amb una Intel·ligència de 4 o menor no li afecta el conjur.",
 				"Al final de cada torn seu i cada cop que rebi dany, l'objectiu pot repetir la salvada de Saviesa. Té avantatge si tira degut a dany. Si supera, el conjur s'acaba."
 			],
 			"conditionInflict": [
@@ -36946,7 +36946,7 @@
 				}
 			],
 			"entries": [
-				"El proper cop que impactis a una criatura amb un atac armat abans no acabi aquest conjur, la teva arma ressona amb un tro que es pot sentir a 300 peus d'abast, i l'atac farà {@damage 2d6} de dany de tro adicional a l'objectiu. A més, si l'objectiu és una criatura, ha de salvar per Força. Si falla, l'empentes 10 peus i el deixes {@condition prone}."
+				"El proper cop que impactis a una criatura amb un atac armat abans no acabi aquest conjur, la teva arma ressona amb un tro que es pot sentir a 300 peus d'abast, i l'atac farà {@damage 2d6} de dany de tro adicional a l'objectiu. A més, si l'objectiu és una criatura, ha de salvar per Força. Si falla, l'empentes 10 peus i el deixes {@condition enderrocat}."
 			],
 			"damageInflict": [
 				"tro"

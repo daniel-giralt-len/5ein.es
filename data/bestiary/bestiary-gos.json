@@ -59,7 +59,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The amphisbaena has advantage on Saviesa (Percepció) checks and on saving throws against being {@condition blinded}, {@condition fascinat}, {@condition deafened}, {@condition acovardit}, {@condition atordit}, and knocked {@condition unconscious}."
+						"The amphisbaena has advantage on Saviesa (Percepció) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition unconscious}."
 					]
 				}
 			],
@@ -349,7 +349,7 @@
 				{
 					"name": "Royal Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} a impactar, 10 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant, o 12 ({@damage 2d8 + 3}) de dany perforant si s'usa a dues mans per un atac melé. If the target is a Medium or smaller creature, ha de salvar per Força amb {@dc 13} or be knocked {@condition prone}."
+						"{@atk mw,rw} {@hit 5} a impactar, 10 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant, o 12 ({@damage 2d8 + 3}) de dany perforant si s'usa a dues mans per un atac melé. If the target is a Medium or smaller creature, ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -880,7 +880,7 @@
 				{
 					"name": "Necrotic Ink {@recharge 5}",
 					"entries": [
-						"The drowned master discharges foul ink in front of itself en un con de 30 peus. Each creature caught in the ink ha de salvar per Constitució amb {@dc 15}, taking 27 ({@damage 6d8}) de dany necròtic on a failed save; si supera, en rep la meitat. A creature that fails this saving throw is {@condition blinded} fins el final del seu proper torn.and contracts bluerot (see the \"Bluerot\" in notes)."
+						"The drowned master discharges foul ink in front of itself en un con de 30 peus. Each creature caught in the ink ha de salvar per Constitució amb {@dc 15}, taking 27 ({@damage 6d8}) de dany necròtic on a failed save; si supera, en rep la meitat. A creature that fails this saving throw is {@condition encegat} fins el final del seu proper torn.and contracts bluerot (see the \"Bluerot\" in notes)."
 					]
 				}
 			],
@@ -1333,8 +1333,8 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant. Si l'objectiu es una criatura Mitjana o menor prèviament {@condition grappled} pel kraken, és empassada (la presa s'acaba). Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the kraken, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn del kraken. El kraken es pot empassar una criatura Mitjana o dues de menor tamany.",
-						"Si el kraken rep 35 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 23} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition prone} a 10 peus d'abast del kraken. Si el kraken mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition prone}."
+						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant. Si l'objectiu es una criatura Mitjana o menor prèviament {@condition grappled} pel kraken, és empassada (la presa s'acaba). Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the kraken, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn del kraken. El kraken es pot empassar una criatura Mitjana o dues de menor tamany.",
+						"Si el kraken rep 35 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 23} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast del kraken. Si el kraken mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				},
 				{
@@ -1346,7 +1346,7 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken is thrown up to 40 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 13} or take the same damage and be knocked {@condition prone}."
+						"One Medium or smaller object held or creature {@condition grappled} by the kraken is thrown up to 40 feet in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 13} or take the same damage and be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -1881,7 +1881,7 @@
 				{
 					"name": "Hammer",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, and the target is knocked {@condition prone}."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, and the target is knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -2083,7 +2083,7 @@
 				{
 					"name": "Rend the Field {@recharge 5}",
 					"entries": [
-						"The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack ha de salvar per Força amb {@dc 13} or be knocked {@condition prone}."
+						"The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -2419,7 +2419,7 @@
 				{
 					"name": "Leviathan Will",
 					"entries": [
-						"The locathah has advantage on saving throws against being {@condition fascinat}, {@condition acovardit}, {@condition paralyzed}, {@condition poisoned}, {@condition atordit}, or put to sleep."
+						"The locathah has advantage on saving throws against being {@condition fascinat}, {@condition acovardit}, {@condition paralyzed}, {@condition emmetzinat}, {@condition atordit}, or put to sleep."
 					]
 				},
 				{
@@ -2536,7 +2536,7 @@
 				{
 					"name": "Envenomed Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 4} a impactar, 80/320 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o be {@condition poisoned} fins el final del seu proper torn."
+						"{@atk rw} {@hit 4} a impactar, 80/320 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o be {@condition emmetzinat} fins el final del seu proper torn."
 					]
 				},
 				{
@@ -3448,7 +3448,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The bosun has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"The bosun has advantage on ability checks and saving throws to resist being knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -3539,7 +3539,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"The captain has advantage on ability checks and saving throws to resist being knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -3674,7 +3674,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The deck wizard has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"The deck wizard has advantage on ability checks and saving throws to resist being knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -3750,7 +3750,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The first mate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"The first mate has advantage on ability checks and saving throws to resist being knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -5255,7 +5255,7 @@
 				{
 					"name": "Avalanche of Bones {@recharge 5}",
 					"entries": [
-						"The juggernaut collapses into a large heap before quickly reforming. Each creature within 10 feet of the juggernaut ha de salvar per Destresa amb {@dc 14}. Qui falli rep 18 ({@damage 4d8}) de dany contundent; qui superi, en rep la meitat. A creature that fails this saving throw is also knocked {@condition prone}."
+						"The juggernaut collapses into a large heap before quickly reforming. Each creature within 10 feet of the juggernaut ha de salvar per Destresa amb {@dc 14}. Qui falli rep 18 ({@damage 4d8}) de dany contundent; qui superi, en rep la meitat. A creature that fails this saving throw is also knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -5348,7 +5348,7 @@
 				{
 					"name": "Deafening Clatter",
 					"entries": [
-						"Creatures are {@condition deafened} while in the swarm's space."
+						"Creatures are {@condition eixordat} while in the swarm's space."
 					]
 				},
 				{
@@ -5573,7 +5573,7 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}8 ({@damage 1d8 + 4}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}8 ({@damage 1d8 + 4}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
