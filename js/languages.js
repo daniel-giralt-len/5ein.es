@@ -8,7 +8,7 @@ class LanguagesPage extends ListPage {
 
 			pageFilter,
 
-			listClass: "idiomes",
+			listClass: "languages",
 
 			sublistClass: "sublanguages",
 
