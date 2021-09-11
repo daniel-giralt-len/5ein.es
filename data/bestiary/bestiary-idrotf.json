@@ -150,7 +150,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 14,
 			"dex": 16,
@@ -209,7 +209,7 @@
 						"2e": [
 							"{@spell controlar el temps}",
 							"{@spell detectar pensaments}",
-							"{@spell ice storm}"
+							"{@spell tempesta de gel}"
 						]
 					},
 					"ability": "cha"
@@ -281,7 +281,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Auril teleports to an unoccupied space she can see within 30 feet of her."
 					]
@@ -536,7 +536,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -593,7 +593,7 @@
 					]
 				},
 				{
-					"name": "Divine Resurrection",
+					"name": "Divine Resurrecció",
 					"entries": [
 						"When Auril es queda a 0 punts de cop, her crystalline form shatters and her divine spark vanishes. She is dead until the next winter solstice, when she reappears at full health in a cold, remote location of her choosing."
 					]
@@ -659,7 +659,7 @@
 				{
 					"name": "Blinding Gleam (Costa 2 Accions)",
 					"entries": [
-						"Auril's form flares with a blue light. Each creature that can see Auril and is within 10 feet of her ha de salvar per Saviesa amb {@dc 17} or be {@condition blinded} by Auril's magical gleam for 1 minute. La criatura {@condition blinded} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Auril's form flares with a blue light. Each creature that can see Auril and is within 10 feet of her ha de salvar per Saviesa amb {@dc 17} or be {@condition blinded} by Auril's magical gleam durant 1 minut. La criatura {@condition blinded} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -756,26 +756,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt} (see \"Actions\" below)",
-								"{@spell mage hand}",
+								"{@spell sageta de foc} (see \"Actions\" below)",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
 								"{@spell il·lusió menor}",
-								"{@spell prestidigitation}"
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell mage armor}",
-								"{@spell magic missile}"
+								"{@spell armadura de mag}",
+								"{@spell missil màgic}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell flaming sphere}",
-								"{@spell knock}",
+								"{@spell esfera de flames}",
+								"{@spell picaporta}",
 								"{@spell raig d'incendi}"
 							]
 						},
@@ -784,21 +784,21 @@
 							"spells": [
 								"{@spell contraconjur}",
 								"{@spell bola de foc}",
-								"{@spell fly}"
+								"{@spell volar}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell banishment}",
-								"{@spell fire shield}"
+								"{@spell escut de foc}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell Mà d'en Bigby}",
-								"{@spell Rary's telepathic bond}"
+								"{@spell Vincle Telepàtic d'en Rary}"
 							]
 						}
 					},
@@ -829,7 +829,7 @@
 				{
 					"name": "Staff of Frost",
 					"entries": [
-						"While holding this staff, Avarice can expend 1 or more of its charges to cast one of the following spells from it ({@dc 14} salvació de conjur): {@spell con de fred} (5 charges), {@spell fog cloud} (1 charge), {@spell ice storm} (4 charges), or {@spell wall of ice} (4 charges). The staff regains {@dice 1d6 + 4} charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff turns to water and is destroyed."
+						"While holding this staff, Avarice can expend 1 or more of its charges to cast one of the following spells from it ({@dc 14} salvació de conjur): {@spell con de fred} (5 charges), {@spell núvol de boira} (1 charge), {@spell tempesta de gel} (4 charges), or {@spell paret de glaç} (4 charges). The staff regains {@dice 1d6 + 4} charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff turns to water and is destroyed."
 					]
 				}
 			],
@@ -837,7 +837,7 @@
 				{
 					"name": "Banishing Rebuke (es Recarrega amb un Descans Llarg)",
 					"entries": [
-						"When Avarice is damaged by a creature that she can see within 60 feet of her, she can banish that creature to a frigid extradimensional prison for 1 minute. While there, the creature is {@condition incapacitated} and takes 5 ({@damage 1d10}) de dany de fred a l'inici de cada torn seu. Al final de cada torn seu, the creature can make a {@dc 14} Carisma saving throw, escaping the prison on a success and reappearing in the space it left or in the nearest unoccupied space if that space is occupied. A creature that dies in the prison is trapped there indefinitely."
+						"When Avarice is damaged by a creature that she can see within 60 feet of her, she can banish that creature to a frigid extradimensional prison durant 1 minut. While there, the creature is {@condition incapacitated} and takes 5 ({@damage 1d10}) de dany de fred a l'inici de cada torn seu. Al final de cada torn seu, the creature can make a {@dc 14} Carisma saving throw, escaping the prison on a success and reappearing in the space it left or in the nearest unoccupied space if that space is occupied. A creature that dies in the prison is trapped there indefinitely."
 					]
 				}
 			],
@@ -1201,7 +1201,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 10,
 					"condition": "(flotar)"
 				},
@@ -1243,19 +1243,19 @@
 					"will": [
 						"{@spell mà morta} (see \"Actions\" below)",
 						"{@spell detectar pensaments}",
-						"{@spell mage hand}",
-						"{@spell zone of truth}"
+						"{@spell mà de mag}",
+						"{@spell zona de la veritat}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell fascinar persona}",
-							"{@spell hold person}"
+							"{@spell immobilitzar humanoide}"
 						],
 						"1e": [
 							"{@spell rampell}",
-							"{@spell hold monster}",
-							"{@spell sleep} (3rd-level version)",
-							"{@spell Tasha's hideous laughter}"
+							"{@spell immobilitzar criatura}",
+							"{@spell adormir} (3rd-level version)",
+							"{@spell Riure Horrible de la Tasha}"
 						]
 					},
 					"ability": "int"
@@ -1452,7 +1452,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 90
+				"volar": 90
 			},
 			"str": 24,
 			"dex": 11,
@@ -1550,7 +1550,7 @@
 				{
 					"name": "Malevolent Presence",
 					"entries": [
-						"Any creature with an Intel·ligència of 4 or more that is within 30 feet of the dragon ha de salvar per Saviesa amb {@dc 16} or be {@condition charmed} by it for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a dragon's Malevolent Presence durant les properes 24 hores. A creature {@condition charmed} in this way fixates on another creature or object that the dragon mentally chooses and must, on each of its turns, move as close as it can to that target and use its action to make a melee attack against it. If the dragon doesn't choose a target, the {@condition charmed} creature can act normally on its turn."
+						"Any creature with an Intel·ligència of 4 or more that is within 30 feet of the dragon ha de salvar per Saviesa amb {@dc 16} or be {@condition charmed} by it durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a dragon's Malevolent Presence durant les properes 24 hores. A creature {@condition charmed} in this way fixates on another creature or object that the dragon mentally chooses and must, on each of its turns, move as close as it can to that target and use its action to make a melee attack against it. If the dragon doesn't choose a target, the {@condition charmed} creature can act normally on its turn."
 					]
 				},
 				{
@@ -1798,7 +1798,7 @@
 			"speed": {
 				"walk": 20,
 				"burrow": 5,
-				"fly": 30
+				"volar": 30
 			},
 			"str": 1,
 			"dex": 17,
@@ -2023,7 +2023,7 @@
 				{
 					"name": "Blinding Light",
 					"entries": [
-						"The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. Com a acció bonus, the walker can target one creature in its bright light that it can see and force it to succeed on a {@dc 14} Constitució saving throw or be {@condition blinded} until the start of the walker's next turn."
+						"The walker desprèn llum forta en un radi de 20 peus i llum tènue uns 20 peus adicionals. Com a acció bonus, the walker can target one creature in its bright light that it can see and force it to succeed on a {@dc 14} Constitució saving throw or be {@condition blinded} until the start of the walker's next turn."
 					]
 				},
 				{
@@ -2248,9 +2248,9 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}*",
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell il·lusió menor}",
-								"{@spell shocking grasp}*"
+								"{@spell braó electritzant}*"
 							]
 						},
 						"1": {
@@ -2258,23 +2258,23 @@
 							"spells": [
 								"{@spell detectar màgia}",
 								"{@spell ego camuflatge}",
-								"{@spell magic missile}*"
+								"{@spell missil màgic}*"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell invisibility}",
-								"{@spell levitate}",
-								"{@spell phantasmal force}"
+								"{@spell levitar}",
+								"{@spell força fantasmagòrica}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell bola de foc}",
-								"{@spell sending}",
-								"{@spell slow}"
+								"{@spell encàrrec}",
+								"{@spell alentir}"
 							]
 						},
 						"4": {
@@ -2299,7 +2299,7 @@
 			],
 			"action": [
 				{
-					"name": "Shocking Grasp (Truc)",
+					"name": "Braó Electritzant (Truc)",
 					"entries": [
 						"{@atk ms} {@hit 5} a impactar, 5 peus d'abast, one creature (the attack roll has advantage if the target is wearing armor made of metal). {@h}9 ({@damage 2d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
@@ -2311,7 +2311,7 @@
 					]
 				},
 				{
-					"name": "Magic Missile (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Missil Màgic (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
 						"Dzaan creates three darts of magical force. Each dart unerringly strikes one creature Dzaan can see within 120 feet of it, dealing 3 ({@damage 1d4 + 1}) de dany de força. If Dzaan casts this spell using a 2nd-level spell slot, he creates one more dart."
 					]
@@ -2392,9 +2392,9 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}*",
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell il·lusió menor}",
-								"{@spell shocking grasp}*"
+								"{@spell braó electritzant}*"
 							]
 						},
 						"1": {
@@ -2402,15 +2402,15 @@
 							"spells": [
 								"{@spell detectar màgia}",
 								"{@spell ego camuflatge}",
-								"{@spell magic missile}*"
+								"{@spell missil màgic}*"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
 								"{@spell invisibility}",
-								"{@spell levitate}",
-								"{@spell phantasmal force}"
+								"{@spell levitar}",
+								"{@spell força fantasmagòrica}"
 							]
 						}
 					},
@@ -2422,7 +2422,7 @@
 			],
 			"action": [
 				{
-					"name": "Shocking Grasp (Truc)",
+					"name": "Braó Electritzant (Truc)",
 					"entries": [
 						"{@atk ms} {@hit 5} a impactar, 5 peus d'abast, one creature (the attack roll has advantage if the target is wearing armor made of metal). {@h}9 ({@damage 2d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
@@ -2434,7 +2434,7 @@
 					]
 				},
 				{
-					"name": "Magic Missile (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Missil Màgic (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
 						"The simulacrum creates three darts of magical force. Each dart unerringly strikes one creature the simulacrum can see within 120 feet of it, dealing 3 ({@damage 1d4 + 1}) de dany de força. If the simulacrum casts this spell using a 2nd-level spell slot, it creates one more dart."
 					]
@@ -2601,7 +2601,7 @@
 					"number": 30,
 					"condition": "(goat form only)"
 				},
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(owl form only)"
 				}
@@ -2642,17 +2642,17 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell guidance}",
-								"{@spell resistance}"
+								"{@spell arts de druida}",
+								"{@spell guia}",
+								"{@spell resistència}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell amistat animal}",
-								"{@spell fog cloud}",
-								"{@spell speak with animals}"
+								"{@spell núvol de boira}",
+								"{@spell parlar animal}"
 							]
 						},
 						"2": {
@@ -2660,22 +2660,22 @@
 							"spells": [
 								"{@spell missatger animal}",
 								"{@spell raig de lluna}",
-								"{@spell pass without trace}"
+								"{@spell passar desapercebudament}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell convocar animals}",
-								"{@spell sleet storm}",
-								"{@spell wind wall}"
+								"{@spell tempesta d'aiguaneu}",
+								"{@spell paret del vent}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell hallucinatory terrain}",
-								"{@spell ice storm}"
+								"{@spell terreny il·lusori}",
+								"{@spell tempesta de gel}"
 							]
 						},
 						"5": {
@@ -2865,7 +2865,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -3263,12 +3263,12 @@
 					],
 					"will": [
 						"{@spell detectar pensaments}",
-						"{@spell levitate}"
+						"{@spell levitar}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell dominar criatura}",
-							"{@spell plane shift} (self only)"
+							"{@spell saltar de pla} (self only)"
 						]
 					},
 					"ability": "int"
@@ -3286,7 +3286,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}15 ({@damage 2d10 + 4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 9} per escapar) and ha de salvar per Intel·ligència amb {@dc 15} or be {@condition stunned} mentre duri aquesta presa."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}15 ({@damage 2d10 + 4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 9} per escapar) iha de salvar per Intel·ligència amb {@dc 15} or be {@condition stunned} mentre duri aquesta presa."
 					]
 				},
 				{
@@ -3386,11 +3386,11 @@
 				{
 					"name": "Llançament de conjurs Innat (Psiònics)",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innata de The squidling és Intel·ligència ({@dc 7} salvació de conjur). It can innately cast {@spell levitate} at will, sense requerir components."
+						"L'habilitat de llançament de conjurs innata de The squidling és Intel·ligència ({@dc 7} salvació de conjur). It can innately cast {@spell levitar} at will, sense requerir components."
 					],
 					"ability": "int",
 					"will": [
-						"{@spell levitate}"
+						"{@spell levitar}"
 					],
 					"hidden": [
 						"will"
@@ -3409,7 +3409,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 0} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 2d4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 7} per escapar) and ha de salvar per Intel·ligència amb {@dc 7} or be {@condition stunned} mentre duri aquesta presa."
+						"{@atk mw} {@hit 0} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 2d4}) de dany psíquic. If the target is Medium or smaller, it is {@condition grappled} ({@dc 7} per escapar) iha de salvar per Intel·ligència amb {@dc 7} or be {@condition stunned} mentre duri aquesta presa."
 					]
 				},
 				{
@@ -3777,18 +3777,18 @@
 						"L'habilitat de llançament de conjurs innata de Grandolpha és Saviesa ({@dc 13} salvació de conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell druidcraft}",
+						"{@spell arts de druida}",
 						"{@spell apedaçar}",
-						"{@spell poison spray} (see \"Actions\" below)"
+						"{@spell esprai de verí} (see \"Actions\" below)"
 					],
 					"daily": {
 						"3e": [
 							"{@spell detectar màgia}",
-							"{@spell enlarge/reduce} (self only)",
-							"{@spell faerie fire}",
+							"{@spell engrandir/enxiquir} (self only)",
+							"{@spell foc follet}",
 							"{@spell invisibility} (self only)",
-							"{@spell polymorph}",
-							"{@spell stoneskin} (self only)"
+							"{@spell polimorfia}",
+							"{@spell pell de pedra} (self only)"
 						]
 					},
 					"ability": "wis"
@@ -3810,7 +3810,7 @@
 			],
 			"action": [
 				{
-					"name": "Poison Spray (Truc)",
+					"name": "Esprai de Verí (Truc)",
 					"entries": [
 						"Grandolpha extends her hand toward a creature she can see within 10 feet of her and projects a puff of noxious gas from her palm. The creature ha de salvar per Constitució amb {@dc 13} or take 13 ({@damage 2d12}) de dany de verí."
 					]
@@ -4924,7 +4924,7 @@
 					]
 				},
 				{
-					"name": "Shield",
+					"name": "Escut",
 					"entries": [
 						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}11 ({@damage 2d6 + 4}) de dany contundent, and Jarund pushes the target 5 feet away from him if it's Large or smaller. Jarund then enters the space vacated by the target. If the target is pushed to within 5 feet of a creature friendly to Jarund, that creature can make an attack against the target as a reaction."
 					]
@@ -5022,7 +5022,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell sacred flame}",
 								"{@spell thaumaturgy}"
 							]
@@ -5031,15 +5031,15 @@
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell inflict wounds}",
-								"{@spell shield of faith}"
+								"{@spell infligir ferides}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell arma espiritual}"
 							]
 						}
 					},
@@ -5228,7 +5228,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell sacred flame}",
 								"{@spell thaumaturgy}"
 							]
@@ -5237,15 +5237,15 @@
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell inflict wounds}",
-								"{@spell shield of faith}"
+								"{@spell infligir ferides}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell arma espiritual}"
 							]
 						}
 					},
@@ -5453,7 +5453,7 @@
 					"name": "Vampire Weaknesses",
 					"entries": [
 						"The vampire has the following flaws:",
-						"{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants.",
+						"{@i Prohibició.} The vampire can't enter a residence without an invitation from one of the occupants.",
 						"{@i Harmed by Running Water.} The vampire takes 20 acid damage when it starts its turn in running water.",
 						"{@i Stake to the Heart.} The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
 						"{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. it té desavantatge quan li toca llum solar and ability checks."
@@ -5514,7 +5514,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(flotar)"
 				},
@@ -5599,7 +5599,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Living Blade of Disaster",
+			"name": "Living Fil del Desastre",
 			"source": "IDRotF",
 			"page": 299,
 			"size": "S",
@@ -5622,7 +5622,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -5770,7 +5770,7 @@
 				{
 					"name": "Extradimensional Chamber",
 					"entries": [
-						"When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature ha de salvar per Destresa amb {@dc 10} or be pulled into the living spell's extradimensional space, an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit in this space succeeds on the saving throw automatically. Creatures in the chamber never run out of breathable air. Magic that enables transit between planes, such as plane shift, can be used to escape the chamber, which has no exits otherwise. Creatures trapped inside the extradimensional chamber can't see, target, or deal damage to the living spell; however, they can damage the room around them. Each 5-foot-square section of ceiling, wall, and floor in the chamber has AC 17, 50 hit points, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage that is nonmagical. If any section is reduced to 0 hit points, the living spell and its chamber are destroyed (see \"Planar Destruction\" below)."
+						"When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature ha de salvar per Destresa amb {@dc 10} or be pulled into the living spell's extradimensional space, an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit in this space succeeds on the saving throw automatically. Creatures in the chamber never run out of breathable air. Magic that enables transit between planes, such as saltar de pla, can be used to escape the chamber, which has no exits otherwise. Creatures trapped inside the extradimensional chamber can't see, target, or deal damage to the living spell; however, they can damage the room around them. Each 5-foot-square section of ceiling, wall, and floor in the chamber has AC 17, 50 hit points, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage that is nonmagical. If any section is reduced to 0 hit points, the living spell and its chamber are destroyed (see \"Planar Destruction\" below)."
 					]
 				},
 				{
@@ -5822,7 +5822,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -5902,7 +5902,7 @@
 				{
 					"name": "Albir Terrorífic",
 					"entries": [
-						"Each non-undead creature within 60 feet of the banshee that can see her ha de salvar per Saviesa amb {@dc 13} or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw al final de cada torn seu, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Albir Terrorífic durant les properes 24 hores."
+						"Each non-undead creature within 60 feet of the banshee that can see her ha de salvar per Saviesa amb {@dc 13} or be {@condition frightened} durant 1 minut. A {@condition frightened} target can repeat the saving throw al final de cada torn seu, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Albir Terrorífic durant les properes 24 hores."
 					]
 				},
 				{
@@ -5986,18 +5986,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
+								"{@spell arts de druida}",
+								"{@spell produir flama}",
 								"{@spell shillelagh}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell longstrider}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell enredar}",
+								"{@spell llarg de gambals}",
+								"{@spell parlar animal}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -6123,7 +6123,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 7,
 			"dex": 13,
@@ -6182,9 +6182,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
-								"{@spell prestidigitation}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -6192,7 +6192,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell thunderwave}"
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -6239,7 +6239,7 @@
 				{
 					"name": "Albir Terrorífic",
 					"entries": [
-						"Tota criatura no no-morta a 60 peus de the ghost que pugui veure'l ha de salvar per Saviesa amb {@dc 14}. Qui falli estarà {@condition frightened} durant 1 minut. Qui falli per més de 5 també envelleix {@dice 1d4 × 10} anys. Les criatures {@condition frightened} poden repetir la salvada al final de cada torn, cancel·lan l'efecte {@condition frightened} quan superin.If the target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Albir Terrorífic durant les properes 24 hores. The aging effect can be reversed by a greater restoration spell, but only if it is cast within 24 hours."
+						"Tota criatura no no-morta a 60 peus de the ghost que pugui veure'l ha de salvar per Saviesa amb {@dc 14}. Qui falli estarà {@condition frightened} durant 1 minut. Qui falli per més de 5 també envelleix {@dice 1d4 × 10} anys. Les criatures {@condition frightened} poden repetir la salvada al final de cada torn, cancel·lan l'efecte {@condition frightened} quan superin.If the target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Albir Terrorífic durant les properes 24 hores. The aging effect can be reversed by a restabliment superior spell, but only if it is cast within 24 hours."
 					]
 				},
 				{
@@ -6333,18 +6333,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}*",
+								"{@spell llum}*",
 								"{@spell missatge}*",
-								"{@spell prestidigitation}",
-								"{@spell shocking grasp} (see \"Actions\" below)"
+								"{@spell prestidigitació}",
+								"{@spell braó electritzant} (see \"Actions\" below)"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell mage armor}*",
-								"{@spell shield}",
-								"{@spell sleep}"
+								"{@spell armadura de mag}*",
+								"{@spell escut}",
+								"{@spell adormir}"
 							]
 						},
 						"2": {
@@ -6371,7 +6371,7 @@
 			],
 			"action": [
 				{
-					"name": "Shocking Grasp (Truc)",
+					"name": "Braó Electritzant (Truc)",
 					"entries": [
 						"{@atk ms} {@hit 5} a impactar (with advantage on the attack if the target is wearing armor made of metal), 5 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
@@ -6685,18 +6685,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
+								"{@spell arts de druida}",
+								"{@spell produir flama}",
 								"{@spell shillelagh}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell longstrider}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell enredar}",
+								"{@spell llarg de gambals}",
+								"{@spell parlar animal}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -7283,18 +7283,18 @@
 						"Spellix's habilitat de llançament de conjurs is Carisma ({@dc 13} salvada de conjur, {@hit 5} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell fire bolt}*",
-						"{@spell mage hand}",
-						"{@spell shocking grasp}*"
+						"{@spell sageta de foc}*",
+						"{@spell mà de mag}",
+						"{@spell braó electritzant}*"
 					],
 					"daily": {
 						"3": [
-							"{@spell silent image}"
+							"{@spell imatge silenciosa}"
 						],
 						"1e": [
 							"{@spell esfera cromàtica}",
 							"{@spell corona de bogeria}",
-							"{@spell shield}"
+							"{@spell escut}"
 						]
 					},
 					"footerEntries": [
@@ -7313,7 +7313,7 @@
 			],
 			"action": [
 				{
-					"name": "Shocking Grasp (Truc)",
+					"name": "Braó Electritzant (Truc)",
 					"entries": [
 						"{@atk ms} {@hit 5} a impactar (with advantage on the attack roll if the target is wearing armor made of metal), 5 peus d'abast, una criatura. {@h}4 ({@damage 1d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
@@ -7940,10 +7940,10 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta} (see \"Actions\" below)",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
-								"{@spell prestidigitation}"
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
@@ -7951,24 +7951,24 @@
 							"spells": [
 								"{@spell comprendre idiomes}",
 								"{@spell detectar màgia}",
-								"{@spell ray of sickness}",
-								"{@spell Tasha's hideous laughter}"
+								"{@spell raig d'arcada}",
+								"{@spell Riure Horrible de la Tasha}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell visió de foscor}",
-								"{@spell hold person}",
-								"{@spell ray of enfeeblement}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell raig d'afebliment}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell animar els morts}",
-								"{@spell Leomund's tiny hut}",
-								"{@spell vampiric touch} (see \"Actions\" below)"
+								"{@spell Barraca Diminuta d'en Leomund}",
+								"{@spell toc vampíric} (see \"Actions\" below)"
 							]
 						},
 						"4": {
@@ -7986,13 +7986,13 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Vellynne wears bracers of defense and carries a wand of magic missiles (see \"Actions\" below)."
+						"Vellynne wears bracers of defense and carries a wand of missils màgics (see \"Actions\" below)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Vampiric Touch (3rd-Level Spell; Requires a Spell Slot)",
+					"name": "Toc Vampíric (3rd-Level Spell; Requires a Spell Slot)",
 					"entries": [
 						"{@atk ms} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany necròtic, and Vellynne regains hit points equal to half the necrotic damage dealt. If Vellynne casts this spell using a spell slot of 4th level or higher, the necrotic damage increases by {@dice 1d6} per cada nivell per sobre de 3."
 					]
@@ -8004,9 +8004,9 @@
 					]
 				},
 				{
-					"name": "Wand of Magic Missiles",
+					"name": "Wand of Missils Màgics",
 					"entries": [
-						"While holding this wand, Vellynne can expend 1 or more of its 7 charges to cast the magic missile spell from it. She can expend 1 charge to cast the 1st-level version of the spell. She can increase the spell slot level by one for each additional charge she expends. The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If the wand's last charge is expended, roll a {@dice d20}; on a 1, the wand crumbles into ashes and is destroyed."
+						"While holding this wand, Vellynne can expend 1 or more of its 7 charges to cast the missil màgic spell from it. She can expend 1 charge to cast the 1st-level version of the spell. She can increase the spell slot level by one for each additional charge she expends. The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If the wand's last charge is expended, roll a {@dice d20}; on a 1, the wand crumbles into ashes and is destroyed."
 					]
 				}
 			],
@@ -8034,7 +8034,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Verbeeg Longstrider",
+			"name": "Verbeeg Llarg de Gambals",
 			"source": "IDRotF",
 			"page": 311,
 			"size": "L",
@@ -8088,10 +8088,10 @@
 					"daily": {
 						"1e": [
 							"{@spell missatger animal}",
-							"{@spell fog cloud}",
-							"{@spell freedom of movement}",
-							"{@spell pass without trace}",
-							"{@spell silence}",
+							"{@spell núvol de boira}",
+							"{@spell llibertat de moviments}",
+							"{@spell passar desapercebudament}",
+							"{@spell silenci}",
 							"{@spell water walk}"
 						]
 					},
@@ -8365,12 +8365,12 @@
 						"L'habilitat de llançament de conjurs innata de Xardorok és Carisma ({@dc 15} salvada de conjur, {@hit 7} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell eldritch blast} (see \"Actions\" below)",
-						"{@spell mage hand}"
+						"{@spell missil èldritx} (see \"Actions\" below)",
+						"{@spell mà de mag}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell hold person}",
+							"{@spell immobilitzar humanoide}",
 							"{@spell suggestió}"
 						]
 					},
@@ -8395,7 +8395,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Xardorok attacks twice with a weapon or casts eldritch blast twice."
+						"Xardorok attacks twice with a weapon or casts missil èldritx twice."
 					]
 				},
 				{
@@ -8405,7 +8405,7 @@
 					]
 				},
 				{
-					"name": "Eldritch Blast (Truc)",
+					"name": "Missil Èldritx (Truc)",
 					"entries": [
 						"{@atk rs} {@hit 7} a impactar, 120 peus d'abast, una criatura. {@h}9 ({@damage 1d10 + 4}) de dany de força."
 					]
@@ -8425,9 +8425,9 @@
 			],
 			"reaction": [
 				{
-					"name": "Hellish Rebuke (2/Dia)",
+					"name": "Venjança dels Inferns (2/Dia)",
 					"entries": [
-						"When Xardorok is damaged by a creature within 60 feet of him that he can see, the creature that damaged him is engulfed in hellish flames and ha de salvar per Destresa amb {@dc 15}. Qui falli rep 16 ({@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
+						"When Xardorok is damaged by a creature within 60 feet of him that he can see, the creature that damaged him is engulfed in hellish flames iha de salvar per Destresa amb {@dc 15}. Qui falli rep 16 ({@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -8567,7 +8567,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 80
+				"volar": 80
 			},
 			"str": 12,
 			"dex": 15,
@@ -8650,7 +8650,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 80
+				"volar": 80
 			},
 			"str": 8,
 			"dex": 15,
@@ -8733,7 +8733,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 2,
 			"dex": 15,

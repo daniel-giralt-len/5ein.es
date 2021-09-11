@@ -4621,46 +4621,46 @@ Renderer.monster = {
 		function getExampleSpells (maxSpellLevel, color) {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
-					B: ["darkness", "Fletxa Àcida d'en Melf", "fog cloud", "raig d'incendi"],
-					G: ["ray of sickness", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
-					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
-					A: ["see invisibility", "magic mouth", "ceguera/sordera", "sleep", "detectar pensaments"],
-					Z: ["gust of wind", "pas boira", "locate object", "difuminar", "witch bolt", "thunderwave", "shield"],
-					C: ["knock", "sleep", "detectar pensaments", "ceguera/sordera", "tasha's hideous laughter"],
+					B: ["darkness", "Fletxa Àcida d'en Melf", "núvol de boira", "raig d'incendi"],
+					G: ["raig d'arcada", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
+					W: ["punyal de gel|XGE", "Exèrcit de Boles de Neu d'en Snilloc|XGE"],
+					A: ["veure invisibilitat", "boca màgica", "ceguera/sordera", "adormir", "detectar pensaments"],
+					Z: ["ràfega de vent", "pas boira", "localitzar objecte", "difuminar", "llampec bruixot", "tronada", "escut"],
+					C: ["picaporta", "adormir", "detectar pensaments", "ceguera/sordera", "Riure Horrible de la Tasha"],
 				},
 				3: {
-					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "magic missile", "slow"],
-					R: ["bola de foc", "raig d'incendi", "haste", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
-					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "shield"],
-					S: ["sleet storm", "protection from energy", "catnap|XGE", "locate object", "identify", "Leomund's tiny hut"],
+					U: ["Paret de Sorra|XGE", "Passa del Tro|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
+					R: ["bola de foc", "raig d'incendi", "pressa", "terra en erupció|XGE", "Socarrador d'Aganazzar|XGE"],
+					O: ["alentir", "bola de foc", "dissipar màgia", "contraconjur", "Socarrador d'Aganazzar|XGE", "escut"],
+					S: ["tempesta d'aiguaneu", "protegir de l'energia", "becaina|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {
-					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "hunger of Hadar"],
-					W: ["fire shield", "ice storm", "sleet storm"],
-					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "hypnotic pattern", "tongues"],
-					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
+					B: ["Esfera Vitriòlica|XGE", "radiància malaltissa|XGE", "Evard's black tentacles", "plaga", "fam d'Hadar"],
+					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
+					A: ["fascinar criatura|XGE", "encàrrec", "Paret de Sorra|XGE", "senefes hipnòtiques", "llenguatges"],
+					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
 				},
 				5: {
-					U: ["telekinesis", "hold monster", "porta dimensional", "wall of stone", "wall of force"],
-					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "hallucinatory terrain", "porta dimensional"],
-					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
-					O: ["hold monster", "immolation|XGE", "wall of fire", "greater invisibility", "porta dimensional"],
-					S: ["cone of cold", "ice storm", "teleportation circle", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
+					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "paret de pedra", "paret de força"],
+					G: ["matanúvol", "fascinar criatura|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
+					Z: ["cop del vent d'acer|XGE", "controlar el temps", "controlar el vent|XGE", "Esfera Aquosa|XGE", "esfera de tempesta|XGE", "Marea Alta|XGE"],
+					O: ["immobilitzar criatura", "immolation|XGE", "paret de foc", "invisibilitat superior", "porta dimensional"],
+					S: ["cone of cold", "tempesta de gel", "cercle de teletransport", "potenciar talent|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
 				},
 				6: {
-					W: ["cone of cold", "wall of ice"],
-					A: ["scrying", "Rary's telepathic bond", "Otto's irresistible dance", "legend lore", "hold monster", "dream"],
+					W: ["cone of cold", "paret de glaç"],
+					A: ["escodrinyar", "Vincle Telepàtic d'en Rary", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
 				},
 				7: {
-					B: ["power word pain|XGE", "finger of death", "desintegrar", "hold monster"],
-					U: ["llamp en cadena", "forcecage", "teleport", "eterietat"],
-					G: ["project image", "miratge arcà", "esprai prismàtic", "teleport"],
-					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "desintegrar", "llampec"],
-					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Mà d'en Bigby", "mental prison|XGE", "seeming"],
-					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
+					B: ["paraula de poder dolor|XGE", "dit de la mort", "desintegrar", "immobilitzar criatura"],
+					U: ["llamp en cadena", "gàbia de força", "teleportació", "eterietat"],
+					G: ["projectar imatge", "miratge arcà", "esprai prismàtic", "teleportació"],
+					Z: ["Galerna|XGE", "llamp en cadena", "escampar|XGE", "teleportació", "desintegrar", "llampec"],
+					C: ["symbol", "simulacre", "invertir la gravetat", "projectar imatge", "Mà d'en Bigby", "presó mental|XGE", "aparentar"],
+					S: ["Esfera Glaçada de l'Otiluk", "esprai prismàtic", "paret de glaç", "contingència", "portal arcà"],
 				},
 				8: {
-					O: ["sunburst", "Bola de Foc Posposada", "camp antimàgic", "teleport", "globe of invulnerability", "laberint"],
+					O: ["Explosió Solar", "Bola de Foc Posposada", "camp antimàgic", "teleportació", "globus d'invulnerabilitat", "laberint"],
 				},
 			};
 
@@ -8654,8 +8654,8 @@ Renderer.hover = {
 	},
 
 	getRefMetaFromTag (str) {
-		// convert e.g. `"{#itemEntry Ring of Resistance|DMG}"`
-		//   to `{type: "refItemEntry", "itemEntry": "Ring of Resistance|DMG"}`
+		// convert e.g. `"{#itemEntry Ring of Resistència|DMG}"`
+		//   to `{type: "refItemEntry", "itemEntry": "Ring of Resistència|DMG"}`
 		str = str.slice(2, -1);
 		const [tag, ...refParts] = str.split(" ");
 		const ref = refParts.join(" ");

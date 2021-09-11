@@ -233,7 +233,7 @@
 	},
 
 	// cantrips that should be preserved when lowering the number of cantrips known, to ensure caster effectiveness
-	_protectedCantrips: ["esquitx àcid", "mà morta", "eldritch blast", "fire bolt", "poison spray", "produce flame", "raig gebre", "sacred flame", "shocking grasp", "thorn whip", "vicious mockery"],
+	_protectedCantrips: ["esquitx àcid", "mà morta", "missil èldritx", "sageta de foc", "esprai de verí", "produir flama", "raig gebre", "sacred flame", "braó electritzant", "fuet d'espines", "mofa i escarni"],
 
 	// analysis of official data + some manual smoothing
 	_crToCasterLevelAvg: {
@@ -527,7 +527,7 @@
 			"armadura de cuir": 11,
 			"armadura de cuir tatxonada": 12,
 		},
-		_MAGE_ARMOR: "@spell mage armor",
+		_MAGE_ARMOR: "@spell armadura de mag",
 
 		_ALL_SHIELD_VARIANTS: null,
 		_ALL_HEAVY_VARIANTS: null,
@@ -565,7 +565,7 @@
 
 			if (originalDexMod === currentDexMod) return;
 
-			// Handle mage armor, light armor, and medium armor.
+			// Handle armadura de mag, light armor, and medium armor.
 			//   Note that natural armor and "unarmored" also include DEX, but these are handled in the main loop.
 
 			if (this._isMageArmor(acItem)) {
@@ -781,7 +781,7 @@
 			// "FROM" ADJUSTERS ========================================================================================
 
 			const handleMageArmor = () => {
-				// if there's mage armor, try adjusting dex
+				// if there's armadura de mag, try adjusting dex
 				if (this._isMageArmor(acItem)) {
 					if (canAdjustDex) {
 						acItem.ac = target;
@@ -789,7 +789,7 @@
 						return adjustDex();
 					} else {
 						// We have already set the AC in the pre-adjustment step.
-						//   Mage armor means there was no other armor, so stop here.
+						//   Armadura de Mag means there was no other armor, so stop here.
 						return true;
 					}
 				}
@@ -2094,7 +2094,7 @@
 				if (numArcanum === 0) return delete sc.daily["1e"];
 
 				if (curNumSpells > numArcanum) {
-					// map each existing spell e.g. `{@spell gate}` to an object of the form `{original: "{@spell gate}", level: 9}`
+					// map each existing spell e.g. `{@spell portal}` to an object of the form `{original: "{@spell portal}", level: 9}`
 					const curSpells = sc.daily["1e"].map(it => {
 						const m = /{@spell ([^|}]+)(?:\|([^|}]+))?[|}]/.exec(it);
 						if (m) {

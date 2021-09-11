@@ -51,7 +51,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(see bad flier below)"
 				}
@@ -388,11 +388,11 @@
 						"3e": [
 							"{@spell animar els morts}",
 							"{@spell càstig marcador} (at 4th level)",
-							"{@spell revivify}"
+							"{@spell revifar}"
 						],
 						"1e": [
 							"{@spell geas}",
-							"{@spell raise dead}"
+							"{@spell llevar als morts}"
 						]
 					},
 					"ability": "cha"
@@ -408,7 +408,7 @@
 				{
 					"name": "Hand of Vecna",
 					"entries": [
-						"The Hand of Vecna has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges ({@dc 18} salvació de conjur): {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges), and {@spell teleport} (3 charges)."
+						"The Hand of Vecna has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges ({@dc 18} salvació de conjur): {@spell dit de la mort} (5 charges), {@spell adormir} (1 charge), {@spell alentir} (2 charges), and {@spell teleportació} (3 charges)."
 					]
 				},
 				{
@@ -499,7 +499,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 28,
 			"dex": 14,
@@ -560,15 +560,15 @@
 					"daily": {
 						"3e": [
 							"{@spell dissipar màgia}",
-							"{@spell hold monster}",
+							"{@spell immobilitzar criatura}",
 							"{@spell imatge mirall}",
 							"{@spell desconcertar}",
-							"{@spell raise dead}",
-							"{@spell teleport}",
-							"{@spell wall of fire}"
+							"{@spell llevar als morts}",
+							"{@spell teleportació}",
+							"{@spell paret de foc}"
 						],
 						"1e": [
-							"{@spell imprisonment}",
+							"{@spell engarjolament}",
 							"{@spell eixam de meteorits}"
 						]
 					},
@@ -765,9 +765,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
+								"{@spell guia}",
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -776,22 +776,22 @@
 								"{@spell perdició}",
 								"{@spell beneir}",
 								"{@spell curar ferides}",
-								"{@spell guiding bolt} (see \"Actions\" below)"
+								"{@spell sageta guia} (see \"Actions\" below)"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell ceguera/sordera}",
-								"{@spell hold person}",
-								"{@spell silence}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell silenci}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell sending}",
-								"{@spell spirit guardians}"
+								"{@spell encàrrec}",
+								"{@spell guardians espirituals}"
 							]
 						}
 					},
@@ -826,7 +826,7 @@
 					]
 				},
 				{
-					"name": "Guiding Bolt (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Sageta Guia (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
 						"{@atk rs} {@hit 7} a impactar, 120 peus d'abast, una criatura. {@h}14 ({@damage 4d6}) de dany radiant, and the next attack roll made against the target before the end of the black gauntlet's next turn has advantage. If the black gauntlet casts this spell using a spell slot of 2nd level or higher, el dany incrementa en {@dice 1d6} per cada nivell per sobre d'1."
 					]
@@ -972,8 +972,8 @@
 										"items": [
 											"Unless Burney decided otherwise, once any creature less powerful than a deity has taken three steps from her, they can no longer remember her or having interacted with her specifically.",
 											"Burney is under the effect of a permanent {@spell ment en blanc} spell, and cannot be detected by magical or mundane means unless she wishes it. In exchange for this blessing, Burney can take no direct action against the denizens of els Nou Inferns, though she can certainly enlist the help of those who can.",
-											"Burney always knows the location of the Wandering Emporium and can transport herself there as though by a {@spell word of recall} spell. This explains why Burney simply seems to appear amid the fully deployed marketplace each morning it is active to provide service and tell stories.",
-											"Once each day, when Burney so desires, she can instantly transport herself to the court of Bahamut via a powerful blessing akin to the {@spell plane shift} spell."
+											"Burney always knows the location of the Wandering Emporium and can transport herself there as though by a {@spell formular el retorn} spell. This explains why Burney simply seems to appear amid the fully deployed marketplace each morning it is active to provide service and tell stories.",
+											"Once each day, when Burney so desires, she can instantly transport herself to the court of Bahamut via a powerful blessing akin to the {@spell saltar de pla} spell."
 										]
 									}
 								]
@@ -1383,11 +1383,11 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Thalamra uses eldritch blast twice or makes two unarmed strikes."
+						"Thalamra uses missil èldritx twice or makes two unarmed strikes."
 					]
 				},
 				{
-					"name": "Eldritch Blast (Truc)",
+					"name": "Missil Èldritx (Truc)",
 					"entries": [
 						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, una criatura. {@h}9 ({@damage 1d10 + 4}) de dany de força."
 					]
@@ -1401,9 +1401,9 @@
 			],
 			"reaction": [
 				{
-					"name": "Hellish Rebuke (Conjur de Nivell 1; 2/Dia)",
+					"name": "Venjança dels Inferns (Conjur de Nivell 1; 2/Dia)",
 					"entries": [
-						"When Thalamra is damaged by a creature within 60 feet of her that she can see, the creature that damaged her is engulfed in hellish flames and ha de salvar per Destresa amb {@dc 14}. Qui falli rep 16 ({@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
+						"When Thalamra is damaged by a creature within 60 feet of her that she can see, the creature that damaged her is engulfed in hellish flames iha de salvar per Destresa amb {@dc 14}. Qui falli rep 16 ({@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -1527,7 +1527,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -1938,7 +1938,7 @@
 			},
 			"speed": {
 				"walk": 10,
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(flotar)"
 				},
@@ -2059,7 +2059,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 120
+				"volar": 120
 			},
 			"str": 10,
 			"dex": 11,
@@ -2102,20 +2102,20 @@
 						"L'habilitat de llançament de conjurs innata de The hollyphant és Saviesa ({@dc 15} salvació de conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell light}"
+						"{@spell llum}"
 					],
 					"daily": {
 						"2e": [
 							"{@spell beneir}",
 							"{@spell curar ferides}",
-							"{@spell protection from evil and good}"
+							"{@spell protegir del bé i del mal}"
 						],
 						"1e": [
 							"{@spell banishment}",
-							"{@spell heal}",
-							"{@spell raise dead}",
-							"{@spell shapechange} (into a golden-furred {@creature mamut} with feathered wings and a flying speed of 120 ft.)",
-							"{@spell teleport} (with no chance of error)"
+							"{@spell sanar}",
+							"{@spell llevar als morts}",
+							"{@spell canviaformes} (into a golden-furred {@creature mamut} with feathered wings and a flying speed of 120 ft.)",
+							"{@spell teleportació} (with no chance of error)"
 						]
 					},
 					"ability": "wis"
@@ -2151,13 +2151,13 @@
 				{
 					"name": "Trumpet of Blasting",
 					"entries": [
-						"Each creature in the cone ha de salvar per Constitució amb {@dc 14}. Qui falli rep 17 ({@damage 5d6}) de dany de tro i està {@condition deafened} for 1 minute. Qui superi en rep la meitat i no està {@condition deafened}. Nonmagical objects in the cone that aren't being held or worn take 35 ({@damage 10d6}) de dany de tro."
+						"Tota criatura a dins del con ha de salvar per Constitució amb {@dc 14}. Qui falli rep 17 ({@damage 5d6}) de dany de tro i està {@condition deafened} durant 1 minut. Qui superi en rep la meitat i no està {@condition deafened}. Nonmagical objects in the cone that aren't being held or worn take 35 ({@damage 10d6}) de dany de tro."
 					]
 				},
 				{
 					"name": "Trumpet of Sparkles",
 					"entries": [
-						"Creatures in the cone ha de salvar per Constitució amb {@dc 14}, taking 22 ({@damage 4d8 + 4}) de dany radiant on a failed save; si supera, en rep la meitat. Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage."
+						"Creatures in the cone ha de salvar per Constitució amb {@dc 14}, taking 22 ({@damage 4d8 + 4}) de dany radiant; si supera, en rep la meitat. Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage."
 					]
 				}
 			],
@@ -2379,11 +2379,11 @@
 					"daily": {
 						"1e": [
 							"{@spell dissipar el bé i el mal}",
-							"{@spell gate}",
-							"{@spell harm}",
-							"{@spell telekinesis}",
-							"{@spell teleport}",
-							"{@spell wind walk}"
+							"{@spell portal}",
+							"{@spell malmenar}",
+							"{@spell Telequinesi}",
+							"{@spell teleportació}",
+							"{@spell pas del vent}"
 						]
 					},
 					"ability": "cha"
@@ -2539,10 +2539,10 @@
 							"spells": [
 								"{@spell mà morta}",
 								"{@spell apedaçar}",
-								"{@spell resistance}",
+								"{@spell resistència}",
 								"{@spell sacred flame}",
-								"{@spell spare the dying}",
-								"{@spell thaumaturgy}"
+								"{@spell misericòrdia}",
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -2550,29 +2550,29 @@
 							"spells": [
 								"{@spell curar ferides}",
 								"{@spell detectar el bé i el mal}",
-								"{@spell false life}",
-								"{@spell inflict wounds}",
-								"{@spell ray of sickness}"
+								"{@spell pseudo vida}",
+								"{@spell infligir ferides}",
+								"{@spell raig d'arcada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell ceguera/sordera}",
-								"{@spell gentle repose}",
-								"{@spell hold person}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spiritual weapon}"
+								"{@spell repòs gentil}",
+								"{@spell immobilitzar humanoide}",
+								"{@spell raig d'afebliment}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell animar els morts}",
-								"{@spell magic circle}",
-								"{@spell speak with dead}",
-								"{@spell spirit guardians}",
-								"{@spell vampiric touch}"
+								"{@spell cercle màgic}",
+								"{@spell parlar amb els morts}",
+								"{@spell guardians espirituals}",
+								"{@spell toc vampíric}"
 							]
 						},
 						"4": {
@@ -2582,7 +2582,7 @@
 								"{@spell plaga}",
 								"{@spell abjurar la mort}",
 								"{@spell endevinació}",
-								"{@spell locate creature}"
+								"{@spell localitzar criatura}"
 							]
 						},
 						"5": {
@@ -2591,21 +2591,21 @@
 								"{@spell antilife shell}",
 								"{@spell matanúvol}",
 								"{@spell contagiar}",
-								"{@spell greater restoration}"
+								"{@spell restabliment superior}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
 								"{@spell crear no-morts}",
-								"{@spell true seeing}"
+								"{@spell visió veritable}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell mot diví}",
-								"{@spell regenerate}"
+								"{@spell regeneració}"
 							]
 						}
 					},
@@ -2795,7 +2795,7 @@
 					"will": [
 						"{@spell detectar pensaments}",
 						"{@spell ego camuflatge}",
-						"{@spell mage hand}",
+						"{@spell mà de mag}",
 						"{@spell il·lusió menor}"
 					],
 					"daily": {
@@ -2803,21 +2803,21 @@
 							"{@spell fascinar persona}",
 							"{@spell detectar màgia}",
 							"{@spell dissipar màgia}",
-							"{@spell hellish rebuke}",
+							"{@spell venjança dels inferns}",
 							"{@spell invisibility}",
 							"{@spell imatge major}",
-							"{@spell speak with dead}",
+							"{@spell parlar amb els morts}",
 							"{@spell suggestió}"
 						],
 						"1e": [
 							"{@spell banishment}",
 							"{@spell demiplà}",
 							"{@spell dominar humanoide}",
-							"{@spell fly}",
-							"{@spell forcecage}",
+							"{@spell volar}",
+							"{@spell gàbia de força}",
 							"{@spell geas}",
-							"{@spell plane shift}",
-							"{@spell true seeing}"
+							"{@spell saltar de pla}",
+							"{@spell visió veritable}"
 						]
 					},
 					"ability": "cha"
@@ -2847,7 +2847,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, and the target is cursed if it's a creature. The curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a remove curse spell or similar magic."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, and the target is cursed if it's a creature. The curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a anul·lar maledicció spell or similar magic."
 					]
 				},
 				{
@@ -2939,9 +2939,9 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta} (see \"Actions\" below)",
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
-								"{@spell prestidigitation}"
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
@@ -2949,8 +2949,8 @@
 							"spells": [
 								"{@spell mans ardents}",
 								"{@spell detectar màgia}",
-								"{@spell ray of sickness} (see \"Actions\" below)",
-								"{@spell shield}"
+								"{@spell raig d'arcada} (see \"Actions\" below)",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -3000,7 +3000,7 @@
 					]
 				},
 				{
-					"name": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Raig d'Arcada (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
 						"{@atk rs} {@hit 6} a impactar, 60 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition poisoned} until the end of the master of souls' next turn. If the master of souls casts this spell using a spell slot of 2nd level or higher, el dany incrementa en {@dice 1d8} per cada nivell per sobre d'1."
 					]
@@ -3545,7 +3545,7 @@
 						"1e": [
 							"{@spell fascinar persona}",
 							"{@spell ego camuflatge}",
-							"{@spell sanctuary}"
+							"{@spell santuari}"
 						]
 					},
 					"ability": "cha"
@@ -3787,18 +3787,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
-								"{@spell prestidigitation}"
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell protection from evil and good}",
-								"{@spell ray of sickness} (see \"Actions\" below)",
-								"{@spell shield}"
+								"{@spell protegir del bé i del mal}",
+								"{@spell raig d'arcada} (see \"Actions\" below)",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -3826,7 +3826,7 @@
 					]
 				},
 				{
-					"name": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Raig d'Arcada (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
 						"{@atk rs} {@hit 5} a impactar, 60 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o be {@condition poisoned} until the end of the skull lasher's next turn. If the skull lasher casts this spell using a spell slot of 2nd level or higher, el dany incrementa en {@dice 1d8} per cada nivell per sobre d'1."
 					]
@@ -3930,17 +3930,17 @@
 					],
 					"will": [
 						"{@spell fascinar persona}",
-						"{@spell Tasha's hideous laughter}"
+						"{@spell Riure Horrible de la Tasha}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusió}",
-							"{@spell enthrall}",
+							"{@spell captivar}",
 							"{@spell suggestió}"
 						],
 						"1e": [
-							"{@spell hallucinatory terrain}",
-							"{@spell Otto's irresistible dance}"
+							"{@spell terreny il·lusori}",
+							"{@spell Dansa Irresistible de l'Otto}"
 						]
 					},
 					"ability": "cha"
@@ -4190,9 +4190,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
+								"{@spell guia}",
 								"{@spell sacred flame} (see \"Actions\" below)",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -4200,7 +4200,7 @@
 							"spells": [
 								"{@spell command}",
 								"{@spell detectar el bé i el mal}",
-								"{@spell sanctuary}"
+								"{@spell santuari}"
 							]
 						}
 					},
@@ -4302,7 +4302,7 @@
 				{
 					"name": "Rage (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Com a acció bonus, Torogar can enter a rage that lasts for 1 minute. The rage ends early if Torogar is knocked {@condition unconscious} or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Torogar gains the following benefits:",
+						"Com a acció bonus, Torogar can enter a rage that lasts durant 1 minut. The rage ends early if Torogar is knocked {@condition unconscious} or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Torogar gains the following benefits:",
 						"He has advantage on Força checks and Força saving throws.",
 						"He deals an extra 3 damage when he hits a target with a atac armat melé.",
 						"He has resistance to bludgeoning, piercing, and slashing damage."
@@ -4376,8 +4376,8 @@
 						"spells": {
 							"7": [
 								{
-									"replace": "{@spell teleport}",
-									"with": "{@spell plane shift}"
+									"replace": "{@spell teleportació}",
+									"with": "{@spell saltar de pla}"
 								}
 							]
 						}
@@ -4491,7 +4491,7 @@
 					]
 				},
 				{
-					"name": "Shield",
+					"name": "Escut",
 					"entries": [
 						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}6 ({@damage 1d6 + 3}) de dany contundent, and Ulder pushes the target 5 feet away from him. Ulder then enters the space vacated by the target. If the target is pushed to within 5 feet of a creature friendly to Ulder, the target provokes an opportunity attack from that creature."
 					]

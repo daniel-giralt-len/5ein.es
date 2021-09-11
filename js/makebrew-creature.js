@@ -1530,7 +1530,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getResistInput (cb) {
-		return this.__$getDefencesInput(cb, "Damage Resistances", "Resistance", "resist")
+		return this.__$getDefencesInput(cb, "Damage Resistances", "Resistència", "resist")
 	}
 
 	__$getImmuneInput (cb) {
@@ -1766,7 +1766,7 @@ class CreatureBuilder extends Builder {
 		if (this._state.languages && this._state.languages.length) $iptLanguages.val(this._state.languages.join(", "));
 
 		const availLanguages = Object.entries(Parser.MON_LANGUAGE_TAG_TO_FULL).filter(([k]) => !CreatureBuilder._LANGUAGE_BLACKLIST.has(k))
-			.map(([k, v]) => v === "Telepathy" ? "telepathy" : v); // lowercase telepathy
+			.map(([k, v]) => v === "Telepatia" ? "Telepatia" : v); // lowercase telepathy
 
 		const $btnAddGeneric = $(`<button class="btn btn-xs btn-default mr-2 mkbru_mon__btn-add-sense-language">Add Language</button>`)
 			.click(async () => {

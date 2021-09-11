@@ -42,7 +42,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 20,
 			"dex": 18,
@@ -125,8 +125,8 @@
 				{
 					"name": "Storm of Crows {@recharge}",
 					"entries": [
-						"The abhorrent overlord conjures a swarm of spectral crows and harpies in a 20-foot-radius sphere centered on a point the overlord can see within 120 feet of it. The sphere remains for 1 minute or until the overlord loses concentration (as if concentrating on a spell), and its area is lightly obscured and difficult terrain.",
-						"Any creature that moves into the area per primer cop en un torn o hi començi el torn ha de salvar per Constitució amb {@dc 15}. A creature takes 16 ({@damage 3d10}) de dany tallant mes 16 ({@damage 3d10}) de dany psíquic on a failed save; si supera, en rep la meitat."
+						"The abhorrent overlord conjures a swarm of spectral crows and harpies in a 20-foot-radius sphere centered on a point the overlord can see within 120 feet of it. The sphere remains for 1 minute or until the overlord loses concentration (as if concentrating on a spell), and its area is lightly obscured and terreny difícil.",
+						"Any creature that moves into the area per primer cop en un torn o hi començi el torn ha de salvar per Constitució amb {@dc 15}. A creature takes 16 ({@damage 3d10}) de dany tallant mes 16 ({@damage 3d10}) de dany psíquic; si supera, en rep la meitat."
 					]
 				}
 			],
@@ -314,12 +314,12 @@
 						"3e": [
 							"{@spell curar ferides}",
 							"{@spell fascinar persona}",
-							"{@spell sleep}"
+							"{@spell adormir}"
 						],
 						"1e": [
 							"{@spell apaivagar emocions}",
-							"{@spell lesser restoration}",
-							"{@spell plant growth}"
+							"{@spell restabliment menor}",
+							"{@spell creixement de la flora}"
 						]
 					},
 					"ability": "cha"
@@ -400,7 +400,7 @@
 			},
 			"speed": {
 				"walk": 10,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 12,
 			"dex": 16,
@@ -520,7 +520,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 13,
 			"dex": 16,
@@ -756,7 +756,7 @@
 				{
 					"name": "Web of Hair {@recharge 4}",
 					"entries": [
-						"Arasta unleashes her hair in the form of webbing that fills a 30-foot cube next to her. The web is difficult terrain, its area is lightly obscured, and it lasts for 1 minute. Any creature that moves into the web or that starts its turn there ha de salvar per Destresa amb {@dc 21}. Si falla, the creature is {@condition restrained} while in the web. A creature can use an action to make a {@dc 21} Força check. On a success, it can free itself or a creature within 5 feet of it that is {@condition restrained} by the web. This webbing is immune to all damage except magical fire. A 5-foot cube of the web is destroyed if it takes at least 20 fire damage from a spell or other magical source on a single turn."
+						"Arasta unleashes her hair in the form of webbing that fills a 30-foot cube next to her. The web is terreny difícil, its area is lightly obscured, and it lasts durant 1 minut. Any creature that moves into the web or that starts its turn there ha de salvar per Destresa amb {@dc 21}. Si falla, the creature is {@condition restrained} while in the web. A creature can use an action to make a {@dc 21} Força check. On a success, it can free itself or a creature within 5 feet of it that is {@condition restrained} by the web. This webbing is immune to all damage except magical fire. A 5-foot cube of the web is destroyed if it takes at least 20 fire damage from a spell or other magical source on a single turn."
 					]
 				}
 			],
@@ -912,13 +912,13 @@
 					],
 					"will": [
 						"{@spell command}",
-						"{@spell guiding bolt}",
-						"{@spell spare the dying}"
+						"{@spell sageta guia}",
+						"{@spell misericòrdia}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell mantell del creuat}",
-							"{@spell spirit guardians}"
+							"{@spell guardians espirituals}"
 						]
 					},
 					"ability": "wis"
@@ -962,7 +962,7 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"The archon makes a radiant spear attack or casts guiding bolt."
+						"The archon makes a radiant spear attack or casts sageta guia."
 					]
 				},
 				{
@@ -1092,7 +1092,7 @@
 				{
 					"name": "Aura de Silenci",
 					"entries": [
-						"When a creature starts its turn within 30 feet of the ashen rider, the rider can force that creature to make a {@dc 18} Saviesa saving throw if the rider can see it. On a successful save, the creature is immune to this aura for the next 24 hours. Si falla, the creature can't speak i està {@condition deafened} fins a l'inici del seu següent torn."
+						"When a creature starts its turn within 30 feet of the ashen rider, the rider can force that creature to make a {@dc 18} Saviesa saving throw if the rider can see it. Si supera, the creature is immune to this aura for the next 24 hours. Si falla, the creature can't speak i està {@condition deafened} fins a l'inici del seu següent torn."
 					]
 				},
 				{
@@ -1139,7 +1139,7 @@
 				{
 					"name": "Reduce to Ash (Costa 3 Accions)",
 					"entries": [
-						"The ashen rider targets a creature it can see within 60 feet of it. The target ha de salvar per Constitució amb {@dc 18}, or it takes 27 ({@damage 5d10}) de dany necròtic and its hit point maximum is reduced by an amount equal to the necrotic damage taken. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. If the target's hit point maximum is reduced to 0, its body and everything it is wearing and carrying, except for magic items, are reduced to ash. A creature reduced to ash can't be revived by any means short of a {@spell wish} spell."
+						"The ashen rider targets a creature it can see within 60 feet of it. The target ha de salvar per Constitució amb {@dc 18}, or it takes 27 ({@damage 5d10}) de dany necròtic and its hit point maximum is reduced by an amount equal to the necrotic damage taken. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. If the target's hit point maximum is reduced to 0, its body and everything it is wearing and carrying, except for magic items, are reduced to ash. A creature reduced to ash can't be revived by any means short of a {@spell desig} spell."
 					]
 				}
 			],
@@ -1194,7 +1194,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 12,
 			"dex": 13,
@@ -1722,7 +1722,7 @@
 				{
 					"name": "Flames of Akros {@recharge}",
 					"entries": [
-						"Magical flames issue from the colossus toward up to three creatures the colossus can see within 90 feet of it. Each target ha de salvar per Destresa amb {@dc 24}. Qui falli rep 36 ({@damage 8d8}) de dany de foc; qui superi, en rep la meitat. Si falla, a target also magically catches fire for 1 minute. Al final de cada torn seu thereafter, the burning target repeats the saving throw. It takes 18 ({@damage 4d8}) de dany de foc si falla, and the effect ends on a successful one."
+						"Magical flames issue from the colossus toward up to three creatures the colossus can see within 90 feet of it. Each target ha de salvar per Destresa amb {@dc 24}. Qui falli rep 36 ({@damage 8d8}) de dany de foc; qui superi, en rep la meitat. Si falla, a target also magically catches fire durant 1 minut. Al final de cada torn seu thereafter, the burning target repeats the saving throw. It takes 18 ({@damage 4d8}) de dany de foc si falla, and the effect ends on a successful one."
 					]
 				}
 			],
@@ -1900,7 +1900,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 19,
 			"dex": 17,
@@ -1967,7 +1967,7 @@
 				{
 					"name": "Breath of Hopelessness {@recharge 5}",
 					"entries": [
-						"The eater of hope exhales a miasma of Underworld winds en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Carisma amb {@dc 14}. Si falla, rep 26 ({@damage 4d12}) de dany necròtic and is cursed for 1 minute. While cursed in this way, the target takes an extra 6 ({@damage 1d12}) de dany necròtic whenever the eater of hope hits it with an attack. Si supera, l'objectiu rep la meitat del dany and isn't cursed."
+						"The eater of hope exhales a miasma of Underworld winds en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Carisma amb {@dc 14}. Si falla, rep 26 ({@damage 4d12}) de dany necròtic and is cursed durant 1 minut. While cursed in this way, the target takes an extra 6 ({@damage 1d12}) de dany necròtic whenever the eater of hope hits it with an attack. Si supera, l'objectiu rep la meitat del dany and isn't cursed."
 					]
 				}
 			],
@@ -2384,7 +2384,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 18,
 			"dex": 13,
@@ -2765,7 +2765,7 @@
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"When a creature that can see Hythonia's eyes starts its turn within 30 feet of her, Hythonia can force it to make a {@dc 18} Constitució saving throw if she isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, on a failed save the creature begins to turn to stone i està {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Hythonia fins a l'inici del seu següent torn, when it can avert its eyes again. If the creature looks at Hythonia in the meantime, it must immediately make the save. If Hythonia sees herself reflected on a polished surface within 30 feet of her and in an area of bright light, she is affected by her own gaze."
+						"When a creature that can see Hythonia's eyes starts its turn within 30 feet of her, Hythonia can force it to make a {@dc 18} Constitució saving throw if she isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, on a failed save the creature begins to turn to stone i està {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the restabliment superior spell or other magic. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Hythonia fins a l'inici del seu següent torn, when it can avert its eyes again. If the creature looks at Hythonia in the meantime, it must immediately make the save. If Hythonia sees herself reflected on a polished surface within 30 feet of her and in an area of bright light, she is affected by her own gaze."
 					]
 				},
 				{
@@ -2817,7 +2817,7 @@
 				{
 					"name": "Petrified Earth (Costa 2 Accions)",
 					"entries": [
-						"Hythonia causes stone spikes to erupt from the ground in a 30-foot radius centered on her. The area becomes difficult terrain fins a l'inici del seu següent torn. Any creature, other than Hythonia, takes 9 ({@damage 2d8}) de dany perforant for every 5 feet it moves on those spikes."
+						"Hythonia causes stone spikes to erupt from the ground in a 30-foot radius centered on her. The area becomes terreny difícil fins a l'inici del seu següent torn. Any creature, other than Hythonia, takes 9 ({@damage 2d8}) de dany perforant for every 5 feet it moves on those spikes."
 					]
 				}
 			],
@@ -3046,7 +3046,7 @@
 					],
 					"will": [
 						"{@spell mà morta} (see \"Actions\" below)",
-						"{@spell gentle repose}"
+						"{@spell repòs gentil}"
 					],
 					"ability": "cha"
 				}
@@ -3336,7 +3336,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell il·lusió menor}",
 								"{@spell ray of frost} (see \"Actions\" below)"
 							]
@@ -3345,8 +3345,8 @@
 							"slots": 4,
 							"spells": [
 								"{@spell esprai de colors}",
-								"{@spell expeditious retreat}",
-								"{@spell sleep}"
+								"{@spell retirada estratègica}",
+								"{@spell adormir}"
 							]
 						},
 						"2": {
@@ -3487,11 +3487,11 @@
 					],
 					"daily": {
 						"3": [
-							"{@spell phantasmal force}"
+							"{@spell força fantasmagòrica}"
 						],
 						"1e": [
-							"{@spell fly}",
-							"{@spell hypnotic pattern}"
+							"{@spell volar}",
+							"{@spell senefes hipnòtiques}"
 						]
 					},
 					"ability": "cha"
@@ -3580,7 +3580,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 19,
 			"dex": 15,
@@ -3628,7 +3628,7 @@
 						"1e": [
 							"{@spell confusió}",
 							"{@spell dissipar màgia}",
-							"{@spell hold person}",
+							"{@spell immobilitzar humanoide}",
 							"{@spell suggestió}"
 						]
 					},
@@ -3838,20 +3838,20 @@
 						"The oracle's habilitat de llançament de conjurs is Saviesa ({@dc 13} salvada de conjur, {@hit 5} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell guidance}",
-						"{@spell light}",
-						"{@spell thaumaturgy}"
+						"{@spell guia}",
+						"{@spell llum}",
+						"{@spell taumatúrgia}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell beneir}",
-							"{@spell guiding bolt}",
-							"{@spell healing word}",
-							"{@spell hold person}"
+							"{@spell sageta guia}",
+							"{@spell paraula de curació}",
+							"{@spell immobilitzar humanoide}"
 						],
 						"1e": [
 							"{@spell auguri}",
-							"{@spell scrying}"
+							"{@spell escodrinyar}"
 						]
 					},
 					"ability": "wis"
@@ -3957,14 +3957,14 @@
 						"The oread's habilitat de llançament de conjurs is Carisma ({@dc 14} salvada de conjur, {@hit 6} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell fire bolt} (see \"Actions\" below)"
+						"{@spell sageta de foc} (see \"Actions\" below)"
 					],
 					"daily": {
 						"3": [
 							"{@spell mans ardents}"
 						],
 						"1e": [
-							"{@spell hellish rebuke} (see \"Reactions\" below)",
+							"{@spell venjança dels inferns} (see \"Reactions\" below)",
 							"{@spell raig d'incendi}"
 						]
 					},
@@ -3989,7 +3989,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The oread attacks twice with its fiery touch or fire bolt."
+						"The oread attacks twice with its fiery touch or sageta de foc."
 					]
 				},
 				{
@@ -4007,7 +4007,7 @@
 			],
 			"reaction": [
 				{
-					"name": "Hellish Rebuke (Conjur de Nivell 2; 1/Dia)",
+					"name": "Venjança dels Inferns (Conjur de Nivell 2; 1/Dia)",
 					"entries": [
 						"When the oread is damaged by a creature within 60 feet of the oread that it can see, the creature that damaged the oread ha de salvar per Destresa amb {@dc 14}. Qui falli rep 16 ({@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
 					]
@@ -4096,7 +4096,7 @@
 				{
 					"name": "Gatekeeper's Aura",
 					"entries": [
-						"Any creature that starts its turn within 10 feet of the phylaskia ha de salvar per Saviesa amb {@dc 15}. On a successful save, the creature is immune to this aura for the next 24 hours. Si falla, the creature has disadvantage on saving throws and its speed is halved fins a l'inici del seu següent torn."
+						"Any creature that starts its turn within 10 feet of the phylaskia ha de salvar per Saviesa amb {@dc 15}. Si supera, the creature is immune to this aura for the next 24 hours. Si falla, the creature has disadvantage on saving throws and its speed is halved fins a l'inici del seu següent torn."
 					]
 				},
 				{
@@ -5036,7 +5036,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 18,
 			"dex": 13,
@@ -5197,9 +5197,9 @@
 							"{@spell con de fred}"
 						],
 						"1e": [
-							"{@spell fog cloud}",
-							"{@spell gust of wind}",
-							"{@spell wind wall}"
+							"{@spell núvol de boira}",
+							"{@spell ràfega de vent}",
+							"{@spell paret del vent}"
 						]
 					},
 					"ability": "cha"
@@ -5327,8 +5327,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell fog cloud}",
-							"{@spell gust of wind}"
+							"{@spell núvol de boira}",
+							"{@spell ràfega de vent}"
 						]
 					},
 					"ability": "wis"
@@ -5692,7 +5692,7 @@
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"The cerberus exhales a 15-foot cone of molten rock. Each creature in the cone ha de salvar per Destresa amb {@dc 12}. Qui falli rep 10 ({@damage 3d6}) de dany de foc; qui superi, en rep la meitat. Si falla, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 12} Força (Atletisme) check com a acció, freeing itself or a creature within abast from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage."
+						"The cerberus exhales a 15-foot cone of molten rock. Tota criatura a dins del con ha de salvar per Destresa amb {@dc 12}. Qui falli rep 10 ({@damage 3d6}) de dany de foc; qui superi, en rep la meitat. Si falla, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 12} Força (Atletisme) check com a acció, freeing itself or a creature within abast from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage."
 					]
 				}
 			],
@@ -5929,7 +5929,7 @@
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone ha de salvar per Destresa amb {@dc 15}. Qui falli rep 21 ({@damage 6d6}) de dany de foc; qui superi, en rep la meitat. Si falla, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 15} Força (Atletisme) check com a acció, freeing itself or a creature within abast from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
+						"The cerberus exhales a 30-foot cone of molten rock. Tota criatura a dins del con ha de salvar per Destresa amb {@dc 15}. Qui falli rep 21 ({@damage 6d6}) de dany de foc; qui superi, en rep la meitat. Si falla, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 15} Força (Atletisme) check com a acció, freeing itself or a creature within abast from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
 					]
 				}
 			],
@@ -5980,7 +5980,7 @@
 			},
 			"speed": {
 				"walk": 60,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 20,
 			"dex": 14,
@@ -6043,7 +6043,7 @@
 			},
 			"speed": {
 				"walk": 60,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 20,
 			"dex": 16,
@@ -6169,7 +6169,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one creature that is {@condition grappled}, {@condition incapacitated}, or {@condition restrained}. {@h}13 ({@damage 2d8 + 4}) de dany perforant mes 16 ({@damage 3d10}) de dany psíquic. In addition, each magic item the creature is carrying that isn't an artifact has its magical properties suppressed for 1 minute."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one creature that is {@condition grappled}, {@condition incapacitated}, or {@condition restrained}. {@h}13 ({@damage 2d8 + 4}) de dany perforant mes 16 ({@damage 3d10}) de dany psíquic. In addition, each magic item the creature is carrying that isn't an artifact has its magical properties suppressed durant 1 minut."
 					]
 				}
 			],

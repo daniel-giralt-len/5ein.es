@@ -274,7 +274,7 @@
 							"{@spell fascinar persona} (as 5th-level spell)",
 							"{@spell esprai de colors}",
 							"{@spell detectar pensaments}",
-							"{@spell hold person} (as 3rd-level spell)"
+							"{@spell immobilitzar humanoide} (as 3rd-level spell)"
 						]
 					},
 					"ability": "int"
@@ -316,7 +316,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 15} or take 18 ({@damage 4d8}) de dany psíquic and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 15} or take 18 ({@damage 4d8}) de dany psíquic and become memory drained until it finishes a short or long rest or until it benefits from the {@spell restabliment superior} or {@spell sanar} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
 						"When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
 					]
@@ -404,7 +404,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -690,7 +690,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -839,7 +839,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 11,
 			"dex": 13,
@@ -903,7 +903,7 @@
 						],
 						"1e": [
 							"{@spell dominar criatura}",
-							"{@spell feeblemind}"
+							"{@spell esberlacervells}"
 						]
 					},
 					"ability": "int"
@@ -951,7 +951,7 @@
 				{
 					"name": "Forgetfulness {@recharge}",
 					"entries": [
-						"The amnizu targets one creature it can see within 60 feet of it. That creature ha de salvar per Intel·ligència amb {@dc 18} and on a failure the target is {@condition stunned} for 1 minute. A {@condition stunned} creature repeats the saving throw al final de cada torn seu, ending the effect on itself on a success. If the target remains {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+						"The amnizu targets one creature it can see within 60 feet of it. That creature ha de salvar per Intel·ligència amb {@dc 18} and on a failure the target is {@condition stunned} durant 1 minut. A {@condition stunned} creature repeats the saving throw al final de cada torn seu, ending the effect on itself on a success. If the target remains {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
 					]
 				}
 			],
@@ -1120,7 +1120,7 @@
 				{
 					"name": "Lightning Lance {@recharge 5}",
 					"entries": [
-						"The armanite looses a bolt of lightning in a line 60 feet long and 10 feet wide. Each creature in the line ha de salvar per Destresa amb {@dc 15}. Qui falli rep 27 ({@damage 6d8}) de dany elèctric; qui superi, en rep la meitat."
+						"The armanite looses a bolt of lightning in a line 60 feet long and 10 feet wide. Tota criatura a dins de la línia ha de salvar per Destresa amb {@dc 15}. Qui falli rep 27 ({@damage 6d8}) de dany elèctric; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -1186,7 +1186,7 @@
 			},
 			"speed": {
 				"walk": 15,
-				"fly": {
+				"volar": {
 					"number": 80,
 					"condition": "(flotar)"
 				},
@@ -1247,7 +1247,7 @@
 				{
 					"name": "Demiplanar Donjon",
 					"entries": [
-						"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell wish} spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of the dreadnought's past meals.",
+						"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell desig} spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell saltar de pla} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of the dreadnought's past meals.",
 						"The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the corpse. The demiplane is otherwise indestructible."
 					]
 				},
@@ -1306,7 +1306,7 @@
 				{
 					"name": "Psychic Projection (Costa 3 Accions)",
 					"entries": [
-						"Each creature within 60 feet of the astral dreadnought ha de salvar per Saviesa amb {@dc 19}, taking 15 ({@damage 2d10 + 4}) de dany psíquic on a failed save; si supera, en rep la meitat."
+						"Each creature within 60 feet of the astral dreadnought ha de salvar per Saviesa amb {@dc 19}, taking 15 ({@damage 2d10 + 4}) de dany psíquic; si supera, en rep la meitat."
 					]
 				}
 			],
@@ -1411,17 +1411,17 @@
 					],
 					"will": [
 						"{@spell apaivagar emocions}",
-						"{@spell sleep}"
+						"{@spell adormir}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell curar ferides} (as a 5th-level spell)",
-							"{@spell lesser restoration}"
+							"{@spell restabliment menor}"
 						],
 						"1e": [
-							"{@spell greater restoration}",
-							"{@spell heal}",
-							"{@spell raise dead}"
+							"{@spell restabliment superior}",
+							"{@spell sanar}",
+							"{@spell llevar als morts}"
 						]
 					},
 					"ability": "cha"
@@ -1431,7 +1431,7 @@
 				{
 					"name": "Enchanting Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature is {@condition charmed} by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature is {@condition charmed} by the eladrin durant 1 minut. Si supera, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
 						"Whenever the eladrin deals damage to the {@condition charmed} creature, the creature can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
@@ -1601,7 +1601,7 @@
 						"{@spell animar els morts}",
 						"{@spell fascinar persona}",
 						"{@spell detectar màgia}",
-						"{@spell inflict wounds} (as an 8th-level spell)",
+						"{@spell infligir ferides} (as an 8th-level spell)",
 						"{@spell invisibility} (self only)",
 						"{@spell imatge major}"
 					],
@@ -1609,13 +1609,13 @@
 						"3e": [
 							"{@spell contraconjur}",
 							"{@spell dissipar màgia}",
-							"{@spell fly}",
+							"{@spell volar}",
 							"{@spell suggestió}",
-							"{@spell wall of fire}"
+							"{@spell paret de foc}"
 						],
 						"1e": [
 							"{@spell dominar criatura}",
-							"{@spell symbol} (stunning only)"
+							"{@spell Símbol} (stunning only)"
 						]
 					},
 					"ability": "cha"
@@ -1673,7 +1673,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Bael magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
 					]
@@ -1699,7 +1699,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Bael uses his Teleport action."
 					]
@@ -1721,7 +1721,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -1835,7 +1835,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The balhannoth magically teleports, along with any equipment it is wearing or carrying and any creatures it has {@condition grappled}, up to 60 feet to an unoccupied space it can see."
 					]
@@ -1991,14 +1991,14 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{@spell teleportació}"
 						],
 						"3e": [
 							"{@spell dissipar màgia}",
 							"{@spell dominar bèstia}",
-							"{@spell hunter's mark}",
+							"{@spell marca de caça}",
 							"{@spell laberint}",
-							"{@spell wall of stone}"
+							"{@spell paret de pedra}"
 						]
 					},
 					"ability": "cha"
@@ -2157,7 +2157,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 9,
 			"dex": 16,
@@ -2191,11 +2191,11 @@
 						"L'habilitat de llançament de conjurs innata de The berbalang és Intel·ligència ({@dc 13} salvació de conjur). The berbalang pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell speak with dead}"
+						"{@spell parlar amb els morts}"
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{@spell saltar de pla} (self only)"
 						]
 					},
 					"ability": "int"
@@ -2289,7 +2289,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 14,
 			"dex": 17,
@@ -2451,7 +2451,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 15,
 			"dex": 14,
@@ -2505,11 +2505,11 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell friends}",
-								"{@spell mage hand}",
+								"{@spell amistar}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
 								"{@spell il·lusió menor}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
@@ -2517,10 +2517,10 @@
 							"spells": [
 								"{@spell esfera cromàtica}",
 								"{@spell ego camuflatge}",
-								"{@spell expeditious retreat}",
-								"{@spell magic missile}",
+								"{@spell retirada estratègica}",
+								"{@spell missil màgic}",
 								"{@spell fascinar persona}",
-								"{@spell thunderwave}"
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -2535,7 +2535,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell dissipar màgia}",
-								"{@spell fear}",
+								"{@spell temor}",
 								"{@spell lightning bolt}"
 							]
 						},
@@ -2543,15 +2543,15 @@
 							"slots": 3,
 							"spells": [
 								"{@spell porta dimensional}",
-								"{@spell greater invisibility}",
-								"{@spell ice storm}"
+								"{@spell invisibilitat superior}",
+								"{@spell tempesta de gel}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell con de fred}",
-								"{@spell wall of force}"
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
@@ -2563,7 +2563,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell teleportació}"
 							]
 						}
 					},
@@ -3007,7 +3007,7 @@
 				{
 					"name": "Cua Espinosa",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d12 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 13} against disease or become {@condition poisoned} until the disease ends. While {@condition poisoned} in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. Si falla, the target's hit point maximum is reduced by 4 ({@dice 1d8}). The target dies if its hit point maximum is reduced to 0."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d12 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 13} against disease or become {@condition poisoned} until the disease ends. While {@condition poisoned} in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. Si supera, the disease ends. Si falla, the target's hit point maximum is reduced by 4 ({@dice 1d8}). The target dies if its hit point maximum is reduced to 0."
 					]
 				}
 			],
@@ -3127,7 +3127,7 @@
 				{
 					"name": "Alè de Paralyzing {@recharge 5}",
 					"entries": [
-						"The cadaver collector releases paralyzing gas en un con de 30 peus. Tota criatura dins de l'àrea must make a successful {@dc 18} Constitució saving throw or be {@condition paralyzed} for 1 minute. A {@condition paralyzed} creature repeats the saving throw al final de cada torn seu, ending the effect on itself with a success."
+						"The cadaver collector releases paralyzing gas en un con de 30 peus. Tota criatura dins de l'àrea must make a successful {@dc 18} Constitució saving throw or be {@condition paralyzed} durant 1 minut. A {@condition paralyzed} creature repeats the saving throw al final de cada torn seu, ending the effect on itself with a success."
 					]
 				}
 			],
@@ -3517,7 +3517,7 @@
 				{
 					"name": "Stench of Death",
 					"entries": [
-						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies ha de salvar per Constitució amb {@dc 14}, unless the creature is a construct or undead. Si falla, the creature is {@condition incapacitated} until the end of the turn. Creatures that are immune to poison damage or the {@condition poisoned} condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all corpse flowers for 24 hours."
+						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies ha de salvar per Constitució amb {@dc 14}, unless the creature is a construct or undead. Si falla, the creature is {@condition incapacitated} until the end of the turn. Creatures that are immune to poison damage or the {@condition poisoned} condition automatically succeed on this saving throw. Si supera, the creature is immune to the stench of all corpse flowers for 24 hours."
 					]
 				}
 			],
@@ -3589,7 +3589,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -3650,7 +3650,7 @@
 					"will": [
 						"{@spell detectar màgia}",
 						"{@spell ego camuflatge}",
-						"{@spell mage armor}"
+						"{@spell armadura de mag}"
 					],
 					"ability": "cha"
 				},
@@ -3663,8 +3663,8 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell eldritch blast}",
-								"{@spell mage hand}"
+								"{@spell missil èldritx}",
+								"{@spell mà de mag}"
 							]
 						},
 						"3": {
@@ -3673,8 +3673,8 @@
 							"spells": [
 								"{@spell braços d'Hadar}",
 								"{@spell dissipar màgia}",
-								"{@spell hold person}",
-								"{@spell hunger of Hadar}",
+								"{@spell immobilitzar humanoide}",
+								"{@spell fam d'Hadar}",
 								"{@spell invisibility}",
 								"{@spell grimpat d'aranya}"
 							]
@@ -3709,9 +3709,9 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell pampalluga}, {@spell faerie fire}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell sleep}",
-								"Fiend patron: {@spell ceguera/sordera}, {@spell mans ardents}, {@spell command}, {@spell bola de foc}, {@spell hellish rebuke}, {@spell raig d'incendi}",
-								"Great Old One patron: {@spell armadura d'Àgathys}, {@spell detectar pensaments}, {@spell xiuxiuegos de disbauxa}, {@spell hunger of Hadar}, {@spell Tasha's hideous laughter}, {@spell phantasmal force}"
+								"Archfey patron: {@spell pampalluga}, {@spell foc follet}, {@spell fam d'Hadar}, {@spell senefes hipnòtiques}, {@spell força fantasmagòrica}, {@spell adormir}",
+								"Fiend patron: {@spell ceguera/sordera}, {@spell mans ardents}, {@spell command}, {@spell bola de foc}, {@spell venjança dels inferns}, {@spell raig d'incendi}",
+								"Great Old One patron: {@spell armadura d'Àgathys}, {@spell detectar pensaments}, {@spell xiuxiuegos de disbauxa}, {@spell fam d'Hadar}, {@spell Riure Horrible de la Tasha}, {@spell força fantasmagòrica}"
 							]
 						}
 					]
@@ -3766,7 +3766,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -3828,7 +3828,7 @@
 					"will": [
 						"{@spell detectar màgia}",
 						"{@spell ego camuflatge}",
-						"{@spell mage armor}"
+						"{@spell armadura de mag}"
 					],
 					"ability": "cha"
 				},
@@ -3841,9 +3841,9 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell il·lusió menor}",
-								"{@spell poison spray}"
+								"{@spell esprai de verí}"
 							]
 						},
 						"5": {
@@ -3857,8 +3857,8 @@
 								"{@spell darkness}",
 								"{@spell porta dimensional}",
 								"{@spell dissipar màgia}",
-								"{@spell fly}",
-								"{@spell hold monster}",
+								"{@spell volar}",
+								"{@spell immobilitzar criatura}",
 								"{@spell invisibility}"
 							]
 						}
@@ -3884,7 +3884,7 @@
 				{
 					"name": "Vira del Més Enllàs",
 					"entries": [
-						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, one or two targets. {@h}18 ({@damage 4d8}) de dany necròtic. If the target is Large or smaller, ha de salvar per Força amb {@dc 16} or become {@condition restrained} as shadowy tendrils wrap around it for 1 minute. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, one or two targets. {@h}18 ({@damage 4d8}) de dany necròtic. If the target is Large or smaller, ha de salvar per Força amb {@dc 16} or become {@condition restrained} as shadowy tendrils wrap around it durant 1 minut. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -3898,9 +3898,9 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell pampalluga}, {@spell dominar bèstia}, {@spell dominar humanoide}, {@spell faerie fire}, {@spell greater invisibility}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell seeming}, {@spell sleep}",
-								"Fiend patron: {@spell ceguera/sordera}, {@spell mans ardents}, {@spell command}, {@spell fire shield}, {@spell bola de foc}, {@spell flame strike}, {@spell hellish rebuke}, {@spell raig d'incendi}, {@spell stinking cloud}, {@spell wall of fire}",
-								"Great Old One patron: {@spell clarividència}, {@spell detectar pensaments}, {@spell xiuxiuegos de disbauxa}, {@spell dominar humanoide}, {@spell Evard's black tentacles}, {@spell hunger of Hadar}, {@spell phantasmal force}, {@spell sending}, {@spell Tasha's hideous laughter}, {@spell telekinesis}"
+								"Archfey patron: {@spell pampalluga}, {@spell dominar bèstia}, {@spell dominar humanoide}, {@spell foc follet}, {@spell invisibilitat superior}, {@spell fam d'Hadar}, {@spell senefes hipnòtiques}, {@spell força fantasmagòrica}, {@spell aparentar}, {@spell adormir}",
+								"Fiend patron: {@spell ceguera/sordera}, {@spell mans ardents}, {@spell command}, {@spell escut de foc}, {@spell bola de foc}, {@spell batussa incendiària}, {@spell venjança dels inferns}, {@spell raig d'incendi}, {@spell núvol fètid}, {@spell paret de foc}",
+								"Great Old One patron: {@spell clarividència}, {@spell detectar pensaments}, {@spell xiuxiuegos de disbauxa}, {@spell dominar humanoide}, {@spell Evard's black tentacles}, {@spell fam d'Hadar}, {@spell força fantasmagòrica}, {@spell encàrrec}, {@spell Riure Horrible de la Tasha}, {@spell Telequinesi}"
 							]
 						}
 					]
@@ -3964,7 +3964,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -4024,12 +4024,12 @@
 					"will": [
 						"{@spell detectar màgia}",
 						"{@spell ego camuflatge}",
-						"{@spell mage armor}"
+						"{@spell armadura de mag}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell fear}",
-							"{@spell hold person}",
+							"{@spell temor}",
+							"{@spell immobilitzar humanoide}",
 							"{@spell pas boira}"
 						]
 					},
@@ -4199,12 +4199,12 @@
 					"daily": {
 						"3e": [
 							"{@spell dissipar màgia}",
-							"{@spell fear}",
-							"{@spell telekinesis}"
+							"{@spell temor}",
+							"{@spell Telequinesi}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell project image}"
+							"{@spell esberlacervells}",
+							"{@spell projectar imatge}"
 						]
 					},
 					"ability": "cha"
@@ -4500,9 +4500,9 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}",
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
-								"{@spell prestidigitation}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -4511,7 +4511,7 @@
 							"spells": [
 								"{@spell mans ardents}",
 								"{@spell esfera cromàtica}",
-								"{@spell sleep}"
+								"{@spell adormir}"
 							]
 						},
 						"2": {
@@ -4663,11 +4663,11 @@
 					],
 					"will": [
 						"{@spell darkness}",
-						"{@spell fear}"
+						"{@spell temor}"
 					],
 					"daily": {
 						"3": [
-							"{@spell sleep}"
+							"{@spell adormir}"
 						]
 					},
 					"ability": "cha"
@@ -4707,7 +4707,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The dhergoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
 					]
@@ -4731,7 +4731,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"AB",
@@ -4962,8 +4962,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -4977,9 +4977,9 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell eldritch blast}",
-								"{@spell mage hand}",
-								"{@spell poison spray}"
+								"{@spell missil èldritx}",
+								"{@spell mà de mag}",
+								"{@spell esprai de verí}"
 							]
 						},
 						"5": {
@@ -4990,21 +4990,21 @@
 								"{@spell corona de bogeria}",
 								"{@spell porta dimensional}",
 								"{@spell dissipar màgia}",
-								"{@spell fear}",
-								"{@spell fly}",
-								"{@spell giant insect}",
-								"{@spell hold monster}",
-								"{@spell insect plague}",
+								"{@spell temor}",
+								"{@spell volar}",
+								"{@spell insecte gegant}",
+								"{@spell immobilitzar criatura}",
+								"{@spell plaga d'insectes}",
 								"{@spell invisibility}",
-								"{@spell vampiric touch}",
+								"{@spell toc vampíric}",
 								"{@spell tirarany}",
-								"{@spell witch bolt}"
+								"{@spell llampec bruixot}"
 							]
 						}
 					},
 					"daily": {
 						"1": [
-							"{@spell eyebite}",
+							"{@spell mal d'ull}",
 							"{@spell eterietat}",
 							"{@spell dominar criatura}"
 						]
@@ -5141,7 +5141,7 @@
 				15,
 				{
 					"ac": 18,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -5190,8 +5190,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5204,10 +5204,10 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
-								"{@spell poison spray}",
-								"{@spell shocking grasp}",
+								"{@spell esprai de verí}",
+								"{@spell braó electritzant}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -5215,18 +5215,18 @@
 							"slots": 4,
 							"spells": [
 								"{@spell mans ardents}",
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell armadura de mag}",
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell gust of wind}",
+								"{@spell ràfega de vent}",
 								"{@spell invisibility}",
 								"{@spell pas boira}",
-								"{@spell shatter}"
+								"{@spell esclatar}"
 							]
 						},
 						"3": {
@@ -5234,14 +5234,14 @@
 							"spells": [
 								"{@spell contraconjur}",
 								"{@spell bola de foc}",
-								"{@spell haste}"
+								"{@spell pressa}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell porta dimensional}",
-								"{@spell Otiluke's resilient sphere}"
+								"{@spell Esfera Resistent de l'Otiluk}"
 							]
 						},
 						"5": {
@@ -5412,8 +5412,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5587,8 +5587,8 @@
 							"{@spell darkness}",
 							"{@spell detectar pensaments}",
 							"{@spell dissipar màgia}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)",
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)",
 							"{@spell suggestió}"
 						]
 					},
@@ -5602,11 +5602,11 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
+								"{@spell guia}",
 								"{@spell missatge}",
-								"{@spell poison spray}",
-								"{@spell resistance}",
-								"{@spell thaumaturgy}"
+								"{@spell esprai de verí}",
+								"{@spell resistència}",
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -5614,15 +5614,15 @@
 							"spells": [
 								"{@spell perdició}",
 								"{@spell curar ferides}",
-								"{@spell inflict wounds}"
+								"{@spell infligir ferides}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell ceguera/sordera}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell silenci}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
@@ -5630,7 +5630,7 @@
 							"spells": [
 								"{@spell imposar maledicció}",
 								"{@spell dissipar màgia}",
-								"{@spell magic circle}"
+								"{@spell cercle màgic}"
 							]
 						},
 						"4": {
@@ -5638,7 +5638,7 @@
 							"spells": [
 								"{@spell banishment}",
 								"{@spell endevinació}",
-								"{@spell freedom of movement}"
+								"{@spell llibertat de moviments}"
 							]
 						},
 						"5": {
@@ -5646,14 +5646,14 @@
 							"spells": [
 								"{@spell contagiar}",
 								"{@spell dissipar el bé i el mal}",
-								"{@spell insect plague}"
+								"{@spell plaga d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}",
-								"{@spell true seeing}"
+								"{@spell malmenar}",
+								"{@spell visió veritable}"
 							]
 						}
 					},
@@ -5837,8 +5837,8 @@
 							"{@spell darkness}",
 							"{@spell detectar pensaments}",
 							"{@spell dissipar màgia}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)",
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)",
 							"{@spell suggestió}"
 						]
 					},
@@ -5852,11 +5852,11 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
+								"{@spell guia}",
 								"{@spell apedaçar}",
-								"{@spell resistance}",
+								"{@spell resistència}",
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -5865,15 +5865,15 @@
 								"{@spell perdició}",
 								"{@spell command}",
 								"{@spell curar ferides}",
-								"{@spell guiding bolt}"
+								"{@spell sageta guia}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell silenci}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
@@ -5882,7 +5882,7 @@
 								"{@spell imposar maledicció}",
 								"{@spell clarividència}",
 								"{@spell dissipar màgia}",
-								"{@spell spirit guardians}"
+								"{@spell guardians espirituals}"
 							]
 						},
 						"4": {
@@ -5890,7 +5890,7 @@
 							"spells": [
 								"{@spell banishment}",
 								"{@spell abjurar la mort}",
-								"{@spell freedom of movement}",
+								"{@spell llibertat de moviments}",
 								"{@spell guardià de fe}"
 							]
 						},
@@ -5898,7 +5898,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell contagiar}",
-								"{@spell flame strike}",
+								"{@spell batussa incendiària}",
 								"{@spell geas}",
 								"{@spell curar ferides massiu}"
 							]
@@ -5907,26 +5907,26 @@
 							"slots": 2,
 							"spells": [
 								"{@spell barrera d'armes}",
-								"{@spell harm}"
+								"{@spell malmenar}"
 							]
 						},
 						"7": {
 							"slots": 2,
 							"spells": [
 								"{@spell mot diví}",
-								"{@spell plane shift}"
+								"{@spell saltar de pla}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell holy aura}"
+								"{@spell aura divina}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell gate}"
+								"{@spell portal}"
 							]
 						}
 					},
@@ -5969,7 +5969,7 @@
 				{
 					"name": "Demon Staff",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent, o 8 ({@damage 1d8 + 4}) de dany contundent si s'usa amb dues mans, plus 14 ({@damage 4d6}) de dany psíquic. In addition, the target must succeed on a DC19 Saviesa saving throw or become {@condition frightened} of the drow for 1 minute. L'objectiu {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent, o 8 ({@damage 1d8 + 4}) de dany contundent si s'usa amb dues mans, plus 14 ({@damage 4d6}) de dany psíquic. In addition, the target must succeed on a DC19 Saviesa saving throw or become {@condition frightened} of the drow durant 1 minut. L'objectiu {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -6122,8 +6122,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -6159,7 +6159,7 @@
 				{
 					"name": "Shadow Sword",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d6 + 5}) de dany perforant mes 10 ({@damage 3d6}) de dany necròtic and 10 ({@damage 3d6}) de dany de verí. The drow can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d6 + 5}) de dany perforant mes 10 ({@damage 3d6}) de dany necròtic and 10 ({@damage 3d6}) de dany de verí. The drow can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains durant 1 minut."
 					]
 				},
 				{
@@ -6290,14 +6290,14 @@
 						"L'habilitat de llançament de conjurs innata de The duergar despot és Intel·ligència ({@dc 12} salvació de conjur). It can cast the following spells, sense requerir components:"
 					],
 					"will": [
-						"{@spell mage hand}",
+						"{@spell mà de mag}",
 						"{@spell il·lusió menor}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell contraconjur}",
 							"{@spell pas boira}",
-							"{@spell stinking cloud}"
+							"{@spell núvol fètid}"
 						]
 					},
 					"ability": "int"
@@ -6345,7 +6345,7 @@
 				{
 					"name": "Flame Jet",
 					"entries": [
-						"The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line ha de salvar per Destresa amb {@dc 16}. Qui falli rep 18 ({@damage 4d8}) de dany de foc; qui superi, en rep la meitat."
+						"The duergar spews flames in a line 100 feet long and 5 feet wide. Tota criatura a dins de la línia ha de salvar per Destresa amb {@dc 16}. Qui falli rep 18 ({@damage 4d8}) de dany de foc; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -6954,12 +6954,12 @@
 					],
 					"will": [
 						"{@spell guarda d'armes}",
-						"{@spell true strike}"
+						"{@spell impacte veritable}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell jump}",
-							"{@spell hunter's mark}"
+							"{@spell botar}",
+							"{@spell marca de caça}"
 						]
 					},
 					"ability": "wis"
@@ -7458,7 +7458,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -7526,8 +7526,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell fear}",
-							"{@spell phantasmal force}"
+							"{@spell temor}",
+							"{@spell força fantasmagòrica}"
 						]
 					},
 					"ability": "cha"
@@ -7761,7 +7761,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -7842,7 +7842,7 @@
 				{
 					"name": "Divine Dread",
 					"entries": [
-						"Each creature within 60 feet of the eidolon that can see ha de salvar per Saviesa amb {@dc 15} or be {@condition frightened} for 1 minute. While {@condition frightened} in this way, the creature must take the Dash action and move away from the eidolon by the safest available route a l'inici de cada torn seu, unless there is nowhere for it to move, in which case the creature also becomes {@condition stunned} until it can move again. Un objectiu {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours."
+						"Each creature within 60 feet of the eidolon that can see ha de salvar per Saviesa amb {@dc 15} or be {@condition frightened} durant 1 minut. While {@condition frightened} in this way, the creature must take the Dash action and move away from the eidolon by the safest available route a l'inici de cada torn seu, unless there is nowhere for it to move, in which case the creature also becomes {@condition stunned} until it can move again. Un objectiu {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours."
 					]
 				}
 			],
@@ -7940,18 +7940,18 @@
 					"will": [
 						"{@spell fascinar persona} (as 5th-level spell)",
 						"{@spell detectar pensaments}",
-						"{@spell hold person}"
+						"{@spell immobilitzar humanoide}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusió}",
 							"{@spell porta dimensional}",
 							"{@spell dominar humanoide}",
-							"{@spell fear}",
-							"{@spell hallucinatory terrain}",
-							"{@spell hold monster}",
-							"{@spell hypnotic pattern}",
-							"{@spell telekinesis}"
+							"{@spell temor}",
+							"{@spell terreny il·lusori}",
+							"{@spell immobilitzar criatura}",
+							"{@spell senefes hipnòtiques}",
+							"{@spell Telequinesi}"
 						]
 					},
 					"ability": "int"
@@ -7993,7 +7993,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 18} or take 44 ({@damage 8d10}) de dany psíquic and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 18} or take 44 ({@damage 8d10}) de dany psíquic and become memory drained until it finishes a short or long rest or until it benefits from the {@spell restabliment superior} or {@spell sanar} spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
 						"When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies."
 					]
@@ -8064,7 +8064,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 120,
 					"condition": "(flotar)"
 				},
@@ -8496,7 +8496,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 29,
 			"dex": 12,
@@ -8560,20 +8560,20 @@
 						"{@spell ego alteració} (can become Medium when changing his appearance)",
 						"{@spell detectar màgia}",
 						"{@spell dissipar màgia}",
-						"{@spell phantasmal force}"
+						"{@spell força fantasmagòrica}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusió}",
-							"{@spell dream}",
+							"{@spell somnis}",
 							"{@spell desconcertar}",
-							"{@spell programmed illusion}",
-							"{@spell seeming}"
+							"{@spell il·lusió programada}",
+							"{@spell aparentar}"
 						],
 						"1e": [
 							"{@spell miratge arcà}",
 							"{@spell modificar memòria}",
-							"{@spell project image}"
+							"{@spell projectar imatge}"
 						]
 					},
 					"ability": "cha"
@@ -8633,9 +8633,9 @@
 					]
 				},
 				{
-					"name": "Phantasmal Killer (Costa 2 Accions)",
+					"name": "Assassí Fantasmagòric (Costa 2 Accions)",
 					"entries": [
-						"Fraz-Urb'luu casts {@spell phantasmal killer}, no concentration required."
+						"Fraz-Urb'luu casts {@spell assassí fantasmagòric}, no concentration required."
 					]
 				}
 			],
@@ -8832,7 +8832,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 29,
 			"dex": 17,
@@ -8892,16 +8892,16 @@
 						"{@spell ego alteració} (can become Medium when changing his appearance)",
 						"{@spell detectar màgia}",
 						"{@spell geas}",
-						"{@spell ice storm}",
+						"{@spell tempesta de gel}",
 						"{@spell invisibility} (self only)",
-						"{@spell locate object}",
+						"{@spell localitzar objecte}",
 						"{@spell suggestió}",
-						"{@spell wall of ice}"
+						"{@spell paret de glaç}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell mot diví}",
-							"{@spell symbol} (pain only)"
+							"{@spell Símbol} (pain only)"
 						]
 					},
 					"ability": "cha"
@@ -8953,7 +8953,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Geryon magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
 					]
@@ -8973,7 +8973,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Geryon uses his Teleport action."
 					]
@@ -9015,7 +9015,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -9229,17 +9229,17 @@
 						"L'habilitat de llançament de conjurs innata de The githyanki és Intel·ligència ({@dc 15} salvada de conjur, {@hit 7} a impactar amb atacs màgics). Pot llançar els següents conjurs innatament sense requerir components"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell mà de mag} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell jump}",
+							"{@spell botar}",
 							"{@spell pas boira}",
-							"{@spell nondetection} (self only)"
+							"{@spell indetectable} (self only)"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell saltar de pla}",
+							"{@spell Telequinesi}"
 						]
 					},
 					"ability": "int"
@@ -9253,18 +9253,18 @@
 						"0": {
 							"spells": [
 								"{@spell guarda d'armes}",
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell missatge}",
-								"{@spell true strike}"
+								"{@spell impacte veritable}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell expeditious retreat}",
-								"{@spell magic missile}",
-								"{@spell sleep}",
-								"{@spell thunderwave}"
+								"{@spell retirada estratègica}",
+								"{@spell missil màgic}",
+								"{@spell adormir}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -9272,7 +9272,7 @@
 							"spells": [
 								"{@spell difuminar}",
 								"{@spell invisibility}",
-								"{@spell levitate}"
+								"{@spell levitar}"
 							]
 						},
 						"3": {
@@ -9280,7 +9280,7 @@
 							"spells": [
 								"{@spell contraconjur}",
 								"{@spell bola de foc}",
-								"{@spell haste}"
+								"{@spell pressa}"
 							]
 						},
 						"4": {
@@ -9403,18 +9403,18 @@
 						"L'habilitat de llançament de conjurs innata de The githyanki és Intel·ligència ({@dc 15} salvada de conjur, {@hit 7} a impactar amb atacs màgics). Pot llançar els següents conjurs innatament sense requerir components"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell mà de mag} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
 							"{@spell difuminar}",
-							"{@spell jump}",
+							"{@spell botar}",
 							"{@spell pas boira}",
-							"{@spell nondetection} (self only)"
+							"{@spell indetectable} (self only)"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell saltar de pla}",
+							"{@spell Telequinesi}"
 						]
 					},
 					"ability": "int"
@@ -9542,20 +9542,20 @@
 						"L'habilitat de llançament de conjurs innata de The githyanki és Intel·ligència ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Pot llançar els següents conjurs innatament sense requerir components"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell mà de mag} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell jump}",
-							"{@spell levitate} (self only)",
+							"{@spell botar}",
+							"{@spell levitar} (self only)",
 							"{@spell pas boira}",
-							"{@spell nondetection} (self only)"
+							"{@spell indetectable} (self only)"
 						],
 						"1e": [
 							"{@spell Mà d'en Bigby}",
 							"{@spell suggestió massiva}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{@spell saltar de pla}",
+							"{@spell Telequinesi}"
 						]
 					},
 					"ability": "int"
@@ -9597,7 +9597,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial fins a l'inici del seu següent torn. While insubstantial, it pot moure's a través d'altres criatures i objectes com si fossin terreny difícil. Si acaba el torn dins d'un objecte, it takes 16 ({@damage 3d10}) de dany de força and is moved to the nearest unoccupied space."
 					]
@@ -9659,7 +9659,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -9694,21 +9694,21 @@
 						"L'habilitat de llançament de conjurs innata de The anarch és Saviesa ({@dc 18} salvada de conjur, {@hit 10} a impactar amb atacs màgics). Pot llançar els següents conjurs innatament sense requerir components"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell mà de mag} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell feather fall}",
-							"{@spell jump}",
-							"{@spell see invisibility}",
-							"{@spell shield}",
-							"{@spell telekinesis}"
+							"{@spell descens de ploma}",
+							"{@spell botar}",
+							"{@spell veure invisibilitat}",
+							"{@spell escut}",
+							"{@spell Telequinesi}"
 						],
 						"1e": [
-							"{@spell globe of invulnerability}",
-							"{@spell plane shift}",
-							"{@spell teleportation circle}",
-							"{@spell wall of force}"
+							"{@spell globus d'invulnerabilitat}",
+							"{@spell saltar de pla}",
+							"{@spell cercle de teletransport}",
+							"{@spell paret de força}"
 						]
 					},
 					"ability": "wis"
@@ -9744,7 +9744,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The anarch magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it."
 					]
@@ -9752,7 +9752,7 @@
 				{
 					"name": "Change Gravity (Costa 3 Accions)",
 					"entries": [
-						"The anarch casts the {@spell reverse gravity} spell. The spell has the normal effect, except that the anarch can orient the area in any direction and creatures and objects fall toward the end of the area."
+						"The anarch casts the {@spell invertir la gravetat} spell. The spell has the normal effect, except that the anarch can orient the area in any direction and creatures and objects fall toward the end of the area."
 					]
 				}
 			],
@@ -9839,21 +9839,21 @@
 						"L'habilitat de llançament de conjurs innata de The githzerai és Saviesa ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Pot llançar els següents conjurs innatament sense requerir components"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{@spell mà de mag} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
 							"{@spell difuminar}",
-							"{@spell expeditious retreat}",
-							"{@spell feather fall}",
-							"{@spell jump}",
-							"{@spell see invisibility}",
-							"{@spell shield}"
+							"{@spell retirada estratègica}",
+							"{@spell descens de ploma}",
+							"{@spell botar}",
+							"{@spell veure invisibilitat}",
+							"{@spell escut}"
 						],
 						"1e": [
-							"{@spell haste}",
-							"{@spell plane shift}",
-							"{@spell teleport}"
+							"{@spell pressa}",
+							"{@spell saltar de pla}",
+							"{@spell teleportació}"
 						]
 					},
 					"ability": "wis"
@@ -9935,7 +9935,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -9980,8 +9980,8 @@
 					],
 					"will": [
 						"{@spell ull arcà}",
-						"{@spell mage armor}",
-						"{@spell speak with dead}"
+						"{@spell armadura de mag}",
+						"{@spell parlar amb els morts}"
 					],
 					"daily": {
 						"1e": [
@@ -9989,7 +9989,7 @@
 							"{@spell perdició}",
 							"{@spell rampell}",
 							"{@spell confusió}",
-							"{@spell true seeing}"
+							"{@spell visió veritable}"
 						]
 					},
 					"ability": "cha"
@@ -10003,9 +10003,9 @@
 						"0": {
 							"spells": [
 								"{@spell il·lusió menor}",
-								"{@spell prestidigitation}",
+								"{@spell prestidigitació}",
 								"{@spell mà morta}",
-								"{@spell eldritch blast}*"
+								"{@spell missil èldritx}*"
 							]
 						},
 						"5": {
@@ -10015,14 +10015,14 @@
 								"{@spell armadura d'Àgathys}",
 								"{@spell plaga}",
 								"{@spell darkness}",
-								"{@spell dream}",
+								"{@spell somnis}",
 								"{@spell invisibility}",
-								"{@spell fear}",
-								"{@spell hypnotic pattern}",
+								"{@spell temor}",
+								"{@spell senefes hipnòtiques}",
 								"{@spell imatge major}",
 								"{@spell contactar plà forani}",
-								"{@spell vampiric touch}",
-								"{@spell witch bolt}"
+								"{@spell toc vampíric}",
+								"{@spell llampec bruixot}"
 							]
 						}
 					},
@@ -10316,13 +10316,13 @@
 							"{@spell contraconjur}",
 							"{@spell darkness}",
 							"{@spell dominar humanoide}",
-							"{@spell sanctuary}",
-							"{@spell telekinesis}",
-							"{@spell teleport}"
+							"{@spell santuari}",
+							"{@spell Telequinesi}",
+							"{@spell teleportació}"
 						],
 						"1e": [
 							"{@spell dominar criatura}",
-							"{@spell greater invisibility}"
+							"{@spell invisibilitat superior}"
 						]
 					},
 					"ability": "cha"
@@ -10368,7 +10368,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
 					]
@@ -10394,7 +10394,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Graz'zt uses his Teleport action."
 					]
@@ -10416,7 +10416,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -10470,7 +10470,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 12,
 			"dex": 17,
@@ -10531,7 +10531,7 @@
 						"3e": [
 							"{@spell fascinar persona}",
 							"{@spell detectar pensaments}",
-							"{@spell fear}"
+							"{@spell temor}"
 						],
 						"1e": [
 							"{@spell confusió}",
@@ -10578,7 +10578,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d8 + 3}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or take 11 ({@damage 2d10}) de dany de verí and become {@condition poisoned} for 1 minute. L'objectiu {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d8 + 3}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or take 11 ({@damage 2d10}) de dany de verí and become {@condition poisoned} durant 1 minut. L'objectiu {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -10715,7 +10715,7 @@
 				{
 					"name": "Flesh-Crushing Stride",
 					"entries": [
-						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters ha de salvar per Destresa amb {@dc 18}. On a successful save, the creature is pushed to the nearest space out of the hellfire engine's path. Si falla, the creature falls {@condition prone} and takes 28 ({@damage 8d6}) de dany contundent.",
+						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters ha de salvar per Destresa amb {@dc 18}. Si supera, the creature is pushed to the nearest space out of the hellfire engine's path. Si falla, the creature falls {@condition prone} and takes 28 ({@damage 8d6}) de dany contundent.",
 						"If the hellfire engine remains in the {@condition prone} creature's space, the creature is also {@condition restrained} until it's no longer in the same space as the hellfire engine. While {@condition restrained} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Força check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition restrained}."
 					]
 				},
@@ -10729,7 +10729,7 @@
 								{
 									"type": "item",
 									"name": "Bonemelt Sprayer",
-									"entry": "The hellfire engine spews acidic flame en un con de 60 peus. Each creature in the cone ha de salvar per Destresa amb {@dc 20}. Qui falli rep 11 ({@damage 2d10}) de dany de foc mes 18 ({@damage 4d8}) de dany d'àcid; qui superi, en rep la meitat. Creatures that fail the saving throw are drenched in burning acid and take 5 ({@damage 1d10}) de dany de foc mes 9 ({@damage 2d8}) de dany d'àcid at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel."
+									"entry": "The hellfire engine spews acidic flame en un con de 60 peus. Tota criatura a dins del con ha de salvar per Destresa amb {@dc 20}. Qui falli rep 11 ({@damage 2d10}) de dany de foc mes 18 ({@damage 4d8}) de dany d'àcid; qui superi, en rep la meitat. Creatures that fail the saving throw are drenched in burning acid and take 5 ({@damage 1d10}) de dany de foc mes 9 ({@damage 2d8}) de dany d'àcid at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel."
 								},
 								{
 									"type": "item",
@@ -10743,7 +10743,7 @@
 								}
 							]
 						},
-						"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell desig} spell or killing the lemure and casting resurrecció veritable on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				}
 			],
@@ -10937,7 +10937,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 27,
 			"dex": 15,
@@ -10995,19 +10995,19 @@
 						"{@spell ego alteració} (can become Medium when changing his appearance)",
 						"{@spell animar els morts}",
 						"{@spell detectar màgia}",
-						"{@spell hold monster}",
+						"{@spell immobilitzar criatura}",
 						"{@spell invisibility} (self only)",
 						"{@spell lightning bolt}",
 						"{@spell suggestió}",
-						"{@spell wall of fire}"
+						"{@spell paret de foc}"
 					],
 					"daily": {
 						"3": [
 							"{@spell dissipar màgia}"
 						],
 						"1e": [
-							"{@spell heal}",
-							"{@spell symbol} (hopelessness only)"
+							"{@spell sanar}",
+							"{@spell Símbol} (hopelessness only)"
 						]
 					},
 					"ability": "cha"
@@ -11077,7 +11077,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Hutijin magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
 					]
@@ -11087,7 +11087,7 @@
 				{
 					"name": "Fearful Voice {@recharge 5}",
 					"entries": [
-						"In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil ha de salvar per Saviesa amb {@dc 22} or become {@condition frightened} of him for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours."
+						"In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil ha de salvar per Saviesa amb {@dc 22} or become {@condition frightened} of him durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours."
 					]
 				}
 			],
@@ -11105,7 +11105,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Hutijin uses his Teleport action."
 					]
@@ -11127,7 +11127,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -11250,8 +11250,8 @@
 						"3e": [
 							"{@spell control d'aigua}",
 							"{@spell corona de bogeria}",
-							"{@spell fear}",
-							"{@spell phantasmal killer}",
+							"{@spell temor}",
+							"{@spell assassí fantasmagòric}",
 							"{@spell suggestió}"
 						]
 					},
@@ -11312,11 +11312,11 @@
 				{
 					"name": "Steal Memory (1/Dia)",
 					"entries": [
-						"The hydroloth targets one creature it can see within 60 feet of it. The target takes {@dice 4d6} de dany psíquic, and it ha de salvar per Intel·ligència amb {@dc 16}. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. Si falla, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intel·ligència and Carisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell greater restoration} or {@spell remove curse} spell cast on the target ends this effect early."
+						"The hydroloth targets one creature it can see within 60 feet of it. The target takes {@dice 4d6} de dany psíquic, and it ha de salvar per Intel·ligència amb {@dc 16}. Si supera, the target becomes immune to this hydroloth's Steal Memory for 24 hours. Si falla, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intel·ligència and Carisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell restabliment superior} or {@spell anul·lar maledicció} spell cast on the target ends this effect early."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The hydroloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
 					]
@@ -11338,7 +11338,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"AB",
@@ -11578,7 +11578,7 @@
 						"3e": [
 							"{@spell plaga}",
 							"{@spell contagiar}",
-							"{@spell gaseous form}"
+							"{@spell forma gasosa}"
 						]
 					},
 					"ability": "cha"
@@ -11942,7 +11942,7 @@
 				{
 					"name": "Tidal Wave {@recharge}",
 					"entries": [
-						"While submerged, the leviathan magically creates a wall of water centered on itself. The wall is up 250 feet long, up to 250 feet high, and up to 50 feet thick. When the wall appears, all other creatures within its area must each make a {@dc 24} Força saving throw. A creature takes 33 ({@damage 6d10}) de dany contundent on failed save; si supera, en rep la meitat.",
+						"While submerged, the leviathan magically creates a Paret d'Aigua centered on itself. The wall is up 250 feet long, up to 250 feet high, and up to 50 feet thick. When the wall appears, all other creatures within its area must each make a {@dc 24} Força saving throw. A creature takes 33 ({@damage 6d10}) de dany contundent on failed save; si supera, en rep la meitat.",
 						"A l'inici de cada torn de the leviathan after the wall appears, the wall, along with any other creatures in it, moves 50 feet away from the leviathan. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves ha de salvar per Força amb {@dc 24} or take 27 ({@damage 5d10}) de dany contundent. A creature takes this damage no more than once on a turn. At the end of each turn the wall moves, the wall's height is reduced by 50 feet, and the damage creatures take from the wall on subsequent rounds is reduced by {@dice 1d10}. When the wall reaches 0 feet in height, the effect ends.",
 						"A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful {@dc 24} Força (Atletisme) check to swim at all during that turn."
 					]
@@ -12123,7 +12123,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -12182,7 +12182,7 @@
 						"L'habilitat de llançament de conjurs innata de The marut és Intel·ligència ({@dc 20} salvació de conjur). The marut pot llançar aquest conjur innatament, requiring no material components."
 					],
 					"will": [
-						"{@spell plane shift} (self only)"
+						"{@spell saltar de pla} (self only)"
 					],
 					"ability": "int"
 				}
@@ -12229,7 +12229,7 @@
 				{
 					"name": "Justify",
 					"entries": [
-						"The marut targets up to two creatures it can see within 60 feet of it. Each target ha de salvar per Carisma amb {@dc 20} or be teleported to a teleportation circle in the Hall of Concordance in Sigil. A target fails automatically if it is {@condition incapacitated}. If either target is teleported in this way, the marut teleports with it to the circle.",
+						"The marut targets up to two creatures it can see within 60 feet of it. Each target ha de salvar per Carisma amb {@dc 20} or be teleported to a cercle de teletransport in the Hall of Concordance in Sigil. A target fails automatically if it is {@condition incapacitated}. If either target is teleported in this way, the marut teleports with it to the circle.",
 						"After teleporting in this way, the marut can't use this action again until it finishes a short or long rest."
 					]
 				}
@@ -12369,7 +12369,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d8 + 3}) de dany tallant. If the target is a creature other than an undead, ha de salvar per Constitució amb {@dc 12} or be {@condition paralyzed} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d8 + 3}) de dany tallant. If the target is a creature other than an undead, ha de salvar per Constitució amb {@dc 12} or be {@condition paralyzed} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -12752,7 +12752,7 @@
 						"{@spell darkness}",
 						"{@spell detectar màgia}",
 						"{@spell dissipar màgia}",
-						"{@spell gust of wind}"
+						"{@spell ràfega de vent}"
 					],
 					"daily": {
 						"1": [
@@ -12779,7 +12779,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Com a acció bonus, the merrenoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
 					]
@@ -12945,17 +12945,17 @@
 						"{@spell mans ardents} (as a 7th-level spell)",
 						"{@spell confusió}",
 						"{@spell detectar màgia}",
-						"{@spell fly}",
+						"{@spell volar}",
 						"{@spell geas}",
 						"{@spell imatge major}",
-						"{@spell stinking cloud}",
+						"{@spell núvol fètid}",
 						"{@spell suggestió}",
-						"{@spell wall of fire}"
+						"{@spell paret de foc}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell flame strike}",
-							"{@spell symbol} (stunning only)"
+							"{@spell batussa incendiària}",
+							"{@spell Símbol} (stunning only)"
 						]
 					},
 					"ability": "cha"
@@ -13015,11 +13015,11 @@
 				{
 					"name": "Breath of Despair {@recharge 5}",
 					"entries": [
-						"Moloch exhales in a 30-foot cube. Tota criatura dins de l'àrea ha de salvar per Saviesa amb {@dc 21} or take 27 ({@damage 5d10}) de dany psíquic, drop whatever it is holding, and become {@condition frightened} for 1 minute. While {@condition frightened} in this way, a creature must take the Dash action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw. On a success, the effect ends."
+						"Moloch exhales in a 30-foot cube. Tota criatura dins de l'àrea ha de salvar per Saviesa amb {@dc 21} or take 27 ({@damage 5d10}) de dany psíquic, drop whatever it is holding, and become {@condition frightened} durant 1 minut. While {@condition frightened} in this way, a creature must take the Dash action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw. On a success, the effect ends."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Moloch magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
 					]
@@ -13027,13 +13027,13 @@
 			],
 			"legendary": [
 				{
-					"name": "Stinking Cloud",
+					"name": "Núvol Fètid",
 					"entries": [
-						"Moloch casts stinking cloud."
+						"Moloch casts núvol fètid."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Moloch uses his Teleport action."
 					]
@@ -13061,7 +13061,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -13181,13 +13181,13 @@
 					],
 					"will": [
 						"{@spell dissipar màgia}",
-						"{@spell polymorph}",
-						"{@spell telekinesis}",
-						"{@spell teleport}"
+						"{@spell polimorfia}",
+						"{@spell Telequinesi}",
+						"{@spell teleportació}"
 					],
 					"daily": {
 						"1": [
-							"{@spell imprisonment}"
+							"{@spell engarjolament}"
 						],
 						"3": [
 							"{@spell lightning bolt}"
@@ -13238,7 +13238,7 @@
 				{
 					"name": "Snakebite",
 					"entries": [
-						"{@atk mw} {@hit 16} a impactar, 15 peus d'abast, una criatura. {@h}12 ({@damage 1d6 + 9}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 22} o se li redueixen tants punts de cop màxims com dany hagi rebut. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell wish} spell."
+						"{@atk mw} {@hit 16} a impactar, 15 peus d'abast, una criatura. {@h}12 ({@damage 1d6 + 9}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 22} o se li redueixen tants punts de cop màxims com dany hagi rebut. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell desig} spell."
 					]
 				}
 			],
@@ -13340,7 +13340,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 22,
 			"dex": 14,
@@ -13394,7 +13394,7 @@
 				{
 					"name": "Devour Soul",
 					"entries": [
-						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@dice 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell wish} spell."
+						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@dice 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell desig} spell."
 					]
 				},
 				{
@@ -13537,8 +13537,8 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
+								"{@spell sageta de foc}",
+								"{@spell mà de mag}",
 								"{@spell missatge}",
 								"{@spell il·lusió menor}"
 							]
@@ -13548,15 +13548,15 @@
 							"spells": [
 								"{@spell fascinar persona}",
 								"{@spell detectar màgia}",
-								"{@spell protection from evil and good}",
-								"{@spell witch bolt}"
+								"{@spell protegir del bé i del mal}",
+								"{@spell llampec bruixot}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell ray of enfeeblement}",
+								"{@spell immobilitzar humanoide}",
+								"{@spell raig d'afebliment}",
 								"{@spell suggestió}"
 							]
 						},
@@ -13565,22 +13565,22 @@
 							"spells": [
 								"{@spell contraconjur}",
 								"{@spell bola de foc}",
-								"{@spell fly}"
+								"{@spell volar}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell confusió}",
-								"{@spell hallucinatory terrain}",
-								"{@spell wall of fire}"
+								"{@spell terreny il·lusori}",
+								"{@spell paret de foc}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell dominar humanoide}",
-								"{@spell dream}",
+								"{@spell somnis}",
 								"{@spell geas}"
 							]
 						},
@@ -13601,7 +13601,7 @@
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell feeblemind}"
+								"{@spell esberlacervells}"
 							]
 						}
 					},
@@ -13612,13 +13612,13 @@
 				{
 					"name": "Corruption",
 					"entries": [
-						"Com a acció bonus, the nagpa targets one creature it can see within 90 feet of it. L'objectiu ha de salvar per Carisma amb {@dc 20}. An evil creature makes the save with disadvantage. Si falla, the target is {@condition charmed} by the nagpa until the start of the nagpa's next turn. On a successful save, the target becomes immune to the nagpa's Corruption for the next 24 hours."
+						"Com a acció bonus, the nagpa targets one creature it can see within 90 feet of it. L'objectiu ha de salvar per Carisma amb {@dc 20}. An evil creature makes the save with disadvantage. Si falla, the target is {@condition charmed} by the nagpa until the start of the nagpa's next turn. Si supera, the target becomes immune to the nagpa's Corruption for the next 24 hours."
 					]
 				},
 				{
 					"name": "Paralysis {@recharge}",
 					"entries": [
-						"Com a acció bonus, the nagpa forces each creature within 30 feet of it to succeed on a {@dc 20} Saviesa saving throw or be {@condition paralyzed} for 1 minute. Un objectiu {@condition paralyzed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Undead and constructs are immune to this effect."
+						"Com a acció bonus, the nagpa forces each creature within 30 feet of it to succeed on a {@dc 20} Saviesa saving throw or be {@condition paralyzed} durant 1 minut. Un objectiu {@condition paralyzed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Undead and constructs are immune to this effect."
 					]
 				}
 			],
@@ -13786,7 +13786,7 @@
 					"name": "Hellfire Lance",
 					"entries": [
 						"{@atk mw} {@hit 10} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 1d12 + 5}) de dany perforant mes 16 ({@damage 3d10}) de dany de foc. If this damage kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours.",
-						"If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"If the creature isn't revived before then, only a {@spell desig} spell or killing the lemure and casting resurrecció veritable on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				},
 				{
@@ -13798,7 +13798,7 @@
 				{
 					"name": "Terrifying Command",
 					"entries": [
-						"Each creature that isn't a fiend within 60 feet of the narzugon that can hear ha de salvar per Carisma amb {@dc 17} or become {@condition frightened} of it for 1 minute.",
+						"Each creature that isn't a fiend within 60 feet of the narzugon that can hear ha de salvar per Carisma amb {@dc 17} or become {@condition frightened} of it durant 1 minut.",
 						"A creature can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
 					]
 				},
@@ -13861,7 +13861,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 22,
 			"dex": 19,
@@ -13917,7 +13917,7 @@
 				{
 					"name": "Life Eater",
 					"entries": [
-						"A creature reduced to 0 hit points from damage dealt by the nightwalker dies and can't be revived by any means short of a {@spell wish} spell."
+						"A creature reduced to 0 hit points from damage dealt by the nightwalker dies and can't be revived by any means short of a {@spell desig} spell."
 					]
 				}
 			],
@@ -14538,7 +14538,7 @@
 				{
 					"name": "Chain Smash {@recharge}",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}13 ({@damage 2d8 + 4}) de dany contundent, i l'objectiu ha de salvar per Constitució amb {@dc 14}. On a failure the target is {@condition unconscious} for 1 minute. The {@condition unconscious} target repeats the saving throw if it takes damage and al final de cada torn seu, ending the effect on itself on a success."
+						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}13 ({@damage 2d8 + 4}) de dany contundent, i l'objectiu ha de salvar per Constitució amb {@dc 14}. On a failure the target is {@condition unconscious} durant 1 minut. The {@condition unconscious} target repeats the saving throw if it takes damage and al final de cada torn seu, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -14744,10 +14744,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell globe of invulnerability}",
-							"{@spell wall of fire}",
-							"{@spell wall of ice}"
+							"{@spell esberlacervells}",
+							"{@spell globus d'invulnerabilitat}",
+							"{@spell paret de foc}",
+							"{@spell paret de glaç}"
 						]
 					},
 					"ability": "cha"
@@ -14758,7 +14758,7 @@
 					"name": "Bringer of Plagues {@recharge 5}",
 					"entries": [
 						"Com a acció bonus, the oinoloth blights the area within 30 feet of it. The blight lasts for 24 hours. While blighted, all normal plants in the area wither and die, and the number of hit points restored by a spell to a creature in that area is halved.",
-						"Furthermore, when a creature moves into the blighted area or starts its turn there, that creature ha de salvar per Constitució amb {@dc 16}. On a successful save, the creature is immune to the oinoloth's Bringer of Plagues for the next 24 hours. Si falla, rep 14 ({@damage 4d6}) de dany necròtic i està {@condition poisoned}.",
+						"Furthermore, when a creature moves into the blighted area or starts its turn there, that creature ha de salvar per Constitució amb {@dc 16}. Si supera, the creature is immune to the oinoloth's Bringer of Plagues for the next 24 hours. Si falla, rep 14 ({@damage 4d6}) de dany necròtic i està {@condition poisoned}.",
 						"The {@condition poisoned} creature can't regain hit points. After every 24 hours that elapse, the {@condition poisoned} creature can repeat the saving throw. Si falla, the creature's hit point maximum is reduced by 5 ({@dice 1d10}). This reduction lasts until the poison ends, and the target dies if its hit point maximum is reduced to 0. The poison ends after the creature successfully saves against it three times."
 					]
 				},
@@ -14791,11 +14791,11 @@
 				{
 					"name": "Corrupted Healing {@recharge}",
 					"entries": [
-						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}. The target then gains 1 level of {@condition exhaustion}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell wish} spell or by casting {@spell greater restoration} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
+						"The oinoloth touches una criatura voluntària within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}. The target then gains 1 level of {@condition exhaustion}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell desig} spell or by casting {@spell restabliment superior} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The oinoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
 					]
@@ -14826,7 +14826,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"AB",
@@ -14895,7 +14895,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 27,
 			"dex": 14,
@@ -14957,7 +14957,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell time stop}"
+							"{@spell deturar el temps}"
 						],
 						"3e": [
 							"{@spell crear no-morts}",
@@ -14971,7 +14971,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell animar els morts}, {@spell plaga}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell cercle de la mort} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
+						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell animar els morts}, {@spell plaga}, or {@spell parlar amb els morts}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell cercle de la mort} (1 charge), {@spell dit de la mort} (1 charge), or {@spell paraula de poder matar} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
 						"While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
 					]
 				},
@@ -15179,7 +15179,7 @@
 				{
 					"name": "Infernal Daga",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d4 + 6}) de dany tallant, i l'objectiu ha de salvar per Constitució amb {@dc 17}. Qui falli rep 22 ({@damage 4d10}) de dany de verí; si supera, en rep la meitat. On a failure, the target is {@condition poisoned} for 1 minute. L'objectiu {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d4 + 6}) de dany tallant, i l'objectiu ha de salvar per Constitució amb {@dc 17}. Qui falli rep 22 ({@damage 4d10}) de dany de verí; qui superi, en rep la meitat. On a failure, the target is {@condition poisoned} durant 1 minut. L'objectiu {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
 					]
 				},
 				{
@@ -15193,7 +15193,7 @@
 								{
 									"type": "item",
 									"name": "1. Acid",
-									"entry": "L'objectiu ha de salvar per Constitució amb {@dc 17}, taking an additional 17 ({@damage 5d6}) de dany d'àcid on a failed save; si supera, en rep la meitat."
+									"entry": "L'objectiu ha de salvar per Constitució amb {@dc 17}, taking an additional 17 ({@damage 5d6}) de dany d'àcid; si supera, en rep la meitat."
 								},
 								{
 									"type": "item",
@@ -15213,7 +15213,7 @@
 								{
 									"type": "item",
 									"name": "5. Paralysis (1/Dia)",
-									"entry": "The target takes 22 ({@damage 4d10}) de dany elèctric and must make a successful {@dc 17} Constitució saving throw or be {@condition paralyzed} for 1 minute. L'objectiu {@condition paralyzed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+									"entry": "The target takes 22 ({@damage 4d10}) de dany elèctric and must make a successful {@dc 17} Constitució saving throw or be {@condition paralyzed} durant 1 minut. L'objectiu {@condition paralyzed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 								},
 								{
 									"type": "item",
@@ -15301,7 +15301,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 120
+				"volar": 120
 			},
 			"str": 19,
 			"dex": 26,
@@ -15366,7 +15366,7 @@
 				{
 					"name": "Illumination",
 					"entries": [
-						"The phoenix sheds bright light in a 60-foot radius and dim light for an additional 30 feet."
+						"The phoenix desprèn llum forta en un radi de 60 peus i llum tènue uns 30 peus adicionals."
 					]
 				},
 				{
@@ -15483,7 +15483,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 23,
 			"dex": 16,
@@ -15589,7 +15589,7 @@
 				{
 					"name": "Power of the Dragon Queen",
 					"entries": [
-						"The abishai targets one dragon it can see within 120 feet of it. The dragon ha de salvar per Carisma amb {@dc 18}. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. Si falla, the target is {@condition charmed} by the abishai for 1 hour. While {@condition charmed} in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target."
+						"The abishai targets one dragon it can see within 120 feet of it. The dragon ha de salvar per Carisma amb {@dc 18}. A chromatic dragon makes this save with disadvantage. Si supera, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. Si falla, the target is {@condition charmed} by the abishai for 1 hour. While {@condition charmed} in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target."
 					]
 				}
 			],
@@ -15715,7 +15715,7 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell plane shift} (only self and up to one incapacitated creature which is considered willing for the spell)",
+							"{@spell saltar de pla} (only self and up to one incapacitated creature which is considered willing for the spell)",
 							"{@spell tirarany}"
 						]
 					},
@@ -15752,7 +15752,7 @@
 				{
 					"name": "Paralyzing Beam {@recharge 5}",
 					"entries": [
-						"The retriever targets one creature it can see within 60 feet of it. The target ha de salvar per Constitució amb {@dc 18} or be {@condition paralyzed} for 1 minute. L'objectiu {@condition paralyzed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.",
+						"The retriever targets one creature it can see within 60 feet of it. The target ha de salvar per Constitució amb {@dc 18} or be {@condition paralyzed} durant 1 minut. L'objectiu {@condition paralyzed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.",
 						"If the {@condition paralyzed} creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
 					]
 				}
@@ -15966,9 +15966,9 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Crippling Fear",
+					"name": "Crippling Temor",
 					"entries": [
-						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it ha de salvar per Saviesa amb {@dc 11}. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. Si falla, the creature becomes {@condition frightened} for 1 minute. While {@condition frightened} in this way, the creature is {@condition restrained}. Al final de cada torn de the {@condition frightened} creature, it can repeat the saving throw, ending the effect on itself on a success."
+						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it ha de salvar per Saviesa amb {@dc 11}. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. Si supera, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. Si falla, the creature becomes {@condition frightened} durant 1 minut. While {@condition frightened} in this way, the creature is {@condition restrained}. Al final de cada torn de the {@condition frightened} creature, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -15976,7 +15976,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 3d6 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 13} against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell wish} spell. (See notes)"
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 3d6 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 13} against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell desig} spell. (See notes)"
 					]
 				}
 			],
@@ -16320,7 +16320,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 20,
 					"condition": "(flotar)"
 				},
@@ -16380,11 +16380,11 @@
 						"{@spell fascinar persona}",
 						"{@spell command}",
 						"{@spell dissipar màgia}",
-						"{@spell hold monster}"
+						"{@spell immobilitzar criatura}"
 					],
 					"daily": {
 						"3": [
-							"{@spell feeblemind}"
+							"{@spell esberlacervells}"
 						]
 					},
 					"ability": "cha"
@@ -16394,7 +16394,7 @@
 				{
 					"name": "Contamination",
 					"entries": [
-						"The sibriex emits an aura of corruption 30 feet in every direction. Plants that aren't creatures wither in the aura, and the ground in it is difficult terrain for other creatures. Any creature that starts its turn in the aura ha de salvar per Constitució amb {@dc 20} or take 14 ({@damage 4d6}) de dany de verí. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
+						"The sibriex emits an aura of corruption 30 feet in every direction. Plants that aren't creatures wither in the aura, and the ground in it is terreny difícil for other creatures. Any creature that starts its turn in the aura ha de salvar per Constitució amb {@dc 20} or take 14 ({@damage 4d6}) de dany de verí. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
 					]
 				},
 				{
@@ -16438,7 +16438,7 @@
 				{
 					"name": "Warp Creature",
 					"entries": [
-						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target ha de salvar per Constitució amb {@dc 20}. Qui superi becomes immune to this sibriex's Warp Creature. Si falla, the target is {@condition poisoned}, which causes it to also gain 1 level of {@condition exhaustion}. While {@condition poisoned} in this way, the target must repeat the saving throw a l'inici de cada torn seu. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition exhaustion} caused by it. Each failed save causes the target to suffer another level of {@condition exhaustion}. Once the target reaches 6 levels of {@condition exhaustion}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell wish} spell."
+						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target ha de salvar per Constitució amb {@dc 20}. Qui superi becomes immune to this sibriex's Warp Creature. Si falla, the target is {@condition poisoned}, which causes it to also gain 1 level of {@condition exhaustion}. While {@condition poisoned} in this way, the target must repeat the saving throw a l'inici de cada torn seu. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition exhaustion} caused by it. Each failed save causes the target to suffer another level of {@condition exhaustion}. Once the target reaches 6 levels of {@condition exhaustion}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell desig} spell."
 					]
 				}
 			],
@@ -16799,19 +16799,19 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
-								"{@spell poison spray}",
+								"{@spell sageta de foc}",
+								"{@spell mà de mag}",
+								"{@spell esprai de verí}",
 								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell magic missile}",
-								"{@spell expeditious retreat}",
-								"{@spell thunderwave}"
+								"{@spell missil màgic}",
+								"{@spell retirada estratègica}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -16824,15 +16824,15 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell fear}",
-								"{@spell haste}"
+								"{@spell temor}",
+								"{@spell pressa}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell porta dimensional}",
-								"{@spell ice storm}"
+								"{@spell tempesta de gel}"
 							]
 						},
 						"5": {
@@ -16845,13 +16845,13 @@
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell eyebite}"
+								"{@spell mal d'ull}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}"
+								"{@spell dit de la mort}"
 							]
 						}
 					},
@@ -17022,16 +17022,16 @@
 					],
 					"will": [
 						"{@spell mà morta}",
-						"{@spell poison spray}"
+						"{@spell esprai de verí}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell imposar maledicció}",
 							"{@spell llamp en cadena}",
-							"{@spell finger of death}",
-							"{@spell gaseous form}",
-							"{@spell phantasmal killer}",
-							"{@spell seeming}"
+							"{@spell dit de la mort}",
+							"{@spell forma gasosa}",
+							"{@spell assassí fantasmagòric}",
+							"{@spell aparentar}"
 						]
 					},
 					"ability": "int"
@@ -17079,7 +17079,7 @@
 				{
 					"name": "Wave of Weariness {@recharge 4}",
 					"entries": [
-						"The soul monger emits weariness in a 60-foot cube. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 16}. Qui falli rep 45 ({@damage 10d8}) de dany psíquic and suffers 1 level of {@condition exhaustion}. On a successful save, it takes 22 ({@damage 5d8}) de dany psíquic."
+						"The soul monger emits weariness in a 60-foot cube. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 16}. Qui falli rep 45 ({@damage 10d8}) de dany psíquic and suffers 1 level of {@condition exhaustion}. Si supera, it takes 22 ({@damage 5d8}) de dany psíquic."
 					]
 				}
 			],
@@ -17336,17 +17336,17 @@
 					],
 					"will": [
 						"{@spell fascinar persona}",
-						"{@spell Tasha's hideous laughter}"
+						"{@spell Riure Horrible de la Tasha}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell confusió}",
-							"{@spell enthrall}",
+							"{@spell captivar}",
 							"{@spell suggestió}"
 						],
 						"1e": [
-							"{@spell hallucinatory terrain}",
-							"{@spell Otto's irresistible dance}"
+							"{@spell terreny il·lusori}",
+							"{@spell Dansa Irresistible de l'Otto}"
 						]
 					},
 					"ability": "cha"
@@ -17362,7 +17362,7 @@
 				{
 					"name": "Joyful Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature is {@condition charmed} for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature is {@condition charmed} durant 1 minut. Si supera, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
 						"Whenever the eladrin deals damage to the {@condition charmed} creature, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
@@ -17589,7 +17589,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The hulk makes two slam attacks. If both attacks hit the same target, the target also takes 9 ({@damage 2d8}) de dany psíquic and ha de salvar per Constitució amb {@dc 17} or be {@condition stunned} until the end of the target's next turn."
+						"The hulk makes two slam attacks. If both attacks hit the same target, the target also takes 9 ({@damage 2d8}) de dany psíquic iha de salvar per Constitució amb {@dc 17} or be {@condition stunned} until the end of the target's next turn."
 					]
 				},
 				{
@@ -17715,7 +17715,7 @@
 						"L'habilitat de llançament de conjurs innata de The larva mage és Carisma ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell eldritch blast}*",
+						"{@spell missil èldritx}*",
 						"{@spell il·lusió menor}"
 					],
 					"daily": {
@@ -18041,7 +18041,7 @@
 				{
 					"name": "Collapse Distance {@recharge}",
 					"entries": [
-						"The seer warps space around a creature it can see within 30 feet of it. That creature ha de salvar per Saviesa amb {@dc 19}. Si falla, the target, along with any equipment it is wearing or carrying, is magically teleported up to 60 feet to an unoccupied space the seer can see, and all other creatures within 10 feet of the target's original space each takes 39 ({@damage 6d12}) de dany psíquic. On a successful save, the target takes 19 ({@damage 3d12}) de dany psíquic."
+						"The seer warps space around a creature it can see within 30 feet of it. That creature ha de salvar per Saviesa amb {@dc 19}. Si falla, the target, along with any equipment it is wearing or carrying, is magically teleported up to 60 feet to an unoccupied space the seer can see, and all other creatures within 10 feet of the target's original space each takes 39 ({@damage 6d12}) de dany psíquic. Si supera, the target takes 19 ({@damage 3d12}) de dany psíquic."
 					]
 				}
 			],
@@ -18169,7 +18169,7 @@
 					"daily": {
 						"3e": [
 							"{@spell porta dimensional} (self only)",
-							"{@spell plane shift} (self only)"
+							"{@spell saltar de pla} (self only)"
 						]
 					},
 					"ability": "wis"
@@ -18211,7 +18211,7 @@
 				{
 					"name": "Stunning Roar {@recharge 5}",
 					"entries": [
-						"The steel predator emits a roar en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 19}. Qui falli rep 27 ({@damage 5d10}) de dany de tro, drops everything it's holding, i està {@condition stunned} for 1 minute. Qui superi en rep la meitat. La criatura {@condition stunned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
+						"The steel predator emits a roar en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 19}. Qui falli rep 27 ({@damage 5d10}) de dany de tro, drops everything it's holding, i està {@condition stunned} durant 1 minut. Qui superi en rep la meitat. La criatura {@condition stunned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
 					]
 				}
 			],
@@ -18539,7 +18539,7 @@
 				{
 					"name": "Fearsome Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature becomes {@condition frightened} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature becomes {@condition frightened} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
 					]
 				},
 				{
@@ -19197,7 +19197,7 @@
 				{
 					"name": "Sorrowful Embrace",
 					"entries": [
-						"Each creature {@condition grappled} by the Lonely ha de salvar per Saviesa amb {@dc 15}. A creature takes 18 ({@damage 4d8}) de dany psíquic on a failed save; si supera, en rep la meitat. In either case, the Lonely pulls each creature {@condition grappled} by it up to 30 feet straight toward it."
+						"Each creature {@condition grappled} by the Lonely ha de salvar per Saviesa amb {@dc 15}. A creature takes 18 ({@damage 4d8}) de dany psíquic; si supera, en rep la meitat. In either case, the Lonely pulls each creature {@condition grappled} by it up to 30 feet straight toward it."
 					]
 				}
 			],
@@ -19471,7 +19471,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 19,
 			"dex": 22,
@@ -19535,18 +19535,18 @@
 						"{@spell confusió}",
 						"{@spell imatge major}",
 						"{@spell modificar memòria}",
-						"{@spell nondetection}",
-						"{@spell sending}",
+						"{@spell indetectable}",
+						"{@spell encàrrec}",
 						"{@spell suggestió}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell greater invisibility} (self only)",
+							"{@spell invisibilitat superior} (self only)",
 							"{@spell desconcertar}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell symbol} (discord or sleep only)"
+							"{@spell esberlacervells}",
+							"{@spell Símbol} (discord or sleep only)"
 						]
 					},
 					"ability": "cha"
@@ -19604,7 +19604,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Titivilus magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
 					]
@@ -19612,7 +19612,7 @@
 				{
 					"name": "Twisting Words",
 					"entries": [
-						"Titivilus targets one creature he can see within 60 feet of him. L'objectiu ha de salvar per Carisma amb {@dc 21}. On a failure the target is {@condition charmed} for 1 minute. The {@condition charmed} target can repeat the saving throw if Titivilus deals any damage to it. A creature that succeeds on the saving throw is immune to Titivilus's Twisting Words for 24 hours."
+						"Titivilus targets one creature he can see within 60 feet of him. L'objectiu ha de salvar per Carisma amb {@dc 21}. On a failure the target is {@condition charmed} durant 1 minut. The {@condition charmed} target can repeat the saving throw if Titivilus deals any damage to it. A creature that succeeds on the saving throw is immune to Titivilus's Twisting Words for 24 hours."
 					]
 				}
 			],
@@ -19624,13 +19624,13 @@
 					]
 				},
 				{
-					"name": "Corrupting Guidance",
+					"name": "Corrupting Guia",
 					"entries": [
 						"Titivilus uses Twisting Words. Alternatively, he targets one creature {@condition charmed} by him that is within 60 feet of him; that {@condition charmed} target ha de salvar per Carisma amb {@dc 21}. On a failure, Titivilus decides how the target acts during its next turn."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Titivilus uses his Teleport action."
 					]
@@ -19652,7 +19652,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -19861,9 +19861,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell guidance}",
-								"{@spell produce flame}"
+								"{@spell arts de druida}",
+								"{@spell guia}",
+								"{@spell produir flama}"
 							]
 						},
 						"1": {
@@ -19871,15 +19871,15 @@
 							"spells": [
 								"{@spell amistat animal}",
 								"{@spell curar ferides}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell parlar animal}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell visió de foscor}",
-								"{@spell hold person}"
+								"{@spell immobilitzar humanoide}"
 							]
 						}
 					},
@@ -19971,7 +19971,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -20028,7 +20028,7 @@
 					]
 				},
 				{
-					"name": "Forbiddance",
+					"name": "Prohibició",
 					"entries": [
 						"The mist can't enter a residence without an invitation from one of the occupants."
 					]
@@ -20178,7 +20178,7 @@
 				{
 					"name": "Venom Spray {@recharge}",
 					"entries": [
-						"The troll slices itself with a claw, releasing a spray of poison in a 15-foot cube. The troll takes 7 ({@damage 2d6}) de dany tallant (this damage can't be reduced in any way). Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 16}. Qui falli rep 18 ({@damage 4d8}) de dany de verí i està {@condition poisoned} for 1 minute. Si supera, la criatura rep la meitat del dany i no està {@condition poisoned}. Una criatura {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
+						"The troll slices itself with a claw, releasing a spray of poison in a 15-foot cube. The troll takes 7 ({@damage 2d6}) de dany tallant (this damage can't be reduced in any way). Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 16}. Qui falli rep 18 ({@damage 4d8}) de dany de verí i està {@condition poisoned} durant 1 minut. Si supera, la criatura rep la meitat del dany i no està {@condition poisoned}. Una criatura {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
 					]
 				}
 			],
@@ -20301,7 +20301,7 @@
 					"name": "Corrupt Water",
 					"entries": [
 						"A l'inici de cada torn de the wastrilith, exposed water within 30 feet of it is befouled. Underwater, this effect lightly obscures the area until a current clears it away. Water in containers remains corrupted until it evaporates.",
-						"A creature that consumes this foul water or swims in it ha de salvar per Constitució amb {@dc 18}. On a successful save, the creature is immune to the foul water for 24 hours. Si falla, rep 14 ({@damage 4d6}) de dany de verí i està {@condition poisoned} for 1 minute. At the end of this time, the {@condition poisoned} creature must repeat the saving throw. On a failure, the creature takes 18 ({@damage 4d8}) de dany de verí i està {@condition poisoned} until it finishes a long rest.",
+						"A creature that consumes this foul water or swims in it ha de salvar per Constitució amb {@dc 18}. Si supera, the creature is immune to the foul water for 24 hours. Si falla, rep 14 ({@damage 4d6}) de dany de verí i està {@condition poisoned} durant 1 minut. At the end of this time, the {@condition poisoned} creature must repeat the saving throw. On a failure, the creature takes 18 ({@damage 4d8}) de dany de verí i està {@condition poisoned} until it finishes a long rest.",
 						"If another demon drinks the foul water com a acció, it gains 11 ({@dice 2d10}) temporary hit points."
 					]
 				},
@@ -20314,7 +20314,7 @@
 				{
 					"name": "Undertow",
 					"entries": [
-						"As a bonus action when the wastrilith is underwater, it can cause all water within 60 feet of it to be difficult terrain for other creatures fins a l'inici del seu següent torn."
+						"As a bonus action when the wastrilith is underwater, it can cause all water within 60 feet of it to be terreny difícil for other creatures fins a l'inici del seu següent torn."
 					]
 				}
 			],
@@ -20546,7 +20546,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 16,
 			"dex": 11,
@@ -20748,13 +20748,13 @@
 						"L'habilitat de llançament de conjurs innata de The eladrin és Intel·ligència ({@dc 16} salvació de conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell fog cloud}",
-						"{@spell gust of wind}"
+						"{@spell núvol de boira}",
+						"{@spell ràfega de vent}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell con de fred}",
-							"{@spell ice storm}"
+							"{@spell tempesta de gel}"
 						]
 					},
 					"ability": "int"
@@ -20776,7 +20776,7 @@
 				{
 					"name": "Sorrowful Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 13}. Si falla, the creature is {@condition charmed} for 1 minute. While {@condition charmed} in this way, the creature has disadvantage on ability checks and saving throws. La criatura {@condition charmed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 13}. Si falla, the creature is {@condition charmed} durant 1 minut. While {@condition charmed} in this way, the creature has disadvantage on ability checks and saving throws. La criatura {@condition charmed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
 						"Whenever the eladrin deals damage to the {@condition charmed} creature, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
@@ -20986,7 +20986,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"The yagnoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
 					]
@@ -21010,7 +21010,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"AB",
@@ -21136,11 +21136,11 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{@spell teleportació}"
 						],
 						"3e": [
 							"{@spell dissipar màgia}",
-							"{@spell fear}",
+							"{@spell temor}",
 							"{@spell invisibility}"
 						]
 					},
@@ -21433,7 +21433,7 @@
 				{
 					"name": "Earth-Shaking Movement",
 					"entries": [
-						"As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 minute. Each creature on the ground that is concentrating ha de salvar per Constitució amb {@dc 25} or the creature's concentration is broken.",
+						"As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes terreny difícil durant 1 minut. Each creature on the ground that is concentrating ha de salvar per Constitució amb {@dc 25} or the creature's concentration is broken.",
 						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height ha de salvar per Destresa amb {@dc 25}. Si falla, rep 17 ({@damage 5d6}) de dany contundent, is knocked {@condition prone}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Força (Atletisme) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. Si supera en rep la meitat and doesn't fall {@condition prone} or become trapped."
 					]
 				},
@@ -21484,7 +21484,7 @@
 				{
 					"name": "Spew Debris {@recharge 5}",
 					"entries": [
-						"The zaratan exhales rocky debris in a 90-foot cube. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 25}. A creature takes 33 ({@damage 6d10}) de dany contundent on a failed save; si supera, en rep la meitat. A creature that fails the save by 5 or more is knocked {@condition prone}."
+						"The zaratan exhales rocky debris in a 90-foot cube. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 25}. A creature takes 33 ({@damage 6d10}) de dany contundent; si supera, en rep la meitat. A creature that fails the save by 5 or more is knocked {@condition prone}."
 					]
 				}
 			],
@@ -21599,7 +21599,7 @@
 			},
 			"speed": {
 				"walk": 50,
-				"fly": 150
+				"volar": 150
 			},
 			"str": 27,
 			"dex": 24,
@@ -21660,13 +21660,13 @@
 						"{@spell detectar el bé i el mal}",
 						"{@spell bola de foc}",
 						"{@spell invisibility} (self only)",
-						"{@spell wall of fire}"
+						"{@spell paret de foc}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell barrera d'armes}",
 							"{@spell dissipar el bé i el mal}",
-							"{@spell finger of death}"
+							"{@spell dit de la mort}"
 						]
 					},
 					"ability": "cha"
@@ -21726,11 +21726,11 @@
 				{
 					"name": "Horrid Touch {@recharge 5}",
 					"entries": [
-						"Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitució saving throw or take 44 ({@damage 8d10}) de dany necròtic and be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the target is also {@condition blinded} and {@condition deafened}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitució saving throw or take 44 ({@damage 8d10}) de dany necròtic and be {@condition poisoned} durant 1 minut. While {@condition poisoned} in this way, the target is also {@condition blinded} and {@condition deafened}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Zariel magically teleports, along with any equipment she is wearing and carrying, up to 120 feet to an unoccupied space she can see."
 					]
@@ -21744,7 +21744,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Zariel uses her Teleport action."
 					]
@@ -21767,7 +21767,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -21893,19 +21893,19 @@
 					],
 					"will": [
 						"{@spell detectar màgia}",
-						"{@spell locate animals or plants}",
-						"{@spell ray of sickness}"
+						"{@spell localitzar plantes o animals}",
+						"{@spell raig d'arcada}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell dissipar màgia}",
-							"{@spell ensnaring strike}",
-							"{@spell entangle}",
-							"{@spell plant growth}"
+							"{@spell atac captura}",
+							"{@spell enredar}",
+							"{@spell creixement de la flora}"
 						],
 						"1e": [
 							"{@spell eterietat}",
-							"{@spell teleport}"
+							"{@spell teleportació}"
 						]
 					},
 					"ability": "cha"
@@ -21947,13 +21947,13 @@
 				{
 					"name": "Infestació Spores (3/Dia)",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, ha de salvar per Constitució amb {@dc 19}. On a successful save, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers durant 1 minut. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, ha de salvar per Constitució amb {@dc 19}. Si supera, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
 					]
 				},
 				{
 					"name": "Mind Control Spores {@recharge 5}",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, ha de salvar per Saviesa amb {@dc 19}. On a successful save, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {@condition charmed} by her and can't be reinfected by these spores."
+						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers durant 1 minut. Humanoids and beasts in the cloud when it appears, or that enter it later, ha de salvar per Saviesa amb {@dc 19}. Si supera, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {@condition charmed} by her and can't be reinfected by these spores."
 					]
 				}
 			],

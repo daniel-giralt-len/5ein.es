@@ -236,7 +236,7 @@ Parser.getSpeedString = (it) => {
 		procSpeed("walk");
 		procSpeed("burrow");
 		procSpeed("climb");
-		procSpeed("fly");
+		procSpeed("volar");
 		procSpeed("swim");
 		if (it.speed.choose) {
 			joiner = "; ";
@@ -252,7 +252,7 @@ Parser.SPEED_TO_PROGRESSIVE = {
 	"walk": "walking",
 	"burrow": "burrowing",
 	"climb": "climbing",
-	"fly": "flying",
+	"volar": "flying",
 	"swim": "swimming",
 };
 
@@ -758,7 +758,7 @@ Parser.ITEM_RECHARGE_TO_FULL = {
 	round: "Every Round",
 	restShort: "Short Rest",
 	restLong: "Long Rest",
-	dawn: "Dawn",
+	dawn: "Trenc d'Alba",
 	dusk: "Dusk",
 	midnight: "Midnight",
 	special: "Special",
@@ -1491,7 +1491,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"S": "Silvànic",
 	"T": "Terrani",
 	"TC": "Argot de Lladres",
-	"TP": "Telepathy",
+	"TP": "Telepatia",
 	"U": "Sotacomú",
 	"X": "Any (Choose)",
 	"XX": "All",
@@ -1527,7 +1527,7 @@ Parser.prereqSpellToFull = function (spell, {isTextOnly = false} = {}) {
 		const [text, suffix] = spell.split("#");
 		if (!suffix) return isTextOnly ? spell : Renderer.get().render(`{@spell ${spell}}`);
 		else if (suffix === "c") return (isTextOnly ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))(`{@spell ${text}} cantrip`);
-		else if (suffix === "x") return (isTextOnly ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("{@spell hex} spell or a warlock feature that curses");
+		else if (suffix === "x") return (isTextOnly ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("{@spell embruix} spell or a warlock feature that curses");
 	} else return VeCt.STR_NONE;
 };
 
@@ -2438,7 +2438,7 @@ SRC_3PP_SUFFIX = " 3pp";
 
 AL_PREFIX = "Adventurers League: ";
 AL_PREFIX_SHORT = "AL: ";
-PS_PREFIX = "Plane Shift: ";
+PS_PREFIX = "Saltar de Pla: ";
 PS_PREFIX_SHORT = "PS: ";
 UA_PREFIX = "Unearthed Arcana: ";
 UA_PREFIX_SHORT = "UA: ";
@@ -2512,7 +2512,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_VRGR] = "Van Richten's Guide to Ravenloft";
 Parser.SOURCE_JSON_TO_FULL[SRC_HoL] = "The House of Lament";
 Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN] = "Dungeon Master's Screen";
 Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN_WILDERNESS_KIT] = "Dungeon Master's Screen: Wilderness Kit";
-Parser.SOURCE_JSON_TO_FULL[SRC_HEROES_FEAST] = "Heroes' Feast";
+Parser.SOURCE_JSON_TO_FULL[SRC_HEROES_FEAST] = "Banquet d'Heroi";
 Parser.SOURCE_JSON_TO_FULL[SRC_CM] = "Candlekeep Mysteries";
 Parser.SOURCE_JSON_TO_FULL[SRC_ALCoS] = `${AL_PREFIX}Curse of Strahd`;
 Parser.SOURCE_JSON_TO_FULL[SRC_ALEE] = `${AL_PREFIX}Elemental Evil`;
@@ -3092,7 +3092,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"R": "ranged weapon",
 	"RD": "rod",
 	"RG": "ring",
-	"S": "shield",
+	"S": "escut",
 	"SC": "scroll",
 	"SCF": "spellcasting focus",
 	"OTH": "other",
@@ -3201,7 +3201,7 @@ Parser.SENSE_JSON_TO_FULL = {
 		"A creature with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the creature and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense.",
 	],
 	"truesight": [
-		"A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.",
+		"A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Pla Etèri.",
 	],
 };
 

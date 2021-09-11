@@ -36,7 +36,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 50,
 					"condition": "(flotar)"
 				},
@@ -260,20 +260,20 @@
 						"Quill casts one of the following spells using Carisma as the habilitat de llançament de conjurs (save {@dc 17}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{@spell llum}",
+						"{@spell mà de mag}",
+						"{@spell prestidigitació}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell detectar màgia}",
 							"{@spell dissipar màgia}",
-							"{@spell faerie fire}",
-							"{@spell hold monster}"
+							"{@spell foc follet}",
+							"{@spell immobilitzar criatura}"
 						],
 						"1e": [
 							"{@spell ment en blanc}",
-							"{@spell teleport}"
+							"{@spell teleportació}"
 						]
 					},
 					"ability": "cha",
@@ -639,7 +639,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -692,14 +692,14 @@
 						"The ghost casts one of the following spells, using Carisma as the habilitat de llançament de conjurs and requiring no material components:"
 					],
 					"will": [
-						"{@spell fog cloud}"
+						"{@spell núvol de boira}"
 					],
 					"daily": {
 						"1": [
 							"{@spell controlar el temps}"
 						],
 						"3": [
-							"{@spell telekinesis}"
+							"{@spell Telequinesi}"
 						]
 					},
 					"ability": "cha",
@@ -748,7 +748,7 @@
 				{
 					"name": "Wind Howl {@recharge}",
 					"entries": [
-						"The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up to three creatures of the ghost's choice that it can see within 60 feet of it. Each target is pulled up to 20 feet toward the ghost and ha de salvar per Constitució amb {@dc 15}. Qui falli rep 16 ({@damage 3d10}) de dany de fred; qui superi, en rep la meitat."
+						"The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up to three creatures of the ghost's choice that it can see within 60 feet of it. Each target is pulled up to 20 feet toward the ghost iha de salvar per Constitució amb {@dc 15}. Qui falli rep 16 ({@damage 3d10}) de dany de fred; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -865,7 +865,7 @@
 			},
 			"speed": {
 				"walk": 50,
-				"fly": {
+				"volar": {
 					"number": 50,
 					"condition": "(flotar)"
 				},
@@ -1222,23 +1222,23 @@
 						"0": {
 							"spells": [
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell shield of faith}"
+								"{@spell sageta guia}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell silenci}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
@@ -1259,13 +1259,13 @@
 							"slots": 2,
 							"spells": [
 								"{@spell contagiar}",
-								"{@spell insect plague}"
+								"{@spell plaga d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}"
+								"{@spell malmenar}"
 							]
 						}
 					},
@@ -1296,7 +1296,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to spores. The curse lasts until removed by the remove curse spell or other magic."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to spores. The curse lasts until removed by the anul·lar maledicció spell or other magic."
 					]
 				},
 				{
@@ -1398,7 +1398,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar) in its true form only"
 				},
@@ -1631,7 +1631,7 @@
 					"will": [
 						"{@spell llums dansaires}",
 						"{@spell il·lusió menor}",
-						"{@spell vicious mockery}"
+						"{@spell mofa i escarni}"
 					],
 					"ability": "cha"
 				},
@@ -1645,7 +1645,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell fascinar persona}",
-								"{@spell witch bolt}"
+								"{@spell llampec bruixot}"
 							]
 						},
 						"2": {
@@ -1659,28 +1659,28 @@
 							"slots": 3,
 							"spells": [
 								"{@spell dissipar màgia}",
-								"{@spell glyph of warding}",
-								"{@spell slow}"
+								"{@spell glif de guarda}",
+								"{@spell alentir}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell polymorph}"
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell dominar humanoide}",
-								"{@spell seeming}"
+								"{@spell aparentar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell Otto's irresistible dance}"
+								"{@spell Dansa Irresistible de l'Otto}"
 							]
 						}
 					},
@@ -2028,18 +2028,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
+								"{@spell arts de druida}",
+								"{@spell produir flama}",
 								"{@spell shillelagh}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell longstrider}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell enredar}",
+								"{@spell llarg de gambals}",
+								"{@spell parlar animal}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -2265,21 +2265,21 @@
 						"The lich casts one of the following spells using Saviesa as the habilitat de llançament de conjurs (save {@dc 19}):"
 					],
 					"will": [
-						"{@spell druidcraft}"
+						"{@spell arts de druida}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell detectar màgia}",
-							"{@spell fog cloud}",
-							"{@spell pass without trace}"
+							"{@spell núvol de boira}",
+							"{@spell passar desapercebudament}"
 						],
 						"1e": [
 							"{@spell antilife shell}",
 							"{@spell dissipar màgia}",
-							"{@spell speak with plants}",
-							"{@spell transport via plants}",
+							"{@spell parla vegetal}",
+							"{@spell teleportació floral}",
 							{
-								"entry": "{@spell fire storm}",
+								"entry": "{@spell tempesta de foc}",
 								"hidden": true
 							}
 						]
@@ -2322,7 +2322,7 @@
 					]
 				},
 				{
-					"name": "Fire Storm (Conjur de Nivell 7; 1/Dia)",
+					"name": "Tempesta de Foc (Conjur de Nivell 7; 1/Dia)",
 					"entries": [
 						"The lich fills up to ten 10-foot cubes with fire. Every cube must be within 150 feet of the lich and occupy a space the lich can see, and each cube must have at least one face adjacent to the face of another cube. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 19}. Qui falli rep 38 ({@damage 7d10}) de dany de foc; qui superi, en rep la meitat. The fire ignites flammable objects in the area que ningú estigui portant o vestint. If the lich chooses, plant life in the area is unaffected by the spell."
 					]
@@ -2558,12 +2558,12 @@
 						"The sage casts one of the following spells, using Intel·ligència as the habilitat de llançament de conjurs (save {@dc 14}, {@hit 6} a impactar amb atacs màgics):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell llum}",
+						"{@spell mà de mag}",
 						"{@spell apedaçar}",
-						"{@spell prestidigitation}",
+						"{@spell prestidigitació}",
 						{
-							"entry": "{@spell shocking grasp}",
+							"entry": "{@spell braó electritzant}",
 							"hidden": true
 						}
 					],
@@ -2576,28 +2576,28 @@
 								"entry": "{@spell bola de foc}",
 								"hidden": true
 							},
-							"{@spell identify}",
-							"{@spell levitate}",
-							"{@spell locate object}",
+							"{@spell identificar}",
+							"{@spell levitar}",
+							"{@spell localitzar objecte}",
 							{
-								"entry": "{@spell shield}",
+								"entry": "{@spell escut}",
 								"hidden": true
 							},
-							"{@spell Tenser's Floating Disk}",
-							"{@spell unseen servant}"
+							"{@spell Disc Flotant d'en Tenser}",
+							"{@spell servent invisible}"
 						],
 						"1e": [
 							"{@spell banishment}",
 							"{@spell contactar plà forani}",
 							"{@spell Insta-Convocacions d'en Drawmij}",
-							"{@spell legend lore}",
-							"{@spell locate creature}",
-							"{@spell planar binding}",
-							"{@spell polymorph}",
-							"{@spell protection from evil and good}",
-							"{@spell scrying}",
-							"{@spell sending}",
-							"{@spell true seeing}"
+							"{@spell recordar llegendes}",
+							"{@spell localitzar criatura}",
+							"{@spell vincle planar}",
+							"{@spell polimorfia}",
+							"{@spell protegir del bé i del mal}",
+							"{@spell escodrinyar}",
+							"{@spell encàrrec}",
+							"{@spell visió veritable}"
 						]
 					},
 					"ability": "int",
@@ -2606,7 +2606,7 @@
 			],
 			"action": [
 				{
-					"name": "Shocking Grasp (Truc)",
+					"name": "Braó Electritzant (Truc)",
 					"entries": [
 						"{@atk ms} {@hit 8} a impactar (with advantage if the target is wearing armor made of metal), 5 peus d'abast, una criatura. {@h}13 ({@damage 3d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
@@ -2614,7 +2614,7 @@
 				{
 					"name": "Fireball (Conjur de Nivell 3; 3/Dia)",
 					"entries": [
-						"The sage creates a fiery explosion centered on a point it can see within 150 feet of it. Tota criatura en una esfera de 20 peus de radi centrada en aquell punt ha de salvar per Destresa amb {@dc 14}. Qui falli rep 28 ({@damage 8d6}) de dany de foc; qui superi, en rep la meitat. The fire s'extèn per les cantonades and ignites flammable objects in the area que ningú estigui portant o vestint."
+						"The sage creates a fiery explosion centered on a point it can see within 150 feet of it. Tota criatura en una esfera de 20 peus de radi centrada en aquell punt ha de salvar per Destresa amb {@dc 14}. Qui falli rep 28 ({@damage 8d6}) de dany de foc; qui superi, en rep la meitat. The fire s'extén per les cantonades and ignites flammable objects in the area que ningú estigui portant o vestint."
 					]
 				}
 			],
@@ -2622,7 +2622,7 @@
 				{
 					"name": "Shield (Conjur de Nivell 1; 3/Dia)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Fins a l'inici del seu següent torn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+						"When the sage is hit by an attack or targeted by a missil màgic spell, it calls forth an invisible barrier of magical force that protects it. Fins a l'inici del seu següent torn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from missil màgic."
 					]
 				}
 			],
@@ -2658,7 +2658,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(flotar)"
 				},
@@ -2722,18 +2722,18 @@
 					],
 					"will": [
 						"{@spell llums dansaires}",
-						"{@spell mage hand}"
+						"{@spell mà de mag}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell detectar màgia}",
 							"{@spell detectar pensaments}",
 							"{@spell dissipar màgia}",
-							"{@spell locate creature}"
+							"{@spell localitzar criatura}"
 						],
 						"1e": [
 							"{@spell dissipar el bé i el mal}",
-							"{@spell wall of force}"
+							"{@spell paret de força}"
 						]
 					},
 					"ability": "cha",
@@ -2800,7 +2800,7 @@
 				{
 					"name": "Paralyzing Breath",
 					"entries": [
-						"Miirym exhales paralyzing gas en un con de 90 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 21} or be {@condition paralyzed} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Miirym exhales paralyzing gas en un con de 90 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 21} or be {@condition paralyzed} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -2987,7 +2987,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -3033,7 +3033,7 @@
 					"daily": {
 						"3e": [
 							"{@spell dissipar màgia}",
-							"{@spell faerie fire}",
+							"{@spell foc follet}",
 							"{@spell imatge mirall}"
 						]
 					},
@@ -3071,7 +3071,7 @@
 				{
 					"name": "Storm of Shattered Glass {@recharge}",
 					"entries": [
-						"Nintra targets a point she can see within 60 feet of her and creates a 20-foot-radius sphere of swirling glass shards centered on that point. Each creature in the sphere ha de salvar per Destresa amb {@dc 20}, taking 28 ({@damage 8d6}) de dany tallant si falla, or half as much damage on a successful save. If Nintra is in the sphere, the shards deal no damage to her."
+						"Nintra targets a point she can see within 60 feet of her and creates a 20-foot-radius sphere of swirling glass shards centered on that point. Each creature in the sphere ha de salvar per Destresa amb {@dc 20}, taking 28 ({@damage 8d6}) de dany tallant si falla; si supera, en rep la meitat. If Nintra is in the sphere, the shards deal no damage to her."
 					]
 				}
 			],
@@ -3205,7 +3205,7 @@
 					"name": "Empassar",
 					"entries": [
 						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) de dany d'àcid at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
-						"Any creature swallowed by a parasite-infested behir ha de salvar per Constitució amb {@dc 19} at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 ({@damage 8d8}) de dany necròtic si falla, or half as much damage on a successful save. This damage is in addition to the damage caused by the behir's digestive acids.",
+						"Any creature swallowed by a parasite-infested behir ha de salvar per Constitució amb {@dc 19} at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 ({@damage 8d8}) de dany necròtic si falla; si supera, en rep la meitat. This damage is in addition to the damage caused by the behir's digestive acids.",
 						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir ha de salvar per Constitució amb {@dc 14} at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
 					]
 				}
@@ -3300,24 +3300,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell inflict wounds}",
-								"{@spell shield of faith}"
+								"{@spell infligir ferides}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell arma espiritual}"
 							]
 						}
 					},
@@ -3426,11 +3426,11 @@
 						"The sage casts one of the following spells, using Intel·ligència as the habilitat de llançament de conjurs (save {@dc 14}, {@hit 6} a impactar amb atacs màgics):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
+						"{@spell llum}",
+						"{@spell mà de mag}",
 						"{@spell apedaçar}",
 						{
-							"entry": "{@spell shocking grasp}",
+							"entry": "{@spell braó electritzant}",
 							"hidden": true
 						}
 					],
@@ -3438,20 +3438,20 @@
 						"3e": [
 							"{@spell comprendre idiomes}",
 							"{@spell detectar màgia}",
-							"{@spell identify}",
+							"{@spell identificar}",
 							{
-								"entry": "{@spell shield}",
+								"entry": "{@spell escut}",
 								"hidden": true
 							}
 						],
 						"1e": [
 							"{@spell dissipar màgia}",
-							"{@spell levitate}",
-							"{@spell locate object}",
-							"{@spell see invisibility}",
-							"{@spell sending}",
-							"{@spell tongues}",
-							"{@spell unseen servant}"
+							"{@spell levitar}",
+							"{@spell localitzar objecte}",
+							"{@spell veure invisibilitat}",
+							"{@spell encàrrec}",
+							"{@spell llenguatges}",
+							"{@spell servent invisible}"
 						]
 					},
 					"ability": "int",
@@ -3460,7 +3460,7 @@
 			],
 			"action": [
 				{
-					"name": "Shocking Grasp (Truc)",
+					"name": "Braó Electritzant (Truc)",
 					"entries": [
 						"{@atk ms} {@hit 6} a impactar (with advantage if the target is wearing armor made of metal), 5 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
@@ -3470,7 +3470,7 @@
 				{
 					"name": "Shield (Conjur de Nivell 1; 3/Dia)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Fins a l'inici del seu següent torn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+						"When the sage is hit by an attack or targeted by a missil màgic spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Fins a l'inici del seu següent torn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from missil màgic."
 					]
 				}
 			],
@@ -3580,7 +3580,7 @@
 				{
 					"name": "Slow {@recharge 5}",
 					"entries": [
-						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
+						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last durant 1 minut. A target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -3632,7 +3632,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -4098,7 +4098,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -4252,23 +4252,23 @@
 						"0": {
 							"spells": [
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell shield of faith}"
+								"{@spell sageta guia}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell silenci}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
@@ -4289,13 +4289,13 @@
 							"slots": 2,
 							"spells": [
 								"{@spell contagiar}",
-								"{@spell scrying}"
+								"{@spell escodrinyar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}"
+								"{@spell malmenar}"
 							]
 						}
 					},
@@ -4326,7 +4326,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the anul·lar maledicció spell or other magic."
 					]
 				},
 				{
@@ -4577,8 +4577,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{@spell foc follet}",
+							"{@spell levitar} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -4591,19 +4591,19 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell il·lusió menor}",
-								"{@spell poison spray}",
+								"{@spell esprai de verí}",
 								"{@spell ray of frost}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell witch bolt}"
+								"{@spell armadura de mag}",
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell llampec bruixot}"
 							]
 						},
 						"2": {
@@ -4617,7 +4617,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell fly}",
+								"{@spell volar}",
 								"{@spell lightning bolt}"
 							]
 						},
@@ -4625,7 +4625,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell Evard's black tentacles}",
-								"{@spell greater invisibility}"
+								"{@spell invisibilitat superior}"
 							]
 						},
 						"5": {
@@ -4772,7 +4772,7 @@
 			"speed": {
 				"walk": 40,
 				"burrow": 30,
-				"fly": 80
+				"volar": 80
 			},
 			"str": 25,
 			"dex": 10,

@@ -141,7 +141,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -179,7 +179,7 @@
 				{
 					"name": "Staff of Frost",
 					"entries": [
-						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell con de fred} (5 charges), {@spell fog cloud} (1 charge), {@spell ice storm} (4 charges), or {@spell wall of ice} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
+						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell con de fred} (5 charges), {@spell núvol de boira} (1 charge), {@spell tempesta de gel} (4 charges), or {@spell paret de glaç} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
 					]
 				},
 				{
@@ -355,7 +355,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(flotar)"
 				},
@@ -370,8 +370,8 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -379,16 +379,16 @@
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}"
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell detectar pensaments}",
-								"{@spell enlarge/reduce}",
+								"{@spell engrandir/enxiquir}",
 								"{@spell Fletxa Àcida d'en Melf}",
 								"{@spell imatge mirall}"
 							]
@@ -399,48 +399,48 @@
 								"{@spell contraconjur}",
 								"{@spell dissipar màgia}",
 								"{@spell bola de foc}",
-								"{@spell slow}"
+								"{@spell alentir}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell polymorph}"
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
 								"{@spell animar objectes}",
-								"{@spell telekinesis}"
+								"{@spell Telequinesi}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
 								"{@spell desintegrar}",
-								"{@spell flesh to stone}"
+								"{@spell carn a pedra}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell reverse gravity}",
-								"{@spell teleport}"
+								"{@spell invertir la gravetat}",
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell feeblemind}",
+								"{@spell esberlacervells}",
 								"{@spell laberint}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell True Polymorph}"
+								"{@spell Polimorfia Veritable}"
 							]
 						}
 					},
@@ -485,10 +485,10 @@
 						"1e": [
 							"{@spell alarm}",
 							"{@spell detectar màgia}",
-							"{@spell gaseous form}",
+							"{@spell forma gasosa}",
 							"{@spell pas boira}",
-							"{@spell passwall}",
-							"{@spell see invisibility}"
+							"{@spell passaparets}",
+							"{@spell veure invisibilitat}"
 						]
 					},
 					"ability": "cha"
@@ -587,20 +587,20 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell sageta de foc}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell identificar}",
+								"{@spell armadura de mag}*",
+								"{@spell missil màgic}"
 							]
 						},
 						"2": {
@@ -615,36 +615,36 @@
 							"slots": 3,
 							"spells": [
 								"{@spell contraconjur}",
-								"{@spell fly}",
+								"{@spell volar}",
 								"{@spell lightning bolt}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell polymorph}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell polimorfia}",
+								"{@spell escut de foc}",
+								"{@spell pell de pedra}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
 								"{@spell con de fred}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell escodrinyar}",
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell globus d'invulnerabilitat}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
@@ -656,7 +656,7 @@
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell deturar el temps}"
 							]
 						}
 					},
@@ -957,7 +957,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -984,20 +984,20 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
-								"{@spell shocking grasp}"
+								"{@spell sageta de foc}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell identify}",
-								"{@spell mage armor}*",
-								"{@spell magic missile}"
+								"{@spell identificar}",
+								"{@spell armadura de mag}*",
+								"{@spell missil màgic}"
 							]
 						},
 						"2": {
@@ -1012,36 +1012,36 @@
 							"slots": 3,
 							"spells": [
 								"{@spell contraconjur}",
-								"{@spell fly}",
+								"{@spell volar}",
 								"{@spell lightning bolt}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell phantasmal killer}",
-								"{@spell fire shield}",
-								"{@spell stoneskin}*"
+								"{@spell assassí fantasmagòric}",
+								"{@spell escut de foc}",
+								"{@spell pell de pedra}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
 								"{@spell con de fred}",
-								"{@spell scrying}",
-								"{@spell wall of force}"
+								"{@spell escodrinyar}",
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell globe of invulnerability}"
+								"{@spell globus d'invulnerabilitat}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell teleport}"
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
@@ -1053,7 +1053,7 @@
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell time stop}"
+								"{@spell deturar el temps}"
 							]
 						}
 					},
@@ -1167,7 +1167,7 @@
 							{
 								"name": "Illumination",
 								"entries": [
-									"The gòlem magically sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light goes out when the gòlem is destroyed."
+									"The gòlem magically desprèn llum forta en un radi de 30 peus i llum tènue uns 30 peus adicionals. This light goes out when the gòlem is destroyed."
 								]
 							},
 							{
@@ -1275,13 +1275,13 @@
 							"spells": [
 								"{@spell command}",
 								"{@spell forçar el duel}",
-								"{@spell searing smite}"
+								"{@spell càstig abrasador}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell immobilitzar humanoide}",
 								"{@spell arma màgica}"
 							]
 						},
@@ -1289,14 +1289,14 @@
 							"slots": 3,
 							"spells": [
 								"{@spell dissipar màgia}",
-								"{@spell elemental weapon}"
+								"{@spell arma elemental}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell locate creature}",
-								"{@spell staggering smite}"
+								"{@spell localitzar criatura}",
+								"{@spell càstig abraonador}"
 							]
 						},
 						"5": {
@@ -1449,8 +1449,8 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -1458,9 +1458,9 @@
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}"
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -1492,34 +1492,34 @@
 							"slots": 3,
 							"spells": [
 								"{@spell matanúvol}",
-								"{@spell scrying}"
+								"{@spell escodrinyar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
 								"{@spell desintegrar}",
-								"{@spell globe of invulnerability}"
+								"{@spell globus d'invulnerabilitat}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell forcecage}"
+								"{@spell dit de la mort}",
+								"{@spell gàbia de força}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
 								"{@spell dominar criatura}",
-								"{@spell power word stun}"
+								"{@spell paraula de poder atordir}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell power word kill}"
+								"{@spell paraula de poder matar}"
 							]
 						}
 					},
@@ -1662,7 +1662,7 @@
 			"speed": {
 				"walk": 30,
 				"climb": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"hasToken": true
 		},
@@ -1723,7 +1723,7 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}"
+							"{@spell foc follet}"
 						]
 					},
 					"ability": "cha"
@@ -1790,7 +1790,7 @@
 								"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 								"entries": [
 									"The senyor de les mòmies magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the senyor de les mòmies wears or carries is {@condition invisible} with it.",
-									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The senyor de les mòmies is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the senyor de les mòmies uses a {@spell stone shape} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
+									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The senyor de les mòmies is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the senyor de les mòmies uses a {@spell moldejar la pedra} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
 									"At the bottom of the stalagmite's hollow cavity, four 1-foot-tall clay urns contain Gorka Tharn's preserved internal organs, including the senyor de les mòmies's shriveled heart. Only by destroying the heart can the characters prevent the senyor de les mòmies from rejuvenating. The heart is a Tiny object with AC 5, 25 hit points, and immunity to all damage except fire."
 								]
 							}
@@ -1812,23 +1812,23 @@
 						"0": {
 							"spells": [
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell shield of faith}"
+								"{@spell sageta guia}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell silence}",
-								"{@spell spiritual weapon}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell silenci}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
@@ -1841,7 +1841,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell stone shape}",
+								"{@spell moldejar la pedra}",
 								"{@spell guardià de fe}"
 							]
 						},
@@ -1849,13 +1849,13 @@
 							"slots": 2,
 							"spells": [
 								"{@spell contagiar}",
-								"{@spell insect plague}"
+								"{@spell plaga d'insectes}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell harm}"
+								"{@spell malmenar}"
 							]
 						}
 					},
@@ -1939,7 +1939,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -1993,25 +1993,25 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Halaster és un llançador de conjurs de nivell 20. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 22} salvada de conjur, {@hit 14} a impactar amb atacs màgics). He can cast {@spell ego camuflatge} and {@spell invisibility} at will. He can cast {@spell fly} and {@spell lightning bolt} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Té els següents conjurs de mag preparats:"
+						"Halaster és un llançador de conjurs de nivell 20. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 22} salvada de conjur, {@hit 14} a impactar amb atacs màgics). He can cast {@spell ego camuflatge} and {@spell invisibility} at will. He can cast {@spell volar} and {@spell lightning bolt} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Té els següents conjurs de mag preparats:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
 								"{@spell llums dansaires}",
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}"
+								"{@spell sageta de foc}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell silent image}"
+								"{@spell armadura de mag}",
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell imatge silenciosa}"
 							]
 						},
 						"2": {
@@ -2020,7 +2020,7 @@
 								"{@spell pany arcà}",
 								"{@spell núvol de dagues}",
 								"{@spell visió de foscor}",
-								"{@spell knock}"
+								"{@spell picaporta}"
 							]
 						},
 						"3": {
@@ -2035,8 +2035,8 @@
 							"slots": 3,
 							"spells": [
 								"{@spell confusió}",
-								"{@spell hallucinatory terrain}",
-								"{@spell polymorph}"
+								"{@spell terreny il·lusori}",
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
@@ -2044,23 +2044,23 @@
 							"spells": [
 								"{@spell Mà d'en Bigby}",
 								"{@spell geas}",
-								"{@spell wall of force}"
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
 								"{@spell llamp en cadena}",
-								"{@spell globe of invulnerability}",
-								"{@spell programmed illusion}"
+								"{@spell globus d'invulnerabilitat}",
+								"{@spell il·lusió programada}"
 							]
 						},
 						"7": {
 							"slots": 2,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell symbol}",
-								"{@spell teleport}"
+								"{@spell dit de la mort}",
+								"{@spell Símbol}",
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
@@ -2074,7 +2074,7 @@
 							"slots": 1,
 							"spells": [
 								"{@spell eixam de meteorits}",
-								"{@spell wish}"
+								"{@spell desig}"
 							]
 						}
 					},
@@ -2084,7 +2084,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell fly}",
+							"{@spell volar}",
 							"{@spell lightning bolt}"
 						]
 					},
@@ -2099,8 +2099,8 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Halaster wears a robe of eyes that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Saviesa (Percepció) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
-						"Halaster wields a blast scepter (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, com a acció, use it to cast thunderwave as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
+						"Halaster wears a robe of eyes that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Saviesa (Percepció) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Pla Etèri, out to a range of 120 feet.",
+						"Halaster wields a blast scepter (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, com a acció, use it to cast tronada as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
 						"Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
 					]
 				},
@@ -2127,7 +2127,7 @@
 				{
 					"name": "Blast Scepter",
 					"entries": [
-						"Halaster uses his blast scepter to cast thunderwave as a 4th-level spell. Each creature in a 15-foot cube originating from him ha de salvar per Constitució amb {@dc 16}. Qui falli rep {@dice 5d8} de dany de tro and is pushed 10 feet away. Si supera en rep la meitat and isn't pushed"
+						"Halaster uses his blast scepter to cast tronada as a 4th-level spell. Each creature in a 15-foot cube originating from him ha de salvar per Constitució amb {@dc 16}. Qui falli rep {@dice 5d8} de dany de tro and is pushed 10 feet away. Si supera en rep la meitat and isn't pushed"
 					]
 				}
 			],
@@ -2323,7 +2323,7 @@
 				{
 					"name": "Magical Properties",
 					"entries": [
-						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell remove curse} spell. The snail loses these magical properties if it dies."
+						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell anul·lar maledicció} spell. The snail loses these magical properties if it dies."
 					]
 				},
 				{
@@ -2453,7 +2453,7 @@
 					],
 					"will": [
 						"{@spell llums dansaires}",
-						"{@spell mage hand}"
+						"{@spell mà de mag}"
 					],
 					"daily": {
 						"1": [
@@ -2461,8 +2461,8 @@
 						],
 						"3e": [
 							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell shield}"
+							"{@spell foc follet}",
+							"{@spell escut}"
 						]
 					},
 					"ability": "int"
@@ -2642,10 +2642,10 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
+								"{@spell guia}",
 								"{@spell apedaçar}",
-								"{@spell resistance}",
-								"{@spell thaumaturgy}"
+								"{@spell resistència}",
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -2653,16 +2653,16 @@
 							"spells": [
 								"{@spell perdició}",
 								"{@spell command}",
-								"{@spell inflict wounds}",
-								"{@spell ray of sickness}"
+								"{@spell infligir ferides}",
+								"{@spell raig d'arcada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell ceguera/sordera}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spiritual weapon}"
+								"{@spell raig d'afebliment}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
@@ -2671,7 +2671,7 @@
 								"{@spell animar els morts}",
 								"{@spell imposar maledicció}",
 								"{@spell dissipar màgia}",
-								"{@spell spirit guardians}"
+								"{@spell guardians espirituals}"
 							]
 						},
 						"4": {
@@ -2873,7 +2873,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Living Unseen Servant",
+			"name": "Living Servent Invisible",
 			"source": "WDMM",
 			"page": 313,
 			"size": "M",
@@ -2923,7 +2923,7 @@
 				{
 					"name": "Invisibilitat",
 					"entries": [
-						"The unseen servant is {@condition invisible}."
+						"The servent invisible is {@condition invisible}."
 					]
 				}
 			],
@@ -3018,7 +3018,7 @@
 						"items": {
 							"name": "Mossegada",
 							"entries": [
-								"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 2d6 + 2} de dany perforant, and the target must succeed on a DC 10 Constitució saving throw or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
+								"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 2d6 + 2} de dany perforant, and the target must succeed on a DC 10 Constitució saving throw or be {@condition poisoned} durant 1 minut. If the saving throw fails by 5 or more, the target is instead {@condition poisoned} for 5 ({@dice 1d10}) minutes and {@condition unconscious} while {@condition poisoned} in this way."
 							]
 						}
 					}
@@ -3297,27 +3297,27 @@
 						"0": {
 							"spells": [
 								"{@spell llums dansaires}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell expeditious retreat}",
-								"{@spell fog cloud}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell retirada estratègica}",
+								"{@spell núvol de boira}",
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell darkness}",
-								"{@spell knock}",
-								"{@spell see invisibility}",
+								"{@spell picaporta}",
+								"{@spell veure invisibilitat}",
 								"{@spell grimpat d'aranya}"
 							]
 						},
@@ -3332,28 +3332,28 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell greater invisibility}",
-								"{@spell polymorph}"
+								"{@spell invisibilitat superior}",
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell animar objectes}",
-								"{@spell wall of force}"
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
 								"{@spell crear no-morts}",
-								"{@spell flesh to stone}"
+								"{@spell carn a pedra}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}"
+								"{@spell dit de la mort}"
 							]
 						}
 					},
@@ -3470,13 +3470,13 @@
 											"type": "item",
 											"name": "1. Paralyzing Ray.",
 											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Constitució amb {@dc 14} or be {@condition paralyzed} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+											"entry": "The targeted creature ha de salvar per Constitució amb {@dc 14} or be {@condition paralyzed} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 										},
 										{
 											"type": "item",
 											"name": "2. Fear Ray.",
 											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Saviesa amb {@dc 14} or be {@condition frightened} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+											"entry": "The targeted creature ha de salvar per Saviesa amb {@dc 14} or be {@condition frightened} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 										},
 										{
 											"type": "item",
@@ -3526,7 +3526,7 @@
 						"spells": {
 							"3": [
 								{
-									"replace": "{@spell fly}",
+									"replace": "{@spell volar}",
 									"with": "{@spell animar els morts}"
 								}
 							],
@@ -3538,8 +3538,8 @@
 							],
 							"5": [
 								{
-									"replace": "{@spell scrying}",
-									"with": "{@spell Rary's telepathic bond}"
+									"replace": "{@spell escodrinyar}",
+									"with": "{@spell Vincle Telepàtic d'en Rary}"
 								}
 							]
 						}
@@ -3721,7 +3721,7 @@
 				{
 					"name": "Brew Bound",
 					"entries": [
-						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell purify food and drink} spell is cast on the brew."
+						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell purificar menjar i beure} spell is cast on the brew."
 					]
 				},
 				{
@@ -3825,12 +3825,12 @@
 								{
 									"type": "item",
 									"name": "Fear Ray.",
-									"entry": "The target ha de salvar per Saviesa amb {@dc 15} or be {@condition frightened} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+									"entry": "The target ha de salvar per Saviesa amb {@dc 15} or be {@condition frightened} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 								},
 								{
 									"type": "item",
 									"name": "Paralyzing Ray.",
-									"entry": "The target ha de salvar per Constitució amb {@dc 15} or be {@condition paralyzed} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+									"entry": "The target ha de salvar per Constitució amb {@dc 15} or be {@condition paralyzed} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 								}
 							]
 						}
@@ -3902,7 +3902,7 @@
 				{
 					"name": "Lesser Magic",
 					"entries": [
-						"The behir casts {@spell esprai de colors} or {@spell sleep}, sense requerir components."
+						"The behir casts {@spell esprai de colors} or {@spell adormir}, sense requerir components."
 					]
 				},
 				{
@@ -4417,7 +4417,7 @@
 										{
 											"type": "item",
 											"name": "Paralyzing Breath.",
-											"entry": "The dragon exhales paralyzing gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 20 Constitució saving throw or be {@condition paralyzed} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+											"entry": "The dragon exhales paralyzing gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 20 Constitució saving throw or be {@condition paralyzed} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 										}
 									]
 								}
@@ -4692,21 +4692,21 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}"
+								"{@spell mà de mag}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
 								"{@spell difuminar}",
-								"{@spell flaming sphere}"
+								"{@spell esfera de flames}"
 							]
 						},
 						"3": {
@@ -4767,17 +4767,17 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}"
+								"{@spell sageta de foc}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -4786,7 +4786,7 @@
 								"{@spell difuminar}",
 								"{@spell detectar pensaments}",
 								"{@spell pas boira}",
-								"{@spell shatter}"
+								"{@spell esclatar}"
 							]
 						},
 						"3": {
@@ -4795,14 +4795,14 @@
 								"{@spell contraconjur}",
 								"{@spell dissipar màgia}",
 								"{@spell bola de foc}",
-								"{@spell haste}"
+								"{@spell pressa}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell greater invisibility}"
+								"{@spell invisibilitat superior}"
 							]
 						},
 						"5": {
@@ -4810,34 +4810,34 @@
 							"spells": [
 								"{@spell animar objectes}",
 								"{@spell Mà d'en Bigby}",
-								"{@spell scrying}"
+								"{@spell escodrinyar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
 								"{@spell llamp en cadena}",
-								"{@spell globe of invulnerability}"
+								"{@spell globus d'invulnerabilitat}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell forcecage}"
+								"{@spell dit de la mort}",
+								"{@spell gàbia de força}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell incendiary cloud}",
-								"{@spell power word stun}"
+								"{@spell núvol d'incendi}",
+								"{@spell paraula de poder atordir}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell power word kill}"
+								"{@spell paraula de poder matar}"
 							]
 						}
 					},
@@ -4963,7 +4963,7 @@
 							"4": [
 								{
 									"replace": "{@spell banishment}",
-									"with": "{@spell Otiluke's Resilient Sphere}"
+									"with": "{@spell Esfera Resistent de l'Otiluk}"
 								}
 							]
 						}
@@ -5301,7 +5301,7 @@
 							"4": [
 								{
 									"replace": "{@spell banishment}",
-									"with": "{@spell locate creature}"
+									"with": "{@spell localitzar criatura}"
 								}
 							]
 						}
@@ -5452,7 +5452,7 @@
 					"name": "Vampire Weaknesses",
 					"entries": [
 						"Zorak has the following flaws:",
-						"{@i Forbiddance.} Zorak can't enter a residence without an invitation from one of the occupants.",
+						"{@i Prohibició.} Zorak can't enter a residence without an invitation from one of the occupants.",
 						"{@i Harmed by Running Water.} Zorak takes 20 acid damage if he ends his turn in running water.",
 						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into Zorak's heart while Zorak is {@condition incapacitated} in his resting place, Zorak is {@condition paralyzed} until the stake is removed.",
 						"{@i Sunlight Hypersensitivity.} Zorak takes 20 radiant damage when he starts his turn in sunlight. he té desavantatge quan li toca llum solar and ability checks."

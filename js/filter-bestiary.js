@@ -66,7 +66,7 @@ class PageFilterBestiary extends PageFilter {
 			itemSortFn: null,
 		});
 		this._speedFilter = new RangeFilter({header: "Speed", min: 30, max: 30});
-		this._speedTypeFilter = new Filter({header: "Speed Type", items: ["walk", "burrow", "climb", "fly", "hover", "swim"], displayFn: StrUtil.uppercaseFirst});
+		this._speedTypeFilter = new Filter({header: "Speed Type", items: ["walk", "burrow", "climb", "volar", "hover", "swim"], displayFn: StrUtil.uppercaseFirst});
 		this._strengthFilter = new RangeFilter({header: "Força", min: 1, max: 30});
 		this._dexterityFilter = new RangeFilter({header: "Destresa", min: 1, max: 30});
 		this._constitutionFilter = new RangeFilter({header: "Constitució", min: 1, max: 30});
@@ -149,7 +149,7 @@ class PageFilterBestiary extends PageFilter {
 			displayFn: StrUtil.uppercaseFirst,
 		});
 		this._resistFilter = new Filter({
-			header: "Resistance",
+			header: "Resistència",
 			items: PageFilterBestiary.DMG_TYPES,
 			displayFn: StrUtil.uppercaseFirst,
 		});
@@ -173,7 +173,7 @@ class PageFilterBestiary extends PageFilter {
 		this._actionReactionFilter = new Filter({
 			header: "Actions & Reactions",
 			items: [
-				"Presència Aterradora", "Multi-atac", "Parada", "Empassar", "Teleport", "Tentacles",
+				"Presència Aterradora", "Multi-atac", "Parada", "Empassar", "Teleportació", "Tentacles",
 			],
 		});
 		this._miscFilter = new Filter({

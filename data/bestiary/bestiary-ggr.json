@@ -200,7 +200,7 @@
 				{
 					"name": "Pacifying Presence",
 					"entries": [
-						"Each creature of the archon's choice that the archon can see within 120 feet of ha de salvar per Saviesa amb {@dc 18}, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes {@condition charmed} by the archon for 1 minute. La criatura {@condition charmed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a archon's Pacifying Presence durant les properes 24 hores."
+						"Each creature of the archon's choice that the archon can see within 120 feet of ha de salvar per Saviesa amb {@dc 18}, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes {@condition charmed} by the archon durant 1 minut. La criatura {@condition charmed} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a archon's Pacifying Presence durant les properes 24 hores."
 					]
 				}
 			],
@@ -270,7 +270,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 120
+				"volar": 120
 			},
 			"str": 15,
 			"dex": 22,
@@ -327,7 +327,7 @@
 				{
 					"name": "Illumination",
 					"entries": [
-						"The arclight phoenix sheds bright light in a 15-foot radius and dim light for an additional 15 feet."
+						"The arclight phoenix desprèn llum forta en un radi de 15 peus i llum tènue uns 15 peus adicionals."
 					]
 				},
 				{
@@ -400,7 +400,7 @@
 			},
 			"speed": {
 				"walk": 50,
-				"fly": 150
+				"volar": 150
 			},
 			"str": 26,
 			"dex": 24,
@@ -574,7 +574,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 90
+				"volar": 90
 			},
 			"str": 16,
 			"dex": 12,
@@ -726,18 +726,18 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}",
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell apedaçar}",
-								"{@spell poison spray}",
-								"{@spell shocking grasp}"
+								"{@spell esprai de verí}",
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell grease}",
-								"{@spell shield}"
+								"{@spell greix}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -745,8 +745,8 @@
 							"spells": [
 								"{@spell ego alteració}",
 								"{@spell visió de foscor}",
-								"{@spell enlarge/reduce}",
-								"{@spell hold person}"
+								"{@spell engrandir/enxiquir}",
+								"{@spell immobilitzar humanoide}"
 							]
 						},
 						"3": {
@@ -754,8 +754,8 @@
 							"spells": [
 								"{@spell contraconjur}",
 								"{@spell dissipar màgia}",
-								"{@spell haste}",
-								"{@spell protection from energy}"
+								"{@spell pressa}",
+								"{@spell protegir de l'energia}"
 							]
 						},
 						"4": {
@@ -763,7 +763,7 @@
 							"spells": [
 								"{@spell confusió}",
 								"{@spell convocar elementals menors}",
-								"{@spell polymorph}"
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
@@ -771,14 +771,14 @@
 							"spells": [
 								"{@spell con de fred}",
 								"{@spell creació}",
-								"{@spell hold monster}"
+								"{@spell immobilitzar criatura}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell move earth}",
-								"{@spell wall of ice}"
+								"{@spell moure la terra}",
+								"{@spell paret de glaç}"
 							]
 						},
 						"7": {
@@ -922,7 +922,7 @@
 				{
 					"name": "Illumination",
 					"entries": [
-						"The weird sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+						"The weird desprèn llum forta en un radi de 30 peus i llum tènue uns 30 peus adicionals."
 					]
 				}
 			],
@@ -979,7 +979,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -1031,7 +1031,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura voluntària o una criatura que estigui {@condition grappled} pel vampir, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) de dany perforant mes 7 ({@damage 2d6}) de dany necròtic. If the target is humanoid, ha de salvar per Carisma amb {@dc 15} or be {@condition charmed} pel vampir for 1 minute. While {@condition charmed} in this way, the target is infatuated with the vampire. Els punts de cop màxims de l'objectiu es redueixen tant com dany necròtic hagi rebut, i el vampir en recupera aquest número. La reducció dura fins que l'objectiu acabi un descans llarg. The target dies if its hit point maximum is reduced to 0."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura voluntària o una criatura que estigui {@condition grappled} pel vampir, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) de dany perforant mes 7 ({@damage 2d6}) de dany necròtic. If the target is humanoid, ha de salvar per Carisma amb {@dc 15} or be {@condition charmed} pel vampir durant 1 minut. While {@condition charmed} in this way, the target is infatuated with the vampire. Els punts de cop màxims de l'objectiu es redueixen tant com dany necròtic hagi rebut, i el vampir en recupera aquest número. La reducció dura fins que l'objectiu acabi un descans llarg. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -1099,7 +1099,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -1146,20 +1146,20 @@
 					"will": [
 						"{@spell ego alteració}",
 						"{@spell detectar màgia}",
-						"{@spell eldritch blast} (at 11th level)",
-						"{@spell false life}",
-						"{@spell levitate} (self only)",
-						"{@spell mage armor} (self only)"
+						"{@spell missil èldritx} (at 11th level)",
+						"{@spell pseudo vida}",
+						"{@spell levitar} (self only)",
+						"{@spell armadura de mag} (self only)"
 					],
 					"daily": {
 						"1e": [
 							"{@spell cercle de la mort}",
-							"{@spell enthrall}",
+							"{@spell captivar}",
 							"{@spell suggestió}"
 						],
 						"3e": [
-							"{@spell hellish rebuke}",
-							"{@spell hex}",
+							"{@spell venjança dels inferns}",
+							"{@spell embruix}",
 							"{@spell raig d'incendi} (at 3rd level)"
 						]
 					},
@@ -1421,7 +1421,7 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of Borborygmos's choice that is within 60 feet of him and can see or hear him ha de salvar per Saviesa amb {@dc 17} or become {@condition frightened} of him for 1 minute. La criatura {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Borborygmos's Presència Aterradora for the next 24 hours."
+						"Each creature of Borborygmos's choice that is within 60 feet of him and can see or hear him ha de salvar per Saviesa amb {@dc 17} or become {@condition frightened} of him durant 1 minut. La criatura {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Borborygmos's Presència Aterradora for the next 24 hours."
 					]
 				}
 			],
@@ -1435,7 +1435,7 @@
 				{
 					"name": "Bellow (Costa 2 Accions)",
 					"entries": [
-						"Borborygmos yells menacingly at one creature he can see within 60 feet of him. That creature ha de salvar per Saviesa amb {@dc 17} or become {@condition frightened} of him for 1 minute. If the creature is already {@condition frightened}, it becomes {@condition stunned} instead. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Borborygmos's Bellow for the next 24 hours."
+						"Borborygmos yells menacingly at one creature he can see within 60 feet of him. That creature ha de salvar per Saviesa amb {@dc 17} or become {@condition frightened} of him durant 1 minut. If the creature is already {@condition frightened}, it becomes {@condition stunned} instead. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Borborygmos's Bellow for the next 24 hours."
 					]
 				},
 				{
@@ -1553,11 +1553,11 @@
 						"L'habilitat de llançament de conjurs innata de The cackler és Carisma ({@dc 11} salvada de conjur, {@hit 3} a impactar amb atacs màgics). The cackler pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell fire bolt}"
+						"{@spell sageta de foc}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Tasha's hideous laughter}"
+							"{@spell Riure Horrible de la Tasha}"
 						]
 					},
 					"ability": "cha"
@@ -1914,19 +1914,19 @@
 						"L'habilitat de llançament de conjurs innat de The dryad's és Saviesa ({@dc 17} per salvar conjur). The dryad pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell druidcraft}"
+						"{@spell arts de druida}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell dissipar màgia}",
-							"{@spell entangle}",
-							"{@spell plant growth}",
-							"{@spell spike growth}"
+							"{@spell enredar}",
+							"{@spell creixement de la flora}",
+							"{@spell brot d'espines}"
 						],
 						"1e": [
 							"{@spell raig de lluna}",
-							"{@spell grasping vine}",
-							"{@spell wall of thorns}"
+							"{@spell heura de presa}",
+							"{@spell paret d'espines}"
 						]
 					},
 					"ability": "cha"
@@ -1957,7 +1957,7 @@
 				{
 					"name": "Vine Staff",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany contundent. If the target is a creature, ha de salvar per Destresa amb {@dc 17} or become {@condition restrained} by twisting vines for 1 minute. A target {@condition restrained} in this way can use an action to make a {@dc 17} Força (Atletisme) or Destresa (Acrobàcies) check, ending the effect on itself on a success."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany contundent. If the target is a creature, ha de salvar per Destresa amb {@dc 17} or become {@condition restrained} by twisting vines durant 1 minut. A target {@condition restrained} in this way can use an action to make a {@dc 17} Força (Atletisme) or Destresa (Acrobàcies) check, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -2077,8 +2077,8 @@
 						],
 						"3e": [
 							"{@spell raig d'incendi}",
-							"{@spell shield}",
-							"{@spell thunderwave}"
+							"{@spell escut}",
+							"{@spell tronada}"
 						]
 					},
 					"ability": "int"
@@ -2141,7 +2141,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -2179,14 +2179,14 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell enlarge/reduce}",
-							"{@spell mage armor} (self only)",
+							"{@spell engrandir/enxiquir}",
+							"{@spell armadura de mag} (self only)",
 							"{@spell raig d'incendi}"
 						],
 						"1e": [
 							"{@spell contraconjur}",
 							"{@spell dissipar màgia}",
-							"{@spell protection from energy}"
+							"{@spell protegir de l'energia}"
 						]
 					},
 					"ability": "int"
@@ -2250,7 +2250,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 90
+				"volar": 90
 			},
 			"str": 16,
 			"dex": 18,
@@ -2307,7 +2307,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell raise dead}"
+							"{@spell llevar als morts}"
 						],
 						"3e": [
 							"{@spell fascinar persona} (as a 5th-level spell)",
@@ -2477,24 +2477,24 @@
 							"spells": [
 								"{@spell esquitx àcid}",
 								"{@spell mà morta}",
-								"{@spell mage hand}",
-								"{@spell poison spray}",
-								"{@spell prestidigitation}"
+								"{@spell mà de mag}",
+								"{@spell esprai de verí}",
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell esfera cromàtica}",
-								"{@spell magic missile}",
-								"{@spell ray of sickness}"
+								"{@spell missil màgic}",
+								"{@spell raig d'arcada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell Fletxa Àcida d'en Melf}",
-								"{@spell ray of enfeeblement}",
+								"{@spell raig d'afebliment}",
 								"{@spell grimpat d'aranya}",
 								"{@spell tirarany}"
 							]
@@ -2504,8 +2504,8 @@
 							"spells": [
 								"{@spell animar els morts}",
 								"{@spell imposar maledicció}",
-								"{@spell fear}",
-								"{@spell vampiric touch}"
+								"{@spell temor}",
+								"{@spell toc vampíric}"
 							]
 						},
 						"4": {
@@ -2519,7 +2519,7 @@
 							"slots": 2,
 							"spells": [
 								"{@spell matanúvol}",
-								"{@spell insect plague}"
+								"{@spell plaga d'insectes}"
 							]
 						},
 						"6": {
@@ -2532,7 +2532,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}"
+								"{@spell dit de la mort}"
 							]
 						}
 					},
@@ -2686,26 +2686,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
-								"{@spell resistance}",
-								"{@spell thorn whip}"
+								"{@spell arts de druida}",
+								"{@spell produir flama}",
+								"{@spell resistència}",
+								"{@spell fuet d'espines}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell curar ferides}",
-								"{@spell faerie fire}",
-								"{@spell thunderwave}"
+								"{@spell foc follet}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell sentits de bèstia}",
-								"{@spell flame blade}",
-								"{@spell pass without trace}"
+								"{@spell espasa de foc}",
+								"{@spell passar desapercebudament}"
 							]
 						},
 						"3": {
@@ -2713,15 +2713,15 @@
 							"spells": [
 								"{@spell convocar animals}",
 								"{@spell dissipar màgia}",
-								"{@spell plant growth}"
+								"{@spell creixement de la flora}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell dominar bèstia}",
-								"{@spell freedom of movement}",
-								"{@spell wall of fire}"
+								"{@spell llibertat de moviments}",
+								"{@spell paret de foc}"
 							]
 						},
 						"5": {
@@ -2729,14 +2729,14 @@
 							"spells": [
 								"{@spell comunió amb la natura}",
 								"{@spell convocar elemental}",
-								"{@spell scrying}"
+								"{@spell escodrinyar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell transport via plants}",
-								"{@spell wall of thorns}"
+								"{@spell teleportació floral}",
+								"{@spell paret d'espines}"
 							]
 						}
 					},
@@ -2969,25 +2969,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
+								"{@spell sageta de foc}",
+								"{@spell llum}",
 								"{@spell sacred flame}",
-								"{@spell spare the dying}"
+								"{@spell misericòrdia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell guiding bolt}",
-								"{@spell healing word}",
-								"{@spell heroism}",
-								"{@spell shield of faith}"
+								"{@spell sageta guia}",
+								"{@spell paraula de curació}",
+								"{@spell heroisme}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell lesser restoration}",
+								"{@spell restabliment menor}",
 								"{@spell raig d'incendi}"
 							]
 						},
@@ -2996,20 +2996,20 @@
 							"spells": [
 								"{@spell càstig cegador}",
 								"{@spell mantell del creuat}",
-								"{@spell revivify}"
+								"{@spell revifar}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell banishment}",
-								"{@spell wall of fire}"
+								"{@spell paret de foc}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell flame strike}"
+								"{@spell batussa incendiària}"
 							]
 						}
 					},
@@ -3082,7 +3082,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 120
+				"volar": 120
 			},
 			"str": 22,
 			"dex": 15,
@@ -3134,7 +3134,7 @@
 					"daily": {
 						"3e": [
 							"{@spell forçar el duel}",
-							"{@spell guiding bolt} (as a 5th-level spell)"
+							"{@spell sageta guia} (as a 5th-level spell)"
 						],
 						"1e": [
 							"{@spell llum del dia}",
@@ -3225,7 +3225,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -3263,7 +3263,7 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell mage armor} (self only)",
+							"{@spell armadura de mag} (self only)",
 							"{@spell raig d'incendi}"
 						],
 						"1e": [
@@ -3271,7 +3271,7 @@
 							"{@spell con de fred}",
 							"{@spell porta dimensional}",
 							"{@spell bola de foc}",
-							"{@spell ice storm}"
+							"{@spell tempesta de gel}"
 						]
 					},
 					"ability": "int"
@@ -3334,7 +3334,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 15,
 			"dex": 18,
@@ -3451,7 +3451,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 9,
 			"dex": 20,
@@ -3498,7 +3498,7 @@
 				{
 					"name": "Frightening Screech {@recharge 5}",
 					"entries": [
-						"The horror screeches. Each creature within 30 feet of it that can hear ha de salvar per Saviesa amb {@dc 13} or be {@condition frightened} of it for 1 minute. La criatura {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a horror's Frightening Screech durant les properes 24 hores."
+						"The horror screeches. Each creature within 30 feet of it that can hear ha de salvar per Saviesa amb {@dc 13} or be {@condition frightened} of it durant 1 minut. La criatura {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a horror's Frightening Screech durant les properes 24 hores."
 					]
 				}
 			],
@@ -3578,22 +3578,22 @@
 						"0": {
 							"spells": [
 								"{@spell apedaçar}",
-								"{@spell resistance}",
-								"{@spell spare the dying}"
+								"{@spell resistència}",
+								"{@spell misericòrdia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell curar ferides}",
-								"{@spell sanctuary}"
+								"{@spell santuari}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
 								"{@spell aid}",
-								"{@spell lesser restoration}"
+								"{@spell restabliment menor}"
 							]
 						}
 					},
@@ -3683,12 +3683,12 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell stoneskin}"
+							"{@spell pell de pedra}"
 						],
 						"3e": [
-							"{@spell levitate}",
+							"{@spell levitar}",
 							"{@spell lightning bolt}",
-							"{@spell thunderwave}"
+							"{@spell tronada}"
 						]
 					},
 					"ability": "int"
@@ -3698,13 +3698,13 @@
 				{
 					"name": "Galvanic Overcast {@recharge 5}",
 					"entries": [
-						"When the blastseeker casts lightning bolt or thunderwave, it can roll a die. On an odd number, the blastseeker takes 9 ({@damage 2d8}) de dany de força. On an even number, the spell also deals 9 ({@damage 2d8}) de dany elèctric to each target that fails its saving throw."
+						"When the blastseeker casts lightning bolt or tronada, it can roll a die. On an odd number, the blastseeker takes 9 ({@damage 2d8}) de dany de força. On an even number, the spell also deals 9 ({@damage 2d8}) de dany elèctric to each target that fails its saving throw."
 					]
 				},
 				{
 					"name": "Heart of the Storm",
 					"entries": [
-						"When the blastseeker casts lightning bolt or thunderwave, all other creatures within 10 feet of the blastseeker each take 3 lightning damage."
+						"When the blastseeker casts lightning bolt or tronada, all other creatures within 10 feet of the blastseeker each take 3 lightning damage."
 					]
 				},
 				{
@@ -3862,7 +3862,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 20,
 			"dex": 16,
@@ -4035,25 +4035,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell poison spray}",
+								"{@spell esprai de verí}",
 								"{@spell shillelagh}",
-								"{@spell thorn whip}"
+								"{@spell fuet d'espines}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell curar ferides}",
-								"{@spell entangle}",
-								"{@spell ray of sickness}"
+								"{@spell enredar}",
+								"{@spell raig d'arcada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell pass without trace}",
-								"{@spell ray of enfeeblement}",
-								"{@spell spike growth}"
+								"{@spell passar desapercebudament}",
+								"{@spell raig d'afebliment}",
+								"{@spell brot d'espines}"
 							]
 						},
 						"3": {
@@ -4061,14 +4061,14 @@
 							"spells": [
 								"{@spell animar els morts}",
 								"{@spell dissipar màgia}",
-								"{@spell plant growth}"
+								"{@spell creixement de la flora}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell giant insect}"
+								"{@spell insecte gegant}"
 							]
 						}
 					},
@@ -4444,7 +4444,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 12,
 			"dex": 16,
@@ -4572,7 +4572,7 @@
 				{
 					"name": "Toxic Touch",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 2d6}) de dany contundent, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o become {@condition poisoned} for 1 minute. Al final de cada torn de the {@condition poisoned} target, it must repeat the save, taking 3 ({@damage 1d6}) de dany de verí si falla, or ending the effect on itself on a successful one."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 2d6}) de dany contundent, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o become {@condition poisoned} durant 1 minut. Al final de cada torn de the {@condition poisoned} target, it must repeat the save, taking 3 ({@damage 1d6}) de dany de verí si falla, or ending the effect on itself on a successful one."
 					]
 				}
 			],
@@ -4645,7 +4645,7 @@
 				{
 					"name": "Illumination",
 					"entries": [
-						"The hybrid sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+						"The hybrid desprèn llum forta en un radi de 10 peus i llum tènue uns 10 peus adicionals."
 					]
 				}
 			],
@@ -4807,7 +4807,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(flotar)"
 				},
@@ -4913,7 +4913,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 20,
 			"dex": 14,
@@ -4962,11 +4962,11 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innata de Isperia és Saviesa ({@dc 23} salvació de conjur). Isperia can innately cast {@spell imprisonment} twice per day, requiring no material components."
+						"L'habilitat de llançament de conjurs innata de Isperia és Saviesa ({@dc 23} salvació de conjur). Isperia can innately cast {@spell engarjolament} twice per day, requiring no material components."
 					],
 					"daily": {
 						"2": [
-							"{@spell imprisonment}"
+							"{@spell engarjolament}"
 						]
 					},
 					"hidden": [
@@ -4982,11 +4982,11 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
-								"{@spell light}",
-								"{@spell resistance}",
+								"{@spell guia}",
+								"{@spell llum}",
+								"{@spell resistència}",
 								"{@spell sacred flame}",
-								"{@spell thaumaturgy}"
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -4994,9 +4994,9 @@
 							"spells": [
 								"{@spell command}",
 								"{@spell detectar el bé i el mal}",
-								"{@spell ensnaring strike}",
-								"{@spell sanctuary}",
-								"{@spell shield of faith}"
+								"{@spell atac captura}",
+								"{@spell santuari}",
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
@@ -5005,9 +5005,9 @@
 								"{@spell pany arcà}",
 								"{@spell auguri}",
 								"{@spell apaivagar emocions}",
-								"{@spell hold person}",
-								"{@spell silence}",
-								"{@spell zone of truth}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell silenci}",
+								"{@spell zona de la veritat}"
 							]
 						},
 						"3": {
@@ -5017,27 +5017,27 @@
 								"{@spell clarividència}",
 								"{@spell contraconjur}",
 								"{@spell dissipar màgia}",
-								"{@spell tongues}"
+								"{@spell llenguatges}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell endevinació}",
-								"{@spell locate creature}"
+								"{@spell localitzar criatura}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell dissipar el bé i el mal}",
-								"{@spell scrying}"
+								"{@spell escodrinyar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell word of recall}"
+								"{@spell formular el retorn}"
 							]
 						},
 						"7": {
@@ -5092,7 +5092,7 @@
 				{
 					"name": "Supreme Legal Authority",
 					"entries": [
-						"Isperia chooses up to three creatures she can see within 90 feet of her. Each target ha de salvar per Intel·ligència amb {@dc 23} or Isperia chooses an action for that target: Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, or Use an Object. The affected target can't take that action for 1 minute. Al final de cada torn de the target, it can end the effect on itself with a successful {@dc 23} Intel·ligència saving throw. A target that succeeds on the saving throw becomes immune to Isperia's Supreme Legal Authority for 24 hours."
+						"Isperia chooses up to three creatures she can see within 90 feet of her. Each target ha de salvar per Intel·ligència amb {@dc 23} or Isperia chooses an action for that target: Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, or Use an Object. The affected target can't take that action durant 1 minut. Al final de cada torn de l'objectiu, it can end the effect on itself with a successful {@dc 23} Intel·ligència saving throw. A target that succeeds on the saving throw becomes immune to Isperia's Supreme Legal Authority for 24 hours."
 					]
 				}
 			],
@@ -5230,24 +5230,24 @@
 							"spells": [
 								"{@spell esquitx àcid}",
 								"{@spell mà morta}",
-								"{@spell mage hand}",
-								"{@spell poison spray}",
-								"{@spell prestidigitation}"
+								"{@spell mà de mag}",
+								"{@spell esprai de verí}",
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell ray of sickness}",
-								"{@spell sleep}"
+								"{@spell enredar}",
+								"{@spell raig d'arcada}",
+								"{@spell adormir}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell Fletxa Àcida d'en Melf}",
-								"{@spell ray of enfeeblement}",
+								"{@spell raig d'afebliment}",
 								"{@spell grimpat d'aranya}",
 								"{@spell tirarany}"
 							]
@@ -5256,23 +5256,23 @@
 							"slots": 3,
 							"spells": [
 								"{@spell animar els morts}",
-								"{@spell plant growth}",
-								"{@spell vampiric touch}"
+								"{@spell creixement de la flora}",
+								"{@spell toc vampíric}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell giant insect}",
-								"{@spell grasping vine}"
+								"{@spell insecte gegant}",
+								"{@spell heura de presa}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell matanúvol}",
-								"{@spell insect plague}"
+								"{@spell plaga d'insectes}"
 							]
 						},
 						"6": {
@@ -5285,8 +5285,8 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell forcecage}"
+								"{@spell dit de la mort}",
+								"{@spell gàbia de força}"
 							]
 						}
 					},
@@ -5441,7 +5441,7 @@
 			"speed": {
 				"walk": 30,
 				"climb": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 16,
 			"dex": 12,
@@ -5475,17 +5475,17 @@
 					],
 					"will": [
 						"{@spell mà morta}",
-						"{@spell poison spray}"
+						"{@spell esprai de verí}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell ray of enfeeblement}",
-							"{@spell ray of sickness}"
+							"{@spell raig d'afebliment}",
+							"{@spell raig d'arcada}"
 						],
 						"1e": [
 							"{@spell animar els morts}",
 							"{@spell plaga}",
-							"{@spell vampiric touch}"
+							"{@spell toc vampíric}"
 						]
 					},
 					"ability": "wis"
@@ -5725,9 +5725,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell friends}",
-								"{@spell light}",
+								"{@spell sageta de foc}",
+								"{@spell amistar}",
+								"{@spell llum}",
 								"{@spell missatge}"
 							]
 						},
@@ -5735,8 +5735,8 @@
 							"slots": 4,
 							"spells": [
 								"{@spell alarm}",
-								"{@spell expeditious retreat}",
-								"{@spell shield}"
+								"{@spell retirada estratègica}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -5744,7 +5744,7 @@
 							"spells": [
 								"{@spell pany arcà}",
 								"{@spell detectar pensaments}",
-								"{@spell hold person}"
+								"{@spell immobilitzar humanoide}"
 							]
 						},
 						"3": {
@@ -5752,14 +5752,14 @@
 							"spells": [
 								"{@spell clarividència}",
 								"{@spell dissipar màgia}",
-								"{@spell slow}"
+								"{@spell alentir}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell locate creature}",
-								"{@spell stoneskin}"
+								"{@spell localitzar criatura}",
+								"{@spell pell de pedra}"
 							]
 						}
 					},
@@ -5869,8 +5869,8 @@
 					"will": [
 						"{@spell detectar pensaments}",
 						"{@spell acabalar pensaments|GGR} (see chapter 2)",
-						"{@spell freedom of movement}",
-						"{@spell vicious mockery} ({@dice 4d4} de dany psíquic)"
+						"{@spell llibertat de moviments}",
+						"{@spell mofa i escarni} ({@dice 4d4} de dany psíquic)"
 					],
 					"daily": {
 						"3e": [
@@ -5880,7 +5880,7 @@
 						],
 						"1e": [
 							"{@spell modificar memòria}",
-							"{@spell Rary's telepathic bond}"
+							"{@spell Vincle Telepàtic d'en Rary}"
 						]
 					},
 					"ability": "int"
@@ -6167,7 +6167,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -6213,12 +6213,12 @@
 					"daily": {
 						"3e": [
 							"{@spell fascinar persona}",
-							"{@spell hold person}",
+							"{@spell immobilitzar humanoide}",
 							"{@spell imatge mirall}",
-							"{@spell sleep}"
+							"{@spell adormir}"
 						],
 						"1e": [
-							"{@spell gaseous form}",
+							"{@spell forma gasosa}",
 							"{@spell imatge major}"
 						]
 					},
@@ -6318,7 +6318,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -6358,14 +6358,14 @@
 					],
 					"will": [
 						"{@spell acabalar pensaments|GGR} (see chapter 2)",
-						"{@spell friends}"
+						"{@spell amistar}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell fascinar persona}",
 							"{@spell detectar pensaments}",
-							"{@spell mage armor}",
-							"{@spell sleep}",
+							"{@spell armadura de mag}",
+							"{@spell adormir}",
 							"{@spell suggestió}"
 						],
 						"1e": [
@@ -6567,7 +6567,7 @@
 			"speed": {
 				"walk": 40,
 				"climb": 30,
-				"fly": 80
+				"volar": 80
 			},
 			"str": 29,
 			"dex": 14,
@@ -6616,30 +6616,30 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell prestidigitation}",
+								"{@spell sageta de foc}",
+								"{@spell llum}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}",
-								"{@spell unseen servant}"
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell tronada}",
+								"{@spell servent invisible}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell difuminar}",
-								"{@spell enlarge/reduce}",
-								"{@spell flaming sphere}",
-								"{@spell hold person}",
+								"{@spell engrandir/enxiquir}",
+								"{@spell esfera de flames}",
+								"{@spell immobilitzar humanoide}",
 								"{@spell raig d'incendi}"
 							]
 						},
@@ -6649,7 +6649,7 @@
 								"{@spell contraconjur}",
 								"{@spell bola de foc}",
 								"{@spell lightning bolt}",
-								"{@spell slow}"
+								"{@spell alentir}"
 							]
 						},
 						"4": {
@@ -6657,16 +6657,16 @@
 							"spells": [
 								"{@spell confusió}",
 								"{@spell porta dimensional}",
-								"{@spell fabricate}"
+								"{@spell fabricar}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell convocar elemental}",
-								"{@spell polymorph}",
-								"{@spell wall of fire}",
-								"{@spell wall of force}"
+								"{@spell polimorfia}",
+								"{@spell paret de foc}",
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
@@ -6674,15 +6674,15 @@
 							"spells": [
 								"{@spell llamp en cadena}",
 								"{@spell desintegrar}",
-								"{@spell true seeing}"
+								"{@spell visió veritable}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell project image}",
-								"{@spell reverse gravity}",
-								"{@spell teleport}"
+								"{@spell projectar imatge}",
+								"{@spell invertir la gravetat}",
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
@@ -6690,13 +6690,13 @@
 							"spells": [
 								"{@spell controlar el temps}",
 								"{@spell laberint}",
-								"{@spell power word stun}"
+								"{@spell paraula de poder atordir}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell prismatic wall}"
+								"{@spell paret prismàtica}"
 							]
 						}
 					},
@@ -6965,7 +6965,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar)"
 				},
@@ -7034,8 +7034,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell sanctuary}",
-							"{@spell spirit guardians} (at 4th level)"
+							"{@spell santuari}",
+							"{@spell guardians espirituals} (at 4th level)"
 						]
 					},
 					"ability": "wis"
@@ -7053,7 +7053,7 @@
 								{
 									"type": "item",
 									"name": "Enezesku: Enfeebling Ray.",
-									"entry": "Enezesku's Innate Spellcasting trait includes {@spell ray of enfeeblement}, which he can cast at will."
+									"entry": "Enezesku's Innate Spellcasting trait includes {@spell raig d'afebliment}, which he can cast at will."
 								},
 								{
 									"type": "item",
@@ -7268,7 +7268,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -7309,11 +7309,11 @@
 					"daily": {
 						"3": [
 							"{@spell detectar pensaments}",
-							"{@spell mage armor}"
+							"{@spell armadura de mag}"
 						],
 						"1e": [
 							"{@spell clarividència}",
-							"{@spell locate object}"
+							"{@spell localitzar objecte}"
 						]
 					},
 					"ability": "int"
@@ -7329,7 +7329,7 @@
 				{
 					"name": "Glimpse the Temporal Flood {@recharge 5}",
 					"entries": [
-						"The mage targets one creature within 120 feet of it that it can see. The target takes 18 ({@damage 4d8}) de dany psíquic, and ha de salvar per Intel·ligència amb {@dc 14} or be {@condition stunned} fins el final del seu proper torn."
+						"The mage targets one creature within 120 feet of it that it can see. The target takes 18 ({@damage 4d8}) de dany psíquic, iha de salvar per Intel·ligència amb {@dc 14} or be {@condition stunned} fins el final del seu proper torn."
 					]
 				}
 			],
@@ -7392,7 +7392,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 80
+				"volar": 80
 			},
 			"str": 26,
 			"dex": 15,
@@ -7446,10 +7446,10 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"Rakdos's habilitat de llançament de conjurs is Carisma ({@dc 25} salvació de conjur). He can innately cast {@spell hellish rebuke} (at 5th level) at will, requiring no material components."
+						"Rakdos's habilitat de llançament de conjurs is Carisma ({@dc 25} salvació de conjur). He can innately cast {@spell venjança dels inferns} (at 5th level) at will, requiring no material components."
 					],
 					"will": [
-						"{@spell hellish rebuke}"
+						"{@spell venjança dels inferns}"
 					],
 					"ability": "cha",
 					"hidden": [
@@ -7461,7 +7461,7 @@
 				{
 					"name": "Captivating Presence",
 					"entries": [
-						"Any creature that starts its turn within 30 feet of Rakdos ha de salvar per Saviesa amb {@dc 25}. Si falla, the creature becomes {@condition charmed} by Rakdos for 1 minute or until the creature is farther than 30 feet away from him. On a successful save, the creature becomes immune to Rakdos's Captivating Presence for 24 hours."
+						"Any creature that starts its turn within 30 feet of Rakdos ha de salvar per Saviesa amb {@dc 25}. Si falla, the creature becomes {@condition charmed} by Rakdos for 1 minute or until the creature is farther than 30 feet away from him. Si supera, the creature becomes immune to Rakdos's Captivating Presence for 24 hours."
 					]
 				},
 				{
@@ -7525,7 +7525,7 @@
 				{
 					"name": "Touch of Pain (Costa 3 Accions)",
 					"entries": [
-						"Rakdos makes a claw attack against one creature within 10 feet of him. The target ha de salvar per Constitució amb {@dc 25} or be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature can't maintain concentration on a spell or any other effect that requires concentration. La criatura {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Rakdos makes a claw attack against one creature within 10 feet of him. The target ha de salvar per Constitució amb {@dc 25} or be {@condition poisoned} durant 1 minut. While {@condition poisoned} in this way, the creature can't maintain concentration on a spell or any other effect that requires concentration. La criatura {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -7619,7 +7619,7 @@
 							"spells": [
 								"{@spell llums dansaires}",
 								"{@spell il·lusió menor}",
-								"{@spell vicious mockery}"
+								"{@spell mofa i escarni}"
 							]
 						},
 						"1": {
@@ -7627,16 +7627,16 @@
 							"spells": [
 								"{@spell perdició}",
 								"{@spell xiuxiuegos de disbauxa}",
-								"{@spell silent image}",
-								"{@spell Tasha's hideous laughter}",
-								"{@spell thunderwave}"
+								"{@spell imatge silenciosa}",
+								"{@spell Riure Horrible de la Tasha}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell corona de bogeria}",
-								"{@spell enthrall}",
+								"{@spell captivar}",
 								"{@spell suggestió}"
 							]
 						}
@@ -7988,25 +7988,25 @@
 						"0": {
 							"spells": [
 								"{@spell guarda d'armes}",
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell missatge}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell guiding bolt}",
-								"{@spell shield}",
-								"{@spell thunderwave}",
-								"{@spell witch bolt}"
+								"{@spell sageta guia}",
+								"{@spell escut}",
+								"{@spell tronada}",
+								"{@spell llampec bruixot}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell difuminar}",
-								"{@spell levitate}"
+								"{@spell levitar}"
 							]
 						},
 						"3": {
@@ -8123,7 +8123,7 @@
 				{
 					"name": "Ruin Dweller",
 					"entries": [
-						"The stalker has advantage on Destresa (Sigil) checks made to hide in ruins, and its speed is not reduced in difficult terrain composed of rubble."
+						"The stalker has advantage on Destresa (Sigil) checks made to hide in ruins, and its speed is not reduced in terreny difícil composed of rubble."
 					]
 				},
 				{
@@ -8223,7 +8223,7 @@
 				{
 					"name": "Scorchbringer {@recharge 4}",
 					"entries": [
-						"The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line ha de salvar per Destresa amb {@dc 12}. Qui falli rep 7 ({@damage 2d6}) de dany de foc; qui superi, en rep la meitat."
+						"The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Tota criatura a dins de la línia ha de salvar per Destresa amb {@dc 12}. Qui falli rep 7 ({@damage 2d6}) de dany de foc; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -8558,7 +8558,7 @@
 				{
 					"name": "Aura of Mind Erosion",
 					"entries": [
-						"Any creature that starts its turn within 30 feet of the sire ha de salvar per Saviesa amb {@dc 18}. On a successful save, the creature is immune to this aura for the next 24 hours. Si falla, the creature has disadvantage for 1 minute on Saviesa and Carisma checks and on Saviesa and Carisma saves. A l'inici de cada torn seu, the sire can suppress this aura fins a l'inici del seu següent torn."
+						"Any creature that starts its turn within 30 feet of the sire ha de salvar per Saviesa amb {@dc 18}. Si supera, the creature is immune to this aura for the next 24 hours. Si falla, the creature has disadvantage for 1 minute on Saviesa and Carisma checks and on Saviesa and Carisma saves. A l'inici de cada torn seu, the sire can suppress this aura fins a l'inici del seu següent torn."
 					]
 				},
 				{
@@ -8753,7 +8753,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 90
+				"volar": 90
 			},
 			"str": 20,
 			"dex": 13,
@@ -8838,7 +8838,7 @@
 			},
 			"speed": {
 				"walk": 10,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 23,
 			"dex": 15,
@@ -9011,8 +9011,8 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell friends}",
-								"{@spell mage hand}",
+								"{@spell amistar}",
+								"{@spell mà de mag}",
 								"{@spell missatge}"
 							]
 						},
@@ -9020,15 +9020,15 @@
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell ensnaring strike}",
-								"{@spell shield}"
+								"{@spell atac captura}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell apaivagar emocions}",
-								"{@spell hold person}",
+								"{@spell immobilitzar humanoide}",
 								"{@spell suggestió}"
 							]
 						},
@@ -9242,7 +9242,7 @@
 						"1e": [
 							"{@spell difuminar}",
 							"{@spell detectar pensaments}",
-							"{@spell gaseous form}"
+							"{@spell forma gasosa}"
 						]
 					},
 					"ability": "int"
@@ -9368,16 +9368,16 @@
 					],
 					"will": [
 						"{@spell dissipar màgia}",
-						"{@spell druidcraft}"
+						"{@spell arts de druida}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell beneir}",
 							"{@spell convocar animals}",
-							"{@spell giant insect}",
+							"{@spell insecte gegant}",
 							"{@spell raig de lluna}",
-							"{@spell plant growth}",
-							"{@spell spike growth}",
+							"{@spell creixement de la flora}",
+							"{@spell brot d'espines}",
 							"{@spell suggestió}"
 						],
 						"1e": [
@@ -9414,7 +9414,7 @@
 					]
 				},
 				{
-					"name": "Tree Stride",
+					"name": "Passeig pels Arbres",
 					"entries": [
 						"Once on her turn, Trostani can use 10 feet of her movement to step magically into one living tree within her abast and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
 					]
@@ -9565,8 +9565,8 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell expeditious retreat}",
-							"{@spell fog cloud}",
+							"{@spell retirada estratègica}",
+							"{@spell núvol de boira}",
 							"{@spell pas boira}"
 						]
 					},
@@ -9603,7 +9603,7 @@
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. L'objectiu ha de salvar per Constitució amb {@dc 14}. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Si falla per menys es comença a tornar de pedra i està {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a {@spell greater restoration} spell or similar magic."
+						"The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. L'objectiu ha de salvar per Constitució amb {@dc 14}. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Si falla per menys es comença a tornar de pedra i està {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a {@spell restabliment superior} spell or similar magic."
 					]
 				}
 			],
@@ -9651,7 +9651,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 30
+				"volar": 30
 			},
 			"str": 9,
 			"dex": 15,
@@ -9767,9 +9767,9 @@
 					]
 				},
 				{
-					"name": "Earth Tremors",
+					"name": "Trèmol de Terras",
 					"entries": [
-						"The wurm creates earth tremors as it moves overland or underground. Any creature that comes within 30 feet of the moving wurm for the first time on a turn ha de salvar per Destresa amb {@dc 20} or take 10 ({@damage 3d6}) de dany contundent and fall {@condition prone}. Any structure or object anchored to the ground that comes within 30 feet of the moving wurm for the first time on a turn takes 10 ({@damage 3d6}) de dany de força."
+						"The wurm creates trèmol de terras as it moves overland or underground. Any creature that comes within 30 feet of the moving wurm for the first time on a turn ha de salvar per Destresa amb {@dc 20} or take 10 ({@damage 3d6}) de dany contundent and fall {@condition prone}. Any structure or object anchored to the ground that comes within 30 feet of the moving wurm for the first time on a turn takes 10 ({@damage 3d6}) de dany de força."
 					]
 				},
 				{
@@ -9886,41 +9886,41 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}",
-								"{@spell druidcraft}",
+								"{@spell arts de druida}",
 								"{@spell ray of frost}",
-								"{@spell shape water|XGE}"
+								"{@spell moldejar l'aigua|XGE}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell esprai de colors}",
-								"{@spell expeditious retreat}",
-								"{@spell fog cloud}",
-								"{@spell shield}"
+								"{@spell retirada estratègica}",
+								"{@spell núvol de boira}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell enlarge/reduce}",
-								"{@spell gust of wind}"
+								"{@spell engrandir/enxiquir}",
+								"{@spell ràfega de vent}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell contraconjur}",
-								"{@spell fly}",
-								"{@spell slow}"
+								"{@spell volar}",
+								"{@spell alentir}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell control d'aigua}",
-								"{@spell ice storm}",
-								"{@spell polymorph}"
+								"{@spell tempesta de gel}",
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
@@ -9933,15 +9933,15 @@
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell move earth}",
-								"{@spell wall of ice}"
+								"{@spell moure la terra}",
+								"{@spell paret de glaç}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell esprai prismàtic}",
-								"{@spell teleport}"
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
@@ -10005,7 +10005,7 @@
 				{
 					"name": "Enlarge (Costa 2 Accions)",
 					"entries": [
-						"Zegana casts enlarge/reduce on herself, using the enlarge option, without expending a spell slot."
+						"Zegana casts engrandir/enxiquir on herself, using the enlarge option, without expending a spell slot."
 					]
 				},
 				{

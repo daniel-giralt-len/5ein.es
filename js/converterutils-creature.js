@@ -27,7 +27,7 @@ class AcConvert {
 			// Plain number
 			if (!fromRaw) return nuAc.push(acNum);
 
-			let nxtAc = null; // A distinct AC value included in this text from e.g. mage armor
+			let nxtAc = null; // A distinct AC value included in this text from e.g. armadura de mag
 			const cur = {ac: acNum};
 			const froms = [];
 
@@ -92,9 +92,9 @@ class AcConvert {
 							break;
 
 						// spells
-						case "foresight bonus": froms.push(`{@spell foresight} bonus`); break;
+						case "foresight bonus": froms.push(`{@spell presagiar} bonus`); break;
 						case "natural pell d'escorça": froms.push(`natural {@spell pell d'escorça}`); break;
-						case "mage armor": froms.push("{@spell mage armor}"); break;
+						case "armadura de mag": froms.push("{@spell armadura de mag}"); break;
 
 						// armor (mostly handled by the item lookup; these are mis-named exceptions (usually for homebrew))
 						case "chainmail":
@@ -129,12 +129,12 @@ class AcConvert {
 
 								if (itemMeta.isExact) froms.push(`{@item ${fromLow}${itemMeta.source === SRC_DMG ? "" : `|${itemMeta.source}`}}`);
 								else froms.push(`{@item ${itemMeta.name}${itemMeta.source === SRC_DMG ? "|" : `|${itemMeta.source}`}|${fromLow}}`);
-							} else if (fromLow.endsWith("with mage armor") || fromLow.endsWith("with pell d'escorça")) {
+							} else if (fromLow.endsWith("with armadura de mag") || fromLow.endsWith("with pell d'escorça")) {
 								const numMatch = /(\d+) with (.*)/.exec(fromLow);
 								if (!numMatch) throw new Error("Spell AC but no leading number?");
 
 								let spell = null;
-								if (numMatch[2] === "mage armor") spell = `{@spell mage armor}`;
+								if (numMatch[2] === "armadura de mag") spell = `{@spell armadura de mag}`;
 								else if (numMatch[2] === "pell d'escorça") spell = `{@spell pell d'escorça}`;
 								else throw new Error(`Unhandled spell! ${numMatch[2]}`);
 
@@ -459,7 +459,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 	action: {
 		"multi-atac": "Multi-atac",
 		"presència aterradora": "Presència Aterradora",
-		"teleport": "Teleport",
+		"teleportació": "Teleportació",
 		"empassar": "Empassar",
 		"tentacle": "Tentacles",
 		"tentacles": "Tentacles",
@@ -1039,8 +1039,8 @@ class SpellcastingTraitConvert {
 
 	/**
 	 * Add other actions/reactions with names such as:
-	 * - "Fire Storm (Conjur de Nivell 7; 1/Dia)"
-	 * - "Shocking Grasp (Truc)"
+	 * - "Tempesta de Foc (Conjur de Nivell 7; 1/Dia)"
+	 * - "Braó Electritzant (Truc)"
 	 * - "Shield (Conjur de Nivell 1; 3/Dia)"
 	 * as hidden spells (if they don't already exist). */
 	static _addSplitOutSpells ({spellcastingEntry, arrayOther}) {
@@ -1204,7 +1204,7 @@ class SpeedConvert {
 		}
 	}
 }
-SpeedConvert._SPEED_TYPES = new Set(["walk", "fly", "swim", "climb", "burrow"]);
+SpeedConvert._SPEED_TYPES = new Set(["walk", "volar", "swim", "climb", "burrow"]);
 
 class DetectNamedCreature {
 	static tryRun (mon) {

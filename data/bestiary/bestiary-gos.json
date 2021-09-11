@@ -880,7 +880,7 @@
 				{
 					"name": "Necrotic Ink {@recharge 5}",
 					"entries": [
-						"The drowned master discharges foul ink in front of itself en un con de 30 peus. Each creature caught in the ink ha de salvar per Constitució amb {@dc 15}, taking 27 ({@damage 6d8}) de dany necròtic on a failed save ; si supera, en rep la meitat. A creature that fails this saving throw is {@condition blinded} fins el final del seu proper torn.and contracts bluerot (see the \"Bluerot\" in notes)."
+						"The drowned master discharges foul ink in front of itself en un con de 30 peus. Each creature caught in the ink ha de salvar per Constitució amb {@dc 15}, taking 27 ({@damage 6d8}) de dany necròtic on a failed save; si supera, en rep la meitat. A creature that fails this saving throw is {@condition blinded} fins el final del seu proper torn.and contracts bluerot (see the \"Bluerot\" in notes)."
 					]
 				}
 			],
@@ -1139,7 +1139,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 13,
 			"dex": 16,
@@ -1317,9 +1317,9 @@
 					]
 				},
 				{
-					"name": "Freedom of Movement",
+					"name": "Llibertat de Moviments",
 					"entries": [
-						"The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"The kraken ignores terreny difícil, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
 					]
 				}
 			],
@@ -1372,7 +1372,7 @@
 				{
 					"name": "Núvol de tinta (Costa 3 Accions)",
 					"entries": [
-						"While underwater, the kraken expels an ink cloud in a 40-foot radius. The cloud s'extèn per les cantonades, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there ha de salvar per Constitució amb {@dc 18}, taking 11 ({@damage 2d10}) de dany de verí on a failed save ; si supera, en rep la meitat. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn."
+						"While underwater, the kraken expels an ink cloud in a 40-foot radius. The cloud s'extén per les cantonades, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there ha de salvar per Constitució amb {@dc 18}, taking 11 ({@damage 2d10}) de dany de verí on a failed save; si supera, en rep la meitat. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn."
 					]
 				}
 			],
@@ -1664,7 +1664,7 @@
 							"2": [
 								{
 									"replace": "{@spell missatger animal}",
-									"with": "{@spell flaming sphere}"
+									"with": "{@spell esfera de flames}"
 								}
 							]
 						}
@@ -1743,7 +1743,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell fog cloud}"
+							"{@spell núvol de boira}"
 						]
 					},
 					"ability": "cha"
@@ -1887,7 +1887,7 @@
 				{
 					"name": "Whirl {@recharge 5}",
 					"entries": [
-						"The statue can use its action to spin at the waist, targeting creatures of its choice within 10 feet of it. Each target ha de salvar per Destresa amb {@dc 13}, taking 19 ({@damage 3d10 + 3}) de dany contundent on a failed save; si supera, en rep la meitat."
+						"The statue can use its action to spin at the waist, targeting creatures of its choice within 10 feet of it. Each target ha de salvar per Destresa amb {@dc 13}, taking 19 ({@damage 3d10 + 3}) de dany contundent; si supera, en rep la meitat."
 					]
 				}
 			],
@@ -2280,26 +2280,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell sacred flame}",
-								"{@spell spare the dying}",
-								"{@spell thaumaturgy}"
+								"{@spell misericòrdia}",
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell command}",
-								"{@spell guiding bolt}",
-								"{@spell purify food and drink}"
+								"{@spell sageta guia}",
+								"{@spell purificar menjar i beure}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell lesser restoration}",
-								"{@spell silence}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell restabliment menor}",
+								"{@spell silenci}"
 							]
 						},
 						"3": {
@@ -2995,7 +2995,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 19,
 			"dex": 14,
@@ -3181,9 +3181,9 @@
 					],
 					"daily": {
 						"2e": [
-							"{@spell fear}",
+							"{@spell temor}",
 							"{@spell bola de foc}",
-							"{@spell fly}"
+							"{@spell volar}"
 						],
 						"1e": [
 							"{@spell matanúvol}",
@@ -3223,7 +3223,7 @@
 				{
 					"name": "Eye of Corruption {@recharge 5}",
 					"entries": [
-						"Mr. Dory glares at a creature he can see within 30 feet of him. L'objectiu ha de salvar per Constitució amb {@dc 15}. Si falla, rep 27 ({@damage 5d10}) de dany necròtic and 27 ({@damage 5d10}) de dany de verí and then gains vulnerability to both necrotic and poison damage for 1 minute. On a successful save, it takes half damage and does not gain the vulnerabilities."
+						"Mr. Dory glares at a creature he can see within 30 feet of him. L'objectiu ha de salvar per Constitució amb {@dc 15}. Si falla, rep 27 ({@damage 5d10}) de dany necròtic and 27 ({@damage 5d10}) de dany de verí and then gains vulnerability to both necrotic and poison damage durant 1 minut. Si supera, it takes half damage and does not gain the vulnerabilities."
 					]
 				}
 			],
@@ -3608,7 +3608,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -3643,9 +3643,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell friends}",
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
+								"{@spell amistar}",
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -3653,15 +3653,15 @@
 							"slots": 4,
 							"spells": [
 								"{@spell ego camuflatge}",
-								"{@spell fog cloud}",
-								"{@spell mage armor}",
-								"{@spell witch bolt}"
+								"{@spell núvol de boira}",
+								"{@spell armadura de mag}",
+								"{@spell llampec bruixot}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell gust of wind}",
+								"{@spell ràfega de vent}",
 								"{@spell Fletxa Àcida d'en Melf}",
 								"{@spell pas boira}"
 							]
@@ -3841,31 +3841,31 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell il·lusió menor}",
-								"{@spell prestidigitation}",
+								"{@spell prestidigitació}",
 								"{@spell ray of frost}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell expeditious retreat}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell retirada estratègica}",
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell difuminar}",
-								"{@spell hold person}"
+								"{@spell immobilitzar humanoide}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell sleet storm}"
+								"{@spell tempesta d'aiguaneu}"
 							]
 						}
 					},
@@ -3972,7 +3972,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The blademaster can magically command any shark within 120 feet of it, using a limited telepathy."
 					]
@@ -4085,7 +4085,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The champion can magically command any shark within 120 feet of it, using a limited telepathy."
 					]
@@ -4200,7 +4200,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The coral smasher can magically command any shark within 120 feet of it, using a limited telepathy."
 					]
@@ -4345,7 +4345,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The deep diver can magically command any shark within 120 feet of it, using a limited telepathy."
 					]
@@ -4578,10 +4578,10 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
+								"{@spell guia}",
 								"{@spell apedaçar}",
-								"{@spell resistance}",
-								"{@spell thaumaturgy}"
+								"{@spell resistència}",
+								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
@@ -4589,23 +4589,23 @@
 							"spells": [
 								"{@spell beneir}",
 								"{@spell detectar màgia}",
-								"{@spell guiding bolt}"
+								"{@spell sageta guia}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
-								"{@spell spiritual weapon} (trident)"
+								"{@spell immobilitzar humanoide}",
+								"{@spell arma espiritual} (trident)"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell imposar maledicció}",
-								"{@spell fear}",
+								"{@spell temor}",
 								"{@spell paraula de curació massiva}",
-								"{@spell tongues}"
+								"{@spell llenguatges}"
 							]
 						},
 						"4": {
@@ -4632,7 +4632,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The high priestess can magically command any shark within 120 feet of her, using a limited telepathy."
 					]
@@ -4770,7 +4770,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The wave shaper can magically command any shark within 120 feet of it, using a limited telepathy."
 					]
@@ -4887,14 +4887,14 @@
 							"spells": [
 								"{@spell fascinar persona}",
 								"{@spell esprai de colors}",
-								"{@spell magic missile}",
-								"{@spell silent image}"
+								"{@spell missil màgic}",
+								"{@spell imatge silenciosa}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell magic mouth}",
+								"{@spell boca màgica}",
 								"{@spell raig d'incendi}"
 							]
 						}

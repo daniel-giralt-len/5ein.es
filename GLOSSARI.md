@@ -4,6 +4,8 @@
 |(Skill) Saving Throw|Salvar per (Habilitat)
 |(Spell) slot|Ranura (de conjur)
 |5 feet|5 peus
+|Ability score|Puntuació d'habilitat
+|Abyss|Abisme
 |Acrobatics|Acrobàcies
 |Adamantine|Adamantí
 |Alignment|Alineament
@@ -13,18 +15,22 @@
 |As an action|, com a acció,
 |Athletics|Atletisme
 |Attack roll|Tirada d'impacte
+|Attune|Harmonitzar
 |Background|Rerefons
 |Blinded|Encegat
 |Blindsight|Visió a cegues
 |Bonus action|Acció bonus
 |Bright light|Llum forta
 |Cantrip| Truc
+|City of Brass|Ciutat Llautó
 |Challenge Rating (CR)|Valor de Repte (VR)
 |Charisma|Carisma
 |Charmed|Fascinat
 |Choose...|Escull... (no tria)
 |Class|Classe
+|Climbing speed|Velocitat d'escalada
 |Constitution|Constitució
+|Contest|Enfrontat
 |Copper pieces|Coures
 |Damage|Dany
 |Darkvision|Visió de Foscor
@@ -39,7 +45,9 @@
 |Disengage|Desenganxar-se
 |Dragonborn|Sang de Drac
 |Drops to 0 hit points|Es queda a 0 punts de cop
+|Drow|Dróu
 |Dungeon Master (DM)|Mestre de Masmorres (MM)
+|Eldritch|Èldritx
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
 |Feywild|Terra Fata
@@ -64,6 +72,7 @@
 |Investigation|Investigació
 |Invisible|Invisible
 |Item|Ítem
+|Lair|Llar
 |Language|Idioma
 |Level|Nivell
 |Lightly obscured|Poc ofuscat
@@ -75,6 +84,9 @@
 |Nonmagical|No-màgic
 |On a save|Si supera
 |On a failure|Si falla
+|Oozes|Llims
+|Otiluke|Otiluk
+|Outer Planes|Plans Externs
 |Paralyzed|Paralitzat
 |Perception|Percepció
 |Performance|Faràndula

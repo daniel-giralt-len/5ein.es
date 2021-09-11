@@ -207,7 +207,7 @@
 						"{@spell contraconjur} (see \"Reactions\" below)",
 						"{@spell detectar màgia}",
 						"{@spell dissipar màgia}",
-						"{@spell see invisibility}"
+						"{@spell veure invisibilitat}"
 					],
 					"daily": {
 						"1": [
@@ -579,11 +579,11 @@
 				{
 					"name": "Innate Spellcasting (1/Dia)",
 					"headerEntries": [
-						"The blood hunter can innately cast {@spell hex}. Its habilitat de llançament de conjurs innata is Intel·ligència."
+						"The blood hunter can innately cast {@spell embruix}. Its habilitat de llançament de conjurs innata is Intel·ligència."
 					],
 					"ability": "int",
 					"will": [
-						"{@spell hex}"
+						"{@spell embruix}"
 					],
 					"hidden": [
 						"will"
@@ -690,7 +690,7 @@
 				},
 				{
 					"ac": 15,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -723,16 +723,16 @@
 						"Bol'bara's habilitat de llançament de conjurs innata is Carisma ({@dc 12} salvada de conjur, {@hit 4} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell eldritch blast}",
-						"{@spell false life}",
-						"{@spell mage armor}",
-						"{@spell mage hand}"
+						"{@spell missil èldritx}",
+						"{@spell pseudo vida}",
+						"{@spell armadura de mag}",
+						"{@spell mà de mag}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell fascinar persona}",
-							"{@spell hex}",
-							"{@spell hold person}",
+							"{@spell embruix}",
+							"{@spell immobilitzar humanoide}",
 							"{@spell invisibility}"
 						]
 					},
@@ -767,7 +767,7 @@
 					]
 				},
 				{
-					"name": "Eldritch Blast (Truc)",
+					"name": "Missil Èldritx (Truc)",
 					"entries": [
 						"{@atk rs} {@hit 4} a impactar, 120 peus d'abast, una criatura. {@h}7 ({@damage 1d10 + 2}) de dany de força."
 					]
@@ -784,7 +784,7 @@
 				{
 					"name": "Zone of Calamity (Costa 2 Accions)",
 					"entries": [
-						"A 15-foot-radius sphere of magical confusion extends from a point Bol'bara can see within 60 feet of her and s'extèn per les cantonades. Each creature that starts its turn in that area is treated as if targeted by the {@spell confusió} spell (save {@dc 12}). The sphere lasts as long as Bol'bara maintains concentration, up to 1 minute (as if concentrating on a spell)."
+						"A 15-foot-radius sphere of magical confusion extends from a point Bol'bara can see within 60 feet of her and s'extén per les cantonades. Each creature that starts its turn in that area is treated as if targeted by the {@spell confusió} spell (save {@dc 12}). The sphere lasts as long as Bol'bara maintains concentration, up to 1 minute (as if concentrating on a spell)."
 					]
 				}
 			],
@@ -1029,7 +1029,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(flotar)"
 				},
@@ -1089,7 +1089,7 @@
 				{
 					"name": "Alluring Thrum (Recharges 5-6)",
 					"entries": [
-						"The emissary emits a dreadful yet alluring hum. Each creature within 20 feet of the emissary that can hear it and that isn't an aberration ha de salvar per Constitució amb {@dc 14} or be {@condition charmed} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"The emissary emits a dreadful yet alluring hum. Each creature within 20 feet of the emissary that can hear it and that isn't an aberration ha de salvar per Constitució amb {@dc 14} or be {@condition charmed} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -1640,7 +1640,7 @@
 				{
 					"name": "Trill",
 					"entries": [
-						"The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear ha de salvar per Saviesa amb {@dc 20} or be {@condition stunned} for 1 minute. A creature can repeat the saving throw each time it takes damage and al final de cada torn seu, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect."
+						"The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear ha de salvar per Saviesa amb {@dc 20} or be {@condition stunned} durant 1 minut. A creature can repeat the saving throw each time it takes damage and al final de cada torn seu, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect."
 					]
 				}
 			],
@@ -1834,7 +1834,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 80
+				"volar": 80
 			},
 			"str": 22,
 			"dex": 16,
@@ -2480,23 +2480,23 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
+								"{@spell arts de druida}",
 								"{@spell il·lusió menor}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell curar ferides}",
-								"{@spell fog cloud}",
-								"{@spell thunderwave}"
+								"{@spell núvol de boira}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell immobilitzar humanoide}",
 								"{@spell imatge mirall}",
 								"{@spell pas boira}"
 							]
@@ -2506,7 +2506,7 @@
 							"spells": [
 								"{@spell dissipar màgia}",
 								"{@spell lightning bolt} (see \"Actions\" below)",
-								"{@spell sleet storm}"
+								"{@spell tempesta d'aiguaneu}"
 							]
 						}
 					},
@@ -2531,7 +2531,7 @@
 				{
 					"name": "Llampec (3rd-Level Spell; Requires a Spell Slot)",
 					"entries": [
-						"The merrow unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Each creature in the line ha de salvar per Destresa amb {@dc 13}. Qui falli rep 28 ({@damage 8d6}) de dany elèctric; qui superi, en rep la meitat."
+						"The merrow unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Tota criatura a dins de la línia ha de salvar per Destresa amb {@dc 13}. Qui falli rep 28 ({@damage 8d6}) de dany elèctric; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -2661,7 +2661,7 @@
 						"L'habilitat de llançament de conjurs innata de Mossback Steward és Saviesa ({@dc 15} salvació de conjur). Pot llançar els següents conjurs innatament, requiring no material components."
 					],
 					"will": [
-						"{@spell friends}"
+						"{@spell amistar}"
 					],
 					"rest": {
 						"1": [
@@ -2770,7 +2770,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}13 ({@damage 2d8 + 4}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 15} o become {@condition poisoned} for 1 minute. La criatura {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}13 ({@damage 2d8 + 4}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 15} o become {@condition poisoned} durant 1 minut. La criatura {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -2913,9 +2913,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
+								"{@spell llum}",
 								"{@spell sacred flame}",
-								"{@spell spare the dying}"
+								"{@spell misericòrdia}"
 							]
 						},
 						"1": {
@@ -2923,21 +2923,21 @@
 							"spells": [
 								"{@spell command}",
 								"{@spell curar ferides}",
-								"{@spell guiding bolt}"
+								"{@spell sageta guia}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell lesser restoration}",
-								"{@spell spiritual weapon}"
+								"{@spell restabliment menor}",
+								"{@spell arma espiritual}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
 								"{@spell dissipar màgia}",
-								"{@spell revivify}"
+								"{@spell revifar}"
 							]
 						}
 					},
@@ -3030,7 +3030,7 @@
 						"L'habilitat de llançament de conjurs innata de The warlock és Carisma ({@dc 13} salvada de conjur, {@hit 5} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell eldritch blast} (see \"Actions\" below)",
+						"{@spell missil èldritx} (see \"Actions\" below)",
 						"{@spell il·lusió menor}"
 					],
 					"daily": {
@@ -3040,7 +3040,7 @@
 							"{@spell contraconjur}",
 							"{@spell corona de bogeria}",
 							"{@spell invisibility}",
-							"{@spell hunger of Hadar}"
+							"{@spell fam d'Hadar}"
 						]
 					},
 					"ability": "cha"
@@ -3060,7 +3060,7 @@
 					]
 				},
 				{
-					"name": "Shark Telepathy",
+					"name": "Shark Telepatia",
 					"entries": [
 						"The warlock can magically command any shark within 120 feet of it, using a limited telepathy."
 					]
@@ -3086,7 +3086,7 @@
 					]
 				},
 				{
-					"name": "Eldritch Blast (Truc)",
+					"name": "Missil Èldritx (Truc)",
 					"entries": [
 						"{@atk rs} {@hit 5} a impactar, 120 peus d'abast, una criatura. {@h}5 ({@damage 1d10}) de dany de força."
 					]
@@ -3220,13 +3220,13 @@
 						"L'habilitat de llançament de conjurs innata de The sea fury és Carisma ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell witch bolt}"
+						"{@spell llampec bruixot}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell imposar maledicció}",
-							"{@spell fear}",
-							"{@spell thunderwave}"
+							"{@spell temor}",
+							"{@spell tronada}"
 						]
 					},
 					"ability": "cha"
@@ -3407,7 +3407,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany tallant. If the target is a creature other than an undead, ha de salvar per Constitució amb {@dc 12} or be {@condition paralyzed} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany tallant. If the target is a creature other than an undead, ha de salvar per Constitució amb {@dc 12} or be {@condition paralyzed} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -3519,7 +3519,7 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Sken wears a ring of obscuring. With it, she can cast the fog cloud spell centered on herself three times per day. The cloud lasts for 1 minute (no concentration required)."
+						"Sken wears a ring of obscuring. With it, she can cast the núvol de boira spell centered on herself three times per day. The cloud lasts for 1 minute (no concentration required)."
 					]
 				}
 			],
@@ -3577,23 +3577,23 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell produce flame}",
-								"{@spell resistance}",
-								"{@spell thorn whip}"
+								"{@spell produir flama}",
+								"{@spell resistència}",
+								"{@spell fuet d'espines}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell fog cloud}"
+								"{@spell enredar}",
+								"{@spell núvol de boira}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell ceguera/sordera}",
-								"{@spell spike growth}"
+								"{@spell brot d'espines}"
 							]
 						},
 						"3": {
@@ -3685,7 +3685,7 @@
 				{
 					"name": "Petrifying Secretions",
 					"entries": [
-						"A creature ha de salvar per Constitució amb {@dc 13} if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition grappled} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone i està {@condition restrained}, and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is {@condition petrified}."
+						"A creature ha de salvar per Constitució amb {@dc 13} if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition grappled} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone i està {@condition restrained}, and it must repeat the saving throw at the end of its next turn. Si supera, the effect ends. On a failure, the creature is {@condition petrified}."
 					]
 				}
 			],

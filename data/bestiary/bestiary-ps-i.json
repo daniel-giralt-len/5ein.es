@@ -89,7 +89,7 @@
 				{
 					"name": "Setge Psíquic",
 					"entries": [
-						"La nina incòmoda designa una criatura a 10 peus que tingui cervell. Ha de salvar per Intel·ligència amb {@dc 12}. Si falla, rep ({@damage 2d10}) de dany psíquic; a més, tira {@dice 3d6}. Si la puntuació d'Intel·ligència de l'objectiu és igual o major al resultat, esdevè 0. L'objectiu és {@condition stunned} fins que recuperi 1 o més punts d'Intel·ligència, com amb el conjur {@spell greater restoration} o similar."
+						"La nina incòmoda designa una criatura a 10 peus que tingui cervell. Ha de salvar per Intel·ligència amb {@dc 12}. Si falla, rep ({@damage 2d10}) de dany psíquic; a més, tira {@dice 3d6}. Si la puntuació d'Intel·ligència de l'objectiu és igual o major al resultat, esdevè 0. L'objectiu és {@condition stunned} fins que recuperi 1 o més punts d'Intel·ligència, com amb el conjur {@spell restabliment superior} o similar."
 					]
 				},
 				{
@@ -180,7 +180,7 @@
 					"_": {
 						"mode": "addSpells",
 						"will": [
-							"{@spell protection from evil and good}"
+							"{@spell protegir del bé i del mal}"
 						],
 						"daily": {
 							"1e": [
@@ -209,7 +209,7 @@
 						"items": {
 							"name": "Amenaca d'Ornit",
 							"entries": [
-								"Com a acció l'àngel pot atemorir als seus enemics. Tota criatura a 120 peus de l'àngel i que sàpiga que hi és ha de salvar per Saviesa, amb CD de salvació de conjur innat de l'ànger. Qui falli queda acovardat durant un minut. saving throw or become frightened for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi. Si supera o si l'efecte es cancel·la d'alguna manera la criatura hi és immune durant 24 hores per aquest àngel."
+								"Com a acció l'àngel pot atemorir als seus enemics. Tota criatura a 120 peus de l'àngel i que sàpiga que hi és ha de salvar per Saviesa, amb CD de salvació de conjur innat de l'ànger. Qui falli queda acovardat durant un minut. saving throw or become frightened durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi. Si supera o si l'efecte es cancel·la d'alguna manera la criatura hi és immune durant 24 hores per aquest àngel."
 							]
 						}
 					}
@@ -265,7 +265,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 7,
 			"dex": 13,
@@ -327,7 +327,7 @@
 				{
 					"name": "Poders de Geist: Albir Terrorífic",
 					"entries": [
-						"Els geists negre-alineats poden ser un espectacle terrible, fins i tot quan estan posseïnt als vius. Tota criatura no no-morta a 60 peus d'un geist negre-alineat que pugui veure'l ha de salvar per Saviesa amb {@dc 13}. Qui falli estarà {@condition frightened} durant 1 minut. Qui falli per més de 5 també envelleix {@dice 1d4 × 10} anys. Les criatures {@condition frightened} poden repetir la salvada al final de cada torn, cancel·lan l'efecte {@condition frightened} quan superin. Si un objectiu supera la salvada o se li acaba la condició, és immune a l'Albir Terrorífic d'aquest geist durant les properes 24 hores. L'envelliment es pot revertir amb el conjur {@spell greater restoration} si es llança abans de 24 hores."
+						"Els geists negre-alineats poden ser un espectacle terrible, fins i tot quan estan posseïnt als vius. Tota criatura no no-morta a 60 peus d'un geist negre-alineat que pugui veure'l ha de salvar per Saviesa amb {@dc 13}. Qui falli estarà {@condition frightened} durant 1 minut. Qui falli per més de 5 també envelleix {@dice 1d4 × 10} anys. Les criatures {@condition frightened} poden repetir la salvada al final de cada torn, cancel·lan l'efecte {@condition frightened} quan superin. Si un objectiu supera la salvada o se li acaba la condició, és immune a l'Albir Terrorífic d'aquest geist durant les properes 24 hores. L'envelliment es pot revertir amb el conjur {@spell restabliment superior} si es llança abans de 24 hores."
 					]
 				}
 			],
@@ -434,18 +434,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
-								"{@spell produce flame}",
+								"{@spell arts de druida}",
+								"{@spell produir flama}",
 								"{@spell shillelagh}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell entangle}",
-								"{@spell longstrider}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell enredar}",
+								"{@spell llarg de gambals}",
+								"{@spell parlar animal}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -724,7 +724,7 @@
 				{
 					"name": "Aura de Silenci",
 					"entries": [
-						"El vampir s'envolta de silenci a un radi de 2 peus. Dins del radi ocorre el mateix efecte que el del conjur {@spell silence}."
+						"El vampir s'envolta de silenci a un radi de 2 peus. Dins del radi ocorre el mateix efecte que el del conjur {@spell silenci}."
 					]
 				}
 			],
