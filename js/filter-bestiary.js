@@ -88,7 +88,7 @@ class PageFilterBestiary extends PageFilter {
 		});
 		this._tagFilter = new Filter({header: "Tag", displayFn: StrUtil.uppercaseFirst});
 		this._alignmentFilter = new Filter({
-			header: "Alignment",
+			header: "Alineament",
 			items: ["L", "NX", "C", "G", "NY", "E", "N", "U", "A", "No Alignment"],
 			displayFn: alignment => Parser.alignmentAbvToFull(alignment).toTitleCase(),
 			itemSortFn: null,

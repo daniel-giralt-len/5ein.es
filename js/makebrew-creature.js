@@ -701,7 +701,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getAlignmentInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Alignment", {isMarked: true});
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Alineament", {isMarked: true});
 
 		const doUpdateState = () => {
 			const raw = alignmentRows.map(row => row.getAlignment());

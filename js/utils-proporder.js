@@ -134,7 +134,7 @@ PropOrder._MONSTER = [
 	"size",
 	"sizeNote",
 	"type",
-	"alignment",
+	"alineament",
 
 	"ac",
 	"hp",
@@ -626,7 +626,7 @@ PropOrder._DEITY = [
 
 	"customExtensionOf",
 
-	"alignment",
+	"alineament",
 	"title",
 	"category",
 	"domains",

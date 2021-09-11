@@ -4308,8 +4308,8 @@ Renderer.race = {
 
 Renderer.deity = {
 	_basePartTranslators: {
-		"Alignment": {
-			prop: "alignment",
+		"Alineament": {
+			prop: "alineament",
 			displayFn: (it) => it.map(a => Parser.alignmentAbvToFull(a)).join(" "),
 		},
 		"Pantheon": {
