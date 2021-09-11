@@ -1752,7 +1752,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getLanguageInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Languages");
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Idiomes");
 
 		const doUpdateState = () => {
 			const raw = $iptLanguages.val().trim();

@@ -137,7 +137,7 @@ class NavBar {
 		addLi(ulReferences, "conditionsdiseases.html", "Conditions & Diseases");
 		addLi(ulReferences, "deities.html", "Deities");
 		addLi(ulReferences, "items.html", "Items");
-		addLi(ulReferences, "languages.html", "Languages");
+		addLi(ulReferences, "languages.html", "Idiomes");
 		addLi(ulReferences, "rewards.html", "Supernatural Gifts & Rewards");
 		addLi(ulReferences, "psionics.html", "Psionics");
 		addLi(ulReferences, "spells.html", "Spells");

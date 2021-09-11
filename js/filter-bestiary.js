@@ -94,7 +94,7 @@ class PageFilterBestiary extends PageFilter {
 			itemSortFn: null,
 		});
 		this._languageFilter = new Filter({
-			header: "Languages",
+			header: "Idiomes",
 			displayFn: (k) => Parser.monLanguageTagToFull(k).toTitleCase(),
 			umbrellaItems: ["X", "XX"],
 			umbrellaExcludes: ["CS"],

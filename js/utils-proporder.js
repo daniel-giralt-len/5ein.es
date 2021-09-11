@@ -155,7 +155,7 @@ PropOrder._MONSTER = [
 	"immune",
 	"vulnerable",
 	"conditionImmune",
-	"languages",
+	"idiomes",
 	"cr",
 	"pbNote",
 

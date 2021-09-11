@@ -452,7 +452,7 @@ class MakeCards extends BaseComponent {
 			mon.immune ? this._ct_property("Damage Immunities", this._ct_htmlToText(Parser.getFullImmRes(mon.immune))) : null,
 			mon.conditionImmune ? this._ct_property("Condition Immunities", this._ct_htmlToText(Parser.getFullCondImm(mon.conditionImmune))) : null,
 			this._ct_property("Senses", this._ct_htmlToText(Renderer.monster.getSensesPart(mon))),
-			this._ct_property("Languages", this._ct_htmlToText(Renderer.monster.getRenderedLanguages(mon.languages))),
+			this._ct_property("Idiomes", this._ct_htmlToText(Renderer.monster.getRenderedLanguages(mon.languages))),
 			this._ct_property("Challenge", this._ct_htmlToText(Parser.monCrToFull(mon.cr, {isMythic: !!mon.mythic}))),
 			this._ct_rule(),
 			...(allTraits ? this._ct_renderEntries(allTraits, 2) : []),

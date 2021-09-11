@@ -4058,7 +4058,7 @@ Renderer.race = {
 				r.entries = r.entries || [];
 				r.entries.push({
 					type: "entries",
-					name: "Languages",
+					name: "Idiomes",
 					entries: ["Pots parlar, llegir, i escriure Common and one other language that you and your DM agree is appropriate for your character."],
 				});
 

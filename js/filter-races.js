@@ -788,7 +788,7 @@ class PageFilterRaces extends PageFilter {
 			},
 		});
 		this._languageFilter = new Filter({
-			header: "Languages",
+			header: "Idiomes",
 			items: [
 				"Abismal",
 				"Celestial",

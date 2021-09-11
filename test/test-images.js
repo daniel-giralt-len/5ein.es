@@ -65,7 +65,7 @@ if (fs.existsSync("./img")) {
 		"vehicles",
 		"characters",
 		"conditionsdiseases",
-		"languages",
+		"idiomes",
 		"plutonium",
 		"covers",
 		"spells",
