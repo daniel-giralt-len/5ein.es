@@ -301,12 +301,12 @@ const CHILDHOOD_MEMORIES = [
 ];
 
 const LIFE_EVENTS_AGE = [
-	{min: 1, max: 20, "age": () => RNG(20), result: "20 years or younger", "events": 1},
-	{min: 21, max: 59, "age": () => RNG(10) + 20, result: "21\u201430 years", "events": () => RNG(4)},
-	{min: 60, max: 69, "age": () => RNG(10) + 30, result: "31\u201440 years", "events": () => RNG(6)},
-	{min: 70, max: 89, "age": () => RNG(10) + 40, result: "41\u201450 years", "events": () => RNG(8)},
-	{min: 90, max: 99, "age": () => RNG(10) + 50, result: "51\u201460 years", "events": () => RNG(10)},
-	{min: 100, "age": () => RNG(690) + 60, result: "61 years or older", "events": () => RNG(12)}, // max age = 750; max elven age
+	{min: 1, max: 20, "edat": () => RNG(20), result: "20 years or younger", "events": 1},
+	{min: 21, max: 59, "edat": () => RNG(10) + 20, result: "21\u201430 years", "events": () => RNG(4)},
+	{min: 60, max: 69, "edat": () => RNG(10) + 30, result: "31\u201440 years", "events": () => RNG(6)},
+	{min: 70, max: 89, "edat": () => RNG(10) + 40, result: "41\u201450 years", "events": () => RNG(8)},
+	{min: 90, max: 99, "edat": () => RNG(10) + 50, result: "51\u201460 years", "events": () => RNG(10)},
+	{min: 100, "edat": () => RNG(690) + 60, result: "61 years or older", "events": () => RNG(12)}, // max age = 750; max elven age
 ];
 
 function _lifeEvtResult (title, rollResult) {

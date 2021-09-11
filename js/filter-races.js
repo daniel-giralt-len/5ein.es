@@ -770,7 +770,7 @@ class PageFilterRaces extends PageFilter {
 				"Visió de Foscor", "Superior Visió de Foscor",
 				"Dragonmark",
 				"Feat",
-				"Improved Resting",
+				"Descans Millorat",
 				"Monstrous Race",
 				"Armadura Natural",
 				"NPC Race",

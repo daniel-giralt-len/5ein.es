@@ -806,7 +806,7 @@ PropOrder._ITEM = [
 	"quantity",
 
 	"weaponCategory",
-	"age",
+	"edat",
 
 	"property",
 	"range",
