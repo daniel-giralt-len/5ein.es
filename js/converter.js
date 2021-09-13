@@ -291,7 +291,7 @@ Magic Resistance. Mammon té avantatge a salvar contra conjurs i altres efectes 
 Magic Weapons. Mammon's weapon attacks are magical.
 ACTIONS
 Multiattack. Mammon makes three attacks.
-Purse. Atac armat melé: +14 a impactar, 10 peus d'abast, un objectiu. Hit: 19 (3d8 + 6) de dany contundent mes 18 (4d8) de dany radiant.
+Purse. Atac armat cos a cos: +14 a impactar, 10 peus d'abast, un objectiu. Hit: 19 (3d8 + 6) de dany contundent mes 18 (4d8) de dany radiant.
 Molten Coins. Atac armat a distància: +14 a impactar, 40/120 peus d'abast, un objectiu. Hit: 16 (3d6 + 6) de dany contundent mes 18 (4d8) de dany de foc.
 Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. The creature must make a DC 24 Constitució saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a restabliment superior spell or comparable magic.
 LEGENDARY ACTIONS
@@ -341,7 +341,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 >
 >### Actions
->***Paralyzing Touch.*** Atac màgic melé: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
+>***Paralyzing Touch.*** Atac màgic cos a cos: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target must succeed on a DC 18 Constitució saving throw or be paralyzed durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
 >
 >### Legendary Actions
 >The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
