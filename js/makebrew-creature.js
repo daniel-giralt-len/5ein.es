@@ -2558,7 +2558,7 @@ class CreatureBuilder extends Builder {
 									const ptDamageFull = $cbBonusDamage.prop("checked") ? `${ptDamage}, plus ${getDamageDicePt($iptBonusDamDiceCount, $iptBonusDamDiceNum, $iptBonusDamBonus, true)}${getDamageTypePt($iptBonusDamType)} damage` : ptDamage;
 
 									return {
-										name: $iptName.val().trim() || "Unarmed Strike",
+										name: $iptName.val().trim() || "Atac Desarmat",
 										entries: [
 											`${ptAtk} ${ptHit}, ${ptRange}, un objectiu. {@h}${ptDamageFull}.`,
 										],

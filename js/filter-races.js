@@ -779,7 +779,7 @@ class PageFilterRaces extends PageFilter {
 				"Llançament de Conjurs",
 				"Sensible al Sol",
 				"Tool Proficiency",
-				"Unarmed Strike",
+				"Atac Desarmat",
 				"Uncommon Race",
 				"Weapon Proficiency",
 			],
