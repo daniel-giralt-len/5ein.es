@@ -127,6 +127,7 @@
 |To hit|A impactar
 |Truesight|Visió veraç
 |Unconscious|Inconscient
+|Warforged|Guerraforjat
 |Warlock|Bruixot/a/i
 |Within range|A l'abast
 |Wisdom|Saviesa
