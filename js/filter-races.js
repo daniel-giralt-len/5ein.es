@@ -773,7 +773,7 @@ class PageFilterRaces extends PageFilter {
 				"Descans Millorat",
 				"Monstrous Race",
 				"Armadura Natural",
-				"NPC Race",
+				"Raça PNJ",
 				"Powerful Build",
 				"Skill Proficiency",
 				"Llançament de Conjurs",
@@ -784,7 +784,7 @@ class PageFilterRaces extends PageFilter {
 				"Weapon Proficiency",
 			],
 			deselFn: (it) => {
-				return it === "NPC Race";
+				return it === "Raça PNJ";
 			},
 		});
 		this._languageFilter = new Filter({
