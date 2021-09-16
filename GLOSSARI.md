@@ -124,6 +124,7 @@
 |Strength|Força|
 |Stunned|Atordit
 |Survival|Supervivència
+|Sylvan|Silvà
 |Take an action|Prendre una acció
 |Target|Objectiu
 |Teleport|Teletransportació O BÉ Teleportació

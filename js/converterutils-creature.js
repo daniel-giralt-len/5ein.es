@@ -61,7 +61,7 @@ class AcConvert {
 						case "patchwork armor":
 						case "see natural armor feature":
 						case "pell d'escorça trait":
-						case "sylvan warrior":
+						case "silvà warrior":
 						case "cage":
 						case "chains":
 						case "coin mail":
