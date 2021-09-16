@@ -59,6 +59,7 @@
 |Half-(elf)|Semi-(elf)
 |Halfling|Mitjerol
 |Heavily obscured|Molt ofuscat
+|High Jump|Salt vertical
 |History|Història
 |Hit Dice|Daus de Cop
 |Hit Points|Punts de Cop
@@ -76,6 +77,7 @@
 |Language|Idioma
 |Level|Nivell
 |Lightly obscured|Poc ofuscat
+|Long Jump|Salt de Llargada
 |Medicine|Medicina
 |Melee|Melé
 |Mithral|Mitrall
@@ -104,6 +106,7 @@
 |Rest (Short/Long)|Descans (Curt/Llarg)
 |Restrained|Retingut
 |Rogue|Pícar/a/i
+|Running start|Impuls
 |Saving Throw|Salvada
 |Shadowfell|l'Erm de l'Ombra
 |Shapechanger|Canviaformes
