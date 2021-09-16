@@ -8,9 +8,9 @@ class MoneyConverter {
 		const COIN_WEIGHT = 0.02;
 		const CURRENCY = [
 			new MoneyConverterUnit("Copper", 1, "cp"),
-			new MoneyConverterUnit("Silver", 10, "sp"),
+			new MoneyConverterUnit("Argent", 10, "sp"),
 			new MoneyConverterUnit("Electrum", 50, "ep"),
-			new MoneyConverterUnit("Gold", 100, "gp"),
+			new MoneyConverterUnit("Or", 100, "gp"),
 			new MoneyConverterUnit("Platinum", 1000, "pp"),
 			new MoneyConverterUnit("Nib (WDH)", 1, "nib"),
 			new MoneyConverterUnit("Shard (WDH)", 10, "shard"),

@@ -447,9 +447,9 @@ Parser.DRAGON_COLOR_TO_FULL = {
 	W: "white",
 	A: "brass",
 	Z: "bronze",
-	C: "copper",
-	O: "gold",
-	S: "silver",
+	C: "coure",
+	O: "or",
+	S: "argent",
 };
 
 Parser.acToFull = function (ac, renderer) {
