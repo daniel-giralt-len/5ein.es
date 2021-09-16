@@ -261,7 +261,7 @@
 							"page": 12,
 							"entries": [
 								"Your character's hit points define how tough your character is in combat and other dangerous situations. Your hit points are determined by your Hit Dice (short for Hit Point Dice).",
-								"At 1st level, your character has 1 Hit Die, and the die type is determined by your class. You start with hit points equal to the highest roll of that die, as indicated in your class description. (You also add your Constitució modifier, which you'll determine in step 3.) This is also your {@b hit point maximum}.",
+								"At 1st level, your character has 1 Hit Die, and the die type is determined by your class. You start with hit points equal to the highest roll of that die, as indicated in your class description. (You also add your Constitució modifier, which you'll determine in step 3.) This is also your {@b punts de vida màxims}.",
 								"Record your character's hit points on your character sheet. Also record the type of Hit Die your character uses and the number of Hit Dice you have. After you rest, you can spend Hit Dice to regain hit points (see \"Resting\" in chapter 8)."
 							],
 							"id": "015"
@@ -712,8 +712,8 @@
 					"entries": [
 						"As your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point total advances in capability. This advancement is called {@b gaining a level}.",
 						"When your character gains a level, his or her class often grants additional features, as detailed in the class description. Some of these features allow you to increase your ability scores, either increasing two scores by 1 each or increasing one score by 2. You can't increase an ability score above 20. In addition, every character's proficiency bonus increases at certain levels.",
-						"Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitució modifier to the roll, and add the total (minimum of 1) to your hit point maximum. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (arrodoneix a l'alta).",
-						"When your Constitució modifier increases by 1, your hit point maximum increases by 1 for each level you have attained. For example, when Bruenor reaches 8th level as a fighter, he increases his Constitució score from 17 to 18, thus increasing his Constitució modifier from +3 to +4. His hit point maximum then increases by 8.",
+						"Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitució modifier to the roll, and add the total (minimum of 1) to your punts de vida màxims. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (arrodoneix a l'alta).",
+						"When your Constitució modifier increases by 1, your punts de vida màxims increases by 1 for each level you have attained. For example, when Bruenor reaches 8th level as a fighter, he increases his Constitució score from 17 to 18, thus increasing his Constitució modifier from +3 to +4. His punts de vida màxims then increases by 8.",
 						"The Character Advancement table summarizes the PX you need to advance in levels from level 1 through level 20, and the proficiency bonus for a character of that level. Consult the information in your character's class description to see what other improvements you gain at each level.",
 						{
 							"type": "entries",
@@ -6631,7 +6631,7 @@
 									"page": 177,
 									"entries": [
 										"Your Constitució modifier contributes to your hit points. Typically, you add your Constitució modifier to each Hit Die you roll for your hit points.",
-										"If your Constitució modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitució score when you reach 4th level and your Constitució modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitució score so as to reduce your Constitució modifier by 1, your hit point maximum is reduced by 7."
+										"If your Constitució modifier changes, your punts de vida màxims changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitució score when you reach 4th level and your Constitució modifier increases from +1 to +2, you adjust your punts de vida màxims as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitució score so as to reduce your Constitució modifier by 1, your punts de vida màxims is reduced by 7."
 									],
 									"id": "127"
 								}
@@ -8263,7 +8263,7 @@
 							"page": 196,
 							"entries": [
 								"Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more hit points are more difficult to kill. Those with fewer hit points are more fragile.",
-								"A creature's current hit points (usually just called hit points) can be any number from the creature's hit point maximum down to 0. This number changes frequently as a creature takes damage or receives healing. Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature es queda a 0 punts de vida."
+								"A creature's current hit points (usually just called hit points) can be any number from the creature's punts de vida màxims down to 0. This number changes frequently as a creature takes damage or receives healing. Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature es queda a 0 punts de vida."
 							],
 							"id": "1aa"
 						},
@@ -8429,7 +8429,7 @@
 									"name": "Describing the Effects of Damage",
 									"page": 197,
 									"entries": [
-										"Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you {@condition inconscient}."
+										"Dungeon Masters describe hit point loss in different ways. When your current hit point total is half or more of your punts de vida màxims, you typically show no signs of injury. When you drop below half your punts de vida màxims, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 hit points strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you {@condition inconscient}."
 									],
 									"id": "1bc"
 								}
@@ -8442,7 +8442,7 @@
 							"page": 197,
 							"entries": [
 								"Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points (as explained in chapter 8), and magical methods such as a curar ferides spell or a potion of healing can remove damage in an instant.",
-								"When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.",
+								"When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its punts de vida màxims, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a punts de vida màxims of 20, the ranger regains 6 hit points from the druid, not 8.",
 								"A creature that has died can't regain hit points until magic such as the revifar spell has restored it to life."
 							],
 							"id": "1bd"
@@ -8463,8 +8463,8 @@
 									"name": "Instant Death",
 									"page": 197,
 									"entries": [
-										"Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.",
-										"For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies."
+										"Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your punts de vida màxims.",
+										"For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her punts de vida màxims, the cleric dies."
 									],
 									"id": "1bf"
 								},
@@ -8498,7 +8498,7 @@
 											"name": "Damage at 0 Hit Points",
 											"page": 197,
 											"entries": [
-												"If you take any damage while you have 0 hit points, you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death."
+												"If you take any damage while you have 0 hit points, you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your punts de vida màxims, you suffer instant death."
 											],
 											"id": "1c3"
 										}
@@ -8548,7 +8548,7 @@
 							"entries": [
 								"Some spells and special abilities confer temporary hit points to a creature. Temporary hit points aren't actual hit points; they are a buffer against damage, a pool of hit points that protect you from injury.",
 								"When you have temporary hit points and take damage, the temporary hit points are lost first, and any leftover damage carries over to your normal hit points. For example, if you have 5 temporary hit points and take 7 damage, you lose the temporary hit points and then take 2 damage.",
-								"Because temporary hit points are separate from your actual hit points, they can exceed your hit point maximum. A character can, therefore, be at full hit points and receive temporary hit points.",
+								"Because temporary hit points are separate from your actual hit points, they can exceed your punts de vida màxims. A character can, therefore, be at full hit points and receive temporary hit points.",
 								"Healing can't restore temporary hit points, and they can't be added together. If you have temporary hit points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 temporary hit points when you already have 10, you can have 12 or 10, not 22.",
 								"If you have 0 hit points, receiving temporary hit points doesn't restore you to consciousness or stabilize you.",
 								"They can still absorb damage directed at you while you're in that state, but only true healing can save you.",
