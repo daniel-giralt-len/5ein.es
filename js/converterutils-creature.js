@@ -558,7 +558,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"one additional": "X",
 	"Blink Dog": "OTH",
 	"Bothii": "OTH",
-	"Bullywug": "OTH",
+	"Batrac": "OTH",
 	"one other language": "X",
 	"plus six more": "X",
 	"plus two more languages": "X",
