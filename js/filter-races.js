@@ -778,7 +778,7 @@ class PageFilterRaces extends PageFilter {
 				"Skill Proficiency",
 				"Llançament de Conjurs",
 				"Sensible al Sol",
-				"Tool Proficiency",
+				"Competència amb Eines",
 				"Atac Desarmat",
 				"Uncommon Race",
 				"Weapon Proficiency",

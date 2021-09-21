@@ -35,7 +35,7 @@ class PageFilterFeats extends PageFilter {
 				"Armor Proficiency",
 				"Skill Proficiency",
 				"Llançament de Conjurs",
-				"Tool Proficiency",
+				"Competència amb Eines",
 				"Weapon Proficiency",
 			],
 		});
@@ -60,7 +60,7 @@ class PageFilterFeats extends PageFilter {
 			feat.additionalSpells ? "Llançament de Conjurs" : null,
 			feat.armorProficiencies ? "Armor Proficiency" : null,
 			feat.weaponProficiencies ? "Weapon Proficiency" : null,
-			feat.toolProficiencies ? "Tool Proficiency" : null,
+			feat.toolProficiencies ? "Competència amb Eines" : null,
 		].filter(it => it);
 		feat._fMisc = feat.srd ? ["SRD"] : [];
 
