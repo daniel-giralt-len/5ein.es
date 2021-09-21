@@ -774,7 +774,7 @@ class PageFilterRaces extends PageFilter {
 				"Raça de Monstres",
 				"Armadura Natural",
 				"Raça PNJ",
-				"Fesonomia Poderasa",
+				"Fesonomia Poderosa",
 				"Skill Proficiency",
 				"Llançament de Conjurs",
 				"Sensible al Sol",

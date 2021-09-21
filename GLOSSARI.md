@@ -50,6 +50,7 @@
 |Eldritch|Èldritx
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
+|Feats|Dots
 |Feywild|Terra Fata
 |Frightened|Acovardat
 |Gear|Equipament
