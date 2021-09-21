@@ -53,7 +53,7 @@ class PageFilterFeats extends PageFilter {
 		feat._fPrereqOther = [...preSet].map(it => (it === "other" ? "special" : it === "spellcasting2020" ? "spellcasting" : it).uppercaseFirst());
 		if (feat.prerequisite) feat._fPrereqLevel = feat.prerequisite.filter(it => it.level != null).map(it => `Level ${it.level.level}`);
 		feat._fBenifits = [
-			feat.resist ? "Damage Resistència" : null,
+			feat.resist ? "Resistència al Dany" : null,
 			feat.immune ? "Damage Immunity" : null,
 			feat.conditionImmune ? "Condition Immunity" : null,
 			feat.skillProficiencies ? "Skill Proficiency" : null,
