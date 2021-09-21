@@ -125,6 +125,7 @@
 |Strength|Força|
 |Stunned|Atordit
 |Survival|Supervivència
+|Swimming speed|Velocitat de natació
 |Sylvan|Silvà
 |Take an action|Prendre una acció
 |Target|Objectiu
@@ -132,6 +133,7 @@
 |To hit|A impactar
 |Truesight|Visió veraç
 |Unconscious|Inconscient
+|Walking speed|Velocitat de caminar
 |Warforged|Guerraforjat
 |Warlock|Bruixot/a/i
 |Within range|A l'abast
