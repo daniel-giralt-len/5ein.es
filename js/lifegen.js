@@ -179,7 +179,7 @@ function rollOnArray (lst) {
 	return lst[RNG(lst.length) - 1]
 }
 
-const RACES_SELECTABLE = ["Dwarf", "Elf", "Semi-Elf", "Semi-Orc", "Tíflin"];
+const RACES_SELECTABLE = ["Nan", "Elf", "Semi-Elf", "Semi-Orc", "Tíflin"];
 const RACES_UNSELECTABLE = ["Humà", "Halfling", "Sang de Drac", "Gnom"];
 
 const PARENTS_HALF_ELF = [
@@ -523,7 +523,7 @@ const SUPP_OCCUPATION = [
 
 const SUPP_RACE = [
 	{min: 1, max: 40, result: "Humà"},
-	{min: 41, max: 50, result: "Dwarf"},
+	{min: 41, max: 50, result: "Nan"},
 	{min: 51, max: 60, result: "Elf"},
 	{min: 61, max: 70, result: "Halfling"},
 	{min: 71, max: 75, result: "Sang de Drac"},
@@ -759,7 +759,7 @@ function sectSiblings () {
 			sibCount = RNG(8) + 3;
 			break;
 	}
-	if (race === "Elf" || race === "Dwarf") {
+	if (race === "Elf" || race === "Nan") {
 		sibCount = Math.max(sibCount - 2, 0);
 	}
 
