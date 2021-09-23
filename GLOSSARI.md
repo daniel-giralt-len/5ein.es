@@ -132,6 +132,7 @@
 |Teleport|Teletransportació O BÉ Teleportació
 |To hit|A impactar
 |Truesight|Visió veraç
+|Underdark|Sotafoscor
 |Unconscious|Inconscient
 |Walking speed|Velocitat de caminar
 |Warforged|Guerraforjat
