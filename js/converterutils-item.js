@@ -493,7 +493,7 @@ class ReqAttuneTagTag {
 
 		const tags = [];
 
-		// "by a creature with the Mark of Finding"
+		// "by a creature with the Marcatroba"
 		req = req.replace(/(?:a creature with the )?\bMark of ([A-Z][^ ]+)/g, (...m) => {
 			const races = ReqAttuneTagTag._EBERRON_MARK_RACES[`Mark of ${m[1]}`];
 			if (!races) return "";
@@ -612,9 +612,9 @@ ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	"Marca-Escriba": ["Gnome (Marca-Escriba)|ERLW"],
 	"Marcadetecta": ["Semi-Elf (Variant; Marcadetecta)|ERLW"],
 	"Marcatempesta": ["Semi-Elf (Variant; Marcatempesta)|ERLW"],
-	"Mark of Finding": [
-		"Semi-Orc (Mark of Finding)|ERLW",
-		"Human (Mark of Finding)|ERLW",
+	"Marcatroba": [
+		"Semi-Orc (Marcatroba)|ERLW",
+		"Human (Marcatroba)|ERLW",
 	],
 	"Mark of Healing": ["Halfling (Mark of Healing)|ERLW"],
 	"Mark of Hospitality": ["Halfling (Mark of Hospitality)|ERLW"],
