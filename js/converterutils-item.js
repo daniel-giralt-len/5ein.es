@@ -563,7 +563,7 @@ class ReqAttuneTagTag {
 		// region Alignment
 		// "by a creature of evil alignment"
 		// "by a dwarf, fighter, or paladin of good alignment"
-		// "by an elf or half-elf of neutral good alignment"
+		// "by an elf or semi-elf of neutral good alignment"
 		// "by an evil cleric or paladin"
 		const alignmentParts = req.split(/,| or /gi)
 			.map(it => it.trim())
@@ -610,10 +610,10 @@ ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	"Mark of Warding": ["Dwarf (Mark of Warding)|ERLW"],
 	"Mark of Shadow": ["Elf (Mark of Shadow)|ERLW"],
 	"Marca-Escriba": ["Gnome (Marca-Escriba)|ERLW"],
-	"Mark of Detection": ["Half-Elf (Variant; Mark of Detection)|ERLW"],
-	"Mark of Storm": ["Half-Elf (Variant; Mark of Storm)|ERLW"],
+	"Marcadetecta": ["Semi-Elf (Variant; Marcadetecta)|ERLW"],
+	"Marcatempesta": ["Semi-Elf (Variant; Marcatempesta)|ERLW"],
 	"Mark of Finding": [
-		"Half-Orc (Mark of Finding)|ERLW",
+		"Semi-Orc (Mark of Finding)|ERLW",
 		"Human (Mark of Finding)|ERLW",
 	],
 	"Mark of Healing": ["Halfling (Mark of Healing)|ERLW"],
