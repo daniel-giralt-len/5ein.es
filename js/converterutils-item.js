@@ -609,7 +609,7 @@ ReqAttuneTagTag._RAVNICA_GUILD_BACKGROUNDS = {
 ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	"Mark of Warding": ["Dwarf (Mark of Warding)|ERLW"],
 	"Mark of Shadow": ["Elf (Mark of Shadow)|ERLW"],
-	"Mark of Scribing": ["Gnome (Mark of Scribing)|ERLW"],
+	"Marca-Escriba": ["Gnome (Marca-Escriba)|ERLW"],
 	"Mark of Detection": ["Half-Elf (Variant; Mark of Detection)|ERLW"],
 	"Mark of Storm": ["Half-Elf (Variant; Mark of Storm)|ERLW"],
 	"Mark of Finding": [
