@@ -921,7 +921,7 @@ function Renderer () {
 		if (entry.constant || entry.will || entry.rest || entry.daily || entry.weekly || entry.ritual) {
 			const tempList = {type: "list", style: "list-hang-notitle", items: [], data: {isSpellList: true}};
 			if (entry.constant && !hidden.has("constant")) tempList.items.push({type: "itemSpell", name: `Constant:`, entry: this._renderSpellcasting_getRenderableList(entry.constant).join(", ")});
-			if (entry.will && !hidden.has("will")) tempList.items.push({type: "itemSpell", name: `At will:`, entry: this._renderSpellcasting_getRenderableList(entry.will).join(", ")});
+			if (entry.will && !hidden.has("will")) tempList.items.push({type: "itemSpell", name: `A voluntat:`, entry: this._renderSpellcasting_getRenderableList(entry.will).join(", ")});
 			if (entry.rest && !hidden.has("rest")) {
 				for (let lvl = 9; lvl > 0; lvl--) {
 					const rest = entry.rest;

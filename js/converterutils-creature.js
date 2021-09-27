@@ -922,7 +922,7 @@ class SpellcastingTraitConvert {
 			} else if (thisLine.startsWith("Constant: ")) {
 				hasAnyHeader = true;
 				spellcastingEntry.constant = this._getParsedSpells({thisLine, isMarkdown});
-			} else if (thisLine.startsWith("At will: ")) {
+			} else if (thisLine.startsWith("A voluntat: ")) {
 				hasAnyHeader = true;
 				spellcastingEntry.will = this._getParsedSpells({thisLine, isMarkdown});
 			} else if (thisLine.includes("Cantrip")) {
