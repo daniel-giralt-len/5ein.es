@@ -442,8 +442,8 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"spell immunity": "Spell Immunity",
 
-		"ambush": "Ambusher",
-		"ambusher": "Ambusher",
+		"ambush": "Emboscar",
+		"emboscar": "Emboscar",
 
 		"amorf": "Amorf",
 		"amorf": "Amorf",
