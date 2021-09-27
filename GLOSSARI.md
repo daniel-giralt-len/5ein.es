@@ -60,6 +60,7 @@
 |Half-(elf)|Semi-(elf)
 |Halfling|Mitjerol
 |Heavily obscured|Molt ofuscat
+|Heavy armor|Armadura pesada
 |High Jump|Salt vertical
 |History|Història
 |Hit Dice|Daus de Cop
@@ -77,9 +78,11 @@
 |Lair|Llar
 |Language|Idioma
 |Level|Nivell
+|Light armor|Armadura lleugera
 |Lightly obscured|Poc ofuscat
 |Long Jump|Salt de Llargada
 |Medicine|Medicina
+|Medium armor|Armadura intermitja
 |Melee|Melé
 |Mithral|Mitrall
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
