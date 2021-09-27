@@ -618,10 +618,10 @@ ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	],
 	"Marcacura": ["Halfling (Marcacura)|ERLW"],
 	"Marcacollidora": ["Halfling (Marcacollidora)|ERLW"],
-	"Mark of Handling": ["Human (Mark of Handling)|ERLW"],
-	"Mark of Making": ["Human (Mark of Making)|ERLW"],
-	"Mark of Passage": ["Human (Mark of Passage)|ERLW"],
-	"Mark of Sentinel": ["Human (Mark of Sentinel)|ERLW"],
+	"Marcabèstia": ["Human (Marcabèstia)|ERLW"],
+	"Marcacrea": ["Human (Marcacrea)|ERLW"],
+	"MarcaPassa": ["Human (MarcaPassa)|ERLW"],
+	"Marcasentinella": ["Human (Marcasentinella)|ERLW"],
 };
 
 if (typeof module !== "undefined") {
