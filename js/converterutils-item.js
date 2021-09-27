@@ -614,14 +614,14 @@ ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	"Marcatempesta": ["Semi-Elf (Variant; Marcatempesta)|ERLW"],
 	"Marcatroba": [
 		"Semi-Orc (Marcatroba)|ERLW",
-		"Human (Marcatroba)|ERLW",
+		"Humà (Marcatroba)|ERLW",
 	],
 	"Marcacura": ["Halfling (Marcacura)|ERLW"],
 	"Marcacollidora": ["Halfling (Marcacollidora)|ERLW"],
-	"Marcabèstia": ["Human (Marcabèstia)|ERLW"],
-	"Marcacrea": ["Human (Marcacrea)|ERLW"],
-	"MarcaPassa": ["Human (MarcaPassa)|ERLW"],
-	"Marcasentinella": ["Human (Marcasentinella)|ERLW"],
+	"Marcabèstia": ["Humà (Marcabèstia)|ERLW"],
+	"Marcacrea": ["Humà (Marcacrea)|ERLW"],
+	"MarcaPassa": ["Humà (MarcaPassa)|ERLW"],
+	"Marcasentinella": ["Humà (Marcasentinella)|ERLW"],
 };
 
 if (typeof module !== "undefined") {
