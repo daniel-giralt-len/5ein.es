@@ -24,7 +24,7 @@ Parser.attrChooseToFull = function (attList) {
 		for (let i = 0; i < attList.length; ++i) {
 			attsTemp.push(Parser.attAbvToFull(attList[i]));
 		}
-		return `${attsTemp.join(" or ")} modifier (your choice)`;
+		return `${attsTemp.join(" or ")} modifier (escull)`;
 	}
 };
 
