@@ -584,7 +584,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Thayan": "OTH",
 	"Thri-kreen": "OTH",
 	"Tlincalli": "OTH",
-	"Troglodyte": "OTH",
+	"Troglodita": "OTH",
 	"Umber Hulk": "OTH",
 	"Vegepygmy": "OTH",
 	"Winter Wolf": "OTH",
