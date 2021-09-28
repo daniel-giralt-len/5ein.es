@@ -98,7 +98,7 @@ class NavBar {
 		addLi(ulAdventures, "adventure.html", "Tales from the Yawning Portal: Against the Giants", {isSide: true, aHash: "TftYP-AtG", date: null});
 		addLi(ulAdventures, "adventure.html", "Tales from the Yawning Portal: Tomb of Horrors", {isSide: true, aHash: "TftYP-ToH", date: null});
 		addLi(ulAdventures, "adventure.html", "Tomb of Annihilation", {isSide: true, aHash: "ToA", date: null});
-		addLi(ulAdventures, "adventure.html", "The Tortle Package", {isSide: true, aHash: "TTP", date: null});
+		addLi(ulAdventures, "adventure.html", "The Tòrtel Package", {isSide: true, aHash: "TTP", date: null});
 		addLi(ulAdventures, "adventure.html", "Waterdeep: Dragon Heist", {isSide: true, aHash: "WDH", date: "2018"});
 		addLi(ulAdventures, "adventure.html", "Lost Laboratory of Kwalish", {isSide: true, aHash: "LLK", date: null});
 		addLi(ulAdventures, "adventure.html", "Waterdeep: Dungeon of the Mad Mage", {isSide: true, aHash: "WDMM", date: null});

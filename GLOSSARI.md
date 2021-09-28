@@ -8,6 +8,7 @@
 |Abyss|Abisme
 |Acrobatics|Acrobàcies
 |Adamantine|Adamantí
+|Adventurer's League|Lliga d'Aventures
 |Alignment|Alineament
 |Animal Handling|Tracte Animal
 |Arcana|Arcana

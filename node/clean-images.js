@@ -55,7 +55,7 @@ function cleanBestiaryFluffImages () {
 		"bestiary/MM/Gnoll.jpg": true,
 		"bestiary/MM/Orc.jpg": true,
 		"bestiary/MTF/Deathlock.jpg": true,
-		"bestiary/MTF/Tortle.jpg": true,
+		"bestiary/MTF/Tòrtel.jpg": true,
 		"bestiary/VGM/Darkling.jpg": true,
 		"bestiary/VGM/Grung.jpg": true,
 		"bestiary/VGM/Neogi.jpg": true,
