@@ -3129,7 +3129,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Saviesa (Animal Handling) check. You also make a Saviesa (Animal Handling) check to control your mount when you attempt a risky maneuver.",
 	],
 	"Arcana": [
-		"Your Intel·ligència (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
+		"L'Intel·ligència (Arcana) medeix la teva capacitat de recordar coneixements sobre conjurs, objectes màgics, símbols èldritxos, tradicions màgiques, plans d'existència, i dels habitants d'aqueslls plans.",
 	],
 	"Athletics": [
 		"Your Força (Atletisme) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
@@ -3146,7 +3146,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Your Carisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.",
 	],
 	"History": [
-		"Your Intel·ligència (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.",
+		"L'Intel·ligència (History) medeix la teva capacitat per a recordar coneixement d'esdeveniments històrics, regnes antics, disputes passades, guerres recents, i civilitzacions perdudes.",
 	],
 	"Insight": [
 		"Your Saviesa (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
@@ -3161,7 +3161,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"A Saviesa (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.",
 	],
 	"Nature": [
-		"Your Intel·ligència (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.",
+		"L'Intel·ligència (Nature) medeix la teva capacitat per a recall lore about terrain, plants and animals, the weather, and natural cycles.",
 	],
 	"Perception": [
 		"Your Saviesa (Percepció) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses.", "For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
@@ -3173,7 +3173,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make a Carisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
 	],
 	"Religion": [
-		"Your Intel·ligència (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
+		"L'Intel·ligència (Religion) medeix la teva capacitat per a recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
 	],
 	"Sleight of Hand": [
 		"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Destresa (Sleight of Hand) check. The DM might also call for a Destresa (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
