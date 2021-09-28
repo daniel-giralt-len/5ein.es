@@ -1831,7 +1831,7 @@ Parser.spClassesToCurrentAndLegacy = function (fromClassList) {
 	const current = [];
 	const legacy = [];
 	fromClassList.forEach(cls => {
-		if ((cls.name === "Artificer" && cls.source === "UAArtificer") || (cls.name === "Artificer (Revisited)" && cls.source === "UAArtificerRevisited")) legacy.push(cls);
+		if ((cls.name === "Artificer" && cls.source === "UAArtificer") || (cls.name === "Artificer (Revisitat)" && cls.source === "UAArtificerRevisited")) legacy.push(cls);
 		else current.push(cls);
 	});
 	return [current, legacy];
