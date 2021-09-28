@@ -144,4 +144,5 @@
 |Warlock|Bruixot/a/i
 |Within range|A l'abast
 |Wisdom|Saviesa
+|Wondrous|Meravellós/a
 |XP|PX
