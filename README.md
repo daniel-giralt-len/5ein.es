@@ -1,3 +1,5 @@
+# [Vés al catàleg!](https://daniel-giralt-len.github.io/5ein.es/)
+
 ## 5e.tools
 
 Visit the [main site](https://5e.tools/index.html) or go to the unofficial GitHub [mirror](index.html).
