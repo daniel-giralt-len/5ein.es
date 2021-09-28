@@ -1277,7 +1277,7 @@ Parser.spAreaTypeToFull = function (type) {
 
 Parser.SP_MISC_TAG_TO_FULL = {
 	HL: "Healing",
-	THP: "Grants Temporary Hit Points",
+	THP: "Grants Punts de vida temporals",
 	SGT: "Requires Sight",
 	PRM: "Permanent Effects",
 	SCL: "Scaling Effects",
