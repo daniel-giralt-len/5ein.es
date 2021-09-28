@@ -61,6 +61,7 @@
 |Halfling|Mitjerol
 |Heavily obscured|Molt ofuscat
 |Heavy armor|Armadura pesada
+|Hellfire|Focferni
 |High Jump|Salt vertical
 |History|Història
 |Hit Dice|Daus de Cop
