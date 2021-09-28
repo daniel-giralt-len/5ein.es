@@ -122,7 +122,7 @@ class BaseParser {
 
 		// A lowercase word
 		if (/^[a-z]/.test(cleanLine) && !opts.noLowercase) return true;
-		// An ordinal (e.g. "3rd"), but not a spell level (e.g. "1st level")
+		// An ordinal (e.g. "3rd"), but not a spell level (e.g. "Nivell 1")
 		if (/^\d[a-z][a-z]/.test(cleanLine) && !/^\d[a-z][a-z] level/gi.test(cleanLine)) return true;
 		// A number (e.g. damage; "5 (1d6 + 2)")
 		if (/^\d+\s+/.test(cleanLine) && !opts.noNumber) return true;
