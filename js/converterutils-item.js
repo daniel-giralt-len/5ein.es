@@ -541,7 +541,7 @@ class ReqAttuneTagTag {
 			return "";
 		});
 
-		// "by a spellcaster"
+		// ": saber llançar conjurs"
 		req = req.replace(/(?:a )?\bspellcaster\b/gi, (...m) => {
 			tags.push({spellcasting: true});
 			return "";
