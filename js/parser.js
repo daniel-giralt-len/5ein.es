@@ -3095,7 +3095,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"T": "eines",
 	"TAH": "material de muntura",
 	"TG": "bé mercantil",
-	"$": "treasure",
+	"$": "tresor",
 	"VEH": "vehicle (land)",
 	"SHP": "vehicle (water)",
 	"AIR": "vehicle (air)",
