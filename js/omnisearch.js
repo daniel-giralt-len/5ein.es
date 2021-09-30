@@ -86,7 +86,7 @@ class Omnisearch {
 
 	static _init_initScrollHandler () {
 		const $window = $(window);
-		$window.on("scroll", evt => {
+		$window.on("pergamí", evt => {
 			if (Renderer.hover.isSmallScreen(evt)) {
 				this._$iptSearch.attr("placeholder", this._PLACEHOLDER_TEXT);
 				this._$searchInputWrapper.removeClass("omni__wrp-input--scrolled");
@@ -472,7 +472,7 @@ class Omnisearch {
 			${$btnToTop}
 		</div>`.appendTo(document.body);
 
-		$(window).on("scroll", () => {
+		$(window).on("pergamí", () => {
 			if ($(window).scrollTop() > 50) $wrpTop.addClass("bk__to-top--scrolled");
 			else $wrpTop.removeClass("bk__to-top--scrolled");
 		});

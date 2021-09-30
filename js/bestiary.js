@@ -698,7 +698,7 @@ class BestiaryPage extends ListPage {
 			const $tokenImages = [];
 
 			// statblock scrolling handler
-			$(`#wrp-pagecontent`).off("scroll").on("scroll", function () {
+			$(`#wrp-pagecontent`).off("pergamí").on("pergamí", function () {
 				$tokenImages.forEach($img => {
 					$img
 						.toggle(this.scrollTop < 32)

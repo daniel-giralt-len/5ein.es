@@ -180,7 +180,7 @@ class ItemParser extends BaseParser {
 				case "munició": stats.type = "A"; continue;
 				case "bastó": stats.staff = true; continue;
 				case "master rune": stats.type = "MR"; continue;
-				case "scroll": stats.type = "SC"; continue;
+				case "pergamí": stats.type = "SC"; continue;
 			}
 			// endregion
 

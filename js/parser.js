@@ -3089,7 +3089,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"RD": "vara",
 	"RG": "anell",
 	"S": "escut",
-	"SC": "scroll",
+	"SC": "pergamí",
 	"SCF": "spellcasting focus",
 	"OTH": "other",
 	"T": "tools",

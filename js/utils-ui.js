@@ -3826,7 +3826,7 @@ class ComponentUiUtil {
 			.prop("disabled", !!opts.isDisabled)
 			.disableSpellcheck();
 
-		const $wrpChoices = $(`<div class="absolute ui-sel2__wrp-options overflow-y-scroll"></div>`);
+		const $wrpChoices = $(`<div class="absolute ui-sel2__wrp-options overflow-y-pergamí"></div>`);
 
 		const $wrp = $$`<div class="flex relative ui-sel2__wrp w-100">
 			${$iptDisplay}

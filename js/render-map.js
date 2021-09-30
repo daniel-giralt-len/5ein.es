@@ -308,7 +308,7 @@ class RenderMap {
 		const $wrpCvs = $$`<div class="w-100 h-100 overflow-x-scroll overflow-y-scroll rd__scroller-viewer">
 			${$cvs}
 		</div>`
-			.on("mousewheel DOMMouseScroll", evt => {
+			.on("mousewheel DOMMousePergamí", evt => {
 				if (!evt.ctrlKey) return;
 				evt.stopPropagation();
 				evt.preventDefault();

@@ -1740,7 +1740,7 @@ class TimeTrackerRoot_Calendar extends TimeTrackerComponent {
 			},
 		);
 
-		const $wrpCalendar = $(`<div class="overflow-y-auto smooth-scroll"/>`);
+		const $wrpCalendar = $(`<div class="overflow-y-auto smooth-pergamí"/>`);
 
 		const hookCalendar = (prop) => {
 			const timeInfo = getTimeInfo();
