@@ -3093,7 +3093,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"SCF": "focus de llançament de conjurs",
 	"OTH": "altre",
 	"T": "eines",
-	"TAH": "tack and harness",
+	"TAH": "material de muntura",
 	"TG": "trade good",
 	"$": "treasure",
 	"VEH": "vehicle (land)",
