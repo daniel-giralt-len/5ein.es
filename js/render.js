@@ -5437,7 +5437,7 @@ Renderer.item = {
 		}
 		if (item.ammo) {
 			typeHtml.push(`ammunition`);
-			typeListText.push("ammunition");
+			typeListText.push("munició");
 		}
 		if (item.firearm) {
 			subTypeHtml.push("firearm");

@@ -177,7 +177,7 @@ class ItemParser extends BaseParser {
 				case "ring": stats.type = "RG"; continue;
 				case "rod": stats.type = "RD"; continue;
 				case "wand": stats.type = "WD"; continue;
-				case "ammunition": stats.type = "A"; continue;
+				case "munició": stats.type = "A"; continue;
 				case "bastó": stats.staff = true; continue;
 				case "master rune": stats.type = "MR"; continue;
 				case "scroll": stats.type = "SC"; continue;

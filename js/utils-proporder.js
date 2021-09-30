@@ -791,7 +791,7 @@ PropOrder._ITEM = [
 	"reqAttuneAltTags",
 
 	"wondrous",
-	"ammunition",
+	"munició",
 	"tattoo",
 	"curse",
 	"sentient",
