@@ -78,7 +78,7 @@
 			"name": "Presència Esfereïdora",
 			"example": "Drac Daurat Ancià",
 			"effect": "Cada altra criatura triada per la criatura dins el rang, ha de salvar per Saviesa o estar acovardit durant 1 minut.",
-			"hp": "Math.floor((VrEsperat <= 10) ? pc * 0.25 : 0)",
+			"hp": "Math.floor((expectedCr <= 10) ? pc * 0.25 : 0)",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": ""
@@ -97,7 +97,7 @@
 			"name": "Albir Terrorífic",
 			"example": "Banshee",
 			"effect": "Cada altra criatura que no sigui no-morta, a el·lecció d'aquesta criatura, que es trobi dins el seu rang, ha de salvar per Saviesa o estar acovardit durant 1 minut.",
-			"hp": "Math.floor((VrEsperat <= 10) ? pc * 0.25 : 0)",
+			"hp": "Math.floor((expectedCr <= 10) ? pc * 0.25 : 0)",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": ""
@@ -106,7 +106,7 @@
 			"name": "Resistència Llegendària",
 			"example": "Tarrasque",
 			"effect": "Si la criatura falla una salvació, pot escollir, en comptes d'això, superar-la. Afegeix la quantitat d'usos diaris.",
-			"hp": "((VrEsperat >= 0 && VrEsperat <= 4) ? 10*característica : ((VrEsperat >= 5 && VrEsperat <= 10) ? 20*característica : ((VrEsperat >= 11) ? 30*característica : 0)))",
+			"hp": "((expectedCr >= 0 && expectedCr <= 4) ? 10*característica : ((expectedCr >= 5 && expectedCr <= 10) ? 20*característica : ((expectedCr >= 11) ? 30*característica : 0)))",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": "",
@@ -217,7 +217,7 @@
 			"name": "Resiliència de No-mort",
 			"example": "Zombi",
 			"effect": ""Si la criatura anava a perdre punts de cop fins a arribar a 0, hi ha possibilitats de que en comptes d'això, només en perdi fins a arribar a 1. Aquest efecte és neutralitzat si el mal és radiant.",
-			"hp": "((VrEsperat >= 0 && VrEsperat <= 4) ? 7 : ((VrEsperat >= 5 && VrEsperat <= 10) ? 14 : ((VrEsperat >= 11 && VrEsperat <= 16) ? 21 : ((VrEsperat >= 17) ? 28 : 0))))",
+			"hp": "((expectedCr >= 0 && expectedCr <= 4) ? 7 : ((expectedCr >= 5 && expectedCr <= 10) ? 14 : ((expectedCr >= 11 && expectedCr <= 16) ? 21 : ((expectedCr >= 17) ? 28 : 0))))",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": ""
