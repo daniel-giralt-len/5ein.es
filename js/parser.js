@@ -3084,7 +3084,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"MNT": "muntura",
 	"MR": "master rune",
 	"GV": "variant genètica",
-	"P": "potion",
+	"P": "poció",
 	"R": "ranged weapon",
 	"RD": "rod",
 	"RG": "ring",
