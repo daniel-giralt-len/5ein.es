@@ -2661,7 +2661,7 @@ Parser.SOURCE_JSON_TO_ABV[SRC_HEROES_FEAST] = "HF";
 Parser.SOURCE_JSON_TO_ABV[SRC_CM] = "CM";
 Parser.SOURCE_JSON_TO_ABV[SRC_ALCoS] = "ALCoS";
 Parser.SOURCE_JSON_TO_ABV[SRC_ALEE] = "ALEE";
-Parser.SOURCE_JSON_TO_ABV[SRC_ALRoD] = "ALRoD";
+Parser.SOURCE_JSON_TO_ABV[SRC_ALRoD] = "ALVara";
 Parser.SOURCE_JSON_TO_ABV[SRC_PSA] = "PSA";
 Parser.SOURCE_JSON_TO_ABV[SRC_PSI] = "PSI";
 Parser.SOURCE_JSON_TO_ABV[SRC_PSK] = "PSK";
@@ -3085,8 +3085,8 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"MR": "master rune",
 	"GV": "variant genètica",
 	"P": "poció",
-	"R": "ranged weapon",
-	"RD": "rod",
+	"R": "arma a distància",
+	"RD": "vara",
 	"RG": "ring",
 	"S": "escut",
 	"SC": "scroll",
