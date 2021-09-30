@@ -3092,7 +3092,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"SC": "pergamí",
 	"SCF": "focus de llançament de conjurs",
 	"OTH": "altre",
-	"T": "tools",
+	"T": "eines",
 	"TAH": "tack and harness",
 	"TG": "trade good",
 	"$": "treasure",
