@@ -3079,7 +3079,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"HA": "armadura pesada",
 	"INS": "instrument",
 	"LA": "armadura lleugera",
-	"M": "melee weapon",
+	"M": "arma cos a cos",
 	"MA": "medium armor",
 	"MNT": "mount",
 	"MR": "master rune",

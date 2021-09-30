@@ -5454,8 +5454,8 @@ Renderer.item = {
 			showingBase = true;
 		}
 		if (item.staff && (item.type !== "M" && item.typeAlt !== "M")) { // DMG p140: "Unless a staff's description says otherwise, a staff can be used as a quarterstaff."
-			subTypeHtml.push("melee weapon");
-			typeListText.push("melee weapon");
+			subTypeHtml.push("arma cos a cos");
+			typeListText.push("arma cos a cos");
 		}
 		if (item.type) Renderer.item._getHtmlAndTextTypes_type({type: item.type, typeHtml, typeListText, subTypeHtml, showingBase, item});
 		if (item.typeAlt) Renderer.item._getHtmlAndTextTypes_type({type: item.typeAlt, typeHtml, typeListText, subTypeHtml, showingBase, item});
