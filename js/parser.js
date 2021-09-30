@@ -3099,7 +3099,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"VEH": "vehicle (terrestre)",
 	"SHP": "vehicle (marítim)",
 	"AIR": "vehicle (aeri)",
-	"WD": "wand",
+	"WD": "vareta",
 };
 
 Parser.DMGTYPE_JSON_TO_FULL = {
