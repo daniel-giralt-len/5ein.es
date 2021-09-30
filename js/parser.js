@@ -3080,7 +3080,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"INS": "instrument",
 	"LA": "armadura lleugera",
 	"M": "arma cos a cos",
-	"MA": "medium armor",
+	"MA": "armadura intermitja",
 	"MNT": "mount",
 	"MR": "master rune",
 	"GV": "generic variant",
