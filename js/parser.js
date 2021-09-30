@@ -3075,7 +3075,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"EXP": "explosiu",
 	"FD": "beguda i queviures",
 	"G": "equip d'aventures",
-	"GS": "gaming set",
+	"GS": "set de joc",
 	"HA": "heavy armor",
 	"INS": "instrument",
 	"LA": "light armor",
