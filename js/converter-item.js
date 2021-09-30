@@ -174,7 +174,7 @@ class ItemParser extends BaseParser {
 				case "wondrous item": stats.wondrous = true; continue;
 				case "wondrous item (tattoo)": stats.wondrous = true; stats.tattoo = true; continue;
 				case "poció": stats.type = "P"; continue;
-				case "ring": stats.type = "RG"; continue;
+				case "anell": stats.type = "RG"; continue;
 				case "vara": stats.type = "RD"; continue;
 				case "wand": stats.type = "WD"; continue;
 				case "munició": stats.type = "A"; continue;

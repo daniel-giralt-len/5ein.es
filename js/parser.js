@@ -3087,7 +3087,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"P": "poció",
 	"R": "arma a distància",
 	"RD": "vara",
-	"RG": "ring",
+	"RG": "anell",
 	"S": "escut",
 	"SC": "scroll",
 	"SCF": "spellcasting focus",
