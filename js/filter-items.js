@@ -12,7 +12,7 @@ class PageFilterEquipment extends PageFilter {
 		this._propertyFilter = new Filter({header: "Property", displayFn: StrUtil.uppercaseFirst});
 		this._categoryFilter = new Filter({
 			header: "Category",
-			items: ["Basic", "Variant Genètica", "Specific Variant", "Other"],
+			items: ["Basic", "Variant Genètica", "Specific Variant", "Altres"],
 			deselFn: (it) => it === "Specific Variant",
 			itemSortFn: null,
 		});

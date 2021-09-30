@@ -1482,7 +1482,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"IG": "Ignan",
 	"LF": "Languages Known in Life",
 	"O": "Orc",
-	"OTH": "Other",
+	"OTH": "Altres",
 	"P": "Primordial",
 	"S": "Silvànic",
 	"T": "Terrani",
@@ -1554,7 +1554,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	"AS:V1-UA": "Arcane Shot, V1 (UA)",
 	"AS:V2-UA": "Arcane Shot, V2 (UA)",
 	"AS": "Arcane Shot",
-	OTH: "Other",
+	OTH: "Altres",
 	"FS:F": "Fighting Style; Fighter",
 	"FS:B": "Fighting Style; Bard",
 	"FS:P": "Fighting Style; Paladin",
@@ -1663,7 +1663,7 @@ Parser.weightToFull = function (lbs, isSmallUnit) {
 	].filter(Boolean).join(", ");
 };
 
-Parser.ITEM_RARITIES = ["none", "comú", "uncommon", "rare", "very rare", "legendary", "artifact", "unknown", "unknown (magic)", "other"];
+Parser.ITEM_RARITIES = ["none", "comú", "uncommon", "rare", "very rare", "legendary", "artifact", "unknown", "unknown (magic)", "altre"];
 
 Parser.CAT_ID_CREATURE = 1;
 Parser.CAT_ID_SPELL = 2;
@@ -3091,7 +3091,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"S": "escut",
 	"SC": "pergamí",
 	"SCF": "focus de llançament de conjurs",
-	"OTH": "other",
+	"OTH": "altre",
 	"T": "tools",
 	"TAH": "tack and harness",
 	"TG": "trade good",
