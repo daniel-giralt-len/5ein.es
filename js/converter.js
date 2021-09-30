@@ -455,7 +455,7 @@ class ItemConverter extends BaseConverter {
 }
 // region sample
 ItemConverter.SAMPLE_TEXT = `Wreath of the Prism
-Wondrous Item, legendary (requires attunement)
+Wondrous Item, legendary (cal harmonitzar)
 This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.
 Dormant
 While wearing the wreath in its dormant state, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the wreath increases the range of your darkvision by 60 feet.

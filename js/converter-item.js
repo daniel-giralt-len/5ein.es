@@ -189,7 +189,7 @@ class ItemParser extends BaseParser {
 			const isHandledRarity = handlePartRarity(partLower);
 			if (isHandledRarity) continue;
 
-			if (partLower.includes("(requires attunement")) {
+			if (partLower.includes("(cal harmonitzar")) {
 				const [rarityRaw, ...rest] = part.split("(");
 				const rarity = rarityRaw.trim().toLowerCase();
 
@@ -197,7 +197,7 @@ class ItemParser extends BaseParser {
 				if (!isHandledRarity) options.cbWarning(`${stats.name ? `(${stats.name}) ` : ""}Rarity "${rarityRaw}" requires manual conversion`);
 
 				let attunement = rest.join("(");
-				attunement = attunement.replace(/^requires attunement/i, "").replace(/\)/, "").trim();
+				attunement = attunement.replace(/^cal harmonitzar/i, "").replace(/\)/, "").trim();
 				if (!attunement) {
 					stats.reqAttune = true;
 				} else {

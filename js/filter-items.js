@@ -312,7 +312,7 @@ class PageFilterItems extends PageFilterEquipment {
 	}
 }
 PageFilterItems._DEFAULT_HIDDEN_TYPES = new Set(["tresor", "futuristic", "modern", "renaissance"]);
-PageFilterItems._FILTER_BASE_ITEMS_ATTUNEMENT = ["Requires Attunement", "Requires Attunement By...", "Attunement Optional", VeCt.STR_NO_ATTUNEMENT];
+PageFilterItems._FILTER_BASE_ITEMS_ATTUNEMENT = ["Cal Harmonitzar", "Cal Harmonitzar By...", "Attunement Optional", VeCt.STR_NO_ATTUNEMENT];
 
 class ModalFilterItems extends ModalFilter {
 	/**

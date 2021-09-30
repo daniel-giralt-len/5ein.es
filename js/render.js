@@ -5402,17 +5402,17 @@ Renderer.item = {
 		let attunementCat = VeCt.STR_NO_ATTUNEMENT;
 		if (item[prop] != null && item[prop] !== false) {
 			if (item[prop] === true) {
-				attunementCat = "Requires Attunement";
-				attunement = "(requires attunement)"
+				attunementCat = "Cal Harmonitzar";
+				attunement = "(cal harmonitzar)"
 			} else if (item[prop] === "optional") {
 				attunementCat = "Attunement Optional";
 				attunement = "(attunement optional)"
 			} else if (item[prop].toLowerCase().startsWith("by")) {
-				attunementCat = "Requires Attunement By...";
-				attunement = `(requires attunement ${item[prop]})`;
+				attunementCat = "Cal Harmonitzar By...";
+				attunement = `(cal harmonitzar ${item[prop]})`;
 			} else {
-				attunementCat = "Requires Attunement"; // throw any weird ones in the "Yes" category (e.g. "outdoors at night")
-				attunement = `(requires attunement ${item[prop]})`;
+				attunementCat = "Cal Harmonitzar"; // throw any weird ones in the "Yes" category (e.g. "outdoors at night")
+				attunement = `(cal harmonitzar ${item[prop]})`;
 			}
 		}
 		return [attunement, attunementCat]
