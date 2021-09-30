@@ -845,15 +845,15 @@ MakeCards.utils = class {
 		if (item.type === "SCF") {
 			if (item.scfType === "arcane") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("A sorcerer, warlock, or wizard can use this item as a spellcasting focus.");
+				item._fullEntries.push("Un bruixot, un fetiller, o un mag ho pot emprar com a focus de llançament de conjurs.");
 			}
 			if (item.scfType === "druid") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("A druid can use this item as a spellcasting focus.");
+				item._fullEntries.push("Un druida ho pot emprar com a focus de llançament de conjurs.");
 			}
 			if (item.scfType === "holy") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("A cleric or paladin can use this item as a spellcasting focus.");
+				item._fullEntries.push("Un clergue o paladí ho pot emprar com a focus de llançament de conjurs.");
 			}
 		}
 	}
