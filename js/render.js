@@ -6193,7 +6193,7 @@ Renderer.item = {
 		return items;
 	},
 
-	// flip e.g. "longsword +1" to "+1 longsword"
+	// flip e.g. "longsword +1" to "longsword +1"
 	modifierPostToPre (item) {
 		const m = /^(.*)(?:,)? (\+\d+)$/.exec(item.name);
 		if (m) return Object.assign(MiscUtil.copy(item), {name: `${m[2]} ${m[1]}`});
