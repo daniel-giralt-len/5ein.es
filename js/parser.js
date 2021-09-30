@@ -3078,7 +3078,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"GS": "set de joc",
 	"HA": "armadura pesada",
 	"INS": "instrument",
-	"LA": "light armor",
+	"LA": "armadura lleugera",
 	"M": "melee weapon",
 	"MA": "medium armor",
 	"MNT": "mount",
