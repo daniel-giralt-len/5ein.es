@@ -5999,7 +5999,7 @@ Renderer.item = {
 		if (item._isEnhanced) return;
 		item._isEnhanced = true;
 		if (item.noDisplay) return;
-		if (item.type === "GV") item._category = "Generic Variant";
+		if (item.type === "GV") item._category = "Variant Genètica";
 		if (item._category == null) item._category = "Other";
 		if (item.entries == null) item.entries = [];
 		if (item.type && Renderer.item.typeMap[item.type] && Renderer.item.typeMap[item.type].entries) {

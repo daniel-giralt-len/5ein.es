@@ -3083,7 +3083,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"MA": "armadura intermitja",
 	"MNT": "muntura",
 	"MR": "master rune",
-	"GV": "generic variant",
+	"GV": "variant genètica",
 	"P": "potion",
 	"R": "ranged weapon",
 	"RD": "rod",
