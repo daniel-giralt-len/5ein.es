@@ -8,6 +8,7 @@
 |Abyss|Abisme
 |Acrobatics|Acrobàcies
 |Adamantine|Adamantí
+|Adventurer's League|Lliga d'Aventures
 |Alignment|Alineament
 |Animal Handling|Tracte Animal
 |Arcana|Arcana
@@ -50,6 +51,7 @@
 |Eldritch|Èldritx
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
+|Feats|Dots
 |Feywild|Terra Fata
 |Frightened|Acovardat
 |Gear|Equipament
@@ -59,6 +61,9 @@
 |Half-(elf)|Semi-(elf)
 |Halfling|Mitjerol
 |Heavily obscured|Molt ofuscat
+|Heavy armor|Armadura pesada
+|Hellfire|Focferni
+|High Jump|Salt vertical
 |History|Història
 |Hit Dice|Daus de Cop
 |Hit Points|Punts de Cop
@@ -75,8 +80,11 @@
 |Lair|Llar
 |Language|Idioma
 |Level|Nivell
+|Light armor|Armadura lleugera
 |Lightly obscured|Poc ofuscat
+|Long Jump|Salt de Llargada
 |Medicine|Medicina
+|Medium armor|Armadura intermitja
 |Melee|Melé
 |Mithral|Mitrall
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
@@ -104,6 +112,7 @@
 |Rest (Short/Long)|Descans (Curt/Llarg)
 |Restrained|Retingut
 |Rogue|Pícar/a/i
+|Running start|Impuls
 |Saving Throw|Salvada
 |Shadowfell|l'Erm de l'Ombra
 |Shapechanger|Canviaformes
@@ -121,13 +130,19 @@
 |Strength|Força|
 |Stunned|Atordit
 |Survival|Supervivència
+|Swimming speed|Velocitat de natació
+|Sylvan|Silvà
 |Take an action|Prendre una acció
 |Target|Objectiu
 |Teleport|Teletransportació O BÉ Teleportació
 |To hit|A impactar
 |Truesight|Visió veraç
+|Underdark|Sotafoscor
 |Unconscious|Inconscient
+|Walking speed|Velocitat de caminar
+|Warforged|Guerraforjat
 |Warlock|Bruixot/a/i
 |Within range|A l'abast
 |Wisdom|Saviesa
+|Wondrous|Meravellós/a
 |XP|PX

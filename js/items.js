@@ -265,7 +265,7 @@ class ItemsPage extends ListPage {
 					this.onSublistChange();
 				});
 		} else {
-			const modes = ["Exact Coinage", "Lowest Common Currency", "Gold"];
+			const modes = ["Exact Coinage", "Lowest Common Currency", "Or"];
 			const text = (() => {
 				switch (this._sublistCurrencyDisplayMode) {
 					case modes[1]: return Parser.itemValueToFull({value});

@@ -179,21 +179,21 @@ function rollOnArray (lst) {
 	return lst[RNG(lst.length) - 1]
 }
 
-const RACES_SELECTABLE = ["Dwarf", "Elf", "Semi-Elf", "Semi-Orc", "Tíflin"];
-const RACES_UNSELECTABLE = ["Humà", "Halfling", "Dragonborn", "Gnom"];
+const RACES_SELECTABLE = ["Nan", "Elf", "Semi-Elf", "Semi-Orc", "Tíflin"];
+const RACES_UNSELECTABLE = ["Humà", "Halfling", "Sang de Drac", "Gnom"];
 
 const PARENTS_HALF_ELF = [
 	{min: 1, max: 5, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a human.` }, display: "One parent was an elf and the other was a human.", _races: ["Elf", "Humà"]},
-	{min: 6, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-elf.` }, display: "One parent was an elf and the other was a half-elf.", _races: ["Elf", "Semi-Elf"]},
-	{min: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-elf.` }, display: "One parent was a human and the other was a half-elf.", _races: ["Semi-Elf", "Humà"]},
-	{min: 8, result: "Both parents were half-elves.", _races: ["Semi-Elf", "Semi-Elf"]},
+	{min: 6, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an elf and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a semi-elf.` }, display: "One parent was an elf and the other was a semi-elf.", _races: ["Elf", "Semi-Elf"]},
+	{min: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a semi-elf.` }, display: "One parent was a human and the other was a semi-elf.", _races: ["Semi-Elf", "Humà"]},
+	{min: 8, result: "Both parents were semi-elfs.", _races: ["Semi-Elf", "Semi-Elf"]},
 ];
 
 const PARENTS_HALF_ORC = [
 	{min: 1, max: 3, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an orc and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a human.` }, display: "One parent was an orc and the other was a human.", _races: ["Orc", "Humà"]},
 	{min: 4, max: 5, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was an orc and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-orc.` }, display: "One parent was an orc and the other was a half-orc.", _races: ["Orc", "Semi-Orc"]},
 	{min: 6, max: 7, result: () => { const p = RNG(2); return `One parent ${fmtChoice(p === 1 ? "mother" : "father")} was a human and the other ${fmtChoice(p === 1 ? "father" : "mother")} was a half-orc.` }, display: "One parent was a human and the other was a half-orc.", _races: ["Humà", "Semi-Orc"]},
-	{min: 8, display: "Both parents were half-orcs.", _races: ["Semi-Orc", "Semi-Orc"]},
+	{min: 8, display: "Both parents were semi-orcs.", _races: ["Semi-Orc", "Semi-Orc"]},
 ];
 
 const PARENTS_TIEFLING = [
@@ -301,12 +301,12 @@ const CHILDHOOD_MEMORIES = [
 ];
 
 const LIFE_EVENTS_AGE = [
-	{min: 1, max: 20, "age": () => RNG(20), result: "20 years or younger", "events": 1},
-	{min: 21, max: 59, "age": () => RNG(10) + 20, result: "21\u201430 years", "events": () => RNG(4)},
-	{min: 60, max: 69, "age": () => RNG(10) + 30, result: "31\u201440 years", "events": () => RNG(6)},
-	{min: 70, max: 89, "age": () => RNG(10) + 40, result: "41\u201450 years", "events": () => RNG(8)},
-	{min: 90, max: 99, "age": () => RNG(10) + 50, result: "51\u201460 years", "events": () => RNG(10)},
-	{min: 100, "age": () => RNG(690) + 60, result: "61 years or older", "events": () => RNG(12)}, // max age = 750; max elven age
+	{min: 1, max: 20, "edat": () => RNG(20), result: "20 years or younger", "events": 1},
+	{min: 21, max: 59, "edat": () => RNG(10) + 20, result: "21\u201430 years", "events": () => RNG(4)},
+	{min: 60, max: 69, "edat": () => RNG(10) + 30, result: "31\u201440 years", "events": () => RNG(6)},
+	{min: 70, max: 89, "edat": () => RNG(10) + 40, result: "41\u201450 years", "events": () => RNG(8)},
+	{min: 90, max: 99, "edat": () => RNG(10) + 50, result: "51\u201460 years", "events": () => RNG(10)},
+	{min: 100, "edat": () => RNG(690) + 60, result: "61 years or older", "events": () => RNG(12)}, // max age = 750; max elven age
 ];
 
 function _lifeEvtResult (title, rollResult) {
@@ -382,7 +382,7 @@ const LIFE_EVENTS_BOONS = [
 	{min: 4, result: () => `You found some money. You have {@dice 1d20} ${fmtChoice(RNG(20))} gp in addition to your regular starting funds.`, display: "You found some money. You have {@dice 1d20} gp in addition to your regular starting funds."},
 	{min: 5, result: "A relative bequeathed you a simple weapon of your choice."},
 	{min: 6, result: () => `You found something interesting. You gain one additional trinket ${fmtChoice(rollTrinket())}.`, display: "You found something interesting. You gain one additional trinket."},
-	{min: 7, result: "You once performed a service for a local temple. The next time you visit the temple, you can receive healing up to your hit point maximum."},
+	{min: 7, result: "You once performed a service for a local temple. The next time you visit the temple, you can receive healing up to your punts de vida màxims."},
 	{min: 8, result: "A friendly alchemist gifted you with a potion of healing or a flask of acid, as you choose."},
 	{min: 9, result: "You found a treasure map."},
 	{min: 10, result: () => `A distant relative left you a stipend that enables you to live at the comfortable lifestyle for {@dice 1d20} ${fmtChoice(RNG(20))} years. If you choose to live at a higher lifestyle, you reduce the price of the lifestyle by 2 gp during that time period.`, display: "A distant relative left you a stipend that enables you to live at the comfortable lifestyle for {@dice 1d20} years. If you choose to live at a higher lifestyle, you reduce the price of the lifestyle by 2 gp during that time period."},
@@ -451,7 +451,7 @@ const LIFE_EVENTS_WAR = [
 const LIFE_EVENTS_WEIRD_STUFF = [
 	{min: 1, result: () => `You were turned into a toad and remained in that form for {@dice 1d4} ${fmtChoice(RNG(4))} weeks.`, display: "You were turned into a toad and remained in that form for {@dice 1d4} weeks."},
 	{min: 2, result: "You were petrified and remained a stone statue for a time until someone freed you."},
-	{min: 3, result: () => `You were enslaved by a hag, a satyr, or some other being and lived in that creature's thrall for {@dice 1d6} ${fmtChoice(RNG(6))} years.`, display: "You were enslaved by a hag, a satyr, or some other being and lived in that creature’s thrall for {@dice 1d6} years."},
+	{min: 3, result: () => `You were enslaved by a hag, a sàtir, or some other being and lived in that creature's thrall for {@dice 1d6} ${fmtChoice(RNG(6))} years.`, display: "You were enslaved by a hag, a sàtir, or some other being and lived in that creature’s thrall for {@dice 1d6} years."},
 	{min: 4, result: () => `A dragon held you as a prisoner for {@dice 1d4} ${fmtChoice(RNG(4))} months until adventurers killed it.`, display: "A dragon held you as a prisoner for {@dice 1d4} months until adventurers killed it."},
 	{min: 5, result: "You were taken captive by a race of evil humanoids such as drow, kuo-toa, or quaggoths. You lived as a slave in the Underdark until you escaped."},
 	{min: 6, result: "You served a powerful adventurer as a hireling. You have only recently left that service. Use the supplemental tables and work with your DM to determine the basic details about your former employer.", nextRoll: () => _lifeEvtPerson("Employer", getPersonDetails({isAdventurer: true}))},
@@ -523,10 +523,10 @@ const SUPP_OCCUPATION = [
 
 const SUPP_RACE = [
 	{min: 1, max: 40, result: "Humà"},
-	{min: 41, max: 50, result: "Dwarf"},
+	{min: 41, max: 50, result: "Nan"},
 	{min: 51, max: 60, result: "Elf"},
 	{min: 61, max: 70, result: "Halfling"},
-	{min: 71, max: 75, result: "Dragonborn"},
+	{min: 71, max: 75, result: "Sang de Drac"},
 	{min: 76, max: 80, result: "Gnom"},
 	{min: 81, max: 85, result: "Semi-elf"},
 	{min: 86, max: 90, result: "Semi-orc"},
@@ -759,7 +759,7 @@ function sectSiblings () {
 			sibCount = RNG(8) + 3;
 			break;
 	}
-	if (race === "Elf" || race === "Dwarf") {
+	if (race === "Elf" || race === "Nan") {
 		sibCount = Math.max(sibCount - 2, 0);
 	}
 

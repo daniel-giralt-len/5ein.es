@@ -249,11 +249,11 @@
 						],
 						[
 							"17",
-							"Field of {@condition petrified} soldiers or other creatures"
+							"Field of {@condition petrificat} soldiers or other creatures"
 						],
 						[
 							"18",
-							"Forest of {@condition petrified} or {@creature awakened tree||awakened trees}"
+							"Forest of {@condition petrificat} or {@creature awakened tree||awakened trees}"
 						],
 						[
 							"19",
@@ -352,7 +352,7 @@
 							"name": "Tracking Supplies",
 							"entries": [
 								"Use the accompanying Supply Tracker to note whether you are tracking a short or long cycle journey and how many units of food and water you are carrying. At the Supply step of each cycle, mark off a box for each unit of food or water consumed.",
-								"A character unable to eat or drink gains 1 level of {@condition exhaustion} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
+								"A character unable to eat or drink gains 1 level of {@condition exhaust} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
 							],
 							"id": "006"
 						},
@@ -426,7 +426,7 @@
 							"rows": [
 								[
 									1,
-									"Your path takes you through a rough patch of brush. Make a DC 10 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (your choice) to get past the brush. On failed check, the brush counts as 5feet of terreny difícil."
+									"Your path takes you through a rough patch of brush. Make a DC 10 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (escull) to get past the brush. On failed check, the brush counts as 5feet of terreny difícil."
 								],
 								[
 									2,
@@ -438,15 +438,15 @@
 								],
 								[
 									4,
-									"A stream, ravine, or rock bed blocks your path. Make a DC 10 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (your choice) to cross the impediment. On a failed check, the impediment counts as 10 feet of terreny difícil."
+									"A stream, ravine, or rock bed blocks your path. Make a DC 10 Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (escull) to cross the impediment. On a failed check, the impediment counts as 10 feet of terreny difícil."
 								],
 								[
 									5,
-									"Make a DC 10 Constitució saving throw. Ona failed save, you are {@condition blinded} by blowing sand,dirt, ash, snow,or pollen until the end of your turn. While {@condition blinded} in this way, your speed is halved."
+									"Make a DC 10 Constitució saving throw. Ona failed save, you are {@condition encegat} by blowing sand,dirt, ash, snow,or pollen fins el final del teu torn. While {@condition encegat} in this way, your speed is halved."
 								],
 								[
 									6,
-									"A sudden drop catches you by surprise. Make a DC 10 Destresa saving throw to navigate the impediment. On failed save, you fall {@dice 1d4 x 5} feet. Si falla, rep {@damage 1d6} de dany contundent per 10 feet fallen as normal, and land {@condition prone}."
+									"A sudden drop catches you by surprise. Make a DC 10 Destresa saving throw to navigate the impediment. On failed save, you fall {@dice 1d4 x 5} feet. Si falla, rep {@damage 1d6} de dany contundent per 10 feet fallen as normal, and land {@condition enderrocat}."
 								],
 								[
 									7,
@@ -458,7 +458,7 @@
 								],
 								[
 									9,
-									"Your path takes you near a patch of razorvine. Make a DC 15 Destresa saving throw or use 10 feet of movement (your choice) to avoid the razorvine. Si falla, you rep {@damage 1d10} de dany tallant."
+									"Your path takes you near a patch of razorvine. Make a DC 15 Destresa saving throw or use 10 feet of movement (escull) to avoid the razorvine. Si falla, you rep {@damage 1d10} de dany tallant."
 								],
 								[
 									10,
@@ -474,8 +474,8 @@
 							"type": "entries",
 							"name": "Dashing",
 							"entries": [
-								"Over the course of a chase, you can take the {@action Dash} action a limited number of times before you risk {@condition exhaustion}. That number equals 3 + el teu modificador de Constitució. Each additional {@action Dash} action you take after that number during the chase requires you to succeed on a DC 10 Constitució check at the end of your turn or gain | level of {@condition exhaustion}.",
-								"You drop out of the chase if your {@condition exhaustion} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition exhaustion} you gained by taking the {@action Dash} action additional times during the chase."
+								"Over the course of a chase, you can take the {@action Dash} action a limited number of times before you risk {@condition exhaust}. That number equals 3 + el teu modificador de Constitució. Each additional {@action Dash} action you take after that number during the chase requires you to succeed on a DC 10 Constitució check at the end of your turn or gain | level of {@condition exhaust}.",
+								"You drop out of the chase if your {@condition exhaust} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition exhaust} you gained by taking the {@action Dash} action additional times during the chase."
 							],
 							"id": "00a"
 						},
@@ -495,7 +495,7 @@
 					"name": "Ending a Chase",
 					"entries": [
 						"A chase ends when one side or the other stops, when the quarry escapes, or when at least one pursuer is within 5 feet of a quarry.",
-						"If neither side gives up the chase, the quarry can make una tirada de Destresa ({@skill Sigil}) at the end of each round, after every participant in the chase has taken a turn. An {@condition incapacitated} quarry can't make this check, nor can a quarry without anything to hide behind. The check's total is compared to the passive Saviesa ({@skill Percepció}) scores of the pursuers. If the quarry consists of multiple creatures, they all make the check. If the total of a quarry's check is greater than the highest passive score, that quarry escapes and is no longer in the chase.",
+						"If neither side gives up the chase, the quarry can make una tirada de Destresa ({@skill Sigil}) at the end of each round, after every participant in the chase has taken a turn. An {@condition incapacitat} quarry can't make this check, nor can a quarry without anything to hide behind. The check's total is compared to the passive Saviesa ({@skill Percepció}) scores of the pursuers. If the quarry consists of multiple creatures, they all make the check. If the total of a quarry's check is greater than the highest passive score, that quarry escapes and is no longer in the chase.",
 						"The quarry gains advantage or disadvantage on the check based on prevailing circumstances, as shown in the Escape Factors table. If one or more factors give the quarry both advantage and disadvantage on its check, the quarry has neither, as usual.",
 						{
 							"type": "table",

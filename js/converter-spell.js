@@ -476,14 +476,14 @@ class SpellParser extends BaseParser {
 }
 SpellParser._RES_SCHOOL = [];
 Object.entries({
-	"transmutation": "T",
-	"necromancy": "N",
-	"conjuration": "C",
-	"abjuration": "A",
-	"enchantment": "E",
-	"evocation": "V",
-	"illusion": "I",
-	"endevinació": "D",
+	"transmutació": "T",
+	"nigromància": "N",
+	"conjuració": "C",
+	"abjuració": "A",
+	"encantament": "E",
+	"evocació": "V",
+	"il·lusió": "I",
+	"divinació": "D",
 }).forEach(([k, v]) => {
 	SpellParser._RES_SCHOOL.push({
 		output: v,

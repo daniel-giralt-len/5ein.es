@@ -701,7 +701,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getAlignmentInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Alignment", {isMarked: true});
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Alineament", {isMarked: true});
 
 		const doUpdateState = () => {
 			const raw = alignmentRows.map(row => row.getAlignment());
@@ -1752,7 +1752,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getLanguageInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Languages");
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Idiomes");
 
 		const doUpdateState = () => {
 			const raw = $iptLanguages.val().trim();
@@ -2558,7 +2558,7 @@ class CreatureBuilder extends Builder {
 									const ptDamageFull = $cbBonusDamage.prop("checked") ? `${ptDamage}, plus ${getDamageDicePt($iptBonusDamDiceCount, $iptBonusDamDiceNum, $iptBonusDamBonus, true)}${getDamageTypePt($iptBonusDamType)} damage` : ptDamage;
 
 									return {
-										name: $iptName.val().trim() || "Unarmed Strike",
+										name: $iptName.val().trim() || "Atac Desarmat",
 										entries: [
 											`${ptAtk} ${ptHit}, ${ptRange}, un objectiu. {@h}${ptDamageFull}.`,
 										],

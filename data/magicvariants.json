@@ -384,14 +384,14 @@
 						"type": "entries",
 						"name": "Dark Blessing",
 						"entries": [
-							"While holding the sword, pots, com a acció, give yourself {@dice 1d4 + 4} temporary hit points. This property can't be used again until the next dusk."
+							"While holding the sword, pots, com a acció, give yourself {@dice 1d4 + 4} punts de vida temporals. This property can't be used again until the next dusk."
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Disheartening Strike",
 						"entries": [
-							"When you hit a creature with an attack using this weapon, you can fill the target with unsettling dread: the target has disadvantage on the next saving throw it makes before the end of your next turn. The creature ignores this effect if it's immune to the {@condition frightened} condition. Once you use this property, you can't do so again until the next dusk."
+							"When you hit a creature with an attack using this weapon, you can fill the target with unsettling dread: the target has disadvantage on the next saving throw it makes before the end of your next turn. The creature ignores this effect if it's immune to the {@condition acovardit} condition. Once you use this property, you can't do so again until the next dusk."
 						]
 					}
 				]
@@ -502,10 +502,10 @@
 					}
 				],
 				"rarity": "common",
-				"reqAttune": "by a warforged",
+				"reqAttune": "by a guerraforjat",
 				"reqAttuneTags": [
 					{
-						"race": "warforged|erlw"
+						"race": "guerraforjat|erlw"
 					}
 				],
 				"entries": [
@@ -864,7 +864,7 @@
 				"curse": true,
 				"bonusWeapon": "+1",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.",
+					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your punts de vida màxims increases by 1 for each level you have attained.",
 					{
 						"type": "entries",
 						"name": "Curse",
@@ -896,13 +896,13 @@
 				"reqAttune": true,
 				"curse": true,
 				"entries": [
-					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a DC 15 Constitució saving throw in addition to suffering the attack's normal effects. Si falla, the creature is restrained and must make another Constitució saving throw al final de cada torn seu. If it successfully saves against this effect three times, the effect ends. If it fails its saves three times, it is turned to stone and subjected to the {@condition petrified} condition for 1 hour.",
+					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a DC 15 Constitució saving throw in addition to suffering the attack's normal effects. Si falla, the creature is restrained and must make another Constitució saving throw al final de cada torn seu. If it successfully saves against this effect three times, the effect ends. If it fails its saves three times, it is turned to stone and subjected to the {@condition petrificat} condition for 1 hour.",
 					"A creature is immune to this effect if it is immune to damage of the weapon's type, does not have a body made of flesh, or has legendary actions.",
 					{
 						"name": "Curse",
 						"type": "entries",
 						"entries": [
-							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell anul·lar maledicció} spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you must succeed on a DC 15 Constitució saving throw or be {@condition restrained} and forced to make additional saves against being {@condition petrified}, as above."
+							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell anul·lar maledicció} spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you must succeed on a DC 15 Constitució saving throw or be {@condition restrained} and forced to make additional saves against being {@condition petrificat}, as above."
 						]
 					}
 				]
@@ -1115,7 +1115,7 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"When you hit with an attack using this magic sword, the target takes an extra {@dice 1d6} de dany de fred. In addition, while you hold the sword, you have resistance to fire damage.",
+					"When you hit with an attack using this magic sword, the target takes an extra {@dice 1d6} de dany de fred. In addition, while you hold the sword, tens resistència al dany de foc.",
 					"In freezing temperatures, the blade desprèn llum forta en un radi de 10 peus i llum tènue uns 10 peus adicionals.",
 					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
 				],
@@ -1173,7 +1173,7 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-					"When you hit a giant with it, the giant takes an extra {@dice 2d6} damage of the weapon's type and must succeed on a DC 15 Força saving throw or fall {@condition prone}. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls."
+					"When you hit a giant with it, the giant takes an extra {@dice 2d6} damage of the weapon's type and must succeed on a DC 15 Força saving throw or fall {@condition enderrocat}. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls."
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -1182,7 +1182,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hellfire Weapon",
+			"name": "Focferni Weapon",
 			"type": "GV",
 			"requires": [
 				{
@@ -1190,12 +1190,12 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "Hellfire ",
+				"namePrefix": "Focferni ",
 				"source": "BGDIA",
 				"page": 223,
 				"rarity": "uncommon",
 				"entries": [
-					"This weapon is fashioned from infernal iron and traced with veins of hellfire that shed dim light in a 5-foot-radius.",
+					"This weapon is fashioned from infernal iron and traced with veins of focferni that shed dim light in a 5-foot-radius.",
 					"Any humanoid killed by an attack made with this weapon has its soul funneled into the River Styx, where it's reborn instantly as a {@creature lemure} devil."
 				]
 			},
@@ -1225,7 +1225,7 @@
 				"bonusWeapon": "+3",
 				"entries": [
 					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra {@dice 2d10} de dany radiant.",
-					"While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet."
+					"While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on salvades contra conjurs i altres efectes màgics. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet."
 				],
 				"lootTables": [
 					"Magic Item Table I"
@@ -1555,13 +1555,13 @@
 				"bonusAc": "+1",
 				"entries": [
 					"This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.",
-					"While wearing this armor, you have a {=bonusAc} bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.",
+					"While wearing this armor, you have a {=bonusAc} bonus to Armor Class, and tens resistència al dany the following types: necrotic, poison, and psychic.",
 					{
 						"type": "entries",
 						"name": "Symbiotic Nature",
 						"entries": [
 							"The armor can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.",
-							"The armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of {@condition exhaustion}."
+							"The armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of {@condition exhaust}."
 						]
 					}
 				]
@@ -1685,7 +1685,7 @@
 				"rarity": "uncommon",
 				"reqAttune": "by a specific individual",
 				"entries": [
-					"Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intel·ligència, Saviesa, and Carisma saving throws and makes its wearer immune to the {@condition frightened} condition."
+					"Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intel·ligència, Saviesa, and Carisma saving throws and makes its wearer immune to the {@condition acovardit} condition."
 				]
 			}
 		},
@@ -2306,7 +2306,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points.",
+					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 punts de vida temporals.",
 					"{@i Note: According to the SRD, it is an extra {@dice 3d6} de dany necròtic, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
 				],
 				"lootTables": [
@@ -2510,7 +2510,7 @@
 				"tier": "minor",
 				"rarity": "common",
 				"entries": [
-					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Força saving throw or be knocked {@condition prone}."
+					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Força saving throw or be knocked {@condition enderrocat}."
 				]
 			}
 		},
@@ -2551,7 +2551,7 @@
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"entries": [
-					"This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+					"This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when {@condition incapacitat} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
 				],
 				"lootTables": [
 					"Magic Item Table F"

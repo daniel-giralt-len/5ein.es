@@ -20,7 +20,7 @@
 			"summonedBySpell": "Convocar Aberració|TCE",
 			"size": "M",
 			"type": "aberration",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -52,7 +52,7 @@
 			"immune": [
 				"psíquic"
 			],
-			"languages": [
+			"idiomes": [
 				"Parla Profunda",
 				"comprèn els idiomes que coneixes"
 			],
@@ -60,13 +60,13 @@
 				{
 					"name": "Regeneració (Només Slaad)",
 					"entries": [
-						"l'aberració recupera 5 punts de toc a l'inici del seu torn si té 1 punt de cop com a mínim."
+						"l'aberració recupera 5 punts de toc a l'inici del seu torn si té 1 punt de vida com a mínim."
 					]
 				},
 				{
 					"name": "Aura de Murmuris (Només Engendre dels Estels)",
 					"entries": [
-						"I l'inici de cada torn de l'aberració (no pot estar {@condition incapacitated}), tota criatura a 5 peus de l'aberració ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla rep {@damage 2d6} de dany psíquic."
+						"I l'inici de cada torn de l'aberració (no pot estar {@condition incapacitat}), tota criatura a 5 peus de l'aberració ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla rep {@damage 2d6} de dany psíquic."
 					]
 				}
 			],
@@ -86,7 +86,7 @@
 				{
 					"name": "Urpes (Només Slaad)",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu és una criatura, no pot recuperar punts de cop fins el següent torn de l'aberració's."
+						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu és una criatura, no pot recuperar punts de vida fins el següent torn de l'aberració's."
 					]
 				},
 				{
@@ -135,7 +135,7 @@
 			"page": 61,
 			"size": "M",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -144,7 +144,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + cinc vegades els teu nivell en explorador (i la bèstia té tants Daus de Cop [d8s] com nivells en explorador tinguis)"
+				"special": "5 + cinc vegades els teu nivell en explorador (i la bèstia té tants Daus de Vida [d8s] com nivells en explorador tinguis)"
 			},
 			"speed": {
 				"walk": 40,
@@ -160,7 +160,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"pbNote": "equival a la teva",
@@ -168,7 +168,7 @@
 				{
 					"name": "Carregar",
 					"entries": [
-						"Si la bèstia es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un maul, tot al mateix torn, l'objectiu rep {@damage 1d6} de dany tallant extra. Si l'objectiu és una criatura, it ha de salvar per Força amb la teva CD de salvació de conjur. Si falla estarà {@condition prone}."
+						"Si la bèstia es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un maul, tot al mateix torn, l'objectiu rep {@damage 1d6} de dany tallant extra. Si l'objectiu és una criatura, it ha de salvar per Força amb la teva CD de salvació de conjur. Si falla estarà {@condition enderrocat}."
 					]
 				},
 				{
@@ -209,7 +209,7 @@
 			"page": 61,
 			"size": "M",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -218,7 +218,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + cinc vegades els teu nivell en explorador (i la bèstia té tants Daus de Cop [d8s] com nivells en explorador tinguis)"
+				"special": "5 + cinc vegades els teu nivell en explorador (i la bèstia té tants Daus de Vida [d8s] com nivells en explorador tinguis)"
 			},
 			"speed": {
 				"walk": 5,
@@ -234,7 +234,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"pbNote": "equival a la teva",
@@ -256,7 +256,7 @@
 				{
 					"name": "Binding Strike",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 2 + BC} de dany perforant o {@damage 1d6 + 2 + BC} de dany contundent (your choice), i l'objectiu està {@condition grappled} (CD per escapar és el teu de salvació de conjur). Mentre duri aquesta presa, la bèstia no pot fer servir aquest atac contra cap altre objectiu."
+						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 2 + BC} de dany perforant o {@damage 1d6 + 2 + BC} de dany contundent (escull), i l'objectiu està {@condition grappled} (CD per escapar és el teu de salvació de conjur). Mentre duri aquesta presa, la bèstia no pot fer servir aquest atac contra cap altre objectiu."
 					]
 				}
 			],
@@ -284,7 +284,7 @@
 			"page": 61,
 			"size": "S",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -293,7 +293,7 @@
 				}
 			],
 			"hp": {
-				"special": "4 + quatre vegades els teu nivell en explorador (i la bèstia té tants Daus de Cop [d6s] com nivells en explorador tinguis)"
+				"special": "4 + quatre vegades els teu nivell en explorador (i la bèstia té tants Daus de Vida [d6s] com nivells en explorador tinguis)"
 			},
 			"speed": {
 				"walk": 10,
@@ -309,7 +309,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"pbNote": "equival a la teva",
@@ -356,7 +356,7 @@
 			"summonedBySpell": "Convocar Bèstia|TCE",
 			"size": "S",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -392,7 +392,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
@@ -411,7 +411,7 @@
 				{
 					"name": "Estratègies de Manada (Només Terra i Aigua)",
 					"entries": [
-						"La bèstia té avantatge a impactar una criatura que tingui un aliat de la bèstia no {@condition incapacitated} a 5 peus."
+						"La bèstia té avantatge a impactar una criatura que tingui un aliat de la bèstia no {@condition incapacitat} a 5 peus."
 					]
 				}
 			],
@@ -454,7 +454,7 @@
 			"summonedBySpell": "Convocar Celestial|TCE",
 			"size": "L",
 			"type": "celestial",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -484,9 +484,9 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat"
+				"acovardit"
 			],
-			"languages": [
+			"idiomes": [
 				"Celestial",
 				"comprèn els idiomes que coneixes"
 			],
@@ -506,13 +506,13 @@
 				{
 					"name": "Maça Radiant (Només Defensor)",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany radiant, i el celestial pot escollir-se a si mateix o a una criatura que pugui veure a 10 peus d'abast. L'objectiu obtè {@dice 1d10} punts de cop temporals."
+						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany radiant, i el celestial pot escollir-se a si mateix o a una criatura que pugui veure a 10 peus d'abast. L'objectiu obtè {@dice 1d10} punts de vida temporals."
 					]
 				},
 				{
 					"name": "Toc Curatiu (1/Dia)",
 					"entries": [
-						"El celestial toca una altra criatura, que recupera, màgicament, {@dice 2d8 + summonSpellLevel} punts de cop."
+						"El celestial toca una altra criatura, que recupera, màgicament, {@dice 2d8 + summonSpellLevel} punts de vida."
 					]
 				}
 			],
@@ -541,7 +541,7 @@
 			"summonedBySpell": "Convocar Constructe|TCE",
 			"size": "M",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -571,20 +571,20 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"incapacitat",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
 				{
 					"name": "Escalfor Corporal (Només Metall)",
 					"entries": [
-						"Una criatura que toqui el constructe o l'impacti amb un atac melé a 5 peus d'abast rep {@damage 1d10} de dany de foc."
+						"Una criatura que toqui el constructe o l'impacti amb un atac cos a cos a 5 peus d'abast rep {@damage 1d10} de dany de foc."
 					]
 				},
 				{
@@ -637,7 +637,7 @@
 			"size": "L",
 			"sizeNote": "o més petit",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -677,9 +677,9 @@
 				"fascinat",
 				"exhaust",
 				"emmetzinat",
-				"acovardat"
+				"acovardit"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
@@ -692,7 +692,7 @@
 				{
 					"name": "Danca Irreprimible",
 					"entries": [
-						"Quan qualsevol criatura començi el seu torn a 10 peus de l'ítem, aquest pot incrementar o decrementar (escull tu) la seva velocitat en 10 peus fins el final del torn, sempre i quan l'ítem no estigui {@condition incapacitated}."
+						"Quan qualsevol criatura començi el seu torn a 10 peus de l'ítem, aquest pot incrementar o decrementar (escull tu) la seva velocitat en 10 peus fins el final del torn, sempre i quan l'ítem no estigui {@condition incapacitat}."
 					]
 				}
 			],
@@ -725,7 +725,7 @@
 			"summonedBySpell": "Convocar Elemental|TCE",
 			"size": "M",
 			"type": "elemental",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -804,7 +804,7 @@
 				"emmetzinat",
 				"inconscient"
 			],
-			"languages": [
+			"idiomes": [
 				"Primordial",
 				"comprèn els idiomes que coneixes"
 			],
@@ -857,7 +857,7 @@
 			"summonedBySpell": "Convocar Fata|TCE",
 			"size": "S",
 			"type": "fata",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -884,7 +884,7 @@
 			"conditionImmune": [
 				"fascinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Silvànic",
 				"comprèn els idiomes que coneixes"
 			],
@@ -959,7 +959,7 @@
 			"summonedBySpell": "Convocar Infernal|TCE",
 			"size": "L",
 			"type": "infernal",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1000,7 +1000,7 @@
 			"conditionImmune": [
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Infernal",
 				"telepatía 60 peus"
@@ -1015,7 +1015,7 @@
 				{
 					"name": "Acaballes de la Mortalitat (Només Dimoni)",
 					"entries": [
-						"Quan l'infernal es quedi a 0 punts de cop o el conjur s'acabi, explota. Tota criatura a 10 peus d'abast ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli rep {@damage 2d10 + summonSpellLevel} de dany de foc; qui superi, en rep la meitat."
+						"Quan l'infernal es quedi a 0 punts de vida o el conjur s'acabi, explota. Tota criatura a 10 peus d'abast ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli rep {@damage 2d10 + summonSpellLevel} de dany de foc; qui superi, en rep la meitat."
 					]
 				},
 				{
@@ -1097,7 +1097,7 @@
 				}
 			],
 			"hp": {
-				"special": "1 + el teu modificador de Intel·ligència + el teu nivell en artificier (i l'homúncul té tants Daus de Cop [d6s] com nivells en explorador tinguis)"
+				"special": "1 + el teu modificador d'Intel·ligència + el teu nivell en artificier (i l'homúncul té tants Daus de Vida [d6s] com nivells en explorador tinguis)"
 			},
 			"speed": {
 				"walk": 20,
@@ -1127,7 +1127,7 @@
 				"exhaust",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"pbNote": "equival a la teva",
@@ -1135,7 +1135,7 @@
 				{
 					"name": "Evasió",
 					"entries": [
-						"Quan l'homúncul no està {@condition incapacitated} i ha de salvar per Destresa degut a un efecte per rebre només la meitat del mal, no rep mal si supera la salvada i la meitat si la falla."
+						"Quan l'homúncul no està {@condition incapacitat} i ha de salvar per Destresa degut a un efecte per rebre només la meitat del mal, no rep mal si supera la salvada i la meitat si la falla."
 					]
 				}
 			],
@@ -1179,7 +1179,7 @@
 					"canviaformes"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1212,7 +1212,7 @@
 			"conditionImmune": [
 				"enderrocat"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Sotacomú",
 				"telepatía 120 peus"
@@ -1273,7 +1273,7 @@
 			"page": 131,
 			"size": "H",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1327,7 +1327,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"incapacitat",
 				"paralitzat",
@@ -1336,7 +1336,7 @@
 				"retingut",
 				"atordit"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes de les criatures amb qui ha harmonitzat però no pot parlar"
 			],
 			"trait": [
@@ -1355,7 +1355,7 @@
 				{
 					"name": "Regeneració",
 					"entries": [
-						"El servent recupera 10 punts de toc a l'inici del seu torn. Si es queda a 0 punts de cop, aquest tret no funciona fins que una criatura harmonitzada empri 24 hores reparant l'artefacte (o l'artefacte rebi mal elèctric)."
+						"El servent recupera 10 punts de toc a l'inici del seu torn. Si es queda a 0 punts de vida, aquest tret no funciona fins que una criatura harmonitzada empri 24 hores reparant l'artefacte (o l'artefacte rebi mal elèctric)."
 					]
 				},
 				{
@@ -1381,7 +1381,7 @@
 				{
 					"name": "Salt Esclafant",
 					"entries": [
-						"Si el servent salta com a mínim 25 peus com a part del moviment, pot, com a acció, caure dempeus a un espai on hi hagi una o més criatures. Tota criatura és empesa a un espai a 5 peus desocupat i ha de salvar per Destresa amb {@dc 25}. Qui falli rep 26 ({@damage 4d12}) de dany contundent i està {@condition prone}. Qui superi en rep la meitat i no està {@condition prone}."
+						"Si el servent salta com a mínim 25 peus com a part del moviment, pot, com a acció, caure dempeus a un espai on hi hagi una o més criatures. Tota criatura és empesa a un espai a 5 peus desocupat i ha de salvar per Destresa amb {@dc 25}. Qui falli rep 26 ({@damage 4d12}) de dany contundent i està {@condition enderrocat}. Qui superi en rep la meitat i no està {@condition enderrocat}."
 					]
 				}
 			],
@@ -1452,7 +1452,7 @@
 			"summonedBySpell": "Convocar Ombrangendre|TCE",
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1480,16 +1480,16 @@
 				"necròtic"
 			],
 			"conditionImmune": [
-				"acovardat"
+				"acovardit"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
 				{
 					"name": "Frenesí del Terror (Només Fúria)",
 					"entries": [
-						"L'esperit té avantatge a impactar contra criatures {@condition frightened}."
+						"L'esperit té avantatge a impactar contra criatures {@condition acovardit}."
 					]
 				},
 				{
@@ -1515,7 +1515,7 @@
 				{
 					"name": "Crit Desesperant (1/Dia)",
 					"entries": [
-						"L'esperit crida. Tota criatura a 30 peus d'abast ha de salvar per Saviesa amb la teva CD de salvació de conjur. Qui falli està {@condition frightened} durant 1 minut. La criatura {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"L'esperit crida. Tota criatura a 30 peus d'abast ha de salvar per Saviesa amb la teva CD de salvació de conjur. Qui falli està {@condition acovardit} durant 1 minut. La criatura {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -1544,7 +1544,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			]
 		},
 		{
@@ -1568,7 +1568,7 @@
 				}
 			],
 			"hp": {
-				"special": "2 + el teu modificador de Intel·ligència + cinc vegades el teu nivell en artificier (el defensor té tants Daus de Cop [d8s] com nivells en artificier tinguis)"
+				"special": "2 + el teu modificador d'Intel·ligència + cinc vegades el teu nivell en artificier (el defensor té tants Daus de Vida [d8s] com nivells en artificier tinguis)"
 			},
 			"speed": {
 				"walk": 40
@@ -1599,7 +1599,7 @@
 				"exhaust",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"pbNote": "equival a la teva",
@@ -1622,7 +1622,7 @@
 				{
 					"name": "Reparar (3/Dia)",
 					"entries": [
-						"Els mecanismes màgics interns del defensor de ferro recuperen {@dice 2d8 + 2} punts de cop a si mateix o a un altre constructe (o objecte) que tingui a 5 peus."
+						"Els mecanismes màgics interns del defensor de ferro recuperen {@dice 2d8 + 2} punts de vida a si mateix o a un altre constructe (o objecte) que tingui a 5 peus."
 					]
 				}
 			],
@@ -1653,7 +1653,7 @@
 			"summonedBySpell": "Convocar No-Mort|TCE",
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1688,11 +1688,11 @@
 			],
 			"conditionImmune": [
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
@@ -1705,7 +1705,7 @@
 				{
 					"name": "Zona Infectada (Només Pútrida)",
 					"entries": [
-						"Tota criatura (excepte tu) que comenci el seu torn a 5 peus de l'esperit ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla estarà {@condition poisoned} fins l'inici del seu proper torn."
+						"Tota criatura (excepte tu) que comenci el seu torn a 5 peus de l'esperit ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla estarà {@condition emmetzinat} fins l'inici del seu proper torn."
 					]
 				}
 			],
@@ -1719,7 +1719,7 @@
 				{
 					"name": "Toc Mortífer (Només Fantasmal)",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, i la criatura ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition frightened} fins el final del següent torn de l'objectiu."
+						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, i la criatura ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} fins el final del següent torn de l'objectiu."
 					]
 				},
 				{
@@ -1731,7 +1731,7 @@
 				{
 					"name": "Urpa Necrotitzant (Només Pútrida)",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu està {@condition poisoned} ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla està {@condition paralyzed} fins el final del seu proper torn."
+						"{@atk mw} {@hitYourSpellAttack} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu està {@condition emmetzinat} ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla està {@condition paralitzat} fins el final del seu proper torn."
 					]
 				}
 			],
@@ -1756,7 +1756,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			]
@@ -1767,7 +1767,7 @@
 			"page": 40,
 			"size": "S",
 			"type": "elemental",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1804,12 +1804,12 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"enderrocat",
 				"retingut"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"pbNote": "equival a la teva",

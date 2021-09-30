@@ -337,7 +337,7 @@ class PageFilterSpells extends PageFilter {
 			displayFn: Parser.spSchoolAbvToFull,
 		});
 		const damageFilter = new Filter({
-			header: "Damage Type",
+			header: "Tipus de Dany",
 			items: MiscUtil.copy(Parser.DMG_TYPES),
 			displayFn: StrUtil.uppercaseFirst,
 		});

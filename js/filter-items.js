@@ -165,7 +165,7 @@ class PageFilterItems extends PageFilterEquipment {
 						case "creatureType": out.push(`Creature Type: ${val.toTitleCase()}`); break;
 						case "size": out.push(`Size: ${Parser.sizeAbvToFull(val)}`.toTitleCase()); break;
 						case "class": out.push(`Class: ${val.split("|")[0].toTitleCase()}`); break;
-						case "alignment": out.push(`Alignment: ${Parser.alignmentListToFull(val).toTitleCase()}`); break;
+						case "alineament": out.push(`Alignment: ${Parser.alignmentListToFull(val).toTitleCase()}`); break;
 
 						case "str":
 						case "dex":

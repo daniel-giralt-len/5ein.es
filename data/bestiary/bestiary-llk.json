@@ -18,7 +18,7 @@
 			],
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"A"
 			],
 			"ac": [
@@ -58,7 +58,7 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat"
+				"acovardit"
 			],
 			"cr": "6",
 			"spellcasting": [
@@ -106,7 +106,7 @@
 				{
 					"name": "Explosió Mental {@recharge 5}",
 					"entries": [
-						"El cervell en conserva emet energia psíquica màgicament en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Intel·ligència de {@dc 15}. Qui falli rep 13 ({@damage 2d8 + 4}) de dany psíquic i està {@condition stunned} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
+						"El cervell en conserva emet energia psíquica màgicament en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Intel·ligència de {@dc 15}. Qui falli rep 13 ({@damage 2d8 + 4}) de dany psíquic i està {@condition atordit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament qui superi."
 					]
 				}
 			],
@@ -143,7 +143,7 @@
 			"page": 38,
 			"size": "L",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -190,12 +190,12 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes dels seus creadors però no pot parlar"
 			],
 			"cr": "10",
@@ -209,7 +209,7 @@
 				{
 					"name": "Independent Tentacles",
 					"entries": [
-						"El kraken de rellotgeria té vuit tentacles; cadascun és una criatura Mitjana que es mou independentment durant el torn del constructe. Tenen una velocitat de vol de 40 peus. El kraken de rellotgeria sent el que senten els tentacles. Cada tentacle es pot atacar independentment i el dany s'aplicarà als punts de cop del kraken de rellotgeria. Un tentacle es destruirà quan rebi més de 20 de dany.",
+						"El kraken de rellotgeria té vuit tentacles; cadascun és una criatura Mitjana que es mou independentment durant el torn del constructe. Tenen una velocitat de vol de 40 peus. El kraken de rellotgeria sent el que senten els tentacles. Cada tentacle es pot atacar independentment i el dany s'aplicarà als punts de vida del kraken de rellotgeria. Un tentacle es destruirà quan rebi més de 20 de dany.",
 						"Deixar al constructe amb tres tentacles o menys reduirà el nombre d'atacs que pot fer (dos tentacles = dos atacs). Un kraken de rellotgeria pot reconstruir tots els tentacles destruits al final d'un descans llarg."
 					]
 				}
@@ -256,7 +256,7 @@
 			"type": {
 				"type": "humanoide"
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"N"
 			],
@@ -288,7 +288,7 @@
 				"persuasion": "+5"
 			},
 			"passive": 11,
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Comú",
 				"Infernal",
@@ -344,7 +344,7 @@
 				{
 					"name": "Atac Furtiu (1/Torn)",
 					"entries": [
-						"En Garret fa 7 ({@dice 2d6}) extra de dany quan impacta amb un atac armat i: o bé té avantatge a impactar, o bé l'objectiu té un aliat d'en Garret a 5 peus que no està {@condition incapacitated} i l'atacant no té desavantatge a impactar."
+						"En Garret fa 7 ({@dice 2d6}) extra de dany quan impacta amb un atac armat i: o bé té avantatge a impactar, o bé l'objectiu té un aliat d'en Garret a 5 peus que no està {@condition incapacitat} i l'atacant no té desavantatge a impactar."
 					]
 				}
 			],
@@ -412,7 +412,7 @@
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"Si una criatura que pugui veure la medusa comença el torn a 30 peus seus, la medusa pot forçar-la a salvar per Constitució amb {@dc 14}. Per poder fer-ho, la medusa no pot estar {@condition incapacitated} i ha de poder veure la criatura. Si la criatura falla per més de 5, es {@condition petrified} immediatament. Si falla per menys es comença a tornar de vidre i està {@condition restrained}. La criatura {@condition restrained} ha de repetir la salvada a l'inici del seu proper torn. Si falla, estarà {@condition petrified}. Si supera, l'efecte es cancel·la. La petrificació continuarà fins que un efecte màgic com ara {@spell restabliment superior} la cancel·li.",
+						"Si una criatura que pugui veure la medusa comença el torn a 30 peus seus, la medusa pot forçar-la a salvar per Constitució amb {@dc 14}. Per poder fer-ho, la medusa no pot estar {@condition incapacitat} i ha de poder veure la criatura. Si la criatura falla per més de 5, es {@condition petrificat} immediatament. Si falla per menys es comença a tornar de vidre i està {@condition restrained}. La criatura {@condition restrained} ha de repetir la salvada a l'inici del seu proper torn. Si falla, estarà {@condition petrificat}. Si supera, l'efecte es cancel·la. La petrificació continuarà fins que un efecte màgic com ara {@spell restabliment superior} la cancel·li.",
 						"Una criatura no sorpresa pot desviar la mirada per evitar la salvada al principi del seu torn. Si ho fa, no veurà la medusa fins el principi del seu proper torn (on pot tornar a desviar la mirada). Si en algun moment la criatura mira a la medusa, ha de salvar immediatament.",
 						"Si la medusa es veu el reflexe a una superfície polida a 30 metres d'abast en una àrea de llum forta es veurà afectada per la seva pròpia maledicció."
 					]
@@ -432,7 +432,7 @@
 			"type": {
 				"type": "humanoide"
 			},
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -468,7 +468,7 @@
 				"religion": "+4"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Celestial",
 				"Comú",
@@ -517,13 +517,13 @@
 				{
 					"name": "Presència Faèrica (es Recarrega amb un Descans Curt)",
 					"entries": [
-						"La Mary pot fer salvar per Saviesa {@dc 12} a tota criatura a 10 peus d'abast que designi. Qui falli estarà {@condition charmed} o bé {@condition frightened} (la Mary escull) fins al final del seu proper torn"
+						"La Mary pot fer salvar per Saviesa {@dc 12} a tota criatura a 10 peus d'abast que designi. Qui falli estarà {@condition fascinat} o bé {@condition acovardit} (la Mary escull) fins al final del seu proper torn"
 					]
 				},
 				{
 					"name": "Ascendència Faèrica",
 					"entries": [
-						"La Mary té avantatge a salvar contra la condició {@condition charmed} i no pot patir son màgicament"
+						"La Mary té avantatge a salvar contra la condició {@condition fascinat} i no pot patir son màgicament"
 					]
 				}
 			],
@@ -557,7 +557,7 @@
 			],
 			"conditionInflict": [
 				"fascinat",
-				"acovardat"
+				"acovardit"
 			],
 			"conditionInflictSpell": [
 				"fascinat",
@@ -570,7 +570,7 @@
 			"page": 46,
 			"size": "M",
 			"type": "llim",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -603,7 +603,7 @@
 				"fascinat",
 				"eixordat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"enderrocat"
 			],
 			"cr": "1/2",

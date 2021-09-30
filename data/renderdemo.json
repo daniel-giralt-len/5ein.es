@@ -24,7 +24,7 @@
 						"Style tags; {@bold some text to be bolded} (alternative {@b shorthand}), {@italic some text to be italicised} (alternative {@i shorthand}), {@underline some text to be underlined} (alternative {@u shorthand}), {@strike some text to strike-through}, (alternative {@s shorthand}), {@color color|e40707} tags",
 						"Additionally, {@note note tags}, used for adding errata or Twitter \"designer footnotes.\"",
 						"Dice roller tags; {@dice 1d2-2+2d3+5} for regular dice rolls ({@dice 1d6;2d6} for multiple options; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} for input prompts), with extended {@dice 1d20+2|display text} and {@dice 1d20+2|display text|rolled by name}, and a special 'hit' version which assumes a d20 is to be rolled {@hit +7} (and rolls advantage on shift-click, disadvantage on alt-click). There's also {@damage 1d12+3} which will roll critical hits on shift-click and half damage (rounding down) on alt-click, and {@d20 -4} which will also roll advantage/disadvantage, although @hit tags are preferred where appropriate. Spells can have scaling-dice tags, (damage of 2d6 or 3d6 at level 1, add an extra {@scaledice 2d6;3d6|2-9|1d6} for each level beyond 2nd), for when a spell effect scales at higher levels.",
-						"Chance tags; similar to dice roller tags, but output success/failure. Similar syntax as dice tags: {@chance 50}, {@chance 50|display text}, and {@chance 50|display text|rolled by name}.",
+						"Chance tags; similar to dice roller tags, but output success/failure. Similar syntax as dice tags: {@chance 50}, {@chance 50|display text}, i {@chance 50|display text|rolled by name}.",
 						"Recharge tags; output success/failure for ability recharge. {@recharge} in an ability title for '(Recharge 6)', {@recharge 4} for '(Recharge 4-6)'.",
 						"Skill and sense tags; {@skill Athletics}/{@skill Perception} (case sensitive) and {@sense Truesight}/{@sense visió de foscor} (case insensitive) which provide tooltips on hover.",
 						"Footnote tags; allows a footnote to be embedded {@footnote directly in text|This is primarily for homebrew purposes, as the official texts (so far) avoid using footnotes}, with {@footnote optional reference information|This is the footnote. References are free text.|Footnote 1, page 20}.",
@@ -40,9 +40,9 @@
 								"Races: {@race Human} assumes PHB by default, {@race Aarakocra|eepc} can have sources added with a pipe, {@race Aarakocra|eepc|and optional link text added with another pipe}.",
 								"Invocations and Other Optional Features: {@optfeature Agonizing Blast} assumes PHB by default, {@optfeature Aspect of the Moon|xge} can have sources added with a pipe, {@optfeature Aspect of the Moon|xge|and optional link text added with another pipe}.",
 								"Classes: {@class fighter} assumes PHB by default, {@class artificer|uaartificer} can have sources added with a pipe, {@class fighter|phb|optional link text added with another pipe}, {@class fighter|phb|subclasses added|Eldritch Knight} with another pipe, {@class fighter|phb|and class feature added|Eldritch Knight|phb|2-0} with another pipe (first number is level index (0-19), second number is feature index (0-n)).",
-								"Class Features: {@classFeature Rage|Barbarian||1}, {@classFeature Infuse Item|Artificer|TCE|2}, {@classFeature Survival Instincts|Barbarian||2|UAClassFeatureVariants}, {@classFeature Rage|Barbarian||1||optional display text}. Class source is assumed to be PHB. Class feature source is assumed to be the same as class source.",
+								"Class Features: {@classFeature Rage|Barbarian||1}, {@classFeature Infusionar Objecte|Artificer|TCE|2}, {@classFeature Survival Instincts|Barbarian||2|UAClassFeatureVariants}, {@classFeature Rage|Barbarian||1||optional display text}. Class source is assumed to be PHB. Class feature source is assumed to be the same as class source.",
 								"Subclass Features: {@subclassFeature Path of the Berserker|Barbarian||Berserker||3}, {@subclassFeature Alchemist|Artificer|TCE|Alchemist|TCE|3}, {@subclassFeature Path of the Battlerager|Barbarian||Battlerager|SCAG|3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|UAClassFeatureVariants}, {@subclassFeature Path of the Berserker|Barbarian||Berserker||3||optional display text}. Class source is assumed to be PHB. Subclass source is assumed to be PHB. Subclass feature source is assumed to be the same as subclass source.",
-								"Conditions: {@condition stunned} assumes PHB by default, {@condition stunned|PHB} can have sources added with a pipe (not that it's ever useful), {@condition stunned|PHB|and optional link text added with another pipe}.",
+								"Conditions: {@condition atordit} assumes PHB by default, {@condition stunned|PHB} can have sources added with a pipe (not that it's ever useful), {@condition stunned|PHB|and optional link text added with another pipe}.",
 								"Diseases: {@disease cackle fever} assumes DMG by default, {@disease cackle fever} can have sources added with a pipe, {@disease cackle fever|DMG|and optional link text added with another pipe}.",
 								"Other Rewards: {@reward Blessing of Health} assumes DMG by default, {@reward Blessing of Health} can have sources added with a pipe, {@reward Blessing of Health|DMG|and optional link text added with another pipe}.",
 								"Feats: {@feat Alert} assumes PHB by default, {@feat Elven Accuracy|xge} can have sources added with a pipe, {@feat Elven Accuracy|xge|and optional link text added with another pipe}.",
@@ -572,7 +572,7 @@
 						"size": "L",
 						"type": "celestial",
 						"source": "MM",
-						"alignment": [
+						"alineament": [
 							"L",
 							"G"
 						],
@@ -604,7 +604,7 @@
 							"visió de foscor 60 peus"
 						],
 						"passive": 13,
-						"languages": [
+						"idiomes": [
 							"Celestial",
 							"Èlfic",
 							"Silvànic",
@@ -639,7 +639,7 @@
 								]
 							},
 							{
-								"name": "Hooves",
+								"name": "Peülles",
 								"entries": [
 									"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. Hit: 11 ({@damage 2d6 + 4}) de dany contundent."
 								]
@@ -669,7 +669,7 @@
 						},
 						"legendary": [
 							{
-								"name": "Hooves",
+								"name": "Peülles",
 								"entries": [
 									"The unicorn makes one attack with its hooves."
 								]

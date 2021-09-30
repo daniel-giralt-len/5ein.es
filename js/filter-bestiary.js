@@ -88,13 +88,13 @@ class PageFilterBestiary extends PageFilter {
 		});
 		this._tagFilter = new Filter({header: "Tag", displayFn: StrUtil.uppercaseFirst});
 		this._alignmentFilter = new Filter({
-			header: "Alignment",
+			header: "Alineament",
 			items: ["L", "NX", "C", "G", "NY", "E", "N", "U", "A", "No Alignment"],
 			displayFn: alignment => Parser.alignmentAbvToFull(alignment).toTitleCase(),
 			itemSortFn: null,
 		});
 		this._languageFilter = new Filter({
-			header: "Languages",
+			header: "Idiomes",
 			displayFn: (k) => Parser.monLanguageTagToFull(k).toTitleCase(),
 			umbrellaItems: ["X", "XX"],
 			umbrellaExcludes: ["CS"],
@@ -167,7 +167,7 @@ class PageFilterBestiary extends PageFilter {
 		this._traitFilter = new Filter({
 			header: "Traits",
 			items: [
-				"Agressivitat", "Ambusher", "Amorf", "Amfibi", "Debilitat Antimàgica", "Brute", "Carregar", "Absorbir Dany", "Cadàver Detonant", "Ulls de Diables", "Falsa Aparença", "Ascendència Faèrica", "Passar Volant", "Aguantar la Respiració", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Resistències Llegendàries", "Light Sensitivity", "Resistència a la Màgia", "Armament Màgic", "Estratègies de Manada", "Abraonar", "Rampage", "Reckless", "Regeneració", "Rejovenir", "Canviaformes", "Monstre de Setge", "Atac Furtiu", "Grimpat d'Aranya", "Sensible al Sol", "Immunitat a Expulsar", "Resistir l'Expulsió", "Resiliència No-morta", "Respirar sota l'aigua", "Web Sense", "Web Walker",
+				"Agressivitat", "Emboscar", "Amorf", "Amfibi", "Debilitat Antimàgica", "Brute", "Carregar", "Absorbir Dany", "Cadàver Detonant", "Ulls de Diables", "Falsa Aparença", "Ascendència Faèrica", "Passar Volant", "Aguantar la Respiració", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Resistències Llegendàries", "Light Sensitivity", "Resistència a la Màgia", "Armament Màgic", "Estratègies de Manada", "Abraonar", "Enfurismar", "Reckless", "Regeneració", "Rejovenir", "Canviaformes", "Monstre de Setge", "Atac Furtiu", "Grimpat d'Aranya", "Sensible al Sol", "Immunitat a Expulsar", "Resistir l'Expulsió", "Resiliència No-morta", "Respirar sota l'aigua", "Web Sense", "Web Walker",
 			],
 		});
 		this._actionReactionFilter = new Filter({
@@ -374,7 +374,7 @@ PageFilterBestiary.CONDS = [
 	"fascinat",
 	"eixordat",
 	"exhaust",
-	"acovardat",
+	"acovardit",
 	"pres",
 	"incapacitat",
 	"invisible",

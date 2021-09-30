@@ -61,7 +61,7 @@ class AcConvert {
 						case "patchwork armor":
 						case "see natural armor feature":
 						case "pell d'escorça trait":
-						case "sylvan warrior":
+						case "silvà warrior":
 						case "cage":
 						case "chains":
 						case "coin mail":
@@ -228,13 +228,13 @@ class TagAttack {
 	}
 }
 TagAttack.MAP = {
-	"atac armat melé:": "{@atk mw}",
+	"atac armat cos a cos:": "{@atk mw}",
 	"atac armat a distància:": "{@atk rw}",
 	"melee attack:": "{@atk m}",
 	"ranged attack:": "{@atk r}",
 	"area attack:": "{@atk a}",
 	"area weapon attack:": "{@atk aw}",
-	"atac màgic melé:": "{@atk ms}",
+	"atac màgic cos a cos:": "{@atk ms}",
 	"melee or atac armat a distància:": "{@atk mw,rw}",
 	"atac màgic a distància": "{@atk rs}",
 	"melee or atac màgic a distància": "{@atk ms,rs}",
@@ -396,7 +396,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"agressivitat": "Agressivitat",
 		"illumination": "Illumination",
-		"rampage": "Rampage",
+		"enfurismar": "Enfurismar",
 		"rejovenir": "Rejovenir",
 		"web walker": "Web Walker",
 		"moviment incorpori": "Moviment Incorpori",
@@ -442,8 +442,8 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"spell immunity": "Spell Immunity",
 
-		"ambush": "Ambusher",
-		"ambusher": "Ambusher",
+		"ambush": "Emboscar",
+		"emboscar": "Emboscar",
 
 		"amorf": "Amorf",
 		"amorf": "Amorf",
@@ -558,7 +558,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"one additional": "X",
 	"Blink Dog": "OTH",
 	"Bothii": "OTH",
-	"Bullywug": "OTH",
+	"Batrac": "OTH",
 	"one other language": "X",
 	"plus six more": "X",
 	"plus two more languages": "X",
@@ -584,7 +584,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Thayan": "OTH",
 	"Thri-kreen": "OTH",
 	"Tlincalli": "OTH",
-	"Troglodyte": "OTH",
+	"Troglodita": "OTH",
 	"Umber Hulk": "OTH",
 	"Vegepygmy": "OTH",
 	"Winter Wolf": "OTH",
@@ -922,7 +922,7 @@ class SpellcastingTraitConvert {
 			} else if (thisLine.startsWith("Constant: ")) {
 				hasAnyHeader = true;
 				spellcastingEntry.constant = this._getParsedSpells({thisLine, isMarkdown});
-			} else if (thisLine.startsWith("At will: ")) {
+			} else if (thisLine.startsWith("A voluntat: ")) {
 				hasAnyHeader = true;
 				spellcastingEntry.will = this._getParsedSpells({thisLine, isMarkdown});
 			} else if (thisLine.includes("Cantrip")) {

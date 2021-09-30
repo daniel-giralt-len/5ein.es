@@ -493,7 +493,7 @@ class ReqAttuneTagTag {
 
 		const tags = [];
 
-		// "by a creature with the Mark of Finding"
+		// "by a creature with the Marcatroba"
 		req = req.replace(/(?:a creature with the )?\bMark of ([A-Z][^ ]+)/g, (...m) => {
 			const races = ReqAttuneTagTag._EBERRON_MARK_RACES[`Mark of ${m[1]}`];
 			if (!races) return "";
@@ -514,7 +514,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a creature that can speak Infernal"
-		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Draconic|Druídic|Nan|Elvish|Giant|Gnomesc|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Sylvan|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
+		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
 			tags.push({languageProficiency: m[1].toLowerCase()});
 			return "";
 		});
@@ -526,8 +526,8 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a dwarf"
-		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Semi-Elf|Semi-Orc|Halfling|Human|Tiefling|Warforged)\b/gi, (...m) => {
-			const source = m[1].toLowerCase() === "warforged" ? SRC_ERLW : "";
+		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Semi-Elf|Semi-Orc|Halfling|Human|Tiefling|Guerraforjat)\b/gi, (...m) => {
+			const source = m[1].toLowerCase() === "guerraforjat" ? SRC_ERLW : "";
 			tags.push({race: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
 		});
@@ -563,7 +563,7 @@ class ReqAttuneTagTag {
 		// region Alignment
 		// "by a creature of evil alignment"
 		// "by a dwarf, fighter, or paladin of good alignment"
-		// "by an elf or half-elf of neutral good alignment"
+		// "by an elf or semi-elf of neutral good alignment"
 		// "by an evil cleric or paladin"
 		const alignmentParts = req.split(/,| or /gi)
 			.map(it => it.trim())
@@ -609,19 +609,19 @@ ReqAttuneTagTag._RAVNICA_GUILD_BACKGROUNDS = {
 ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	"Mark of Warding": ["Dwarf (Mark of Warding)|ERLW"],
 	"Mark of Shadow": ["Elf (Mark of Shadow)|ERLW"],
-	"Mark of Scribing": ["Gnome (Mark of Scribing)|ERLW"],
-	"Mark of Detection": ["Half-Elf (Variant; Mark of Detection)|ERLW"],
-	"Mark of Storm": ["Half-Elf (Variant; Mark of Storm)|ERLW"],
-	"Mark of Finding": [
-		"Half-Orc (Mark of Finding)|ERLW",
-		"Human (Mark of Finding)|ERLW",
+	"Marca-Escriba": ["Gnome (Marca-Escriba)|ERLW"],
+	"Marcadetecta": ["Semi-Elf (Variant; Marcadetecta)|ERLW"],
+	"Marcatempesta": ["Semi-Elf (Variant; Marcatempesta)|ERLW"],
+	"Marcatroba": [
+		"Semi-Orc (Marcatroba)|ERLW",
+		"Humà (Marcatroba)|ERLW",
 	],
-	"Mark of Healing": ["Halfling (Mark of Healing)|ERLW"],
-	"Mark of Hospitality": ["Halfling (Mark of Hospitality)|ERLW"],
-	"Mark of Handling": ["Human (Mark of Handling)|ERLW"],
-	"Mark of Making": ["Human (Mark of Making)|ERLW"],
-	"Mark of Passage": ["Human (Mark of Passage)|ERLW"],
-	"Mark of Sentinel": ["Human (Mark of Sentinel)|ERLW"],
+	"Marcacura": ["Halfling (Marcacura)|ERLW"],
+	"Marcacollidora": ["Halfling (Marcacollidora)|ERLW"],
+	"Marcabèstia": ["Humà (Marcabèstia)|ERLW"],
+	"Marcacrea": ["Humà (Marcacrea)|ERLW"],
+	"MarcaPassa": ["Humà (MarcaPassa)|ERLW"],
+	"Marcasentinella": ["Humà (Marcasentinella)|ERLW"],
 };
 
 if (typeof module !== "undefined") {

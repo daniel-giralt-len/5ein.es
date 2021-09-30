@@ -51,9 +51,9 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
-					"(a) a {@item shortbow|phb} and {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
-					"(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
+					"(a) una {@item rapier|phb} o bé (b) una {@item shortsword|phb}",
+					"(a) una {@item shortbow|phb} i {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} o bé (b) una {@item shortsword|phb}",
+					"(a) una {@item burglar's pack|phb}, (b) una {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
 					"{@item Armadura de Cuir|phb}, two {@item daga|phb|daggers}, and {@item thieves' tools|phb}"
 				],
 				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
@@ -371,37 +371,37 @@
 					"gainSubclassFeature": true
 				},
 				"Steady Aim|Rogue||3|TCE",
-				"Ability Score Improvement|Rogue||4",
-				"Proficiency Versatility|Rogue||4|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Rogue||4",
+				"Competència Versàtil|Rogue||4|UAClassFeatureVariants",
 				"Uncanny Dodge|Rogue||5",
 				"Expertise|Rogue||6",
 				"Evasion|Rogue||7",
-				"Ability Score Improvement|Rogue||8",
-				"Proficiency Versatility|Rogue||8|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Rogue||8",
+				"Competència Versàtil|Rogue||8|UAClassFeatureVariants",
 				{
 					"classFeature": "Roguish Archetype feature|Rogue||9",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Rogue||10",
-				"Proficiency Versatility|Rogue||10|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Rogue||10",
+				"Competència Versàtil|Rogue||10|UAClassFeatureVariants",
 				"Reliable Talent|Rogue||11",
-				"Ability Score Improvement|Rogue||12",
-				"Proficiency Versatility|Rogue||12|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Rogue||12",
+				"Competència Versàtil|Rogue||12|UAClassFeatureVariants",
 				{
 					"classFeature": "Roguish Archetype feature|Rogue||13",
 					"gainSubclassFeature": true
 				},
 				"Blindsense|Rogue||14",
 				"Slippery Mind|Rogue||15",
-				"Ability Score Improvement|Rogue||16",
-				"Proficiency Versatility|Rogue||16|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Rogue||16",
+				"Competència Versàtil|Rogue||16|UAClassFeatureVariants",
 				{
 					"classFeature": "Roguish Archetype feature|Rogue||17",
 					"gainSubclassFeature": true
 				},
 				"Elusive|Rogue||18",
-				"Ability Score Improvement|Rogue||19",
-				"Proficiency Versatility|Rogue||19|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Rogue||19",
+				"Competència Versàtil|Rogue||19|UAClassFeatureVariants",
 				"Stroke of Luck|Rogue||20"
 			],
 			"subclassTitle": "Roguish Archetype",
@@ -859,7 +859,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Nivells de Ranura per Nivells de Conjur",
 					"subclasses": [
 						{
 							"name": "Arcane Trickster",
@@ -867,10 +867,10 @@
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
-						"{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
-						"{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
-						"{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
+						"{@filter Nv.1|spells|level=1|subclass=Rogue: Arcane Trickster}",
+						"{@filter Nv.2|spells|level=2|subclass=Rogue: Arcane Trickster}",
+						"{@filter Nv.3|spells|level=3|subclass=Rogue: Arcane Trickster}",
+						"{@filter Nv.4|spells|level=4|subclass=Rogue: Arcane Trickster}"
 					],
 					"rows": [
 						[
@@ -1311,7 +1311,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 94,
 			"srd": true,
@@ -1324,7 +1324,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Rogue",
@@ -1332,8 +1332,8 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 4th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1374,7 +1374,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 94,
 			"srd": true,
@@ -1387,7 +1387,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Rogue",
@@ -1395,8 +1395,8 @@
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 8th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1413,7 +1413,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 94,
 			"srd": true,
@@ -1426,7 +1426,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Rogue",
@@ -1434,8 +1434,8 @@
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 10th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 10th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1452,7 +1452,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 94,
 			"srd": true,
@@ -1465,7 +1465,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Rogue",
@@ -1473,8 +1473,8 @@
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 12th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1515,7 +1515,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 94,
 			"srd": true,
@@ -1528,7 +1528,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Rogue",
@@ -1536,8 +1536,8 @@
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 16th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1566,7 +1566,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 94,
 			"srd": true,
@@ -1579,7 +1579,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Rogue",
@@ -1587,8 +1587,8 @@
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 19th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1620,7 +1620,7 @@
 				"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue||Arcane Trickster||3"
+					"subclassFeature": "Llançament de Conjurs|Rogue||Arcane Trickster||3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -1653,7 +1653,7 @@
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Llançament de Conjurs",
 			"source": "PHB",
 			"page": 97,
 			"className": "Rogue",
@@ -2888,7 +2888,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survival} skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
+				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} i {@skill Survival} skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
 			]
 		},
 		{
@@ -3194,7 +3194,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survival} skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
+				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} i {@skill Survival} skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
 			]
 		},
 		{

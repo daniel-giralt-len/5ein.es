@@ -13,7 +13,7 @@
 			"page": 9,
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -70,13 +70,13 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 2d4 + 2}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 13} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 2d4 + 2}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Drain Blood",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one creature that is {@condition prone}, {@condition incapacitated}, or {@condition restrained}. {@h}5 ({@damage 1d6 + 2}) de dany necròtic. The target ha de salvar per Constitució amb {@dc 13} or its hit point maximum is reduced by an amount equal to the damage taken, and the chupacabra regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. L'objectiu mor si aquest efecte li redueix els punts de cop màxim a 0."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one creature that is {@condition enderrocat}, {@condition incapacitat}, o {@condition restrained}. {@h}5 ({@damage 1d6 + 2}) de dany necròtic. The target ha de salvar per Constitució amb {@dc 13} or its punts de vida màxims is reduced by an amount equal to the damage taken, and the chupacabra regains hit points equal to that amount. La reducció dura fins que l'objectiu acabi un Descans Llarg. L'objectiu mor si aquest efecte li redueix els punts de vida màxim a 0."
 					]
 				}
 			],
@@ -117,7 +117,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -165,7 +165,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -200,13 +200,13 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -248,7 +248,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"retingut"
 			]
 		},
@@ -263,7 +263,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -311,7 +311,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -364,13 +364,13 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -421,7 +421,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"retingut"
 			]
@@ -437,7 +437,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -485,7 +485,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -532,19 +532,19 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 19} a impactar, 20 peus d'abast, un objectiu. {@h}38 ({@damage 8d6 + 10}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 20} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 19} a impactar, 20 peus d'abast, un objectiu. {@h}38 ({@damage 8d6 + 10}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 20} or be knocked {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -593,7 +593,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"enderrocat",
 				"retingut"
@@ -610,7 +610,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -659,7 +659,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -712,13 +712,13 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -768,7 +768,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"retingut"
 			]
@@ -784,7 +784,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -832,7 +832,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -889,7 +889,7 @@
 					]
 				},
 				{
-					"name": "Horns",
+					"name": "Banyes",
 					"entries": [
 						"{@atk mw} {@hit 19} a impactar, 10 peus d'abast, un objectiu. {@h}32 ({@damage 4d10 + 10}) de dany perforant."
 					]
@@ -897,7 +897,7 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 19} a impactar, 20 peus d'abast, un objectiu. {@h}24 ({@damage 4d6 + 10}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 20} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 19} a impactar, 20 peus d'abast, un objectiu. {@h}24 ({@damage 4d6 + 10}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 20} or be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -909,13 +909,13 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -965,7 +965,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"enderrocat",
 				"retingut"
@@ -982,7 +982,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1030,7 +1030,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -1077,19 +1077,19 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 19} a impactar, 20 peus d'abast, un objectiu. {@h}38 ({@damage 8d6 + 10}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 20} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 19} a impactar, 20 peus d'abast, un objectiu. {@h}38 ({@damage 8d6 + 10}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 20} or be knocked {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -1138,7 +1138,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"enderrocat",
 				"retingut"
@@ -1155,7 +1155,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1207,7 +1207,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -1266,13 +1266,13 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a elder dinosaur's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the elder dinosaur, i rep 56 ({@damage 16d6}) de dany d'àcid a l'inici de cada torn de the elder dinosaur's. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 20} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -1322,7 +1322,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"retingut"
 			]
@@ -1333,7 +1333,7 @@
 			"page": 30,
 			"size": "S",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1384,7 +1384,7 @@
 				{
 					"name": "Spit Poison",
 					"entries": [
-						"{@atk rw} {@hit 5} a impactar, 15/30 peus d'abast, una criatura. {@h}L'objectiu ha de salvar per Constitució amb {@dc 13}. Qui falli rep 18 ({@damage 4d8}) de dany de verí; qui superi, en rep la meitat. In addition, a creature that fails its saving throw is {@condition blinded} until the end of the deathspitter's next turn."
+						"{@atk rw} {@hit 5} a impactar, 15/30 peus d'abast, una criatura. {@h}L'objectiu ha de salvar per Constitució amb {@dc 13}. Qui falli rep 18 ({@damage 4d8}) de dany de verí; qui superi, en rep la meitat. In addition, a creature that fails its saving throw is {@condition encegat} until the end of the deathspitter's next turn."
 					]
 				}
 			],
@@ -1412,7 +1412,7 @@
 			"page": 32,
 			"size": "G",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1471,14 +1471,14 @@
 				{
 					"name": "Empassar",
 					"entries": [
-						"Gishath makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de Gishath, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de Gishath's.",
-						"If Gishath takes 30 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 18} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If Gishath dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"Gishath makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de Gishath, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de Gishath's.",
+						"If Gishath takes 30 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 18} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of it. If Gishath dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Esclafar",
 					"entries": [
-						"{@atk mw} {@hit 11} a impactar, 10 peus d'abast, un objectiu. {@h}29 ({@damage 5d8 + 7}) de dany contundent, i l'objectiu ha de superar una salvada de Força amb {@dc 19} o be knocked {@condition prone}."
+						"{@atk mw} {@hit 11} a impactar, 10 peus d'abast, un objectiu. {@h}29 ({@damage 5d8 + 7}) de dany contundent, i l'objectiu ha de superar una salvada de Força amb {@dc 19} o be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -1498,7 +1498,7 @@
 				{
 					"name": "Roar (Costa 2 Accions)",
 					"entries": [
-						"Each creature that is within 120 feet of Gishath and can hear ha de salvar per Saviesa amb {@dc 19} o estar {@condition frightened} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, ending the effect on tself on a success. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Gishath's Roar for the next 24 hours."
+						"Each creature that is within 120 feet of Gishath and can hear ha de salvar per Saviesa amb {@dc 19} o estar {@condition acovardit} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, ending the effect on tself on a success. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Gishath's Roar for the next 24 hours."
 					]
 				}
 			],
@@ -1521,7 +1521,7 @@
 			],
 			"conditionInflict": [
 				"encegat",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"enderrocat",
 				"retingut"
@@ -1552,7 +1552,7 @@
 							"items": {
 								"name": "Mossegada",
 								"entries": [
-									"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany tallant. If the target is a creature, it must succeed on a DC 11 Constitució saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+									"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany tallant. If the target is a creature, it must succeed on a DC 11 Constitució saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's punts de vida màxims decreases by 3 ({@dice 1d6}) every 24 hours. If the target's punts de vida màxims drops to 0 as a result of this disease, the target dies."
 								]
 							}
 						}
@@ -1569,7 +1569,7 @@
 			"page": 32,
 			"size": "G",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1621,7 +1621,7 @@
 			"immune": [
 				"foc"
 			],
-			"languages": [
+			"idiomes": [
 				"Giant Owl",
 				"understands Common but can't speak it"
 			],

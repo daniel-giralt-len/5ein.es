@@ -1355,7 +1355,7 @@
 				return null;
 			}
 
-			const isMeleeWep = content.includes("atac armat melé:");
+			const isMeleeWep = content.includes("atac armat cos a cos:");
 			if (isMeleeWep) {
 				const wf = this._wepFinesse.find(it => content.includes(it));
 				if (wf) return "dex";
@@ -2224,7 +2224,7 @@
 				string: (str) => {
 					str = str
 						// "The aberration makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
-						.replace(/a number of attacks equal to half this spell's level \(rounded down\)/g, (...m) => {
+						.replace(/a number of attacks equal to half this spell's level \((arrodoneix a la baixa)\)/g, (...m) => {
 							return `${Parser.numberToText(Math.floor(toSpellLevel / 2))} attacks`
 						})
 						// "{@damage 1d8 + 3 + summonSpellLevel}"

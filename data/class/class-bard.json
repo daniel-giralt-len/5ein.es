@@ -142,9 +142,9 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item rapier|phb}, (b) a {@item longsword|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item diplomat's pack|phb} or (b) an {@item entertainer's pack|phb}",
-					"(a) a {@item lute|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
+					"(a) una {@item rapier|phb}, (b) una {@item longsword|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) una {@item diplomat's pack|phb} o bé (b) an {@item entertainer's pack|phb}",
+					"(a) una {@item lute|phb} o bé (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
 					"{@item Armadura de Cuir|phb}, and a {@item daga|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
@@ -318,17 +318,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Nivells de Ranura per Nivells de Conjur",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=bard}",
-						"{@filter 2nd|spells|level=2|class=bard}",
-						"{@filter 3rd|spells|level=3|class=bard}",
-						"{@filter 4th|spells|level=4|class=bard}",
-						"{@filter 5th|spells|level=5|class=bard}",
-						"{@filter 6th|spells|level=6|class=bard}",
-						"{@filter 7th|spells|level=7|class=bard}",
-						"{@filter 8th|spells|level=8|class=bard}",
-						"{@filter 9th|spells|level=9|class=bard}"
+						"{@filter Nv.1|spells|level=1|class=bard}",
+						"{@filter Nv.2|spells|level=2|class=bard}",
+						"{@filter Nv.3|spells|level=3|class=bard}",
+						"{@filter Nv.4|spells|level=4|class=bard}",
+						"{@filter Nv.5|spells|level=5|class=bard}",
+						"{@filter Nv.6|spells|level=6|class=bard}",
+						"{@filter Nv.7|spells|level=7|class=bard}",
+						"{@filter Nv.8|spells|level=8|class=bard}",
+						"{@filter Nv.9|spells|level=9|class=bard}"
 					],
 					"rows": [
 						[
@@ -557,7 +557,7 @@
 			"classFeatures": [
 				"Bardic Inspiration|Bard||1",
 				"Magical Inspiration|Bard||1|UAClassFeatureVariants",
-				"Spellcasting|Bard||1",
+				"Llançament de Conjurs|Bard||1",
 				"Spell Versatility|Bard||1|UAClassFeatureVariants",
 				"Jack of All Trades|Bard||2",
 				"Song of Rest (d6)|Bard||2",
@@ -567,8 +567,8 @@
 					"gainSubclassFeature": true
 				},
 				"Expertise|Bard||3",
-				"Ability Score Improvement|Bard||4",
-				"Proficiency Versatility|Bard||4|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Bard||4",
+				"Competència Versàtil|Bard||4|UAClassFeatureVariants",
 				"Bardic Versatility|Bard||4|TCE",
 				"Bardic Inspiration (d8)|Bard||5",
 				"Font of Inspiration|Bard||5",
@@ -577,14 +577,14 @@
 					"classFeature": "Bard College feature|Bard||6",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Bard||8",
-				"Proficiency Versatility|Bard||8|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Bard||8",
+				"Competència Versàtil|Bard||8|UAClassFeatureVariants",
 				"Song of Rest (d8)|Bard||9",
 				"Bardic Inspiration (d10)|Bard||10",
 				"Expertise|Bard||10",
 				"Magical Secrets|Bard||10",
-				"Ability Score Improvement|Bard||12",
-				"Proficiency Versatility|Bard||12|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Bard||12",
+				"Competència Versàtil|Bard||12|UAClassFeatureVariants",
 				"Song of Rest (d10)|Bard||13",
 				"Magical Secrets|Bard||14",
 				{
@@ -592,12 +592,12 @@
 					"gainSubclassFeature": true
 				},
 				"Bardic Inspiration (d12)|Bard||15",
-				"Ability Score Improvement|Bard||16",
-				"Proficiency Versatility|Bard||16|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Bard||16",
+				"Competència Versàtil|Bard||16|UAClassFeatureVariants",
 				"Song of Rest (d12)|Bard||17",
 				"Magical Secrets|Bard||18",
-				"Ability Score Improvement|Bard||19",
-				"Proficiency Versatility|Bard||19|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Bard||19",
+				"Competència Versàtil|Bard||19|UAClassFeatureVariants",
 				"Superior Inspiration|Bard||20"
 			],
 			"subclassTitle": "Bard College",
@@ -636,7 +636,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the {@background entertainer} background. Third, choose the {@spell dancing lights} and {@spell vicious mockery} cantrips, along with the following 1st-level spells: {@spell charm person}, {@spell detect magic}, {@spell healing word}, and {@spell thunderwave}."
+										"You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the {@background entertainer} background. Third, choose the {@spell dancing lights} i {@spell vicious mockery} cantrips, along with the following 1st-level spells: {@spell charm person}, {@spell detect magic}, {@spell healing word}, and {@spell thunderwave}."
 									]
 								}
 							]
@@ -1265,7 +1265,7 @@
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Llançament de Conjurs",
 			"source": "PHB",
 			"page": 51,
 			"srd": true,
@@ -1399,7 +1399,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 51,
 			"srd": true,
@@ -1421,7 +1421,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 4th-level bard {@variantrule optional class features|tce|optional feature}}",
-				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:",
+				"Whenever you reach a level in this class that grants the Millora de Puntuació de Característica feature, you can do one of the following, representing a change in focus as you use your skills and magic:",
 				{
 					"type": "list",
 					"items": [
@@ -1432,7 +1432,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Bard",
@@ -1440,8 +1440,8 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 4th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1494,7 +1494,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 51,
 			"srd": true,
@@ -1507,7 +1507,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Bard",
@@ -1515,8 +1515,8 @@
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 8th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1571,7 +1571,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 51,
 			"srd": true,
@@ -1584,7 +1584,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Bard",
@@ -1592,8 +1592,8 @@
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 12th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1647,7 +1647,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 51,
 			"srd": true,
@@ -1660,7 +1660,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Bard",
@@ -1668,8 +1668,8 @@
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 16th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1699,7 +1699,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 51,
 			"srd": true,
@@ -1712,7 +1712,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Bard",
@@ -1720,8 +1720,8 @@
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 19th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -2702,7 +2702,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain the benefits of taking the {@action Dash} and {@action Disengage} actions.",
+						"You gain the benefits of taking the {@action Dash} i {@action Disengage} actions.",
 						"You gain a climbing speed equal to your current speed.",
 						"You take half damage from falling."
 					]

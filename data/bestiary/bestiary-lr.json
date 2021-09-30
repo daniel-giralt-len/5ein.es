@@ -25,10 +25,10 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"tortle"
+					"tòrtel"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -70,7 +70,7 @@
 				"survival": "+8"
 			},
 			"passive": 18,
-			"languages": [
+			"idiomes": [
 				"Aquà",
 				"Comú",
 				"Druídic"
@@ -159,7 +159,7 @@
 				{
 					"name": "Bàlsam de la Cort d'Estiu (12d6)",
 					"entries": [
-						"(Com a acció bonus) L'Amble pot triar una criatura que pugui veure a 120 peus d'abast i gastar-hi fins a {@dice 6d6} de la seva reserva de daus. L'objectiu recupera el resultat de punts de cop, a més d'1 punt de cop temporal per cada dau gastat. L'Amble recuper la reserva de daus després d'un Descans Llarg."
+						"(Com a acció bonus) L'Amble pot triar una criatura que pugui veure a 120 peus d'abast i gastar-hi fins a {@dice 6d6} de la seva reserva de daus. L'objectiu recupera el resultat de punts de vida, a més d'1 punt de vida temporal per cada dau gastat. L'Amble recuper la reserva de daus després d'un Descans Llarg."
 					]
 				},
 				{
@@ -173,9 +173,9 @@
 				{
 					"name": "Canviar de Forma (2/Dia)",
 					"entries": [
-						"L'Amble es polimorfa màgicament en una bèstia de valor de repte 1 o menor. Pot mantenir la forma durant 6 hores. El seu equipament es fon amb la forma. L'Amble retorna a la forma veritable si mor, es queda {@condition unconscious}, o hi retorna com a acció bonus.",
+						"L'Amble es polimorfa màgicament en una bèstia de valor de repte 1 o menor. Pot mantenir la forma durant 6 hores. El seu equipament es fon amb la forma. L'Amble retorna a la forma veritable si mor, es queda {@condition inconscient}, o hi retorna com a acció bonus.",
 						"L'Amble mantè: les puntuacions d'Intel·ligència, de Saviesa, i de Carisma; les competències en habilitats i salvacions, i se li afegeixen les de la criatura (si els dos ténen la mateixa competència agafa la més alta). La resta d'estadístiques són de la forma nova.",
-						"Quan es transforma, l'Amble té els punts de cop i daus de cop de la bèstia. Quan retorna a la forma veritable, torna a tenir els punts de cop que tenia abans de transofrmar-se; però si retorna a la forma veritable degut a quedar-se a 0 punts de cop, el residu del dany es resta als punts de cop de la forma veritable.",
+						"Quan es transforma, l'Amble té els punts de vida i daus de vida de la bèstia. Quan retorna a la forma veritable, torna a tenir els punts de vida que tenia abans de transofrmar-se; però si retorna a la forma veritable degut a quedar-se a 0 punts de vida, el residu del dany es resta als punts de vida de la forma veritable.",
 						"L'Amble no pot llançar conjurs; només pot parlar i gesticular tant com podria una bèstia d'aquella mena. Una concentració en un conjur llançat prèviament no es trenca, i pot prendre accions d'un conjur prèviament activat."
 					]
 				},
@@ -248,7 +248,7 @@
 						"items": {
 							"name": "Frenesí de Sang",
 							"entries": [
-								"Fhenimore té avantatge a impactar a melé contra tota criatura que no tingui tots els seus punts de cop."
+								"Fhenimore té avantatge a impactar a cos a cos contra tota criatura que no tingui tots els seus punts de vida."
 							]
 						}
 					},
@@ -278,7 +278,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -291,7 +291,7 @@
 				}
 			],
 			"str": 16,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Aquà"
 			],
@@ -318,7 +318,7 @@
 			"page": 18,
 			"size": "M",
 			"type": "humanoide",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -353,7 +353,7 @@
 			"resist": [
 				"fred"
 			],
-			"languages": [
+			"idiomes": [
 				"Aquà",
 				"Comú"
 			],
@@ -464,7 +464,7 @@
 				{
 					"name": "Mort passada per Aigua",
 					"entries": [
-						"Quan en Gar es queda a 0 punts de cop, el seu cos es torna aigua fosca que es dispersa ràpidament. Tot el que dugui i vesteixi excepte en Wave i la seva urpa es pot agafar."
+						"Quan en Gar es queda a 0 punts de vida, el seu cos es torna aigua fosca que es dispersa ràpidament. Tot el que dugui i vesteixi excepte en Wave i la seva urpa es pot agafar."
 					]
 				}
 			],
@@ -472,7 +472,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Gar fa dos atacs melé, un d'Urpa i un amb en Wave."
+						"Gar fa dos atacs cos a cos, un d'Urpa i un amb en Wave."
 					]
 				},
 				{
@@ -484,7 +484,7 @@
 				{
 					"name": "Wave",
 					"entries": [
-						"{@atk mw,rw} {@hit 11} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}9 ({@damage 1d6 + 6}) de dany perforant or 10 ({@damage 1d8 + 6}) de dany perforant si s'usa amb dos mans. If Gar scores a critical hit with this weapon, the target takes extra necrotic damage equal to half its hit point maximum."
+						"{@atk mw,rw} {@hit 11} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}9 ({@damage 1d6 + 6}) de dany perforant or 10 ({@damage 1d8 + 6}) de dany perforant si s'usa amb dos mans. If Gar scores a critical hit with this weapon, the target takes extra necrotic damage equal to half its punts de vida màxims."
 					]
 				},
 				{
@@ -566,7 +566,7 @@
 					"genasi d'aigua"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -604,7 +604,7 @@
 				"elèctric",
 				"tro"
 			],
-			"languages": [
+			"idiomes": [
 				"Aquà",
 				"Comú"
 			],
@@ -747,7 +747,7 @@
 							{
 								"name": "Defensa Closca",
 								"entries": [
-									"Whymsee s'entafora a la seva closca. Fins que no en surti obtè +4 a la CA i té avantatge a salvar per Força o Constitució. Dins de la closca, la Whymsee es considera {@condition prone}, té velocitat 0 (no es pot incrementar), té desavantatge a salvar per Destresa, no pot prendre reaccions, i només pot prendre una acció bonus per a emergir de la closca."
+									"Whymsee s'entafora a la seva closca. Fins que no en surti obtè +4 a la CA i té avantatge a salvar per Força o Constitució. Dins de la closca, la Whymsee es considera {@condition enderrocat}, té velocitat 0 (no es pot incrementar), té desavantatge a salvar per Destresa, no pot prendre reaccions, i només pot prendre una acció bonus per a emergir de la closca."
 								]
 							}
 						]
@@ -760,7 +760,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -772,7 +772,7 @@
 					]
 				}
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Aquà"
 			],
@@ -799,7 +799,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -849,10 +849,10 @@
 				}
 			],
 			"conditionImmune": [
-				"acovardat",
+				"acovardit",
 				"paralitzat"
 			],
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Celestial",
 				"Infernal",
@@ -879,8 +879,8 @@
 					"name": "Mossegada",
 					"entries": [
 						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant.",
-						"Si l'objectiu es una criatura Mitjana o menor prèviament {@condition grappled} pel kraken, és empassada (la presa s'acaba). Una criatura empassada està {@condition blinded} i {@condition restrained}, té cobertura total contra atacs fora de the kraken, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn del kraken. El kraken es pot empassar una criatura Mitjana o dues de menor tamany.",
-						"Si el kraken rep 35 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 23} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition prone} a 10 peus d'abast del kraken. Si el kraken mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition prone}."
+						"Si l'objectiu es una criatura Mitjana o menor prèviament {@condition grappled} pel kraken, és empassada (la presa s'acaba). Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the kraken, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn del kraken. El kraken es pot empassar una criatura Mitjana o dues de menor tamany.",
+						"Si el kraken rep 35 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 23} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast del kraken. Si el kraken mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				},
 				{
@@ -892,7 +892,7 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"O bé objecte que agafi el kraken o bé una criatura que tingui {@condition grappled}, de tamany Mitjà o menor, la llança fins a 40 peus en una direcció aleatoria, quedant-se {@condition prone}. Si l'objectiu llançat impacta contra una superfície sòlida rep 3 ({@damage 1d6}) de dany contundent per cada 10 peus de trajectòria. Si impacta a una altra criatura, l'altra ha de salvar per Destresa amb {@dc 13} o rebre el mateix mal i quedar-se {@condition prone}."
+						"O bé objecte que agafi el kraken o bé una criatura que tingui {@condition grappled}, de tamany Mitjà o menor, la llança fins a 40 peus en una direcció aleatoria, quedant-se {@condition enderrocat}. Si l'objectiu llançat impacta contra una superfície sòlida rep 3 ({@damage 1d6}) de dany contundent per cada 10 peus de trajectòria. Si impacta a una altra criatura, l'altra ha de salvar per Destresa amb {@dc 13} o rebre el mateix mal i quedar-se {@condition enderrocat}."
 					]
 				},
 				{

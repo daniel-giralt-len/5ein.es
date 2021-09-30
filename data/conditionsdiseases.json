@@ -79,7 +79,7 @@
 						],
 						[
 							"4",
-							"Punts de Cop màxims partits en dos"
+							"Punts de vida màxims partits en dos"
 						],
 						[
 							"5",
@@ -98,7 +98,7 @@
 			]
 		},
 		{
-			"name": "Acovardat",
+			"name": "Acovardit",
 			"source": "PHB",
 			"page": 290,
 			"srd": true,
@@ -123,7 +123,7 @@
 					"type": "list",
 					"items": [
 						"Una criatura presa te una velocitat de 0 i no pot obtenir cap increment a la seva velocitat.",
-						"La condició es cancel·la si l'origen de al presa queda {@condition incapacitated}.",
+						"La condició es cancel·la si l'origen de al presa queda {@condition incapacitat}.",
 						"La condició es cancel·la també si algun efecte allunya la criatura presa de l'origen de la presa. Per exemple, quan una criatura és llançada pel conjur {@spell tronada}."
 					]
 				}
@@ -169,7 +169,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Una criatura paralitzada està {@condition incapacitated} i no es pot moure ni parlar.",
+						"Una criatura paralitzada està {@condition incapacitat} i no es pot moure ni parlar.",
 						"La criatura falla salvades de Força i de Destresa automàticament.",
 						"Les tirades d'impacte contra la criatura tenen avantatge.",
 						"Tot atac que impacti a la criatura es un crític si la criatura atacant hi és a 5 peus."
@@ -188,7 +188,7 @@
 					"type": "list",
 					"items": [
 						"Una criatura es torna un objecte sòlid i inanimat (normalment pedra) juntament amb els objectes no màgics que dugui o vesteixi. El seu pes es multiplica per 10 i deixa d'envellir.",
-						"La criatura està {@condition incapacitated}, no pot moure's ni parlar, i no percep el seu entorn.",
+						"La criatura està {@condition incapacitat}, no pot moure's ni parlar, i no percep el seu entorn.",
 						"Les tirades d'impacte contra la criatura tenen avantatge.",
 						"La criatura falla salvades de Força i Destresa automàticament",
 						"La criatura és resistent a tota mena de dany",
@@ -256,7 +256,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Una criatura atordida està {@condition incapacitated}, no es pot moure i només pot parlar trabadament.",
+						"Una criatura atordida està {@condition incapacitat}, no es pot moure i només pot parlar trabadament.",
 						"La criatura falla salvades de Força i Destresa automàticament",
 						"Les tirades d'impacte contra la criatura tenen avantatge."
 					]
@@ -273,8 +273,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Una criatura inconscient està {@condition incapacitated}, no pot moure's ni parlar, i no percep el seu entorn.",
-						"La criatura deixa caure el que estigui subjectant i queda {@condition prone}.",
+						"Una criatura inconscient està {@condition incapacitat}, no pot moure's ni parlar, i no percep el seu entorn.",
+						"La criatura deixa caure el que estigui subjectant i queda {@condition enderrocat}.",
 						"La criatura falla salvades de Força i Destresa automàticament",
 						"Les tirades d'impacte contra la criatura tenen avantatge.",
 						"Tot atac que impacti la criatura és crític si la criatura atacant hi és a 5 peus."
@@ -290,7 +290,7 @@
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Saviesa checks and Saviesa saving throws i està {@condition blinded}.",
+				"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Saviesa checks and Saviesa saving throws i està {@condition encegat}.",
 				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
 			]
 		},
@@ -309,10 +309,10 @@
 			"page": 257,
 			"srd": true,
 			"entries": [
-				"This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: \"the shrieks.\"",
-				"Symptoms manifest {@dice 1d4} hours after infection and include fever and disorientation. The infected creature gains one level of {@condition exhaustion} that can't be removed until the disease is cured.",
+				"This disease targets humanoids, although gnoms are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: \"the shrieks.\"",
+				"Symptoms manifest {@dice 1d4} hours after infection and include fever and disorientation. The infected creature gains one level of {@condition exhaust} that can't be removed until the disease is cured.",
 				"Any event that causes the infected creature great stress-including entering combat, taking damage, experiencing fear, or having a nightmare-forces the creature to make a DC 13 Constitució saving throw.",
-				"Si falla, rep 5 ({@dice 1d10}) de dany psíquic and becomes {@condition incapacitated} with mad laughter durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the mad laughter and the {@condition incapacitated} condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a DC 10 Constitució saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
+				"Si falla, rep 5 ({@dice 1d10}) de dany psíquic and becomes {@condition incapacitat} with mad laughter durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the mad laughter and the {@condition incapacitat} condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a DC 10 Constitució saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
 				{
 					"type": "inline",
 					"entries": [
@@ -385,9 +385,9 @@
 			"entries": [
 				"Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.",
 				"When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, the creature must succeed on a DC 11 Constitució saving throw or become infected.",
-				"It takes {@dice 1d4} days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of {@condition exhaustion}, and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.",
-				"At the end of each long rest, an infected creature must make a DC 11 Constitució saving throw. Si falla, the character gains one level of {@condition exhaustion}.",
-				"Si supera, the character's {@condition exhaustion} level decreases by one level. If a successful saving throw reduces the infected creature's level of {@condition exhaustion} below 1, the creature recovers from the disease."
+				"It takes {@dice 1d4} days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of {@condition exhaust}, and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.",
+				"At the end of each long rest, an infected creature must make a DC 11 Constitució saving throw. Si falla, the character gains one level of {@condition exhaust}.",
+				"Si supera, the character's {@condition exhaust} level decreases by one level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease."
 			]
 		},
 		{
@@ -396,7 +396,7 @@
 			"page": 40,
 			"entries": [
 				"Insects native to the jungles and marshes of Chult carry this disease, shivering sickness. The easiest protection against it is a coating of insect-repelling salve on all exposed skin (for the cost of insect repellent, see {@adventure \"Buying a Special Item\"|ToA|1|Buying a Special Item}.",
-				"A giant or humanoid that takes damage from {@creature Swarm of Insects||insect swarms} or from {@creature giant centipede||giant centipedes}, {@creature giant scorpion||giant scorpions}, or {@creature giant wasp||giant wasps} is exposed to the disease at the end of the encounter. Those who haven't applied insect repellent since their previous long rest are exposed to the disease when they finish a long rest.",
+				"A giant or humanoid that takes damage from {@creature Swarm of Insects||insect swarms} or from {@creature giant centipede||giant centipedes}, {@creature giant scorpion||giant scorpions}, o {@creature giant wasp||giant wasps} is exposed to the disease at the end of the encounter. Those who haven't applied insect repellent since their previous long rest are exposed to the disease when they finish a long rest.",
 				"A giant or humanoid exposed to the disease must succeed on a DC 11 Constitució saving throw or become infected. A creature with armadura natural has advantage on the saving throw. It takes {@dice 2d6} hours for symptoms to manifest in an infected creature. Symptoms include blurred vision, disorientation, and a sudden drop in body temperature that causes uncontrollable shivering and chattering of the teeth.",
 				"Once symptoms begin, the infected creature regains only half the normal number of hit points from spending Hit Dice and no hit points from a long rest. The infected creature also has disadvantage on ability checks and attack rolls. At the end of a long rest, an infected creature repeats the saving throw, shaking off the disease on a successful save."
 			]
@@ -408,7 +408,7 @@
 			"srd": true,
 			"entries": [
 				"This painful infection causes bleeding from the eyes and eventually blinds the victim.",
-				"A beast or humanoid that drinks water tainted by sight rot must succeed on a DC 15 Constitució saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a -1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches -5, the victim is {@condition blinded} until its sight is restored by magic such as {@spell restabliment menor} or {@spell sanar}.",
+				"A beast or humanoid that drinks water tainted by sight rot must succeed on a DC 15 Constitució saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a -1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches -5, the victim is {@condition encegat} until its sight is restored by magic such as {@spell restabliment menor} or {@spell sanar}.",
 				"Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an {@item herbalism kit|phb} can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely."
 			]
 		},
@@ -417,7 +417,7 @@
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature begins to bleed uncontrollably. The creature has disadvantage on Constitució checks and Constitució saving throws. In addition, whenever the creature takes damage, it is {@condition stunned} fins el final del seu proper torn.",
+				"The creature begins to bleed uncontrollably. The creature has disadvantage on Constitució checks and Constitució saving throws. In addition, whenever the creature takes damage, it is {@condition atordit} fins el final del seu proper torn.",
 				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
 			]
 		},
@@ -426,7 +426,7 @@
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitució saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After {@dice 1d6} hours, the infected character gains 1 level of {@condition exhaustion} that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. Si falla, the creature's {@condition exhaustion} increases by 1 level; si supera, the creature's {@condition exhaustion} decreases by 1 level. If a successful saving throw reduces the infected creature's level of {@condition exhaustion} below 1, the creature recovers from the disease.",
+				"Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitució saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After {@dice 1d6} hours, the infected character gains 1 level of {@condition exhaust} that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. Si falla, the creature's {@condition exhaust} increases by 1 level; si supera, the creature's {@condition exhaust} decreases by 1 level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease.",
 				"Explorers can avoid contracting throat leeches by drinking only rainwater or water that's been boiled or magically purified."
 			]
 		}
@@ -446,7 +446,7 @@
 					"items": [
 						"{@b Casting another spell that requires concentration.} You lose concentration on a spell if you cast another spell that requires concentration. You can't concentrate on two spells at once.",
 						"{@b Taking damage.} Whenever you take damage while you are concentrating on a spell, you ha de salvar per Constitució to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.",
-						"{@b Being incapacitated or killed.} You lose concentration on a spell if you are {@condition incapacitated} or if you die."
+						"{@b Being incapacitated or killed.} You lose concentration on a spell if you are {@condition incapacitat} or if you die."
 					]
 				},
 				"The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Constitució saving throw to maintain concentration on a spell."

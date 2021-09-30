@@ -65,11 +65,11 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item mace|phb} or (b) a {@item warhammer|phb} (if proficient)",
+					"(a) una {@item mace|phb} o bé (b) una {@item warhammer|phb} (if proficient)",
 					"(a) {@item scale mail|phb}, (b) {@item armadura de cuir|phb}, or (c) {@item chain mail|phb} (if proficient)",
-					"(a) a {@item ballesta lleugera|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"A {@item shield|phb} and a {@item holy symbol|phb}"
+					"(a) una {@item ballesta lleugera|phb} i {@item Crossbow Bolts (20)|phb|20 bolts} o bé (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) una {@item priest's pack|phb} o bé (b) an {@item explorer's pack|phb}",
+					"Una {@item shield|phb} i una {@item holy symbol|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -200,17 +200,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Nivells de Ranura per Nivells de Conjur",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Cleric}",
-						"{@filter 2nd|spells|level=2|class=Cleric}",
-						"{@filter 3rd|spells|level=3|class=Cleric}",
-						"{@filter 4th|spells|level=4|class=Cleric}",
-						"{@filter 5th|spells|level=5|class=Cleric}",
-						"{@filter 6th|spells|level=6|class=Cleric}",
-						"{@filter 7th|spells|level=7|class=Cleric}",
-						"{@filter 8th|spells|level=8|class=Cleric}",
-						"{@filter 9th|spells|level=9|class=Cleric}"
+						"{@filter Nv.1|spells|level=1|class=Cleric}",
+						"{@filter Nv.2|spells|level=2|class=Cleric}",
+						"{@filter Nv.3|spells|level=3|class=Cleric}",
+						"{@filter Nv.4|spells|level=4|class=Cleric}",
+						"{@filter Nv.5|spells|level=5|class=Cleric}",
+						"{@filter Nv.6|spells|level=6|class=Cleric}",
+						"{@filter Nv.7|spells|level=7|class=Cleric}",
+						"{@filter Nv.8|spells|level=8|class=Cleric}",
+						"{@filter Nv.9|spells|level=9|class=Cleric}"
 					],
 					"rows": [
 						[
@@ -437,7 +437,7 @@
 				}
 			],
 			"classFeatures": [
-				"Spellcasting|Cleric||1",
+				"Llançament de Conjurs|Cleric||1",
 				"Cantrip Versatility|Cleric||1|UAClassFeatureVariants",
 				{
 					"classFeature": "Divine Domain|Cleric||1",
@@ -450,8 +450,8 @@
 					"classFeature": "Divine Domain feature|Cleric||2",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Cleric||4",
-				"Proficiency Versatility|Cleric||4|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Cleric||4",
+				"Competència Versàtil|Cleric||4|UAClassFeatureVariants",
 				"Cantrip Versatility|Cleric||4|TCE",
 				"Destroy Undead (CR 1/2)|Cleric||5",
 				"Channel Divinity (2/rest)|Cleric||6",
@@ -459,8 +459,8 @@
 					"classFeature": "Divine Domain feature|Cleric||6",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Cleric||8",
-				"Proficiency Versatility|Cleric||8|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Cleric||8",
+				"Competència Versàtil|Cleric||8|UAClassFeatureVariants",
 				"Destroy Undead (CR 1)|Cleric||8",
 				{
 					"classFeature": "Divine Domain feature|Cleric||8",
@@ -468,19 +468,19 @@
 				},
 				"Divine Intervention|Cleric||10",
 				"Destroy Undead (CR 2)|Cleric||11",
-				"Ability Score Improvement|Cleric||12",
-				"Proficiency Versatility|Cleric||12|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Cleric||12",
+				"Competència Versàtil|Cleric||12|UAClassFeatureVariants",
 				"Destroy Undead (CR 3)|Cleric||14",
-				"Ability Score Improvement|Cleric||16",
-				"Proficiency Versatility|Cleric||16|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Cleric||16",
+				"Competència Versàtil|Cleric||16|UAClassFeatureVariants",
 				"Destroy Undead (CR 4)|Cleric||17",
 				{
 					"classFeature": "Divine Domain feature|Cleric||17",
 					"gainSubclassFeature": true
 				},
 				"Channel Divinity (3/rest)|Cleric||18",
-				"Ability Score Improvement|Cleric||19",
-				"Proficiency Versatility|Cleric||19|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Cleric||19",
+				"Competència Versàtil|Cleric||19|UAClassFeatureVariants",
 				"Divine Intervention Improvement|Cleric||20"
 			],
 			"subclassTitle": "Divine Domain",
@@ -825,7 +825,7 @@
 				"Knowledge Domain|Cleric||Knowledge||1",
 				"Channel Divinity: Knowledge of the Ages|Cleric||Knowledge||2",
 				"Channel Divinity: Read Thoughts|Cleric||Knowledge||6",
-				"Potent Spellcasting|Cleric||Knowledge||8",
+				"Potent Llançament de Conjurs|Cleric||Knowledge||8",
 				"Blessed Strikes|Cleric||Knowledge||8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Knowledge||8|TCE",
 				"Visions of the Past|Cleric||Knowledge||17"
@@ -917,7 +917,7 @@
 				"Light Domain|Cleric||Light||1",
 				"Channel Divinity: Radiance of the Dawn|Cleric||Light||2",
 				"Improved Flare|Cleric||Light||6",
-				"Potent Spellcasting|Cleric||Light||8",
+				"Potent Llançament de Conjurs|Cleric||Light||8",
 				"Blessed Strikes|Cleric||Light||8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Light||8|TCE",
 				"Corona of Light|Cleric||Light||17"
@@ -1237,7 +1237,7 @@
 				"Arcana Domain|Cleric||Arcana|SCAG|1",
 				"Channel Divinity: Arcane Abjuration|Cleric||Arcana|SCAG|2",
 				"Spell Breaker|Cleric||Arcana|SCAG|6",
-				"Potent Spellcasting|Cleric||Arcana|SCAG|8",
+				"Potent Llançament de Conjurs|Cleric||Arcana|SCAG|8",
 				"Blessed Strikes|Cleric||Arcana|SCAG|8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Arcana|SCAG|8|TCE",
 				"Arcane Mastery|Cleric||Arcana|SCAG|17"
@@ -1411,7 +1411,7 @@
 				"Ambition Domain (PSA)|Cleric||Ambition (PSA)|PSA|1",
 				"Channel Divinity: Invoke Duplicity|Cleric||Ambition (PSA)|PSA|2",
 				"Channel Divinity: Cloak of Shadows|Cleric||Ambition (PSA)|PSA|6",
-				"Potent Spellcasting|Cleric||Ambition (PSA)|PSA|8",
+				"Potent Llançament de Conjurs|Cleric||Ambition (PSA)|PSA|8",
 				"Blessed Strikes|Cleric||Ambition (PSA)|PSA|8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Ambition (PSA)|PSA|8|TCE",
 				"Improved Duplicity|Cleric||Ambition (PSA)|PSA|17"
@@ -1656,7 +1656,7 @@
 				"Grave Domain|Cleric||Grave|XGE|1",
 				"Channel Divinity: Path to the Grave|Cleric||Grave|XGE|2",
 				"Sentinel at Death's Door|Cleric||Grave|XGE|6",
-				"Potent Spellcasting|Cleric||Grave|XGE|8",
+				"Potent Llançament de Conjurs|Cleric||Grave|XGE|8",
 				"Blessed Strikes|Cleric||Grave|XGE|8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Grave|XGE|8|TCE",
 				"Keeper of Souls|Cleric||Grave|XGE|17"
@@ -1788,7 +1788,7 @@
 				"Love Domain (UA)|Cleric||Love (UA)|UA2020SubclassesPt2|1",
 				"Channel Divinity: Impulsive Infatuation|Cleric||Love (UA)|UA2020SubclassesPt2|2",
 				"Protective Bond|Cleric||Love (UA)|UA2020SubclassesPt2|6",
-				"Potent Spellcasting|Cleric||Love (UA)|UA2020SubclassesPt2|8",
+				"Potent Llançament de Conjurs|Cleric||Love (UA)|UA2020SubclassesPt2|8",
 				"Blessed Strikes|Cleric||Love (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Love (UA)|UA2020SubclassesPt2|8|TCE",
 				"Enduring Unity|Cleric||Love (UA)|UA2020SubclassesPt2|17"
@@ -1832,7 +1832,7 @@
 				"Unity Domain (UA)|Cleric||Unity (UA)|UA2020SubclassesPt2|1",
 				"Channel Divinity: Shared Burden|Cleric||Unity (UA)|UA2020SubclassesPt2|2",
 				"Protective Bond|Cleric||Unity (UA)|UA2020SubclassesPt2|6",
-				"Potent Spellcasting|Cleric||Unity (UA)|UA2020SubclassesPt2|8",
+				"Potent Llançament de Conjurs|Cleric||Unity (UA)|UA2020SubclassesPt2|8",
 				"Blessed Strikes|Cleric||Unity (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
 				"Blessed Strikes|Cleric||Unity (UA)|UA2020SubclassesPt2|8|TCE",
 				"Enduring Unity|Cleric||Unity (UA)|UA2020SubclassesPt2|17"
@@ -1924,7 +1924,7 @@
 				"Peace Domain|Cleric||Peace|TCE|1",
 				"Channel Divinity: Balm of Peace|Cleric||Peace|TCE|2",
 				"Protective Bond|Cleric||Peace|TCE|6",
-				"Potent Spellcasting|Cleric||Peace|TCE|8",
+				"Potent Llançament de Conjurs|Cleric||Peace|TCE|8",
 				"Blessed Strikes|Cleric||Peace|TCE|8|TCE",
 				"Expansive Bond|Cleric||Peace|TCE|17"
 			]
@@ -2007,7 +2007,7 @@
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Llançament de Conjurs",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -2142,7 +2142,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -2164,11 +2164,11 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 4th-level cleric {@variantrule optional class features|tce|optional feature}}",
-				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter cleric spell list|spells|level=0|class=Cleric}."
+				"Whenever you reach a level in this class that grants the Millora de Puntuació de Característica feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter cleric spell list|spells|level=0|class=Cleric}."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Cleric",
@@ -2176,8 +2176,8 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 4th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -2218,7 +2218,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -2255,7 +2255,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Cleric",
@@ -2263,8 +2263,8 @@
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 8th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -2295,7 +2295,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -2308,7 +2308,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Cleric",
@@ -2316,8 +2316,8 @@
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 12th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -2334,7 +2334,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -2347,7 +2347,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Cleric",
@@ -2355,8 +2355,8 @@
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 16th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -2397,7 +2397,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -2410,7 +2410,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Cleric",
@@ -2418,8 +2418,8 @@
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 19th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -2741,7 +2741,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "PHB",
 			"page": 59,
 			"className": "Cleric",
@@ -3120,7 +3120,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "PHB",
 			"page": 60,
 			"className": "Cleric",
@@ -3954,7 +3954,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "PSA",
 			"page": 27,
 			"className": "Cleric",
@@ -4741,7 +4741,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "SCAG",
 			"page": 125,
 			"className": "Cleric",
@@ -5176,7 +5176,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "TCE",
 			"page": 32,
 			"className": "Cleric",
@@ -5652,7 +5652,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
 			"className": "Cleric",
@@ -5876,7 +5876,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "UA2020SubclassesPt2",
 			"page": 2,
 			"className": "Cleric",
@@ -6808,7 +6808,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, your awareness while in the city extends preternaturally. While in an urban environment, you are considered proficient in the {@skill Insight} and {@skill Perception} skills, and you add double your proficiency bonus to Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks, instead of your normal proficiency bonus."
+				"Starting at 6th level, your awareness while in the city extends preternaturally. While in an urban environment, you are considered proficient in the {@skill Insight} i {@skill Perception} skills, and you add double your proficiency bonus to Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks, instead of your normal proficiency bonus."
 			]
 		},
 		{
@@ -7384,7 +7384,7 @@
 			]
 		},
 		{
-			"name": "Potent Spellcasting",
+			"name": "Potent Llançament de Conjurs",
 			"source": "XGE",
 			"page": 19,
 			"className": "Cleric",

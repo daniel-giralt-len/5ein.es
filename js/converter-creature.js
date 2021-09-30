@@ -40,7 +40,7 @@ class CreatureParser extends BaseParser {
 				"DAMAGE IMMUNITIES",
 				"CONDITION IMMUNITIES",
 				"SENSES",
-				"LANGUAGES",
+				"IDIOMES",
 				"CHALLENGE",
 				"PROFICIENCY BONUS",
 			];
@@ -610,7 +610,7 @@ class CreatureParser extends BaseParser {
 				}
 
 				// languages
-				if (~curLine.indexOf("Languages")) {
+				if (~curLine.indexOf("Idiomes")) {
 					this._setCleanLanguages(stats, stripDashStarStar(curLine));
 					continue;
 				}
@@ -1144,7 +1144,7 @@ class CreatureParser extends BaseParser {
 	}
 
 	static _setCleanLanguages (stats, line) {
-		stats.languages = line.split_handleColon("Languages", 1)[1].trim();
+		stats.languages = line.split_handleColon("Idiomes", 1)[1].trim();
 		if (stats.languages && /^([-–‒—]|\\u201\d)+$/.exec(stats.languages.trim())) delete stats.languages;
 		else {
 			stats.languages = stats.languages

@@ -46,10 +46,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-					"(a) five {@item javelin|phb|javelins} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"{@item Chain mail|phb} and a {@item holy symbol|phb}"
+					"(a) una {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} i una {@item shield|phb} o bé (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) five {@item javelin|phb|javelins} o bé (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) una {@item priest's pack|phb} o bé (b) an {@item explorer's pack|phb}",
+					"{@item Chain mail|phb} i una {@item holy symbol|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
 				"defaultData": [
@@ -115,13 +115,13 @@
 			},
 			"classTableGroups": [
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Nivells de Ranura per Nivells de Conjur",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Paladin}",
-						"{@filter 2nd|spells|level=2|class=Paladin}",
-						"{@filter 3rd|spells|level=3|class=Paladin}",
-						"{@filter 4th|spells|level=4|class=Paladin}",
-						"{@filter 5th|spells|level=5|class=Paladin}"
+						"{@filter Nv.1|spells|level=1|class=Paladin}",
+						"{@filter Nv.2|spells|level=2|class=Paladin}",
+						"{@filter Nv.3|spells|level=3|class=Paladin}",
+						"{@filter Nv.4|spells|level=4|class=Paladin}",
+						"{@filter Nv.5|spells|level=5|class=Paladin}"
 					],
 					"rows": [
 						[
@@ -273,14 +273,14 @@
 				"Divine Smite|Paladin||2",
 				"Fighting Style|Paladin||2",
 				"Martial Versatility|Paladin||2|UAClassFeatureVariants",
-				"Spellcasting|Paladin||2",
+				"Llançament de Conjurs|Paladin||2",
 				"Divine Health|Paladin||3",
 				{
 					"classFeature": "Sacred Oath|Paladin||3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Paladin||4",
-				"Proficiency Versatility|Paladin||4|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Paladin||4",
+				"Competència Versàtil|Paladin||4|UAClassFeatureVariants",
 				"Martial Versatility|Paladin||4|TCE",
 				"Extra Attack|Paladin||5",
 				"Aura of Protection|Paladin||6",
@@ -288,22 +288,22 @@
 					"classFeature": "Sacred Oath feature|Paladin||7",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Paladin||8",
-				"Proficiency Versatility|Paladin||8|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Paladin||8",
+				"Competència Versàtil|Paladin||8|UAClassFeatureVariants",
 				"Aura of Courage|Paladin||10",
 				"Improved Divine Smite|Paladin||11",
-				"Ability Score Improvement|Paladin||12",
-				"Proficiency Versatility|Paladin||12|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Paladin||12",
+				"Competència Versàtil|Paladin||12|UAClassFeatureVariants",
 				"Cleansing Touch|Paladin||14",
 				{
 					"classFeature": "Sacred Oath feature|Paladin||15",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Paladin||16",
-				"Proficiency Versatility|Paladin||16|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Paladin||16",
+				"Competència Versàtil|Paladin||16|UAClassFeatureVariants",
 				"Aura improvements|Paladin||18",
-				"Ability Score Improvement|Paladin||19",
-				"Proficiency Versatility|Paladin||19|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Paladin||19",
+				"Competència Versàtil|Paladin||19|UAClassFeatureVariants",
 				{
 					"classFeature": "Sacred Oath feature|Paladin||20",
 					"gainSubclassFeature": true
@@ -1426,7 +1426,7 @@
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Llançament de Conjurs",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1561,7 +1561,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1583,11 +1583,11 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 4th-level paladin {@variantrule optional class features|tce|optional feature}}",
-				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a {@filter fighting style|optionalfeatures|feature type=FS:P} you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice."
+				"Whenever you reach a level in this class that grants the Millora de Puntuació de Característica feature, you can replace a {@filter fighting style|optionalfeatures|feature type=FS:P} you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Paladin",
@@ -1595,8 +1595,8 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 4th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1638,7 +1638,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1651,7 +1651,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Paladin",
@@ -1659,8 +1659,8 @@
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 8th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1690,7 +1690,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1703,7 +1703,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Paladin",
@@ -1711,8 +1711,8 @@
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 12th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1742,7 +1742,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1755,7 +1755,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Paladin",
@@ -1763,8 +1763,8 @@
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 16th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
@@ -1781,7 +1781,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1794,7 +1794,7 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Paladin",
@@ -1802,8 +1802,8 @@
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"{@i 19th-level feature (enhances Millora de Puntuació de Característica)}",
+				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
