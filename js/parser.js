@@ -3070,7 +3070,7 @@ Parser.getTagSource = function (tag, source) {
 Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"A": "munició",
 	"AF": "munició",
-	"AT": "artisan's tools",
+	"AT": "eines d'artesania",
 	"EM": "eldritch machine",
 	"EXP": "explosive",
 	"FD": "food and drink",
