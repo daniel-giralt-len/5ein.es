@@ -3096,9 +3096,9 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"TAH": "material de muntura",
 	"TG": "bé mercantil",
 	"$": "tresor",
-	"VEH": "vehicle (land)",
-	"SHP": "vehicle (water)",
-	"AIR": "vehicle (air)",
+	"VEH": "vehicle (terrestre)",
+	"SHP": "vehicle (marítim)",
+	"AIR": "vehicle (aeri)",
 	"WD": "wand",
 };
 
