@@ -3072,7 +3072,7 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 	"AF": "munició",
 	"AT": "eines d'artesania",
 	"EM": "eldritch machine",
-	"EXP": "explosive",
+	"EXP": "explosiu",
 	"FD": "food and drink",
 	"G": "adventuring gear",
 	"GS": "gaming set",
