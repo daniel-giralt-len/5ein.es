@@ -191,7 +191,7 @@ class PageFilterItems extends PageFilterEquipment {
 		this._attachedSpellsFilter = new Filter({header: "Attached Spells", displayFn: (it) => it.split("|")[0].toTitleCase(), itemSortFn: SortUtil.ascSortLower});
 		this._lootTableFilter = new Filter({
 			header: "Found On",
-			items: ["Magic Item Table A", "Magic Item Table B", "Magic Item Table C", "Magic Item Table D", "Magic Item Table E", "Magic Item Table F", "Magic Item Table G", "Magic Item Table H", "Magic Item Table I"],
+			items: ["Taula d'Objectes Màgics A", "Taula d'Objectes Màgics B", "Taula d'Objectes Màgics C", "Taula d'Objectes Màgics D", "Taula d'Objectes Màgics E", "Taula d'Objectes Màgics F", "Taula d'Objectes Màgics G", "Taula d'Objectes Màgics H", "Taula d'Objectes Màgics I"],
 			displayFn: it => {
 				const [name, sourceJson] = it.split("|");
 				return `${name}${sourceJson ? ` (${Parser.sourceJsonToAbv(sourceJson)})` : ""}`
