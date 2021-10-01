@@ -21,7 +21,7 @@ class PageFilterEquipment extends PageFilter {
 		this._focusFilter = new Filter({header: "Focus de Llançament de Conjurs", items: [...Parser.ITEM_SPELLCASTING_FOCUS_CLASSES]});
 		this._damageTypeFilter = new Filter({header: "Weapon Damage Type", displayFn: it => Parser.dmgTypeToFull(it).uppercaseFirst(), itemSortFn: (a, b) => SortUtil.ascSortLower(Parser.dmgTypeToFull(a), Parser.dmgTypeToFull(b))});
 		this._miscFilter = new Filter({header: "Miscellaneous", items: ["Item Group", "SRD", "Has Images", "Has Info"], isSrdFilter: true});
-		this._poisonTypeFilter = new Filter({header: "Poison Type", items: ["ingested", "injury", "inhaled", "contact"], displayFn: StrUtil.toTitleCase});
+		this._poisonTypeFilter = new Filter({header: "Poison Type", items: ["ingerir", "ferida", "inhalar", "contacte"], displayFn: StrUtil.toTitleCase});
 	}
 
 	static mutateForFilters (item) {
