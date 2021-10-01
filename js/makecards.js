@@ -835,7 +835,7 @@ MakeCards.utils = class {
 		} else if (item.resist) {
 			if (item.type === "P") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push(`Resistance to ${item.resist} damage for 1 hour.`);
+				item._fullEntries.push(`Resistance to ${item.resist} damage durant 1 hora.`);
 			}
 			if (item.type === "RG") {
 				Renderer.item._initFullEntries(item);
