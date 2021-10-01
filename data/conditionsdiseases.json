@@ -312,7 +312,7 @@
 				"This disease targets humanoids, although gnoms are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: \"the shrieks.\"",
 				"Symptoms manifest {@dice 1d4} hours after infection and include fever and disorientation. The infected creature gains one level of {@condition exhaust} that can't be removed until the disease is cured.",
 				"Any event that causes the infected creature great stress-including entering combat, taking damage, experiencing fear, or having a nightmare-forces the creature to make a DC 13 Constitució saving throw.",
-				"Si falla, rep 5 ({@dice 1d10}) de dany psíquic and becomes {@condition incapacitat} with mad laughter durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the mad laughter and the {@condition incapacitat} condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a DC 10 Constitució saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
+				"Si falla, rep 5 ({@dice 1d10}) de dany psíquic and becomes {@condition incapacitat} with mad laughter durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the mad laughter and the {@condition incapacitat} condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter ha de salvar per Constitució (CD 10). Si falla, also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
 				{
 					"type": "inline",
 					"entries": [
@@ -356,7 +356,7 @@
 			"page": 40,
 			"entries": [
 				"A magical mist creeps through the jungles of Chult. Contact with this thin, blue, odorless mist can infect giants and humanoids with mad monkey fever. A {@spell dissipar màgia} spell destroys the mist in a 20-foot square starting at a point chosen by the caster within the spell's range. An encounter with this mist typically covers {@dice 1d6} such areas (400-2,400 square feet).",
-				"A giant or humanoid that comes into contact with the mist must succeed on a DC 13 Constitució saving throw or become infected with mad monkey fever. The infected creature gains a random form of long-term madness (roll on the {@table Long-Term Madness} table in chapter 8 of the Dungeon Master's Guide) that manifests {@dice 1d6} hours after infection and lasts for the duration ({@dice 1d10 × 10} hours). If the madness is allowed to run its full course, the creature must repeat the saving throw at the end of the madness. If the second saving throw fails, the creature suffers another bout of long-term madness (roll again on the table) that lasts for the normal duration. The madness symptoms continue until the disease ends."
+				"A giant or humanoid that comes into contact with the mist ha de salvar per Constitució (CD 13). Si falla, become infected with mad monkey fever. The infected creature gains a random form of long-term madness (roll on the {@table Long-Term Madness} table in chapter 8 of the Dungeon Master's Guide) that manifests {@dice 1d6} hours after infection and lasts for the duration ({@dice 1d10 × 10} hours). If the madness is allowed to run its full course, the creature must repeat the saving throw at the end of the madness. If the second saving throw fails, the creature suffers another bout of long-term madness (roll again on the table) that lasts for the normal duration. The madness symptoms continue until the disease ends."
 			]
 		},
 		{
@@ -384,7 +384,7 @@
 			"srd": true,
 			"entries": [
 				"Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.",
-				"When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, the creature must succeed on a DC 11 Constitució saving throw or become infected.",
+				"When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, the creature ha de salvar per Constitució (CD 11). Si falla, become infected.",
 				"It takes {@dice 1d4} days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of {@condition exhaust}, and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.",
 				"At the end of each long rest, an infected creature ha de salvar per Constitució (CD 11). Si falla, the character gains one level of {@condition exhaust}.",
 				"Si supera, the character's {@condition exhaust} level decreases by one level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease."
@@ -397,7 +397,7 @@
 			"entries": [
 				"Insects native to the jungles and marshes of Chult carry this disease, shivering sickness. The easiest protection against it is a coating of insect-repelling salve on all exposed skin (for the cost of insect repellent, see {@adventure \"Buying a Special Item\"|ToA|1|Buying a Special Item}.",
 				"A giant or humanoid that takes damage from {@creature Swarm of Insects||insect swarms} or from {@creature giant centipede||giant centipedes}, {@creature giant scorpion||giant scorpions}, o {@creature giant wasp||giant wasps} is exposed to the disease at the end of the encounter. Those who haven't applied insect repellent since their previous long rest are exposed to the disease when they finish a long rest.",
-				"A giant or humanoid exposed to the disease must succeed on a DC 11 Constitució saving throw or become infected. A creature with armadura natural has advantage on the saving throw. It takes {@dice 2d6} hours for symptoms to manifest in an infected creature. Symptoms include blurred vision, disorientation, and a sudden drop in body temperature that causes uncontrollable shivering and chattering of the teeth.",
+				"A giant or humanoid exposed to the disease ha de salvar per Constitució (CD 11). Si falla, become infected. A creature with armadura natural has advantage on the saving throw. It takes {@dice 2d6} hours for symptoms to manifest in an infected creature. Symptoms include blurred vision, disorientation, and a sudden drop in body temperature that causes uncontrollable shivering and chattering of the teeth.",
 				"Once symptoms begin, the infected creature regains only half the normal number of hit points from spending Hit Dice and no hit points from a long rest. The infected creature also has disadvantage on ability checks and attack rolls. At the end of a long rest, an infected creature repeats the saving throw, shaking off the disease on a successful save."
 			]
 		},
@@ -408,7 +408,7 @@
 			"srd": true,
 			"entries": [
 				"This painful infection causes bleeding from the eyes and eventually blinds the victim.",
-				"A beast or humanoid that drinks water tainted by sight rot must succeed on a DC 15 Constitució saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a -1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches -5, the victim is {@condition encegat} until its sight is restored by magic such as {@spell restabliment menor} or {@spell sanar}.",
+				"A beast or humanoid that drinks water tainted by sight rot ha de salvar per Constitució (CD 15). Si falla, become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a -1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches -5, the victim is {@condition encegat} until its sight is restored by magic such as {@spell restabliment menor} or {@spell sanar}.",
 				"Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an {@item herbalism kit|phb} can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely."
 			]
 		},
@@ -426,7 +426,7 @@
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitució saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After {@dice 1d6} hours, the infected character gains 1 level of {@condition exhaust} that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. Si falla, the creature's {@condition exhaust} increases by 1 level; si supera, the creature's {@condition exhaust} decreases by 1 level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease.",
+				"Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water ha de salvar per Constitució (CD 12). Si falla, be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After {@dice 1d6} hours, the infected character gains 1 level of {@condition exhaust} that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. Si falla, the creature's {@condition exhaust} increases by 1 level; si supera, the creature's {@condition exhaust} decreases by 1 level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease.",
 				"Explorers can avoid contracting throat leeches by drinking only rainwater or water that's been boiled or magically purified."
 			]
 		}
