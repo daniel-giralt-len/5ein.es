@@ -224,7 +224,7 @@ const BIRTHPLACES = [
 	{min: 94, max: 95, result: "In a sage's laboratory"},
 	{min: 96, result: "In the Terra Fata"},
 	{min: 97, result: "In the Erm de l'Ombra"},
-	{min: 98, result: () => `On the Astral Plane or the Pla Etèri ${choose("Astral Plane", "Pla Etèri")}`, display: "On the Astral Plane or the Pla Etèri"},
+	{min: 98, result: () => `On the Pla Astral or the Pla Etèri ${choose("Pla Astral", "Pla Etèri")}`, display: "On the Pla Astral or the Pla Etèri"},
 	{min: 99, result: "On an Inner Plane of your choice"},
 	{min: 100, result: "On an Outer Plane of your choice"},
 ];
