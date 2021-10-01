@@ -108,7 +108,7 @@ class AcConvert {
 							froms.push("{@item armadura de plaques|phb}");
 							break;
 
-						case "scale armor": froms.push("{@item scale mail|phb}"); break;
+						case "scale armor": froms.push("{@item cota d'escates|phb}"); break;
 						case "chain shirt": froms.push("{@item chain shirt|phb}"); break;
 						case "shields": froms.push("{@item shield|phb|shields}"); break;
 

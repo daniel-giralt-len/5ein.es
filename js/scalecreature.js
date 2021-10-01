@@ -518,7 +518,7 @@
 		_MEDIUM: {
 			"armadura de pells": 12,
 			"chain shirt": 13,
-			"scale mail": 14,
+			"cota d'escates": 14,
 			"breastplate": 14,
 			"mitja armadura de plaques": 15,
 		},
@@ -933,9 +933,9 @@
 					const getByBase = (base) => {
 						switch (base) {
 							case 14:
-								return [`scale mail|phb`, `breastplate|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
+								return [`cota d'escates|phb`, `breastplate|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 16:
-								return [`+1 mitja armadura de plaques|dmg`, `+2 breastplate|dmg`, `+2 scale mail|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
+								return [`+1 mitja armadura de plaques|dmg`, `+2 breastplate|dmg`, `+2 cota d'escates|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
 							case 17:
 								return `+2 mitja armadura de plaques|dmg`;
 							case 18:

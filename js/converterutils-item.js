@@ -51,7 +51,7 @@ ConverterUtilsItem.BASIC_ARMORS = [
 	"armadura de cuir tatxonada",
 	"armadura de pells",
 	"chain shirt",
-	"scale mail",
+	"cota d'escates",
 	"breastplate",
 	"mitja armadura de plaques",
 	"ring mail",
@@ -219,7 +219,7 @@ class BonusTag {
 		});
 
 		// FIXME(Future) false positives:
-		//   - Black Dragon Scale Mail
+		//   - Black Dragon Cota d'Escates
 		strEntries = strEntries.replace(/\+\s*(\d)([^.]+(?:bonus )?(?:to|on) [^.]*saving throws)/g, (...m) => {
 			obj.bonusSavingThrow = `+${m[1]}`;
 			return opts.isVariant ? `{=bonusSavingThrow}${m[2]}` : m[0];
