@@ -4427,7 +4427,7 @@ Renderer.traphazard = {
 					},
 					{
 						type: "entries",
-						name: "Effect",
+						name: "Efecte",
 						entries: it.effect,
 					},
 					{
