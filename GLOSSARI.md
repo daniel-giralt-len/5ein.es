@@ -52,6 +52,7 @@
 |Electrum pieces|Elèctrums
 |Exhaustion|Exhaust
 |Feats|Dots
+|Feature|Trets
 |Feywild|Terra Fata
 |Frightened|Acovardat
 |Gear|Equipament
