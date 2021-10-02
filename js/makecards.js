@@ -552,7 +552,7 @@ class MakeCards extends BaseComponent {
 
 	static _getIconPath (iconName) {
 		const classIconNames = [
-			"class-barbarian",
+			"class-bàrbar",
 			"class-bard",
 			"class-cleric",
 			"class-druid",
@@ -564,7 +564,7 @@ class MakeCards extends BaseComponent {
 			"class-sorcerer",
 			"class-warlock",
 			"class-wizard",
-			"class-barbarian",
+			"class-bàrbar",
 			"class-bard",
 			"class-cleric",
 			"class-druid",
