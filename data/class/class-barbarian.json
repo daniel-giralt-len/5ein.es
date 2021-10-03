@@ -1933,7 +1933,7 @@
 						],
 						[
 							"5",
-							"Quan una criatura t'impacti mentre et duri la fúria, aquesta rep{@damage 1d6} de dany de força, ja que la màgia li esclata com a represàlia."
+							"Quan una criatura t'impacti mentre et duri la fúria, aquesta rep {@damage 1d6} de dany de força, ja que la màgia li esclata com a represàlia."
 						],
 						[
 							"6",
@@ -2202,8 +2202,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, magic erupts from you as you rage. Quan entris en fúria, roll on the Descàrrega Salvatge table, que determinarà l'efecte màgic que ocorre.",
-				"If the descàrrega salvatge requires a saving throw, la CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
+				"Començant a nivell 3, l'energia màgica que es cou a dins teu esclata. Quan entris en fúria, tira a la Taula de Descàrrega Salvatge, que determinarà l'efecte màgic que ocorre.",
+				"Si l'efecte requereix una salvada, la CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
 				{
 					"type": "table",
 					"caption": "Descàrrega Salvatge",
@@ -2218,35 +2218,35 @@
 					"rows": [
 						[
 							1,
-							"Necrotic energy bursts from you. Each creature a 30 peus de tu takes {@damage 1d10} de dany necròtic, and you gain punts de vida temporals equal to the sum of the necrotic damage dealt to the creatures."
+							"Surt energia necròtica de tu. Tota criatura a 30 peus de tu rep {@damage 1d10} de dany necròtic, i obténs el dany fet a totes les criatures en punts de vida temporals."
 						],
 						[
 							2,
-							"You teleport up to 20 feet en un espai desocupat que puguis veure. Fins que se t'acabi la fúria, you can activate this effect again a cada torn teu com a acció bonus."
+							"Et teleportes fins a 20 peus d'abast en un espai desocupat que puguis veure. Fins que se t'acabi la fúria, pots tornar a emprar aquest efecte a cada torn teu com a acció bonus."
 						],
 						[
 							3,
-							"You conjure {@dice 1d4} intangible spirits that look like {@creature flumph||flumphs} in unoccupied spaces a 30 peus de tu. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them ha de salvar per Destresa. Si falla, rep {@damage 2d8} de dany de força."
+							"Conjures {@dice 1d4} esperit intangible amb forma de {@creature flumph||flumphs} a espais desocupats a 30 peus de tu. Cada esperit vola immediatament 30 peus en una direcció a l'atzar. Al final del torn actual l'esperit esclata i tota criatura a 5 peus d'abast ha de salvar per Destresa. Qui falli rep {@damage 2d8} de dany de força."
 						],
 						[
 							4,
-							"Arcane energy enshrouds you. Fins que se t'acabi la fúria, tens +2 a la CA, and whenever a creature a 10 peus de tu hits you with an attack, that creature takes force damage equivalent al teu modificador de Constitució."
+							"T'embolcalla energia arcana. Fins que se t'acabi la fúria tens +2 a la CA; i quan una criatura a 10 peus de tu t'impacti amb un atac, aquesta rep dany de força equivalent al teu modificador de Constitució."
 						],
 						[
 							5,
-							"Plant life temporarily grows around you: Fins que se t'acabi la fúria, the ground a 10 peus de tu is difficult terrain."
+							"Al teu voltant floreixen plantes. Fins que se t'acabi la fúria, el terra a 10 peus de tu és torna terreny difícil."
 						],
 						[
 							6,
-							"Arcane energy taps into the minds of those around you. Each creature a 30 peus de tu ha de salvar per Saviesa saving throw or you see a glimpse of the creature's thoughts, learning how it plans to attack you. As a result, the creature té desavantatge a tirades d'impacte against you fins l'inici del teu proper torn."
+							"Les ments d'aquells al teu voltant s'emboten d'energia arcana. Tota criatura a 30 peus de tu ha de salvar per Saviesa. De qui falli obténs una finestra als seus pensaments i com vol atacar-te. Així, la criatura té desavantatge a tirades d'impacte contra tu fins l'inici del teu proper torn."
 						],
 						[
 							7,
-							"Shadows weave around a weapon of your choice you are holding. Fins que se t'acabi la fúria, your weapon deals psychic damage instead of its bludgeoning, slashing, or dany perforant, and it gains the light and thrown properties with a normal range of 20 feet and a long range of 60 feet. If you drop the weapon or throw it, the weapon dissipates and reappears in your hand at the end of your turn."
+							"Les ombres cobreixen una arma que escullis i que estiguis brandant. Fins que se t'acabi la fúria: el dany de l'arma es torna psíquic; l'arma rep la propietat Lleugera; l'arma rep la propietat Llancívola (abast 20/60 peus); i si al final del torn actual no tens l'arma a la ma, hi reapareix."
 						],
 						[
 							8,
-							"A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line ha de salvar per Constitució. Si falla, rep {@damage 2d8} de dany radiant and be {@condition blinded} fins l'inici del teu proper torn."
+							"Un feix de llum surt del teu pit en una línia de 5 peus d'ample i 60 de llarg. Tota criatura a l'àrea ha de salvar per Constitució. Qui falli, rep {@damage 2d8} de dany radiant i esdevé {@condition blinded} fins l'inici del teu proper torn."
 						]
 					]
 				}
@@ -3050,7 +3050,7 @@
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"Mentre estiguis en fúria, pots, com a acció bonus, during your move to pass through the space of a Large or smaller creature. That creature ha de salvar per Força saving throw (DC 8 + your Força bonus + el teu bonus de competència) or be knocked {@condition prone} and take dany contundent equal to {@dice 1d12} + el teu modificador de Força."
+				"Mentre estiguis en fúria, pots, com a acció bonus, during your move to pass through the space of a Large or smaller creature. That creature ha de salvar per Força. (DC 8 + your Força bonus + el teu bonus de competència) or be knocked {@condition prone} and take dany contundent equal to {@dice 1d12} + el teu modificador de Força."
 			]
 		},
 		{
@@ -3180,7 +3180,7 @@
 			"subclassSource": "XGE",
 			"level": 14,
 			"entries": [
-				"Whenever the effect of your Storm Aura is activated, you can choose one creature que puguis veure in the aura. That creature ha de salvar per Força saving throw, or its speed is reduced to 0 fins l'inici del teu proper torn, as magical frost covers it."
+				"Whenever the effect of your Storm Aura is activated, you can choose one creature que puguis veure in the aura. That creature ha de salvar per Força., or its speed is reduced to 0 fins l'inici del teu proper torn, as magical frost covers it."
 			]
 		}
 	]
