@@ -2025,7 +2025,7 @@ class CreatureBuilder extends Builder {
 
 		const _CONTEXT_ENTRIES = [
 			{
-				display: "Cantrips",
+				display: "Trucs",
 				type: "0",
 				mode: "cantrip",
 			},
