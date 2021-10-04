@@ -826,7 +826,7 @@ class BestiaryPage extends ListPage {
 				const bonus = Number($(this).text());
 				const expectedPB = Parser.crToPb(mon.cr);
 
-				// skills and saves can have expertise
+				// skills and saves can have perícia
 				let expert = 1;
 				let pB = expectedPB;
 				let fromAbility;

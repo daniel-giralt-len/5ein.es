@@ -873,7 +873,7 @@ ProfUiUtil.PROF_TO_FULL = {
 		mult: 1,
 	},
 	"2": {
-		name: "Expertise",
+		name: "Perícia",
 		mult: 2,
 	},
 	"3": {

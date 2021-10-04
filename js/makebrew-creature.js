@@ -1434,7 +1434,7 @@ class CreatureBuilder extends Builder {
 				.click(() => _handleButtonPress());
 			if (this._meta.profSkill[prop] === 1) $btnProf.addClass("active");
 
-			const $btnExpert = $(`<button class="btn btn-xs btn-default ml-2" title="Has Expertise">Expert.</button>`)
+			const $btnExpert = $(`<button class="btn btn-xs btn-default ml-2" title="Has Perícia">Expert.</button>`)
 				.click(() => _handleButtonPress(true));
 			if (this._meta.profSkill[prop] === 2) $btnExpert.addClass("active");
 
