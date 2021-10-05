@@ -1042,9 +1042,9 @@
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Inquisidor|Pícar||Inquisidor (UA)|UAGothicHeroes|3",
-				"Steady Eye|Pícar||Inquisidor (UA)|UAGothicHeroes|9",
-				"Unerring Eye|Pícar||Inquisidor (UA)|UAGothicHeroes|13",
-				"Eye for Weakness|Pícar||Inquisidor (UA)|UAGothicHeroes|17"
+				"Temprar el Tir|Pícar||Inquisidor (UA)|UAGothicHeroes|9",
+				"Ull Veraç|Pícar||Inquisidor (UA)|UAGothicHeroes|13",
+				"Detectar la Feblesa|Pícar||Inquisidor (UA)|UAGothicHeroes|17"
 			]
 		},
 		{
@@ -1071,9 +1071,9 @@
 			"page": 45,
 			"subclassFeatures": [
 				"Inquisidor|Pícar||Inquisidor|XGE|3",
-				"Steady Eye|Pícar||Inquisidor|XGE|9",
-				"Unerring Eye|Pícar||Inquisidor|XGE|13",
-				"Eye for Weakness|Pícar||Inquisidor|XGE|17"
+				"Temprar el Tir|Pícar||Inquisidor|XGE|9",
+				"Ull Veraç|Pícar||Inquisidor|XGE|13",
+				"Detectar la Feblesa|Pícar||Inquisidor|XGE|17"
 			]
 		},
 		{
@@ -2802,7 +2802,7 @@
 			]
 		},
 		{
-			"name": "Steady Eye",
+			"name": "Temprar el Tir",
 			"source": "UAGothicHeroes",
 			"page": 2,
 			"className": "Pícar",
@@ -2812,11 +2812,11 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"A nivell 9, you gain advantage on any Saviesa ({@skill Perception}) check made en el teu torn to find a hidden creature or object if you do not move during that turn. If you use this ability before moving, you cannot move or ready movement during your turn."
+				"A nivell 9, tires Saviesa ({@skill Perception}) amb avantatge quan busques una criatura o objecte amagat; per a fer-ho no pots moure't durant el torn. Si empres aquest tret abans de moure't, no pots moure't durant aquell torn teu."
 			]
 		},
 		{
-			"name": "Unerring Eye",
+			"name": "Ull Veraç",
 			"source": "UAGothicHeroes",
 			"page": 2,
 			"className": "Pícar",
@@ -2826,11 +2826,11 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"A nivell 13, you gain the ability to detect magical deception. Com a acció, you sense the presence a 30 peus de tu of illusions, shapechanger creatures not in their true form, and other magic designed to deceive the senses. Though you determine that an effect is attempting to trick you, you gain no special insight into what is hidden or its true nature."
+				"A nivell 13, pots detectar enganys màgics. Com a acció, notes, a 30 peus d'abast: la presència d'il·lusions, canviaformes que no tinguin la seva forma original; i altres màgies que enganyin els sentits. Saps que un efecte t'intenta enganyar però no saps, necessàriament, què és el que amaga o com és de debò."
 			]
 		},
 		{
-			"name": "Eye for Weakness",
+			"name": "Detectar la Feblesa",
 			"source": "UAGothicHeroes",
 			"page": 2,
 			"className": "Pícar",
@@ -2840,7 +2840,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"A nivell 17, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Lluita Manuscrita feature applies to a creature, your Atac Furtiu damage contra aquella criatura increases by {@dice 2d6}."
+				"A nivell 17, aprèns a aprofitar-te de les debilitats d'una criatura mentres n'estudies el seu comportament. Mentre tinguis aplicada la Lluita Manuscrita sobre una criatura, el dany que li facis d'Atac Furtiu incrementa en {@dice 2d6}."
 			]
 		},
 		{
@@ -2853,19 +2853,19 @@
 			"subclassSource": "UARangerAndPícar",
 			"level": 3,
 			"entries": [
-				"You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wilds.",
+				"Tens experiència en sigil i atravessar zones ferèstegues, cosa que et permet avançar-te durant les expedicions. La gent pícara Rastrejadora estan com a casa als boscos i amb bàrbers i guerrers, sent els sentits de les bandes de guerra de tot el món. En comparació amb altres pícars, tens molta habilitat per a sobreviure a llocs salvatges.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Survivalist|Pícar||Rastrejador (UA)|UARangerAndPícar|3"
+					"subclassFeature": "Supervivent|Pícar||Rastrejador (UA)|UARangerAndPícar|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skirmisher|Pícar||Rastrejador (UA)|UARangerAndPícar|3"
+					"subclassFeature": "Escaramussador|Pícar||Rastrejador (UA)|UARangerAndPícar|3"
 				}
 			]
 		},
 		{
-			"name": "Skirmisher",
+			"name": "Escaramussador",
 			"source": "UARangerAndPícar",
 			"page": 2,
 			"className": "Pícar",
@@ -2875,11 +2875,11 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you are difficult to pin down during a fight. You can move up to half your speed com a reacció when an enemy ends its turn a 5 peus de tu. Aquest moviment no provoca atacs d'oportunitat."
+				"Començant a nivell 3, ets difícil d'atrapar durant un combat. Pots, com a reacció, moure't fins la meitat de la teva velocitat quan un enemic acabi el seu torn a 5 peus de tu. Aquest moviment no provoca atacs d'oportunitat."
 			]
 		},
 		{
-			"name": "Survivalist",
+			"name": "Supervivent",
 			"source": "UARangerAndPícar",
 			"page": 2,
 			"className": "Pícar",
@@ -2889,7 +2889,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan esculls aquest arquetip a nivell 3, you gain proficiency in the {@skill Nature} i {@skill Survival} skills. El teu bonus de competència is doubled for any ability check you make that uses either of those proficiencies."
+				"Quan esculls aquest arquetip a nivell 3, reps competència en les habilitats de {@skill Nature} i {@skill Survival}. El teu bonus de competència es suma 2 cops (i no 1) a totes les tirades d'aquestes habilitats."
 			]
 		},
 		{
@@ -3004,7 +3004,7 @@
 			]
 		},
 		{
-			"name": "Steady Eye",
+			"name": "Temprar el Tir",
 			"source": "XGE",
 			"page": 45,
 			"className": "Pícar",
@@ -3018,7 +3018,7 @@
 			]
 		},
 		{
-			"name": "Unerring Eye",
+			"name": "Ull Veraç",
 			"source": "XGE",
 			"page": 45,
 			"className": "Pícar",
@@ -3033,7 +3033,7 @@
 			]
 		},
 		{
-			"name": "Eye for Weakness",
+			"name": "Detectar la Feblesa",
 			"source": "XGE",
 			"page": 45,
 			"className": "Pícar",
@@ -3162,16 +3162,16 @@
 				"You are skilled in stealth and surviving far from the streets of a city, allowing you to rastrejador ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Rastrejadors serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter\u2014these are just a few of the roles that Rastrejadors assume as they range the world.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skirmisher|Pícar||Rastrejador|XGE|3"
+					"subclassFeature": "Escaramussador|Pícar||Rastrejador|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Survivalist|Pícar||Rastrejador|XGE|3"
+					"subclassFeature": "Supervivent|Pícar||Rastrejador|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "Skirmisher",
+			"name": "Escaramussador",
 			"source": "XGE",
 			"page": 47,
 			"className": "Pícar",
@@ -3185,7 +3185,7 @@
 			]
 		},
 		{
-			"name": "Survivalist",
+			"name": "Supervivent",
 			"source": "XGE",
 			"page": 47,
 			"className": "Pícar",
