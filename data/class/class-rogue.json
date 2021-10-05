@@ -1155,7 +1155,7 @@
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Fulla d'Ànima|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|3",
-				"Terrifying Blade|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|9",
+				"Ganivet Terrorífic|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|9",
 				"Vel Psíquic|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|13",
 				"Mutilar Ment|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|17"
 			]
@@ -2150,7 +2150,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Fulla d'Ànima a nivell 3}",
-				"Manifestes poder psiònic com a armes radiants d'energia psíquica. Quan prens l'acció {@action Attack}, pots manifestar un punyal psíquic a una mà lliure i pots atacar amb aquesta arma. Aquesta aram màgicaés una arma simple cos a cos Fina i Llancívola, amb abast normal 60 i sense abast llarg. Si impactes fa {@dice 1d6} + el modificador d'habilitat de la tirada d'impacte de dany psíquic. La fulla s'esvaeix immediatament quan ataquis, impacti o no, i no deixa marca a l'objectiu després de causar dany.",
+				"Manifestes poder psiònic com a armes radiants d'energia psíquica. Quan prens l'acció {@action Attack}, pots manifestar un punyal psíquic a una mà lliure i pots atacar amb aquesta arma. Aquesta arma màgica és una arma simple cos a cos Fina i Llancívola, amb abast normal 60 i sense abast llarg. Si impactes fa {@dice 1d6} + el modificador d'habilitat de la tirada d'impacte de dany psíquic. La fulla s'esvaeix immediatament quan ataquis, impacti o no, i no deixa marca a l'objectiu després de causar dany.",
 				"Un cop ataquis amb l'arma, pots fer un atac armat a cos a cos o a distància amb un senyol punyal psíquic com a acció bonus durant el mateix torn; has de tenir l'altra mà lliure per a poder crear-la. El dau de dany d'aquest atac és {@dice 1d4} i no {@dice 1d6}."
 			]
 		},
@@ -2639,7 +2639,7 @@
 				"Com a Fulla d'Ànima, les teves habilitats psiòniques tal vegada et perseguiren des de l'infància i només s'han revelat davant l'estrés de l'aventura. Potser havies buscat una ordre aïllada d'adeptes psíquics i t'hi havies quedat anys aprenent com manifestar el teu poder.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Psychic Blade|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|3"
+					"subclassFeature": "Ganivet Psíquic|Pícar||Fulla d'Ànima (UA)|UAFighterRogueWizard|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -2665,13 +2665,13 @@
 					"items": [
 						"Pots comunicar-te telepàticament amb tota criatura que puguis veure a 30 peus de tu. Si la criatura coniex com a mínim un idioma, et pot respondre telepàticament.",
 						"Incrementes la teva velocitat de caminar en 5 peus.",
-						"Els Your punts de vida màxims and your current hit points increase by an amount equivalent al teu modificador d'Intel·ligència plus your rogue level."
+						"Els teus punts de vida màxims i punts de vida actuals incrementen en el teu modificador d'Intel·ligència + el teu nivell de Pícar."
 					]
 				}
 			]
 		},
 		{
-			"name": "Psychic Blade",
+			"name": "Ganivet Psíquic",
 			"source": "UAFighterRogueWizard",
 			"page": 2,
 			"className": "Pícar",
@@ -2682,12 +2682,12 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Fulla d'Ànima a nivell 3}",
-				"Com a acció bonus, you can create a magical blade of shimmering psychic power from one or both of your hands. While one of your hands is manifesting a blade, you can't hold anything in that hand. You can dismiss one or both blades at any time (no requereix acció), and they disappear if you're {@condition incapacitated}.",
-				"The blade is a simple melee weapon with the finesse, light, and thrown properties. It has a normal range of 30 feet and a long range of 60 feet, and it deals {@damage 1d6} de dany psíquic on a hit. If you throw the blade as part of an attack, it vanishes immediately after it hits or misses its target. The blade otherwise disappears the instant it leaves your hand."
+				"Manifestes poder psiònic com a armes radiants d'energia psíquica. Quan prens l'acció {@action Attack}, pots manifestar un o dos punyals psíquic a una o dues mans lliures. Les mans no poden subjectar res més mentre hi tinguis els punyals. Els punyals desapareixen si els dissipes en qualsevol moment (no requereix acció) o si esdevens {@condition incapacitated}.",
+				"Cada ganivet psíquic és una arma simple cos a cos Fina i Llancívola (abast 30/60 peus). Si impactes fa {@dice 1d6} + el modificador d'habilitat de la tirada d'impacte de dany psíquic. La fulla s'esvaeix immediatament quan ataquis, impacti o no."
 			]
 		},
 		{
-			"name": "Terrifying Blade",
+			"name": "Ganivet Terrorífic",
 			"source": "UAFighterRogueWizard",
 			"page": 2,
 			"className": "Pícar",
@@ -2698,7 +2698,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Fulla d'Ànima a nivell 9}",
-				"Your punyals psíquics can now stoke terror within a target: When you damage a creature with your Psychic Blade, you can force the target to make a Saviesa saving throw (la CD és 8 + el teu bonus de competència + el teu modificador d'Intel·ligència). Si falla, the creature is {@condition frightened} of you fins l'inici del teu proper torn. On a successful save, the creature isn't {@condition frightened} and is immune to your Terrifying Blade durant 24 hores."
+				"Els ganivets psíquics poden atemorir a un objectiu. Quan causis dany a una criatura amb un Ganivet Psíquic, pots fer-la salvar per Saviesa (la CD és 8 + el teu bonus de competència + el teu modificador d'Intel·ligència). Si falla, esdevé {@condition frightened} de tu fins l'inici del teu proper torn. On a successful save, the creature isn't {@condition frightened} and is immune to your Ganivet Terrorífic durant 24 hores."
 			]
 		},
 		{
@@ -2729,7 +2729,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Fulla d'Ànima a nivell 17}",
-				"You can sweep your Psychic Blade directly through a creature's mind. Com a acció while you have at least one Psychic Blade manifested, you can force a creature que puguis veure a 30 peus de tu to make an Intel·ligència saving throw (la CD és 10 + el teu bonus de competència + el teu modificador d'Intel·ligència). If you are hidden from the target, it has disadvantage on the save. Si falla, L'objectiu rep {@damage 12d6} de dany psíquic, and it is {@condition stunned} fins l'inici del teu proper torn. On a successful save, L'objectiu rep half as much damage and isn't {@condition stunned}. One of your Punyals Psíquics vanishes after using this feature.",
+				"You can sweep your Ganivet Psíquic directly through a creature's mind. Com a acció while you have at least one Ganivet Psíquic manifested, you can force a creature que puguis veure a 30 peus de tu to make an Intel·ligència saving throw (la CD és 10 + el teu bonus de competència + el teu modificador d'Intel·ligència). If you are hidden from the target, it has disadvantage on the save. Si falla, L'objectiu rep {@damage 12d6} de dany psíquic, and it is {@condition stunned} fins l'inici del teu proper torn. On a successful save, L'objectiu rep half as much damage and isn't {@condition stunned}. One of your Punyals Psíquics vanishes after using this feature.",
 				"Pots emprar aquest tret un número de cops equivalent al teu modificador d'Intel·ligència (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
