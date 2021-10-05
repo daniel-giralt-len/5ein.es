@@ -966,9 +966,9 @@
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Tradició de Pietat|Monjo||Pietat (UA)|UA2020SubclassesPt1|3",
-				"Noxious Aura|Monjo||Pietat (UA)|UA2020SubclassesPt1|6",
-				"Healing Technique|Monjo||Pietat (UA)|UA2020SubclassesPt1|11",
-				"Hand of Mercy|Monjo||Pietat (UA)|UA2020SubclassesPt1|17"
+				"Aura Nociva|Monjo||Pietat (UA)|UA2020SubclassesPt1|6",
+				"Tècnica Curativa|Monjo||Pietat (UA)|UA2020SubclassesPt1|11",
+				"Mà de Perdó|Monjo||Pietat (UA)|UA2020SubclassesPt1|17"
 			]
 		},
 		{
@@ -2473,7 +2473,7 @@
 			]
 		},
 		{
-			"name": "Noxious Aura",
+			"name": "Aura Nociva",
 			"source": "UA2020SubclassesPt1",
 			"page": 2,
 			"className": "Monjo",
@@ -2484,12 +2484,12 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Tradició de Pietat a nivell 6}",
-				"Com a acció bonus, you spend 1 punt de ki to turn your ki into an aura of toxic miasma. The aura extends 5 feet from you in every direction, but not through total cover. It lasts durant 1 minut, until you're {@condition incapacitated}, or you dismiss it (no requereix acció).",
-				"While your aura is active, atac a distàncias have disadvantage against you. Any other creature that starts its turn in the aura ha de salvar per Constitució. or become {@condition poisoned} fins el final del teu proper torn and take poison damage equivalent al teu modificador de Saviesa (mínim de 0 damage)."
+				"Com a acció bonus, gastes 1 punt de ki i el tornes una aura de gas tòxic. S'extèn en una esfera de 5 radis de tu, però no atravessa la cobertura tota. Dura 1 minut, o fins que estiguis {@condition incapacitated}, o si la dissipes (no requereix acció).",
+				"Mentre l'aura estigui activa els atacs a distància contra tu tenen desavantatge. Tota criatura que hi comenci el torn ha de salvar per Constitució. Si falla esdevé {@condition poisoned} fins el final del teu proper torn, i rep el teu modificador de Saviesa de dany de verí (mínim de 0)."
 			]
 		},
 		{
-			"name": "Healing Technique",
+			"name": "Tècnica Curativa",
 			"source": "UA2020SubclassesPt1",
 			"page": 2,
 			"className": "Monjo",
@@ -2500,11 +2500,11 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Tradició de Pietat a nivell 11}",
-				"Your skill in manipulating your ki to heal increases. When you restore hit points to a creature using your Mans que Sanen, you can also end one disease or a condition from the following list affecting the target: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}."
+				"Pots administrar cures superiors amb el teu toc, Quan recuperes punts de vida amb la Mà que Sana pots, a més, acabar-li una malaltia o una de les següents condicions: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition poisoned}, o {@condition stunned}."
 			]
 		},
 		{
-			"name": "Hand of Mercy",
+			"name": "Mà de Perdó",
 			"source": "UA2020SubclassesPt1",
 			"page": 2,
 			"className": "Monjo",
@@ -2515,8 +2515,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Tradició de Pietat a nivell 17}",
-				"Your mastery of life energy opens the door to the ultimate respite technique. Com a acció, you can touch a creature, expend 4 punts de ki, and force the creature to make a Constitució saving throw (a creature can willingly fail this save). Unless the save succeeds, the creature enters a state of suspended animation for a number of days equal to el teu nivell de monjo or until you end the effect early (no requereix acció). During this time, the creature is {@condition paralyzed}, has immunity to all damage, and any curse, disease, or poison affecting it is suspended. The creature appears dead to all outward inspection and to spells used to determine the creature's status.",
-				"You can have only one creature under the effect of this feature at a time."
+				"El teu domini sobre la vida t'obre el camí cap a la pietat absoluta. Com a acció, pots tocar a una criatura i gastar 4 punts de ki, i fer-la salvar per Constitució (pot fallar-la voluntàriament). Si falla, la criatura entra en suspensió animada tants dies com el teu nivell de monjo o fins que acabes l'efecte prematurament (no requereix acció). Suspes així, està {@condition paralyzed}, té immunitat a tot dany, i se suspenen totes les malalties, metzines i malediccions que l'afectin. La criatura sembla morta a qualsevol que l'inspeccioni. Els conjurs que en determinen l'estat la pronunciaran morta.",
+				"Només pots tenir a una criatura subjecta a aquest efecte alhora."
 			]
 		},
 		{
@@ -3183,7 +3183,7 @@
 					"items": [
 						"Choose two types of weapons to be your armes kensei: one melee weapon and one ranged weapon. Each of these weapons can be any simple or martial weapon that lacks the heavy and special properties. The longbow is also a valid choice. You gain proficiency with these weapons if you don't already have it. Weapons of the chosen types are armes de monjo for you. Many of this tradition's features work only with your armes kensei. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon\u2014melee or ranged\u2014to be a kensei weapon for you, following the criteria above.",
 						"If you make an unarmed strike as part of l'acció {@action Attack} en el teu torn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. Tens +2 a la CA fins l'inici del teu proper torn, while the weapon is in your hand and you aren't {@condition incapacitated}.",
-						"Pots, com a acció bonus, en el teu torn to make your atac a distàncias with a kensei weapon more deadly. When you do so, any target you hit with a atac a distància using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit fins el final del torn actual."
+						"Pots, com a acció bonus, en el teu torn to make your atacs a distància with a kensei weapon more deadly. When you do so, any target you hit with a atac a distància using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit fins el final del torn actual."
 					]
 				}
 			]
@@ -3603,7 +3603,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Pots, com a acció bonus, en el teu torn to make your atac a distàncias with a kensei weapon more deadly. When you do so, any target you hit with a atac a distància using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit fins el final del torn actual."
+				"Pots, com a acció bonus, en el teu torn to make your atacs a distància with a kensei weapon more deadly. When you do so, any target you hit with a atac a distància using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit fins el final del torn actual."
 			]
 		}
 	]
