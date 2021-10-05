@@ -419,7 +419,7 @@
 			],
 			"classFeatures": [
 				"Defensa Desvestida|Monk||1",
-				"Martial Arts|Monk||1",
+				"Arts Marcials|Monk||1",
 				"Monk Weapons|Monk||1|UAClassFeatureVariants",
 				"Ki|Monk||2",
 				"Ki-Fueled Strike|Monk||2|UAClassFeatureVariants",
@@ -686,7 +686,7 @@
 							"type": "entries",
 							"name": "Master",
 							"entries": [
-								"During your studies, you were likely under the tutelage of a master who imparted to you the precepts of the order. Your master was the one most responsible for shaping your understanding of the martial arts and your attitude toward the world. What sort of person was your master, and how did your relationship with your master affect you?",
+								"During your studies, you were likely under the tutelage of a master who imparted to you the precepts of the order. Your master was the one most responsible for shaping your understanding of the arts marcials and your attitude toward the world. What sort of person was your master, and how did your relationship with your master affect you?",
 								{
 									"type": "table",
 									"caption": "Master",
@@ -1016,7 +1016,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "Martial Arts",
+			"name": "Arts Marcials",
 			"source": "PHB",
 			"page": 76,
 			"srd": true,
@@ -1024,13 +1024,13 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
+				"Your practice of arts marcials gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
 				"Reps els beneficis següents while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
 				{
 					"type": "list",
 					"items": [
 						"You can use Destresa instead of Força for the attack and damage rolls of your unarmed strikes and monk weapons.",
-						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Arts Marcials column of the Monk table.",
 						"Quan empris l'acció {@action Attack} with an unarmed strike or a monk weapon en el teu torn, you can make one unarmed strike com a acció bonus. For example, if you take the {@action Attack} and attack with a quarterstaff, you can also make an unarmed strike com a acció bonus, assuming you haven't already taken a bonus action this turn."
 					]
 				},
@@ -1046,9 +1046,9 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de monk a nivell 1 (millora Martial Arts)}",
-				"You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.",
-				"You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + el teu modificador de Saviesa (minimum of five weapons). The chosen weapons must each meet the following criteria:",
+				"{@i tret de monk a nivell 1 (millora Arts Marcials)}",
+				"You can use this feature to define your monk weapons, rather than using the definition in Arts Marcials.",
+				"You practice les teves arts marcials with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + el teu modificador de Saviesa (minimum of five weapons). The chosen weapons must each meet the following criteria:",
 				{
 					"type": "list",
 					"items": [
@@ -1158,7 +1158,7 @@
 					"type": "entries",
 					"name": "Quickened Healing",
 					"entries": [
-						"Com a acció, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled."
+						"Com a acció, you can spend 2 ki points and roll a Dau d'Arts Marcials. You regain a number of hit points equal to the number rolled."
 					]
 				}
 			]
@@ -1264,7 +1264,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 4th-level monk {@variantrule optional class features|tce|optional feature}}",
-				"Com a acció, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus el teu bonus de competència."
+				"Com a acció, you can spend 2 ki points and roll a Dau d'Arts Marcials. You regain a number of hit points equal to the number rolled plus el teu bonus de competència."
 			]
 		},
 		{
@@ -1817,7 +1817,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
+				"Monks of the Way of the Open Hand are the ultimate masters of arts marcials combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Open Hand Technique|Monk||Open Hand||3"
@@ -1976,7 +1976,7 @@
 			"subclassSource": "SCAG",
 			"level": 3,
 			"entries": [
-				"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
+				"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of arts marcials, yielding a deadly fighting style.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Touch of Death|Monk||Long Death|SCAG|3"
@@ -2072,7 +2072,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Way of the Astral Self a nivell 3}",
-				"Your mastery of your ki allows you to summon a portion of your astral self. Com a acció bonus, you can spend 1 ki point to summon the arms of your astral self. When you do so, tota criatura que designis que puguis veure a 10 peus de tu ha de salvar per Destresa. Si falla, rep force damage equal to two rolls of your Martial Arts die.",
+				"Your mastery of your ki allows you to summon a portion of your astral self. Com a acció bonus, you can spend 1 ki point to summon the arms of your astral self. When you do so, tota criatura que designis que puguis veure a 10 peus de tu ha de salvar per Destresa. Si falla, rep force damage equal to two rolls of your Dau d'Arts Marcials.",
 				"Durant 10 minuts, these spectral arms hover near your shoulders or surround your arms (escull). You determine the arms' appearance, and they vanish early if you are {@condition incapacitated} or die.",
 				"While the spectral arms are present, reps els beneficis següents:",
 				{
@@ -2165,7 +2165,7 @@
 					"type": "entries",
 					"name": "Empowered Arms",
 					"entries": [
-						"Un cop a cada torn teu when you hit a target with the Arms of the Astral Self, you can deal extra damage to the target equal to your Martial Arts die."
+						"Un cop a cada torn teu when you hit a target with the Arms of the Astral Self, you can deal extra damage to the target equal to your Dau d'Arts Marcials."
 					]
 				}
 			]
@@ -2239,7 +2239,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Way of Mercy a nivell 3}",
-				"You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + el teu modificador de Saviesa. You can use this feature only un cop per torn."
+				"You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Dau d'Arts Marcials + el teu modificador de Saviesa. You can use this feature only un cop per torn."
 			]
 		},
 		{
@@ -2254,7 +2254,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Way of Mercy a nivell 3}",
-				"Your mystical touch can mend wounds. Com a acció, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + el teu modificador de Saviesa.",
+				"Your mystical touch can mend wounds. Com a acció, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Dau d'Arts Marcials + el teu modificador de Saviesa.",
 				"When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending a ki point for the healing."
 			]
 		},
@@ -2437,7 +2437,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Way of Mercy a nivell 3}",
-				"You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die. If the creature is {@condition incapacitated} or {@condition poisoned}, the creature instead takes necrotic damage equal to three rolls of your Martial Arts die instead. You can use this feature only un cop a cada torn teu."
+				"You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Dau d'Arts Marcials. If the creature is {@condition incapacitated} or {@condition poisoned}, the creature instead takes necrotic damage equal to three rolls of your Dau d'Arts Marcials instead. You can use this feature only un cop a cada torn teu."
 			]
 		},
 		{
@@ -2452,7 +2452,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Way of Mercy a nivell 3}",
-				"Your mystical touch can mend wounds. Com a acció, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + el teu modificador de Saviesa.",
+				"Your mystical touch can mend wounds. Com a acció, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Dau d'Arts Marcials + el teu modificador de Saviesa.",
 				"When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending its ki cost."
 			]
 		},
@@ -2590,8 +2590,8 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Way of the Ascendant Dragon a nivell 3}",
-				"You can channel your ki into destructive waves of energy like the dragons you emulate. When you take the {@action Attack} en el teu torn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (escull). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in the area ha de salvar per Destresa against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failure, or half as much damage on a success.",
-				"A nivell 11, the damage of your breath increases to three rolls of your Martial Arts die.",
+				"You can channel your ki into destructive waves of energy like the dragons you emulate. When you take the {@action Attack} en el teu torn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (escull). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in the area ha de salvar per Destresa against your ki save DC, taking damage of the chosen type equal to two rolls of your Dau d'Arts Marcials on a failure, or half as much damage on a success.",
+				"A nivell 11, the damage of your breath increases to three rolls of your Dau d'Arts Marcials.",
 				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg. While you have no uses available, you can spend 1 ki point to use this feature again."
 			]
 		},
@@ -2651,7 +2651,7 @@
 					"type": "list",
 					"items": [
 						"You and your allies within your aura gain resistance to the chosen damage type.",
-						"Waves of destructive energy flow out from you and your allies when any of you are attacked. When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal an amount of damage of the chosen type equal to one roll of your Martial Arts die to the attacker."
+						"Waves of destructive energy flow out from you and your allies when any of you are attacked. When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal an amount of damage of the chosen type equal to one roll of your Dau d'Arts Marcials to the attacker."
 					]
 				},
 				"Once you use this bonus action, you can't use it again fins que acabis un descans llarg, unless you expend 4 ki points to use it again."
@@ -2674,7 +2674,7 @@
 					"type": "list",
 					"items": [
 						"You gain {@sense visió a cegues} out to 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness. Moreover, que puguis veure an {@condition invisible} creature within that range, unless the creature successfully hides from you.",
-						"When you damage a creature with your Breath of the Dragon, the energy clings to the target. At the start of each of the creature's turns, it takes damage of the type your breath dealt equal to one roll of your Martial Arts die. At the end of its turn, the creature can repeat the save, ending the effect on itself on a success.",
+						"When you damage a creature with your Breath of the Dragon, the energy clings to the target. At the start of each of the creature's turns, it takes damage of the type your breath dealt equal to one roll of your Dau d'Arts Marcials. At the end of its turn, the creature can repeat the save, ending the effect on itself on a success.",
 						"When you activate your Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures que puguis veure within your aura. Those creatures each take {@damage 4d10} acid, cold, fire, lightning, or poison damage (escull)."
 					]
 				}
@@ -2708,7 +2708,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition a nivell 3, you gain proficiency in the {@skill Performance} skill if you don't already have it; your martial arts technique mixes martial training with the precision of a dancer and the antics of a jester.",
+				"When you choose this tradition a nivell 3, you gain proficiency in the {@skill Performance} skill if you don't already have it; les teves arts marcials technique mixes martial training with the precision of a dancer and the antics of a jester.",
 				"You also learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the {@action Disengage}, and la teva velocitat de caminar incrementa en 10 peus fins el final del torn actual."
 			]
 		},
@@ -2866,7 +2866,7 @@
 					"type": "entries",
 					"name": "Empowered Arms",
 					"entries": [
-						"Un cop a cada torn teu when you hit a target with your astral arms, you can deal extra damage to the target equal to your Martial Arts die."
+						"Un cop a cada torn teu when you hit a target with your astral arms, you can deal extra damage to the target equal to your Dau d'Arts Marcials."
 					]
 				},
 				{
@@ -2951,7 +2951,7 @@
 			"subclassSource": "UAMonk",
 			"level": 3,
 			"entries": [
-				"Monks of the Way of Kensei train relentlessly with their weapons, to the point that the weapon becomes like an extension of the body. A kensei sees a weapon in much the same way a painter regards a brush or a writer sees parchment, ink, and quill. A sword or bow is a tool used to express the beauty and elegance of the martial arts. That such mastery makes a kensei a peerless warrior and is but a side effect of intense devotion, practice, and study.",
+				"Monks of the Way of Kensei train relentlessly with their weapons, to the point that the weapon becomes like an extension of the body. A kensei sees a weapon in much the same way a painter regards a brush or a writer sees parchment, ink, and quill. A sword or bow is a tool used to express the beauty and elegance of the arts marcials. That such mastery makes a kensei a peerless warrior and is but a side effect of intense devotion, practice, and study.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Path of the Kensei|Monk||Kensei (UA)|UAMonk|3"
@@ -2969,13 +2969,13 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition a nivell 3, you learn to extend your knowledge of the martial arts beyond the standard array of monk weapons.",
+				"When you choose this tradition a nivell 3, you learn to extend your knowledge of the arts marcials beyond the standard array of monk weapons.",
 				"Reps els beneficis següents:",
 				{
 					"type": "list",
 					"items": [
 						"You gain proficiency with three martial weapons (escull). A martial weapon is considered a kensei weapon for you if you're proficient with it.",
-						"Whenever you wield a kensei weapon, you choose whether to use Destresa or Força for the attack and damage rolls of the weapon, and you choose whether to use your Martial Arts damage die in place of the weapon's damage die.",
+						"Whenever you wield a kensei weapon, you choose whether to use Destresa or Força for the attack and damage rolls of the weapon, and you choose whether to use les teves Arts Marcials damage die in place of the weapon's damage die.",
 						"When you take the {@action Attack} en el teu torn and hit a target with a kensei weapon, pots, com a acció bonus, to pummel the target, dealing an additional {@damage 1d4} de dany contundent to that target and to any other target you hit with the weapon as part of the {@action Attack}.",
 						"If you make an unarmed strike as part of the {@action Attack} en el teu torn and are holding a kensei weapon, you can use that weapon to defend yourself. Tens +2 a la CA fins l'inici del teu proper torn while you are not {@condition incapacitated} and the weapon is in your hand."
 					]
@@ -3157,7 +3157,7 @@
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
 			"entries": [
-				"Monks of the Way of Kensei train relentlessly with their weapons, to the point that the weapon becomes like an extension of the body. A kensei sees a weapon in much the same way a painter regards a brush or a writer sees parchment, ink, and quill. A sword or bow is a tool used to express the beauty and elegance of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
+				"Monks of the Way of Kensei train relentlessly with their weapons, to the point that the weapon becomes like an extension of the body. A kensei sees a weapon in much the same way a painter regards a brush or a writer sees parchment, ink, and quill. A sword or bow is a tool used to express the beauty and elegance of the arts marcials. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Path of the Kensei|Monk||Kensei v2 (UA)|UARevisedSubclasses|3"
@@ -3175,7 +3175,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition a nivell 3, you learn to extend your knowledge of the martial arts beyond the standard array of monk weapons.",
+				"When you choose this tradition a nivell 3, you learn to extend your knowledge of the arts marcials beyond the standard array of monk weapons.",
 				"Reps els beneficis següents:",
 				{
 					"type": "list",
@@ -3218,7 +3218,7 @@
 							"type": "entries",
 							"name": "Precise Strike",
 							"entries": [
-								"When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only un cop a cada torn teu."
+								"When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Dau d'Arts Marcials. You can use this feature only un cop a cada torn teu."
 							]
 						}
 					]
@@ -3286,7 +3286,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition a nivell 3, you gain proficiency in the {@skill Performance} skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with {@item brewer's supplies|phb} if you don't already have it."
+				"When you choose this tradition a nivell 3, you gain proficiency in the {@skill Performance} skill if you don't already have it. Les teves Arts Marcials technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with {@item brewer's supplies|phb} if you don't already have it."
 			]
 		},
 		{
@@ -3369,7 +3369,7 @@
 			"level": 3,
 			"entries": [
 				"Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons.",
-				"A kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush. Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
+				"A kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush. Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the arts marcials. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Path of the Kensei|Monk||Kensei|XGE|3"
@@ -3387,7 +3387,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this tradition a nivell 3, your special martial arts training leads you to master the use of certain weapons. This path also includes instruction in the deft strokes of calligraphy or painting. Reps els beneficis següents.",
+				"When you choose this tradition a nivell 3, your special arts marcials training leads you to master the use of certain weapons. This path also includes instruction in the deft strokes of calligraphy or painting. Reps els beneficis següents.",
 				{
 					"type": "entries",
 					"name": "Kensei Weapons",
@@ -3440,7 +3440,7 @@
 					"type": "entries",
 					"name": "Deft Strike",
 					"entries": [
-						"When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only un cop a cada torn teu."
+						"When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Dau d'Arts Marcials. You can use this feature only un cop a cada torn teu."
 					]
 				}
 			]
@@ -3502,7 +3502,7 @@
 			"header": 1,
 			"entries": [
 				"Starting when you choose this tradition a nivell 3, you can hurl searing bolts of magical radiance.",
-				"You gain a new attack option that you can use with the {@action Attack}. This special attack is a atac màgic a distància with a range of 30 feet. You are proficient with it, and you add el teu modificador de Destresa to its attack and damage rolls. Its damage is radiant, and its damage die is a {@dice d4}. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+				"You gain a new attack option that you can use with the {@action Attack}. This special attack is a atac màgic a distància with a range of 30 feet. You are proficient with it, and you add el teu modificador de Destresa to its attack and damage rolls. Its damage is radiant, and its damage die is a {@dice d4}. This die changes as you gain monk levels, as shown in the Arts Marcials column of the Monk table.",
 				"When you take the {@action Attack} en el teu torn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice com a acció bonus.",
 				"When you gain the Atac Extra feature, this special attack can be used for any of the attacks you make as part of the {@action Attack}."
 			]
