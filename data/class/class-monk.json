@@ -1602,7 +1602,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Disciplines|Monk||Quatre Elements||3"
+					"subclassFeature": "Disciplines Elementals|Monk||Quatre Elements||3"
 				}
 			]
 		},
@@ -1624,15 +1624,15 @@
 					"type": "entries",
 					"name": "Casting Elemental Spells",
 					"entries": [
-						"Some elemental disciplines allow you to cast spells. See {@book capítol 10|PHB|10} of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.",
-						"Once you reach 5th level in this class, you can spend additional punts de ki to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell mans ardents} does. The spell's level increases by 1 for each additional punt de ki you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell mans ardents}, pots gastar 3 punts de ki to cast it as a 2nd-level spell (the discipline's base cost of 2 punts de ki plus 1).",
-						"The maximum number of punts de ki you can spend to cast a spell in this way (including its base punt de ki cost and any additional punts de ki you spend to increase its level) is determined by el teu nivell de monjo, as shown in the Spells and Punts de Ki table. A nivell 5, you may spend up to 3 punts de ki; this increases to 4 punts de ki a nivell 9, 5 a nivell 13, and 6 a nivell 17.",
+						"Algunes disciplines elementals et permeten llançar conjur. Consulta el {@book capítol 10|PHB|10} del Manual del Jugador per veure les regles generals de llançament de conjur. Per llançar-ne un, fas servir el seu temps de llançament i altres normes, però no necessites components materials.",
+						"Quan arribis a nivell 5 amb aquesta classe, pots gastar punts de ki adicionals per incrementar el nivell d'una disciplina elemental que llancis, sempre i quan el conjur tingui un efecte millorat a nivells superiors, com ara el conjur {@spell mans ardents}. El nivll del conjur incrementa en 1 per cada punt de ki adicional que gastes. Per exemple, un monjo de nivell 5 pot fer servir Sweeping Cinder Strike per llançar {@spell mans ardents} i pot gastar 3 punts de ki per llançar-lo a nivell 2 (el cost base de disciplina de 2 + 1 punt adicional).",
+						"El màxim de punts de ki que pots gastar per llançar conjurs (combinant el cost base i punts adicionals) es troba a la taula Conjurs i Punts de Ki i depèn del teu nivell de monjo. A nivell 5, pots gastar fins a 3 punts de ki alhora; a nivell 9, 4; a nivell 13, 5; i a nivell 17, 6.",
 						{
 							"type": "table",
-							"caption": "Spells and Punts de Ki",
+							"caption": "Conjurs i Punts de Ki",
 							"colLabels": [
-								"Monk Levels",
-								"Maximum Punts de Ki for a Spell"
+								"Nivells de Monjo",
+								"Punts de Ki Màxims per Conjur"
 							],
 							"colStyles": [
 								"col-5 text-center",
@@ -1640,19 +1640,19 @@
 							],
 							"rows": [
 								[
-									"5th-8th",
+									"5-8",
 									3
 								],
 								[
-									"9th-12th",
+									"9-12",
 									4
 								],
 								[
-									"13th-16th",
+									"13-16",
 									5
 								],
 								[
-									"17th-20th",
+									"17-20",
 									6
 								]
 							]
@@ -1662,7 +1662,7 @@
 			]
 		},
 		{
-			"name": "Elemental Disciplines",
+			"name": "Disciplines Elementals",
 			"source": "PHB",
 			"page": 80,
 			"className": "Monk",
@@ -1672,7 +1672,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline.",
+				"The disciplines elementals are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline.",
 				{
 					"type": "options",
 					"count": 2,
@@ -1772,7 +1772,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You learn one additional elemental discipline (escull). You should know 2 elemental disciplines, as well as Harmonització Elemental.",
+				"You learn one additional elemental discipline (escull). You should know 2 disciplines elementals, as well as Harmonització Elemental.",
 				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
 			]
 		},
@@ -1787,7 +1787,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"You learn one additional elemental discipline (escull). You should know 3 elemental disciplines, as well as Harmonització Elemental.",
+				"You learn one additional elemental discipline (escull). You should know 3 disciplines elementals, as well as Harmonització Elemental.",
 				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
 			]
 		},
@@ -1802,7 +1802,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You learn one additional elemental discipline (escull). You should know 4 elemental disciplines, as well as Harmonització Elemental.",
+				"You learn one additional elemental discipline (escull). You should know 4 disciplines elementals, as well as Harmonització Elemental.",
 				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
 			]
 		},
@@ -3502,7 +3502,7 @@
 			"header": 1,
 			"entries": [
 				"Starting when you choose this tradition a nivell 3, you can hurl searing bolts of magical radiance.",
-				"You gain a new attack option that you can use with l'acció {@action Attack}. This special attack is a atac màgic a distància with a range of 30 feet. You are proficient with it, and you add el teu modificador de Destresa to its attack and damage rolls. Its damage is radiant, and its damage die is a {@dice d4}. This die changes as you gain monk levels, as shown in the Arts Marcials column of the Monk table.",
+				"You gain a new attack option that you can use with l'acció {@action Attack}. This special attack is a atac màgic a distància with a range of 30 feet. You are proficient with it, and you add el teu modificador de Destresa to its attack and damage rolls. Its damage is radiant, and its damage die is a {@dice d4}. This die changes as you gain nivells de monjo, as shown in the Arts Marcials column of the Monk table.",
 				"When you take l'acció {@action Attack} en el teu torn and use this special attack as part of it, pots gastar 1 punt de ki to make the special attack twice com a acció bonus.",
 				"When you gain the Atac Extra feature, this special attack can be used for any of the attacks you make as part of l'acció {@action Attack}."
 			]
