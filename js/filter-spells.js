@@ -408,7 +408,7 @@ class PageFilterSpells extends PageFilter {
 		this._classAndSubclassFilter = classAndSubclassFilter;
 		this._raceFilter = raceFilter;
 		this._backgroundFilter = backgroundFilter;
-		this._eldritchInvocationFilter = new Filter({header: "Eldritch Invocation"});
+		this._eldritchInvocationFilter = new Filter({header: "Invocació èldritx"});
 		this._metaFilter = metaFilter;
 		this._schoolFilter = schoolFilter;
 		this._subSchoolFilter = subSchoolFilter;

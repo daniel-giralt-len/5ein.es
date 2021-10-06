@@ -1546,7 +1546,7 @@ Parser.prereqPatronToShort = function (patron) {
 Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	AI: "Artificer Infusion",
 	ED: "Elemental Discipline",
-	EI: "Eldritch Invocation",
+	EI: "Invocació èldritx",
 	MM: "Metamagic",
 	"MV": "Maneuver",
 	"MV:B": "Maneuver, Battle Master",
@@ -1723,7 +1723,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ITEM] = "Item";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS] = "Class";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CONDITION] = "Condition";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FEAT] = "Feat";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELDRITCH_INVOCATION] = "Eldritch Invocation";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELDRITCH_INVOCATION] = "Invocació èldritx";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PSIONIC] = "Psionic";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RACE] = "Race";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OTHER_REWARD] = "Other Reward";
