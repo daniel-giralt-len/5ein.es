@@ -2084,7 +2084,7 @@
 		});
 
 		mon.spellcasting.forEach(sc => {
-			// adjust Mystic Arcanum spells
+			// adjust Arcanisme Místic spells
 			if (isWarlock && sc.daily && sc.daily["1e"]) {
 				const numArcanum = this._adjustSpellcasting_getWarlockNumArcanum(primaryOutLevel);
 
