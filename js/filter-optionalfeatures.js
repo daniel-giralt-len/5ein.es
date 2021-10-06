@@ -31,7 +31,7 @@ class PageFilterOptionalFeatures extends PageFilter {
 			displayFn: Parser.prereqPactToFull,
 		});
 		this._patronFilter = new Filter({
-			header: "Otherworldly Patron",
+			header: "Patró Sobrenatural",
 			items: [],
 			displayFn: Parser.prereqPatronToShort,
 		});

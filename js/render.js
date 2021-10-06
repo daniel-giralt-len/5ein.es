@@ -2864,7 +2864,7 @@ Renderer.utils = {
 							return isListMode ? parts.join("/") : parts.joinConjunct(", ", " or ");
 						}
 						case "spellcasting": return isListMode ? "Llançament de Conjurs" : "The ability to cast at least one spell";
-						case "spellcasting2020": return isListMode ? "Llançament de Conjurs" : "Spellcasting or Pact Magic feature";
+						case "spellcasting2020": return isListMode ? "Llançament de Conjurs" : "Spellcasting or Màgia de Pacte feature";
 						case "psionics": return isListMode ? "Psionics" : (isTextMode ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("Psionic Talent feature or {@feat Wild Talent|UA2020PsionicOptionsRevisited} feat");
 						default: throw new Error(`Unhandled key: ${k}`);
 					}

@@ -1294,7 +1294,7 @@ Parser.SP_CASTER_PROGRESSION_TO_FULL = {
 	full: "Full",
 	"1/2": "Half",
 	"1/3": "One-Third",
-	"pact": "Pact Magic",
+	"pact": "Màgia de Pacte",
 };
 Parser.spCasterProgressionToFull = function (type) {
 	return Parser._parse_aToB(Parser.SP_CASTER_PROGRESSION_TO_FULL, type);
