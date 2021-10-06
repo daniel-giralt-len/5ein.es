@@ -458,8 +458,8 @@ class SpellParser extends BaseParser {
 					case "rangers": stats.classes.fromClassList.push({"name": "Ranger", "source": "PHB"}); break;
 					case "sorcerer":
 					case "sorcerers": stats.classes.fromClassList.push({"name": "Sorcerer", "source": "PHB"}); break;
-					case "warlock":
-					case "warlocks": stats.classes.fromClassList.push({"name": "Warlock", "source": "PHB"}); break;
+					case "bruixot":
+					case "warlocks": stats.classes.fromClassList.push({"name": "Bruixot", "source": "PHB"}); break;
 					case "wizard":
 					case "wizards": stats.classes.fromClassList.push({"name": "Wizard", "source": "PHB"}); break;
 					default: options.cbWarning(`${stats.name ? `(${stats.name}) ` : ""}Class "${lowerPt}" requires manual conversion`); break;
