@@ -26,7 +26,7 @@ class PageFilterOptionalFeatures extends PageFilter {
 			itemSortFn: PageFilterOptionalFeatures._filterFeatureTypeSort,
 		});
 		this._pactFilter = new Filter({
-			header: "Pact Boon",
+			header: "Premi de Pacte",
 			items: [],
 			displayFn: Parser.prereqPactToFull,
 		});

@@ -1559,7 +1559,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	"FS:B": "Fighting Style; Bard",
 	"FS:P": "Fighting Style; Paladin",
 	"FS:R": "Fighting Style; Ranger",
-	"PB": "Pact Boon",
+	"PB": "Premi de Pacte",
 	"OR": "Onomancy Resonant",
 	"RN": "Rune Knight Rune",
 	"AF": "Alchemical Formula",
@@ -1747,7 +1747,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "Optional Feature"
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Fighting Style";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "Class Feature";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VEHICLE] = "Vehicle";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "Pact Boon";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "Premi de Pacte";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELEMENTAL_DISCIPLINE] = "Elemental Discipline";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARTIFICER_INFUSION] = "Infusion";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SHIP_UPGRADE] = "Ship Upgrade";
