@@ -1528,7 +1528,7 @@ Parser.prereqSpellToFull = function (spell, {isTextOnly = false} = {}) {
 };
 
 Parser.prereqPactToFull = function (pact) {
-	if (pact === "Chain") return "Pact of the Chain";
+	if (pact === "Cadena") return "Pacte de la Cadena";
 	if (pact === "Còdex") return "Pacte del Còdex";
 	if (pact === "Fulla") return "Pacte de la Fulla";
 	if (pact === "Talismà") return "Pacte del Talismà";

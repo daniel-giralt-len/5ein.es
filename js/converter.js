@@ -520,7 +520,7 @@ Prerequisite: Spellcasting or Màgia de Pacte feature
 You’ve learned how to exert your will on your spells to alter how they function. Obténs els beneficis següents:
 • Increase your Intel·ligència, Saviesa, or Carisma score by 1, to a maximum of 20.
 • You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamagic options with another one from the sorcerer class.
-• You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest.
+• You gain 2 punts de fetilleria to spend on Metamagic (these points are added to any punts de fetilleria you have from another source but can be used only on Metamagic). You regain all spent punts de fetilleria when you finish a long rest.
 `;
 // endregion
 
