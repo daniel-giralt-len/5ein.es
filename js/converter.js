@@ -327,7 +327,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >
 >***Spellcasting.*** The lich is an 18th-level spellcaster. Its habilitat de llançament de conjurs is Intel·ligència (spell save DC 20, +12 a impactar amb atacs màgics). The lich has the following wizard spells prepared:
 >
->• Cantrips (at will): mà de mag, prestidigitació, ray of frost
+>• Cantrips (at will): mà de mag, prestidigitació, raig gebre
 >• 1st level (4 slots): detectar màgia, missil màgic, shield, tronada
 >• 2nd level (3 slots): detectar pensaments, invisibility, Fletxa Àcida d'en Melf, imatge mirall
 >• 3rd level (3 slots): animar els morts, contraconjur, dissipar màgia, fireball
