@@ -76,7 +76,7 @@ class AcConvert {
 						case "plant fiber armor":
 						case "plus armor worn":
 						case "rag armor":
-						case "ring of protection +2":
+						case "anell de protecció +2":
 						case "see below":
 						case "wicker armor":
 						case "bone armor":
@@ -118,7 +118,7 @@ class AcConvert {
 						case "glamoured studded leather": froms.push("{@item glamoured studded leather}"); break;
 						case "braçals de defensa": froms.push("{@item braçals de defensa}"); break;
 						case "badge of the watch": froms.push("{@item Badge of the Watch|wdh}"); break;
-						case "ring of protection": froms.push("{@item ring of protection}"); break;
+						case "anell de protecció": froms.push("{@item anell de protecció}"); break;
 						case "robe of the archmagi": froms.push("{@item robe of the archmagi}"); break;
 						case "staff of power": froms.push("{@item staff of power}"); break;
 
