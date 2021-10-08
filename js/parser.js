@@ -1555,10 +1555,10 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	"AS:V2-UA": "Arcane Shot, V2 (UA)",
 	"AS": "Arcane Shot",
 	OTH: "Altres",
-	"FS:F": "Fighting Style; Fighter",
-	"FS:B": "Fighting Style; Bard",
-	"FS:P": "Fighting Style; Paladin",
-	"FS:R": "Fighting Style; Ranger",
+	"FS:F": "Estil de Lluita; Fighter",
+	"FS:B": "Estil de Lluita; Bard",
+	"FS:P": "Estil de Lluita; Paladin",
+	"FS:R": "Estil de Lluita; Ranger",
 	"PB": "Premi de Pacte",
 	"OR": "Onomancy Resonant",
 	"RN": "Rune Knight Rune",
@@ -1744,7 +1744,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Cavalier";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Arcane Shot";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "Optional Feature";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Fighting Style";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Estil de Lluita";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "Class Feature";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VEHICLE] = "Vehicle";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "Premi de Pacte";
