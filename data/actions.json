@@ -48,7 +48,7 @@
 			]
 		},
 		{
-			"name": "Atac",
+			"name": "Atacar",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -102,7 +102,7 @@
 			]
 		},
 		{
-			"name": "Moviement ràpid (dash)",
+			"name": "Córrer",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -113,8 +113,8 @@
 				}
 			],
 			"entries": [
-				"Quan feu l'acció de moviment ràpid, obteniu un moviment addicional pel torn actual. L'augment és igual a la vostra velocitat, després d'aplicar qualsevol modificador. Amb una velocitat de 30 peus, per exemple, podeu moure fins a 60 peus al vostre torn si fas el moviment ràpid.",
-				"Qualsevol augment o disminució de la velocitat canvia aquest moviment addicional en la mateixa quantitat. Si la vostra velocitat de 30 peus es redueix a 15 peus, per exemple, podeu moure-la fins a 30 peus aquest torn si fas el moviment ràpid."
+				"Quan feu l'acció de córrer, obteniu un moviment addicional pel torn actual. L'augment és igual a la vostra velocitat, després d'aplicar qualsevol modificador. Amb una velocitat de 30 peus, per exemple, podeu moure fins a 60 peus al vostre torn si corres.",
+				"Qualsevol augment o disminució de la velocitat canvia aquest moviment addicional en la mateixa quantitat. Si la vostra velocitat de 30 peus es redueix a 15 peus, per exemple, podeu moure-la fins a 30 peus aquest torn si corres."
 			]
 		},
 		{
@@ -190,7 +190,7 @@
 				"Gratuït"
 			],
 			"entries": [
-				"Si un conjur ha de mantenir amb concentració s'especifica a la seva durada; també especifica quant de temps pots concentrar-t'hi. Pots acabar la concentració en qualsevol moment (no es requereix acció)."
+				"Si un conjur s'ha de mantenir amb concentració s'especifica a la seva durada; també especifica quant de temps pots concentrar-t'hi. Pots acabar la concentració en qualsevol moment (no es requereix acció)."
 			]
 		},
 		{
@@ -223,13 +223,13 @@
 				}
 			],
 			"entries": [
-				"Quan vulgueu retenir una criatura o lluitar-hi agafats, podeu utilitzar l'acció {@action Atac} per fer un atac a melé especial, una presa. Si podeu fer diversos atacs amb l'acció {@action Atac} , aquest atac substitueix un d'ells. L'objectiu de la vostra presa no pot ser més d'una mida més gran que vosaltres i ha d'estar al vostre abast.",
+				"Quan vulgueu retenir una criatura o lluitar-hi agafats, pots utilitzar l'acció {@action Atacar} per fer un atac cos a cos especial, una presa. Si pots fer diversos atacs amb l'acció {@action Atacar} , aquest atac substitueix un d'ells. L'objectiu de la vostra presa no pot ser més d'una mida més gran que tu i ha d'estar al teu abast.",
 				"Utilitzant almenys una mà lliure, intenteu retenir a l'objectiu fent una prova de presa, una tirada de Força ({@skill Atletisme}) enfrontada amb la Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies)}) de l'objectiu (l'objectiu pot triar quina habilitat utilitzar). Teniu èxit automàticament si l'objectiu està {@condition incapacitated}. Si teniu èxit, l'objectiu passa a estar {@condition grappled} (vegeu l'apèndix). A la condició s'especifiquen les condicions de finalització. Podeu alliberar l'objectiu sempre que vulgueu (no es requereix acció). ",
 				{
 					"type": "entries",
 					"name": "Moure un Objectiu Apresat",
 					"entries": [
-						"Quan us moveu, podeu arrossegar o carregar la criatura {@condition grappled} amb vosaltres, però la vostra velocitat es reduirà a la meitat, tret que la criatura sigui dues o més mides més petita que vosaltres."
+						"Quan us moveu, pots arrossegar o carregar la criatura {@condition grappled} amb vosaltres, però la vostra velocitat es reduirà a la meitat, tret que la criatura sigui dues o més mides més petita que vosaltres."
 					]
 				}
 			],
@@ -463,7 +463,7 @@
 				}
 			],
 			"entries": [
-				"Amb l'acció {@action Atac}, podeu fer un atac a melé especial per empentar una criatura, ja sigui per tirar-la {@condition prone} o apartar-la de vosaltres. Si podeu fer diversos atacs amb l'acció d'{@action Atac}, aquest atac substitueix un d'ells.",
+				"Amb l'acció {@action Atacar}, podeu fer un atac a melé especial per empentar una criatura, ja sigui per tirar-la {@condition prone} o apartar-la de vosaltres. Si podeu fer diversos atacs amb l'acció d'{@action Atacar}, aquest atac substitueix un d'ells.",
 				"L'objectiu de la vostra empenta no pot ser més d'una mida més gran que vosaltres i ha d'estar al vostre abast. Feu una tirada de Força ({@skill Atletisme}) enfrontada a una tirada de Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies}) de l'objectiu (pot triar quina habilitat utilitzar). Teniu èxit automàticament si l'objectiu està {@condition incapacitated}. Si teniu èxit, o bé deixeu a l'enemic {@condition prone} o l'empenteu a 5 peus de distància endavant."
 			],
 			"seeAlsoAction": [
@@ -520,7 +520,7 @@
 				}
 			],
 			"entries": [
-				"Quan feu l'acció {@action Atac} i ataqueu amb una arma cos a cos lleugera que teniu en una mà, podeu utilitzar una acció addicional per atacar amb una arma cos a cos lleugera diferent que tingueu a l'altra mà. No afegiu el vostre modificador d'habilitat al dany d'aquest segon atac, tret que aquest modificador sigui negatiu.",
+				"Quan feu l'acció {@action Atacar} i ataqueu amb una arma cos a cos lleugera que teniu en una mà, podeu utilitzar una acció addicional per atacar amb una arma cos a cos lleugera diferent que tingueu a l'altra mà. No afegiu el vostre modificador d'habilitat al dany d'aquest segon atac, tret que aquest modificador sigui negatiu.",
 				"Si qualsevol arma té la propietat per ser llançada, podeu llançar-la en lloc de fer un atac cos a cos."
 			],
 			"seeAlsoAction": [
