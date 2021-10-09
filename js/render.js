@@ -3812,7 +3812,7 @@ Renderer.spell = {
 		// endregion
 	},
 	STR_WIZARD: "Wizard",
-	STR_FIGHTER: "Fighter",
+	STR_FIGHTER: "Guerrer",
 	STR_ROGUE: "Rogue",
 	STR_CLERIC: "Cleric",
 	STR_SORCERER: "Sorcerer",

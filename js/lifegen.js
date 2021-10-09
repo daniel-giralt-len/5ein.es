@@ -492,7 +492,7 @@ const SUPP_CLASS = [
 	{min: 8, max: 14, result: "Bard"},
 	{min: 15, max: 29, result: "Cleric"},
 	{min: 30, max: 36, result: "Druida"},
-	{min: 37, max: 52, result: "Fighter"},
+	{min: 37, max: 52, result: "Guerrer"},
 	{min: 53, max: 58, result: "Monjo"},
 	{min: 59, max: 64, result: "Paladin"},
 	{min: 65, max: 70, result: "Ranger"},

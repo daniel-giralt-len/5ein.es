@@ -1555,7 +1555,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	"AS:V2-UA": "Arcane Shot, V2 (UA)",
 	"AS": "Arcane Shot",
 	OTH: "Altres",
-	"FS:F": "Estil de Lluita; Fighter",
+	"FS:F": "Estil de Lluita; Guerrer",
 	"FS:B": "Estil de Lluita; Bard",
 	"FS:P": "Estil de Lluita; Paladin",
 	"FS:R": "Estil de Lluita; Ranger",
