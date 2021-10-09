@@ -1944,10 +1944,10 @@
 					} else return m[0];
 				});
 
-				const mClasses = /(artificer|bard|cleric|druid|paladin|ranger|sorcerer|bruixot|wizard) spell(?:s)?/i.exec(outStr);
+				const mClasses = /(artificer|bard|cleric|druida|paladin|ranger|sorcerer|bruixot|wizard) spell(?:s)?/i.exec(outStr);
 				if (mClasses) spellsFromClass = mClasses[1];
 				else {
-					const mClasses2 = /(artificer|bard|cleric|druid|paladin|ranger|sorcerer|bruixot|wizard)(?:'s)? spell list/i.exec(outStr);
+					const mClasses2 = /(artificer|bard|cleric|druida|paladin|ranger|sorcerer|bruixot|wizard)(?:'s)? spell list/i.exec(outStr);
 					if (mClasses2) spellsFromClass = mClasses2[1]
 				}
 

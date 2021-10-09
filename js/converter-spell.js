@@ -450,8 +450,8 @@ class SpellParser extends BaseParser {
 					case "bards": stats.classes.fromClassList.push({"name": "Bard", "source": "PHB"}); break;
 					case "cleric":
 					case "clerics": stats.classes.fromClassList.push({"name": "Cleric", "source": "PHB"}); break;
-					case "druid":
-					case "druids": stats.classes.fromClassList.push({"name": "Druid", "source": "PHB"}); break;
+					case "druida":
+					case "druids": stats.classes.fromClassList.push({"name": "Druida", "source": "PHB"}); break;
 					case "paladin":
 					case "paladins": stats.classes.fromClassList.push({"name": "Paladin", "source": "PHB"}); break;
 					case "ranger":

@@ -3646,7 +3646,7 @@ Renderer.spell = {
 		}
 
 		// Add Nature cleric
-		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Druid")) {
+		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Druida")) {
 			if (spell.level === 0) {
 				Renderer.spell._CACHE_HASHES["Nature"] = Renderer.spell._CACHE_HASHES["Nature"] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 					className: Renderer.spell.STR_CLERIC,
@@ -6032,7 +6032,7 @@ Renderer.item = {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "An arcane focus is a special item\u2014an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item\u2014designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}
-				if (item.scfType === "druid") {
+				if (item.scfType === "druida") {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "A druídic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}
@@ -6045,7 +6045,7 @@ Renderer.item = {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}
-				if (item.scfType === "druid") {
+				if (item.scfType === "druida") {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "A druid can use this object as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}

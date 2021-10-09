@@ -847,7 +847,7 @@ MakeCards.utils = class {
 				Renderer.item._initFullEntries(item);
 				item._fullEntries.push("Un bruixot, un fetiller, o un mag ho pot emprar com a focus de llançament de conjurs.");
 			}
-			if (item.scfType === "druid") {
+			if (item.scfType === "druida") {
 				Renderer.item._initFullEntries(item);
 				item._fullEntries.push("Un druida ho pot emprar com a focus de llançament de conjurs.");
 			}
