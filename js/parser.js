@@ -1549,7 +1549,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	EI: "Invocació èldritx",
 	MM: "Metamagic",
 	"MV": "Maneuver",
-	"MV:B": "Maneuver, Battle Master",
+	"MV:B": "Maneuver, Mestre de Batalla",
 	"MV:C2-UA": "Maneuver, Cavalier V2 (UA)",
 	"AS:V1-UA": "Arcane Shot, V1 (UA)",
 	"AS:V2-UA": "Arcane Shot, V2 (UA)",

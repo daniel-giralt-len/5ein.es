@@ -46,9 +46,9 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) {@item chain mail|phb} o bé (b) {@item armadura de cuir|phb}, {@item longbow|phb}, i {@item arrows (20)|phb|20 arrows}",
-					"(a) una {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} i una {@item shield|phb} o bé (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-					"(a) una {@item ballesta lleugera|phb} i {@item crossbow bolts (20)|phb|20 bolts} o bé (b) two {@item handaxe|phb|handaxes}",
-					"(a) una {@item pack de masmorreig|phb} o bé (b) an {@item pack d'exploració|phb}"
+					"(a) una {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} i un {@item shield|phb} o bé (b) dos {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) una {@item ballesta lleugera|phb} i {@item crossbow bolts (20)|phb|20 bolts} o bé (b) dos {@item handaxe|phb|handaxes}",
+					"(a) una {@item pack de masmorreig|phb} o bé (b) un {@item pack d'exploració|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Ors Inicials}",
 				"defaultData": [
@@ -463,23 +463,23 @@
 	],
 	"subclass": [
 		{
-			"name": "Battle Master",
-			"shortName": "Battle Master",
+			"name": "Mestre de Batalla",
+			"shortName": "Mestre de Batalla",
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
 			"page": 73,
 			"subclassFeatures": [
-				"Battle Master|Guerrer||Battle Master||3",
-				"Additional Maneuvers|Guerrer||Battle Master||7",
-				"Additional Superiority Die|Guerrer||Battle Master||7",
-				"Know Your Enemy|Guerrer||Battle Master||7",
-				"Additional Maneuvers|Guerrer||Battle Master||10",
-				"Improved Combat Superiority (d10)|Guerrer||Battle Master||10",
-				"Additional Maneuvers|Guerrer||Battle Master||15",
-				"Additional Superiority Die|Guerrer||Battle Master||15",
-				"Relentless|Guerrer||Battle Master||15",
-				"Improved Combat Superiority (d12)|Guerrer||Battle Master||18"
+				"Mestre de Batalla|Guerrer||Mestre de Batalla||3",
+				"Additional Maneuvers|Guerrer||Mestre de Batalla||7",
+				"Additional Superiority Die|Guerrer||Mestre de Batalla||7",
+				"Know Your Enemy|Guerrer||Mestre de Batalla||7",
+				"Additional Maneuvers|Guerrer||Mestre de Batalla||10",
+				"Improved Combat Superiority (d10)|Guerrer||Mestre de Batalla||10",
+				"Additional Maneuvers|Guerrer||Mestre de Batalla||15",
+				"Additional Superiority Die|Guerrer||Mestre de Batalla||15",
+				"Relentless|Guerrer||Mestre de Batalla||15",
+				"Improved Combat Superiority (d12)|Guerrer||Mestre de Batalla||18"
 			]
 		},
 		{
@@ -1318,7 +1318,7 @@
 					"type": "list",
 					"items": [
 						"Replace a {@filter Estil de Lluita|optionalfeatures|feature type=FS:F} you know with another Estil de Lluita available to fighters.",
-						"If you know any {@filter maneuvers|optionalfeatures|feature type=MV:B} from the {@class guerrer|phb|Battle Master|Battle Master|phb|2-0} archetype, you can replace one maneuver you know with a different maneuver."
+						"If you know any {@filter maneuvers|optionalfeatures|feature type=MV:B} from the {@class guerrer|phb|Mestre de Batalla|Battle Master|phb|2-0} archetype, you can replace one maneuver you know with a different maneuver."
 					]
 				}
 			]
@@ -1761,35 +1761,35 @@
 			]
 		},
 		{
-			"name": "Battle Master",
+			"name": "Mestre de Batalla",
 			"source": "PHB",
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
 				"Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Student of War|Guerrer||Battle Master||3"
+					"subclassFeature": "Student of War|Guerrer||Mestre de Batalla||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Superiority|Guerrer||Battle Master||3"
+					"subclassFeature": "Combat Superiority|Guerrer||Mestre de Batalla||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuvers|Guerrer||Battle Master||3"
+					"subclassFeature": "Maneuvers|Guerrer||Mestre de Batalla||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuver Options|Guerrer||Battle Master||3|UAClassFeatureVariants"
+					"subclassFeature": "Maneuver Options|Guerrer||Mestre de Batalla||3|UAClassFeatureVariants"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Maneuver Options|Guerrer||Battle Master||3|TCE"
+					"subclassFeature": "Maneuver Options|Guerrer||Mestre de Batalla||3|TCE"
 				}
 			]
 		},
@@ -1799,7 +1799,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
@@ -1859,7 +1859,7 @@
 			"page": 41,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
@@ -1913,7 +1913,7 @@
 			"page": 5,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
@@ -1967,7 +1967,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
@@ -2051,7 +2051,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
@@ -2065,7 +2065,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 7,
 			"header": 2,
@@ -2079,7 +2079,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 7,
 			"header": 2,
@@ -2093,7 +2093,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 7,
 			"header": 2,
@@ -2119,7 +2119,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
@@ -2133,7 +2133,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
@@ -2147,7 +2147,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 15,
 			"header": 2,
@@ -2161,7 +2161,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 15,
 			"header": 2,
@@ -2175,7 +2175,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 15,
 			"header": 2,
@@ -2189,7 +2189,7 @@
 			"page": 73,
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Battle Master",
+			"subclassShortName": "Mestre de Batalla",
 			"subclassSource": "PHB",
 			"level": 18,
 			"header": 2,
