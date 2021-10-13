@@ -121,7 +121,7 @@
 			},
 			"classFeatures": [
 				"Estil de Lluita|Guerrer||1",
-				"Martial Versatility|Guerrer||1|UAClassFeatureVariants",
+				"Versatilitat Marcial|Guerrer||1|UAClassFeatureVariants",
 				"Descans Instantani|Guerrer||1",
 				"Maneuver Versatility|Guerrer||1|UAClassFeatureVariants",
 				"Acció Súbita|Guerrer||2",
@@ -131,7 +131,7 @@
 				},
 				"Millora de Puntuació de Característica|Guerrer||4",
 				"Competència Versàtil|Guerrer||4|UAClassFeatureVariants",
-				"Martial Versatility|Guerrer||4|TCE",
+				"Versatilitat Marcial|Guerrer||4|TCE",
 				"Atac Extra|Guerrer||5",
 				"Millora de Puntuació de Característica|Guerrer||6",
 				"Competència Versàtil|Guerrer||6|UAClassFeatureVariants",
@@ -1240,7 +1240,7 @@
 			]
 		},
 		{
-			"name": "Martial Versatility",
+			"name": "Versatilitat Marcial",
 			"source": "UAClassFeatureVariants",
 			"page": 12,
 			"className": "Guerrer",
@@ -1304,7 +1304,7 @@
 			]
 		},
 		{
-			"name": "Martial Versatility",
+			"name": "Versatilitat Marcial",
 			"source": "TCE",
 			"page": 41,
 			"className": "Guerrer",
@@ -1313,12 +1313,12 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i {@variantrule optional class features|tce|Tret opcional} pel fighter a nivell 4}",
-				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica , pots fer una de les coses següents as you shift the focus of your martial practice:",
+				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica, pots fer una de les coses següents que signifiquen un canvi en la teva disciplina marcial:",
 				{
 					"type": "list",
 					"items": [
-						"Replace a {@filter Estil de Lluita|optionalfeatures|feature type=FS:F} you know with another Estil de Lluita available to fighters.",
-						"If you know any {@filter maneuvers|optionalfeatures|feature type=MV:B} from the {@class guerrer|phb|Mestre de Batalla|Battle Master|phb|2-0} archetype, you can replace one maneuver you know with a different maneuver."
+						"Substituir un {@filter Estil de Lluita|optionalfeatures|feature type=FS:F} que coneguis per un altre Estil de Lluita disponible per als guerrers.",
+						"Si coneixes {@filter maniobres|optionalfeatures|feature type=MV:B} de l'arquetip {@class guerrer|phb|Mestre de Batalla|Battle Master|phb|2-0}, en pots substituir una per una altra de diferent."
 					]
 				}
 			]
