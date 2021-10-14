@@ -1551,9 +1551,9 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	"MV": "Maneuver",
 	"MV:B": "Maneuver, Mestre de Batalla",
 	"MV:C2-UA": "Maneuver, Cavalier V2 (UA)",
-	"AS:V1-UA": "Arcane Shot, V1 (UA)",
-	"AS:V2-UA": "Arcane Shot, V2 (UA)",
-	"AS": "Arcane Shot",
+	"AS:V1-UA": "Tir Arcà, V1 (UA)",
+	"AS:V2-UA": "Tir Arcà, V2 (UA)",
+	"AS": "Tir Arcà",
 	OTH: "Altres",
 	"FS:F": "Estil de Lluita; Guerrer",
 	"FS:B": "Estil de Lluita; Bard",
@@ -1742,7 +1742,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_BATTLEMASTER] = "Maneuver; Battlema
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Cavalier";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Arcane Shot";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Tir Arcà";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "Optional Feature";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Estil de Lluita";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "Class Feature";
