@@ -1550,7 +1550,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	MM: "Metamagic",
 	"MV": "Maneuver",
 	"MV:B": "Maneuver, Mestre de Batalla",
-	"MV:C2-UA": "Maneuver, Cavalier V2 (UA)",
+	"MV:C2-UA": "Maneuver, Genet V2 (UA)",
 	"AS:V1-UA": "Tir Arcà, V1 (UA)",
 	"AS:V2-UA": "Tir Arcà, V2 (UA)",
 	"AS": "Tir Arcà",
@@ -1741,7 +1741,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_METAMAGIC] = "Metamagic";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_BATTLEMASTER] = "Maneuver; Battlemaster";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "Table";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Cavalier";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Genet";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Tir Arcà";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "Optional Feature";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Estil de Lluita";
