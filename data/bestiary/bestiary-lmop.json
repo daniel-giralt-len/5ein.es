@@ -18,7 +18,7 @@
 			"page": 31,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -51,7 +51,7 @@
 			"conditionImmune": [
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que comprenia en vida però no pot parlar"
 			],
 			"cr": "1/4",
@@ -59,7 +59,7 @@
 				{
 					"name": "Resiliència No-morta",
 					"entries": [
-						"Si hi ha dany que redueix al zombi a 0 punts de cop, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de cop i no 0."
+						"Si hi ha dany que redueix al zombi a 0 punts de vida, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de vida i no 0."
 					]
 				},
 				{
@@ -112,7 +112,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -141,7 +141,7 @@
 				"history": "+5"
 			},
 			"passive": 11,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Dracònic",
 				"Nannès",
@@ -157,22 +157,22 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell light}",
-								"{@spell mage hand}",
-								"{@spell shocking grasp}"
+								"{@spell llum}",
+								"{@spell mà de mag}",
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell fascinar persona}",
-								"{@spell magic missile}"
+								"{@spell missil màgic}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold person}",
+								"{@spell immobilitzar humanoide}",
 								"{@spell pas boira}"
 							]
 						}
@@ -234,7 +234,7 @@
 			"page": 59,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -247,7 +247,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 6,
 			"dex": 16,
@@ -288,7 +288,7 @@
 				"enderrocat",
 				"retingut"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Infernal"
 			],
@@ -311,7 +311,7 @@
 				{
 					"name": "Drenar Vida",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, una criatura. {@h}16 ({@damage 3d8 + 3}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o se li redueixen tants punts de cop màxims com dany hagi rebut. Si aquest atac redueix els punts de cop màxims de l'objectiu a 0, mor. Aquesta reducció de punts de cop màxims dura fins el proper descans llarg de l'objectiu."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, una criatura. {@h}16 ({@damage 3d8 + 3}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o se li redueixen tants punts de vida màxims com dany hagi rebut. Si aquest atac redueix els punts de vida màxims de l'objectiu a 0, mor. Aquesta reducció de punts de vida màxims dura fins el proper descans llarg de l'objectiu."
 					]
 				}
 			],
@@ -347,7 +347,7 @@
 					"elf"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -355,7 +355,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "amb {@spell mage armor}",
+					"condition": "amb {@spell armadura de mag}",
 					"braces": true
 				}
 			],
@@ -385,7 +385,7 @@
 				"visió de foscor 120 peus"
 			],
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Èlfic",
 				"Sotacomú"
 			],
@@ -402,7 +402,7 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell faerie fire} (save {@dc 12})"
+							"{@spell foc follet} (save {@dc 12})"
 						]
 					}
 				},
@@ -414,17 +414,17 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell mà de mag}",
+								"{@spell raig gebre}",
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell mage armor}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell armadura de mag}",
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -448,7 +448,7 @@
 				{
 					"name": "Ascendència Faèrica",
 					"entries": [
-						"En Nezznar té avantatge a salvar contra quedar-se {@condition charmed}, i no pot ésser adormit màgicament."
+						"En Nezznar té avantatge a salvar contra quedar-se {@condition fascinat}, i no pot ésser adormit màgicament."
 					]
 				},
 				{
@@ -521,7 +521,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -550,7 +550,7 @@
 				"intimidation": "+2"
 			},
 			"passive": 9,
-			"languages": [
+			"idiomes": [
 				"Comú"
 			],
 			"cr": "1/2",
@@ -558,7 +558,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"El bergant fa dos atacs melé."
+						"El bergant fa dos atacs cos a cos."
 					]
 				},
 				{
@@ -595,7 +595,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -628,7 +628,7 @@
 				"perception": "+2"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Comú"
 			],
 			"cr": "1",
@@ -636,7 +636,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"En Sildar fa dos atacs armats melé."
+						"En Sildar fa dos atacs armats cos a cos."
 					]
 				},
 				{
@@ -656,7 +656,7 @@
 				{
 					"name": "Parada",
 					"entries": [
-						"Quan en Sildar rep l'impacte d'un atac armat melé i en pot veure l'atacant, pot tirar {@dice 1d6} i afegir-ho a la seva CA contra aquell atac, sempre que en Sildar estigui esgrimint una arma melé."
+						"Quan en Sildar rep l'impacte d'un atac armat cos a cos i en pot veure l'atacant, pot tirar {@dice 1d6} i afegir-ho a la seva CA contra aquell atac, sempre que en Sildar estigui esgrimint una arma cos a cos."
 					]
 				}
 			],

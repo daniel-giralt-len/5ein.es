@@ -134,7 +134,7 @@ PropOrder._MONSTER = [
 	"size",
 	"sizeNote",
 	"type",
-	"alignment",
+	"alineament",
 
 	"ac",
 	"hp",
@@ -155,7 +155,7 @@ PropOrder._MONSTER = [
 	"immune",
 	"vulnerable",
 	"conditionImmune",
-	"languages",
+	"idiomes",
 	"cr",
 	"pbNote",
 
@@ -626,7 +626,7 @@ PropOrder._DEITY = [
 
 	"customExtensionOf",
 
-	"alignment",
+	"alineament",
 	"title",
 	"category",
 	"domains",
@@ -791,7 +791,7 @@ PropOrder._ITEM = [
 	"reqAttuneAltTags",
 
 	"wondrous",
-	"ammunition",
+	"munició",
 	"tattoo",
 	"curse",
 	"sentient",
@@ -806,7 +806,7 @@ PropOrder._ITEM = [
 	"quantity",
 
 	"weaponCategory",
-	"age",
+	"edat",
 
 	"property",
 	"range",

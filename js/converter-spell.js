@@ -414,7 +414,7 @@ class SpellParser extends BaseParser {
 		const mTimed = /^(\d+) (hour|minute|turn|round|week|day|year)(?:s)?$/i.exec(dur);
 		if (mTimed) return stats.duration = [{type: "cronometrada", duration: {type: this._getCleanTimeUnit(mTimed[2], true, options), amount: Number(mTimed[1])}}];
 
-		const mDispelledTriggered = /^fins que sigui dissipat( or triggered)?$/i.exec(dur);
+		const mDispelledTriggered = /^fins que sigui dissipat( o detonat)?$/i.exec(dur);
 		if (mDispelledTriggered) {
 			const out = {type: "permanent", ends: ["dissipar"]};
 			if (mDispelledTriggered[1]) out.ends.push("trigger");
@@ -458,8 +458,8 @@ class SpellParser extends BaseParser {
 					case "rangers": stats.classes.fromClassList.push({"name": "Ranger", "source": "PHB"}); break;
 					case "sorcerer":
 					case "sorcerers": stats.classes.fromClassList.push({"name": "Sorcerer", "source": "PHB"}); break;
-					case "warlock":
-					case "warlocks": stats.classes.fromClassList.push({"name": "Warlock", "source": "PHB"}); break;
+					case "bruixot":
+					case "warlocks": stats.classes.fromClassList.push({"name": "Bruixot", "source": "PHB"}); break;
 					case "wizard":
 					case "wizards": stats.classes.fromClassList.push({"name": "Wizard", "source": "PHB"}); break;
 					default: options.cbWarning(`${stats.name ? `(${stats.name}) ` : ""}Class "${lowerPt}" requires manual conversion`); break;
@@ -476,14 +476,14 @@ class SpellParser extends BaseParser {
 }
 SpellParser._RES_SCHOOL = [];
 Object.entries({
-	"transmutation": "T",
-	"necromancy": "N",
-	"conjuration": "C",
-	"abjuration": "A",
-	"enchantment": "E",
-	"evocation": "V",
-	"illusion": "I",
-	"endevinació": "D",
+	"transmutació": "T",
+	"nigromància": "N",
+	"conjuració": "C",
+	"abjuració": "A",
+	"encantament": "E",
+	"evocació": "V",
+	"il·lusió": "I",
+	"divinació": "D",
 }).forEach(([k, v]) => {
 	SpellParser._RES_SCHOOL.push({
 		output: v,

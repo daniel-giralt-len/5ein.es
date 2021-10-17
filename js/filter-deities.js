@@ -18,7 +18,7 @@ class PageFilterDeities extends PageFilter {
 		this._pantheonFilter = new Filter({header: "Pantheon", items: []});
 		this._categoryFilter = new Filter({header: "Category", items: [VeCt.STR_NONE]});
 		this._alignmentFilter = new Filter({
-			header: "Alignment",
+			header: "Alineament",
 			items: ["L", "NX", "C", "G", "NY", "E", "N"],
 			displayFn: it => Parser.alignmentAbvToFull(it).toTitleCase(),
 			itemSortFn: null,

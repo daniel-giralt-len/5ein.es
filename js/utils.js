@@ -2093,7 +2093,7 @@ UrlUtil.PG_TO_NAME[UrlUtil.PG_TABLES] = "Tables";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_VEHICLES] = "Vehicles";
 // UrlUtil.PG_TO_NAME[UrlUtil.PG_CHARACTERS] = "";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_ACTIONS] = "Actions";
-UrlUtil.PG_TO_NAME[UrlUtil.PG_LANGUAGES] = "Languages";
+UrlUtil.PG_TO_NAME[UrlUtil.PG_LANGUAGES] = "Idiomes";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_STATGEN] = "Stat Generator";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_LIFEGEN] = "This Is Your Life";
 UrlUtil.PG_TO_NAME[UrlUtil.PG_NAMES] = "Names";
@@ -5807,7 +5807,7 @@ CryptUtil = {
 	},
 
 	hex2Dec (hex) {
-		return parseInt(`0x${hex}`);
+		return parseInt(`0x${embruix}`);
 	},
 
 	md5: (s) => {

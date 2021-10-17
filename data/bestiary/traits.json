@@ -24,7 +24,7 @@
 					"int": 10
 				},
 				"_mod": {
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "one language known by its creator"
 					}
@@ -32,23 +32,23 @@
 			}
 		},
 		{
-			"name": "Bullywug",
+			"name": "Batrac",
 			"source": "DMG",
 			"page": 282,
-			"ref": "{@race Bullywug|DMG}",
+			"ref": "{@race Batrac|DMG}",
 			"apply": {
 				"_root": {
 					"type": {
 						"type": "humanoide",
 						"tags": [
-							"bullywug"
+							"batrac"
 						]
 					}
 				},
 				"_mod": {
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
-						"items": "Bullywug"
+						"items": "Batrac"
 					},
 					"trait": {
 						"mode": "appendArr",
@@ -61,7 +61,7 @@
 								]
 							},
 							{
-								"name": "Swamp Camouflage",
+								"name": "Camuflatge dels Aiguamolls",
 								"type": "entries",
 								"entries": [
 									"<$title_short_name$> has advantage on Destresa ({@skill Sigil}) checks made to hide in swampy terrain."
@@ -71,7 +71,7 @@
 								"name": "Salt Dempeus",
 								"type": "entries",
 								"entries": [
-									"<$title_short_name$>'s long jump is up to 20 feet and their high jump is up to 10 feet, with or without a running start."
+									"<$title_short_name$>'s long jump is fins a 20 peus and their high jump is fins a 10 peus, with or without a running start."
 								]
 							}
 						]
@@ -80,10 +80,10 @@
 			}
 		},
 		{
-			"name": "Deep Gnome",
+			"name": "Gnom de les profunditatse",
 			"source": "DMG",
 			"page": 282,
-			"ref": "{@race Gnome (Deep)|DMG|Deep Gnome}",
+			"ref": "{@race Gnom (de les Profunditats)|DMG|Gnom de les profunditatse}",
 			"apply": {
 				"_root": {
 					"size": "S",
@@ -103,7 +103,7 @@
 							"range": 120
 						}
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": [
 							"Gnomesc",
@@ -120,7 +120,7 @@
 									"<$title_short_name$>'s habilitat de llançament de conjurs innata is Intel·ligència (spell save DC <$spell_dc__int$>). <$title_short_name$> pot llançar els conjurs següents innatament (no requereix components materials):"
 								],
 								"will": [
-									"{@spell nondetection} (self only)"
+									"{@spell indetectable} (self only)"
 								],
 								"daily": {
 									"1e": [
@@ -175,7 +175,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": [
 							"fascinat",
-							"acovardat",
+							"acovardit",
 							"paralitzat",
 							"emmetzinat",
 							"exhaust"
@@ -232,7 +232,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Èlfic"
 					},
@@ -250,7 +250,7 @@
 								"daily": {
 									"1e": [
 										"{@spell darkness}",
-										"{@spell faerie fire}"
+										"{@spell foc follet}"
 									]
 								},
 								"ability": "cha"
@@ -287,7 +287,7 @@
 					"type": {
 						"type": "humanoide",
 						"tags": [
-							"dwarf"
+							"nan"
 						]
 					},
 					"speed": 25
@@ -304,7 +304,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "verí"
 					},
-					"languages": [
+					"idiomes": [
 						{
 							"mode": "appendIfNotExistsArr",
 							"items": [
@@ -317,7 +317,7 @@
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Dwarven Resilience",
+								"name": "Resiliència Nana",
 								"entries": [
 									"<$title_short_name$> has advantage on saving throws against poison, and has resistance against poison damage."
 								]
@@ -365,7 +365,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "àcid"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -375,7 +375,7 @@
 							{
 								"name": "Alè de Acid {@recharge 5}",
 								"entries": [
-									"The half-dragon exhala àcid en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 18 Destresa saving throw. Qui falli rep 54 ({@damage 12d8}) de dany d'àcid; qui superi, en rep la meitat."
+									"The half-dragon exhala àcid en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 18). Qui falli rep 54 ({@damage 12d8}) de dany d'àcid; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -409,7 +409,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "elèctric"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -419,7 +419,7 @@
 							{
 								"name": "Alè de Llamp {@recharge 5}",
 								"entries": [
-									"The half-dragon exhala lamps en una línia de 90 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 19 Destresa saving throw. Qui falli rep 66 ({@damage 12d10}) de dany elèctric; qui superi, en rep la meitat."
+									"The half-dragon exhala lamps en una línia de 90 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 19). Qui falli rep 66 ({@damage 12d10}) de dany elèctric; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -453,7 +453,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -471,12 +471,12 @@
 											{
 												"type": "item",
 												"name": "Alè de Foc.",
-												"entry": "The half-dragon exhala foc en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 18 Destresa saving throw. Qui falli rep 45 ({@damage 13d6}) de dany de foc; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhala foc en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 18). Qui falli rep 45 ({@damage 13d6}) de dany de foc; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Sleep Breath.",
-												"entry": "The half-dragon exhales sleep gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 18 Constitució saving throw or fall {@condition unconscious} for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+												"entry": "The half-dragon exhales sleep gas en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 18). Si falla, fall {@condition inconscient} durant 10 minuts. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
 											}
 										]
 									}
@@ -513,7 +513,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "àcid"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -531,12 +531,12 @@
 											{
 												"type": "item",
 												"name": "Alè Àcid.",
-												"entry": "The half-dragon exhala àcid en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 18 Destresa saving throw. Qui falli rep 54 ({@damage 12d8}) de dany d'àcid; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhala àcid en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 18). Qui falli rep 54 ({@damage 12d8}) de dany d'àcid; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Slowing Breath.",
-												"entry": "The half-dragon exhales gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 18 Constitució saving throw. Si falla, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself with a successful save."
+												"entry": "The half-dragon exhales gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 18 Constitució saving throw. Si falla, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the creature can use either an action or a bonus action on its turn, but not both. These effects last durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself with a successful save."
 											}
 										]
 									}
@@ -573,7 +573,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -591,12 +591,12 @@
 											{
 												"type": "item",
 												"name": "Alè de Foc.",
-												"entry": "The half-dragon exhales fire en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 21 Destresa saving throw. Qui falli rep 66 ({@damage 12d10}) de dany de foc; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhales fire en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 21). Qui falli rep 66 ({@damage 12d10}) de dany de foc; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Weakening Breath.",
-												"entry": "The half-dragon exhales gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 21 Força saving throw or have disadvantage on Força-based attack rolls, Força checks, and Força saving throws for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+												"entry": "The half-dragon exhales gas en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Força (CD 21). Si falla, have disadvantage on Força-based attack rolls, Força checks, and Força saving throws durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 											}
 										]
 									}
@@ -633,7 +633,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "verí"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -643,7 +643,7 @@
 							{
 								"name": "Alè de Poison {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales poisonous gas en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 18 Constitució saving throw. Qui falli rep 56 ({@damage 16d6}) de dany de verí; qui superi, en rep la meitat."
+									"The half-dragon exhales poisonous gas en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 18). Qui falli rep 56 ({@damage 16d6}) de dany de verí; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -677,7 +677,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -687,7 +687,7 @@
 							{
 								"name": "Alè de Fire {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales fire en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 21 Destresa saving throw. Qui falli rep 63 ({@damage 18d6}) de dany de foc; qui superi, en rep la meitat."
+									"The half-dragon exhales fire en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 21). Qui falli rep 63 ({@damage 18d6}) de dany de foc; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -721,7 +721,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "fred"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -739,12 +739,12 @@
 											{
 												"type": "item",
 												"name": "Alè Gèlid.",
-												"entry": "The half-dragon exhales an icy blast en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 20 Constitució saving throw. Qui falli rep 58 ({@damage 13d8}) de dany de fred; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhales an icy blast en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 20). Qui falli rep 58 ({@damage 13d8}) de dany de fred; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Paralyzing Breath.",
-												"entry": "The half-dragon exhales paralyzing gas en un con de 60 peus. Tota criatura dins de l'àrea must succeed on a DC 20 Constitució saving throw or be {@condition paralyzed} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+												"entry": "The half-dragon exhales paralyzing gas en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 20). Si falla, be {@condition paralitzat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 											}
 										]
 									}
@@ -781,7 +781,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "fred"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -791,7 +791,7 @@
 							{
 								"name": "Alè de Cold {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales an icy blast en un con de 60 peus. Tota criatura dins de l'àrea must make a DC 19 Constitució saving throw. Qui falli rep 54 ({@damage 12d8}) de dany de fred; qui superi, en rep la meitat."
+									"The half-dragon exhales an icy blast en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 19). Qui falli rep 54 ({@damage 12d8}) de dany de fred; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -824,7 +824,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Goblin"
 					},
@@ -866,7 +866,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Èlfic"
 					},
@@ -914,7 +914,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Orc"
 					},
@@ -928,7 +928,7 @@
 								]
 							},
 							{
-								"name": "Savage Attacks",
+								"name": "Atac Despietat",
 								"entries": [
 									"When they score a critical hit, <$title_short_name$> can roll one of the weapon's damage dice and add it to the extra damage of the critical hit."
 								]
@@ -968,7 +968,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Èlfic"
 					},
@@ -1012,7 +1012,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "àcid"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1022,7 +1022,7 @@
 							{
 								"name": "Alè de Acid {@recharge 5}",
 								"entries": [
-									"The half-dragon exhala àcid en una línia de 30 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 14 Destresa saving throw. Qui falli rep 49 ({@damage 11d8}) de dany d'àcid; qui superi, en rep la meitat."
+									"The half-dragon exhala àcid en una línia de 30 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 14). Qui falli rep 49 ({@damage 11d8}) de dany d'àcid; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1056,7 +1056,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "elèctric"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1066,7 +1066,7 @@
 							{
 								"name": "Alè de Llamp {@recharge 5}",
 								"entries": [
-									"The half-dragon exhala lamps en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 16 Destresa saving throw. Qui falli rep 55 ({@damage 10d10}) de dany elèctric; qui superi, en rep la meitat."
+									"The half-dragon exhala lamps en una línia de 60 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 16). Qui falli rep 55 ({@damage 10d10}) de dany elèctric; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1100,7 +1100,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1118,12 +1118,12 @@
 											{
 												"type": "item",
 												"name": "Alè de Foc.",
-												"entry": "The half-dragon exhala foc en una línia de 40 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 14 Destresa saving throw. Qui falli rep 42 ({@damage 12d6}) de dany de foc; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhala foc en una línia de 40 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 14). Qui falli rep 42 ({@damage 12d6}) de dany de foc; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Sleep Breath.",
-												"entry": "The half-dragon exhales sleep gas en un con de 30 peus. Tota criatura dins de l'àrea must succeed on a DC 14 Constitució saving throw or fall {@condition unconscious} for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+												"entry": "The half-dragon exhales sleep gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 14). Si falla, fall {@condition inconscient} durant 5 minuts. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
 											}
 										]
 									}
@@ -1160,7 +1160,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "àcid"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1178,12 +1178,12 @@
 											{
 												"type": "item",
 												"name": "Alè Àcid.",
-												"entry": "The half-dragon exhala àcid en una línia de 40 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 14 Destresa saving throw. Qui falli rep 40 ({@damage 9d8}) de dany d'àcid; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhala àcid en una línia de 40 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 14). Qui falli rep 40 ({@damage 9d8}) de dany d'àcid; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Slowing Breath.",
-												"entry": "The half-dragon exhales gas en un con de 30 peus. Tota criatura dins de l'àrea must succeed on a DC 14 Constitució saving throw. Si falla, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself with a successful save."
+												"entry": "The half-dragon exhales gas en un con de 30 peus. Tota criatura dins de l'àrea must succeed on a DC 14 Constitució saving throw. Si falla, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the creature can use either an action or a bonus action on its turn, but not both. These effects last durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself with a successful save."
 											}
 										]
 									}
@@ -1220,7 +1220,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1238,12 +1238,12 @@
 											{
 												"type": "item",
 												"name": "Alè de Foc.",
-												"entry": "The half-dragon exhales fire en un con de 30 peus. Tota criatura dins de l'àrea must make a DC 17 Destresa saving throw. Qui falli rep 55 ({@damage 10d10}) de dany de foc; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhales fire en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 17). Qui falli rep 55 ({@damage 10d10}) de dany de foc; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Weakening Breath.",
-												"entry": "The half-dragon exhales gas en un con de 30 peus. Tota criatura dins de l'àrea must succeed on a DC 17 Força saving throw or have disadvantage on Força-based attack rolls, Força checks, and Força saving throws for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+												"entry": "The half-dragon exhales gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Força (CD 17). Si falla, have disadvantage on Força-based attack rolls, Força checks, and Força saving throws durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 											}
 										]
 									}
@@ -1280,7 +1280,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "verí"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1290,7 +1290,7 @@
 							{
 								"name": "Alè de Poison {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales poisonous gas en un con de 30 peus. Tota criatura dins de l'àrea must make a DC 14 Constitució saving throw. Qui falli rep 42 ({@damage 12d6}) de dany de verí; qui superi, en rep la meitat."
+									"The half-dragon exhales poisonous gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 14). Qui falli rep 42 ({@damage 12d6}) de dany de verí; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1324,7 +1324,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1334,7 +1334,7 @@
 							{
 								"name": "Alè de Fire {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales fire en un con de 30 peus. Tota criatura dins de l'àrea must make a DC 17 Destresa saving throw. Qui falli rep 56 ({@damage 16d6}) de dany de foc; qui superi, en rep la meitat."
+									"The half-dragon exhales fire en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 17). Qui falli rep 56 ({@damage 16d6}) de dany de foc; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1368,7 +1368,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "fred"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1386,12 +1386,12 @@
 											{
 												"type": "item",
 												"name": "Alè Gèlid.",
-												"entry": "The half-dragon exhales an icy blast en un con de 30 peus. Tota criatura dins de l'àrea must make a DC 17 Constitució saving throw. Qui falli rep 54 ({@damage 12d8}) de dany de fred; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhales an icy blast en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 17). Qui falli rep 54 ({@damage 12d8}) de dany de fred; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Paralyzing Breath.",
-												"entry": "The half-dragon exhales paralyzing gas en un con de 30 peus. Tota criatura dins de l'àrea must succeed on a DC 17 Constitució saving throw or be {@condition paralyzed} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+												"entry": "The half-dragon exhales paralyzing gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 17). Si falla, be {@condition paralitzat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 											}
 										]
 									}
@@ -1428,7 +1428,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "fred"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1438,7 +1438,7 @@
 							{
 								"name": "Alè de Cold {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales an icy blast en un con de 30 peus. Tota criatura dins de l'àrea must make a DC 15 Constitució saving throw. Qui falli rep 45 ({@damage 10d8}) de dany de fred; qui superi, en rep la meitat."
+									"The half-dragon exhales an icy blast en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 15). Qui falli rep 45 ({@damage 10d8}) de dany de fred; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1471,7 +1471,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1487,7 +1487,7 @@
 							{
 								"name": "Estratègies de Manada",
 								"entries": [
-									"<$title_short_name$> has advantage on an attack roll against a creature if at least one of their allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+									"<$title_short_name$> has advantage on an attack roll against a creature if at least one of their allies is within 5 feet of the creature and the ally isn't {@condition incapacitat}."
 								]
 							}
 						]
@@ -1521,7 +1521,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "àcid"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1531,7 +1531,7 @@
 							{
 								"name": "Alè de Acid {@recharge 5}",
 								"entries": [
-									"The half-dragon exhala àcid en una línia de 15 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 11 Destresa saving throw. Qui falli rep 22 ({@damage 5d8}) de dany d'àcid; qui superi, en rep la meitat."
+									"The half-dragon exhala àcid en una línia de 15 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 11). Qui falli rep 22 ({@damage 5d8}) de dany d'àcid; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1565,7 +1565,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "elèctric"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1575,7 +1575,7 @@
 							{
 								"name": "Alè de Llamp {@recharge 5}",
 								"entries": [
-									"The half-dragon exhala lamps en una línia de 30 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 12 Destresa saving throw. Qui falli rep 22 ({@damage 4d10}) de dany elèctric; qui superi, en rep la meitat."
+									"The half-dragon exhala lamps en una línia de 30 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 12). Qui falli rep 22 ({@damage 4d10}) de dany elèctric; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1609,7 +1609,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1627,12 +1627,12 @@
 											{
 												"type": "item",
 												"name": "Alè de Foc.",
-												"entry": "The half-dragon exhala foc en una línia de 20 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 11 Destresa saving throw. Qui falli rep 14 ({@damage 4d6}) de dany de foc; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhala foc en una línia de 20 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 11). Qui falli rep 14 ({@damage 4d6}) de dany de foc; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Sleep Breath.",
-												"entry": "The half-dragon exhales sleep gas en un con de 15 peus. Tota criatura dins de l'àrea must succeed on a DC 11 Constitució saving throw or fall {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+												"entry": "The half-dragon exhales sleep gas en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 11). Si falla, fall {@condition inconscient} durant 1 minut. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
 											}
 										]
 									}
@@ -1669,7 +1669,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "àcid"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1687,12 +1687,12 @@
 											{
 												"type": "item",
 												"name": "Alè Àcid.",
-												"entry": "The half-dragon exhala àcid en una línia de 20 peus de llarg i 5 d'ample. Tota criatura dins de la línia must make a DC 11 Destresa saving throw. Qui falli rep 18 ({@damage 4d8}) de dany d'àcid; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhala àcid en una línia de 20 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa (CD 11). Qui falli rep 18 ({@damage 4d8}) de dany d'àcid; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Slowing Breath.",
-												"entry": "The half-dragon exhales gas en un con de 15 peus. Tota criatura dins de l'àrea must succeed on a DC 11 Constitució saving throw. Si falla, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself with a successful save."
+												"entry": "The half-dragon exhales gas en un con de 15 peus. Tota criatura dins de l'àrea must succeed on a DC 11 Constitució saving throw. Si falla, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the creature can use either an action or a bonus action on its turn, but not both. These effects last durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the effect on itself with a successful save."
 											}
 										]
 									}
@@ -1729,7 +1729,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1747,12 +1747,12 @@
 											{
 												"type": "item",
 												"name": "Alè de Foc.",
-												"entry": "The half-dragon exhales fire en un con de 15 peus. Tota criatura dins de l'àrea must make a DC 13 Destresa saving throw. Qui falli rep 22 ({@damage 4d10}) de dany de foc; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhales fire en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 13). Qui falli rep 22 ({@damage 4d10}) de dany de foc; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Weakening Breath.",
-												"entry": "The half-dragon exhales gas en un con de 15 peus. Tota criatura dins de l'àrea must succeed on a DC 13 Força saving throw or have disadvantage on Força-based attack rolls, Força checks, and Força saving throws for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+												"entry": "The half-dragon exhales gas en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Força (CD 13). Si falla, have disadvantage on Força-based attack rolls, Força checks, and Força saving throws durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 											}
 										]
 									}
@@ -1789,7 +1789,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "verí"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1799,7 +1799,7 @@
 							{
 								"name": "Alè de Poison {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales poisonous gas en un con de 15 peus. Tota criatura dins de l'àrea must make a DC 11 Constitució saving throw. Qui falli rep 21 ({@damage 6d6}) de dany de verí; qui superi, en rep la meitat."
+									"The half-dragon exhales poisonous gas en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 11). Qui falli rep 21 ({@damage 6d6}) de dany de verí; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1833,7 +1833,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1843,7 +1843,7 @@
 							{
 								"name": "Alè de Fire {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales fire en un con de 15 peus. Tota criatura dins de l'àrea must make a DC 13 Destresa saving throw. Qui falli rep 24 ({@damage 7d6}) de dany de foc; qui superi, en rep la meitat."
+									"The half-dragon exhales fire en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 13). Qui falli rep 24 ({@damage 7d6}) de dany de foc; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1877,7 +1877,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "fred"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1895,12 +1895,12 @@
 											{
 												"type": "item",
 												"name": "Alè Gèlid.",
-												"entry": "The half-dragon exhales an icy blast en un con de 15 peus. Tota criatura dins de l'àrea must make a DC 13 Constitució saving throw. Qui falli rep 18 ({@damage 4d8}) de dany de fred; qui superi, en rep la meitat."
+												"entry": "The half-dragon exhales an icy blast en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 13). Qui falli rep 18 ({@damage 4d8}) de dany de fred; qui superi, en rep la meitat."
 											},
 											{
 												"type": "item",
 												"name": "Paralyzing Breath.",
-												"entry": "The half-dragon exhales paralyzing gas en un con de 15 peus. Tota criatura dins de l'àrea must succeed on a DC 13 Constitució saving throw or be {@condition paralyzed} for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+												"entry": "The half-dragon exhales paralyzing gas en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 13). Si falla, be {@condition paralitzat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 											}
 										]
 									}
@@ -1937,7 +1937,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "fred"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1947,7 +1947,7 @@
 							{
 								"name": "Alè de Cold {@recharge 5}",
 								"entries": [
-									"The half-dragon exhales an icy blast of hail en un con de 15 peus. Tota criatura dins de l'àrea must make a DC 12 Constitució saving throw. Qui falli rep 22 ({@damage 5d8}) de dany de fred; qui superi, en rep la meitat."
+									"The half-dragon exhales an icy blast of hail en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 12). Qui falli rep 22 ({@damage 5d8}) de dany de fred; qui superi, en rep la meitat."
 								]
 							}
 						]
@@ -1956,16 +1956,16 @@
 			}
 		},
 		{
-			"name": "Lizardfolk",
+			"name": "Llangardent",
 			"source": "DMG",
 			"page": 282,
-			"ref": "{@race Lizardfolk|DMG}",
+			"ref": "{@race Llangardent|DMG}",
 			"apply": {
 				"_root": {
 					"type": {
 						"type": "humanoide",
 						"tags": [
-							"lizardfolk"
+							"Llangardent"
 						]
 					},
 					"speed": {
@@ -1974,7 +1974,7 @@
 					}
 				},
 				"_mod": {
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Dracònic"
 					},
@@ -1985,7 +1985,7 @@
 								"type": "entries",
 								"name": "Aguantar la Respiració",
 								"entries": [
-									"<$title_short_name$> can hold their breath for up to 15 minutes at a time."
+									"<$title_short_name$> can hold their breath for up to 15 minuts seguits."
 								]
 							}
 						]
@@ -1994,16 +1994,16 @@
 			}
 		},
 		{
-			"name": "Merfolk",
+			"name": "Sirènid",
 			"source": "DMG",
 			"page": 282,
-			"ref": "{@race Merfolk|dmg}",
+			"ref": "{@race Sirènid|dmg}",
 			"apply": {
 				"_root": {
 					"type": {
 						"type": "humanoide",
 						"tags": [
-							"merfolk"
+							"sirènid"
 						]
 					},
 					"speed": {
@@ -2012,7 +2012,7 @@
 					}
 				},
 				"_mod": {
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Aquà"
 					},
@@ -2040,7 +2040,7 @@
 					"type": {
 						"type": "humanoide",
 						"tags": [
-							"dwarf"
+							"nan"
 						]
 					},
 					"speed": 25
@@ -2057,7 +2057,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "verí"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Nannès"
 					},
@@ -2065,7 +2065,7 @@
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Dwarven Resilience",
+								"name": "Resiliència Nana",
 								"entries": [
 									"<$title_short_name$> has advantage on saving throws against poison, and has resistance against poison damage."
 								]
@@ -2099,7 +2099,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Orc"
 					},
@@ -2237,7 +2237,7 @@
 							"range": 60
 						}
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Gnomesc"
 					},
@@ -2349,7 +2349,7 @@
 							]
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"replace": "comprèn els idiomes que comprenia en vida però no pot parlar",
 						"items": "comprèn els idiomes que comprenia en vida però no pot parlar"
@@ -2374,7 +2374,7 @@
 					"speed": 25
 				},
 				"_mod": {
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Halfling"
 					},
@@ -2390,7 +2390,7 @@
 							{
 								"name": "Coratge",
 								"entries": [
-									"<$title_short_name$> has advantage on saving throws against being {@condition frightened}."
+									"<$title_short_name$> has advantage on saving throws against being {@condition acovardit}."
 								]
 							}
 						]
@@ -2426,9 +2426,9 @@
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Feline Agility",
+								"name": "Agilitat Felina",
 								"entries": [
-									"When <$title_short_name$> moves on its turn in combat, they can double their speed until the end of the turn. Once they uses this ability, <$title_short_name$> can't use it again until they moves 0 feet on one of their turns."
+									"When <$title_short_name$> moves on its turn in combat, they can double their speed fins el final del torn. Once they uses this ability, <$title_short_name$> can't use it again until they moves 0 feet on one of their turns."
 								]
 							}
 						]
@@ -2473,7 +2473,7 @@
 						"mode": "appendIfNotExistsArr",
 						"items": "foc"
 					},
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Infernal"
 					},
@@ -2486,12 +2486,12 @@
 									"<$title_short_name$>'s habilitat de llançament de conjurs innata is Carisma (spell save DC <$spell_dc__cha$>). <$title_short_name$> pot llançar els conjurs següents innatament (no requereix components materials):"
 								],
 								"will": [
-									"{@spell thaumaturgy}"
+									"{@spell taumatúrgia}"
 								],
 								"daily": {
 									"1e": [
 										"{@spell darkness}",
-										"{@spell hellish rebuke}"
+										"{@spell venjança dels inferns}"
 									]
 								},
 								"ability": "cha"
@@ -2517,22 +2517,22 @@
 									{
 										"type": "list",
 										"items": [
-											"The target is unable to perform a certain kind of act involving fine motor control, such as tying knots, writing, playing an instrument, sewing, or casting spells that have somatic components. When this curse ends, the Vistana takes {@damage 1d6} de dany psíquic.",
-											"The target's appearance changes in a sinister yet purely cosmetic way. For example, the curse can place a scar on the target's face, turn the target's teeth into yellow fangs, or give the target bad breath. When this curse ends, the Vistana it takes {@damage 1d6} de dany psíquic.",
-											"A nonmagical item in the target's possession (chosen by the DM) disappears and can't be found until the curse ends. The lost item can weigh no more than 1 pound. When this curse ends, the Vistana takes {@damage 1d6} de dany psíquic.",
-											"The target gains vulnerability to a damage type of the Vistana's choice. When this curse ends, the Vistana takes {@damage 3d6} de dany psíquic.",
-											"The target has disadvantage on ability checks and saving throws tied to one ability score of the Vistana's choice. When this curse ends, the Vistana takes {@damage 3d6} de dany psíquic.",
-											"The target's attunement to one magic item (chosen by the DM) ends, and the target can't attune to the chosen item until the curse ends. When this curse ends, the Vistana takes {@damage 5d6} de dany psíquic.",
-											"The target is {@condition blinded}, {@condition deafened}, or both. When this curse ends, the Vistana takes {@damage 5d6} de dany psíquic."
+											"The target is unable to perform a certain kind of act involving fine motor control, such as tying knots, writing, playing an instrument, sewing, or casting spells that have somatic components. When this curse ends, the Vistana rep {@damage 1d6} de dany psíquic.",
+											"The target's appearance changes in a sinister yet purely cosmetic way. For example, the curse can place a scar on the target's face, turn the target's teeth into yellow fangs, or give the target bad breath. When this curse ends, the Vistana it rep {@damage 1d6} de dany psíquic.",
+											"A nonmagical item in the target's possession (chosen by the DM) disappears and can't be found until the curse ends. The lost item can weigh no more than 1 pound. When this curse ends, the Vistana rep {@damage 1d6} de dany psíquic.",
+											"The target gains vulnerability to a damage type of the Vistana's choice. When this curse ends, the Vistana rep {@damage 3d6} de dany psíquic.",
+											"The target has disadvantage on ability checks and saving throws tied to one ability score of the Vistana's choice. When this curse ends, the Vistana rep {@damage 3d6} de dany psíquic.",
+											"The target's attunement to one magic item (chosen by the DM) ends, and the target can't attune to the chosen item until the curse ends. When this curse ends, the Vistana rep {@damage 5d6} de dany psíquic.",
+											"The target is {@condition encegat}, {@condition eixordat}, or both. When this curse ends, the Vistana rep {@damage 5d6} de dany psíquic."
 										]
 									},
-									"The curse lasts until ended with a {@spell greater restoration} spell, a {@spell remove curse} spell, or similar magic. It doesn't end when the target dies. If a cursed target is returned to life, the curse remains in effect."
+									"The curse lasts until ended with a {@spell restabliment superior} spell, a {@spell anul·lar maledicció} spell, or similar magic. It doesn't end when the target dies. If a cursed target is returned to life, the curse remains in effect."
 								]
 							},
 							{
 								"name": "Evil Eye (es Recarrega amb un descans Curt o Llarg)",
 								"entries": [
-									"Com a acció, a Vistana can target a creature within 10 feet that the Vistana can see. This magical ability, which the Vistani call the Evil Eye, duplicates the duration and effect of the {@spell amistat animal}, {@spell fascinar persona}, or {@spell hold person} spell (Vistana's choice; spell {@dc <$spell_dc__cha$>}), but requires neither somatic nor material components. If the target succeeds on the save, the Vistana is {@condition blinded} until the end of the Vistana's next turn.",
+									"Com a acció, a Vistana can target a creature within 10 feet that the Vistana can see. This magical ability, which the Vistani call the Evil Eye, duplicates the duration and effect of the {@spell amistat animal}, {@spell fascinar persona}, o {@spell immobilitzar humanoide} spell (Vistana's choice; spell {@dc <$spell_dc__cha$>}), but requires neither somatic nor material components. If the target succeeds on the save, the Vistana is {@condition encegat} until the end of the Vistana's next turn.",
 									"A Vistana who uses Evil Eye can't use it again before finishing a short or long rest. Once a target succeeds on a saving throw against a Vistana's Evil Eye, it is immune to the Evil Eye of all Vistani for 24 hours."
 								]
 							}
@@ -2609,7 +2609,7 @@
 							}
 						}
 					],
-					"languages": {
+					"idiomes": {
 						"mode": "appendIfNotExistsArr",
 						"items": "Èlfic"
 					},
@@ -2619,11 +2619,11 @@
 							{
 								"name": "Ascendència Faèrica",
 								"entries": [
-									"<$title_short_name$> has advantage on saving throws against being {@condition charmed}, and magic can't put <$short_name$> to sleep."
+									"<$title_short_name$> has advantage on saving throws against being {@condition fascinat}, and magic can't put <$short_name$> to sleep."
 								]
 							},
 							{
-								"name": "Mask of the Wild",
+								"name": "Màscara del Sotabosc",
 								"entries": [
 									"<$title_short_name$> can attempt to {@action hide} even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 								]

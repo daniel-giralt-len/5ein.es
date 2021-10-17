@@ -24,7 +24,7 @@ Parser.attrChooseToFull = function (attList) {
 		for (let i = 0; i < attList.length; ++i) {
 			attsTemp.push(Parser.attAbvToFull(attList[i]));
 		}
-		return `${attsTemp.join(" or ")} modifier (your choice)`;
+		return `${attsTemp.join(" or ")} modifier (escull)`;
 	}
 };
 
@@ -236,7 +236,7 @@ Parser.getSpeedString = (it) => {
 		procSpeed("walk");
 		procSpeed("burrow");
 		procSpeed("climb");
-		procSpeed("fly");
+		procSpeed("volar");
 		procSpeed("swim");
 		if (it.speed.choose) {
 			joiner = "; ";
@@ -252,7 +252,7 @@ Parser.SPEED_TO_PROGRESSIVE = {
 	"walk": "walking",
 	"burrow": "burrowing",
 	"climb": "climbing",
-	"fly": "flying",
+	"volar": "flying",
 	"swim": "swimming",
 };
 
@@ -447,9 +447,9 @@ Parser.DRAGON_COLOR_TO_FULL = {
 	W: "white",
 	A: "brass",
 	Z: "bronze",
-	C: "copper",
-	O: "gold",
-	S: "silver",
+	C: "coure",
+	O: "or",
+	S: "argent",
 };
 
 Parser.acToFull = function (ac, renderer) {
@@ -601,7 +601,7 @@ Parser.stringToCasedSlug = function (str) {
 	return str.replace(/[^\w ]+/g, "").replace(/ +/g, "-");
 };
 
-Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard"];
+Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Bruixot", "Wizard"];
 
 Parser.itemValueToFull = function (item, opts = {isShortForm: false, isSmallUnits: false}) {
 	return Parser._moneyToFull(item, "value", "valueMult", opts);
@@ -758,7 +758,7 @@ Parser.ITEM_RECHARGE_TO_FULL = {
 	round: "Every Round",
 	restShort: "Short Rest",
 	restLong: "Long Rest",
-	dawn: "Dawn",
+	dawn: "Trenc d'Alba",
 	dusk: "Dusk",
 	midnight: "Midnight",
 	special: "Special",
@@ -885,15 +885,11 @@ Parser.spSchoolAbvToStylePart = function (school) { // For homebrew
 Parser.getOrdinalForm = function (i) {
 	i = Number(i);
 	if (isNaN(i)) return "";
-	const j = i % 10; const k = i % 100;
-	if (j === 1 && k !== 11) return `${i}st`;
-	if (j === 2 && k !== 12) return `${i}nd`;
-	if (j === 3 && k !== 13) return `${i}rd`;
-	return `${i}th`;
+	return `Nivell ${i}`;
 };
 
 Parser.spLevelToFull = function (level) {
-	if (level === 0) return "Cantrip";
+	if (level === 0) return "Truc";
 	else return Parser.getOrdinalForm(level);
 };
 
@@ -929,8 +925,8 @@ Parser.spMetaToFull = function (meta) {
 };
 
 Parser.spLevelSchoolMetaToFull = function (level, school, meta, subschools) {
-	const levelPart = level === 0 ? Parser.spLevelToFull(level).toLowerCase() : `${Parser.spLevelToFull(level)}-level`;
-	const levelSchoolStr = level === 0 ? `${Parser.spSchoolAbvToFull(school)} ${levelPart}` : `${levelPart} ${Parser.spSchoolAbvToFull(school).toLowerCase()}`;
+	const levelPart = level === 0 ? Parser.spLevelToFull(level) : `${Parser.spLevelToFull(level)}`;
+	const levelSchoolStr = `${levelPart}, ${Parser.spSchoolAbvToFull(school)}`;
 
 	const metaArr = Parser.spMetaToArr(meta);
 	if (metaArr.length || (subschools && subschools.length)) {
@@ -1091,13 +1087,13 @@ Parser.spRangeToFull._renderPoint = function (range) {
 };
 Parser.spRangeToFull._renderArea = function (range) {
 	const size = range.distance;
-	return `Llançador (${size.amount}-${Parser.getSingletonUnit(size.type)}${Parser.spRangeToFull._getAreaStyleString(range)}${range.type === RNG_CYLINDER ? `${size.amountSecondary != null && size.typeSecondary != null ? `, ${size.amountSecondary}-${Parser.getSingletonUnit(size.typeSecondary)}-high` : ""} cylinder` : ""})`;
+	return `Llançador (${Parser.spRangeToFull._getAreaStyleString(range)}${range.type === RNG_CYLINDER ? `${size.amountSecondary != null && size.typeSecondary != null ? `, ${size.amountSecondary}-${Parser.getSingletonUnit(size.typeSecondary)} d'alt` : ""} cilindre` : ""} de ${size.amount} ${Parser.getSingletonUnit(size.type)})`;
 };
 Parser.spRangeToFull._getAreaStyleString = function (range) {
 	switch (range.type) {
-		case RNG_SPHERE: return " radius";
-		case RNG_HEMISPHERE: return `-radius ${range.type}`;
-		case RNG_CYLINDER: return "-radius";
+		case RNG_SPHERE: return "radi";
+		case RNG_HEMISPHERE: return `${range.type} de radi`;
+		case RNG_CYLINDER: return "radi";
 		default: return ` ${range.type}`;
 	}
 };
@@ -1105,9 +1101,9 @@ Parser.spRangeToFull._getAreaStyleString = function (range) {
 Parser.getSingletonUnit = function (unit, isShort) {
 	switch (unit) {
 		case UNT_FEET:
-			return isShort ? "ft." : "foot";
+			return isShort ? "p." : "peus";
 		case UNT_MILES:
-			return isShort ? "mi." : "mile";
+			return isShort ? "mi." : "milles";
 		default: {
 			const fromBrew = MiscUtil.get(BrewUtil.homebrewMeta, "spellDistanceUnits", unit, "singular");
 			if (fromBrew) return fromBrew;
@@ -1281,7 +1277,7 @@ Parser.spAreaTypeToFull = function (type) {
 
 Parser.SP_MISC_TAG_TO_FULL = {
 	HL: "Healing",
-	THP: "Grants Temporary Hit Points",
+	THP: "Grants Punts de vida temporals",
 	SGT: "Requires Sight",
 	PRM: "Permanent Effects",
 	SCL: "Scaling Effects",
@@ -1298,7 +1294,7 @@ Parser.SP_CASTER_PROGRESSION_TO_FULL = {
 	full: "Full",
 	"1/2": "Half",
 	"1/3": "One-Third",
-	"pact": "Pact Magic",
+	"pact": "Màgia de Pacte",
 };
 Parser.spCasterProgressionToFull = function (type) {
 	return Parser._parse_aToB(Parser.SP_CASTER_PROGRESSION_TO_FULL, type);
@@ -1446,7 +1442,7 @@ Parser.MON_SPELLCASTING_TAG_TO_FULL = {
 	"CP": "Class, Paladin",
 	"CR": "Class, Ranger",
 	"CS": "Class, Sorcerer",
-	"CL": "Class, Warlock",
+	"CL": "Class, Bruixot",
 	"CW": "Class, Wizard",
 };
 Parser.monSpellcastingTagToFull = function (tag) {
@@ -1486,12 +1482,12 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"IG": "Ignan",
 	"LF": "Languages Known in Life",
 	"O": "Orc",
-	"OTH": "Other",
+	"OTH": "Altres",
 	"P": "Primordial",
 	"S": "Silvànic",
 	"T": "Terrani",
 	"TC": "Argot de Lladres",
-	"TP": "Telepathy",
+	"TP": "Telepatia",
 	"U": "Sotacomú",
 	"X": "Any (Choose)",
 	"XX": "All",
@@ -1527,15 +1523,15 @@ Parser.prereqSpellToFull = function (spell, {isTextOnly = false} = {}) {
 		const [text, suffix] = spell.split("#");
 		if (!suffix) return isTextOnly ? spell : Renderer.get().render(`{@spell ${spell}}`);
 		else if (suffix === "c") return (isTextOnly ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))(`{@spell ${text}} cantrip`);
-		else if (suffix === "x") return (isTextOnly ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("{@spell hex} spell or a warlock feature that curses");
+		else if (suffix === "x") return (isTextOnly ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("{@spell embruix} spell or a warlock feature that curses");
 	} else return VeCt.STR_NONE;
 };
 
 Parser.prereqPactToFull = function (pact) {
-	if (pact === "Chain") return "Pact of the Chain";
-	if (pact === "Tome") return "Pact of the Tome";
-	if (pact === "Blade") return "Pact of the Blade";
-	if (pact === "Talisman") return "Pact of the Talisman";
+	if (pact === "Cadena") return "Pacte de la Cadena";
+	if (pact === "Còdex") return "Pacte del Còdex";
+	if (pact === "Fulla") return "Pacte de la Fulla";
+	if (pact === "Talismà") return "Pacte del Talismà";
 	return pact;
 };
 
@@ -1550,7 +1546,7 @@ Parser.prereqPatronToShort = function (patron) {
 Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	AI: "Artificer Infusion",
 	ED: "Elemental Discipline",
-	EI: "Eldritch Invocation",
+	EI: "Invocació èldritx",
 	MM: "Metamagic",
 	"MV": "Maneuver",
 	"MV:B": "Maneuver, Battle Master",
@@ -1558,12 +1554,12 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	"AS:V1-UA": "Arcane Shot, V1 (UA)",
 	"AS:V2-UA": "Arcane Shot, V2 (UA)",
 	"AS": "Arcane Shot",
-	OTH: "Other",
-	"FS:F": "Fighting Style; Fighter",
-	"FS:B": "Fighting Style; Bard",
-	"FS:P": "Fighting Style; Paladin",
-	"FS:R": "Fighting Style; Ranger",
-	"PB": "Pact Boon",
+	OTH: "Altres",
+	"FS:F": "Estil de Lluita; Fighter",
+	"FS:B": "Estil de Lluita; Bard",
+	"FS:P": "Estil de Lluita; Paladin",
+	"FS:R": "Estil de Lluita; Ranger",
+	"PB": "Premi de Pacte",
 	"OR": "Onomancy Resonant",
 	"RN": "Rune Knight Rune",
 	"AF": "Alchemical Formula",
@@ -1667,7 +1663,7 @@ Parser.weightToFull = function (lbs, isSmallUnit) {
 	].filter(Boolean).join(", ");
 };
 
-Parser.ITEM_RARITIES = ["none", "comú", "uncommon", "rare", "very rare", "legendary", "artifact", "unknown", "unknown (magic)", "other"];
+Parser.ITEM_RARITIES = ["none", "comú", "uncommon", "rare", "very rare", "legendary", "artifact", "unknown", "unknown (magic)", "altre"];
 
 Parser.CAT_ID_CREATURE = 1;
 Parser.CAT_ID_SPELL = 2;
@@ -1727,7 +1723,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ITEM] = "Item";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS] = "Class";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CONDITION] = "Condition";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FEAT] = "Feat";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELDRITCH_INVOCATION] = "Eldritch Invocation";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELDRITCH_INVOCATION] = "Invocació èldritx";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PSIONIC] = "Psionic";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RACE] = "Race";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OTHER_REWARD] = "Other Reward";
@@ -1748,10 +1744,10 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Cavalier";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Arcane Shot";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "Optional Feature";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Fighting Style";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Estil de Lluita";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "Class Feature";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VEHICLE] = "Vehicle";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "Pact Boon";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "Premi de Pacte";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELEMENTAL_DISCIPLINE] = "Elemental Discipline";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARTIFICER_INFUSION] = "Infusion";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SHIP_UPGRADE] = "Ship Upgrade";
@@ -1835,7 +1831,7 @@ Parser.spClassesToCurrentAndLegacy = function (fromClassList) {
 	const current = [];
 	const legacy = [];
 	fromClassList.forEach(cls => {
-		if ((cls.name === "Artificer" && cls.source === "UAArtificer") || (cls.name === "Artificer (Revisited)" && cls.source === "UAArtificerRevisited")) legacy.push(cls);
+		if ((cls.name === "Artificer" && cls.source === "UAArtificer") || (cls.name === "Artificer (Revisitat)" && cls.source === "UAArtificerRevisited")) legacy.push(cls);
 		else current.push(cls);
 	});
 	return [current, legacy];
@@ -1845,7 +1841,7 @@ Parser.spClassesToCurrentAndLegacy = function (fromClassList) {
  * Build a pair of strings; one with all current subclasses, one with all legacy subclasses
  *
  * @param sp a spell
- * @param subclassLookup Data loaded from `generated/gendata-subclass-lookup.json`. Of the form: `{PHB: {Barbarian: {PHB: {Berserker: "Path of the Berserker"}}}}`
+ * @param subclassLookup Data loaded from `generated/gendata-subclass-lookup.json`. Of the form: `{PHB: {Barbarian: {PHB: {Berserker: "Sender dels Berserker"}}}}`
  * @returns {*[]} A two-element array. First item is a string of all the current subclasses, second item a string of
  * all the legacy/superseded subclasses
  */
@@ -1985,7 +1981,7 @@ Parser.TRAP_INIT_TO_FULL[2] = "initiative count 20";
 Parser.TRAP_INIT_TO_FULL[3] = "initiative count 20 and initiative count 10";
 
 Parser.ATK_TYPE_TO_FULL = {};
-Parser.ATK_TYPE_TO_FULL["MW"] = "Atac armat melé";
+Parser.ATK_TYPE_TO_FULL["MW"] = "Atac armat cos a cos";
 Parser.ATK_TYPE_TO_FULL["RW"] = "Atac armat a distància";
 
 Parser.bookOrdinalToAbv = (ordinal, preNoSuff) => {
@@ -2105,10 +2101,10 @@ Parser.SP_SCHOOL_ABV_TO_FULL[SKL_ABV_PSI] = SKL_PSI;
 Parser.SP_SCHOOL_ABV_TO_SHORT = {};
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ABJ] = "Abj.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_EVO] = "Evoc.";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ENC] = "Ench.";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ILL] = "Illu.";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ENC] = "Enca.";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ILL] = "Il·lu.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_DIV] = "Divin.";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_NEC] = "Necro.";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_NEC] = "Nigro.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_TRA] = "Trans.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_CON] = "Conj.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_PSI] = "Psi.";
@@ -2229,7 +2225,7 @@ Parser.CONDITION_TO_COLOR = {
 	"fascinat": "#f01789",
 	"Eixordat": "#ababab",
 	"Exhausted": "#947a47",
-	"Acovardat": "#c9ca18",
+	"Acovardit": "#c9ca18",
 	"Pres": "#8784a0",
 	"Incapacitat": "#3165a0",
 	"Invisible": "#7ad2d6",
@@ -2403,7 +2399,7 @@ SRC_UA3PE = `${SRC_UA_PREFIX}ThreePillarExperience`;
 SRC_UAGHI = `${SRC_UA_PREFIX}GreyhawkInitiative`;
 SRC_UATSC = `${SRC_UA_PREFIX}ThreeSubclasses`;
 SRC_UAOD = `${SRC_UA_PREFIX}OrderDomain`;
-SRC_UACAM = `${SRC_UA_PREFIX}CentaursMinotaurs`;
+SRC_UACAM = `${SRC_UA_PREFIX}CentauresMinotaures`;
 SRC_UAGSS = `${SRC_UA_PREFIX}GiantSoulSorcerer`;
 SRC_UARoE = `${SRC_UA_PREFIX}RacesOfEberron`;
 SRC_UARoR = `${SRC_UA_PREFIX}RacesOfRavnica`;
@@ -2438,7 +2434,7 @@ SRC_3PP_SUFFIX = " 3pp";
 
 AL_PREFIX = "Adventurers League: ";
 AL_PREFIX_SHORT = "AL: ";
-PS_PREFIX = "Plane Shift: ";
+PS_PREFIX = "Saltar de Pla: ";
 PS_PREFIX_SHORT = "PS: ";
 UA_PREFIX = "Unearthed Arcana: ";
 UA_PREFIX_SHORT = "UA: ";
@@ -2461,7 +2457,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_SCAG] = "Sword Coast Adventurer's Guide";
 Parser.SOURCE_JSON_TO_FULL[SRC_SKT] = "Storm King's Thunder";
 Parser.SOURCE_JSON_TO_FULL[SRC_ToA] = "Tomb of Annihilation";
 Parser.SOURCE_JSON_TO_FULL[SRC_ToD] = "Tyranny of Dragons";
-Parser.SOURCE_JSON_TO_FULL[SRC_TTP] = "The Tortle Package";
+Parser.SOURCE_JSON_TO_FULL[SRC_TTP] = "The Tòrtel Package";
 Parser.SOURCE_JSON_TO_FULL[SRC_TYP] = TftYP_NAME;
 Parser.SOURCE_JSON_TO_FULL[SRC_TYP_AtG] = `${TftYP_NAME}: Against the Giants`;
 Parser.SOURCE_JSON_TO_FULL[SRC_TYP_DiT] = `${TftYP_NAME}: Dead in Thay`;
@@ -2512,7 +2508,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_VRGR] = "Van Richten's Guide to Ravenloft";
 Parser.SOURCE_JSON_TO_FULL[SRC_HoL] = "The House of Lament";
 Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN] = "Dungeon Master's Screen";
 Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN_WILDERNESS_KIT] = "Dungeon Master's Screen: Wilderness Kit";
-Parser.SOURCE_JSON_TO_FULL[SRC_HEROES_FEAST] = "Heroes' Feast";
+Parser.SOURCE_JSON_TO_FULL[SRC_HEROES_FEAST] = "Banquet d'Heroi";
 Parser.SOURCE_JSON_TO_FULL[SRC_CM] = "Candlekeep Mysteries";
 Parser.SOURCE_JSON_TO_FULL[SRC_ALCoS] = `${AL_PREFIX}Curse of Strahd`;
 Parser.SOURCE_JSON_TO_FULL[SRC_ALEE] = `${AL_PREFIX}Elemental Evil`;
@@ -2544,7 +2540,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_UAATOSC] = `${UA_PREFIX}A Trio of Subclasses`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UABPP] = `${UA_PREFIX}Barbarian Primal Paths`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARSC] = `${UA_PREFIX}Revised Subclasses`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAKOO] = `${UA_PREFIX}Kits of Old`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UABBC] = `${UA_PREFIX}Bard: Bard Colleges`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UABBC] = `${UA_PREFIX}Bard: Col·legi de Bardss`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UACDD] = `${UA_PREFIX}Cleric: Divine Domains`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAD] = `${UA_PREFIX}Druid`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARCO] = `${UA_PREFIX}Revised Class Options`;
@@ -2562,7 +2558,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_UA3PE] = `${UA_PREFIX}Three-Pillar Experience`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAGHI] = `${UA_PREFIX}Greyhawk Initiative`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UATSC] = `${UA_PREFIX}Three Subclasses`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAOD] = `${UA_PREFIX}Order Domain`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UACAM] = `${UA_PREFIX}Centaurs and Minotaurs`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UACAM] = `${UA_PREFIX}Centaures and Minotaures`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAGSS] = `${UA_PREFIX}Giant Soul Sorcerer`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARoE] = `${UA_PREFIX}Races of Eberron`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARoR] = `${UA_PREFIX}Races of Ravnica`;
@@ -2665,7 +2661,7 @@ Parser.SOURCE_JSON_TO_ABV[SRC_HEROES_FEAST] = "HF";
 Parser.SOURCE_JSON_TO_ABV[SRC_CM] = "CM";
 Parser.SOURCE_JSON_TO_ABV[SRC_ALCoS] = "ALCoS";
 Parser.SOURCE_JSON_TO_ABV[SRC_ALEE] = "ALEE";
-Parser.SOURCE_JSON_TO_ABV[SRC_ALRoD] = "ALRoD";
+Parser.SOURCE_JSON_TO_ABV[SRC_ALRoD] = "ALVara";
 Parser.SOURCE_JSON_TO_ABV[SRC_PSA] = "PSA";
 Parser.SOURCE_JSON_TO_ABV[SRC_PSI] = "PSI";
 Parser.SOURCE_JSON_TO_ABV[SRC_PSK] = "PSK";
@@ -3072,38 +3068,38 @@ Parser.getTagSource = function (tag, source) {
 };
 
 Parser.ITEM_TYPE_JSON_TO_ABV = {
-	"A": "ammunition",
-	"AF": "ammunition",
-	"AT": "artisan's tools",
+	"A": "munició",
+	"AF": "munició",
+	"AT": "eines d'artesania",
 	"EM": "eldritch machine",
-	"EXP": "explosive",
-	"FD": "food and drink",
-	"G": "adventuring gear",
-	"GS": "gaming set",
-	"HA": "heavy armor",
+	"EXP": "explosiu",
+	"FD": "beguda i queviures",
+	"G": "equip d'aventures",
+	"GS": "set de joc",
+	"HA": "armadura pesada",
 	"INS": "instrument",
-	"LA": "light armor",
-	"M": "melee weapon",
-	"MA": "medium armor",
-	"MNT": "mount",
+	"LA": "armadura lleugera",
+	"M": "arma cos a cos",
+	"MA": "armadura intermitja",
+	"MNT": "muntura",
 	"MR": "master rune",
-	"GV": "generic variant",
-	"P": "potion",
-	"R": "ranged weapon",
-	"RD": "rod",
-	"RG": "ring",
-	"S": "shield",
-	"SC": "scroll",
-	"SCF": "spellcasting focus",
-	"OTH": "other",
-	"T": "tools",
-	"TAH": "tack and harness",
-	"TG": "trade good",
-	"$": "treasure",
-	"VEH": "vehicle (land)",
-	"SHP": "vehicle (water)",
-	"AIR": "vehicle (air)",
-	"WD": "wand",
+	"GV": "variant genètica",
+	"P": "poció",
+	"R": "arma a distància",
+	"RD": "vara",
+	"RG": "anell",
+	"S": "escut",
+	"SC": "pergamí",
+	"SCF": "focus de llançament de conjurs",
+	"OTH": "altre",
+	"T": "eines",
+	"TAH": "material de muntura",
+	"TG": "bé mercantil",
+	"$": "tresor",
+	"VEH": "vehicle (terrestre)",
+	"SHP": "vehicle (marítim)",
+	"AIR": "vehicle (aeri)",
+	"WD": "vareta",
 };
 
 Parser.DMGTYPE_JSON_TO_FULL = {
@@ -3123,7 +3119,7 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 };
 
 Parser.DMG_TYPES = ["àcid", "contundent", "fred", "foc", "força", "elèctric", "necròtic", "perforant", "verí", "psíquic", "radiant", "tallant", "tro"];
-Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardat", "pres", "incapacitat", "invisible", "paralitzat", "petrificat", "emmetzinat", "enderrocat", "retingut", "atordit", "inconscient"];
+Parser.CONDITIONS = ["encegat", "fascinat", "eixordat", "exhaust", "acovardit", "pres", "incapacitat", "invisible", "paralitzat", "petrificat", "emmetzinat", "enderrocat", "retingut", "atordit", "inconscient"];
 
 Parser.SKILL_JSON_TO_FULL = {
 	"Acrobatics": [
@@ -3133,7 +3129,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Saviesa (Animal Handling) check. You also make a Saviesa (Animal Handling) check to control your mount when you attempt a risky maneuver.",
 	],
 	"Arcana": [
-		"Your Intel·ligència (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
+		"L'Intel·ligència (Arcana) medeix la teva capacitat de recordar coneixements sobre conjurs, objectes màgics, símbols èldritxos, tradicions màgiques, plans d'existència, i dels habitants d'aqueslls plans.",
 	],
 	"Athletics": [
 		"Your Força (Atletisme) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
@@ -3150,7 +3146,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Your Carisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.",
 	],
 	"History": [
-		"Your Intel·ligència (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.",
+		"L'Intel·ligència (History) medeix la teva capacitat per a recordar coneixement d'esdeveniments històrics, regnes antics, disputes passades, guerres recents, i civilitzacions perdudes.",
 	],
 	"Insight": [
 		"Your Saviesa (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
@@ -3165,7 +3161,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"A Saviesa (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.",
 	],
 	"Nature": [
-		"Your Intel·ligència (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.",
+		"L'Intel·ligència (Nature) medeix la teva capacitat per a recall lore about terrain, plants and animals, the weather, and natural cycles.",
 	],
 	"Perception": [
 		"Your Saviesa (Percepció) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses.", "For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
@@ -3177,7 +3173,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make a Carisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
 	],
 	"Religion": [
-		"Your Intel·ligència (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
+		"L'Intel·ligència (Religion) medeix la teva capacitat per a recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
 	],
 	"Sleight of Hand": [
 		"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Destresa (Sleight of Hand) check. The DM might also call for a Destresa (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
@@ -3201,7 +3197,7 @@ Parser.SENSE_JSON_TO_FULL = {
 		"A creature with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the creature and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense.",
 	],
 	"truesight": [
-		"A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.",
+		"A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Pla Etèri.",
 	],
 };
 

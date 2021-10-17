@@ -122,7 +122,7 @@ class BaseParser {
 
 		// A lowercase word
 		if (/^[a-z]/.test(cleanLine) && !opts.noLowercase) return true;
-		// An ordinal (e.g. "3rd"), but not a spell level (e.g. "1st level")
+		// An ordinal (e.g. "3rd"), but not a spell level (e.g. "Nivell 1")
 		if (/^\d[a-z][a-z]/.test(cleanLine) && !/^\d[a-z][a-z] level/gi.test(cleanLine)) return true;
 		// A number (e.g. damage; "5 (1d6 + 2)")
 		if (/^\d+\s+/.test(cleanLine) && !opts.noNumber) return true;
@@ -354,7 +354,7 @@ TagCondition._CONDITIONS = [
 	"fascinat",
 	"eixordat",
 	"exhaust",
-	"acovardat",
+	"acovardit",
 	"pres",
 	"incapacitat",
 	"invisible",
@@ -394,7 +394,7 @@ TagCondition._CONDITION_INFLICTED_MATCHERS = [
 	`(?:saving throw|failed save)[^.!?]+? gains? \\w+ levels? of {@condition (exhaustion)}`, // ERLW :: Belashyrra :: Rend Reality
 	`(?:on a successful save|if the saving throw is successful), (?:the ${TagCondition.__TGT} |(?:a|the )creature |(?:an |the )enemy )[^.!?]*?isn't {@condition ([^}]+)}`,
 	`or take[^.!?]+?damage and (?:becomes?|is|be) {@condition ([^}]+)}`, // MM :: Quasit || Claw
-	`the (?:${TagCondition.__TGT}|creature|enemy) [^.!?]+? i està {@condition ([^}]+)}`, // MM :: Satyr :: Gentle Lullaby
+	`the (?:${TagCondition.__TGT}|creature|enemy) [^.!?]+? i està {@condition ([^}]+)}`, // MM :: Sàtir :: Gentle Lullaby
 	`${TagCondition.__TGT}\\. [^.!?]+?damage[^.!?]+?and[^.!?]+?${TagCondition.__TGT} is {@condition ([^}]+)}`, // MM :: Vine Blight :: Constrict
 	`on a failure[^.!?]+?${TagCondition.__TGT} [^.!?]+?\\. [^.!?]+?is also {@condition ([^}]+)}`, // MM :: Water Elemental :: Whelm
 	`(?:(?:a|the|each) ${TagCondition.__TGT}|(?:a|the|each) creature|(?:an|each) enemy)[^.!?]+?takes?[^.!?]+?damage[^.!?]+?and [^.!?]+? {@condition ([^}]+)}`, // AI :: Keg Robot :: Hot Oil Spray

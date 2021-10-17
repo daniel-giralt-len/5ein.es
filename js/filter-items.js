@@ -12,16 +12,16 @@ class PageFilterEquipment extends PageFilter {
 		this._propertyFilter = new Filter({header: "Property", displayFn: StrUtil.uppercaseFirst});
 		this._categoryFilter = new Filter({
 			header: "Category",
-			items: ["Basic", "Generic Variant", "Specific Variant", "Other"],
+			items: ["Basic", "Variant Genètica", "Specific Variant", "Altres"],
 			deselFn: (it) => it === "Specific Variant",
 			itemSortFn: null,
 		});
 		this._costFilter = new RangeFilter({header: "Cost", min: 0, max: 100, isAllowGreater: true, suffix: " gp"});
 		this._weightFilter = new RangeFilter({header: "Weight", min: 0, max: 100, isAllowGreater: true, suffix: " lb."});
-		this._focusFilter = new Filter({header: "Spellcasting Focus", items: [...Parser.ITEM_SPELLCASTING_FOCUS_CLASSES]});
+		this._focusFilter = new Filter({header: "Focus de Llançament de Conjurs", items: [...Parser.ITEM_SPELLCASTING_FOCUS_CLASSES]});
 		this._damageTypeFilter = new Filter({header: "Weapon Damage Type", displayFn: it => Parser.dmgTypeToFull(it).uppercaseFirst(), itemSortFn: (a, b) => SortUtil.ascSortLower(Parser.dmgTypeToFull(a), Parser.dmgTypeToFull(b))});
 		this._miscFilter = new Filter({header: "Miscellaneous", items: ["Item Group", "SRD", "Has Images", "Has Info"], isSrdFilter: true});
-		this._poisonTypeFilter = new Filter({header: "Poison Type", items: ["ingested", "injury", "inhaled", "contact"], displayFn: StrUtil.toTitleCase});
+		this._poisonTypeFilter = new Filter({header: "Poison Type", items: ["ingerir", "ferida", "inhalar", "contacte"], displayFn: StrUtil.toTitleCase});
 	}
 
 	static mutateForFilters (item) {
@@ -39,7 +39,7 @@ class PageFilterEquipment extends PageFilter {
 				switch (item.scfType) {
 					case "arcane": {
 						if (!item._fFocus.includes("Sorcerer")) item._fFocus.push("Sorcerer");
-						if (!item._fFocus.includes("Warlock")) item._fFocus.push("Warlock");
+						if (!item._fFocus.includes("Bruixot")) item._fFocus.push("Bruixot");
 						if (!item._fFocus.includes("Wizard")) item._fFocus.push("Wizard");
 						break;
 					}
@@ -165,7 +165,7 @@ class PageFilterItems extends PageFilterEquipment {
 						case "creatureType": out.push(`Creature Type: ${val.toTitleCase()}`); break;
 						case "size": out.push(`Size: ${Parser.sizeAbvToFull(val)}`.toTitleCase()); break;
 						case "class": out.push(`Class: ${val.split("|")[0].toTitleCase()}`); break;
-						case "alignment": out.push(`Alignment: ${Parser.alignmentListToFull(val).toTitleCase()}`); break;
+						case "alineament": out.push(`Alignment: ${Parser.alignmentListToFull(val).toTitleCase()}`); break;
 
 						case "str":
 						case "dex":
@@ -191,7 +191,7 @@ class PageFilterItems extends PageFilterEquipment {
 		this._attachedSpellsFilter = new Filter({header: "Attached Spells", displayFn: (it) => it.split("|")[0].toTitleCase(), itemSortFn: SortUtil.ascSortLower});
 		this._lootTableFilter = new Filter({
 			header: "Found On",
-			items: ["Magic Item Table A", "Magic Item Table B", "Magic Item Table C", "Magic Item Table D", "Magic Item Table E", "Magic Item Table F", "Magic Item Table G", "Magic Item Table H", "Magic Item Table I"],
+			items: ["Taula d'Objectes Màgics A", "Taula d'Objectes Màgics B", "Taula d'Objectes Màgics C", "Taula d'Objectes Màgics D", "Taula d'Objectes Màgics E", "Taula d'Objectes Màgics F", "Taula d'Objectes Màgics G", "Taula d'Objectes Màgics H", "Taula d'Objectes Màgics I"],
 			displayFn: it => {
 				const [name, sourceJson] = it.split("|");
 				return `${name}${sourceJson ? ` (${Parser.sourceJsonToAbv(sourceJson)})` : ""}`
@@ -311,8 +311,8 @@ class PageFilterItems extends PageFilterEquipment {
 		);
 	}
 }
-PageFilterItems._DEFAULT_HIDDEN_TYPES = new Set(["treasure", "futuristic", "modern", "renaissance"]);
-PageFilterItems._FILTER_BASE_ITEMS_ATTUNEMENT = ["Requires Attunement", "Requires Attunement By...", "Attunement Optional", VeCt.STR_NO_ATTUNEMENT];
+PageFilterItems._DEFAULT_HIDDEN_TYPES = new Set(["tresor", "futuristic", "modern", "renaissance"]);
+PageFilterItems._FILTER_BASE_ITEMS_ATTUNEMENT = ["Cal Harmonitzar", "Cal Harmonitzar By...", "Attunement Optional", VeCt.STR_NO_ATTUNEMENT];
 
 class ModalFilterItems extends ModalFilter {
 	/**

@@ -22,7 +22,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
@@ -271,7 +271,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
@@ -303,7 +303,7 @@
 								],
 								[
 									"2",
-									"Dwarf"
+									"Nan"
 								],
 								[
 									"3",
@@ -315,7 +315,7 @@
 								],
 								[
 									"5",
-									"Halfling"
+									"Mitgerol"
 								],
 								[
 									"6",
@@ -323,7 +323,7 @@
 								],
 								[
 									"7",
-									"Lizardfolk"
+									"Llangardent"
 								],
 								[
 									"8",
@@ -484,7 +484,7 @@
 								],
 								[
 									"4",
-									"I've picked up some unpleasant habits living among goblins, lizardfolk, or orcs."
+									"I've picked up some unpleasant habits living among goblins, Llangardent, or orcs."
 								],
 								[
 									"5",
@@ -549,11 +549,11 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Cartographer's tools|phb} or {@item navigator's tools|phb}"
+							"entry": "{@item Cartographer's eines|phb} or {@item navigator's eines|phb}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -620,7 +620,7 @@
 					"name": "Feature: Historical Knowledge",
 					"type": "entries",
 					"entries": [
-						"When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, yuan-ti, or some other known race. In addition, you can determine the monetary value of objectes d'art more than a century old."
+						"When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were nans, elves, humans, yuan-ti, or some other known race. A més, you can determine the monetary value of objectes d'art more than a century old."
 					],
 					"data": {
 						"isFeature": true
@@ -805,8 +805,8 @@
 				{
 					"choose": {
 						"from": [
-							"navigator's tools",
-							"cartographer's tools"
+							"navigator's eines",
+							"cartographer's eines"
 						]
 					}
 				}
@@ -852,13 +852,13 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
@@ -1179,7 +1179,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
@@ -1203,7 +1203,7 @@
 					"type": "entries",
 					"name": "Azorius Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Azorius Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -1213,24 +1213,24 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell friends}, {@spell missatge}"
+									"Truc",
+									"{@spell amistar}, {@spell missatge}"
 								],
 								[
-									"1st",
-									"{@spell command}, {@spell ensnaring strike}"
+									"1",
+									"{@spell command}, {@spell atac captura}"
 								],
 								[
-									"2nd",
-									"{@spell pany arcà}, {@spell apaivagar emocions}, {@spell hold person}"
+									"2",
+									"{@spell pany arcà}, {@spell apaivagar emocions}, {@spell immobilitzar humanoide}"
 								],
 								[
-									"3rd",
+									"3",
 									"{@spell clarividència}, {@spell contraconjur}"
 								],
 								[
@@ -1243,7 +1243,7 @@
 								]
 							]
 						},
-						"Your magic often takes the form of blue or golden runes floating and glowing in the air in circular patterns or of shimmering azure barriers of magical energy. If you cast {@spell ensnaring strike}, for example, the vines created by the spell might appear as rune-inscribed glowing bands that wrap around the target and hold it in place."
+						"Your magic often takes the form of blue or golden runes floating and glowing in the air in circular patterns or of shimmering azure barriers of magical energy. If you cast {@spell atac captura}, for example, the vines created by the spell might appear as rune-inscribed glowing bands that wrap around the target and hold it in place."
 					]
 				},
 				{
@@ -2233,12 +2233,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Disguise kit|phb}, and one type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}"
+							"entry": "{@item Disguise kit|phb}, and one type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} or {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "{@item Disguise kit|phb}, {@item common clothes|phb}, a Tears of Virulence {@item emblem|phb}, a writ of free agency signed by the Lord Regent, a set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} you are proficient with, and a {@item pouch|phb} with 15 gp (payment for services rendered)."
+							"entry": "{@item Disguise kit|phb}, {@item common clothes|phb}, a Tears of Virulence {@item emblem|phb}, a writ of free agency signed by the Lord Regent, a set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} or {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} you are proficient with, and a {@item pouch|phb} with 15 gp (payment for services rendered)."
 						}
 					]
 				},
@@ -2262,7 +2262,7 @@
 					"name": "Feature: Double Agent",
 					"type": "entries",
 					"entries": [
-						"You have a reliable and trusty contact within the Tears of Virulence garrison in Phlan to whom you pass information and secrets. In exchange, you can get away with minor criminal offenses within the town of Phlan. In addition, your Black Fists contacts can help you secure an audience with the Lord Regent, the Lord Sage, members of the Black Fists, or deposed nobles and authority figures who are sympathetic to the Phlan refugees and insurgents. Note: This feature is a variant of the Noble feature."
+						"You have a reliable and trusty contact within the Tears of Virulence garrison in Phlan to whom you pass information and secrets. In exchange, you can get away with minor criminal offenses within the town of Phlan. A més, your Black Fists contacts can help you secure an audience with the Lord Regent, the Lord Sage, members of the Black Fists, or deposed nobles and authority figures who are sympathetic to the Phlan refugees and insurgents. Note: This feature is a variant of the Noble feature."
 					],
 					"data": {
 						"isFeature": true
@@ -2442,8 +2442,8 @@
 					"disguise kit": true,
 					"choose": {
 						"from": [
-							"artisan's tools",
-							"gaming set"
+							"eines d'artesania",
+							"set de joc"
 						]
 					}
 				}
@@ -2498,12 +2498,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Choose one of Celestial, Draconic, Goblin, or Minotaur"
+							"name": "Idiomes",
+							"entry": "Choose one of Celestial, Dracònic, Goblin, or Minotaure"
 						},
 						{
 							"type": "item",
@@ -2526,7 +2526,7 @@
 					"type": "entries",
 					"name": "Boros Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Boros Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -2536,33 +2536,33 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell fire bolt}, {@spell sacred flame}"
+									"Truc",
+									"{@spell sageta de foc}, {@spell flama sagrada}"
 								],
 								[
-									"1st",
-									"{@spell guiding bolt}, {@spell heroism}"
+									"1",
+									"{@spell sageta guia}, {@spell heroisme}"
 								],
 								[
-									"2nd",
+									"2",
 									"{@spell aid}, {@spell raig d'incendi}"
 								],
 								[
-									"3rd",
+									"3",
 									"{@spell far d'esperança}, {@spell càstig cegador}"
 								],
 								[
 									"4th",
-									"{@spell abjurar la mort}, {@spell wall of fire}"
+									"{@spell abjurar la mort}, {@spell paret de foc}"
 								],
 								[
 									"5th",
-									"{@spell flame strike}"
+									"{@spell batussa incendiària}"
 								]
 							]
 						},
@@ -2880,7 +2880,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true
+					"set de joc": true
 				}
 			],
 			"startingEquipment": [
@@ -2922,11 +2922,11 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -3178,7 +3178,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
@@ -3415,7 +3415,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, a {@item disguise kit|phb}, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A set of {@item fine clothes|phb}, a {@item disguise kit|phb}, tools of the con of your choice (ten ampolla tapadas filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt {@item pouch|phb} containing 15 gp"
 						}
 					]
 				},
@@ -3663,7 +3663,7 @@
 				{
 					"a": [
 						{
-							"special": "stoppered bottles filled with colored liquid",
+							"special": "ampolla tapadas filled with colored liquid",
 							"quantity": 10
 						}
 					],
@@ -3702,7 +3702,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any two of your choice"
 						},
 						{
@@ -3782,17 +3782,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Nan or one of your choice if you already speak Nan"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of {@item traveler's clothes|phb}, and a {@item pouch|phb} containing 5 gp and a gem worth 10 gp"
+							"entry": "A set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of {@item traveler's clothes|phb}, and a {@item pouch|phb} containing 5 gp and a gem worth 10 gp"
 						}
 					]
 				},
@@ -3800,7 +3800,7 @@
 					"name": "Feature: Respect of the Stout Folk",
 					"type": "entries",
 					"entries": [
-						"As well respected as clan crafters are among outsiders, no one esteems them quite so highly as dwarves do. You always have free room and board in any place where shield dwarves or gold dwarves dwell, and the individuals in such a settlement might vie among themselves to determine who can offer you (and possibly your companions) the finest accommodations and assistance."
+						"As well respected as clan crafters are among outsiders, no one esteems them quite so highly as nans do. You always have free room and board in any place where shield nans or gold nans dwell, and the individuals in such a settlement might vie among themselves to determine who can offer you (and possibly your companions) the finest accommodations and assistance."
 					],
 					"data": {
 						"isFeature": true
@@ -3831,7 +3831,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -3865,11 +3865,11 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "{@skill History}, plus your choice of one from among {@skill Arcana}, {@skill Nature}, and {@skill Religion}"
+							"entry": "{@skill History}, plus your choice of one from among {@skill Arcana}, {@skill Nature}, i {@skill Religion}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "any two of your choice"
 						},
 						{
@@ -3977,17 +3977,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Elven"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item two-person tent|phb}, {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, a {@item holy symbol|phb}, a set of {@item traveler's clothes|phb}, a belt {@item pouch|phb} containing 5 gp"
+							"entry": "A {@item two-person tent|phb}, {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, a {@item holy symbol|phb}, a set of {@item traveler's clothes|phb}, a belt {@item pouch|phb} containing 5 gp"
 						}
 					]
 				},
@@ -4186,7 +4186,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -4223,7 +4223,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any two of your choice"
 						},
 						{
@@ -4293,7 +4293,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@item thieves' tools|phb}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, {@item eines de lladre|phb}"
 						},
 						{
 							"type": "item",
@@ -4536,8 +4536,8 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
-					"thieves' tools": true
+					"set de joc": true,
+					"eines de lladre": true
 				}
 			],
 			"startingEquipment": [
@@ -4578,7 +4578,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -4649,7 +4649,7 @@
 					"type": "entries",
 					"name": "Dimir Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Dimir Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -4659,29 +4659,29 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell acabalar pensaments|GGR}, {@spell mage hand}"
+									"Truc",
+									"{@spell acabalar pensaments|GGR}, {@spell mà de mag}"
 								],
 								[
-									"1st",
-									"{@spell ego camuflatge}, {@spell sleep}"
+									"1",
+									"{@spell ego camuflatge}, {@spell adormir}"
 								],
 								[
-									"2nd",
-									"{@spell detectar pensaments}, {@spell pass without trace}"
+									"2",
+									"{@spell detectar pensaments}, {@spell passar desapercebudament}"
 								],
 								[
-									"3rd",
-									"{@spell gaseous form}, {@spell fondre's dins la pedra}, {@spell nondetection}"
+									"3",
+									"{@spell forma gasosa}, {@spell fondre's dins la pedra}, {@spell indetectable}"
 								],
 								[
 									"4th",
-									"{@spell ull arcà}, {@spell freedom of movement}"
+									"{@spell ull arcà}, {@spell llibertat de moviments}"
 								],
 								[
 									"5th",
@@ -5054,7 +5054,7 @@
 							"colLabels": [
 								"d8",
 								"Origin (Occupation)",
-								"Tool Proficiency"
+								"Competència amb Eines"
 							],
 							"colStyles": [
 								"col-1 text-center",
@@ -5065,22 +5065,22 @@
 								[
 									"1",
 									"Dockworker/Fisherman",
-									"{@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+									"{@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim)}"
 								],
 								[
 									"2",
 									"Tradesperson/Merchant",
-									"{@filter Artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+									"{@filter Eines d'Artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 								],
 								[
 									"3",
 									"Black Fist Soldier",
-									"{@filter Gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or {@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+									"{@filter Set de Joc|items|source=phb|miscellaneous=mundane|type=set de joc} or {@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 								],
 								[
 									"4",
 									"Adventurer/Visitor",
-									"{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+									"{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 								],
 								[
 									"5",
@@ -5095,12 +5095,12 @@
 								[
 									"7",
 									"Criminal",
-									"{@item thieves' tools|phb}, {@item forgery kit|phb}, or {@item Disguise kit|phb}"
+									"{@item eines de lladre|phb}, {@item forgery kit|phb}, o {@item Disguise kit|phb}"
 								],
 								[
 									"8",
 									"Unskilled Laborer",
-									"{@filter Gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}"
+									"{@filter Set de Joc|items|source=phb|miscellaneous=mundane|type=set de joc}"
 								]
 							]
 						}
@@ -5348,12 +5348,12 @@
 					"vehicles (water)": true
 				},
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				},
 				{
 					"choose": {
 						"from": [
-							"gaming set",
+							"set de joc",
 							"vehicles (land)"
 						]
 					}
@@ -5375,14 +5375,14 @@
 				{
 					"choose": {
 						"from": [
-							"thieves' tools",
+							"eines de lladre",
 							"forgery kit",
 							"disguise kit"
 						]
 					}
 				},
 				{
-					"gaming set": true
+					"set de joc": true
 				}
 			],
 			"startingEquipment": [
@@ -5424,13 +5424,13 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Nan and Undercommon "
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item shovel|phb} or a {@item miner's pick|phb}, a {@item block and tackle|phb}, a {@item climber's kit|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp"
+							"entry": "A {@item shovel|phb} or a {@item miner's pick|phb}, a {@item polispast|phb}, a {@item climber's kit|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp"
 						}
 					]
 				},
@@ -5445,7 +5445,7 @@
 					"name": "Overview",
 					"type": "entries",
 					"entries": [
-						"You are a down-on your luck miner from the Earthspur Mountains who is no stranger to hardship. You have spent a great deal of time living among the dwarves, goliats, and denizens of the Underdark that also work mines in the area. At this point, you're just as comfortable working underground as above. You know how to read a seam, dicker for supplies with the deep gnomes, party with dwarves, and find your way back to the surface afterwards. Unfortunately, you haven't struck it rich...yet. Although you've come to Mulmaster looking for work, the tall peaks and deep mines of the Earthspurs still call to you."
+						"You are a down-on your luck miner from the Earthspur Mountains who is no stranger to hardship. You have spent a great deal of time living among the nans, goliats, and denizens of the Underdark that also work mines in the area. At this point, you're just as comfortable working underground as above. You know how to read a seam, dicker for supplies with the gnom de les profunditatses, party with nans, and find your way back to the surface afterwards. Unfortunately, you haven't struck it rich...yet. Although you've come to Mulmaster looking for work, the tall peaks and deep mines of the Earthspurs still call to you."
 					]
 				},
 				{
@@ -5486,7 +5486,7 @@
 								],
 								[
 									"4",
-									"I can party with everyone. Whether with dwarves, or goliats, or deep gnomes, I can find a way to have a good time."
+									"I can party with everyone. Whether with nans, or goliats, or gnom de les profunditatses, I can find a way to have a good time."
 								],
 								[
 									"5",
@@ -5560,7 +5560,7 @@
 								],
 								[
 									"2",
-									"A deep gnome saved my life when I was injured and alone. I owe his people a great debt."
+									"A gnom de les profunditatse saved my life when I was injured and alone. I owe his people a great debt."
 								],
 								[
 									"3",
@@ -5644,7 +5644,7 @@
 				},
 				{
 					"_": [
-						"block and tackle|phb",
+						"polispast|phb",
 						"climber's kit|phb",
 						"common clothes|phb",
 						{
@@ -5686,7 +5686,7 @@
 					"name": "Feature: By Popular Demand",
 					"type": "entries",
 					"entries": [
-						"You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+						"You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. A més, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
 					],
 					"data": {
 						"isFeature": true
@@ -5968,7 +5968,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -6033,7 +6033,7 @@
 								],
 								[
 									10,
-									"A disguise with animalistic or monstrous characteristics, meant to inspire fear"
+									"A disguise with animalistic or monstrous characteristics, meant to inspire temor"
 								]
 							]
 						}
@@ -6259,7 +6259,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any two of your choice"
 						},
 						{
@@ -6351,17 +6351,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, {@item merchant's scale|phb}, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "One set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, {@item merchant's scale|phb}, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
 						}
 					]
 				},
@@ -6552,7 +6552,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -6589,17 +6589,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "Any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice, likely something native to your homeland"
+							"entry": "Any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} of your choice, likely something native to your homeland"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@item traveler's clothes|phb}, any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a {@item pouch|phb} containing 5 gp"
+							"entry": "One set of {@item traveler's clothes|phb}, any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a {@item pouch|phb} containing 5 gp"
 						}
 					]
 				},
@@ -6829,7 +6829,7 @@
 					"choose": {
 						"from": [
 							"musical instrument",
-							"gaming set"
+							"set de joc"
 						]
 					}
 				}
@@ -6882,7 +6882,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -7177,12 +7177,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a {@item shovel|phb}, an {@item iron pot|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} (one of your choice), a {@item shovel|phb}, an {@item iron pot|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
 						}
 					]
 				},
@@ -7428,7 +7428,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true,
+					"eines d'artesania": true,
 					"vehicles (land)": true
 				}
 			],
@@ -7467,17 +7467,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}"
+							"entry": "One {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, a lucky charm, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "One {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, a lucky charm, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
 						}
 					]
 				},
@@ -7668,7 +7668,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true
+					"set de joc": true
 				}
 			],
 			"startingEquipment": [
@@ -7707,7 +7707,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Thieves' tools|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "{@item Eines de lladre|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
@@ -7911,7 +7911,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"thieves' tools": true,
+					"eines de lladre": true,
 					"musical instrument": true
 				}
 			],
@@ -7975,8 +7975,8 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Choose one of Elvish, Giant, or Kraul"
+							"name": "Idiomes",
+							"entry": "Choose one of Èlfic, Giant, or Kraul"
 						},
 						{
 							"type": "item",
@@ -7999,7 +7999,7 @@
 					"type": "entries",
 					"name": "Golgari Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Golgari Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -8009,33 +8009,33 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell llums dansaires}, {@spell spare the dying}"
+									"Truc",
+									"{@spell llums dansaires}, {@spell misericòrdia}"
 								],
 								[
-									"1st",
-									"{@spell entangle}, {@spell ray of sickness}"
+									"1",
+									"{@spell enredar}, {@spell raig d'arcada}"
 								],
 								[
-									"2nd",
-									"{@spell protection from poison}, {@spell ray of enfeeblement}, {@spell grimpat d'aranya}"
+									"2",
+									"{@spell protegir de les metzines}, {@spell raig d'afebliment}, {@spell grimpat d'aranya}"
 								],
 								[
-									"3rd",
-									"{@spell animar els morts}, {@spell plant growth}"
+									"3",
+									"{@spell animar els morts}, {@spell creixement de la flora}"
 								],
 								[
 									"4th",
-									"{@spell giant insect}, {@spell grasping vine}"
+									"{@spell insecte gegant}, {@spell heura de presa}"
 								],
 								[
 									"5th",
-									"{@spell matanúvol}, {@spell insect plague}"
+									"{@spell matanúvol}, {@spell plaga d'insectes}"
 								]
 							]
 						},
@@ -8145,7 +8145,7 @@
 							"rows": [
 								[
 									"1",
-									"I cherish the finger of a family member who was {@condition petrified} by a medusa."
+									"I cherish the finger of a family member who was {@condition petrificat} by a medusa."
 								],
 								[
 									"2",
@@ -8396,7 +8396,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, {@item thieves' tools|phb}"
+							"entry": "One type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, {@item eines de lladre|phb}"
 						},
 						{
 							"type": "item",
@@ -8588,7 +8588,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"thieves' tools": true,
+					"eines de lladre": true,
 					"musical instrument": true
 				}
 			],
@@ -8634,8 +8634,8 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Choose one of Draconic, Giant, Goblin, or Sylvan"
+							"name": "Idiomes",
+							"entry": "Choose one of Dracònic, Giant, Goblin, or Silvà"
 						},
 						{
 							"type": "item",
@@ -8648,7 +8648,7 @@
 					"type": "entries",
 					"name": "Feature: Rubblebelt Refuge",
 					"entries": [
-						"You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast, sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. In addition, you can find food and fresh water in these areas for yourself and up to five other people each day."
+						"You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast, sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. A més, you can find food and fresh water in these areas for yourself and up to five other people each day."
 					],
 					"data": {
 						"isFeature": true
@@ -8658,7 +8658,7 @@
 					"type": "entries",
 					"name": "Gruul Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Gruul Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -8668,29 +8668,29 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell fire bolt}, {@spell produce flame}"
+									"Truc",
+									"{@spell sageta de foc}, {@spell produir flama}"
 								],
 								[
-									"1st",
-									"{@spell forçar el duel}, {@spell speak with animals}, {@spell thunderwave}"
+									"1",
+									"{@spell forçar el duel}, {@spell parlar animal}, {@spell tronada}"
 								],
 								[
-									"2nd",
-									"{@spell sentits de bèstia}, {@spell shatter}"
+									"2",
+									"{@spell sentits de bèstia}, {@spell esclatar}"
 								],
 								[
-									"3rd",
+									"3",
 									"{@spell convocar animals}, {@spell Convocar Bombardeig}"
 								],
 								[
 									"4th",
-									"{@spell dominar bèstia}, {@spell stoneskin}"
+									"{@spell dominar bèstia}, {@spell pell de pedra}"
 								],
 								[
 									"5th",
@@ -9050,17 +9050,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} (one of your choice), a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
 						}
 					]
 				},
@@ -9353,7 +9353,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -9392,12 +9392,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "{@item Fishing tackle|phb}, {@item dice set|phb}, {@item playing card set|phb}, or {@item Three-Dragon Ante set|phb}, a set of {@item common clothes|phb}, {@item rowboat}, and a belt {@item pouch|phb} containing 5 gp"
+							"entry": "{@item Fishing tackle|phb}, {@item dice set|phb}, {@item playing card set|phb}, o {@item Three-Dragon Ante set|phb}, a set of {@item common clothes|phb}, {@item rowboat}, and a belt {@item pouch|phb} containing 5 gp"
 						}
 					]
 				},
@@ -9596,7 +9596,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
+					"set de joc": true,
 					"vehicles (water)": true
 				}
 			],
@@ -9639,12 +9639,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "Choose two from among {@skill Arcana}, {@skill Investigation}, {@skill Religion}, or {@skill Survival}"
+							"entry": "Choose two from among {@skill Arcana}, {@skill Investigation}, {@skill Religion}, o {@skill Survival}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Choose two, one of which must be {@language Abyssal}, {@language Celestial}, {@language Deep Speech}, {@language Draconic}, {@language Infernal}, {@language Primordial}, {@language Sylvan}, or {@language Undercommon}"
+							"name": "Idiomes",
+							"entry": "Choose two, one of which must be {@language Abyssal}, {@language Celestial}, {@language Deep Speech}, {@language Dracònic}, {@language Infernal}, {@language Primordial}, {@language Silvà}, o {@language Undercommon}"
 						},
 						{
 							"type": "item",
@@ -10050,13 +10050,13 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item Map or Scroll Case|phb|scroll case} stuffed full of notes from your studies or prayers, a winter {@item blanket|phb}, a set of {@item common clothes|phb}, an {@item herbalism kit|phb}, and 5 gp"
+							"entry": "A {@item Map or Scroll Case|phb|scroll case} stuffed full of notes from your studies or prayers, a winter {@item manta|phb}, a set of {@item common clothes|phb}, an {@item herbalism kit|phb}, and 5 gp"
 						}
 					]
 				},
@@ -10311,8 +10311,8 @@
 							"displayName": "scroll case stuffed full of notes from your studies or prayers"
 						},
 						{
-							"item": "blanket|phb",
-							"displayName": "winter blanket"
+							"item": "manta|phb",
+							"displayName": "winter manta"
 						},
 						"common clothes|phb",
 						"herbalism kit|phb",
@@ -10341,12 +10341,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)} and {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "{@filter Vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)} and {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, a {@item signet ring|phb}, a letter of introduction from your family's trading house, and a purse containing 25 gp"
+							"entry": "A set of {@item fine clothes|phb}, a {@item signet anell|phb}, a letter of introduction from your family's trading house, and a purse containing 25 gp"
 						}
 					]
 				},
@@ -10565,7 +10565,7 @@
 				{
 					"_": [
 						"fine clothes|phb",
-						"signet ring|phb",
+						"signet anell|phb",
 						{
 							"special": "letter of introduction from your family's trading house"
 						},
@@ -10594,7 +10594,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One racial language"
 						},
 						{
@@ -10654,11 +10654,11 @@
 								],
 								[
 									"2",
-									"I just love Halfling cooking and baking!"
+									"I just love Mitgerol cooking and baking!"
 								],
 								[
 									"3",
-									"I party with dwarves whenever I can."
+									"I party with nans whenever I can."
 								],
 								[
 									"4",
@@ -10852,7 +10852,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Tool Proficiency",
+							"name": "Competència amb Eines",
 							"entries": [
 								"Two proficiencies from the House Tool Proficiencies table"
 							]
@@ -10860,7 +10860,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, house {@item signet ring|phb}, identification papers, and a purse containing 20 gp."
+							"entry": "A set of {@item fine clothes|phb}, house {@item signet anell|phb}, identification papers, and a purse containing 20 gp."
 						}
 					]
 				},
@@ -10878,15 +10878,15 @@
 					"rows": [
 						[
 							"Cannith",
-							"{@item Alchemist's supplies|phb} and {@item tinker's tools|phb}"
+							"{@item Alchemist's supplies|phb} and {@item tinker's eines|phb}"
 						],
 						[
 							"Deneith",
-							"One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"One {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						],
 						[
 							"Ghallanda",
-							"{@item Brewer's supplies|phb} and {@item cook's utensils|phb}"
+							"{@item Subministraments de Cerveseria|phb} and {@item cook's utensils|phb}"
 						],
 						[
 							"Jorasco",
@@ -10894,19 +10894,19 @@
 						],
 						[
 							"Kundarak",
-							"{@item Thieves' tools|phb} and {@item tinker's tools|phb}"
+							"{@item Eines de lladre|phb} and {@item tinker's eines|phb}"
 						],
 						[
 							"Lyrandar",
-							"{@item Navigator's tools|phb} and {@filter vehicles (sea and air)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water);vehicle (air)}"
+							"{@item Navigator's eines|phb} and {@filter vehicles (sea and air)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim);vehicle (aeri)}"
 						],
 						[
 							"Medani",
-							"{@item Disguise kit|phb} and {@item thieves' tools|phb}"
+							"{@item Disguise kit|phb} and {@item eines de lladre|phb}"
 						],
 						[
 							"Orien",
-							"One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"One {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						],
 						[
 							"Phiarlan",
@@ -10918,7 +10918,7 @@
 						],
 						[
 							"Tharashk",
-							"One {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} and {@item thieves' tools|phb}"
+							"One {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} and {@item eines de lladre|phb}"
 						],
 						[
 							"Thuranni",
@@ -10926,7 +10926,7 @@
 						],
 						[
 							"Vadalis",
-							"{@item herbalism kit|phb} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"{@item herbalism kit|phb} and {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						]
 					]
 				},
@@ -11162,14 +11162,14 @@
 			"toolProficiencies": [
 				{
 					"eines d'alquimista": true,
-					"tinker's tools": true
+					"tinker's eines": true
 				},
 				{
-					"gaming set": true,
+					"set de joc": true,
 					"vehicles (land)": true
 				},
 				{
-					"brewer's supplies": true,
+					"subministraments de cerveseria": true,
 					"cook's utensils": true
 				},
 				{
@@ -11177,21 +11177,21 @@
 					"herbalism kit": true
 				},
 				{
-					"tinker's tools": true,
-					"thieves' tools": true
+					"tinker's eines": true,
+					"eines de lladre": true
 				},
 				{
 					"vehicles (water)": true,
 					"vehicles (air)": true,
-					"navigator's tools": true
+					"navigator's eines": true
 				},
 				{
-					"thieves' tools": true,
+					"eines de lladre": true,
 					"disguise kit": true
 				},
 				{
 					"vehicles (land)": true,
-					"gaming set": true
+					"set de joc": true
 				},
 				{
 					"disguise kit": true,
@@ -11202,8 +11202,8 @@
 					"forgery kit": true
 				},
 				{
-					"thieves' tools": true,
-					"gaming set": true
+					"eines de lladre": true,
+					"set de joc": true
 				},
 				{
 					"poisoner's kit": true,
@@ -11219,8 +11219,8 @@
 					"_": [
 						"fine clothes|phb",
 						{
-							"item": "signet ring|phb",
-							"displayName": "house signet ring"
+							"item": "signet anell|phb",
+							"displayName": "house signet anell"
 						},
 						{
 							"special": "identification papers"
@@ -11246,22 +11246,22 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "{@skill Survival}, plus one from among {@skill Arcana}, {@skill History}, and {@skill Religion}"
+							"entry": "{@skill Survival}, plus one from among {@skill Arcana}, {@skill History}, i {@skill Religion}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "Your choice of a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "Your choice of a {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "Your inheritance, a set of {@item traveler's clothes|phb}, the tool you choose for this background's tool proficiency ({@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}), and a {@item pouch|phb} containing 15 gp"
+							"entry": "Your inheritance, a set of {@item traveler's clothes|phb}, the tool you choose for this background's tool proficiency ({@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}), and a {@item pouch|phb} containing 15 gp"
 						}
 					]
 				},
@@ -11349,7 +11349,7 @@
 					"choose": {
 						"from": [
 							"musical instrument",
-							"gaming set"
+							"set de joc"
 						]
 					}
 				}
@@ -11399,12 +11399,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A simple puzzle box, a scroll containing the basic teachings of the five gods, a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned"
+							"entry": "A simple puzzle box, a scroll containing the basic teachings of the five gods, a {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned"
 						}
 					]
 				},
@@ -11633,7 +11633,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
+					"set de joc": true,
 					"vehicles (land)": true
 				}
 			],
@@ -11679,7 +11679,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Thieves' tools|phb}, one type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "{@item Eines de lladre|phb}, one type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
@@ -11707,8 +11707,8 @@
 			],
 			"toolProficiencies": [
 				{
-					"thieves' tools": true,
-					"artisan's tools": true
+					"eines de lladre": true,
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -11737,12 +11737,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "Choose two from among {@skill Insight}, {@skill Investigation}, or {@skill Perception}"
+							"entry": "Choose two from among {@skill Insight}, {@skill Investigation}, o {@skill Perception}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Disguise kit|phb}, {@item Thieves' tools|phb}"
+							"entry": "{@item Disguise kit|phb}, {@item Eines de lladre|phb}"
 						},
 						{
 							"type": "item",
@@ -12086,7 +12086,7 @@
 			"toolProficiencies": [
 				{
 					"disguise kit": true,
-					"thieves' tools": true
+					"eines de lladre": true
 				}
 			],
 			"startingEquipment": [
@@ -12124,7 +12124,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
@@ -12328,7 +12328,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
+					"set de joc": true,
 					"vehicles (land)": true
 				}
 			],
@@ -12367,17 +12367,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Choose one of Draconic, Goblin, or Vedalken"
+							"name": "Idiomes",
+							"entry": "Choose one of Dracònic, Goblin, or Vedalken"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "An Izzet insignia, one set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, the charred and twisted remains of a failed experiment, a {@item hammer|phb}, a {@item block and tackle|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp (Azorius 1-zino coins)"
+							"entry": "An Izzet insignia, one set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, the charred and twisted remains of a failed experiment, a {@item hammer|phb}, a {@item polispast|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp (Azorius 1-zino coins)"
 						}
 					]
 				},
@@ -12396,7 +12396,7 @@
 					"type": "entries",
 					"name": "Izzet Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Izzet Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -12406,29 +12406,29 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell produce flame}, {@spell shocking grasp}"
+									"Truc",
+									"{@spell produir flama}, {@spell braó electritzant}"
 								],
 								[
-									"1st",
-									"{@spell vira del caos|XGE}, {@spell crear o destruir aigua}, {@spell unseen servant}"
+									"1",
+									"{@spell vira del caos|XGE}, {@spell crear o destruir aigua}, {@spell servent invisible}"
 								],
 								[
-									"2nd",
-									"{@spell heat metal}, {@spell rope trick}"
+									"2",
+									"{@spell escalfar el metall}, {@spell truc de la corda}"
 								],
 								[
-									"3rd",
-									"{@spell invocar llamps}, {@spell elemental weapon}, {@spell glyph of warding}"
+									"3",
+									"{@spell invocar llamps}, {@spell arma elemental}, {@spell glif de guarda}"
 								],
 								[
 									"4th",
-									"{@spell convocar elementals menors}, {@spell endevinació}, {@spell Otiluke's resilient sphere}"
+									"{@spell convocar elementals menors}, {@spell endevinació}, {@spell Esfera Resistent de l'Otiluk}"
 								],
 								[
 									"5th",
@@ -12436,8 +12436,8 @@
 								]
 							]
 						},
-						"Your spells tend to be loud, flashy, or explosive, even when the effect is unremarkable. For example, when you open the portal of a {@spell rope trick} spell, the portal might be outlined by harmless, showy sparkles.",
-						"If you use an arcane focus, it probably takes the form of an intricate device that could include metal gauntlets, glass canisters, copper tubing, and leather straps attaching it to your body. The {@item mizzium apparatus|GGR} described in {@book chapter 5|GGR|4|Mizzium Apparatus} is a magical version of this gear.",
+						"Your spells tend to be loud, flashy, or explosive, even when the effect is unremarkable. For example, when you open the portal of a {@spell truc de la corda} spell, the portal might be outlined by harmless, showy sparkles.",
+						"If you use an arcane focus, it probably takes the form of an intricate device that could include metal gauntlets, glass canisters, copper tubing, and leather straps attaching it to your body. The {@item mizzium apparatus|GGR} described in {@book capítol 5|GGR|4|Mizzium Apparatus} is a magical version of this gear.",
 						"The {@spell vira del caos|XGE} spell is a favorite of Izzet spellcasters because of its unpredictable nature."
 					]
 				},
@@ -12743,7 +12743,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -12759,7 +12759,7 @@
 							"special": "the charred and twisted remains of a failed experiment"
 						},
 						"hammer|phb",
-						"block and tackle|phb",
+						"polispast|phb",
 						"common clothes|phb",
 						{
 							"item": "pouch|phb",
@@ -12782,16 +12782,16 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "{@skill Persuasion}, plus one from among {@skill Arcana}, {@skill History}, {@skill Nature}, and {@skill Religion}, as appropriate for your order"
+							"entry": "{@skill Persuasion}, plus one from among {@skill Arcana}, {@skill History}, {@skill Nature}, i {@skill Religion}, as appropriate for your order"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "Your choice of a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "Your choice of a {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
@@ -12844,7 +12844,7 @@
 					"choose": {
 						"from": [
 							"musical instrument",
-							"gaming set"
+							"set de joc"
 						]
 					}
 				}
@@ -12892,7 +12892,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@filter Vehicles (water, land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land);vehicle (water)}"
+							"entry": "{@filter Vehicles (water, land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre);vehicle (marítim)}"
 						},
 						{
 							"type": "item",
@@ -13172,12 +13172,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A uniform of your company ({@item traveler's clothes|phb} in quality), an insignia of your rank, a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice, and a {@item pouch|phb} containing the remainder of your last wages (10 gp)."
+							"entry": "A uniform of your company ({@item traveler's clothes|phb} in quality), an insignia of your rank, a {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} of your choice, and a {@item pouch|phb} containing the remainder of your last wages (10 gp)."
 						}
 					]
 				},
@@ -13208,7 +13208,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
+					"set de joc": true,
 					"vehicles (land)": true
 				}
 			],
@@ -13251,12 +13251,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of artistic {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} and one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "One type of artistic {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} and one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, a set of {@item fine clothes|phb}, and a purse containing 10 gp"
+							"entry": "One set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, a set of {@item fine clothes|phb}, and a purse containing 10 gp"
 						}
 					]
 				},
@@ -13455,7 +13455,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true,
+					"eines d'artesania": true,
 					"musical instrument": true
 				}
 			],
@@ -13511,17 +13511,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, a {@item signet ring|phb}, a scroll of pedigree, and a purse containing 25 gp"
+							"entry": "A set of {@item fine clothes|phb}, a {@item signet anell|phb}, a scroll of pedigree, and a purse containing 25 gp"
 						}
 					]
 				},
@@ -13712,14 +13712,14 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true
+					"set de joc": true
 				}
 			],
 			"startingEquipment": [
 				{
 					"_": [
 						"fine clothes|phb",
-						"signet ring|phb",
+						"signet anell|phb",
 						{
 							"special": "scroll of pedigree"
 						},
@@ -13748,7 +13748,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
@@ -13772,7 +13772,7 @@
 					"type": "entries",
 					"name": "Orzhov Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Orzhov Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -13782,29 +13782,29 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell friends}, {@spell guidance}"
+									"Truc",
+									"{@spell amistar}, {@spell guia}"
 								],
 								[
-									"1st",
-									"{@spell command}, {@spell illusory script}"
+									"1",
+									"{@spell command}, {@spell escriptura il·lusòria}"
 								],
 								[
-									"2nd",
-									"{@spell enthrall}, {@spell ray of enfeeblement}, {@spell zone of truth}"
+									"2",
+									"{@spell captivar}, {@spell raig d'afebliment}, {@spell zona de la veritat}"
 								],
 								[
-									"3rd",
-									"{@spell imposar maledicció}, {@spell speak with dead}, {@spell spirit guardians}"
+									"3",
+									"{@spell imposar maledicció}, {@spell parlar amb els morts}, {@spell guardians espirituals}"
 								],
 								[
 									"4th",
-									"{@spell plaga}, {@spell abjurar la mort}, {@spell Leomund's secret chest}"
+									"{@spell plaga}, {@spell abjurar la mort}, {@spell Cofre Secret d'en Leomund}"
 								],
 								[
 									"5th",
@@ -14153,7 +14153,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -14167,7 +14167,7 @@
 					"name": "Feature: Wanderer",
 					"type": "entries",
 					"entries": [
-						"You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+						"You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. A més, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
 					],
 					"data": {
 						"isFeature": true
@@ -14448,7 +14448,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
@@ -14716,7 +14716,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true,
+					"eines d'artesania": true,
 					"vehicles (land)": true
 				}
 			],
@@ -14762,17 +14762,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a token of the life you once knew, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} (one of your choice), a token of the life you once knew, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
 						}
 					]
 				},
@@ -14976,7 +14976,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -15015,17 +15015,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, {@item fine clothes|phb}, 20 gp"
+							"entry": "One set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, {@item fine clothes|phb}, 20 gp"
 						}
 					]
 				},
@@ -15220,7 +15220,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -15260,7 +15260,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Choose either Abyssal or Giant"
 						},
 						{
@@ -15337,7 +15337,7 @@
 					"type": "entries",
 					"name": "Rakdos Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Rakdos Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -15347,29 +15347,29 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell fire bolt}, {@spell vicious mockery}"
+									"Truc",
+									"{@spell sageta de foc}, {@spell mofa i escarni}"
 								],
 								[
-									"1st",
-									"{@spell mans ardents}, {@spell xiuxiuegos de disbauxa}, {@spell hellish rebuke}"
+									"1",
+									"{@spell mans ardents}, {@spell xiuxiuegos de disbauxa}, {@spell venjança dels inferns}"
 								],
 								[
-									"2nd",
-									"{@spell corona de bogeria}, {@spell enthrall}, {@spell flaming sphere}"
+									"2",
+									"{@spell corona de bogeria}, {@spell captivar}, {@spell esfera de flames}"
 								],
 								[
-									"3rd",
-									"{@spell fear}, {@spell haste}"
+									"3",
+									"{@spell temor}, {@spell pressa}"
 								],
 								[
 									"4th",
-									"{@spell confusió}, {@spell wall of fire}"
+									"{@spell confusió}, {@spell paret de foc}"
 								],
 								[
 									"5th",
@@ -15747,17 +15747,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, a ledger from your previous employer containing a small piece of useful information, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "One set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, a ledger from your previous employer containing a small piece of useful information, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
 						}
 					]
 				},
@@ -15948,7 +15948,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true
+					"eines d'artesania": true
 				}
 			],
 			"startingEquipment": [
@@ -15986,7 +15986,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
@@ -16273,7 +16273,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Navigator's tools|phb}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "{@item Navigator's eines|phb}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim)}"
 						},
 						{
 							"type": "item",
@@ -16464,7 +16464,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"navigator's tools": true,
+					"navigator's eines": true,
 					"vehicles (water)": true
 				}
 			],
@@ -16527,14 +16527,14 @@
 					"name": "Overview",
 					"type": "entries",
 					"entries": [
-						"Even though you are a non-human, despite Hillsfar's Great Law of Humanity, you continue to live in the City of Trade. You do so by maintaining a secret identity, forging documents, and wearing a disguise. Few, if any, know you aren't human. If you're a halfling or gnome, you pass as a little person or a child. If you're a half-elf, half-orc, or genasi, you disguise your non-human features. Other races use a combination of disguise and concealing clothing to hide. Your reasons for doing so are your own. Perhaps you're a dissident or the agent of a foreign power. Maybe you have a relationship with someone you cannot bear to leave. Regardless, this way of life has taken a heavy toll on you."
+						"Even though you are a non-human, despite Hillsfar's Great Law of Humanity, you continue to live in the City of Trade. You do so by maintaining a secret identity, forging documents, and wearing a disguise. Few, if any, know you aren't human. If you're a mitgerol or gnome, you pass as a little person or a child. If you're a semi-elf, semi-orc, or genasi, you disguise your non-human features. Other races use a combination of disguise and concealing clothing to hide. Your reasons for doing so are your own. Perhaps you're a dissident or the agent of a foreign power. Maybe you have a relationship with someone you cannot bear to leave. Regardless, this way of life has taken a heavy toll on you."
 					]
 				},
 				{
 					"name": "Feature: Secret Identity",
 					"type": "entries",
 					"entries": [
-						"You have created a secret identity that you use to conceal your true race and that offers a covering explanation for your presence in Hillsfar. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy Note: This feature is a variant of the Charlatan feature."
+						"You have created a secret identity that you use to conceal your true race and that offers a covering explanation for your presence in Hillsfar. A més, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy Note: This feature is a variant of the Charlatan feature."
 					],
 					"data": {
 						"isFeature": true
@@ -16750,12 +16750,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} or one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
-							"entry": "Choose one of Elvish, Loxodon, or Sylvan"
+							"name": "Idiomes",
+							"entry": "Choose one of Èlfic, Loxodon, or Silvà"
 						},
 						{
 							"type": "item",
@@ -16769,7 +16769,7 @@
 					"name": "Feature: Conclave's Shelter",
 					"entries": [
 						"As a member of the Selesnya Conclave, you can count on your guild mates to provide shelter and aid. You and your companions can find a place to hide or rest in any Selesnya enclave in the city, unless you have proven to be a danger to them. The members of the enclave will shield you from the law or anyone else searching for you, though they will not risk their lives in this effort.",
-						"In addition, as a guild member you can receive free healing and care at a Selesnya enclave, though you must provide any material components needed for spells."
+						"A més, as a guild member you can receive free healing and care at a Selesnya enclave, though you must provide any material components needed for spells."
 					],
 					"data": {
 						"isFeature": true
@@ -16779,7 +16779,7 @@
 					"type": "entries",
 					"name": "Selesnya Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Selesnya Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -16789,25 +16789,25 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell druidcraft}, {@spell friends}"
+									"Truc",
+									"{@spell arts de druida}, {@spell amistar}"
 								],
 								[
-									"1st",
+									"1",
 									"{@spell amistat animal}, {@spell fascinar persona}"
 								],
 								[
-									"2nd",
-									"{@spell aid}, {@spell missatger animal}, {@spell apaivagar emocions}, {@spell warding bond}"
+									"2",
+									"{@spell aid}, {@spell missatger animal}, {@spell apaivagar emocions}, {@spell vincle de guarda}"
 								],
 								[
-									"3rd",
-									"{@spell plant growth}, {@spell speak with plants}"
+									"3",
+									"{@spell creixement de la flora}, {@spell parla vegetal}"
 								],
 								[
 									"4th",
@@ -16819,7 +16819,7 @@
 								]
 							]
 						},
-						"Members of the Selesnya Conclave refer to their magic as \"doruvati,\" a Sylvan word meaning \"gift.\" When you use these gifts of Mat'Selesnya, graceful swirls of green and silver light dance in the air around you, and phantasmal green leaves might waft through the air. A sensation of gentle warmth and the smell of spring flowers or autumn leaves might accompany your spells."
+						"Members of the Selesnya Conclave refer to their magic as \"doruvati,\" a Silvà word meaning \"gift.\" When you use these gifts of Mat'Selesnya, graceful swirls of green and silver light dance in the air around you, and phantasmal green leaves might waft through the air. A sensation of gentle warmth and the smell of spring flowers or autumn leaves might accompany your spells."
 					]
 				},
 				{
@@ -17009,7 +17009,7 @@
 							"rows": [
 								[
 									"1",
-									"A wise centaur trainer believed in me even though I was a terrible student."
+									"A wise centaure trainer believed in me even though I was a terrible student."
 								],
 								[
 									"2",
@@ -17071,7 +17071,7 @@
 								],
 								[
 									"5",
-									"I'm friendly with a Gruul centaur who almost joined us a few years back."
+									"I'm friendly with a Gruul centaure who almost joined us a few years back."
 								],
 								[
 									"6",
@@ -17127,7 +17127,7 @@
 				{
 					"choose": {
 						"from": [
-							"artisan's tools",
+							"eines d'artesania",
 							"musical instrument"
 						]
 					}
@@ -17172,13 +17172,13 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Netherese"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item forgery kit|phb}, a transparent cylinder of shadow that has no opening, a {@item signet ring|phb}, a set of {@item fine clothes|phb}, and 15 gp"
+							"entry": "A {@item forgery kit|phb}, a transparent cylinder of shadow that has no opening, a {@item signet anell|phb}, a set of {@item fine clothes|phb}, and 15 gp"
 						}
 					]
 				},
@@ -17393,7 +17393,7 @@
 						{
 							"special": "transparent cylinder of shadow that has no opening"
 						},
-						"signet ring|phb",
+						"signet anell|phb",
 						"fine clothes|phb",
 						{
 							"value": 1500
@@ -17420,12 +17420,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Carpenter's tools|phb}, {@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "{@item Carpenter's eines|phb}, {@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of well-loved {@item carpenter's tools|phb}, a blank {@item book|phb}, {@item Ink (1-ounce bottle)|phb|1 ounce of ink}, an {@item ink pen|phb}, a set of {@item traveler's clothes|phb}, and a leather {@item pouch|phb} with 10 gp"
+							"entry": "A set of well-loved {@item carpenter's eines|phb}, a blank {@item book|phb}, {@item Ink (1-ounce bottle)|phb|1 ounce of ink}, an {@item ink pen|phb}, a set of {@item traveler's clothes|phb}, and a leather {@item pouch|phb} with 10 gp"
 						}
 					]
 				},
@@ -17659,7 +17659,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"carpenter's tools": true,
+					"carpenter's eines": true,
 					"vehicles (water)": true
 				}
 			],
@@ -17667,8 +17667,8 @@
 				{
 					"_": [
 						{
-							"item": "carpenter's tools|phb",
-							"displayName": "set of well-loved carpenter's tools"
+							"item": "carpenter's eines|phb",
+							"displayName": "set of well-loved carpenter's eines"
 						},
 						{
 							"item": "book|phb",
@@ -17702,13 +17702,13 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Two of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A Simic insignia, a set of {@item common clothes|phb|commoner's clothes}, a {@item book|phb} of research notes, an {@item ink pen|phb}, a {@item Ink (1-ounce bottle)|phb|bottle of squid ink}, a {@item oil (flask)|phb|flask of oil} (made from blubber), a {@item acid (vial)|phb|vial of acid} (derived from digestive juices), a vial of fish scales, a vial of seaweed, a vial of jellyfish stingers, a glass bottle of unidentified slime, and a belt {@item pouch|phb} containing 10 gp (Azorius 1-zino coins)"
+							"entry": "A Simic insignia, a set of {@item common clothes|phb|commoner's clothes}, a {@item book|phb} of research notes, an {@item ink pen|phb}, a {@item Ink (1-ounce bottle)|phb|bottle of squid ink}, a {@item oil (flask)|phb|flask of oil} (made from blubber), a {@item àcid (vial)|phb|vial of acid} (derived from digestive juices), a vial of fish scales, a vial of seaweed, a vial of jellyfish stingers, a glass bottle of unidentified slime, and a belt {@item pouch|phb} containing 10 gp (Azorius 1-zino coins)"
 						}
 					]
 				},
@@ -17772,7 +17772,7 @@
 					"type": "entries",
 					"name": "Simic Guild Spells",
 					"entries": [
-						"{@i Prerequisite: Spellcasting or Pact Magic class feature}",
+						"{@i Prerequisite: Spellcasting or Màgia de Pacte class feature}",
 						"For you, the spells on the Simic Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
 						{
 							"type": "table",
@@ -17782,29 +17782,29 @@
 								"col-10"
 							],
 							"colLabels": [
-								"Spell Level",
-								"Spells"
+								"Nivell de Conjur",
+								"Conjurs"
 							],
 							"rows": [
 								[
-									"Cantrip",
-									"{@spell esquitx àcid}, {@spell druidcraft}"
+									"Truc",
+									"{@spell esquitx àcid}, {@spell arts de druida}"
 								],
 								[
-									"1st",
-									"{@spell detectar malalties i metzines}, {@spell expeditious retreat}, {@spell jump}"
+									"1",
+									"{@spell detectar malalties i metzines}, {@spell retirada estratègica}, {@spell botar}"
 								],
 								[
-									"2nd",
-									"{@spell ego alteració}, {@spell enhance ability}, {@spell enlarge/reduce}"
+									"2",
+									"{@spell ego alteració}, {@spell esperonar habilitat}, {@spell engrandir/enxiquir}"
 								],
 								[
-									"3rd",
-									"{@spell gaseous form}, {@spell water breathing}, {@spell wind wall}"
+									"3",
+									"{@spell forma gasosa}, {@spell water breathing}, {@spell paret del vent}"
 								],
 								[
 									"4th",
-									"{@spell freedom of movement}, {@spell polymorph}"
+									"{@spell llibertat de moviments}, {@spell polimorfia}"
 								],
 								[
 									"5th",
@@ -18128,7 +18128,7 @@
 							"displayName": "flask of oil (made from blubber)"
 						},
 						{
-							"item": "acid (vial)|phb",
+							"item": "àcid (vial)|phb",
 							"displayName": "vial of acid (derived from digestive juices)"
 						},
 						{
@@ -18169,7 +18169,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "{@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (marítim)}"
 						},
 						{
 							"type": "item",
@@ -18453,7 +18453,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, {@filter vehicles (land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (terrestre)}"
 						},
 						{
 							"type": "item",
@@ -18696,7 +18696,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
+					"set de joc": true,
 					"vehicles (land)": true
 				}
 			],
@@ -18747,7 +18747,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, thieves' tools"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, eines de lladre"
 						},
 						{
 							"type": "item",
@@ -18952,8 +18952,8 @@
 			],
 			"toolProficiencies": [
 				{
-					"gaming set": true,
-					"thieves' tools": true
+					"set de joc": true,
+					"eines de lladre": true
 				}
 			],
 			"startingEquipment": [
@@ -18997,7 +18997,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Gegantès"
 						},
 						{
@@ -19247,17 +19247,17 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Thieves' tools|phb}"
+							"entry": "{@item Eines de lladre|phb}"
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Èlfic"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "{@item Thieves' tools|phb}, a gray cloak, Sheriff's insignia (badge) a set of {@item fine clothes|phb}, and 17 gp"
+							"entry": "{@item Eines de lladre|phb}, a gray cloak, Sheriff's insignia (badge) a set of {@item fine clothes|phb}, and 17 gp"
 						}
 					]
 				},
@@ -19462,13 +19462,13 @@
 			],
 			"toolProficiencies": [
 				{
-					"thieves' tools": true
+					"eines de lladre": true
 				}
 			],
 			"startingEquipment": [
 				{
 					"_": [
-						"thieves' tools|phb",
+						"eines de lladre|phb",
 						{
 							"special": "gray cloak"
 						},
@@ -19496,12 +19496,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "Choose two from among {@skill Deception}, {@skill Insight}, {@skill Persuasion}, and {@skill Stealth}"
+							"entry": "Choose two from among {@skill Deception}, {@skill Insight}, {@skill Persuasion}, i {@skill Stealth}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "Choose two from among one type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, and {@item thieves' tools|phb}"
+							"entry": "Choose two from among one type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc}, one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, i {@item eines de lladre|phb}"
 						},
 						{
 							"type": "item",
@@ -19546,9 +19546,9 @@
 				{
 					"choose": {
 						"from": [
-							"gaming set",
+							"set de joc",
 							"musical instrument",
-							"thieves' tools"
+							"eines de lladre"
 						],
 						"count": 2
 					}
@@ -19583,7 +19583,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Disguise kit|phb}, {@item Thieves' tools|phb}"
+							"entry": "{@item Disguise kit|phb}, {@item Eines de lladre|phb}"
 						},
 						{
 							"type": "item",
@@ -19775,7 +19775,7 @@
 			"toolProficiencies": [
 				{
 					"disguise kit": true,
-					"thieves' tools": true
+					"eines de lladre": true
 				}
 			],
 			"startingEquipment": [
@@ -19819,13 +19819,13 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+							"entry": "One type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}"
 						},
 						{
 							"type": "item",
@@ -19871,7 +19871,7 @@
 					"choose": {
 						"from": [
 							"musical instrument",
-							"artisan's tools"
+							"eines d'artesania"
 						]
 					}
 				}
@@ -19918,7 +19918,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any two of your choice"
 						},
 						{
@@ -20052,7 +20052,7 @@
 								"name": "Feature: By Popular Demand",
 								"type": "entries",
 								"entries": [
-									"You can always find a place to perform in any place that features combat for entertainment\u2014perhaps a gladiadorial arena or secret pit fighting club. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+									"You can always find a place to perform in any place that features combat for entertainment\u2014perhaps a gladiadorial arena or secret pit fighting club. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. A més, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
 								],
 								"data": {
 									"isFeature": true
@@ -20089,17 +20089,17 @@
 								{
 									"type": "item",
 									"name": "Tool Proficiencies",
-									"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, or {@item navigator's tools|phb}, or an additional language"
+									"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, o {@item navigator's eines|phb}, or an additional language"
 								},
 								{
 									"type": "item",
-									"name": "Languages",
+									"name": "Idiomes",
 									"entry": "One of your choice"
 								},
 								{
 									"type": "item",
 									"name": "Equipment",
-									"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice) or a {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+									"entry": "A set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} (one of your choice) or a {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
 								}
 							]
 						}
@@ -20116,8 +20116,8 @@
 				{
 					"choose": {
 						"from": [
-							"artisan's tools",
-							"navigator's tools"
+							"eines d'artesania",
+							"navigator's eines"
 						]
 					}
 				}
@@ -20208,12 +20208,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "One type of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice), a scroll of your god's teachings, a vizier's cartouche, a set of {@item fine clothes|phb}, and a {@item pouch|phb} containing 25 gp"
+							"entry": "A set of {@filter eines d'artesania|items|source=phb|miscellaneous=mundane|type=eines d'artesania} or a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice), a scroll of your god's teachings, a vizier's cartouche, a set of {@item fine clothes|phb}, and a {@item pouch|phb} containing 25 gp"
 						}
 					]
 				},
@@ -20407,7 +20407,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"artisan's tools": true,
+					"eines d'artesania": true,
 					"musical instrument": true
 				}
 			],
@@ -20463,7 +20463,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "One of your choice"
 						},
 						{
@@ -20674,18 +20674,18 @@
 						},
 						{
 							"type": "item",
-							"name": "Languages",
+							"name": "Idiomes",
 							"entry": "Any one of your choice"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "One type of {@filter set de joc|items|source=phb|miscellaneous=mundane|type=set de joc} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, a {@item signet ring|phb} or brooch, a scroll of pedigree, a skin of fine zzar or wine, and a purse containing 20 gp"
+							"entry": "A set of {@item fine clothes|phb}, a {@item signet anell|phb} or brooch, a scroll of pedigree, a skin of fine zzar or wine, and a purse containing 20 gp"
 						}
 					]
 				},
@@ -20724,7 +20724,7 @@
 				{
 					"choose": {
 						"from": [
-							"gaming set",
+							"set de joc",
 							"musical instrument"
 						]
 					}
@@ -20748,7 +20748,7 @@
 				},
 				{
 					"a": [
-						"signet ring|phb"
+						"signet anell|phb"
 					],
 					"b": [
 						{

@@ -757,7 +757,7 @@ class PageFilterRaces extends PageFilter {
 			itemSortFn: PageFilterRaces.filterAscSortAsi,
 		});
 		this._baseRaceFilter = new Filter({header: "Base Race"});
-		this._speedFilter = new Filter({header: "Speed", items: ["Climb", "Fly", "Swim", "Walk (Fast)", "Walk", "Walk (Slow)"]});
+		this._speedFilter = new Filter({header: "Speed", items: ["Climb", "Volar", "Swim", "Walk (Fast)", "Walk", "Walk (Slow)"]});
 		this._traitFilter = new Filter({
 			header: "Traits",
 			items: [
@@ -766,29 +766,29 @@ class PageFilterRaces extends PageFilter {
 				"Visió a cegues",
 				"Condition Immunity",
 				"Damage Immunity",
-				"Damage Resistance",
+				"Resistència al Dany",
 				"Visió de Foscor", "Superior Visió de Foscor",
 				"Dragonmark",
 				"Feat",
-				"Improved Resting",
-				"Monstrous Race",
+				"Descans Millorat",
+				"Raça de Monstres",
 				"Armadura Natural",
-				"NPC Race",
-				"Powerful Build",
+				"Raça PNJ",
+				"Fesonomia Poderosa",
 				"Skill Proficiency",
 				"Llançament de Conjurs",
 				"Sensible al Sol",
-				"Tool Proficiency",
-				"Unarmed Strike",
+				"Competència amb Eines",
+				"Atac Desarmat",
 				"Uncommon Race",
 				"Weapon Proficiency",
 			],
 			deselFn: (it) => {
-				return it === "NPC Race";
+				return it === "Raça PNJ";
 			},
 		});
 		this._languageFilter = new Filter({
-			header: "Languages",
+			header: "Idiomes",
 			items: [
 				"Abismal",
 				"Celestial",
@@ -820,10 +820,10 @@ class PageFilterRaces extends PageFilter {
 	}
 
 	static mutateForFilters (race) {
-		race._fSpeed = race.speed ? race.speed.walk ? [race.speed.climb ? "Climb" : null, race.speed.fly ? "Fly" : null, race.speed.swim ? "Swim" : null, PageFilterRaces.getSpeedRating(race.speed.walk)].filter(it => it) : [PageFilterRaces.getSpeedRating(race.speed)] : [];
+		race._fSpeed = race.speed ? race.speed.walk ? [race.speed.climb ? "Climb" : null, race.speed.fly ? "Volar" : null, race.speed.swim ? "Swim" : null, PageFilterRaces.getSpeedRating(race.speed.walk)].filter(it => it) : [PageFilterRaces.getSpeedRating(race.speed)] : [];
 		race._fTraits = [
 			race.darkvision === 120 ? "Superior Visió de Foscor" : race.darkvision ? "Visió de Foscor" : null,
-			race.resist ? "Damage Resistance" : null,
+			race.resist ? "Resistència al Dany" : null,
 			race.immune ? "Damage Immunity" : null,
 			race.conditionImmune ? "Condition Immunity" : null,
 			race.skillProficiencies ? "Skill Proficiency" : null,

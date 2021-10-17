@@ -35,7 +35,7 @@ class PageFilterFeats extends PageFilter {
 				"Armor Proficiency",
 				"Skill Proficiency",
 				"Llançament de Conjurs",
-				"Tool Proficiency",
+				"Competència amb Eines",
 				"Weapon Proficiency",
 			],
 		});
@@ -53,14 +53,14 @@ class PageFilterFeats extends PageFilter {
 		feat._fPrereqOther = [...preSet].map(it => (it === "other" ? "special" : it === "spellcasting2020" ? "spellcasting" : it).uppercaseFirst());
 		if (feat.prerequisite) feat._fPrereqLevel = feat.prerequisite.filter(it => it.level != null).map(it => `Level ${it.level.level}`);
 		feat._fBenifits = [
-			feat.resist ? "Damage Resistance" : null,
+			feat.resist ? "Resistència al Dany" : null,
 			feat.immune ? "Damage Immunity" : null,
 			feat.conditionImmune ? "Condition Immunity" : null,
 			feat.skillProficiencies ? "Skill Proficiency" : null,
 			feat.additionalSpells ? "Llançament de Conjurs" : null,
 			feat.armorProficiencies ? "Armor Proficiency" : null,
 			feat.weaponProficiencies ? "Weapon Proficiency" : null,
-			feat.toolProficiencies ? "Tool Proficiency" : null,
+			feat.toolProficiencies ? "Competència amb Eines" : null,
 		].filter(it => it);
 		feat._fMisc = feat.srd ? ["SRD"] : [];
 

@@ -24,7 +24,7 @@
 			"page": 209,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -86,13 +86,13 @@
 				"fascinat",
 				"eixordat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat",
 				"atordit"
 			],
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Comú",
 				"Dracònic",
@@ -113,21 +113,21 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
-								"{@spell ray of frost}",
-								"{@spell shocking grasp}"
+								"{@spell mà de mag}",
+								"{@spell raig gebre}",
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell ray of sickness}",
-								"{@spell shield}"
+								"{@spell raig d'arcada}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"spells": [
 								"{@spell pany arcà}",
-								"{@spell knock}"
+								"{@spell picaporta}"
 							]
 						},
 						"3": {
@@ -140,16 +140,16 @@
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell ice storm}",
-								"{@spell phantasmal killer}"
+								"{@spell tempesta de gel}",
+								"{@spell assassí fantasmagòric}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
 								"{@spell matanúvol}",
-								"{@spell hold monster}",
-								"{@spell wall of force}"
+								"{@spell immobilitzar criatura}",
+								"{@spell paret de força}"
 							]
 						},
 						"6": {
@@ -163,9 +163,9 @@
 						"7": {
 							"slots": 3,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell plane shift}",
-								"{@spell teleport}"
+								"{@spell dit de la mort}",
+								"{@spell saltar de pla}",
+								"{@spell teleportació}"
 							]
 						},
 						"8": {
@@ -178,8 +178,8 @@
 						"9": {
 							"slots": 2,
 							"spells": [
-								"{@spell power word kill}",
-								"{@spell time stop}"
+								"{@spell paraula de poder matar}",
+								"{@spell deturar el temps}"
 							]
 						}
 					},
@@ -202,7 +202,7 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"Acererak's body turns to dust when he es queda a 0 punts de cop, and his equipment is left behind. Acererak gains a new body after {@dice 1d10} days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden."
+						"Acererak's body turns to dust when he es queda a 0 punts de vida, and his equipment is left behind. Acererak gains a new body after {@dice 1d10} days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden."
 					]
 				},
 				{
@@ -216,7 +216,7 @@
 				{
 					"name": "Paralyzing Touch",
 					"entries": [
-						"{@atk ms} {@hit 15} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany de fred, i l'objectiu ha de superar una salvada de Constitució amb {@dc 20} o estar {@condition paralyzed} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk ms} {@hit 15} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany de fred, i l'objectiu ha de superar una salvada de Constitució amb {@dc 20} o estar {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -228,7 +228,7 @@
 				{
 					"name": "Invoke Curse",
 					"entries": [
-						"While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target ha de salvar per Constitució amb {@dc 23} or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. {@spell Greater restoration}, {@spell remove curse}, or similar magic ends the curse on the target."
+						"While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target ha de salvar per Constitució amb {@dc 23} or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. {@spell Restabliment Superior}, {@spell anul·lar maledicció}, or similar magic ends the curse on the target."
 					]
 				}
 			],
@@ -248,13 +248,13 @@
 				{
 					"name": "Frightening Gaze (Costa 2 Accions)",
 					"entries": [
-						"Acererak fixes his gaze on one creature he can see within 10 feet of him. The target ha de salvar per Saviesa amb {@dc 20} against this magic o estar {@condition frightened} durant 1 minut. L'objectiu {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze for the next 24 hours."
+						"Acererak fixes his gaze on one creature he can see within 10 feet of him. The target ha de salvar per Saviesa amb {@dc 20} against this magic o estar {@condition acovardit} durant 1 minut. L'objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Talisman of the Sphere (Costa 2 Accions)",
 					"entries": [
-						"Acererak uses his {@item Talisman of the Sphere} to move the {@item Sphere of Annihilation} under his control up to 90 feet."
+						"Acererak uses his {@item Talisman of the Sphere} to move the {@item Sphere of Annihilation} under his control fins a 90 peus."
 					]
 				},
 				{
@@ -296,11 +296,11 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"paralitzat"
 			],
 			"conditionInflictSpell": [
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -315,10 +315,10 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"dwarf"
+					"nan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"A"
 			],
 			"ac": [
@@ -354,7 +354,7 @@
 			"resist": [
 				"verí"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Nannès"
 			],
@@ -367,11 +367,11 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell hunter's mark}",
-							"{@spell jump}",
-							"{@spell pass without trace}",
-							"{@spell speak with animals}",
-							"{@spell speak with plants}"
+							"{@spell marca de caça}",
+							"{@spell botar}",
+							"{@spell passar desapercebudament}",
+							"{@spell parlar animal}",
+							"{@spell parla vegetal}"
 						]
 					},
 					"ability": "wis"
@@ -379,7 +379,7 @@
 			],
 			"trait": [
 				{
-					"name": "Dwarven Resilience",
+					"name": "Resiliència Nana",
 					"entries": [
 						"The dwarf has advantage on saving throws against poison."
 					]
@@ -423,10 +423,10 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"dwarf"
+					"nan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"A"
 			],
 			"ac": [
@@ -462,14 +462,14 @@
 			"resist": [
 				"verí"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Nannès"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Dwarven Resilience",
+					"name": "Resiliència Nana",
 					"entries": [
 						"The dwarf has advantage on saving throws against poison."
 					]
@@ -508,7 +508,7 @@
 			"page": 210,
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"L",
 				"N"
 			],
@@ -542,7 +542,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Comú"
 			],
 			"cr": "1",
@@ -599,7 +599,7 @@
 			"page": 211,
 			"size": "S",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -637,7 +637,7 @@
 				{
 					"name": "Familiar",
 					"entries": [
-						"With the DM's permission, the {@spell find familiar} spell can summon an almiraj."
+						"With the DM's permission, the {@spell trobar familiar} spell can summon an almiraj."
 					]
 				}
 			],
@@ -672,7 +672,7 @@
 			"page": 240,
 			"size": "H",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -711,7 +711,7 @@
 				{
 					"name": "Resiliència No-morta",
 					"entries": [
-						"Si hi ha dany que redueix al zombi a 0 punts de cop, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de cop i no 0."
+						"Si hi ha dany que redueix al zombi a 0 punts de vida, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de vida i no 0."
 					]
 				}
 			],
@@ -719,7 +719,7 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu {@h}18 ({@damage 4d6 + 4}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 14} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu {@h}18 ({@damage 4d6 + 4}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 14} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -754,7 +754,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -798,7 +798,7 @@
 					"preNote": "While wearing the Ring of Winter:"
 				}
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Dracònic",
 				"Nannès",
@@ -814,10 +814,10 @@
 						{
 							"type": "list",
 							"items": [
-								"Cause a blue gem set into the dagger's pommel to shed bright light in a 20-foot radius and dim light for an additional 20 feet, or make the gem go dark.",
+								"Cause a blue gem set into the dagger's pommel to shed llum forta en un radi de 20 peus i llum tènue uns 20 peus adicionals, or make the gem go dark.",
 								"Turn the dagger into a compass that, while resting on your palm, points north.",
-								"Cast {@spell porta dimensional} from the dagger. Once this property is used, it can't be used again until the next dawn.",
-								"Cast {@spell rampell} (save {@dc 15}) from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn."
+								"Cast {@spell porta dimensional} from the dagger. Once this property is used, no es pot tornar a emprar fins el proper trenc d'alba.",
+								"Cast {@spell rampell} (save {@dc 15}) from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, no es pot tornar a emprar fins el proper trenc d'alba."
 							]
 						}
 					]
@@ -850,8 +850,8 @@
 							"type": "list",
 							"items": [
 								"Artus can expend 1 charge and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point he can see within 300 feet of him. The temperature in that area drops 20 degrees per minute, to a minimum of \u221230 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless Artus uses the ring to end the effect com a acció, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
-								"Artus can cast one of the following spells from the ring ({@dc 17} salvació de conjur) by expending the necessary number of charges: {@spell Mà d'en Bigby} (2 charges) the hand is made of ice, is immune to cold damage, and deals dany contundent instead of force damage as a clenched fist, {@spell con de fred} (2 charges), {@spell flesh to stone||flesh to ice} (3 charges); as flesh to stone except that the target turns to solid ice with the density and durability of stone, {@spell ice storm} (2 charges), {@spell Otiluke's freezing sphere} (3 charges), {@spell sleet storm} (1 charge), {@spell spike growth} (1 charge) the spikes are made of ice, or {@spell wall of ice} (2 charges).",
-								"Artus can expend the necessary number of charges and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (Artus's choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition charmed}, {@condition exhaustion}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, and {@condition poisoned}. The ice creature obeys only its creator's commands. The object or creature apareix en un espai desocupat within 60 feet of Artus. It melts into a pool of normal water after 24 hours or when it es queda a 0 punts de cop. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
+								"Artus can cast one of the following spells from the ring ({@dc 17} salvació de conjur) by expending the necessary number of charges: {@spell Mà d'en Bigby} (2 charges) the hand is made of ice, is immune to cold damage, and deals dany contundent instead of force damage as a clenched fist, {@spell con de fred} (2 charges), {@spell carn a pedra||flesh to ice} (3 charges); as carn a pedra except that the target turns to solid ice with the density and durability of stone, {@spell tempesta de gel} (2 charges), {@spell Esfera Glaçada de l'Otiluk} (3 charges), {@spell tempesta d'aiguaneu} (1 charge), {@spell brot d'espines} (1 charge) the spikes are made of ice, or {@spell paret de glaç} (2 charges).",
+								"Artus can expend the necessary number of charges and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (Artus's choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition fascinat}, {@condition exhaust}, {@condition acovardit}, {@condition paralitzat}, {@condition petrificat}, i {@condition emmetzinat}. The ice creature obeys only its creator's commands. The object or creature apareix en un espai desocupat within 60 feet of Artus. It melts into a pool of normal water passades 24 hores or when it es queda a 0 punts de vida. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
 							]
 						}
 					]
@@ -891,7 +891,7 @@
 					"aarakocra"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"N"
 			],
@@ -904,7 +904,7 @@
 			},
 			"speed": {
 				"walk": 20,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 10,
 			"dex": 14,
@@ -918,7 +918,7 @@
 				"perception": "+7"
 			},
 			"passive": 17,
-			"languages": [
+			"idiomes": [
 				"Auran",
 				"Comú"
 			],
@@ -932,32 +932,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell druidcraft}",
+								"{@spell arts de druida}",
 								"{@spell apedaçar}",
-								"{@spell produce flame}"
+								"{@spell produir flama}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell faerie fire}",
-								"{@spell thunderwave}"
+								"{@spell foc follet}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell gust of wind}",
-								"{@spell hold person}",
-								"{@spell lesser restoration}"
+								"{@spell ràfega de vent}",
+								"{@spell immobilitzar humanoide}",
+								"{@spell restabliment menor}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
 								"{@spell invocar llamps}",
-								"{@spell wind wall}"
+								"{@spell paret del vent}"
 							]
 						}
 					},
@@ -966,9 +966,9 @@
 			],
 			"trait": [
 				{
-					"name": "Dive Attack",
+					"name": "Atac en Picat",
 					"entries": [
-						"If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a atac armat melé, the attack deals an extra 3 ({@dice 1d6}) damage to the target."
+						"If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it amb un atac armat cos a cos, the attack deals an extra 3 ({@dice 1d6}) damage to the target."
 					]
 				},
 				{
@@ -996,7 +996,7 @@
 				{
 					"name": "Summon Air Elemental",
 					"entries": [
-						"Five aarakocra within 30 feet of each other can magically summon an {@creature air elemental}. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental apareix en un espai desocupat within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+						"Five aarakocra within 30 feet of each other can magically summon an {@creature air elemental}. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental apareix en un espai desocupat within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains durant 1 hora, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
 					]
 				}
 			],
@@ -1034,7 +1034,7 @@
 			],
 			"size": "L",
 			"type": "planta",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1092,7 +1092,7 @@
 				{
 					"name": "Entangling Vines",
 					"entries": [
-						"The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins ha de salvar per Força amb {@dc 13} or be {@condition restrained} by entangling vines and roots. A creature {@condition restrained} by the plants can use its action to make a {@dc 13} Força (Atletisme) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again."
+						"The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into terreny difícil. A creature in that area when the effect begins ha de salvar per Força amb {@dc 13} or be {@condition restrained} by entangling vines and roots. A creature {@condition restrained} by the plants can use its action to make a {@dc 13} Força (Atletisme) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again."
 					]
 				}
 			],
@@ -1128,7 +1128,7 @@
 					"titan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -1141,7 +1141,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": {
+				"volar": {
 					"number": 50,
 					"condition": "(flotar)"
 				},
@@ -1181,10 +1181,10 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"understands Celestial but utters only obscene nonsense"
 			],
 			"cr": "13",
@@ -1230,7 +1230,7 @@
 				{
 					"name": "Summon Wraith {@recharge}",
 					"entries": [
-						"The atropal summons a {@creature wraith} which materializes within 30 feet of it in an unoccupied space it can see. The wraith obeys its summoner's commands and can't be controlled by any other creature. The Wraith vanishes when it es queda a 0 punts de cop or when its summoner dies."
+						"The atropal summons a {@creature wraith} which materializes within 30 feet of it in an unoccupied space it can see. The wraith obeys its summoner's commands and can't be controlled by any other creature. The Wraith vanishes when it es queda a 0 punts de vida or when its summoner dies."
 					]
 				}
 			],
@@ -1250,7 +1250,7 @@
 				{
 					"name": "Wail (Costa 3 Accions)",
 					"entries": [
-						"The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail ha de salvar per Constitució amb {@dc 19} or gain 1 level of {@condition exhaustion}."
+						"The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail ha de salvar per Constitució amb {@dc 19} or gain 1 level of {@condition exhaust}."
 					]
 				}
 			],
@@ -1296,7 +1296,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -1314,7 +1314,7 @@
 					"tabaxi"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"N"
 			],
@@ -1357,7 +1357,7 @@
 			"resist": [
 				"verí"
 			],
-			"languages": [
+			"idiomes": [
 				"Argot de Lladres",
 				"Comú",
 				"Nannès"
@@ -1365,9 +1365,9 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Feline Agility",
+					"name": "Agilitat Felina",
 					"entries": [
-						"When Bag of Nails moves on its turn in combat, he can double his speed until the end of the turn. Once he uses this trait, Bag of Nails can't use it again until he moves 0 feet on one of his turns."
+						"When Bag of Nails moves on its turn in combat, he can double his speed fins el final del torn. Once he uses this trait, Bag of Nails can't use it again until he moves 0 feet on one of his turns."
 					]
 				},
 				{
@@ -1385,7 +1385,7 @@
 				{
 					"name": "Atac Furtiu (1/Torn)",
 					"entries": [
-						"Bag of Nails deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't {@condition incapacitated} and Bag of Nails doesn't have disadvantage on the attack roll."
+						"Bag of Nails deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't {@condition incapacitat} and Bag of Nails doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -1505,7 +1505,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -1517,7 +1517,7 @@
 			"page": 216,
 			"size": "T",
 			"type": "elemental",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -1555,10 +1555,10 @@
 						"L'habilitat de llançament de conjurs innata de The chwinga és Saviesa. Pot llançar els següents conjurs innatament requiring no material or verbal components"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell guidance}",
-						"{@spell pass without trace}",
-						"{@spell resistance}"
+						"{@spell arts de druida}",
+						"{@spell guia}",
+						"{@spell passar desapercebudament}",
+						"{@spell resistència}"
 					],
 					"ability": "wis"
 				}
@@ -1567,7 +1567,7 @@
 				{
 					"name": "Naturalesa Inusual",
 					"entries": [
-						"The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice)."
+						"The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (escull)."
 					]
 				},
 				{
@@ -1581,7 +1581,7 @@
 				{
 					"name": "Magical Gift (1/Dia)",
 					"entries": [
-						"The chwinga targets a humanoid it can see within 5 feet of it. The target gains a {@filter supernatural charm|rewards|type=charm} of the DM's choice. See {@book chapter 7|DMG|7|Other Rewards} of the Dungeon Masters Guide for more information on supernatural charms."
+						"The chwinga targets a humanoid it can see within 5 feet of it. The target gains a {@filter supernatural charm|rewards|type=charm} of the DM's choice. See {@book capítol 7|DMG|7|Other Rewards} of the Dungeon Masters Guide for more information on supernatural charms."
 					]
 				},
 				{
@@ -1607,7 +1607,7 @@
 			"page": 100,
 			"size": "M",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -1648,7 +1648,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat",
+				"acovardit",
 				"emmetzinat"
 			],
 			"cr": "5",
@@ -1676,7 +1676,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The gladiador fa tres atacs melé."
+						"The gladiador fa tres atacs cos a cos."
 					]
 				},
 				{
@@ -1688,7 +1688,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}9 ({@damage 2d4 + 4}) de dany contundent. If the target is a Medium or smaller creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}9 ({@damage 2d4 + 4}) de dany contundent. If the target is a Medium or smaller creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -1732,7 +1732,7 @@
 					"saurial"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -1767,7 +1767,7 @@
 				"medicine": "+6"
 			},
 			"passive": 13,
-			"languages": [
+			"idiomes": [
 				"understands Common però no pot parlar"
 			],
 			"cr": "5",
@@ -1781,7 +1781,7 @@
 				{
 					"name": "Resistència a la Màgia",
 					"entries": [
-						"While holding his {@item holy avenger longsword||holy avenger longsword}, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on saving throws against spells and other magical effects."
+						"While holding his {@item holy avenger longsword||holy avenger longsword}, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on salvades contra conjurs i altres efectes màgics."
 					]
 				}
 			],
@@ -1789,7 +1789,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Dragonbait makes two atacs armats melé."
+						"Dragonbait makes two atacs armats cos a cos."
 					]
 				},
 				{
@@ -1844,7 +1844,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -1856,7 +1856,7 @@
 			"page": 219,
 			"size": "L",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -1869,7 +1869,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 11,
 			"dex": 16,
@@ -1881,7 +1881,7 @@
 				"perception": "+4"
 			},
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Auran",
 				"Comú"
 			],
@@ -1895,7 +1895,7 @@
 					"daily": {
 						"1e": [
 							"{@spell difuminar}",
-							"{@spell hypnotic pattern}",
+							"{@spell senefes hipnòtiques}",
 							"{@spell il·lusió menor}"
 						]
 					},
@@ -1959,7 +1959,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -2001,7 +2001,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -2031,7 +2031,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -2081,7 +2081,7 @@
 			"page": 220,
 			"size": "S",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -2094,7 +2094,7 @@
 			"speed": {
 				"walk": 30,
 				"climb": 20,
-				"fly": 30
+				"volar": 30
 			},
 			"str": 8,
 			"dex": 14,
@@ -2108,13 +2108,13 @@
 				{
 					"name": "Estratègies de Manada",
 					"entries": [
-						"The flying monkey té avantatge a impactar una criatura que tingui un aliat de monkey's no {@condition incapacitated} a 5 peus."
+						"The flying monkey té avantatge a impactar una criatura que tingui un aliat de monkey's no {@condition incapacitat} a 5 peus."
 					]
 				},
 				{
 					"name": "Familiar",
 					"entries": [
-						"With the DM's permission, the {@spell find familiar} spell can summon a flying monkey."
+						"With the DM's permission, the {@spell trobar familiar} spell can summon a flying monkey."
 					]
 				}
 			],
@@ -2146,7 +2146,7 @@
 			"page": 221,
 			"size": "L",
 			"type": "elemental",
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -2164,7 +2164,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60
+				"volar": 60
 			},
 			"str": 19,
 			"dex": 11,
@@ -2201,7 +2201,7 @@
 				"petrificat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Terrani"
 			],
 			"cr": "10",
@@ -2262,7 +2262,7 @@
 			"page": 222,
 			"size": "L",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -2306,7 +2306,7 @@
 				{
 					"name": "Stable",
 					"entries": [
-						"Whenever an effect knocks the turtle {@condition prone}, it can make a {@dc 10} Constitució saving throw to avoid being knocked {@condition prone}. A {@condition prone} turtle is upside down. To stand up, it must succeed on a {@dc 10} Destresa check on its turn and then use all its movement for that turn."
+						"Whenever an effect knocks the turtle {@condition enderrocat}, it can make a {@dc 10} Constitució saving throw to avoid being knocked {@condition enderrocat}. A {@condition enderrocat} turtle is upside down. To stand up, it must succeed on a {@dc 10} Destresa check on its turn and then use all its movement for that turn."
 					]
 				}
 			],
@@ -2339,7 +2339,7 @@
 			"page": 240,
 			"size": "L",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -2386,7 +2386,7 @@
 				{
 					"name": "Resiliència No-morta",
 					"entries": [
-						"Si hi ha dany que redueix al zombi a 0 punts de cop, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de cop i no 0."
+						"Si hi ha dany que redueix al zombi a 0 punts de vida, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de vida i no 0."
 					]
 				}
 			],
@@ -2452,7 +2452,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -2509,7 +2509,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -2524,10 +2524,10 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"dwarf"
+					"nan"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"N"
 			],
@@ -2562,21 +2562,21 @@
 			"resist": [
 				"verí"
 			],
-			"languages": [
+			"idiomes": [
 				"un idioma qualsevol (normalment Comú)"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Dwarven Resilience",
+					"name": "Resiliència Nana",
 					"entries": [
-						"Hew has resistance to poison damage and advantage on saving throws against being {@condition poisoned}."
+						"Hew has resistance to poison damage and advantage on saving throws against being {@condition emmetzinat}."
 					]
 				},
 				{
 					"name": "Reckless",
 					"entries": [
-						"A l'inici del seu torn, Hew can gain advantage on all atac armat melé rolls during that turn, but attack rolls against him have advantage fins a l'inici del seu següent torn."
+						"A l'inici del seu torn, Hew can gain advantage on all atac armat cos a cos rolls during that turn, but attack rolls against him have advantage fins a l'inici del seu següent torn."
 					]
 				}
 			],
@@ -2631,7 +2631,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -2643,7 +2643,7 @@
 			"page": 225,
 			"size": "L",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -2702,7 +2702,7 @@
 				{
 					"name": "Spring",
 					"entries": [
-						"The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 ({@damage 2d6}) de dany perforant."
+						"The jaculi springs fins a 30 peus en línia recta and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 ({@damage 2d6}) de dany perforant."
 					]
 				}
 			],
@@ -2745,7 +2745,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"hasToken": true
@@ -2773,7 +2773,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -2785,7 +2785,7 @@
 			"page": 225,
 			"size": "L",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -2825,7 +2825,7 @@
 				{
 					"name": "Abraonar",
 					"entries": [
-						"If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn that target ha de salvar per Força amb {@dc 13} or be knocked {@condition prone}. If the target is knocked {@condition prone}, the kamadan can make two attacks\u2014one with its bite and one with its snakes\u2014against it as a bonus action."
+						"If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn that target ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}. If the target is knocked {@condition enderrocat}, the kamadan can make two attacks\u2014one with its bite and one with its snakes\u2014against it as a bonus action."
 					]
 				}
 			],
@@ -2857,7 +2857,7 @@
 				{
 					"name": "Sleep Breath (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The kamadan exhales sleep gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12} or fall {@condition unconscious} for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it."
+						"The kamadan exhales sleep gas en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12} or fall {@condition inconscient} durant 10 minuts. This effect ends for a creature if it takes damage or someone uses an action to wake it."
 					]
 				}
 			],
@@ -2892,7 +2892,7 @@
 			"page": 106,
 			"size": "H",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -2925,7 +2925,7 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innata de The King of Feathers és Saviesa. It pot llançar aquest conjur innatament, requiring no material components:"
+						"L'habilitat de llançament de conjurs innata de The King of Feathers és Saviesa. It pot llançar aquest conjur innatament, sense que calguin components materials:"
 					],
 					"will": [
 						"{@spell pas boira}"
@@ -3036,7 +3036,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -3074,7 +3074,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -3098,7 +3098,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -3135,7 +3135,7 @@
 				"intimidation": "+5"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Dracònic",
 				"Nannès"
@@ -3145,7 +3145,7 @@
 				{
 					"name": "Coratge",
 					"entries": [
-						"Liara has advantage on saving throws against being {@condition frightened}."
+						"Liara has advantage on saving throws against being {@condition acovardit}."
 					]
 				},
 				{
@@ -3159,7 +3159,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Liara fa tres atacs melé."
+						"Liara fa tres atacs cos a cos."
 					]
 				},
 				{
@@ -3203,7 +3203,7 @@
 			"page": 227,
 			"size": "L",
 			"type": "planta",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -3255,7 +3255,7 @@
 				{
 					"name": "Engulf",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is {@condition blinded} and {@condition restrained}, has total cover from an attacks and other effects outside the mantrap, and takes 14 ({@damage 4d6}) de dany d'àcid at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer {@condition restrained} by it. A mantrap can engulf only one creature at a time."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is {@condition encegat} and {@condition restrained}, has total cover from an attacks and other effects outside the mantrap, and takes 14 ({@damage 4d6}) de dany d'àcid at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer {@condition restrained} by it. A mantrap can engulf only one creature at a time."
 					]
 				}
 			],
@@ -3314,7 +3314,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -3332,7 +3332,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"N"
 			],
@@ -3359,7 +3359,7 @@
 				"religion": "+3"
 			},
 			"passive": 11,
-			"languages": [
+			"idiomes": [
 				"Auran",
 				"Comú",
 				"telepatía 30 peus"
@@ -3374,8 +3374,8 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell eldritch blast}",
-								"{@spell mage hand}"
+								"{@spell missil èldritx}",
+								"{@spell mà de mag}"
 							]
 						},
 						"1": {
@@ -3383,8 +3383,8 @@
 							"slots": 2,
 							"spells": [
 								"{@spell fascinar persona}",
-								"{@spell protection from evil and good}",
-								"{@spell unseen servant}"
+								"{@spell protegir del bé i del mal}",
+								"{@spell servent invisible}"
 							]
 						}
 					},
@@ -3431,7 +3431,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -3451,7 +3451,7 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"languages": [
+			"idiomes": [
 				"Comú"
 			],
 			"cr": "0",
@@ -3496,7 +3496,7 @@
 					}
 				}
 			},
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"telepatía 30 peus"
 			],
@@ -3529,7 +3529,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -3556,7 +3556,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -3592,10 +3592,10 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Grung"
 			],
@@ -3611,7 +3611,7 @@
 			"page": 229,
 			"size": "L",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -3629,7 +3629,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 15,
 			"dex": 13,
@@ -3642,7 +3642,7 @@
 				"survival": "+2"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Comú"
 			],
 			"cr": "1",
@@ -3650,7 +3650,7 @@
 				{
 					"name": "Terror Dive",
 					"entries": [
-						"If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target with a atac armat melé, the target is {@condition frightened} fins el final del seu proper torn."
+						"If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target amb un atac armat cos a cos, the target is {@condition acovardit} fins el final del seu proper torn."
 					]
 				}
 			],
@@ -3697,7 +3697,7 @@
 				"THW"
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -3725,7 +3725,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -3744,7 +3744,7 @@
 					"yuan-ti"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -3752,7 +3752,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item bracers of defense}"
+						"{@item braçals de defensa}"
 					]
 				}
 			],
@@ -3788,7 +3788,7 @@
 			"conditionImmune": [
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Comú",
 				"Dracònic"
@@ -3820,26 +3820,26 @@
 						"0": {
 							"spells": [
 								"{@spell mà morta}",
-								"{@spell fire bolt}",
-								"{@spell mage hand}",
+								"{@spell sageta de foc}",
+								"{@spell mà de mag}",
 								"{@spell apedaçar}",
-								"{@spell poison spray}"
+								"{@spell esprai de verí}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell expeditious retreat}",
-								"{@spell false life}",
-								"{@spell magic missile}",
-								"{@spell shield}"
+								"{@spell retirada estratègica}",
+								"{@spell pseudo vida}",
+								"{@spell missil màgic}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell ceguera/sordera}",
-								"{@spell hold person}",
+								"{@spell immobilitzar humanoide}",
 								"{@spell pas boira}"
 							]
 						},
@@ -3855,7 +3855,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell polymorph}"
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
@@ -3879,7 +3879,7 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Ras Nsi wears {@item bracers of defense}, wields a {@item flame tongue longsword}, and carries a {@item sending stones||sending stone} matched to the one carried by the guide Salida (see chapter 1)."
+						"Ras Nsi wears {@item braçals de defensa}, wields a {@item flame tongue longsword}, and carries a {@item pedres missatgeres||sending stone} matched to the one carried by the guide Salida (see chapter 1)."
 					]
 				},
 				{
@@ -3989,7 +3989,7 @@
 			"source": "ToA",
 			"page": 35,
 			"_copy": {
-				"name": "Yuan-ti Pureblood",
+				"name": "Yuan-ti Purassang",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -4000,7 +4000,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -4038,7 +4038,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -4059,7 +4059,7 @@
 			"conditionImmune": [
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Comú",
 				"Dracònic"
@@ -4072,7 +4072,7 @@
 					],
 					"will": [
 						"{@spell amistat animal} (snakes only)",
-						"{@spell poison spray}"
+						"{@spell esprai de verí}"
 					],
 					"daily": {
 						"3e": [
@@ -4121,7 +4121,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -4151,7 +4151,7 @@
 					}
 				}
 			},
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"speed": {
@@ -4189,7 +4189,7 @@
 			"page": 154,
 			"size": "M",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -4228,12 +4228,12 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes dels seus creadors però no pot parlar"
 			],
 			"cr": "6",
@@ -4241,7 +4241,7 @@
 				{
 					"name": "Bersèrk",
 					"entries": [
-						"Quan el tomb guardian comenci el seu torn amb 40 punts de cop o menys, tira {@dice d6}. Si surt un 6 el tomb guardian es torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferentment més petit). Quan el tomb guardian sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de cop. Si el creador del tomb guardian hi és a 60 peus d'abast pot intentar calmar-lo com a acció. El tomb guardian l'ha de poder sentir. El creador farà una tirada de Carisma (Persuasión) amb {@dc 15}. Si supera, el bersèrk s'acaba pel tomb guardian. Si el tomb guardian torna a rebre mal estant a 40 punts de cop o menys, pot tornar a activar-se el bersèrk."
+						"Quan el tomb guardian comenci el seu torn amb 40 punts de vida o menys, tira {@dice d6}. Si surt un 6 el tomb guardian es torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferentment més petit). Quan el tomb guardian sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de vida. Si el creador del tomb guardian hi és a 60 peus d'abast pot intentar calmar-lo com a acció. El tomb guardian l'ha de poder sentir. El creador farà una tirada de Carisma (Persuasión) amb {@dc 15}. Si supera, el bersèrk s'acaba pel tomb guardian. Si el tomb guardian torna a rebre mal estant a 40 punts de vida o menys, pot tornar a activar-se el bersèrk."
 					]
 				},
 				{
@@ -4259,7 +4259,7 @@
 				{
 					"name": "Absorbir Electricitat",
 					"entries": [
-						"Quan the tomb guardian hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de cop."
+						"Quan the tomb guardian hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de vida."
 					]
 				},
 				{
@@ -4327,7 +4327,7 @@
 			"page": 231,
 			"size": "L",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -4375,7 +4375,7 @@
 				"fascinat",
 				"eixordat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat",
@@ -4386,7 +4386,7 @@
 				{
 					"name": "Devastating Roll",
 					"entries": [
-						"The juggernaut can move through the space of a {@condition prone} creature. A creature whose space the juggernaut enters for the first time on a turn ha de salvar per Destresa amb {@dc 17}. Qui falli rep 55 ({@damage 10d10}) de dany contundent; qui superi, en rep la meitat."
+						"The juggernaut can move through the space of a {@condition enderrocat} creature. A creature whose space the juggernaut enters per primer cop en un torn ha de salvar per Destresa amb {@dc 17}. Qui falli rep 55 ({@damage 10d10}) de dany contundent; qui superi, en rep la meitat."
 					]
 				},
 				{
@@ -4398,7 +4398,7 @@
 				{
 					"name": "Regeneració",
 					"entries": [
-						"As long as it has 1 hit point left, the juggernaut magically regains all its hit points daily at dawn. The juggernaut is destroyed and doesn't regenerate if it es queda a 0 punts de cop."
+						"As long as it has 1 hit point left, the juggernaut magically regains all its hit points daily at dawn. The juggernaut is destroyed and doesn't regenerate if it es queda a 0 punts de vida."
 					]
 				},
 				{
@@ -4412,7 +4412,7 @@
 				{
 					"name": "Colpeig",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 3d12 + 6}) de dany contundent. If the target is a Large or smaller creature, ha de salvar per Força amb {@dc 17} or be knocked {@condition prone}."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 3d12 + 6}) de dany contundent. If the target is a Large or smaller creature, ha de salvar per Força amb {@dc 17} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -4443,7 +4443,7 @@
 			"page": 232,
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -4492,7 +4492,7 @@
 				{
 					"name": "Psychic Crush {@recharge 5}",
 					"entries": [
-						"The su-monster targets one creature it can see within 30 feet of it. The target ha de salvar per Saviesa amb {@dc 11}  qui falli rep 17 ({@damage 5d6}) de dany psíquic i està {@condition stunned} durant 1 minut. L'objectiu {@condition stunned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"The su-monster targets one creature it can see within 30 feet of it. The target ha de salvar per Saviesa amb {@dc 11}  Qui falli rep 17 ({@damage 5d6}) de dany psíquic i està {@condition atordit} durant 1 minut. L'objectiu {@condition atordit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament Qui superi."
 					]
 				}
 			],
@@ -4537,10 +4537,10 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Nannès",
 				"Èlfic",
@@ -4565,7 +4565,7 @@
 					"tabaxi"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -4601,15 +4601,15 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Common plus any one language"
 			],
 			"cr": "1",
 			"trait": [
 				{
-					"name": "Feline Agility",
+					"name": "Agilitat Felina",
 					"entries": [
-						"When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+						"When the tabaxi moves on its turn in combat, it can double its speed fins el final del torn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
 					]
 				}
 			],
@@ -4672,7 +4672,7 @@
 					"tabaxi"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -4703,21 +4703,21 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 13,
-			"languages": [
+			"idiomes": [
 				"Common plus any two languages"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Feline Agility",
+					"name": "Agilitat Felina",
 					"entries": [
-						"When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+						"When the tabaxi moves on its turn in combat, it can double its speed fins el final del torn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
 					]
 				},
 				{
 					"name": "Inspire (1/Dia)",
 					"entries": [
-						"While taking a short rest, the tabaxi can spend 1 minute singing, playing an instrument, telling a story, or reciting a poem to soothe and inspire creatures other than itself. Up to five creatures of the tabaxi's choice that can see and hear its performance gain 8 temporary hit points at the end of the tabaxi's short rest."
+						"While taking a short rest, the tabaxi can spend 1 minute singing, playing an instrument, telling a story, or reciting a poem to soothe and inspire creatures other than itself. Up to five creatures of the tabaxi's choice that can see and hear its performance gain 8 punts de vida temporals at the end of the tabaxi's short rest."
 					]
 				}
 			],
@@ -4821,7 +4821,7 @@
 			"page": 135,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -4873,7 +4873,7 @@
 				"exhaust",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"the languages it knew in life"
 			],
 			"cr": "3",
@@ -4895,7 +4895,7 @@
 				{
 					"name": "Drenar Vida",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 1d6 + 2}) de dany necròtic. The target ha de salvar per Constitució amb {@dc 13} or se li redueixen tants punts de cop màxims com dany hagi rebut. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. L'objectiu mor si aquest efecte li redueix els punts de cop màxim a 0.A humanoid slain by this attack rises 24 hours later as a zombie under the tomb dwarf's control, unless the humanoid is restored to life or its body is destroyed. The tomb dwarf can have no more than twelve zombies under its control at one time."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 1d6 + 2}) de dany necròtic. The target ha de salvar per Constitució amb {@dc 13} or se li redueixen tants punts de vida màxims com dany hagi rebut. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. L'objectiu mor si aquest efecte li redueix els punts de vida màxim a 0.A humanoid slain by this attack rises 24 hours later as a zombie under the tomb dwarf's control, unless the humanoid is restored to life or its body is destroyed. The tomb dwarf can have no more than twelve zombies under its control at one time."
 					]
 				},
 				{
@@ -4943,7 +4943,7 @@
 			"page": 127,
 			"size": "M",
 			"type": "constructe",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -4982,12 +4982,12 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes dels seus creadors però no pot parlar"
 			],
 			"cr": "5",
@@ -4995,7 +4995,7 @@
 				{
 					"name": "Bersèrk",
 					"entries": [
-						"Quan el tomb guardian comenci el seu torn amb 40 punts de cop o menys, tira {@dice d6}. Si surt un 6 el tomb guardian es torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferentment més petit). Quan el tomb guardian sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de cop. Si el creador del tomb guardian hi és a 60 peus d'abast pot intentar calmar-lo com a acció. El tomb guardian l'ha de poder sentir. El creador farà una tirada de Carisma (Persuasión) amb {@dc 15}. Si supera, el bersèrk s'acaba pel tomb guardian. Si el tomb guardian torna a rebre mal estant a 40 punts de cop o menys, pot tornar a activar-se el bersèrk."
+						"Quan el tomb guardian comenci el seu torn amb 40 punts de vida o menys, tira {@dice d6}. Si surt un 6 el tomb guardian es torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferentment més petit). Quan el tomb guardian sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de vida. Si el creador del tomb guardian hi és a 60 peus d'abast pot intentar calmar-lo com a acció. El tomb guardian l'ha de poder sentir. El creador farà una tirada de Carisma (Persuasión) amb {@dc 15}. Si supera, el bersèrk s'acaba pel tomb guardian. Si el tomb guardian torna a rebre mal estant a 40 punts de vida o menys, pot tornar a activar-se el bersèrk."
 					]
 				},
 				{
@@ -5013,7 +5013,7 @@
 				{
 					"name": "Absorbir Electricitat",
 					"entries": [
-						"Quan the tomb guardian hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de cop."
+						"Quan the tomb guardian hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de vida."
 					]
 				},
 				{
@@ -5073,7 +5073,7 @@
 			"page": 234,
 			"size": "M",
 			"type": "planta",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -5113,7 +5113,7 @@
 				{
 					"name": "Orange Blossom",
 					"entries": [
-						"The tri-flower frond chooses one creature it can see within 5 feet of it. The target ha de salvar per Constitució amb {@dc 11} or be {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the target is {@condition unconscious}. At the end of each minute, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success."
+						"The tri-flower frond chooses one creature it can see within 5 feet of it. The target ha de salvar per Constitució amb {@dc 11} or be {@condition emmetzinat} durant 1 hora. While {@condition emmetzinat} in this way, the target is {@condition inconscient}. At the end of each minute, the {@condition emmetzinat} target can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -5158,7 +5158,7 @@
 			"page": 241,
 			"size": "H",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -5260,7 +5260,7 @@
 			"page": 58,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -5320,11 +5320,11 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Abismal",
 				"Dracònic",
@@ -5342,18 +5342,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mage hand}",
-								"{@spell prestidigitation}",
-								"{@spell ray of frost}"
+								"{@spell mà de mag}",
+								"{@spell prestidigitació}",
+								"{@spell raig gebre}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell thunderwave}"
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
@@ -5385,34 +5385,34 @@
 							"slots": 3,
 							"spells": [
 								"{@spell matanúvol}",
-								"{@spell scrying}"
+								"{@spell escodrinyar}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
 								"{@spell desintegrar}",
-								"{@spell globe of invulnerability}"
+								"{@spell globus d'invulnerabilitat}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell finger of death}",
-								"{@spell plane shift}"
+								"{@spell dit de la mort}",
+								"{@spell saltar de pla}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
 								"{@spell dominar criatura}",
-								"{@spell power word stun}"
+								"{@spell paraula de poder atordir}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell power word kill}"
+								"{@spell paraula de poder matar}"
 							]
 						}
 					},
@@ -5455,7 +5455,7 @@
 				{
 					"name": "Paralyzing Touch",
 					"entries": [
-						"{@atk ms} {@hit 12} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany de fred. The target ha de salvar per Constitució amb {@dc 18} or be {@condition paralyzed} for 1 minute. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk ms} {@hit 12} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany de fred. The target ha de salvar per Constitució amb {@dc 18} or be {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -5475,7 +5475,7 @@
 				{
 					"name": "Frightening Gaze (Costa 2 Accions)",
 					"entries": [
-						"Valindra fixes her gaze on one creature she can see within 10 feet of her. The target ha de salvar per Saviesa amb {@dc 18} against this magic o estar {@condition frightened} durant 1 minut. L'objectiu {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target is immune to the Valindra's gaze for the next 24 hours."
+						"Valindra fixes her gaze on one creature she can see within 10 feet of her. The target ha de salvar per Saviesa amb {@dc 18} against this magic o estar {@condition acovardit} durant 1 minut. L'objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target is immune to the Valindra's gaze durant les properes 24 hores."
 					]
 				},
 				{
@@ -5510,7 +5510,7 @@
 				"CW"
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"paralitzat"
 			],
 			"conditionInflictSpell": [
@@ -5538,7 +5538,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -5576,7 +5576,7 @@
 				"survival": "+2"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Nannès",
 				"Èlfic"
@@ -5591,9 +5591,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell friends}",
+								"{@spell amistar}",
 								"{@spell apedaçar}",
-								"{@spell prestidigitation}"
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
@@ -5658,7 +5658,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"N"
 			],
@@ -5706,7 +5706,7 @@
 			"page": 145,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -5758,7 +5758,7 @@
 				"exhaust",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"the languages he knew in life"
 			],
 			"cr": "4",
@@ -5772,46 +5772,46 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}",
-								"{@spell mage hand}",
+								"{@spell mà de mag}",
 								"{@spell il·lusió menor}",
-								"{@spell prestidigitation}"
+								"{@spell prestidigitació}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar màgia}",
-								"{@spell expeditious retreat}",
-								"{@spell feather fall}",
-								"{@spell thunderwave}"
+								"{@spell retirada estratègica}",
+								"{@spell descens de ploma}",
+								"{@spell tronada}"
 							]
 						},
 						"2": {
 							"slots": 4,
 							"spells": [
 								"{@spell darkness}",
-								"{@spell hold person}",
-								"{@spell rope trick}"
+								"{@spell immobilitzar humanoide}",
+								"{@spell truc de la corda}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell dissipar màgia}",
-								"{@spell lightning bolt}"
+								"{@spell llampec}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell plaga}",
-								"{@spell wall of fire}"
+								"{@spell paret de foc}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell telekinesis}"
+								"{@spell Telequinesi}"
 							]
 						}
 					},
@@ -5842,7 +5842,7 @@
 				{
 					"name": "Drenar Vida",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 1d6 + 2}) de dany necròtic. The target ha de salvar per Constitució amb {@dc 13} or se li redueixen tants punts de cop màxims com dany hagi rebut. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. L'objectiu mor si aquest efecte li redueix els punts de cop màxim a 0.",
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}5 ({@damage 1d6 + 2}) de dany necròtic. The target ha de salvar per Constitució amb {@dc 13} or se li redueixen tants punts de vida màxims com dany hagi rebut. Aquesta reducció dura fins que l'objectiu faci un Descans Llarg. L'objectiu mor si aquest efecte li redueix els punts de vida màxim a 0.",
 						"A humanoid slain by this attack rises 24 hours later as a zombie under the Withers's control, unless the humanoid is restored to life or its body is destroyed. Withers can have no more than twelve zombies under its control at one time."
 					]
 				},
@@ -5891,7 +5891,7 @@
 					"semi-elf"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -5928,7 +5928,7 @@
 				"survival": "+6"
 			},
 			"passive": 13,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Dracònic",
 				"Nannès",
@@ -5946,18 +5946,18 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}",
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
-								"{@spell ray of frost}"
+								"{@spell sageta de foc}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
+								"{@spell raig gebre}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell esfera cromàtica}",
-								"{@spell feather fall}",
-								"{@spell shield}"
+								"{@spell descens de ploma}",
+								"{@spell escut}"
 							]
 						},
 						"2": {
@@ -5971,14 +5971,14 @@
 							"slots": 3,
 							"spells": [
 								"{@spell bola de foc}",
-								"{@spell fly}"
+								"{@spell volar}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell ice storm}",
-								"{@spell polymorph}"
+								"{@spell tempesta de gel}",
+								"{@spell polimorfia}"
 							]
 						},
 						"5": {
@@ -5993,7 +5993,7 @@
 			],
 			"trait": [
 				{
-					"name": "Quickened Spell (3/Dia)",
+					"name": "Conjur Accelerat (3/Dia)",
 					"entries": [
 						"When she casts a spell that has a casting time of 1 action, Xandala changes the casting time to 1 bonus action for that casting."
 					]
@@ -6033,7 +6033,7 @@
 			"page": 237,
 			"size": "M",
 			"type": "planta",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -6082,13 +6082,13 @@
 				{
 					"name": "Tocar",
 					"entries": [
-						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, una criatura. {@h}13 ({@damage 3d8}) de dany psíquic. If the target is a humanoid that es queda a 0 punts de cop as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or if the corpse is targeted by a {@spell remove curse} spell or similar magic before it animates."
+						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, una criatura. {@h}13 ({@damage 3d8}) de dany psíquic. If the target is a humanoid that es queda a 0 punts de vida as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or if the corpse is targeted by a {@spell anul·lar maledicció} spell or similar magic before it animates."
 					]
 				},
 				{
 					"name": "Yellow Musk (3/Dia)",
 					"entries": [
-						"The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target ha de salvar per Saviesa amb {@dc 11} or be {@condition charmed} by the creeper for 1 minute. A creature {@condition charmed} in this way does nothing on its turn except move as close as it can to the creeper. A creature {@condition charmed} by the creeper can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
+						"The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target ha de salvar per Saviesa amb {@dc 11} or be {@condition fascinat} by the creeper durant 1 minut. A creature {@condition fascinat} in this way does nothing on its turn except move as close as it can to the creeper. A creature {@condition fascinat} by the creeper can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -6118,7 +6118,7 @@
 			"page": 237,
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -6222,9 +6222,9 @@
 					],
 					"will": [
 						"{@spell amistat animal} (snakes only)",
-						"{@spell eldritch blast} (2 beams)",
+						"{@spell missil èldritx} (2 beams)",
 						"{@spell il·lusió menor}",
-						"{@spell poison spray}"
+						"{@spell esprai de verí}"
 					],
 					"daily": {
 						"3": [
@@ -6281,7 +6281,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -6321,7 +6321,7 @@
 					"humà"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -6339,7 +6339,7 @@
 					"mig-drac"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"L",
 				"G"
 			],
@@ -6382,7 +6382,7 @@
 			"resist": [
 				"foc"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Dracònic",
 				"Nannès",
@@ -6398,10 +6398,10 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell friends}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell sageta de foc}",
+								"{@spell amistar}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
 								"{@spell apedaçar}",
 								"{@spell missatge}"
 							]
@@ -6409,49 +6409,49 @@
 						"1": {
 							"slots": 6,
 							"spells": [
-								"{@spell magic missile}",
-								"{@spell shield}",
-								"{@spell sleep}"
+								"{@spell missil màgic}",
+								"{@spell escut}",
+								"{@spell adormir}"
 							]
 						},
 						"2": {
 							"slots": 4,
 							"spells": [
 								"{@spell detectar pensaments}",
-								"{@spell knock}"
+								"{@spell picaporta}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell clarividència}",
-								"{@spell tongues}"
+								"{@spell llenguatges}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell dominar bèstia}",
-								"{@spell stoneskin}"
+								"{@spell pell de pedra}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell hold monster}",
-								"{@spell telekinesis}"
+								"{@spell immobilitzar criatura}",
+								"{@spell Telequinesi}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell true seeing}"
+								"{@spell visió veritable}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell fire storm}"
+								"{@spell tempesta de foc}"
 							]
 						}
 					},
@@ -6488,7 +6488,7 @@
 				{
 					"name": "Weakening Breath",
 					"entries": [
-						"Zindar exhales gas en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Força amb {@dc 15} or have disadvantage on Força-based attack rolls, Força checks, and Força saving throws for 1 minute. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Zindar exhales gas en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Força amb {@dc 15} or have disadvantage on Força-based attack rolls, Força checks, and Força saving throws durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -6523,7 +6523,7 @@
 			"page": 241,
 			"size": "S",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [

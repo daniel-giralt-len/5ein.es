@@ -822,7 +822,7 @@ const randomLootTables = {
 
 	async p$CreateLink (item) {
 		const fauxResult = (() => {
-			if (item.category === "Generic Variant" && item.variants && item.variants.length) {
+			if (item.category === "Variant Genètica" && item.variants && item.variants.length) {
 				return {
 					item: `{@item ${item.name}|${item.source}}`,
 					choose: {

@@ -555,7 +555,7 @@
 						"climb": {
 							"$ref": "#/definitions/_speedVal"
 						},
-						"fly": {
+						"volar": {
 							"$ref": "#/definitions/_speedVal"
 						},
 						"canHover": {
@@ -575,7 +575,7 @@
 											"walk",
 											"burrow",
 											"climb",
-											"fly",
+											"volar",
 											"swim"
 										]
 									}
@@ -611,7 +611,7 @@
 										"$ref": "#/definitions/_speedVal"
 									}
 								},
-								"fly": {
+								"volar": {
 									"type": "array",
 									"items": {
 										"$ref": "#/definitions/_speedVal"
@@ -839,7 +839,7 @@
 			]
 		},
 
-		"alignment": {
+		"alineament": {
 			"type": "string",
 			"enum": [
 				"L",
@@ -877,7 +877,7 @@
 				"fascinat",
 				"eixordat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"incapacitat",
 				"invisible",
@@ -1277,7 +1277,7 @@
 					"fascinat",
 					"eixordat",
 					"exhaust",
-					"acovardat",
+					"acovardit",
 					"pres",
 					"incapacitat",
 					"invisible",
@@ -1864,7 +1864,7 @@
 					"languageProficiency": {"$ref": "#/definitions/languageNameLower"},
 					"skillProficiency": {"$ref": "#/definitions/skillNameLower"},
 
-					"alignment": {
+					"alineament": {
 						"type": "array",
 						"items": {"$ref": "util.json#/definitions/alignment"}
 					},

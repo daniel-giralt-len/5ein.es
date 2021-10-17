@@ -7,7 +7,7 @@
 			"summonedBySpell": "Convocar Esperit Aberrant|UA2020SpellsAndMagicTattoos",
 			"size": "M",
 			"type": "aberration",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -21,7 +21,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 30,
 					"condition": "(flotar només si contemplador)"
 				},
@@ -40,7 +40,7 @@
 			"immune": [
 				"psíquic"
 			],
-			"languages": [
+			"idiomes": [
 				"Parla Profunda",
 				"comprèn els idiomes que coneixes"
 			],
@@ -48,13 +48,13 @@
 				{
 					"name": "Regeneració (Només Slaadi)",
 					"entries": [
-						"The aberration recupera 10 punts de toc a l'inici del seu torn si té 1 punt de cop com a mínim."
+						"The aberration recupera 10 punts de toc a l'inici del seu torn si té 1 punt de vida com a mínim."
 					]
 				},
 				{
 					"name": "Aura de Murmuris (Només Engendre dels Estels)",
 					"entries": [
-						"A l'inici de cada torn de the aberration, each creature within 5 feet of it ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla rep{@damage 3d6} de dany psíquic, provided that the aberration isn't {@condition incapacitated}."
+						"A l'inici de cada torn de the aberration, each creature within 5 feet of it ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla rep{@damage 3d6} de dany psíquic, provided that the aberration isn't {@condition incapacitat}."
 					]
 				}
 			],
@@ -74,7 +74,7 @@
 				{
 					"name": "Urpes (Només Slaadi)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany tallant. If the target is a creature, no pot recuperar punts de cop fins el següent torn de the aberration's."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany tallant. If the target is a creature, no pot recuperar punts de vida fins el següent torn de the aberration's."
 					]
 				},
 				{
@@ -111,7 +111,7 @@
 			"summonedBySpell": "Convocar Esperit Bestial|UA2020SpellsAndMagicTattoos",
 			"size": "S",
 			"type": "bèstia",
-			"alignment": [
+			"alineament": [
 				"U"
 			],
 			"ac": [
@@ -128,7 +128,7 @@
 					"number": 30,
 					"condition": "(només terra)"
 				},
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(només aire)"
 				},
@@ -147,7 +147,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
@@ -166,7 +166,7 @@
 				{
 					"name": "Estratègies de Manada (Només Land and Water)",
 					"entries": [
-						"The beast té avantatge a impactar una criatura que tingui un aliat de beast's no {@condition incapacitated} a 5 peus."
+						"The beast té avantatge a impactar una criatura que tingui un aliat de beast's no {@condition incapacitat} a 5 peus."
 					]
 				}
 			],
@@ -209,7 +209,7 @@
 			"summonedBySpell": "Convocar Esperit Celestial|UA2020SpellsAndMagicTattoos",
 			"size": "L",
 			"type": "celestial",
-			"alignment": [
+			"alineament": [
 				"N",
 				"G"
 			],
@@ -223,7 +223,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 16,
 			"dex": 14,
@@ -240,9 +240,9 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"acovardat"
+				"acovardit"
 			],
-			"languages": [
+			"idiomes": [
 				"Celestial",
 				"comprèn els idiomes que coneixes"
 			],
@@ -262,7 +262,7 @@
 				{
 					"name": "Maça Radiant (Només Defender)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany radiant, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains temporary hit points equal to the damage dealt, provided it doesn't already have temporary hit points."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany radiant, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains punts de vida temporals equal to the damage dealt, provided it doesn't already have punts de vida temporals."
 					]
 				},
 				{
@@ -296,7 +296,7 @@
 			"summonedBySpell": "Convocar Esperit Elemental|UA2020SpellsAndMagicTattoos",
 			"size": "M",
 			"type": "elemental",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -309,7 +309,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(només aire hover)"
 				},
@@ -371,7 +371,7 @@
 				"emmetzinat",
 				"inconscient"
 			],
-			"languages": [
+			"idiomes": [
 				"Primordial",
 				"comprèn els idiomes que coneixes"
 			],
@@ -424,7 +424,7 @@
 			"summonedBySpell": "Convocar Esperit Faèric|UA2020SpellsAndMagicTattoos",
 			"size": "S",
 			"type": "fata",
-			"alignment": [
+			"alineament": [
 				"C",
 				"G"
 			],
@@ -452,7 +452,7 @@
 			"conditionImmune": [
 				"fascinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Silvànic",
 				"comprèn els idiomes que coneixes"
 			],
@@ -460,7 +460,7 @@
 				{
 					"name": "Pas de Fata",
 					"entries": [
-						"Com a acció bonus, the fey can magically teleport up to 30 feet to an unoccupied space it can see."
+						"Com a acció bonus, the fey can magically teleport fins a 30 peus to an unoccupied space it can see."
 					]
 				},
 				{
@@ -472,7 +472,7 @@
 				{
 					"name": "Ecstatic Step (Només Joyful)",
 					"entries": [
-						"Immediately after using its Pas de Fata, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Saviesa saving throw against your spell save DC or be {@condition charmed} by the fey for 1 minute. The charm ends if the fey or any of its companions deals any damage to the target."
+						"Immediately after using its Pas de Fata, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Saviesa saving throw contra la teva CD de salvació de conjur or be {@condition fascinat} by the fey durant 1 minut. The charm ends if the fey or any of its companions deals any damage to the target."
 					]
 				},
 				{
@@ -524,23 +524,23 @@
 			"summonedBySpell": "Convocar Esperit Infernal|UA2020SpellsAndMagicTattoos",
 			"size": "L",
 			"type": "infernal",
-			"alignment": [
+			"alineament": [
 				{
-					"alignment": [
+					"alineament": [
 						"C",
 						"E"
 					],
 					"note": "Demon only"
 				},
 				{
-					"alignment": [
+					"alineament": [
 						"L",
 						"E"
 					],
 					"note": "Devil only"
 				},
 				{
-					"alignment": [
+					"alineament": [
 						"N",
 						"E"
 					],
@@ -561,7 +561,7 @@
 					"number": 40,
 					"condition": "(demon only)"
 				},
-				"fly": {
+				"volar": {
 					"number": 60,
 					"condition": "(devil only)"
 				}
@@ -585,7 +585,7 @@
 			"conditionImmune": [
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Abismal",
 				"Infernal",
 				"telepatía 60 peus"
@@ -600,7 +600,7 @@
 				{
 					"name": "Acaballes de la Mortalitat (Només Demon)",
 					"entries": [
-						"When the fiend es queda a 0 punts de cop or the spell ends, the fiend explodes, and each creature within 10 feet of ha de salvar per Destresa against your spell save DC. A creature takes {@damage 2d10 + summonSpellLevel} de dany de foc on a failed save; si supera, en rep la meitat."
+						"When the fiend es queda a 0 punts de vida or the spell ends, the fiend explodes, and each creature within 10 feet of ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli, rep {@damage 2d10 + summonSpellLevel} de dany de foc; qui superi, en rep la meitat."
 					]
 				},
 				{
@@ -626,7 +626,7 @@
 				{
 					"name": "Urpes (Només Yugoloth)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany tallant. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany tallant. Immediately after the attack hits or misses, the fiend can magically teleport fins a 30 peus to an unoccupied space it can see."
 					]
 				},
 				{
@@ -668,7 +668,7 @@
 			"summonedBySpell": "Convocar Esperit d'Ombra|UA2020SpellsAndMagicTattoos",
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -697,9 +697,9 @@
 				"necròtic"
 			],
 			"conditionImmune": [
-				"acovardat"
+				"acovardit"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"comprèn els idiomes que coneixes"
 			],
@@ -707,7 +707,7 @@
 				{
 					"name": "Bloodthirsty Frenzy (Només Fury)",
 					"entries": [
-						"The spirit has advantage on attack rolls against {@condition frightened} creatures."
+						"The spirit has advantage on attack rolls against {@condition acovardit} creatures."
 					]
 				},
 				{
@@ -739,7 +739,7 @@
 				{
 					"name": "Crit Desesperant (1/Dia)",
 					"entries": [
-						"The spirit crida. Tota criatura a 30 peus d'abast ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition frightened} of the spirit for 1 minute. La criatura {@condition frightened} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"The spirit crida. Tota criatura a 30 peus d'abast ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} of the spirit durant 1 minut. La criatura {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -759,7 +759,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"acovardat"
+				"acovardit"
 			]
 		},
 		{
@@ -769,7 +769,7 @@
 			"summonedBySpell": "Convocar Esperit No-Mort|UA2020SpellsAndMagicTattoos",
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -783,7 +783,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": {
+				"volar": {
 					"number": 40,
 					"condition": "(ghostly only; hover)"
 				},
@@ -805,11 +805,11 @@
 			],
 			"conditionImmune": [
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"comprèn els idiomes que coneixes"
 			],
@@ -817,13 +817,13 @@
 				{
 					"name": "Moviment Incorpori (Només Ghostly)",
 					"entries": [
-						"The undead can become incorporeal while moving and pass through other creatures and objects as if they were difficult terrain. Si acaba el torn dins d'un objecte, és empès a l'espai desocupat més proper i rep {@damage 1d10} de dany de força per cada 5 peus empesos."
+						"The undead can become incorporeal while moving and pass through other creatures and objects as if they were terreny difícil. Si acaba el torn dins d'un objecte, és empès a l'espai desocupat més proper i rep {@damage 1d10} de dany de força per cada 5 peus empesos."
 					]
 				},
 				{
 					"name": "Zona Infectada (Només Putrid)",
 					"entries": [
-						"Tota criatura (excepte tu) que comenci el seu torn a 5 peus de the undead ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla està {@condition poisoned} fins a l'inici del seu següent torn."
+						"Tota criatura (excepte tu) que comenci el seu torn a 5 peus de the undead ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla està {@condition emmetzinat} fins a l'inici del seu següent torn."
 					]
 				}
 			],
@@ -837,7 +837,7 @@
 				{
 					"name": "Toc Mortífer (Només Ghostly)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, i la criatura ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition frightened} of the undead until the end of the target's next turn."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, i la criatura ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} of the undead until the end of the target's next turn."
 					]
 				},
 				{
@@ -849,7 +849,7 @@
 				{
 					"name": "Urpa Necrotitzant (Només Putrid)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu està {@condition poisoned} ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla està {@condition paralyzed} fins el final del seu proper torn."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu està {@condition emmetzinat} ha de salvar per Constitució amb la teva CD de salvació de conjur. Si falla està {@condition paralitzat} fins el final del seu proper torn."
 					]
 				}
 			],
@@ -874,7 +874,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			]

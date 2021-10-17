@@ -20,7 +20,7 @@
 			"source": "DC",
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"A"
 			],
 			"ac": [
@@ -32,7 +32,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 7,
 			"dex": 13,
@@ -67,7 +67,7 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"pres",
 				"paralitzat",
 				"petrificat",
@@ -75,7 +75,7 @@
 				"enderrocat",
 				"retingut"
 			],
-			"languages": [
+			"idiomes": [
 				"Tot idioma que comprenia en vida"
 			],
 			"cr": "4",
@@ -115,14 +115,14 @@
 				{
 					"name": "Albir Terrorífic",
 					"entries": [
-						"Tota criatura no no-morta a 60 peus de Ebondeath que pugui veure'l ha de salvar per Saviesa amb {@dc 13}. Qui falli estarà {@condition frightened} durant 1 minut. Qui falli per més de 5 també envelleix {@dice 1d4 × 10} anys. Les criatures {@condition frightened} poden repetir la salvada al final de cada torn, cancel·lan l'efecte {@condition frightened} quan superin.Si un objectiu supera la salvada o se li acaba la condició, és immune a aquest Albir Terrorífic durant les properes 24 hores. L'envelliment es pot revertir amb un encanteri de Restauració Major, però només abans que passin 24 hores."
+						"Tota criatura no no-morta a 60 peus de Ebondeath que pugui veure'l ha de salvar per Saviesa amb {@dc 13}. Qui falli estarà {@condition acovardit} durant 1 minut. Qui falli per més de 5 també envelleix {@dice 1d4 × 10} anys. Les criatures {@condition acovardit} poden repetir la salvada al final de cada torn, cancel·lan l'efecte {@condition acovardit} quan superin.Si un objectiu supera la salvada o se li acaba la condició, és immune a aquest Albir Terrorífic durant les properes 24 hores. L'envelliment es pot revertir amb un encanteri de Restauració Major, però només abans que passin 24 hores."
 					]
 				},
 				{
 					"name": "Posseïr {@recharge}",
 					"entries": [
-						"Un humanoide a 5 peus d'Ebondeath que pugui veure ha de salvar per Carisma amb {@dc 20}. Si falla és posseïda per l'Ebondeath. Ebondeath desapareix i l'objectiu és {@condition incapacitated}, perdent control del seu cos. L'Ebondeath controla el cos però l'objectiu retè la consciència. L'Ebondeath no pot ser designat per un atac, un conjur, ni cap altre efecte excepte els que expulsen no morts. També retè l'alineament, la Intel·ligència, la Saviesa, el Carisma, i la immunitat a ésser {@condition charmed} o {@condition frightened}. La resta d'estadístiques són les de l'objectiu, incloent el seu coneixement, habilitats de classe, i competències.",
-						"La possessió dura fins que: o bé el cos es queda a 0 punts de cop; o bé l'Ebondeath l'atura amb una acció bonus; o l'Ebondeath és expulsat com a no-mort o amb un conjur com dissipar el be i el mal. Quan la possessió acaba, l'Ebondeath reapareix en un espai sense ocupar a 5 peus del cos. L'objectiu és immune a aquesta possessió durant 24 hores si ha superat la salvada o després que la possessió s'hagi aturat."
+						"Un humanoide a 5 peus d'Ebondeath que pugui veure ha de salvar per Carisma amb {@dc 20}. Si falla és posseïda per l'Ebondeath. Ebondeath desapareix i l'objectiu és {@condition incapacitat}, perdent control del seu cos. L'Ebondeath controla el cos però l'objectiu retè la consciència. L'Ebondeath no pot ser designat per un atac, un conjur, ni cap altre efecte excepte els que expulsen no morts. També retè l'alineament, la Intel·ligència, la Saviesa, el Carisma, i la immunitat a ésser {@condition fascinat} o {@condition acovardit}. La resta d'estadístiques són les de l'objectiu, incloent el seu coneixement, habilitats de classe, i competències.",
+						"La possessió dura fins que: o bé el cos es queda a 0 punts de vida; o bé l'Ebondeath l'atura amb una acció bonus; o l'Ebondeath és expulsat com a no-mort o amb un conjur com dissipar el be i el mal. Quan la possessió acaba, l'Ebondeath reapareix en un espai sense ocupar a 5 peus del cos. L'objectiu és immune a aquesta possessió durant 24 hores si ha superat la salvada o després que la possessió s'hagi aturat."
 					]
 				}
 			],
@@ -145,7 +145,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"acovardat",
+				"acovardit",
 				"incapacitat"
 			],
 			"hasFluff": true
@@ -188,7 +188,7 @@
 				"stealth": "+13"
 			},
 			"passive": 10,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"i un altre de la teva elecció"
 			],
@@ -202,7 +202,7 @@
 				{
 					"name": "Evasió",
 					"entries": [
-						"Quan l'expert no està {@condition incapacitated} i ha de salvar per Destresa degut a un efecte per rebre només la meitat del mal, no rep mal si supera la salvada i la meitat si la falla."
+						"Quan l'expert no està {@condition incapacitat} i ha de salvar per Destresa degut a un efecte per rebre només la meitat del mal, no rep mal si supera la salvada i la meitat si la falla."
 					]
 				},
 				{
@@ -214,7 +214,7 @@
 				{
 					"name": "Eines",
 					"entries": [
-						"L'expert té unes {@item thieves' tools|phb} i un instrument musical."
+						"L'expert té unes {@item eines de lladre|phb} i un instrument musical."
 					]
 				}
 			],
@@ -294,7 +294,7 @@
 				"religion": "+6"
 			},
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"i un altre de la teva elecció"
 			],
@@ -307,11 +307,11 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell guidance}",
-								"{@spell light}",
-								"{@spell resistance}",
-								"{@spell sacred flame}",
-								"{@spell spare the dying}"
+								"{@spell guia}",
+								"{@spell llum}",
+								"{@spell resistència}",
+								"{@spell flama sagrada}",
+								"{@spell misericòrdia}"
 							]
 						},
 						"1": {
@@ -319,21 +319,21 @@
 							"spells": [
 								"{@spell beneir}",
 								"{@spell curar ferides}",
-								"{@spell shield of faith}"
+								"{@spell escut de fe}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell aid}",
-								"{@spell lesser restoration}"
+								"{@spell restabliment menor}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell protection from energy}",
-								"{@spell revivify}"
+								"{@spell protegir de l'energia}",
+								"{@spell revifar}"
 							]
 						},
 						"4": {
@@ -346,14 +346,14 @@
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell greater restoration}",
+								"{@spell restabliment superior}",
 								"{@spell curar ferides massiu}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell heal}"
+								"{@spell sanar}"
 							]
 						}
 					},
@@ -435,7 +435,7 @@
 				"religion": "+8"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"i un altre de la teva elecció"
 			],
@@ -448,25 +448,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell fire bolt}",
-								"{@spell light}",
-								"{@spell mage hand}",
+								"{@spell sageta de foc}",
+								"{@spell llum}",
+								"{@spell mà de mag}",
 								"{@spell il·lusió menor}",
-								"{@spell shocking grasp}"
+								"{@spell braó electritzant}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell mans ardents}",
-								"{@spell shield}",
-								"{@spell sleep}"
+								"{@spell escut}",
+								"{@spell adormir}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell flaming sphere}",
+								"{@spell esfera de flames}",
 								"{@spell invisibility}"
 							]
 						},
@@ -474,21 +474,21 @@
 							"slots": 3,
 							"spells": [
 								"{@spell bola de foc}",
-								"{@spell fly}"
+								"{@spell volar}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell polymorph}",
-								"{@spell wall of fire}"
+								"{@spell polimorfia}",
+								"{@spell paret de foc}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell con de fred}",
-								"{@spell hold monster}"
+								"{@spell immobilitzar criatura}"
 							]
 						},
 						"6": {
@@ -579,7 +579,7 @@
 				"survival": "+5"
 			},
 			"passive": 15,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"i un altre de la teva elecció"
 			],
@@ -629,7 +629,7 @@
 				{
 					"name": "Recuperar l'Alè (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"El guerrer pot, com a acció bonus, recuperar {@dice 1d10} + el seu nivell de punts de cop."
+						"El guerrer pot, com a acció bonus, recuperar {@dice 1d10} + el seu nivell de punts de vida."
 					]
 				}
 			],

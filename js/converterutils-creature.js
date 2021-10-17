@@ -27,7 +27,7 @@ class AcConvert {
 			// Plain number
 			if (!fromRaw) return nuAc.push(acNum);
 
-			let nxtAc = null; // A distinct AC value included in this text from e.g. mage armor
+			let nxtAc = null; // A distinct AC value included in this text from e.g. armadura de mag
 			const cur = {ac: acNum};
 			const froms = [];
 
@@ -61,7 +61,7 @@ class AcConvert {
 						case "patchwork armor":
 						case "see natural armor feature":
 						case "pell d'escorça trait":
-						case "sylvan warrior":
+						case "silvà warrior":
 						case "cage":
 						case "chains":
 						case "coin mail":
@@ -76,7 +76,7 @@ class AcConvert {
 						case "plant fiber armor":
 						case "plus armor worn":
 						case "rag armor":
-						case "ring of protection +2":
+						case "anell de protecció +2":
 						case "see below":
 						case "wicker armor":
 						case "bone armor":
@@ -92,9 +92,9 @@ class AcConvert {
 							break;
 
 						// spells
-						case "foresight bonus": froms.push(`{@spell foresight} bonus`); break;
+						case "foresight bonus": froms.push(`{@spell presagiar} bonus`); break;
 						case "natural pell d'escorça": froms.push(`natural {@spell pell d'escorça}`); break;
-						case "mage armor": froms.push("{@spell mage armor}"); break;
+						case "armadura de mag": froms.push("{@spell armadura de mag}"); break;
 
 						// armor (mostly handled by the item lookup; these are mis-named exceptions (usually for homebrew))
 						case "chainmail":
@@ -108,7 +108,7 @@ class AcConvert {
 							froms.push("{@item armadura de plaques|phb}");
 							break;
 
-						case "scale armor": froms.push("{@item scale mail|phb}"); break;
+						case "scale armor": froms.push("{@item cota d'escates|phb}"); break;
 						case "chain shirt": froms.push("{@item chain shirt|phb}"); break;
 						case "shields": froms.push("{@item shield|phb|shields}"); break;
 
@@ -116,9 +116,9 @@ class AcConvert {
 						case "dwarven plate": froms.push("{@item dwarven plate}"); break;
 						case "elven chain": froms.push("{@item elven chain}"); break;
 						case "glamoured studded leather": froms.push("{@item glamoured studded leather}"); break;
-						case "bracers of defense": froms.push("{@item bracers of defense}"); break;
+						case "braçals de defensa": froms.push("{@item braçals de defensa}"); break;
 						case "badge of the watch": froms.push("{@item Badge of the Watch|wdh}"); break;
-						case "ring of protection": froms.push("{@item ring of protection}"); break;
+						case "anell de protecció": froms.push("{@item anell de protecció}"); break;
 						case "robe of the archmagi": froms.push("{@item robe of the archmagi}"); break;
 						case "staff of power": froms.push("{@item staff of power}"); break;
 
@@ -129,12 +129,12 @@ class AcConvert {
 
 								if (itemMeta.isExact) froms.push(`{@item ${fromLow}${itemMeta.source === SRC_DMG ? "" : `|${itemMeta.source}`}}`);
 								else froms.push(`{@item ${itemMeta.name}${itemMeta.source === SRC_DMG ? "|" : `|${itemMeta.source}`}|${fromLow}}`);
-							} else if (fromLow.endsWith("with mage armor") || fromLow.endsWith("with pell d'escorça")) {
+							} else if (fromLow.endsWith("with armadura de mag") || fromLow.endsWith("with pell d'escorça")) {
 								const numMatch = /(\d+) with (.*)/.exec(fromLow);
 								if (!numMatch) throw new Error("Spell AC but no leading number?");
 
 								let spell = null;
-								if (numMatch[2] === "mage armor") spell = `{@spell mage armor}`;
+								if (numMatch[2] === "armadura de mag") spell = `{@spell armadura de mag}`;
 								else if (numMatch[2] === "pell d'escorça") spell = `{@spell pell d'escorça}`;
 								else throw new Error(`Unhandled spell! ${numMatch[2]}`);
 
@@ -228,13 +228,13 @@ class TagAttack {
 	}
 }
 TagAttack.MAP = {
-	"atac armat melé:": "{@atk mw}",
+	"atac armat cos a cos:": "{@atk mw}",
 	"atac armat a distància:": "{@atk rw}",
 	"melee attack:": "{@atk m}",
 	"ranged attack:": "{@atk r}",
 	"area attack:": "{@atk a}",
 	"area weapon attack:": "{@atk aw}",
-	"atac màgic melé:": "{@atk ms}",
+	"atac màgic cos a cos:": "{@atk ms}",
 	"melee or atac armat a distància:": "{@atk mw,rw}",
 	"atac màgic a distància": "{@atk rs}",
 	"melee or atac màgic a distància": "{@atk ms,rs}",
@@ -396,7 +396,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"agressivitat": "Agressivitat",
 		"illumination": "Illumination",
-		"rampage": "Rampage",
+		"enfurismar": "Enfurismar",
 		"rejovenir": "Rejovenir",
 		"web walker": "Web Walker",
 		"moviment incorpori": "Moviment Incorpori",
@@ -442,8 +442,8 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 
 		"spell immunity": "Spell Immunity",
 
-		"ambush": "Ambusher",
-		"ambusher": "Ambusher",
+		"ambush": "Emboscar",
+		"emboscar": "Emboscar",
 
 		"amorf": "Amorf",
 		"amorf": "Amorf",
@@ -459,7 +459,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 	action: {
 		"multi-atac": "Multi-atac",
 		"presència aterradora": "Presència Aterradora",
-		"teleport": "Teleport",
+		"teleportació": "Teleportació",
 		"empassar": "Empassar",
 		"tentacle": "Tentacles",
 		"tentacles": "Tentacles",
@@ -558,7 +558,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"one additional": "X",
 	"Blink Dog": "OTH",
 	"Bothii": "OTH",
-	"Bullywug": "OTH",
+	"Batrac": "OTH",
 	"one other language": "X",
 	"plus six more": "X",
 	"plus two more languages": "X",
@@ -584,7 +584,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Thayan": "OTH",
 	"Thri-kreen": "OTH",
 	"Tlincalli": "OTH",
-	"Troglodyte": "OTH",
+	"Troglodita": "OTH",
 	"Umber Hulk": "OTH",
 	"Vegepygmy": "OTH",
 	"Winter Wolf": "OTH",
@@ -922,7 +922,7 @@ class SpellcastingTraitConvert {
 			} else if (thisLine.startsWith("Constant: ")) {
 				hasAnyHeader = true;
 				spellcastingEntry.constant = this._getParsedSpells({thisLine, isMarkdown});
-			} else if (thisLine.startsWith("At will: ")) {
+			} else if (thisLine.startsWith("A voluntat: ")) {
 				hasAnyHeader = true;
 				spellcastingEntry.will = this._getParsedSpells({thisLine, isMarkdown});
 			} else if (thisLine.includes("Cantrip")) {
@@ -1039,8 +1039,8 @@ class SpellcastingTraitConvert {
 
 	/**
 	 * Add other actions/reactions with names such as:
-	 * - "Fire Storm (Conjur de Nivell 7; 1/Dia)"
-	 * - "Shocking Grasp (Truc)"
+	 * - "Tempesta de Foc (Conjur de Nivell 7; 1/Dia)"
+	 * - "Braó Electritzant (Truc)"
 	 * - "Shield (Conjur de Nivell 1; 3/Dia)"
 	 * as hidden spells (if they don't already exist). */
 	static _addSplitOutSpells ({spellcastingEntry, arrayOther}) {
@@ -1204,7 +1204,7 @@ class SpeedConvert {
 		}
 	}
 }
-SpeedConvert._SPEED_TYPES = new Set(["walk", "fly", "swim", "climb", "burrow"]);
+SpeedConvert._SPEED_TYPES = new Set(["walk", "volar", "swim", "climb", "burrow"]);
 
 class DetectNamedCreature {
 	static tryRun (mon) {

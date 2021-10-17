@@ -101,7 +101,7 @@ class FeatParser extends BaseParser {
 
 			if (/^spellcasting$/i.test(joinedStack)) {
 				if (!pres.some(it => it.spellcasting2020)) pres.push({spellcasting2020: true});
-			} else if (/^pact magic feature$/i.test(joinedStack)) {
+			} else if (/^màgia de pacte feature$/i.test(joinedStack)) {
 				if (!pres.some(it => it.spellcasting2020)) pres.push({spellcasting2020: true});
 			} else if (/proficiency with a martial weapon/i.test(joinedStack)) {
 				pres.push({proficiency: [{weapon: "martial"}]});

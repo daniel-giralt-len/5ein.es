@@ -36,11 +36,11 @@ class CreatureParser extends BaseParser {
 				"SAVING THROWS",
 				"SKILLS",
 				"DAMAGE VULNERABILITIES",
-				"DAMAGE RESISTANCE",
+				"DAMAGE RESISTÈNCIA",
 				"DAMAGE IMMUNITIES",
 				"CONDITION IMMUNITIES",
 				"SENSES",
-				"LANGUAGES",
+				"IDIOMES",
 				"CHALLENGE",
 				"PROFICIENCY BONUS",
 			];
@@ -196,7 +196,7 @@ class CreatureParser extends BaseParser {
 			}
 
 			// damage resistances (optional)
-			if (!curLine.indexOf_handleColon("Damage Resistance")) {
+			if (!curLine.indexOf_handleColon("Damage Resistència")) {
 				// noinspection StatementWithEmptyBodyJS
 				while (absorbBrokenLine());
 				this._setCleanDamageRes(stats, curLine, options);
@@ -586,7 +586,7 @@ class CreatureParser extends BaseParser {
 				}
 
 				// damage resistances (optional)
-				if (~curLine.indexOf("Damage Resistance")) {
+				if (~curLine.indexOf("Damage Resistència")) {
 					this._setCleanDamageRes(stats, stripDashStarStar(curLine));
 					continue;
 				}
@@ -610,7 +610,7 @@ class CreatureParser extends BaseParser {
 				}
 
 				// languages
-				if (~curLine.indexOf("Languages")) {
+				if (~curLine.indexOf("Idiomes")) {
 					this._setCleanLanguages(stats, stripDashStarStar(curLine));
 					continue;
 				}
@@ -1115,7 +1115,7 @@ class CreatureParser extends BaseParser {
 	}
 
 	static _setCleanDamageRes (stats, line, options) {
-		stats.resist = (line.toLowerCase().includes("resistances") ? line.split_handleColon("Resistances", 1) : line.split_handleColon("Resistance", 1))[1].trim();
+		stats.resist = (line.toLowerCase().includes("resistances") ? line.split_handleColon("Resistances", 1) : line.split_handleColon("Resistència", 1))[1].trim();
 		stats.resist = this._tryParseDamageResVulnImmune(stats.resist, "resist", options);
 	}
 
@@ -1144,7 +1144,7 @@ class CreatureParser extends BaseParser {
 	}
 
 	static _setCleanLanguages (stats, line) {
-		stats.languages = line.split_handleColon("Languages", 1)[1].trim();
+		stats.languages = line.split_handleColon("Idiomes", 1)[1].trim();
 		if (stats.languages && /^([-–‒—]|\\u201\d)+$/.exec(stats.languages.trim())) delete stats.languages;
 		else {
 			stats.languages = stats.languages
@@ -1152,7 +1152,7 @@ class CreatureParser extends BaseParser {
 				.split(/(\W)/g)
 				.map(s => {
 					return s
-						.replace(/Telepathy/g, "telepathy")
+						.replace(/Telepathy/g, "Telepatia")
 						.replace(/All/g, "all")
 						.replace(/Understands/g, "understands")
 						.replace(/Cant/g, "cant")

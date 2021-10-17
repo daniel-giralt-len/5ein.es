@@ -12,7 +12,7 @@
 					"type": "entries",
 					"name": "Demands of Nessus",
 					"entries": [
-						"A l'inici de cada torn de this creature, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition incapacitated}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
+						"A l'inici de cada torn de this creature, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition incapacitat}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
 					]
 				}
 			]
@@ -29,7 +29,7 @@
 					"type": "entries",
 					"name": "Demands of Nessus",
 					"entries": [
-						"A l'inici de cada torn de this creature, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition incapacitated}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
+						"A l'inici de cada torn de this creature, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition incapacitat}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
 					]
 				}
 			]
@@ -44,7 +44,7 @@
 					"type": "entries",
 					"name": "Gaze of Corruption (Recharge 6)",
 					"entries": [
-						"The cultist targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitució saving throw or take 16 ({@dice 3d10}) de dany necròtic and be {@condition poisoned} for 1 minute. L'objectiu {@condition poisoned} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"The cultist targets one creature it can see within 30 feet of it. The target ha de salvar per Constitució (CD 15). Si falla, take 16 ({@dice 3d10}) de dany necròtic and be {@condition emmetzinat} durant 1 minut. L'objectiu {@condition emmetzinat} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			]
@@ -61,7 +61,7 @@
 				"entry": "Any NPC or monster that has suffered a fall from grace"
 			},
 			"signaturespells": {
-				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (1st level), {@spell phantasmal force} (2nd level), {@spell imatge major} (3rd level)"
+				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (nivell 1), {@spell força fantasmagòrica} (nivell 2), {@spell imatge major} (nivell 3)"
 			},
 			"entries": [
 				"Baalzebul typically recruits individuals rather than cults. He offers hope to those whose failures drive them to seek redemption.",
@@ -87,7 +87,7 @@
 				"entry": "Any NPC or monster who has suffered a fall from grace"
 			},
 			"signaturespells": {
-				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (1st level), {@spell phantasmal force} (2nd level), {@spell imatge major} (3rd level)"
+				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (nivell 1), {@spell força fantasmagòrica} (nivell 2), {@spell imatge major} (nivell 3)"
 			},
 			"entries": [
 				"Baalzebul typically recruits individuals rather than cults. He offers hope to those whose failures drive them to seek redemption.",
@@ -107,10 +107,10 @@
 			"page": 17,
 			"type": "Diabolical",
 			"cultists": {
-				"entry": "{@creature acòlit||acolytes}, {@creature cultist||cultists}, {@creature cult fanatic||cult fanatics}, {@creature mage||mages}, or {@creature priest||priests} for Cultists, Initiates, and Priests; {@creature gladiador||gladiadors}, {@creature guard||guards}, {@creature knight||knights}, {@creature veteran||veterans}, or infrequently {@creature wight||wights} riding undead horses with the statistics of Large-sized {@creature zombie||zombies} for Grimnants; and {@creature assassin||assassins}, {@creature bandit||bandits}, {@creature bandit captain||bandit captains}, {@creature spy||spies}, or {@creature thug||thugs} for Infiltrators and Assassins."
+				"entry": "{@creature acòlit||acolytes}, {@creature cultist||cultists}, {@creature cult fanatic||cult fanatics}, {@creature mage||mages}, o {@creature priest||priests} for Cultists, Initiates, and Priests; {@creature gladiador||gladiadors}, {@creature guard||guards}, {@creature knight||knights}, {@creature veteran||veterans}, or infrequently {@creature wight||wights} riding undead horses with the statistics of Large-sized {@creature zombie||zombies} for Grimnants; and {@creature assassin||assassins}, {@creature bandit||bandits}, {@creature bandit captain||bandit captains}, {@creature spy||spies}, o {@creature thug||thugs} for Infiltrators and Assassins."
 			},
 			"signaturespells": {
-				"entry": "{@spell Mà Morta} (cantrip), {@spell hex} (1st level), {@spell phantasmal force} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Mà Morta} (cantrip), {@spell embruix} (nivell 1), {@spell força fantasmagòrica} (nivell 2), {@spell temor} (nivell 3)"
 			},
 			"entries": [
 				{
@@ -147,7 +147,7 @@
 					"type": "entries",
 					"name": "Demonic Vigor (1/dia)",
 					"entries": [
-						"Com a acció bonus, or as a reaction when this creature would drop to 0 hit points, it regains 1 hit point and gains temporary hit points equal to its Constitució modifier plus its maximum number of Hit Dice."
+						"Com a acció bonus, or as a reaction when this creature would drop to 0 hit points, it regains 1 hit point and gains punts de vida temporals equal to its Constitució modifier plus its maximum number of Hit Dice."
 					]
 				},
 				{
@@ -169,7 +169,7 @@
 					"type": "entries",
 					"name": "Borem's Embrace (1/Dia)",
 					"entries": [
-						"The cultist touches one creature within 5 feet of it. The target must succeed on a DC 15 Destresa saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@dice 3d6}) de dany de foc a l'inici de cada torn seu. The effect lasts for 1 minute, until the cultist is {@condition incapacitated} or dies, or until the target is immersed in water."
+						"The cultist touches one creature within 5 feet of it. The target ha de salvar per Destresa (CD 15). Si falla, be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@dice 3d6}) de dany de foc a l'inici de cada torn seu. The effect lasts for 1 minute, until the cultist is {@condition incapacitat} or dies, or until the target is immersed in water."
 					]
 				}
 			]
@@ -186,7 +186,7 @@
 				"entry": "{@creature Acòlit}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Guidance} (cantrip), {@spell identify} (1st level), {@spell see invisibility} (2nd level), {@spell clarividència} (3rd level)"
+				"entry": "{@spell Guia} (cantrip), {@spell identificar} (nivell 1), {@spell veure invisibilitat} (nivell 2), {@spell clarividència} (nivell 3)"
 			},
 			"entries": [
 				"Dispater trades in secrets, offering them in return for a creature's soul. His cults typically trade secrets to devils in return for other information. They often hatch conspiracies aimed at toppling and replacing governments or religious orders.",
@@ -196,14 +196,14 @@
 					"type": "entries",
 					"name": "Infernal Insight (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Com a acció bonus, this creature gains advantage on all ability checks and attack rolls it makes until the end of the current turn."
+						"Com a acció bonus, this creature gains advantage on all ability checks and attack rolls it makes fins el final del torn actual."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Vexing Escape (1/Dia)",
 					"entries": [
-						"As a reaction when this creature takes damage, it reduces that damage to 0 and teleports up to 60 feet to an unoccupied space it can see."
+						"As a reaction when this creature takes damage, it reduces that damage to 0 and teleports fins a 60 peus to an unoccupied space it can see."
 					]
 				}
 			]
@@ -220,7 +220,7 @@
 				"entry": "{@creature Acòlit}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Guidance} (cantrip), {@spell identify} (1st level), {@spell see invisibility} (2nd level), {@spell clarividència} (3rd level)"
+				"entry": "{@spell Guia} (cantrip), {@spell identificar} (nivell 1), {@spell veure invisibilitat} (nivell 2), {@spell clarividència} (nivell 3)"
 			},
 			"entries": [
 				"Dispater trades in secrets, offering them in return for a creature's soul. His cults typically trade secrets to devils in return for other information. They often hatch conspiracies aimed at toppling and replacing governments or religious orders.",
@@ -230,14 +230,14 @@
 					"type": "entries",
 					"name": "Infernal Insight (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Com a acció bonus, this creature gains advantage on all ability checks and attack rolls it makes until the end of the current turn."
+						"Com a acció bonus, this creature gains advantage on all ability checks and attack rolls it makes fins el final del torn actual."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Vexing Escape (1/Dia)",
 					"entries": [
-						"As a reaction when this creature takes damage, it reduces that damage to 0 and teleports up to 60 feet to an unoccupied space it can see."
+						"As a reaction when this creature takes damage, it reduces that damage to 0 and teleports fins a 60 peus to an unoccupied space it can see."
 					]
 				}
 			]
@@ -254,7 +254,7 @@
 				"entry": "{@creature Acòlit}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Friends} (cantrip), {@spell fascinar persona} (1st level), {@spell suggestió} (2nd level), {@spell hypnotic pattern} (3rd level)"
+				"entry": "{@spell Amistar} (cantrip), {@spell fascinar persona} (nivell 1), {@spell suggestió} (nivell 2), {@spell senefes hipnòtiques} (nivell 3)"
 			},
 			"entries": [
 				"Fierna is a master manipulator. Mortals who desire success in love or who seek to become beloved leaders at the head of a band of fanatics are drawn to striking bargains with her.",
@@ -270,7 +270,7 @@
 					"type": "entries",
 					"name": "Loyalty beyond Death (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"As a reaction when an ally this creature can see is reduced to 0 hit points, that ally is instead reduced to 1 hit point and gains temporary hit points equal to this creature's Carisma score + half its number of Hit Dice."
+						"As a reaction when an ally this creature can see es queda a 0 punts de vida, that ally is instead reduced to 1 hit point and gains punts de vida temporals equal to this creature's Carisma score + half its number of Hit Dice."
 					]
 				}
 			]
@@ -287,11 +287,11 @@
 				"entry": "{@creature Acòlit}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Friends} (cantrip), {@spell fascinar persona} (1st level), {@spell suggestió} (2nd level), {@spell hypnotic pattern} (3rd level)"
+				"entry": "{@spell Amistar} (cantrip), {@spell fascinar persona} (nivell 1), {@spell suggestió} (nivell 2), {@spell senefes hipnòtiques} (nivell 3)"
 			},
 			"entries": [
 				"Fierna is a master manipulator. Mortals who desire success in love or who seek to become beloved leaders at the head of a band of fanatics are drawn to striking bargains with her.",
-				"Fierna grants gifts that allow her cultists to manipulate emotions; they gain increases to Carisma, as well as proficiency with skills such as {@skill Persuasion} and {@skill Intimidation}. In addition, cultists can gain the Infernal Loyalty trait. Cult leaders can also gain the Loyalty beyond Death trait.",
+				"Fierna grants gifts that allow her cultists to manipulate emotions; they gain increases to Carisma, as well as proficiency with skills such as {@skill Persuasion} and {@skill Intimidation}. A més, cultists can gain the Infernal Loyalty trait. Cult leaders can also gain the Loyalty beyond Death trait.",
 				{
 					"type": "entries",
 					"name": "Infernal Loyalty",
@@ -303,7 +303,7 @@
 					"type": "entries",
 					"name": "Loyalty beyond Death (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"As a reaction when an ally this creature can see is reduced to 0 hit points, that ally is instead reduced to 1 hit point and gains temporary hit points equal to this creature's Carisma score + half its number of Hit Dice."
+						"As a reaction when an ally this creature can see es queda a 0 punts de vida, that ally is instead reduced to 1 hit point and gains punts de vida temporals equal to this creature's Carisma score + half its number of Hit Dice."
 					]
 				}
 			]
@@ -320,17 +320,17 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiador}, {@creature thug}, {@creature guerrer tribal}, {@creature veteran||veterans}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Shillelagh} (cantrip), {@spell wrathful smite} (1st level), {@spell enhance ability} (2nd level), {@spell aura de curació} (3rd level)"
+				"entry": "{@spell Shillelagh} (cantrip), {@spell càstig colèric} (nivell 1), {@spell esperonar habilitat} (nivell 2), {@spell aura de curació} (nivell 3)"
 			},
 			"entries": [
-				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, and {@creature troll||trolls}-can be lured into Geryon's cult.",
+				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, i {@creature troll||trolls}-can be lured into Geryon's cult.",
 				"His cultists typically form fighting companies and bandit gangs, proving their strength by defeating others in battle and taking what they want as loot.",
 				"Members of the cult can gain the Crushing Blow trait. Cult leaders can also gain the Indomable Força trait.",
 				{
 					"type": "entries",
 					"name": "Crushing Blow (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Com a acció bonus, the creature gains a bonus to the damage roll of its next atac armat melé that hits within the next minute. The bonus equals its Força modifier (minimum of +1)."
+						"Com a acció bonus, the creature gains a bonus to the damage roll of its next atac armat cos a cos that hits within the next minute. The bonus equals its Força modifier (minimum of +1)."
 					]
 				},
 				{
@@ -354,17 +354,17 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiador}, {@creature thug}, {@creature guerrer tribal}, {@creature veteran||veterans}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Shillelagh} (cantrip), {@spell wrathful smite} (1st level), {@spell enhance ability} (2nd level), {@spell aura de curació} (3rd level)"
+				"entry": "{@spell Shillelagh} (cantrip), {@spell càstig colèric} (nivell 1), {@spell esperonar habilitat} (nivell 2), {@spell aura de curació} (nivell 3)"
 			},
 			"entries": [
-				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, and {@creature troll||trolls}-can be lured into Geryon's cult.",
+				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, i {@creature troll||trolls}-can be lured into Geryon's cult.",
 				"Geryon's cultists typically form fighting companies and bandit gangs, proving their strength by defeating others in battle and taking what they want as loot.",
-				"Geryon grants increases to Força and Constitució. In addition, cultists can gain the Crushing Blow trait. Cult leaders can also gain the Indomable Força trait.",
+				"Geryon grants increases to Força and Constitució. A més, cultists can gain the Crushing Blow trait. Cult leaders can also gain the Indomable Força trait.",
 				{
 					"type": "entries",
 					"name": "Crushing Blow (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Com a acció bonus, the creature gains a bonus to the damage roll of its next atac armat melé. The bonus equals its Força modifier (minimum of +1)."
+						"Com a acció bonus, the creature gains a bonus to the damage roll of its next atac armat cos a cos. The bonus equals its Força modifier (minimum of +1)."
 					]
 				},
 				{
@@ -388,7 +388,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Friends} (cantrip), {@spell fascinar persona} (1st level), {@spell invisibility} (2nd level), {@spell haste} (3rd level)"
+				"entry": "{@spell Amistar} (cantrip), {@spell fascinar persona} (nivell 1), {@spell invisibility} (nivell 2), {@spell pressa} (nivell 3)"
 			},
 			"entries": [
 				"As an expert in finding loopholes and exploiting the law for her own good, Glasya is a patron of thieves and other criminals, especially corrupt nobles. Her influence is supposed to strengthen family bonds, but she has taken a liberal interpretation of that and offers gifts that can be turned against family members.",
@@ -422,12 +422,12 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Friends} (cantrip), {@spell fascinar persona} (1st level), {@spell invisibility} (2nd level), {@spell haste} (3rd level)"
+				"entry": "{@spell Amistar} (cantrip), {@spell fascinar persona} (nivell 1), {@spell invisibility} (nivell 2), {@spell pressa} (nivell 3)"
 			},
 			"entries": [
 				"As an expert in finding loopholes and exploiting the law for her own good, Glasya is a patron of thieves and other criminals, especially corrupt nobles. Her influence is supposed to strengthen family bonds, but she has taken a liberal interpretation of that and offers gifts that can be turned against family members.",
 				"{@creature goblin||Goblins} who risk insurrection against their {@creature hobgoblin} masters make pacts with Glasya, as do {@creature kenku} who form criminal gangs.",
-				"Glasya grants increases to Carisma and Destresa. In addition, cultists can gain the Step into Shadows trait. Cult leaders can also gain the Infernal Ring Leader trait.",
+				"Glasya grants increases to Carisma and Destresa. A més, cultists can gain the Step into Shadows trait. Cult leaders can also gain the Infernal Ring Leader trait.",
 				{
 					"type": "entries",
 					"name": "Step into Shadows (es Recarrega amb un descans Curt o Llarg)",
@@ -454,7 +454,7 @@
 					"type": "entries",
 					"name": "Haask's Presence (1/Dia)",
 					"entries": [
-						"The cultist transforms into a Tiny, leech-like being and teleports onto the shoulder of a humanoid that it can see within 30 feet of it. The targeted humanoid must succeed on a DC 15 Carisma saving throw or be {@condition charmed} by the cultist. While the target is {@condition charmed}, the cultist has control of it on the target's next turn. At the end of that turn, the cultist teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The cultist can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal."
+						"The cultist transforms into a Tiny, leech-like being and teleports onto the shoulder of a humanoid that it can see within 30 feet of it. The targeted humanoid ha de salvar per Carisma (CD 15). Si falla, be {@condition fascinat} by the cultist. While the target is {@condition fascinat}, the cultist has control of it on the target's next turn. At the end of that turn, the cultist teleports to an unoccupied space it can see within 30 feet of it and returns to its normal form. The cultist can't be targeted directly by any attack or other effect while it's in the slug-like form, but it is subject to areas of effect as normal."
 					]
 				}
 			]
@@ -471,7 +471,7 @@
 				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Guarda d'Armes} (cantrip), {@spell expeditious retreat} (1st level), {@spell grimpat d'aranya} (2nd level), {@spell gaseous form} (3rd level)"
+				"entry": "{@spell Guarda d'Armes} (cantrip), {@spell retirada estratègica} (nivell 1), {@spell grimpat d'aranya} (nivell 2), {@spell forma gasosa} (nivell 3)"
 			},
 			"entries": [
 				"Levistus has no cult in the traditional sense. Instead, he offers favors to those who are desperate to escape a seemingly inevitable fate.",
@@ -498,7 +498,7 @@
 				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Guarda d'Armes} (cantrip), {@spell expeditious retreat} (1st level), {@spell grimpat d'aranya} (2nd level), {@spell gaseous form} (3rd level)"
+				"entry": "{@spell Guarda d'Armes} (cantrip), {@spell retirada estratègica} (nivell 1), {@spell grimpat d'aranya} (nivell 2), {@spell forma gasosa} (nivell 3)"
 			},
 			"entries": [
 				"Levistus has no cult in the traditional sense.",
@@ -526,7 +526,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Apedaçar} (cantrip), {@spell Tenser's floating disk} (1st level), {@spell pany arcà} (2nd level), {@spell glyph of warding} (3rd level)"
+				"entry": "{@spell Apedaçar} (cantrip), {@spell Disc Flotant d'en Tenser} (nivell 1), {@spell pany arcà} (nivell 2), {@spell glif de guarda} (nivell 3)"
 			},
 			"entries": [
 				"Mammon's greed overwhelms everything else. He deals with mortals who desire material wealth and provides them with the ability to spread that greed like an infection.",
@@ -560,7 +560,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Apedaçar} (cantrip), {@spell Tenser's floating disk} (1st level), {@spell pany arcà} (2nd level), {@spell glyph of warding} (3rd level)"
+				"entry": "{@spell Apedaçar} (cantrip), {@spell Disc Flotant d'en Tenser} (nivell 1), {@spell pany arcà} (nivell 2), {@spell glif de guarda} (nivell 3)"
 			},
 			"entries": [
 				"Mammon's greed overwhelms everything else.",
@@ -595,7 +595,7 @@
 				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Fire bolt} (cantrip), {@spell mans ardents} (1st level), {@spell flaming sphere} (2nd level), {@spell bola de foc} (3rd level)"
+				"entry": "{@spell Sageta de Foc} (cantrip), {@spell mans ardents} (nivell 1), {@spell esfera de flames} (nivell 2), {@spell bola de foc} (nivell 3)"
 			},
 			"entries": [
 				"As a master of the arcane arts, Mephistopheles finds eager recruits among those who study magic. Any monsters that use spells, such as {@creature storm giant||storm giants} and {@creature oni}, might follow him, and wizards' guilds and conclaves of sages are the most likely to come under his influence.",
@@ -604,7 +604,7 @@
 					"type": "entries",
 					"name": "Spell Shield",
 					"entries": [
-						"This creature gains advantage on saving throws against spells. If it succeeds on such a saving throw, it gains temporary hit points equal to the spell's level."
+						"This creature gains advantage on saving throws against spells. If it succeeds on such a saving throw, it gains punts de vida temporals equal to the spell's level."
 					]
 				},
 				{
@@ -628,16 +628,16 @@
 				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
 			},
 			"signaturespells": {
-				"entry": "{@spell Fire bolt} (cantrip), {@spell mans ardents} (1st level), {@spell flaming sphere} (2nd level), {@spell bola de foc} (3rd level)"
+				"entry": "{@spell Sageta de Foc} (cantrip), {@spell mans ardents} (nivell 1), {@spell esfera de flames} (nivell 2), {@spell bola de foc} (nivell 3)"
 			},
 			"entries": [
 				"As a master of the arcane arts, Mephistopheles finds eager recruits among those who study magic. Any monster that uses spells, such as {@creature storm giant||storm giants} and {@creature oni}, might follow him, and wizards' guilds and conclaves of sages are the most likely to come under his influence.",
-				"Mephistopheles grants habilitat de llançament de conjurs to many of his followers. In addition, cultists can gain the Spell Shield trait. Cult leaders can also gain the Spell Leech trait.",
+				"Mephistopheles grants habilitat de llançament de conjurs to many of his followers. A més, cultists can gain the Spell Shield trait. Cult leaders can also gain the Spell Leech trait.",
 				{
 					"type": "entries",
 					"name": "Spell Shield",
 					"entries": [
-						"This creature gains advantage on saving throws against spells. If it succeeds on such a saving throw, it gains temporary hit points equal to the spell's level."
+						"This creature gains advantage on saving throws against spells. If it succeeds on such a saving throw, it gains punts de vida temporals equal to the spell's level."
 					]
 				},
 				{
@@ -659,7 +659,7 @@
 					"type": "entries",
 					"name": "Tharizdun's Spark (Recharge 6)",
 					"entries": [
-						"Com a acció bonus, the cultist touches a simple or martial weapon or a natural weapon, if it has one. The next creature hit by the touched weapon must succeed on a DC 15 Saviesa saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness Effects|dmg|8|Madness Effects}\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success."
+						"Com a acció bonus, the cultist touches una arma simple o marcial or a natural weapon, if it has one. The next creature hit by the touched weapon ha de salvar per Saviesa (CD 15). Si falla, experience short-term madness durant 10 minuts. Consult the Short-Term Madness table (see \"{@book Madness Effects|dmg|8|Madness Effects}\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -703,7 +703,7 @@
 									"type": "entries",
 									"name": "Prophet of Earth",
 									"entries": [
-										"A medusa named Marlos Urnrayle leads the Black Earth cult. He wields the elemental weapon {@item Ironfang|PotA}, a war pick infused with the power of Ogrémoch, the Prince of Evil Earth. Marlos is vain and cruel, an extreme narcissist who delights in surrounding himself with objects of beauty and luxurious comforts. Beneath this sneering self-assurance lies a bitter being who loathes himself and holds everyone around him in contempt.",
+										"A medusa named Marlos Urnrayle leads the Black Earth cult. He wields the arma elemental {@item Ironfang|PotA}, a war pick infused with the power of Ogrémoch, the Prince of Evil Earth. Marlos is vain and cruel, an extreme narcissist who delights in surrounding himself with objects of beauty and luxurious comforts. Beneath this sneering self-assurance lies a bitter being who loathes himself and holds everyone around him in contempt.",
 										"Marlos began life as a human aristocrat, born into a wealthy Cormyrean family. He squandered his familys wealth on endless self-indulgence, seeking more questionable forms of entertainment through the years. The Urnrayle estate became known as a place of outrageous masquerades, bizarre banquets, and grotesque orgies. Marlos required his guests to don ugly or monstrous masks, thus ensuring that no ones beauty would outshine his own.",
 										"As he aged, Marlos turned to magic to preserve his fading beauty. After searching for years, he found a ring that contained the stolen vitality of a lovely fey creature. As long as he wore the ring, his imperfections vanished and no one could resist his physical charms-until the day the ring transformed Marlos into a medusa. The horror of his fate drove Marlos mad. He fled his ancestral home, taking his collection of masks with him.",
 										"After years of wandering and hiding in one ruined estate or another across the Western Heartlands, Marlos felt drawn to the desolate Sumber Hills by troubling dreams and visions. A long stairway beneath a ruined monastery brought him to an ancient cavern with a hideous altar, upon which lay a war pick of iron. When the medusa claimed {@item Ironfang|PotA}, his purpose finally became clear to him. He established his lair in the dungeon nearby and began building the Cult of the Black Earth.",
@@ -768,7 +768,7 @@
 									"type": "entries",
 									"name": "Prophet of Water",
 									"entries": [
-										"The former sailor Gar Shatterkeel leads the Crushing Wave cult. He wields the elemental weapon {@item Drown|PotA}, a trident imbued with the essence of Olhydra, Princess of Evil Water. Gar is a sullen man who says little, letting his actions speak for him. He believes he has been wronged by the world and hates all people except those as broken and unfortunate as himself. Gar also despises weakness in others.",
+										"The former sailor Gar Shatterkeel leads the Crushing Wave cult. He wields the arma elemental {@item Drown|PotA}, a trident imbued with the essence of Olhydra, Princess of Evil Water. Gar is a sullen man who says little, letting his actions speak for him. He believes he has been wronged by the world and hates all people except those as broken and unfortunate as himself. Gar also despises weakness in others.",
 										"Gar was born in a poor fishing village in the Nelanther Isles. At a young age, he lost his family to a sahuagin attack. The sea devils slaughtered almost everyone he knew. A Tethyrian merchant galley conscripted the young orphan into service, and Gar was forced into a brutal indentured servitude that was barely better than being enslaved. His unwilling service came to an end when pirates attacked the merchant ship. During the fighting, Gar was knocked overboard. For days he survived by clinging to the ships wreckage, until a shark ripped off his left arm. Death seemed imminent, but a powerful current arose and bore him away from the hungry predator. Within an hour he was cast upon the shores of the Sword Coast.",
 										"Gar believed that the current that had saved his life was an elemental sent by the sea. From that day forward, he devoted himself to the ocean, teaching himself its secrets and learning powerful water magic over years of lonely wandering. He despised all other people, remembering only his harsh treatment by the merchant crew and the brutality of the pirates. But in time he became aware of a call to a higher purpose, impelling him to find other examples of human flotsam and teach them about the power of the sea.",
 										"Gars visions led him to the secret waters beneath the Sumber Hills. He found a hidden cavern temple, on whose altar lay a powerful magical trident. Sensing its power, Gar took up the weapon and began to call his cult to join him in the Temple of the Crushing Wave.",
@@ -933,7 +933,7 @@
 					"type": "entries",
 					"name": "Radiant Flames (1/Dia)",
 					"entries": [
-						"Multihued flame surrounds the cultist for 1 minute, until the cultist is incapacitated or dies, or until the cultist extinguishes the flame (no requereix acció). While inflamed, the cultist has telepathy with a range of 30 feet, and it can teleport as a bonus action up to 30 feet to an unoccupied space it can see. In addition, every creature that starts its turn within 5 feet of the cultist must make a DC 15 Destresa saving throw, taking 16 ({@dice 3d10}) de dany radiant on a failed save; si supera, en rep la meitat."
+						"Multihued flame surrounds the cultist for 1 minute, until the cultist is incapacitated or dies, or until the cultist extinguishes the flame (no requereix acció). While inflamed, the cultist has telepathy amb un abast de 30 peus, and it can teleport as a bonus action fins a 30 peus to an unoccupied space it can see. A més, every creature that starts its turn within 5 feet of the cultist ha de salvar per Destresa (CD 15), taking 16 ({@dice 3d10}) de dany radiant; si supera, en rep la meitat."
 					]
 				}
 			]
@@ -950,7 +950,7 @@
 				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiador}, {@creature guard}, {@creature knight}, {@creature veteran}"
 			},
 			"signaturespells": {
-				"entry": "{@spell True strike} (cantrip), {@spell heroism} (1st level), {@spell spiritual weapon} (2nd level), {@spell mantell del creuat} (3rd level)"
+				"entry": "{@spell Impacte Veritable} (cantrip), {@spell heroisme} (nivell 1), {@spell arma espiritual} (nivell 2), {@spell mantell del creuat} (nivell 3)"
 			},
 			"entries": [
 				"Zariel's cult offers martial training and talent. It flourishes in areas wracked by war. Refugees with the will to fight but lacking experience are drawn to Zariel, as she can provide them with the skills needed to survive. Established warriors looking for an edge are otherwise her most common recruits.",
@@ -967,7 +967,7 @@
 					"type": "entries",
 					"name": "Infernal Tactics",
 					"entries": [
-						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition incapacitated}. It can swap the initiative results of the chosen creatures among them."
+						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition incapacitat}. It can swap the initiative results of the chosen creatures among them."
 					]
 				}
 			]
@@ -984,12 +984,12 @@
 				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiador}, {@creature guard}, {@creature knight}, {@creature veteran}"
 			},
 			"signaturespells": {
-				"entry": "{@spell True strike} (cantrip), {@spell heroism} (1st level), {@spell spiritual weapon} (2nd level), {@spell mantell del creuat} (3rd level)"
+				"entry": "{@spell Impacte Veritable} (cantrip), {@spell heroisme} (nivell 1), {@spell arma espiritual} (nivell 2), {@spell mantell del creuat} (nivell 3)"
 			},
 			"entries": [
 				"Zariel's cult offers martial training and talent. It flourishes in areas wracked by war. Refugees with the will to fight but lacking experience are drawn to Zariel, as she can provide them with the skills needed to survive. Established warriors looking for an edge are otherwise her most common recruits.",
 				"Knightly orders, fighters' guilds, and mercenary companies are the most likely to come under her sway. {@creature hobgoblin||Hobgoblins} sometimes turn to her, but only if they have escaped the influence of Maglubiyet and his priests.",
-				"Zariel gifts her followers with martial prowess. For example, a simple peasant might gain the abilities of a veteran. In addition, cultists can gain the Ferocious Surge trait. Cult leaders can also gain the Infernal Tactics trait.",
+				"Zariel gifts her followers with martial prowess. For example, a simple peasant might gain the abilities of a veteran. A més, cultists can gain the Ferocious Surge trait. Cult leaders can also gain the Infernal Tactics trait.",
 				{
 					"type": "entries",
 					"name": "Ferocious Surge (es Recarrega amb un descans Curt o Llarg)",
@@ -1001,7 +1001,7 @@
 					"type": "entries",
 					"name": "Infernal Tactics",
 					"entries": [
-						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition incapacitated}. It can swap the initiative results of the chosen creatures among them."
+						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition incapacitat}. It can swap the initiative results of the chosen creatures among them."
 					]
 				}
 			]
@@ -1033,15 +1033,15 @@
 				"entry": "Up to a +4 bonus to Força, Saviesa, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell Hunter's mark} (1st level), {@spell sentits de bèstia} (2nd level), {@spell slow} (3rd level)"
+				"entry": "{@spell Marca de Caça} (nivell 1), {@spell sentits de bèstia} (nivell 2), {@spell alentir} (nivell 3)"
 			},
 			"entries": [
-				"Baphomet grants the gifts of cunning and physical power. He grants his rank-and-file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Labyrinthine Recall trait.",
+				"Baphomet grants the gifts of cunning and physical power. He grants his rank-and-file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Enteniment Laberíntic trait.",
 				{
 					"type": "entries",
 					"name": "Unerring Tracker",
 					"entries": [
-						"Com a acció bonus, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitated} or if it uses this ability on a different target."
+						"Com a acció bonus, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitat} or if it uses this ability on a different target."
 					]
 				},
 				{
@@ -1053,7 +1053,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Labyrinthine Recall",
+					"name": "Enteniment Laberíntic",
 					"entries": [
 						"This creature can perfectly recall any path it has traveled."
 					]
@@ -1069,15 +1069,15 @@
 				"entry": "Up to a +4 bonus to Força, Saviesa, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell Hunter's mark} (1st level), {@spell sentits de bèstia} (2nd level), {@spell slow} (3rd level)"
+				"entry": "{@spell Marca de Caça} (nivell 1), {@spell sentits de bèstia} (nivell 2), {@spell alentir} (nivell 3)"
 			},
 			"entries": [
-				"Baphomet grants the gifts of cunning and physical power. He grants his rank and file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Labyrinthine Recall trait.",
+				"Baphomet grants the gifts of cunning and physical power. He grants his rank and file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Enteniment Laberíntic trait.",
 				{
 					"type": "entries",
 					"name": "Unerring Tracker",
 					"entries": [
-						"Com a acció bonus, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitated} or if it uses this ability on a different target."
+						"Com a acció bonus, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitat} or if it uses this ability on a different target."
 					]
 				},
 				{
@@ -1089,7 +1089,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Labyrinthine Recall",
+					"name": "Enteniment Laberíntic",
 					"entries": [
 						"This creature can perfectly recall any path it has traveled."
 					]
@@ -1105,7 +1105,7 @@
 				"entry": "Up to a +4 bonus to Força, Carisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell Fascinar Persona} (1st level), {@spell enlarge/reduce} (2nd level), {@spell vampiric touch} (3rd level)"
+				"entry": "{@spell Fascinar Persona} (nivell 1), {@spell engrandir/enxiquir} (nivell 2), {@spell toc vampíric} (nivell 3)"
 			},
 			"entries": [
 				"Demogorgon's followers are typically lone killers driven by the whispering voice of their master. His most blessed followers gain the Two Minds of Madness trait.",
@@ -1127,7 +1127,7 @@
 				"entry": "Up to a +4 bonus to Força, Carisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell Fascinar Persona} (1st level), {@spell enlarge/reduce} (2nd level), {@spell vampiric touch} (3rd level)"
+				"entry": "{@spell Fascinar Persona} (nivell 1), {@spell engrandir/enxiquir} (nivell 2), {@spell toc vampíric} (nivell 3)"
 			},
 			"entries": [
 				"Demogorgon's followers are typically lone killers driven by the whispering voice of their master. His most blessed followers gain the Two Minds of Madness trait.",
@@ -1149,7 +1149,7 @@
 				"entry": "Up to a +4 bonus to Saviesa, Carisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (1st level), {@spell invisibility} (2nd level), {@spell hypnotic pattern} (3rd level)"
+				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (nivell 1), {@spell invisibility} (nivell 2), {@spell senefes hipnòtiques} (nivell 3)"
 			},
 			"entries": [
 				"As a master of deceit, Fraz-Urb'luu teaches his initiates the secrets of lies and illusions. They can also gain the Liar's Eye trait.",
@@ -1172,7 +1172,7 @@
 				"entry": "Up to a +4 bonus to Saviesa, Carisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (1st level), {@spell invisibility} (2nd level), {@spell hypnotic pattern} (3rd level)"
+				"entry": "{@spell Il·lusió Menor} (cantrip), {@spell ego camuflatge} (nivell 1), {@spell invisibility} (nivell 2), {@spell senefes hipnòtiques} (nivell 3)"
 			},
 			"entries": [
 				"As a master of deceit, Fraz-Urb'luu teaches his initiates the secrets of lies and illusions. They can also gain the Liar's Eye trait.",
@@ -1195,7 +1195,7 @@
 				"Demons of sufficient cunning and power can bestow boons, using the boons' recipients as pawns. A {@creature goristro} can grant the following special trait:",
 				{
 					"type": "entries",
-					"name": "Labyrinthine Recall",
+					"name": "Enteniment Laberíntic",
 					"entries": [
 						"This creature can perfectly recall any path it has traveled."
 					]
@@ -1211,7 +1211,7 @@
 				"entry": "Up to a +4 bonus to Constitució, Carisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell False life} (1st level), {@spell hold person} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Pseudo Vida} (nivell 1), {@spell immobilitzar humanoide} (nivell 2), {@spell temor} (nivell 3)"
 			},
 			"entries": [
 				"The Lord of Forbidden Pleasures grants his cultists the ability to transform even the most hideous pain into pleasure. His cultists gain the Joy from Pain trait, while his cult leaders gain the Master of Pleasures trait.",
@@ -1219,14 +1219,14 @@
 					"type": "entries",
 					"name": "Joy from Pain",
 					"entries": [
-						"Whenever this creature suffers a critical hit, it can make one atac armat melé as a reaction."
+						"Whenever this creature suffers a critical hit, it can make one atac armat cos a cos as a reaction."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Master of Pleasures",
 					"entries": [
-						"As a reaction when this creature takes damage, it can magically grant 5 temporary hit points to itself and up to three allies within 30 feet of it."
+						"As a reaction when this creature takes damage, it can magically grant 5 punts de vida temporals to itself and up to three allies within 30 feet of it."
 					]
 				}
 			]
@@ -1240,7 +1240,7 @@
 				"entry": "Up to a +4 bonus to Constitució, Carisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell False life} (1st level), {@spell hold person} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Pseudo Vida} (nivell 1), {@spell immobilitzar humanoide} (nivell 2), {@spell temor} (nivell 3)"
 			},
 			"entries": [
 				"The Lord of Forbidden Pleasures grants his cultists the ability to transform even the most hideous pain into pleasure. His cultists gain the Joy from Pain trait, while his cult leaders gain the Master of Pleasures trait.",
@@ -1248,14 +1248,14 @@
 					"type": "entries",
 					"name": "Joy from Pain",
 					"entries": [
-						"Whenever this creature suffers a critical hit, it can make one atac armat melé as a reaction."
+						"Whenever this creature suffers a critical hit, it can make one atac armat cos a cos as a reaction."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Master of Pleasures",
 					"entries": [
-						"As a reaction when this creature takes damage, it can magically grant 5 temporary hit points to itself and up to three allies within 30 feet of it."
+						"As a reaction when this creature takes damage, it can magically grant 5 punts de vida temporals to itself and up to three allies within 30 feet of it."
 					]
 				}
 			]
@@ -1269,7 +1269,7 @@
 				"entry": "Up to a +8 bonus to Constitució, with an equal penalty to Intel·ligència, Saviesa, and Carisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell Grease} (1st level), {@spell tirarany} (2nd level), {@spell gaseous form} (3rd level)"
+				"entry": "{@spell Greix} (nivell 1), {@spell tirarany} (nivell 2), {@spell forma gasosa} (nivell 3)"
 			},
 			"entries": [
 				"The Faceless Lord's followers are bizarre loners who prefer the company of slimes and oozes to other creatures. They gain the hardiness of a slime at the cost of their minds. Lesser followers gain the Liquid Movement trait. The most dedicated devotees of ooze also gain the Slimy Organs trait.",
@@ -1277,15 +1277,15 @@
 					"type": "entries",
 					"name": "Liquid Movement",
 					"entries": [
-						"Com a acció, this creature can move up to 20 feet through spaces no more than an inch in diameter. It must end this movement in a space that can accommodate its full size. Otherwise, it takes 5 force damage and returns to the space where it began this movement."
+						"Com a acció, this creature can move fins a 20 peus through spaces no more than an inch in diameter. It must end this movement in a space that can accommodate its full size. Otherwise, it takes 5 force damage and returns to the space where it began this movement."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Slimy Organs",
 					"entries": [
-						"This creature has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-						"Whenever this creature suffers a critical hit or is reduced to 0 hit points, all creatures within 5 feet of it take acid damage equal to its number of Hit Dice."
+						"This creature has resistance to dany contundent, tallant, i perforant from nonmagical attacks.",
+						"Whenever this creature suffers a critical hit or es queda a 0 punts de vida, all creatures within 5 feet of it take acid damage equal to its number of Hit Dice."
 					]
 				}
 			]
@@ -1304,15 +1304,15 @@
 					"type": "entries",
 					"name": "Liquid Movement",
 					"entries": [
-						"Com a acció, this creature can move up to 20 feet through spaces no more than an inch in diameter. It must end this movement in a space that can accommodate its full size. Otherwise, it takes 5 force damage and returns to the space where it began this movement."
+						"Com a acció, this creature can move fins a 20 peus through spaces no more than an inch in diameter. It must end this movement in a space that can accommodate its full size. Otherwise, it takes 5 force damage and returns to the space where it began this movement."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Slimy Organs",
 					"entries": [
-						"This creature has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-						"Whenever it suffers a critical hit or is reduced to 0 hit points, all creatures within 5 feet of it take acid damage equal to its number of Hit Dice."
+						"This creature has resistance to dany contundent, tallant, i perforant from nonmagical attacks.",
+						"Whenever it suffers a critical hit or es queda a 0 punts de vida, all creatures within 5 feet of it take acid damage equal to its number of Hit Dice."
 					]
 				}
 			]
@@ -1344,7 +1344,7 @@
 					"type": "entries",
 					"name": "Guarded Mind",
 					"entries": [
-						"This creature is immune to the {@condition frightened} condition."
+						"This creature is immune to the {@condition acovardit} condition."
 					]
 				}
 			]
@@ -1358,7 +1358,7 @@
 				"entry": "Up to a +4 bonus to Intel·ligència, Saviesa, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell False life} (1st level), {@spell ray of enfeeblement} (2nd level), {@spell animar els morts} (3rd level)"
+				"entry": "{@spell Pseudo Vida} (nivell 1), {@spell raig d'afebliment} (nivell 2), {@spell animar els morts} (nivell 3)"
 			},
 			"entries": [
 				"In most cases, Orcus transforms his followers into undead creatures such as ghouls and wights. Sometimes he needs his followers to retain their mortal forms, to more easily infiltrate a kingdom or city. He grants rank-and-file cultists the Undying Soul trait, and his cult leaders gain the Aura of Death trait.",
@@ -1366,14 +1366,14 @@
 					"type": "entries",
 					"name": "Undying Soul (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"If this creature is reduced to 0 hit points, it immediately makes a DC 10 Constitució saving throw. If it succeeds, it is instead reduced to 1 hit point."
+						"If this creature es queda a 0 punts de vida, it immediately makes a DC 10 Constitució saving throw. If it succeeds, it is instead reduced to 1 hit point."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Aura of Death",
 					"entries": [
-						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitated}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition frightened} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
+						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitat}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition acovardit} condition and have resistance to radiant damage. Enemies suffer disadvantage on salvades de mort while in the aura."
 					]
 				}
 			]
@@ -1387,7 +1387,7 @@
 				"entry": "Up to a +4 bonus to Intel·ligència, Saviesa, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell False life} (1st level), {@spell ray of enfeeblement} (2nd level), {@spell animar els morts} (3rd level)"
+				"entry": "{@spell Pseudo Vida} (nivell 1), {@spell raig d'afebliment} (nivell 2), {@spell animar els morts} (nivell 3)"
 			},
 			"entries": [
 				"In most cases, Orcus transforms his followers into undead creatures such as ghouls and wights. Sometimes he needs his followers to retain their mortal forms, to more easily infiltrate a kingdom or city. He grants rank and file cultists the Undying Soul trait, and his cult leaders gain the Aura of Death trait.",
@@ -1395,14 +1395,14 @@
 					"type": "entries",
 					"name": "Undying Soul (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"If this creature is reduced to 0 hit points, it immediately makes a DC 10 Constitució saving throw. If it succeeds, it is instead reduced to 1 hit point."
+						"If this creature es queda a 0 punts de vida, it immediately makes a DC 10 Constitució saving throw. If it succeeds, it is instead reduced to 1 hit point."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Aura of Death",
 					"entries": [
-						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitated}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition frightened} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
+						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitat}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition acovardit} condition and have resistance to radiant damage. Enemies suffer disadvantage on salvades de mort while in the aura."
 					]
 				}
 			]
@@ -1416,7 +1416,7 @@
 				"entry": "Up to a +4 bonus to Força and Destresa, with an equal penalty to Intel·ligència and Carisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell Tasha's hideous laughter} (1st level), {@spell corona de bogeria} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Riure Horrible de la Tasha} (nivell 1), {@spell corona de bogeria} (nivell 2), {@spell temor} (nivell 3)"
 			},
 			"entries": [
 				"Yeenoghu's followers form packs of cannibalistic marauders. They grow more like {@creature gnoll||gnolls} in temperament with each passing day. His most devoted followers gain the Gnashing Jaws action option and the Rampage trait, while cult leaders gain the Aura of Bloodthirst trait.",
@@ -1424,12 +1424,12 @@
 					"type": "entries",
 					"name": "Gnashing Jaws",
 					"entries": [
-						"{@i Atac armat melé}: bonus a impactar equal to this creature's proficiency bonus plus its Força modifier, 5 peus d'abast, un objectiu. Hit: {@dice 1d4} + this creature's Força modifier piercing damage."
+						"{@i Atac armat cos a cos}: bonus a impactar equal to this creature's proficiency bonus plus its Força modifier, 5 peus d'abast, un objectiu. Hit: {@dice 1d4} + this creature's Força modifier piercing damage."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rampage",
+					"name": "Enfurismar",
 					"entries": [
 						"When this creature reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make its Gnashing Jaws attack once."
 					]
@@ -1438,7 +1438,7 @@
 					"type": "entries",
 					"name": "Aura of Bloodthirst",
 					"entries": [
-						"If this creature isn't {@condition incapacitated}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
+						"If this creature isn't {@condition incapacitat}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
 					]
 				}
 			]
@@ -1452,7 +1452,7 @@
 				"entry": "Up to a +4 bonus to Força and Destresa, with an equal penalty to Intel·ligència and Carisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell Tasha's hideous laughter} (1st level), {@spell corona de bogeria} (2nd level), {@spell fear} (3rd level)"
+				"entry": "{@spell Riure Horrible de la Tasha} (nivell 1), {@spell corona de bogeria} (nivell 2), {@spell temor} (nivell 3)"
 			},
 			"entries": [
 				"Yeenoghu's followers form roving packs of cannibalistic marauders. They grow more like {@creature gnoll||gnolls} in temperament and action with each passing day. His most devoted followers gain the Gnashing Jaws action option and the Rampage trait, while cult leaders gain the Aura of Bloodthirst trait.",
@@ -1460,12 +1460,12 @@
 					"type": "entries",
 					"name": "Gnashing Jaws",
 					"entries": [
-						"{@i Atac armat melé}: bonus a impactar equal to this creature's proficiency bonus plus its Força modifier, 5 peus d'abast, un objectiu. Hit: {@dice 1d4} + this creature's Força modifier piercing damage."
+						"{@i Atac armat cos a cos}: bonus a impactar equal to this creature's proficiency bonus plus its Força modifier, 5 peus d'abast, un objectiu. Hit: {@dice 1d4} + this creature's Força modifier piercing damage."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rampage",
+					"name": "Enfurismar",
 					"entries": [
 						"When this creature reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make its Gnashing Jaws attack once."
 					]
@@ -1474,7 +1474,7 @@
 					"type": "entries",
 					"name": "Aura of Bloodthirst",
 					"entries": [
-						"If this creature isn't {@condition incapacitated}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
+						"If this creature isn't {@condition incapacitat}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
 					]
 				}
 			]
@@ -1488,7 +1488,7 @@
 				"entry": "Up to a +4 bonus to Constitució, with an equal penalty to Intel·ligència, Saviesa, and Carisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell Ray of sickness} (1st level), {@spell suggestió} (2nd level), {@spell plant growth} (3rd level)"
+				"entry": "{@spell Raig d'Arcada} (nivell 1), {@spell suggestió} (nivell 2), {@spell creixement de la flora} (nivell 3)"
 			},
 			"entries": [
 				"Zuggtmoy's followers are primarily mindless victims of her children's strange spores. The spores burrow into a victim's brain, turning it into a fanatic servitor. Each victim gains the Spore Kissed trait.",
@@ -1496,7 +1496,7 @@
 					"type": "entries",
 					"name": "Spore Kissed",
 					"entries": [
-						"This creature is immune to the {@condition charmed} and {@condition frightened} conditions. In addition, si es queda a 0 punts de cop, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
+						"This creature is immune to the {@condition fascinat} and {@condition acovardit} conditions. A més, si es queda a 0 punts de vida, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
 					]
 				}
 			]
@@ -1515,7 +1515,7 @@
 					"type": "entries",
 					"name": "Spore Kissed",
 					"entries": [
-						"This creature is immune to the {@condition charmed} and {@condition frightened} conditions. In addition, si es queda a 0 punts de cop, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
+						"This creature is immune to the {@condition fascinat} and {@condition acovardit} conditions. A més, si es queda a 0 punts de vida, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
 					]
 				}
 			]

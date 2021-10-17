@@ -850,9 +850,9 @@ class ClassesPage extends BaseComponent {
 				${$tblGroupHeaders}
 			</tr>
 			<tr>
-				<th class="cls-tbl__col-level">Level</th>
-				<th class="cls-tbl__col-prof-bonus">Proficiency Bonus</th>
-				<th>Features</th>
+				<th class="cls-tbl__col-level">Nivell</th>
+				<th class="cls-tbl__col-prof-bonus">Bonus de Competència</th>
+				<th>Trets</th>
 				${$tblHeaders}
 			</tr>
 			${metasTblRows.map(it => it.$row)}

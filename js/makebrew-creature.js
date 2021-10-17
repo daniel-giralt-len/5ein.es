@@ -701,7 +701,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getAlignmentInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Alignment", {isMarked: true});
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Alineament", {isMarked: true});
 
 		const doUpdateState = () => {
 			const raw = alignmentRows.map(row => row.getAlignment());
@@ -1434,7 +1434,7 @@ class CreatureBuilder extends Builder {
 				.click(() => _handleButtonPress());
 			if (this._meta.profSkill[prop] === 1) $btnProf.addClass("active");
 
-			const $btnExpert = $(`<button class="btn btn-xs btn-default ml-2" title="Has Expertise">Expert.</button>`)
+			const $btnExpert = $(`<button class="btn btn-xs btn-default ml-2" title="Has Perícia">Expert.</button>`)
 				.click(() => _handleButtonPress(true));
 			if (this._meta.profSkill[prop] === 2) $btnExpert.addClass("active");
 
@@ -1530,7 +1530,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getResistInput (cb) {
-		return this.__$getDefencesInput(cb, "Damage Resistances", "Resistance", "resist")
+		return this.__$getDefencesInput(cb, "Damage Resistances", "Resistència", "resist")
 	}
 
 	__$getImmuneInput (cb) {
@@ -1752,7 +1752,7 @@ class CreatureBuilder extends Builder {
 	}
 
 	__$getLanguageInput (cb) {
-		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Languages");
+		const [$row, $rowInner] = BuilderUi.getLabelledRowTuple("Idiomes");
 
 		const doUpdateState = () => {
 			const raw = $iptLanguages.val().trim();
@@ -1766,7 +1766,7 @@ class CreatureBuilder extends Builder {
 		if (this._state.languages && this._state.languages.length) $iptLanguages.val(this._state.languages.join(", "));
 
 		const availLanguages = Object.entries(Parser.MON_LANGUAGE_TAG_TO_FULL).filter(([k]) => !CreatureBuilder._LANGUAGE_BLACKLIST.has(k))
-			.map(([k, v]) => v === "Telepathy" ? "telepathy" : v); // lowercase telepathy
+			.map(([k, v]) => v === "Telepatia" ? "Telepatia" : v); // lowercase telepathy
 
 		const $btnAddGeneric = $(`<button class="btn btn-xs btn-default mr-2 mkbru_mon__btn-add-sense-language">Add Language</button>`)
 			.click(async () => {
@@ -2025,7 +2025,7 @@ class CreatureBuilder extends Builder {
 
 		const _CONTEXT_ENTRIES = [
 			{
-				display: "Cantrips",
+				display: "Trucs",
 				type: "0",
 				mode: "cantrip",
 			},
@@ -2558,7 +2558,7 @@ class CreatureBuilder extends Builder {
 									const ptDamageFull = $cbBonusDamage.prop("checked") ? `${ptDamage}, plus ${getDamageDicePt($iptBonusDamDiceCount, $iptBonusDamDiceNum, $iptBonusDamBonus, true)}${getDamageTypePt($iptBonusDamType)} damage` : ptDamage;
 
 									return {
-										name: $iptName.val().trim() || "Unarmed Strike",
+										name: $iptName.val().trim() || "Atac Desarmat",
 										entries: [
 											`${ptAtk} ${ptHit}, ${ptRange}, un objectiu. {@h}${ptDamageFull}.`,
 										],

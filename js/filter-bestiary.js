@@ -66,7 +66,7 @@ class PageFilterBestiary extends PageFilter {
 			itemSortFn: null,
 		});
 		this._speedFilter = new RangeFilter({header: "Speed", min: 30, max: 30});
-		this._speedTypeFilter = new Filter({header: "Speed Type", items: ["walk", "burrow", "climb", "fly", "hover", "swim"], displayFn: StrUtil.uppercaseFirst});
+		this._speedTypeFilter = new Filter({header: "Speed Type", items: ["walk", "burrow", "climb", "volar", "hover", "swim"], displayFn: StrUtil.uppercaseFirst});
 		this._strengthFilter = new RangeFilter({header: "Força", min: 1, max: 30});
 		this._dexterityFilter = new RangeFilter({header: "Destresa", min: 1, max: 30});
 		this._constitutionFilter = new RangeFilter({header: "Constitució", min: 1, max: 30});
@@ -88,13 +88,13 @@ class PageFilterBestiary extends PageFilter {
 		});
 		this._tagFilter = new Filter({header: "Tag", displayFn: StrUtil.uppercaseFirst});
 		this._alignmentFilter = new Filter({
-			header: "Alignment",
+			header: "Alineament",
 			items: ["L", "NX", "C", "G", "NY", "E", "N", "U", "A", "No Alignment"],
 			displayFn: alignment => Parser.alignmentAbvToFull(alignment).toTitleCase(),
 			itemSortFn: null,
 		});
 		this._languageFilter = new Filter({
-			header: "Languages",
+			header: "Idiomes",
 			displayFn: (k) => Parser.monLanguageTagToFull(k).toTitleCase(),
 			umbrellaItems: ["X", "XX"],
 			umbrellaExcludes: ["CS"],
@@ -149,7 +149,7 @@ class PageFilterBestiary extends PageFilter {
 			displayFn: StrUtil.uppercaseFirst,
 		});
 		this._resistFilter = new Filter({
-			header: "Resistance",
+			header: "Resistència",
 			items: PageFilterBestiary.DMG_TYPES,
 			displayFn: StrUtil.uppercaseFirst,
 		});
@@ -167,13 +167,13 @@ class PageFilterBestiary extends PageFilter {
 		this._traitFilter = new Filter({
 			header: "Traits",
 			items: [
-				"Agressivitat", "Ambusher", "Amorf", "Amfibi", "Debilitat Antimàgica", "Brute", "Carregar", "Absorbir Dany", "Cadàver Detonant", "Ulls de Diables", "Falsa Aparença", "Ascendència Faèrica", "Passar Volant", "Aguantar la Respiració", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Resistències Llegendàries", "Light Sensitivity", "Resistència a la Màgia", "Armament Màgic", "Estratègies de Manada", "Abraonar", "Rampage", "Reckless", "Regeneració", "Rejovenir", "Canviaformes", "Monstre de Setge", "Atac Furtiu", "Grimpat d'Aranya", "Sensible al Sol", "Immunitat a Expulsar", "Resistir l'Expulsió", "Resiliència No-morta", "Respirar sota l'aigua", "Web Sense", "Web Walker",
+				"Agressivitat", "Emboscar", "Amorf", "Amfibi", "Debilitat Antimàgica", "Brute", "Carregar", "Absorbir Dany", "Cadàver Detonant", "Ulls de Diables", "Falsa Aparença", "Ascendència Faèrica", "Passar Volant", "Aguantar la Respiració", "Illumination", "Forma Immutable", "Moviment Incorpori", "Sentits Aguts", "Resistències Llegendàries", "Light Sensitivity", "Resistència a la Màgia", "Armament Màgic", "Estratègies de Manada", "Abraonar", "Enfurismar", "Reckless", "Regeneració", "Rejovenir", "Canviaformes", "Monstre de Setge", "Atac Furtiu", "Grimpat d'Aranya", "Sensible al Sol", "Immunitat a Expulsar", "Resistir l'Expulsió", "Resiliència No-morta", "Respirar sota l'aigua", "Web Sense", "Web Walker",
 			],
 		});
 		this._actionReactionFilter = new Filter({
 			header: "Actions & Reactions",
 			items: [
-				"Presència Aterradora", "Multi-atac", "Parada", "Empassar", "Teleport", "Tentacles",
+				"Presència Aterradora", "Multi-atac", "Parada", "Empassar", "Teleportació", "Tentacles",
 			],
 		});
 		this._miscFilter = new Filter({
@@ -374,7 +374,7 @@ PageFilterBestiary.CONDS = [
 	"fascinat",
 	"eixordat",
 	"exhaust",
-	"acovardat",
+	"acovardit",
 	"pres",
 	"incapacitat",
 	"invisible",

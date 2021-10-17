@@ -233,7 +233,7 @@
 	},
 
 	// cantrips that should be preserved when lowering the number of cantrips known, to ensure caster effectiveness
-	_protectedCantrips: ["esquitx àcid", "mà morta", "eldritch blast", "fire bolt", "poison spray", "produce flame", "raig gebre", "sacred flame", "shocking grasp", "thorn whip", "vicious mockery"],
+	_protectedCantrips: ["esquitx àcid", "mà morta", "missil èldritx", "sageta de foc", "esprai de verí", "produir flama", "raig gebre", "flama sagrada", "braó electritzant", "fuet d'espines", "mofa i escarni"],
 
 	// analysis of official data + some manual smoothing
 	_crToCasterLevelAvg: {
@@ -518,7 +518,7 @@
 		_MEDIUM: {
 			"armadura de pells": 12,
 			"chain shirt": 13,
-			"scale mail": 14,
+			"cota d'escates": 14,
 			"breastplate": 14,
 			"mitja armadura de plaques": 15,
 		},
@@ -527,7 +527,7 @@
 			"armadura de cuir": 11,
 			"armadura de cuir tatxonada": 12,
 		},
-		_MAGE_ARMOR: "@spell mage armor",
+		_MAGE_ARMOR: "@spell armadura de mag",
 
 		_ALL_SHIELD_VARIANTS: null,
 		_ALL_HEAVY_VARIANTS: null,
@@ -565,7 +565,7 @@
 
 			if (originalDexMod === currentDexMod) return;
 
-			// Handle mage armor, light armor, and medium armor.
+			// Handle armadura de mag, light armor, and medium armor.
 			//   Note that natural armor and "unarmored" also include DEX, but these are handled in the main loop.
 
 			if (this._isMageArmor(acItem)) {
@@ -781,7 +781,7 @@
 			// "FROM" ADJUSTERS ========================================================================================
 
 			const handleMageArmor = () => {
-				// if there's mage armor, try adjusting dex
+				// if there's armadura de mag, try adjusting dex
 				if (this._isMageArmor(acItem)) {
 					if (canAdjustDex) {
 						acItem.ac = target;
@@ -789,7 +789,7 @@
 						return adjustDex();
 					} else {
 						// We have already set the AC in the pre-adjustment step.
-						//   Mage armor means there was no other armor, so stop here.
+						//   Armadura de Mag means there was no other armor, so stop here.
 						return true;
 					}
 				}
@@ -933,9 +933,9 @@
 					const getByBase = (base) => {
 						switch (base) {
 							case 14:
-								return [`scale mail|phb`, `breastplate|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
+								return [`cota d'escates|phb`, `breastplate|phb`][RollerUtil.roll(1, ScaleCreature._rng)];
 							case 16:
-								return [`+1 mitja armadura de plaques|dmg`, `+2 breastplate|dmg`, `+2 scale mail|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
+								return [`+1 mitja armadura de plaques|dmg`, `+2 breastplate|dmg`, `+2 cota d'escates|dmg`][RollerUtil.roll(2, ScaleCreature._rng)];
 							case 17:
 								return `+2 mitja armadura de plaques|dmg`;
 							case 18:
@@ -1355,7 +1355,7 @@
 				return null;
 			}
 
-			const isMeleeWep = content.includes("atac armat melé:");
+			const isMeleeWep = content.includes("atac armat cos a cos:");
 			if (isMeleeWep) {
 				const wf = this._wepFinesse.find(it => content.includes(it));
 				if (wf) return "dex";
@@ -1944,10 +1944,10 @@
 					} else return m[0];
 				});
 
-				const mClasses = /(artificer|bard|cleric|druid|paladin|ranger|sorcerer|warlock|wizard) spell(?:s)?/i.exec(outStr);
+				const mClasses = /(artificer|bard|cleric|druid|paladin|ranger|sorcerer|bruixot|wizard) spell(?:s)?/i.exec(outStr);
 				if (mClasses) spellsFromClass = mClasses[1];
 				else {
-					const mClasses2 = /(artificer|bard|cleric|druid|paladin|ranger|sorcerer|warlock|wizard)(?:'s)? spell list/i.exec(outStr);
+					const mClasses2 = /(artificer|bard|cleric|druid|paladin|ranger|sorcerer|bruixot|wizard)(?:'s)? spell list/i.exec(outStr);
 					if (mClasses2) spellsFromClass = mClasses2[1]
 				}
 
@@ -2084,7 +2084,7 @@
 		});
 
 		mon.spellcasting.forEach(sc => {
-			// adjust Mystic Arcanum spells
+			// adjust Arcanisme Místic spells
 			if (isWarlock && sc.daily && sc.daily["1e"]) {
 				const numArcanum = this._adjustSpellcasting_getWarlockNumArcanum(primaryOutLevel);
 
@@ -2094,7 +2094,7 @@
 				if (numArcanum === 0) return delete sc.daily["1e"];
 
 				if (curNumSpells > numArcanum) {
-					// map each existing spell e.g. `{@spell gate}` to an object of the form `{original: "{@spell gate}", level: 9}`
+					// map each existing spell e.g. `{@spell portal}` to an object of the form `{original: "{@spell portal}", level: 9}`
 					const curSpells = sc.daily["1e"].map(it => {
 						const m = /{@spell ([^|}]+)(?:\|([^|}]+))?[|}]/.exec(it);
 						if (m) {
@@ -2224,7 +2224,7 @@
 				string: (str) => {
 					str = str
 						// "The aberration makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
-						.replace(/a number of attacks equal to half this spell's level \(rounded down\)/g, (...m) => {
+						.replace(/a number of attacks equal to half this spell's level \((arrodoneix a la baixa)\)/g, (...m) => {
 							return `${Parser.numberToText(Math.floor(toSpellLevel / 2))} attacks`
 						})
 						// "{@damage 1d8 + 3 + summonSpellLevel}"

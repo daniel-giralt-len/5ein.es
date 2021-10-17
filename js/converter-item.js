@@ -173,14 +173,14 @@ class ItemParser extends BaseParser {
 			switch (partLower) {
 				case "wondrous item": stats.wondrous = true; continue;
 				case "wondrous item (tattoo)": stats.wondrous = true; stats.tattoo = true; continue;
-				case "potion": stats.type = "P"; continue;
-				case "ring": stats.type = "RG"; continue;
-				case "rod": stats.type = "RD"; continue;
-				case "wand": stats.type = "WD"; continue;
-				case "ammunition": stats.type = "A"; continue;
+				case "poció": stats.type = "P"; continue;
+				case "anell": stats.type = "RG"; continue;
+				case "vara": stats.type = "RD"; continue;
+				case "vareta": stats.type = "WD"; continue;
+				case "munició": stats.type = "A"; continue;
 				case "bastó": stats.staff = true; continue;
 				case "master rune": stats.type = "MR"; continue;
-				case "scroll": stats.type = "SC"; continue;
+				case "pergamí": stats.type = "SC"; continue;
 			}
 			// endregion
 
@@ -189,7 +189,7 @@ class ItemParser extends BaseParser {
 			const isHandledRarity = handlePartRarity(partLower);
 			if (isHandledRarity) continue;
 
-			if (partLower.includes("(requires attunement")) {
+			if (partLower.includes("(cal harmonitzar")) {
 				const [rarityRaw, ...rest] = part.split("(");
 				const rarity = rarityRaw.trim().toLowerCase();
 
@@ -197,7 +197,7 @@ class ItemParser extends BaseParser {
 				if (!isHandledRarity) options.cbWarning(`${stats.name ? `(${stats.name}) ` : ""}Rarity "${rarityRaw}" requires manual conversion`);
 
 				let attunement = rest.join("(");
-				attunement = attunement.replace(/^requires attunement/i, "").replace(/\)/, "").trim();
+				attunement = attunement.replace(/^cal harmonitzar/i, "").replace(/\)/, "").trim();
 				if (!attunement) {
 					stats.reqAttune = true;
 				} else {

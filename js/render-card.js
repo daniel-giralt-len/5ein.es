@@ -240,13 +240,13 @@ class RendererCard {
 	// region block
 	_renderAbilityDc (entry, textStack, meta, options) {
 		this._renderPrefix(entry, textStack, meta, options);
-		textStack[0] += `<b>${entry.name} save DC</b> = 8 + your proficiency bonus + your ${Parser.attrChooseToFull(entry.attributes)}`;
+		textStack[0] += `<b>${entry.name} save DC</b> = 8 + el teu bonus de competència + your ${Parser.attrChooseToFull(entry.attributes)}`;
 		this._renderSuffix(entry, textStack, meta, options);
 	}
 
 	_renderAbilityAttackMod (entry, textStack, meta, options) {
 		this._renderPrefix(entry, textStack, meta, options);
-		textStack[0] += `<b>${entry.name} attack modifier</b> = your proficiency bonus + your ${Parser.attrChooseToFull(entry.attributes)}`;
+		textStack[0] += `<b>${entry.name} attack modifier</b> = el teu bonus de competència + your ${Parser.attrChooseToFull(entry.attributes)}`;
 		this._renderSuffix(entry, textStack, meta, options);
 	}
 

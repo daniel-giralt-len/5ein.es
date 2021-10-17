@@ -26,12 +26,12 @@ class PageFilterOptionalFeatures extends PageFilter {
 			itemSortFn: PageFilterOptionalFeatures._filterFeatureTypeSort,
 		});
 		this._pactFilter = new Filter({
-			header: "Pact Boon",
+			header: "Premi de Pacte",
 			items: [],
 			displayFn: Parser.prereqPactToFull,
 		});
 		this._patronFilter = new Filter({
-			header: "Otherworldly Patron",
+			header: "Patró Sobrenatural",
 			items: [],
 			displayFn: Parser.prereqPatronToShort,
 		});

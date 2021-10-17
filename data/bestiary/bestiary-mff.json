@@ -6,7 +6,7 @@
 			"page": 4,
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -23,7 +23,7 @@
 			},
 			"speed": {
 				"walk": 10,
-				"fly": 50
+				"volar": 50
 			},
 			"str": 13,
 			"dex": 14,
@@ -45,7 +45,7 @@
 			"conditionImmune": [
 				"paralitzat"
 			],
-			"languages": [
+			"idiomes": [
 				"compren Druídic però no pot parlar"
 			],
 			"cr": "3",
@@ -67,7 +67,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 11} o estar {@condition poisoned} durant 1 minut. Estar {@condition poisoned} també provoca estar {@condition paralyzed}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 11} o estar {@condition emmetzinat} durant 1 minut. Estar {@condition emmetzinat} també provoca estar {@condition paralitzat}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -117,7 +117,7 @@
 					"blindheim"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"N"
 			],
@@ -147,7 +147,7 @@
 				"perception": "+2"
 			},
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Sotacomú"
 			],
 			"cr": "2",
@@ -169,7 +169,7 @@
 				{
 					"name": "Esclat Radiant",
 					"entries": [
-						"El blindheim bombardeja un con de 15 peus amb energia radiant. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12}. Qui falli rep 7 ({@damage 2d6}) de dany radiant i està {@condition blinded} fins el final del següent torn del blindheim. A més les criatures amb el tret Sensible al Sol tenen desavantatge a aquesta salvada."
+						"El blindheim bombardeja un con de 15 peus amb energia radiant. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12}. Qui falli rep 7 ({@damage 2d6}) de dany radiant i està {@condition encegat} fins el final del següent torn del blindheim. A més les criatures amb el tret Sensible al Sol tenen desavantatge a aquesta salvada."
 					]
 				}
 			],
@@ -197,7 +197,7 @@
 			"page": 6,
 			"size": "L",
 			"type": "giant",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -223,7 +223,7 @@
 			"wis": 9,
 			"cha": 9,
 			"passive": 9,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Gegantès"
 			],
@@ -282,7 +282,7 @@
 					"corby terrible"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -320,9 +320,9 @@
 				"tro"
 			],
 			"conditionImmune": [
-				"acovardat"
+				"acovardit"
 			],
-			"languages": [
+			"idiomes": [
 				"Sotacomú"
 			],
 			"cr": "1/2",
@@ -387,7 +387,7 @@
 			],
 			"size": "M",
 			"type": "no-mort",
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -436,12 +436,12 @@
 				"encegat",
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"paralitzat",
 				"emmetzinat",
 				"atordit"
 			],
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"tot idioma comprès per tota criatura a 30 peus d'abast"
 			],
@@ -459,7 +459,7 @@
 					"daily": {
 						"1e": [
 							"{@spell eterietat}",
-							"{@spell true seeing}"
+							"{@spell visió veritable}"
 						]
 					},
 					"ability": "int"
@@ -497,7 +497,7 @@
 								{
 									"type": "item",
 									"name": "Ull de Temor",
-									"entry": "L'objectiu i fins a quatre criatures que hi siguin a 10 peus d'abast, tots triats per l'Ull, han de salvar per Saviesa amb {@dc 16} o estar {@condition frightened} durant 1 minut. Tota criatura afectda pot repetir la salvada al final de cada torn seu. Si supera cancel·la l'efecte."
+									"entry": "L'objectiu i fins a quatre criatures que hi siguin a 10 peus d'abast, tots triats per l'Ull, han de salvar per Saviesa amb {@dc 16} o estar {@condition acovardit} durant 1 minut. Tota criatura afectda pot repetir la salvada al final de cada torn seu. Si supera cancel·la l'efecte."
 								},
 								{
 									"type": "item",
@@ -542,7 +542,7 @@
 			"page": 10,
 			"size": "H",
 			"type": "giant",
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -578,7 +578,7 @@
 				"persuasion": "+7"
 			},
 			"passive": 17,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Gegantès"
 			],
@@ -591,12 +591,12 @@
 					],
 					"will": [
 						"{@spell detectar màgia}",
-						"{@spell fog cloud}",
-						"{@spell light}"
+						"{@spell núvol de boira}",
+						"{@spell llum}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell feather fall}",
+							"{@spell descens de ploma}",
 							"{@spell pas boira}"
 						]
 					},
@@ -639,7 +639,7 @@
 				{
 					"name": "Tirà Mesquí {@recharge}",
 					"entries": [
-						"El gegant de boira llança amenaces devastdores als seus servents. Tot aliat Mitjà o menor seu a 120 peus d'abast pot fer un atac melé com a reacció."
+						"El gegant de boira llança amenaces devastdores als seus servents. Tot aliat Mitjà o menor seu a 120 peus d'abast pot fer un atac cos a cos com a reacció."
 					]
 				}
 			],
@@ -675,7 +675,7 @@
 			"page": 9,
 			"size": "M",
 			"type": "fata",
-			"alignment": [
+			"alineament": [
 				"C",
 				"N"
 			],
@@ -709,7 +709,7 @@
 				"visió de foscor 30 peus"
 			],
 			"passive": 10,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Silvànic"
 			],
@@ -721,20 +721,20 @@
 						"L'habilitat de llançament de conjurs innat de El Forlarren's és Saviesa ({@dc 14} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell expeditious retreat}",
-						"{@spell false life}",
+						"{@spell retirada estratègica}",
+						"{@spell pseudo vida}",
 						"{@spell il·lusió menor}",
-						"{@spell prestidigitation}"
+						"{@spell prestidigitació}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell aid}",
 							"{@spell pas boira}",
-							"{@spell Tasha's hideous laughter}"
+							"{@spell Riure Horrible de la Tasha}"
 						],
 						"1e": [
-							"{@spell heal}",
-							"{@spell heat metal}",
+							"{@spell sanar}",
+							"{@spell escalfar el metall}",
 							"{@spell imatge mirall}"
 						]
 					},
@@ -816,7 +816,7 @@
 					"jermlaine"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"N",
 				"E"
 			],
@@ -843,7 +843,7 @@
 				"visió de foscor 30 peus"
 			],
 			"passive": 10,
-			"languages": [
+			"idiomes": [
 				"Sotacomú"
 			],
 			"cr": "1/8",
@@ -915,7 +915,7 @@
 			"page": 12,
 			"size": "S",
 			"type": "elemental",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -932,7 +932,7 @@
 			},
 			"speed": {
 				"walk": 5,
-				"fly": 30
+				"volar": 30
 			},
 			"str": 13,
 			"dex": 10,
@@ -948,7 +948,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Terrani"
 			],
 			"cr": "1/8",
@@ -1006,7 +1006,7 @@
 			"page": 13,
 			"size": "T",
 			"type": "fata",
-			"alignment": [
+			"alineament": [
 				"N"
 			],
 			"ac": [
@@ -1035,7 +1035,7 @@
 				"visió de foscor 30 peus"
 			],
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Silvànic",
 				"telepatía 60 peus"
@@ -1051,13 +1051,13 @@
 				{
 					"name": "Benedicció de Gran Generositat (1/Dia)",
 					"entries": [
-						"El killmoulis designa fins a 8 criatures que pugui veure a 100 peus d'abast. Al proper Descans Llarg que acabin, recuperaran tots els Daus de Cop i 10 punts de cop temporals."
+						"El killmoulis designa fins a 8 criatures que pugui veure a 100 peus d'abast. Al proper Descans Llarg que acabin, recuperaran tots els Daus de Vida i 10 punts de vida temporals."
 					]
 				},
 				{
 					"name": "Maledicció de Mala Hospitalitat (1/Dia)",
 					"entries": [
-						"El killmoulis designa fins a 8 criatures que pugui veure a 100 peus d'abast. Al proper Descans Llarg que acabin, no recuperaran Daus de Cop."
+						"El killmoulis designa fins a 8 criatures que pugui veure a 100 peus d'abast. Al proper Descans Llarg que acabin, no recuperaran Daus de Vida."
 					]
 				}
 			],
@@ -1085,7 +1085,7 @@
 			"page": 14,
 			"size": "S",
 			"type": "fata",
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -1115,7 +1115,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 9,
-			"languages": [
+			"idiomes": [
 				"Silvànic",
 				"Sotacomú"
 			],
@@ -1167,7 +1167,7 @@
 			"page": 16,
 			"size": "L",
 			"type": "planta",
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -1206,7 +1206,7 @@
 				"eixordat",
 				"exhaust"
 			],
-			"languages": [
+			"idiomes": [
 				"Silvànic"
 			],
 			"cr": "3",
@@ -1214,7 +1214,7 @@
 				{
 					"name": "Defensa Agulla",
 					"entries": [
-						"Cada cop que una criatura faci un atac melé contra un senyor d'agulles, rep 2 de dany perforant. L'atacant pot evitar aquest dany tirant a impactar amb desavantatge."
+						"Cada cop que una criatura faci un atac cos a cos contra un senyor d'agulles, rep 2 de dany perforant. L'atacant pot evitar aquest dany tirant a impactar amb desavantatge."
 					]
 				}
 			],
@@ -1274,7 +1274,7 @@
 			"page": 16,
 			"size": "M",
 			"type": "planta",
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -1307,7 +1307,7 @@
 				"eixordat",
 				"exhaust"
 			],
-			"languages": [
+			"idiomes": [
 				"Silvànic"
 			],
 			"cr": "1/2",
@@ -1315,7 +1315,7 @@
 				{
 					"name": "Close Quarters Shooting",
 					"entries": [
-						"L'engendre agulla no té desavantatge a impactar atacs a distància quan és a 5 peus d'una criatura hostil que el pot veure i no està {@condition incapacitated}, sempre i quan l'objectiu de l'atac també és a 5 peus de l'engendre agulla."
+						"L'engendre agulla no té desavantatge a impactar atacs a distància quan és a 5 peus d'una criatura hostil que el pot veure i no està {@condition incapacitat}, sempre i quan l'objectiu de l'atac també és a 5 peus de l'engendre agulla."
 					]
 				}
 			],
@@ -1368,7 +1368,7 @@
 					"goblinoide"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -1400,7 +1400,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 9,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Goblinesc"
 			],
@@ -1429,7 +1429,7 @@
 				{
 					"name": "Rebuig Defensiu",
 					"entries": [
-						"Si una criatura a 5 peus del norker li fa un atac melé, el norker pot, com a reacció, causar 4 de dany perforant contra l'atacant."
+						"Si una criatura a 5 peus del norker li fa un atac cos a cos, el norker pot, com a reacció, causar 4 de dany perforant contra l'atacant."
 					]
 				}
 			],
@@ -1465,7 +1465,7 @@
 					"goblinoide"
 				]
 			},
-			"alignment": [
+			"alineament": [
 				"C",
 				"E"
 			],
@@ -1499,7 +1499,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 12,
-			"languages": [
+			"idiomes": [
 				"Comú",
 				"Goblinesc"
 			],
@@ -1526,7 +1526,7 @@
 				{
 					"name": "Lluiteu, Llimacs!",
 					"entries": [
-						"El líder de guerra Norker escull fins a tres goblins aliata a 60 peus d'abast que puguin veure. Les criatures designades poden, com a reacció, fer un atac armat melé."
+						"El líder de guerra Norker escull fins a tres goblins aliata a 60 peus d'abast que puguin veure. Les criatures designades poden, com a reacció, fer un atac armat cos a cos."
 					]
 				}
 			],
@@ -1534,7 +1534,7 @@
 				{
 					"name": "Rebug Defensiu",
 					"entries": [
-						"Si una criatura a 5 peus del norker li fa un atac melé, el norker pot, com a reacció, causar 6 de dany perforant contra l'atacant."
+						"Si una criatura a 5 peus del norker li fa un atac cos a cos, el norker pot, com a reacció, causar 6 de dany perforant contra l'atacant."
 					]
 				}
 			],
@@ -1565,7 +1565,7 @@
 			"page": 19,
 			"size": "S",
 			"type": "fata",
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -1583,7 +1583,7 @@
 			},
 			"speed": {
 				"walk": 0,
-				"fly": 40
+				"volar": 40
 			},
 			"str": 4,
 			"dex": 16,
@@ -1595,7 +1595,7 @@
 				"visió de foscor 30 peus"
 			],
 			"passive": 9,
-			"languages": [
+			"idiomes": [
 				"Silvànic"
 			],
 			"cr": "1",
@@ -1610,7 +1610,7 @@
 					"name": "Crits Eterns",
 					"entries": [
 						"Tota criatura que no sigui un endiablat cridaner que comenci el seu torn a 30 peus d'un o més endiablats cridaners i els puguin sentir han de salvar per Saviesa amb {@dc 10}",
-						"Qui falli està {@condition incapacitated} fins a l'inici del seu següent torn."
+						"Qui falli està {@condition incapacitat} fins a l'inici del seu següent torn."
 					]
 				},
 				{
@@ -1653,7 +1653,7 @@
 			"page": 21,
 			"size": "M",
 			"type": "monstrositat",
-			"alignment": [
+			"alineament": [
 				"L",
 				"E"
 			],
@@ -1687,7 +1687,7 @@
 				"visió de foscor 60 peus"
 			],
 			"passive": 14,
-			"languages": [
+			"idiomes": [
 				"Comú"
 			],
 			"cr": "3",
@@ -1701,7 +1701,7 @@
 				{
 					"name": "Poison Stinger",
 					"entries": [
-						"The xill injects poison into one creature it hit with its claws this turn. The chosen creature ha de salvar per Constitució amb {@dc 11}, with disadvantage if the xill hit it more than once this turn, taking 14 ({@damage 4d6}) de dany de verí si falla, or half as much on a successful one. Si el dany de verí deixa a l'objectiu a 0 punts de cop, l'objectiu s'estabilitza però estarà {@condition poisoned} durant 1 hora, fins i tot després de recuperar punts de cop, i estarà {@condition paralyzed} mentre pateixi aquest {@condition poisoned}."
+						"The xill injects poison into one creature it hit with its claws this turn. The chosen creature ha de salvar per Constitució amb {@dc 11}, with disadvantage if the xill hit it more than once this turn, taking 14 ({@damage 4d6}) de dany de verí si falla, or half as much on a successful one. Si el dany de verí deixa a l'objectiu a 0 punts de vida, l'objectiu s'estabilitza però estarà {@condition emmetzinat} durant 1 hora, fins i tot després de recuperar punts de vida, i estarà {@condition paralitzat} mentre pateixi aquest {@condition emmetzinat}."
 					]
 				}
 			],
@@ -1750,7 +1750,7 @@
 			"page": 20,
 			"size": "L",
 			"type": "aberration",
-			"alignment": [
+			"alineament": [
 				"C",
 				"N"
 			],
@@ -1815,10 +1815,10 @@
 			"conditionImmune": [
 				"fascinat",
 				"exhaust",
-				"acovardat",
+				"acovardit",
 				"emmetzinat"
 			],
-			"languages": [
+			"idiomes": [
 				"tots",
 				"telepatía 120 peus"
 			],
@@ -1834,25 +1834,25 @@
 						"{@spell pampalluga}",
 						"{@spell vira del caos|XGE}*",
 						"{@spell detectar màgia}",
-						"{@spell fly}",
-						"{@spell shield}"
+						"{@spell volar}",
+						"{@spell escut}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell cercle de la mort}",
 							"{@spell enervation|XGE}*",
-							"{@spell symbol} (discord only)"
+							"{@spell Símbol} (discord only)"
 						],
 						"2e": [
-							"{@spell finger of death}",
-							"{@spell harm}",
-							"{@spell mental prison|XGE}*"
+							"{@spell dit de la mort}",
+							"{@spell malmenar}",
+							"{@spell presó mental|XGE}*"
 						],
 						"1e": [
-							"{@spell power word kill}",
-							"{@spell power word stun}",
-							"{@spell symbol} (death only)",
-							"{@spell weird}"
+							"{@spell paraula de poder matar}",
+							"{@spell paraula de poder atordir}",
+							"{@spell Símbol} (death only)",
+							"{@spell grotesc}"
 						]
 					},
 					"footerEntries": [
@@ -1891,13 +1891,13 @@
 				{
 					"name": "Scythe",
 					"entries": [
-						"{@atk mw} {@hit 14} a impactar, 10 peus d'abast, una criatura. {@h}18 ({@damage 2d10 + 7}) de dany tallant mes 19 ({@damage 3d12}) de dany necròtic. Any creature reduced to 0 hit points by this attack dies, with its body and everything it is wearing and carrying, except magic items, exploding into a cloud of ash. The creature can be restored to life only by means of a {@spell wish} spell."
+						"{@atk mw} {@hit 14} a impactar, 10 peus d'abast, una criatura. {@h}18 ({@damage 2d10 + 7}) de dany tallant mes 19 ({@damage 3d12}) de dany necròtic. Any creature reduced to 0 hit points by this attack dies, with its body and everything it is wearing and carrying, except magic items, exploding into a cloud of ash. The creature can be restored to life only by means of a {@spell desig} spell."
 					]
 				},
 				{
 					"name": "Entropic Touch",
 					"entries": [
-						"{@atk mw} {@hit 14} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 2d8 + 7}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 22} o gain one level of {@condition exhaustion}."
+						"{@atk mw} {@hit 14} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 2d8 + 7}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 22} o gain one level of {@condition exhaust}."
 					]
 				},
 				{
@@ -1907,9 +1907,9 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
-						"Ygorl teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+						"Ygorl teleports, along with any equipment it is wearing or carrying, fins a 120 peus to an unoccupied space it can see."
 					]
 				}
 			],
@@ -1921,7 +1921,7 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Teleportació",
 					"entries": [
 						"Ygorl uses its Teleport action."
 					]
@@ -1943,7 +1943,7 @@
 			],
 			"actionTags": [
 				"Multi-atac",
-				"Teleport"
+				"Teleportació"
 			],
 			"languageTags": [
 				"TP",
@@ -1964,7 +1964,7 @@
 				"exhaust"
 			],
 			"conditionInflictSpell": [
-				"acovardat",
+				"acovardit",
 				"incapacitat",
 				"atordit",
 				"inconscient"

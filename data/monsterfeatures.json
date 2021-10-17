@@ -10,7 +10,7 @@
 			"attackbonus": ""
 		},
 		{
-			"name": "Emboscada",
+			"name": "Emboscar",
 			"example": "Doppelganger",
 			"effect": "La criatura té avantatge en les tirades d'impacte contra qualsevol criatura a qui tingui sorpresa.",
 			"hp": "",
@@ -21,17 +21,17 @@
 		{
 			"name": "Armes Angelicals",
 			"example": "Deva",
-			"effect": "Els atacs armats de la criatura són màgics. 	Quan la criatura impacti amb una arma, l'arma afegeix mal radiant extra. Afegeix aquest mal extra per ronda.",
+			"effect": "Els atacs armats de la criatura són màgics. Quan la criatura impacti amb una arma, l'arma afegeix dany radiant extra. Afegeix aquest dany extra per ronda.",
 			"hp": "",
 			"ac": "",
 			"dpr": "característica",
 			"attackbonus": "",
-			"numbox": cert
+			"numbox": true
 		},
 		{
-			"name": "altra criatura",
-			"example": "Semi-lich",
-			"effect": "Si la criatura ha de superar una tirada de salvació per a rebre la meitat de mal, en comptes d'això, no rep mal si supera la tirada, i rep només la meitat de mal si la falla.",
+			"name": "Esquiva Increïble",
+			"example": "Demilitx",
+			"effect": "Si la criatura ha de superar una tirada de salvació per a rebre la meitat de dany, en comptes d'això, no rep dany si supera la tirada, i rep només la meitat de dany si la falla.",
 			"hp": "",
 			"ac": "1",
 			"dpr": "",
@@ -40,7 +40,7 @@
 		{
 			"name": "Frenesí de Sang",
 			"example": "Sahuagín",
-			"effect": "La criatura té avantatge a impactar a melé contra tota criatura que no tingui tots els seus punts de cop.",
+			"effect": "The creature té avantatge a impactar a cos a cos contra tota criatura que no tingui tots els seus punts de vida.",
 			"hp": "",
 			"ac": "",
 			"dpr": "",
@@ -56,9 +56,9 @@
 			"attackbonus": ""
 		},
 		{
-			"name": "Transferència del mal",
+			"name": "Transferència del Dany",
 			"example": "Cloaker",
-			"effect": "Mentre estigui enganxada o apressant a una criatura, la criatura rep només la meitat del mal que se l'hi faci (arrodoneix a la baixa), i l'altre criatura rep l'altre meitat.",
+			"effect": "Mentre estigui enganxada o apresant a una criatura, la criatura rep només la meitat del dany que rebi (arrodoneix a la baixa), i l'altre criatura en rep l'altre meitat.",
 			"hp": "pc",
 			"ac": "",
 			"dpr": "pc * 0.33",
@@ -67,18 +67,18 @@
 		{
 			"name": "Augmentar",
 			"example": "Duergar",
-			"effect": "La criatura augmenta de mida màgicament juntament amb tot l'equip que porti. Afegeix el mal extra infringit a cada ronda mentre estigui augmentat.",
+			"effect": "La criatura augmenta de mida màgicament juntament amb tot l'equip que porti. Afegeix el dany rebut adicional a cada ronda mentre estigui augmentat.",
 			"hp": "",
 			"ac": "",
 			"dpr": "característica",
 			"attackbonus": "",
-			"numbox": cert
+			"numbox": true
 		},
 		{
 			"name": "Presència Esfereïdora",
 			"example": "Drac Daurat Ancià",
 			"effect": "Cada altra criatura triada per la criatura dins el rang, ha de salvar per Saviesa o estar acovardit durant 1 minut.",
-			"hp": "Math.floor((VrEsperat <= 10) ? pc * 0.25 : 0)",
+			"hp": "Math.floor((expectedCr <= 10) ? pc * 0.25 : 0)",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": ""
@@ -91,13 +91,13 @@
 			"ac": "",
 			"dpr": "característica",
 			"attackbonus": "",
-			"numbox": cert
+			"numbox": true
 		},
 		{
 			"name": "Albir Terrorífic",
 			"example": "Banshee",
 			"effect": "Cada altra criatura que no sigui no-morta, a el·lecció d'aquesta criatura, que es trobi dins el seu rang, ha de salvar per Saviesa o estar acovardit durant 1 minut.",
-			"hp": "Math.floor((VrEsperat <= 10) ? pc * 0.25 : 0)",
+			"hp": "Math.floor((expectedCr <= 10) ? pc * 0.25 : 0)",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": ""
@@ -106,7 +106,7 @@
 			"name": "Resistència Llegendària",
 			"example": "Tarrasque",
 			"effect": "Si la criatura falla una salvació, pot escollir, en comptes d'això, superar-la. Afegeix la quantitat d'usos diaris.",
-			"hp": "((VrEsperat >= 0 && VrEsperat <= 4) ? 10*característica : ((VrEsperat >= 5 && VrEsperat <= 10) ? 20*característica : ((VrEsperat >= 11) ? 30*característica : 0)))",
+			"hp": "((expectedCr >= 0 && expectedCr <= 4) ? 10*característica : ((expectedCr >= 5 && expectedCr <= 10) ? 20*característica : ((expectedCr >= 11) ? 30*característica : 0)))",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": "",
@@ -124,12 +124,12 @@
 		{
 			"name": "Avantatge Marcial",
 			"example": "Hobgoblin",
-			"effect": "La criatura pot fer mal extra a una altra criatura a la que ha tocat en un atac, si està fins a 5 peus d'un aliat que no es trobi incapacitat. Afegeix el mal adicional causat per ronda.",
+			"effect": "La criatura pot fer dany extra a una altra criatura a la que ha tocat en un atac, si està fins a 5 peus d'un aliat que no es trobi incapacitat. Afegeix el dany adicional causat per ronda.",
 			"hp": "",
 			"ac": "",
 			"dpr": "característica",
 			"attackbonus": "",
-			"numbox": cert
+			"numbox": true
 		},
 		{
 			"name": "Fugida Veloç",
@@ -143,7 +143,7 @@
 		{
 			"name": "Tàctiques de Manada",
 			"example": "Kobold",
-			"effect": "La criatura té avantatge en les tirades d'atac contra una criatura, si té algun dels seus aliats fins a 5 peus de la criatura, i l'aliat no està incapacitat.",
+			"effect": "La criatura té avantatge en les tirades d'impacte contra una criatura, si té algun dels seus aliats fins a 5 peus de la criatura, i l'aliat no està incapacitat.",
 			"hp": "",
 			"ac": "",
 			"dpr": "",
@@ -152,7 +152,7 @@
 		{
 			"name": "Parada",
 			"example": "Senyor de la guerra Hobgoblin",
-			"effect": "La criatura suma el seu bonus de competència a la seva CA contra un atac a melé que l'anés a tocar, com a reacció.",
+			"effect": "La criatura suma el seu bonus de competència a la seva CA contra un atac a melé que l'anés a impactar, com a reacció.",
 			"hp": "",
 			"ac": "1",
 			"dpr": "",
@@ -160,8 +160,8 @@
 		},
 		{
 			"name": "Posseïr",
-			"example": "Fantasme",
-			"effect": "La criatura pot controlar una altra criatura, durant un temps en el que no se'l pot fer objectiu de gairebé cap efecte.",
+			"example": "Fantasma",
+			"effect": "La criatura pot controlar una altra criatura: estant així no pot ser objectiu de gairebé cap efecte.",
 			"hp": "pc",
 			"ac": "",
 			"dpr": "",
@@ -170,12 +170,12 @@
 		{
 			"name": "Regeneració",
 			"example": "Troll",
-			"effect": "Al principi del torn de la criatura, aquesta guanya punts de cop i no pot ser matat fins que aquest efecte s'hagi neutralitzat, normalment utilitzant mal de foc o d'àcid. Afegeix quants punts de cop recupera al principi del seu torn.",
+			"effect": "Al principi del torn de la criatura, aquesta guanya punts de cop i no pot ser matada fins que aquest efecte s'hagi neutralitzat, normalment utilitzant dany de foc o d'àcid. Afegeix quants punts de cop recupera al principi del seu torn.",
 			"hp": "característica*3",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": "",
-			"numbox": cert
+			"numbox": true
 		},
 		{
 			"name": "Implacable",
@@ -196,9 +196,9 @@
 			"attackbonus": ""
 		},
 		{
-			"name": "Fortor",
-			"example": "Troglodyte",
-			"effect": "Tota criatura que no sigui el monstre a 5 peus d'aquest, ha de superar una tirada de salvació o quedar enverinat.",
+			"name": "Ferum",
+			"example": "Troglodita",
+			"effect": "Tota criatura que no sigui el monstre a 5 peus d'aquest, ha de superar una tirada de salvació o quedar emmetzinat.",
 			"hp": "",
 			"ac": "1",
 			"dpr": "",
@@ -216,8 +216,8 @@
 		{
 			"name": "Resiliència de No-mort",
 			"example": "Zombi",
-			"effect": ""Si la criatura anava a perdre punts de cop fins a arribar a 0, hi ha possibilitats de que en comptes d'això, només en perdi fins a arribar a 1. Aquest efecte és neutralitzat si el mal és radiant.",
-			"hp": "((VrEsperat >= 0 && VrEsperat <= 4) ? 7 : ((VrEsperat >= 5 && VrEsperat <= 10) ? 14 : ((VrEsperat >= 11 && VrEsperat <= 16) ? 21 : ((VrEsperat >= 17) ? 28 : 0))))",
+			"effect": "Si la criatura anava a perdre punts de cop fins a arribar a 0, hi ha possibilitats de que en comptes d'això, només en perdi fins a arribar a 1. Aquest efecte és neutralitzat si el mal és radiant.",
+			"hp": "((expectedCr >= 0 && expectedCr <= 4) ? 7 : ((expectedCr >= 5 && expectedCr <= 10) ? 14 : ((expectedCr >= 11 && expectedCr <= 16) ? 21 : ((expectedCr >= 17) ? 28 : 0))))",
 			"ac": "",
 			"dpr": "",
 			"attackbonus": ""

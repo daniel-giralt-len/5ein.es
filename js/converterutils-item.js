@@ -51,7 +51,7 @@ ConverterUtilsItem.BASIC_ARMORS = [
 	"armadura de cuir tatxonada",
 	"armadura de pells",
 	"chain shirt",
-	"scale mail",
+	"cota d'escates",
 	"breastplate",
 	"mitja armadura de plaques",
 	"ring mail",
@@ -92,7 +92,7 @@ class RechargeTypeTag {
 		const strEntries = JSON.stringify(obj.entries, null, 2);
 
 		const mDawn = /charges? at dawn|charges? daily at dawn|charges? each day at dawn|charges and regains all of them at dawn|charges and regains[^.]+each dawn|recharging them all each dawn|charges that are replenished each dawn/gi.exec(strEntries);
-		if (mDawn) return obj.recharge = "dawn";
+		if (mDawn) return obj.recharge = "trenc d'alba";
 
 		const mDusk = /charges? daily at dusk|charges? each day at dusk/gi.exec(strEntries);
 		if (mDusk) return obj.recharge = "dusk";
@@ -219,7 +219,7 @@ class BonusTag {
 		});
 
 		// FIXME(Future) false positives:
-		//   - Black Dragon Scale Mail
+		//   - Black Dragon Cota d'Escates
 		strEntries = strEntries.replace(/\+\s*(\d)([^.]+(?:bonus )?(?:to|on) [^.]*saving throws)/g, (...m) => {
 			obj.bonusSavingThrow = `+${m[1]}`;
 			return opts.isVariant ? `{=bonusSavingThrow}${m[2]}` : m[0];
@@ -303,7 +303,7 @@ class BasicTextClean {
 				return arr.filter(it => {
 					if (typeof it !== "string") return true;
 
-					if (/^\s*Proficiency with .*? allows you to add your proficiency bonus to the attack roll for any attack you make with it\.\s*$/i.test(it)) return false;
+					if (/^\s*Proficiency with .*? allows you to add el teu bonus de competència to the attack roll for any attack you make with it\.\s*$/i.test(it)) return false;
 					if (/^\s*A shield is made from wood or metal and is carried in one hand\. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time\.\s*$/i.test(it)) return false;
 					if (/^\s*This armor consists of a coat and leggings \(and perhaps a separate skirt\) of leather covered with overlapping pieces of metal, much like the scales of a fish\. The suit includes gauntlets\.\s*$/i.test(it)) return false;
 
@@ -385,7 +385,7 @@ class DamageResistanceTag {
 	static tryRun (it, opts) {
 		DamageResistanceImmunityVulnerabilityTag.tryRun(
 			"resist",
-			/you (?:have|gain|are) (?:resistance|resistant) (?:to|against) [^?.!]+/ig,
+			/you (?:have|gain|are) (?:resistència|resistant) (?:to|against) [^?.!]+/ig,
 			it,
 			opts,
 		);
@@ -493,7 +493,7 @@ class ReqAttuneTagTag {
 
 		const tags = [];
 
-		// "by a creature with the Mark of Finding"
+		// "by a creature with the Marcatroba"
 		req = req.replace(/(?:a creature with the )?\bMark of ([A-Z][^ ]+)/g, (...m) => {
 			const races = ReqAttuneTagTag._EBERRON_MARK_RACES[`Mark of ${m[1]}`];
 			if (!races) return "";
@@ -514,7 +514,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a creature that can speak Infernal"
-		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Draconic|Druídic|Nan|Elvish|Giant|Gnomesc|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Sylvan|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
+		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
 			tags.push({languageProficiency: m[1].toLowerCase()});
 			return "";
 		});
@@ -526,8 +526,8 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a dwarf"
-		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Semi-Elf|Semi-Orc|Halfling|Human|Tiefling|Warforged)\b/gi, (...m) => {
-			const source = m[1].toLowerCase() === "warforged" ? SRC_ERLW : "";
+		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Semi-Elf|Semi-Orc|Halfling|Human|Tiefling|Guerraforjat)\b/gi, (...m) => {
+			const source = m[1].toLowerCase() === "guerraforjat" ? SRC_ERLW : "";
 			tags.push({race: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
 		});
@@ -541,7 +541,7 @@ class ReqAttuneTagTag {
 			return "";
 		});
 
-		// "by a spellcaster"
+		// ": saber llançar conjurs"
 		req = req.replace(/(?:a )?\bspellcaster\b/gi, (...m) => {
 			tags.push({spellcasting: true});
 			return "";
@@ -554,7 +554,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a bard, cleric, druid, sorcerer, warlock, or wizard"
-		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|cleric|druid|paladin|ranger|sorcerer|warlock|wizard)\b/gi, (...m) => {
+		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|cleric|druid|paladin|ranger|sorcerer|bruixot|wizard)\b/gi, (...m) => {
 			const source = m[1].toLowerCase() === "artificer" ? SRC_TCE : null;
 			tags.push({class: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
@@ -563,7 +563,7 @@ class ReqAttuneTagTag {
 		// region Alignment
 		// "by a creature of evil alignment"
 		// "by a dwarf, fighter, or paladin of good alignment"
-		// "by an elf or half-elf of neutral good alignment"
+		// "by an elf or semi-elf of neutral good alignment"
 		// "by an evil cleric or paladin"
 		const alignmentParts = req.split(/,| or /gi)
 			.map(it => it.trim())
@@ -609,19 +609,19 @@ ReqAttuneTagTag._RAVNICA_GUILD_BACKGROUNDS = {
 ReqAttuneTagTag._EBERRON_MARK_RACES = {
 	"Mark of Warding": ["Dwarf (Mark of Warding)|ERLW"],
 	"Mark of Shadow": ["Elf (Mark of Shadow)|ERLW"],
-	"Mark of Scribing": ["Gnome (Mark of Scribing)|ERLW"],
-	"Mark of Detection": ["Half-Elf (Variant; Mark of Detection)|ERLW"],
-	"Mark of Storm": ["Half-Elf (Variant; Mark of Storm)|ERLW"],
-	"Mark of Finding": [
-		"Half-Orc (Mark of Finding)|ERLW",
-		"Human (Mark of Finding)|ERLW",
+	"Marca-Escriba": ["Gnome (Marca-Escriba)|ERLW"],
+	"Marcadetecta": ["Semi-Elf (Variant; Marcadetecta)|ERLW"],
+	"Marcatempesta": ["Semi-Elf (Variant; Marcatempesta)|ERLW"],
+	"Marcatroba": [
+		"Semi-Orc (Marcatroba)|ERLW",
+		"Humà (Marcatroba)|ERLW",
 	],
-	"Mark of Healing": ["Halfling (Mark of Healing)|ERLW"],
-	"Mark of Hospitality": ["Halfling (Mark of Hospitality)|ERLW"],
-	"Mark of Handling": ["Human (Mark of Handling)|ERLW"],
-	"Mark of Making": ["Human (Mark of Making)|ERLW"],
-	"Mark of Passage": ["Human (Mark of Passage)|ERLW"],
-	"Mark of Sentinel": ["Human (Mark of Sentinel)|ERLW"],
+	"Marcacura": ["Halfling (Marcacura)|ERLW"],
+	"Marcacollidora": ["Halfling (Marcacollidora)|ERLW"],
+	"Marcabèstia": ["Humà (Marcabèstia)|ERLW"],
+	"Marcacrea": ["Humà (Marcacrea)|ERLW"],
+	"MarcaPassa": ["Humà (MarcaPassa)|ERLW"],
+	"Marcasentinella": ["Humà (Marcasentinella)|ERLW"],
 };
 
 if (typeof module !== "undefined") {

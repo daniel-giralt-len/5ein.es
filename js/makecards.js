@@ -452,7 +452,7 @@ class MakeCards extends BaseComponent {
 			mon.immune ? this._ct_property("Damage Immunities", this._ct_htmlToText(Parser.getFullImmRes(mon.immune))) : null,
 			mon.conditionImmune ? this._ct_property("Condition Immunities", this._ct_htmlToText(Parser.getFullCondImm(mon.conditionImmune))) : null,
 			this._ct_property("Senses", this._ct_htmlToText(Renderer.monster.getSensesPart(mon))),
-			this._ct_property("Languages", this._ct_htmlToText(Renderer.monster.getRenderedLanguages(mon.languages))),
+			this._ct_property("Idiomes", this._ct_htmlToText(Renderer.monster.getRenderedLanguages(mon.languages))),
 			this._ct_property("Challenge", this._ct_htmlToText(Parser.monCrToFull(mon.cr, {isMythic: !!mon.mythic}))),
 			this._ct_rule(),
 			...(allTraits ? this._ct_renderEntries(allTraits, 2) : []),
@@ -552,7 +552,7 @@ class MakeCards extends BaseComponent {
 
 	static _getIconPath (iconName) {
 		const classIconNames = [
-			"class-barbarian",
+			"class-bàrbar",
 			"class-bard",
 			"class-cleric",
 			"class-druid",
@@ -564,7 +564,7 @@ class MakeCards extends BaseComponent {
 			"class-sorcerer",
 			"class-warlock",
 			"class-wizard",
-			"class-barbarian",
+			"class-bàrbar",
 			"class-bard",
 			"class-cleric",
 			"class-druid",
@@ -835,7 +835,7 @@ MakeCards.utils = class {
 		} else if (item.resist) {
 			if (item.type === "P") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push(`Resistance to ${item.resist} damage for 1 hour.`);
+				item._fullEntries.push(`Resistance to ${item.resist} damage durant 1 hora.`);
 			}
 			if (item.type === "RG") {
 				Renderer.item._initFullEntries(item);
@@ -845,15 +845,15 @@ MakeCards.utils = class {
 		if (item.type === "SCF") {
 			if (item.scfType === "arcane") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("A sorcerer, warlock, or wizard can use this item as a spellcasting focus.");
+				item._fullEntries.push("Un bruixot, un fetiller, o un mag ho pot emprar com a focus de llançament de conjurs.");
 			}
 			if (item.scfType === "druid") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("A druid can use this item as a spellcasting focus.");
+				item._fullEntries.push("Un druida ho pot emprar com a focus de llançament de conjurs.");
 			}
 			if (item.scfType === "holy") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("A cleric or paladin can use this item as a spellcasting focus.");
+				item._fullEntries.push("Un clergue o paladí ho pot emprar com a focus de llançament de conjurs.");
 			}
 		}
 	}

@@ -90,11 +90,11 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a wooden {@item shield|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item simitarra|phb} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"{@item Armadura de Cuir|phb}, an {@item explorer's pack|phb}, and a {@item druidic focus|phb}"
+					"(a) a wooden {@item shield|phb} o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) una {@item simitarra|phb} o bé (b) qualsevol {@filter simple arma cos a cos|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"{@item Armadura de Cuir|phb}, an {@item pack d'exploració|phb}, and a {@item druidic focus|phb}"
 				],
-				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Ors Inicials}",
 				"defaultData": [
 					{
 						"a": [
@@ -119,7 +119,7 @@
 					{
 						"_": [
 							"Armadura de Cuir|phb",
-							"explorer's pack|phb",
+							"pack d'exploració|phb",
 							"druidic focus|phb"
 						]
 					}
@@ -143,7 +143,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Druid}"
+						"{@filter Trucs Coneguts|spells|level=0|class=Druid}"
 					],
 					"rows": [
 						[
@@ -209,17 +209,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Nivells de Ranura per Nivells de Conjur",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Druid}",
-						"{@filter 2nd|spells|level=2|class=Druid}",
-						"{@filter 3rd|spells|level=3|class=Druid}",
-						"{@filter 4th|spells|level=4|class=Druid}",
-						"{@filter 5th|spells|level=5|class=Druid}",
-						"{@filter 6th|spells|level=6|class=Druid}",
-						"{@filter 7th|spells|level=7|class=Druid}",
-						"{@filter 8th|spells|level=8|class=Druid}",
-						"{@filter 9th|spells|level=9|class=Druid}"
+						"{@filter Nv.1|spells|level=1|class=Druid}",
+						"{@filter Nv.2|spells|level=2|class=Druid}",
+						"{@filter Nv.3|spells|level=3|class=Druid}",
+						"{@filter Nv.4|spells|level=4|class=Druid}",
+						"{@filter Nv.5|spells|level=5|class=Druid}",
+						"{@filter Nv.6|spells|level=6|class=Druid}",
+						"{@filter Nv.7|spells|level=7|class=Druid}",
+						"{@filter Nv.8|spells|level=8|class=Druid}",
+						"{@filter Nv.9|spells|level=9|class=Druid}"
 					],
 					"rows": [
 						[
@@ -447,7 +447,7 @@
 			],
 			"classFeatures": [
 				"Druidic|Druid||1",
-				"Spellcasting|Druid||1",
+				"Llançament de Conjurs|Druid||1",
 				"Cantrip Versatility|Druid||1|UAClassFeatureVariants",
 				"Wild Shape|Druid||2",
 				"Wild Companion|Druid||2|UAClassFeatureVariants",
@@ -457,32 +457,32 @@
 					"gainSubclassFeature": true
 				},
 				"Wild Shape Improvement|Druid||4",
-				"Ability Score Improvement|Druid||4",
-				"Proficiency Versatility|Druid||4|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Druid||4",
+				"Competència Versàtil|Druid||4|UAClassFeatureVariants",
 				"Cantrip Versatility|Druid||4|TCE",
 				{
 					"classFeature": "Druid Circle feature|Druid||6",
 					"gainSubclassFeature": true
 				},
 				"Wild Shape Improvement|Druid||8",
-				"Ability Score Improvement|Druid||8",
-				"Proficiency Versatility|Druid||8|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Druid||8",
+				"Competència Versàtil|Druid||8|UAClassFeatureVariants",
 				{
 					"classFeature": "Druid Circle feature|Druid||10",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Druid||12",
-				"Proficiency Versatility|Druid||12|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Druid||12",
+				"Competència Versàtil|Druid||12|UAClassFeatureVariants",
 				{
 					"classFeature": "Druid Circle feature|Druid||14",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Druid||16",
-				"Proficiency Versatility|Druid||16|UAClassFeatureVariants",
-				"Timeless Body|Druid||18",
+				"Millora de Puntuació de Característica|Druid||16",
+				"Competència Versàtil|Druid||16|UAClassFeatureVariants",
+				"Cos Perenne|Druid||18",
 				"Beast Spells|Druid||18",
-				"Ability Score Improvement|Druid||19",
-				"Proficiency Versatility|Druid||19|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Druid||19",
+				"Competència Versàtil|Druid||19|UAClassFeatureVariants",
 				"Archdruid|Druid||20"
 			],
 			"subclassTitle": "Druid Circle",
@@ -507,7 +507,7 @@
 							"type": "entries",
 							"name": "Preserve the Balance",
 							"entries": [
-								"For druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
+								"For druids, nature exists in a precarious balance. The quatre elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
 								"Druids are also concerned with the delicate ecological balance that sustains plant and animal life, and the need for civilized folk to live in harmony with nature, not in opposition to it. Druids accept that which is cruel in nature, and they hate that which is unnatural, including aberrations (such as beholders and mind flayers) and undead (such as zombies and vampires). Druids sometimes lead raids against such creatures, especially when the monsters encroach on the druids' territory.",
 								"Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, druids take on a more active role in combating the threat, as adventurers."
 							]
@@ -522,7 +522,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a druid quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution. Second, choose the {@background hermit} background."
+										"You can make a druid quickly by following these suggestions. First, Saviesa should be your highest ability score, followed by Constitució. Second, choose the {@background hermit} background."
 									]
 								}
 							]
@@ -541,7 +541,7 @@
 							"name": "Druids and the Gods",
 							"entries": [
 								"Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples. In fact, in the world of Greyhawk, the druidic faith is called the Old Faith, and it claims many adherents among farmers, foresters, fishers, and others who live closely with nature. This tradition includes the worship of Nature as a primal force beyond personification, but also encompasses the worship of Beory, the Oerth Mother, as well as devotees of Obad-Hai, Ehlonna, and Ulaa.",
-								"In the worlds of Greyhawk and the Forgotten Realms, druidic circles are not usually connected to the faith of a single nature deity. Any given circle in the Forgotten Realms, for example, might include druids who revere Silvanus, Mielikki, Eldath, Chauntea, or even the harsh Gods of Fury: Talos, Malar, Auril, and Umberlee. These nature gods are often called the First Circle, the first among the druids, and most druids count them all (even the violent ones) as worthy of veneration.",
+								"In the worlds of Greyhawk and the Regnes Oblidats, druidic circles are not usually connected to the faith of a single nature deity. Any given circle in the Regnes Oblidats, for example, might include druids who revere Silvanus, Mielikki, Eldath, Chauntea, or even the harsh Gods of Fury: Talos, Malar, Auril, and Umberlee. These nature gods are often called the First Circle, the first among the druids, and most druids count them all (even the violent ones) as worthy of veneration.",
 								"The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon\u2014sun, moon, wind, fire, and the world itself\u2014has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations."
 							]
 						}
@@ -555,7 +555,7 @@
 						{
 							"type": "quote",
 							"entries": [
-								"Even in death, each creature plays its part in maintaining the Great Balance. But now an imbalance grows, a force that seeks to hold sway over nature. This is the destructive behavior of the mortal races. The farther away from nature their actions take them, the more corrupting their influence becomes. As druids, we seek mainly to protect and educate, to preserve the Great Balance, but there are times when we must rise up against danger and eradicate it."
+								"Even in death, tota criatura plays its part in maintaining the Great Balance. But now an imbalance grows, a force that seeks to hold sway over nature. This is the destructive behavior of the mortal races. The farther away from nature their actions take them, the more corrupting their influence becomes. As druids, we seek mainly to protect and educate, to preserve the Great Balance, but there are times when we must rise up against danger and eradicate it."
 							],
 							"by": "Safhran, archdruid"
 						},
@@ -793,8 +793,8 @@
 							"name": "Learning Beast Shapes",
 							"entries": [
 								"The Wild Shape feature in the player's handbook lets you transform into a beast that you've seen. That rule gives you a tremendous amount of flexibility, making it easy to amass an array of beast form options for yourself, but you must abide by the limitations in the Beast Shapes table in that book.",
-								"When you gain Wild Shape as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen by 2nd level.",
-								"These tables can also help you and your DM determine which animals you might see on your travels. In addition, the tables include each beast's challenge rating and note whether a beast has a flying or swimming speed. This information will help you determine whether you qualify to assume that beast's form.",
+								"When you gain Wild Shape as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen a nivell 2.",
+								"These tables can also help you and your DM determine which animals you might see on your travels. A més, the tables include each beast's challenge rating and note whether a beast has a flying or swimming speed. This information will help you determine whether you qualify to assume that beast's form.",
 								"The tables include all the individual beasts that are eligible for Wild Shape (up to a challenge rating of 1) or the Circle Forms feature of the Circle of the Moon (up to a challenge rating of 6).",
 								{
 									"type": "table",
@@ -816,12 +816,12 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Blood hawk}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant owl}",
 											"Fly"
 										],
@@ -872,37 +872,37 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Blood hawk}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant crab}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant lizard}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant wolf spider}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Pteranodon}",
 											"Fly"
 										],
@@ -963,47 +963,47 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Camel}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Flying snake}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Mule}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Constrictor snake}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant lizard}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant wolf spider}",
 											"\u2014"
 										],
@@ -1089,112 +1089,112 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Blood hawk}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Flying snake}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant rat}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant weasel}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Mastiff}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Boar}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Constrictor snake}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Elk}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant badger}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant bat}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant frog}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant lizard}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant owl}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant wolf spider}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Panther}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Wolf}",
 											"\u2014"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Ape}",
 											"\u2014"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Black bear}",
 											"\u2014"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Giant wasp}",
 											"Fly"
 										],
@@ -1295,82 +1295,82 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Blood hawk}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Flying snake}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant weasel}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Axe beak}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Boar}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Elk}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant wolf spider}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Panther} (leopard)",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Pteranodon}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Riding horse}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Wolf}",
 											"\u2014"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Giant goat}",
 											"\u2014"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Giant wasp}",
 											"Fly"
 										],
@@ -1481,72 +1481,72 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Blood hawk}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant weasel}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Mastiff}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Mule}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Axe beak}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Boar}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Elk}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant owl}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant wolf spider}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Panther} (cougar)",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Wolf}",
 											"\u2014"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Giant goat}",
 											"\u2014"
 										],
@@ -1612,22 +1612,22 @@
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Blood hawk}",
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Pteranodon}",
 											"Fly"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Giant goat}",
 											"\u2014"
 										],
@@ -1678,42 +1678,42 @@
 											"Fly"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant rat}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Constrictor snake}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant frog}",
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant lizard}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant poisonous snake}",
 											"Swim"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Crocodile}",
 											"Swim"
 										],
@@ -1759,32 +1759,32 @@
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Giant rat}",
 											"\u2014"
 										],
 										[
-											"1/8",
+											"1",
 											"{@creature Stirge}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant bat}",
 											"Fly"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant centipede}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant lizard}",
 											"\u2014"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Giant poisonous snake}",
 											"Swim"
 										],
@@ -1830,17 +1830,17 @@
 											"Swim"
 										],
 										[
-											"1/4",
+											"1",
 											"{@creature Constrictor snake}",
 											"Swim"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Giant sea horse}",
 											"Swim"
 										],
 										[
-											"1/2",
+											"1",
 											"{@creature Reef shark}",
 											"Swim"
 										],
@@ -1909,10 +1909,10 @@
 					"prepared": {
 						"3": [
 							"hold person",
-							"spike growth"
+							"brot d'espines"
 						],
 						"5": [
-							"sleet storm",
+							"tempesta d'aiguaneu",
 							"slow"
 						],
 						"7": [
@@ -1920,8 +1920,8 @@
 							"ice storm"
 						],
 						"9": [
-							"commune with nature",
-							"cone of cold"
+							"comunió amb la natura",
+							"con de fred"
 						]
 					}
 				},
@@ -1946,7 +1946,7 @@
 							"water walk"
 						],
 						"7": [
-							"control water",
+							"control d'aigua",
 							"freedom of movement"
 						],
 						"9": [
@@ -1968,12 +1968,12 @@
 					},
 					"prepared": {
 						"3": [
-							"blur",
-							"silence"
+							"difuminar",
+							"silenci"
 						],
 						"5": [
-							"create food and water",
-							"protection from energy"
+							"crear menjar i aigua",
+							"protegir de l'energia"
 						],
 						"7": [
 							"blight",
@@ -1981,7 +1981,7 @@
 						],
 						"9": [
 							"insect plague",
-							"wall of stone"
+							"paret de pedra"
 						]
 					}
 				},
@@ -2003,14 +2003,14 @@
 						],
 						"5": [
 							"call lightning",
-							"plant growth"
+							"creixement de la flora"
 						],
 						"7": [
 							"divination",
 							"freedom of movement"
 						],
 						"9": [
-							"commune with nature",
+							"comunió amb la natura",
 							"tree stride"
 						]
 					}
@@ -2032,7 +2032,7 @@
 							"pass without trace"
 						],
 						"5": [
-							"daylight",
+							"llum del dia",
 							"haste"
 						],
 						"7": [
@@ -2059,19 +2059,19 @@
 					"prepared": {
 						"3": [
 							"grimpat d'aranya",
-							"spike growth"
+							"brot d'espines"
 						],
 						"5": [
-							"lightning bolt",
-							"meld into stone"
+							"llampec",
+							"fondre's dins la pedra"
 						],
 						"7": [
-							"stone shape",
+							"moldejar la pedra",
 							"stoneskin"
 						],
 						"9": [
-							"passwall",
-							"wall of stone"
+							"passaparet",
+							"paret de pedra"
 						]
 					}
 				},
@@ -2093,11 +2093,11 @@
 						],
 						"5": [
 							"water walk",
-							"stinking cloud"
+							"núvol fètid"
 						],
 						"7": [
 							"freedom of movement",
-							"locate creature"
+							"localitzar criatura"
 						],
 						"9": [
 							"insect plague",
@@ -2123,11 +2123,11 @@
 						],
 						"5": [
 							"gaseous form",
-							"stinking cloud"
+							"núvol fètid"
 						],
 						"7": [
-							"greater invisibility",
-							"stone shape"
+							"invisibilitat superior",
+							"moldejar la pedra"
 						],
 						"9": [
 							"matanúvol",
@@ -2278,7 +2278,7 @@
 						],
 						"9": [
 							"matanúvol",
-							"contagion"
+							"contagiar"
 						]
 					}
 				}
@@ -2307,14 +2307,14 @@
 						],
 						"5": [
 							"bola de foc",
-							"plant growth"
+							"creixement de la flora"
 						],
 						"7": [
-							"aura of life",
-							"fire shield"
+							"aura vital",
+							"escut de foc"
 						],
 						"9": [
-							"flame strike",
+							"batussa incendiària",
 							"raise dead"
 						]
 					}
@@ -2359,7 +2359,7 @@
 				{
 					"prepared": {
 						"3": [
-							"blindness/deafness",
+							"ceguera/sordera",
 							"gentle repose"
 						],
 						"5": [
@@ -2372,7 +2372,7 @@
 						],
 						"9": [
 							"matanúvol",
-							"contagion"
+							"contagiar"
 						]
 					}
 				}
@@ -2410,23 +2410,23 @@
 					"prepared": {
 						"2": [
 							"mans ardents",
-							"cure wounds"
+							"curar ferides"
 						],
 						"3": [
-							"flaming sphere",
+							"esfera de flames",
 							"raig d'incendi"
 						],
 						"5": [
-							"plant growth",
-							"revivify"
+							"creixement de la flora",
+							"revifar"
 						],
 						"7": [
-							"aura of life",
-							"fire shield"
+							"aura vital",
+							"escut de foc"
 						],
 						"9": [
-							"flame strike",
-							"mass cure wounds"
+							"batussa incendiària",
+							"curar ferides massiu"
 						]
 					}
 				}
@@ -2483,8 +2483,8 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level druid feature (enhances Spellcasting)}",
-				"Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the druid spell list."
+				"{@i tret de druid a nivell 1 (millora Spellcasting)}",
+				"Whenever you gain a level en aquesta classe, you can replace one cantrip you learned from this Spellcasting feature with another cantrip de la llista de conjurs de druida."
 			]
 		},
 		{
@@ -2496,11 +2496,11 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You know {@language Druidic}, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom ({@skill Perception}) check but can't decipher it without magic."
+				"You know {@language Druidic}, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Saviesa ({@skill Perception}) but can't decipher it without magic."
 			]
 		},
 		{
-			"name": "Spellcasting",
+			"name": "Llançament de Conjurs",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2508,29 +2508,29 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter druid spell list|spells|class=druid}.",
+				"Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de druida|spells|class=druid}.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Trucs",
 					"entries": [
-						"At 1st level, you know two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table."
+						"A nivell 1, coneixes 2 trucs (escull) from the {@filter llista de conjurs de druida|spells|level=0|class=druid}. Aprendràs més trucs de druid (escull) a nivells superiors, as shown in the Columna de Trucs Coneguts of the Druid table."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Preparing and Casting Spells",
 					"entries": [
-						"The Druid table shows how many spell slots you have to cast your {@filter druid spells|spells|class=druid} of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+						"The Druid table mostra les ranures de conjur que tens per llançar els {@filter druid spells|spells|class=druid} de nivells 1 i superior. To cast one of these druid spells, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"You prepare the list of druid spells that are available for you to cast, choosing de la llista de conjurs de druida. When you do so, choose a number of druid spells equivalent al teu modificador de Saviesa + your druid level (mínim d'1 spell). The spells must be of a level for which you have ranures de conjur.",
+						"For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level ranures de conjur. With a Saviesa of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell curar ferides}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can also change your list of prepared spells quan acabis un Descans Llarg. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Ability",
+					"name": "Habilitat de Llançament de Conjurs",
 					"entries": [
-						"Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.",
+						"La teva habilitat de llançament de conjurs pels conjurs de druid és la Saviesa, since your magic draws upon your devotion and attunement to nature. Faràs servir la Saviesa quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Saviesa quan un conjur de Saviesa mencioni: o una CD de salvada o una tirada d'impactar.",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
@@ -2549,16 +2549,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ritual Casting",
+					"name": "Llançar com a Ritual",
 					"entries": [
 						"You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting Focus",
+					"name": "Focus de Llançament de Conjurs",
 					"entries": [
-						"You can use a {@item druidic focus|phb} as a spellcasting focus for your druid spells"
+						"You can use a {@item druidic focus|phb} com a focus de llançament arcà pels teus druid spells"
 					]
 				}
 			]
@@ -2572,7 +2572,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you choose to identify with a circle of druids from the list of available circles. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+				"A nivell 2, you choose to identify with a circle of druids de la llista de circles disponibles La teva elecció t'otorga trets als nivells 2, 6, 10, i 14."
 			]
 		},
 		{
@@ -2584,8 +2584,8 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level druid {@variantrule optional class features|tce|optional feature}}",
-				"You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel druid a nivell 2}",
+				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
 				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
 			]
 		},
@@ -2598,8 +2598,8 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level druid feature (enhances Wild Shape)}",
-				"You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
+				"{@i tret de druid a nivell 2 (millora Wild Shape)}",
+				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
 				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
 			]
 		},
@@ -2612,8 +2612,8 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.",
-				"Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.",
+				"Començant a nivell 2, pots, com a acció, to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses quan acabis un Descans Curt o Llarg.",
+				"Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. A nivell 2, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.",
 				{
 					"type": "table",
 					"caption": "Beast Shapes",
@@ -2631,32 +2631,32 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2",
 							"{@filter 1/4|bestiary|challenge rating=[&0;&1/4]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
 							"No flying or swimming speed",
 							"Wolf"
 						],
 						[
-							"4th",
+							"4",
 							"{@filter 1/2|bestiary|challenge rating=[&0;&1/2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
 							"No flying speed",
 							"Crocodile"
 						],
 						[
-							"8th",
+							"8",
 							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|miscellaneous=!swarm}",
 							"\u2014",
 							"Giant eagle"
 						]
 					]
 				},
-				"You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall {@condition unconscious}, drop to 0 hit points, or die.",
+				"You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action en el teu torn. You automatically revert if you fall {@condition unconscious}, drop to 0 punts de vida, or die.",
 				"While you are transformed, the following rules apply:",
 				{
 					"type": "list",
 					"items": [
-						"Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-						"When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+						"Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intel·ligència, Saviesa, and Carisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
+						"When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 punts de vida, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 punts de vida, you aren't knocked {@condition unconscious}.",
 						"You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as {@spell call lightning}, that you've already cast.",
 						"You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
 						"You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
@@ -2665,7 +2665,7 @@
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2673,8 +2673,8 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Quan arribes a nivell 4, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
 			]
 		},
 		{
@@ -2686,12 +2686,12 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level druid {@variantrule optional class features|tce|optional feature}}",
-				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter druid spell list|spells|level=0|class=Druid}."
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel druid a nivell 4}",
+				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica feature, you can substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter llista de conjurs de druida|spells|level=0|class=Druid}."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Druid",
@@ -2699,9 +2699,9 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i tret de nivell 4 (augmenta Millora de Puntuació de Característica)}",
+				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
+				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -2713,7 +2713,7 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"At 4th level, your Wild Shape improves as shown on the Beast Shapes table."
+				"A nivell 4, your Wild Shape improves as shown on the Beast Shapes table."
 			]
 		},
 		{
@@ -2725,11 +2725,11 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain a feature granted by your Druid Circle."
+				"A nivell 6, obténs un tret gràcies al Druid Circle."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2737,12 +2737,12 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Quan arribes a nivell 8, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Druid",
@@ -2750,9 +2750,9 @@
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i tret de nivell 8 (augmenta Millora de Puntuació de Característica)}",
+				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
+				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -2764,7 +2764,7 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"At 8th level, your Wild Shape improves as shown on the Beast Shapes table."
+				"A nivell 8, your Wild Shape improves as shown on the Beast Shapes table."
 			]
 		},
 		{
@@ -2776,11 +2776,11 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain a feature granted by your Druid Circle feature."
+				"A nivell 10, obténs un tret gràcies al Druid Circle feature."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2788,12 +2788,12 @@
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Quan arribes a nivell 12, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Druid",
@@ -2801,9 +2801,9 @@
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i tret de nivell 12 (augmenta Millora de Puntuació de Característica)}",
+				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
+				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -2815,11 +2815,11 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature granted by your Druid Circle feature."
+				"A nivell 14, obténs un tret gràcies al Druid Circle feature."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2827,12 +2827,12 @@
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Quan arribes a nivell 16, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Druid",
@@ -2840,9 +2840,9 @@
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i tret de nivell 16 (augmenta Millora de Puntuació de Característica)}",
+				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
+				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -2854,11 +2854,11 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
+				"Començant a nivell 18, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
 			]
 		},
 		{
-			"name": "Timeless Body",
+			"name": "Cos Perenne",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2866,11 +2866,11 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+				"Començant a nivell 18, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
 			]
 		},
 		{
-			"name": "Ability Score Improvement",
+			"name": "Millora de Puntuació de Característica",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2878,12 +2878,12 @@
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Quan arribes a nivell 19, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
+			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
 			"className": "Druid",
@@ -2891,9 +2891,9 @@
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"{@i tret de nivell 19 (augmenta Millora de Puntuació de Característica)}",
+				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
+				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -2905,8 +2905,8 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, you can use your Wild Shape an unlimited number of times.",
-				"Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape."
+				"A nivell 20, you can use your Wild Shape an unlimited number of times.",
+				"A més, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape."
 			]
 		}
 	],
@@ -2949,7 +2949,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"You learn one additional druid cantrip of your choice."
+				"You learn one additional druid cantrip (escull)."
 			]
 		},
 		{
@@ -2964,8 +2964,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land - arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark - and consult the associated list of spells.",
-				"Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				"Your connexió mística to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land - arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark - and consult the associated list of spells.",
+				"Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
 				{
 					"type": "table",
 					"caption": "Arctic",
@@ -2979,20 +2979,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell hold person}, {@spell spike growth}"
+							"3",
+							"{@spell hold person}, {@spell brot d'espines}"
 						],
 						[
-							"5th",
-							"{@spell sleet storm}, {@spell slow}"
+							"5",
+							"{@spell tempesta d'aiguaneu}, {@spell slow}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell freedom of movement}, {@spell ice storm}"
 						],
 						[
-							"9th",
-							"{@spell commune with nature}, {@spell cone of cold}"
+							"9",
+							"{@spell comunió amb la natura}, {@spell con de fred}"
 						]
 					]
 				},
@@ -3009,19 +3009,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell mirror image}, {@spell misty step}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell water breathing}, {@spell water walk}"
 						],
 						[
-							"7th",
-							"{@spell control water}, {@spell freedom of movement}"
+							"7",
+							"{@spell control d'aigua}, {@spell freedom of movement}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell conjure elemental}, {@spell scrying}"
 						]
 					]
@@ -3039,20 +3039,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell blur}, {@spell silence}"
+							"3",
+							"{@spell difuminar}, {@spell silenci}"
 						],
 						[
-							"5th",
-							"{@spell create food and water}, {@spell protection from energy}"
+							"5",
+							"{@spell crear menjar i aigua}, {@spell protegir de l'energia}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell blight}, {@spell hallucinatory terrain}"
 						],
 						[
-							"9th",
-							"{@spell insect plague}, {@spell wall of stone}"
+							"9",
+							"{@spell insect plague}, {@spell paret de pedra}"
 						]
 					]
 				},
@@ -3069,20 +3069,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell pell d'escorça}, {@spell grimpat d'aranya}"
 						],
 						[
-							"5th",
-							"{@spell call lightning}, {@spell plant growth}"
+							"5",
+							"{@spell call lightning}, {@spell creixement de la flora}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell divination}, {@spell freedom of movement}"
 						],
 						[
-							"9th",
-							"{@spell commune with nature}, {@spell tree stride}"
+							"9",
+							"{@spell comunió amb la natura}, {@spell tree stride}"
 						]
 					]
 				},
@@ -3099,19 +3099,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell invisibility}, {@spell pass without trace}"
 						],
 						[
-							"5th",
-							"{@spell daylight}, {@spell haste}"
+							"5",
+							"{@spell llum del dia}, {@spell haste}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell divination}, {@spell freedom of movement}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell dream}, {@spell insect plague}"
 						]
 					]
@@ -3129,20 +3129,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell grimpat d'aranya}, {@spell spike growth}"
+							"3",
+							"{@spell grimpat d'aranya}, {@spell brot d'espines}"
 						],
 						[
-							"5th",
-							"{@spell lightning bolt}, {@spell meld into stone}"
+							"5",
+							"{@spell llampec}, {@spell fondre's dins la pedra}"
 						],
 						[
-							"7th",
-							"{@spell stone shape}, {@spell stoneskin}"
+							"7",
+							"{@spell moldejar la pedra}, {@spell stoneskin}"
 						],
 						[
-							"9th",
-							"{@spell passwall}, {@spell wall of stone}"
+							"9",
+							"{@spell passaparet}, {@spell paret de pedra}"
 						]
 					]
 				},
@@ -3159,19 +3159,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell darkness}, {@spell Melf's acid arrow}"
 						],
 						[
-							"5th",
-							"{@spell water walk}, {@spell stinking cloud}"
+							"5",
+							"{@spell water walk}, {@spell núvol fètid}"
 						],
 						[
-							"7th",
-							"{@spell freedom of movement}, {@spell locate creature}"
+							"7",
+							"{@spell freedom of movement}, {@spell localitzar criatura}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell insect plague}, {@spell scrying}"
 						]
 					]
@@ -3189,19 +3189,19 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell grimpat d'aranya}, {@spell tirarany}"
 						],
 						[
-							"5th",
-							"{@spell gaseous form}, {@spell stinking cloud}"
+							"5",
+							"{@spell gaseous form}, {@spell núvol fètid}"
 						],
 						[
-							"7th",
-							"{@spell greater invisibility}, {@spell stone shape}"
+							"7",
+							"{@spell invisibilitat superior}, {@spell moldejar la pedra}"
 						],
 						[
-							"9th",
+							"9",
 							"{@spell matanúvol}, {@spell insect plague}"
 						]
 					]
@@ -3220,8 +3220,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.",
-				"For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots."
+				"Començant a nivell 2, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended ranures de conjur to recover. The ranures de conjur can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. No pots tornar a emprar aquest tret fins que acabis un descans llarg.",
+				"For example, when you are a 4th-level druid, you can recover up to two levels worth of ranures de conjur. You can recover either a 2nd-level slot or two 1st-level slots."
 			]
 		},
 		{
@@ -3236,8 +3236,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
-				"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@spell entangle} spell."
+				"Començant a nivell 6, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+				"A més, tens avantatge a saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@spell entangle} spell."
 			]
 		},
 		{
@@ -3252,7 +3252,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"When you reach 10th level, you can't be {@condition charmed} or {@condition frightened} by elementals or fey, and you are immune to poison and disease."
+				"Quan arribes a nivell 10, no pots ser {@condition charmed} ni {@condition frightened} by elementals or fey, and you are immune to poison and disease."
 			]
 		},
 		{
@@ -3267,7 +3267,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature ha de salvar per Saviesa against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.",
+				"Quan arribes a nivell 14, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature ha de salvar per Saviesa contra la teva CD de salvada de conjur de druid. Si falla, the creature must choose a different target, or the attack automatically misses. On a successful save, la criatura s'immunitza a aquest efecte durant 24 hores.",
 				"The creature is aware of this effect before it makes its attack against you."
 			]
 		},
@@ -3304,8 +3304,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
-				"Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
+				"The rites of your circle grant you the ability to transform into more dangerous animal forms. Començant a nivell 2, you can use your Wild Shape to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
+				"Començant a nivell 6, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
 				{
 					"type": "table",
 					"caption": "Circle of the Moon Beast Shapes",
@@ -3321,42 +3321,42 @@
 					],
 					"rows": [
 						[
-							"2nd",
+							"2",
 							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
 							"No flying or swimming speed"
 						],
 						[
-							"4th",
+							"4",
 							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly|miscellaneous=!swarm}",
 							"No flying speed"
 						],
 						[
-							"6th",
+							"6",
 							"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
 							"No flying speed"
 						],
 						[
-							"8th",
+							"8",
 							"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|miscellaneous=!swarm}",
 							"\u2014"
 						],
 						[
-							"9th",
+							"9",
 							"{@filter 3|bestiary|challenge rating=[&0;&3]|type=beast|miscellaneous=!swarm}",
 							"\u2014"
 						],
 						[
-							"12th",
+							"12",
 							"{@filter 4|bestiary|challenge rating=[&0;&4]|type=beast|miscellaneous=!swarm}",
 							"\u2014"
 						],
 						[
-							"15th",
+							"15",
 							"{@filter 5|bestiary|challenge rating=[&0;&5]|type=beast|miscellaneous=!swarm}",
 							"\u2014"
 						],
 						[
-							"18th",
+							"18",
 							"{@filter 6|bestiary|challenge rating=[&0;&6]|type=beast|miscellaneous=!swarm}",
 							"\u2014"
 						]
@@ -3375,8 +3375,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.",
-				"Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain {@dice 1d8} hit points per level of the spell slot expended."
+				"You gain the ability to use Wild Shape en el teu torn com a acció bonus, rather than com a acció.",
+				"A més, while you are transformed by Wild Shape, pots, com a acció bonus, to expend one spell slot to regain {@dice 1d8} hit points per level of the spell slot expended."
 			]
 		},
 		{
@@ -3390,7 +3390,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"Començant a nivell 6, your attacks in beast form es consideren màgics quant a ignorar resistències i immunitats a atacs i dany no-màgic."
 			]
 		},
 		{
@@ -3404,7 +3404,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
+				"A nivell 10, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
 			]
 		},
 		{
@@ -3418,7 +3418,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the {@spell alter self} spell at will."
+				"A nivell 14, you have learned to use magic to alter your physical form in more subtle ways. You can cast the {@spell alter self} spell at will."
 			]
 		},
 		{
@@ -3471,8 +3471,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the {@spell chill touch} cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. A nivell 2, aprèns el truc {@spell chill touch}. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
 				{
 					"type": "table",
 					"caption": "Circle of Spores Spells",
@@ -3486,20 +3486,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell blindness/deafness}, {@spell gentle repose}"
+							"3",
+							"{@spell ceguera/sordera}, {@spell gentle repose}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell animate dead}, {@spell gaseous form}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell blight}, {@spell confusion}"
 						],
 						[
-							"9th",
-							"{@spell matanúvol}, {@spell contagion}"
+							"9",
+							"{@spell matanúvol}, {@spell contagiar}"
 						]
 					]
 				}
@@ -3522,7 +3522,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal {@damage 1d4} de dany necròtic to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to {@dice 1d6} at 6th level, {@dice 1d8} at 10th level, and {@dice 1d10} at 14th level."
+				"Començant a nivell 2, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. Quan una criatura que puguis veure moves into a space a 10 peus de tu or starts its turn there, pots, com a reacció, deal {@damage 1d4} de dany necròtic to that creature unless it succeeds on a Constitució saving throw contra la teva CD de salvació de conjur. The necrotic damage increases to {@dice 1d6} a nivell 6, {@dice 1d8} a nivell 10, i {@dice 1d10} a nivell 14."
 			]
 		},
 		{
@@ -3542,15 +3542,15 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:",
+				"A nivell 2, you gain the ability to channel magic into your spores. Com a acció, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 punts de vida temporals for each level you have en aquesta classe. While this feature is active, reps els beneficis següents:",
 				{
 					"type": "list",
 					"items": [
 						"When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.",
-						"Your melee weapon attacks deal an extra {@damage 1d6} de dany necròtic to any target they hit."
+						"Your atac armat cos a coss deal an extra {@damage 1d6} de dany necròtic to any target they hit."
 					]
 				},
-				"These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again."
+				"These benefits last durant 10 minuts, until you lose all these punts de vida temporals, or until you use your Wild Shape again."
 			]
 		},
 		{
@@ -3570,9 +3570,9 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the {@creature zombie} stat block in the {@book Monster Manual|MM}. It remains animate for 1 hour, after which time it collapses and dies.",
-				"In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the {@action Atac} action, making one melee attack.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+				"A nivell 6, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies a 10 peus de tu, pots, com a reacció, animate it, causing it to stand up immediately with 1 hit point. The creature uses the {@creature zombie} stat block in the {@book Monster Manual|MM}. It remains animate durant 1 hora, after which time it collapses and dies.",
+				"In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is l'acció {@action Attack}, making one atac cos a cos.",
+				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos of it quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -3592,8 +3592,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away, where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active.",
-				"Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn.",
+				"A nivell 10, you gain the ability to seed an area with deadly spores. Com a acció bonus while your Symbiotic Entity feature is active, you can hurl spores fins a 30 peus away, where they swirl in a 10-foot cube durant 1 minut. The spores disappear early if you use this feature again, if you dismiss them com a acció bonus, or if your Symbiotic Entity feature is no longer active.",
+				"Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitució saving throw contra la teva CD de salvació de conjur. A creature can take this damage no more than un cop per torn.",
 				"While the cube of spores persists, you can't use your Halo of Spores reaction."
 			]
 		},
@@ -3614,7 +3614,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against you counts as a normal hit instead, unless you're {@condition incapacitated}."
+				"A nivell 14, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against you counts as a normal hit instead, unless you're {@condition incapacitated}."
 			]
 		},
 		{
@@ -3650,8 +3650,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Stars feature}",
-				"You've created a star chart as part of your heavenly studies. It is a Tiny object and can serve as a spellcasting focus for your druid spells. You determine its form by rolling on the Star Map table or by choosing one.",
+				"{@i tret de Circle of the Stars a nivell 2}",
+				"You've created a star chart as part of your heavenly studies. It is a Tiny object and can serve com a focus de llançament arcà pels teus druid spells. You determine its form by rolling on the Star Map table or by choosing one.",
 				{
 					"type": "table",
 					"caption": "Star Map",
@@ -3694,9 +3694,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You know the {@spell guidance} cantrip.",
-						"You have the {@spell guiding bolt} spell prepared. It counts as a druid spell for you, and it doesn't count against the number of spells you can have prepared.",
-						"You can cast {@spell guiding bolt} without expending a spell slot. You can do so a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+						"You know the {@spell guia} cantrip.",
+						"You have the {@spell sageta guia} spell prepared. It counts as a druid spell for you, and it doesn't count against the number of spells you can have prepared.",
+						"Pots llançar el conjur {@spell sageta guia} sense gastar cap ranura de conjur. You can do so tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 					]
 				},
 				"If you lose the map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map."
@@ -3713,29 +3713,29 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Stars feature}",
-				"As a bonus action, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.",
-				"While in your starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes. It ends early if you dismiss it (no action required), are {@condition incapacitated}, die, or use this feature again.",
+				"{@i tret de Circle of the Stars a nivell 2}",
+				"Com a acció bonus, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.",
+				"While in your starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts. It ends early if you dismiss it (no requereix acció), are {@condition incapacitated}, die, or use this feature again.",
 				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
 				{
 					"type": "entries",
 					"name": "Archer",
 					"entries": [
-						"A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to {@dice 1d8} + your Wisdom modifier."
+						"A constellation of an archer appears on you. When you activate this form, and com a acció bonus on your subsequent turns while it lasts, you can make a atac màgic a distància, hurling a luminous arrow that targets one creature a 60 peus de tu. On a hit, the attack deals radiant damage equal to {@dice 1d8} + el teu modificador de Saviesa."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Chalice",
 					"entries": [
-						"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to {@dice 1d8} + your Wisdom modifier."
+						"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature a 30 peus de tu can regain hit points equal to {@dice 1d8} + el teu modificador de Saviesa."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Drac",
 					"entries": [
-						"A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
+						"A constellation of a wise dragon appears on you. When you make an Intel·ligència or a Saviesa check or a Constitució per a mantenir concentracio en un conjur, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
 					]
 				}
 			]
@@ -3751,8 +3751,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of the Stars feature}",
-				"Whenever you finish a long rest, you can consult your Star Map for omens. When you do so, roll a die. Until you finish your next long rest, you gain access to a special reaction based on whether you rolled an even or an odd number on the die:",
+				"{@i tret de Circle of the Stars a nivell 6}",
+				"Quan acabis un Descans Llarg, you can consult your Star Map for omens. When you do so, roll a die. Until you finish your next long rest, you gain access to a special reaction based on whether you rolled an even or an odd number on the die:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3760,16 +3760,16 @@
 						{
 							"type": "item",
 							"name": "Weal (even).",
-							"entry": "Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use your reaction to roll a {@dice d6} and add the number rolled to the total."
+							"entry": "Whenever a creature que puguis veure a 30 peus de tu is about to make an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and add the number rolled to the total."
 						},
 						{
 							"type": "item",
 							"name": "Woe (odd).",
-							"entry": "Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use your reaction to roll a {@dice d6} and subtract the number rolled from the total."
+							"entry": "Whenever a creature que puguis veure a 30 peus de tu is about to make an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and subtract the number rolled from the total."
 						}
 					]
 				},
-				"You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"You can use this reaction tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -3783,8 +3783,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of the Stars feature}",
-				"The constellations of your Starry Form improve. The {@dice 1d8} of the Archer and the Chalice becomes {@dice 2d8}, and while the Dragon is active, you have a flying speed of 20 feet and can hover.",
+				"{@i tret de Circle of the Stars a nivell 10}",
+				"The constellations of your Starry Form improve. The {@dice 1d8} of the Archer and the Chalice becomes {@dice 2d8}, and while the Dragon is active, tens una velocitat de vol de 20 peus and can hover.",
 				"Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body."
 			]
 		},
@@ -3799,8 +3799,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of the Stars feature}",
-				"While in your Starry Form, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage."
+				"{@i tret de Circle of the Stars a nivell 14}",
+				"While in your Starry Form, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
 			]
 		},
 		{
@@ -3835,9 +3835,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Wildfire feature}",
-				"You have formed a bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to some spells when you reach certain levels in this class, as shown on the Circle of Wildfire Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				"{@i tret de Circle of Wildfire a nivell 2}",
+				"You have formed a bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to some spells Quan pugis de nivell en aquesta classe, as shown on the Circle of Wildfire Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
 				{
 					"type": "table",
 					"caption": "Circle of Wildfire Spells",
@@ -3851,24 +3851,24 @@
 					],
 					"rows": [
 						[
-							"2nd",
-							"{@spell mans ardents}, {@spell cure wounds}"
+							"2",
+							"{@spell mans ardents}, {@spell curar ferides}"
 						],
 						[
-							"3rd",
-							"{@spell flaming sphere}, {@spell raig d'incendi}"
+							"3",
+							"{@spell esfera de flames}, {@spell raig d'incendi}"
 						],
 						[
-							"5th",
-							"{@spell plant growth}, {@spell revivify}"
+							"5",
+							"{@spell creixement de la flora}, {@spell revifar}"
 						],
 						[
-							"7th",
-							"{@spell aura of life}, {@spell fire shield}"
+							"7",
+							"{@spell aura vital}, {@spell escut de foc}"
 						],
 						[
-							"9th",
-							"{@spell flame strike}, {@spell mass cure wounds}"
+							"9",
+							"{@spell batussa incendiària}, {@spell curar ferides massiu}"
 						]
 					]
 				}
@@ -3885,12 +3885,12 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Wildfire feature}",
-				"You can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your esperit de foc feréstec, rather than assuming a beast form.",
-				"The spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take {@damage 2d6} de dany de foc.",
-				"The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the {@creature Esperit de Foc Feréstec|TCE} stat block, which uses your proficiency bonus (BC) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
-				"In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the spirit can take any action of its choice, not just {@action Dodge}.",
-				"The spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die."
+				"{@i tret de Circle of Wildfire a nivell 2}",
+				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Wild Shape feature to summon your esperit de foc feréstec, rather than assuming a beast form.",
+				"The spirit appears in an unoccupied space (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d6} de dany de foc.",
+				"The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the {@creature Esperit de Foc Feréstec|TCE} stat block, which uses el teu bonus de competència (BC) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
+				"In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Dodge}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the spirit can take any action of its choice, not just {@action Dodge}.",
+				"The spirit manifests durant 1 hora, until it is reduced to 0 punts de vida, until you use this feature to summon the spirit again, or until you die."
 			]
 		},
 		{
@@ -3904,9 +3904,9 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of Wildfire feature}",
+				"{@i tret de Circle of Wildfire a nivell 6}",
 				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.",
-				"In addition, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
+				"A més, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
 			]
 		},
 		{
@@ -3920,9 +3920,9 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of Wildfire feature}",
-				"You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies within 30 feet of you or your esperit de foc feréstec, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals {@dice 2d10} + your Wisdom modifier.",
-				"You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i tret de Circle of Wildfire a nivell 10}",
+				"You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies a 30 peus de tu or your esperit de foc feréstec, a harmless spectral flame springs forth in the dead creature's space and flickers there durant 1 minut. Quan una criatura que puguis veure enters that space, pots, com a reacció, extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals {@dice 2d10} + el teu modificador de Saviesa.",
+				"You can use this reaction tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -3936,9 +3936,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of Wildfire feature}",
-				"The bond with your esperit de foc feréstec can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall {@condition unconscious}, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"{@i tret de Circle of Wildfire a nivell 14}",
+				"The bond with your esperit de foc feréstec can save you from death. If the spirit is a 120 peus de tu when you are reduced to 0 punts de vida and thereby fall {@condition unconscious}, you can cause the spirit to drop to 0 punts de vida. You then regain half your hit points and immediately rise to your feet.",
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
@@ -3974,8 +3974,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Stars feature}",
-				"You've created a star map as part of your study of the heavens. The map is a Tiny object and can serve as a spellcasting focus for your druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.",
+				"{@i tret de Circle of the Stars a nivell 2}",
+				"You've created a star map as part of your study of the heavens. The map is a Tiny object and can serve com a focus de llançament arcà pels teus druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.",
 				{
 					"type": "table",
 					"caption": "Star Map",
@@ -4015,7 +4015,7 @@
 					]
 				},
 				"If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.",
-				"You can cast the {@spell augury} and {@spell guiding bolt} spells without expending a spell slot and without preparing the spell, provided you use the star map as the spellcasting focus. You can cast a spell from the map in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+				"You can cast the {@spell augury} i {@spell sageta guia} spells sense gastar cap ranura de conjur and without preparing the spell, provided you use the star map as the spellcasting focus. You can cast a spell from the map in this way a number of times equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4029,9 +4029,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of the Stars feature}",
-				"You gain the ability to harness constellations' power to alter your form. As an action, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.",
-				"While in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you're {@condition incapacitated}.",
+				"{@i tret de Circle of the Stars a nivell 2}",
+				"You gain the ability to harness constellations' power to alter your form. Com a acció, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.",
+				"While in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts or until you're {@condition incapacitated}.",
 				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
 				{
 					"type": "list",
@@ -4040,17 +4040,17 @@
 						{
 							"type": "item",
 							"name": "Chalice",
-							"entry": "A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to {@dice 1d8} + half your level in this class."
+							"entry": "A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature a 30 peus de tu can regain hit points equal to {@dice 1d8} + half your level en aquesta classe."
 						},
 						{
 							"type": "item",
 							"name": "Archer",
-							"entry": "A constellation of an archer appears on you. You gain a bonus action that you can use to make a ranged spell attack, hurling a luminous arrow that targets a creature you can see within 60 feet of you. On a hit, the attack deals radiant damage equal to {@dice 1d8} + your Wisdom modifier."
+							"entry": "A constellation of an archer appears on you. You gain a bonus action that you can use to make a atac màgic a distància, hurling a luminous arrow that targets a creature que puguis veure a 60 peus de tu. On a hit, the attack deals radiant damage equal to {@dice 1d8} + el teu modificador de Saviesa."
 						},
 						{
 							"type": "item",
 							"name": "Drac",
-							"entry": "A constellation of a wise, ancient dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
+							"entry": "A constellation of a wise, ancient dragon appears on you. When you make an Intel·ligència or a Saviesa check or a Constitució per a mantenir concentracio en un conjur, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
 						}
 					]
 				}
@@ -4067,8 +4067,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of the Stars feature}",
-				"You learn to use your star map to divine the will of the cosmos. Whenever you finish a long rest, you can consult your star map for omens. When you do so, roll a {@dice d6}. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the {@dice d6}:",
+				"{@i tret de Circle of the Stars a nivell 6}",
+				"You learn to use your star map to divine the will of the cosmos. Quan acabis un Descans Llarg, you can consult your star map for omens. When you do so, roll a {@dice d6}. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the {@dice d6}:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -4076,16 +4076,16 @@
 						{
 							"type": "item",
 							"name": "Weal (even)",
-							"entry": "Whenever a creature you can see within 30 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to roll a {@dice d6} and add the number rolled to the total."
+							"entry": "Whenever a creature que puguis veure a 30 peus de tu makes an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and add the number rolled to the total."
 						},
 						{
 							"type": "item",
 							"name": "Woe (odd)",
-							"entry": "Whenever a creature you can see within 30 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to roll a {@dice d6} and subtract the number rolled from the total."
+							"entry": "Whenever a creature que puguis veure a 30 peus de tu makes an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and subtract the number rolled from the total."
 						}
 					]
 				},
-				"You can use this reaction a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest."
+				"You can use this reaction a number of times equivalent al teu modificador de Saviesa, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4099,8 +4099,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of the Stars feature}",
-				"While your Starry Form feature is active, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage."
+				"{@i tret de Circle of the Stars a nivell 10}",
+				"While your Starry Form feature is active, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
 			]
 		},
 		{
@@ -4114,9 +4114,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of the Stars feature}",
-				"Your connection to the cosmos allows you to conjure brilliant starlight. As an action, you conjure a burst of light in a 30-foot-radius sphere centered on a point you can see within 120 feet of you. You can immediately teleport each willing creature in the sphere to an unoccupied space within 30 feet of it. Each creature remaining in the sphere must succeed on a Constitution saving throw against your spell save DC or take {@damage 4d10} de dany radiant and be {@condition blinded} until the end of your next turn.",
-				"Once you have used this action, you can't use it again until you finish a long rest or until you expend a spell slot of 5th level or higher to use it again."
+				"{@i tret de Circle of the Stars a nivell 14}",
+				"Your connection to the cosmos allows you to conjure brilliant starlight. Com a acció, you conjure a burst of light in a 30-foot-radius sphere centered on a point que puguis veure a 120 peus de tu. You can immediately teleport each willing creature in the sphere en un espai desocupat within 30 feet of it. Tota criatura remaining in the sphere ha de salvar per Constitució. contra la teva CD de salvació de conjur or take {@damage 4d10} de dany radiant and be {@condition blinded} fins el final del teu proper torn.",
+				"Once you have used this action, you can't use it again fins que acabis un descans llarg or until you expend a spell slot of 5th level or higher to use it again."
 			]
 		},
 		{
@@ -4151,9 +4151,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Wildfire feature}",
-				"You have formed a mystical bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to certain spells. At 2nd level, you learn the fire bolt cantrip.",
-				"When you reach certain levels in this class, you gain access to the spells listed for that level in the Circle of Wildfire Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				"{@i tret de Circle of Wildfire a nivell 2}",
+				"You have formed a mystical bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to certain spells. A nivell 2, you learn the fire bolt cantrip.",
+				"Quan pugis de nivell en aquesta classe, you gain access to the spells listed for that level in the Circle of Wildfire Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
 				{
 					"type": "table",
 					"caption": "Circle of Wildfire Spells",
@@ -4167,20 +4167,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell locate animals or plants}, {@spell raig d'incendi}"
 						],
 						[
-							"5th",
-							"{@spell bola de foc}, {@spell plant growth}"
+							"5",
+							"{@spell bola de foc}, {@spell creixement de la flora}"
 						],
 						[
-							"7th",
-							"{@spell aura of life}, {@spell fire shield}"
+							"7",
+							"{@spell aura vital}, {@spell escut de foc}"
 						],
 						[
-							"9th",
-							"{@spell flame strike}, {@spell raise dead}"
+							"9",
+							"{@spell batussa incendiària}, {@spell raise dead}"
 						]
 					]
 				}
@@ -4197,12 +4197,12 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level Circle of Wildfire feature}",
-				"You can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your {@creature esperit de foc feréstec|UAClericDruidWizard}, rather than assuming a beast form.",
-				"The spirit appears in an unoccupied space of your choice you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take {@damage 2d10} de dany de foc.",
+				"{@i tret de Circle of Wildfire a nivell 2}",
+				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Wild Shape feature to summon your {@creature esperit de foc feréstec|UAClericDruidWizard}, rather than assuming a beast form.",
+				"The spirit appears in an unoccupied space (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d10} de dany de foc.",
 				"The esperit de foc feréstec is friendly to you and your companions and obeys your commands. See this creature's game statistics in the esperit de foc feréstec stat block. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
-				"In combat, the esperit de foc feréstec shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the {@action Dash}, {@action Destravar-se}, {@action Help}, or {@action Hide} action.",
-				"The esperit de foc feréstec manifests for 1 hour, until it is reduced to 0 hit points, or until you use your Wild Shape again."
+				"In combat, the esperit de foc feréstec shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Dodge}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or to take l'acció {@action Dash}, {@action Disengage}, {@action Help}, or {@action Hide}.",
+				"The esperit de foc feréstec manifests durant 1 hora, until it is reduced to 0 punts de vida, or until you use your Wild Shape again."
 			]
 		},
 		{
@@ -4216,8 +4216,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Circle of Wildfire feature}",
-				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus to one roll of the spell equal to the number rolled. In addition, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
+				"{@i tret de Circle of Wildfire a nivell 6}",
+				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus to one roll of the spell equal to the number rolled. A més, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
 			]
 		},
 		{
@@ -4231,8 +4231,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Circle of Wildfire feature}",
-				"You gain the ability to turn death into flames of vitality. When a Small or larger creature that you can see dies within 30 feet of you or your esperit de foc feréstec, you can use your reaction to cause primal flames to spring from the body. When a creature you can see touches these flames, the creature regains hit points or takes fire damage (your choice) equal to {@dice 2d10} + your Wisdom modifier. The flames vanish after a creature has touched them or after 1 minute. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+				"{@i tret de Circle of Wildfire a nivell 10}",
+				"You gain the ability to turn death into flames of vitality. When a Small or larger creature que puguis veure dies a 30 peus de tu or your esperit de foc feréstec, pots, com a reacció, cause primal flames to spring from the body. Quan una criatura que puguis veure touches these flames, the creature regains hit points or takes fire damage (escull) equal to {@dice 2d10} + el teu modificador de Saviesa. The flames vanish after a creature has touched them or after 1 minute. Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop). En recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4246,9 +4246,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Circle of Wildfire feature}",
-				"The bond with your esperit de foc feréstec is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 hit points and don't die outright, you drop to 1 hit point instead and gain temporary hit points equal to five times your druid level, and each creature of your choice within 30 feet of you that you can see takes fire damage equal to {@dice 2d10} + your druid level.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"{@i tret de Circle of Wildfire a nivell 14}",
+				"The bond with your esperit de foc feréstec is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 punts de vida and don't die outright, you drop to 1 hit point instead and gain punts de vida temporals equal to five times your druid level, and tota criatura que designis a 30 peus de tu que puguis veure takes fire damage equal to {@dice 2d10} + your druid level.",
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4261,7 +4261,7 @@
 			"subclassSource": "UADruid",
 			"level": 2,
 			"entries": [
-				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with merriment and light. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places.",
+				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to la Terra Fata. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with merriment and light. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Balm of the Summer Court|Druid||Dreams (UA)|UADruid|2"
@@ -4279,9 +4279,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you become imbued with the blessings of the Summer Court. You are a font of energy that lends relief to weary feet and respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
-				"As a bonus action, you can choose an ally you can see within 120 feet of you and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent, and its speed increases by 5 feet per die spent. The speed increase lasts for 1 minute.",
-				"You regain the expended dice when you finish a long rest."
+				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that lends relief to weary feet and respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
+				"Com a acció bonus, you can choose an ally que puguis veure a 120 peus de tu and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 punt de vida temporal per die spent, and its speed increases by 5 feet per die spent. The speed increase dura 1 minut.",
+				"You regain the expended dice quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4295,7 +4295,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, home is wherever you set up camp. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to ward your campsite from intruders. At the start of the rest, you create an area with a 30-foot radius. Within this area, you and your allies gain a +5 bonus to Wisdom ({@skill Perception}) checks to detect creatures, and any light from open flames (campfire, torches, and the like) is not visible outside the area. These effects end when the rest finishes or when you leave the area."
+				"A nivell 6, home is wherever you set up camp. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to ward your campsite from intruders. At the start of the rest, you create an area with a 30-foot radius. Within this area, you and your allies gain a +5 bonus to Saviesa ({@skill Perception}) to detect creatures, and any light from open flames (campfire, torches, and the like) is not visible outside the area. These effects end when the rest finishes or when you leave the area."
 			]
 		},
 		{
@@ -4309,8 +4309,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you can use the hidden, unpredictable magical pathways that some fey use to traverse space in a blink of an eye. On your turn, you can teleport up to 30 feet to a spot you can see. Each foot of this teleportation costs 1 foot of your movement.",
-				"You can also use this feature to teleport someone else. As an action, you can teleport a willing ally you touch up to 30 feet to a point you can see.",
+				"A nivell 10, you can use the hidden, unpredictable magical pathways that some fey use to traverse space in a blink of an eye. En el teu torn, you can teleport fins a 30 peus to a spot que puguis veure. Each foot of this teleportation costs 1 foot of your movement.",
+				"You can also use this feature to teleport someone else. Com a acció, you can teleport a willing ally you touch fins a 30 peus to a point que puguis veure.",
 				"Once you use either option\u2014teleporting yourself or an ally\u2014you can't use that option again until {@dice 1d4} rounds have passed."
 			]
 		},
@@ -4325,8 +4325,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the favor of the Summer Court allows you to end spells that hamper you and your allies. When you cast a spell with a spell slot and it restores hit points to you or an ally this turn, you can simultaneously target the healed creature with dispel magic, using a spell slot with a level equal to the slot used to cast the healing spell.",
-				"You can use this feature three times, and you regain expended uses of it when you finish a long rest. If the healing spell targets more than one creature, you can use this feature on more than one at the same time, expending one use of it per creature."
+				"A nivell 14, the favor of the Summer Court allows you to end spells that hamper you and your allies. When you cast a spell with a spell slot and it restores hit points to you or an ally this turn, you can simultaneously target the healed creature with dispel magic, using a spell slot with a level equal to the slot used to cast the healing spell.",
+				"Pots emprar aquest tret 3 cops, i en recuperes els usos of it quan acabis un Descans Llarg. If the healing spell targets more than one creature, you can use this feature on more than one at the same time, expending one use of it per creature."
 			]
 		},
 		{
@@ -4346,12 +4346,12 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Beast Speech|Druid||Shepherd (UA)|UADruid|2"
+					"subclassFeature": "Parla Feréstega|Druid||Shepherd (UA)|UADruid|2"
 				}
 			]
 		},
 		{
-			"name": "Beast Speech",
+			"name": "Parla Feréstega",
 			"source": "UADruid",
 			"page": 1,
 			"className": "Druid",
@@ -4361,7 +4361,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you gain the ability to converse with beasts. Beasts can understand your speech, and you gain the ability to decipher their noises and motions into recognizable words and phrases. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past.",
+				"A nivell 2, you gain the ability to converse with beasts. Beasts can understand your speech, and you gain the ability to decipher their noises and motions into recognizable words and phrases. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past.",
 				"This ability does not grant you any special friendship with beasts, though you can combine this ability with gifts and other favors to curry favor with them as you would any other nonplayer character."
 			]
 		},
@@ -4376,8 +4376,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you gain the ability to call forth animal spirits and use them to influence the world around you. As a bonus action, you magically summon a Medium spirit to an unoccupied space you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around it, it doesn't occupy its space, it is immobile, and it counts as neither a creature nor an object.",
-				"The spirit persists for 1 minute. Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"Començant a nivell 2, you gain the ability to call forth animal spirits and use them to influence the world around you. Com a acció bonus, you magically summon a Medium spirit en un espai desocupat que puguis veure a 60 peus de tu. The spirit creates an aura in a 30-foot radius around it, it doesn't occupy its space, it is immobile, and it counts as neither a creature nor an object.",
+				"The spirit persists durant 1 minut. Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg.",
 				"The nature of the aura depends on the type of spirit you choose to summon from the options below.",
 				{
 					"type": "entries",
@@ -4386,7 +4386,7 @@
 							"type": "entries",
 							"name": "Bear",
 							"entries": [
-								"The bear spirit grants you and your allies its might and endurance. You and your allies who are in the aura when the spirit appears each gain temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura."
+								"The bear spirit grants you and your allies its might and endurance. You and your allies who are in the aura when the spirit appears each gain punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 							]
 						}
 					]
@@ -4398,7 +4398,7 @@
 							"type": "entries",
 							"name": "Hawk",
 							"entries": [
-								"The hawk spirit is a consummate hunter, marking your enemies with its keen sight. You and your allies gain advantage on ranged attack rolls against targets in the spirit's aura."
+								"The hawk spirit is a consummate hunter, marking your enemies with its keen sight. You and your allies gain advantage on atac a distància rolls against targets in the spirit's aura."
 							]
 						}
 					]
@@ -4410,7 +4410,7 @@
 							"type": "entries",
 							"name": "Wolf",
 							"entries": [
-								"The wolf spirit lends you and your allies its precise senses, while your magic works to benefit the members of your pack. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. In addition, if you cast a spell with a spell slot that restores hit points to anyone inside or outside the aura, each of your allies in the aura also regains hit points equal to your druid level."
+								"The wolf spirit lends you and your allies its precise senses, while your magic works to benefit the members of your pack. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores hit points to anyone inside or outside the aura, each of your allies in the aura also regains hit points equal to your druid level."
 							]
 						}
 					]
@@ -4428,7 +4428,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to conjure forth powerful animals. Any beast summoned or created by your spells gains two benefits. Its hit point maximum increases by 2 per Hit Die, and the damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage."
+				"A nivell 6, you gain the ability to conjure forth powerful animals. Any beast summoned or created by your spells gains two benefits. Its punts de vida màxims increases by 2 per Hit Die, and the damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage."
 			]
 		},
 		{
@@ -4442,7 +4442,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the services of a spirit that watches over you and protects you from harm. Whenever you finish a long rest, you gain the benefits of a {@spell death ward} spell. The spell's duration is extended to 24 hours."
+				"A nivell 10, you gain the services of a spirit that watches over you and protects you from harm. Quan acabis un Descans Llarg, you gain the benefits of a {@spell abjurar la mort} spell. The spell's duration is extended to 24 hours."
 			]
 		},
 		{
@@ -4456,8 +4456,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, the bestial spirits you commune with protect you when you are vulnerable. If you are reduced to 0 hit points or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it was cast with a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Començant a nivell 14, the bestial spirits you commune with protect you when you are vulnerable. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it was cast with a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora.",
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4489,9 +4489,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of {@dice d10}s equal to your druid level.",
-				"When you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally of your choice that you can see within 30 feet of you regains 2 hit points per die spent to increase the spell's damage, or 5 hit points per die if at least one of the slain creatures was undead.",
-				"You regain the expended dice when you finish a long rest."
+				"Començant a nivell 2, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of {@dice d10}s equal to your druid level.",
+				"When you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally (escull) que puguis veure a 30 peus de tu regains 2 hit points per die spent to increase the spell's damage, or 5 hit points per die if at least one of the slain creatures was undead.",
+				"You regain the expended dice quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4505,8 +4505,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to reach beyond death's veil in search of knowledge. Using this feature, you can cast {@spell speak with dead} without material components, and you understand what the target of this casting says. It can understand your questions, even if you don't share a language or it is not intelligent enough to speak.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"A nivell 6, you gain the ability to reach beyond death's veil in search of knowledge. Using this feature, Pots llançar el conjur {@spell parlar amb els morts} without material components, and you understand what the target of this casting says. It can understand your questions, even if you don't share a language or it is not intelligent enough to speak.",
+				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -4520,7 +4520,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain resistance to necrotic and radiant damage. In addition, while you aren't {@condition incapacitated}, any ally within 30 feet of you has advantage on death saving throws."
+				"A nivell 10, you gain resistance to necrotic and radiant damage. A més, while you aren't {@condition incapacitated}, any ally a 30 peus de tu has advantage on salvades de mort."
 			]
 		},
 		{
@@ -4534,7 +4534,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, your mastery of death allows you to tread the paths used by ghosts and other spirits. Using this feature, you can cast {@spell etherealness}. Once the spell ends, you can't cast it with this feature again until you finish a short or long rest."
+				"A nivell 14, your mastery of death allows you to tread the paths used by ghosts and other spirits. Using this feature, Pots llançar el conjur {@spell etherealness}. Once the spell ends, you can't cast it with this feature again fins que acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -4570,8 +4570,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you gain the ability to converse with beasts and many fey.",
-				"You learn to speak, read, and write {@language Sylvan}. In addition, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you any special friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
+				"A nivell 2, you gain the ability to converse with beasts and many fey.",
+				"You learn to speak, read, and write {@language Sylvan}. A més, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you any special friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
 			]
 		},
 		{
@@ -4585,9 +4585,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you gain the ability to call forth nature spirits and use them to influence the world around you. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.",
-				"As a bonus action, you can move the spirit up to 60 feet to a point you can see.",
-				"The spirit persists for 1 minute. Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"Començant a nivell 2, you gain the ability to call forth nature spirits and use them to influence the world around you. Com a acció bonus, you can magically summon an incorporeal spirit to a point que puguis veure a 60 peus de tu. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.",
+				"Com a acció bonus, you can move the spirit fins a 60 peus to a point que puguis veure.",
+				"The spirit persists durant 1 minut. Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg.",
 				"The effect of the spirit's aura depends on the type of spirit you summon from the options below.",
 				{
 					"type": "entries",
@@ -4596,7 +4596,7 @@
 							"type": "entries",
 							"name": "Bear Spirit",
 							"entries": [
-								"The bear spirit grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura."
+								"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 							]
 						}
 					]
@@ -4608,7 +4608,7 @@
 							"type": "entries",
 							"name": "Hawk Spirit",
 							"entries": [
-								"The hawk spirit is a consummate hunter, marking your enemies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, you can use your reaction to grant advantage to that attack roll."
+								"The hawk spirit is a consummate hunter, marking your enemies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, pots, com a reacció, grant advantage to that attack roll."
 							]
 						}
 					]
@@ -4620,7 +4620,7 @@
 							"type": "entries",
 							"name": "Unicorn Spirit",
 							"entries": [
-								"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. In addition, if you cast a spell with a spell slot that restores hit points to anyone inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level."
+								"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores hit points to anyone inside or outside the aura, tota criatura que designis in the aura also regains hit points equal to your druid level."
 							]
 						}
 					]
@@ -4638,7 +4638,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to conjure forth powerful beasts and fey. Any beast or fey summoned or created by your spells gains two benefits:",
+				"A nivell 6, you gain the ability to conjure forth powerful beasts and fey. Any beast or fey summoned or created by your spells gains two benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -4659,7 +4659,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level."
+				"A nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level."
 			]
 		},
 		{
@@ -4673,8 +4673,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 hit points or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it were cast with a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour, requiring no concentration, or until you dismiss it (no action required).",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Començant a nivell 14, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it were cast with a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora, requiring no concentration, or until you dismiss it (no requereix acció).",
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4713,8 +4713,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. At 1st level, you learn the {@spell chill touch} cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. A nivell 1, aprèns el truc {@spell chill touch}. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
 				{
 					"type": "table",
 					"caption": "Circle of Spores Spells",
@@ -4728,20 +4728,20 @@
 					],
 					"rows": [
 						[
-							"3rd",
+							"3",
 							"{@spell gentle repose}, {@spell ray of enfeeblement}"
 						],
 						[
-							"5th",
+							"5",
 							"{@spell animate dead}, {@spell gaseous form}"
 						],
 						[
-							"7th",
+							"7",
 							"{@spell blight}, {@spell confusion}"
 						],
 						[
-							"9th",
-							"{@spell matanúvol}, {@spell contagion}"
+							"9",
+							"{@spell matanúvol}, {@spell contagiar}"
 						]
 					]
 				}
@@ -4758,7 +4758,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you can launch toxic spores at other creatures. To do so, you use your reaction on your turn to deal 3 poison damage to one creature you can see within 10 feet of you. This damage increases to 6 at 6th level, 9 at 10th level, and 12 at 14th."
+				"Començant a nivell 2, you can launch toxic spores at other creatures. To do so, you use your reaction en el teu torn to deal 3 poison damage to one creature que puguis veure a 10 peus de tu. This damage increases to 6 a nivell 6, 9 a nivell 10, and 12 at 14th."
 			]
 		},
 		{
@@ -4772,8 +4772,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you gain the ability to channel magic into the spores that infuse you.",
-				"When you use your Wild Shape feature, you can awaken those spores, rather than transforming. When you do so, you gain 3 temporary hit points per level you have in this class, the damage of your Halo of Spores feature doubles, and your melee weapon attacks deal an extra {@damage 1d6} de dany de verí to any target they hit. These benefits last for 10 minutes or until you use your Wild Shape again."
+				"A nivell 2, you gain the ability to channel magic into the spores that infuse you.",
+				"Quan empris el tret Wild Shape, you can awaken those spores, rather than transforming. When you do so, you gain 3 punts de vida temporals per level you have en aquesta classe, the damage of your Halo of Spores feature doubles, and your atac armat cos a coss deal an extra {@damage 1d6} de dany de verí to any target they hit. These benefits last durant 10 minuts or until you use your Wild Shape again."
 			]
 		},
 		{
@@ -4787,8 +4787,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your spores gain the ability to infest a humanoid corpse and animate it.",
-				"If you slay a humanoid with your Halo of Spores damage, the creature rises as a {@creature zombie} at the end of your turn. It has 1 hit point. In combat, its turn is immediately after yours. It obeys your mental commands, and the only action it can take is the {@action Atac} action, making one melee attack. It remains animate for 1 hour, after which time it collapses and dies."
+				"A nivell 6, your spores gain the ability to infest a humanoid corpse and animate it.",
+				"If you slay a humanoid with your Halo of Spores damage, the creature rises as a {@creature zombie} at the end of your turn. It has 1 hit point. In combat, its turn is immediately after yours. It obeys your mental commands, and the only action it can take is l'acció {@action Attack}, making one atac cos a cos. It remains animate durant 1 hora, after which time it collapses and dies."
 			]
 		},
 		{
@@ -4802,7 +4802,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action, you hurl fungal spores up to 30 feet away, where they swirl around in a 10-foot cube for 1 minute. While the cube of spores persists, you can't use your Halo of Spores feature, but any creature that starts its turn in the cube takes your Halo of Spores damage. The cube of spores vanishes early if you use this feature again."
+				"A nivell 10, you gain the ability to seed an area with deadly spores. Com a acció bonus, you hurl fungal spores fins a 30 peus away, where they swirl around in a 10-foot cube durant 1 minut. While the cube of spores persists, you can't use your Halo of Spores feature, but any creature that starts its turn in the cube takes your Halo of Spores damage. The cube of spores vanishes early if you use this feature again."
 			]
 		},
 		{
@@ -4816,7 +4816,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and if an attack is a critical hit against you, it doesn't deal its extra damage to you."
+				"A nivell 14, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and if an attack is a critical hit against you, it doesn't deal its extra damage to you."
 			]
 		},
 		{
@@ -4829,7 +4829,7 @@
 			"subclassSource": "XGE",
 			"level": 2,
 			"entries": [
-				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
+				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to la Terra Fata and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Balm of the Summer Court|Druid||Dreams|XGE|2"
@@ -4847,9 +4847,9 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
-				"As a bonus action, you can choose one creature you can see within 120 feet of you and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent.",
-				"You regain all expended dice when you finish a long rest."
+				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
+				"Com a acció bonus, you can escull una criatura que puguis veure a 120 peus de tu and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 punt de vida temporal per die spent.",
+				"You regain all expended dice quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4863,8 +4863,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.",
-				"While within the sphere, you and your allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill Perception}) checks, and any light from open flames in the sphere (a campfire, torches, or the like) isn't visible outside it.",
+				"A nivell 6, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.",
+				"While within the sphere, you and your allies gain a +5 bonus to Destresa ({@skill Stealth}) and Saviesa ({@skill Perception}), and any light from open flames in the sphere (a campfire, torches, or the like) isn't visible outside it.",
 				"The sphere vanishes at the end of the rest or when you leave the sphere."
 			]
 		},
@@ -4879,8 +4879,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your action to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.",
-				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+				"Començant a nivell 10, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. Com a acció bonus en el teu torn, you can teleport fins a 60 peus en un espai desocupat que puguis veure. Alternatively, pots, com a acció, to teleport one willing creature you touch fins a 30 peus en un espai desocupat que puguis veure.",
+				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos of it quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4894,10 +4894,10 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.",
-				"When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: {@spell dream} (with you as the messenger), {@spell scrying}, or {@spell teleportation circle}.",
+				"A nivell 14, the magic of la Terra Fata grants you the ability to travel mentally or physically through dreamlands.",
+				"Quan acabis un Descans Curt, you can cast one of the following spells, sense gastar cap ranura de conjur or requiring material components: {@spell dream} (with you as the messenger), {@spell scrying}, or {@spell teleportation circle}.",
 				"This use of {@spell teleportation circle} is special. Rather than opening a portal to a permanent {@spell teleportation circle}, it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven't taken a long rest on your current plane, the spell fails but isn't wasted.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4933,8 +4933,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you gain the ability to converse with beasts and many fey.",
-				"You learn to speak, read, and write {@language Sylvan}. In addition, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
+				"A nivell 2, you gain the ability to converse with beasts and many fey.",
+				"You learn to speak, read, and write {@language Sylvan}. A més, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
 			]
 		},
 		{
@@ -4948,29 +4948,29 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you can call forth nature spirits to influence the world around you. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.",
-				"As a bonus action, you can move the spirit up to 60 feet to a point you can see.",
-				"The spirit persists for 1 minute or until you're {@condition incapacitated}. Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"Començant a nivell 2, you can call forth nature spirits to influence the world around you. Com a acció bonus, you can magically summon an incorporeal spirit to a point que puguis veure a 60 peus de tu. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.",
+				"Com a acció bonus, you can move the spirit fins a 60 peus to a point que puguis veure.",
+				"The spirit persists durant 1 minut or until you're {@condition incapacitated}. Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg.",
 				"The effect of the spirit's aura depends on the type of spirit you summon from the options below.",
 				{
 					"type": "entries",
 					"name": "Bear Spirit",
 					"entries": [
-						"The bear spirit grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura."
+						"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Hawk Spirit",
 					"entries": [
-						"The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, you can use your reaction to grant advantage to that attack roll. In addition, you and your allies have advantage on Wisdom ({@skill Perception}) checks while in the aura."
+						"The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, pots, com a reacció, grant advantage to that attack roll. A més, you and your allies have advantage on Saviesa ({@skill Perception}) while in the aura."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Unicorn Spirit",
 					"entries": [
-						"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. In addition, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level."
+						"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, tota criatura que designis in the aura also regains hit points equal to your druid level."
 					]
 				}
 			]
@@ -4986,7 +4986,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, beasts and fey that you conjure are more resilient than normal. Any beast or fey summoned or created by a spell that you cast gains the following benefits:",
+				"Començant a nivell 6, beasts and fey that you conjure are more resilient than normal. Any beast or fey summoned or created by a spell that you cast gains the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -5007,7 +5007,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level."
+				"Començant a nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level."
 			]
 		},
 		{
@@ -5021,8 +5021,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 hit points or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour, requiring no concentration, or until you dismiss it (no action required).",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Començant a nivell 14, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it were cast using a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora, requiring no concentration, or until you dismiss it (no requereix acció).",
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		}
 	]

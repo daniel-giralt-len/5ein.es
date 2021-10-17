@@ -921,7 +921,7 @@ function Renderer () {
 		if (entry.constant || entry.will || entry.rest || entry.daily || entry.weekly || entry.ritual) {
 			const tempList = {type: "list", style: "list-hang-notitle", items: [], data: {isSpellList: true}};
 			if (entry.constant && !hidden.has("constant")) tempList.items.push({type: "itemSpell", name: `Constant:`, entry: this._renderSpellcasting_getRenderableList(entry.constant).join(", ")});
-			if (entry.will && !hidden.has("will")) tempList.items.push({type: "itemSpell", name: `At will:`, entry: this._renderSpellcasting_getRenderableList(entry.will).join(", ")});
+			if (entry.will && !hidden.has("will")) tempList.items.push({type: "itemSpell", name: `A voluntat:`, entry: this._renderSpellcasting_getRenderableList(entry.will).join(", ")});
 			if (entry.rest && !hidden.has("rest")) {
 				for (let lvl = 9; lvl > 0; lvl--) {
 					const rest = entry.rest;
@@ -1012,7 +1012,7 @@ function Renderer () {
 		this._renderPrefix(entry, textStack, meta, options);
 		textStack[0] += `<div class="text-center"><b>`;
 		this._recursiveRender(entry.name, textStack, meta);
-		textStack[0] += ` save DC</b> = 8 + your proficiency bonus + your ${Parser.attrChooseToFull(entry.attributes)}</div>`;
+		textStack[0] += ` save DC</b> = 8 + el teu bonus de competència + your ${Parser.attrChooseToFull(entry.attributes)}</div>`;
 		this._renderSuffix(entry, textStack, meta, options);
 	};
 
@@ -1020,7 +1020,7 @@ function Renderer () {
 		this._renderPrefix(entry, textStack, meta, options);
 		textStack[0] += `<div class="text-center"><b>`;
 		this._recursiveRender(entry.name, textStack, meta);
-		textStack[0] += ` attack modifier</b> = your proficiency bonus + your ${Parser.attrChooseToFull(entry.attributes)}</div>`;
+		textStack[0] += ` attack modifier</b> = el teu bonus de competència + your ${Parser.attrChooseToFull(entry.attributes)}</div>`;
 		this._renderSuffix(entry, textStack, meta, options);
 	};
 
@@ -2864,7 +2864,7 @@ Renderer.utils = {
 							return isListMode ? parts.join("/") : parts.joinConjunct(", ", " or ");
 						}
 						case "spellcasting": return isListMode ? "Llançament de Conjurs" : "The ability to cast at least one spell";
-						case "spellcasting2020": return isListMode ? "Llançament de Conjurs" : "Spellcasting or Pact Magic feature";
+						case "spellcasting2020": return isListMode ? "Llançament de Conjurs" : "Spellcasting or Màgia de Pacte feature";
 						case "psionics": return isListMode ? "Psionics" : (isTextMode ? Renderer.stripTags : Renderer.get().render.bind(Renderer.get()))("Psionic Talent feature or {@feat Wild Talent|UA2020PsionicOptionsRevisited} feat");
 						default: throw new Error(`Unhandled key: ${k}`);
 					}
@@ -3509,7 +3509,7 @@ Renderer.spell = {
 		spell._tmpClasses = {};
 		spell._tmpRaces = [];
 
-		// add eldritch knight and arcane trickster
+		// add eldritch knight and entabanador arcà
 		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => c.name === Renderer.spell.STR_WIZARD && c.source === SRC_PHB)) {
 			Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ELD_KNIGHT] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ELD_KNIGHT] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_FIGHTER,
@@ -3816,9 +3816,9 @@ Renderer.spell = {
 	STR_ROGUE: "Rogue",
 	STR_CLERIC: "Cleric",
 	STR_SORCERER: "Sorcerer",
-	STR_WARLOCK: "Warlock",
+	STR_WARLOCK: "Bruixot",
 	STR_ELD_KNIGHT: "Eldritch Knight",
-	STR_ARC_TCKER: "Arcane Trickster",
+	STR_ARC_TCKER: "Entabanador Arcà",
 	STR_DIV_SOUL: "Divine Soul",
 	STR_FAV_SOUL_V2: "Favored Soul v2 (UA)",
 	STR_FAV_SOUL_V3: "Favored Soul v3 (UA)",
@@ -4058,8 +4058,8 @@ Renderer.race = {
 				r.entries = r.entries || [];
 				r.entries.push({
 					type: "entries",
-					name: "Languages",
-					entries: ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."],
+					name: "Idiomes",
+					entries: ["Pots parlar, llegir, i escriure Common and one other language that you and your DM agree is appropriate for your character."],
 				});
 
 				r.languageProficiencies = r.languageProficiencies || [{"comú": true, "anyStandard": 1}];
@@ -4308,8 +4308,8 @@ Renderer.race = {
 
 Renderer.deity = {
 	_basePartTranslators: {
-		"Alignment": {
-			prop: "alignment",
+		"Alineament": {
+			prop: "alineament",
 			displayFn: (it) => it.map(a => Parser.alignmentAbvToFull(a)).join(" "),
 		},
 		"Pantheon": {
@@ -4427,7 +4427,7 @@ Renderer.traphazard = {
 					},
 					{
 						type: "entries",
-						name: "Effect",
+						name: "Efecte",
 						entries: it.effect,
 					},
 					{
@@ -4621,46 +4621,46 @@ Renderer.monster = {
 		function getExampleSpells (maxSpellLevel, color) {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
-					B: ["darkness", "Fletxa Àcida d'en Melf", "fog cloud", "raig d'incendi"],
-					G: ["ray of sickness", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
-					W: ["ice knife|XGE", "Snilloc's snowball swarm|XGE"],
-					A: ["see invisibility", "magic mouth", "ceguera/sordera", "sleep", "detectar pensaments"],
-					Z: ["gust of wind", "pas boira", "locate object", "difuminar", "witch bolt", "thunderwave", "shield"],
-					C: ["knock", "sleep", "detectar pensaments", "ceguera/sordera", "tasha's hideous laughter"],
+					B: ["darkness", "Fletxa Àcida d'en Melf", "núvol de boira", "raig d'incendi"],
+					G: ["raig d'arcada", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
+					W: ["punyal de gel|XGE", "Exèrcit de Boles de Neu d'en Snilloc|XGE"],
+					A: ["veure invisibilitat", "boca màgica", "ceguera/sordera", "adormir", "detectar pensaments"],
+					Z: ["ràfega de vent", "pas boira", "localitzar objecte", "difuminar", "llampec bruixot", "tronada", "escut"],
+					C: ["picaporta", "adormir", "detectar pensaments", "ceguera/sordera", "Riure Horrible de la Tasha"],
 				},
 				3: {
-					U: ["wall of sand|XGE", "thunder step|XGE", "llampec", "pampalluga", "magic missile", "slow"],
-					R: ["bola de foc", "raig d'incendi", "haste", "erupting earth|XGE", "Aganazzar's scorcher|XGE"],
-					O: ["slow", "bola de foc", "dissipar màgia", "contraconjur", "Aganazzar's scorcher|XGE", "shield"],
-					S: ["sleet storm", "protection from energy", "catnap|XGE", "locate object", "identify", "Leomund's tiny hut"],
+					U: ["Paret de Sorra|XGE", "Passa del Tro|XGE", "llampec", "pampalluga", "missil màgic", "alentir"],
+					R: ["bola de foc", "raig d'incendi", "pressa", "terra en erupció|XGE", "Socarrador d'Aganazzar|XGE"],
+					O: ["alentir", "bola de foc", "dissipar màgia", "contraconjur", "Socarrador d'Aganazzar|XGE", "escut"],
+					S: ["tempesta d'aiguaneu", "protegir de l'energia", "becaina|XGE", "localitzar objecte", "identificar", "Barraca Diminuta d'en Leomund"],
 				},
 				4: {
-					B: ["vitriolic sphere|XGE", "sickening radiance|XGE", "Evard's black tentacles", "plaga", "hunger of Hadar"],
-					W: ["fire shield", "ice storm", "sleet storm"],
-					A: ["charm monster|XGE", "sending", "wall of sand|XGE", "hypnotic pattern", "tongues"],
-					C: ["polymorph", "greater invisibility", "confusion", "stinking cloud", "imatge major", "charm monster|XGE"],
+					B: ["Esfera Vitriòlica|XGE", "radiància malaltissa|XGE", "Tentacles Obscurs de l'Evard", "plaga", "fam d'Hadar"],
+					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
+					A: ["fascinar criatura|XGE", "encàrrec", "Paret de Sorra|XGE", "senefes hipnòtiques", "llenguatges"],
+					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
 				},
 				5: {
-					U: ["telekinesis", "hold monster", "porta dimensional", "wall of stone", "wall of force"],
-					G: ["matanúvol", "charm monster|XGE", "modificar memòria", "desconcertar", "hallucinatory terrain", "porta dimensional"],
-					Z: ["steel wind strike|XGE", "controlar el temps", "control winds|XGE", "watery sphere|XGE", "esfera de tempesta|XGE", "tidal wave|XGE"],
-					O: ["hold monster", "immolation|XGE", "wall of fire", "greater invisibility", "porta dimensional"],
-					S: ["cone of cold", "ice storm", "teleportation circle", "skill empowerment|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
+					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "paret de pedra", "paret de força"],
+					G: ["matanúvol", "fascinar criatura|XGE", "modificar memòria", "desconcertar", "terreny il·lusori", "porta dimensional"],
+					Z: ["cop del vent d'acer|XGE", "controlar el temps", "controlar el vent|XGE", "Esfera Aquosa|XGE", "esfera de tempesta|XGE", "Marea Alta|XGE"],
+					O: ["immobilitzar criatura", "immolation|XGE", "paret de foc", "invisibilitat superior", "porta dimensional"],
+					S: ["con de fred", "tempesta de gel", "cercle de teletransport", "potenciar talent|XGE", "creació", "Santuari Privat d'en Mordenkainen"],
 				},
 				6: {
-					W: ["cone of cold", "wall of ice"],
-					A: ["scrying", "Rary's telepathic bond", "Otto's irresistible dance", "legend lore", "hold monster", "dream"],
+					W: ["con de fred", "paret de glaç"],
+					A: ["escodrinyar", "Vincle Telepàtic d'en Rary", "Dansa Irresistible de l'Otto", "recordar llegendes", "immobilitzar criatura", "somnis"],
 				},
 				7: {
-					B: ["power word pain|XGE", "finger of death", "desintegrar", "hold monster"],
-					U: ["llamp en cadena", "forcecage", "teleport", "eterietat"],
-					G: ["project image", "miratge arcà", "esprai prismàtic", "teleport"],
-					Z: ["whirlwind|XGE", "llamp en cadena", "scatter|XGE", "teleport", "desintegrar", "llampec"],
-					C: ["symbol", "simulacrum", "reverse gravity", "project image", "Mà d'en Bigby", "mental prison|XGE", "seeming"],
-					S: ["Otiluke's freezing sphere", "esprai prismàtic", "wall of ice", "contingència", "portal arcà"],
+					B: ["paraula de poder dolor|XGE", "dit de la mort", "desintegrar", "immobilitzar criatura"],
+					U: ["llamp en cadena", "gàbia de força", "teleportació", "eterietat"],
+					G: ["projectar imatge", "miratge arcà", "esprai prismàtic", "teleportació"],
+					Z: ["Galerna|XGE", "llamp en cadena", "escampar|XGE", "teleportació", "desintegrar", "llampec"],
+					C: ["symbol", "simulacre", "invertir la gravetat", "projectar imatge", "Mà d'en Bigby", "presó mental|XGE", "aparentar"],
+					S: ["Esfera Glaçada de l'Otiluk", "esprai prismàtic", "paret de glaç", "contingència", "portal arcà"],
 				},
 				8: {
-					O: ["sunburst", "Bola de Foc Posposada", "camp antimàgic", "teleport", "globe of invulnerability", "laberint"],
+					O: ["Explosió Solar", "Bola de Foc Posposada", "camp antimàgic", "teleportació", "globus d'invulnerabilitat", "laberint"],
 				},
 			};
 
@@ -4677,8 +4677,8 @@ Renderer.monster = {
 			name: "Dragons as Innate Spellcasters",
 			entries: [
 				"Dragons are innately magical creatures that can master a few spells as they age, using this variant.",
-				`A drac or older dragon can innately cast a number of spells equal to its Carisma modifier. Each spell can be cast once per day, requiring no material components, and the spell's level can be no higher than one-third the dragon's challenge rating (arrodoneix a la baixa). The dragon's bonus to hit with spell attacks is equal to its proficiency bonus + its Carisma bonus. The Juvenil's spell save DC equals 8 + its proficiency bonus + its Carisma modifier.`,
-				`{@note This dragon can innately cast ${Parser.numberToText(chaMod)} spell${chaMod === 1 ? "" : "s"}, once per day${chaMod === 1 ? "" : " each"}, requiring no material components. ${levelString} The dragon's spell save DC is ${pb + chaMod + 8}, and it has {@hit ${pb + chaMod}} to hit with spell attacks. See the {@filter spell page|spells|level=${[...new Array(maxSpellLevel + 1)].map((it, i) => i).join(";")}} for a list of spells the dragon is capable of casting.${exampleSpells ? ` A selection of examples are shown below:` : ""}}`,
+				`A drac or older dragon can innately cast a number of spells equal to its Carisma modifier. Each spell can be cast once per day, sense que calguin components materials, and the spell's level can be no higher than one-third the dragon's challenge rating (arrodoneix a la baixa). The dragon's bonus to hit with spell attacks is equal to its proficiency bonus + its Carisma bonus. The Juvenil's spell save DC equals 8 + its proficiency bonus + its Carisma modifier.`,
+				`{@note This dragon can innately cast ${Parser.numberToText(chaMod)} spell${chaMod === 1 ? "" : "s"}, once per day${chaMod === 1 ? "" : " each"}, sense que calguin components materials. ${levelString} The dragon's spell save DC is ${pb + chaMod + 8}, and it has {@hit ${pb + chaMod}} to hit with spell attacks. See the {@filter spell page|spells|level=${[...new Array(maxSpellLevel + 1)].map((it, i) => i).join(";")}} for a list of spells the dragon is capable of casting.${exampleSpells ? ` A selection of examples are shown below:` : ""}}`,
 			],
 		};
 		if (exampleSpells) {
@@ -5402,17 +5402,17 @@ Renderer.item = {
 		let attunementCat = VeCt.STR_NO_ATTUNEMENT;
 		if (item[prop] != null && item[prop] !== false) {
 			if (item[prop] === true) {
-				attunementCat = "Requires Attunement";
-				attunement = "(requires attunement)"
+				attunementCat = "Cal Harmonitzar";
+				attunement = "(cal harmonitzar)"
 			} else if (item[prop] === "optional") {
 				attunementCat = "Attunement Optional";
 				attunement = "(attunement optional)"
 			} else if (item[prop].toLowerCase().startsWith("by")) {
-				attunementCat = "Requires Attunement By...";
-				attunement = `(requires attunement ${item[prop]})`;
+				attunementCat = "Cal Harmonitzar By...";
+				attunement = `(cal harmonitzar ${item[prop]})`;
 			} else {
-				attunementCat = "Requires Attunement"; // throw any weird ones in the "Yes" category (e.g. "outdoors at night")
-				attunement = `(requires attunement ${item[prop]})`;
+				attunementCat = "Cal Harmonitzar"; // throw any weird ones in the "Yes" category (e.g. "outdoors at night")
+				attunement = `(cal harmonitzar ${item[prop]})`;
 			}
 		}
 		return [attunement, attunementCat]
@@ -5437,7 +5437,7 @@ Renderer.item = {
 		}
 		if (item.ammo) {
 			typeHtml.push(`ammunition`);
-			typeListText.push("ammunition");
+			typeListText.push("munició");
 		}
 		if (item.firearm) {
 			subTypeHtml.push("firearm");
@@ -5454,8 +5454,8 @@ Renderer.item = {
 			showingBase = true;
 		}
 		if (item.staff && (item.type !== "M" && item.typeAlt !== "M")) { // DMG p140: "Unless a staff's description says otherwise, a staff can be used as a quarterstaff."
-			subTypeHtml.push("melee weapon");
-			typeListText.push("melee weapon");
+			subTypeHtml.push("arma cos a cos");
+			typeListText.push("arma cos a cos");
 		}
 		if (item.type) Renderer.item._getHtmlAndTextTypes_type({type: item.type, typeHtml, typeListText, subTypeHtml, showingBase, item});
 		if (item.typeAlt) Renderer.item._getHtmlAndTextTypes_type({type: item.typeAlt, typeHtml, typeListText, subTypeHtml, showingBase, item});
@@ -5999,7 +5999,7 @@ Renderer.item = {
 		if (item._isEnhanced) return;
 		item._isEnhanced = true;
 		if (item.noDisplay) return;
-		if (item.type === "GV") item._category = "Generic Variant";
+		if (item.type === "GV") item._category = "Variant Genètica";
 		if (item._category == null) item._category = "Other";
 		if (item.entries == null) item.entries = [];
 		if (item.type && Renderer.item.typeMap[item.type] && Renderer.item.typeMap[item.type].entries) {
@@ -6193,7 +6193,7 @@ Renderer.item = {
 		return items;
 	},
 
-	// flip e.g. "longsword +1" to "+1 longsword"
+	// flip e.g. "longsword +1" to "longsword +1"
 	modifierPostToPre (item) {
 		const m = /^(.*)(?:,)? (\+\d+)$/.exec(item.name);
 		if (m) return Object.assign(MiscUtil.copy(item), {name: `${m[2]} ${m[1]}`});
@@ -8654,8 +8654,8 @@ Renderer.hover = {
 	},
 
 	getRefMetaFromTag (str) {
-		// convert e.g. `"{#itemEntry Ring of Resistance|DMG}"`
-		//   to `{type: "refItemEntry", "itemEntry": "Ring of Resistance|DMG"}`
+		// convert e.g. `"{#itemEntry Ring of Resistència|DMG}"`
+		//   to `{type: "refItemEntry", "itemEntry": "Ring of Resistència|DMG"}`
 		str = str.slice(2, -1);
 		const [tag, ...refParts] = str.split(" ");
 		const ref = refParts.join(" ");

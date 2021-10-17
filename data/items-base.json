@@ -327,7 +327,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"If you attack with a double-bladed scimitar as part of the {@action Atac} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@dice 1d4} de dany tallant on a hit, instead of {@dice 2d4}."
+						"If you attack with a double-bladed scimitar as part of the {@action Atacar} action en el teu torn, pots, com a acció bonus, immediately after to make a melee attack with it. This attack deals {@dice 1d4} de dany tallant on a hit, instead of {@dice 2d4}."
 					]
 				}
 			],
@@ -561,7 +561,7 @@
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case l'objectiu ha de salvar per Força or fall {@condition prone}. The DC is 8 + the wielder's Força modifier + the wielder's proficiency bonus."
+				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case l'objectiu ha de salvar per Força or fall {@condition enderrocat}. The DC is 8 + the wielder's Força modifier + the wielder's proficiency bonus."
 			]
 		},
 		{
@@ -1101,7 +1101,7 @@
 			]
 		},
 		{
-			"name": "Rod",
+			"name": "Vara",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -1112,7 +1112,7 @@
 			"value": 1000
 		},
 		{
-			"name": "Scale Mail",
+			"name": "Cota d'Escates",
 			"source": "PHB",
 			"page": 144,
 			"srd": true,
@@ -1316,7 +1316,7 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+				"Spiked armor is a rare type of medium armor made by nans. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
 			]
 		},
 		{
@@ -1499,7 +1499,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Ammunition",
+					"name": "Munició",
 					"entries": [
 						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
 						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
@@ -1515,7 +1515,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Ammunition",
+					"name": "Munició",
 					"entries": [
 						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use.",
 						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
@@ -1533,7 +1533,7 @@
 					"type": "entries",
 					"name": "Burst Fire",
 					"entries": [
-						"A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Tota criatura dins de l'àrea must succeed on a DC 15 Destresa saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition."
+						"A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 15). Si falla, take the weapon's normal damage. This action uses ten pieces of ammunition."
 					]
 				}
 			]
@@ -1679,18 +1679,18 @@
 			"abbreviation": "AT",
 			"source": "PHB",
 			"page": 154,
-			"name": "Artisan's Tools",
+			"name": "Eines d'Artesania",
 			"entries": [
-				"These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+				"These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add el teu bonus de competència to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
 			]
 		},
 		{
 			"abbreviation": "GS",
 			"source": "PHB",
 			"page": 154,
-			"name": "Gaming Set",
+			"name": "Set de Joc",
 			"entries": [
-				"If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+				"If you are proficient with a gaming set, you can add el teu bonus de competència to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
 			]
 		},
 		{
@@ -1699,7 +1699,7 @@
 			"page": 154,
 			"name": "Instrument",
 			"entries": [
-				"If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.",
+				"If you have proficiency with a given musical instrument, you can add el teu bonus de competència to any ability checks you make to play music with the instrument.",
 				"A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.",
 				"Each type of musical instrument requires a separate proficiency."
 			]
@@ -1722,10 +1722,10 @@
 			"abbreviation": "TG",
 			"source": "PHB",
 			"page": 146,
-			"name": "Trade Good",
+			"name": "Bé Mercantil",
 			"entries": [
 				"Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).",
-				"Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency."
+				"Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange béns mercantils without using currency."
 			]
 		},
 		{
@@ -1777,24 +1777,24 @@
 	],
 	"itemEntry": [
 		{
-			"name": "Ring of Resistance",
+			"name": "Ring of Resistència",
 			"source": "DMG",
 			"entriesTemplate": [
-				"You have resistance to {{item.resist}} damage while wearing this ring. The ring is set with {{item.detail1}}."
+				"Tens resistència al dany {{item.resist}} mentre vesteixis el ring. The ring is set with {{item.detail1}}."
 			]
 		},
 		{
-			"name": "Armor of Resistance",
+			"name": "Armor of Resistència",
 			"source": "DMG",
 			"entriesTemplate": [
-				"You have resistance to {{item.resist}} damage while you wear this armor."
+				"Tens resistència al dany {{item.resist}} mentre vesteixis l'armadura."
 			]
 		},
 		{
-			"name": "Potion of Resistance",
+			"name": "Potion of Resistència",
 			"source": "DMG",
 			"entriesTemplate": [
-				"When you drink this potion, you gain resistance to {{item.resist}} damage for 1 hour."
+				"When you drink this potion, you gain resistance to {{item.resist}} damage durant 1 hora."
 			]
 		},
 		{
@@ -1812,16 +1812,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
+					"name": "Resistència al Dany",
 					"entries": [
-						"While the tattoo is on your skin, you have resistance to {{item.resist}} damage."
+						"While the tattoo is on your skin, tens resistència al dany {{item.resist}}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Absorbir Dany",
 					"entries": [
-						"When you take {{item.resist}} damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+						"When you take {{item.resist}} damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, no es pot tornar a emprar fins el proper trenc d'alba."
 					]
 				}
 			]
@@ -1850,7 +1850,7 @@
 					"type": "entries",
 					"name": "Compose a Tune",
 					"entries": [
-						"As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune."
+						"Com a part d'un Descans Llarg, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune."
 					]
 				},
 				{
@@ -1911,7 +1911,7 @@
 				},
 				{
 					"type": "table",
-					"caption": "Gaming Set",
+					"caption": "Set de Joc",
 					"colLabels": [
 						"Activity",
 						"DC"
