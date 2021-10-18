@@ -4621,7 +4621,7 @@ Renderer.monster = {
 		function getExampleSpells (maxSpellLevel, color) {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
-					B: ["darkness", "Fletxa Àcida d'en Melf", "núvol de boira", "raig d'incendi"],
+					B: ["foscor", "Fletxa Àcida d'en Melf", "núvol de boira", "raig d'incendi"],
 					G: ["raig d'arcada", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
 					W: ["punyal de gel|XGE", "Exèrcit de Boles de Neu d'en Snilloc|XGE"],
 					A: ["veure invisibilitat", "boca màgica", "ceguera/sordera", "adormir", "detectar pensaments"],

@@ -1496,7 +1496,7 @@ Parser.monLanguageTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_LANGUAGE_TAG_TO_FULL, tag);
 };
 
-Parser.ENVIRONMENTS = ["àrtic", "coastal", "desert", "bosc", "grassland", "hill", "mountain", "swamp", "underdark", "underwater", "urban"];
+Parser.ENVIRONMENTS = ["àrtic", "coastal", "desert", "bosc", "prats", "hill", "muntanya", "aiguamoll", "underdark", "underwater", "urban"];
 
 // psi-prefix functions are for parsing psionic data, and shared with the roll20 script
 Parser.PSI_ABV_TYPE_TALENT = "T";
