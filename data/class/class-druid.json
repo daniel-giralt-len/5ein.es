@@ -92,7 +92,7 @@
 				"default": [
 					"(a) un {@item shield|phb} de fusta o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"(a) una {@item simitarra|phb} o bé (b) qualsevol {@filter simple arma cos a cos|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"{@item Armadura de Cuir|phb}, an {@item pack d'exploració|phb}, and a {@item druidic focus|phb}"
+					"{@item Armadura de Cuir|phb}, un {@item pack d'exploració|phb}, o un {@item druidic focus|phb}"
 				],
 				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Ors Inicials}",
 				"defaultData": [
@@ -134,8 +134,8 @@
 						"light",
 						"medium",
 						{
-							"proficiency": "{@item shield|phb|shields}",
-							"full": "shields (druids will not wear armor or use shields made of metal)"
+							"proficiency": "{@item shield|phb|escuts}",
+							"full": "escuts (els druides no duran armadures ni escuts de metall)"
 						}
 					]
 				}
@@ -449,14 +449,14 @@
 				"Druidic|Druida||1",
 				"Llançament de Conjurs|Druida||1",
 				"Cantrip Versatility|Druida||1|UAClassFeatureVariants",
-				"Wild Shape|Druida||2",
+				"Forma Feréstega|Druida||2",
 				"Wild Companion|Druida||2|UAClassFeatureVariants",
 				"Wild Companion|Druida||2|TCE",
 				{
 					"classFeature": "Druid Circle|Druida||2",
 					"gainSubclassFeature": true
 				},
-				"Wild Shape Improvement|Druida||4",
+				"Forma Feréstega Improvement|Druida||4",
 				"Millora de Puntuació de Característica|Druida||4",
 				"Competència Versàtil|Druida||4|UAClassFeatureVariants",
 				"Cantrip Versatility|Druida||4|TCE",
@@ -464,7 +464,7 @@
 					"classFeature": "Druid Circle feature|Druida||6",
 					"gainSubclassFeature": true
 				},
-				"Wild Shape Improvement|Druida||8",
+				"Forma Feréstega Improvement|Druida||8",
 				"Millora de Puntuació de Característica|Druida||8",
 				"Competència Versàtil|Druida||8|UAClassFeatureVariants",
 				{
@@ -790,12 +790,12 @@
 						},
 						{
 							"type": "section",
-							"name": "Learning Beast Shapes",
+							"name": "Aprendre Formes Feréstegues",
 							"entries": [
-								"The Wild Shape feature in the player's handbook lets you transform into a beast that you've seen. That rule gives you a tremendous amount of flexibility, making it easy to amass an array of beast form options for yourself, but you must abide by the limitations in the Beast Shapes table in that book.",
-								"When you gain Wild Shape as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen a nivell 2.",
+								"The Forma Feréstega feature in the player's handbook lets you transform into a beast that you've seen. That rule gives you a tremendous amount of flexibility, making it easy to amass an array of beast form options for yourself, but you must abide by the limitations in the Beast Shapes table in that book.",
+								"When you gain Forma Feréstega as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen a nivell 2.",
 								"These tables can also help you and your DM determine which animals you might see on your travels. A més, the tables include each beast's challenge rating and note whether a beast has a flying or swimming speed. This information will help you determine whether you qualify to assume that beast's form.",
-								"The tables include all the individual beasts that are eligible for Wild Shape (up to a challenge rating of 1) or the Circle Forms feature of the Circle of the Moon (up to a challenge rating of 6).",
+								"The tables include all the individual beasts that are eligible for Forma Feréstega (up to a challenge rating of 1) or the Circle Forms feature of the Circle of the Moon (up to a challenge rating of 6).",
 								{
 									"type": "table",
 									"caption": "Arctic",
@@ -2162,7 +2162,7 @@
 			"subclassFeatures": [
 				"Circle of the Moon|Druida||Moon||2",
 				"Primal Strike|Druida||Moon||6",
-				"Elemental Wild Shape|Druida||Moon||10",
+				"Elemental Forma Feréstega|Druida||Moon||10",
 				"Thousand Forms|Druida||Moon||14"
 			]
 		},
@@ -2585,7 +2585,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i {@variantrule optional class features|tce|Tret opcional} pel druid a nivell 2}",
-				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
+				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Forma Feréstega feature to cast the {@spell find familiar} spell, without material components.",
 				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
 			]
 		},
@@ -2598,13 +2598,13 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de druid a nivell 2 (millora Wild Shape)}",
-				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
+				"{@i tret de druid a nivell 2 (millora Forma Feréstega)}",
+				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Forma Feréstega feature to cast the {@spell find familiar} spell, without material components.",
 				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
 			]
 		},
 		{
-			"name": "Wild Shape",
+			"name": "Forma Feréstega",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2705,7 +2705,7 @@
 			]
 		},
 		{
-			"name": "Wild Shape Improvement",
+			"name": "Forma Feréstega Improvement",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2713,7 +2713,7 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"A nivell 4, your Wild Shape improves as shown on the Beast Shapes table."
+				"A nivell 4, your Forma Feréstega improves as shown on the Beast Shapes table."
 			]
 		},
 		{
@@ -2756,7 +2756,7 @@
 			]
 		},
 		{
-			"name": "Wild Shape Improvement",
+			"name": "Forma Feréstega Improvement",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -2764,7 +2764,7 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"A nivell 8, your Wild Shape improves as shown on the Beast Shapes table."
+				"A nivell 8, your Forma Feréstega improves as shown on the Beast Shapes table."
 			]
 		},
 		{
@@ -2854,7 +2854,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Començant a nivell 18, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
+				"Començant a nivell 18, you can cast many of your druid spells in any shape you assume using Forma Feréstega. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
 			]
 		},
 		{
@@ -2905,8 +2905,8 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, you can use your Wild Shape an unlimited number of times.",
-				"A més, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape."
+				"A nivell 20, you can use your Forma Feréstega an unlimited number of times.",
+				"A més, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Forma Feréstega."
 			]
 		}
 	],
@@ -3285,7 +3285,7 @@
 				"Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Wild Shape|Druida||Moon||2"
+					"subclassFeature": "Combat Forma Feréstega|Druida||Moon||2"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3304,7 +3304,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"The rites of your circle grant you the ability to transform into more dangerous animal forms. Començant a nivell 2, you can use your Wild Shape to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
+				"The rites of your circle grant you the ability to transform into more dangerous animal forms. Començant a nivell 2, you can use your Forma Feréstega to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
 				"Començant a nivell 6, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
 				{
 					"type": "table",
@@ -3365,7 +3365,7 @@
 			]
 		},
 		{
-			"name": "Combat Wild Shape",
+			"name": "Combat Forma Feréstega",
 			"source": "PHB",
 			"page": 69,
 			"className": "Druida",
@@ -3375,8 +3375,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"You gain the ability to use Wild Shape en el teu torn com a acció bonus, rather than com a acció.",
-				"A més, while you are transformed by Wild Shape, pots, com a acció bonus, to expend one spell slot to regain {@dice 1d8} punts de vida per level of the spell slot expended."
+				"You gain the ability to use Forma Feréstega en el teu torn com a acció bonus, rather than com a acció.",
+				"A més, while you are transformed by Forma Feréstega, pots, com a acció bonus, to expend one spell slot to regain {@dice 1d8} punts de vida per level of the spell slot expended."
 			]
 		},
 		{
@@ -3394,7 +3394,7 @@
 			]
 		},
 		{
-			"name": "Elemental Wild Shape",
+			"name": "Elemental Forma Feréstega",
 			"source": "PHB",
 			"page": 69,
 			"className": "Druida",
@@ -3404,7 +3404,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
+				"A nivell 10, you can expend two uses of Forma Feréstega at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
 			]
 		},
 		{
@@ -3542,7 +3542,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you gain the ability to channel magic into your spores. Com a acció, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 punts de vida temporals for each level you have en aquesta classe. While this feature is active, reps els beneficis següents:",
+				"A nivell 2, you gain the ability to channel magic into your spores. Com a acció, you can expend a use of your Forma Feréstega feature to awaken those spores, rather than transforming into a beast form, and you gain 4 punts de vida temporals for each level you have en aquesta classe. While this feature is active, reps els beneficis següents:",
 				{
 					"type": "list",
 					"items": [
@@ -3550,7 +3550,7 @@
 						"Your atac armat cos a coss deal an extra {@damage 1d6} de dany necròtic to any target they hit."
 					]
 				},
-				"These benefits last durant 10 minuts, until you lose all these punts de vida temporals, or until you use your Wild Shape again."
+				"These benefits last durant 10 minuts, until you lose all these punts de vida temporals, or until you use your Forma Feréstega again."
 			]
 		},
 		{
@@ -3714,7 +3714,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Circle of the Stars a nivell 2}",
-				"Com a acció bonus, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.",
+				"Com a acció bonus, you can expend a use of your Forma Feréstega feature to take on a starry form, rather than transforming into a beast.",
 				"While in your starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts. It ends early if you dismiss it (no requereix acció), are {@condition incapacitated}, die, or use this feature again.",
 				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
 				{
@@ -3886,7 +3886,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Circle of Wildfire a nivell 2}",
-				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Wild Shape feature to summon your esperit de foc feréstec, rather than assuming a beast form.",
+				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Forma Feréstega feature to summon your esperit de foc feréstec, rather than assuming a beast form.",
 				"The spirit appears en un espai desocupat (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d6} de dany de foc.",
 				"The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the {@creature Esperit de Foc Feréstec|TCE} stat block, which uses el teu bonus de competència (BC) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
 				"In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, the spirit can take any action of its choice, not just {@action Esquivar}.",
@@ -4030,7 +4030,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Circle of the Stars a nivell 2}",
-				"You gain the ability to harness constellations' power to alter your form. Com a acció, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.",
+				"You gain the ability to harness constellations' power to alter your form. Com a acció, you can expend a use of your Forma Feréstega feature to take on a starry form rather than transforming into a beast.",
 				"While in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts o fins que et quedis {@condition incapacitated}.",
 				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
 				{
@@ -4198,11 +4198,11 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Circle of Wildfire a nivell 2}",
-				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Wild Shape feature to summon your {@creature esperit de foc feréstec|UAClericDruidWizard}, rather than assuming a beast form.",
+				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Forma Feréstega feature to summon your {@creature esperit de foc feréstec|UAClericDruidWizard}, rather than assuming a beast form.",
 				"The spirit appears en un espai desocupat (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d10} de dany de foc.",
 				"The esperit de foc feréstec is friendly to you and your companions and obeys your commands. See this creature's game statistics in the esperit de foc feréstec stat block. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
 				"In combat, the esperit de foc feréstec shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or to take l'acció {@action Córrer}, {@action Destravar-se}, {@action Ajudar}, or {@action Amagar-se}.",
-				"The esperit de foc feréstec manifests durant 1 hora, until it is reduced to 0 punts de vida, or until you use your Wild Shape again."
+				"The esperit de foc feréstec manifests durant 1 hora, until it is reduced to 0 punts de vida, or until you use your Forma Feréstega again."
 			]
 		},
 		{
@@ -4773,7 +4773,7 @@
 			"header": 1,
 			"entries": [
 				"A nivell 2, you gain the ability to channel magic into the spores that infuse you.",
-				"Quan empris el tret Wild Shape, you can awaken those spores, rather than transforming. When you do so, you gain 3 punts de vida temporals per level you have en aquesta classe, the damage of your Halo of Spores feature doubles, and your atac armat cos a coss deal an extra {@damage 1d6} de dany de verí to any target they hit. These benefits last durant 10 minuts or until you use your Wild Shape again."
+				"Quan empris el tret Forma Feréstega, you can awaken those spores, rather than transforming. When you do so, you gain 3 punts de vida temporals per level you have en aquesta classe, the damage of your Halo of Spores feature doubles, and your atac armat cos a coss deal an extra {@damage 1d6} de dany de verí to any target they hit. These benefits last durant 10 minuts or until you use your Forma Feréstega again."
 			]
 		},
 		{
