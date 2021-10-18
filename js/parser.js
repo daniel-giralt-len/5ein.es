@@ -1496,7 +1496,7 @@ Parser.monLanguageTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_LANGUAGE_TAG_TO_FULL, tag);
 };
 
-Parser.ENVIRONMENTS = ["àrtic", "coastal", "desert", "bosc", "prats", "hill", "muntanya", "aiguamoll", "underdark", "underwater", "urban"];
+Parser.ENVIRONMENTS = ["àrtic", "coastal", "desert", "bosc", "prats", "hill", "muntanya", "aiguamoll", "sotafoscor", "underwater", "urban"];
 
 // psi-prefix functions are for parsing psionic data, and shared with the roll20 script
 Parser.PSI_ABV_TYPE_TALENT = "T";
@@ -2375,7 +2375,7 @@ SRC_UATOBM = `${SRC_UA_PREFIX}ThatOldBlackMagic`;
 SRC_UATRR = `${SRC_UA_PREFIX}TheRangerRevised`;
 SRC_UAWA = `${SRC_UA_PREFIX}WaterborneAdventures`;
 SRC_UAVR = `${SRC_UA_PREFIX}VariantRules`;
-SRC_UALDR = `${SRC_UA_PREFIX}LightDarkUnderdark`;
+SRC_UALDR = `${SRC_UA_PREFIX}LightDarkSotafoscor`;
 SRC_UARAR = `${SRC_UA_PREFIX}RangerAndRogue`;
 SRC_UAATOSC = `${SRC_UA_PREFIX}ATrioOfSubclasses`;
 SRC_UABPP = `${SRC_UA_PREFIX}BarbarianPrimalPaths`;
@@ -2534,7 +2534,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_UATOBM] = `${UA_PREFIX}That Old Black Magic`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UATRR] = `${UA_PREFIX}The Ranger, Revised`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAWA] = `${UA_PREFIX}Waterborne Adventures`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAVR] = `${UA_PREFIX}Variant Rules`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UALDR] = `${UA_PREFIX}Light, Dark, Underdark!`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UALDR] = `${UA_PREFIX}Light, Dark, Sotafoscor!`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARAR] = `${UA_PREFIX}Ranger and Rogue`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAATOSC] = `${UA_PREFIX}A Trio of Subclasses`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UABPP] = `${UA_PREFIX}Barbarian Primal Paths`;

@@ -140,7 +140,7 @@ class PageFilterBestiary extends PageFilter {
 		});
 		this._environmentFilter = new Filter({
 			header: "Environment",
-			items: ["àrtic", "coastal", "desert", "bosc", "prats", "hill", "muntanya", "aiguamoll", "underdark", "underwater", "urban"],
+			items: ["àrtic", "coastal", "desert", "bosc", "prats", "hill", "muntanya", "aiguamoll", "sotafoscor", "underwater", "urban"],
 			displayFn: StrUtil.uppercaseFirst,
 		});
 		this._vulnerableFilter = new Filter({
