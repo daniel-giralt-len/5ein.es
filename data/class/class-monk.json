@@ -1031,7 +1031,7 @@
 					"items": [
 						"Pots emprar Destresa en ves de Força per les tirades d'impacte i de dany pels atacs desarmats i amb armes de monjo.",
 						"Pots tirar un {@dice d4} en comptes del dau de dany normal pels atacs desarmats i per les armes de monjo. El dau canvia conforme pugis de nivell de monjo, com es mostra a la columna d'Arts Marcials de la taula de Monjo.",
-						"Quan prèns l'acció {@action Attack} amb un atac desarmat o amb una arma de monjo en el teu torn, pots fer un atac desarmat com a acció bonus. Per exemple, si prèns l'acció {@action Attack} i ataques amb un bastó, pots fer un atac desarmat com a acció bonus (no pots haver près una acció bonus prèviament durant aquest torn)."
+						"Quan prèns l'acció {@action Atacar} amb un atac desarmat o amb una arma de monjo en el teu torn, pots fer un atac desarmat com a acció bonus. Per exemple, si prèns l'acció {@action Atacar} i ataques amb un bastó, pots fer un atac desarmat com a acció bonus (no pots haver près una acció bonus prèviament durant aquest torn)."
 					]
 				},
 				"Alguns monasteris tenen armes de monjo especialitzades, com ara dos garrots connectats amb una cadena (nunchakus) o una falç amb una fulla més recta (kama)."
@@ -1117,21 +1117,21 @@
 					"type": "entries",
 					"name": "Ràfega de Cops",
 					"entries": [
-						"Immediatament després d'emprar l'acció {@action Attack} en el teu torn, pots gastar 1 punt de ki per fer dos atacs desarmats com a acció bonus."
+						"Immediatament després d'emprar l'acció {@action Atacar} en el teu torn, pots gastar 1 punt de ki per fer dos atacs desarmats com a acció bonus."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Defensa Pacient",
 					"entries": [
-						"Pots gastar 1 punt de ki per prendre l'acció {@action Dodge} com a acció bonus en el teu torn."
+						"Pots gastar 1 punt de ki per prendre l'acció {@action Esquivar} com a acció bonus en el teu torn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Passa de Vent",
 					"entries": [
-						"Pots gastar 1 punt de ki per prendre l'acció {@action Disengage} o l'acció {@action Dash} com a acció bonus en el teu torn. A més, pots saltar el doble de la distància durant el torn."
+						"Pots gastar 1 punt de ki per prendre l'acció {@action Destravar-se} o l'acció {@action Dash} com a acció bonus en el teu torn. A més, pots saltar el doble de la distància durant el torn."
 					]
 				}
 			]
@@ -1288,7 +1288,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Començant a nivell 5, pots atacar 2 cops (i no 1) quan prenguis l'acció {@action Attack} en el teu torn."
+				"Començant a nivell 5, pots atacar 2 cops (i no 1) quan prenguis l'acció {@action Atacar} en el teu torn."
 			]
 		},
 		{
@@ -2591,7 +2591,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Tradició del Drac Ascendent a nivell 3}",
-				"You can channel your ki into destructive waves of energy like the dragons you emulate. Quan prèns l'acció {@action Attack} en el teu torn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (escull). Choose a damage type: acid, cold, fire, lightning, or poison. Tota criatura in the area ha de salvar per Destresa against your ki save DC, taking damage of the chosen type equal to two rolls of your Dau d'Arts Marcials on a failure, or half as much damage on a success.",
+				"You can channel your ki into destructive waves of energy like the dragons you emulate. Quan prèns l'acció {@action Atacar} en el teu torn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (escull). Choose a damage type: acid, cold, fire, lightning, or poison. Tota criatura in the area ha de salvar per Destresa against your ki save DC, taking damage of the chosen type equal to two rolls of your Dau d'Arts Marcials on a failure, or half as much damage on a success.",
 				"A nivell 11, the damage of your breath increases to three rolls of your Dau d'Arts Marcials.",
 				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg. While you have no uses available, pots gastar 1 punt de ki to use this feature again."
 			]
@@ -2710,7 +2710,7 @@
 			"header": 1,
 			"entries": [
 				"Quan esculls aquesta tradició a nivell 3, you gain proficiency in the {@skill Performance} if you don't already have it; les teves arts marcials technique mixes martial training with the precision of a dancer and the antics of a jester.",
-				"You also learn how to twist and turn quickly as part of your Ràfega de Cops. Whenever you use Ràfega de Cops, you gain the benefit of l'acció {@action Disengage}, and la teva velocitat de caminar incrementa en 10 peus fins el final del torn actual."
+				"You also learn how to twist and turn quickly as part of your Ràfega de Cops. Whenever you use Ràfega de Cops, you gain the benefit of l'acció {@action Destravar-se}, and la teva velocitat de caminar incrementa en 10 peus fins el final del torn actual."
 			]
 		},
 		{
@@ -2794,7 +2794,7 @@
 					"items": [
 						"You can use el teu modificador de Saviesa in place of el teu modificador de Força when making Força checks and Força saving throws.",
 						"The arms are armes de monjo and have a reach of 10 feet. The arms deal radiant or necrotic damage (escull). When you attack with the arms, you can use el teu modificador de Saviesa instead of your Força or Destresa modifier for the attack and damage rolls.",
-						"Immediatament after you use l'acció {@action Attack} with your astral arms en el teu torn, you can make one atac extra with your astral arms com a acció bonus. The number of atac extras increases Quan pugis de nivell en aquesta classe, increasing to two a nivell 11 and three a nivell 17."
+						"Immediatament after you use l'acció {@action Atacar} with your astral arms en el teu torn, you can make one atac extra with your astral arms com a acció bonus. The number of atac extras increases Quan pugis de nivell en aquesta classe, increasing to two a nivell 11 and three a nivell 17."
 					]
 				}
 			]
@@ -2977,8 +2977,8 @@
 					"items": [
 						"Tens competència amb 3 armes marcialss (escull). Tota arma marcial es considera arma kensei si hi tens competència.",
 						"Pots tirar les tirades d'impacte i de dany d'una arma kensei amb Destresa o Força, i pots fer servir el Dau d'Arts Marcials com a dau de dany en ves del de l'arma.",
-						"Quan prèns l'acció {@action Attack} en el teu torn i impactes a un objectiu amb una arma kensei pots, com a acció bonus, fer {@damage 1d4} de dany contundent extra a aquest objectiu i a qualsevol altra que hagis impactat com a part de l'acció {@action Attack}.",
-						"Si fas un atac desarmat com a part of l'acció {@action Attack} en el teu torn i estàs empunyant una arma kensei, pots emprar-la per a defendre't. Tens +2 a la CA fins l'inici del teu proper torn si no estàs {@condition incapacitated} i empunyes l'arma."
+						"Quan prèns l'acció {@action Atacar} en el teu torn i impactes a un objectiu amb una arma kensei pots, com a acció bonus, fer {@damage 1d4} de dany contundent extra a aquest objectiu i a qualsevol altra que hagis impactat com a part de l'acció {@action Atacar}.",
+						"Si fas un atac desarmat com a part of l'acció {@action Atacar} en el teu torn i estàs empunyant una arma kensei, pots emprar-la per a defendre't. Tens +2 a la CA fins l'inici del teu proper torn si no estàs {@condition incapacitated} i empunyes l'arma."
 					]
 				}
 			]
@@ -3182,7 +3182,7 @@
 					"type": "list",
 					"items": [
 						"Choose two types of weapons to be your armes kensei: one melee weapon and one ranged weapon. Each of these weapons can be any simple or martial weapon that lacks the heavy and special properties. The longbow is also a valid choice. Tens competència amb these weapons if you don't already have it. Weapons of the chosen types are armes de monjo for you. Many of this tradition's features work only with your armes kensei. When you reach 6th, 11th, and 17th level en aquesta classe, you can choose another type of weapon\u2014melee or ranged\u2014to be a kensei weapon for you, following the criteria above.",
-						"If you make an unarmed strike com a part de l'acció {@action Attack} en el teu torn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. Tens +2 a la CA fins l'inici del teu proper torn, while the weapon is in your hand and you aren't {@condition incapacitated}.",
+						"If you make an unarmed strike com a part de l'acció {@action Atacar} en el teu torn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. Tens +2 a la CA fins l'inici del teu proper torn, while the weapon is in your hand and you aren't {@condition incapacitated}.",
 						"Pots, com a acció bonus, en el teu torn to make your atacs a distància with a kensei weapon more deadly. When you do so, any target you hit amb un atac a distància using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit fins el final del torn actual."
 					]
 				}
@@ -3301,7 +3301,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, aprèns com giravoltar mentre engegues una Ràfega de Cops. Quan empres la Ràfega de Cops, obténs el benefici de l'acció {@action Disengage}, i la teva velocitat de caminar incrementa en 10 peus fins el final del torn actual."
+				"A nivell 3, aprèns com giravoltar mentre engegues una Ràfega de Cops. Quan empres la Ràfega de Cops, obténs el benefici de l'acció {@action Destravar-se}, i la teva velocitat de caminar incrementa en 10 peus fins el final del torn actual."
 			]
 		},
 		{
@@ -3503,9 +3503,9 @@
 			"header": 1,
 			"entries": [
 				"Quan esculls aquesta tradició a nivell 3, pots llançar sagetes de radiància màgica.",
-				"Reps una nova opció d'atac que pots emprar quan prèns l'acció {@action Attack}. Aquest atac especial és un atac màgic a distància amb un abast de 30 peus. Hi tens competència i afegeixes el teu modificador de Destresa a les seves tirades d'impacte i de dany. El tipus de dany és radiant, i el seu dau de dany és el teu Dau d'Arts Marcials.",
-				"Quan prèns l'acció {@action Attack} en el teu torn i empris un Missil Solar com a part de l'acció, pots gastar 1 punt de ki per fer llançar un segon Missil Solar com a acció bonus.",
-				"Quan rebis el tret Atac Extra, el Missil Solar pot ser qualsevol dels atacs que fas com a aprt de l'acció {@action Attack}."
+				"Reps una nova opció d'atac que pots emprar quan prèns l'acció {@action Atacar}. Aquest atac especial és un atac màgic a distància amb un abast de 30 peus. Hi tens competència i afegeixes el teu modificador de Destresa a les seves tirades d'impacte i de dany. El tipus de dany és radiant, i el seu dau de dany és el teu Dau d'Arts Marcials.",
+				"Quan prèns l'acció {@action Atacar} en el teu torn i empris un Missil Solar com a part de l'acció, pots gastar 1 punt de ki per fer llançar un segon Missil Solar com a acció bonus.",
+				"Quan rebis el tret Atac Extra, el Missil Solar pot ser qualsevol dels atacs que fas com a aprt de l'acció {@action Atacar}."
 			]
 		},
 		{
@@ -3519,7 +3519,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, arpèns a canalitzar el teu ki en forma d'onades cremadores. Immediatament després de prendre l'acció {@action Attack} en el teu torn, pots gastar 2 punts de ki per llançar el conjur {@spell mans ardents} com a acció bonus.",
+				"A nivell 6, arpèns a canalitzar el teu ki en forma d'onades cremadores. Immediatament després de prendre l'acció {@action Atacar} en el teu torn, pots gastar 2 punts de ki per llançar el conjur {@spell mans ardents} com a acció bonus.",
 				"Pots gastar punts de ki extra per llançar {@spell mans ardents} a nivells superiors. Cada punt de ki extra que gastis puja el conjur 1 nivell. El màxim de punts de ki que puguis gastar (2 de base + els adicional) equival a la meitat del teu nivell de monjo."
 			]
 		},
@@ -3590,7 +3590,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Si fas un atac desarmat com a part de com a part de l'acció {@action Attack} en el teu torn i empunyes una arma kensei cos a cos, pots usar-la per a defensar-te. Tens +2 a la CA fins l'inici del teu proper torn mentre brandis l'arma i no estiguis {@condition incapacitated}."
+				"Si fas un atac desarmat com a part de com a part de l'acció {@action Atacar} en el teu torn i empunyes una arma kensei cos a cos, pots usar-la per a defensar-te. Tens +2 a la CA fins l'inici del teu proper torn mentre brandis l'arma i no estiguis {@condition incapacitated}."
 			]
 		},
 		{
