@@ -3509,7 +3509,7 @@ Renderer.spell = {
 		spell._tmpClasses = {};
 		spell._tmpRaces = [];
 
-		// add eldritch knight and entabanador arcà
+		// add cavaller èldritx and entabanador arcà
 		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => c.name === Renderer.spell.STR_WIZARD && c.source === SRC_PHB)) {
 			Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ELD_KNIGHT] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ELD_KNIGHT] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_FIGHTER,
@@ -3817,7 +3817,7 @@ Renderer.spell = {
 	STR_CLERIC: "Cleric",
 	STR_SORCERER: "Sorcerer",
 	STR_WARLOCK: "Bruixot",
-	STR_ELD_KNIGHT: "Eldritch Knight",
+	STR_ELD_KNIGHT: "Cavaller Èldritx",
 	STR_ARC_TCKER: "Entabanador Arcà",
 	STR_DIV_SOUL: "Divine Soul",
 	STR_FAV_SOUL_V2: "Favored Soul v2 (UA)",
