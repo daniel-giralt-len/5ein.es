@@ -1,7 +1,8 @@
+
 {
 	"action": [
 		{
-			"name": "Activate an Item",
+			"name": "Activar un Objecte",
 			"source": "DMG",
 			"page": 141,
 			"srd": true,
@@ -12,42 +13,42 @@
 				}
 			],
 			"entries": [
-				"Activating some magic items requires a user to do something in particular, such as holding the item and uttering a paraula màgica, reading the item if it is a scroll, or drinking it if it is a potion. The description of each item category or individual item details how an item is activated. Certain items use one or more of the following rules related to their activation.",
-				"If an item requires an action to activate, that action isn't a function of the {@action Use an Object} action, so a feature such as the rogue's {@subclassFeature Fast Hands|Rogue||Thief||3} can't be used to activate the item.",
+				"L'activació d'alguns ítems màgics requereix que l'usuari faci alguna cosa en particular, com ara aguantar-lo i pronunciar una paraula màgica, llegir-lo si es tracta d'un pergamí o beure'l si és una poció. La descripció de cada categoria d'ítem o ítem en sí, detalla com s'activa. Alguns ítems fan servir una o més de les regles següents relacionades amb la seva activació.",
+				"Si un ítem requereix una acció per activar-se, aquesta acció no és l'acció {@action Utilitzar un Objecte}, de manera que una habilitat com ara {@subclassFeature Fast Hands | Rogue || Thief || 3} del pícar, no es pot utilitzar per activar l'ítem. ",
 				{
 					"type": "entries",
 					"name": "Paraula Màgica",
 					"entries": [
-						"A paraula màgica is a word or phrase that must be spoken audibly for the item to operate. A magic item that requires the user to speak a paraula màgica can't be activated in the area of any effect that prevents sound, such as the area created by the silence spell."
+						"Una paraula màgica és una paraula o frase que s'ha de dir audiblement per fer funcionar l'ítem. Un ítem màgic que requereix que l'usuari pronunciï una paraula màgica no es pot activar a la zona de cap efecte que impedeixi el so, com ara la zona creada pel conjur de silenci. "
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Consumibles",
 					"entries": [
-						"Some items are used up when they are activated. A potion or elixir must be swallowed, or an oil applied to the body. The writing vanishes from a scroll when it is read. Once used, a consumable item loses its magic and no longer functions."
+						"Alguns ítems es gasten quan s'activen. Una poció o elixir, s'han d'empassar, o un oli s'ha d'aplicar al cos. L'escriptura desapareix d'un pergamí quan es llegeix. Un cop utilitzat, un ítem consumible perd la seva màgia i la seva funcionalitat."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Conjurs",
 					"entries": [
-						"Some magic items allow the user to cast a spell from the item, often by expending charges from it. The spell is cast at the lowest possible spell and caster level, doesn't expend any of the user's spell slots, and requires no components unless the item's description says otherwise. The spell uses its normal casting time, range, and duration, and the user of the item must concentrate if the spell requires concentration. Certain items make exceptions to these rules, changing the casting time, duration, or other parts of a spell.",
-						"Many items, such as potions, bypass the casting of the spell and confer the spell's effects. Such an item still uses the spell's duration unless the item's description says otherwise.",
-						"A magic item, such as certain staffs, may require you to use your own habilitat de llançament de conjurs when you cast a spell from the item. If you have more than one habilitat de llançament de conjurs, you choose which one to use with the item. If you don't have a habilitat de llançament de conjurs\u2014perhaps you're a rogue with the Use Magic Device feature\u2014el teu modificador de llançament de conjurs is +0 for the item, and el teu bonus de competència does apply."
+						"Alguns ítems màgics permeten a l'usuari llançar un conjur de l'ítem, sovint gastant-ne càrregues. El conjur es llança al nivell més baix possible de conjur i llançador, no gasta cap de les ranures de conjur de l'usuari i no requereix components tret que a la descripció de l'ítem hi digui el contrari. El conjur, utilitza el seu temps, abast i durada normals de llançament, i l'usuari de l'ítem s'ha de concentrar si el conjur requereix concentració. Alguns ítems fan excepcions a aquestes regles, canviant el temps, la temps de llançament o la duració del conjur, o altres parts del conjur",
+						"Molts ítems, com les pocions, ignoren el llançament del conjur i confereixen els efectes d'aquest. Aquests ítems segueixen utilitzant la durada del conjur tret que a la descripció digui el contrari.",
+						"Un ítem màgic, com ara alguns bastons, pot requerir que utilitzeu la vostre pròpia habilitat de llançament de conjurs quan llanceu un conjur des de l'ítem. Si teniu més d'una habilitat de llançament de conjurs, trieu amb quina l'utilitzeu. Si no teniu un habilitat de llançament de conjurs, (potser sou un pícar amb la habilitat d'Utilitzar un Objecte màgic) el teu modificador de llançament de conjurs és +0 per un ítem, i el teu bonus de competència no s'aplica."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Charges",
+					"name": "Càrregues",
 					"entries": [
-						"Some magic items have charges that you expend to activate its properties. The number of charges an item has remaining is revealed when an identify spell is cast on the item, or when a creature attunes to the item. Additionally, when an item regains charges, the creature attuned to that item learns how many charges it regained."
+						"Alguns ítems màgics tenen càrregues que es gasten per activar-ne les propietats. El nombre de càrregues que queden a un ítem es revela quan es llança un conjur d'identificació sobre l'ítem o quan una criatura es sintonitza amb l'ítem. A més, quan un ítem recupera les càrregues, la criatura sintonitzada amb aquest, sap quantes càrregues ha recuperat. "
 					]
 				}
 			]
 		},
 		{
-			"name": "Attack",
+			"name": "Atacar",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -58,21 +59,21 @@
 				}
 			],
 			"entries": [
-				"The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.",
-				"With this action, you make one melee or ranged attack. See the \"{@book Making an Attack|phb|9|making an attack}\" section for the rules that govern attacks.",
-				"Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action."
+				"L'acció més freqüent en combat és l'acció d'atac, tant si s'esgrimeix una espasa, es dispara una fletxa amb un arc o es dona un cop de puny.",
+				"Amb aquesta acció, feu un atac a cos a cosa o a distància. Consulteu la secció \" {@ book Fer un atac | phb | 9 | fer un atac} \"per a les regles que regulen els atacs.",
+				"Algunes habilitats, com ara l'Atac Extra del lluitador, us permeten fer més d'un atac amb aquesta acció."
 			],
 			"seeAlsoAction": [
-				"Disarm|DMG",
-				"Grapple",
-				"Mark|DMG",
+				"Desarmar | DMG",
+				"Presa",
+				"Marcar|DMG",
 				"Empenta",
-				"Shove Aside|DMG",
-				"Lluita amb Armes Duals"
+				"Apartar|DMG",
+				"Lluita amb dues armes"
 			]
 		},
 		{
-			"name": "Cast a Spell",
+			"name": "Fer un conjur",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -80,14 +81,14 @@
 				"Varia"
 			],
 			"entries": [
-				"Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell. See {@book capítol 10|phb|10|casting a spell} for the rules on spellcasting."
+				"Els llançadors de conjurs, com els mags i els clergues, així com molts monstres, tenen accés a conjurs i els poden utilitzar amb gran efectivitat en el combat. Cada conjur té un temps de llançament, el qual determina si el llançador ha d'utilitzar una acció, una reacció, minuts o fins i tot hores per llançar-lo. Per tant, llançar un conjur no és necessàriament una acció. La majoria dels conjurs tenen un temps de llançament d'una acció, de manera que un conjurador sovint utilitza la seva acció en combat per llançar-los. Vegeu { @book capítol 10 | phb | 10 | llançar un conjur} per a les regles sobre el conjur. "
 			]
 		},
 		{
-			"name": "Climb onto a Bigger Creature",
+			"name": "Enfilar-se a una criatura més gran",
 			"source": "DMG",
 			"page": 271,
-			"fromVariant": "Action Options",
+			"fromVariant": "Opcions d'acció",
 			"time": [
 				{
 					"number": 1,
@@ -95,13 +96,13 @@
 				}
 			],
 			"entries": [
-				"If one creature wants to jump onto another creature, it can do so by {@action grapple||grappling}. A small or Medium creature has little chance of making a successful grapple against a Huge or Gargantuan creature, however, unless magic has granted the grappler supernatural might.",
-				"As an alternative, a suitably large opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. After making any ability checks necessary to get into position and onto the larger creature, the smaller creature uses its action to make a Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check contested by the target's Destresa ({@skill Acrobàcies}) check. If it wins the contest, the smaller creature successfully moves into the target creature's space, the smaller creature moves with the target and has advantage on attack rolls against it.",
-				"The smaller creature can move around within the larger creature's space, treating the space as terreny difícil. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to your discretion. The larger creature can dislodge the smaller creature as an action\u2014knocking it off, scraping it against a wall, or grabbing and throwing it\u2014by making una tirada de Força ({@skill Atletisme}) contested by the smaller creature's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check. The smaller creature chooses which ability to use."
+				"Si una criatura vol enfilar-se a una altra criatura, pot fer-ho mitjançant {@action Apresar||Apresant}. Tot i això, una criatura petita o mitjana té poques possibilitats d'apresar a una criatura enorme o gargantuesca, si no és que la màgia li ha atorgat a l'apresador un poder sobrenatural. ",
+				"Com a alternativa, un adversari adequadament gran es pot considerar com a terreny amb el propòsit de saltar a l'esquena o aferrar-se a una extremitat. Després de fer les proves d'habilitat necessàries per situar-se en la criatura més gran, la criatura més petita utilitza la seva acció per fer una prova de Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies}) contra una prova de Destresa ({@skill Acrobàcies}) de l’objectiu. Si guanya la prova, la criatura més petita passa a l'espai de la criatura objectiu, es mou amb ell i té avantatge al atacar contra ell.",
+				"La criatura més petita es pot moure per l'espai de la criatura més gran, tractant l'espai com a terreny difícil. La capacitat de la criatura més gran d'atacar la criatura més petita depèn de la ubicació de la criatura més petita i queda a la vostra discreció. La criatura més gran pot desfer-se de la criatura més petita com a acció espolsant-se-la, fregant-la contra una paret o agafant-la i llançant-la fent una tirada de Força ({@skill Atletisme}) enfrontada amb la Força de la criatura més petita ({@skill Atletisme}) o Destresa ( {@skill Acrobàcies}). La criatura més petita tria quina habilitat utilitzar. "
 			]
 		},
 		{
-			"name": "Dash",
+			"name": "Córrer",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -112,15 +113,15 @@
 				}
 			],
 			"entries": [
-				"When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move fins a 60 peus en el teu torn if you dash.",
-				"Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move fins a 30 peus this turn if you dash."
+				"Quan feu l'acció de córrer, obteniu un moviment addicional pel torn actual. L'augment és igual a la vostra velocitat, després d'aplicar qualsevol modificador. Amb una velocitat de 30 peus, per exemple, podeu moure fins a 60 peus al vostre torn si corres.",
+				"Qualsevol augment o disminució de la velocitat canvia aquest moviment addicional en la mateixa quantitat. Si la vostra velocitat de 30 peus es redueix a 15 peus, per exemple, podeu moure-la fins a 30 peus aquest torn si corres."
 			]
 		},
 		{
-			"name": "Disarm",
+			"name": "Desarmar",
 			"source": "DMG",
 			"page": 271,
-			"fromVariant": "Action Options",
+			"fromVariant": "Opcions d'acció",
 			"time": [
 				{
 					"number": 1,
@@ -128,11 +129,11 @@
 				}
 			],
 			"entries": [
-				"A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker makes an attack roll contested by the target's Força ({@skill Atletisme}) check or Destresa ({@skill Acrobàcies}) check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item.",
-				"The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands. The target has advantage on its ability check if it is larger than the attacking creature, or disadvantage if it is smaller."
+				"Una criatura pot fer servir un atac armat per llançar una arma o un altre ítem de la mà d'un objectiu. L'atacant fa una tirada d'atac contra la Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies}) de l'objectiu. Si l'atacant guanya la tirada enfrontada, l'atac no provoca danys ni cap altre efecte negatiu, però el defensor deixa caure l'ítem. ",
+				"L'atacant té un desavantatge en la tirada d'atac si l'objectiu sosté l'ítem amb dues o més mans. L'objectiu té avantatge a la seva prova de resistir si és més gran que la criatura atacant, o el desavantatge si és més petit."
 			],
 			"seeAlsoAction": [
-				"Attack"
+				"Atac"
 			]
 		},
 		{
@@ -147,11 +148,11 @@
 				}
 			],
 			"entries": [
-				"If you take the Disengage action, el teu moviment no provoca atacs d'oportunitat for the rest of the turn."
+				"Si fas l'acció de destravar-se, el teu moviment no provoca atacs d'oportunitat durant la resta del torn."
 			]
 		},
 		{
-			"name": "Dodge",
+			"name": "Esquivar",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -162,11 +163,11 @@
 				}
 			],
 			"entries": [
-				"When you take the Dodge action, you focus entirely on avoiding attacks. Fins el final del teu proper torn, any attack roll made against you has disadvantage if you can see the attacker, and you make Destresa saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0."
+				"Quan fas l'acció d'esquivar, et centres completament a evitar atacs. Fins a l'inici del teu proper torn, qualsevol tirada d'impacte contra tu té desavantatge si pots veure l'atacant; també pots fer les tirades de salvació per Destresa amb avantatge. Perds aquest benefici si estàs incapacitat (tal com s'explica a l'apèndix) o si la teva velocitat es redueix a 0. "
 			]
 		},
 		{
-			"name": "Don or Doff a Shield",
+			"name": "Equipar o desequipar un Escut",
 			"source": "PHB",
 			"page": 146,
 			"srd": true,
@@ -177,23 +178,23 @@
 				}
 			],
 			"entries": [
-				"The time it takes to don or doff armor {@table Getting Into and Out of Armor; Donning and Doffing Armor|phb|depends on the armor's category}. A {@item shield|phb} can be donned or doffed as an action."
+				"El temps que es necessita per posar o treure una armadura {@table Getting Into and Out of Armor; Donning and Doffing Armor | phb | depèn de la categoria de l'armadura}. Un {@ítem shield | phb} es pot posar o treure com a acció."
 			]
 		},
 		{
-			"name": "End Concentration",
+			"name": "Acabar la concentració",
 			"source": "PHB",
 			"page": 203,
 			"srd": true,
 			"time": [
-				"Free"
+				"Gratuït"
 			],
 			"entries": [
-				"If a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end concentration at any time (no requereix acció)."
+				"Si un conjur s'ha de mantenir amb concentració s'especifica a la seva durada; també especifica quant de temps pots concentrar-t'hi. Pots acabar la concentració en qualsevol moment (no es requereix acció)."
 			]
 		},
 		{
-			"name": "Escape a Grapple",
+			"name": "Escapar d'una presa",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -204,14 +205,14 @@
 				}
 			],
 			"entries": [
-				"A {@condition grappled} creature can use its action to escape. To do so, it must succeed on a Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check contested by your Força ({@skill Atletisme}) check."
+				"Una criatura {@condition grappled} pot utilitzar la seva acció per fugir. Per fer-ho, ha de superar una tirada de Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies}) contra a la Força ({@skill) Atletisme} de qui fa la presa). "
 			],
 			"seeAlsoAction": [
-				"Grapple"
+				"Apresar"
 			]
 		},
 		{
-			"name": "Grapple",
+			"name": "Apresar",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -222,25 +223,25 @@
 				}
 			],
 			"entries": [
-				"When you want to grab a creature or wrestle with it, you can use the {@action Attack} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-				"Using at least one free hand, you try to seize the target by making a grapple check, una tirada de Força ({@skill Atletisme}) contested by the target's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitat}. If you succeed, you subject the target to the {@condition grappled} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no requereix acció).",
+				"Quan vulgueu retenir una criatura o lluitar-hi agafats, pots utilitzar l'acció {@action Atacar} per fer un atac cos a cos especial, una presa. Si pots fer diversos atacs amb l'acció {@action Atacar} , aquest atac substitueix un d'ells. L'objectiu de la vostra presa no pot ser més d'una mida més gran que tu i ha d'estar al teu abast.",
+				"Has de tenir almenys una mà lliure. Proves de subjectar a l'objectiu fent una prova de presa, una tirada de Força ({@skill Atletisme}) enfrontada amb la Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies)}) de l'objectiu (l'objectiu pot triar quina habilitat utilitzar). La superes automàticament si l'objectiu està {@condition incapacitated}. Si superes, l'objectiu passa a estar {@condition grappled} (vegeu l'apèndix). A la condició s'especifiquen les condicions de finalització. Pots alliberar l'objectiu sempre que vulgueu (no requereix acció). ",
 				{
 					"type": "entries",
-					"name": "Moving a Grappled Target",
+					"name": "Moure un Objectiu Apresat",
 					"entries": [
-						"When you move, you can drag or carry the {@condition grappled} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
+						"Quan us moveu, pots arrossegar o carregar la criatura {@condition grappled} amb vosaltres, però la vostra velocitat es reduirà a la meitat, tret que la criatura sigui dues o més mides més petita que vosaltres."
 					]
 				}
 			],
 			"seeAlsoAction": [
-				"Escape a Grapple"
+				"Escapar d'una Presa"
 			]
 		},
 		{
-			"name": "Healing Surge",
+			"name": "Esforç Curatiu",
 			"source": "DMG",
 			"page": 266,
-			"fromVariant": "Healing",
+			"fromVariant": "Curació",
 			"time": [
 				{
 					"number": 1,
@@ -248,12 +249,12 @@
 				}
 			],
 			"entries": [
-				"Com a acció, a character can use a healing surge and spend up to half his or her Hit Dice. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitució modifier. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll.",
-				"A character who uses a healing surge can't do so again until he or she finishes a short or long rest. Under this optional rule, a character regains all spent Hit Dice at the end of a long rest. With a short rest, a character regains Hit Dice equal to his or her level divided by four (mínim d'1 dau)."
+				"Com a acció, un personatge pot utilitzar un esforç curatiu i gastar fins a la meitat dels seus Daus de Vida. Per cada Dau de Vida gastat d'aquesta manera, el jugador tira el dau i hi suma el seu modificador de Constitució, i el personatge recupera el resultat en punts de vida. El jugador pot decidir gastar un Dau de Vida addicional després de cada tirada.",
+				"Un personatge que utilitza un esforç curatiu no ho pot tornar a fer fins després d'un Descans Curt o Llarg. Segons aquesta regla opcional, un personatge recupera tots els Daus de Vida gastats després d'un descans llarg. Amb un descans curt, un personatge recupera Daus de Vida igual al seu nivell dividit per quatre (mínim d'un dau)."
 			]
 		},
 		{
-			"name": "Help",
+			"name": "Ajudar",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -264,12 +265,12 @@
 				}
 			],
 			"entries": [
-				"You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check abans de l'inici del teu proper torn.",
-				"Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage."
+				"Podeu donar un cop de ma a una altra criatura per completar una tasca. Quan realitzeu l'acció d'Ajuda, la criatura a qui ajudeu obté avantatge en la següent prova d'habilitat que faci per completar la tasca en la que heu ajudat, sempre que faci la prova abans de començar el teu següent torn.",
+				"Alternativament, podeu ajudar a una criatura amiga a impactar una criatura a menys de 5 peus de tu. Fent una finta, distraient a l'objectiu o coordinant-vos d'alguna altre manera, feu l'impacte del vostre aliat més efectiu. Si el vostre aliat ataca l'objectiu abans del vostre següent torn, la primera tirada d'impacte es fa amb avantatge "		
 			]
 		},
 		{
-			"name": "Hide",
+			"name": "Amagar-se",
 			"source": "PHB",
 			"page": 192,
 			"srd": true,
@@ -280,11 +281,11 @@
 				}
 			],
 			"entries": [
-				"When you take the Hide action, you make una tirada de Destresa ({@skill Sigil}) in an attempt to hide, following the rules in {@book chapter 7 |phb|7|hiding} for hiding. If you succeed, you gain certain benefits, as described in the \"{@book Unseen Attackers and Targets|PHB|9|unseen attackers and targets}\" section in the Player's Handbook."
+				"Quan feu l'acció d'Amagar-se, feu una tirada de Destresa ({@skill Sigil}) per intentar amagar-vos, seguint les regles del {@book capítol 7 | phb | 7 | amagar-se} per amagar-se. Si teniu èxit, obteniu certs avantatges, tal com es descriu a la secció \"{@ book Unseen Attackers and Targets | PHB | 9 | atacants i objectius invisibles} \" del Manual del jugador. "
 			]
 		},
 		{
-			"name": "Identify a Spell",
+			"name": "Identificar un conjur",
 			"source": "XGE",
 			"page": 85,
 			"fromVariant": "Spellcasting|XGE",
@@ -299,38 +300,38 @@
 				}
 			],
 			"entries": [
-				"Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.",
-				"If the character perceived the casting, the spell's effect, or both, the character can make una tirada d'Intel·ligència ({@skill Arcana}) with the reaction or action. The DC equals 15 + the spell's level. If the spell is cast as a class spell and the character is a member of that class, the check is made with advantage. For example, if the spellcaster casts a spell as a cleric, another cleric has advantage on the check to identify the spell. Some spells aren't associated with any class when they're cast, such as when a monster uses its Innate Spellcasting trait.",
-				"This Intel·ligència ({@skill Arcana}) check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose habilitat de llançament de conjurs is Saviesa or Carisma. Being able to cast spells doesn't by itself make you adept at deducing exactly what others are doing when they cast their spells."
+				"A vegades, un personatge vol identificar un conjur s'està llançant o que ja s'ha llançat. Per fer-ho, pot utilitzar la seva reacció per identificar-lo mentre s'està llançant o una acció al seu torn per identificar-lo pel seu efecte un cop llançat. ",
+				"Si el personatge ha percebut el llançament, l'efecte del conjur o tots dos, pot fer una tirada d'Intel·ligència ({@skill Arcana}) amb la reacció o l'acció. La CD és igual a 15 + el nivell del conjur. Si el conjur es llança com un conjur de classe i el personatge és d'aquesta classe, la comprovació es fa amb avantatge. Per exemple, si el conjurador llança un conjur com a clergue, un altre clergue té avantatge en la prova per identificar el conjur. Alguns conjurs no s'associen a cap classe, com ara quan un monstre utilitza la seva característica de conjurar de forma innata. ",
+				"Aquesta prova d'Intel·ligència ({@skill Arcana}) representa el fet que identificar un conjur requereix una ment ràpida i familiaritat amb la teoria i la pràctica del llançament. I això és així fins i tot per a un personatge l'habilitat de llançament de conjurs del qual és Saviesa o Carisma. Ser capaç de llançar conjurs no et fa per si mateix un expert en deduir exactament el que fan els altres quan llancen els seus conjurs. "
 			]
 		},
 		{
-			"name": "Improvising an Action",
+			"name": "Improvisar una Acció",
 			"source": "PHB",
 			"page": 193,
 			"time": [
 				"Varia"
 			],
 			"entries": [
-				"Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in magical defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in {@book capítol 7|phb|7|Ability Scores and Modifiers} for inspiration as you improvise.",
-				"When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+				"El vostre personatge pot fer coses que no estan cobertes per les accions d'aquest capítol, com ara trencar portes, intimidar enemics, detectar debilitats en les defenses màgiques o demanar parlamentar amb un enemic. Els únics límits a les accions que podeu intentar són la vostre imaginació i les puntuacions de característica del vostre personatge. Vegeu les descripcions de les puntuacions de les habilitats a {@book capítol 7 | phb | 7 | Puntuacions i modificadors de les habilitats} per inspirar-vos mentre improviseu.",
+				"Quan descriviu una acció que no es detalla en cap altre lloc de les regles, el MM us dirà si aquesta acció és possible i quin tipus de tirades heu de fer, si s'han de fer, per determinar l'èxit o el fracàs."
 			]
 		},
 		{
-			"name": "Mark",
+			"name": "Marcar",
 			"source": "DMG",
 			"page": 271,
-			"fromVariant": "Action Options",
+			"fromVariant": "Opcions d'acció",
 			"entries": [
-				"This option makes it easier for melee combatants to harry each other with opportunity attacks.",
-				"When a creature makes a melee attack, it can also mark its target. Fins al final del proper torn de l'atacant, any opportunity attack it makes against the marked target has advantage. The opportunity attack doesn't expend the attacker's reaction, but the attacker can't make the attack if anything, such as the {@condition incapacitat} condition or the {@spell braó electritzant} spell, is preventing it from taking reactions. The attacker is limited to one opportunity attack per turn."
+				"Aquesta opció facilita als combatents a melé atacar-se amb atacs d'oportunitat.",
+				"Quan una criatura fa un atac a melé, pot marcar al seu objectiu. Fins al final del següent torn de l'atacant, qualsevol atac d'oportunitat que faci contra l'objectiu marcat té avantatge. L'atac d'oportunitat no gasta la reacció de l'atacant, però l'atac no es pot fer si alguna cosa, com ara la condició de {@condition incapacitated} o el conjur {@spell shocking grasp}, impedeix que reaccioni. L'atacant no pot fer més d'un atac d'oportunitat per torn."
 			],
 			"seeAlsoAction": [
-				"Attack"
+				"Atac"
 			]
 		},
 		{
-			"name": "Opportunity Attack",
+			"name": "Atac d'oportunitat",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -341,13 +342,13 @@
 				}
 			],
 			"entries": [
-				"In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.",
-				"You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-				"You can avoid provoking an opportunity attack by taking the {@action Disengage} action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy."
+				"En una baralla, tothom està constantment vigilant per si els enemics baixen la guàrdia. Rarament es pot passar entre els enemics sense cridar-los l'atenció i posar-se en perill; fer-ho provoca un atac d'oportunitat.",
+				"Podeu fer un atac d'oportunitat quan una criatura hostil que podeu veure es mou fora del vostre abast. Per fer l'atac d'oportunitat, utilitzeu la vostra reacció per fer un impacte a melé contra la criatura provocadora. L'atac interromp el moviment de la criatura provocadora, produint-se just abans que la criatura surti del vostre abast.",
+				"Podeu evitar provocar un atac d'oportunitat fent una acció de {@action Destravar-se}. Tampoc no provoqueu un atac d'oportunitat quan us tele transporteu o quan algú o alguna cosa us mou sense fer servir el vostre moviment, acció o reacció. Per exemple, no provoqueu cap atac d'oportunitat si una explosió us expulsa de l'abast d'un enemic o si la gravetat us fa caure passant per davant d'un enemic."
 			]
 		},
 		{
-			"name": "Other Activity",
+			"name": "Altres activitats",
 			"source": "PHB",
 			"page": 190,
 			"srd": true,
@@ -355,40 +356,40 @@
 				"Varia"
 			],
 			"entries": [
-				"Your turn can include a variety of flourishes that require neither your action nor your move.",
-				"You can communicate however you are able, through brief utterances and gestures, as you take your turn.",
-				"You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.",
-				"If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions.",
-				"The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge.",
+				"El vostre torn pot incloure una gran varietat de floriments que no requereixen ni la vostra acció ni el vostre moviment.",
+				"Podeu comunicar-vos com us sigui possible, mitjançant breus enunciats i gestos, mentre preneu el vostre torn.",
+				"També podeu interactuar de forma gratuïta amb un ítem o característica de l'entorn, ja sigui durant el vostre moviment o la vostra acció. Per exemple, podeu obrir una porta durant el vostre moviment mentre camineu cap a un enemic o podeu desenfundar l'arma com a part de la mateixa acció que utilitzeu per atacar. ",
+				"Si voleu interactuar amb un segon ítem, heu d'utilitzar la vostra acció. Alguns Ítems màgics i altres ítems especials sempre requereixen una acció, tal com s'indica a les seves descripcions.",
+				"El/La/Li MM pot requerir que utilitzeu una acció per a qualsevol d'aquestes activitats quan necessiti una cura especial o quan presenti un obstacle inusual. Per exemple, el/la/li MM pot requerir raonablement que utilitzeu una acció per obrir una porta travada o girar una manovella per baixar un pont llevadís.",
 				{
-					"type": "inset",
-					"name": "Interacting with Objects Around You",
+					"type": "inserció",
+					"name": "Interaccionar amb ítems del vostre entorn",
 					"entries": [
-						"Here are a few examples of the sorts of thing you can do in tandem with your movement and action:",
+						"Aquí teniu alguns exemples de les coses que podeu fer conjuntament amb el vostre moviment i acció:",
 						{
 							"type": "list",
 							"items": [
-								"draw or sheathe a sword",
-								"open or close a door",
-								"withdraw a potion from your backpack",
-								"pick up a dropped axe",
-								"take a bauble from a table",
-								"remove a ring from your finger",
-								"stuff some food into your mouth",
-								"plant a banner in the ground",
-								"fish a few coins from your belt pouch",
-								"drink all the ale in a flagon",
-								"throw a lever or a switch",
-								"pull a torch from a sconce",
-								"take a book from a shelf you can reach",
-								"extinguish a small flame",
-								"don a mask",
-								"pull the hood of your cloak up and over your head",
-								"put your ear to a door",
-								"kick a small stone",
-								"turn a key in a lock",
-								"tap the floor with a 10-foot pole",
-								"hand an item to another character"
+								"enfundar o desenfundar una espasa",
+								"obrir o tancar una porta",
+								"treure una poció de la motxilla",
+								"recollir una destral caiguda",
+								"agafar una bola d'una taula",
+								"treure's un anell del dit",
+								"omplir-te la boca amb menjar",
+								"plantar un estàndard a terra",
+								"treure't algunes monedes de la bossa del cinturó",
+								"beure's la cervesa d'un got",
+								"activar una palanca o un interruptor",
+								"treure una torxa del suport",
+								"agafar un llibre d'un prestatge a l'abast",
+								"apagar una flama petita",
+								"posar-se una màscara",
+								"tapar-se el cap amb la caputxa de la capa",
+								"posar l'orella a una porta",
+								"xutar una pedra petita",
+								"girar una clau en un pany",
+								"pícar el terra amb un pal de 10 peus",
+								"passar un ítem a un altre personatge"
 							]
 						}
 					]
@@ -396,10 +397,10 @@
 			]
 		},
 		{
-			"name": "Overrun",
+			"name": "Sobrepassar",
 			"source": "DMG",
 			"page": 272,
-			"fromVariant": "Action Options",
+			"fromVariant": "Opcions d'acció",
 			"time": [
 				{
 					"number": 1,
@@ -411,14 +412,14 @@
 				}
 			],
 			"entries": [
-				"When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature. As an action or a bonus action, the mover makes una tirada de Força ({@skill Atletisme}) contested by the hostile creature's Força ({@skill Atletisme}) check. The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller. If the mover wins the contest, it can move through the hostile creature's space once this turn."
+				"Quan una criatura intenta moure's per l'espai d'una criatura hostil pot intentar obrir-se camí sobrepassant-la. Com a acció o acció bonus, qui fa el moviment fa una tirada de Força ({@skill Atletisme}) enfrontada a una tirada de Força ({@skill Atletisme}) de la criatura hostil. La criatura que intenta sobrepassar té avantatge en aquest enfrontament si és més gran que la criatura hostil, i té desavantatge si és més petita. Si qui fa el moviment guanya l'enfrontament, pot moure's una vegada per l'espai de la criatura hostil aquest torn."
 			],
 			"seeAlsoAction": [
 				"Tumble|DMG"
 			]
 		},
 		{
-			"name": "Ready",
+			"name": "Preparada",
 			"source": "PHB",
 			"page": 193,
 			"srd": true,
@@ -429,15 +430,15 @@
 				}
 			],
 			"entries": [
-				"Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action en el teu torn, which lets you act using your reaction abans de l'inici del teu proper torn.",
-				"First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include \"If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the goblin steps next to me, I move away.\"",
-				"When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.",
-				"When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration (explained in {@book capítol 10|phb|10|concentration}). If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the web spell and ready missil màgic, your web spell ends, and if you take damage before you release missil màgic with your reaction, your concentration might be broken.",
-				"You have fins el final del teu proper torn to use a readied action."
+				"A vegades voleu saltar sobre un enemic o esperar una circumstància particular abans d'actuar. Per fer-ho, podeu fer l'acció Preparada al vostre torn, que us permet actuar fent servir la vostra reacció abans de començar el següent torn.",
+				"En primer lloc, decidiu quin detonant (perceptible!) desencadenarà la vostra reacció. Després, trieu l'acció que voleu executar en resposta a aquest detonant; també pots moure't fins a la vostra velocitat per respondre-hi. Els exemples inclouen \" Si els enemics trepitgen la zona de la trampa, estiraré la palanca que l'obre, \" i \" Si el gòblin passa al meu costat, m'allunyo. \"",
+				"Quan es s'activa el detonador, podeu executar la vostra reacció just després d'acabar el disparador o ignorar-lo. Recordeu que només podeu fer una reacció per ronda.",
+				"Quan prepares acció per llançar un conjur, el llanceu amb normalitat però mantenint la seva energia, que allibereu amb la vostra reacció quan es produeixi el disparador. Per preparar-se, un conjur ha de tenir un temps de llançament d'1 acció i mantenir la màgia del conjur requereix concentració (s'explica a {@book capítol 10 | phb | 10 | concentració}). Si la vostra concentració es trenca, el conjur es dissipa sense tenir efecte. Per exemple, si esteu concentrats per mantenir el conjur teranyina i prepareu míssil màgic, el vostre conjur teranyina finalitza i, si es produeix un dany abans de llançar un míssil màgic amb la reacció, la concentració també es pot trencar.",
+				"Teniu fins al començament del proper torn per utilitzar una acció preparada."
 			]
 		},
 		{
-			"name": "Search",
+			"name": "Cerca",
 			"source": "PHB",
 			"page": 193,
 			"time": [
@@ -447,7 +448,7 @@
 				}
 			],
 			"entries": [
-				"When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make una tirada de Saviesa ({@skill Percepció}) or una tirada d'Intel·ligència ({@skill Investigació})."
+				"Quan feu l'acció de cerca, dediqueu la vostra atenció a trobar alguna cosa. En funció de la naturalesa de la vostra cerca, el MM us pot fer fer una tirada de Saviesa ({@skill Percepció}) o una tirada d'Intel·ligència ({ @skill Investigació}). "
 			]
 		},
 		{
@@ -462,19 +463,19 @@
 				}
 			],
 			"entries": [
-				"Using the {@action Attack} action, you can make a special melee attack to shove a creature, either to knock it {@condition enderrocat} or push it away from you. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them.",
-				"The target of your shove must be no more than one size larger than you, and it must be within your reach. You make una tirada de Força ({@skill Atletisme}) contested by the target's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitat}. If you succeed, you either knock the target {@condition enderrocat} or push it 5 peus lluny de tu."
+				"Amb l'acció {@action Atacar}, podeu fer un atac a melé especial per empentar una criatura, ja sigui per tirar-la {@condition prone} o apartar-la de vosaltres. Si podeu fer diversos atacs amb l'acció d'{@action Atacar}, aquest atac substitueix un d'ells.",
+				"L'objectiu de la vostra empenta no pot ser més d'una mida més gran que vosaltres i ha d'estar al vostre abast. Feu una tirada de Força ({@skill Atletisme}) enfrontada a una tirada de Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies}) de l'objectiu (pot triar quina habilitat utilitzar). Teniu èxit automàticament si l'objectiu està {@condition incapacitated}. Si teniu èxit, o bé deixeu a l'enemic {@condition prone} o l'empenteu a 5 peus de distància endavant."
 			],
 			"seeAlsoAction": [
-				"Attack",
+				"Atac",
 				"Shove Aside|DMG"
 			]
 		},
 		{
-			"name": "Shove Aside",
+			"name": "Apartar",
 			"source": "DMG",
 			"page": 272,
-			"fromVariant": "Action Options",
+			"fromVariant": "Opcions d'acció",
 			"time": [
 				{
 					"number": 1,
@@ -482,14 +483,14 @@
 				}
 			],
 			"entries": [
-				"With this option, a creature uses the special {@action shove} attack from the {@book Player's Handbook|9|Shoving a Creature} to force a target to the side, rather than away. The attacker has disadvantage on its Força ({@skill Atletisme}) check when it does so. If that check is successful, the attacker moves the target 5 feet to a different space within its reach."
+				"Amb aquesta opció, una criatura utilitza l'atac especial {@action Empenta} del {@book Player's Handbook | 9 | Shoving a Creature} per apartar un objectiu cap al costat, en comptes d'endavant. L'atacant té desavantatge a la seva tirada de Força ( {@skill Atletisme}) quan ho fa. Si la prova té èxit, l'atacant mou l'objectiu 5 peus a un espai diferent al seu abast. "
 			]
 		},
 		{
-			"name": "Tumble",
+			"name": "Malabarismes",
 			"source": "DMG",
 			"page": 272,
-			"fromVariant": "Action Options",
+			"fromVariant": "Opcions d'acció",
 			"time": [
 				{
 					"number": 1,
@@ -501,14 +502,14 @@
 				}
 			],
 			"entries": [
-				"A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent. As an action or a bonus action, the tumbler makes una tirada de Destresa ({@skill Acrobàcies}) contested by the hostile creature's Destresa ({@skill Acrobàcies}) check. If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
+				"Una criatura pot provar de fer piruetes per passar per l'espai d'una criatura hostil, esquivant-lo i passant de llarg de l'oponent. Com a acció o acció bonus, pots fer una tirada Destresa ({@skill Acrobàcies}) contra la Destresa ({@skill Acrobàcies}) de la criatura hostil. Si guanyeu l'enfrontament, podeu moure-us una vegada per l'espai de la criatura hostil aquest torn."
 			],
 			"seeAlsoAction": [
-				"Overrun|DMG"
+				"Sobrepassar|DMG"
 			]
 		},
 		{
-			"name": "Lluita amb Armes Duals",
+			"name": "Lluita amb dues armes",
 			"source": "PHB",
 			"page": 195,
 			"srd": true,
@@ -519,15 +520,15 @@
 				}
 			],
 			"entries": [
-				"Quan prens l'acció {@action Attack} and attack with a light melee weapon that you're holding in one hand, pots, com a acció bonus, attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-				"If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+				"Quan feu l'acció {@action Atacar} i ataqueu amb una arma cos a cos lleugera que teniu en una mà, podeu utilitzar una acció addicional per atacar amb una arma cos a cos lleugera diferent que tingueu a l'altra mà. No afegiu el vostre modificador d'habilitat al dany d'aquest segon atac, tret que aquest modificador sigui negatiu.",
+				"Si qualsevol arma té la propietat per ser llançada, podeu llançar-la en lloc de fer un atac cos a cos."
 			],
 			"seeAlsoAction": [
-				"Attack"
+				"Atac"
 			]
 		},
 		{
-			"name": "Use an Object",
+			"name": "Utilitzar un Objecte",
 			"source": "PHB",
 			"page": 193,
 			"srd": true,
@@ -538,7 +539,7 @@
 				}
 			],
 			"entries": [
-				"You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object en el teu torn."
+				"Normalment interactueu amb un ítem mentre feu una altra cosa, com ara quan traieu una espasa com a part d'un atac. Quan un ítem requereix la vostra acció per fer-lo servir, feu l'acció Utilitzar un Objecte. Aquesta acció també és útil quan voleu interactuar amb més d'un ítem al vostre torn."
 			]
 		}
 	]
