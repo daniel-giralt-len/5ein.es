@@ -211,7 +211,7 @@ const BIRTHPLACES = [
 	{min: 66, max: 68, result: () => `Barn, shed, or other outbuilding ${choose("barn", "shed", "outbuilding")}`, display: "Barn, shed, or other outbuilding"},
 	{min: 69, max: 70, result: "Cave"},
 	{min: 71, max: 72, result: "Field"},
-	{min: 73, max: 74, result: "Forest"},
+	{min: 73, max: 74, result: "Bosc"},
 	{min: 75, max: 77, result: "Temple"},
 	{min: 78, result: "Battlefield"},
 	{min: 79, max: 80, result: () => `Alley or street ${choose("alley", "street")}`, display: "Alley or street"},
