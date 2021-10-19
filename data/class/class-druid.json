@@ -2285,9 +2285,9 @@
 			],
 			"subclassFeatures": [
 				"Cercle d'Espores (UA)|Druida||Spores (UA)|UAThreeSubclasses|2",
-				"Fungal Infestation|Druida||Spores (UA)|UAThreeSubclasses|6",
-				"Spreading Spores|Druida||Spores (UA)|UAThreeSubclasses|10",
-				"Fungal Body|Druida||Spores (UA)|UAThreeSubclasses|14"
+				"Infestació Miceliana|Druida||Spores (UA)|UAThreeSubclasses|6",
+				"Escampar les Llavors|Druida||Spores (UA)|UAThreeSubclasses|10",
+				"Cos de Fong|Druida||Spores (UA)|UAThreeSubclasses|14"
 			]
 		},
 		{
@@ -2344,7 +2344,7 @@
 		},
 		{
 			"name": "Cercle d'Espores",
-			"shortName": "Spores",
+			"shortName": "Espores",
 			"source": "TCE",
 			"className": "Druida",
 			"classSource": "PHB",
@@ -2378,10 +2378,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Cercle d'Espores|Druida||Spores|TCE|2",
-				"Fungal Infestation|Druida||Spores|TCE|6",
-				"Spreading Spores|Druida||Spores|TCE|10",
-				"Fungal Body|Druida||Spores|TCE|14"
+				"Cercle d'Espores|Druida||Espores|TCE|2",
+				"Infestació Miceliana|Druida||Espores|TCE|6",
+				"Escampar les Llavors|Druida||Espores|TCE|10",
+				"Cos de Fong|Druida||Espores|TCE|14"
 			]
 		},
 		{
@@ -3433,7 +3433,7 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"entries": [
@@ -3442,15 +3442,15 @@
 				"Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Conjurs de Cercle|Druida||Spores|TCE|2"
+					"subclassFeature": "Conjurs de Cercle|Druida||Espores|TCE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Halo d'Espores|Druida||Spores|TCE|2"
+					"subclassFeature": "Halo d'Espores|Druida||Espores|TCE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Symbiotic Entity|Druida||Spores|TCE|2"
+					"subclassFeature": "Entitat Simbiòtica|Druida||Espores|TCE|2"
 				}
 			]
 		},
@@ -3466,7 +3466,7 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
@@ -3517,16 +3517,16 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. Quan una criatura que puguis veure moves into a space a 10 peus de tu or starts its turn there, pots, com a reacció, deal {@damage 1d4} de dany necròtic to that creature unless it succeeds on a Constitució saving throw contra la teva CD de salvació de conjur. The necrotic damage increases to {@dice 1d6} a nivell 6, {@dice 1d8} a nivell 10, i {@dice 1d10} a nivell 14."
+				"Començant a nivell 2, t'envoltens unes espores necròtiques i invisibles. Són inòcues fins que les alliberis vers a una criatura. Si criatura que puguis veure es mou a 10 peus de tu o hi comença el torn pots, com a reacció, fer-la salvar per Constitució contra la teva CD de salvació de conjur. Si falla, rep {@damage 1d4} de dany necròtic. Aquest dany es torna {@dice 1d6} a nivell 6, {@dice 1d8} a nivell 10, i {@dice 1d10} a nivell 14."
 			]
 		},
 		{
-			"name": "Symbiotic Entity",
+			"name": "Entitat Simbiòtica",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3537,24 +3537,24 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you gain the ability to channel magic into your spores. Com a acció, you can expend a use of your Forma Feréstega feature to awaken those spores, rather than transforming into a beast form, and you gain 4 punts de vida temporals for each level you have en aquesta classe. While this feature is active, reps els beneficis següents:",
+				"A nivell 2, ets capaç de canalitzar màgia a les teves espores. Com a acció, pots gastar un ús de Forma Feréstega i, en comptes de transformar-te, despertes les espores. Reps tants punts de vida temporals com 4 vegades el teu nivell en aquesta classa. Mentre tinguis aquest tret activat, reps els beneficis següents:",
 				{
 					"type": "list",
 					"items": [
-						"When you deal your Halo d'Espores damage, roll the damage die a second time and add it to the total.",
-						"Your atac armat cos a coss deal an extra {@damage 1d6} de dany necròtic to any target they hit."
+						"Quan fas mal amb l'Halo d'Espores, tires el dau de dany 2 cops.",
+						"Els teus atacs armats cos a cos fan {@damage 1d6} de dany necròtic extra quan impacten."
 					]
 				},
-				"These benefits last durant 10 minuts, until you lose all these punts de vida temporals, or until you use your Forma Feréstega again."
+				"Aquests beneficis duren: 10 minuts; fins que perdis tot s els punts de vida temporals, o fins que tornis a emprar la teva  Forma Feréstega."
 			]
 		},
 		{
-			"name": "Fungal Infestation",
+			"name": "Infestació Miceliana",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3565,18 +3565,18 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies a 10 peus de tu, pots, com a reacció, animate it, causing it to stand up immediately with 1 punt de vida. The creature uses the {@creature zombie} stat block in the {@book Monster Manual|MM}. It remains animate durant 1 hora, after which time it collapses and dies.",
-				"In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is l'acció {@action Atacar}, making one atac cos a cos.",
+				"A nivell 6, les teves espores poden infestar un cadàver i animar-lo. Si una bèstia o humanoide Mitjà o Petit mor a 10 peus de tu pots, com a reacció, animar-lo. S'aixeca immediatament amb 1 punt de vida. La criatura empra el bloc d'estats del {@creature zombie} del {@book Manual de Monstres|MM}. Roman animat durant 1 hora, i després cau i mor.",
+				"En combat, el torn del zombi va just després del teu. Obeeix les teves ordres mentals i només pot prendre l'acció {@action Atacar} per a fer un atac cos a cos.",
 				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Spreading Spores",
+			"name": "Escampar les Llavors",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3587,18 +3587,18 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, you gain the ability to seed an area with deadly spores. Com a acció bonus while your Symbiotic Entity feature is active, you can hurl spores fins a 30 peus away, where they swirl in a 10-foot cube durant 1 minut. The spores disappear early if you use this feature again, if you dismiss them com a acció bonus, or if your Symbiotic Entity feature is no longer active.",
-				"Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo d'Espores damage, unless the creature succeeds on a Constitució saving throw contra la teva CD de salvació de conjur. A creature can take this damage no more than un cop per torn.",
-				"While the cube of spores persists, you can't use your Halo d'Espores reaction."
+				"A nivell 10, aprèns a plantar espores mortíferes en una àrea. Com a acció bonus mentre tinguis activa l'Entitat Simbiòtica pots llançar espores fins a 30 peus away. S'hi quedaran a l'aire en un cub de 10 peus de costat durant 1 minut. Les esportes desapareixes prematurament si tornes a emprar aquest tret de nou, si les dissipes com a acció bonus, or si se't desactiva l'Entitat Simbiòtica.",
+				"Quan una criatura entra a l'àrea o hi començi el seu torn, rep el dany del teu your Halo d'Espores (també ha de fer la salvada corresponent). Cada criatura només pot rebre aquest dany un cop per torn.",
+				"Mentre tinguis un cub d'espores actiu no pots prendre la reacció de l'Halo d'Espores."
 			]
 		},
 		{
-			"name": "Fungal Body",
+			"name": "Cos de Fong",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3609,12 +3609,12 @@
 			],
 			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against you counts as a normal hit instead, unless you're {@condition incapacitated}."
+				"A nivell 14, les espores t'alteren la forma física: no pots ésser {@condition blinded}, {@condition deafened}, {@condition frightened}, ni {@condition poisoned}. Tot impacte crític contra tu compta com un impacte normal mentre no estigus {@condition incapacitated}."
 			]
 		},
 		{
@@ -4698,7 +4698,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Symbiotic Entity|Druida||Spores (UA)|UAThreeSubclasses|2"
+					"subclassFeature": "Entitat Simbiòtica|Druida||Spores (UA)|UAThreeSubclasses|2"
 				}
 			]
 		},
@@ -4762,7 +4762,7 @@
 			]
 		},
 		{
-			"name": "Symbiotic Entity",
+			"name": "Entitat Simbiòtica",
 			"source": "UAThreeSubclasses",
 			"page": 1,
 			"className": "Druida",
@@ -4777,7 +4777,7 @@
 			]
 		},
 		{
-			"name": "Fungal Infestation",
+			"name": "Infestació Miceliana",
 			"source": "UAThreeSubclasses",
 			"page": 1,
 			"className": "Druida",
@@ -4792,7 +4792,7 @@
 			]
 		},
 		{
-			"name": "Spreading Spores",
+			"name": "Escampar les Llavors",
 			"source": "UAThreeSubclasses",
 			"page": 1,
 			"className": "Druida",
@@ -4806,7 +4806,7 @@
 			]
 		},
 		{
-			"name": "Fungal Body",
+			"name": "Cos de Fong",
 			"source": "UAThreeSubclasses",
 			"page": 1,
 			"className": "Druida",
