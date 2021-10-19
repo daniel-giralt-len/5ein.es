@@ -2520,10 +2520,10 @@
 					"type": "entries",
 					"name": "Preparar i Llançar Conjurs",
 					"entries": [
-						"La taula Druida mostra les ranures de conjur que tens per llançar els {@filter conjurs de druida|spells|class=druid} de nivells 1 i superior. To cast one of these conjurs de druida, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
-						"You prepare the list of conjurs de druida that are available for you to cast, choosing de la llista de conjurs de druida. When you do so, choose a number of conjurs de druida equivalent al teu modificador de Saviesa + your druid level (mínim d'1 spell). The spells must be of a level for which you have ranures de conjur.",
-						"For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level ranures de conjur. With a Saviesa of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell curar ferides}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can also change your list of prepared spells quan acabis un Descans Llarg. Preparing a new list of conjurs de druida requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+						"La taula de Druida mostra les ranures de conjur que tens per llançar els {@filter conjurs de druida|spells|class=druid} de nivells 1 i superior. Per a llançar conjurs de druida, has de gastar una ranura de conjur del nivell equivalent o superior al del conjur. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"Per a preparar la llista de conjurs que pots llançar, escull-los de la llista de conjurs de druida. Esculls tants conjurs de druida com el teu modificador de Saviesa + el teu nivell de druida (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
+						"Així, si ets un druida de nivell 3, tens quatre ranures de nivell 1 i dues de nivell 2. Si tens 16 de Saviesa, et pots preparar fins a 6 conjurs; cadascun pot ser de nivell 1 o bé nivell 2. Si et prepares el conjur de nivell 1 {@spell curar ferides}, el pots llançar gastant una ranura de nivell 1 o bé de nivell 2. Llançar un conjur no te l'elimina de la llista de conjurs preparats; només gasta la ranura.",
+						"Pots canviar la llista de conjurs preparats quan acabis un Descans Llarg. Preparar una nova llista de conjurs de druida requereix meditar i pregar com a mínim 1 minut per cada conjur que et preparis."
 					]
 				},
 				{
@@ -2586,7 +2586,7 @@
 			"entries": [
 				"{@i {@variantrule optional class features|tce|Tret opcional} pel druid a nivell 2}",
 				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Forma Feréstega feature to cast the {@spell find familiar} spell, without material components.",
-				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
+				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half el teu nivell de druida."
 			]
 		},
 		{
@@ -2600,7 +2600,7 @@
 			"entries": [
 				"{@i tret de druid a nivell 2 (millora Forma Feréstega)}",
 				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Forma Feréstega feature to cast the {@spell find familiar} spell, without material components.",
-				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
+				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half el teu nivell de druida."
 			]
 		},
 		{
@@ -2613,7 +2613,7 @@
 			"level": 2,
 			"entries": [
 				"Començant a nivell 2, pots, com a acció, to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses quan acabis un Descans Curt o Llarg.",
-				"Your druid level determines the beasts you can transform into, as shown in the Formes de Bèstia table. A nivell 2, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.",
+				"el teu nivell de druida determines the beasts you can transform into, as shown in the Formes de Bèstia table. A nivell 2, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.",
 				{
 					"type": "table",
 					"caption": "Formes de Bèstia",
@@ -2650,7 +2650,7 @@
 						]
 					]
 				},
-				"You can stay in a forma de bèstia for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action en el teu torn. You automatically revert if you fall {@condition unconscious}, drop to 0 punts de vida, or die.",
+				"You can stay in a forma de bèstia for a number of hours equal to half el teu nivell de druida (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action en el teu torn. You automatically revert if you fall {@condition unconscious}, drop to 0 punts de vida, or die.",
 				"While you are transformed, the following rules apply:",
 				{
 					"type": "list",
@@ -3220,7 +3220,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended ranures de conjur to recover. The ranures de conjur can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. No pots tornar a emprar aquest tret fins que acabis un Descans Llarg.",
+				"Començant a nivell 2, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended ranures de conjur to recover. The ranures de conjur can have a combined level that is equal to or less than half el teu nivell de druida (rounded up), and none of the slots can be 6th level or higher. No pots tornar a emprar aquest tret fins que acabis un Descans Llarg.",
 				"For example, when you are a 4th-level druid, you can recover up to two levels worth of ranures de conjur. You can recover either a 2nd-level slot or two 1st-level slots."
 			]
 		},
@@ -3305,7 +3305,7 @@
 			"header": 1,
 			"entries": [
 				"The rites of your circle grant you the ability to transform into more dangerous animal forms. Començant a nivell 2, you can use your Forma Feréstega to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Formes de Bèstia table, but must abide by the other limitations there).",
-				"Començant a nivell 6, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
+				"Començant a nivell 6, you can transform into a beast with a challenge rating as high as el teu nivell de druida divided by 3, rounded down.",
 				{
 					"type": "table",
 					"caption": "Cercle de la Lluna Formes de Bèstia",
@@ -4247,7 +4247,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Circle of Wildfire a nivell 14}",
-				"The bond with your esperit de foc feréstec is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 punts de vida and don't die outright, you drop to 1 punt de vida instead and gain punts de vida temporals equal to five times your druid level, and tota criatura que designis a 30 peus de tu que puguis veure takes fire damage equal to {@dice 2d10} + your druid level.",
+				"The bond with your esperit de foc feréstec is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 punts de vida and don't die outright, you drop to 1 punt de vida instead and gain punts de vida temporals equal to five times el teu nivell de druida, and tota criatura que designis a 30 peus de tu que puguis veure takes fire damage equal to {@dice 2d10} + el teu nivell de druida.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -4279,8 +4279,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that lends relief to weary feet and respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
-				"Com a acció bonus, you can choose an ally que puguis veure a 120 peus de tu and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of punts de vida equal to the total. The target also gains 1 punt de vida temporal per die spent, and its speed increases by 5 feet per die spent. The speed increase dura 1 minut.",
+				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that lends relief to weary feet and respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to el teu nivell de druida.",
+				"Com a acció bonus, you can choose an ally que puguis veure a 120 peus de tu and spend a number of those dice equal to half el teu nivell de druida or less. Roll the spent dice and add them together. The target regains a number of punts de vida equal to the total. The target also gains 1 punt de vida temporal per die spent, and its speed increases by 5 feet per die spent. The speed increase dura 1 minut.",
 				"You regain the expended dice quan acabis un Descans Llarg."
 			]
 		},
@@ -4386,7 +4386,7 @@
 							"type": "entries",
 							"name": "Bear",
 							"entries": [
-								"The bear spirit grants you and your allies its might and endurance. You and your allies who are in the aura when the spirit appears each gain punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
+								"The bear spirit grants you and your allies its might and endurance. You and your allies who are in the aura when the spirit appears each gain punts de vida temporals equal to 5 + el teu nivell de druida. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 							]
 						}
 					]
@@ -4410,7 +4410,7 @@
 							"type": "entries",
 							"name": "Wolf",
 							"entries": [
-								"The wolf spirit lends you and your allies its precise senses, while your magic works to benefit the members of your pack. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores punts de vida to anyone inside or outside the aura, each of your allies in the aura also regains punts de vida equal to your druid level."
+								"The wolf spirit lends you and your allies its precise senses, while your magic works to benefit the members of your pack. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores punts de vida to anyone inside or outside the aura, each of your allies in the aura also regains punts de vida equal to el teu nivell de druida."
 							]
 						}
 					]
@@ -4489,8 +4489,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of {@dice d10}s equal to your druid level.",
-				"When you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally (escull) que puguis veure a 30 peus de tu regains 2 punts de vida per die spent to increase the spell's damage, or 5 punts de vida per die if at least one of the slain creatures was undead.",
+				"Començant a nivell 2, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of {@dice d10}s equal to el teu nivell de druida.",
+				"When you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half el teu nivell de druida or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally (escull) que puguis veure a 30 peus de tu regains 2 punts de vida per die spent to increase the spell's damage, or 5 punts de vida per die if at least one of the slain creatures was undead.",
 				"You regain the expended dice quan acabis un Descans Llarg."
 			]
 		},
@@ -4596,7 +4596,7 @@
 							"type": "entries",
 							"name": "Bear Spirit",
 							"entries": [
-								"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
+								"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + el teu nivell de druida. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 							]
 						}
 					]
@@ -4620,7 +4620,7 @@
 							"type": "entries",
 							"name": "Unicorn Spirit",
 							"entries": [
-								"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores punts de vida to anyone inside or outside the aura, tota criatura que designis in the aura also regains punts de vida equal to your druid level."
+								"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores punts de vida to anyone inside or outside the aura, tota criatura que designis in the aura also regains punts de vida equal to el teu nivell de druida."
 							]
 						}
 					]
@@ -4659,7 +4659,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of punts de vida equal to half your druid level."
+				"A nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of punts de vida equal to half el teu nivell de druida."
 			]
 		},
 		{
@@ -4847,8 +4847,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
-				"Com a acció bonus, you can escull una criatura que puguis veure a 120 peus de tu and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of punts de vida equal to the total. The target also gains 1 punt de vida temporal per die spent.",
+				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to el teu nivell de druida.",
+				"Com a acció bonus, you can escull una criatura que puguis veure a 120 peus de tu and spend a number of those dice equal to half el teu nivell de druida or less. Roll the spent dice and add them together. The target regains a number of punts de vida equal to the total. The target also gains 1 punt de vida temporal per die spent.",
 				"You regain all expended dice quan acabis un Descans Llarg."
 			]
 		},
@@ -4956,7 +4956,7 @@
 					"type": "entries",
 					"name": "Bear Spirit",
 					"entries": [
-						"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
+						"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + el teu nivell de druida. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 					]
 				},
 				{
@@ -4970,7 +4970,7 @@
 					"type": "entries",
 					"name": "Unicorn Spirit",
 					"entries": [
-						"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell using a spell slot that restores punts de vida to any creature inside or outside the aura, tota criatura que designis in the aura also regains punts de vida equal to your druid level."
+						"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell using a spell slot that restores punts de vida to any creature inside or outside the aura, tota criatura que designis in the aura also regains punts de vida equal to el teu nivell de druida."
 					]
 				}
 			]
@@ -5007,7 +5007,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of punts de vida equal to half your druid level."
+				"Començant a nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of punts de vida equal to half el teu nivell de druida."
 			]
 		},
 		{
