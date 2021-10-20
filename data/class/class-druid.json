@@ -2322,7 +2322,7 @@
 			],
 			"subclassFeatures": [
 				"Cercle del Foc Feréstec|Druida||Wildfire (UA)|UAClericDruidWizard|2",
-				"Enhanced Bond|Druida||Wildfire (UA)|UAClericDruidWizard|6",
+				"Vincle Augmentat|Druida||Wildfire (UA)|UAClericDruidWizard|6",
 				"Flames of Life|Druida||Wildfire (UA)|UAClericDruidWizard|10",
 				"Blazing Endurance|Druida||Wildfire (UA)|UAClericDruidWizard|14"
 			]
@@ -2433,9 +2433,9 @@
 			],
 			"subclassFeatures": [
 				"Cercle del Foc Feréstec|Druida||Foc Feréstec|TCE|2",
-				"Enhanced Bond|Druida||Foc Feréstec|TCE|6",
-				"Cauterizing Flames|Druida||Foc Feréstec|TCE|10",
-				"Blazing Revival|Druida||Foc Feréstec|TCE|14"
+				"Vincle Augmentat|Druida||Foc Feréstec|TCE|6",
+				"Flames que Cauteritzen|Druida||Foc Feréstec|TCE|10",
+				"Reviure de les Flames|Druida||Foc Feréstec|TCE|14"
 			]
 		},
 		{
@@ -3820,7 +3820,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summon Esperit de Foc Feréstec|Druida||Foc Feréstec|TCE|2"
+					"subclassFeature": "Convocar Esperit de Foc Feréstec|Druida||Foc Feréstec|TCE|2"
 				}
 			]
 		},
@@ -3836,8 +3836,8 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Cercle del Foc Feréstec a nivell 2}",
-				"You have formed a bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to some spells Quan pugis de nivell en aquesta classe, as shown on the Cercle del Foc Feréstec Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
+				"Has creat un vincle amb un a esperit de foc feréstec: un ésser primordial de la creació i de la destrucció. Aquest vincle et dona accés a certs nivells quan pugis de nivell en aquesta classe. Consulta la taula de Conjurs del Cercle del Foc Feréstec.",
+				"Un cop accedeixis a un conjur de cercle sempre el tindràs preparat, i no comptarà contra el teu número de conjurs que et pots preparar cada dia. Si un conjur d'aquesta llista no és un conjur de druida, el consideres un conjur de druida.",
 				{
 					"type": "table",
 					"caption": "Cercle del Foc Feréstec Spells",
@@ -3875,7 +3875,7 @@
 			]
 		},
 		{
-			"name": "Summon Esperit de Foc Feréstec",
+			"name": "Convocar Esperit de Foc Feréstec",
 			"source": "TCE",
 			"page": 39,
 			"className": "Druida",
@@ -3886,15 +3886,15 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Cercle del Foc Feréstec a nivell 2}",
-				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Forma Feréstega feature to summon your esperit de foc feréstec, rather than assuming a beast form.",
-				"The spirit appears en un espai desocupat (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d6} de dany de foc.",
-				"The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the {@creature Esperit de Foc Feréstec|TCE} stat block, which uses el teu bonus de competència (BC) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
-				"In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, the spirit can take any action of its choice, not just {@action Esquivar}.",
-				"The spirit manifests durant 1 hora, until it is reduced to 0 punts de vida, until you use this feature to summon the spirit again, or until you die."
+				"Convoques l'esperit primordial que tens vinculat amb al teva ànima. Com a acció, gastes un ús de la teva Forma Feréstega i convoques el teu esperit de foc feréstec.",
+				"L'esperit apareix en un espai desocupat (escull) que puguis veure a 30 peus de tu. Tota criatura a 10 peus d'ell (excepte tu), quan apareix, ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli rep {@damage 2d6} de dany de foc.",
+				"L'esperit és amistós vers a tu i als teus aliats. Empra el bloc d'estats de l'{@creature Esperit de Foc Feréstec|TCE} i el teu bonus de competència (BC) en alguns llocs. En determines l'aparença. Alguns esperits tenen forma humanoide formada per branques enceses, i d'altres semblen bèsties fetes de foc pur.",
+				"Té la teva iniciativa i prèn el seu torn després de tu. Obeeix qualsevol ordre que li donis com a acció bonus. Si no en dones, prendrà l'acció {@action Esquivar} i només es mourà per a defensar-se. L'ordre que dónes li permet prendre un acció del seu bloc d'estats o alguna altra. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, l'esperit pot prendre l'acció que vulgui, no només {@action Esquivar}.",
+				"L'esperit es manifesta: durant 1 hora; fins que es quedi a 0 punts de vida; fins que el tornis a convocar amb aquest tret; o fins que moris."
 			]
 		},
 		{
-			"name": "Enhanced Bond",
+			"name": "Vincle Augmentat",
 			"source": "TCE",
 			"page": 39,
 			"className": "Druida",
@@ -3905,12 +3905,12 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle del Foc Feréstec a nivell 6}",
-				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores punts de vida while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.",
-				"A més, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
+				"El vincle amb el teu esperit de foc feréstec millora les teves capacitats de creació i de destrucció. Quan llances un conjur que o bé faci dany de foc o bé recuperi punts de vida i el teu esperit de foc feréstec està convocat, pots sumar {@dice d8} al dany o la curació que faci el conjur.",
+				"A més, quan llances un conjur amb un abast que no sigui llançador, el conjur pot originar de tu o del teu esperit de foc feréstec."
 			]
 		},
 		{
-			"name": "Cauterizing Flames",
+			"name": "Flames que Cauteritzen",
 			"source": "TCE",
 			"page": 39,
 			"className": "Druida",
@@ -3921,12 +3921,12 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle del Foc Feréstec a nivell 10}",
-				"You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies a 30 peus de tu or your esperit de foc feréstec, a harmless spectral flame springs forth in the dead creature's space and flickers there durant 1 minut. Quan una criatura que puguis veure enters that space, pots, com a reacció, extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals {@dice 2d10} + el teu modificador de Saviesa.",
+				"Aprèns a tornar la mort en flames màgiques que sanen o bé incineren. Quan una criatura Petita o menor mor a 30 peus de tu o del teu esperit de foc feréstec, una flama espectral inòcua en surt del seu espai i hi roman durant 1 minut. Quan una criatura que puguis veure entra aquell espai pots, com a reacció, apagar la flama i: o bé curar-la o bé fer-li mal de foc. Aquesta curació o dany equival a {@dice 2d10} + el teu modificador de Saviesa.",
 				"Pots prendre aquesta reacció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Blazing Revival",
+			"name": "Reviure de les Flames",
 			"source": "TCE",
 			"page": 39,
 			"className": "Druida",
@@ -3937,7 +3937,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle del Foc Feréstec a nivell 14}",
-				"The bond with your esperit de foc feréstec can save you from death. If the spirit is a 120 peus de tu when you are reduced to 0 punts de vida and thereby fall {@condition unconscious}, you can cause the spirit to drop to 0 punts de vida. You then regain half your punts de vida and immediately rise to your feet.",
+				"El vincle amb el teu esperit de foc feréstec et pot salvar de la mort. Si l'esperit és a 120 peus de tu quan et quedes a 0 punts de vida i caus {@condition unconscious} degut a això, pots fer que l'esperit es quedi a 0 punts de vida; immediatament recuperes la meitat dels teus punts de vida màxims i t'aixeques.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -4206,7 +4206,7 @@
 			]
 		},
 		{
-			"name": "Enhanced Bond",
+			"name": "Vincle Augmentat",
 			"source": "UAClericDruidWizard",
 			"page": 2,
 			"className": "Druida",
