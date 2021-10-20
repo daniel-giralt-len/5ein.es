@@ -554,7 +554,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a bard, cleric, druid, sorcerer, warlock, or wizard"
-		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|cleric|druida|paladin|ranger|sorcerer|bruixot|wizard)\b/gi, (...m) => {
+		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|cleric|druida|paladí|ranger|sorcerer|bruixot|wizard)\b/gi, (...m) => {
 			const source = m[1].toLowerCase() === "artificer" ? SRC_TCE : null;
 			tags.push({class: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
@@ -564,7 +564,7 @@ class ReqAttuneTagTag {
 		// "by a creature of evil alignment"
 		// "by a dwarf, fighter, or paladin of good alignment"
 		// "by an elf or semi-elf of neutral good alignment"
-		// "by an evil cleric or paladin"
+		// "by an evil cleric or paladí"
 		const alignmentParts = req.split(/,| or /gi)
 			.map(it => it.trim())
 			.filter(it => it && it !== "," && it !== "or");

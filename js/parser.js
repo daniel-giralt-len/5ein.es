@@ -601,7 +601,7 @@ Parser.stringToCasedSlug = function (str) {
 	return str.replace(/[^\w ]+/g, "").replace(/ +/g, "-");
 };
 
-Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druida", "Paladin", "Ranger", "Sorcerer", "Bruixot", "Wizard"];
+Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druida", "Paladí", "Ranger", "Sorcerer", "Bruixot", "Wizard"];
 
 Parser.itemValueToFull = function (item, opts = {isShortForm: false, isSmallUnits: false}) {
 	return Parser._moneyToFull(item, "value", "valueMult", opts);
@@ -1439,7 +1439,7 @@ Parser.MON_SPELLCASTING_TAG_TO_FULL = {
 	"CB": "Class, Bard",
 	"CC": "Class, Cleric",
 	"CD": "Class, Druida",
-	"CP": "Class, Paladin",
+	"CP": "Class, Paladí",
 	"CR": "Class, Ranger",
 	"CS": "Class, Sorcerer",
 	"CL": "Class, Bruixot",
@@ -1557,7 +1557,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	OTH: "Altres",
 	"FS:F": "Estil de Lluita; Guerrer",
 	"FS:B": "Estil de Lluita; Bard",
-	"FS:P": "Estil de Lluita; Paladin",
+	"FS:P": "Estil de Lluita; Paladí",
 	"FS:R": "Estil de Lluita; Ranger",
 	"PB": "Premi de Pacte",
 	"OR": "Onomancy Resonant",
