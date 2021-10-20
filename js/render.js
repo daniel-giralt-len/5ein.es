@@ -4638,7 +4638,7 @@ Renderer.monster = {
 					B: ["Esfera Vitriòlica|XGE", "radiància malaltissa|XGE", "Tentacles Obscurs de l'Evard", "plaga", "fam d'Hadar"],
 					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
 					A: ["fascinar criatura|XGE", "encàrrec", "Paret de Sorra|XGE", "senefes hipnòtiques", "llenguatges"],
-					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
+					C: ["polimorfia", "invisibilitat superior", "confusió", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
 				},
 				5: {
 					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "paret de pedra", "paret de força"],

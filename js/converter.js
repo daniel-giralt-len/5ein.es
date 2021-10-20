@@ -288,7 +288,7 @@ Cantrips (at will): sageta de foc, light, mà de mag, prestidigitació
 3rd level (3 slots): fly, lightning bolt
 Resistència Llegendària (3/Dia). Si Mammon falla una tirada de salvació pot escollir superar-la.
 Magic Resistance. Mammon té avantatge a salvar contra conjurs i altres efectes màgics.
-Magic Weapons. Mammon's weapon attacks are magical.
+Arma màgicas. Mammon's weapon attacks are magical.
 ACTIONS
 Multiattack. Mammon makes three attacks.
 Purse. Atac armat cos a cos: +14 a impactar, 10 peus d'abast, un objectiu. Hit: 19 (3d8 + 6) de dany contundent mes 18 (4d8) de dany radiant.
