@@ -2337,7 +2337,7 @@
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Circle of the Stars|Druida||Stars (UA)|UA2020SubclassesPt3|2",
-				"Cosmic Omen|Druida||Stars (UA)|UA2020SubclassesPt3|6",
+				"Presagi Còsmic|Druida||Stars (UA)|UA2020SubclassesPt3|6",
 				"Full of Stars|Druida||Stars (UA)|UA2020SubclassesPt3|10",
 				"Star Flare|Druida||Stars (UA)|UA2020SubclassesPt3|14"
 			]
@@ -2393,7 +2393,7 @@
 			"page": 38,
 			"subclassFeatures": [
 				"Cercle d'Estrelles|Druida||Stars|TCE|2",
-				"Cosmic Omen|Druida||Stars|TCE|6",
+				"Presagi Còsmic|Druida||Stars|TCE|6",
 				"Twinkling Constellations|Druida||Stars|TCE|10",
 				"Full of Stars|Druida||Stars|TCE|14"
 			]
@@ -2599,7 +2599,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de druid a nivell 2 (millora Forma Feréstega)}",
-				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Forma Feréstega feature to cast the {@spell trobar familiar} spell, sense necessitar components materials.",
+				"You gain the ability to summon a spirit that assumes an animal form: com a acció, pots gastar un ús de la teva Forma Feréstega feature to cast the {@spell trobar familiar} spell, sense necessitar components materials.",
 				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to la meitat del teu nivell de druida."
 			]
 		},
@@ -3635,7 +3635,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Starry Form|Druida||Stars|TCE|2"
+					"subclassFeature": "Forma Estelar|Druida||Stars|TCE|2"
 				}
 			]
 		},
@@ -3695,7 +3695,7 @@
 					"type": "list",
 					"items": [
 						"Coneixes el truc {@spell guia}.",
-						"Tens el conjur {@spell sageta guia} preparat. El consideres un conjur druida però no compta contra el número de conjurs preparatsd.",
+						"Tens el conjur {@spell sageta guia} preparat. El consideres un conjur druida però no compta contra el número de conjurs preparats.",
 						"Pots llançar el conjur {@spell sageta guia} sense gastar cap ranura de conjur. Ho pots fer tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 					]
 				},
@@ -3703,7 +3703,7 @@
 			]
 		},
 		{
-			"name": "Starry Form",
+			"name": "Forma Estelar",
 			"source": "TCE",
 			"page": 38,
 			"className": "Druida",
@@ -3714,34 +3714,34 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Cercle d'Estrelles a nivell 2}",
-				"Com a acció bonus, you can expend a use of your Forma Feréstega feature to take on a starry form, rather than transforming into a beast.",
-				"While in your starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts. It ends early if you dismiss it (no requereix acció), are {@condition incapacitated}, die, or use this feature again.",
-				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
+				"Com a acció bonus, pots gastar un ús de la teva Forma Feréstega per adoptar una forma estelar, en comptes d'una forma de bèstia.",
+				"En aquesta forma estelar reténs les teves estadístiques però el teu cos es torna luminós. Diversos punts del teu cos brillen com les estrelles, i estan connectades, formant una constel·lació. Brilles llum forta en un radi de 10 peus i llum tènue uns 10 peus adicionals. La forma dura 10 minuts. Acaba prematurament sí: la dissipes (no requereix acció); et quedes {@condition incapacitated}; mors; o tornes a emprar aquest tret.",
+				"Mentre estiguis en Forma Estelar, escull una de les constel·lacions següents; cadascuna t'otorga certe beneficis:",
 				{
 					"type": "entries",
-					"name": "Archer",
+					"name": "Arquer",
 					"entries": [
-						"A constellation of an archer appears on you. When you activate this form, and com a acció bonus on your subsequent turns while it lasts, you can make a atac màgic a distància, hurling a luminous arrow that targets one creature a 60 peus de tu. On a hit, the attack deals radiant damage equal to {@dice 1d8} + el teu modificador de Saviesa."
+						"Brilles amb la contel·lació de l'arquer. Quan actives aquesta constel·lació, o com a acció bonus en els teus torns posteriors mentre duri, pots fer un atac màgic a distància. Llances una fletxa de llum que designa a una criatura a 60 peus de tu. Si impactes, fa {@dice 1d8} + el teu modificador de Saviesa de dany radiant."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Chalice",
+					"name": "Calze",
 					"entries": [
-						"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores punts de vida to a creature, you or another creature a 30 peus de tu can regain punts de vida equal to {@dice 1d8} + el teu modificador de Saviesa."
+						"Brilles amb la contel·lació d'un calze ple de vida. Quan llances un conjur que curi punts de vida a una criatura gastant una ranura, tu o una criatura a 30 peus de tu recupera {@dice 1d8} + el teu modificador de Saviesa de punts de vida."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Drac",
 					"entries": [
-						"A constellation of a wise dragon appears on you. When you make an Intel·ligència or a Saviesa check or a Constitució per a mantenir concentracio en un conjur, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
+						"Brilles amb la contel·lació de d'un drac savi. Quan facis tirades d'Intel·ligència o Saviesa, o bé salvis per Constitució per a mantenir concentracio en un conjur, pots tractar un 9 o inferior al {@dice d20} com a 10."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cosmic Omen",
+			"name": "Presagi Còsmic",
 			"source": "TCE",
 			"page": 38,
 			"className": "Druida",
@@ -3752,24 +3752,24 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle d'Estrelles a nivell 6}",
-				"Quan acabis un Descans Llarg, you can consult your Mapa Estelar for omens. When you do so, roll a die. Until you finish your next long rest, you gain access to a special reaction based on whether you rolled an even or an odd number on the die:",
+				"Quan acabis un Descans Llarg, pots consultar presagis en el teu Mapa Estelar. Tira un dau. Fins el final del teu propi Descans Llarg, obténs una reacció especial depenent de si el resultat del dau és parell o és senar:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Weal (even).",
-							"entry": "Whenever a creature que puguis veure a 30 peus de tu is about to make an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and add the number rolled to the total."
+							"name": "Sort (parell).",
+							"entry": "Quan una criatura que puguis veure a 30 peus de tu està a punt de fer una tirada d'impacte, de salvació, o d'habilitat pots, com a reacció, sumar-li un {@dice d6} al seu resultat."
 						},
 						{
 							"type": "item",
-							"name": "Woe (odd).",
-							"entry": "Whenever a creature que puguis veure a 30 peus de tu is about to make an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and subtract the number rolled from the total."
+							"name": "Infortuni (senar).",
+							"entry": "Quan una criatura que puguis veure a 30 peus de tu està a punt de fer una tirada d'impacte, de salvació, o d'habilitat pots, com a reacció, restar-li un {@dice d6} al seu resultat."
 						}
 					]
 				},
-				"You can use this reaction tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots prendre aquesta reacció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -3784,8 +3784,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle d'Estrelles a nivell 10}",
-				"The constellations of your Starry Form improve. The {@dice 1d8} of the Archer and the Chalice becomes {@dice 2d8}, and while the Dragon is active, tens una velocitat de vol de 20 peus and can hover.",
-				"Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body."
+				"The constellations of your Forma Estelar improve. The {@dice 1d8} of the Archer and the Chalice becomes {@dice 2d8}, and while the Dragon is active, tens una velocitat de vol de 20 peus and can hover.",
+				"Moreover, at the start of each of your turns while in your Forma Estelar, you can change which constellation glimmers on your body."
 			]
 		},
 		{
@@ -3800,7 +3800,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle d'Estrelles a nivell 14}",
-				"While in your Starry Form, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
+				"While in your Forma Estelar, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
 			]
 		},
 		{
@@ -3922,7 +3922,7 @@
 			"entries": [
 				"{@i tret de Circle of Wildfire a nivell 10}",
 				"You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies a 30 peus de tu or your esperit de foc feréstec, a harmless spectral flame springs forth in the dead creature's space and flickers there durant 1 minut. Quan una criatura que puguis veure enters that space, pots, com a reacció, extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals {@dice 2d10} + el teu modificador de Saviesa.",
-				"You can use this reaction tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots prendre aquesta reacció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -3959,7 +3959,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Starry Form|Druida||Stars (UA)|UA2020SubclassesPt3|2"
+					"subclassFeature": "Forma Estelar|Druida||Stars (UA)|UA2020SubclassesPt3|2"
 				}
 			]
 		},
@@ -4019,7 +4019,7 @@
 			]
 		},
 		{
-			"name": "Starry Form",
+			"name": "Forma Estelar",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
 			"className": "Druida",
@@ -4030,9 +4030,9 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Cercle d'Estrelles a nivell 2}",
-				"You gain the ability to harness constellations' power to alter your form. Com a acció, you can expend a use of your Forma Feréstega feature to take on a starry form rather than transforming into a beast.",
-				"While in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts o fins que et quedis {@condition incapacitated}.",
-				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
+				"You gain the ability to harness constellations' power to alter your form. Com a acció, pots gastar un ús de la teva Forma Feréstega feature to take on a forma estelar rather than transforming into a beast.",
+				"While in your forma estelar, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts o fins que et quedis {@condition incapacitated}.",
+				"Whenever you assume your forma estelar, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -4057,7 +4057,7 @@
 			]
 		},
 		{
-			"name": "Cosmic Omen",
+			"name": "Presagi Còsmic",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
 			"className": "Druida",
@@ -4085,7 +4085,7 @@
 						}
 					]
 				},
-				"You can use this reaction a number of times equivalent al teu modificador de Saviesa, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots prendre aquesta reacció a number of times equivalent al teu modificador de Saviesa, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -4100,7 +4100,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Cercle d'Estrelles a nivell 10}",
-				"While your Starry Form feature is active, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
+				"While your Forma Estelar feature is active, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
 			]
 		},
 		{
