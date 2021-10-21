@@ -268,9 +268,9 @@
 				}
 			],
 			"classFeatures": [
-				"Divine Sense|Paladí||1",
-				"Lay on Hands|Paladí||1",
-				"Divine Smite|Paladí||2",
+				"Sentit Diví|Paladí||1",
+				"Imposar Mans|Paladí||1",
+				"Càstig Diví|Paladí||2",
 				"Estil de Lluita|Paladí||2",
 				"Versatilitat Marcial|Paladí||2|UAClassFeatureVariants",
 				"Llançament de Conjurs|Paladí||2",
@@ -291,7 +291,7 @@
 				"Millora de Puntuació de Característica|Paladí||8",
 				"Competència Versàtil|Paladí||8|UAClassFeatureVariants",
 				"Aura of Courage|Paladí||10",
-				"Improved Divine Smite|Paladí||11",
+				"Improved Càstig Diví|Paladí||11",
 				"Millora de Puntuació de Característica|Paladí||12",
 				"Competència Versàtil|Paladí||12|UAClassFeatureVariants",
 				"Cleansing Touch|Paladí||14",
@@ -1295,7 +1295,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "Divine Sense",
+			"name": "Sentit Diví",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1303,12 +1303,12 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. Com a acció, you can open your awareness to detect such forces. Fins el final del teu proper torn, you know the location of any celestial, fiend, or undead a 60 peus de tu that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the {@spell consagrar} spell.",
+				"Sents la presència del mal com si fos una ferum, i la presència del bé és un so de música celestial per a tu. Com a acció, pots obrir els sentits que detecten aquestes forces. Fins el final del teu proper torn, saps la posició de qualsevol celestial, infernal, i no-mort a 60 peus de tu que no estigui darrere de cobertura completa. En conteixes el tipus (celestial, infernal, o no-mort) però no la seva identitat (Comte von Zarovich, per exemple). En aquest radi també detectes els llocs i objectes que hagin estat consagrats o dessecrats, com ara mitjançant el conjur {@spell consagrar}.",
 				"Pots emprar aquest tret tants cops com 1 + el teu modificador de Carisma. Quan acabis un Descans Llarg, en recuperes tots els usos."
 			]
 		},
 		{
-			"name": "Lay on Hands",
+			"name": "Imposar Mans",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1316,14 +1316,14 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of punts de vida equal to your paladin level × 5.",
-				"Com a acció, you can touch a creature and draw power from the pool to restore a number of punts de vida to that creature, up to the maximum amount remaining in your pool.",
-				"Alternatively, you can expend 5 punts de vida from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending punts de vida separately for each one.",
-				"This feature has no effect on undead and constructs."
+				"El teu toc beneït pot curar ferides. Tens una reserva de poder que es reomple a cada Descans Llarg. La teva reservaYour blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. La reservar té 5 cops el teu nivell de paladí de punts de vida.",
+				"Com a acció, toques una criatura i gastes part de la teva reserva per a curar-la. Pots gastar tants punts de vida de la teva reserva que et quedin com vulguis i donar-los a la criatura.",
+				"Alternatively, pots gastar 5 punts de vida de la reserva i curar a l'objectiu d'una malaltia o neutralitzar una metzina que l'afecti. Amb un sol ús d'Imposar Mans pots curar i neutralitzar múltiples malalties i verins, gastant 5 punts per cadascuna.",
+				"Aquest tret no afecta a constructes ni a no-morts."
 			]
 		},
 		{
-			"name": "Divine Smite",
+			"name": "Càstig Diví",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -1331,7 +1331,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Començant a nivell 2, quan impactes a una criatura amb un atac armat cos a cos, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}. The damage increases by {@dice 1d8} if the target is an undead or a fiend, to a maximum of {@dice 6d8}."
+				"Començant a nivell 2, quan impactes a una criatura amb un atac armat cos a cos, pots gastar una ranura de conjur per fer dany radiant extra l'objectiu (a part del dany normal de l'arma). Aquest dany és {@dice 2d8} per una ranura de nivell 1, i se li suma {@dice 1d8} per cada nivell de la ranura per sobre d'1; la suma màxima és {@dice 5d8}. També se li afegeix {@dice 1d8} si l'objectiu és un infernal és un infernal o un no-mort."
 			]
 		},
 		{
@@ -1343,7 +1343,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"A nivell 2, you adopt a particular style of fighting as your specialty. Escull una de les opcions següents:. You can't take the same Estil de Lluita option more than once, even if you get to choose again.",
+				"A nivell 2, adoptes un estil de lluita particular. Escull una de les opcions següents. Si més endavant pots tornar a escollir un Estil de Lluita, no pots escollir el mateix més d'un cop.",
 				{
 					"type": "options",
 					"count": 1,
@@ -1434,13 +1434,13 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"A nivell 2, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter paladin spell list|spells|class=paladin}.",
+				"A nivell 2, has après a canalitzar màgia divina a través de la meditació i la pregària tal i com ho faria un clergue. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter paladin spell list|spells|class=paladin}.",
 				{
 					"type": "entries",
 					"name": "Preparar i Llançar Conjurs",
 					"entries": [
 						"The Paladin table mostra les ranures de conjur que tens per llançar els {@filter paladin spells|spells|class=paladin}. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
-						"Pots preparar la llista de paladin spells that are available for you to cast, choosing from the paladin spell list. Esculls un número de paladin spells equal to el teu modificador de Carisma + half your paladin level, arrodonint a la baixa (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
+						"Pots preparar la llista de paladin spells that are available for you to cast, choosing from the paladin spell list. Esculls un número de paladin spells equal to el teu modificador de Carisma + la meitat del teu nivell de paladí, arrodonint a la baixa (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
 						"For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level ranures de conjur. With a Carisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. Si et prepares el conjur de nivell 1 {@spell curar ferides}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
 						"You can change your list of prepared spells quan acabis un Descans Llarg. Preparar una nova llista de paladin spells requereix meditar i pregar com a mínim 1 minut per cada conjur que et preparis."
 					]
@@ -1678,7 +1678,7 @@
 			]
 		},
 		{
-			"name": "Improved Divine Smite",
+			"name": "Improved Càstig Diví",
 			"source": "PHB",
 			"page": 82,
 			"srd": true,
@@ -3043,7 +3043,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Immediatament after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity com a acció bonus and distribute punts de vida temporals to creatures (escull) a 30 peus de tu, which can include you. The total number of punts de vida temporals equals {@dice 2d8} + your level en aquesta classe, divided among les criatures designades however you like."
+				"Immediatament after you deal damage to a creature with your Càstig Diví feature, you can use your Channel Divinity com a acció bonus and distribute punts de vida temporals to creatures (escull) a 30 peus de tu, which can include you. The total number of punts de vida temporals equals {@dice 2d8} + your level en aquesta classe, divided among les criatures designades however you like."
 			]
 		},
 		{
@@ -3758,7 +3758,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 15, a holy presence mends your wounds in combat. You regain punts de vida equal to {@dice 1d6} + half your paladin level if you end your turn in combat with fewer than half of your punts de vida remaining and you aren't {@condition incapacitated}."
+				"Començant a nivell 15, a holy presence mends your wounds in combat. You regain punts de vida equal to {@dice 1d6} + la meitat del teu nivell de paladí if you end your turn in combat with fewer than half of your punts de vida remaining and you aren't {@condition incapacitated}."
 			]
 		},
 		{
@@ -4252,7 +4252,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You can use your Channel Divinity to make a weapon deadlier. Com a acció bonus, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison dura 1 minut. The next time you hit a target with an attack using that weapon or ammunition, L'objectiu rep poison damage immediately after the attack. The poison damage equals {@dice 2d10} + your paladin level, or 20 + your paladin level if you had advantage on the attack roll."
+				"You can use your Channel Divinity to make a weapon deadlier. Com a acció bonus, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison dura 1 minut. The next time you hit a target with an attack using that weapon or ammunition, L'objectiu rep poison damage immediately after the attack. The poison damage equals {@dice 2d10} + el teu nivell de paladí, or 20 + el teu nivell de paladí if you had advantage on the attack roll."
 			]
 		},
 		{
@@ -4387,7 +4387,7 @@
 					"items": [
 						"You are {@condition invisible}.",
 						"Si una criatura damages you on its turn, ha de salvar per Saviesa (la CD és la teva CD de salvació de conjur) or you control its next action, provided that you aren't {@condition incapacitated} when it takes the action. A creature automatically succeeds on the save if the creature is immune to being {@condition charmed}.",
-						"If tens avantatge a an attack roll, you gain a bonus to its damage roll equal to your paladin level."
+						"If tens avantatge a an attack roll, you gain a bonus to its damage roll equal to el teu nivell de paladí."
 					]
 				},
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
@@ -4561,7 +4561,7 @@
 			"header": 2,
 			"entries": [
 				"Començant a nivell 7, you constantly emanate a menacing aura while you're not {@condition incapacitated}. The aura includes your space, extends 10 feet from you in every direction, and is blocked by total cover.",
-				"Si una criatura is {@condition frightened} de tu, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there. A nivell 18, the range of this aura increases to 30 feet."
+				"Si una criatura is {@condition frightened} de tu, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to la meitat del teu nivell de paladí if it starts its turn there. A nivell 18, the range of this aura increases to 30 feet."
 			]
 		},
 		{
@@ -4759,7 +4759,7 @@
 			"header": 2,
 			"entries": [
 				"Començant a nivell 7, you constantly emanate a menacing aura while you're not {@condition incapacitated}. The aura extends 10 feet from you in every direction, però no a través de cobertura total.",
-				"Si una criatura is {@condition frightened} de tu, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.",
+				"Si una criatura is {@condition frightened} de tu, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to la meitat del teu nivell de paladí if it starts its turn there.",
 				"A nivell 18, the range of this aura increases to 30 feet."
 			]
 		},
@@ -4994,7 +4994,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 15, a holy presence mends your wounds in battle. You regain punts de vida equal to {@dice 1d6} + half your paladin level if you end your turn in combat with fewer than half of your punts de vida remaining and you aren't {@condition incapacitated}."
+				"Començant a nivell 15, a holy presence mends your wounds in battle. You regain punts de vida equal to {@dice 1d6} + la meitat del teu nivell de paladí if you end your turn in combat with fewer than half of your punts de vida remaining and you aren't {@condition incapacitated}."
 			]
 		},
 		{
