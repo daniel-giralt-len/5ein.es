@@ -417,7 +417,7 @@ Parser.LANGUAGES_EXOTIC = [
 	"Dracònic",
 	"Parla Profunda",
 	"Ignan",
-	"Infernal",
+	"Diàstric",
 	"Primordial",
 	"Silvànic",
 	"Terrani",
@@ -1478,7 +1478,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"GO": "Goblinesc",
 	"GTH": "Gith",
 	"H": "Halfling",
-	"I": "Infernal",
+	"I": "Diàstric",
 	"IG": "Ignan",
 	"LF": "Languages Known in Life",
 	"O": "Orc",
@@ -2125,7 +2125,7 @@ TP_CONSTRUCT = "constructe";
 TP_DRAGON = "drac";
 TP_ELEMENTAL = "elemental";
 TP_FEY = "fata";
-TP_FIEND = "infernal";
+TP_FIEND = "diastre";
 TP_GIANT = "gegant";
 TP_HUMANOID = "humanoide";
 TP_MONSTROSITY = "monstrositat";
