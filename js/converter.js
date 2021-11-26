@@ -263,7 +263,7 @@ class CreatureConverter extends BaseConverter {
 // region samples
 CreatureConverter.SAMPLE_TEXT =
 	`Mammon
-Huge fiend (devil), lawful evil
+Huge diastre (devil), lawful evil
 Armor Class 20 (armadura natural)
 Hit Points 378 (28d12 + 196)
 Speed 50 ft.

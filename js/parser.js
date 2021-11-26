@@ -1315,7 +1315,7 @@ Parser.monTypeToFullObj = function (type) {
 	if (type.tags) {
 		for (const tag of type.tags) {
 			if (typeof tag === "string") {
-				// handles e.g. "fiend (devil)"
+				// handles e.g. "diastre (devil)"
 				out.tags.push(tag);
 				tempTags.push(tag);
 			} else {
