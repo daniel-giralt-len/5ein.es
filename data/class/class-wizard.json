@@ -96,7 +96,7 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) una {@item quarterstaff|phb} o bé (b) una {@item daga|phb}",
-					"(a) una {@item component pouch|phb} o bé (b) un {@item arcane focus|phb}",
+					"(a) una {@item component pouch|phb} o bé (b) un {@item focus arcà|phb}",
 					"(a) una {@item scholar's pack|phb} o bé (b) un {@item pack d'exploració|phb}",
 					"Una {@item spellbook|phb}"
 				],
@@ -115,7 +115,7 @@
 							"component pouch|phb"
 						],
 						"b": [
-							"arcane focus|phb"
+							"focus arcà|phb"
 						]
 					},
 					{
@@ -444,7 +444,7 @@
 				}
 			],
 			"classFeatures": [
-				"Arcane Recovery|Mag||1",
+				"Recuperació Arcana|Mag||1",
 				"Llançament de Conjurs|Mag||1",
 				"Versatilitat en Trucs|Mag||1|UAClassFeatureVariants",
 				{
@@ -1168,7 +1168,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "Arcane Recovery",
+			"name": "Recuperació Arcana",
 			"source": "PHB",
 			"page": 112,
 			"srd": true,
@@ -1176,9 +1176,9 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You have learned to regain some of your magical energy by studying your spellbook. Once per day quan acabis un Descans Curt, you can choose expended ranures de conjur to recover. The ranures de conjur can have a combined level that is equal to or less than half your wizard level (arrodonint a l'alça), and none of the slots can be 6th level or higher.",
-				"For example, if you're a 4th-level wizard, you can recover up to two levels worth of ranures de conjur.",
-				"You can recover either a 2nd-level spell slot or two 1st-level ranures de conjur."
+				"Has après a recuperar part de la teva energia màgica estudiant el teu llibre de conjurs. Un cop per dia quan acabis un Descans Curt, pots recuperar algunes ranures de conjur que has gastat. El nivell combinat de les ranures per a recuperar ha de ser, com a màxim, la meitat del teu nivell de mag (arrodonint a l'alça). Cap ranura recuperada pot ser de nivell 6 o superior.",
+				"Per exemple, si ets un mag de nivell 4, pots recuperar fins a 2 nivells, combinats, en ranures de conjur.",
+				"Així, pots recuperar una ranura de nivell 2 o dues de nivell 1."
 			]
 		},
 		{
@@ -1191,7 +1191,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de wizard a nivell 1 (millora Spellcasting)}",
-				"Whenever you gain a level en aquesta classe, you can replace one cantrip you learned from this Spellcasting feature with another cantrip de la llista de conjurs de mag."
+				"Quan puges de nivell en aquesta classe, pots intercanviar un truc que has après via aquest tret de Llançament de conjurs amb un altre truc de la llista de conjurs de mag."
 			]
 		},
 		{
@@ -1203,7 +1203,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de mag|spells|class=wizard}.",
+				"Com a estudiant de màgia arcana, tens un llibre de conjurs que mostren les primeres espurnes del teu pode veriatble. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de mag|spells|class=wizard}.",
 				{
 					"type": "entries",
 					"name": "Trucs",
@@ -1215,24 +1215,24 @@
 					"type": "entries",
 					"name": "Spellbook",
 					"entries": [
-						"A nivell 1, you have a spellbook containing six 1st-level {@filter wizard spells|spells|class=wizard} (escull). Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind."
+						"A nivell 1, tens un llibre de conjur que conté 6 {@filter conjurs de mag|spells|class=wizard} de nivell 1 (escull). El teu llibre de conjurs és el teu repositori dels conjurs de mag que coneixes (excepte els trucs, que sempre els tens presents)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Preparar i Llançar Conjurs",
 					"entries": [
-						"The Wizard table mostra les ranures de conjur que tens per llançar els spells de nivells 1 i superior. Per a llançar un conjur, has de gastar una ranura del nivell del conjur (o superior). Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
-						"Pots preparar la llista de wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equivalent al teu modificador d'Intel·ligència + your wizard level (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
-						"For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level ranures de conjur. With an Intel·ligència of 16, et pots preparar fins a 6 conjurs; cadascun pot ser de nivell 1 o bé nivell 2, chosen from your spellbook. Si et prepares el conjur de nivell 1 {@spell magic missile}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells quan acabis un Descans Llarg. Preparar una nova llista de wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+						"La taula de Mag mostra les ranures de conjur que tens per llançar els spells de nivells 1 i superior. Per a llançar un conjur, has de gastar una ranura del nivell del conjur (o superior). Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"Per a preparar la llista de conjurs de mag que pots llançar; escull-los del teu llibre de conjurs. N'esculls tants com el teu modificador d'Intel·ligència + el teu nivell de mag (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
+						"Així, si ets un mag de nivell 3, tens quatre ranures de nivell 1 i dues de nivell 2. Si tens 16 punts d'Intel·ligència, et pots preparar fins a 6 conjurs; cadascun pot ser de nivell 1 o bé nivell 2. Si et prepares el conjur de nivell 1 {@spell curar ferides}, el pots llançar gastant una ranura de nivell 1 o bé de nivell 2, provinents del teu llibre de conjurs. Llançar un conjur no te l'elimina de la llista de conjurs preparats; només gasta la ranura.",
+						"Pots canviar la llista de conjurs preparats quan acabis un Descans Llarg. Preparar una nova llista de conjurs de druida requereix estudiar el teu llibre de conjurs i memoritzar les incantacions i gesticulacions del conjur: com a mínim 1 minut per cada conjur que et preparis."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Habilitat de Llançament de Conjurs",
 					"entries": [
-						"La teva habilitat de llançament de conjurs pels conjurs de mag és l'Intel·ligència, since you learn your wizard spells through dedicated study and memorization. Faràs servir l'Intel·ligència quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador d'Intel·ligència quan un conjur de mag mencioni: o una CD de salvada o una tirada d'impactar.",
+						"La teva habilitat de llançament de conjurs pels conjurs de mag és l'Intel·ligència, ja que aprèns els teu conjurs mitjançant l'estudi i la mamorització. Faràs servir l'Intel·ligència quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador d'Intel·ligència quan un conjur de mag mencioni: o una CD de salvada o una tirada d'impactar.",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
@@ -1253,26 +1253,26 @@
 					"type": "entries",
 					"name": "Llançar com a Ritual",
 					"entries": [
-						"You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared."
+						"Pots llançar un conjur de mag que tinguis al llibre de conjurs i que tingui l'etiqueta Ritual. No cal que el tinguis preparat."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Focus de Llançament de Conjurs",
 					"entries": [
-						"Pots emprar un {@item arcane focus|phb} com a focus de llançament de conjurs pel teus conjurs de wizard spells."
+						"Pots emprar un {@item focus arcà|phb} com a focus de llançament de conjurs pel teus conjurs de mag."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Learning Spells de nivells 1 i superior",
+					"name": "Aprendre conjurs de nivells 1 i superior",
 					"entries": [
-						"Each time you gain a wizard level, you can add two wizard spells (escull) to your spellbook. Each of these spells must be of a level for which you have ranures de conjur, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see \"Your Spellbook\")."
+						"Quan puges un nivell de mag, afegeixes 2 conjurs de mag (escull) al teu llibre de conjurs. Has de tenir ranures de conjur del nivell de conjur que vols aprendre per a aprendre'l; consulta la taula del Mag per veure les teves ranures. En les teves aventures tal vegada trobis altres conjurs que puguis afegir al teu llibre de conjurs (consulta \"El teu Llibre de Conjurs\")."
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Your Spellbook",
+					"name": "El teu Llibre de Conjurs",
 					"entries": [
 						"The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.",
 						"A spellbook doesn't contain cantrips.",
@@ -1782,7 +1782,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you can weave magic around yourself for protection. When you cast an {@filter abjuration spell of 1st level or higher|spells|school=A|level=!0}, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts fins que acabis un Descans Llarg. The ward has a punts de vida màxims equal to twice your wizard level + el teu modificador d'Intel·ligència. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 punts de vida, you take any remaining damage.",
+				"Començant a nivell 2, you can weave magic around yourself for protection. When you cast an {@filter abjuration spell of 1st level or higher|spells|school=A|level=!0}, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts fins que acabis un Descans Llarg. The ward has a punts de vida màxims equal to twice el teu nivell de mag + el teu modificador d'Intel·ligència. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 punts de vida, you take any remaining damage.",
 				"While the ward has 0 punts de vida, it can't absorb damage, but its magic remains. Whenever you cast an {@filter abjuration spell of 1st level or higher|spells|school=A|level=!0}, the ward regains a number of punts de vida equal to twice the level of the spell.",
 				"Once you create the ward, you can't create it again fins que acabis un Descans Llarg."
 			]
@@ -2401,7 +2401,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The creature's punts de vida màxims is increased by an amount equal to your wizard level.",
+						"The creature's punts de vida màxims is increased by an amount equal to el teu nivell de mag.",
 						"The creature adds el teu bonus de competència to its weapon damage rolls."
 					]
 				}
@@ -2986,7 +2986,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Order of Scribes a nivell 10}",
-				"You are now able to conjure forth the mind of your Awakened Spellbook. Com a acció bonus while the book is on your person, you can cause the mind to manifest as a Tiny spectral construct, hovering en un espai desocupat (escull) a 60 peus de tu. This presence is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (escull). The spectral mind has a number of punts de vida equal to your wizard level plus el teu modificador d'Intel·ligència, and it uses your Armor Class and saving throw modifiers.",
+				"You are now able to conjure forth the mind of your Awakened Spellbook. Com a acció bonus while the book is on your person, you can cause the mind to manifest as a Tiny spectral construct, hovering en un espai desocupat (escull) a 60 peus de tu. This presence is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (escull). The spectral mind has a number of punts de vida equal to el teu nivell de mag plus el teu modificador d'Intel·ligència, and it uses your Armor Class and saving throw modifiers.",
 				"While manifested, the spectral mind can hear and see, and it has {@sense darkvision} amb un abast de 60 peus. Com a acció, you can hear and see using the its senses, instead of your own, until your concentration ends (as if concentrating on a spell).",
 				"Whenever you cast a wizard spell en el teu torn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg.",
 				"Com a acció bonus, you can cause the spectral mind to hover fins a 30 peus en un espai desocupat that you or it can see. It can pass through creatures but not objects. The spectral mind stops manifesting if it is ever more than 300 peus lluny de tu, if it drops to 0 punts de vida, if you die, or if you dismiss it com a acció bonus."
@@ -3127,7 +3127,7 @@
 					"type": "entries",
 					"name": "Using a Resonant",
 					"entries": [
-						"You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell. You can use Resonants a number of times equal to half of your wizard level (arrodonint a la baixa), i en recuperes tots els usos quan acabis un Descans Llarg."
+						"You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell. You can use Resonants a number of times equal to half of el teu nivell de mag (arrodonint a la baixa), i en recuperes tots els usos quan acabis un Descans Llarg."
 					]
 				},
 				{
@@ -3278,8 +3278,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended ranures de conjur.",
-				"You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest."
+				"A nivell 2, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Recuperació Arcana ability to create a scroll instead of regaining expended ranures de conjur.",
+				"You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Recuperació Arcana. This reduction to your Recuperació Arcana applies until you use the scroll and then finish a long rest."
 			]
 		},
 		{
@@ -4657,7 +4657,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, your Arcane Deflection becomes infused with deadly magic. Quan empris el tret Arcane Deflection, magical energy arcs from you; tota criatura que designis a 10 peus de tu takes force damage equal to half your wizard level."
+				"A nivell 14, your Arcane Deflection becomes infused with deadly magic. Quan empris el tret Arcane Deflection, magical energy arcs from you; tota criatura que designis a 10 peus de tu takes force damage equal to la meitat del teu nivell de mag."
 			]
 		},
 		{
@@ -4725,7 +4725,7 @@
 			"entries": [
 				"Començant a nivell 6, you can store magical energy within yourself to later empower your damaging spells. In its stored form, this energy is called a power surge.",
 				"You can store a maximum number of power surges equivalent al teu modificador d'Intel·ligència (mínim d'1). Quan acabis un Descans Llarg, your number of power surges resets to one. Whenever you successfully end a spell with {@spell dissipar màgia} or {@spell contraconjur}, you gain one power surge, as you steal magic from the spell you foiled. If you end a short rest with no power surges, you gain one power surge.",
-				"Un cop per torn when you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra force damage to that target. The extra damage equals half your wizard level."
+				"Un cop per torn when you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra force damage to that target. The extra damage equals la meitat del teu nivell de mag."
 			]
 		},
 		{
@@ -4753,7 +4753,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, your Arcane Deflection becomes infused with deadly magic. Quan empris el tret Arcane Deflection, you can cause magical energy to arc from you. Up to three creatures (escull) que puguis veure a 60 peus de tu each take force damage equal to half your wizard level."
+				"A nivell 14, your Arcane Deflection becomes infused with deadly magic. Quan empris el tret Arcane Deflection, you can cause magical energy to arc from you. Up to three creatures (escull) que puguis veure a 60 peus de tu each take force damage equal to la meitat del teu nivell de mag."
 			]
 		}
 	]
