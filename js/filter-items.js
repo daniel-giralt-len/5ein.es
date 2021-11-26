@@ -40,7 +40,7 @@ class PageFilterEquipment extends PageFilter {
 					case "arcane": {
 						if (!item._fFocus.includes("Sorcerer")) item._fFocus.push("Sorcerer");
 						if (!item._fFocus.includes("Bruixot")) item._fFocus.push("Bruixot");
-						if (!item._fFocus.includes("Wizard")) item._fFocus.push("Wizard");
+						if (!item._fFocus.includes("Mag")) item._fFocus.push("Mag");
 						break;
 					}
 					case "druida": {

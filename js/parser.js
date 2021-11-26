@@ -601,7 +601,7 @@ Parser.stringToCasedSlug = function (str) {
 	return str.replace(/[^\w ]+/g, "").replace(/ +/g, "-");
 };
 
-Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druida", "Paladí", "Ranger", "Sorcerer", "Bruixot", "Wizard"];
+Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druida", "Paladí", "Ranger", "Sorcerer", "Bruixot", "Mag"];
 
 Parser.itemValueToFull = function (item, opts = {isShortForm: false, isSmallUnits: false}) {
 	return Parser._moneyToFull(item, "value", "valueMult", opts);
@@ -1443,7 +1443,7 @@ Parser.MON_SPELLCASTING_TAG_TO_FULL = {
 	"CR": "Class, Ranger",
 	"CS": "Class, Sorcerer",
 	"CL": "Class, Bruixot",
-	"CW": "Class, Wizard",
+	"CW": "Class, Mag",
 };
 Parser.monSpellcastingTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_SPELLCASTING_TAG_TO_FULL, tag);

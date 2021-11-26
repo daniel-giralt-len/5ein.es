@@ -3600,7 +3600,7 @@ Renderer.spell = {
 		}
 
 		// Add Arcana Cleric
-		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Wizard")) {
+		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Mag")) {
 			Renderer.spell._CACHE_HASHES["Arcana"] = Renderer.spell._CACHE_HASHES["Arcana"] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_CLERIC,
 				classSource: SRC_PHB,
@@ -3811,7 +3811,7 @@ Renderer.spell = {
 		}
 		// endregion
 	},
-	STR_WIZARD: "Wizard",
+	STR_WIZARD: "Mag",
 	STR_FIGHTER: "Guerrer",
 	STR_ROGUE: "Rogue",
 	STR_CLERIC: "Cleric",
