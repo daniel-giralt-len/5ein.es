@@ -1140,7 +1140,7 @@
 							"sageta guia"
 						],
 						"5": [
-							"enhance ability",
+							"esperonar habilitat",
 							"enthrall"
 						],
 						"9": [
@@ -1161,7 +1161,7 @@
 			"subclassFeatures": [
 				"Oath of Heroism|Paladí||Heroism (UA)|UABardAndPaladin|3",
 				"Mighty Deed|Paladí||Heroism (UA)|UABardAndPaladin|7",
-				"Glorious Defense|Paladí||Heroism (UA)|UABardAndPaladin|15",
+				"Defensa Gloriosa|Paladí||Heroism (UA)|UABardAndPaladin|15",
 				"Living Myth|Paladí||Heroism (UA)|UABardAndPaladin|20"
 			]
 		},
@@ -1227,7 +1227,7 @@
 							"heroisme"
 						],
 						"5": [
-							"enhance ability",
+							"esperonar habilitat",
 							"arma màgica"
 						],
 						"9": [
@@ -1247,9 +1247,9 @@
 			],
 			"subclassFeatures": [
 				"Prometença de Glòria|Paladí||Glòria|TCE|3",
-				"Aura de Alacrity|Paladí||Glòria|TCE|7",
-				"Glorious Defense|Paladí||Glòria|TCE|15",
-				"Living Legend|Paladí||Glòria|TCE|20"
+				"Aura d'Alacritat|Paladí||Glòria|TCE|7",
+				"Defensa Gloriosa|Paladí||Glòria|TCE|15",
+				"Llegenda Vivent|Paladí||Glòria|TCE|20"
 			]
 		},
 		{
@@ -2912,14 +2912,14 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Prometença de Glòria a nivell 3}",
-				"You gain the following two Canalitzar Divinitat options. See the Sacred Oath class feature for how Canalitzar Divinitat works.",
+				"Obténs les 2 opcions de Canalitzar Divinitat següents. Consulta el tret Prometença Sagrada per veure com funciona.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Peerless Athlete|Paladí||Glòria|TCE|3"
+					"subclassFeature": "Atletisme Incomparable|Paladí||Glòria|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inspiring Smite|Paladí||Glòria|TCE|3"
+					"subclassFeature": "Càstig Inspirador|Paladí||Glòria|TCE|3"
 				}
 			]
 		},
@@ -2960,7 +2960,7 @@
 						],
 						[
 							"5",
-							"{@spell enhance ability}, {@spell arma màgica}"
+							"{@spell esperonar habilitat}, {@spell arma màgica}"
 						],
 						[
 							"9",
@@ -3027,7 +3027,7 @@
 			]
 		},
 		{
-			"name": "Inspiring Smite",
+			"name": "Càstig Inspirador",
 			"source": "TCE",
 			"page": 53,
 			"otherSources": [
@@ -3043,11 +3043,11 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Immediatament after you deal damage to a creature with your Càstig Diví feature, pots emprar Canalitzar Divinitat com a acció bonus and distribute punts de vida temporals to creatures (escull) a 30 peus de tu, which can include you. The total number of punts de vida temporals equals {@dice 2d8} + your level en aquesta classe, divided among les criatures designades however you like."
+				"Immediatament després de fer dany a una criatura amb el teu tret Càstig Diví feature, pots emprar Canalitzar Divinitat com a acció bonus i distribuir punts de vida temporals a criatures (escull) a 30 peus de tu (una pots ser tu). Distribuiexes {@dice 2d8} + el teu nivell en aquesta classe de punts de vida temporals; reparteix-los entre les criatures designades com vulguis."
 			]
 		},
 		{
-			"name": "Peerless Athlete",
+			"name": "Atletisme Incomparable",
 			"source": "TCE",
 			"page": 53,
 			"otherSources": [
@@ -3063,11 +3063,11 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Com a acció bonus, pots emprar Canalitzar Divinitat to augment your athleticism. For the next 10 minutes, tens avantatge a Força ({@skill Athletics}) and Destresa ({@skill Acrobatics}); you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
+				"Com a acció bonus, pots emprar Canalitzar Divinitat per augmentar el teu atletisme. Durant els 10 minuts següents, tens avantatge a les tirades de Força ({@skill Athletics}) i de Destresa ({@skill Acrobatics}); pots dur, empènyer, arrossegar, i aixecar al doble del teu pes normal; i la distància dels teus salts dempeus i de llargada s'incrementa en 10 peus (que costen moviment com de costum)."
 			]
 		},
 		{
-			"name": "Aura de Alacrity",
+			"name": "Aura d'Alacritat",
 			"source": "TCE",
 			"page": 53,
 			"otherSources": [
@@ -3084,12 +3084,12 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Prometença de Glòria a nivell 7}",
-				"You emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. La teva velocitat de caminar incrementa en 10 peus. A més, if you aren't {@condition incapacitated}, the walking speed of any ally who starts their turn a 5 peus de tu increases by 10 feet until the end of that turn.",
-				"Quan arribes a nivell 18 en aquesta classe, the range of the aura increases to 10 feet."
+				"Emanes una aura that que t'omple a tu i als teus aliats amb velocitat sobrenatural que us permet córrer arreu del camp de batalla en formació. La teva velocitat de caminar incrementa en 10 peus. A més, si no estàs {@condition incapacitated}, la velocitat de caminar de tota criatura aliata que comenci el seu torn a 5 peus de tu incrementa en 10 peus fins al final d'aquell torn.",
+				"Quan arribes a nivell 18 en aquesta classe, l'abast de l'aura es torna 10 peus."
 			]
 		},
 		{
-			"name": "Glorious Defense",
+			"name": "Defensa Gloriosa",
 			"source": "TCE",
 			"page": 53,
 			"otherSources": [
@@ -3106,12 +3106,12 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Prometença de Glòria a nivell 15}",
-				"You can turn defense into a sudden strike. When you or another creature que puguis veure a 10 peus de tu is hit by an attack roll, pots, com a reacció, grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals el teu modificador de Carisma (mínim de +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction, provided the attacker is within your weapon's range.",
+				"Transformes la teva defensa en un atac sobtat. Quan tu o una altra criatura que puguis veure a 10 peus de tu és impactada amb un atac pots, com a reacció, sumar el teu modificador de Carisma (mínim de +1) a la CA de l'objectiu de l'atac, potencialment fent que l'impacte falli. Si falla, com a part d'aquesta reacció, fer un atac contra l'atacant si està al teu abast.",
 				"Pots emprar aquest tret tants cops com el teu modificador de Carisma (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Living Legend",
+			"name": "Llegenda Vivent",
 			"source": "TCE",
 			"page": 53,
 			"otherSources": [
@@ -3128,16 +3128,16 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Prometença de Glòria a nivell 20}",
-				"You can empower yourself with the legends\u2014whether true or exaggerated\u2014of your great deeds. Com a acció bonus, reps els beneficis següents durant 1 minut:",
+				"Pots fer-te amb els poders de les llegendes de les teves gestes (veritables o exagerades). Com a acció bonus, reps els beneficis següents durant 1 minut:",
 				{
 					"type": "list",
 					"items": [
-						"You are blessed with an otherworldly presence, gaining advantage on all Carisma checks.",
-						"Un cop a cada torn teu when you make a weapon attack and miss, you can cause that attack a impactar instead.",
-						"If you fail a saving throw, pots, com a reacció, reroll it. You must use this new roll."
+						"Et beneeix una presència de fora d'aquest món. Les tirades de Carisma les fas amb avantatge.",
+						"Un cop a cada torn teu quan fallis una triada d'impacte pots fer que impacti.",
+						"Si falles una salvada pots tornar-la a tirar i acceptar el nou resultat com a reacció."
 					]
 				},
-				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg o fins que gastis un 5th-level spell slot to use it again."
+				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg o fins que gastis una ranura de nivell 5."
 			]
 		},
 		{
@@ -3178,7 +3178,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Oath of the Watchers a nivell 3}",
-				"You gain the following Canalitzar Divinitat options. See the Sacred Oath class feature for how Canalitzar Divinitat works.",
+				"You gain the following Canalitzar Divinitat options. Consulta el tret Prometença Sagrada per veure com funciona.",
 				{
 					"type": "entries",
 					"name": "Watcher's Will",
@@ -3332,7 +3332,7 @@
 						"Quan impactes a una criatura and deal damage to it, you can also force it to make a Carisma saving throw contra la teva CD de salvació de conjur. Si falla, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature durant 24 hores."
 					]
 				},
-				"Once you use this bonus action, you can't use it again fins que acabis un Descans Llarg o fins que gastis un 5th-level spell slot to use it again."
+				"Once you use this bonus action, you can't use it again fins que acabis un Descans Llarg o fins que gastis una ranura de nivell 5."
 			]
 		},
 		{
@@ -3373,7 +3373,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Oath of the Watchers a nivell 3}",
-				"You gain the following Canalitzar Divinitat options. See the Sacred Oath class feature for how Canalitzar Divinitat works.",
+				"You gain the following Canalitzar Divinitat options. Consulta el tret Prometença Sagrada per veure com funciona.",
 				{
 					"type": "entries",
 					"name": "Watcher's Will",
@@ -3820,12 +3820,12 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Oath of Heroism a nivell 3}",
-				"You gain the following two Canalitzar Divinitat options.",
+				"Obténs les 2 opcions de Canalitzar Divinitat següents.",
 				{
 					"type": "entries",
-					"name": "Peerless Athlete",
+					"name": "Atletisme Incomparable",
 					"entries": [
-						"Pots emprar Canalitzar Divinitat to augment your athleticism with divine favor. Com a acció bonus, you gain advantage on all Força ({@skill Athletics}) and Destresa ({@skill Acrobatics}) for the next 10 minutes. "
+						"Pots emprar Canalitzar Divinitat to augment your athleticism with divine favor. Com a acció bonus, you gain advantage on all Força ({@skill Athletics}) and Destresa ({@skill Acrobatics}) durant els 10 minuts següents. "
 					]
 				},
 				{
@@ -3868,7 +3868,7 @@
 						],
 						[
 							"5",
-							"{@spell enhance ability}, {@spell enthrall}"
+							"{@spell esperonar habilitat}, {@spell enthrall}"
 						],
 						[
 							"9",
@@ -3952,7 +3952,7 @@
 			]
 		},
 		{
-			"name": "Glorious Defense",
+			"name": "Defensa Gloriosa",
 			"source": "UABardAndPaladin",
 			"page": 2,
 			"className": "Paladí",
@@ -4328,7 +4328,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 7, you emanate an aura de discord, which gives you the following benefits.",
+				"Començant a nivell 7, emanes una aura de discord, which gives you the following benefits.",
 				{
 					"type": "entries",
 					"entries": [
@@ -4841,7 +4841,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Pots emprar Canalitzar Divinitat to augment your presence with divine power. Com a acció bonus, you grant yourself a +5 bonus to Carisma ({@skill Persuasion}) for the next 10 minutes."
+				"Pots emprar Canalitzar Divinitat to augment your presence with divine power. Com a acció bonus, you grant yourself a +5 bonus to Carisma ({@skill Persuasion}) durant els 10 minuts següents."
 			]
 		},
 		{
