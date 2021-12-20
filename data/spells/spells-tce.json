@@ -15,11 +15,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -40,8 +40,8 @@
 				}
 			],
 			"entries": [
-				"Crees un esquinç planar en forma d'espasa de 3 peus de llarg en un espai desocupat que puguis veure a l'abast. L'espasa dura la duració del conjur. Quan llances el conjur, pots fer fins a dos atacs màgics cos a cos amb l'espasa; cadascun a una criatura, objecte desancorat, o estructura a 5 peus de la l'espasa. Si impacta, l'objectiu rep {@damage 4d12} de dany de força. L'impacte és crític si el número del {@dice d20} és 18 o major. Un impacte crític fa {@damage 8d12} de dany de força extra (un total de {@damage 12d12} de dany de força).",
-				"Al teu torn, com a acció bonus, pots moure l'espasa fins a 30 peus a un espai desocupat que puguis veure i tornar a fer fins a dos atacs màgics cos a cos.",
+				"Crees un esquinç planar en forma d'espasa de 3 peus de llarg en un espai desocupat que pugui veure a l'abast. L'espasa dura la duració del conjur. Quan llances el conjur, pots fer fins a dos atacs màgics cos a cos amb l'espasa; cadascuna a una criatura, objecte desancorat, o estructura a 5 peus de l'espasa. Si impacta, l'objectiu rep {@damage 4d12} de dany de força. L'impacte és crític si el nombre del {@dice d20} és 18 o major. Un impacte crític fa {@damage 8d12} de dany de força extra (un total de {@damage 12d12} de dany de força).",
+				"Al teu torn, com a acció bonus, pots moure l'espasa fins a 30 peus a un espai desocupat que pugui veure i tornar a fer fins a dos atacs màgics cos a cos.",
 				"La paret pot passar inòcuament per qualsevol barrera; fins i tot una {@spell paret de força}."
 			],
 			"damageInflict": [
@@ -59,17 +59,17 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -95,7 +95,7 @@
 				}
 			],
 			"range": {
-				"type": "radius",
+				"type": "radi",
 				"distance": {
 					"type": "peus",
 					"amount": 5
@@ -118,12 +118,12 @@
 				}
 			],
 			"entries": [
-				"Empunyes l'arma que fa de component material i fas un atac cos a cos amb ella a una criatra a 5 peus de tu. Si impactes, la criatura rep el dany i efectes normals de l'arma i queda embolcallada d'energia sònica fins el final del teu proper torn. Si la criatura es mou voluntàriament 5 o més peus abans que passi l'efecte, rep {@damage 1d8} de dany de tro i el conjur acaba.",
-				"El dany de l'arma, i el de tro si l'objectiu es mou, incrementen a nivells posteriors: respectivament, {@damage 1d8} i {@damage 2d8} a nivell 5, {@damage 2d8} i {@damage 3d8} a nivell 11, i {@damage 3d8} i {@damage 4d8} a nivell 17."
+				"Empunyes l'arma que fa de component material i fas un atac cos a cos amb ella a una criatra a 5 peus de tu. Si impactes, la criatura rep el dany i efectes normals de l'arma i queda embolcallada d'energia sònica fins el final del teu proper torn. Si la criatura és mou voluntàriament 5 o més peus abans que passi l'efecte, rep {@damage 1d8} de dany de tro i el conjur acaba.",
+				"El dany de l'arma, i el de tro si l'objectiu és mou, incrementen a nivells posteriors: respectivament, {@damage 1d8} i {@damage 2d8} a nivell 5, {@damage 2d8} i {@damage 3d8 } a nivell 11, i {@damage 3d8} i {@damage 4d8} a nivell 17."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "thunder damage on moving",
+					"label": "danys del tro en moure's",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -132,7 +132,7 @@
 					}
 				},
 				{
-					"label": "thunder damage on hit",
+					"label": "danys del tro en cop",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -152,38 +152,38 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -203,7 +203,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 20
@@ -212,7 +212,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a magic item or a willing creature from the destination world"
+				"m": "un article màgic o una criatura voluntària del món de destinació"
 			},
 			"duration": [
 				{
@@ -224,9 +224,9 @@
 				}
 			],
 			"entries": [
-				"Tu i fins a 8 criatures voluntàries a l'abast quedeu {@condition inconscient} durant la duració del conjur i veieu visions d'un altre mon del Pla Material, com ara Oerth, Toril, Krynn, or Eberron. Si el conjur completa la seva duració, les visions acaben amb cada un de vosaltres trobant i entretirant una cortina blava misteriosa. El conjur acaba transportant-vos físicament al món de les vostres visions.",
-				"Per a llançar aquest conjur necessites un objecte màgic originari del món on vulguis anar, i has de saber de l'exeitència d'aquest món; no cal que en sàpigues el nom. El destí a l'altre món és un lloc segur a 1 milla del lloc de creació de l'objecte màgic. Alternativament, el pots llançar si una de les criatures afectades va nèixer en aquell altre món: així, el destí serà un lloc segur a 1 una milla del lloc de naixement de la criatura.",
-				"El conjur acaba prematurament per una criatura si rep dany; així, no serà transportada. Si tu reps dany el conjur acaba per a tothom i ningú es transporta."
+				"Tu i fins a 8 criatures voluntàries a l'abast quedeu {@condition inconscient} durant la duració del conjur i veieu visions d'un altre mon del Pla Material, com ara Oerth, Toril, Krynn, o Eberron. Si el conjur completa la seva duració, les visions acaben amb cada un de vosaltres trobant i entretirant una cortina blava misteriosa. El conjur acaba transportant-vos físicament al món de les vostres visions.",
+				"Per a llançar aquest conjur necessita un objecte màgic originari del món on vulguis anar, i has de saber de l'exeitència d'aquest món; no cal que en sàpigues el nom. El destí a l'altre món és un lloc segur a 1 milla del lloc de creació de l'objecte màgic. Alternativament, el pots llançar si una de les criatures afectades va nèixer en aquell altre món: així, el destí serà un lloc segur a 1 una milla del lloc de naixement de la criatura.",
+				"El conjur acaba prematurament per una criatura si rep dany; així, no serà transportada. Si tu reps dany el conjur acaba per a tothom i ningú és transport."
 			],
 			"conditionInflict": [
 				"inconscient"
@@ -239,17 +239,17 @@
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -276,7 +276,7 @@
 				}
 			],
 			"range": {
-				"type": "radius",
+				"type": "radi",
 				"distance": {
 					"type": "peus",
 					"amount": 5
@@ -295,12 +295,12 @@
 				}
 			],
 			"entries": [
-				"Empunyes l'arma que fa de component material i fas un atac cos a cos amb ella a una criatra a 5 peus de tu. Si impactes, la criatura rep el dany i efectes normals de l'arma; a més, pots fer que un foc verd salti de l'objectiu cap a un altre objectiu que puguis veure a 5 peus seus. La segona criatura rep e el teu modificador de llançament de conjurs de dany de foc.",
-				"El dany de l'arma, i el del foc verd, incrementen a nivells posteriors: a nivell 5 el de l'arma incrementa en {@damage 1d8} i el del foc es torna {@damage 2d8} + el teu modificador de llançament de conjurs; a nivell 11, els dos incrementen en {@damage 2d8}; i a nivell 17, en {@damage 3d8}."
+				"Empunyes l'arma que fa de component material i fas un atac cos a cos amb ella a una criatra a 5 peus de tu. Si impactes, la criatura rep el dany i efectes normals de l'arma; a més, pots fer que un foc verd salti de l'objectiu cap a un altre objectiu que pugui veure a 5 els seus. La segona criatura rep e el teu modificador de llançament de conjurs de dany de foc.",
+				"El dany de l'arma, i el del foc verd, incrementen a nivells posteriors: a nivell 5 el de l'arma incrementa en {@damage 1d8} i el del foc és torna {@damage 2d8} + el teu modificador de llançament de conjurs; a nivell 11, els dos incrementen en {@damage 2d8}; i a nivell 17, en {@damage 3d8}."
 			],
 			"scalingLevelDice": [
 				{
-					"label": "fire damage to secondary creature",
+					"label": "dany per foc a una criatura secundària",
 					"scaling": {
 						"1": "{{spellcasting_mod}}",
 						"5": "1d8 + {{spellcasting_mod}}",
@@ -309,7 +309,7 @@
 					}
 				},
 				{
-					"label": "fire damage on hit",
+					"label": "danys per foc en cop",
 					"scaling": {
 						"5": "1d8",
 						"11": "2d8",
@@ -331,38 +331,38 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -382,7 +382,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 30
@@ -402,14 +402,14 @@
 				}
 			],
 			"entries": [
-				"Durant tota la duració del conjur, tu o una criatura voluntària que puguis veure a l'abast és resistent al dany psíquic. També té avantatge a salvades d'Intel·ligència, de Saviesa, i de Carisma."
+				"Durant tota la duració del conjur, tu o una criatura voluntària que pugui veure a l'abast és resistent al dany psíquic. També té avantatges a salvades d'Intel·ligència, de Saviesa, i de Carisma."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, pots designar una criatura adicional per cada nivell per sobre de 3. Les criatures han d'estar a 30 peus les unes de les altres quan llances el conjur."
+						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, pots designar una criatura addicional per cada nivell per sobre de 3. Les criatures han d'estar a 30 peus les unes de les altres quan llances el conjur."
 					]
 				}
 			],
@@ -428,7 +428,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					}
 				],
@@ -439,17 +439,17 @@
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -476,7 +476,7 @@
 				}
 			],
 			"range": {
-				"type": "radius",
+				"type": "radi",
 				"distance": {
 					"type": "peus",
 					"amount": 15
@@ -491,11 +491,11 @@
 				}
 			],
 			"entries": [
-				"Crees un fuet d'electricitat que colpeja a una criatura que puguis veure a 15 peus d'abast. L'objectiu ha de salvar per Força. Si falla, te l'apropes uns 10 peus o menys. Si es queda a 5 peus de tu, rep {@damage 1d8}.",
-				"El dany del conjur incrementa en {@dice 1d8} quan arribes a nivell 5 ({@damage 2d8}), nivell 11 ({@damage 3d8}) i nivell 17 ({@damage 4d8})"
+				"Crees un fout d'electricitat que colpeja a una criatura que pugui veure a 15 pocs d'abast. L'objectiu ha de salvar per Força. Si falla, et l'apropes uns 10 peus o menys. Si queda a 5 peus de tu, rep {@damage 1d8}.",
+				"El dany del conjur incrementa en {@dice 1d8} quan arriba a nivell 5 ({@damage 2d8}), nivell 11 ({@damage 3d8}) i nivell 17 ({@damage 4d8})"
 			],
 			"scalingLevelDice": {
-				"label": "lightning damage",
+				"label": "danys del llamp",
 				"scaling": {
 					"1": "1d8",
 					"5": "2d8",
@@ -507,7 +507,7 @@
 				"elèctric"
 			],
 			"savingThrow": [
-				"strength"
+				"força"
 			],
 			"miscTags": [
 				"FMV",
@@ -520,38 +520,38 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -571,7 +571,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -590,11 +590,11 @@
 				}
 			],
 			"entries": [
-				"Claves una estaca d'energia psíquica a la ment d'una criatura que puguis veure a l'abast. L'objectiu ha de salvar per Intel·ligència. Si falla, rep {@damage 1d6} de dany psíquic, i a la primera tirada de salvació que faci abans que acabi el teu proper torn li ha de restar {@dice d4}.",
-				"El dany d'aquest conjur incrementa en {@dice 1d6} quan arribes a certs nivells: al nivell 5 ({@dice 2d6}), al nivell 11 ({@dice3d6}), i al nivell 17 ({@dice4d6})."
+				"Claves una estaca d'energia psíquica a la ment d'una criatura que pugui veure a l'abast. L'objectiu ha de salvar per Intel·ligència. Si falla, rep {@damage 1d6} de dany psíquic, i a la primera tirada de salvació que faci abans que acabi el teu proper torn li ha de restar {@dice d4}.",
+				"El dany d'aquest conjur incrementa en {@dice 1d6} quan arribes a certs nivells: al nivell 5 ({@dice 2d6}), al nivell 11 ({@dice3d6}), i al nivell 17 ({@dice4d6}) ."
 			],
 			"scalingLevelDice": {
-				"label": "dany psíquic",
+				"label": "dany psiquic",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -618,17 +618,17 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -636,11 +636,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Sorcerer",
+							"name": "Bruixot",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Aberrant Mind",
+							"name": "Ment aberrant",
 							"source": "TCE"
 						}
 					}
@@ -657,11 +657,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -681,13 +681,13 @@
 				}
 			],
 			"entries": [
-				"Convoques esperits dels morts que voletegen al teu voltant durant la duració del conjur. Son intangibles i invulnerables.",
+				"Convoques esperits dels morts que voletegen al teu voltant durant la durada del conjur. Fills intangibles i invulnerables.",
 				"Durant la duració del conjur els teus atacs fan {@damage 1d8} de dany extra quan impactes a una criatura a 10 peus de tu. Aquest mal és radiant, necròtic, o de fred (escull quan llances el conjur). Tota criatura que rebi aquest mal no pot recuperar punts de vida fins l'inici del teu proper torn.",
 				"A més, tota criatura que escullis i puguis veure que començi el seu torn a 10 peus de tu se li redueix la velocitat en 10 peus fins el final del teu proper torn."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, el dany incrementa en {@scaledamage 1d8|3,5,7,9|1d8} per cada dos nivells de ranura per sobre de 2."
@@ -705,22 +705,22 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Paladin",
+						"name": "Paladí",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -740,7 +740,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -765,12 +765,12 @@
 				}
 			],
 			"entries": [
-				"Convoques a un esperit aberrant. Es manifesta en un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Aberrant|TCE} stat block. Quan llances el conjur, tria Contempladors, Slaadi, or Nascuts d'Estrella. La criatura s'assemblarà físicament a la teva elecció, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura convocada és amistosa vers a tu i als teus aliats. Té la teva iniciativa i prèn el seu torn després de tu. Obeeix qualsevol ordre verbal que li donis (pots fer-ho sense gastar acció). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques a un esperit aberrant. Es manifesta en un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Aberrant|TCE} stat block. Quan llances el conjur, tria Contempladors, Slaadi, o Nascuts d'Estrella. La criatura s'assemblarà físicament a la teva elecció, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura convocada és amistosa vers a tu i als teus aliats. Té la teva iniciativa i prèn el seu torn després de tu. Obeeix qualsevol ordre verbal que li donis (pots fer-ho sense gastar acció). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 5 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -785,23 +785,23 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Sorcerer",
+							"name": "Bruixot",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Aberrant Mind",
+							"name": "Ment aberrant",
 							"source": "TCE"
 						}
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -821,7 +821,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -846,12 +846,12 @@
 				}
 			],
 			"entries": [
-				"Convoques l'esperit d'una bèstia. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Bestial|TCE}. Quan llances el conjur, tria entre Aire, Terra, o Aigua. La criatura adoptarà la forma d'un animal nadiu a aquell entorn i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques l'esperit d'una bèstia. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Bestial|TCE}. Quan llances el conjur, tria entre Aire, Terra, o Aigua. La criatura adoptarà la forma d'un animal nadiu a aquell entorn i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -865,7 +865,7 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
@@ -890,7 +890,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -915,12 +915,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit celestial. L'esperit es manifesta en forma angelical a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Celestial|TCE}. Quan llances el conjur, tria Venjador o Defensor. Això determina l'atac al bloc d'estats de la criatura. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques un esperit celestial. L'esperit es manifesta en forma angelical a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Celestial|TCE}. Quan llances el conjur, tria Venjador o Defensor. Això determina l'atac al bloc d'estats de la criatura. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -934,12 +934,12 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Paladin",
+						"name": "Paladí",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -960,7 +960,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -985,12 +985,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit d'un constructe. Es manifesta en forma angelical a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Constructe|TCE}. Quan llances el conjur, tria Fang, Metall, o Pedra. La criatura s'assemblarà a un gòlem o un modron (escull) del tamany escollit. Això determina certs trets al bloc d'estats de la criatura. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques un esperit d'un construir. Es manifesta en forma angelical a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Constructe|TCE}. Quan llances el conjur, tria Fang, Metall, o Pedra. La criatura s'assemblarà a un gòlem o un modron (escull) del tamany escollit. Això determina certs trets al bloc d'estats de la criatura. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -1004,25 +1004,25 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Sorcerer",
+							"name": "Bruixot",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Soul de Rellotgeria",
+							"name": "Ànima de Rellotgeria",
 							"source": "TCE"
 						}
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1042,7 +1042,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -1067,12 +1067,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit elemental. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Elemental Spirit|TCE}. Quan llances el conjur, tria an element: Aire, Terra, Foc, o Aigua. La criatura adopta una forma humanoide embolcallada d'aquell element, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques un esperit elemental. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Elemental Spirit|TCE}. Quan llances el conjur, tria an element: Aire, Terra, Foc, o Aigua. La criatura adopta una forma humanoide embolcallada d'aquell element, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 5 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -1087,18 +1087,18 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Warlock",
+							"name": "Bruixot",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fathomless",
+							"name": "Insondable",
 							"source": "TCE"
 						}
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
@@ -1108,7 +1108,7 @@
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1128,7 +1128,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -1153,12 +1153,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit faèric. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Fey Spirit|TCE}. Quan llances el conjur, tria un estat d'ànim: Mentider, Furiós o Xiroi. La criatura adopta la forma d'un sàtis, una driada, o un elf (escull) amb l'estat d'anim triat, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques un esperit faèric. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Fey Spirit|TCE}. Quan llances el conjur, tria un estat d'ànim: Mentider, Furiós o Xiroi. La criatura adopta la forma d'un sàtis, una driada, o un elf (escull) amb l'estat d'anim triat, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -1172,7 +1172,7 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
@@ -1182,12 +1182,12 @@
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -1232,12 +1232,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit infernal. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Infernal|TCE}. Quan llances el conjur, tria Dimoni, Diable, o Yugoloth. La criatura adopta la forma d'un infernal del tipus escollit, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques un esperit infernal. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Infernal|TCE}. Quan llances el conjur, tria Dimoni, Diable, o Yugoloth. La criatura adopta la forma d'un infernal del tipus escollit, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 7 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -1251,12 +1251,12 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1276,7 +1276,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -1301,12 +1301,12 @@
 				}
 			],
 			"entries": [
-				"Convoques una entitat d'ombra. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Ombrívol|TCE}. Quan llances el conjur, tria una emoció: Ira, Desesperació, o Temor. La criatura adopta la forma d'un humanoide deformat amb l'emoció escollida, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques una entitat d'ombra. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Ombrívol|TCE}. Quan llances el conjur, tria una emoció: Ira, Desesperació, o Temor. La criatura adopta la forma d'un humanoide deformat amb l'emoció escollida, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -1320,12 +1320,12 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1346,7 +1346,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -1371,12 +1371,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit no-mort. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit No-Mort|TCE}. Quan llances el conjur, tria'n la forma: Fantasmal, Pútrida, o Esquelètica. La figura adopta la forma d'un humanoide amb aquell tret, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només es mourà per a defensar-se."
+				"Convoques un esperit no-mort. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit No-Mort|TCE}. Quan llances el conjur, tria'n la forma: Fantasmal, Pútrida, o Esquelètica. La figura adopta la forma d'un humanoide amb aquell tret, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no en dones, prendrà l'acció {@action Dodge} i només és mourà per a defensar-se."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, empra aquest nivell de conjur allà on surti al bloc d'estats de la criatura."
@@ -1390,12 +1390,12 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1421,7 +1421,7 @@
 				}
 			],
 			"range": {
-				"type": "radius",
+				"type": "radi",
 				"distance": {
 					"type": "peus",
 					"amount": 5
@@ -1436,11 +1436,11 @@
 				}
 			],
 			"entries": [
-				"Crees un cercle d'espases espectrals momentari que gira al teu voltant. Tota criatura a 5 peus de tu (tu no) ha de salvar per Destresa. Qui falli, rep {@damage 1d6} de dany de força.",
-				"El dany del conjur incrementa en {@dice 1d6} quan arribes a nivell 5 ({@damage 2d6}), nivell 11 ({@damage 3d6}) i nivell 17 ({@damage 4d6})"
+				"Crees un cercle d'espases espectrals momentaris que gira al teu voltant. Tota criatura a 5 peus de tu (tu no) ha de salvar per Destresa. Qui falli, rep {@damage 1d6} de dany de força.",
+				"El dany del conjur incrementa en {@dice 1d6} quan arriba a nivell 5 ({@damage 2d6}), nivell 11 ({@damage 3d6}) i ​​nivell 17 ({@damage 4d6})"
 			],
 			"scalingLevelDice": {
-				"label": "force damage",
+				"label": "dany per força",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -1452,7 +1452,7 @@
 				"força"
 			],
 			"savingThrow": [
-				"dexterity"
+				"destresa"
 			],
 			"miscTags": [
 				"SCL"
@@ -1463,38 +1463,38 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "SCAG"
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1514,7 +1514,7 @@
 				}
 			],
 			"range": {
-				"type": "line",
+				"type": "línia",
 				"distance": {
 					"type": "peus",
 					"amount": 30
@@ -1536,11 +1536,11 @@
 				}
 			],
 			"entries": [
-				"Un torrent d'àcid emana de tu en una linia de 30 peus de llarg i 5 d'ample (esculls la direcció). Tota criatura dins la línia ha de salvar per Destresa o quedar xopa d'àcid durant la duració del conjur. Una criatura pot, com a acció, espolsar l'àcid d'una criatura afectada per cancel·lar-li l'efecte. Una criatura xopa d'àcid rep {@damage 3d4} de dany d'àcid a l'inici de cada torn seu."
+				"Un torrent d'àcid emana de tu en una línia de 30 peus de llarg i 5 d'ample (esculls la direcció). Tota criatura dins la línia ha de salvar per Destresa o quedar xopa d'àcid durant la duració del conjur. Una criatura pot, com a acció, espolsar l'àcid d'una criatura afectada per cancel·lar-li l'efecte. Una criatura xopa d'àcid rep {@damage 3d4} de dany d'àcid a l'inici de cada torn seu."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 2 o superior, el dany incrementa en {@dice 2d4} per cada nivell per sobre d'1."
@@ -1551,23 +1551,23 @@
 				"àcid"
 			],
 			"savingThrow": [
-				"dexterity"
+				"destresa"
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					}
 				],
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1587,7 +1587,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -1606,14 +1606,14 @@
 				}
 			],
 			"entries": [
-				"Afueteges psíquicament a una criatura que puguis veure a l'abast. L'objectiu ha de salvar per Intel·ligència. Si falla, rep {@damage 3d6} de dany psíquic, i no pot prendre reaccions fins el final del seu proper torn. A més, durant el seu proper torn ha de triar entre moure, prendre acció, o prendre una acció bonus; només en pot fer una. Si supera, l'objectiu rep la meitat i res més."
+				"Afueteges psíquicament a una criatura que pugui veure a l'abast. L'objectiu ha de salvar per Intel·ligència. Si falla, rep {@damage 3d6} de dany psíquic, i no pot prendre reaccions fins el final del seu proper torn. A més, durant el seu proper torn ha de triar entre moure, prendre acció, o prendre una acció bonus; només en pot fer una. Si supera, l'objectiu rep la meitat i res més."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, pots designar una criatura adicional per cada nivell per sobre de 2. Les criatures han d'estar a 30 peus les unes de les altres quan llances el conjur."
+						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, pots designar una criatura addicional per cada nivell per sobre de 2. Les criatures han d'estar a 30 peus les unes de les altres quan llances el conjur."
 					]
 				}
 			],
@@ -1632,12 +1632,12 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}
@@ -1654,11 +1654,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -1667,7 +1667,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "un objecte gravat amb el símbol del Plans Exteriors  que valgui 500 ors o més",
+					"text": "un objecte gravat amb el símbol del Plans Exteriors que valgui 500 ors o més",
 					"cost": 50000
 				}
 			},
@@ -1682,16 +1682,16 @@
 				}
 			],
 			"entries": [
-				"Pronunciant una encantació, convoces màgia dels Plans Superiors o els Inferiors (escull) per a transformar-te. Durant la duració del conjur tens els següents beneficis:",
+				"Pronunciant una encantació, convoques màgia dels Plans Superiors o els Inferiors (escull) per a transformar-te. Durant la duració del conjur tens els següents beneficis:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Ets immune al dany de foc i de verí (Plans Inferiors) o bé al radiant i al necròtic (Plans Superiors).",
 						"Ets immune a estar {@condition emmetzinat} (Plans Inferiors) o bé a estar {@condition fascinat} (Plans Superiors).",
 						"Et surten ales espectrals. T'otorguen una velocitat de vol de 40 peus.",
 						"Reps +2 a la CA.",
 						"Els teus atacs armats són màgics. Quan facis un atac armat pots fer servir la teva habilitat de llançament de conjurs en ves de Força o Destresa per les tirades d'impacte i de dany.",
-						"Pots atacar dos cops, i no un, quan prèns l'acció {@action Attack} en el teu torn. Ignores aquest benefici si ja pots atacar més d'un cop gràcies a un tret com l'Atac Extra."
+						"Pots atacar dos cops, i no un, quan prèn l'acció {@action Attack} en el teu torn. Ignores aquest benefici si ja pots atacar més d'un cop gràcies a un tret com l'Atac Extra."
 					]
 				}
 			],
@@ -1705,17 +1705,17 @@
 			"classes": {
 				"fromClassListVariant": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB",
 						"definedInSource": "TCE"
 					}

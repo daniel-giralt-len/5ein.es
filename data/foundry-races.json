@@ -1,12 +1,12 @@
 {
 	"raceFeature": [
 		{
-			"name": "Radiant Soul",
+			"name": "Ànima Radiant",
 			"source": "VGM",
-			"raceName": "Aasimar (Protector)",
+			"raceName": "Aasimar (protector)",
 			"raceSource": "VGM",
 			"data": {
-				"activation.type": "action",
+				"activation.type": "acció",
 				"activation.cost": 1
 			}
 		},
@@ -16,23 +16,23 @@
 			"raceName": "Centaure",
 			"raceSource": "GGR",
 			"data": {
-				"activation.type": "action",
+				"activation.type": "acció",
 				"activation.cost": 1
 			}
 		},
 		{
 			"name": "Constitució Nana",
 			"source": "PHB",
-			"raceName": "Nan (Hill)",
+			"raceName": "Nan (turó)",
 			"raceSource": "PHB",
 			"effects": [
 				{
-					"name": "HP Increase",
+					"name": "Augment de HP",
 					"changes": [
 						{
-							"key": "data.attributes.hp.max",
-							"mode": "ADD",
-							"value": "@details.level"
+							"key": "atributs.dades.hp.max",
+							"mode": "AFEGIR",
+							"value": "@detalls.nivell"
 						}
 					]
 				}
@@ -41,15 +41,15 @@
 		{
 			"name": "Entrenament Monàstic",
 			"source": "UAEladrinAndGith",
-			"raceName": "Gith (Githzerai)",
+			"raceName": "Gith (Gitzerai)",
 			"raceSource": "UAEladrinAndGith",
 			"effects": [
 				{
-					"name": "Lightly Armored Defense",
+					"name": "Defensa lleugerament blindada",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					]
@@ -66,8 +66,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "11 + @abilities.dex.mod"
 						}
 					]
@@ -84,8 +84,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 3
 						}
 					]
@@ -102,8 +102,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "13 + @abilities.dex.mod"
 						}
 					]
@@ -120,8 +120,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "12 + @abilities.dex.mod"
 						}
 					]
@@ -138,8 +138,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "12 + @abilities.con.mod"
 						}
 					]
@@ -156,8 +156,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "13 + @abilities.dex.mod"
 						}
 					]
@@ -174,8 +174,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					],
@@ -185,16 +185,16 @@
 		},
 		{
 			"name": "Naturalesa de la Fase",
-			"source": "UAEberron",
+			"source": "Emirats Àrabs Units",
 			"raceName": "Fasedor (Pell de Bèstia)",
-			"raceSource": "UAEberron",
+			"raceSource": "Emirats Àrabs Units",
 			"effects": [
 				{
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					],
@@ -212,8 +212,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					],
@@ -231,8 +231,8 @@
 					"name": "Caparassó",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					],
@@ -250,8 +250,8 @@
 					"name": "Caparassó",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					],
@@ -269,8 +269,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": 17
 						}
 					]
@@ -287,8 +287,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 4
 						}
 					],
@@ -306,8 +306,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					]
@@ -324,8 +324,8 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					]
@@ -334,16 +334,16 @@
 		},
 		{
 			"name": "Plaques Compostes",
-			"source": "UAEberron",
+			"source": "Emirats Àrabs Units",
 			"raceName": "Guerraforjat",
-			"raceSource": "UAEberron",
+			"raceSource": "Emirats Àrabs Units",
 			"effects": [
 				{
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "ADD",
+							"key": "dades.atributs.ac.valor",
+							"mode": "AFEGIR",
 							"value": 1
 						}
 					]
@@ -357,11 +357,11 @@
 			"raceSource": "UARacesOfEberron",
 			"effects": [
 				{
-					"name": "Darkwood Core",
+					"name": "Nucli de fusta fosca",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "11 + @abilities.dex.mod + @prof"
 						}
 					],
@@ -371,19 +371,19 @@
 					"name": "Plaques Compostes",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "13 + {2, @abilities.dex.mod}kl + @prof"
 						}
 					],
 					"disabled": true
 				},
 				{
-					"name": "Heavy Plating",
+					"name": "Revestiment pesat",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "16 + @prof"
 						}
 					],

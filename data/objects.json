@@ -13,15 +13,15 @@
 				"psíquic"
 			],
 			"entries": [
-				"A ballista is a massive crossbow that fires heavy bolts. Before it can be fired, it must be loaded and aimed. It takes one action to load the weapon, one action to aim it, and one action to fire it."
+				"Una ballista és una ballesta massiva que dispara parabolts pesats. Abans de poder disparar, s'ha de carregar i apuntar. Es necessita una acció per carregar l'arma, una acció per apuntar-la i una acció per disparar-la."
 			],
 			"actionEntries": [
 				{
-					"type": "actions",
+					"type": "accions",
 					"name": "Sageta",
 					"entries": [
 						{
-							"type": "attack",
+							"type": "atac",
 							"attackType": "RW",
 							"attackEntries": [
 								"{@hit +6} a impactar, 120/480 peus d'abast, un objectiu."
@@ -48,16 +48,16 @@
 				"psíquic"
 			],
 			"entries": [
-				"A canó uses gunpowder to propel heavy balls of cast iron through the air at destructive speeds. In a campaign without gunpowder, a canó might be an arcane device built by clever gnoms or wizardly engineers.",
-				"A canó is usually supported in a wooden frame with wheels. Before it can be fired, the canó must be loaded and aimed. It takes one action to load the weapon, one action to aim it, and one action to fire it."
+				"Un canó utilitza pólvora per impulsar boles pesades de ferro colat per l'aire a velocitats destructives. En una campanya sense pólvora, un canó podria ser un dispositiu arcà construït per gnoms intel·ligents o enginyers mags.",
+				"Un canó se sol recolzar en un marc de fusta amb rodes. Abans de tirar-lo, cal carregar i apuntar el canó. Es necessita una acció per carregar l'arma, una acció per apuntar-la i una acció per disparar-la."
 			],
 			"actionEntries": [
 				{
-					"type": "actions",
-					"name": "Canó Ball",
+					"type": "accions",
+					"name": "Ball Canó",
 					"entries": [
 						{
-							"type": "attack",
+							"type": "atac",
 							"attackType": "RW",
 							"attackEntries": [
 								"{@hit +6} a impactar, 600/2,400 peus d'abast, un objectiu."
@@ -87,7 +87,7 @@
 			"wis": 3,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 30 peus (sense visió més enllà)"
+				"visió a cegues 30 peus (sens visió més enllà)"
 			],
 			"immune": [
 				"verí",
@@ -95,11 +95,11 @@
 			],
 			"actionEntries": [
 				{
-					"type": "actions",
+					"type": "accions",
 					"name": "Canó",
 					"entries": [
 						{
-							"type": "attack",
+							"type": "atac",
 							"attackType": "RW",
 							"attackEntries": [
 								"{@hit +5} a impactar, 30 peus d'abast, un objectiu."
@@ -132,20 +132,20 @@
 				}
 			],
 			"entries": [
-				"Quan els personatges han de tallar cordes, trencar vidres, o fer miques el taüt d'un vampir, només hi ha una norma: podran destruir tot objecte destruible amb prou temps i eines. Fes servir el sentit comú per determinar-ne l'èxit. Una guerrera excavarà una paret amb l'espasa? No, perquè l'espasa segurament es trencarà abans.",
-				"Per ajudar amb aquesta norma un objecte és un ítem finit i inanimat: finestres, portes, espases, llibres, taules, cadires, i pedra en general, i no un vehicle o un edifici, ja que estan composats de molts altres objectes.",
+				"Quan els personatges han de tallar cordes, trencar vidres, o fer miques el taüt d'un vampir, només hi ha una norma: podran destruir tot objecte destruible amb prou temps i eines. Fes servir el sentit comú per determinar-ne l'èxit. Una guerrera excavarà una paret amb l'espasa? No, perquè l'espasa segurament és trencarà abans.",
+				"Per ajudar amb aquesta norma un objecte és un ítem finit i inanimat: finestres, portes, espases, llibres, taules, cadires, i pedra en general, i no un vehicle o un edifici, ja que estan compostos de molts altres objectes.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Estadístiques pels Objectes",
 					"entries": [
 						"Quan el temps importa pots assignar una CA a un objecte destructible. També li pots donar immunitats, resistències i vulnerabilitats a certes menes de dany.",
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Classe d'Armadura",
 							"entries": [
 								"La Classe d'Armadura d'un objecte indica com n'és de difícil danyar-lo d'un impacte (ja que no pot esquivar). La taula de Classe d'Armadura per Objectes dona exemples per a certes substàncies.",
 								{
-									"type": "table",
+									"type": "taula",
 									"caption": "Classes d'Armadura per Objectes",
 									"colLabels": [
 										"Substància",
@@ -189,17 +189,17 @@
 							]
 						},
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Punts de vida",
 							"entries": [
-								"Els punts de vida d'un objecte indiquen quant dany pot rebre abans no perdi la integritat estructural. Com més gran l'objecte més punts de vida tindrà (si no és que trencar-ne una part petita amenaça tota la integriatat). La taula Punts de vida per Objectes suggereix punts de vida per objectes fràgils i resistents Grans o menors.",
+								"Els punts de vida d'un objecte indiquen quant dany pot rebre abans no perdi la integritat estructural. Com més gran l'objecte més punts de vida tindrà (si no és que trencar-ne una part petita amenaça tota la integritat). La taula Punts de vida per Objectes suggereix punts de vida per objectes fràgils i resistents Grans o menors.",
 								{
-									"type": "table",
+									"type": "taula",
 									"caption": "Punts de vida per Objectes",
 									"colLabels": [
-										"Size",
+										"Mida",
 										"Fràgil",
-										"Resilient"
+										"Resistent"
 									],
 									"colStyles": [
 										"col-6",
@@ -231,21 +231,21 @@
 							]
 						},
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Objectes Enormes i Titànics",
 							"entries": [
-								"Les armes convencionals poc fan contra objectes Enormes i Titànics (estàtues colossals, torres de pedra, o rocs). Tanmateix una torxa pot cremar una estora; un terratrèmol pot tombar un colós. Pots apuntar-ne els punts de vida, o pots decidir quant temps pot aguantar un objecte la força que l'assedia. Si n'apuntes els punts de vida divideix l'objecte en seccions Grans o menors, tractant-los per separat. Destruir una seccio podria destruir l'objecte sencer: una estàtua Titànica humanoide podria caure quan una cama es quedi a 0 punts de vida."
+								"Les armes convencionals poc fan contra objectes Enormes i Titànics (estàtues colossals, torres de pedra, o rocs). Tanmateix una torxa pot cremar una estora; un terratrèmol pot tombar un colós. Pots apuntar-ne els punts de vida, o pots decidir quant temps pot aguantar un objecte la força que l'assedia. Si n'apuntes els punts de vida divideix l'objecte en seccions Grans o menors, tractant-los per separat. Destruir una seccio podria destruir l'objecte sencer: una estàtua Titànica humanoide podria caure quan una cama és quedi a 0 punts de vida."
 							]
 						},
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Objectes i Menes de Dany",
 							"entries": [
 								"Els objectes són immunes al dany psíquic i de verí. Pots decidir que alguns tipus de dany són més eficaços que d'altres: el dany contundent aniria bé per esclafar però no per tallar el cuir; el paper o la roba serien dèbils pers el foc i l'electricitat. Un pic pot excavar la pedra però li costarà talar un arbre. Fia't del teu sentit comú."
 							]
 						},
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Llindar de Dany",
 							"entries": [
 								"Els objectes enormes (com la paret d'un castell) solen tenir resiliència representada per un llindar de dany. Són immunes a tot dany si un sol cop no supera el seu llindar. L'impacte que ho faci farà mal normal. El dany que no superi el llindar serà considerat negligible."
@@ -277,28 +277,28 @@
 			],
 			"entries": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Fruita",
 					"entries": [
 						"Dues fruites màgiques (evocació) maduren a l'arbre cada any. Cada fruita s'assembla una poma però creix de l'arbre com un quist.",
-						"Una fruita vermella com un robí creix una setmana abans del solstici d'estiu com a molt tard. A més, tota {@condition blinded||blindness}, {@condition deafened||deafness}, i tota malaltia que afectin qui se la mengi s'acaben.",
+						"Una fruita vermella com un robí creu una setmana abans del solstici d'estiu com a molt tard. A més, tota {@condition blinded||blindness}, {@condition deafened||deafness}, i tota malaltia que afectin qui se la mengi s'acaben.",
 						"Una fruita pàl·lida creix una setmana abans del solstici d'estiu com a molt tard. Qui en mengi com a mínim un quart rep 70 de dany necròtic. Cada fruita té {@dice 1d4} llavors. Si es planten, en creixen arbustos que es tornen twig blights després d'un any."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Serfs de l'Arbre",
 					"entries": [
-						"Si un humanoide es lliga al tronc de l'Arbre Gulthias, hi és absorbit completament després de 24 hores. Així, es converteix en el serf de l'arbre i és expulsat 1 hora després. L'Arbre Gulthias pot tenir un màxim de 4 serfs actius. La pell dels serfs és com d'escorça gris. Un serf es corromp completament, tornant-se neutral malvat. Només existeix per servir a l'Arbre Gulthias i als que el cuiden (com ara en Belak). Un serf posseeix totes les seves habilitats, a més dels trets següents:",
+						"Si un humanoide és lliga al tronc de l'Arbre Gulthias, hi és absorbit després de 24 hores. Així, es converteix en el serf de l'arbre i és expulsat 1 hora després. L'Arbre Gulthias pot tenir un màxim de 4 serfs actius. La pell dels serfs és com d'escorça gris. Un serf es corromp completament, tornant-se neutral malvat. Només existeix per servir a l'Arbre Gulthias i als que el cuiden (com ara en Belak). Un serf posseeix totes les seves habilitats, a més dels tres següents:",
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Pell d'Escorça",
 							"entries": [
 								"La CA del serf no pot ser menor a 16."
 							]
 						},
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Serf de l'Arbre",
 							"entries": [
 								"Si l'Arbre Gulthias mor, els serfs moren 24 hores després."
@@ -333,16 +333,16 @@
 			],
 			"entries": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Efectes del Cor",
 					"entries": [
-						"El cor d'un trol de gel roman fred fins i tot després de la destrucció del seu hoste. Mentre el trol no es pugui regenerar el seu cor es pot extreure del cadàver i salvaguardar. Un cop extirpat el cor esdevè un objecte Diminut. Durant les properes 24 hores té aquestes propietats màgiques:",
+						"El cor d'un trol de gel roman fred fins i tot després de la destrucció del seu hoste. Mentre el trol no es pugui regenerar el seu cor és pot extreure del cadàver i salvaguardar. Un cop extirpat el cor esdevé un objecte Diminut. Durant les properes 24 hores té aquestes propietats màgiques:",
 						{
-							"type": "list",
+							"type": "llista",
 							"items": [
-								"Una criatura que se'l mengi podrà regenerar-se durant 24 hores a un ritme de 5 punts de vida cada torn seu. Si la criatura rep dany d'àcid o de foc aquest tret no funciona el seu proper torn. La criatura només morira si te 0 punts de vida a l'inici del seu torn i no es pot regenerar.",
-								"Si s'enterra a un peu o més sotaterra, el cor es desfà i convoca una ventica com la del conjur {@spell controlar el temps}. El procés tarda 10 minuts, i la ventisca dura 8 hores.",
-								"Una saga o criatura similar pot fer un ritual que torni el cor en un talismà màgic com un \"{@hazard Brown Mold}\" del {@book Dungeon Master's Guide|DMG}). Aquest efecte durà fins la destrucció del cor.",
+								"Una criatura que se'l mengi podrà regenerar-se durant 24 hores a un ritme de 5 punts de vida cada torn seu. Si la criatura rep dany d'àcid o de foc aquest tret no funciona el seu proper torn. La criatura només morira si et 0 punts de vida a l'inici del seu torn i no es pot regenerar.",
+								"Si s'enterra a un peu o més sotaterra, el cor és desfà i convoca una ventica com la del conjur {@spell controlar el temps}. El procés tarda 10 minuts, i la ventica dura 8 hores.",
+								"Una saga o criatura similar pot fer un ritual que torni el cor en un talisme màgic com un \"{@hazard Brown Mold}\" del {@book Dungeon Master's Guide|DMG}). Aquest efecte durà fins la destrucció del cor.",
 								"Una criatura competent amb eines d'alquímia pot extreure'n prou fluid residual que, barrejat amb altres ingredients alquímics, resulta en una {@item Potion of Cold Resistència||potion of resistance (cold)}. Es tarda 1 hora en crear aquesta poció."
 							]
 						}
@@ -363,16 +363,16 @@
 				"psíquic"
 			],
 			"entries": [
-				"Un manganell és una mena de catapulta que llança projectils pesats en paràbola. Poden impactar objectius en cobertura. Primer, el manganell s'ha de carregar (2 accions) i després apuntar-lo (2 accions). Un cop fet, es pot disparar (1 acció).",
+				"Un manganell és una mena de catapulta que llança projectils pesats en paràbola. Poden impactar objectius en cobertura. Primer, el manganell s'ha de carregar (2 accions) i després apuntar-lo (2 accions). Un cop fet, és pot disparar (1 acció).",
 				"Un manganell sol disparar rocs, però pot disparar altres projectils amb resultats diferents"
 			],
 			"actionEntries": [
 				{
-					"type": "actions",
+					"type": "accions",
 					"name": "Roc de manganell",
 					"entries": [
 						{
-							"type": "attack",
+							"type": "atac",
 							"attackType": "RW",
 							"attackEntries": [
 								"{@hit +5} a impactar, 200/800 peus d'abast (no pot designar objectius que n'estiguin a 60 peus o menys), un objectiu."
@@ -405,11 +405,11 @@
 			],
 			"actionEntries": [
 				{
-					"type": "actions",
+					"type": "accions",
 					"name": "Envestir",
 					"entries": [
 						{
-							"type": "attack",
+							"type": "atac",
 							"attackType": "MW",
 							"attackEntries": [
 								"{@hit +8} a impactar, 5 peus d'abast, one object."
@@ -436,7 +436,7 @@
 				"psíquic"
 			],
 			"entries": [
-				"Una torre de setge és una estructura mòbil de fusta amb bigues de xassis i planxes per parets. Troncs o rodes permeten empènyer o estibar la torre, normalment per soldats o animals de càrrega. Criatures Mitjanes o menors poden emprar la torre de setge per muntar-se a parets de fins a 40 peus d'alt. Una criatura dins la torre té cobertura total de l'exterior."
+				"Una torre de setge és una estructura mòbil de fusta amb bigues de xassis i planxes per pares. Troncs o rodes permeten empènyer o estibar la torre, normalment per soldats o animals de càrrega. Criatures Mitjanes o menors poden emprar la torre de setge per muntar-se a parets de fins a 40 peus d'alt. Una criatura dins la torre té cobertura total de l'exterior."
 			],
 			"hasToken": true
 		},
@@ -454,11 +454,11 @@
 			],
 			"entries": [
 				"Una caldera és un contenidor de ferro suspesa per poder-la vessar fàcilment. Una caldera ha d'omplir-se i, normalment, escalfar-ne els contiguts (3 accions). Llavors es pot vessar (1 acció).",
-				"Les calderes es poden omplir de diferents líquids amb resultats diferents, com ara àcid o {@hazard green slime}."
+				"Les calderes poden omplir de diferents líquids amb resultats diferents, com ara àcid o {@hazard green slime}."
 			],
 			"actionEntries": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Oli Bullent",
 					"entries": [
 						"La caldera aboca oli bullent en l'àrea de 10x10 peus que té a sota. Tota criatura dins l'àrea ha de salvar per Destresa amb CD 15. Qui falli rep 10 ({@damage 3d6}) de dany de foc; qui superi, en rep la meitat."
@@ -481,16 +481,16 @@
 			],
 			"entries": [
 				"Un trabuquet és una catapulta imponent que llança els projectils en una paràbola pronunciada. Pot impactar a objectius amb cobertura.",
-				"Primer, el trabuquet s'ha de carregar (2 accions); després, s'ha d'apuntar (2 accions). Finalment, es pot disparar (1 acció).",
+				"Primer, el trabuquet s'ha de carregar (2 accions); després, s'ha d'apuntar (2 accions). Finalment, és pot disparar (1 acció).",
 				"Un trabuquet sol disparar rocs massissos, però es poden carregar altra mena de projectils amb diferents resultats, com ara barrils d'oli o claveguera."
 			],
 			"actionEntries": [
 				{
-					"type": "actions",
+					"type": "accions",
 					"name": "Roc de Trabuquet",
 					"entries": [
 						{
-							"type": "attack",
+							"type": "atac",
 							"attackType": "RW",
 							"attackEntries": [
 								"{@hit +5} a impactar, 300/1,200 peus d'abast (no pot designar objectius que n'estiguin a 60 peus o menys), un objectiu."

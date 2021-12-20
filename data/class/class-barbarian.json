@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "Barbarian",
+			"name": "Bàrbar",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
@@ -15,24 +15,24 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
+					"llum",
 					"mitjà",
 					"{@item shield|phb|shields}"
 				],
 				"weapons": [
-					"simple",
-					"martial"
+					"senzill",
+					"marcial"
 				],
 				"skills": [
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"athletics",
-								"intimidation",
-								"nature",
-								"perception",
-								"survival"
+								"maneig d'animals",
+								"atletisme",
+								"intimidació",
+								"naturalesa",
+								"percepció",
+								"supervivència"
 							],
 							"count": 2
 						}
@@ -42,11 +42,11 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) una {@item greataxe|phb} o bé (b) any {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}",
-					"(a) two {@item handaxe|phb|handaxes} o bé (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"An {@item explorer's pack|phb}, and four {@item javelin|phb|javelins}"
+					"(a) una {@item greataxe|phb} o bé (b) any {@filter marcial melee weapon|items|source=phb|category=basic|type=martial weapon;mee weapon=sand}",
+					"(a) dos {@item handaxe|phb|handaxes} o bé (b) qualsevol {@filter simple arma|items|source=phb|category=basic|type=simple weapon}",
+					"Un {@item explorer's pack|phb} i quatre {@item javelin|phb|javelins}"
 				],
-				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Or inicial}",
 				"defaultData": [
 					{
 						"a": [
@@ -54,28 +54,28 @@
 						],
 						"b": [
 							{
-								"equipmentType": "weaponMartialMelee"
+								"equipmentType": "armaMarcialMelee"
 							}
 						]
 					},
 					{
 						"a": [
 							{
-								"item": "handaxe|phb",
+								"item": "destral de mà|phb",
 								"quantity": 2
 							}
 						],
 						"b": [
 							{
-								"equipmentType": "weaponSimple"
+								"equipmentType": "armaSimple"
 							}
 						]
 					},
 					{
 						"_": [
-							"explorer's pack|phb",
+							"paquet de l'explorador|phb",
 							{
-								"item": "javelin|phb",
+								"item": "javelina|phb",
 								"quantity": 4
 							}
 						]
@@ -91,16 +91,16 @@
 						"{@item shield|phb|shields}"
 					],
 					"weapons": [
-						"simple",
-						"martial"
+						"senzill",
+						"marcial"
 					]
 				}
 			},
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Rages",
-						"Rage Damage"
+						"Ràbia",
+						"Dany per ràbia"
 					],
 					"rows": [
 						[
@@ -247,89 +247,89 @@
 				}
 			],
 			"classFeatures": [
-				"Rage|Barbarian||1",
-				"Unarmored Defense|Barbarian||1",
-				"Danger Sense|Barbarian||2",
+				"Ràbia|Bàrbar||1",
+				"Defensa no blindada|Bàrbar||1",
+				"Sentit del perill|Bàrbar||2",
 				"Survival Instincts|Barbarian||2|UAClassFeatureVariants",
-				"Reckless Attack|Barbarian||2",
+				"Atac Temerari|Bàrbar||2",
 				{
-					"classFeature": "Primal Path|Barbarian||3",
+					"classFeature": "Camí primigeni|Bàrbar||3",
 					"gainSubclassFeature": true
 				},
-				"Primal Knowledge|Barbarian||3|TCE",
+				"Coneixement primigeni|Bàrbar||3|TCE",
 				"Millora de Puntuació de Característica|Barbarian||4",
 				"Competència Versàtil|Barbarian||4|UAClassFeatureVariants",
-				"Extra Attack|Barbarian||5",
-				"Fast Movement|Barbarian||5",
+				"Atac extra|Bàrbar||5",
+				"Moviment Ràpid|Bàrbar||5",
 				"Instinctive Pounce|Barbarian||5|UAClassFeatureVariants",
 				{
-					"classFeature": "Path Feature|Barbarian||6",
+					"classFeature": "Característica del camí|Bàrbar||6",
 					"gainSubclassFeature": true
 				},
-				"Feral Instinct|Barbarian||7",
-				"Instinctive Pounce|Barbarian||7|TCE",
+				"Feral Instinct|Bàrbar||7",
+				"Pounce instintiva|Bàrbar||7|TCE",
 				"Millora de Puntuació de Característica|Barbarian||8",
 				"Competència Versàtil|Barbarian||8|UAClassFeatureVariants",
-				"Brutal Critical (1 die)|Barbarian||9",
+				"Brutal Crític (1 dau)|Bàrbar||9",
 				{
-					"classFeature": "Path feature|Barbarian||10",
+					"classFeature": "Característica del camí|Bàrbar||10",
 					"gainSubclassFeature": true
 				},
-				"Relentless Rage|Barbarian||11",
+				"Ràbia implacable|Bàrbar||11",
 				"Millora de Puntuació de Característica|Barbarian||12",
 				"Competència Versàtil|Barbarian||12|UAClassFeatureVariants",
-				"Brutal Critical (2 dice)|Barbarian||13",
+				"Brutal Crític (2 daus)|Bàrbar||13",
 				{
-					"classFeature": "Path feature|Barbarian||14",
+					"classFeature": "Característica del camí|Bàrbar||14",
 					"gainSubclassFeature": true
 				},
-				"Persistent Rage|Barbarian||15",
+				"Ràbia persistent|Bàrbar||15",
 				"Millora de Puntuació de Característica|Barbarian||16",
 				"Competència Versàtil|Barbarian||16|UAClassFeatureVariants",
-				"Brutal Critical (3 dice)|Barbarian||17",
-				"Indomitable Might|Barbarian||18",
+				"Brutal Crític (3 daus)|Bàrbar||17",
+				"Indomable Might|Bàrbar||18",
 				"Millora de Puntuació de Característica|Barbarian||19",
 				"Competència Versàtil|Barbarian||19|UAClassFeatureVariants",
-				"Primal Champion|Barbarian||20"
+				"Campió Primordial|Bàrbar||20"
 			],
-			"subclassTitle": "Primal Path",
+			"subclassTitle": "Camí primigeni",
 			"fluff": [
 				{
-					"name": "Barbarian",
-					"type": "section",
+					"name": "Bàrbar",
+					"type": "secció",
 					"entries": [
-						"A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's elk herd.",
-						"A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.",
-						"Frothing at the mouth, a dwarf slams his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another.",
-						"These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.",
-						"For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
+						"Un alt membre d'una tribu humana camina a través d'una tempesta de neu, embolicat de pell i aixecant la seva destral. Riu mentre carrega cap al gegant de les gelades que es va atrevir a robar furtivament el ramat d'alces del seu poble.",
+						"Un mig orc grunyeix a l'últim desafiador de la seva autoritat sobre la seva tribu salvatge, disposat a trencar-li el coll amb les seves mans nues com va fer amb els últims sis rivals.",
+						"Escumant a la boca, un nan colpeja el seu casc a la cara del seu enemic drow, després es gira per clavar el seu colze blindat a l'intestí d'un altre.",
+						"Aquests bàrbars, per diferents que siguin, es defineixen per la seva ràbia: una fúria desenfrenada, inextinguible i irreflexiva. Més que una mera emoció, la seva ira és la ferocitat d'un depredador arraconat, l'assalt implacable d'una tempesta, l'agitació del mar.",
+						"Per a alguns, la seva ràbia brolla d'una comunió amb esperits animals ferotges. D'altres treuen d'un dipòsit d'ira envoltat d'un món ple de dolor. Per a tots els bàrbars, la ràbia és un poder que alimenta no només un frenesí de batalla, sinó també reflexos estranys, resistència i gestes de força.",
 						{
-							"type": "entries",
-							"name": "Primal Instinct",
+							"type": "entrades",
+							"name": "Instint primigeni",
 							"entries": [
-								"People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature\u2014keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.",
-								"Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise."
+								"La gent de pobles i ciutats s'enorgulleix de com les seves maneres civilitzades els diferencien dels animals, com si negar la pròpia naturalesa fos una marca de superioritat. Per a un bàrbar, però, la civilització no és una virtut, sinó un signe de debilitat. Els forts abracen la seva naturalesa animal: instints aguts, físic primigeni i ràbia ferotge. Els bàrbars se senten incòmodes quan estan tancats per parets i multituds. Creixen a les zones salvatges de les seves terres d'origen: la tundra, la selva o les praderies on viuen i cacen les seves tribus.",
+								"Els bàrbars cobren vida en el caos del combat. Poden entrar en un estat de bogeria on la ràbia pren el relleu, donant-los força i resistència sobrehumanes. Un bàrbar pot aprofitar aquest dipòsit de fúria només unes quantes vegades sense descansar, però aquestes poques ràbias solen ser suficients per vèncer qualsevol amenaça que sorgeixi."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "A Life of Danger",
+							"type": "entrades",
+							"name": "Una vida de perill",
 							"entries": [
-								"Not every member of the tribes deemed \"barbarians\" by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don't have to.",
-								"Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties."
+								"No tots els membres de les tribus considerades \"bàrbars\" pels descendents de la societat civilitzada tenen la classe bàrbara. Un veritable bàrbar entre aquesta gent és tan poc comú com un lluitador hàbil en una ciutat, i té un paper similar com a protector de la gent i líder en temps de guerra. La vida als llocs salvatges del món està plena de perills: tribus rivals, clima mortal i monstres aterridors. Els bàrbars carreguen de cap en aquest perill perquè la seva gent no hagi de fer-ho.",
+								"El seu coratge davant el perill fa que els bàrbars siguin perfectes per a l'aventura. Vagar és sovint una forma de vida per a les seves tribus natives, i la vida sense arrels de l'aventurer és poca dificultat per a un bàrbar. Alguns bàrbars enyoren les unides estructures familiars de la tribu, però finalment les troben substituïdes pels vincles formats entre els membres dels seus grups aventurers."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Creating a Barbarian",
+							"type": "entrades",
+							"name": "Creant un bàrbar",
 							"entries": [
-								"When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common?",
-								"What led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to \"civilized\" lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.",
+								"Quan creeu un personatge bàrbar, pensa d'on ve el teu personatge i el seu lloc al món. Parleu amb el vostre DM sobre un origen adequat per al vostre bàrbar. Vau venir d'una terra llunyana, convertint-vos en un desconegut a l'àmbit de la campanya? O la campanya està ambientada en una frontera difícil on els bàrbars són comuns?",
+								"Què et va portar a emprendre la vida aventurera? Us va atreure a les terres poblades per la promesa de riqueses? Vau unir forces amb els soldats d'aquelles terres per fer front a una amenaça compartida? Els monstres o una horda invasor us van expulsar de la vostra terra natal, convertint-vos en un refugiat sense arrels? Potser eres un presoner de guerra, portat encadenat a terres \"civilitzades\" i només ara pots guanyar-te la teva llibertat. O potser t'han expulsat del teu poble a causa d'un crim que has comès, d'un tabú que has violat o d'un cop d'estat que t'ha destituït d'una posició d'autoritat.",
 								{
-									"type": "entries",
-									"name": "Quick Build",
+									"type": "entrades",
+									"name": "Construcció ràpida",
 									"entries": [
-										"You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the {@background outlander} background."
+										"Podeu fer un bàrbar ràpidament seguint aquests suggeriments. Primer, posa la teva puntuació d'habilitat més alta a Força, seguida de Constitució. En segon lloc, trieu el fons {@background outlander}."
 									]
 								}
 							]
@@ -339,33 +339,33 @@
 					"page": 46
 				},
 				{
-					"type": "section",
+					"type": "secció",
 					"entries": [
 						{
-							"type": "quote",
+							"type": "citar",
 							"entries": [
-								"I have witnessed the indomitable performance of barbarians on the field of battle, and it makes me wonder what force lies at the heart of their rage."
+								"He estat testimoni de l'actuació indomable dels bàrbars al camp de batalla, i em fa preguntar-me quina força hi ha al cor de la seva ràbia."
 							],
-							"by": "Seret, archwizard"
+							"by": "Seret, arximago"
 						},
-						"The anger felt by a normal person resembles the rage of a barbarian in the same way that a gentle breeze is akin to a furious thunderstorm. The barbarian's driving force comes from a place that transcends mere emotion, making its manifestation all the more terrible. Whether the impetus for the fury comes entirely from within or from forging a link with a spirit animal, a raging barbarian becomes able to perform supernatural feats of strength and endurance. The outburst is temporary, but while it lasts, it takes over body and mind, driving the barbarian on despite peril and injury, until the last enemy falls.",
-						"It can be tempting to play a barbarian character that is a straightforward application of the classic archetype\u2014a brute, and usually a dimwitted one at that, who rushes in where others fear to tread. But not all the barbarians in the world are cut from that cloth, so you can certainly put your own spin on things. Either way, consider adding some flourishes to make your barbarian stand out from all others; see the following sections for some ideas.",
+						"La ràbia que sent una persona normal s'assembla a la ràbia d'un bàrbar de la mateixa manera que una brisa suau s'assembla a una tempesta furiosa. El motor del bàrbar prové d'un lloc que transcendeix la mera emoció, fent-ne encara més terrible la manifestació. Tant si l'impuls de la fúria ve totalment de dins com si forja un vincle amb un animal espiritual, un bàrbar furioso esdevé capaç de realitzar gestes sobrenaturals de força i resistència. L'esclat és temporal, però mentre dura, s'apodera del cos i la ment, impulsant el bàrbar malgrat els perills i les ferides, fins que cau l'últim enemic.",
+						"Pot ser temptador interpretar un personatge bàrbar que és una aplicació senzilla de l'arquetip clàssic: un brut, i normalment un tonto, que s'afanya allà on els altres temen trepitjar. Però no tots els bàrbars del món estan tallats d'aquest drap, de manera que segur que podeu donar el vostre propi gir a les coses. Sigui com sigui, penseu en afegir-hi algunes floritures perquè el vostre bàrbar destaqui de tots els altres; consulteu les seccions següents per obtenir algunes idees.",
 						{
-							"type": "entries",
-							"name": "Personal Totems",
+							"type": "entrades",
+							"name": "Tòtems personals",
 							"entries": [
-								"Barbarians tend to travel light, carrying little in the way of personal effects or other unnecessary gear. The few possessions they do carry often include small items that have special significance. A personal totem is significant because it has a mystical origin or is tied to an important moment in the character's life\u2014perhaps a remembrance from the barbarian's past or a harbinger of what lies ahead.",
-								"A personal totem of this sort might be associated with a barbarian's spirit animal, or might actually be the totem object for the animal, but such a connection is not essential. One who has a bear totem spirit, for instance, could still carry an eagle's feather as a personal totem.",
-								"Consider creating one or more personal totems for your character\u2014objects that hold a special link to your character's past or future. Think about how a totem might affect your character's actions.",
+								"Els bàrbars solen viatjar lleugers, portant pocs efectes personals o altres equips innecessaris. Les poques possessions que porten sovint inclouen objectes petits que tenen un significat especial. Un tòtem personal és significatiu perquè té un origen místic o està lligat a un moment important de la vida del personatge, potser un record del passat del bàrbar o un presagi del que ens espera.",
+								"Un tòtem personal d'aquest tipus pot estar associat amb l'esperit animal d'un bàrbar, o en realitat podria ser l'objecte tòtem de l'animal, però aquesta connexió no és essencial. Un que té un esperit tòtem d'ós, per exemple, encara podria portar una ploma d'àguila com a tòtem personal.",
+								"Considera la possibilitat de crear un o més tòtems personals per al teu personatge: objectes que tinguin un enllaç especial amb el passat o el futur del teu personatge. Penseu en com un tòtem pot afectar les accions del vostre personatge.",
 								{
-									"type": "table",
-									"caption": "Personal Totems",
+									"type": "taula",
+									"caption": "Tòtems personals",
 									"colLabels": [
-										"{@dice d6}",
-										"Totem"
+										"{@dis d6}",
+										"Tòtem"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -428,20 +428,20 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Tattoos",
+							"type": "entrades",
+							"name": "Tatuatges",
 							"entries": [
-								"The members of many barbarian clans decorate their bodies with tattoos, each of which represents a significant moment in the life of the bearer or the bearer's ancestors, or which symbolizes a feeling or an attitude. As with personal totems, a barbarian's tattoos might or might not be related to an animal spirit.",
-								"Each tattoo a barbarian displays contributes to that individual's identity. If your character wears tattoos, what do they look like, and what do they represent?",
+								"Els membres de molts clans bàrbars decoren el seu cos amb tatuatges, cadascun dels quals representa un moment significatiu en la vida del portador o dels avantpassats del portador, o que simbolitzen un sentiment o una actitud. Igual que amb els tòtems personals, els tatuatges d'un bàrbar poden estar relacionats o no amb un esperit animal.",
+								"Cada tatuatge que mostra un bàrbar contribueix a la identitat d'aquest individu. Si el teu personatge porta tatuatges, quin aspecte tenen i què representen?",
 								{
-									"type": "table",
-									"caption": "Tattoos",
+									"type": "taula",
+									"caption": "Tatuatges",
 									"colLabels": [
-										"{@dice d6}",
-										"Tattoo"
+										"{@dis d6}",
+										"Tatuatge"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -504,22 +504,22 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Superstitions",
+							"type": "entrades",
+							"name": "Supersticions",
 							"entries": [
-								"Barbarians vary widely in how they understand life. Some follow gods and look for guidance from those deities in the cycles of nature and the animals they encounter. These barbarians believe that spirits inhabit the plants and animals of the world, and the barbarians look to them for omens and power.",
-								"Other barbarians trust only in the blood that runs in their veins and the steel they hold in their hands. They have no use for the invisible world, instead relying on their senses to hunt and survive like the wild beasts they emulate.",
-								"Both of these attitudes can give rise to superstitions. These beliefs are often passed down within a family or shared among the members of a clan or a hunting group.",
-								"If your barbarian character has any superstitions, were they ingrained in you by your family, or are they the result of personal experience?",
+								"Els bàrbars varien molt en com entenen la vida. Alguns segueixen els déus i busquen guia d'aquestes divinitats en els cicles de la natura i els animals que troben. Aquests bàrbars creuen que els esperits habiten les plantes i els animals del món, i els bàrbars els busquen presagis i poder.",
+								"Altres bàrbars confien només en la sang que corre per les seves venes i en l'acer que tenen a les mans. No serveixen per al món invisible, sinó que confien en els seus sentits per caçar i sobreviure com les bèsties salvatges que emulen.",
+								"Ambdues actituds poden donar lloc a supersticions. Aquestes creences sovint es transmeten dins d'una família o es comparteixen entre els membres d'un clan o un grup de caçadors.",
+								"Si el teu personatge bàrbar té alguna superstició, les va arrelar la teva família o són fruit de l'experiència personal?",
 								{
-									"type": "table",
-									"caption": "Superstition",
+									"type": "taula",
+									"caption": "Superstició",
 									"colLabels": [
-										"{@dice d6}",
-										"Superstition"
+										"{@dis d6}",
+										"Superstició"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -590,96 +590,96 @@
 	],
 	"subclass": [
 		{
-			"name": "Path of the Berserker",
+			"name": "Camí del Berserker",
 			"shortName": "Berserker",
 			"source": "PHB",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 49,
 			"srd": true,
 			"subclassFeatures": [
-				"Path of the Berserker|Barbarian||Berserker||3",
-				"Mindless Rage|Barbarian||Berserker||6",
-				"Intimidating Presence|Barbarian||Berserker||10",
-				"Retaliation|Barbarian||Berserker||14"
+				"Camí del Berserker|Bàrbar||Berserker||3",
+				"Mindless Rage|Bàrbar||Berserker||6",
+				"Presència intimidant|Bàrbar||Berserker||10",
+				"Represalia|Bàrbar||Berserker||14"
 			]
 		},
 		{
-			"name": "Path of the Totem Warrior",
-			"shortName": "Totem Warrior",
+			"name": "Camí del guerrer tòtem",
+			"shortName": "Guerrer Tòtem",
 			"source": "PHB",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 50,
 			"additionalSpells": [
 				{
 					"innate": {
 						"3": [
-							"beast sense",
-							"speak with animals"
+							"sentit bèstia",
+							"parlar amb animals"
 						],
 						"10": [
-							"commune with nature"
+							"comuna amb la natura"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Path of the Totem Warrior|Barbarian||Totem Warrior||3",
-				"Aspect of the Beast|Barbarian||Totem Warrior||6",
-				"Spirit Walker|Barbarian||Totem Warrior||10",
-				"Totemic Attunement|Barbarian||Totem Warrior||14"
+				"Camí del Guerrer Tòtem|Bàrbar||Guerrer Tòtem||3",
+				"Aspecte de la Bèstia|Bàrbar||Guerrer Tòtem||6",
+				"Spirit Walker|Bàrbar||Guerrer Tòtem||10",
+				"Sintonització Totèmica|Bàrbar||Guerrer Tòtem||14"
 			]
 		},
 		{
-			"name": "Path of the Battlerager",
+			"name": "Camí del Battlerager",
 			"shortName": "Battlerager",
 			"source": "SCAG",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 121,
 			"subclassFeatures": [
-				"Path of the Battlerager|Barbarian||Battlerager|SCAG|3",
+				"Camí del Battlerager|Bàrbar||Battlerager|SCAG|3",
 				"Reckless Abandon|Barbarian||Battlerager|SCAG|6",
 				"Battlerager Charge|Barbarian||Battlerager|SCAG|10",
 				"Spiked Retribution|Barbarian||Battlerager|SCAG|14"
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian (UA)",
-			"shortName": "Ancestral Guardian (UA)",
+			"name": "Camí del Guardià Ancestral (UA)",
+			"shortName": "Guardià ancestral (UA)",
 			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3",
-				"Ancestral Shield|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|14"
+				"Path of the Ancestral Guardian|Bàrbar||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3",
+				"Escut Ancestral|Bàrbar||Guardià Ancestral (UA)|UABarbarianPrimalPaths|6",
+				"Consulta els esperits|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|10",
+				"Ancestres venjadors|Bàrbar||Guardià ancestral (UA)|UABarbarianPrimalPaths|14"
 			]
 		},
 		{
 			"name": "Path of the Storm Herald (UA)",
 			"shortName": "Storm Herald (UA)",
 			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Path of the Storm Herald|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|3",
 				"Storm Soul|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|6",
-				"Shield of the Storm|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|10",
+				"Escut de la tempesta|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|10",
 				"Raging Storm|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|14"
 			]
 		},
 		{
-			"name": "Path of the Zealot (UA)",
-			"shortName": "Zealot (UA)",
+			"name": "Camí del Zelote (UA)",
+			"shortName": "Zelote (UA)",
 			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
@@ -694,229 +694,229 @@
 			"name": "Path of the Ancestral Guardian v2 (UA)",
 			"shortName": "Ancestral Guardian v2 (UA)",
 			"source": "UARevisedSubclasses",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
-			"spellcastingAbility": "wis",
+			"spellcastingAbility": "sabia",
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian v2|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
+				"Path of the Ancestral Guardian v2|Bàrbar||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
 				"Ancestral Shield|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
+				"Consulta els esperits|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
+				"Vengeful Ancestors|Bàrbar||Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian",
-			"shortName": "Ancestral Guardian",
+			"name": "Camí del Guardià Ancestral",
+			"shortName": "Guardià ancestral",
 			"source": "XGE",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 9,
-			"spellcastingAbility": "wis",
+			"spellcastingAbility": "sabia",
 			"additionalSpells": [
 				{
 					"innate": {
 						"10": [
-							"augury",
-							"clairvoyance"
+							"auguri",
+							"clarividència"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Barbarian||Ancestral Guardian|XGE|3",
-				"Spirit Shield|Barbarian||Ancestral Guardian|XGE|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian|XGE|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian|XGE|14"
+				"Camí del Guardià Ancestral|Bàrbar||Guardià Ancestral|XGE|3",
+				"Escut espiritual|Bàrbar||Guardià ancestral|XGE|6",
+				"Consulta els Esperits|Bàrbar||Guardià Ancestral|XGE|10",
+				"Ancestres venjatius|Bàrbar||Guardià ancestral|XGE|14"
 			]
 		},
 		{
-			"name": "Path of the Storm Herald",
-			"shortName": "Storm Herald",
+			"name": "Sender de l'Herald de la Tempesta",
+			"shortName": "Herald de la tempesta",
 			"source": "XGE",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 10,
 			"subclassFeatures": [
-				"Path of the Storm Herald|Barbarian||Storm Herald|XGE|3",
-				"Storm Soul|Barbarian||Storm Herald|XGE|6",
-				"Shielding Storm|Barbarian||Storm Herald|XGE|10",
-				"Raging Storm|Barbarian||Storm Herald|XGE|14"
+				"Path of the Storm Herald|Bàrbar||Storm Herald|XGE|3",
+				"Storm Soul|Bàrbar||Storm Herald|XGE|6",
+				"Tempesta protectora|Bàrbar||Storm Herald|XGE|10",
+				"Tempesta furiosa|Bàrbar||Storm Herald|XGE|14"
 			]
 		},
 		{
-			"name": "Path of the Zealot",
-			"shortName": "Zealot",
+			"name": "Camí del Zelote",
+			"shortName": "Fanàtic",
 			"source": "XGE",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassFeatures": [
-				"Path of the Zealot|Barbarian||Zealot|XGE|3",
-				"Fanatical Focus|Barbarian||Zealot|XGE|6",
-				"Zealous Presence|Barbarian||Zealot|XGE|10",
-				"Rage beyond Death|Barbarian||Zealot|XGE|14"
+				"Camí del Zelote|Bàrbar||Zelot|XGE|3",
+				"Focus Fanàtic|Bàrbar||Zealot|XGE|6",
+				"Zealous Presence|Bàrbar||Zealot|XGE|10",
+				"Ràbia més enllà de la mort|Bàrbar||Zealot|XGE|14"
 			]
 		},
 		{
-			"name": "Path of the Wild Soul (UA)",
+			"name": "Camí de l'ànima salvatge (UA)",
 			"shortName": "Wild Soul (UA)",
 			"source": "UABarbarianAndMonk",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Path of the Wild Soul|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3",
-				"Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|6",
+				"Reserves Màgiques|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|6",
 				"Arcane Rebuke|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|10",
 				"Chaotic Fury|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14",
-				"Improved Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14"
+				"Reserves màgiques millorades|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14"
 			]
 		},
 		{
-			"name": "Path of the Beast (UA)",
-			"shortName": "Beast (UA)",
+			"name": "El camí de la bèstia (UA)",
+			"shortName": "Bèstia (UA)",
 			"source": "UA2020SubclassesPt1",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Path of the Beast|Barbarian||Beast (UA)|UA2020SubclassesPt1|3",
-				"Bestial Soul|Barbarian||Beast (UA)|UA2020SubclassesPt1|6",
-				"Infectious Fury|Barbarian||Beast (UA)|UA2020SubclassesPt1|10",
-				"Call the Hunt|Barbarian||Beast (UA)|UA2020SubclassesPt1|14"
+				"Ànima Bestial|Bàrbar||Bèstia (UA)|UA2020Subclasses Pt1|6",
+				"Fúria infecciosa|Bàrbar||Bèstia (UA)|UA2020Subclasses Pt1|10",
+				"Call the Hunt|Barbarian||Beast (UA)|UA2020Subclasses Pt1|14"
 			]
 		},
 		{
-			"name": "Path of the Beast",
-			"shortName": "Beast",
+			"name": "Camí de la bèstia",
+			"shortName": "Bèstia",
 			"source": "TCE",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 24,
 			"subclassFeatures": [
-				"Path of the Beast|Barbarian||Beast|TCE|3",
-				"Bestial Soul|Barbarian||Beast|TCE|6",
-				"Infectious Fury|Barbarian||Beast|TCE|10",
-				"Call the Hunt|Barbarian||Beast|TCE|14"
+				"Camí de la Bèstia|Bàrbar||Bèstia|TCE|3",
+				"Ànima Bestial|Bàrbar||Bèstia|TCE|6",
+				"Fúria Infecciosa|Bàrbar||Bèstia|TCE|10",
+				"Crida la caça|Bàrbar||Bèstia|TCE|14"
 			]
 		},
 		{
-			"name": "Path of Wild Magic",
-			"shortName": "Wild Magic",
+			"name": "Camí de la màgia salvatge",
+			"shortName": "Màgia Salvatge",
 			"source": "TCE",
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 25,
 			"subclassFeatures": [
-				"Path of Wild Magic|Barbarian||Wild Magic|TCE|3",
-				"Bolstering Magic|Barbarian||Wild Magic|TCE|6",
-				"Unstable Backlash|Barbarian||Wild Magic|TCE|10",
-				"Controlled Surge|Barbarian||Wild Magic|TCE|14"
+				"Camí de la màgia salvatge|Bàrbar||Màgia salvatge|TCE|3",
+				"Potenciar la màgia|Bàrbar||Màgia salvatge|TCE|6",
+				"Reacció inestable|Bàrbar||Màgia salvatge|TCE|10",
+				"Surge controlat|Bàrbar||Màgia salvatge|TCE|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Rage",
+			"name": "ràbia",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.",
-				"While raging, you gain the following benefits if you aren't wearing heavy armor:",
+				"A la batalla, lluites amb una ferocitat primordial. Al teu torn, pots introduir una ràbia com a acció addicional.",
+				"Mentre us enfureu, obteniu els següents beneficis si no porteu una armadura pesada:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"You have advantage on Strength checks and Strength saving throws.",
-						"When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.",
-						"You have resistance to bludgeoning, piercing, and slashing damage."
+						"Tens avantatge en proves de Força i en tirs de salvació de Força.",
+						"Quan feu un atac d'arma cos a cos amb Força, obteniu una bonificació +2 a la tirada de danys. Aquesta bonificació augmenta a mesura que aneu de nivell.",
+						"Tens resistència als cops, perforacions i danys tallants."
 					]
 				},
-				"If you are able to cast spells, you can't cast them or concentrate on them while raging.",
-				"Your rage lasts for 1 minute. It ends early if you are knocked {@condition unconscious} or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.",
-				"Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th."
+				"Si ets capaç de llançar encanteris, no pots llançar-los ni concentrar-te en ells mentre estàs enfurismat.",
+				"La teva ràbia dura 1 minut. Acaba abans d'hora si et deixen {@condition inconscient} o si s'acaba el teu torn i no has atacat cap criatura hostil des del teu darrer torn ni has fet dany des de llavors. També pots acabar amb la teva ràbia en el teu torn com a acció addicional.",
+				"Un cop hagis enfurismat el nombre màxim de vegades per al teu nivell de bàrbar, has d'acabar un llarg descans abans de poder tornar a enrabiar-te. Pots fer ràbia 2 vegades al 1r nivell, 3 al 3r, 4 al 6è, 5 al 12è i 6 al 17è."
 			]
 		},
 		{
-			"name": "Unarmored Defense",
+			"name": "Defensa sense blindatge",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+				"Mentre no porteu cap armadura, la vostra classe d'armadura és igual a 10 + el vostre modificador de Destresa + el vostre modificador de constitució. Podeu utilitzar un escut i encara obtenir aquest benefici."
 			]
 		},
 		{
-			"name": "Danger Sense",
+			"name": "Sentit del perill",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+				"Al 2n nivell, obtens una sensació estranya de quan les coses properes no són com haurien de ser, donant-te una avantatge quan t'esquives del perill. Tens avantatge en les tirades de salvació de Destresa contra efectes que pots veure, com ara trampes i encanteris. Per obtenir aquest avantatge, no podeu estar {@condition blinded}, {@condition defened} o {@condition incapacitated}."
 			]
 		},
 		{
-			"name": "Reckless Attack",
+			"name": "Atac imprudent",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
+				"A partir del 2n nivell, podeu deixar de banda tota preocupació per la defensa per atacar amb ferotge desesperació. Quan feu el vostre primer atac al vostre torn, podeu decidir atacar de manera temerària. Fer-ho et donarà avantatge a les tires d'atac d'armes cos a cos utilitzant Força durant aquest torn, però les tirades d'atac en contra teu tenen avantatge fins al teu següent torn."
 			]
 		},
 		{
-			"name": "Survival Instincts",
+			"name": "Instints de supervivència",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 2nd-level barbarian feature (replaces Danger Sense)}",
-				"You become proficient in your choice of two of the following skills: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, or {@skill Survival}.",
-				"Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
+				"{@i Funció bàrbara de segon nivell (substitueix el sentit del perill)}",
+				"Arribeu a ser competent en l'elecció de dues de les habilitats següents: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, {@skill Perception} o {@skill Survival}.",
+				"La teva bonificació de competència es duplica per a qualsevol prova d'habilitat que facis que utilitzi qualsevol d'aquestes habilitats."
 			]
 		},
 		{
-			"name": "Primal Knowledge",
+			"name": "Coneixement primari",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 3rd-level barbarian {@variantrule optional class features|tce|optional feature}}",
-				"When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level."
+				"{@i Bàrbar de tercer nivell {@variantrule característiques de classe opcionals|tce|funció opcional}}",
+				"Quan arribeu al 3r nivell i de nou al 10è nivell, obteniu la competència en una habilitat que trieu de la llista d'habilitats disponibles per als bàrbars al primer nivell."
 			]
 		},
 		{
-			"name": "Primal Path",
+			"name": "Camí primigeni",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you choose a path that shapes the nature of your rage from the list of available paths. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
+				"Al 3r nivell, trieu un camí que modeli la naturalesa de la vostra ràbia de la llista de camins disponibles. La teva elecció t'ofereix funcions al 3r nivell i de nou als nivells 6è, 10è i 14è."
 			]
 		},
 		{
@@ -924,101 +924,101 @@
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"Quan arribeu al 4t nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, no podeu augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció.",
+				"Si el vostre DM permet l'ús de proeses, podeu utilitzar un {@5etools feat|feats.html}."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 4th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Extra Attack",
+			"name": "Atac extra",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"A partir del 5è nivell, pots atacar dues vegades, en lloc d'una vegada, sempre que facis l'acció {@action Attack} al teu torn."
 			]
 		},
 		{
-			"name": "Fast Movement",
+			"name": "Moviment ràpid",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor."
+				"A partir del 5è nivell, la vostra velocitat augmenta 10 peus mentre no porteu una armadura pesada."
 			]
 		},
 		{
-			"name": "Instinctive Pounce",
+			"name": "Salta instintiva",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 5,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 5th-level barbarian feature (replaces Fast Movement)}",
-				"When a creature ends its turn within 15 feet of you, you can use your reaction to move up to half your speed to a space closer to the creature. This movement doesn't provoke opportunity attacks."
+				"{@i Funció bàrbar de 5è nivell (substitueix el moviment ràpid)}",
+				"Quan una criatura acaba el seu torn a 15 peus de tu, pots utilitzar la teva reacció per moure fins a la meitat de la teva velocitat a un espai més a prop de la criatura. Aquest moviment no provoca atacs d'oportunitat."
 			]
 		},
 		{
-			"name": "Path Feature",
+			"name": "Característica del camí",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain a feature from your Primal Path."
+				"Al 6è nivell, obteniu una característica del vostre camí primordial."
 			]
 		},
 		{
-			"name": "Feral Instinct",
+			"name": "Instint salvatge",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"By 7th level, your instincts are so honed that you have advantage on initiative rolls.",
-				"Additionally, if you are surprised at the beginning of combat and aren't {@condition incapacitated}, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+				"Al 7è nivell, els teus instints estan tan perfeccionats que tens avantatge a les tirades d'iniciativa.",
+				"A més, si et sorprèn l'inici del combat i no estàs {@condition incapacitated}, pots actuar amb normalitat en el teu primer torn, però només si entres la teva ràbia abans de fer qualsevol altra cosa en aquest torn."
 			]
 		},
 		{
-			"name": "Instinctive Pounce",
+			"name": "Salta instintiva",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 7,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 7th-level barbarian {@variantrule optional class features|tce|optional feature}}",
-				"As part of the bonus action you take to enter your rage, you can move up to half your speed."
+				"{@i Bàrbar de 7è nivell {@variantrule característiques de classe opcionals|tce|funció opcional}}",
+				"Com a part de l'acció addicional que feu per entrar en la vostra ràbia, podeu moure fins a la meitat de la vostra velocitat."
 			]
 		},
 		{
@@ -1026,64 +1026,64 @@
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM uses the optional Feats, you can instead take a feat."
+				"Quan arribeu al 8è nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, no podeu augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció.",
+				"Si el vostre DM utilitza les proeses opcionals, podeu fer-ne una."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 8th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Brutal Critical (1 die)",
+			"name": "Crític brutal (1 dau)",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 9,
 			"entries": [
-				"Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.",
-				"This increases to two additional dice at 13th level and three additional dice at 17th level."
+				"A partir del nivell 9, podeu llançar un dau de dany d'arma addicional quan determineu el dany addicional per un cop crític amb un atac cos a cos.",
+				"Això augmenta a dos daus addicionals al nivell 13 i tres daus addicionals al nivell 17."
 			]
 		},
 		{
-			"name": "Path feature",
+			"name": "Característica del camí",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain a feature from your Primal Path."
+				"Al nivell 10, obteniu una característica del vostre camí primordial."
 			]
 		},
 		{
-			"name": "Relentless Rage",
+			"name": "Ràbia implacable",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.",
-				"Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+				"A partir del nivell 11, la teva ràbia pot mantenir-te lluitant malgrat les ferides greus. Si baixes fins a 0 punts de vida mentre estàs furioso i no mors del tot, pots fer una tirada de salvació de Constitució DC 10. Si ho aconsegueixes, baixaràs a 1 punt de vida.",
+				"Cada vegada que utilitzeu aquesta funció després de la primera, el CC augmenta en 5. Quan acabeu un descans curt o llarg, el CC es restableix a 10."
 			]
 		},
 		{
@@ -1091,63 +1091,63 @@
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM uses the optional Feats, you can instead take a feat."
+				"Quan arribeu al nivell 12, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, no podeu augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció.",
+				"Si el vostre DM utilitza les proeses opcionals, podeu fer-ne una."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 12th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Brutal Critical (2 dice)",
+			"name": "Crític brutal (2 daus)",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 13,
 			"entries": [
-				"At 13th level, you can roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.",
-				"This increases to three additional dice at 17th level."
+				"Al nivell 13, podeu llançar dos daus de dany d'arma addicionals quan determineu el dany addicional per un cop crític amb un atac cos a cos.",
+				"Això augmenta a tres daus addicionals al nivell 17."
 			]
 		},
 		{
-			"name": "Path feature",
+			"name": "Característica del camí",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature from your Primal Path."
+				"Al nivell 14, obteniu una característica del vostre camí primordial."
 			]
 		},
 		{
-			"name": "Persistent Rage",
+			"name": "Ràbia persistent",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 15,
 			"entries": [
-				"Beginning at 15th level, your rage is so fierce that it ends early only if you fall {@condition unconscious} or if you choose to end it."
+				"A partir del nivell 15, la teva ràbia és tan ferotge que s'acaba abans d'hora si caus {@condition inconscient} o si decideixes acabar-la."
 			]
 		},
 		{
@@ -1155,50 +1155,50 @@
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM uses the optional Feats, you can instead take a feat."
+				"Quan arribeu al nivell 16, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, no podeu augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció.",
+				"Si el vostre DM utilitza les proeses opcionals, podeu fer-ne una."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 16th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Brutal Critical (3 dice)",
+			"name": "Crític brutal (3 daus)",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"At 17th level, you can roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+				"Al nivell 17, podeu llançar tres daus de dany d'arma addicionals quan determineu el dany addicional per un cop crític amb un atac cos a cos."
 			]
 		},
 		{
-			"name": "Indomitable Might",
+			"name": "Poder indomable",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+				"A partir del nivell 18, si el vostre total d'una prova de Força és inferior a la vostra puntuació de Força, podeu utilitzar aquesta puntuació en lloc del total."
 			]
 		},
 		{
@@ -1206,73 +1206,73 @@
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM uses the optional Feats, you can instead take a feat."
+				"Quan arribeu al nivell 19, podeu augmentar en 2 una puntuació d'habilitat que trieu, o bé podeu augmentar en 1 dues puntuacions d'habilitat que trieu. Com és normal, no podeu augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció.",
+				"Si el vostre DM utilitza les proeses opcionals, podeu fer-ne una."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 19th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Primal Champion",
+			"name": "Campió Primordial",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24."
+				"Al nivell 20, encarnes el poder dels salvatges. Les teves puntuacions de Força i Constitució augmenten en 4. El teu màxim per a aquestes puntuacions és ara 24."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of the Berserker",
+			"name": "Camí del Berserker",
 			"source": "PHB",
 			"page": 49,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"For some barbarians, rage is a means to an end\u2014that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
+				"Per a alguns bàrbars, la ràbia és un mitjà per aconseguir un fi, que és la violència. El camí del Berserker és un camí de fúria sense traves, llisos de sang. Quan entres en la ràbia del berserker, t'emociones en el caos de la batalla, sense tenir en compte la teva pròpia salut o benestar.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Frenzy|Barbarian||Berserker||3"
+					"subclassFeature": "Frenesi|Bàrbar||Berserker||3"
 				}
 			]
 		},
 		{
-			"name": "Frenzy",
+			"name": "Frenesí",
 			"source": "PHB",
 			"page": 49,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of {@condition exhaustion}."
+				"Començant quan trieu aquest camí al 3r nivell, podeu entrar en un frenesí quan us enfadeu. Si ho fas, durant la teva ràbia, pots fer un únic atac d'arma cos a cos com a acció addicional en cadascun dels teus torns després d'aquest. Quan s'acaba la teva ràbia, pateixes un nivell d'{@condition agotament}."
 			]
 		},
 		{
@@ -1280,146 +1280,146 @@
 			"source": "PHB",
 			"page": 49,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you can't be {@condition charmed} or {@condition frightened} while raging. If you are {@condition charmed} or {@condition frightened} when you enter your rage, the effect is suspended for the duration of the rage."
+				"A partir del 6è nivell, no pots estar {@condition charmed} o {@condition frightened} mentre estàs furioso. Si estàs {@condition charmed} o {@condition frightened} quan introduïs la teva ràbia, l'efecte se suspèn mentre duri la ràbia."
 			]
 		},
 		{
-			"name": "Intimidating Presence",
+			"name": "Presència intimidant",
 			"source": "PHB",
 			"page": 49,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + el teu modificador de Carisma) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
-				"If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+				"A partir del nivell 10, podeu utilitzar la vostra acció per espantar algú amb la vostra presència amenaçadora. Quan ho facis, tria una criatura que puguis veure a 30 peus de tu. Si la criatura pot veure't o escoltar-te, ha de tenir èxit en una tirada de salvació de Saviesa (CD igual a 8 + la teva bonificació de competència + el teu modificador de Carisma) o tenir {@condició por de tu} fins al final del teu següent torn. En els torns següents, pots utilitzar la teva acció per allargar la durada d'aquest efecte sobre la criatura {@condition frightened} fins al final del teu següent torn. Aquest efecte acaba si la criatura acaba el seu torn fora de la línia de visió o a més de 60 peus de tu.",
+				"Si la criatura té èxit en la seva tirada de salvació, no podràs tornar a utilitzar aquesta funció en aquesta criatura durant 24 hores."
 			]
 		},
 		{
-			"name": "Retaliation",
+			"name": "Represalia",
 			"source": "PHB",
 			"page": 49,
 			"srd": true,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+				"A partir del nivell 14, quan reps dany d'una criatura que es troba a menys de 5 peus de tu, pots utilitzar la teva reacció per fer un atac d'arma cos a cos contra aquesta criatura."
 			]
 		},
 		{
-			"name": "Bear",
+			"name": "Suportar",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment."
+				"Mentre estàs enfurismat, tens resistència a tots els danys excepte al dany psíquic. L'esperit de l'ós et fa prou dur per suportar qualsevol càstig."
 			]
 		},
 		{
-			"name": "Eagle",
+			"name": "àguila",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the {@action Dash} action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease."
+				"Mentre estàs enfurismat i no portes armadura pesada, altres criatures tenen desavantatge en les tirades d'atac d'oportunitat contra tu, i pots utilitzar l'acció {@action Dash} com a acció addicional al teu torn. L'esperit de l'àguila et converteix en un depredador que pot travessar la lluita amb facilitat."
 			]
 		},
 		{
-			"name": "Path of the Totem Warrior",
+			"name": "Camí del guerrer tòtem",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.",
-				"Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
+				"El camí del guerrer tòtem és un viatge espiritual, ja que el bàrbar accepta un esperit animal com a guia, protector i inspiració. A la batalla, el teu esperit tòtem t'omple de poder sobrenatural, afegint combustible màgic a la teva ràbia bàrbara.",
+				"La majoria de les tribus bàrbares consideren que un animal tòtem és familiar d'un clan en particular. En aquests casos, és inusual que un individu tingui més d'un esperit animal tòtem, encara que hi ha excepcions.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Seeker|Barbarian||Totem Warrior||3"
+					"subclassFeature": "Buscador d'esperits|Bàrbar||Guerrer tòtem||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Totem Spirit|Barbarian||Totem Warrior||3"
+					"subclassFeature": "Esperit Tòtem|Bàrbar||Guerrer Tòtem||3"
 				}
 			]
 		},
 		{
-			"name": "Wolf",
+			"name": "Llop",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters."
+				"Mentre estàs enfurismat, els teus amics tenen avantatge a les tirades d'atac cos a cos contra qualsevol criatura a 5 peus de tu que et sigui hostil. L'esperit del llop et converteix en un líder dels caçadors."
 			]
 		},
 		{
-			"name": "Spirit Seeker",
+			"name": "Buscador d'esperits",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the {@spell beast sense} i {@spell speak with animals} spells, but only as rituals, as described in {@book chapter 10|PHB|10|rituals}."
+				"El teu és un camí que busca la sintonització amb el món natural, donant-te un parentiu amb les bèsties. Al 3r nivell quan adopteu aquest camí, obteniu l'habilitat de llançar els encanteris {@spell beast sense} i {@spell parlar amb animals}, però només com a rituals, tal com es descriu a {@book chapter 10|PHB|10| rituals}."
 			]
 		},
 		{
-			"name": "Totem Spirit",
+			"name": "Esperit tòtem",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object\u2014an amulet or similar adornment\u2014that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.",
-				"Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.",
+				"Al 3r nivell, quan adopteu aquest camí, trieu un esperit tòtem i obteniu la seva característica. Heu de fabricar o adquirir un objecte físic tòtem —un amulet o adorn similar— que incorpori pell o plomes, urpes, dents o ossos de l'animal tòtem. A la vostra opció, també obteniu atributs físics menors que recorden el vostre esperit tòtem. Per exemple, si tens un esperit de tòtem d'ós, pot ser que tinguis una pelut i una pell gruixuda inusual, o si el teu tòtem és l'àguila, els teus ulls es tornen grocs brillants.",
+				"El vostre animal tòtem pot ser un animal relacionat amb els que s'enumeren aquí, però més adequat a la vostra terra natal. Per exemple, podeu triar un falcó o un voltor en lloc d'una àguila.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Bear|Barbarian||Totem Warrior||3"
+							"subclassFeature": "Ós|Bàrbar||Guerrer Tòtem||3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Eagle|Barbarian||Totem Warrior||3"
+							"subclassFeature": "Àguila|Bàrbar||Guerrer Tòtem||3"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -1427,78 +1427,78 @@
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Tiger|Barbarian|SCAG|Totem Warrior||3|SCAG"
+							"subclassFeature": "Tigre|Bàrbar|SCAG|Totem Warrior||3|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Wolf|Barbarian||Totem Warrior||3"
+							"subclassFeature": "Llop|Bàrbar||Guerrer Tòtem||3"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Bear",
+			"name": "Suportar",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects."
+				"Guanyes la força d'un ós. La vostra capacitat de càrrega (incloent-hi la càrrega màxima i l'elevació màxima) es duplica, i teniu avantatge en les comprovacions de força fetes per empènyer, estirar, aixecar o trencar objectes."
 			]
 		},
 		{
-			"name": "Eagle",
+			"name": "àguila",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks."
+				"Guanyes la vista d'una àguila. Pots veure fins a 1 milla de distància sense cap dificultat, capaç de discernir fins i tot detalls fins com si mires alguna cosa a no més de 100 peus de tu. A més, la llum tènue no imposa un desavantatge a les vostres comprovacions de Wisdom ({@skill Perception})."
 			]
 		},
 		{
-			"name": "Wolf",
+			"name": "Llop",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace."
+				"Adquireixes la sensibilitat caçadora d'un llop. Podeu fer un seguiment d'altres criatures mentre viatgeu a un ritme ràpid i podeu moure's sigil·losament mentre viatgeu a un ritme normal."
 			]
 		},
 		{
-			"name": "Aspect of the Beast",
+			"name": "Aspecte de la Bèstia",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.",
+				"Al 6è nivell, obteniu un benefici màgic basat en l'animal tòtem que trieu. Pots triar el mateix animal que has seleccionat al 3r nivell o un de diferent.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Bear|Barbarian||Totem Warrior||6"
+							"subclassFeature": "Ós|Bàrbar||Guerrer Tòtem||6"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Eagle|Barbarian||Totem Warrior||6"
+							"subclassFeature": "Àguila|Bàrbar||Guerrer Tòtem||6"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -1506,92 +1506,92 @@
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Tiger|Barbarian|SCAG|Totem Warrior||6|SCAG"
+							"subclassFeature": "Tigre|Bàrbar|SCAG|Totem Warrior||6|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Wolf|Barbarian||Totem Warrior||6"
+							"subclassFeature": "Llop|Bàrbar||Guerrer Tòtem||6"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Spirit Walker",
+			"name": "Caminador espiritual",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you can cast the {@spell commune with nature} spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek."
+				"Al nivell 10, pots llançar l'encanteri {@spell commune with nature}, però només com a ritual. Quan ho feu, us apareix una versió espiritual d'un dels animals que heu triat per a Totem Spirit o Aspect of the Beast per transmetre la informació que busqueu."
 			]
 		},
 		{
-			"name": "Bear",
+			"name": "Suportar",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}."
+				"Mentre estàs enfurismat, qualsevol criatura a menys de 5 peus de tu que et sigui hostil té un desavantatge a les tirades d'atac contra objectius diferents de tu o d'un altre personatge amb aquesta característica. Un enemic és immune a aquest efecte si no pot veure't ni escoltar-te o si no pot estar {@condition frightened}."
 			]
 		},
 		{
-			"name": "Eagle",
+			"name": "àguila",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+				"Mentre estàs enfurismat, tens una velocitat de vol igual a la teva velocitat de caminar actual. Aquest benefici només funciona en ràfegues curtes; caus si acabes el teu torn a l'aire i res més t'aguanta."
 			]
 		},
 		{
-			"name": "Wolf",
+			"name": "Llop",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature {@condition prone} when you hit it with melee weapon attack."
+				"Mentre estàs enfurismat, pots fer servir una acció addicional al teu torn per colpejar una criatura gran o més petita {@condition prone} quan la colpegis amb un atac cos a cos."
 			]
 		},
 		{
-			"name": "Totemic Attunement",
+			"name": "Sintonització totèmica",
 			"source": "PHB",
 			"page": 50,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.",
+				"Al nivell 14, obteniu un benefici màgic basat en un animal tòtem que trieu. Podeu triar el mateix animal que heu seleccionat anteriorment o un de diferent.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Bear|Barbarian||Totem Warrior||14"
+							"subclassFeature": "Ós|Bàrbar||Guerrer Tòtem||14"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Eagle|Barbarian||Totem Warrior||14"
+							"subclassFeature": "Àguila|Bàrbar||Guerrer Tòtem||14"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -1599,131 +1599,131 @@
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Tiger|Barbarian|SCAG|Totem Warrior||14|SCAG"
+							"subclassFeature": "Tigre|Bàrbar|SCAG|Totem Warrior||14|SCAG"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Wolf|Barbarian||Totem Warrior||14"
+							"subclassFeature": "Llop|Bàrbar||Guerrer Tòtem||14"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Path of the Battlerager",
+			"name": "Camí del Battlerager",
 			"source": "SCAG",
 			"page": 121,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
 			"entries": [
-				"Known as Kuldjargh (literally \"axe idiot\") in Nan, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
+				"Conegut com a Kuldjargh (literalment \"idiota de destral\") a Nan, els combatents són seguidors nans dels déus de la guerra i prenen el camí del Battlerager. S'especialitzen en portar {@item spiked armor|scag} voluminosos i llançar-se al combat, colpejant amb el propi cos i lliurant-se a la fúria de la batalla.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restriction - Dwarves Only|Barbarian||Battlerager|SCAG|3"
+					"subclassFeature": "Restricció: només nans|Bàrbar||Battlerager|SCAG|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battlerager Armor|Barbarian||Battlerager|SCAG|3"
+					"subclassFeature": "Armadura de Battlerager|Bàrbar||Battlerager|SCAG|3"
 				}
 			]
 		},
 		{
-			"name": "Battlerager Armor",
+			"name": "Armadura de Battlerager",
 			"source": "SCAG",
 			"page": 121,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this path at 3rd level, you gain the ability to use {@item spiked armor|scag} as a weapon.",
-				"While you are wearing {@item spiked armor|scag} and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal {@damage 1d4} de dany perforant. You use your Strength modifier for the attack and damage rolls.",
-				"Additionally, when you use the {@action Attack} action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+				"Quan trieu aquest camí al 3r nivell, obteniu l'habilitat d'utilitzar {@item spiked armor|scag} com a arma.",
+				"Mentre porteu {@item spiked armor|scag} i esteu furiosos, podeu fer servir una acció addicional per fer un atac d'arma cos a cos amb les puntes de l'armadura a un objectiu a 5 peus de vosaltres. Si l'atac colpeja, les punxes causen {@damage 1d4} de dany perforant. Utilitzeu el vostre modificador de Força per a les tires d'atac i de dany.",
+				"A més, quan feu servir l'acció {@action Attack} per agafar una criatura, l'objectiu rebrà 3 danys penetrants si la prova d'enfrontament té èxit."
 			]
 		},
 		{
-			"name": "Restriction - Dwarves Only",
+			"name": "Restricció: només nans",
 			"source": "SCAG",
 			"page": 121,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.",
-				"Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
+				"Només els nans poden seguir el camí del Battlerager. El lluitador omple un nínxol particular en la societat i la cultura nana.",
+				"El vostre DM pot aixecar aquesta restricció per adaptar-se millor a la campanya. La restricció existeix per als Regnes Oblidats. És possible que no s'apliqui a la configuració del vostre DM o a la versió dels regnes del vostre DM."
 			]
 		},
 		{
-			"name": "Reckless Abandon",
+			"name": "Abandonament imprudent",
 			"source": "SCAG",
 			"page": 121,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+				"A partir del sisè nivell, quan feu servir l'atac imprudent mentre us ràbia, també obteniu punts de vida temporals iguals al vostre modificador de constitució (mínim d'1). Desapareixen si queda algun d'ells quan s'acaba la teva ràbia."
 			]
 		},
 		{
-			"name": "Battlerager Charge",
+			"name": "Càrrega Battlerager",
 			"source": "SCAG",
 			"page": 121,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, you can take the {@action Dash} action as a bonus action while you are raging."
+				"A partir del nivell 10, pots fer l'acció {@action Dash} com a acció addicional mentre estàs enfurismat."
 			]
 		},
 		{
-			"name": "Spiked Retribution",
+			"name": "Retribució Spiked",
 			"source": "SCAG",
 			"page": 121,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Battlerager",
 			"subclassSource": "SCAG",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't {@condition incapacitated}, and are wearing {@item spiked armor|scag}."
+				"A partir del nivell 14, quan una criatura a menys de 5 peus de tu et colpeja amb un atac cos a cos, l'atacant rep 3 de dany penetrant si estàs furioso, no estàs {@condition incapacitat} i porta {@item spiked armor|scag }."
 			]
 		},
 		{
-			"name": "Path of the Beast",
+			"name": "Camí de la bèstia",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast",
+			"subclassShortName": "Bèstia",
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.",
-				"Such a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.",
+				"Els bàrbars que recorren el camí de la bèstia treuen la seva ràbia d'una espurna bestial que crema dins les seves ànimes. Aquella bèstia esclata enmig de la ràbia, transformant físicament el bàrbar.",
+				"Un bàrbar com aquest podria estar habitat per un esperit primigeni o descendir dels canviadors de forma. Podeu triar l'origen del vostre poder salvatge o determinar-lo fent rodar a la taula Origen de la bèstia.",
 				{
-					"type": "table",
-					"caption": "Origin of the Beast",
+					"type": "taula",
+					"caption": "Origen de la Bèstia",
 					"colLabels": [
 						"d4",
-						"Origin"
+						"Origen"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -1747,171 +1747,171 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form of the Beast|Barbarian||Beast|TCE|3"
+					"subclassFeature": "Forma de la Bèstia|Bàrbar||Bèstia|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "Form of the Beast",
+			"name": "Forma de la bèstia",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast",
+			"subclassShortName": "Bèstia",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Path of the Beast feature}",
-				"When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.",
-				"You choose the weapon's form each time you rage:",
+				"{@i Funció de 3r nivell del camí de la bèstia}",
+				"Quan entres en la teva ràbia, pots transformar-te, revelant el poder bestial dins teu. Fins que s'acabi la ràbia, manifestes una arma natural. Compta com una simple arma cos a cos per a tu, i afegeixes el teu modificador de Força a les tires d'atac i de dany quan l'ataques amb ella, com és normal.",
+				"Trieu la forma de l'arma cada vegada que feu ràbia:",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Bite.",
-							"entry": "Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals {@damage 1d8} de dany perforant on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit."
+							"type": "article",
+							"name": "Mossegada.",
+							"entry": "La teva boca es transforma en un musell bestial o en grans mandíbules (la teva elecció). Ofereix {@damage 1d8} de dany perforant en un cop. Un cop en cada un dels teus torns quan fas mal a una criatura amb aquesta mossegada, recuperes un nombre de punts de vida igual a la teva bonificació de competència, sempre que tinguis menys de la meitat dels teus punts de vida quan pegues."
 						},
 						{
-							"type": "item",
-							"name": "Claws.",
-							"entry": "Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals {@damage 1d6} de dany tallant on a hit. Once on each of your turns when you attack with a claw using the {@action Attack} action, you can make one additional claw attack as part of the same action."
+							"type": "article",
+							"name": "Urpes.",
+							"entry": "Cada una de les teves mans es transforma en una urpa, que pots utilitzar com a arma si està buida. Ofereix {@damage 1d6} de Dany Tallant en un cop. Un cop en cadascun dels vostres torns quan ataceu amb una urpa utilitzant l'acció {@action Attack}, podeu fer un atac d'urpa addicional com a part de la mateixa acció."
 						},
 						{
-							"type": "item",
-							"name": "Tail.",
-							"entry": "You grow a lashing, spiny tail, which deals {@damage 1d8} de dany perforant on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a {@dice d8}, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you."
+							"type": "article",
+							"name": "Cua.",
+							"entry": "Et fa créixer una cua espinosa i lligada que causa {@damage 1d8} de dany perforant en un cop i té la propietat d'abast. Si una criatura que podeu veure a menys de 10 peus de vosaltres us colpeja amb una tirada d'atac, podeu utilitzar la vostra reacció per lliscar la cua i tirar un {@dau d8}, aplicant una bonificació a la vostra CA igual al nombre llançat, que pot provocar l'atac per trobar-te a faltar."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Bestial Soul",
+			"name": "Ànima Bestial",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast",
+			"subclassShortName": "Bèstia",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Path of the Beast feature}",
-				"The feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-				"You can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish your next short or long rest:",
+				"{@i Funció Sender de la Bèstia de 6è nivell}",
+				"El poder salvatge dins teu augmenta, fent que les armes naturals de la teva Forma de la Bèstia es comptin com a màgiques amb el propòsit de vèncer la resistència i la immunitat als atacs i danys no màgics.",
+				"També podeu modificar la vostra forma per ajudar-vos a adaptar-vos al vostre entorn. Quan acabis un descans curt o llarg, tria un dels avantatges següents, que dura fins que acabis el següent descans curt o llarg:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"You gain a swimming speed equal to your walking speed, and you can breathe underwater.",
+						"Guanyes una velocitat de natació igual a la teva velocitat de caminar i pots respirar sota l'aigua.",
 						"You gain a climbing speed equal to your walking speed, and you pot escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat.",
-						"When you jump, you can make a Strength ({@skill Athletics}) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn."
+						"Quan saltes, pots fer una prova de Força ({@skill Athletics}) i ampliar el teu salt un nombre de peus igual al total de la prova. Podeu fer aquesta comprovació especial només una vegada per torn."
 					]
 				}
 			]
 		},
 		{
-			"name": "Infectious Fury",
+			"name": "Fúria Infecciosa",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast",
+			"subclassShortName": "Bèstia",
 			"subclassSource": "TCE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Path of the Beast feature}",
-				"When you hit a creature with your natural weapons while you are raging, the beast within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):",
+				"{@i Funció de 10è nivell del camí de la bèstia}",
+				"Quan colpeja una criatura amb les teves armes naturals mentre estàs enfurismat, la bèstia dins teu pot maleir el teu objectiu amb una fúria rabiosa. L'objectiu ha de tenir èxit en una tirada de salvació de saviesa (CD igual a 8 + el teu modificador de Constitució + la teva bonificació de competència) o patir un dels efectes següents (la teva elecció):",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"The target must use its reaction to make a melee attack against another creature of your choice that you can see.",
-						"The target takes {@damage 2d12} de dany psíquic."
+						"L'objectiu ha d'utilitzar la seva reacció per fer un atac cos a cos contra una altra criatura de la vostra elecció que podeu veure.",
+						"L'objectiu pren {@damage 2d12} de dany psíquic."
 					]
 				},
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"Podeu utilitzar aquesta funció un nombre de vegades igual a la vostra bonificació de competència i recupereu tots els usos gastats quan acabeu un descans llarg."
 			]
 		},
 		{
-			"name": "Call the Hunt",
+			"name": "Truca a la caça",
 			"source": "TCE",
 			"page": 24,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast",
+			"subclassShortName": "Bèstia",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Path of the Beast feature}",
-				"The beast within you grows so powerful that you can spread its ferocity to others and gain resilience from them joining your hunt. When you enter your rage, you can choose a number of other willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature).",
-				"You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can each use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a {@dice d6} and gain a bonus to the damage equal to the number rolled.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i Funció de nivell 14 del camí de la bèstia}",
+				"La bèstia dins teu creix tan poderosa que pots difondre la seva ferocitat als altres i guanyar resistència quan s'uneixin a la teva caça. Quan entres a la teva ràbia, pots triar un nombre d'altres criatures disposades que pots veure a 30 peus de tu, igual al teu modificador de Constitució (mínim d'una criatura).",
+				"Guanyes 5 punts de vida temporals per cada criatura que accepti aquesta funció. Fins que acabi la ràbia, les criatures escollides poden utilitzar el següent benefici una vegada en cadascun dels seus torns: quan la criatura colpeja un objectiu amb una tirada d'atac i li fa dany, la criatura pot tirar un {@dau d6} i obtenir un una bonificació al dany igual al nombre llançat.",
+				"Podeu utilitzar aquesta funció un nombre de vegades igual a la vostra bonificació de competència i recupereu tots els usos gastats quan acabeu un descans llarg."
 			]
 		},
 		{
-			"name": "Path of Wild Magic",
+			"name": "Camí de la màgia salvatge",
 			"source": "TCE",
 			"page": 25,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Wild Magic",
+			"subclassShortName": "Màgia Salvatge",
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Many places in the multiverse abound with beauty, intense emotion, and rampant magic; the Feywild, the Upper Planes, and other realms of supernatural power radiate with such forces and can profoundly influence people. As folk of deep feeling, barbarians are especially susceptible to these wild influences, with some barbarians being transformed by the magic. These magic-suffused barbarians walk the Path of Wild Magic. Elf, tiefling, aasimar, and genasi barbarians often seek this path, eager to manifest the otherworldly magic of their ancestors.",
+				"Molts llocs del multivers abunden de bellesa, emoció intensa i màgia desenfrenada; el Feywild, els Plans Superiors i altres regnes de poder sobrenatural irradien aquestes forces i poden influir profundament en les persones. Com a gent de sentiments profunds, els bàrbars són especialment susceptibles a aquestes influències salvatges, amb alguns bàrbars transformats per la màgia. Aquests bàrbars amb màgia recorren el camí de la màgia salvatge. Els bàrbars elfs, tiefling, aasimar i genasi sovint busquen aquest camí, amb ganes de manifestar la màgia d'un altre món dels seus avantpassats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Awareness|Barbarian||Wild Magic|TCE|3"
+					"subclassFeature": "Consciència de la màgia|Bàrbar||Màgia salvatge|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Surge|Barbarian||Wild Magic|TCE|3"
+					"subclassFeature": "Wild Surge|Bàrbar||Wild Magic|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "Magic Awareness",
+			"name": "Consciència màgica",
 			"source": "TCE",
 			"page": 25,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Wild Magic",
+			"subclassShortName": "Màgia Salvatge",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Path of Wild Magic feature}",
-				"As an action, you can open your awareness to the presence of concentrated magic. Until the end of your next turn, you know the location of any spell or magic item within 60 feet of you that isn't behind total cover. When you sense a spell, you learn which school of magic it belongs to.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"{@i Funció Path of Wild Magic de 3r nivell}",
+				"Com a acció, podeu obrir la vostra consciència a la presència de la màgia concentrada. Fins al final del vostre proper torn, coneixeu la ubicació de qualsevol encanteri o objecte màgic a 60 peus de vosaltres que no estigui darrere de la cobertura total. Quan sentiu un encanteri, apreneu a quina escola de màgia pertany.",
+				"Podeu utilitzar aquesta funció un nombre de vegades igual a la vostra bonificació de competència i recupereu tots els usos gastats quan acabeu un descans llarg."
 			]
 		},
 		{
-			"name": "Wild Surge",
+			"name": "Onda salvatge",
 			"source": "TCE",
 			"page": 25,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Wild Magic",
+			"subclassShortName": "Màgia Salvatge",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Path of Wild Magic feature}",
-				"The magical energy roiling inside you sometimes erupts from you. When you enter your rage, roll on the Wild Magic table to determine the magical effect produced.",
-				"If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+				"{@i Funció Path of Wild Magic de 3r nivell}",
+				"L'energia màgica que s'agita dins teu de vegades surt de tu. Quan entres en la teva ràbia, fes roda sobre la taula de màgia salvatge per determinar l'efecte màgic produït.",
+				"Si l'efecte requereix un tir de salvació, la CD és igual a 8 + la teva bonificació de competència + el teu modificador de Constitució.",
 				{
-					"type": "table",
-					"caption": "Wild Magic",
+					"type": "taula",
+					"caption": "Màgia Salvatge",
 					"colLabels": [
 						"d8",
-						"Magical Effect"
+						"Efecte màgic"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -1955,79 +1955,79 @@
 			]
 		},
 		{
-			"name": "Bolstering Magic",
+			"name": "Potenciant la màgia",
 			"source": "TCE",
 			"page": 25,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Wild Magic",
+			"subclassShortName": "Màgia Salvatge",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Path of Wild Magic feature}",
-				"You can harness your wild magic to bolster yourself or a companion. As an action, you can touch one creature (which can be yourself) and confer one of the following benefits of your choice to that creature:",
+				"{@i Funció Sender de la màgia salvatge de 6è nivell}",
+				"Pots aprofitar la teva màgia salvatge per reforçar-te a tu mateix o a un company. Com a acció, pots tocar una criatura (que pots ser tu mateix) i conferir a aquesta criatura un dels següents beneficis de la teva elecció:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"For 10 minutes, the creature can roll a {@dice d3} whenever making an attack roll or an ability check and add the number rolled to the {@dice d20} roll.",
-						"Roll a {@dice d3}. The creature regains one expended spell slot, the level of which equals the number rolled or lower (the creature's choice). Once a creature receives this benefit, that creature can't receive it again until after a long rest."
+						"Durant 10 minuts, la criatura pot tirar un {@dau d3} sempre que faci una tirada d'atac o una prova d'habilitat i afegir el nombre llançat a la tirada de {@dau d20}.",
+						"Tira un {@das d3}. La criatura recupera un espai d'encanteri gastat, el nivell del qual és igual al nombre tirat o inferior (a elecció de la criatura). Una vegada que una criatura rep aquest benefici, aquesta criatura no el pot tornar a rebre fins després d'un llarg descans."
 					]
 				},
-				"You can take this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"Podeu fer aquesta acció un nombre de vegades igual a la vostra bonificació de competència i recuperareu tots els usos gastats quan acabeu un descans llarg."
 			]
 		},
 		{
-			"name": "Unstable Backlash",
+			"name": "Reacció inestable",
 			"source": "TCE",
 			"page": 25,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Wild Magic",
+			"subclassShortName": "Màgia Salvatge",
 			"subclassSource": "TCE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Path of Wild Magic feature}",
-				"When you are imperiled during your rage, the magic within you can lash out; immediately after you take damage or fail a saving throw while raging, you can use your reaction to roll on the Wild Magic table and immediately produce the effect rolled. This effect replaces your current Wild Magic effect."
+				"{@i Funció de 10è nivell del camí de la màgia salvatge}",
+				"Quan estàs en perill durant la teva ràbia, la màgia interior pot atacar; immediatament després de rebre danys o fallar una tirada de salvació mentre s'enfuria, podeu utilitzar la vostra reacció per tirar sobre la taula de màgia salvatge i produir immediatament l'efecte. Aquest efecte substitueix el vostre efecte Màgia salvatge actual."
 			]
 		},
 		{
-			"name": "Controlled Surge",
+			"name": "Sobretensió controlada",
 			"source": "TCE",
 			"page": 25,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Wild Magic",
+			"subclassShortName": "Màgia Salvatge",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Path of Wild Magic feature}",
-				"Whenever you roll on the Wild Magic table, you can roll the die twice and choose which of the two effects to unleash. If you roll the same number on both dice, you can ignore the number and choose any effect on the table."
+				"{@i Funció Sender de la màgia salvatge de nivell 14}",
+				"Sempre que tireu a la taula de Màgia Salvatge, podeu tirar el dau dues vegades i triar quin dels dos efectes voleu desencadenar. Si tires el mateix número als dos daus, pots ignorar el número i triar qualsevol efecte a la taula."
 			]
 		},
 		{
-			"name": "Path of the Beast",
+			"name": "Camí de la bèstia",
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
+			"subclassShortName": "Bèstia (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 3,
 			"entries": [
-				"Barbarians who walk the Path of Beast draw their rage from a bestial spark burning within their souls. That beast howls to be released and bursts forth in the throes of rage.",
-				"Those who tread this path might be inhabited by a primal spirit or descended from shapeshifters. You can choose the origin of your feral might or determine it randomly by rolling on the Origin of the Beast table.",
+				"Els bàrbars que recorren el camí de la bèstia treuen la seva ràbia d'una espurna bestial que crema dins les seves ànimes. Aquella bèstia udola per ser alliberada i esclata enmig de la ràbia.",
+				"Aquells que trepitgen aquest camí podrien estar habitats per un esperit primordial o descendir dels canviaformes. Podeu triar l'origen del vostre poder salvatge o determinar-lo aleatòriament fent rodar a la taula Origen de la bèstia.",
 				{
-					"type": "table",
-					"caption": "Origin of the Beast",
+					"type": "taula",
+					"caption": "Origen de la Bèstia",
 					"colLabels": [
 						"d4",
-						"Origin"
+						"Origen"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -2051,123 +2051,123 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Form of the Beast|Barbarian||Beast (UA)|UA2020SubclassesPt1|3"
+					"subclassFeature": "Forma de la bèstia|Bàrbar||Bèstia (UA)|UA2020SubclassesPt1|3"
 				}
 			]
 		},
 		{
-			"name": "Form of the Beast",
+			"name": "Forma de la bèstia",
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
+			"subclassShortName": "Bèstia (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Path of the Beast feature}",
-				"When you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:",
+				"{@i Funció de 3r nivell del camí de la bèstia}",
+				"Quan entres en la teva ràbia, pots transformar-te, revelant el poder bestial dins teu. Fins que s'acabi la teva ràbia, manifestes una arma de cos a cos natural, escollint una de les opcions següents cada vegada que t'enfadis:",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Mossegada",
-							"entry": "Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals {@damage 1d8} de dany perforant on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point)."
+							"entry": "La teva boca es transforma en un musell bestial o en grans mandíbules (la teva elecció). La teva mossegada ofereix {@damage 1d8} de dany perforant en un cop. Un cop en cada un dels teus torns quan fas mal a una criatura amb la teva mossegada, recuperes un nombre de punts de cop igual al teu modificador de Constitució (mínim d'1 punt de cop)."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Urpes",
-							"entry": "Your hands transform into claws, which deal {@damage 1d6} de dany tallant on a hit. When you take the {@action Attack} action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action."
+							"entry": "Les teves mans es transformen en urpes, que causen {@damage 1d6} a Dany Tallant en un cop. Quan feu l'acció {@action Attack} al vostre torn i feu un atac amb les urpes, podeu fer un atac addicional utilitzant les urpes com a part de la mateixa acció."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Cua",
-							"entry": "You grow a lashing, spiny tail, which deals {@damage 1d12} de dany perforant on a hit and has the reach property."
+							"entry": "Et fa créixer una cua espinosa i lligada que causa {@damage 1d12} de dany perforant en un cop i té la propietat d'abast."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Bestial Soul",
+			"name": "Ànima Bestial",
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
+			"subclassShortName": "Bèstia (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Path of the Beast feature}",
-				"The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-				"You can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:",
+				"{@i Funció Sender de la Bèstia de 6è nivell}",
+				"L'esperit salvatge dins teu creix en poder, fent que les armes naturals de la teva Forma de la Bèstia compten com a màgiques amb el propòsit de vèncer la resistència i la immunitat als atacs i danys no màgics.",
+				"També podeu fer servir l'esperit salvatge perquè us ajudi a adaptar-vos al vostre entorn. Quan acabis un descans curt o llarg, tria un dels avantatges següents, que dura fins que acabes un descans curt o llarg:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"You gain a swimming speed equal to your walking speed, and you can breathe underwater.",
+						"Guanyes una velocitat de natació igual a la teva velocitat de caminar i pots respirar sota l'aigua.",
 						"You gain a climbing speed equal to your walking speed, and you pot escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat.",
-						"When you jump, you can make a Strength ({@skill Athletics}) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn."
+						"Quan saltes, pots fer una prova de Força ({@skill Athletics}) i ampliar el teu salt un nombre de peus igual al total de la prova. Podeu fer aquesta comprovació especial només una vegada per torn."
 					]
 				}
 			]
 		},
 		{
-			"name": "Infectious Fury",
+			"name": "Fúria Infecciosa",
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
+			"subclassShortName": "Bèstia (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Path of the Beast feature}",
-				"When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):",
+				"{@i Funció de 10è nivell del camí de la bèstia}",
+				"Quan colpeja una criatura amb les teves armes naturals mentre estàs furioso, l'esperit que hi ha dins pot maleir el teu objectiu amb una fúria rabiosa. L'objectiu ha de tenir èxit en una tirada de salvació de saviesa (CD igual a 8 + el teu modificador de Constitució + la teva bonificació de competència) o patir un dels efectes següents (la teva elecció):",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"The target must use its reaction to make a melee attack against another creature of your choice that you can see.",
-						"Target takes {@damage 2d12} de dany psíquic."
+						"L'objectiu ha d'utilitzar la seva reacció per fer un atac cos a cos contra una altra criatura de la vostra elecció que podeu veure.",
+						"L'objectiu pren {@damage 2d12} de dany psíquic."
 					]
 				},
-				"You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+				"Podeu utilitzar aquesta funció un nombre de vegades igual al vostre modificador de Constitució (mínim una vegada). Recupereu tots els usos gastats quan acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Call the Hunt",
+			"name": "Truca a la caça",
 			"source": "UA2020SubclassesPt1",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
+			"subclassShortName": "Bèstia (UA)",
 			"subclassSource": "UA2020SubclassesPt1",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Path of the Beast feature}",
-				"The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless {@action Attack} feature and you have advantage on saving throws against being {@condition frightened}. You also gain 5 temporary hit points for each creature that accepts the benefit. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+				"{@i Funció de nivell 14 del camí de la bèstia}",
+				"La bèstia de dins creix tan poderosa que pots estendre la seva ferocitat als teus aliats. Quan entres a la teva ràbia, pots triar un nombre de criatures disposades que pots veure a 30 peus de tu igual al teu modificador de Constitució (mínim d'una criatura). Fins que s'acabi la teva ràbia, les criatures escollides obtenen la funció {@action Attack} imprudent i tens avantatge en els tirs de salvació per no tenir {@condition espantat}. També guanyes 5 punts de vida temporals per cada criatura que accepti el benefici. Podeu utilitzar aquesta funció un nombre de vegades igual al vostre modificador de Constitució (mínim una vegada). Recupereu tots els usos gastats quan acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Path of the Wild Soul",
+			"name": "Camí de l'ànima salvatge",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
 			"entries": [
-				"The realm of the Feywild abounds with beauty, unpredictable emotion, and rampant magic. A barbarian exposed to this realm feels emotions powerfully and magic saturates their body.",
-				"When a barbarian who follows this path rages, it is a bellowing roar for freedom, an explosion of expression, manifesting in unpredictable ways.",
+				"El regne del Feywild abunda en bellesa, emoció imprevisible i màgia desenfrenada. Un bàrbar exposat a aquest regne sent emocions poderosament i la màgia satura el seu cos.",
+				"Quan un bàrbar que segueix aquest camí s'enfada, és un rugit per la llibertat, una explosió d'expressió, que es manifesta de maneres imprevisibles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lingering Magic|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3"
+					"subclassFeature": "Màgia persistent|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -2176,42 +2176,42 @@
 			]
 		},
 		{
-			"name": "Lingering Magic",
+			"name": "Màgia persistent",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your body reacts to the presence of magic. You can cast the {@spell detect magic} spell without using a spell slot or components. Constitution is your spellcasting ability for this spell. You faintly glow a color corresponding to the school of magic you detect (you choose the colors).",
-				"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest."
+				"Al 3r nivell, el teu cos reacciona davant la presència de la màgia. Pots llançar l'encanteri {@spell detect magic} sense utilitzar un espai d'encanteri o components. La constitució és la teva habilitat per fer conjurs per a aquest encanteri. Llueixes lleugerament un color corresponent a l'escola de màgia que detectes (tu tries els colors).",
+				"Podeu utilitzar aquesta funció un nombre de vegades igual al vostre modificador de Constitució (mínim una vegada). Recupereu tots els usos gastats quan acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Wild Surge",
+			"name": "Onda salvatge",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, magic erupts from you as you rage. When you enter your rage, roll on the Wild Surge table to determine the magical effect produced.",
-				"If the wild surge requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+				"A partir del 3r nivell, la màgia esclata de tu a mesura que t'enrabias. Quan entres en la teva ràbia, fes roda sobre la taula Wild Surge per determinar l'efecte màgic produït.",
+				"Si l'augment salvatge requereix un tir de salvació, la CD és igual a 8 + la teva bonificació de competència + el teu modificador de Constitució.",
 				{
-					"type": "table",
-					"caption": "Wild Surge",
+					"type": "taula",
+					"caption": "Onda salvatge",
 					"colLabels": [
 						"d8",
-						"Effect"
+						"Efecte"
 					],
 					"colStyles": [
-						"col-1 text-center",
+						"col-1 centre de text",
 						"col-11"
 					],
 					"rows": [
@@ -2252,150 +2252,150 @@
 			]
 		},
 		{
-			"name": "Magic Reserves",
+			"name": "Reserves màgiques",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you can channel the magic surging inside you into other creatures. As an action, you can touch a creature and roll a {@dice d4}. The creature recovers an expended spell slot of a level equal to the number rolled. If the creature you touch can't recover a spell slot of that level, the creature instead gains temporary hit points equal to five times the number rolled.",
-				"You take force damage equal to five times the number rolled.",
-				"When you reach 14th level in this class, you increase the die to a {@dice d6}."
+				"Al sisè nivell, pots canalitzar la màgia que surta dins teu a altres criatures. Com a acció, pots tocar una criatura i tirar un {@dau d4}. La criatura recupera un espai d'encanteri gastat d'un nivell igual al nombre llançat. Si la criatura que toques no pot recuperar una ranura d'encanteri d'aquest nivell, la criatura guanya punts de vida temporals iguals a cinc vegades el nombre llançat.",
+				"Reps un dany de força igual a cinc vegades el nombre llançat.",
+				"Quan arribeu al nivell 14 d'aquesta classe, augmenteu el dau a un {@das d6}."
 			]
 		},
 		{
-			"name": "Arcane Rebuke",
+			"name": "Rebeca Arcana",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, the magic crackling within your soul lashes out. When a creature forces you to make a saving throw while you are raging, you can use your reaction to deal {@damage 3d6} de dany de força to that creature."
+				"Al nivell 10, la màgia que crepita dins de la teva ànima s'apaga. Quan una criatura t'obliga a fer una tirada de salvació mentre estàs enfurismat, pots utilitzar la teva reacció per fer {@damage 3d6} de dany de força a aquesta criatura."
 			]
 		},
 		{
-			"name": "Chaotic Fury",
+			"name": "Fúria Caòtica",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you become a wellspring of wild magic while you are raging. As a bonus action, you can reroll on the Wild Surge table, replacing your current effect with the new one."
+				"Al nivell 14, et converteixes en una font de màgia salvatge mentre estàs furiosa. Com a acció addicional, podeu tornar a tirar a la taula Wild Surge, substituint el vostre efecte actual pel nou."
 			]
 		},
 		{
-			"name": "Improved Magic Reserves",
+			"name": "Reserves màgiques millorades",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Wild Soul (UA)",
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you increase your magic reserves die to a {@dice d6}."
+				"Al nivell 14, augmentes el teu da de reserves màgiques a un {@dau d6}."
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian",
+			"name": "Camí del Guardià Ancestral",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
+			"subclassShortName": "Guardià ancestral (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"entries": [
-				"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger on in the world as mighty spirits who can guide and protect the living. When barbarians who follow this path rage, they cross the barrier into the spirit world and call on these guardian spirits for aid.",
-				"Barbarians who draw on their ancestral guardians fight to protect their tribes and their allies. With the spirits' help, they can hinder their foes even as they strike powerful blows against them.",
-				"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
+				"Alguns bàrbars provenen de cultures que veneren els seus avantpassats. Aquestes tribus ensenyen que els guerrers del passat romanen al món com a esperits poderosos que poden guiar i protegir els vius. Quan els bàrbars que segueixen aquest camí s'enfuritzen, creuen la barrera cap al món dels esperits i demanen ajuda a aquests esperits guardians.",
+				"Els bàrbars que es basen en els seus guardians ancestrals lluiten per protegir les seves tribus i els seus aliats. Amb l'ajuda dels esperits, poden dificultar els seus enemics, fins i tot quan els donen cops poderosos.",
+				"Per tal de cimentar els llaços amb els seus guardians ancestrals, els bàrbars que segueixen aquest camí es cobreixen amb elaborats tatuatges que celebren les gestes dels seus avantpassats. Aquests tatuatges expliquen sagues èpiques de victòries contra monstres terribles i altres rivals temibles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3"
+					"subclassFeature": "Protectors ancestrals|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3"
 				}
 			]
 		},
 		{
-			"name": "Ancestral Protectors",
+			"name": "Protectors ancestrals",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
+			"subclassShortName": "Guardià ancestral (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, spectral warriors appear when you rage. These warriors distract a foe you designate and hinder its attempts to evade you. While you're raging, you can use a bonus action on your turn to choose one creature you can see within 5 feet of you. Until the start of your next turn or until your rage ends, the chosen creature has disadvantage on any attack roll that doesn't target you, and if the creature takes the {@action Disengage} action within 5 feet of you, its speed is halved until the end of its turn."
+				"Començant quan trieu aquest camí al 3r nivell, els guerrers espectrals apareixen quan us enfadeu. Aquests guerrers distreuen un enemic que designeu i dificulten els seus intents d'evadir-vos. Mentre estàs furioso, pots fer servir una acció addicional al teu torn per triar una criatura que puguis veure a 5 peus de tu. Fins a l'inici del teu següent torn o fins que acabi la teva ràbia, la criatura escollida té desavantatge en qualsevol tirada d'atac que no t'apunta, i si la criatura fa l'acció {@action Desenganxar} a 5 peus de tu, la seva velocitat és reduït a la meitat fins al final del seu torn."
 			]
 		},
 		{
-			"name": "Ancestral Shield",
+			"name": "Escut Ancestral",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
+			"subclassShortName": "Guardià ancestral (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, the guardian spirits that aid you can provide protection for your allies. If you are raging and an ally you can see within 30 feet of you takes bludgeoning, piercing, or slashing damage, you can use your reaction to transfer your resistance to those damage types to the ally. The resistance applies to the incoming damage. Until the start of your next turn, the ally keeps the resistance and you lack it, unless you also have it from a source other than rage."
+				"A partir del 6è nivell, els esperits guardians que us ajuden poden proporcionar protecció als vostres aliats. Si esteu furiosos i un aliat que podeu veure a 30 peus de vosaltres pateix danys contundents, perforants o tallants, podeu utilitzar la vostra reacció per transferir la vostra resistència a aquests tipus de danys a l'aliat. La resistència s'aplica als danys entrants. Fins a l'inici del teu següent torn, l'aliat conserva la resistència i tu en falta, tret que també la tinguis d'una font diferent de la ràbia."
 			]
 		},
 		{
-			"name": "Consult the Spirits",
+			"name": "Consulteu els esperits",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
+			"subclassShortName": "Guardià ancestral (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the ability to consult with your ancestral spirits. Right before you make an Intelligence or a Wisdom check, you can give yourself advantage on the check. You can use this feature three times, and you regain expended uses when you finish a long rest."
+				"Al nivell 10, obtens l'habilitat de consultar amb els teus esperits ancestrals. Just abans de fer una prova d'Intel·ligència o de Saviesa, pots donar-te avantatge a la prova. Podeu utilitzar aquesta funció tres vegades i recuperareu els usos gastats quan acabeu un descans llarg."
 			]
 		},
 		{
-			"name": "Vengeful Ancestors",
+			"name": "Avantpassats venjatius",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
+			"subclassShortName": "Guardià ancestral (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, your ancestral spirits grow powerful enough to strike your foes. When you or an ally you can see within 30 feet of you is damaged by a melee attack while you're raging, you can use your reaction to cause the attacker to take {@damage 2d8} de dany de força from the spirits."
+				"Al nivell 14, els teus esperits ancestrals creixen prou poderosos com per colpejar els teus enemics. Quan tu o un aliat que puguis veure a 30 peus de tu està danyat per un atac cos a cos mentre estàs enfurismat, pots utilitzar la teva reacció per fer que l'atacant prengui {@damage 2d8} de dany de força dels esperits."
 			]
 		},
 		{
-			"name": "Path of the Storm Herald",
+			"name": "Sender de l'Herald de la Tempesta",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"entries": [
-				"Typical barbarians harbor a fury that dwells within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn instead to transform their rage into a mantle of primal magic that swirls around them. When in a fury, a barbarian of this path taps into nature to create powerful, magical effects.",
-				"Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect the natural realm. Other storm heralds hone their craft in elite lodges founded in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
+				"Els bàrbars típics alberguen una fúria que habita dins. La seva ràbia els atorga una força, durabilitat i velocitat superiors. Els bàrbars que segueixen el camí de l'Herald de la tempesta aprenen, en canvi, a transformar la seva ràbia en un mantell de màgia primigènia que gira al seu voltant. Quan està furiós, un bàrbar d'aquest camí s'endinsa en la natura per crear efectes màgics i poderosos.",
+				"Els heralds de la tempesta solen ser campions d'elit que entrenen al costat de druides, guardabosques i altres persones jurades per protegir el regne natural. Altres predicadors de tempestes perfeccionen el seu ofici en lògies d'elit fundades a regions destrossades per les tempestes, als confins glaçats de l'extrem del món o a les profunditats dels deserts més calorosos.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Storm of Fury|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|3"
@@ -2403,36 +2403,36 @@
 			]
 		},
 		{
-			"name": "Storm of Fury",
+			"name": "Tempesta de Fúria",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you select this path at 3rd level, choose one of the following options: desert, sea, or tundra. The environment you choose shapes the nature of the storm you conjure when you rage. While raging, you emanate an aura in a 10-foot radius. The effects of this aura depend on your chosen environment.",
+				"Quan seleccioneu aquest camí al 3r nivell, trieu una de les opcions següents: desert, mar o tundra. L'entorn que trieu modela la naturalesa de la tempesta que evoqueu quan us enfureu. Mentre us enfureu, emaneu una aura en un radi de 10 peus. Els efectes d'aquesta aura depenen de l'entorn escollit.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Desert",
 					"entries": [
-						"Any enemy that ends its turn in your aura takes fire damage equal to 2 + your barbarian level divided by 4."
+						"Qualsevol enemic que acabi el seu torn a la teva aura rep un dany de foc igual a 2 + el teu nivell de bàrbar dividit per 4."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Sea",
+					"type": "entrades",
+					"name": "mar",
 					"entries": [
-						"At the end of each of your turns, you can choose a creature in your aura other than yourself. The target ha de salvar per Destresa against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes {@damage 2d6} de dany elèctric on a failed save, and half as much damage on a successful one. This damage increases to {@dice 3d6} at 10th level and to {@dice 4d6} at 15th level."
+						"Al final de cadascun dels teus torns, pots triar una criatura de la teva aura que no sigui tu. L'objectiu ha de salvar per Destresa contra una CD igual a 8 + la teva bonificació de competència + el teu modificador de Constitució. L'objectiu pren {@damage 2d6} de dany elèctric en una salvació fallida, i la meitat de dany en cas d'èxit. Aquest dany augmenta a {@des 3d6} al nivell 10 i a {@des 4d6} al nivell 15."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Tundra",
 					"entries": [
-						"Any enemy that ends its turn in your aura takes cold damage equal to 2 + your barbarian level divided by 4."
+						"Qualsevol enemic que acabi el seu torn a la teva aura rep un dany per fred igual a 2 + el teu nivell de bàrbar dividit per 4."
 					]
 				}
 			]
@@ -2441,98 +2441,98 @@
 			"name": "Storm Soul",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your link to the power of the storm grants you additional abilities based on the environment you chose at 3rd level.",
+				"Al 6è nivell, el vostre enllaç al poder de la tempesta us atorga habilitats addicionals en funció de l'entorn que heu triat al 3r nivell.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Desert",
 					"entries": [
-						"You gain resistance to fire damage and don't suffer the effects of extreme heat."
+						"Obteniu resistència als danys del foc i no patiu els efectes de la calor extrema."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Sea",
+					"type": "entrades",
+					"name": "mar",
 					"entries": [
-						"You gain resistance to lightning damage and can breathe underwater."
+						"Guanyes resistència als danys dels llamps i pots respirar sota l'aigua."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Tundra",
 					"entries": [
-						"Tundra. You gain resistance to cold damage and don't suffer the effects of extreme cold."
+						"Tundra. Guanyes resistència als danys del fred i no pateix els efectes del fred extrem."
 					]
 				}
 			]
 		},
 		{
-			"name": "Shield of the Storm",
+			"name": "Escut de la tempesta",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you learn to use your mastery of the storm to protect your allies. While you are raging, allies within your aura gain the benefits of your Storm Soul feature."
+				"Al nivell 10, aprens a utilitzar el teu domini de la tempesta per protegir els teus aliats. Mentre estàs enfurismat, els aliats de la teva aura obtenen els beneficis de la teva funció Storm Soul."
 			]
 		},
 		{
-			"name": "Raging Storm",
+			"name": "Tempesta furiosa",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Storm Herald (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the power of the storm you channel grows mightier.",
+				"Al nivell 14, el poder de la tempesta que canalitzeu es fa més poderós.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Desert",
 					"entries": [
-						"The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura ha de salvar per Força (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed drops to 0 until the start of its next turn."
+						"El sòl al teu voltant esdevé com una sorra movent. Qualsevol enemic que intenti moure's més de 5 peus per volta a terra mentre està en la teva aura ha de salvar per Força (CD 8 + la teva bonificació de competència + el teu modificador de Constitució). En una salvació fallida, la velocitat de la criatura baixa a 0 fins a l'inici del seu següent torn."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Sea",
+					"type": "entrades",
+					"name": "mar",
 					"entries": [
-						"Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack ha de salvar per Força (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
+						"Els vents forts arrassen la zona que t'envolta. Qualsevol criatura de la teva aura que hagis colpejat amb un atac ha de salvar per Força (CD 8 + la teva bonificació de competència + el teu modificador de Força) o ser colpejada {@condition prone}."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Tundra",
 					"entries": [
-						"The air around you coldly slows your foes. The area within your aura is difficult terrain for your enemies."
+						"L'aire que t'envolta frena fredament els teus enemics. L'àrea de la teva aura és un terreny difícil per als teus enemics."
 					]
 				}
 			]
 		},
 		{
-			"name": "Path of the Zealot",
+			"name": "Camí del Zelote",
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
+			"subclassShortName": "Zelote (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"entries": [
-				"Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots\u2014warriors who channel their rage into powerful displays of divine power.",
-				"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
+				"Algunes deïtats inspiren als seus seguidors a llançar-se a una fúria de batalla ferotge. Aquests bàrbars són fanàtics: guerrers que canalitzen la seva ràbia en poderoses demostracions de poder diví.",
+				"Una varietat de déus dels mons de D&D inspiren els seus seguidors a adoptar aquest camí. Tempus dels Regnes oblidats i Hextor i Erythnul de Greyhawk en són exemples excel·lents. En general, els déus que inspiren els fanàtics són divinitats del combat, la destrucció i la violència. No tots són dolents, però pocs són bons.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Divine Fury|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|3"
@@ -2544,270 +2544,270 @@
 			]
 		},
 		{
-			"name": "Divine Fury",
+			"name": "Fúria Divina",
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
+			"subclassShortName": "Zelote (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, you can channel divine fury when you start to rage. If you do so, you become cloaked in an aura of divine power until the rage ends. At the end of each of your turns for that duration, each creature within 5 feet of you takes damage equal to {@dice 1d6} + half your barbarian level. The damage is necrotic or radiant; you choose the type of damage when you gain this feature."
+				"Començant quan trieu aquest camí al 3r nivell, podeu canalitzar la fúria divina quan comenci a fer ràbia. Si ho fas, t'envoltas d'una aura de poder diví fins que s'acaba la ràbia. Al final de cadascun dels teus torns durant aquest temps, cada criatura a menys de 5 peus de tu rep un dany igual a {@das 1d6} + la meitat del teu nivell de bàrbar. El dany és necròtic o radiant; trieu el tipus de dany quan obteniu aquesta característica."
 			]
 		},
 		{
-			"name": "Warrior of the Gods",
+			"name": "Guerrer dels déus",
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
+			"subclassShortName": "Zelote (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your soul is marked for endless battle. If a spell would have the sole effect of restoring you to life (but not undeath), the caster does not need material components to cast the spell on you."
+				"Al 3r nivell, la teva ànima està marcada per a una batalla interminable. Si un encanteri tingués l'únic efecte de tornar-te a la vida (però no la mort), el llançador no necessita components materials per llançar-te l'encanteri."
 			]
 		},
 		{
-			"name": "Zealous Focus",
+			"name": "Enfocament celós",
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
+			"subclassShortName": "Zelote (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, the divine power that fuels your rage can shield you from harm. If you fail a saving throw while raging, you can instead succeed on that saving throw as a reaction. However, doing so immediately ends your rage, and you can't rage again until you finish a short or long rest."
+				"Al 6è nivell, el poder diví que alimenta la teva ràbia pot protegir-te del dany. Si falles una tirada de salvació mentre estàs enfurismat, pots tenir èxit en aquesta tirada de salvació com a reacció. No obstant això, fer-ho immediatament s'acaba la teva ràbia, i no pots tornar a enrabiar fins que acabis un descans curt o llarg."
 			]
 		},
 		{
-			"name": "Zealous Presence",
+			"name": "Presència Zelosa",
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
+			"subclassShortName": "Zelote (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you learn to channel divine power to inspire zealotry in others. As an action, you howl in fury and unleash a battle cry infused with divine energy. Every ally within 60 feet of you gains advantage on attack rolls and saving throws until the start of your next turn.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Al 10è nivell, aprens a canalitzar el poder diví per inspirar el zelo en els altres. Com a acció, udoles de fúria i desfer un crit de batalla impregnat d'energia divina. Cada aliat a menys de 60 peus de vostè guanya avantatge en les tirades d'atac i en els tirs de salvació fins a l'inici del seu següent torn.",
+				"Un cop utilitzeu aquesta funció, no la podreu tornar a utilitzar fins que acabeu un llarg descans."
 			]
 		},
 		{
 			"name": "Rage Beyond Death",
 			"source": "UABarbarianPrimalPaths",
 			"page": 2,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
+			"subclassShortName": "Zelote (UA)",
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.",
-				"While raging, having 0 hit points doesn't knock you {@condition unconscious}. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends."
+				"A partir del nivell 14, el poder diví que alimenta la teva ràbia et permet evitar els cops fatals.",
+				"Quan estàs enfurismat, tenir 0 punts de vida no et deixa {@condition inconscient}. Encara has de fer tirs de salvació de mort, i pateixes els efectes normals de rebre danys mentre tens 0 punts de vida. Tanmateix, si moríeu a causa d'un error en els tirs de salvació de la mort, no morireu fins que acabi la vostra ràbia."
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian v2",
+			"name": "El camí del guardià ancestral v2",
 			"source": "UARevisedSubclasses",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
 			"entries": [
-				"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger on in the world as mighty spirits who can guide and protect the living. When barbarians who follow this path rage, they cross the barrier into the spirit world and call on these guardian spirits for aid.",
-				"Barbarians who draw on their ancestral guardians fight to protect their tribes and their allies. With the spirits' help, they can hinder their foes even as they strike powerful blows against them.",
-				"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
+				"Alguns bàrbars provenen de cultures que veneren els seus avantpassats. Aquestes tribus ensenyen que els guerrers del passat romanen al món com a esperits poderosos que poden guiar i protegir els vius. Quan els bàrbars que segueixen aquest camí s'enfuritzen, creuen la barrera cap al món dels esperits i demanen ajuda a aquests esperits guardians.",
+				"Els bàrbars que es basen en els seus guardians ancestrals lluiten per protegir les seves tribus i els seus aliats. Amb l'ajuda dels esperits, poden dificultar els seus enemics, fins i tot quan els donen cops poderosos.",
+				"Per tal de cimentar els llaços amb els seus guardians ancestrals, els bàrbars que segueixen aquest camí es cobreixen amb elaborats tatuatges que celebren les gestes dels seus avantpassats. Aquests tatuatges expliquen sagues èpiques de victòries contra monstres terribles i altres rivals temibles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3"
+					"subclassFeature": "Protectors ancestrals|Bàrbar||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3"
 				}
 			]
 		},
 		{
-			"name": "Ancestral Protectors",
+			"name": "Protectors ancestrals",
 			"source": "UARevisedSubclasses",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, spectral warriors appear when you rage. These warriors distract a foe you designate and hinder its attempts to evade you. While you're raging, the first creature you hit with an attack on your turn becomes the target of these warriors. Until the start of your next turn or until your rage ends, that target has disadvantage on any attack roll that doesn't target you, and creatures other than you have resistance to the damage of the creature's attacks."
+				"Començant quan trieu aquest camí al 3r nivell, els guerrers espectrals apareixen quan us enfadeu. Aquests guerrers distreuen un enemic que designeu i dificulten els seus intents d'evadir-vos. Mentre estàs enfurismat, la primera criatura que colpeja amb un atac al teu torn es converteix en l'objectiu d'aquests guerrers. Fins a l'inici del teu següent torn o fins que s'acabi la teva ràbia, aquest objectiu té un desavantatge en qualsevol tirada d'atac que no t'apunta, i les criatures que no siguin tu tenen resistència al dany dels atacs de la criatura."
 			]
 		},
 		{
-			"name": "Ancestral Shield",
+			"name": "Escut Ancestral",
 			"source": "UARevisedSubclasses",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, the guardian spirits that aid you can provide protection for your allies. If you are raging and a creature you can see within 30 feet of you takes damage, you can use your reaction and reduce that damage by {@dice 2d8}. When you reach certain levels in this class, you can reduce the damage by more: by {@dice 3d8} at 10th level and by {@dice 4d8} at 14th level."
+				"A partir del 6è nivell, els esperits guardians que us ajuden poden proporcionar protecció als vostres aliats. Si estàs furiosa i una criatura que pots veure a menys de 30 peus de tu rep dany, pots utilitzar la teva reacció i reduir-ne el dany {@dice 2d8}. Quan arribis a certs nivells d'aquesta classe, pots reduir el dany en més: {@dice 3d8} al nivell 10 i {@dice 4d8} al nivell 14."
 			]
 		},
 		{
-			"name": "Consult the Spirits",
+			"name": "Consulteu els esperits",
 			"source": "UARevisedSubclasses",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the ability to consult with your ancestral spirits and use them to scout far-off lands. When you do so, you cast the {@spell clairvoyance} spell, without needing a spell slot. Rather than creating a spherical sensor, the spell invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for the spell. After you cast the spell in this way, you can't do so again until you finish a short or long rest."
+				"Al nivell 10, obtens l'habilitat de consultar amb els teus esperits ancestrals i utilitzar-los per explorar terres llunyanes. Quan ho feu, feu l'encanteri {@spell clarividència}, sense necessitat d'un espai d'encanteri. En lloc de crear un sensor esfèric, l'encanteri convoca de manera invisible un dels vostres esperits ancestrals a la ubicació escollida. La saviesa és la teva habilitat per a conjurar l'encanteri. Després de llançar l'encanteri d'aquesta manera, no ho podreu tornar a fer fins que acabeu un descans curt o llarg."
 			]
 		},
 		{
-			"name": "Vengeful Ancestors",
+			"name": "Avantpassats venjatius",
 			"source": "UARevisedSubclasses",
 			"page": 1,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
 			"subclassShortName": "Ancestral Guardian v2 (UA)",
 			"subclassSource": "UARevisedSubclasses",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, your ancestral spirits grow powerful enough to strike foes that dare harm those that you protect. When you use your Spirit Shield Ability to protect a creature damaged by an attack, the attacker takes the same amount of damage that the Spirit Shield protects."
+				"Al nivell 14, els teus esperits ancestrals creixen prou poderosos com per colpejar els enemics que s'atreveixen a fer mal als que proteges. Quan feu servir la vostra habilitat Escut espiritual per protegir una criatura danyada per un atac, l'atacant rep la mateixa quantitat de dany que protegeix l'escut espiritual."
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian",
+			"name": "Camí del Guardià Ancestral",
 			"source": "XGE",
 			"page": 9,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger in the world as mighty spirits, who can guide and protect the living. When a barbarian who follows this path rages, the barbarian contacts the spirit world and calls on these guardian spirits for aid.",
-				"Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies. In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.",
+				"Alguns bàrbars provenen de cultures que veneren els seus avantpassats. Aquestes tribus ensenyen que els guerrers del passat romanen al món com a esperits poderosos, que poden guiar i protegir els vius. Quan un bàrbar que segueix aquest camí s'enfada, el bàrbar contacta amb el món dels esperits i demana ajuda a aquests esperits guardians.",
+				"Els bàrbars que es basen en els seus guardians ancestrals poden lluitar millor per protegir les seves tribus i els seus aliats. Per tal de cimentar els llaços amb els seus guardians ancestrals, els bàrbars que segueixen aquest camí es cobreixen amb elaborats tatuatges que celebren les gestes dels seus avantpassats. Aquests tatuatges expliquen sagues de victòries contra monstres terribles i altres rivals temibles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian|XGE|3"
+					"subclassFeature": "Protectors Ancestrals|Bàrbar||Guardià Ancestral|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "Ancestral Protectors",
+			"name": "Protectors ancestrals",
 			"source": "XGE",
 			"page": 9,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, spectral warriors appear when you enter your rage. While you're raging, the first creature you hit with an attack on your turn becomes the target of the warriors, which hinder its attacks. Until the start of your next turn, that target has disadvantage on any attack roll that isn't against you, and when the target hits a creature other than you with an attack, that creature has resistance to the damage dealt by the attack. The effect on the target ends early if your rage ends."
+				"Començant quan trieu aquest camí al 3r nivell, els guerrers espectrals apareixen quan entres en la teva ràbia. Mentre estàs enfurismat, la primera criatura que colpeja amb un atac al teu torn es converteix en l'objectiu dels guerrers, que dificulten els seus atacs. Fins a l'inici del teu següent torn, aquest objectiu té un desavantatge en qualsevol tirada d'atac que no estigui en contra teu, i quan l'objectiu colpeja una criatura que no sigui tu amb un atac, aquesta criatura té resistència al dany infligit per l'atac. L'efecte sobre l'objectiu acaba abans d'hora si s'acaba la teva ràbia."
 			]
 		},
 		{
-			"name": "Spirit Shield",
+			"name": "Escut espiritual",
 			"source": "XGE",
 			"page": 9,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, the guardian spirits that aid you can provide supernatural protection to those you defend. If you are raging and another creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by {@dice 2d6}.",
-				"When you reach certain levels in this class, you can reduce the damage by more: by {@dice 3d6} at 10th level and by {@dice 4d6} at 14th level."
+				"A partir del 6è nivell, els esperits guardians que us ajuden poden proporcionar protecció sobrenatural als qui defenseu. Si estàs enfurismat i una altra criatura que pots veure a menys de 30 peus de tu fa dany, pots utilitzar la teva reacció per reduir-ne el dany {@dice 2d6}.",
+				"Quan arribis a certs nivells en aquesta classe, pots reduir el dany en més: {@dice 3d6} al nivell 10 i {@dice 4d6} al nivell 14."
 			]
 		},
 		{
-			"name": "Consult the Spirits",
+			"name": "Consulteu els esperits",
 			"source": "XGE",
 			"page": 9,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the ability to consult with your ancestral spirits. When you do so, you cast the {@spell augury} or {@spell clairvoyance} spell, without using a spell slot or material components. Rather than creating a spherical sensor, this use of {@spell clairvoyance} invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for these spells.",
-				"After you cast either spell in this way, you can't use this feature again until you finish a short or long rest."
+				"Al nivell 10, obtens l'habilitat de consultar amb els teus esperits ancestrals. Quan ho feu, feu l'encanteri {@spell augury} o {@spell clarividència}, sense utilitzar cap espai d'encanteri ni components materials. En lloc de crear un sensor esfèric, aquest ús de {@spell clarividència} convoca de manera invisible un dels vostres esperits ancestrals a la ubicació escollida. La saviesa és la teva habilitat per a conjurar aquests encanteris.",
+				"Després de llançar qualsevol encanteri d'aquesta manera, no podreu tornar a utilitzar aquesta funció fins que acabeu un descans curt o llarg."
 			]
 		},
 		{
-			"name": "Vengeful Ancestors",
+			"name": "Avantpassats venjatius",
 			"source": "XGE",
 			"page": 9,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, your ancestral spirits grow powerful enough to retaliate. When you use your Spirit Shield to reduce the damage of an attack, the attacker takes an amount of force damage equal to the damage that your Spirit Shield prevents."
+				"Al nivell 14, els teus esperits ancestrals creixen prou poderosos com per prendre represàlies. Quan feu servir el vostre Escut espiritual per reduir el dany d'un atac, l'atacant rep una quantitat de dany per la força igual al dany que evita el vostre Escut espiritual."
 			]
 		},
 		{
-			"name": "Path of the Storm Herald",
+			"name": "Sender de l'Herald de la Tempesta",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.",
-				"Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
+				"Tots els bàrbars alberguen una fúria dins. La seva ràbia els atorga una força, durabilitat i velocitat superiors. Els bàrbars que segueixen el camí de l'Herald de la tempesta aprenen a transformar aquesta ràbia en un mantell de màgia primitiva, que gira al seu voltant. Quan està furiós, un bàrbar d'aquest camí aprofita les forces de la natura per crear efectes màgics poderosos.",
+				"Els heralds de la tempesta solen ser campions d'elit que s'entrenen al costat de druides, guardabosques i altres persones jurades per protegir la natura. Altres predicadors de tempestes perfeccionen el seu ofici a les lògies de les regions destrossades per les tempestes, a les zones glaçades de l'extrem del món o a les profunditats dels deserts més calorosos.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Storm Aura|Barbarian||Storm Herald|XGE|3"
+					"subclassFeature": "Storm Aura|Bàrbar||Storm Herald|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "Storm Aura",
+			"name": "Aura de la tempesta",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you emanate a stormy, magical aura while you rage. The aura extends 10 feet from you in every direction, but not through total cover.",
-				"Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a bonus action. Choose desert, sea, or tundra. Your aura's effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.",
-				"If your aura's effects require a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+				"A partir del 3r nivell, emanes una aura màgica i tempestuosa mentre t'enfades. L'aura s'estén a 10 peus de tu en totes direccions, però no a través de la cobertura total.",
+				"La teva aura té un efecte que s'activa quan entres en la teva ràbia, i pots tornar a activar l'efecte en cadascun dels teus torns com a acció addicional. Trieu desert, mar o tundra. L'efecte de la teva aura depèn de l'entorn escollit, tal com es detalla a continuació. Podeu canviar la vostra elecció d'entorn sempre que obtingueu un nivell en aquesta classe.",
+				"Si els efectes de la teva aura requereixen una tirada de salvació, la CD és igual a 8 + la teva bonificació de competència + el teu modificador de Constitució.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Desert|Barbarian|XGE|Storm Herald|XGE|3"
+							"subclassFeature": "Desert|Bàrbar|XGE|Storm Herald|XGE|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Sea|Barbarian|XGE|Storm Herald|XGE|3"
+							"subclassFeature": "Mar|Bàrbar|XGE|Storm Herald|XGE|3"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -2821,24 +2821,24 @@
 			"name": "Storm Soul",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, the storm grants you benefits even when your aura isn't active. The benefits are based on the environment you chose for your Storm Aura.",
+				"Al 6è nivell, la tempesta t'ofereix beneficis fins i tot quan la teva aura no està activa. Els avantatges es basen en l'entorn que trieu per a la vostra Storm Aura.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Desert|Barbarian|XGE|Storm Herald|XGE|6"
+							"subclassFeature": "Desert|Bàrbar|XGE|Storm Herald|XGE|6"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Sea|Barbarian|XGE|Storm Herald|XGE|6"
+							"subclassFeature": "Mar|Bàrbar|XGE|Storm Herald|XGE|6"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -2849,41 +2849,41 @@
 			]
 		},
 		{
-			"name": "Shielding Storm",
+			"name": "Tempesta de blindatge",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you learn to use your mastery of the storm to protect others. Each creature of your choice has the damage resistance you gained from the Storm Soul feature while the creature is in your Storm Aura."
+				"Al 10è nivell, aprens a utilitzar el teu domini de la tempesta per protegir els altres. Cada criatura que trieu té la resistència al dany que heu guanyat amb la funció Storm Soul mentre la criatura es troba a la vostra Storm Aura."
 			]
 		},
 		{
-			"name": "Raging Storm",
+			"name": "Tempesta furiosa",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, the power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you chose for your Storm Aura.",
+				"Al nivell 14, el poder de la tempesta que canalitzes es fa més poderós i ataca els teus enemics. L'efecte es basa en l'entorn que heu triat per a la vostra Storm Aura.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Desert|Barbarian|XGE|Storm Herald|XGE|14"
+							"subclassFeature": "Desert|Bàrbar|XGE|Storm Herald|XGE|14"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Sea|Barbarian|XGE|Storm Herald|XGE|14"
+							"subclassFeature": "Mar|Bàrbar|XGE|Storm Herald|XGE|14"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -2894,292 +2894,292 @@
 			]
 		},
 		{
-			"name": "Path of the Zealot",
+			"name": "Camí del Zelote",
 			"source": "XGE",
 			"page": 11,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot",
+			"subclassShortName": "Fanàtic",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots\u2014warriors who channel their rage into powerful displays of divine power.",
-				"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
+				"Algunes deïtats inspiren als seus seguidors a llançar-se a una fúria de batalla ferotge. Aquests bàrbars són fanàtics: guerrers que canalitzen la seva ràbia en poderoses demostracions de poder diví.",
+				"Una varietat de déus dels mons de D&D inspiren els seus seguidors a adoptar aquest camí. Tempus dels Regnes oblidats i Hextor i Erythnul de Greyhawk en són exemples excel·lents. En general, els déus que inspiren els fanàtics són divinitats del combat, la destrucció i la violència. No tots són dolents, però pocs són bons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Fury|Barbarian||Zealot|XGE|3"
+					"subclassFeature": "Divine Fury|Bàrbar||Zealot|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of the Gods|Barbarian||Zealot|XGE|3"
+					"subclassFeature": "Guerrer dels Déus|Bàrbar||Zealot|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "Divine Fury",
+			"name": "Fúria Divina",
 			"source": "XGE",
 			"page": 11,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot",
+			"subclassShortName": "Fanàtic",
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this path at 3rd level, you can channel divine fury into your weapon strikes. While you're raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to {@dice 1d6} + half your barbarian level. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature."
+				"Començant quan trieu aquest camí al 3r nivell, podeu canalitzar la fúria divina als vostres cops d'armes. Mentre estàs enfurismat, la primera criatura que colpeja en cadascun dels teus torns amb un atac d'arma rep un dany addicional igual a {@des 1d6} + la meitat del teu nivell de bàrbar. El dany addicional és necròtic o radiant; trieu el tipus de dany quan obteniu aquesta característica."
 			]
 		},
 		{
-			"name": "Warrior of the Gods",
+			"name": "Guerrer dels déus",
 			"source": "XGE",
 			"page": 11,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot",
+			"subclassShortName": "Fanàtic",
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your soul is marked for endless battle. If a spell, such as {@spell raise dead}, has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components to cast the spell on you."
+				"Al 3r nivell, la teva ànima està marcada per a una batalla interminable. Si un encanteri, com ara {@spell raise dead}, té l'únic efecte de tornar-te a la vida (però no la mort), el llançador no necessita components materials per llançar-te l'encanteri."
 			]
 		},
 		{
-			"name": "Fanatical Focus",
+			"name": "Enfocament Fanàtic",
 			"source": "XGE",
 			"page": 11,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot",
+			"subclassShortName": "Fanàtic",
 			"subclassSource": "XGE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, the divine power that fuels your rage can protect you. If you fail a saving throw while you're raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage."
+				"A partir del 6è nivell, el poder diví que alimenta la teva ràbia et pot protegir. Si falles una tirada de salvació mentre estàs enfurismat, pots tornar-la a tirar i has d'utilitzar la nova tirada. Podeu utilitzar aquesta habilitat només una vegada per ràbia."
 			]
 		},
 		{
-			"name": "Zealous Presence",
+			"name": "Presència Zelosa",
 			"source": "XGE",
 			"page": 11,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot",
+			"subclassShortName": "Fanàtic",
 			"subclassSource": "XGE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you learn to channel divine power to inspire zealotry in others. As a bonus action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Al 10è nivell, aprens a canalitzar el poder diví per inspirar el zelo en els altres. Com a acció addicional, desfer un crit de batalla impregnat d'energia divina. Fins a deu altres criatures que trieu a menys de 60 peus de vosaltres que poden escoltar-vos obtenir avantatge a les tires d'atac i de salvació fins a l'inici del vostre proper torn.",
+				"Un cop utilitzeu aquesta funció, no la podreu tornar a utilitzar fins que acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Rage beyond Death",
+			"name": "Ràbia més enllà de la mort",
 			"source": "XGE",
 			"page": 11,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Zealot",
+			"subclassShortName": "Fanàtic",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.",
-				"While you're raging, having 0 hit points doesn't knock you {@condition unconscious}. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends, and you die then only if you still have 0 hit points."
+				"A partir del nivell 14, el poder diví que alimenta la teva ràbia et permet evitar els cops fatals.",
+				"Mentre estàs enfurismat, tenir 0 punts de vida no et deixa {@condition inconscient}. Encara has de fer tirs de salvació de mort, i pateixes els efectes normals de rebre danys mentre tens 0 punts de vida. Tanmateix, si moríeu a causa d'un error en els tirs de salvació de la mort, no morireu fins que acabi la vostra ràbia, i només morireu si encara teniu 0 punts de vida."
 			]
 		},
 		{
 			"name": "Elk",
 			"source": "SCAG",
 			"page": 122,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "SCAG",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
+				"Mentre estàs enfurismat i no portes armadura pesada, la teva velocitat de marxa augmenta 15 peus. L'esperit de l'alce et fa extraordinàriament ràpid."
 			]
 		},
 		{
-			"name": "Tiger",
+			"name": "tigre",
 			"source": "SCAG",
 			"page": 122,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "SCAG",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
+				"Mentre estàs enfurismat, pots afegir 10 peus a la teva distància de salt de llargada i 3 peus a la teva distància de salt d'alçada. L'esperit del tigre potencia els teus salts."
 			]
 		},
 		{
 			"name": "Elk",
 			"source": "SCAG",
 			"page": 122,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "SCAG",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated}. The elk spirit helps you roam far and fast."
+				"Tant si estàs muntat com a peu, el teu ritme de viatge es duplica, així com el ritme de viatge de fins a deu acompanyants quan es trobin a 60 peus de tu i no ets {@condition incapacitated}. L'esperit dels alces us ajuda a vagar lluny i ràpid."
 			]
 		},
 		{
-			"name": "Tiger",
+			"name": "tigre",
 			"source": "SCAG",
 			"page": 122,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "SCAG",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"You gain proficiency in two skills from the following list: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth}, and {@skill Survival}. The cat spirit hones your survival instincts."
+				"Adquireixes la competència en dues habilitats de la llista següent: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth} i {@skill Survival}. L'esperit del gat perfecciona els teus instints de supervivència."
 			]
 		},
 		{
 			"name": "Elk",
 			"source": "SCAG",
 			"page": 122,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "SCAG",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked {@condition prone} and take dany contundent equal to {@dice 1d12} + your Strength modifier."
+				"Mentre estàs enfurismat, pots utilitzar una acció addicional durant el teu moviment per passar per l'espai d'una criatura gran o més petita. Aquesta criatura ha de tenir èxit en una tirada de salvació de Força (CD 8 + la teva bonificació de Força + la teva bonificació de competència) o ser colpejada {@condition prone} i prendre dany contundent igual a {@des 1d12} + el teu modificador de Força."
 			]
 		},
 		{
-			"name": "Tiger",
+			"name": "tigre",
 			"source": "SCAG",
 			"page": 122,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "SCAG",
-			"subclassShortName": "Totem Warrior",
+			"subclassShortName": "Guerrer Tòtem",
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
+				"Mentre estàs enfurismat, si et mous almenys 20 peus en línia recta cap a un objectiu gran o més petit just abans de fer un atac d'arma cos a cos contra ell, pots fer servir una acció addicional per fer un atac addicional d'arma cos a cos contra ell."
 			]
 		},
 		{
 			"name": "Desert",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"When this effect is activated, all other creatures in your aura take 2 fire damage each. The damage increases when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level."
+				"Quan s'activa aquest efecte, totes les altres criatures de la teva aura reben 2 danys de foc cadascuna. El dany augmenta quan s'arriba a certs nivells d'aquesta classe, augmentant a 3 al 5è nivell, 4 al 10è nivell, 5 al 15è nivell i 6 al 20è nivell."
 			]
 		},
 		{
-			"name": "Sea",
+			"name": "mar",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"When this effect is activated, you can choose one other creature you can see in your aura. The target ha de salvar per Destresa. The target takes {@damage 1d6} de dany elèctric on a failed save, ; si supera, en rep la meitat. The damage increases when you reach certain levels in this class, increasing to {@dice 2d6} at 10th level, {@dice 3d6} at 15th level, and {@dice 4d6} at 20th level."
+				"Quan s'activa aquest efecte, pots triar una altra criatura que puguis veure a la teva aura. El target ha de salvar per Destresa. L'objectiu pren {@damage 1d6} de dany elèctric en una salvació fallida, ; si supera, en rep la meitat. El dany augmenta quan arribeu a certs nivells en aquesta classe, augmentant a {@des 2d6} al nivell 10, {@des 3d6} al nivell 15 i {@des 4d6} al nivell 20."
 			]
 		},
 		{
 			"name": "Tundra",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"When this effect is activated, each creature of your choice in your aura gains 2 temporary hit points, as icy spirits inure it to suffering. The temporary hit points increase when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level."
+				"Quan s'activa aquest efecte, cada criatura que trieu a la vostra aura guanya 2 punts de vida temporals, ja que els esperits gelats la indueixen a patir. Els punts de vida temporals augmenten quan arribeu a certs nivells d'aquesta classe, augmentant a 3 al nivell 5, 4 al nivell 10, 5 al nivell 15 i 6 al nivell 20."
 			]
 		},
 		{
 			"name": "Desert",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 6,
 			"entries": [
-				"You gain resistance to fire damage, and you don't suffer the effects of extreme heat, as described in the Dungeon Master's Guide. Moreover, as an action, you can touch a flammable object that isn't being worn or carried by anyone else and set it on fire."
+				"Guanyes resistència als danys del foc i no pateixes els efectes de la calor extrema, tal com es descriu a la Guia de Dungeon Master. A més, com a acció, pots tocar un objecte inflamable que no està portant ni portat per ningú i incendiar-lo."
 			]
 		},
 		{
-			"name": "Sea",
+			"name": "mar",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 6,
 			"entries": [
-				"You gain resistance to lightning damage, and you can breathe underwater. You also gain a swimming speed of 30 feet."
+				"Guanyes resistència als danys dels llamps i pots respirar sota l'aigua. També guanya una velocitat de natació de 30 peus."
 			]
 		},
 		{
 			"name": "Tundra",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 6,
 			"entries": [
-				"You gain resistance to cold damage, and you don't suffer the effects of extreme cold, as described in the Dungeon Master's Guide. Moreover, as an action, you can touch water and turn a 5-foot cube of it into ice, which melts after 1 minute. This action fails if a creature is in the cube."
+				"Guanyes resistència al dany del fred i no pateix els efectes del fred extrem, tal com es descriu a la Guia del Dungeon Master. A més, com a acció, podeu tocar l'aigua i convertir-ne un cub de 5 peus en gel, que es fon al cap d'1 minut. Aquesta acció falla si hi ha una criatura al cub."
 			]
 		},
 		{
 			"name": "Desert",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 14,
 			"entries": [
-				"Immediately after a creature in your aura hits you with an attack, you can use your reaction to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to half your barbarian level."
+				"Immediatament després que una criatura de la teva aura t'ataqui amb un atac, pots utilitzar la teva reacció per forçar aquesta criatura a fer una tirada de salvació de Destresa. En una salvació fallida, la criatura rep un dany de foc igual a la meitat del teu nivell de bàrbar."
 			]
 		},
 		{
-			"name": "Sea",
+			"name": "mar",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 14,
 			"entries": [
-				"When you hit a creature in your aura with an attack, you can use your reaction to force that creature to make a Strength saving throw. On a failed save, the creature is knocked {@condition prone}, as if struck by a wave."
+				"Quan colpeja una criatura de la teva aura amb un atac, pots utilitzar la teva reacció per forçar aquesta criatura a fer una tirada de salvació de Força. En una salvació fallida, la criatura és colpejada {@condition prone}, com si l'hagués colpejat una onada."
 			]
 		},
 		{
 			"name": "Tundra",
 			"source": "XGE",
 			"page": 10,
-			"className": "Barbarian",
+			"className": "Bàrbar",
 			"classSource": "XGE",
-			"subclassShortName": "Storm Herald",
+			"subclassShortName": "Herald de la tempesta",
 			"subclassSource": "XGE",
 			"level": 14,
 			"entries": [
-				"Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Strength saving throw, or its speed is reduced to 0 until the start of your next turn, as magical frost covers it."
+				"Sempre que s'activa l'efecte de la teva aura de tempesta, pots triar una criatura que puguis veure a l'aura. Aquesta criatura ha de tenir èxit en una tirada de salvació de Força, o la seva velocitat es redueix a 0 fins a l'inici del vostre proper torn, ja que la gelada màgica la cobreix."
 			]
 		}
 	]

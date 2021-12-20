@@ -1,17 +1,17 @@
 {
 	"vehicle": [
 		{
-			"name": "Airship",
+			"name": "Dirigible",
 			"source": "UAOfShipsAndSea",
 			"page": 2,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"80 ft.",
-				"20 ft."
+				"80 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"air"
+				"aire"
 			],
 			"capCrew": 20,
 			"capPassenger": 10,
@@ -31,7 +31,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -47,25 +47,25 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of its elemental engine, with one 90-degree turn. If the helm is destroyed, the airship can't turn."
+						"Augmenta la velocitat del seu motor elemental, amb un gir de 90 graus. Si el timó es destrueix, l'aeronau no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Elemental Engine",
+					"name": "Motor elemental",
 					"ac": 18,
 					"hp": 100,
-					"hpNote": "-20 ft. speed per 25 damage taken",
+					"hpNote": "-20 peus de velocitat per cada 25 danys rebuts",
 					"locomotion": [
 						{
-							"mode": "air",
+							"mode": "aire",
 							"entries": [
-								"elemental power, speed 80 ft. If the engine is destroyed, the ship immediately crashes."
+								"potència elemental, velocitat 80 peus. Si el motor es destrueix, el vaixell s'estavella immediatament."
 							]
 						}
 					]
@@ -73,7 +73,7 @@
 			],
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 4,
 					"ac": 15,
 					"hp": 50,
@@ -84,22 +84,22 @@
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the airship can use its helm to move using its elemental engine. It can also fire its ballistas. If it has half its crew or fewer, it can fire only two of the ballistas."
+						"Al seu torn, l'aeronau pot utilitzar el seu timó per moure's utilitzant el seu motor elemental. També pot disparar els seus ballistes. Si té la meitat de la seva tripulació o menys, només pot disparar dos dels ballistes."
 					]
 				}
 			]
 		},
 		{
-			"name": "Apparatus of Kwalish",
+			"name": "Aparell de Kwalish",
 			"source": "DMG",
 			"page": 151,
-			"srd": "Apparatus of the Crab",
-			"vehicleType": "OBJECT",
+			"srd": "Aparell del Cranc",
+			"vehicleType": "OBJECTE",
 			"size": "L",
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 1,
 			"capPassenger": 1,
@@ -107,7 +107,7 @@
 			"speed": {
 				"walk": 30,
 				"swim": 30,
-				"note": "(or 0 ft. for both if the legs and tail aren't extended)"
+				"note": "(o 0 peus per a tots dos si les potes i la cua no s'estenen)"
 			},
 			"hp": 200,
 			"immune": [
@@ -115,20 +115,20 @@
 				"psíquic"
 			],
 			"entries": [
-				"This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intel·ligència ({@skill Investigació}) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.",
-				"To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.",
-				"The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle rep {@damage 2d6} de dany contundent per minute from pressure.",
-				"A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of Kwalish Levers table.",
+				"Primer sembla que aquest article és un gran barril de ferro segellat que pesa 500 lliures. El barril té una captura oculta, que es pot trobar amb una prova reeixida d'Intel·ligència de DC 20 ({@skill Investigació}). Alliberar la captura s'obre una escotilla en un extrem del canó, la qual cosa permet que dues criatures mitjanes o més petites s'arrosseguen per dins. Deu palanques es col·loquen en fila a l'extrem més llunyà, cadascuna en una posició neutra, capaç de moure's cap amunt o cap avall. Quan s'utilitzen certes palanques, l'aparell es transforma per semblar una llagosta gegant.",
+				"Per ser utilitzat com a vehicle, l'aparell requereix un pilot. Mentre l'escotilla de l'aparell està tancada, el compartiment és hermètic i estanc a l'aigua. El compartiment conté prou aire per a 10 hores de respiració, dividit pel nombre de criatures que respiren a l'interior.",
+				"L'aparell flota sobre l'aigua. També pot anar sota l'aigua a una profunditat de 900 peus. A sota, el representant del vehicle {@damage 2d6} de dany contundent per minut per pressió.",
+				"Una criatura del compartiment pot utilitzar una acció per moure fins a dues de les palanques de l'aparell cap amunt o cap avall. Després de cada ús, una palanca torna a la seva posició neutral. Cada palanca, d'esquerra a dreta, funciona tal com es mostra a la taula de l'aparell de palanques Kwalish.",
 				{
-					"type": "table",
-					"caption": "Apparatus of Kwalish Levers:",
+					"type": "taula",
+					"caption": "Aparell de palanques Kwalish:",
 					"colLabels": [
-						"Lever",
-						"Up",
-						"Down"
+						"Palanca",
+						"Amunt",
+						"Avall"
 					],
 					"colStyles": [
-						"col-1 text-center",
+						"col-1 centre de text",
 						"col-5-5",
 						"col-5-5"
 					],
@@ -189,24 +189,24 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Astral Brig",
+			"name": "Brigada Astral",
 			"source": "MTF",
 			"page": 90,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"90 ft.",
-				"30 ft."
+				"90 peus.",
+				"30 peus."
 			],
 			"terrain": [
-				"air"
+				"aire"
 			],
 			"capCrew": 5,
 			"capPassenger": 60,
 			"pace": 12,
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 2,
 					"entries": [
 						"{@atk rw} {@hit 6} a impactar, 120/480 peus d'abast, un objectiu. {@h}16 ({@damage 3d10}) de dany perforant."
@@ -216,17 +216,17 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Astral Skiff",
+			"name": "Esquif astral",
 			"source": "MTF",
 			"page": 90,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "H",
 			"dimensions": [
-				"30 ft.",
-				"10 ft."
+				"30 peus.",
+				"10 peus."
 			],
 			"terrain": [
-				"air"
+				"aire"
 			],
 			"capCrew": 3,
 			"capPassenger": 12,
@@ -234,17 +234,17 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Battle Balloon",
+			"name": "Globus de batalla",
 			"source": "AI",
 			"page": 218,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"80 ft.",
-				"20 ft."
+				"80 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"air"
+				"aire"
 			],
 			"capCrew": 20,
 			"capPassenger": 10,
@@ -264,7 +264,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -281,33 +281,33 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of the ship's propeller, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+						"Augmenta la velocitat de l'hèlix del vaixell, amb un gir de 90 graus. Si el timó és destruït, el vaixell no pot girar."
 					]
 				},
 				{
-					"name": "Balloon",
+					"name": "Globus",
 					"ac": 12,
 					"hp": 75,
 					"entries": [
-						"If its balloon is destroyed, a battle balloon cannot maintain altitude."
+						"Si el seu globus és destruït, un globus de batalla no pot mantenir l'altitud."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Propeller",
+					"name": "Hèlix",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "air",
+							"mode": "aire",
 							"entries": [
-								"80 ft.; 50 ft. while flying into the wind; 100 ft. while flying with the wind"
+								"80 peus; 50 peus mentre vola al vent; 100 peus mentre vola amb el vent"
 							]
 						}
 					]
@@ -315,20 +315,20 @@
 			],
 			"weapon": [
 				{
-					"name": "Green Flame Arbalester",
+					"name": "Arbalester de la Flama Verda",
 					"ac": 15,
 					"hp": 75,
 					"entries": [
-						"{@atk rw} {@hit 8} a impactar, 200/800 peus d'abast (can't hit targets within 60 ft. of it) un objectiu. {@h}16 ({@damage 3d10}) de dany perforant and 22 ({@damage 4d10}) de dany de foc. If the attack misses, the DM determines where the arbalester bolt hits. Each creature within 10 feet of that spot must make a DC 15 Destresa saving throw to avoid the bolt as it shatters, taking 5 ({@damage 1d10}) de dany perforant and 5 ({@damage 1d10}) de dany de foc on a failed save."
+						"{@atk rw} {@hit 8} a impactar, 200/800 peus d'abast (can't hit targets within 60 ft. of it) un objectiu. {@h}16 ({@damage 3d10}) de dany perforant i 22 ({@damage 4d10}) de dany de foc. Si l'atac falla, el DM determina on colpeja l'arbalester. Cada criatura a menys de 10 peus d'aquest punt ha de fer una tirada de salvació de Destresa DC 15 per evitar el forrellat quan es trenca, prenent 5 ({@damage 1d10}) de dany perforant i 5 ({@damage 1d10}) de dany de foc on una salvació fallida."
 					]
 				},
 				{
-					"name": "Harpoon Gun",
+					"name": "Pistola d'arpó",
 					"count": 3,
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 8} a impactar, 120/480 peus d'abast, un objectiu. {@h}11 ({@damage 2d10}) de dany perforant, i l'objectiu està {@condition grappled} (CD 16 per escapar). Until the grapple ends, the target's speed is halved, and it can't move farther away from the battle balloon. Each of the battle balloon's harpoon guns can grapple un objectiu. While it has one or more targets {@condition grappled} with its harpoon gun attack, the battle balloon's speed is not halved."
+						"{@atk rw} {@hit 8} a impactar, 120/480 peus d'abast, un objectiu. {@h}11 ({@damage 2d10}) de dany perforant, i l'objectiu està {@condition grappled} (CD 16 per escapar). Fins que s'acabi la grapa, la velocitat de l'objectiu es redueix a la meitat i no es pot allunyar més del globus de batalla. Cadascuna de les armes d'arpó del globus de batalla pot lluitar contra un objectiu. Tot i que té un o més objectius {@condition grappled} amb el seu atac d'arpó, la velocitat del globus de batalla no es redueix a la meitat."
 					]
 				}
 			],
@@ -339,30 +339,30 @@
 				"3": 20
 			},
 			"action": [
-				"On its turn the battle balloon can take 3 actions if it has twenty or more crew, 2 actions if it has ten or more crew, or 1 action if it has fewer than ten crew, choosing from the options below. It cannot take any actions if it has no remaining crew.",
+				"En el seu torn, el globus de batalla pot fer 3 accions si té vint tripulants o més, 2 accions si en té deu o més, o 1 acció si té menys de deu tripulants, escollint entre les opcions següents. No pot prendre cap acció si no té tripulació restant.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "The battle balloon can fire its harpoon guns."
+							"type": "article",
+							"name": "Ballista de foc.",
+							"entry": "El globus de batalla pot disparar els seus arpons."
 						},
 						{
-							"type": "item",
-							"name": "Fire Green Flame Arbalester.",
-							"entry": "The battle balloon can fire its green flame arbalester."
+							"type": "article",
+							"name": "Arbalester Flama Verda Foc.",
+							"entry": "El globus de batalla pot disparar el seu arbalester de flama verda."
 						},
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The battle balloon can use its helm to move using its propeller. If the battle balloon enters a Large or smaller creature's space, that creature is automatically pushed to the edge of the battle balloon's space. The creature must also succeed on a DC 15 Destresa saving throw or take 5 ({@damage 1d10}) de dany contundent."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "El globus de batalla pot utilitzar el seu timó per moure's amb la seva hèlix. Si el globus de batalla entra a l'espai d'una criatura gran o més petita, aquesta criatura s'empeny automàticament a la vora de l'espai del globus de batalla. La criatura també ha de tenir èxit en una tirada de salvació de Destresa CD 15 o fer 5 ({@damage 1d10}) de dany contundent."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Harpoon Haul.",
-							"entry": "The battle balloon can pull each target {@condition grappled} by it up to 30 feet toward the battle balloon."
+							"entry": "El globus de batalla pot estirar cada objectiu {@condition grappled} fins a 30 peus cap al globus de batalla."
 						}
 					]
 				}
@@ -374,11 +374,11 @@
 			"name": "Demon Grinder",
 			"source": "BGDIA",
 			"page": 219,
-			"vehicleType": "INFWAR",
+			"vehicleType": "INFGUERRA",
 			"size": "G",
 			"weight": 12000,
 			"terrain": [
-				"land"
+				"terra"
 			],
 			"capCreature": 8,
 			"capCargo": 2000,
@@ -412,9 +412,9 @@
 			],
 			"trait": [
 				{
-					"name": "Crushing Wheels",
+					"name": "Rodes de trituració",
 					"entries": [
-						"The Demon Grinder can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 11 Destresa saving throw or take 22 ({@damage 4d10}) de dany contundent and be knocked {@condition enderrocat}. If the creature was already {@condition enderrocat}, it takes an extra 22 ({@damage 4d10}) de dany contundent. This trait can't be used against a particular creature more than once each turn."
+						"El Demon Grinder pot moure's per l'espai de qualsevol criatura gran o més petita. Quan ho fa, la criatura ha de tenir èxit en una tirada de salvació de Destresa CD 11 o fer 22 ({@damage 4d10}) de dany contundent i ser colpejada {@condition enderrocat}. Si la criatura ja era {@condition enderrocat}, necessitarà 22 ({@damage 4d10}) addicionals de dany contundent. Aquest tret no es pot utilitzar contra una criatura concreta més d'una vegada per torn."
 					]
 				},
 				{
@@ -424,33 +424,33 @@
 					]
 				},
 				{
-					"name": "Prone Deficiency",
+					"name": "Deficiència propensa",
 					"entries": [
-						"If the Demon Grinder rolls over and falls {@condition enderrocat}, it can't right itself i està {@condition incapacitat} until flipped upright."
+						"Si el Demon Grinder es gira i cau {@condition enderrocat}, no es pot arreglar i està {@condition incapacitat} fins que no s'aixequi."
 					]
 				}
 			],
 			"actionStation": [
 				{
-					"name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
+					"name": "Timó (requereix 1 tripulació i atorga cobertura de tres quarts)",
 					"entries": [
-						"Drive and steer the Demon Grinder."
+						"Condueix i dirigeix ​​el Demon Grinder."
 					]
 				},
 				{
-					"name": "Chomper (Requires 1 Crew and Grants Half Cover)",
+					"name": "Chomper (requereix 1 tripulació i mitja coberta de subvencions)",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 6d6 + 4}) de dany perforant. A target reduced to 0 hit points by this damage is ground to bits and spit out through pipes on both sides of the Demon Grinder.Any nonmagical items the target was holding or carrying are destroyed as well."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 6d6 + 4}) de dany perforant. Un objectiu reduït a 0 punts de vida per aquest dany es tritura a trossos i s'escup a través de canonades a banda i banda del Demon Grinder. També es destrueix qualsevol objecte no màgic que l'objectiu sostenia o portava."
 					]
 				},
 				{
-					"name": "Wrecking Ball (Requires 1 Crew and Grants Half Cover)",
+					"name": "Bola de demolició (requereix 1 tripulació i atorga mitja cobertura)",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 15 peus d'abast, un objectiu. {@h}40 ({@damage 8d8 + 4}) de dany contundent. Double the damage if the target is an object or a structure."
+						"{@atk mw} {@hit 9} a impactar, 15 peus d'abast, un objectiu. {@h}40 ({@damage 8d8 + 4}) de dany contundent. Doble el dany si l'objectiu és un objecte o una estructura."
 					]
 				},
 				{
-					"name": "2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)",
+					"name": "2 Harpoon Flingers (cada estació requereix 1 tripulació i dona mitja cobertura)",
 					"entries": [
 						"{@atk rw} {@hit 5} a impactar, 120 peus d'abast, un objectiu. {@h}9 ({@damage 2d8}) de dany perforant."
 					]
@@ -461,14 +461,14 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Devil's Ride",
+			"name": "Passeig del diable",
 			"source": "BGDIA",
 			"page": 218,
-			"vehicleType": "INFWAR",
+			"vehicleType": "INFGUERRA",
 			"size": "L",
 			"weight": 500,
 			"terrain": [
-				"land"
+				"terra"
 			],
 			"capCreature": 1,
 			"capCargo": 100,
@@ -502,38 +502,38 @@
 			],
 			"trait": [
 				{
-					"name": "Jump",
+					"name": "Saltar",
 					"entries": [
-						"If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement."
+						"Si el Devil's Ride es mou almenys 30 peus en línia recta, pot esborrar una distància de fins a 60 peus quan salta per sobre d'un avenc, barranc o un altre buit. Cada peu que aclareix en el salt costa un peu de moviment."
 					]
 				},
 				{
-					"name": "Prone Deficiency",
+					"name": "Deficiència propensa",
 					"entries": [
-						"If the Devil's Ride falls {@condition enderrocat}, it can't right itself i està {@condition incapacitat} until pulled upright."
+						"Si el Devil's Ride cau {@condition enderrocat}, no es pot arreglar i està {@condition incapacitat} fins que no s'aixequi."
 					]
 				},
 				{
-					"name": "Stunt",
+					"name": "Acrobàcia",
 					"entries": [
-						"On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC 10 Destresa check using the bike's Destresa, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt fins a l'inici del seu següent torn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall {@condition enderrocat} as the bike wipes out and comes to a dead stop."
+						"Al seu torn, el conductor del Devil's Ride pot gastar 10 peus de moviment per realitzar una acrobàcia gratuïta del vehicle, com ara un rodatge o un burnout. Abans de poder realitzar l'acrobàcia, el Devil's Ride s'ha de moure almenys 10 peus en línia recta. Si el conductor té èxit en una prova de Destresa DC 10 utilitzant la Destresa de la bicicleta, l'acrobàcia té èxit. En cas contrari, el conductor no pot realitzar l'acrobàcia i no pot intentar un altre truc fins a l'inici del seu següent trencat. Si la prova falla en 5 o més, el Devil's Ride i totes les criatures que la munten cauen immediatament {@condition enderrocat} mentre la bicicleta s'acaba i s'atura definitivament."
 					]
 				}
 			],
 			"actionStation": [
 				{
-					"name": "Helm (Requires 1 Crew and Grants Half Cover)",
+					"name": "Timó (requereix 1 tripulació i mitja cobertura)",
 					"entries": [
-						"Drive and steer the Devil's Ride."
+						"Condueix i dirigeix ​​el Devil's Ride."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Juke",
 					"entries": [
-						"If the Devil's Ride is able to move, the driver can use its reaction to grant the Devil's Ride advantage on a Destresa saving throw."
+						"Si el Devil's Ride és capaç de moure's, el conductor pot utilitzar la seva reacció per atorgar l'avantatge del Devil's Ride en una tirada de salvació de Destresa."
 					]
 				}
 			],
@@ -542,17 +542,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Galley",
+			"name": "Galera",
 			"source": "GoS",
 			"page": 187,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"130 ft.",
-				"20 ft."
+				"130 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 80,
 			"capPassenger": 40,
@@ -572,7 +572,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -589,39 +589,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the galley can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si el timó està destruït, la galera no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"30 ft. (requires at least 40 crew)"
+								"30 peus (requereix almenys 40 tripulants)"
 							]
 						}
 					]
 				},
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de 10 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind"
+								"35 peus; 15 peus mentre navega al vent; 50 peus mentre navega amb el vent"
 							]
 						}
 					]
@@ -629,7 +629,7 @@
 			],
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 4,
 					"ac": 15,
 					"hp": 50,
@@ -652,7 +652,7 @@
 					"hp": 100,
 					"dt": 10,
 					"entries": [
-						"The galley has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+						"La galera té avantatge en totes les tirades de salvació relacionades amb el xoc quan xoca contra una criatura o un objecte. Qualsevol dany que es produeixi per l'accident s'aplica a l'ariet naval més que al vaixell. Aquests avantatges no s'apliquen si un altre vaixell s'estavella contra la cuina."
 					]
 				}
 			],
@@ -663,25 +663,25 @@
 				"3": 40
 			},
 			"action": [
-				"On its turn, the galley can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than forty crew and only 1 action if it has fewer than twenty. It can't take these actions if it has fewer than three crew.",
+				"Al seu torn, la galera pot fer 3 accions, escollint entre les opcions següents. Només pot fer 2 accions si té menys de quaranta tripulants i només 1 acció si en té menys de vint. No pot prendre aquestes accions si té menys de tres tripulants.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Fire Ballistas.",
-							"entry": "The galley can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Ballistes de foc.",
+							"entry": "La galera pot disparar els seus {@object ballista||ballistas} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Fire Mangonels.",
-							"entry": "The galley can fire its {@object manganell||manganells} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Mangonels de foc.",
+							"entry": "La galera pot disparar els seus {@object manganell||manganells} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The galley can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "La galera pot utilitzar el seu timó per moure's amb els seus rems o veles. Com a part d'aquest moviment, pot utilitzar el seu ariet naval."
 						}
 					]
 				}
@@ -690,17 +690,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Galley",
+			"name": "Galera",
 			"source": "UAOfShipsAndSea",
 			"page": 2,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"130 ft.",
-				"20 ft."
+				"130 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 80,
 			"capPassenger": 40,
@@ -720,7 +720,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -737,39 +737,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the galley can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si el timó està destruït, la galera no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de 10 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"sails, speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+								"veles, velocitat 35 peus; 15 peus mentre navega al vent; 50 peus mentre navega amb el vent."
 							]
 						}
 					]
 				},
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"oars, speed 30 ft."
+								"rems, velocitat 30 peus."
 							]
 						}
 					]
@@ -777,7 +777,7 @@
 			],
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 4,
 					"ac": 15,
 					"hp": 50,
@@ -800,31 +800,31 @@
 					"hp": 100,
 					"dt": 10,
 					"entries": [
-						"The galley has advantage on all saving throws relating to crashing when it crashes into a creature or object, and any damage it suffers from the crash is instead applied to the ram. These benefits do not apply if a vehicle crashes into the galley."
+						"La galera té avantatge en totes les tirades de salvació relacionades amb l'impacte quan xoca contra una criatura o objecte, i qualsevol dany que pateix per l'impacte s'aplica a l'ariet. Aquests avantatges no s'apliquen si un vehicle xoca contra la cuina."
 					]
 				}
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the galley can move using its helm. It can also fire its ballistas and its manganells. If it has half its crew or fewer, it moves at half speed and can fire only half of its weapons."
+						"Al seu torn, la galera es pot moure amb el seu timó. També pot disparar els seus ballistes i els seus manganells. Si té la meitat de la seva tripulació o menys, es mou a mitja velocitat i només pot disparar la meitat de les seves armes."
 					]
 				}
 			]
 		},
 		{
-			"name": "Keelboat",
+			"name": "Vaixell de quilla",
 			"source": "GoS",
 			"page": 188,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"60 ft.",
-				"20 ft."
+				"60 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 3,
 			"capPassenger": 4,
@@ -844,7 +844,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -861,39 +861,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 12,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the keelboat can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si es destrueix el timó, el vaixell de quilla no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"20 ft."
+								"20 peus."
 							]
 						}
 					]
 				},
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"hpNote": "-Velocitat de 5 peus per cada 20 danys rebuts",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"25 peus; 15 peus mentre navega al vent; 35 peus mentre navega amb el vent."
 							]
 						}
 					]
@@ -906,7 +906,7 @@
 					"hp": 50,
 					"entries": [
 						"{@atk rw} {@hit 6} a impactar, 120/480 peus d'abast, un objectiu. {@h}16 ({@damage 3d10}) de dany perforant.",
-						"Keelboats typically include a ballista only when they are equipped for combat."
+						"Els vaixells de quilla normalment inclouen una balista només quan estan equipats per al combat."
 					]
 				}
 			],
@@ -916,20 +916,20 @@
 				"2": 2
 			},
 			"action": [
-				"On its turn, the keelboat can take 2 actions, choosing from the options below. It can take only 1 action if it has only one crew. It can't take these actions if it has no crew.",
+				"Al seu torn, el vaixell de quilla pot realitzar 2 accions, escollint entre les opcions següents. Només pot fer 1 acció si només té una tripulació. No pot prendre aquestes accions si no té tripulació.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "The keelboat can fire its {@object ballista} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Ballista de foc.",
+							"entry": "El vaixell de quilla pot disparar el seu {@object ballista} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The keelboat can use its helm to move with its oars or sails."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "El vaixell de quilla pot utilitzar el seu timó per moure's amb els seus rems o veles."
 						}
 					]
 				}
@@ -938,17 +938,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Keelboat",
+			"name": "Vaixell de quilla",
 			"source": "UAOfShipsAndSea",
 			"page": 3,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"60 ft.",
-				"20 ft."
+				"60 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 3,
 			"capPassenger": 4,
@@ -968,7 +968,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -985,39 +985,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 12,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the keelboat can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si es destrueix el timó, el vaixell de quilla no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"hpNote": "-Velocitat de 5 peus per cada 20 danys rebuts",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"sails, speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"veles, velocitat 25 peus; 15 peus mentre navega al vent; 35 peus mentre navega amb el vent."
 							]
 						}
 					]
 				},
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"oars, speed 20 ft."
+								"rems, velocitat 20 peus."
 							]
 						}
 					]
@@ -1029,15 +1029,15 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 6} a impactar, 120/480 peus d'abast, un objectiu. {@h}16 ({@damage 3d10}) de dany perforant. Keelboats typically include a ballista only when they are equipped for combat."
+						"{@atk rw} {@hit 6} a impactar, 120/480 peus d'abast, un objectiu. {@h}16 ({@damage 3d10}) de dany perforant. Els vaixells de quilla normalment inclouen una balista només quan estan equipats per al combat."
 					]
 				}
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the keelboat can move using its helm. It can also fire its ballista if it is equipped with one. If it has half its crew or fewer, it moves at half speed and can't use its ballista."
+						"Al seu torn, el vaixell de quilla es pot moure amb el timó. També pot disparar la seva balista si està equipada amb una. Si té la meitat de la seva tripulació o menys, es mou a mitja velocitat i no pot utilitzar la seva balista."
 					]
 				}
 			]
@@ -1046,14 +1046,14 @@
 			"name": "Longship",
 			"source": "GoS",
 			"page": 190,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"70 ft.",
-				"20 ft."
+				"70 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 40,
 			"capPassenger": 100,
@@ -1073,7 +1073,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1090,39 +1090,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the longship can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si el timó és destruït, el vaixell no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"20 ft. (requires at least 20 crew)"
+								"20 peus (requereix almenys 20 tripulants)"
 							]
 						}
 					]
 				},
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de 10 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+								"45 peus; 15 peus mentre navega al vent; 60 peus mentre navega amb el vent."
 							]
 						}
 					]
@@ -1133,15 +1133,15 @@
 				"1": 1
 			},
 			"action": [
-				"On its turn, the longship can take the move action below. It can't take this action if it has no crew.",
+				"Al seu torn, el vaixell llarg pot fer l'acció de moviment a continuació. No pot prendre aquesta acció si no té tripulació.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The longship can use its helm to move with its oars or sails."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "El vaixell llarg pot utilitzar el seu timó per moure's amb els seus rems o veles."
 						}
 					]
 				}
@@ -1153,14 +1153,14 @@
 			"name": "Longship",
 			"source": "UAOfShipsAndSea",
 			"page": 4,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"70 ft.",
-				"20 ft."
+				"70 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 40,
 			"capPassenger": 100,
@@ -1180,7 +1180,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1197,39 +1197,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the longship can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si el timó és destruït, el vaixell no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de 10 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"sails, speed 45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+								"veles, velocitat 45 peus; 15 peus mentre navega al vent; 60 peus mentre navega amb el vent."
 							]
 						}
 					]
 				},
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"oars, speed 20 ft."
+								"rems, velocitat 20 peus."
 							]
 						}
 					]
@@ -1237,31 +1237,31 @@
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the longship can move using its helm. If the longship loses half or more of its crew, it moves at half speed."
+						"Al seu torn, el vaixell es pot moure amb el seu timó. Si el vaixell llarg perd la meitat o més de la seva tripulació, es mou a mitja velocitat."
 					]
 				}
 			]
 		},
 		{
-			"name": "Mechanical Beholder",
+			"name": "Observador mecànic",
 			"source": "AI",
 			"page": 219,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "H",
 			"dimensions": [
-				"15 ft.",
-				"15 ft."
+				"15 peus.",
+				"15 peus."
 			],
 			"terrain": [
-				"land",
-				"sea",
-				"air"
+				"terra",
+				"mar",
+				"aire"
 			],
 			"capCrew": 1,
 			"capPassenger": 5,
-			"capCargo": "crew and passengers' normal gear",
+			"capCargo": "equip normal de la tripulació i dels passatgers",
 			"pace": 3,
 			"str": 18,
 			"dex": 12,
@@ -1277,7 +1277,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1294,25 +1294,25 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 16,
 					"hp": 25,
 					"entries": [
-						"Move up to the speed of the ship's magical propulsion unit, with one 90-degree turn. The helm can be attacked only if the hull has taken 100 or more damage. If the helm is destroyed, the mechanical beholder can't move."
+						"Augmenta la velocitat de la unitat de propulsió màgica del vaixell, amb un gir de 90 graus. El timó només es pot atacar si el casc ha patit 100 danys o més. Si el timó es destrueix, l'espectador mecànic no es pot moure."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Magical Propulsion Unit",
+					"name": "Unitat de Propulsió Màgica",
 					"ac": 16,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "magical",
+							"mode": "màgic",
 							"entries": [
-								"burrow 30 ft., fly 30 ft. (flotar), swim 30 ft."
+								"cau 30 peus, volar 30 peus (flotar), nedar 30 peus."
 							]
 						}
 					]
@@ -1325,25 +1325,25 @@
 					"ac": 14,
 					"hp": 50,
 					"entries": [
-						"{@atk g} The mechanical beholder shoots the following magical eye rays at up to three targets that would be visible to the crew and are within 120 feet of it.",
+						"{@atk g} L'espectador mecànic dispara els següents raigs oculars màgics a un màxim de tres objectius que serien visibles per a la tripulació i que es troben a 120 peus d'ell.",
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
+							"type": "llista",
+							"style": "llista-penja-sense títol",
 							"items": [
 								{
-									"type": "item",
-									"name": "Disintegration Ray.",
-									"entry": "If the target is a creature, it must succeed on a DC 15 Destresa saving throw or take 18 ({@damage 4d8}) de dany de força. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it."
+									"type": "article",
+									"name": "Raig de desintegració.",
+									"entry": "Si l'objectiu és una criatura, ha de tenir èxit en una tirada de salvació de Destresa CD 15 o fer 18 ({@damage 4d8}) de dany de força. Si aquest dany redueix la criatura a 0 punts de vida, el seu cos es converteix en un munt de pols gris fina. Si l'objectiu és un objecte no màgic gran o més petit o una creació de força màgica, es desintegra sense una tirada de salvació. Si l'objectiu és un objecte enorme o més gran o una creació de força màgica, aquest raig en desintegra un cub de 10 peus."
 								},
 								{
-									"type": "item",
-									"name": "Enervation Ray.",
-									"entry": "The targeted creature must make a DC 15 Constitució saving throw. Qui falli rep 18 ({@damage 4d8}) de dany necròtic; qui superi, en rep la meitat."
+									"type": "article",
+									"name": "Raig d'enervació.",
+									"entry": "La criatura objectiu ha de fer una tirada de salvació de Constitució DC 15. Qui falli rep 18 (@damage 4d8}) de dany necròtic; qui superi, en rep la meitat."
 								},
 								{
-									"type": "item",
-									"name": "Paralyzing Ray.",
-									"entry": "The targeted creature must succeed on a DC 15 Constitució saving throw or be {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+									"type": "article",
+									"name": "Ray paralitzant.",
+									"entry": "La criatura objectiu ha de tenir èxit en una tirada de salvació de Constitució CD 15 o estar {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 								}
 							]
 						}
@@ -1355,20 +1355,20 @@
 				"1": 1
 			},
 			"action": [
-				"On its turn the mechanical beholder can take 1 action. It cannot take any actions if it has no crew.",
+				"Al seu torn, l'espectador mecànic pot fer 1 acció. No pot fer cap acció si no té tripulació.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Rajos d'Ull.",
-							"entry": "The mechanical beholder can use its eye ray tentacles."
+							"entry": "L'espectador mecànic pot utilitzar els seus tentacles de raigs oculars."
 						},
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The mechanical beholder can use its helm to move using its magical propulsion unit."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "L'espectador mecànic pot utilitzar el seu timó per moure's utilitzant la seva unitat de propulsió màgica."
 						}
 					]
 				}
@@ -1380,28 +1380,28 @@
 			"name": "Planar Raider",
 			"source": "MTF",
 			"page": 90,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "H",
 			"dimensions": [
-				"120 ft.",
-				"40 ft."
+				"120 peus.",
+				"40 peus."
 			],
 			"terrain": [
-				"air"
+				"aire"
 			],
 			"capCrew": 10,
 			"capPassenger": 100,
 			"pace": 12,
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 2,
 					"entries": [
 						"{@atk rw} {@hit 6} a impactar, 120/480 peus d'abast, un objectiu. {@h}16 ({@damage 3d10}) de dany perforant."
 					]
 				},
 				{
-					"name": "Catapult",
+					"name": "Catapulta",
 					"entries": [
 						"{@atk rw} {@hit 5} a impactar, 200/800 peus d'abast (no pot designar objectius que n'estiguin a 60 peus o menys), un objectiu. {@h}27 ({@damage 5d10}) de dany contundent."
 					]
@@ -1410,17 +1410,17 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Rowboat",
+			"name": "Vaixell de rems",
 			"source": "GoS",
 			"page": 190,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "L",
 			"dimensions": [
-				"10 ft.",
-				"5 ft."
+				"10 peus.",
+				"5 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 2,
 			"capPassenger": 2,
@@ -1440,7 +1440,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1456,16 +1456,16 @@
 			},
 			"movement": [
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"isControl": true,
 					"ac": 12,
 					"hp": 25,
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"15 ft.",
-								"Move up to its speed, with one 90-degree turn. Without oars, the rowboat's speed is 0."
+								"15 peus.",
+								"Aneu a la seva velocitat, amb un gir de 90 graus. Sense rems, la velocitat del vaixell de rems és 0."
 							]
 						}
 					]
@@ -1476,15 +1476,15 @@
 				"1": 1
 			},
 			"action": [
-				"On its turn, the rowboat can take the move action below. It can't take this action if it has no crew.",
+				"Al seu torn, el vaixell de rems pot fer l'acció de moviment següent. No pot prendre aquesta acció si no té tripulació.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The rowboat can move using its oars."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "El vaixell de rems es pot moure amb els seus rems."
 						}
 					]
 				}
@@ -1493,17 +1493,17 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Rowboat",
+			"name": "Vaixell de rems",
 			"source": "UAOfShipsAndSea",
 			"page": 4,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "L",
 			"dimensions": [
-				"10 ft.",
-				"5 ft."
+				"10 peus.",
+				"5 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 2,
 			"capPassenger": 2,
@@ -1523,7 +1523,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1540,15 +1540,15 @@
 			},
 			"movement": [
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"isControl": true,
 					"ac": 12,
 					"hp": 25,
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"oars, speed 15 ft. Move up to its speed, with one 90-degree turn. Without oars, the rowboat's speed is 0."
+								"rems, velocitat 15 peus. Desplaceu-vos fins a la seva velocitat, amb un gir de 90 graus. Sense rems, la velocitat del vaixell de rems és 0."
 							]
 						}
 					]
@@ -1556,25 +1556,25 @@
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the rowboat can move using its oars."
+						"Al seu torn, la barca de rems pot moure's utilitzant els seus rems."
 					]
 				}
 			]
 		},
 		{
-			"name": "Sailing Ship",
+			"name": "Veler",
 			"source": "GoS",
 			"page": 192,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"100 ft.",
-				"20 ft."
+				"100 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 30,
 			"capPassenger": 20,
@@ -1594,7 +1594,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1611,25 +1611,25 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+						"Mou-te a la velocitat de les seves veles, amb un gir de 90 graus. Si el timó és destruït, el vaixell no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+								"45 peus; 15 peus mentre navega al vent; 60 peus mentre navega amb el vent."
 							]
 						}
 					]
@@ -1660,25 +1660,25 @@
 				"3": 20
 			},
 			"action": [
-				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+				"Al seu torn, el vaixell pot fer 3 accions, escollint entre les opcions següents. Només pot fer 2 accions si té menys de vint tripulants i només 1 acció si en té menys de deu. No pot prendre aquestes accions si té menys de tres tripulants.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "The ship can fire its {@object ballista} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Ballista de foc.",
+							"entry": "El vaixell pot disparar el seu {@object ballista} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Fire Mangonel.",
-							"entry": "The ship can fire its {@object manganell} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Mangonel de foc.",
+							"entry": "La nau pot disparar el seu {@object manganell} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The ship can use its helm to move with its sails."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "El vaixell pot utilitzar el seu timó per moure's amb les seves veles."
 						}
 					]
 				}
@@ -1687,17 +1687,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sailing Ship",
+			"name": "Veler",
 			"source": "UAOfShipsAndSea",
 			"page": 4,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"80 ft.",
-				"20 ft."
+				"80 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 30,
 			"capPassenger": 20,
@@ -1717,7 +1717,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -1734,25 +1734,25 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+						"Mou-te a la velocitat de les seves veles, amb un gir de 90 graus. Si el timó és destruït, el vaixell no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"sails, speed 45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+								"veles, velocitat 45 peus; 15 peus mentre navega al vent; 60 peus mentre navega amb el vent."
 							]
 						}
 					]
@@ -1778,22 +1778,22 @@
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the sailing ship can move using its helm. It can also fire its ballista and its manganell. If it has half its crew or fewer, it moves at half speed and can fire either its ballista or its manganell."
+						"Al seu torn, el veler pot moure's amb el seu timó. També pot disparar la seva ballista i el seu manganell. Si té la meitat de la seva tripulació o menys, es mou a mitja velocitat i pot disparar la seva balista o el seu manganell."
 					]
 				}
 			]
 		},
 		{
-			"name": "Scavenger",
+			"name": "Carronyer",
 			"source": "BGDIA",
 			"page": 219,
-			"vehicleType": "INFWAR",
+			"vehicleType": "INFGUERRA",
 			"size": "H",
 			"weight": 9000,
 			"terrain": [
-				"land"
+				"terra"
 			],
 			"capCreature": 8,
 			"capCargo": 4000,
@@ -1827,9 +1827,9 @@
 			],
 			"trait": [
 				{
-					"name": "Crushing Wheels",
+					"name": "Rodes de trituració",
 					"entries": [
-						"The Scavenger can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 12 Destresa saving throw or take 16 ({@damage 3d10}) de dany contundent and be knocked {@condition enderrocat}. If the creature was already {@condition enderrocat}, it takes an extra 16 ({@damage 3d10}) de dany contundent. This trait can't be used against a particular creature more than once each turn."
+						"El carronyador pot moure's per l'espai de qualsevol criatura gran o més petita. Quan ho fa, la criatura ha de tenir èxit en una tirada de salvació de Destresa CD 12 o fer 16 ({@damage 3d10}) de dany contundent i ser colpejada {@condition enderrocat}. Si la criatura ja era {@condition enderrocat}, necessitarà 16 ({@damage 3d10}) addicionals de dany contundent. Aquest tret no es pot utilitzar contra una criatura concreta més d'una vegada per torn."
 					]
 				},
 				{
@@ -1839,27 +1839,27 @@
 					]
 				},
 				{
-					"name": "Prone Deficiency",
+					"name": "Deficiència propensa",
 					"entries": [
-						"If the Scavenger rolls over and falls {@condition enderrocat}, it can't right itself i està {@condition incapacitat} until flipped upright."
+						"Si l'Escavenger es gira i cau {@condition enderrocat}, no es pot arreglar i està {@condition incapacitat} fins que no es capgi."
 					]
 				}
 			],
 			"actionStation": [
 				{
-					"name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
+					"name": "Timó (requereix 1 tripulació i atorga cobertura de tres quarts)",
 					"entries": [
-						"Drive and steer the Scavenger."
+						"Condueix i dirigeix ​​el Scavenger."
 					]
 				},
 				{
-					"name": "Grappling Claw (Requires 1 Crew and Grants Half Cover)",
+					"name": "Grappling Claw (requereix 1 tripulació i dona mitja cobertura)",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 15 peus d'abast, un objectiu. {@h}The target is {@condition grappled} (CD 12 per escapar). If the target is a creature, it is {@condition restrained} until the grapple ends.The grappling claw can grapple only un objectiu at a time, and the claw's operator can use a bonus action to make the claw release whatever it's holding."
+						"{@atk mw} {@hit 10} a impactar, 15 peus d'abast, un objectiu. {@h}L'objectiu és {@condition grappled} (CD 12 per escapar). Si l'objectiu és una criatura, està {@condition restrained} fins que s'acaba l'arpa. L'arpa d'arpa només pot agafar un objectiu alhora, i l'operador de l'arpa pot utilitzar una acció addicional per fer que l'arpa alliberi el que tingui."
 					]
 				},
 				{
-					"name": "2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)",
+					"name": "2 Harpoon Flingers (cada estació requereix 1 tripulació i dona mitja cobertura)",
 					"entries": [
 						"{@atk rw} {@hit 6} a impactar, 120 peus d'abast, un objectiu. {@h}10 ({@damage 2d8 + 1}) de dany perforant."
 					]
@@ -1873,11 +1873,11 @@
 			"name": "Stahlmaster",
 			"source": "DD",
 			"page": 235,
-			"vehicleType": "CREATURE",
+			"vehicleType": "CRIATURA",
 			"size": "L",
 			"type": "vehicle",
 			"terrain": [
-				"land"
+				"terra"
 			],
 			"ac": [
 				{
@@ -1908,7 +1908,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -1919,15 +1919,15 @@
 				{
 					"name": "Pilot",
 					"entries": [
-						"The Stahlmaster requires a Medium humanoid to pilot it. While inside the Stahlmaster, the pilot uses the vehicle's speed and action options and can't take reactions or use bonus actions, and the pilot has total cover. If the Stahlmaster es queda a 0 punts de vida, the pilot is ejected from it and lands {@condition enderrocat} in an unoccupied space within 5 feet of the vehicle."
+						"El Stahlmaster requereix un humanoide mitjà per pilotar-lo. Mentre està dins de l'Stahlmaster, el pilot utilitza les opcions de velocitat i acció del vehicle i no pot prendre reaccions ni utilitzar accions de bonificació, i el pilot té una cobertura total. Si l'Stahlmaster queda a 0 punts de vida, el pilot és expulsat d'ell i aterra {@condition enderrocat} en un espai desocupat a 5 peus del vehicle."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The Stahlmaster makes two melee attacks, or one melee attack and one ranged attack."
+						"El Stahlmaster fa dos atacs cos a cos, o un atac cos a cos i un a distància."
 					]
 				},
 				{
@@ -1937,7 +1937,7 @@
 					]
 				},
 				{
-					"name": "Shoulder-Mounted Crossbow",
+					"name": "Ballesta a l'espatlla",
 					"entries": [
 						"{@atk rw} {@hit 2} a impactar, 30/120 peus d'abast, un objectiu. {@h}6 ({@damage 1d12}) de dany perforant."
 					]
@@ -1946,14 +1946,14 @@
 			"hasToken": true
 		},
 		{
-			"name": "Tormentor",
+			"name": "Tormentador",
 			"source": "BGDIA",
 			"page": 218,
-			"vehicleType": "INFWAR",
+			"vehicleType": "INFGUERRA",
 			"size": "H",
 			"weight": 3000,
 			"terrain": [
-				"land"
+				"terra"
 			],
 			"capCreature": 4,
 			"capCargo": 500,
@@ -1987,15 +1987,15 @@
 			],
 			"trait": [
 				{
-					"name": "Crushing Wheels",
+					"name": "Rodes de trituració",
 					"entries": [
-						"The Tormentor can move through the space of any Medium or smaller creature. When it does, the creature must succeed on a DC 13 Destresa saving throw or take 11 ({@damage 2d10}) de dany contundent and be knocked {@condition enderrocat}.If the creature was already {@condition enderrocat}, it takes an extra 11 ({@damage 2d10}) de dany contundent.This trait can't be used against a particular creature more than once each turn."
+						"El Tormentador pot moure's per l'espai de qualsevol criatura mitjana o més petita. Quan ho fa, la criatura ha de superar una tirada de salvació de Destresa CD 13 o fer 11 ({@damage 2d10}) de dany contundent i ser colpejada {@condition enderrocat}. Si la criatura ja era {@condition enderrocat}, cal un 11 addicional ({@damage 2d10}) de dany contundent. Aquest tret no es pot utilitzar contra una criatura concreta més d'una vegada per torn."
 					]
 				},
 				{
-					"name": "Prone Deficiency",
+					"name": "Deficiència propensa",
 					"entries": [
-						"If the Tormentor rolls over and falls {@condition enderrocat}, it can't right itself i està {@condition incapacitat} until flipped upright."
+						"Si el Tormentador es gira i cau {@condition enderrocat}, no es pot arreglar i està {@condition incapacitat} fins que no es capgi."
 					]
 				},
 				{
@@ -2005,21 +2005,21 @@
 					]
 				},
 				{
-					"name": "Raking Scythes",
+					"name": "Rastrellar Dalls",
 					"entries": [
-						"When the Tormentor moves within 5 feet of a creature that isn't {@condition enderrocat} or another vehicle for the first time on a turn, it can rake the creature or vehicle with its protruding blades for 13 ({@damage 2d10 + 2}) de dany tallant. A creature moves out of the way and takes no damage if it succeeds on a DC 13 Destresa saving throw.A vehicle moves out of the way and takes no damage if its driver succeeds on the saving throw."
+						"Quan el Tormentador es mou a menys de 5 peus d'una criatura que no sigui {@condition enderrocat} o un altre vehicle per primera vegada en un torn, pot arrassar la criatura o el vehicle amb les seves fulles que sobresurten durant 13 ({@dany 2d10 + 2). }) de dany tallant. Una criatura s'allunya del camí i no pateix cap dany si té èxit en una tirada de salvació de Destresa de CD 13. Un vehicle s'allunya i no rep danys si el seu conductor aconsegueix la tirada de salvació."
 					]
 				}
 			],
 			"actionStation": [
 				{
-					"name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
+					"name": "Timó (requereix 1 tripulació i atorga cobertura de tres quarts)",
 					"entries": [
-						"Drive and steer the Tormentor"
+						"Condueix i dirigeix ​​el Tormentor"
 					]
 				},
 				{
-					"name": "Harpoon Flinger (Requires 1 Crew and Grants Half Cover)",
+					"name": "Harpoon Flinger (requereix 1 tripulació i mitja cobertura)",
 					"entries": [
 						"{@atk rw} {@hit 7} a impactar, 120 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant."
 					]
@@ -2027,10 +2027,10 @@
 			],
 			"reaction": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Juke",
 					"entries": [
-						"If the Tormentor is able to move, the driver can use its reaction to grant the Tormentor advantage on a Destresa saving throw."
+						"Si el Tormentador és capaç de moure's, el conductor pot utilitzar la seva reacció per atorgar l'avantatge del Tormentador en un tir de salvació de Destresa."
 					]
 				}
 			],
@@ -2039,17 +2039,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Warship",
+			"name": "Vaixell de guerra",
 			"source": "GoS",
 			"page": 194,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"100 ft.",
-				"20 ft."
+				"100 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 40,
 			"capPassenger": 60,
@@ -2069,7 +2069,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -2086,39 +2086,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the warship can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si el timó és destruït, el vaixell de guerra no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"20 ft. (requires at least 20 crew)"
+								"20 peus (requereix almenys 20 tripulants)"
 							]
 						}
 					]
 				},
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de 10 peus per cada 25 de dany rebut",
 					"speed": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+								"35 peus; 15 peus mentre navega al vent; 50 peus mentre navega amb el vent."
 							]
 						}
 					]
@@ -2126,7 +2126,7 @@
 			],
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 2,
 					"ac": 15,
 					"hp": 50,
@@ -2149,7 +2149,7 @@
 					"hp": 100,
 					"dt": 10,
 					"entries": [
-						"The warship has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the warship."
+						"El vaixell de guerra té avantatge en totes les tirades de salvació relacionades amb l'estavellament quan xoca contra una criatura o objecte. Qualsevol dany que es produeixi per l'accident s'aplica a l'ariet naval més que al vaixell. Aquests avantatges no s'apliquen si un altre vaixell s'estavella contra el vaixell de guerra."
 					]
 				}
 			],
@@ -2160,25 +2160,25 @@
 				"3": 20
 			},
 			"action": [
-				"On its turn, the warship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than twenty crew and only 1 action if it has fewer than ten. It can't take these actions if it has fewer than three crew.",
+				"Al seu torn, el vaixell de guerra pot fer 3 accions, escollint entre les opcions següents. Només pot fer 2 accions si té menys de vint tripulants i només 1 acció si en té menys de deu. No pot prendre aquestes accions si té menys de tres tripulants.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "Fire Ballistas.",
-							"entry": "The warship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Ballistes de foc.",
+							"entry": "El vaixell de guerra pot disparar els seus {@object ballista||ballistas} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Fire Mangonels.",
-							"entry": "The warship can fire its {@object manganell||manganells} (DMG, ch. 8)."
+							"type": "article",
+							"name": "Mangonels de foc.",
+							"entry": "El vaixell de guerra pot disparar els seus {@object manganell||manganells} (DMG, cap. 8)."
 						},
 						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The warship can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
+							"type": "article",
+							"name": "Mou-te.",
+							"entry": "El vaixell de guerra pot utilitzar el seu timó per moure's amb els seus rems o veles. Com a part d'aquest moviment, pot utilitzar el seu ariet naval."
 						}
 					]
 				}
@@ -2187,17 +2187,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Warship",
+			"name": "Vaixell de guerra",
 			"source": "UAOfShipsAndSea",
 			"page": 5,
-			"vehicleType": "SHIP",
+			"vehicleType": "VAIXELL",
 			"size": "G",
 			"dimensions": [
-				"100 ft.",
-				"20 ft."
+				"100 peus.",
+				"20 peus."
 			],
 			"terrain": [
-				"sea"
+				"mar"
 			],
 			"capCrew": 40,
 			"capPassenger": 60,
@@ -2217,7 +2217,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"incapacitat",
 				"paralitzat",
@@ -2234,39 +2234,39 @@
 			},
 			"control": [
 				{
-					"name": "Helm",
+					"name": "Timó",
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the warship can't turn."
+						"Mou-te a la velocitat d'un dels seus components de moviment, amb un gir de 90 graus. Si el timó és destruït, el vaixell de guerra no pot girar."
 					]
 				}
 			],
 			"movement": [
 				{
-					"name": "Sails",
+					"name": "Veles",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de 10 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"sails, speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+								"veles, velocitat 35 peus; 15 peus mentre navega al vent; 50 peus mentre navega amb el vent."
 							]
 						}
 					]
 				},
 				{
-					"name": "Oars",
+					"name": "Rems",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
+					"hpNote": "-Velocitat de -5 peus per cada 25 de dany rebut",
 					"locomotion": [
 						{
-							"mode": "water",
+							"mode": "aigua",
 							"entries": [
-								"oars, speed 20 ft. with 80 or more rowers, 10 feet with 40 or more rowers, 5 ft. with 20 or more rowers."
+								"rems, velocitat 20 peus amb 80 o més remers, 10 peus amb 40 o més remers, 5 peus amb 20 o més remers."
 							]
 						}
 					]
@@ -2274,7 +2274,7 @@
 			],
 			"weapon": [
 				{
-					"name": "Ballistas",
+					"name": "Ballistes",
 					"count": 2,
 					"ac": 15,
 					"hp": 50,
@@ -2297,15 +2297,15 @@
 					"hp": 100,
 					"dt": 10,
 					"entries": [
-						"The warship has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it suffers from the crash is instead applied to the ram. These benefits do not apply if another vessel crashes into the warship."
+						"El vaixell de guerra té avantatge en totes les tirades de salvació relacionades amb l'estavellament quan xoca contra una criatura o objecte. En canvi, qualsevol dany que pateixi a causa de l'accident s'aplica a l'ariet. Aquests beneficis no s'apliquen si un altre vaixell s'estavella contra el vaixell de guerra."
 					]
 				}
 			],
 			"other": [
 				{
-					"name": "Actions",
+					"name": "Accions",
 					"entries": [
-						"On its turn, the warship can move using its helm. It can also fire its ballistas and manganells. If it has half its crew or fewer, it moves at half speed and can fire only half of its weapons."
+						"Al seu torn, el vaixell de guerra pot moure's amb el seu timó. També pot disparar les seves ballistes i manganells. Si té la meitat de la seva tripulació o menys, es mou a mitja velocitat i només pot disparar la meitat de les seves armes."
 					]
 				}
 			]
@@ -2313,130 +2313,130 @@
 	],
 	"vehicleUpgrade": [
 		{
-			"name": "Acidic Bile Sprayer",
+			"name": "Polvoritzador de bilis àcid",
 			"source": "BGDIA",
 			"page": 221,
 			"upgradeType": [
-				"IWM:W"
+				"IWM: W"
 			],
 			"entries": [
-				"This hose weapon is attached to demonic organs that produce an acidic bile that dissolves flesh on contact.",
+				"Aquesta arma de mànega està connectada a òrgans demoníacs que produeixen una bilis àcida que dissol la carn en contacte.",
 				{
-					"type": "entries",
-					"name": "Acidic Bile Sprayer (Requires 1 Crew and Grants Half Cover, {@recharge 5|m})",
+					"type": "entrades",
+					"name": "Polvoritzador de bilis àcid (requereix 1 tripulació i atorga mitja cobertura, {@recharge 5|m})",
 					"entries": [
-						"Acidic bile sprays from a nozzle en un con de 30 peus. Tota criatura a dins del con must make a DC 12 Destresa saving throw. Qui falli rep 40 ({@damage 9d8}) de dany d'àcid; qui superi, en rep la meitat. A creature reduced to 0 hit points by this damage is dissolved, leaving behind any objects it was carrying or wearing."
+						"Acid bile sprays from a nozzle en un amb de 30 peus. Tota criatura a dins del con must make a DC 12 Destresa save shoot. Qui falli rep 40 ({@damage 9d8}) de dany d'àcid; qui superi, en rep la meitat. Una criatura reduïda a 0 punts de vida per aquest dany es dissol, deixant enrere els objectes que duia o duia."
 					]
 				}
 			]
 		},
 		{
-			"name": "Arcane Artillery",
+			"name": "Artilleria Arcana",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:W"
+				"SHP: W"
 			],
 			"entries": [
-				"Using methods similar to those used to produce magic weapons, a skilled spellcaster imbues a ship's weapon with destructive energy. This weapon gains a +2 bonus to its attack and damage rolls, and its attacks count as magical."
+				"Utilitzant mètodes similars als que s'utilitzen per produir armes màgiques, un hàbil lançador d'encanteris impregna l'arma d'un vaixell d'energia destructiva. Aquesta arma obté una bonificació +2 a les seves tires d'atac i de dany, i els seus atacs compten com a màgics."
 			]
 		},
 		{
-			"name": "Bones of Endless Toil",
+			"name": "Ossos de treball sense fi",
 			"source": "GoS",
 			"page": 198,
 			"upgradeType": [
-				"SHP:O"
+				"SHP: O"
 			],
 			"entries": [
-				"The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Saviesa saving throw. Si supera, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
+				"Els ossos de criatures antigues i misterioses engalanen el vaixell. Runes potents s'arrosseguen per aquestes restes, emetent una resplendor verda malaltissa. Quan un humanoide mor a bord de la nau, aquesta criatura ha de fer una tirada de salvació de Saviesa DC 12. Si supera, mor amb normalitat. Si falla, s'aixeca immediatament com un {@creature zombie} obedient al capità del vaixell. El zombi adquireix un coneixement de treball de la nau, cosa que li permet servir com a membre de la tripulació. Es poden animar d'aquesta manera un nombre de criatures igual a la capacitat de criatura del vaixell en qualsevol moment."
 			]
 		},
 		{
-			"name": "Canian Armor",
+			"name": "Armadura Caniana",
 			"source": "BGDIA",
 			"page": 221,
 			"upgradeType": [
-				"IWM:A"
+				"IWM: A"
 			],
 			"entries": [
-				"The infernal iron used to make the vehicle was mined on Cania, the coldest layer of els Nou Inferns. An infernal war machine with Canian armor has an Armor Class of 22 + its Destresa modifier. While the vehicle is not moving, attack rolls made against it have advantage. The infernal war machine also has immunity to cold damage in addition to its other damage immunities, and it's immune to the effects of extreme cold."
+				"El ferro infernal utilitzat per fer el vehicle es va extreure a Cania, la capa més freda dels Nou Inferns. Una màquina de guerra infernal amb armadura caniana té una classe d'armadura de 22 + el seu modificador Destresa. Mentre el vehicle no es mou, les tirades d'atac fetes contra ell tenen avantatge. La màquina de guerra infernal també té immunitat als danys pel fred, a més de les seves altres immunitats, i és immune als efectes del fred extrem."
 			]
 		},
 		{
-			"name": "Churning Hull",
+			"name": "Hull de batuda",
 			"source": "GoS",
 			"page": 196,
 			"upgradeType": [
-				"SHP:H"
+				"SHP: H"
 			],
 			"entries": [
-				"A tempest rages within these rune-etched, iron chains. Raiders and pirates who operate under the blessings of a storm god sometimes make use of this upgrade.",
-				"By draping the chains over a ship's hull, the storm's fury thrashes into the water around it. The water within 210 feet of the ship is terreny difícil for everything other than this ship."
+				"Una tempesta esclata dins d'aquestes cadenes de ferro gravades amb runes. Els assaltants i els pirates que operen sota les benediccions d'un déu de la tempesta de vegades fan ús d'aquesta actualització.",
+				"En posar les cadenes sobre el casc d'un vaixell, la fúria de la tempesta s'enfonsa a l'aigua que l'envolta. L'aigua a 210 peus del vaixell és un terreny difícil per a tot el que no sigui aquest vaixell."
 			]
 		},
 		{
-			"name": "Oars de Rellotgeria",
+			"name": "Rems de Rellotgeria",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:M"
+				"SHP: M"
 			],
 			"entries": [
-				"Using a combination of magic and clockwork, the oars on this ship require only one crew member to use them, pushing the button or lever that activates them."
+				"Utilitzant una combinació de màgia i mecanisme de rellotgeria, els rems d'aquest vaixell requereixen que només un membre de la tripulació els faci servir, prement el botó o la palanca que els activa."
 			]
 		},
 		{
-			"name": "Concussive Rounds",
+			"name": "Rondes concussives",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:W"
+				"SHP: W"
 			],
 			"entries": [
-				"Enhanced by abjuration magic, this weapon's attacks burst with raucous noise capable of momentarily distracting and disorienting enemy crews. If this weapon hits a vehicle's hull, that vehicle's speed decreases by {@dice 2d10} feet until the start of the attacker's next turn."
+				"Millorats per la màgia de l'abjuració, els atacs d'aquesta arma van esclatar amb un soroll soroll capaç de distreure i desorientar momentàniament les tripulacions enemigues. Si aquesta arma colpeja el casc d'un vehicle, la velocitat del vehicle disminueix en {@dices 2d10} peus fins a l'inici del següent torn de l'atacant."
 			]
 		},
 		{
-			"name": "Death Vessel",
+			"name": "Vaixell de la mort",
 			"source": "GoS",
 			"page": 196,
 			"upgradeType": [
-				"SHP:H"
+				"SHP: H"
 			],
 			"entries": [
-				"Crafted with materials harvested from the Erm de l'Ombra, this upgrade grants a ship an aura of dread. Com a acció, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Saviesa saving throw. Si falla, a creature is {@condition acovardit} of the ship durant 1 minut. Si supera, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
+				"Elaborada amb materials collits de l'Erm de l'Ombra, aquesta millora atorga a un vaixell una aura de por. Com a acció, el vaixell pot crear un pols d'energia horrible. Totes les criatures que siguin un enemic de la nau que estiguin a bord o a menys de 210 peus d'ella han de fer una tirada de salvació de Saviesa DC 14. Si falla, una criatura és {@condition acovardit} del vaixell durant 1 minut. Si supera, la criatura és immune a aquesta habilitat durant 24 hores. Un cop utilitzada aquesta habilitat, no es podrà tornar a utilitzar fins que hagin passat {@dice 1d4} hores."
 			]
 		},
 		{
-			"name": "Defiant Sails",
+			"name": "Veles desafiants",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:M"
+				"SHP: M"
 			],
 			"entries": [
-				"These sails glitter with a fine coat of mitrall treated with abjuration magic. While the sails are unfurled, atacs armats a distància made against the ship and anyone aboard it are made with disadvantage, as a result of the sails' protective magic. This drawback doesn't apply if the attacker is aboard the ship."
+				"Aquestes veles brillen amb una fina capa de mitral tractada amb màgia d'abjuració. Mentre les veles estan desplegades, els atacs armats a distància realitzats contra el vaixell i qualsevol persona a bord es fan amb desavantatge, com a conseqüència de la màgia protectora de les veles. Aquest inconvenient no s'aplica si l'atacant és a bord del vaixell."
 			]
 		},
 		{
-			"name": "Dragon Sails",
+			"name": "Veles de Drac",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:M"
+				"SHP: M"
 			],
 			"entries": [
-				"Dragon scales woven into these sails make them more resistant to damage. The sails gain a +3 bonus to AC, and they have resistance to a damage type based on the type of scales used to craft them, as shown on the Dragon Sails table.",
+				"Les escates de drac teixides en aquestes veles les fan més resistents als danys. Les veles guanyen una bonificació +3 a la CA i tenen resistència a un tipus de dany basat en el tipus d'escates utilitzades per fabricar-les, tal com es mostra a la taula de Veles de drac.",
 				{
-					"type": "table",
-					"caption": "Dragon Sails",
+					"type": "taula",
+					"caption": "Veles de Drac",
 					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
+						"col-6 centre de text",
+						"col-6 centre de text"
 					],
 					"colLabels": [
-						"Dragon Type",
+						"Tipus de Drac",
 						"Tipus de Dany"
 					],
 					"rows": [
@@ -2485,257 +2485,257 @@
 			]
 		},
 		{
-			"name": "Ever-Full Sails",
+			"name": "Veles sempre plenes",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:M"
+				"SHP: M"
 			],
 			"entries": [
-				"These billowing sails are woven from cloud-stuff drawn from the Elemental Plane of Air. Wind whips and whistles around them, allowing a ship to move with a speed of 60 feet regardless of direction relative to the wind."
+				"Aquestes veles ondulants estan teixides amb núvols extrets del Pla Elemental de l'Aire. El vent xiula i xiula al seu voltant, permetent que un vaixell es mogui amb una velocitat de 60 peus independentment de la direcció del vent."
 			]
 		},
 		{
-			"name": "Explosive Rounds",
+			"name": "Rondes explosives",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:W"
+				"SHP: W"
 			],
 			"entries": [
-				"Drawing on powerful evocation magic, this weapon's attacks are imbued with unstable energy that explodes in a fiery blast. When this weapon hits, it deals an extra {@damage 2d6} de dany de foc."
+				"Basant-se en una poderosa màgia d'evocació, els atacs d'aquesta arma estan impregnats d'una energia inestable que explota en una explosió de foc. Quan aquesta arma colpeja, fa un {@damage 2d6} addicional de dany de foc."
 			]
 		},
 		{
-			"name": "Flamethrower",
+			"name": "Llançaflames",
 			"source": "BGDIA",
 			"page": 221,
 			"upgradeType": [
-				"IWM:W"
+				"IWM: W"
 			],
 			"entries": [
-				"Although useless against demons, this weapon is great against flammable creatures and objects.",
+				"Encara que inútil contra els dimonis, aquesta arma és fantàstica contra criatures i objectes inflamables.",
 				{
-					"type": "entries",
-					"name": "Flamethrower (Requires 1 Crew and Grants Half Cover)",
+					"type": "entrades",
+					"name": "Llançaflames (requereix 1 tripulació i atorga mitja cobertura)",
 					"entries": [
-						"Fire shoots out of the weapon's nozzle en una línia de 60 peus de llarg i 5 d'ample. Tota criatura a dins de la línia must make a DC 15 Destresa saving throw. Qui falli rep 18 ({@damage 4d8}) de dany de foc; qui superi, en rep la meitat. El foc encèn tot objecte inflamable dins de l'àrea that aren't being carried or worn."
+						"Fire shoots out of the weapon's nozzle en una línia de 60 peus de llarg i 5 d'ample. Tota criatura a dins de la línia ha de fer un tir de salvació DC 15 Destresa. Qui falli rep 18 (@damage 4d8}) de dany de foc; qui superi, en rep la meitat. El foc encèn tot l'objecte inflamable dins de l'àrea que no s'han portat ni portat."
 					]
 				}
 			]
 		},
 		{
-			"name": "Frost-Locked Hull",
+			"name": "Casc bloquejat per gelades",
 			"source": "GoS",
 			"page": 196,
 			"upgradeType": [
-				"SHP:H"
+				"SHP: H"
 			],
 			"entries": [
-				"This upgrade replaces a ship's hull with supernatural ice drawn from the elemental planes. The hull and the other components of the ship are immune to cold damage but vulnerable to fire damage. The ship can also move at its normal speed over ice of any thickness, floating on the ice at the same depth as it would in water."
+				"Aquesta actualització substitueix el casc d'un vaixell amb gel sobrenatural extret dels avions elementals. El casc i els altres components del vaixell són immunes als danys pel fred però vulnerables als danys del foc. El vaixell també pot moure's a la seva velocitat normal sobre gel de qualsevol gruix, flotant sobre el gel a la mateixa profunditat que ho faria a l'aigua."
 			]
 		},
 		{
-			"name": "Gilded Death Armor",
+			"name": "Armadura de la mort daurada",
 			"source": "BGDIA",
 			"page": 222,
 			"upgradeType": [
-				"IWM:A"
+				"IWM: A"
 			],
 			"entries": [
-				"Gold stolen or bartered from the archdevil Mammon plates the vehicle's exterior. This gold can't be removed without destroying the vehicle and turns to dust when the infernal war machine es queda a 0 punts de vida. Gilded death armor grants the infernal war machine resistance to bludgeoning, piercing, and slashing damage."
+				"Or robat o bescanviat de l'archidiable Mammon plaques l'exterior del vehicle. Aquest or no es pot treure sense destruir el vehicle i es converteix en pols quan la màquina de guerra infernal queda a 0 punts de vida. L'armadura de la mort daurada atorga a la màquina de guerra infernal resistència als danys contundents, perforants i tallants."
 			]
 		},
 		{
-			"name": "Grasping Rounds",
+			"name": "Rondes d'agafament",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:W"
+				"SHP: W"
 			],
 			"entries": [
-				"This weapon creates spectral chains that trail after its shots, restraining enemy vessels in their grasp. When this weapon hits a ship, that vehicle must succeed on a DC 14 Força saving throw or it can't move away from the attacker. Com a acció, the attacking ship can end this effect, and the target can end it by taking an action and succeeding on a DC 14 Força check."
+				"Aquesta arma crea cadenes espectrals que segueixen els seus trets, restringint els vaixells enemics a les seves mans. Quan aquesta arma colpeja un vaixell, aquest vehicle ha de superar una tirada de salvació de Força DC 14 o no es pot allunyar de l'atacant. Com a acció, la nau atacant pot acabar amb aquest efecte, i l'objectiu pot acabar-hi fent una acció i superant una prova de Força DC 14."
 			]
 		},
 		{
-			"name": "Guardian Figurehead",
+			"name": "Cap de proa del guardià",
 			"source": "GoS",
 			"page": 198,
 			"upgradeType": [
-				"SHP:F"
+				"SHP: F"
 			],
 			"entries": [
-				"This figurehead depicts an armored knight. Com a acció, the ship can activate this item, causing it to animate as an {@creature iron gòlem}. The gòlem acts on the ship's turn when the captain uses one of the ship's actions. The gòlem remains animated durant 1 minut. At the end of that time, it teleports back to its position as a figurehead. Once a ship uses this action, it can't use it again for 24 hours."
+				"Aquest mascaró de proa representa un cavaller blindat. Com a acció, la nau pot activar aquest element, fent que s'animi com un {@creature iron gòlem}. El gòlem actua en el torn del vaixell quan el capità utilitza una de les accions del vaixell. El gòlem roman animat durant 1 minut. Al final d'aquest temps, es teletransporta de nou a la seva posició com a figura de proa. Un cop un vaixell fa servir aquesta acció, no la pot tornar a utilitzar durant 24 hores."
 			]
 		},
 		{
-			"name": "Infernal Screamer",
+			"name": "Cridador infernal",
 			"source": "BGDIA",
 			"page": 221,
 			"upgradeType": [
-				"IWM:W"
+				"IWM: W"
 			],
 			"entries": [
-				"A writhing humanoid torso made of melting wax juts out from this station, with a barbed hand crank between its shoulder blades. The figure telepathically shrieks in agony when the crank is turned.",
+				"Un tors humanoide retorçat fet de cera que es fon sobresurt d'aquesta estació, amb una manovella de pues entre els omòplats. La figura crida telepàticament d'agonia quan es gira la manovella.",
 				{
-					"type": "entries",
-					"name": "Infernal Screamer (Requires 1 Crew and Grants Half Cover)",
+					"type": "entrades",
+					"name": "Infernal Screamer (requereix 1 tripulació i atorga mitja cobertura)",
 					"entries": [
-						"The screamer's operator targets one creature it can see within 120 feet of the screamer. The target must make a DC 15 Saviesa saving throw. Qui falli rep 26 ({@damage 4d12}) de dany psíquic; qui superi, en rep la meitat."
+						"L'operador del criador apunta a una criatura que pot veure a 120 peus del criador. L'objectiu ha de fer una tirada de salvació de Saviesa DC 15. Qui falli rep 26 (@damage 4d12}) de dany psíquic; qui superi, en rep la meitat."
 					]
 				}
 			]
 		},
 		{
-			"name": "Living Vessel",
+			"name": "Vaixell Vivent",
 			"source": "GoS",
 			"page": 196,
 			"upgradeType": [
-				"SHP:H"
+				"SHP: H"
 			],
 			"entries": [
-				"This vessel's hull was crafted in the Terra Fata under the direction of master eladrin shipwrights. It is a living plant, drawing sustenance from water and sunlight. Vines covered in thick leaves hang over its side, and the wood runs with fresh sap when damaged. The ship gains a +2 bonus to all Constitució checks or saving throws. As long as the ship has at least 1 hit point, it regains 10 hit points every minute."
+				"El casc d'aquest vaixell va ser fabricat a la Terra Fata sota la direcció dels mestres armadors eladrins. És una planta viva que s'alimenta de l'aigua i la llum solar. Les vinyes cobertes de fulles gruixudes pengen sobre el seu costat, i la fusta corre amb saba fresca quan es fa malbé. El vaixell obté una bonificació de +2 a totes les proves o tirs de salvació de Constitució. Mentre el vaixell tingui almenys 1 punt de vida, recupera 10 punts de vida cada minut."
 			]
 		},
 		{
-			"name": "Necrotic Smoke Screen",
+			"name": "Cortina de fum necròtica",
 			"source": "BGDIA",
 			"page": 222,
 			"upgradeType": [
-				"IWM:G"
+				"IWM: G"
 			],
 			"entries": [
-				"The vehicle's driver can activate this magical device com a acció bonus, causing the vehicle to expel a 30-foot cube of opaque smoke directly in front of it or behind it. The cloud is stationary and lasts durant 1 minut. The area within it is heavily obscured. Any creature that enters the cloud per primer cop en un torn o hi començi el torn takes 21 ({@damage 6d6}) de dany necròtic. A strong wind disperses the cloud. This device needs 24 hours to recharge before it can be used again."
+				"El conductor del vehicle pot activar aquest dispositiu màgic com una bonificació d'acció, fent que el vehicle expulsi un cub de fum opac de 30 peus directament davant o darrere d'ell. El núvol està estacionari i dura 1 minut. La zona que hi ha dins està molt enfosquida. Any creature that enters the cloud per primer cop en un torn o hi començi el torn take 21 ({@damage 6d6}) de dany necròtic. Un fort vent dispersa el núvol. Aquest dispositiu necessita 24 hores per carregar-se abans que es pugui tornar a utilitzar."
 			]
 		},
 		{
-			"name": "Red Dragon Figurehead",
+			"name": "Mascaró de proa drac vermell",
 			"source": "GoS",
 			"page": 198,
 			"upgradeType": [
-				"SHP:F"
+				"SHP: F"
 			],
 			"entries": [
-				"This figurehead depicts a red dragon rearing to strike, its mouth open. Com a acció, the ship can activate this item to create a 60-foot cone of flame that originates from the figurehead. Each creature and object in the cone must make a DC 12 Destresa saving throw. Qui falli rep 21 ({@damage 6d6}) de dany de foc; qui superi, en rep la meitat. Once a ship uses this action, it can't use it again durant 1 minut."
+				"Aquest mascaró de proa representa un drac vermell criat per colpejar, amb la boca oberta. Com a acció, el vaixell pot activar aquest element per crear un con de flama de 60 peus que s'origina del mascaró de proa. Cada criatura i objecte del con ha de fer una tirada de salvació de Destresa DC 12. Qui falli rep 21 (@damage 6d6}) de dany de foc; qui superi, en rep la meitat. Una vegada que un vaixell utilitza aquesta acció, no la pot tornar a utilitzar durant 1 minut."
 			]
 		},
 		{
-			"name": "Reinforced Hull",
+			"name": "Casc reforçat",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:H"
+				"SHP: H"
 			],
 			"entries": [
-				"A master shipwright can use superior materials and clever design to make a ship's hull more resilient. Such reinforcement doubles the hull's punts de vida màxims."
+				"Un mestre d'armari pot utilitzar materials superiors i un disseny intel·ligent per fer que el casc d'un vaixell sigui més resistent. Aquest reforç duplica els punts de vida màxims del casc."
 			]
 		},
 		{
-			"name": "Screaming Sails",
+			"name": "Veles cridant",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:M"
+				"SHP: M"
 			],
 			"entries": [
-				"Woven from the energy of captured wraiths and bound with the spirit of a banshee, these sails groan mournfully when they catch the wind. Com a acció, while within 5 feet of the sails, the ship's captain can cause the sails to unleash a howl. Every creature hostile to the ship who is on board or within 300 feet of it must succeed on a DC 14 Saviesa saving throw, or the creature rep {@damage 4d6} de dany psíquic and is then {@condition acovardit} durant 1 minut. Once this ability has been used, it can't be used again until {@dice 2d6} hours have passed."
+				"Teixides amb l'energia dels espectres capturats i lligades amb l'esperit d'una banshee, aquestes veles gemegen tristament quan atrapen el vent. Com a acció, mentre que a menys de 5 peus de les veles, el capità del vaixell pot fer que les veles deixin anar un udol. Totes les criatures hostils a la nau que estiguin a bord o a menys de 300 peus d'ella han de tenir èxit en una tirada de salvació de Saviesa CD 14, o el representant de criatura {@damage 4d6} de dany psíquic i després és {@condition acovardit} durant 1 minut. Un cop s'ha fet servir aquesta habilitat, no es pot tornar a utilitzar fins que hagin passat {@dice 2d6} hores."
 			]
 		},
 		{
-			"name": "Scything Oars",
+			"name": "Rems de Dalla",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:M"
+				"SHP: M"
 			],
 			"entries": [
-				"Sharpened, magically reinforced oars make a vessel dangerous to approach. When the ship takes an action that moves it with these oars, any creature or object in the water within 10 feet of it at any point of the move must make a DC 10 Destresa saving throw. Si falla, rep {@damage 2d6} de dany tallant on a failed save; si supera, en rep la meitat."
+				"Els rems esmolats i reforçats màgicament fan que un vaixell sigui perillós per apropar-se. Quan el vaixell fa una acció que el mou amb aquests rems, qualsevol criatura o objecte a l'aigua a menys de 10 peus d'ella en qualsevol punt del moviment ha de fer una tirada de salvació de Destresa de CD 10. Si falla, rep {@damage 2d6} de dany tallant on a failed save; si supera, en rep la meitat."
 			]
 		},
 		{
-			"name": "Smuggler's Banner",
+			"name": "Bandera del contrabandista",
 			"source": "GoS",
 			"page": 198,
 			"upgradeType": [
-				"SHP:O"
+				"SHP: O"
 			],
 			"entries": [
-				"This flag is meant to be flown from a ship's mast. Its powerful magic causes it to appear as a flag or banner displaying the symbol of a group, captain, or realm friendly to the viewer. Multiple viewers might see different flags or crests.",
-				"The banner's true power is its ability to aid a ship in making rapid escapes. Com a acció, the ship and all friendly creatures aboard it teleport up to 3 miles to a known destination of the captain's choice. Hostile creatures aboard the ship don't move with the ship and fall into the water it once occupied. Once this item is used to teleport, it can't teleport in this way again for {@dice 2d6} days."
+				"Aquesta bandera està pensada per ser onada des del pal d'un vaixell. La seva poderosa màgia fa que aparegui com una bandera o pancarta que mostra el símbol d'un grup, capità o regne amigable per a l'espectador. Diversos espectadors poden veure diferents banderes o escuts.",
+				"El veritable poder de la bandera és la seva capacitat d'ajudar un vaixell a escapar ràpidament. Com a acció, el vaixell i totes les criatures amigues que hi ha a bord es teletransporten fins a 3 milles fins a una destinació coneguda que escollia el capità. Les criatures hostils a bord del vaixell no es mouen amb el vaixell i cauen a l'aigua que abans va ocupar. Un cop s'utilitzi aquest element per teletransportar-se, no es podrà tornar a teletransportar d'aquesta manera durant {@dice 2d6} dies."
 			]
 		},
 		{
-			"name": "Soul Spike Armor",
+			"name": "Armadura d'espiga de l'ànima",
 			"source": "BGDIA",
 			"page": 222,
 			"upgradeType": [
-				"IWM:W"
+				"IWM: W"
 			],
 			"entries": [
-				"The vehicle is covered with spikes inscribed with blasphemous symbols. Luminous, ghostly figures impaled on these spikes wail and reach out in agony.",
-				"If a creature that isn't a devil dies within 30 feet of the infernal war machine, its soul (if it has one) is torn from its body and joins the wailing throng impaled on the spikes. As long as its soul remains trapped, a creature can't be raised from the dead by any means. A trapped soul is freed if the vehicle is destroyed, if the spike anchoring it is the target of a {@spell anul·lar maledicció} spell or similar magic, or if the spike is destroyed. Each spike is a Small object with AC 19, 15 hit points, and resistance to all damage except radiant damage."
+				"El vehicle està cobert amb punxes inscrites amb símbols blasfemes. Les figures lluminoses i fantasmals empalades en aquestes puntes ploren i s'estenen en agonia.",
+				"Si una criatura que no és un diable mor a 30 peus de la màquina de guerra infernal, la seva ànima (si en té una) s'arranca del seu cos i s'uneix a la multitud que lamenta empalada a les puntes. Mentre la seva ànima roman atrapada, una criatura no pot ser ressuscitada d'entre els morts de cap manera. Una ànima atrapada s'allibera si el vehicle és destruït, si l'espiga que l'ancorja és l'objectiu d'un encanteri {@spell anul·lar maledicció} o màgia similar, o si l'espiga és destruïda. Cada espiga és un objecte petit amb CA 19, 15 punts de vida i resistència a tots els danys excepte al dany radiant."
 			]
 		},
 		{
-			"name": "Storm Giant Figurehead",
+			"name": "Mascaró de proa gegant de la tempesta",
 			"source": "GoS",
 			"page": 198,
 			"upgradeType": [
-				"SHP:F"
+				"SHP: F"
 			],
 			"entries": [
-				"This figurehead depicts a storm giant clutching a thunderbolt. Com a acció, the ship can activate this item to create a 60-foot cone that originates from the figurehead. Tota criatura a dins del con must make DC 12 Constitució saving throw. Qui falli rep 14 ({@damage 4d6}) de dany de tro; qui superi, en rep la meitat. A creature that fails its saving throw is also pushed 10 feet away from the figurehead. Once a ship uses this action, it can't use it again durant 1 minut."
+				"Aquest mascaró de proa representa un gegant de la tempesta agafant un llamp. Com a acció, el vaixell pot activar aquest element per crear un con de 60 peus que s'origina a partir de la figura de proa. Tota criatura a dins del con must make DC 12 Constitució save throw. Qui falli rep 14 (@damage 4d6}) de dany de tro; qui superi, en rep la meitat. Una criatura que falla la seva tirada de salvació també s'allunya 10 peus del mascaró de proa. Una vegada que un vaixell utilitza aquesta acció, no la pot tornar a utilitzar durant 1 minut."
 			]
 		},
 		{
-			"name": "Styx Sprayer",
+			"name": "Polvoritzador Styx",
 			"source": "BGDIA",
 			"page": 221,
 			"upgradeType": [
-				"IWM:W"
+				"IWM: W"
 			],
 			"entries": [
-				"This flexible hose is connected to a tank that holds 30 gallons of water from the {@area River Styx|1a3|x}. Each use of the weapon depletes 10 gallons of the water. Refilling the tank requires access to the Styx.",
+				"Aquesta mànega flexible està connectada a un dipòsit que conté 30 galons d'aigua del {@area River Styx|1a3|x}. Cada ús de l'arma esgota 10 galons d'aigua. Omplir el dipòsit requereix accés a l'Styx.",
 				{
-					"type": "entries",
-					"name": "Styx Sprayer (Requires 1 Crew and Grants Half Cover; 3 Uses)",
+					"type": "entrades",
+					"name": "Polvoritzador Styx (requereix 1 tripulació i atorga mitja coberta; 3 usos)",
 					"entries": [
-						"{@atk rs}: +5 a impactar, 30 peus d'abast, una criatura. {@h}The creature is struck by water from the River Styx and targeted by a {@spell esberlacervells} spell (save DC 20). An already esberlacervellsed creature is immune to this effect, as is a creature adapted to the River Styx. If the target fails its saving throw and the spell's effect on it is not ended within 30 days, the effect becomes permanent, whereupon the creature loses all its memories and becomes a near-mindless shell of its former self. At that point, nothing short of divine intervention can undo the effect."
+						"{@atk rs}: +5 a impactar, 30 peus d'abast, una criatura. {@h}La criatura és colpejada per l'aigua del riu Styx i l'objectiu d'un encanteri {@spell esberlacervells} (salvat DC 20). Una criatura ja esberlacervellsada és immune a aquest efecte, igual que una criatura adaptada al riu Styx. Si l'objectiu falla la seva tirada de salvació i l'efecte de l'encanteri sobre ell no s'acaba en 30 dies, l'efecte esdevé permanent, amb el qual la criatura perd tots els seus records i es converteix en una closca gairebé sense ment del seu jo anterior. En aquest punt, res menys que la intervenció divina pot desfer l'efecte."
 					]
 				}
 			]
 		},
 		{
-			"name": "Taskmaster's Drums",
+			"name": "Tambors de Taskmaster",
 			"source": "GoS",
 			"page": 198,
 			"upgradeType": [
-				"SHP:O"
+				"SHP: O"
 			],
 			"entries": [
-				"This 4-foot-tall bronze drum comes with a pair of iron mallets. A creature can activate the drums com a acció, causing the hammers to float above the drum and strike it to produce a thundering rhythm. For the next minute, the ship gains one additional action, as long as it has at least one action. Once this item is used, it can't be activated again for {@dice 2d10} hours."
+				"Aquest tambor de bronze de 4 peus d'alçada ve amb un parell de malles de ferro. Una criatura pot activar els tambors com a acció, fent que els martells surin per sobre del tambor i el colpegin per produir un ritme tronador. Durant el minut següent, el vaixell guanya una acció addicional, sempre que tingui almenys una acció. Un cop utilitzat aquest element, no es podrà tornar a activar durant {@dice 2d10} hores."
 			]
 		},
 		{
-			"name": "Teleporter",
+			"name": "Teletransportador",
 			"source": "BGDIA",
 			"page": 222,
 			"upgradeType": [
-				"IWM:G"
+				"IWM: G"
 			],
 			"entries": [
-				"The vehicle's driver can activate this magical device com a acció bonus, causing the vehicle to teleport to an unoccupied space that the driver can see up to 300 feet away from the vehicle's current position. All creatures and objects in contact with the vehicle are teleported along with it. This device needs 24 hours to recharge before it can be used again."
+				"El conductor del vehicle pot activar aquest dispositiu màgic com una bonificació d'acció, fent que el vehicle es teletransporti a un espai desocupat que el conductor pot veure fins a 300 peus de distància de la posició actual del vehicle. Totes les criatures i objectes en contacte amb el vehicle es teletransporten juntament amb ell. Aquest dispositiu necessita 24 hores per carregar-se abans que es pugui tornar a utilitzar."
 			]
 		},
 		{
-			"name": "Vigilant Watch",
+			"name": "Rellotge vigilant",
 			"source": "GoS",
 			"page": 197,
 			"upgradeType": [
-				"SHP:H"
+				"SHP: H"
 			],
 			"entries": [
-				"A row of crystal orbs, each filled with viscous liquid and a beholder's eyeball, is mounted along this ship's hull. {@condition Invisible} creatures are visible while on the ship or within 120 feet of it."
+				"Al llarg del casc d'aquest vaixell hi ha una fila d'orbes de cristall, cadascuna plena de líquid viscós i un globus ocular d'observador. Les criatures {@condition Invisible} són visibles a la nau oa menys de 120 peus d'ella."
 			]
 		}
 	]

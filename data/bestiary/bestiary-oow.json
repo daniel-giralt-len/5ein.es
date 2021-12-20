@@ -15,14 +15,14 @@
 				"name": "Behir",
 				"source": "MM"
 			},
-			"type": "constructe",
+			"type": "construir",
 			"immune": [
 				"verí",
 				"psíquic"
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -43,7 +43,7 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "el sacerdot",
 						"with": "Dagdra",
 						"flags": "i"
@@ -51,9 +51,9 @@
 					"action": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Scroll Service (1/Dia)",
+							"name": "Servei de desplaçament (1/dia)",
 							"entries": [
-								"Com a acció, la Dagdra treu un {@item spell scroll} de la seva {@item documancy satchel|AI}. El pergamí contè un encanteri de fins a nivell 3 designat per la Dagdra. Només la Dadgra el pot emprar, i s'esvaeix passat 1 minut."
+								"Com a acció, la Dagdra treu un {@item spell scroll} de la seva {@item documancy satchel|AI}. El pergamí conté un encanteri de fins a nivell 3 designat per la Dagdra. Només la Dadgra el pot emprar, i s'esvaeix passat 1 minut."
 							]
 						}
 					}
@@ -90,7 +90,7 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'acòlit",
 						"with": "Gos Dimoni",
 						"flags": "i"
@@ -103,12 +103,12 @@
 			],
 			"languageTags": [
 				"C",
-				"I",
+				"jo",
 				"X"
 			],
 			"spellcastingTags": [
 				"CC",
-				"I"
+				"jo"
 			]
 		},
 		{
@@ -120,7 +120,7 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "serp",
 						"with": "tentacle"
 					}
@@ -161,12 +161,12 @@
 				"name": "Acòlit",
 				"source": "MM",
 				"_trait": {
-					"name": "Semi-Orc",
+					"name": "Semi-orc",
 					"source": "PHB"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'acòlit",
 						"with": "Gildha",
 						"flags": "i"
@@ -189,8 +189,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the hobgoblin",
+						"mode": "substituirTxt",
+						"replace": "el follet",
 						"with": "Grunka",
 						"flags": "i"
 					},
@@ -199,7 +199,7 @@
 						"items": {
 							"name": "Pistola d'Esprai d'Àcid {@recharge 5}",
 							"entries": [
-								"La hobgoblin llança àcid en un con de 10 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 10). Qui falli rep 7 ({@damage 2d6}) de dany d'àcid; qui superi, en rep la meitat.",
+								"La hobgoblin llança àcid en un amb de 10 peus. Tota criatura dins de l'àrea ha de salvar per Destresa (CD 10). Qui falli rep 7 (@damage 2d6}) de dany d'àcid; qui superi, en rep la meitat.",
 								"La pistola té un tanc que es pot omplir de deu vials d'àcid mesclat amb aigua; això permet disparar cinc vegades."
 							]
 						}
@@ -228,7 +228,7 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'esquelet",
 						"with": "Jelayne",
 						"flags": "i"
@@ -251,14 +251,14 @@
 				"name": "Quimera",
 				"source": "MM"
 			},
-			"type": "constructe",
+			"type": "construir",
 			"immune": [
 				"verí",
 				"psíquic"
 			]
 		},
 		{
-			"name": "Onyx",
+			"name": "Ònix",
 			"isNpc": true,
 			"source": "OoW",
 			"page": 186,
@@ -278,7 +278,7 @@
 							{
 								"name": "Lidiant amb l'Onyx",
 								"entries": [
-									"L'Onyx no pot ser derrotada ni capturada en combat. Tot atac que impacti (AC 12) impacta però no fa danys permanent. Tanmateix si un atac, encanteri, o altre efecte li fa 10 punts o més de dany, l'Onyx té desavantatge a impactar fins el final del seu prover torn. Els encantaris que imposin condicions funcionen, però les condicions s'acaben al final del proper torn de la gata."
+									"L'Onyx no pot ser derrotada ni capturada en combat. Tot atac que impacti (AC 12) impacta però no fa danys permanent. Tanmateix si un atac, encanteri, o altres efectes li fa 10 punts o més de dany, l'Onyx té desavantatge a impactar fins el final del seu provedor torn. Els encantaris que imposen condicions funcionen, però les condicions s'acaben al final del proper torn de la gata."
 								]
 							}
 						]
@@ -311,12 +311,12 @@
 				"source": "MM",
 				"_mod": {
 					"trait": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Desintegració",
 						"items": {
-							"name": "Desmantellable",
+							"name": "Desmuntable",
 							"entries": [
-								"Si la rèplica de duodron mor, el seu cos es desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure les armes i tot el que duia."
+								"Si la rèplica de duodron mor, el seu cos és desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure els armes i tot el que duia."
 							]
 						}
 					}
@@ -327,7 +327,7 @@
 			],
 			"idiomes": [
 				"Modron",
-				"comprèn el Comú però només dona respostes pre-programades"
+				"comprèn el Comú però només dona respostes preprogramades"
 			],
 			"languageTags": [
 				"C",
@@ -343,12 +343,12 @@
 				"source": "MM",
 				"_mod": {
 					"trait": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Desintegració",
 						"items": {
-							"name": "Desmantellable",
+							"name": "Desmuntable",
 							"entries": [
-								"Si la rèplica de monodron mor, el seu cos es desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure les armes i tot el que duia."
+								"Si la rèplica de monodron mor, el seu cos és desmunta en peces (engranatxes, plaques, cargols i cables), i deixa caure els armes i tot el que duia."
 							]
 						}
 					}
@@ -362,7 +362,7 @@
 			],
 			"idiomes": [
 				"Modron",
-				"comprèn el Comú però només dona respostes pre-programades"
+				"comprèn el Comú però només dona respostes preprogramades"
 			],
 			"languageTags": [
 				"C",
@@ -374,16 +374,16 @@
 			"source": "OoW",
 			"page": 132,
 			"_copy": {
-				"name": "Pentadrone",
+				"name": "Pentadrona",
 				"source": "MM",
 				"_mod": {
 					"trait": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Desintegració",
 						"items": {
-							"name": "Desmantellable",
+							"name": "Desmuntable",
 							"entries": [
-								"Si la rèplica de pentadron mor, el seu cos es desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure les armes i tot el que duia."
+								"Si la rèplica de pentadron mor, el seu cos és desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure els armes i tot el que duia."
 							]
 						}
 					}
@@ -394,7 +394,7 @@
 			],
 			"idiomes": [
 				"Modron",
-				"comprèn el Comú però només dona respostes pre-programades"
+				"comprèn el Comú però només dona respostes preprogramades"
 			],
 			"languageTags": [
 				"C",
@@ -410,12 +410,12 @@
 				"source": "MM",
 				"_mod": {
 					"trait": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Desintegració",
 						"items": {
-							"name": "Desmantellable",
+							"name": "Desmuntable",
 							"entries": [
-								"Si la rèplica de quadron mor, el seu cos es desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure les armes i tot el que duia."
+								"Si la rèplica de quadron mor, el seu cos és desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure els armes i tot el que duia."
 							]
 						}
 					}
@@ -429,7 +429,7 @@
 			],
 			"idiomes": [
 				"Modron",
-				"comprèn el Comú però només dona respostes pre-programades"
+				"comprèn el Comú però només dona respostes preprogramades"
 			],
 			"languageTags": [
 				"C",
@@ -441,16 +441,16 @@
 			"source": "OoW",
 			"page": 132,
 			"_copy": {
-				"name": "Tridrone",
+				"name": "Tridrona",
 				"source": "MM",
 				"_mod": {
 					"trait": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Desintegració",
 						"items": {
-							"name": "Desmantellable",
+							"name": "Desmuntable",
 							"entries": [
-								"Si la rèplica de tridron mor, el seu cos es desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure les armes i tot el que duia."
+								"Si la rèplica de tridron mor, el seu cos és desmonta en peces (engranatxes, plaques, cargols i cables), i deixa caure els armes i tot el que duia."
 							]
 						}
 					}
@@ -461,7 +461,7 @@
 			],
 			"idiomes": [
 				"Modron",
-				"comprèn el Comú però només dona respostes pre-programades"
+				"comprèn el Comú però només dona respostes preprogramades"
 			],
 			"languageTags": [
 				"C",
@@ -477,7 +477,7 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "urpa",
 						"with": "peu",
 						"flags": "i"
@@ -514,7 +514,7 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'espia",
 						"with": "Dues Capes Seques",
 						"flags": "i"
@@ -537,7 +537,7 @@
 				"name": "Cocatriu",
 				"source": "MM"
 			},
-			"type": "no-mort",
+			"type": "no mort",
 			"immune": [
 				"verí"
 			],

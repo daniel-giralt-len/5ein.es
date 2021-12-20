@@ -9,11 +9,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -37,13 +37,13 @@
 				}
 			],
 			"entries": [
-				"D'un rugit, acceptes la màgia dels dracs i adoptes diversos trets dracònics. Fins que el conjur s'acabi obtens els beneficis següents:",
+				"D'un rugit, accepta la màgia dels dracs i adopta diversos trets dracònics. Fins que el conjur s'acabi obtens els beneficis següents:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Tens {@sense visió a cegues} fins a 30 peus. A l'abast veus tot allò que no estigui darrere d'una cobertura total, fins i tot si estàs {@condition encegat} o sumit en foscor. A més, pots veure qualsevol criatura {@condition invisible} (però poden seguir intentant amagar-se de tu).",
+						"Tens {@sense visió a cegues} fins a 30 peus. A l'abast veus tot allò que no hi ha darrere d'una cobertura total, fins i tot si estàs {@condition encegat} o sumit en foscor. A més, pots veure qualsevol criatura {@condition invisible} (però poden seguir intentant amagar-se de tu).",
 						"Et surten ales incorpòries de l'esquena, otorgant-te una velocitat de vol de 40 peus.",
-						"Quan llances aquest conjur (i a cada torn posterior que el conjur estigui actiu com a acció bonus) pots alenar un con de 30 peus d'energia brillant. Tota criatura dins de l'àrea ha de salvar per Destresa. Si falla, rep {@damage 3d8} de dany de força; si supera, en rep la meitat; si supera, en rep la meitat."
+						"Quan llances aquest conjur (i a cada torn posterior que el conjur bonus actiu com a acció) pots alenar un amb 30 peus d'energia brillant. Tota criatura dins de l'àrea ha de salvar per Destresa. Si falla, rep {@damage 3d8} de dany de força; si supera, en rep la meitat; si supera, en rep la meitat."
 					]
 				}
 			],
@@ -55,7 +55,7 @@
 				"invisible"
 			],
 			"savingThrow": [
-				"dexterity"
+				"destresa"
 			],
 			"miscTags": [
 				"SGT"
@@ -63,15 +63,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -90,7 +90,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -116,14 +116,14 @@
 			],
 			"entries": [
 				"Crees un camp de llum platejada que envolta a una criatura a l'abast (et pots escollir a tu). El camp desprèn llum tènue fins a 5 peus.",
-				"Com a acció bonus en torns posteriors, pots reassignar el camp a una altra criatura que estigui fins a 60 peus del camp.",
-				"La criatura protegida pel camp obtè els beneficis següents:",
+				"Com a acció bonus en torns posteriors, pots reassignar el camp a una altra criatura que fins a 60 peus del camp.",
+				"La criatura protegida pel camp obté els beneficis següents:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"La criatura té mitja cobertura",
 						"La criatura té resistència al dany d'àcid, electricitat, foc, fred, i verí.",
-						"Si la criatura pateix un efecte que la permet salvar per Destresa per reduir el dany a la meitat, superar la tirada permetrà que no rebi dany, i que en rebi la meitat si la falla."
+						"Si la criatura pateix un efecte que la permet salvar per Destresa per exigir el dany a la meitat, superar la tirada permetrà que no rebi dany, i que en rebi la meitat si la falla."
 					]
 				}
 			],
@@ -135,16 +135,16 @@
 				"verí"
 			],
 			"savingThrow": [
-				"dexterity"
+				"destresa"
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -159,11 +159,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -183,12 +183,12 @@
 				}
 			],
 			"entries": [
-				"Les flames de l'alè dracònic se t'arrapen als peus, concedint-te una velocitat explosiva. Mentre duri el conjur la teva velocitat s'incrementa en 20 peus, i moure't no causa attacks d'oportunitat.",
+				"Les flames de l'alè dracònic es t'arrapen als peus, concedint-te una velocitat explosiva. Mentre duri el conjur de la teva velocitat s'incrementa en 20 peus, i moure't no causa atacs d'oportunitat.",
 				"Quan et mous a un lloc que té a una criatura (o un objecte que no duu ningú), rep {@damage 1d6} de dany de foc del camí de flames que deixes. Tota criatura o objecte només poden rebre aquest dany un cop per torn."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, la teva velocitat s'incrementa en 5 peus per cada nivell per sobre de 3. A més, l'encanteri fa {@damage 1d6} de dany de foc per cada nivell per sobre de 3."
@@ -201,7 +201,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Artificer",
+						"name": "Artífic",
 						"source": "TCE"
 					},
 					{
@@ -209,11 +209,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -248,11 +248,11 @@
 				}
 			],
 			"entries": [
-				"Esclata energia freda de tu en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució. Si falla, rep {@damage 3d8} de dany de fred i es queda coberta de gel durant un minut o fins que una criatura faci servir la seva acció per trencar el gel (pot ser la mateixa criatura). Si supera, rep la meitat del dany sense cap altre efecte."
+				"Esclata energia freda de tu en un amb de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució. Si falla, rep {@damage 3d8} de dany de fred i queda coberta de gel durant un minut o fins que una criatura faci servir la seva acció per trencar el gel (pot ser la mateixa criatura). Si supera, rep la meitat del dany sense cap altre efecte."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, s'incrementa el dany de fred en 1d8} per cada nivell per sobre de 2."
@@ -263,16 +263,16 @@
 				"fred"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -283,7 +283,7 @@
 			"source": "UA2021DraconicOptions",
 			"page": 6,
 			"level": 2,
-			"school": "I",
+			"school": "jo",
 			"time": [
 				{
 					"number": 1,
@@ -291,7 +291,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -312,16 +312,16 @@
 				}
 			],
 			"entries": [
-				"Designa un cub de 20 peus de costat centrat a un punt a l'abast. L'àrea s'omple de de màgia faèrica i dracònica. Fes una tirada a la taula de Font de Malifetes per determinar l'efecte màgic que ocorre. Al començament dels teus torns posteriors pots moure el cub fins a 10 peus i tornar a tirar a la taula.",
+				"Designa un cub de 20 peus de costat centrat a un punt a l'abast. L'àrea s'omple de màgia faèrica i dracònica. Fes una tirada a la taula de Font de Malifetes per determinar l'efecte màgic que ocorre. Al començament dels teus torns posteriors pots moure el cub fins a 10 peus i tornar a tirar a la taula.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Font de Malifetes",
 					"colLabels": [
 						"d4",
 						"Efecte"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-12"
 					],
 					"rows": [
@@ -350,8 +350,8 @@
 				"incapacitat"
 			],
 			"savingThrow": [
-				"dexterity",
-				"wisdom"
+				"destresa",
+				"saviesa"
 			],
 			"classes": {
 				"fromClassList": [
@@ -360,11 +360,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -383,7 +383,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 120
@@ -398,12 +398,12 @@
 				}
 			],
 			"entries": [
-				"Desencadenes una llança de poder psíquic del teu front a una criatura que puguis veure a l'abast. Pots dir el nom d'una criatura i, si està a l'abast, no es beneficia de cobertura ni invisibilitat. Si la criatura anomenada no és a l'abast el conjur falla però la ranura no es gasta.",
+				"Desencadenes una llança de poder psíquic del teu front a una criatura que pugui veure a l'abast. Pots dir el nom d'una criatura i, si està a l'abast, no és benefici de cobertura ni invisibilitat. Si la criatura anomenada no és a l'abast el conjur falla però la ranura no és gasta.",
 				"L'objectiu ha de superar una salvació d'Intel·ligència o rebre {@damage 10d6} de mal psíquic i estar {@condition incapacitat} fins el final del teu proper torn."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 5 o superior, el dany incrementa en {@dice 1d6} per cada nivell per sobre de 4."
@@ -429,15 +429,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
@@ -456,7 +456,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -481,13 +481,13 @@
 				}
 			],
 			"entries": [
-				"Invoques un esperit dracònic, que es manifesta en un espai buit a l'abast que puguis veure.",
-				"Aquesta criatura fa servir el bloc d'esats del {@creature Draconic Spirit|UA2021DraconicOptions}. Tria una familia de dracs quan llancis el conjur: cromàtics, gemes, o metàl·lics. La familia determina certs trets al seu bloc d'estats. La criatura desapareix si es queda a 0 punts de vida o si l'encanteri finalitza.",
+				"Invoques un esperit dracònic, que es manifesta en un espai buit a l'abast que pugui veure.",
+				"Aquesta criatura fa servir el bloc d'esats del {@creature Draconic Spirit|UA2021DraconicOptions}. Tria una família de dracs quan llancis el conjur: cromàtics, gemes, o metàl·lics. La família determina certs trets al seu bloc d'estats. La crida desapareix si queda a 0 punts de vida si l'encantari finalitzar o.",
 				"La criatura és un aliat per a tu i els teus aliats. Comparteix la teva iniciativa, i pren el seu torn immediatament després de tu. Obeeix les teves ordres verbals (no requereixen acció). Si no li ordenes, farà l'acció {@action Dodge} i emprarà el moviment per evitar cap perill."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, empra aquell nivell quan aparegui al bloc d'estats."
@@ -501,15 +501,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]

@@ -2,7 +2,7 @@
 	"spell": [
 		{
 			"name": "Convocar Barlgura (UA)",
-			"source": "UAThatOldBlackMagic",
+			"source": "UAthatOldBlackMagic",
 			"page": 2,
 			"level": 4,
 			"school": "C",
@@ -13,7 +13,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -34,9 +34,9 @@
 				}
 			],
 			"entries": [
-				"Convoques un {@creature barlgura} que apareix a un espai sense ocupar a l'abast.El {@creature barlgura} desapareix quan es queda a 0 punts de vida o el conjur s'acaba.",
-				"El {@creature barlgura} és hostil a tot no dimoni. Tira iniciativa pel {@creature barlgura} (té torn propi). Al principi del seu torn es mou i ataca al no dimoni més proper que pugui percebre. Si hi ha dos no dimonis iguals de lluny, en tria una a l'atzar. Si no percep cap enemic potencial, el {@creature barlgura} es mou en una direcció aleatoria buscant enemics.",
-				"Com a part del conjur, pots marcar un cercle al terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature barlgura} convocat no pot atravessar el cercle ni designar com a objectius qui hi estigui a dins."
+				"Convoques un {@creature barlgura} que apareix a un espai sense ocupar a l'abast.El {@creature barlgura} desapareix quan queda a 0 punts de vida o el conjur s'acaba.",
+				"El {@creature barlgura} és hostil a tot no dimoni. Tira iniciativa pel {@creature barlgura} (té torn propi). Al principi del seu torn és mou i ataca al no dimoni més proper que pugui percebre. Si hi ha dos no dimonis iguals de lluny, en tria una a l'atzar. Si no percep cap enemic potencial, el {@creature barlgura} és mou en una direcció aleatoria buscant enemics.",
+				"Com a part del conjur, pots marcar un cercle a la terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature barlgura} convocat no pot atravessar el cercle ni designar com a objectius que hi ha a dins."
 			],
 			"miscTags": [
 				"SGT",
@@ -45,11 +45,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
@@ -57,7 +57,7 @@
 		},
 		{
 			"name": "Convocar Hezrou (UA)",
-			"source": "UAThatOldBlackMagic",
+			"source": "UAthatOldBlackMagic",
 			"page": 2,
 			"level": 7,
 			"school": "C",
@@ -68,7 +68,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -94,13 +94,13 @@
 				}
 			],
 			"entries": [
-				"Convoques un {@creature hezrou} que apareix a un espai sense ocupar a l'abast.El {@creature hezrou} desapareix quan es queda a 0 punts de vida o el conjur s'acaba.",
+				"Convoques un {@creature hezrou} que apareix a un espai sense ocupar a l'abast.El {@creature hezrou} desapareix quan queda a 0 punts de vida o el conjur s'acaba.",
 				"L'actitud del {@creature hezrou} depen del menjar emprat com a component material. Tira inciativa pel {@creature hezrou} (té torn propi). Al principi de cada torn del {@creature hezrou} el/la mestre/ssa fa una tirada de Carisma en secret; se li afegeix un bonus equivalent al preu del menjar dividit per 20. La CD comença a 10 i incrementa en 2 cada ronda. El {@creature hezrou} obeirà les teves ordres sempre i quan la tirada de Carisma sigui superada.",
-				"Si la tirada falla, el conjur no requereix concentració i el dimoni ja no està sota el teu control. El {@creature hezrou} es dedicarà a devorar cadàvers visibles. Si no n'hi ha, atacarà a la criatura més propera i se la menjarà quan la mati. Si els seus punts de vida són reduïts a la meitat del màxim, el dimoni retorna a l'Abisme.",
-				"Com a part del conjur, pots marcar un cercle al terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature hezrou} convocat no pot atravessar el cercle ni designar com a objectius qui hi estigui a dins."
+				"Si la tirada falla, el conjur no requereix concentració i el dimoni no està sota el teu control. El {@creature hezrou} es dedicarà a devorar cadàvers visibles. Si no n'hi ha, atacarà a la criatura més propera i se la menjarà quan la mati. Si els seus punts de vida són reduïts a la meitat del màxim, el dimoni retorna a l'Abisme.",
+				"Com a part del conjur, pots marcar un cercle a la terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature hezrou} convocat no pot atravessar el cercle ni designar com a objectius que hi ha a dins."
 			],
 			"abilityCheck": [
-				"charisma"
+				"carisma"
 			],
 			"miscTags": [
 				"SGT",
@@ -109,19 +109,19 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
 			}
 		},
 		{
-			"name": "Convocar Lesser Demon (UA)",
-			"source": "UAThatOldBlackMagic",
+			"name": "Convocar dimoni menor (UA)",
+			"source": "UAthatOldBlackMagic",
 			"page": 2,
 			"level": 3,
 			"school": "C",
@@ -132,7 +132,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -154,16 +154,16 @@
 				}
 			],
 			"entries": [
-				"Convoques fins a vuit {@creature manes} o {@creature dretch||dretches} que apareixen en espais no ocupats que puguis veure a l'abast. Un {@creature manes} o un {@creature dretch} desapareix quan arriba a 0 punts de vida o l'encanteri s'acaba.",
+				"Convoques fins a vuit {@creature manes} o {@creature dretch||dretches} que apareixen en espais no ocupats que puguin veure a l'abast. Un {@creature manes} o un {@creature dretch} desapareix quan arriba a 0 punts de vida o l'encanteri s'acaba.",
 				"Els dimonis són hostils contra tota criatura. Tira iniciativa pel grup de dimonis (tenen torn conjunt propi). Atacaran als no dimonis més propers com millor puguin.",
-				"Com a part del conjur, pots marcar un cercle al terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. Els dimonis convocats no poden atravessar el cercle ni designar com a objectius qui hi estigui a dins. Emprar el material d'aquesta manera el consumeix."
+				"Com a part del conjur, pots marcar un cercle a la terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. Els dimonis convoquen no poden atravessar el cercle ni designar com a objectius qui hi treballen a dins. Emprar el material d'aquesta manera el consumeix."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances el conjur using a spell slot of 6th or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-two demons."
+						"Quan llances el conjur utilitzant una ranura d'encanteris de 6è o 7è nivell, invoques setze dimonis. Si el llanceu amb una ranura d'encanteris de nivell 8 o 9, invoqueu trenta-dos dimonis."
 					]
 				}
 			],
@@ -174,11 +174,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
@@ -186,7 +186,7 @@
 		},
 		{
 			"name": "Convocar Shadow Demon (UA)",
-			"source": "UAThatOldBlackMagic",
+			"source": "UAthatOldBlackMagic",
 			"page": 3,
 			"level": 4,
 			"school": "C",
@@ -197,7 +197,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -219,12 +219,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un {@creature shadow demon} que apareix a un espai sense ocupar a l'abast.El {@creature shadow demon} desapareix quan es queda a 0 punts de vida o el conjur s'acaba.",
-				"Tira iniciativa pel {@creature shadow demon} (té torn propi). Pots donar-li ordres {@creature shadow demon} i les obeirà sempre i quan pugui atacar una criatura a cada torn i no comenci el torn en una àrea de llum forta. Si alguna d'aquestes condicions no es compleix, el {@creature shadow demon} fa immediatament una tirada de Carisma contra una tirada de Carisma teva. Si falles, el conjur ja no requereix concentració i ja no controles el dimoni. Falles la tirada automàticament si el dimoni està a més de 100 peus de tu.",
-				"Com a part del conjur, pots marcar un cercle al terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature shadow demon} convocat no pot atravessar el cercle ni designar com a objectius qui hi estigui a dins."
+				"Convoques un {@creature shadow demon} que apareix a un espai sense ocupar a l'abast.El {@creature shadow demon} desapareix quan queda a 0 punts de vida o el conjur s'acaba.",
+				"Tira iniciativa pel {@creature shadow demon} (té torn propi). Pots donar-li ordres {@creature shadow demon} i els obeirà sempre i quan pugui atacar una criatura a cada torn i no comenci el torn en una àrea de llum forta. Si alguna d'aquestes condicions no és immediata, el {@creature shadow demon} fa una tirada de Carisma contra una tirada de la teva. Si falles, el conjur ja no necessita concentració i ja no controla el dimoni. Falles la tirada automàticament si el dimoni està a més de 100 peus de tu.",
+				"Com a part del conjur, pots marcar un cercle a la terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature shadow demon} convocat no pot atravessar el cercle ni dissenyar com a objectius que hi trobareu a dins."
 			],
 			"abilityCheck": [
-				"charisma"
+				"carisma"
 			],
 			"miscTags": [
 				"SGT",
@@ -233,11 +233,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
@@ -245,7 +245,7 @@
 		},
 		{
 			"name": "Convocar Vrock (UA)",
-			"source": "UAThatOldBlackMagic",
+			"source": "UAthatOldBlackMagic",
 			"page": 3,
 			"level": 5,
 			"school": "C",
@@ -256,7 +256,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -282,13 +282,13 @@
 				}
 			],
 			"entries": [
-				"Convoques un {@creature vrock} que apareix a un espai sense ocupar a l'abast.El {@creature vrock} desapareix quan es queda a 0 punts de vida o el conjur s'acaba.",
-				"L'actitud del {@creature vrock} depen la gema emprada com a component material. Tira inciativa pel {@creature vrock} (té torn propi). Al principi de cada torn del {@creature vrock} el/la mestre/ssa fa una tirada de Carisma en secret; se li afegeix un bonus equivalent al preu la gema dividit per 20. La CD comença a 10 i incrementa en 2 cada ronda. El {@creature vrock} obeirà les teves ordres sempre i quan la tirada de Carisma sigui superada.",
-				"Si la tirada falla, el conjur no requereix concentració i el {@creature vrock} ja no està sota el teu control. El {@creature vrock} no prendrà accions i es comunicarà telepàticament amb tota criatura que vegi, dient-li que lluitarà a canvi de tresors. La criatura que li doni la gema mes cara el tindrà sota el seu control durant les propers {@dice 1d6} rondes. Quan s'acabi aquest temps, tornaran les negociacions. Si ningú li ofereix tresor al {@creature vrock} abans del seu proper torn, atacarà a les criatures mes properes durant {@dice 1d6} rondes i després tornarà a l'Abisme.",
-				"Com a part del conjur, pots marcar un cercle al terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature vrock} convocat no pot atravessar el cercle ni designar com a objectius qui hi estigui a dins."
+				"Convoques un {@creature vrock} que apareix a un espai sense ocupar a l'abast.El {@creature vrock} desapareix quan queda a 0 punts de vida o el conjur s'acaba.",
+				"L'actitud del {@creature vrock} depen la gema emprada com un material component. Tira inciativa pel {@creature vrock} (té torn propi). Al principi de cada torn del {@creature vrock} el/la mestre/ssa fa una tirada de Carisma en secret; se li afegeix un bonus equivalent al preu la gema dividit per 20. La CD comença a 10 i incrementa en 2 cada ronda. El {@creature vrock} obeirà les teves ordres sempre i quan la tirada de Carisma sigui superada.",
+				"Si la tirada falla, el conjur no necessita concentració i el {@ature vrock} ja no està sota el teu control. El {@creature vrock} no prendrà accions i es comunicarà telepàticament amb tota criatura que vegi, dient-li que lluitarà a un canvi de tresors. La criatura que li doni la gema mes cara el tindrà sota el seu control durant els propis {@dice 1d6} rondes. Quan s'acabi aquest temps, tornaran les negociacions. Si ningú li ofereix tresor al {@creature vrock} abans del seu proper torn, atacarà a les criatures mes properes durant {@dice 1d6} rondes i després tornarà a l'Abisme.",
+				"Com a part del conjur, pots marcar un cercle a la terra amb la sang d'un humanoide intel·ligent mort fa menys de 24 hores. El cercle és prou gran per embolcallar el teu espai. El {@creature vrock} convocat no pot atravessar el cercle ni designar com a objectius que hi ha a dins."
 			],
 			"abilityCheck": [
-				"charisma"
+				"carisma"
 			],
 			"miscTags": [
 				"SGT",
@@ -297,11 +297,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]

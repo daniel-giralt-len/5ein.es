@@ -13,7 +13,7 @@
 				}
 			],
 			"range": {
-				"type": "line",
+				"type": "línia",
 				"distance": {
 					"type": "peus",
 					"amount": 30
@@ -35,11 +35,11 @@
 				}
 			],
 			"entries": [
-				"Un torrent d'àcid emana de tu en una linia de 30 peus de llarg i 5 d'ample (esculls la direcció). Tota criatura dins la línia ha de salvar per Destresa o quedar xopa d'àcid durant la duració del conjur. Una criatura pot, com a acció, espolsar l'àcid d'una criatura afectada per cancel·lar-li l'efecte. Una criatura xopa d'àcid rep {@damage 3d4} de dany d'àcid a l'inici de cada torn seu."
+				"Un torrent d'àcid emana de tu en una línia de 30 peus de llarg i 5 d'ample (esculls la direcció). Tota criatura dins la línia ha de salvar per Destresa o quedar xopa d'àcid durant la duració del conjur. Una criatura pot, com a acció, espolsar l'àcid d'una criatura afectada per cancel·lar-li l'efecte. Una criatura xopa d'àcid rep {@damage 3d4} de dany d'àcid a l'inici de cada torn seu."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 2 o superior, el dany incrementa en {@scaledamage 3d4|1-9|1d4} per cada nivell per sobre d'1."
@@ -50,7 +50,7 @@
 				"àcid"
 			],
 			"savingThrow": [
-				"dexterity"
+				"destresa"
 			],
 			"areaTags": [
 				"L"
@@ -58,11 +58,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -81,7 +81,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -90,7 +90,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "un objecte gravat amb el símbol del Plans Exteriors  que valgui 500 ors o més",
+					"text": "un objecte gravat amb el símbol del Plans Exteriors que valgui 500 ors o més",
 					"cost": 50000
 				}
 			},
@@ -105,16 +105,16 @@
 				}
 			],
 			"entries": [
-				"Pronunciant una encantació, convoces màgia dels Plans Superiors o els Inferiors (escull) per a transformar-te. Durant la duració del conjur tens els següents beneficis:",
+				"Pronunciant una encantació, convoques màgia dels Plans Superiors o els Inferiors (escull) per a transformar-te. Durant la duració del conjur tens els següents beneficis:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Ets immune al dany de foc i de verí (Plans Inferiors) o bé al radiant i al necròtic (Plans Superiors).",
 						"Ets immune a estar {@condition emmetzinat} (Plans Inferiors) o bé a estar {@condition fascinat} (Plans Superiors).",
 						"Et surten ales espectrals. T'otorguen una velocitat de vol de 40 peus.",
 						"Reps +2 a la CA.",
 						"Els teus atacs armats són màgics. Quan facis un atac armat pots fer servir la teva habilitat de llançament de conjurs en ves de Força o Destresa per les tirades d'impacte i de dany.",
-						"Pots atacar dos cops, i no un, quan prens l'acció Atac al teu torn. Ignores aquest benefici si ja en tens un que et doni atacs adicionals com ara l'Atac Extra."
+						"Pots atacar dos cops, i no un, quan prens l'acció Atac al teu torn. Ignores aquest benefici si ja en tens un que et doni atacs addicionals com ara l'Atac Extra."
 					]
 				}
 			],
@@ -127,19 +127,19 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -154,11 +154,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "acció bonus"
+					"unit": "bonificació d'acció"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -178,13 +178,13 @@
 				}
 			],
 			"entries": [
-				"Convoques esperits dels morts que voletegen al teu voltant durant la duració del conjur. Son intangibles i invulnerables, i son o bé bons o bé malvats (escull).",
+				"Convoques esperits dels morts que voletegen al teu voltant durant la durada del conjur. Son intangibles i invulnerables, i son o bé bons o bé malvats (escull).",
 				"Durant la duració del conjur els teus atacs fan {@damage 1d8} de dany extra quan impactes a una criatura a 10 peus de tu. Aquest mal és radiant si els esperits són bons i necròtics si són dolents. Tota criatura que rebi aquest mal no pot recuperar punts de vida fins l'inici del teu proper torn.",
 				"A més, tota criatura que escullis i puguis veure que començi el seu torn a 10 peus de tu se li redueix la velocitat en 10 peus fins l'inici del teu proper torn."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, el dany extra incrementa en {@scaledamage 1d8|3-9|1d8} per cada nivell per sobre de 3."
@@ -198,19 +198,19 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					},
 					{
-						"name": "Paladin",
+						"name": "Paladí",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -229,7 +229,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -254,12 +254,12 @@
 				}
 			],
 			"entries": [
-				"Convoques esperits del Regne Llunyà o algun altre reialme de follia. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Aberrant|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria Contempladors, Slaadi, or Nascuts d'Estrella. La criatura s'assemblarà físicament a la teva elecció, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques esperits del Regne Llunyà o algun altre reialme de follia. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Aberrant|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria Contempladors, Slaadi, o Nascuts d'Estrella. La criatura s'assemblarà físicament a la teva elecció, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 5 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -273,15 +273,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -300,7 +300,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -325,12 +325,12 @@
 				}
 			],
 			"entries": [
-				"Convoques l'esperit d'una bèstia. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Bestial|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria entre Aire, Terra, o Aigua. La criatura adoptarà la forma d'un animal nadiu a aquell entorn i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques l'esperit d'una bèstia. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Bestial|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria entre Aire, Terra, o Aigua. La criatura adoptarà la forma d'un animal nadiu a aquell entorn i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -344,7 +344,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
@@ -367,7 +367,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -392,12 +392,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit dels Plans Superiors. L'esperit es manifesta en forma angelical a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Celestial|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria Venjador o Defensor. Això determina l'atac al bloc d'estats de la criatura. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques un esperit dels Plans Superiors. L'esperit es manifesta en forma angelical a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Celestial|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria Venjador o Defensor. Això determina l'atac al bloc d'estats de la criatura. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -411,11 +411,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					},
 					{
-						"name": "Paladin",
+						"name": "Paladí",
 						"source": "PHB"
 					}
 				]
@@ -434,7 +434,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -444,7 +444,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "aire, cendra, aigua, i un pal de riu dins d'un vial cristal·lí que valgui 400 ors o més",
+					"text": "Aire, Cendra, aigua, i ONU pal de Riu dins de d'un vial Cristalli Que valgui 400 ORS o més",
 					"cost": 40000
 				}
 			},
@@ -459,12 +459,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit dels Plans Elementals. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Elemental Spirit|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria an element: Aire, Terra, Foc, o Aigua. La criatura adopta una forma humanoide embolcallada d'aquell element, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques un esperit dels Plans Elementals. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Elemental Spirit|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria an element: Aire, Terra, Foc, o Aigua. La criatura adopta una forma humanoide embolcallada d'aquell element, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 5 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -478,15 +478,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -505,7 +505,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -530,12 +530,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit de la Terra Fata. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Fey Spirit|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria un estat d'ànim: Mentider, Furiós o Xiroi. La criatura adopta la forma d'un sàtis, una driada, o un elf (escull) amb l'estat d'anim triat, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques un esperit de la Terra Fata. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Fey Spirit|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria un estat d'ànim: Mentider, Furiós o Xiroi. La criatura adopta la forma d'un sàtis, una driada, o un elf (escull) amb l'estat d'anim triat, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -553,19 +553,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -584,7 +584,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -609,12 +609,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit infernal dels Plans Inferiors. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Infernal|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria Dimoni, Diable, o Yugoloth. La criatura adopta la forma d'un infernal del tipus escollit, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques un esperit infernal dels Plans Inferiors. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Infernal|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria Dimoni, Diable, o Yugoloth. La criatura adopta la forma d'un infernal del tipus escollit, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 7 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -628,11 +628,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -651,7 +651,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -676,12 +676,12 @@
 				}
 			],
 			"entries": [
-				"Convoques una entitat d'ombra de l'Erm de l'Ombra. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Ombrívol|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria una emoció: Ira, Desesperació, o Temor. La criatura adopta la forma d'un humanoide deformat amb l'emoció escollida, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques una entitat d'ombra de l'Erm de l'Ombra. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit Ombrívol|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria una emoció: Ira, Desesperació, o Temor. La criatura adopta la forma d'un humanoide deformat amb l'emoció escollida, que determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -695,15 +695,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -722,7 +722,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -747,12 +747,12 @@
 				}
 			],
 			"entries": [
-				"Convoques un esperit del més enllà. L'esperit es manifesta físicament a un espai desocupat que puguis veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit No-Mort|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria'n la forma: Fantasmal, Pútrida, o Esquelètica. La figura adopta la forma d'un humanoide amb aquell tret, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan es queda a 0 punts de vida o quan el conjur acaba.",
-				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després de tu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defendrà."
+				"Convoques un esperit del més enllà. L'esperit es manifesta físicament a un espai desocupat que pugui veure a l'abast. Aquesta forma corpòria empra el bloc d'estats de {@creature Esperit No-Mort|UA2020SpellsAndMagicTattoos}. Quan llances el conjur, tria'n la forma: Fantasmal, Pútrida, o Esquelètica. La figura adopta la forma d'un humanoide amb aquell tret, i determina alguns trets del seu bloc d'estats. La criatura desapareix quan queda a 0 punts de vida o quan el conjur acaba.",
+				"La criatura és amistosa vers a tu i els teus companys durant la duració del conjur. Comparteix la teva iniciativa i actua immediatament després del teu. Obeeix ordres verbals teves (no requereix acció dir-les). Si no n'hi dones, es defensarà."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, la criatura puja de nivell en el bloc d'estats concordant amb el nivell de la ranura."
@@ -766,11 +766,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]

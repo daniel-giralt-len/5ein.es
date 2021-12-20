@@ -13,7 +13,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -34,13 +34,13 @@
 				}
 			],
 			"entries": [
-				"Despertes un perill de mort a la consciència d'una criatura a l'abast. L'objectiu ha de salvar per Saviesa or become {@condition acovardit} for the duration. A target with 25 hit points or fewer makes the saving throw with disadvantage. The spell has no effect on constructs or undead."
+				"Despertes un perill de mort a la consciència d'una criatura a l'abast. L'objectiu ha de salvar per Saviesa o convertir-se en {@condition acovardit} durant la durada. Un objectiu amb 25 punts de vida o menys fa la tirada de salvació amb desavantatge. L'encanteri no té cap efecte sobre les construccions o els no-morts."
 			],
 			"conditionInflict": [
 				"acovardit"
 			],
 			"savingThrow": [
-				"wisdom"
+				"saviesa"
 			],
 			"miscTags": [
 				"SGT"
@@ -51,11 +51,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -74,7 +74,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "tocar"
 				}
@@ -99,52 +99,52 @@
 			"entries": [
 				"Condueixes una de les cerimònies següents que tries quan llances el conjur. L'objectiu ha d'estar a 10 peus d'abast.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Expiació",
 					"entries": [
 						"Toques una criatura voluntària que ha canviat d'alineament i fas una tirada de Saviesa ({@skill Perspicàcia}) amb CD 20. Si superes, recupera l'alineament original."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Beneïr Aigua",
 					"entries": [
 						"Toques un {@item vial|phb} d'aigua i la tornes {@item Holy Water (flask)|phb|holy water}."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Majoria d'Edat",
 					"entries": [
-						"Toques un humanoide que es consideri adult. Durant les properes 24 hores, quan l'objectiu faci un tirada d'habilitat, pot afegir-hi {@dice d4}. Una criatura només pot obtenir el benefici d'aquesta cerimònia un cop."
+						"Toques un humanoide que consideri adult. Durant les properes 24 hores, quan l'objectiu faci una tirada d'habilitat, pot afegir-hi {@dice d4}. Una criatura només pot obtenir el benefici d'aquesta cerimònia un cop."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Dedicació",
 					"entries": [
 						"Toques un humanoide que vulgui convertir-se a la teva religió o adorar a la teva divinitat. Durant les properes 24 hores, quan l'objectiu hagi de salvar, pot afegir-hi {@dice d4}. Una criatura només pot obtenir el benefici d'aquesta cerimònia un cop."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Ritus Funeraris",
 					"entries": [
 						"Beneeixes a un cadàver a 5 peus teus. Durant les properes 24 hores no pot ésser alçat com a no mort excepte pel conjur {@spell desig}."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Investidura",
 					"entries": [
-						"Toques un humanoide voluntari. Tria un encanteri de nivell 1 que tinguis prepara't i gasta'n els components materials si en requereix. En comptes de llançar-lo permets que l'objectiu el pugui llançar de franc. Aquest conjur es perd si passa 1 hora abans d'ésser llançat"
+						"Toques un humanoide voluntari. Tria un encanteri de nivell 1 que tinguis prepara't i gasta'n els components materials si requerim. En comptes de llançar-lo permets que l'objectiu el pugui llançar de franc. Aquest conjur es perd si passa 1 hora abans d'ésser llançat"
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Casament",
 					"entries": [
-						"Toques humanoides adults voluntaris a casar-se. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. Una criatura només pot obtenir el benefici d'aquesta cerimònia un cop."
+						"Toques humanoides adults voluntaris a casar-se. Durant les properes 24 hores, cada objectiu guanya una bonificació de +2 a la CA i als tirs de salvació mentre es troben a menys de 30 peus l'un de l'altre. Una criatura només pot obtenir el benefici d'aquesta cerimònia un cop."
 					]
 				}
 			],
@@ -157,11 +157,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					},
 					{
-						"name": "Paladin",
+						"name": "Paladí",
 						"source": "PHB"
 					}
 				]
@@ -180,7 +180,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 120
@@ -196,16 +196,16 @@
 				}
 			],
 			"entries": [
-				"Descarregues una massa undulant d'energia caòtica a una criatura a l'abast. Tira a impactar un atac de conjur a distància. Si impactes, l'objectiu rep {@damage 2d8}. Tria un dels {@dice d8}s. El número determina la mena de dany:",
+				"Descarregues una massa ondulant d'energia caòtica a una criatura a l'abast. Tira a impactar un atac de conjur a distància. Si impactes, l'objectiu rep {@damage 2d8}. Tria un dels {@dice d8}s. El número determina la mena de dany:",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Vira del Caos",
 					"colLabels": [
-						"{@dice d8}",
+						"{@dis d8}",
 						"Tipus de Dany"
 					],
 					"colStyles": [
-						"col-1 text-center",
+						"col-1 centre de text",
 						"col-11"
 					],
 					"rows": [
@@ -283,11 +283,11 @@
 						]
 					]
 				},
-				"Si tots els d8 donen el mateix número l'energia salta d'una criatura a una altra estigui a 30 peus de la primera. Fes una altra tirada d'impacte i una altra tirada de dany (que podria encadenar un altre salt). Una criatura només pot ser un objectiu un cop per llançament d'aquest conjur."
+				"Si tots els d8 donen el l'energia salta d'una criatura a un altre nombre després a 30 peus de la primera. Fes una altra tirada d'impacte i una altra tirada de dany (que podria encadenar un altre salt). Una criatura només pot ser un objectiu un cop per llançament d'aquest conjur."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 2 o superior, cada objectiu rep dany extra del tipus que toqui, incrementant en {@scaledamage 2d8|1-9|1d6} per cada nivell per sobre d'1."
@@ -313,7 +313,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
@@ -332,7 +332,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 5
@@ -356,8 +356,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"Crees una ma Diminuta incorpòria de llum en un espai desocupat que puguis veure a l'abast. La ma existeix durant tot el conjur però desapareix si canvies de pla d'existència.",
-				"Quan la ma aparegui designa una fita coneguda que aparegui en un mapa del mateix pla d'existència on siguis: una muntanya, un castell, o un camp de batalla. Si no està mapejada, el conjur falla. Sinò, la ma s'allunya de tu quan t'hi apropes: s'allunya en direcció de la fita. La ma es mantè a 5 peus de tu en to moment..",
+				"Crees una ma Diminuta incorpòria de llum en un espai desocupat que pugui veure a l'abast. La ma existeix durant tot el conjur però desapareix si canvies de pla d'existència.",
+				"Quan la ma aparegui designa una fita coneguda que aparegui en un mapa del mateix pla d'existència on siguis: una muntanya, un castell, o un camp de batalla. Si no està mapejada, el conjur falla. Sinò, la ma s'allunya de tu quan t'hi apropes: s'allunya en direcció de la fita. La ma és mantè a 5 peus de tu en to moment..",
 				"Si no et mous cap a la ma es queda al lloc, però et fa senyals que t'acostis cada {@dice 1d4} minuts."
 			],
 			"miscTags": [
@@ -370,15 +370,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					},
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -397,7 +397,7 @@
 				}
 			],
 			"range": {
-				"type": "radius",
+				"type": "radi",
 				"distance": {
 					"type": "peus",
 					"amount": 5
@@ -413,11 +413,11 @@
 				}
 			],
 			"entries": [
-				"Una força radiant esclata de la teva ma. Tota criatura que puguis veure a 5 peus d'abast ha de salvar per Constitució. Qui falli rep {@damage 1d6} de dany radiant.",
-				"El dany del conjur incrementa en {@dice 1d6} quan arribes a nivell 5 ({@damage 2d6}), nivell 11 ({@damage 3d6}) i nivell 17 ({@damage 4d6})"
+				"Una força radiant esclata de la teva ma. Tota criatura que pugui veure a 5 peus d'abast ha de salvar per Constitució. Qui falli rep {@damage 1d6} de dany radiant.",
+				"El dany del conjur incrementa en {@dice 1d6} quan arriba a nivell 5 ({@damage 2d6}), nivell 11 ({@damage 3d6}) i ​​nivell 17 ({@damage 4d6})"
 			],
 			"scalingLevelDice": {
-				"label": "radiant damage",
+				"label": "dany radiant",
 				"scaling": {
 					"1": "1d6",
 					"5": "2d6",
@@ -429,7 +429,7 @@
 				"radiant"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SCL",
@@ -441,7 +441,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					}
 				]
@@ -460,7 +460,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -480,7 +480,7 @@
 				}
 			],
 			"entries": [
-				"Crees un elixir sanador dins d'un vial a ma. Retè la potència durant la duració del conjur fins que es consumeix; llavors el vial desapareixerà.",
+				"Crees un elixir sanador dins d'un vial a ma. Retè la potència durant la durada del conjur fins que es consumeix; llavors el vial desapareixerà.",
 				"Com a acció, una criatura pot veure's l'elixis o administrar-lo a una altra criatura. Qui se'l begui recuperarà {@dice 2d4 + 2} punts de vida."
 			],
 			"miscTags": [
@@ -489,18 +489,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
 			}
 		},
 		{
-			"name": "Infestació (UA)",
+			"name": "Infecció (UA)",
 			"source": "UAStarterSpells",
 			"page": 3,
 			"level": 0,
@@ -512,7 +512,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 30
@@ -529,8 +529,8 @@
 				}
 			],
 			"entries": [
-				"Fas aparèixer un núvol de puces, paparres i d'altres paràsits que envolt a una criatura que puguis veure a l'abast. L'objectiu ha de salvar per Constitució. Si falla rep {@damage 1d6} de dany de verí i es mou 5 peus en una direcció aleatoria Tira un {@dice d8}: 1, nord; 2, nord-est; 3, est; 4, sud-est; 5, sud; 6, sud-oest; 7, oest; 8, nort-oest.",
-				"El dany del conjur incrementa en {@dice 1d6} quan arribes a nivell 5 ({@damage 2d6}), nivell 11 ({@damage 3d6}) i nivell 17 ({@damage 4d6})"
+				"Fas aparèixer un núvol de puces, paparres i d'altres paràsits que envolten a una criatura que pugui veure a l'abast. L'objectiu ha de salvar per Constitució. Si falla rep {@damage 1d6} de dany de verí i es mou 5 peus en una direcció aleatoria Tira un {@dice d8}: 1, nord; 2, nord-est; 3, est; 4, sud-est; 5, sud; 6, sud-oest; 7, oest; 8, nord-est.",
+				"El dany del conjur incrementa en {@dice 1d6} quan arriba a nivell 5 ({@damage 2d6}), nivell 11 ({@damage 3d6}) i ​​nivell 17 ({@damage 4d6})"
 			],
 			"scalingLevelDice": {
 				"label": "dany perforant",
@@ -545,7 +545,7 @@
 				"perforant"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SCL",
@@ -557,19 +557,19 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -588,7 +588,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -603,7 +603,7 @@
 			],
 			"entries": [
 				"Vincules màgia crua a les teves dents o urpes que s'esmolen. Tira a impactar un atac cos a cos de conjur contra una criatura a 5 peus d'abast. Si impactes, l'objectiu rep {@damage 1d10} perforant o tallant (escull). Un cop fet l'atac el teu cos torna a la normalitat",
-				"El dany del conjur incrementa en {@dice 1d10} quan arribes a nivell 5 ({@damage 2d10}), nivell 11 ({@damage 3d10}) i nivell 17 ({@damage 4d10})"
+				"El dany del conjur incrementa en {@dice 1d10} quan arriba a nivell 5 ({@damage 2d10}), nivell 11 ({@damage 3d10}) i nivell 17 ({@damage 4d10})"
 			],
 			"scalingLevelDice": {
 				"label": "dany perforant",
@@ -630,7 +630,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					}
 				]
@@ -649,7 +649,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 120
@@ -664,10 +664,10 @@
 				}
 			],
 			"entries": [
-				"Forces a un humanoide que vegis a l'abast a salvar per Constitució. Si falla s'ha de moure la seva velocitat a la direcció que escullis. A mes pots fer que deixi caure el que estigui aguantant. Aquest conjur no funciona contra criatures immunes a estar {@condition fascinat}."
+				"Forces a un humanoide que vegis a l'abast a salvar per Constitució. Si falla s'ha de moure la seva velocitat a la direcció que escullis. A mes pots fer deixi caure el que està aguantant. Aquest conjur no funciona contra criatures immunes a estar {@condition fascinat}."
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SGT"
@@ -682,11 +682,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -705,7 +705,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -725,7 +725,7 @@
 				}
 			],
 			"entries": [
-				"Harmonitzes els sentits per percebre emocions externes durant la duració del conjur. Quan llances el conjur (o com a acció als teus torns) pots centrar-te en les emocions d'un humanoide que puguis veure a 30 pesu d'abast. Descobreixes la seva emoció prevalent, com ara amor, ira, dolor, por, o calma. Si l'objectiu no és humanoide o és immune a estar {@condition fascinat}, detectes calma"
+				"Harmonitzes els sentits per percebre emocions externes durant la durada del conjur. Quan llances el conjur (o com a acció als teus torns) pots centrar-te en les emocions d'un humanoide que pugui veure a 30 pesos d'abast. Descobreixes la seva emoció prevalent, com ara amor, ira, dolor, per, o calma. Si l'objectiu no és humanoide o és immune a estar {@condition fascinat}, detecta calma"
 			],
 			"miscTags": [
 				"SGT"
@@ -736,11 +736,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -759,7 +759,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "tocar"
 				}
@@ -777,21 +777,21 @@
 					"type": "permanent",
 					"ends": [
 						"dissipar",
-						"trigger"
+						"disparador"
 					]
 				}
 			],
 			"entries": [
-				"Quan llances el conjur fas un cèrcol de corda de 5 peus de radi al terra o a una superfície plana al'abast. Quan acabes la corda desapareix i es torna una trampa màgica.",
+				"Quan llances el conjur fas un cèrcol de corda de 5 peus de radi a la terra o a una superfície plana a l'abast. Quan acabes la corda desapareix i és torna una trampa màgica.",
 				"És gairebé invisible i s'ha de tirar ({@skill Investigation}) contra la teva CD de salvada de conjur per ser percebuda. El parany s'activa quan una criatura Petita, Mitjana, o Gran entra al cèrcol Ha de salvar per Destresa. Si falla s'enlaira 3 peus i es queda penjant. La criatura hi està {@condition restrained} fins que el conjur s'acabi.",
-				"Una criatura {@condition restrained} pot salvar de Destresa al final de cada torn seu, cancel·lant l'efecte quan superi. Alternativament, la criatura afectada o una altra pot, com a acció, fer una tirada d'Intel·ligència ({@skill Arcana}) contra la teva CD de salvada de conjur. Si supera, la condició {@condition restrained} es cancel·la."
+				"Una criatura {@condition restrained} pot salvar de Destresa al final de cada torn seu, cancel·lant l'efecte quan superi. Alternativament, la criatura afectada o una altra pot, com a acció, fer una tirada d'Intel·ligència ({@skill Arcana}) contra la teva CD de salvada de conjur. Si supera, la condició {@condition restrained} és cancel·la."
 			],
 			"conditionInflict": [
 				"enderrocat",
 				"retingut"
 			],
 			"savingThrow": [
-				"dexterity"
+				"destresa"
 			],
 			"abilityCheck": [
 				"intel·ligència"
@@ -802,7 +802,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
@@ -810,7 +810,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -825,11 +825,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 10
@@ -844,7 +844,7 @@
 				}
 			],
 			"entries": [
-				"Tota criatura que designis a l'abast es desperta i pot aixecar-se d'estar {@condition enderrocat} sense gastar moviment."
+				"Tota criatura que designis a l'abast és desperta i pot aixecar-se d'estar {@condition enderrocat} sense gastar moviment."
 			],
 			"areaTags": [
 				"MT"
@@ -860,11 +860,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Sorcerer",
+						"name": "Bruixot",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "mag",
 						"source": "PHB"
 					}
 				]
@@ -883,7 +883,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -899,12 +899,12 @@
 				}
 			],
 			"entries": [
-				"Designa una criatura que puguis veure a l'abast. El so d'una campana cruenta se sent per arreu per un moment. L'objectiu ha de salvar per Saviesa. Si falla rep {@damage 1d8} de dany necròtic; però si a l'objectiu li falten punts de vida, en rep {@damage 1d12} de dany necròtic.",
-				"El dany del conjur incrementa quan arribes a nivell 5 ({@damage 2d8} o {@damage 2d12}), nivell 11 ({@damage 3d8} o {@damage 3d12}) i nivell 17 ({@damage 4d8} o {@damage 4d12})"
+				"Designa una criatura que pugui veure a l'abast. El so d'una campana cruenta se sent per arreu per un moment. L'objectiu ha de salvar per Saviesa. Si falla rep {@damage 1d8} de dany necròtic; però si a l'objectiu li falten punts de vida, en rep {@damage 1d12} de dany necròtic.",
+				"El dany del conjur incrementa quan arriba a nivell 5 ({@damage 2d8} o {@damage 2d12}), nivell 11 ({@damage 3d8} o {@damage 3d12}) i nivell 17 ({@damage 4d8} o { @dany 4d12})"
 			],
 			"scalingLevelDice": [
 				{
-					"label": "necrotic damage",
+					"label": "dany necròtic",
 					"scaling": {
 						"1": "1d8",
 						"5": "2d8",
@@ -926,7 +926,7 @@
 				"necròtic"
 			],
 			"savingThrow": [
-				"wisdom"
+				"saviesa"
 			],
 			"miscTags": [
 				"SCL",
@@ -938,11 +938,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Bruixot",
 						"source": "PHB"
 					}
 				]
@@ -953,7 +953,7 @@
 			"source": "UAStarterSpells",
 			"page": 4,
 			"level": 1,
-			"school": "I",
+			"school": "jo",
 			"time": [
 				{
 					"number": 1,
@@ -961,7 +961,7 @@
 				}
 			],
 			"range": {
-				"type": "radius",
+				"type": "radi",
 				"distance": {
 					"type": "peus",
 					"amount": 30
@@ -982,10 +982,10 @@
 			],
 			"entries": [
 				"Una música del gènere que vulguis sona al teu voltant fins a 30 peus de radi. S'extén per les cantonades i es pot sentir fins a 100 peus d'abast. Es mou i centra en tu.",
-				"Dins que acabi el conjur, fas tirades de  Carisma ({@skill Persuasió}) amb avantatge. A més pots encisar una criatura a 30 pesu que pugui sentir la música com a acció bonus. Ha de salvar per Carisma. Supera automàticament si tu o els teus companys l'esteu atacant. Si falla, és amistosa vers a tu mentre senti la música i 1 hora després que acabi. Fas tirades de Carisma ({@skill Engany}) checks i Carisma ({@skill Persuasion}) contra les criatures encisades amb advantage."
+				"Dins que acabi el conjur, fas tirades de Carisma (@skill Persuasió}) amb avantatge. A més pots encisar una criatura a 30 pesos que pugui sentir la música com a acció bonus. Ha de salvar per Carisma. Supera automàticament si tu o els teus companys l'esteu atacant. Si falla, és amistosa vers a tu mentre senti la música i 1 hora després que acabi. Fas tirades de Carisma ({@skill Engany}) checks i Carisma ({@skill Persuasion}) contra les criatures encisades amb avantatge."
 			],
 			"savingThrow": [
-				"charisma"
+				"carisma"
 			],
 			"areaTags": [
 				"S"
@@ -1012,7 +1012,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "tocar"
 				}
@@ -1042,7 +1042,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Clergue",
 						"source": "PHB"
 					}
 				]
@@ -1061,7 +1061,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 120
@@ -1082,9 +1082,9 @@
 			"entries": [
 				"Invoques els esperits de la natura per ajudar-te. Quan llances el conjur, tria un efecte:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Si hi ha rastres al terra a l'abast els detectes, i tens avantatge a tirades de Saviesa ({@skill Supervivència}) per seguir-los durant 1 hora.",
+						"Si hi ha rastres a la terra a l'abast els detectes, i tens avantatges a tirades de Saviesa ({@skill Supervivència}) per seguir-los durant 1 hora.",
 						"Localitzes aliment a l'abast automàticament (si n'hi ha).",
 						"Localitzes aigua potable a l'abast automàticament (si n'hi ha).",
 						"Localitzes aixopluc per tu i els teus companys automàticament (si n'hi ha).",
@@ -1096,7 +1096,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Druid",
+						"name": "Druida",
 						"source": "PHB"
 					},
 					{
@@ -1115,11 +1115,11 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "bonificació"
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -1139,7 +1139,7 @@
 			],
 			"entries": [
 				"Et mous com el vent. Mentre duri el conjur, el teu moviment no provoca atacs d'oportunitat.",
-				"A més, el primer atac armat que facis en un dels teus torns abans que s'acabi el conjur el fas amb avantatge. En aquell torn teva velocitat s'incrementa en 30."
+				"A més, el primer atac armat que facis en un dels teus torns abans que s'acabi el conjur el fas amb avantatges. En aquell torn la teva velocitat s'incrementa en 30."
 			],
 			"classes": {
 				"fromClassList": [

@@ -13,7 +13,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 150
@@ -38,8 +38,8 @@
 				}
 			],
 			"entries": [
-				"El conjur crea una esfera centrada en un punt que puguis veure a l'abast. Li designes el radi, fins a 40 peus. L'àrea s'omple de foscor màgica i de força de gravetat esclafant.",
-				"For the duration, l'àrea és terreny difícil. La foscor no la penetra una visió de foscor ni llum no màgica. El so no es crea ni travessa l'àrea. Tota criatura i objecte enterament dins l'esfera es immune a dany de tro, i les criatures estan {@condition eixordat}. Llançar-hi conjurs amb component verbal és impossible.",
+				"El conjur crea una esfera centrada en un punt que pugui veure a l'abast. Li designes el radi, fins a 40 peus. L'àrea s'omple de foscor màgica i de força de gravetat esclafant.",
+				"Durant la durada, l'àrea és terreny difícil. La foscor no la penetra una visió de foscor ni llum no màgica. El so no es crea ni travessa l'àrea. Tota criatura i objecte enterament dins l'esfera és immune a dany de tro, i les criatures estan {@condition eixordat}. Llançar-hi conjurs amb component verbal és impossible.",
 				"Tota criatura que entri a l'àrea per primer cop en un torn o hi començi el torn ha de salvar per Constitució. Si falla, rep {@damage 8d10} de dany de força; si supera, en rep la meitat. Una criatura que es quedi a 0 punts de vida per aquest dany és desintegrada. Una criatura desintegrada i tot el que dugui o vesteixi (excepte objectes màgics) es converteixen en pols fina."
 			],
 			"damageInflict": [
@@ -49,7 +49,7 @@
 				"eixordat"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"areaTags": [
 				"S"
@@ -58,11 +58,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -83,7 +83,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -108,15 +108,15 @@
 				}
 			],
 			"entries": [
-				"Otorgues sort latent a una criatura voluntària que puguis veure a l'abast (tu també pots ser). Abans no acabi el conjur, quan l'objectiu faci una tirada d'impacte, d'habilitat, o de salvació pot tirar un {@dice d20} extra i decidir quin resultat quedar-se. Alternativament si una tirada d'impacte impactés a l'objectiu, pot tirar un {@dice d20} i escollir quin fa servir l'atacant.",
-				"Si la tirada original tenia avantatge o desavantatge, el {@dice d20} extra es tira després de resoldre-la i no abans."
+				"Otorgues sort latent a una criatura voluntària que pugui veure a l'abast (també pots ser). Abans no acabi el conjur, quan l'objectiu faci una tirada d'impacte, d'habilitat, o de salvació pot tirar un {@dice d20} extra i decidir quin resultat quedar-se. Alternativament si una tirada d'impacte impactés a l'objectiu, pot tirar un {@dice d20} i escollir quin fa servir l'atacant.",
+				"Si la tirada original tenia avantatges o desavantatges, el {@dice d20} extra és tira després de resoldre-la i no abans."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, pots designar una criatura adicional per cada nivell per sobre de 2."
+						"Quan llances aquest conjur emprant una ranura de nivell 3 o superior, pots designar una criatura addicional per cada nivell per sobre de 2."
 					]
 				}
 			],
@@ -130,21 +130,21 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					},
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -164,7 +164,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "tocar"
 				}
@@ -192,11 +192,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					}
@@ -216,7 +216,7 @@
 				}
 			],
 			"range": {
-				"type": "line",
+				"type": "línia",
 				"distance": {
 					"type": "peus",
 					"amount": 100
@@ -233,12 +233,12 @@
 				}
 			],
 			"entries": [
-				"Manifestes un cingle d'energia gravitacional en una línia de 100 peus d'ample i 5 de llarg que començi davant teu. Tota criatura dins de la línia ha de salvar per Constitució. Qui falli rep {@damage 8d8} de dany de força; qui superi, en rep la meitat.",
+				"Manifestes un cingle d'energia gravitacional en una línia de 100 peus d'ample i 5 de llarg que comenci davant teu. Tota criatura dins de la línia ha de salvar per Constitució. Qui falli rep {@damage 8d8} de dany de força; qui superi, en rep la meitat.",
 				"Tota criatura a 10 peus de la línia (però no a dins) ha de salvar per Constitució. Qui falli rep {@damage 8d8} de dany de força i és tibada dins de l'àrea."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 7 o superior, el dany incrementa en {@scaledamage 8d8|6-9|1d8} per cada nivell per sobre de 6."
@@ -249,7 +249,7 @@
 				"força"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"areaTags": [
 				"L"
@@ -258,11 +258,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -282,7 +282,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 120
@@ -299,11 +299,11 @@
 				}
 			],
 			"entries": [
-				"Una esfera de 20 peus de radi es forma a un punt que puguis veure a l'abast. Tota criatura dins l'esfera és atreta al centre i ha de salvar per Constitució. Qui falli rep {@damage 5d10} de dany de força i és tibada en línia recta cap al centre fins al primer espai sense ocupar (també pot ser a l'aire). Qui salvi rep la meitat de mal i no és tibada."
+				"Una esfera de 20 peus de radi és forma a un punt que pugui veure a l'abast. Tota criatura dins l'esfera és atreta al centre i ha de salvar per Constitució. Qui falli rep {@damage 5d10} de dany de força i és tibada en línia recta cap al centre fins al primer espai sense ocupar (també pot ser a l'aire). Qui salvi rep la meitat de mal i no és tibada."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 5 o superior, el dany incrementa en {@scaledamage 5d10|4-9|1d10} per cada nivell per sobre de 4."
@@ -314,7 +314,7 @@
 				"força"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SGT"
@@ -326,11 +326,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -350,7 +350,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "tocar"
 				}
@@ -374,20 +374,20 @@
 				}
 			],
 			"entries": [
-				"Toques un objecte de fins a 10 lliures de pes: esdevé fixat al lloc. Només el pots moure tu i les criatures que triis quan llancis el conjur. També pots designar una contrassenya que suspengui el conjur durant un minut si es diu a 5 peus de l'objecte.",
-				"Si l'objecte és fixat a l'aire pot aguantar fins a 4,000 lliures de pes. Més pes farà que l'objecte caigui. Una criatura pot fer una tirada de força contra la teva CD de salvació de conjur. Si supera pot moure l'objecte fins a 10 peus."
+				"Toques un objecte de fins a 10 lliures de pes: esdevé fixat al lloc. Només el pots moure tu i les criatures que triis quan llancis el conjur. També pots designar una contrassenya que suspengui el conjur durant un minut si és diu a 5 peus de l'objecte.",
+				"Si l'objecte és fixat a l'aire pot aguantar fins a 4.000 lliures de pes. Més pes farà que l'objecte caigui. Una criatura pot fer una tirada de força contra la teva CD de salvació de conjur. Si supera pot moure l'objecte fins a 10 peus."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Amb una ranura de nivell 4 o 5 incrementes en 5 la CD per moure l'objecte; també aguanta fins a 8,000 lliures; i la duració serà 24 hores. Amb una ranura de nivell 6 o superior la CD tindrà +10; l'objecte aguantarà 20,000 lliures i l'efecte serà permanent fins que sigui dissipat."
+						"Amb una ranura de nivell 4 o 5 increments en 5 la CD per moure l'objecte; també aguanta fins a 8.000 lliures; i la duració serà de 24 hores. Amb una ranura de nivell 6 o superior la CD tindrà +10; l'objecte aguantarà 20.000 lliures i l'efecte serà permanent fins que sigui dissipat."
 					]
 				}
 			],
 			"abilityCheck": [
-				"strength"
+				"força"
 			],
 			"areaTags": [
 				"ST"
@@ -396,11 +396,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -420,7 +420,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -440,12 +440,12 @@
 				}
 			],
 			"entries": [
-				"La gravetat en una esfera de 10 peus de radi centrada en un punt que vegis a l'abast augmente durant un instant. Tota criatura dins l'esfera ha de salvar per Constitució. Qui falli rep {@damage 2d8} de dany de força, i té la velocitat partida en dos fins el final del seu proper torn. Qui superi rep la meitat del mal i no se li redueix la velocitat.",
-				"Fins a l'inici del teu proper torn, tot objecte no dut ni vestit requereix superar una tirada de Força contra la teva CD de salvació de conjur per poder-lo agafar o moure."
+				"La gravetat en una esfera de 10 peus de radi centrada en un punt que vegis a l'abast augmenta durant un instant. Tota criatura dins l'esfera ha de salvar per Constitució. Qui falli rep {@damage 2d8} de dany de força, i té la velocitat partida en dos fins el final del seu proper torn. Qui superi rep la meitat del mal i no se li redueix la velocitat.",
+				"Fins a l'inici del teu proper torn, tot objecte no dut ni vestit superar una tirada de Força contra la teva CD de salvació de conjur per poder-lo agafar o moure."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
 						"Quan llances aquest conjur emprant una ranura de nivell 2 o superior, el dany incrementa en {@scaledamage 2d8|1-9|1d8} per cada nivell per sobre d'1."
@@ -456,7 +456,7 @@
 				"força"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SGT"
@@ -468,11 +468,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -508,15 +508,15 @@
 				}
 			],
 			"entries": [
-				"Crees una pressió intensa en un con de 30 peus i decideixes si empentarà o tibarà. Tota criatura dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 6d6} de dany de força i és empesa o tibada 15 peus (depenent del que hagis escollit); qui superi, en rep la meitat.",
+				"Crees una pressió intensa en un amb de 30 peus i decideixes si empentarà o tibarà. Tota criatura dins de l'àrea ha de salvar per Constitució. Qui falli rep {@damage 6d6} de dany de força i és empesa o tibada 15 peus (depenent del que hagis escollit); qui superi, en rep la meitat.",
 				"Tot objecte no assegurat també pateix l'empenta o la tibada de 15 peus."
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, el dany incrementa en {@scaledamage 6d6|3-9|1d6} (i la distància de l'empenta o tibada incrementa en 5 peus) per cada nivell per sobre de 3."
+						"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, el dany incrementa en {@scaledamage 6d6|3-9|1d6} (i la distància de l'empenta o tibada incrementa en 5 peus) per cada nivell per sobre de 3 ."
 					]
 				}
 			],
@@ -524,7 +524,7 @@
 				"força"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"FMV"
@@ -536,21 +536,21 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					},
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -570,7 +570,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 1000
@@ -592,8 +592,8 @@
 				}
 			],
 			"entries": [
-				"Crees una esfera de 20 peus de radi de força gravitacional destructiva centrada en un punt que puguis veure a l'abast. Durant la duració del conjur, L'esfera i tot espai a 100 peus seus és terreny difícil i tot objecte no màgic dins de l'àrea no duts ni vestits són destruits.",
-				"Quan l'esfera apareix i a l'inici de cada torn teu els objectes no subjectats a 100 peus de l'esfera són atrets cap al centre i ocupen l'espai lliure més proper possible.",
+				"Crees una esfera de 20 peus de radi de força gravitacional destructiva centrada en un punt que pugui veure a l'abast. Durant la duració del conjur, L'esfera i tot espai a 100 peus els seus terrenys difícils i tot objecte no màgic dins de l'àrea no duts ni vestits són destruïts.",
+				"Quan l'esfera apareix i a l'inici de cada torn els teus objectes no subjectes a 100 peus de l'esfera són atrets cap al centre i ocupen l'espai lliure més proper possible.",
 				"Una criatura que comenci el torn a 100 peus de l'esfera ha de salvar per Força. Si falla és tibada cap al centre de l'esfera ocupant l'espai lliure més proper possible. Una criatura que entri l'esfera per primer cop en un torn o hi començi el torn rep {@damage 5d10} de dany de força i està {@condition restrained} fins que surti de l'esfera. Si l'esfera és a l'aire, la criatura {@condition restrained} hi flota a dins. Una criatura pot salvar per Força Força contra la teva CD de salvació de conjur. Si supera cancel·la la condició {@condition restrained} per ella o qualsevol altra criatura que tingui a l'abast. Tota criatura que es quedi a 0 punts de vida degut a aquest encanteri és aniquilada, i també tot objecte (no màgic) que dugui o vesteixi."
 			],
 			"damageInflict": [
@@ -603,10 +603,10 @@
 				"retingut"
 			],
 			"savingThrow": [
-				"strength"
+				"força"
 			],
 			"abilityCheck": [
-				"strength"
+				"força"
 			],
 			"miscTags": [
 				"SGT"
@@ -618,11 +618,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -642,7 +642,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -664,17 +664,17 @@
 				}
 			],
 			"entries": [
-				"Escapces les barreres entre realitats i línies temporals, deixant boja a una criatura. L'objectiu ha de salvar per Saviesa, o no pot prendre reaccions fins el final del conjur. També ha de tirar un {@dice d10} a l'inici de cada torn seu. Contrasta què li passa a la taula d'Efectes d'Esquinçar la Realitat.",
+				"Escapa les barreres entre realitats i línies temporals, deixant boja a una criatura. L'objectiu ha de salvar per Saviesa, o no pot prendre reaccions fins el final del conjur. També ha de tirar un {@dice d10} a l'inici de cada torn seu. Contrasta què li passa a la taula d'Efectes d'Esquinçar la Realitat.",
 				"Al final de cada torn seu, l'objectiu pot repetir la salvada de saviesa. Si supera, els efectes del conjur es cancel·len",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Efectes d'Esquinçar Realitat",
 					"colLabels": [
 						"d10",
 						"Efecte"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -708,8 +708,8 @@
 				"encegat"
 			],
 			"savingThrow": [
-				"wisdom",
-				"dexterity"
+				"saviesa",
+				"destresa"
 			],
 			"miscTags": [
 				"SGT"
@@ -721,11 +721,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					}
@@ -746,7 +746,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 30
@@ -762,11 +762,11 @@
 				}
 			],
 			"entries": [
-				"Absorbeixes la vitalitat d'una criatura que puguis veure a l'abast. L'objectiu ha de salvar per Constitució. Si falla, rep {@damage 1d4} de dany necròtic i està {@condition enderrocat}.",
-				"El dany del conjur incrementa en {@dice 1d4} quan arribes a nivell 5 ({@damage 2d4}), nivell 11 ({@damage 3d4}) i nivell 17 ({@damage 4d4})"
+				"Absorbeix la vitalitat d'una criatura que pugui veure a l'abast. L'objectiu ha de salvar per Constitució. Si falla, rep {@damage 1d4} de dany necròtic i està {@condition enderrocat}.",
+				"El dany del conjur incrementa en {@dice 1d4} quan arriba a nivell 5 ({@damage 2d4}), nivell 11 ({@damage 3d4}) i nivell 17 ({@damage 4d4})"
 			],
 			"scalingLevelDice": {
-				"label": "necrotic damage",
+				"label": "dany necròtic",
 				"scaling": {
 					"1": "1d4",
 					"5": "2d4",
@@ -781,7 +781,7 @@
 				"enderrocat"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SCL",
@@ -794,21 +794,21 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					},
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -829,7 +829,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 120
@@ -853,15 +853,15 @@
 			],
 			"entriesHigherLevel": [
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, pots designar una criatura adicional per cada nivell per sobre de 5. All targets must be within 30 feet of each other."
+						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, pots designar una criatura addicional per cada nivell per sobre de 5. All targets must be within 30 feet of each other."
 					]
 				}
 			],
 			"savingThrow": [
-				"wisdom"
+				"saviesa"
 			],
 			"areaTags": [
 				"ST"
@@ -870,11 +870,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					}
@@ -894,7 +894,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 60
@@ -920,10 +920,10 @@
 				}
 			],
 			"entries": [
-				"Dos criatures que puguis veure a l'abastTwo creatures ha de salvar per Constitució amb desavantatge si estan a 30 peus o menys entre elles. Qualsevol pot fallar voluntàriament. Si com a mínim una supera, l'encanteri no fa efecte. Si les dues fallen, les criatures estan vinculades durant la duració del conjur (no importa que s'allunyin). El dany que rebi una també el rebrà l'altra. Si una recupera punts de vida, l'altra també. Si una de les criatures fermades es queda a 0 punts de vida el conjur s'acaba. Si el conjur s'acaba per una criatura, també per l'altra."
+				"Dos criatures que puguis veure a l'abastTwo creatures ha de salvar per Constitució amb desavantatges si estan a 30 peus o menys entre elles. Qualsevol pot fallar voluntàriament. Si com a mínim una supera, l'encanteri no fa efecte. Si les dues fallen, les criatures estan vinculades durant la duració del conjur (no importa que s'allunyin). El dany que rebrà una també el rebrà l'altra. Si una recupera punts de vida, l'altra també. Si una de les criatures fermades es queda a 0 punts de vida el conjur s'acaba. Si el conjur s'acaba per una criatura, també per l'altra."
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SGT"
@@ -935,21 +935,21 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					},
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}
@@ -969,7 +969,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "peus",
 					"amount": 90
@@ -979,7 +979,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "un rellotge de sorra amb pols de diamant que valgui 5,000 ors o més (el conjur ho consumeix)",
+					"text": "un rellotge de sorra amb pols de diamant que valgui 5.000 ors o més (el conjur ho consumeix)",
 					"cost": 500000,
 					"consume": true
 				}
@@ -990,13 +990,13 @@
 				}
 			],
 			"entries": [
-				"Designes una criatura que puguis veure a l'abast, fent que envelleixi acceleradament. L'objectiu ha de salvar per Constitució. Si falla, rep {@damage 10d12} de dany necròtic; si supera, en rep la meitat. Si falla, també envelleix fins que només li quedin 30 dies de vida. En aquest estat té desavantatge a tirades d'impacte, d'habilitat i de salvada; i la seva velocitat està partida per dos. Només els encanteris {@spell desig} i {@spell restabliment superior} (llançat amb una ranura de nivell 9) poden cancel·lar l'efecte i restaurar a l'objectiu."
+				"Designes una criatura que pugui veure a l'abast, fent que envelleixi acceleradament. L'objectiu ha de salvar per Constitució. Si falla, rep {@damage 10d12} de dany necròtic; si supera, en rep la meitat. Si falla, també envelleix fins que només li quedin 30 dies de vida. En aquest estat té desavantatge a tirades d'impacte, d'habilitat i de salvada; i la seva velocitat està partida per dos. els encanteris {@spell desig} i {@spell restabliment superior} (llançat amb una ranura de nivell 9) només poden cancel·lar l'efecte i restaurar a l'objectiu."
 			],
 			"damageInflict": [
 				"necròtic"
 			],
 			"savingThrow": [
-				"constitution"
+				"constitució"
 			],
 			"miscTags": [
 				"SGT"
@@ -1008,11 +1008,11 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					}
@@ -1032,7 +1032,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "punt",
 				"distance": {
 					"type": "llançador"
 				}
@@ -1054,7 +1054,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Sacseges el canell i un objecte que tinguis a la ma s'esvaeix. Només el pots estar agafant tu i no pot pesar més de 5 lliures. Es teleporta a un espai extradimensional on roman durant la duració del conjur.",
+				"Sacseges el canell i un objecte que té a la ma s'esvaeix. Només el pots estar agafant tu i no pot pesar més de 5 lliures. Es teleporta a un espai extradimensional on roman durant la durada del conjur.",
 				"Fins que l'encanteri duri, com a acció, pots convocar l'objecte en una ma lliure; i pots, com a acció, fer-lo retornar a l'espai extradimensional. Si el conjur s'acaba i un objecte encara és en aquest espai apareix als teus peus."
 			],
 			"areaTags": [
@@ -1064,21 +1064,21 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Chronurgy",
+							"name": "Cronúrgia",
 							"source": "EGW"
 						}
 					},
 					{
 						"class": {
-							"name": "Wizard",
+							"name": "mag",
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Graviturgy",
+							"name": "Gravitúrgia",
 							"source": "EGW"
 						}
 					}

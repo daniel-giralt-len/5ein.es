@@ -1,15 +1,15 @@
 {
 	"feat": [
 		{
-			"name": "Dragon Wings",
+			"name": "Ales de Drac",
 			"source": "UAFeatsForRaces",
 			"effects": [
 				{
-					"name": "Flying Speed",
+					"name": "Velocitat de vol",
 					"changes": [
 						{
-							"key": "data.attributes.movement.fly",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.moviment.vola",
+							"mode": "ACTUALITZACIÓ",
 							"value": 20
 						}
 					]
@@ -17,15 +17,15 @@
 			]
 		},
 		{
-			"name": "Mobile",
+			"name": "Mòbil",
 			"source": "PHB",
 			"effects": [
 				{
-					"name": "Movement Speed Increase",
+					"name": "Augment de la velocitat de moviment",
 					"changes": [
 						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
+							"key": "dades.atributs.moviment.caminada",
+							"mode": "AFEGIR",
 							"value": 10
 						}
 					]
@@ -33,15 +33,15 @@
 			]
 		},
 		{
-			"name": "Squat Nimbleness",
+			"name": "Agilitat a la gatzoneta",
 			"source": "UAFeatsForRaces",
 			"effects": [
 				{
-					"name": "Movement Speed Increase",
+					"name": "Augment de la velocitat de moviment",
 					"changes": [
 						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
+							"key": "dades.atributs.moviment.caminada",
+							"mode": "AFEGIR",
 							"value": 5
 						}
 					]
@@ -49,15 +49,15 @@
 			]
 		},
 		{
-			"name": "Squat Nimbleness",
+			"name": "Agilitat a la gatzoneta",
 			"source": "XGE",
 			"effects": [
 				{
-					"name": "Movement Speed Increase",
+					"name": "Augment de la velocitat de moviment",
 					"changes": [
 						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
+							"key": "dades.atributs.moviment.caminada",
+							"mode": "AFEGIR",
 							"value": 5
 						}
 					]
@@ -65,15 +65,15 @@
 			]
 		},
 		{
-			"name": "Resilient",
+			"name": "Resistent",
 			"source": "PHB",
 			"effects": [
 				{
-					"name": "Saving Throw Proficiency",
+					"name": "Competència de llançament de salvament",
 					"changes": [
 						{
 							"key": "data.abilities.<$keys(import.chosenAbilityScoreIncrease)$>.proficient",
-							"mode": "UPGRADE",
+							"mode": "ACTUALITZACIÓ",
 							"value": 1
 						}
 					]
@@ -88,7 +88,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.observantFeat",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -96,14 +96,14 @@
 			]
 		},
 		{
-			"name": "Alert",
+			"name": "Alerta",
 			"source": "PHB",
 			"effects": [
 				{
 					"changes": [
 						{
 							"key": "flags.dnd5e.initiativeAlert",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -111,14 +111,14 @@
 			]
 		},
 		{
-			"name": "Elven Accuracy",
+			"name": "Precisió elfica",
 			"source": "XGE",
 			"effects": [
 				{
 					"changes": [
 						{
-							"key": "flags.dnd5e.elvenAccuracy",
-							"mode": "OVERRIDE",
+							"key": "flags.dnd5e.elven Exactitud",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -126,15 +126,15 @@
 			]
 		},
 		{
-			"name": "Tough",
+			"name": "Dur",
 			"source": "PHB",
 			"effects": [
 				{
-					"name": "HP Increase",
+					"name": "Augment de HP",
 					"changes": [
 						{
-							"key": "data.attributes.hp.max",
-							"mode": "ADD",
+							"key": "atributs.dades.hp.max",
+							"mode": "AFEGIR",
 							"value": "2 * @details.level"
 						}
 					]
@@ -142,90 +142,90 @@
 			]
 		},
 		{
-			"name": "Fighting Initiate",
+			"name": "Iniciat lluitador",
 			"source": "TCE",
 			"entries": [
-				"Your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
-				"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have.",
+				"El teu entrenament marcial t'ha ajudat a desenvolupar un estil particular de lluita. Com a resultat, apreneu una opció {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} de la classe de lluitador. Si ja tens un estil, el que tries ha de ser diferent.",
+				"Sempre que arribis a un nivell que atorgui la funció de millora de la puntuació d'habilitat, pots substituir l'estil de lluita d'aquesta gesta per un altre de la classe de lluitador que no tens.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Archery"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Tir amb arc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Close Quarters Shooter|UALightDarkUnderdark"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Defense"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Defensa"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Dueling"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Duel"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Great Weapon Fighting"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Gran lluita d'armes"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Mariner|UAWaterborneAdventures"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Protection"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Protecció"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Tunnel Fighter|UALightDarkUnderdark"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Two-Weapon Fighting"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Lluita amb dues armes"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Superior Technique|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Tècnica Superior|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Blind Fighting|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Interception|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Intercepció|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Thrown Weapon Fighting|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Lluita amb armes llançades|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unarmed Fighting|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Lluites desarmades|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Blind Fighting|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Interception|TCE"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Intercepció|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Superior Technique|TCE"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Tècnica Superior|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Thrown Weapon Fighting|TCE"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Lluita amb armes llançades|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unarmed Fighting|TCE"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Lluita desarmada|TCE"
 						}
 					]
 				}
@@ -235,12 +235,12 @@
 			"name": "Astrugància",
 			"source": "PHB",
 			"data": {
-				"activation.type": "none",
+				"activation.type": "cap",
 				"activation.cost": 0,
 				"uses.value": 3,
 				"uses.max": 3,
 				"uses.per": "lr",
-				"actionType": "other",
+				"actionType": "altres",
 				"formula": "1d20"
 			}
 		}

@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "Mystic",
+			"name": "Místic",
 			"source": "UATheMysticClass",
 			"page": 1,
 			"hd": {
@@ -10,29 +10,29 @@
 			},
 			"proficiency": [
 				"int",
-				"wis"
+				"sabia"
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light"
+					"llum"
 				],
 				"weapons": [
-					"simple"
+					"senzill"
 				],
 				"tools": [
-					"None"
+					"Cap"
 				],
 				"skills": [
 					{
 						"choose": {
 							"from": [
-								"arcana",
-								"history",
-								"insight",
-								"medicine",
-								"nature",
-								"perception",
-								"religion"
+								"arcanes",
+								"història",
+								"perspicàcia",
+								"medicament",
+								"naturalesa",
+								"percepció",
+								"religió"
 							],
 							"count": 2
 						}
@@ -44,17 +44,17 @@
 				"default": [
 					"(a) una {@item spear|phb} o bé (b) una {@item mace|phb}",
 					"(a) {@item armadura de cuir|phb} o bé (b) {@item studded leather armor|phb}",
-					"(a) una {@item ballesta lleugera|phb} i {@item crossbow bolts (20)|phb|20 bolts} o bé (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) una {@item ballesta lleugera|phb} i {@item crossbow bolts (20)|phb|20 bolts} o bé (b) any {@filter simple weapon|items|source=phb|category=basic|type =arma simple}",
 					"(a) una {@item scholar's pack|phb} o bé (b) an {@item explorer's pack|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"goldAlternative": "{@dau 5d4 × 10|5d4 × 10|Or inicial}",
 				"defaultData": [
 					{
 						"a": [
-							"spear|phb"
+							"llança|phb"
 						],
 						"b": [
-							"mace|phb"
+							"maça|phb"
 						]
 					},
 					{
@@ -62,26 +62,26 @@
 							"armadura de cuir|phb"
 						],
 						"b": [
-							"studded leather armor|phb"
+							"armadura de cuir amb claus|phb"
 						]
 					},
 					{
 						"a": [
 							"ballesta lleugera|phb",
-							"crossbow bolts (20)|phb"
+							"parabolts de ballesta (20)|phb"
 						],
 						"b": [
 							{
-								"equipmentType": "weaponSimple"
+								"equipmentType": "armaSimple"
 							}
 						]
 					},
 					{
 						"a": [
-							"scholar's pack|phb"
+							"paquet d'estudiós|phb"
 						],
 						"b": [
-							"explorer's pack|phb"
+							"paquet de l'explorador|phb"
 						]
 					}
 				]
@@ -89,10 +89,10 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Talents Known|psionics|type=T}",
-						"{@filter Disciplines Known|psionics|type=D}",
-						"Psi Points",
-						"Psi Limit"
+						"{@filter Talents coneguts|psionics|type=T}",
+						"{@filter Disciplines Conegudes|Psionics|type=D}",
+						"Punts Psi",
+						"Límit Psi"
 					],
 					"rows": [
 						[
@@ -220,86 +220,86 @@
 			],
 			"classFeatures": [
 				"Psionics|Mystic|UATheMysticClass|1",
-				"Psionic Disciplines and Talents|Mystic|UATheMysticClass|1",
-				"Using a Discipline|Mystic|UATheMysticClass|1",
+				"Disciplines i talents psiònics|Mystic|UATheMysticClass|1",
+				"Ús d'una disciplina|Mystic|UATheMysticClass|1",
 				{
-					"classFeature": "Mystic Order|Mystic|UATheMysticClass|1",
+					"classFeature": "Ordre Místic|Místic|UATheMysticClass|1",
 					"gainSubclassFeature": true
 				},
 				"Mystical Recovery|Mystic|UATheMysticClass|2",
-				"Telepathy|Mystic|UATheMysticClass|2",
+				"Telepatia|Mística|UATheMysticClass|2",
 				{
-					"classFeature": "Mystic Order feature|Mystic|UATheMysticClass|3",
+					"classFeature": "Funció de Mystic Order|Mystic|UATheMysticClass|3",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Mystic|UATheMysticClass|4",
 				"Competència Versàtil|Mystic|UATheMysticClass|4|UAClassFeatureVariants",
-				"Strength of Mind|Mystic|UATheMysticClass|4",
+				"Força de la ment|Mystic|UATheMysticClass|4",
 				{
-					"classFeature": "Mystic Order feature|Mystic|UATheMysticClass|6",
+					"classFeature": "Funció de Mystic Order|Mystic|UATheMysticClass|6",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Mystic|UATheMysticClass|8",
 				"Competència Versàtil|Mystic|UATheMysticClass|8|UAClassFeatureVariants",
-				"Potent Psionics (1d8)|Mystic|UATheMysticClass|8",
-				"Consumptive Power|Mystic|UATheMysticClass|10",
-				"Psionic Mastery (1/Day)|Mystic|UATheMysticClass|11",
+				"Psionics potents (1d8)|Místic|UATheMysticClass|8",
+				"Potència de consum|Mystic|UATheMysticClass|10",
+				"Domini psiònic (1/dia)|Místic|UATheMysticClass|11",
 				"Millora de Puntuació de Característica|Mystic|UATheMysticClass|12",
 				"Competència Versàtil|Mystic|UATheMysticClass|12|UAClassFeatureVariants",
-				"Psionic Mastery (2/Day)|Mystic|UATheMysticClass|13",
+				"Domini psiònic (2/dia)|Místic|UATheMysticClass|13",
 				{
-					"classFeature": "Mystic Order feature|Mystic|UATheMysticClass|14",
+					"classFeature": "Funció de Mystic Order|Mystic|UATheMysticClass|14",
 					"gainSubclassFeature": true
 				},
-				"Potent Psionics (2d8)|Mystic|UATheMysticClass|14",
-				"Psionic Mastery (3/Day)|Mystic|UATheMysticClass|15",
+				"Psionics potents (2d8)|Místic|UATheMysticClass|14",
+				"Domini psiònic (3/dia)|Místic|UATheMysticClass|15",
 				"Millora de Puntuació de Característica|Mystic|UATheMysticClass|16",
 				"Competència Versàtil|Mystic|UATheMysticClass|16|UAClassFeatureVariants",
-				"Psionic Mastery (4/Day)|Mystic|UATheMysticClass|17",
+				"Domini psiònic (4/dia)|Místic|UATheMysticClass|17",
 				"Millora de Puntuació de Característica|Mystic|UATheMysticClass|19",
 				"Competència Versàtil|Mystic|UATheMysticClass|19|UAClassFeatureVariants",
-				"Psionic Body|Mystic|UATheMysticClass|20"
+				"Cos psiònic|Místic|UATheMysticClass|20"
 			],
-			"subclassTitle": "Mystic Order",
+			"subclassTitle": "Ordre Místic",
 			"fluff": [
 				{
-					"type": "section",
-					"name": "Mystic",
+					"type": "secció",
+					"name": "Místic",
 					"entries": [
-						"A human clad in simple robes walks along a forest path. A gang of goblins emerges from the brush, arrows trained on him, their smiles wide at their good fortune of finding such easy prey for the legion's slave pens. Their smiles turn to shrieks of terror as the traveler grows to giant size and leaps at them, his staff now a deadly cudgel.",
-						"The militia forms in ranks to prepare for the orcs' charge. The growling brutes howl their battle cries and surge forward. To their surprise, the human rabble holds its ground and fights with surprising ferocity. Suddenly, mindless fear clings to the orcs' minds and they, despite facing a far inferior foe, turn and run, never noticing the calm half-elf standing amid the militia and directing its efforts.",
-						"Baron von Ludwig was always proud of his grand library. Little did he know that each evening, a gnome laden with blank scrolls slipped past his guards each night and dutifully copied his most heavily guarded archives. When the duke's men arrived to arrest him for dealing with demons, he never guessed that the gnome scribe traveling with them had spent more time in his keep than he had over the past year.",
-						"These heroes are all mystics, followers of a strange and mysterious form of power. Mystics shun the world to turn their eyes inward, mastering the full potential of their minds and exploring their psyches before turning to face the world. Mystics are incredibly rare, and most prefer to keep the nature of their abilities secret. Using their inner, psychic strength, they can read minds, fade into invisibility, transform their bodies into living iron, and seize control of the physical world and bend it to their will.",
+						"Un humà vestit amb túnices senzilles camina per un camí forestal. Una colla de follets emergeix del raspall, les fletxes adreçades sobre ell, els seus somriures amples davant la sort de trobar una presa tan fàcil per als corrals d'esclaus de la legió. Els seus somriures es converteixen en crits de terror mentre el viatger creix fins a una mida gegant i els salta, el seu bastó ara és un garrot mortal.",
+						"La milícia es forma en files per preparar-se per al càrrec dels orcs. Els bruts grunyits udolen els seus crits de batalla i s'avancen. Per a la seva sorpresa, la gentada humana es manté i lluita amb una ferocitat sorprenent. De sobte, una por sense sentit s'aferra a la ment dels orcs i aquests, tot i que s'enfronten a un enemic molt inferior, giren i corren, sense adonar-se mai del tranquil mig elf que es troba enmig de la milícia i dirigeix ​​els seus esforços.",
+						"El baró von Ludwig sempre va estar orgullós de la seva gran biblioteca. No sabia que cada vespre, un gnom carregat de pergamins en blanc passava per davant dels seus guàrdies cada nit i copiava diligentment els seus arxius més protegits. Quan els homes del duc van arribar per arrestar-lo per tractar amb dimonis, mai va endevinar que l'escriba gnom que viatjava amb ells havia passat més temps a la seva fortalesa del que havia passat durant l'any passat.",
+						"Tots aquests herois són místics, seguidors d'una estranya i misteriosa forma de poder. Els místics eviten el món per girar els ulls cap a dins, dominant tot el potencial de les seves ments i explorant la seva psique abans d'enfrontar-se al món. Els místics són increïblement rars i la majoria prefereix mantenir en secret la naturalesa de les seves habilitats. Utilitzant la seva força interior i psíquica, poden llegir les ments, esvair-se en la invisibilitat, transformar els seus cossos en ferro viu i prendre el control del món físic i doblegar-lo a la seva voluntat.",
 						{
-							"type": "entries",
-							"name": "Hermits and Outcasts",
+							"type": "entrades",
+							"name": "Ermites i proscrits",
 							"entries": [
-								"Mystics are loners. Most discover the secrets of their power through vague references in tomes of lore or by ingratiating themselves to a master of the power.",
-								"In order to master their power, mystics must first master themselves. They spend months and years in quiet contemplation, exploring their minds and leaving nothing uncovered. During this time, they shun society and typically live as hermits at the edge of society. A mystic who studied under a master worked as a virtual slave, toiling away at mundane tasks in return for the occasional lesson or cryptic insight.",
-								"When mystics finally master their power, they return to the world to broaden their horizons and practice their craft. Some mystics prefer to remain isolated, but those who become adventurers aren't content to remain on the fringe of the world."
+								"Els místics són solitaris. La majoria descobreixen els secrets del seu poder a través de referències vagues en llibres de tradició o congratulant-se a un mestre del poder.",
+								"Per dominar el seu poder, els místics primer han de dominar-se a ells mateixos. Passen mesos i anys en silenciosa contemplació, explorant les seves ments i sense deixar res al descobert. Durant aquest temps, eviten la societat i normalment viuen com a ermitans a la vora de la societat. Un místic que va estudiar amb un mestre va treballar com a esclau virtual, treballant en tasques mundanes a canvi d'una lliçó ocasional o una visió críptica.",
+								"Quan els místics per fi dominen el seu poder, tornen al món per ampliar els seus horitzons i practicar el seu ofici. Alguns místics prefereixen romandre aïllats, però els que esdevenen aventurers no es conformen amb quedar-se a la vora del món."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Eccentric Minds",
+							"type": "entrades",
+							"name": "Ments excèntriques",
 							"entries": [
-								"In order to maintain the strict discipline and intense self-knowledge needed to tap into their power, mystics develop a variety of practices to keep their focus sharp.",
-								"These practices are reflected in taboos and quirks, strange little behaviors that govern a mystic's actions. These quirks are oaths or behavioral tics that help keep mystics in the proper frame of mind while maintaining perfect control over their minds and bodies.",
-								"While these taboos are harmless, they help cast mystics as outsiders. Few feel accepted by society, and fewer still care to become integrated with it. To mystics, the life of the mind is where they feel most at home.",
+								"Per tal de mantenir l'estricta disciplina i l'intens autoconeixement necessaris per aprofitar el seu poder, els místics desenvolupen una varietat de pràctiques per mantenir el seu focus nítid.",
+								"Aquestes pràctiques es reflecteixen en tabús i peculiaritats, petits comportaments estranys que regeixen les accions d'un místic. Aquestes peculiaritats són juraments o tics de comportament que ajuden a mantenir els místics en l'estat d'ànim adequat mentre mantenen un control perfecte sobre la seva ment i el seu cos.",
+								"Tot i que aquests tabús són inofensius, ajuden a convertir els místics com a forasters. Pocs se senten acceptats per la societat, i menys encara es preocupen d'integrar-s'hi. Per als místics, la vida de la ment és on se senten més com a casa.",
 								{
-									"type": "entries",
-									"name": "Selecting Quirks",
+									"type": "entrades",
+									"name": "Selecció de peculiaritats",
 									"entries": [
-										"To add some texture to your mystic, consider the quirks your character has acquired. These behaviors have no game effect, but your character might become irritated or upset if forced to break them. They're a great roleplaying tool to add character to the game. You can roll on or pick from the table below, or create your own quirks. Aim to create two quirks, to give them more of a chance to come into play. Finally, consider why your character chose these behaviors. What do they say about your character's personality or background? Are they based on a specific incident or a belief?",
+										"Per afegir una mica de textura al vostre místic, tingueu en compte les peculiaritats que ha adquirit el vostre personatge. Aquests comportaments no tenen cap efecte en el joc, però el teu personatge es pot irritar o molestar si es veu obligat a trencar-los. Són una gran eina de joc de rol per afegir caràcter al joc. Podeu seguir o triar a la taula següent, o bé crear les vostres pròpies peculiaritats. Intenta crear dues peculiaritats, per donar-los més possibilitats d'entrar en joc. Finalment, considera per què el teu personatge va triar aquests comportaments. Què diuen sobre la personalitat o els antecedents del teu personatge? Es basen en un incident concret o una creença?",
 										{
-											"type": "table",
-											"caption": "Mystic Quirks",
+											"type": "taula",
+											"caption": "Extravagants Místics",
 											"colLabels": [
 												"d20",
 												"Quirk"
 											],
 											"colStyles": [
-												"col-2 text-center",
+												"col-2 centre de text",
 												"col-10"
 											],
 											"rows": [
@@ -390,16 +390,16 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Creating a Mystic",
+							"type": "entrades",
+							"name": "Creant un Místic",
 							"entries": [
-								"When creating a mystic, consider your character's background. How did you become a mystic? What first drew you to this practice? Are you self-taught, or did you have a master? If you had a master, what is that relationship like?",
-								"Consider also why you returned to the world from your hermitage. Did you leave someone or something behind when you took up your studies? Are you driven by revenge or some other motivation?",
+								"Quan creeu un místic, tingueu en compte els antecedents del vostre personatge. Com et vas convertir en un místic? Què et va atraure primer a aquesta pràctica? Ets autodidacta, o tens un mestre? Si tinguessis un mestre, com és aquesta relació?",
+								"Considereu també per què vau tornar al món des de la vostra ermita. Vau deixar algú o alguna cosa enrere quan vau començar els estudis? Et mou la venjança o alguna altra motivació?",
 								{
-									"type": "entries",
-									"name": "Quick Build",
+									"type": "entrades",
+									"name": "Construcció ràpida",
 									"entries": [
-										"You can make a mystic quickly by following these suggestions. First, make Intelligence your highest ability score, followed by Dexterity or Constitution. Second, choose the {@background hermit} background."
+										"Podeu fer un místic ràpidament seguint aquests suggeriments. Primer, fes d'Intel·ligència la teva puntuació d'habilitat més alta, seguida de Destresa o Constitució. En segon lloc, trieu el fons {@background hermit}."
 									]
 								}
 							]
@@ -413,178 +413,178 @@
 	],
 	"subclass": [
 		{
-			"name": "Order of the Avatar",
+			"name": "Ordre de l'Avatar",
 			"shortName": "Avatar",
 			"source": "UATheMysticClass",
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"page": 5,
 			"subclassFeatures": [
-				"Order of the Avatar|Mystic|UATheMysticClass|Avatar|UATheMysticClass|1",
-				"Avatar of Battle|Mystic|UATheMysticClass|Avatar|UATheMysticClass|3",
-				"Avatar of Healing|Mystic|UATheMysticClass|Avatar|UATheMysticClass|6",
-				"Avatar of Speed|Mystic|UATheMysticClass|Avatar|UATheMysticClass|14"
+				"Ordre de l'Avatar|Mystic|UATheMysticClass|Avatar|UATheMysticClass|1",
+				"Avatar de la batalla|Mystic|UATheMysticClass|Avatar|UATheMysticClass|3",
+				"Avatar de la curació|Mystic|UATheMysticClass|Avatar|UATheMysticClass|6",
+				"Avatar de la velocitat|Mystic|UATheMysticClass|Avatar|UATheMysticClass|14"
 			]
 		},
 		{
-			"name": "Order of the Awakened",
-			"shortName": "Awakened",
+			"name": "Ordre dels Despertats",
+			"shortName": "Despertat",
 			"source": "UATheMysticClass",
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"page": 6,
 			"subclassFeatures": [
-				"Order of the Awakened|Mystic|UATheMysticClass|Awakened|UATheMysticClass|1",
-				"Psionic Investigation|Mystic|UATheMysticClass|Awakened|UATheMysticClass|3",
-				"Psionic Surge|Mystic|UATheMysticClass|Awakened|UATheMysticClass|6",
-				"Spectral Form|Mystic|UATheMysticClass|Awakened|UATheMysticClass|14"
+				"Ordre dels Despertats|Mystic|UATheMysticClass|Awakened|UATheMysticClass|1",
+				"Investigació psiònica|Mystic|UATheMysticClass|Awakened|UATheMysticClass|3",
+				"Surge psiònic|Mystic|UATheMysticClass|Awakened|UATheMysticClass|6",
+				"Forma espectral|Mystic|UATheMysticClass|Awakened|UATheMysticClass|14"
 			]
 		},
 		{
-			"name": "Order of the Immortal",
+			"name": "Ordre dels Immortals",
 			"shortName": "Immortal",
 			"source": "UATheMysticClass",
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"page": 6,
 			"subclassFeatures": [
-				"Order of the Immortal|Mystic|UATheMysticClass|Immortal|UATheMysticClass|1",
-				"Psionic Resilience|Mystic|UATheMysticClass|Immortal|UATheMysticClass|3",
-				"Surge of Health|Mystic|UATheMysticClass|Immortal|UATheMysticClass|6",
-				"Immortal Will|Mystic|UATheMysticClass|Immortal|UATheMysticClass|14"
+				"Ordre dels Immortals|Mystic|UATheMysticClass|Immortal|UATheMysticClass|1",
+				"Resistència psiònica|Mystic|UATheMysticClass|Immortal|UATheMysticClass|3",
+				"Augment de la salut|Mystic|UATheMysticClass|Immortal|UATheMysticClass|6",
+				"Voluntat immortal|Mystic|UATheMysticClass|Immortal|UATheMysticClass|14"
 			]
 		},
 		{
-			"name": "Order of the Nomad",
-			"shortName": "Nomad",
+			"name": "Ordre dels Nòmades",
+			"shortName": "Nòmade",
 			"source": "UATheMysticClass",
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"page": 7,
 			"subclassFeatures": [
-				"Order of the Nomad|Mystic|UATheMysticClass|Nomad|UATheMysticClass|1",
-				"Memory of One Thousand Steps|Mystic|UATheMysticClass|Nomad|UATheMysticClass|3",
-				"Superior Teleportation|Mystic|UATheMysticClass|Nomad|UATheMysticClass|6",
-				"Effortless Journey|Mystic|UATheMysticClass|Nomad|UATheMysticClass|14"
+				"Ordre del Nomad|Mystic|UATheMysticClass|Nomad|UATheMysticClass|1",
+				"Memòria dels mil passos|Mystic|UATheMysticClass|Nomad|UATheMysticClass|3",
+				"Teletransportació superior|Mystic|UATheMysticClass|Nomad|UATheMysticClass|6",
+				"Viatge sense esforç|Mystic|UATheMysticClass|Nomad|UATheMysticClass|14"
 			]
 		},
 		{
-			"name": "Order of the Soul Knife",
-			"shortName": "Soul Knife",
+			"name": "Ordre del ganivet de l'ànima",
+			"shortName": "Ganivet d'ànima",
 			"source": "UATheMysticClass",
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"page": 7,
 			"subclassFeatures": [
-				"Order of the Soul Knife|Mystic|UATheMysticClass|Soul Knife|UATheMysticClass|1",
+				"Ganivet de l'Ordre de l'ànima|Mystic|UATheMysticClass|Knife de l'ànima|UATheMysticClass|1",
 				"Hone the Blade|Mystic|UATheMysticClass|Soul Knife|UATheMysticClass|3",
-				"Consumptive Knife|Mystic|UATheMysticClass|Soul Knife|UATheMysticClass|6",
-				"Phantom Knife|Mystic|UATheMysticClass|Soul Knife|UATheMysticClass|14"
+				"Ganivet de consum|Mystic|UATheMysticClass|Givet d'ànima|UATheMysticClass|6",
+				"Ganivet Phantom|Mystic|UATheMysticClass|Givet Soul|UATheMysticClass|14"
 			]
 		},
 		{
-			"name": "Order of the Wu Jen",
+			"name": "Ordre dels Wu Jen",
 			"shortName": "Wu Jen",
 			"source": "UATheMysticClass",
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"page": 8,
 			"subclassFeatures": [
-				"Order of the Wu Jen|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|1",
-				"Elemental Attunement|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|3",
+				"Ordre del Wu Jen|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|1",
+				"Sintonització elemental|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|3",
 				"Arcane Dabbler|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|6",
-				"Elemental Mastery|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|14"
+				"Domini elemental|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|14"
 			]
 		}
 	],
 	"classFeature": [
 		{
-			"name": "Mystic Order",
+			"name": "Ordre Místic",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"At 1st level, you choose a Mystic Order from the list of available orders. Each order specializes in a specific approach to psionics.",
-				"Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 14th level."
+				"Al 1r nivell, trieu una comanda mística de la llista de comandes disponibles. Cada ordre s'especialitza en un enfocament específic de la psiònica.",
+				"La vostra comanda us ofereix funcions quan la trieu al primer nivell i funcions addicionals al nivell 3r, 6è i 14è."
 			]
 		},
 		{
-			"name": "Psionic Disciplines and Talents",
+			"name": "Disciplines i talents psiònics",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"Psionic talents and disciplines are the heart of a mystic's craft. They are the mental exercises and psionic formulae used to forge will into tangible, magical effects.",
-				"Psionic disciplines were each discovered by different orders and tend to reflect their creators' specialties. However, a mystic can learn any discipline regardless of its associated order."
+				"Els talents i les disciplines psiònics són el cor de l'ofici d'un místic. Són els exercicis mentals i les fórmules psiòniques utilitzades per forjar la voluntat en efectes màgics i tangibles.",
+				"Les disciplines psiònices van ser descobertes per diferents ordres i tendeixen a reflectir les especialitats dels seus creadors. Tanmateix, un místic pot aprendre qualsevol disciplina independentment del seu ordre associat."
 			]
 		},
 		{
-			"name": "Psionics",
+			"name": "Psònics",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"As a student of psionics, you can master and use psionic talents and disciplines, the rules for which appear at the end of this document. Psionics is a special form of magic use, distinct from spellcasting.",
+				"Com a estudiant de psiònica, podeu dominar i utilitzar talents i disciplines psiònics, les regles de les quals apareixen al final d'aquest document. La psiònica és una forma especial d'ús de la màgia, diferent de l'encanteri.",
 				{
-					"type": "entries",
-					"name": "Psionic Talents",
+					"type": "entrades",
+					"name": "Talents psiònics",
 					"entries": [
-						"A psionic talent is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice. You learn additional talents of your choice at higher levels. The Talents Known column of the Mystic table shows the total number of talents you know at each level; when that number goes up for you, choose a new talent."
+						"Un talent psiònic és un efecte psiònic menor que has dominat. Al 1r nivell, coneixeu un talent psiònic que trieu. Aprendràs talents addicionals que triïs a nivells superiors. La columna Talents coneguts de la taula Mystic mostra el nombre total de talents que coneixeu a cada nivell; quan aquest nombre augmenti per a tu, tria un nou talent."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Psionic Disciplines",
+					"type": "entrades",
+					"name": "Disciplines psiònices",
 					"entries": [
-						"A psionic discipline is a rigid set of mental exercises that allows a mystic to manifest psionic power. A mystic masters only a few disciplines at a time.",
-						"At 1st level, you know one psionic discipline of your choice. The Disciplines Known column of the Mystic table shows the total number of disciplines you know at each level; when that number goes up for you, choose a new discipline.",
-						"In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice."
+						"Una disciplina psiònica és un conjunt rígid d'exercicis mentals que permet a un místic manifestar el poder psiònic. Un místic només domina unes quantes disciplines alhora.",
+						"A 1r nivell, coneixeu una disciplina psiònica que trieu. La columna Disciplines conegudes de la taula Mystic mostra el nombre total de disciplines que coneixeu a cada nivell; quan aquest nombre augmenti per a tu, tria una disciplina nova.",
+						"A més, sempre que guanyis un nivell en aquesta classe, pots substituir una disciplina que coneguis per una altra de la teva elecció."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Psi Points",
+					"type": "entrades",
+					"name": "Punts Psi",
 					"entries": [
-						"You have an internal reservoir of energy that can be devoted to psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.",
-						"The number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum."
+						"Teniu un dipòsit intern d'energia que es pot dedicar a disciplines psiòniques que coneixeu. Aquesta energia es representa amb punts psi. Cada disciplina psiònica descriu els efectes que podeu crear amb ella gastant un cert nombre de punts psi. Un talent psiònic no requereix punts psi.",
+						"El nombre de punts psi que tens es basa en el teu nivell místic, tal com es mostra a la columna Punts Psi de la taula Mística. El nombre que es mostra per al vostre nivell és el vostre màxim de punts psi. El vostre total de punts psi torna al seu màxim quan acabeu un descans llarg. El nombre de punts psi que tens no pot anar per sota de 0 ni per sobre del teu màxim."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Psi Limit",
+					"type": "entrades",
+					"name": "Límit Psi",
 					"entries": [
-						"Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have."
+						"Tot i que teniu accés a una potent quantitat d'energia psiònica, cal entrenament i pràctica per canalitzar aquesta energia. Hi ha un límit en el nombre de punts psi que pots gastar per activar una disciplina psiònica. El límit es basa en el vostre nivell místic, tal com es mostra a la columna Límit Psi de la taula Mística. Per exemple, com a místic de 3r nivell, no pots gastar més de 3 punts psi en una disciplina cada vegada que l'utilitzis, sense importar quants punts psi que tinguis."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Psychic Focus",
+					"type": "entrades",
+					"name": "Enfocament psíquic",
 					"entries": [
-						"You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are {@condition incapacitated} or until you use another bonus action to choose a different focus benefit.",
-						"You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines."
+						"Podeu centrar l'energia psiònica en una de les vostres disciplines psiòniques per treure'n beneficis constants. Com a acció addicional, podeu triar una de les vostres disciplines psiòniques i obtenir el seu benefici d'enfocament psíquic, que es detalla a la descripció d'aquesta disciplina. El benefici dura fins que et trobis {@condition incapacitated} o fins que utilitzis una altra acció de bonificació per triar un avantatge d'enfocament diferent.",
+						"Només podeu tenir un benefici d'enfocament psíquic alhora, i utilitzar l'enfocament psíquic d'una disciplina no limita la vostra capacitat d'utilitzar altres disciplines."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Psionic Ability",
+					"type": "entrades",
+					"name": "Capacitat psiònica",
 					"entries": [
-						"Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.",
+						"La intel·ligència és la vostra habilitat psiònica per a les vostres disciplines psiòniques. Feu servir el vostre modificador d'intel·ligència quan configureu la CD de la tirada de salvació per a una disciplina psiònica o quan feu una tirada d'atac amb una.",
 						{
-							"type": "abilityDc",
-							"name": "Discipline",
+							"type": "capacitatDc",
+							"name": "Disciplina",
 							"attributes": [
 								"int"
 							]
 						},
 						{
-							"type": "abilityAttackMod",
-							"name": "Discipline",
+							"type": "habilitatAttackMod",
+							"name": "Disciplina",
 							"attributes": [
 								"int"
 							]
@@ -594,376 +594,376 @@
 			]
 		},
 		{
-			"name": "Using a Discipline",
+			"name": "Ús d'una disciplina",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"Each psionic discipline has several ways you can use it, all contained in its description. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.",
-				"The following sections go into more detail on using a discipline. Psionic disciplines are magical and function similarly to spells.",
+				"Cada disciplina psiònica té diverses maneres d'utilitzar-la, totes contingudes a la seva descripció. La disciplina especifica el tipus d'acció i el nombre de punts psi que requereix. També detalla si us heu de concentrar en els seus efectes, quants objectius afecta, quins llançaments de salvament requereix, etc.",
+				"Les seccions següents aprofundeixen més en l'ús d'una disciplina. Les disciplines psiònices són màgiques i funcionen de manera semblant als encanteris.",
 				{
-					"type": "entries",
-					"name": "Psychic Focus",
+					"type": "entrades",
+					"name": "Enfocament psíquic",
 					"entries": [
-						"The Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus."
+						"La secció Enfocament psíquic d'una disciplina descriu el benefici que obteniu quan trieu aquesta disciplina per al vostre enfocament psíquic."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Effect Options and Psi Points",
+					"type": "entrades",
+					"name": "Opcions d'efecte i punts Psi",
 					"entries": [
-						"A discipline provides different options for how to use it with your psi points. Each effect option has a name, and the psi point cost of that option appears in parentheses after its name. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.",
-						"Some options show a range of psi points, rather than a specific cost. To use that option, you must spend a number of points within that point range, still abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline; you can't decide to spend additional points once you see the discipline in action.",
-						"Each option notes specific information about its effect, including any action required to use it and its range."
+						"Una disciplina ofereix diferents opcions sobre com utilitzar-la amb els vostres punts psi. Cada opció d'efecte té un nom i el cost en punts psi d'aquesta opció apareix entre parèntesis després del seu nom. Heu de gastar aquest nombre de punts psi per utilitzar aquesta opció, tot complint el vostre límit de psi. Si no us queden prou punts psi o el cost és superior al vostre límit psi, no podeu utilitzar l'opció.",
+						"Algunes opcions mostren un rang de punts psi, en lloc d'un cost específic. Per utilitzar aquesta opció, heu de gastar un nombre de punts dins d'aquest rang de punts, tot i complint el vostre límit de psi. Algunes opcions us permeten gastar punts psi addicionals per augmentar la potència d'una disciplina. De nou, heu de complir el vostre límit psi i heu de gastar tots els punts quan utilitzeu la disciplina per primera vegada; no pots decidir gastar punts addicionals un cop veus la disciplina en acció.",
+						"Cada opció anota informació específica sobre el seu efecte, inclosa qualsevol acció necessària per utilitzar-la i el seu rang."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Components",
 					"entries": [
-						"Disciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials. The power of psionics comes from the mind."
+						"Les disciplines no requereixen els components que requereixen molts encanteris. L'ús d'una disciplina no requereix paraules, gestos o materials. El poder dels psiònics prové de la ment."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Duration",
+					"type": "entrades",
+					"name": "Durada",
 					"entries": [
-						"An effect option in a discipline specifies how long its effect lasts.",
+						"Una opció d'efecte en una disciplina especifica quant de temps dura el seu efecte.",
 						{
-							"type": "entries",
-							"name": "Instantaneous",
+							"type": "entrades",
+							"name": "Instantània",
 							"entries": [
-								"If no duration is specified, the effect of the option is instantaneous."
+								"Si no s'especifica cap durada, l'efecte de l'opció és instantani."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Concentration",
+							"type": "entrades",
+							"name": "Concentració",
 							"entries": [
-								"Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute.",
-								"Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See {@book chapter 10|PHB|10}, \"Spellcasting,\" in the Player's Handbook for how concentration works."
+								"Algunes opcions requereixen concentració per mantenir els seus efectes. Aquest requisit s'anota amb \"conc.\" després del cost de punts psi de l'opció. El \"conc.\" La notació va seguida de la durada màxima de la concentració. Per exemple, si una opció diu \"conc., 1 min.\", podeu concentrar-vos en el seu efecte fins a 1 minut.",
+								"Concentrar-se en una disciplina segueix les mateixes regles que concentrar-se en un encanteri. Aquesta regla vol dir que no et pots concentrar en un encanteri i una disciplina alhora, ni pots concentrar-te en dues disciplines alhora. Consulteu {@book chapter 10|PHB|10}, \"Spellcasting\", al Manual del jugador per saber com funciona la concentració."
 							]
 						}
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Targets and Areas of Effect",
+					"type": "entrades",
+					"name": "Objectius i àrees d'efecte",
 					"entries": [
-						"Psionic disciplines use the same rules as spells for determining targets and areas of effect, as presented in {@book chapter 10|PHB|10}, \"Spellcasting,\" of the Player's Handbook."
+						"Les disciplines psiònices utilitzen les mateixes regles que els encanteris per determinar els objectius i les àrees d'efecte, tal com es presenta a {@book chapter 10|PHB|10}, \"Spellcasting\", del Manual del jugador."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Saving Throws and Attack Rolls",
+					"type": "entrades",
+					"name": "Tires de salvació i tirades d'atac",
 					"entries": [
-						"If a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability.",
-						"Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability."
+						"Si una disciplina requereix un tir de salvació, s'especifica el tipus de salvament i els resultats d'un tir de salvació reeixit o no. El DC està determinat per la teva habilitat psiònica.",
+						"Algunes disciplines requereixen que feu una tirada d'atac per determinar si l'efecte de la disciplina arriba al seu objectiu. La tirada d'atac utilitza la teva habilitat psiònica."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Combining Psionic Effects",
+					"type": "entrades",
+					"name": "Combinació d'efectes psiònics",
 					"entries": [
-						"The effects of different psionic disciplines add together while the durations of the disciplines overlap. Likewise, different options from a psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect\u2014usually dependent on how many psi points were used to create the effect\u2014applies while the durations of the effects overlap.",
-						"Psionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule."
+						"Els efectes de diferents disciplines psiòniques es sumen mentre que les durades de les disciplines es superposen. Així mateix, es combinen diferents opcions d'una disciplina psiònica si estan actives al mateix temps. Tanmateix, una opció específica d'una disciplina psiònica no es combina amb ella mateixa si l'opció s'utilitza diverses vegades. En canvi, l'efecte més potent, normalment depèn de quants punts psi s'han utilitzat per crear l'efecte, s'aplica mentre la durada dels efectes es solapa.",
+						"Els psiònics i els encanteris són efectes separats i, per tant, els seus beneficis i inconvenients es superposen. Un efecte psiònic que reprodueix un encanteri és una excepció a aquesta regla."
 					]
 				}
 			]
 		},
 		{
-			"name": "Mystical Recovery",
+			"name": "Recuperació Mística",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you can draw vigor from the psi energy you use to power your psionic disciplines.",
-				"Immediately after you spend psi points on a psionic discipline, you can take a bonus action to regain hit points equal to the number of psi points you spent."
+				"A partir del 2n nivell, podeu extreure vigor de l'energia psi que feu servir per alimentar les vostres disciplines psiòniques.",
+				"Immediatament després de gastar punts psi en una disciplina psiònica, podeu fer una acció addicional per recuperar punts de vida iguals al nombre de punts psi que heu gastat."
 			]
 		},
 		{
-			"name": "Telepathy",
+			"name": "Telepatia",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 2,
 			"entries": [
-				"At 2nd level, your mind awakens to the ability to communicate via telepathy. You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself."
+				"Al 2n nivell, la teva ment desperta a la capacitat de comunicar-se mitjançant la telepatia. D'aquesta manera, podeu parlar telepàticament amb qualsevol criatura que pugueu veure a 120 peus de vosaltres. No cal que comparteixis una llengua amb la criatura perquè entengui els teus missatges telepàtics, però la criatura ha de ser capaç d'entendre almenys una llengua o ser telepàtica."
 			]
 		},
 		{
-			"name": "Mystic Order feature",
+			"name": "Funció de Mystic Order",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you gain another feature from your Mystic Order."
+				"Al 3r nivell, obteniu una altra característica de la vostra Ordre Mística."
 			]
 		},
 		{
 			"name": "Millora de Puntuació de Característica",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Quan arribeu al 4t nivell, i de nou al 8è, 12è, 16è i 19è nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, podeu\" t augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 4th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Strength of Mind",
+			"name": "Força de la ment",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 4,
 			"entries": [
-				"Even the simplest psionic technique requires a deep understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with threats.",
-				"Starting at 4th level, you can replace your proficiency in Wisdom saving throws whenever you finish a short or long rest. To do so, choose Strength, Dexterity, Constitution, or Charisma. You gain proficiency in saves using that ability, instead of Wisdom. This change lasts until you finish your next short or long rest."
+				"Fins i tot la tècnica psiònica més senzilla requereix una comprensió profunda de com l'energia psiònica pot augmentar la ment i el cos. Aquesta comprensió us permet alterar les vostres defenses per fer front millor a les amenaces.",
+				"A partir del 4t nivell, podeu substituir la vostra competència en els tirs de salvació de la saviesa sempre que acabeu un descans curt o llarg. Per fer-ho, trieu Força, Destresa, Constitució o Carisma. Adquireixes habilitat en els estalvis utilitzant aquesta habilitat, en lloc de la saviesa. Aquest canvi dura fins que acabeu el següent descans curt o llarg."
 			]
 		},
 		{
-			"name": "Mystic Order feature",
+			"name": "Funció de Mystic Order",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain another feature from your Mystic Order."
+				"Al 6è nivell, obteniu una altra característica de la vostra Ordre Mística."
 			]
 		},
 		{
 			"name": "Millora de Puntuació de Característica",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 8,
 			"entries": [
-				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Quan arribeu al 4t nivell, i de nou al 8è, 12è, 16è i 19è nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, podeu\" t augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció."
 			]
 		},
 		{
-			"name": "Potent Psionics (1d8)",
+			"name": "Psònics potents (1d8)",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 8,
 			"entries": [
-				"At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra {@damage 1d8} de dany psíquic to that target. When you reach 14th level, this extra damage increases to {@dice 2d8}.",
-				"In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent."
+				"Al 8è nivell, obtens l'habilitat d'infusionar els teus atacs d'armes amb energia psíquica. Un cop en cada un dels teus torns quan colpeja una criatura amb una arma, pots infligir un {@damage 1d8} de dany psíquic addicional a aquest objectiu. Quan arribeu al nivell 14, aquest dany addicional augmenta a {@das 2d8}.",
+				"A més, afegeixes el teu modificador d'Intel·ligència a qualsevol tirada de dany que facis per a un talent psiònic."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 8,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 8th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Consumptive Power",
+			"name": "Potència de consum",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain the ability to sacrifice your physical durability in exchange for psionic power. When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can't be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Al nivell 10, obtens l'habilitat de sacrificar la teva durabilitat física a canvi del poder psiònic. Quan activeu una disciplina psiònica, podeu pagar el seu cost en punts psi amb els vostres punts de vida, en lloc d'utilitzar cap punt psi. Els vostres punts de vida actuals i el vostre màxim es redueixen amb el nombre de punts de vida que gasteu. Aquesta reducció no es pot reduir de cap manera, i la reducció al màxim de punts de vida dura fins que acabeu un descans llarg.",
+				"Un cop utilitzeu aquesta funció, no la podreu tornar a utilitzar fins que acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Psionic Mastery (1/Day)",
+			"name": "Domini psiònic (1/dia)",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 11,
 			"entries": [
-				"Beginning at 11th level, your mastery of psionic energy allows you to push your mind beyond its normal limits. As an action, you gain 9 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also spend your normal psi points on these disciplines; you can spend only the special points gained from this feature. When you finish a long rest, you lose any of these special points that you haven't spent.",
-				"If more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn't use these special points, the disciplines end that you're concentrating on.",
-				"At 15th level, the pool of psi points you gain from this feature increases to 11.",
-				"You have one use of this feature, and you regain any expended use of it with a long rest. You gain one additional use of this feature at 13th, 15th, and 17th level."
+				"A partir del nivell 11, el vostre domini de l'energia psiònica us permet empènyer la vostra ment més enllà dels seus límits normals. Com a acció, guanyes 9 punts psi especials que només pots gastar en disciplines que requereixen una acció o una acció addicional per utilitzar-la. Podeu utilitzar els 9 punts en una disciplina, o podeu repartir-los en diverses disciplines. Tampoc podeu gastar els vostres punts psi normals en aquestes disciplines; només pots gastar els punts especials obtinguts amb aquesta funció. Quan acabes un descans llarg, perds algun d'aquests punts especials que no has gastat.",
+				"Si més d'una de les disciplines que actives amb aquests punts requereix concentració, pots concentrar-te en totes. L'activació d'un d'ells s'acaba amb qualsevol efecte en què ja estàveu concentrant-vos, i si comenceu a concentrar-vos en un efecte que no utilitza aquests punts especials, s'acaben les disciplines en què us esteu concentrant.",
+				"Al nivell 15, el conjunt de punts psi que obteniu amb aquesta funció augmenta a 11.",
+				"Teniu un ús d'aquesta funció i recupereu qualsevol ús gastat amb un descans llarg. Obteniu un ús addicional d'aquesta funció als nivells 13è, 15è i 17è."
 			]
 		},
 		{
 			"name": "Millora de Puntuació de Característica",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 12,
 			"entries": [
-				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Quan arribeu al 4t nivell, i de nou al 8è, 12è, 16è i 19è nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, podeu\" t augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 12,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 12th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Psionic Mastery (2/Day)",
+			"name": "Domini psiònic (2/dia)",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 13,
 			"entries": [
-				"At 13th level, you can use your Psionic Mastery twice per day."
+				"Al nivell 13, pots utilitzar el teu domini psiònic dues vegades al dia."
 			]
 		},
 		{
-			"name": "Mystic Order feature",
+			"name": "Funció de Mystic Order",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain another feature from your Mystic Order."
+				"Al nivell 14, obteniu una altra característica de la vostra Ordre Mística."
 			]
 		},
 		{
-			"name": "Potent Psionics (2d8)",
+			"name": "Psònica potent (2d8)",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 14,
 			"entries": [
-				"At 14th level, your potent psionics damage increased to {@dice 2d8}."
+				"Al nivell 14, el teu potent dany psiònic augmenta a {@das 2d8}."
 			]
 		},
 		{
-			"name": "Psionic Mastery (3/Day)",
+			"name": "Domini psiònic (3/dia)",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 15,
 			"entries": [
-				"At 15th level, you can use your Psionic Mastery three times per day."
+				"Al nivell 15, podeu utilitzar el vostre domini psiònic tres vegades al dia."
 			]
 		},
 		{
 			"name": "Millora de Puntuació de Característica",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 16,
 			"entries": [
-				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Quan arribeu al 4t nivell, i de nou al 8è, 12è, 16è i 19è nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, podeu\" t augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 16,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 16th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Psionic Mastery (4/Day)",
+			"name": "Domini psiònic (4/dia)",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 17,
 			"entries": [
-				"At 17th level, you can use your Psionic Mastery four times per day."
+				"Al nivell 17, podeu utilitzar el vostre domini psiònic quatre vegades al dia."
 			]
 		},
 		{
 			"name": "Millora de Puntuació de Característica",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 19,
 			"entries": [
-				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+				"Quan arribeu al 4t nivell, i de nou al 8è, 12è, 16è i 19è nivell, podeu augmentar una puntuació d'habilitat de la vostra elecció en 2, o podeu augmentar dues puntuacions d'habilitat de la vostra elecció en 1. Com és normal, podeu\" t augmentar una puntuació d'habilitat per sobre de 20 amb aquesta funció."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 19,
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 19th-level feature (enhances Millora de Puntuació de Característica)}",
-				"When you gain the Millora de Puntuació de Característica feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"Quan obtingueu la funció Millora de Puntuació de Característica de la vostra classe, també podeu substituir una de les vostres habilitats per una habilitat que ofereix la vostra classe a 1r nivell (la competència que substituïu no cal que sigui de la classe).",
+				"Aquest canvi representa una de les teves habilitats que s'atrofia a mesura que et concentres en una habilitat diferent."
 			]
 		},
 		{
-			"name": "Psionic Body",
+			"name": "Cos psiònic",
 			"source": "UATheMysticClass",
 			"page": 1,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"level": 20,
 			"entries": [
-				"At 20th level, your mastery of psionic power causes your mind to transcend the body. Your physical form is infused with psionic energy. You gain the following benefits:",
+				"Al nivell 20, el teu domini del poder psiònic fa que la teva ment transcendi el cos. La teva forma física està impregnada d'energia psiònica. Obteniu els següents beneficis:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"You gain resistance to bludgeoning, piercing, and slashing damage.",
-						"You no longer age.",
-						"You are immune to disease, poison damage, and the {@condition poisoned} condition.",
-						"If you die, roll a {@dice d20}. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall {@condition unconscious}. You and your gear disappear. You appear at a spot of your choice {@dice 1d3} days later on the plane of existence where you died, having gained the benefits of one long rest."
+						"Obté resistència als cops, perforacions i danys tallants.",
+						"Ja no envelleixes.",
+						"Sou immune a les malalties, els danys per verí i la condició {@condition poisoned}.",
+						"Si mors, tira un {@das d20}. Amb un 10 o més, et desincorpores amb 0 punts de vida, en lloc de morir, i caus {@condition inconscient}. Tu i el teu equipament desapareixes. Apareixes en un lloc que triïs {@dice 1d3} dies després al pla d'existència on vas morir, després d'haver obtingut els beneficis d'un descans llarg."
 					]
 				}
 			]
@@ -971,112 +971,112 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Order of the Avatar",
+			"name": "Ordre de l'Avatar",
 			"source": "UATheMysticClass",
 			"page": 5,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Avatar",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"Mystics of the Order of the Avatar delve into the world of emotion, mastering their inner life to such an extent that they can manipulate and amplify the emotions of others with the same ease that an artist shapes clay. Known as Avatars, these mystics vary from tyrants to inspiring leaders who are loved by their followers.",
-				"Avatars can bring out extreme emotions in the people around them. For their allies, they can lend hope, ferocity, and courage, transforming a fighting band into a deadly, unified force. For their enemies, they bring fear, disgust, and trepidation that can make even the most hardened veteran act like a shaky rookie.",
+				"Els místics de l'Ordre de l'Avatar s'endinsen en el món de l'emoció, dominant la seva vida interior fins a tal punt que poden manipular i amplificar les emocions dels altres amb la mateixa facilitat que un artista modela l'argila. Coneguts com Avatars, aquests místics varien des de tirans fins a líders inspiradors que són estimats pels seus seguidors.",
+				"Els avatars poden provocar emocions extremes a les persones que els envolten. Per als seus aliats, poden donar esperança, ferocitat i coratge, transformant una banda lluitadora en una força mortal i unificada. Per als seus enemics, aporten por, fàstic i trepidació que poden fer que fins i tot el veterà més endurit actuï com un novell incòmode.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Disciplines|Mystic|UATheMysticClass|Avatar|UATheMysticClass|1"
+					"subclassFeature": "Disciplines de bonificació|Mystic|UATheMysticClass|Avatar|UATheMysticClass|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armor Training|Mystic|UATheMysticClass|Avatar|UATheMysticClass|1"
+					"subclassFeature": "Entrenament d'armadura|Mystic|UATheMysticClass|Avatar|UATheMysticClass|1"
 				}
 			]
 		},
 		{
-			"name": "Armor Training",
+			"name": "Entrenament d'armadura",
 			"source": "UATheMysticClass",
 			"page": 5,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Avatar",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with medium armor and shields."
+				"Al 1r nivell, adquireixes habilitat amb armadures i escuts mitjans."
 			]
 		},
 		{
-			"name": "Bonus Disciplines",
+			"name": "Disciplines de bonificació",
 			"source": "UATheMysticClass",
 			"page": 5,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Avatar",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Avatar disciplines."
+				"Al 1r nivell, apreneu dues disciplines psiòniques addicionals que trieu. S'han de triar entre les disciplines Avatar."
 			]
 		},
 		{
-			"name": "Avatar of Battle",
+			"name": "Avatar de la batalla",
 			"source": "UATheMysticClass",
 			"page": 5,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Avatar",
 			"subclassSource": "UATheMysticClass",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you project an inspiring aura. While you aren't {@condition incapacitated}, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls."
+				"A partir del 3r nivell, projectes una aura inspiradora. Encara que no estiguis {@condition incapacitated}, cada aliat a menys de 30 peus de tu que pugui veure't obté una bonificació de +2 a les tirades d'iniciativa."
 			]
 		},
 		{
-			"name": "Avatar of Healing",
+			"name": "Avatar de la curació",
 			"source": "UATheMysticClass",
 			"page": 5,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Avatar",
 			"subclassSource": "UATheMysticClass",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you project an aura of resilience. While you aren't {@condition incapacitated}, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline."
+				"A partir del 6è nivell, projectes una aura de resiliència. Encara que no estiguis {@condition incapacitated}, cada aliat a menys de 30 peus de tu que pugui veure't recupera punts de vida addicionals iguals al teu modificador d'intel·ligència (mínim de 0) sempre que recuperin punts de vida d'una disciplina psiònica."
 			]
 		},
 		{
-			"name": "Avatar of Speed",
+			"name": "Avatar de la velocitat",
 			"source": "UATheMysticClass",
 			"page": 5,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Avatar",
 			"subclassSource": "UATheMysticClass",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you project an aura of speed. While you aren't {@condition incapacitated}, any ally within 30 feet of you who can see you can take the {@action Dash} action as a bonus action."
+				"A partir del nivell 14, es projecta una aura de velocitat. Encara que no estiguis {@condition incapacitated}, qualsevol aliat a menys de 30 peus de tu que pugui veure't pot fer l'acció {@action Dash} com a acció addicional."
 			]
 		},
 		{
-			"name": "Order of the Awakened",
+			"name": "Ordre dels Despertats",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Awakened",
+			"subclassShortName": "Despertat",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"Mystics dedicated to the Order of the Awakened seek to unlock the full potential of the mind. By transcending the physical, the Awakened hope to attain a state of being focused on pure intellect and mental energy.",
-				"The Awakened are skilled at bending minds and unleashing devastating psionic attacks, and they can read the secrets of the world through psionic energy. Awakened mystics who take to adventuring excel at unraveling mysteries, solving puzzles, and defeating monsters by turning them into unwilling pawns.",
+				"Els místics dedicats a l'Ordre dels Despertats busquen desbloquejar tot el potencial de la ment. En transcendir el físic, el Despert espera assolir un estat de concentració en l'intel·lecte pur i l'energia mental.",
+				"Els despertats són hàbils per doblar les ments i desencadenar atacs psiònics devastadors, i poden llegir els secrets del món a través de l'energia psiònica. Els místics despertats que es dediquen a l'aventura excel·lent a l'hora de desentranyar misteris, resoldre trencaclosques i derrotar monstres convertint-los en peons no desitjats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Disciplines|Mystic|UATheMysticClass|Awakened|UATheMysticClass|1"
+					"subclassFeature": "Disciplines de bonificació|Mystic|UATheMysticClass|Awakened|UATheMysticClass|1"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -1085,281 +1085,281 @@
 			]
 		},
 		{
-			"name": "Awakened Talent",
+			"name": "Talent despertat",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Awakened",
+			"subclassShortName": "Despertat",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Animal Handling}, {@skill Deception}, {@skill Insight}, {@skill Intimidation}, {@skill Investigation}, {@skill Perception}, and {@skill Persuasion}."
+				"Al 1r nivell, adquireixes competència amb dues de les següents habilitats que tries: {@skill Animal Handling}, {@skill Deception}, {@skill Insight}, {@skill Intimidation}, {@skill Investigation}, {@ skill Perception} i {@skill Persuasion}."
 			]
 		},
 		{
-			"name": "Bonus Disciplines",
+			"name": "Disciplines de bonificació",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Awakened",
+			"subclassShortName": "Despertat",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Awakened disciplines."
+				"Al 1r nivell, apreneu dues disciplines psiòniques addicionals que trieu. S'han d'escollir entre les disciplines dels Despertats."
 			]
 		},
 		{
-			"name": "Psionic Investigation",
+			"name": "Investigació psiònica",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Awakened",
+			"subclassShortName": "Despertat",
 			"subclassSource": "UATheMysticClass",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes (as if concentrating on a psionic discipline), you learn a few basic facts about it. You gain a mental image from the object's point of view, showing the last creature to hold the object within the past 24 hours.",
-				"You also learn of any events that have occurred within 20 feet of the object within the past hour. The events you perceive unfold from the object's perspective. You see and hear such events as if you were there, but can't use other senses.",
-				"Additionally, you can embed an intangible psionic sensor within the object. For the next 24 hours, you can use an action to learn the object's location relative to you (its distance and direction) and to look at the object's surroundings from its point of view as if you were there. This perception lasts until the start of your next turn.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"A partir del 3r nivell, podeu centrar la vostra ment per llegir l'empremta psiònica deixada en un objecte. Si agafeu un objecte i us concentreu durant 10 minuts (com si us concentreu en una disciplina psiònica), apreneu alguns fets bàsics sobre ell. Obteniu una imatge mental des del punt de vista de l'objecte, que mostra l'última criatura que ha subjectat l'objecte durant les últimes 24 hores.",
+				"També s'assabenta de qualsevol esdeveniment que hagi ocorregut a 20 peus de l'objecte durant l'última hora. Els esdeveniments que percebes es desenvolupen des de la perspectiva de l'objecte. Veus i escoltes aquests esdeveniments com si hi fossis, però no pots utilitzar altres sentits.",
+				"A més, podeu incrustar un sensor psiònic intangible dins de l'objecte. Durant les properes 24 hores, podeu utilitzar una acció per conèixer la ubicació de l'objecte respecte a vosaltres (la seva distància i direcció) i mirar l'entorn de l'objecte des del seu punt de vista com si hi fossis. Aquesta percepció dura fins a l'inici del vostre proper torn.",
+				"Un cop utilitzeu aquesta funció, no la podreu tornar a utilitzar fins que acabeu un descans curt o llarg."
 			]
 		},
 		{
-			"name": "Psionic Surge",
+			"name": "Onda psiònica",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Awakened",
+			"subclassShortName": "Despertat",
 			"subclassSource": "UATheMysticClass",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can overload your psychic focus to batter down an opponent's defenses. You can impose disadvantage on a target's saving throw against a discipline or talent you use, but at the cost of using your psychic focus. Your psychic focus immediately ends if it's active, and you can't use it until you finish a short or long rest.",
-				"You can't use this feature if you can't use your psychic focus."
+				"A partir del 6è nivell, pots sobrecarregar el teu enfocament psíquic per enderrocar les defenses d'un oponent. Podeu imposar un desavantatge a la tirada d'estalvi d'un objectiu contra una disciplina o talent que feu servir, però a costa d'utilitzar el vostre enfocament psíquic. El vostre enfocament psíquic s'acaba immediatament si està actiu, i no el podeu utilitzar fins que acabeu un descans curt o llarg.",
+				"No podeu utilitzar aquesta funció si no podeu utilitzar el vostre enfocament psíquic."
 			]
 		},
 		{
-			"name": "Spectral Form",
+			"name": "Forma espectral",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Awakened",
+			"subclassShortName": "Despertat",
 			"subclassSource": "UATheMysticClass",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to become a ghostly figure of psionic energy. As an action, you can transform into a transparent, ghostly version of yourself. While in this form, you have resistance to all damage, move at half speed, and can pass through objects and creatures while moving but can't willingly end your movement in their spaces. The form lasts for 10 minutes or until you use an action to end it.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"Al nivell 14, obtens l'habilitat de convertir-te en una figura fantasmal d'energia psiònica. Com a acció, pots transformar-te en una versió transparent i fantasmal de tu mateix. En aquesta forma, tens resistència a tots els danys, et mous a mitja velocitat i pots passar a través d'objectes i criatures mentre et mous, però no pots acabar amb el teu moviment en els seus espais. El formulari dura 10 minuts o fins que utilitzeu una acció per finalitzar-lo.",
+				"Un cop utilitzeu aquesta funció, no la podreu tornar a utilitzar fins que acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Order of the Immortal",
+			"name": "Ordre dels Immortals",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Immortal",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"The Order of the Immortal uses psionic energy to augment and modify the physical form. Followers of this order are known as Immortals. They use psionic energy to modify their bodies, strengthening them against attack and turning themselves into living weapons.",
-				"Their mastery of the physical form grants them their name, for Immortals are notoriously difficult to kill.",
+				"L'Ordre dels Immortals utilitza l'energia psiònica per augmentar i modificar la forma física. Els seguidors d'aquest ordre són coneguts com Immortals. Utilitzen l'energia psiònica per modificar els seus cossos, reforçant-los contra els atacs i convertint-se en armes vives.",
+				"El seu domini de la forma física els atorga el seu nom, perquè els immortals són notòriament difícils de matar.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Disciplines|Mystic|UATheMysticClass|Immortal|UATheMysticClass|1"
+					"subclassFeature": "Disciplines de bonificació|Mystic|UATheMysticClass|Immortal|UATheMysticClass|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Immortal Durability|Mystic|UATheMysticClass|Immortal|UATheMysticClass|1"
+					"subclassFeature": "Durabilitat immortal|Mystic|UATheMysticClass|Immortal|UATheMysticClass|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Disciplines",
+			"name": "Disciplines de bonificació",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Immortal",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Immortal disciplines."
+				"Al 1r nivell, apreneu dues disciplines psiòniques addicionals que trieu. S'han de triar entre les disciplines Immortals."
 			]
 		},
 		{
-			"name": "Immortal Durability",
+			"name": "Durabilitat immortal",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Immortal",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, your hit point maximum increases by 1 per mystic level.",
-				"In addition, while you aren't wearing armor or wielding a shield, your base AC equals 10 + your Dexterity modifier + your Constitution modifier."
+				"A partir del primer nivell, el vostre màxim de punts de vida augmenta en 1 per nivell místic.",
+				"A més, mentre no porteu armadura ni porteu un escut, la vostra CA base és igual a 10 + el vostre modificador de Destresa + el vostre modificador de Constitució."
 			]
 		},
 		{
-			"name": "Psionic Resilience",
+			"name": "Resiliència psiònica",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Immortal",
 			"subclassSource": "UATheMysticClass",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, your psionic energy grants you extraordinary fortitude. At the start of each of your turns, you gain temporary hit points equal to your Intelligence modifier (minimum of 0) if you have at least 1 hit point."
+				"A partir del 3r nivell, la teva energia psiònica t'ofereix una fortalesa extraordinària. Al començament de cadascun dels teus torns, guanyes punts de vida temporals iguals al teu modificador d'intel·ligència (mínim de 0) si tens almenys 1 punt de vida."
 			]
 		},
 		{
-			"name": "Surge of Health",
+			"name": "Augment de la Salut",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Immortal",
 			"subclassSource": "UATheMysticClass",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can draw on your psychic focus to escape death's grasp. As a reaction when you take damage, you can halve that damage against you. Your psychic focus immediately ends if it's active, and you can't use it until you finish a short or long rest.",
-				"You can't use this feature if you can't use your psychic focus."
+				"A partir del 6è nivell, pots aprofitar el teu enfocament psíquic per escapar de l'abast de la mort. Com a reacció quan rebeu danys, podeu reduir aquest dany a la meitat. El vostre enfocament psíquic s'acaba immediatament si està actiu, i no el podeu utilitzar fins que acabeu un descans curt o llarg.",
+				"No podeu utilitzar aquesta funció si no podeu utilitzar el vostre enfocament psíquic."
 			]
 		},
 		{
-			"name": "Immortal Will",
+			"name": "Voluntat immortal",
 			"source": "UATheMysticClass",
 			"page": 6,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Immortal",
 			"subclassSource": "UATheMysticClass",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can draw on your reserves of psionic power to survive beyond death. At the end of your turn while at 0 hit points, you can spend 5 psi points to immediately regain a number of hit points equal to your mystic level + your Constitution modifier."
+				"A partir del nivell 14, podeu aprofitar les vostres reserves de poder psiònic per sobreviure més enllà de la mort. Al final del teu torn, mentre tens 0 punts de vida, pots gastar 5 punts psi per recuperar immediatament un nombre de punts de cop igual al teu nivell de místic + el teu modificador de Constitució."
 			]
 		},
 		{
-			"name": "Order of the Nomad",
+			"name": "Ordre dels Nòmades",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Nomad",
+			"subclassShortName": "Nòmade",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"Mystics of the Order of the Nomad keep their minds in a strange, rarified state. They seek to accumulate as much knowledge as possible, as they quest to unravel the mysteries of the multiverse and seek the underlying structure of all things. At the same time, they perceive a bizarre, living web of knowledge they call the noosphere.",
-				"Nomads, as their name indicates, delight in travel, exploration, and discovery. They desire to accumulate as much knowledge as possible, and the pursuit of secrets and hidden lore can become an obsession for them.",
+				"Els místics de l'orde dels nòmades mantenen la seva ment en un estat estrany i enriquit. Pretenen acumular el màxim de coneixement possible, mentre busquen desentranyar els misteris del multivers i buscar l'estructura subjacent de totes les coses. Al mateix temps, perceben una xarxa de coneixement estranya i viva que anomenen noosfera.",
+				"Els nòmades, com el seu nom indica, es delecten amb els viatges, l'exploració i el descobriment. Desitgen acumular el màxim de coneixement possible, i la recerca de secrets i coneixements ocults pot convertir-se en una obsessió per a ells.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Disciplines|Mystic|UATheMysticClass|Nomad|UATheMysticClass|1"
+					"subclassFeature": "Disciplines de bonificació|Mystic|UATheMysticClass|Nomad|UATheMysticClass|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Breadth of Knowledge|Mystic|UATheMysticClass|Nomad|UATheMysticClass|1"
+					"subclassFeature": "Ample de coneixement|Mystic|UATheMysticClass|Nomad|UATheMysticClass|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Disciplines",
+			"name": "Disciplines de bonificació",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Nomad",
+			"subclassShortName": "Nòmade",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Nomad disciplines."
+				"Al 1r nivell, apreneu dues disciplines psiòniques addicionals que trieu. S'han de triar entre les disciplines nòmades."
 			]
 		},
 		{
-			"name": "Breadth of Knowledge",
+			"name": "Amplitud del Coneixement",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Nomad",
+			"subclassShortName": "Nòmade",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain the ability to extend your knowledge. When you finish a long rest, you gain two proficiencies of your choice: two tools, two skills, or one of each. You can replace one or both of these selections with languages. This benefit lasts until you finish a long rest."
+				"A 1r nivell, obtens la capacitat d'ampliar els teus coneixements. Quan acabeu un descans llarg, obteniu dues competències que trieu: dues eines, dues habilitats o una de cadascuna. Podeu substituir una o les dues seleccions per idiomes. Aquest benefici dura fins que acabeu un llarg descans."
 			]
 		},
 		{
-			"name": "Memory of One Thousand Steps",
+			"name": "Memòria dels mil passos",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Nomad",
+			"subclassShortName": "Nòmade",
 			"subclassSource": "UATheMysticClass",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"At 3rd level, you gain the ability to use psionics to recall your steps. As a reaction when you are hit by an attack, you can teleport to an unoccupied space that you occupied since the start of your last turn, and the attack misses you. Once you use this feature, you can't use it again until you finish a short or long rest."
+				"Al 3r nivell, obtens l'habilitat d'utilitzar els psiònics per recordar els teus passos. Com a reacció quan us colpeja un atac, podeu teletransportar-vos a un espai desocupat que vau ocupar des de l'inici del vostre darrer torn, i l'atac us troba a faltar. Un cop utilitzeu aquesta funció, no la podreu tornar a utilitzar fins que acabeu un descans curt o llarg."
 			]
 		},
 		{
-			"name": "Superior Teleportation",
+			"name": "Teletransportació superior",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Nomad",
+			"subclassShortName": "Nòmade",
 			"subclassSource": "UATheMysticClass",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain a superior talent for teleportation. When you use a psionic discipline to teleport any distance, you can increase that distance by up to 10 feet."
+				"Al 6è nivell, obtens un talent superior per a la teletransportació. Quan utilitzeu una disciplina psiònica per teletransportar-vos a qualsevol distància, podeu augmentar aquesta distància fins a 10 peus."
 			]
 		},
 		{
-			"name": "Effortless Journey",
+			"name": "Viatge sense esforç",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Nomad",
+			"subclassShortName": "Nòmade",
 			"subclassSource": "UATheMysticClass",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, your mind can mystically move your body. Once on each of your turns, you can forfeit up to 30 feet of your movement to teleport the distance you forfeited. You must teleport to an unoccupied space you can see."
+				"A partir del nivell 14, la teva ment pot moure místicament el teu cos. Un cop en cadascun dels vostres torns, podeu perdre fins a 30 peus del vostre moviment per teletransportar la distància que heu perdut. Has de teletransportar-te a un espai desocupat que puguis veure."
 			]
 		},
 		{
-			"name": "Order of the Soul Knife",
+			"name": "Ordre del ganivet de l'ànima",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Soul Knife",
+			"subclassShortName": "Ganivet d'ànima",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"The Order of the Soul Knife sacrifices the breadth of knowledge other mystics gain to focus on a specific psionic technique. These mystics learn to manifest a deadly weapon of pure psychic energy that they can use to cleave through foes.",
-				"Soul knives vary widely in their approach to this path. Some follow it out of a desire to achieve martial perfection. Others are ruthless assassins who seek to become the perfect killer.",
+				"L'Ordre del ganivet de l'ànima sacrifica l'amplitud del coneixement que altres místics obtenen per centrar-se en una tècnica psiònica específica. Aquests místics aprenen a manifestar una arma mortal d'energia psíquica pura que poden utilitzar per trencar els enemics.",
+				"Els ganivets d'ànima varien àmpliament en el seu enfocament a aquest camí. Alguns ho segueixen amb el desig d'aconseguir la perfecció marcial. Altres són assassins despietats que busquen convertir-se en l'assassí perfecte.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Martial Training|Mystic|UATheMysticClass|Soul Knife|UATheMysticClass|1"
+					"subclassFeature": "Entrenament marcial|Mystic|UATheMysticClass|Soul Knife|UATheMysticClass|1"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -1368,56 +1368,56 @@
 			]
 		},
 		{
-			"name": "Martial Training",
+			"name": "Entrenament marcial",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Soul Knife",
+			"subclassShortName": "Ganivet d'ànima",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with medium armor and martial weapons."
+				"Al 1r nivell, adquireixes habilitat amb armadures mitjanes i armes marcials."
 			]
 		},
 		{
-			"name": "Soul Knife",
+			"name": "Ganivet d'ànima",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Soul Knife",
+			"subclassShortName": "Ganivet d'ànima",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you gain the ability to manifest a blade of psychic energy. As a bonus action, you create scintillating knives of energy that project from both of your fists. You can't hold anything in your hands while manifesting these blades. You can dismiss them as a bonus action.",
-				"For you, a soul knife is a martial melee weapon with the light and finesse properties. It deals {@damage 1d8} de dany psíquic on a hit.",
-				"As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are {@condition incapacitated}."
+				"A partir del 1r nivell, obteniu la capacitat de manifestar una fulla d'energia psíquica. Com a acció addicional, creeu ganivets d'energia brillants que surten dels dos punys. No podeu agafar res a les mans mentre manifesteu aquestes fulles. Podeu descartar-los com a acció addicional.",
+				"Per a tu, un ganivet d'ànima és una arma cos a cos marcial amb propietats lleugeres i delicades. Ofereix {@damage 1d8} de dany psíquic en un cop.",
+				"Com a acció addicional, podeu preparar-vos per utilitzar les fulles per parar; obtens una bonificació +2 a la CA fins a l'inici del teu següent torn o fins que estiguis {@condition incapacitad}."
 			]
 		},
 		{
-			"name": "Hone the Blade",
+			"name": "Perfecciona la fulla",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Soul Knife",
+			"subclassShortName": "Ganivet d'ànima",
 			"subclassSource": "UATheMysticClass",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can spend psi points to augment your soul knife's attack rolls and damage. You gain a bonus to attack and damage rolls with your soul knives depending on the number of psi points spent, as shown on the table below. This bonus lasts for 10 minutes.",
+				"A partir del 3r nivell, podeu gastar punts psi per augmentar les tirades d'atac i el dany del vostre ganivet d'ànima. Guanyeu una bonificació a les tirades d'atac i dany amb els vostres ganivets d'ànima en funció del nombre de punts psi gastats, tal com es mostra a la taula següent. Aquesta bonificació té una durada de 10 minuts.",
 				{
-					"type": "table",
+					"type": "taula",
 					"colLabels": [
-						"Psi Points",
-						"Attack and Damage Bonus"
+						"Punts Psi",
+						"Bonificació d'atac i dany"
 					],
 					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
+						"col-6 centre de text",
+						"col-6 centre de text"
 					],
 					"rows": [
 						[
@@ -1437,119 +1437,119 @@
 			]
 		},
 		{
-			"name": "Consumptive Knife",
+			"name": "Ganivet de consum",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Soul Knife",
+			"subclassShortName": "Ganivet d'ànima",
 			"subclassSource": "UATheMysticClass",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, whenever you slay an enemy creature with a soul knife attack, you immediately regain 2 psi points."
+				"A partir del nivell 6, cada vegada que mates una criatura enemiga amb un atac de ganivet d'ànima, recuperes immediatament 2 punts psi."
 			]
 		},
 		{
-			"name": "Phantom Knife",
+			"name": "Ganivet fantasma",
 			"source": "UATheMysticClass",
 			"page": 7,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
-			"subclassShortName": "Soul Knife",
+			"subclassShortName": "Ganivet d'ànima",
 			"subclassSource": "UATheMysticClass",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can make an attack that phases through most defenses. As an action, you can make one attack with your soul knife. Treat the target's AC as 10 against this attack, regardless of the target's actual AC."
+				"A partir del nivell 14, podeu fer un atac que passa per la majoria de defenses. Com a acció, pots fer un atac amb el teu ganivet d'ànima. Tracta la CA de l'objectiu com a 10 contra aquest atac, independentment de la CA real de l'objectiu."
 			]
 		},
 		{
-			"name": "Order of the Wu Jen",
+			"name": "Ordre dels Wu Jen",
 			"source": "UATheMysticClass",
 			"page": 8,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Wu Jen",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"The Order of the Wu Jen features some of the most devoted mystics. These mystics seek to lock themselves away from the world, denying the limits of the physical world and replacing it with a reality that they create for themselves. Known as wu jens, these mystics cast their minds into the world, seize control of its fundamental principles, and rebuild it.",
-				"In practical terms, wu jens excel at controlling the forces of the natural world. They can hurl objects with their minds, control the four elements, and alter reality to fit their desires.",
+				"L'Ordre del Wu Jen compta amb alguns dels místics més devots. Aquests místics busquen tancar-se lluny del món, negant els límits del món físic i substituint-lo per una realitat que ells mateixos creen. Coneguts com wu jens, aquests místics van llançar la seva ment al món, prenen el control dels seus principis fonamentals i el reconstrueixen.",
+				"En termes pràctics, els wu jens excel·lent en el control de les forces del món natural. Poden llançar objectes amb la seva ment, controlar els quatre elements i alterar la realitat per adaptar-se als seus desitjos.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Disciplines|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|1"
+					"subclassFeature": "Disciplines de bonificació|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hermit's Study|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|1"
+					"subclassFeature": "Estudi de l'ermità|Mystic|UATheMysticClass|Wu Jen|UATheMysticClass|1"
 				}
 			]
 		},
 		{
-			"name": "Bonus Disciplines",
+			"name": "Disciplines de bonificació",
 			"source": "UATheMysticClass",
 			"page": 8,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Wu Jen",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Wu Jen disciplines."
+				"Al 1r nivell, apreneu dues disciplines psiòniques addicionals que trieu. S'han de triar entre les disciplines Wu Jen."
 			]
 		},
 		{
-			"name": "Hermit's Study",
+			"name": "Estudi de l'ermità",
 			"source": "UATheMysticClass",
 			"page": 8,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Wu Jen",
 			"subclassSource": "UATheMysticClass",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Animal Handling}, {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, {@skill Religion}, or {@skill Survival}."
+				"Al 1r nivell, obteniu habilitats amb dues de les següents habilitats que trieu: {@skill Animal Handling}, {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Medicine}, {@ skill Nature}, {@skill Perception}, {@skill Religion} o {@skill Survival}."
 			]
 		},
 		{
-			"name": "Elemental Attunement",
+			"name": "Sintonització elemental",
 			"source": "UATheMysticClass",
 			"page": 8,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Wu Jen",
 			"subclassSource": "UATheMysticClass",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, when a creature's resistance reduces the damage dealt by a psionic discipline of yours, you can spend 1 psi point to cause that use of the discipline to ignore the creature's resistance. You can't spend this point if doing so would increase the discipline's cost above your psi limit."
+				"A partir del 3r nivell, quan la resistència d'una criatura redueix el dany infligit per una disciplina psiònica teva, pots gastar 1 punt psi per fer que l'ús de la disciplina ignori la resistència de la criatura. No podeu gastar aquest punt si fer-ho augmentaria el cost de la disciplina per sobre del vostre límit psi."
 			]
 		},
 		{
-			"name": "Arcane Dabbler",
+			"name": "Arcano Dabbler",
 			"source": "UATheMysticClass",
 			"page": 8,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Wu Jen",
 			"subclassSource": "UATheMysticClass",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of 1st through 3rd level.",
-				"As a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below.",
+				"Al 6è nivell, aprens tres encanteris de mag de la teva elecció i sempre els tens preparats. Els encanteris han de ser del 1r al 3r nivell.",
+				"Com a acció addicional, podeu gastar punts psi per crear espais d'encanteris que podeu utilitzar per llançar aquests encanteris, així com altres encanteris que pugueu llançar. El cost en punts psi de cada espai d'encanteri es detalla a la taula següent.",
 				{
-					"type": "table",
+					"type": "taula",
 					"colLabels": [
-						"Spell Slot Level",
-						"Psi Cost"
+						"Nivell de ranura d'encanteri",
+						"Cost Psi"
 					],
 					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
+						"col-6 centre de text",
+						"col-6 centre de text"
 					],
 					"rows": [
 						[
@@ -1574,22 +1574,22 @@
 						]
 					]
 				},
-				"The spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.",
-				"Whenever you gain a level in this class, you can replace on of the chosen wizard spells with a different wizard spell of 1st through 3rh level."
+				"L'espai de l'encanteri roman fins que l'utilitzeu o acabeu un descans llarg. Heu d'observar el vostre límit psi quan gasteu punts psi per crear una ranura d'encanteri.",
+				"Sempre que guanyis un nivell en aquesta classe, pots substituir un dels encanteris de mag escollits per un encanteri de mag diferent del 1r al 3r nivell."
 			]
 		},
 		{
-			"name": "Elemental Mastery",
+			"name": "Domini elemental",
 			"source": "UATheMysticClass",
 			"page": 8,
-			"className": "Mystic",
+			"className": "Místic",
 			"classSource": "UATheMysticClass",
 			"subclassShortName": "Wu Jen",
 			"subclassSource": "UATheMysticClass",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, if you have resistance to a type of damage, you can spend 2 psi points as a reaction when you take damage of that type to ignore that damage; you gain immunity to that damage type until the end of your next turn."
+				"A partir del nivell 14, si teniu resistència a un tipus de dany, podeu gastar 2 punts psi com a reacció quan feu dany d'aquest tipus per ignorar aquest dany; obtens immunitat a aquest tipus de dany fins al final del teu proper torn."
 			]
 		}
 	]
