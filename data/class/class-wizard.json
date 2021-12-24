@@ -1045,7 +1045,7 @@
 				"Màgia de Gravitúrgia|Mag||Gravitúrgia|EGW|2",
 				"Pou de Gravetat|Mag||Gravitúrgia|EGW|6",
 				"Atracció Violenta|Mag||Gravitúrgia|EGW|10",
-				"Event Horizon|Mag||Gravitúrgia|EGW|14"
+				"Horitzó d'Esdeveniments|Mag||Gravitúrgia|EGW|14"
 			]
 		},
 		{
@@ -1714,13 +1714,13 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Màgia de Gravitúrgia a nivell 10}",
-				"Quan una altra criatura que puguis veure a 60 peus de tu hits with a weapon attack, pots, com a reacció, increase the attack's velocity, causing the attack's target to take an extra {@damage 1d10} damage of the weapon's type.",
-				"Alternatively, si una criatura a 60 peus de tu takes damage from a fall, pots, com a reacció, increase the fall's damage by {@dice 2d10}.",
+				"Quan una altra criatura que puguis veure a 60 peus de tu impacta amb un atac armat, pots, com a reacció, incrementar la velocitat de l'atac: això incrementa el dany de l'atac en un {@damage 1d10} de dany del tipus de l'arma.",
+				"Alternativament, ssi una criatura a 60 peus de tu takes damage from a fall, pots, com a reacció, incrementar el dany de la caiguda en {@dice 2d10}.",
 				"Pots emprar aquest tret un número de cops equivalent al teu modificador d'Intel·ligència (mínim d'1 cop). En recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Event Horizon",
+			"name": "Horitzó d'Esdeveniments",
 			"source": "EGW",
 			"page": 185,
 			"className": "Mag",
@@ -1731,8 +1731,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Màgia de Gravitúrgia a nivell 14}",
-				"Com a acció, you can magically emit a powerful field of gravitational energy that tugs at other creatures for up to 1 minute o fins que se't trenqui la concentració (com si et concentressis en un conjur). For the duration, whenever a creature hostile to you starts its turn a 30 peus de tu, it ha de salvar per Força contra la teva CD de salvació de conjur. Si falla, it takes {@damage 2d10} de dany de força, and its speed is reduced to 0 fins el final del seu proper torn. On a successful save, it takes half as much damage, and every foot it moves this turn costs 2 extra feet of movement.",
-				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Llarg or until you expend a spell slot of 3rd level or higher on it."
+				"Com a acció, pots emetre màgicament un camp d'energia gravitacional que estiba a altres criatures fins durant 1 minut o fins que se't trenqui la concentració (com si et concentressis en un conjur). Durant aquesta duració, quan una criatura hostil a tu comença el seu torn a 30 peus de tu, ha de salvar per Força contra la teva CD de salvació de conjur. Si falla, rep {@damage 2d10} de dany de força, i la seva velocitat es torna 0 fins el final del seu proper torn. Si supera, rep la meitat del dany, i cada peu de moviment n'hi costa 2 durant aquest torn.",
+				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Llarg o fins que gastis una ranura de conjur de nivell 3 o superiro per a emprar-lo."
 			]
 		},
 		{
@@ -2110,7 +2110,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, quan una criatura que puguis veure a 30 peus de tu makes an attack roll against you, pots, com a reacció, divert the attack, provided that another creature is within the attack's range. The attacker ha de salvar per Saviesa contra la teva CD de salvada de conjur de wizard. Si falla, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, you can't use this feature on the attacker again fins que acabis un Descans Llarg.",
+				"Començant a nivell 6, quan una criatura que puguis veure a 30 peus de tu makes an attack roll against you, pots, com a reacció, divert the attack, provided that another creature is within the attack's range. The attacker ha de salvar per Saviesa contra la teva CD de salvada de conjur de wizard. Si falla, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. Si supera, you can't use this feature on the attacker again fins que acabis un Descans Llarg.",
 				"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be {@condition charmed} are immune to this effect."
 			]
 		},
@@ -2848,7 +2848,7 @@
 				"Whenever you cast a wizard spell en el teu torn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg.",
 				"Com a acció bonus, you can cause the spectral mind to hover fins a 30 peus en un espai desocupat that you or it can see. It can pass through creatures but not objects.",
 				"The spectral mind stops manifesting if it is ever more than 300 peus lluny de tu, if someone casts {@spell dissipar màgia} on it, if the Awakened Spellbook is destroyed, if you die, or if you dismiss the spectral mind com a acció bonus.",
-				"Once you conjure the mind, no pots tornar-hi fins que acabis un Descans Llarg o fins que gastis un spell slot of any level to conjure it again."
+				"Once you conjure the mind, no pots tornar-hi fins que acabis un Descans Llarg o fins que gastis una ranura de conjur of any level to conjure it again."
 			]
 		},
 		{
@@ -3066,7 +3066,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Onomancy a nivell 2}",
-				"You can magically compel a creature to divulge its true name. Com a acció bonus, you target one creature que puguis veure a 60 peus de tu. L'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. On a successful save, you discern that this magic failed, and you can't use this feature on the target again. Si falla, the target is {@condition charmed} per tu fins el final del teu proper torn, and you mentally learn the {@condition charmed} target's name or the fact that the target lacks a name.",
+				"You can magically compel a creature to divulge its true name. Com a acció bonus, you target one creature que puguis veure a 60 peus de tu. L'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Si supera, you discern that this magic failed, and you can't use this feature on the target again. Si falla, the target is {@condition charmed} per tu fins el final del teu proper torn, and you mentally learn the {@condition charmed} target's name or the fact that the target lacks a name.",
 				"Pots emprar aquest tret un número de cops equivalent al teu modificador d'Intel·ligència (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
