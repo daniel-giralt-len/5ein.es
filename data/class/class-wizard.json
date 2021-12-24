@@ -513,7 +513,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a wizard quickly by following these suggestions. First, Intel·ligència should be your highest ability score, followed by Constitució or Destresa. If you plan to join the School of Enchantment, make Carisma your next-best score. Second, choose the {@background sage} background. Third, choose the {@spell mà de mag}, {@spell llum}, i {@spell raig gebre} cantrips, along with the following 1st-level spells for your spellbook: {@spell mans ardents}, {@spell fascinar persona}, {@spell feather fall}, {@spell mage armor}, {@spell magic missile}, i {@spell adormir}."
+										"You can make a wizard quickly by following these suggestions. First, Intel·ligència should be your highest ability score, followed by Constitució or Destresa. If you plan to join the Escola d'Encantament, make Carisma your next-best score. Second, choose the {@background sage} background. Third, choose the {@spell mà de mag}, {@spell llum}, i {@spell raig gebre} cantrips, along with the following 1st-level spells for your spellbook: {@spell mans ardents}, {@spell fascinar persona}, {@spell feather fall}, {@spell mage armor}, {@spell magic missile}, i {@spell adormir}."
 									]
 								}
 							]
@@ -813,17 +813,17 @@
 			]
 		},
 		{
-			"name": "School of Enchantment",
-			"shortName": "Enchantment",
+			"name": "Escola d'Encantament",
+			"shortName": "Encantament",
 			"source": "PHB",
 			"className": "Mag",
 			"classSource": "PHB",
 			"page": 117,
 			"subclassFeatures": [
-				"School of Enchantment|Mag||Enchantment||2",
-				"Instinctive Charm|Mag||Enchantment||6",
-				"Split Enchantment|Mag||Enchantment||10",
-				"Alter Memories|Mag||Enchantment||14"
+				"Escola d'Encantament|Mag||Encantament||2",
+				"Encant Innat|Mag||Encantament||6",
+				"Encantament Partit|Mag||Encantament||10",
+				"Alter Memories|Mag||Encantament||14"
 			]
 		},
 		{
@@ -2049,78 +2049,78 @@
 			]
 		},
 		{
-			"name": "School of Enchantment",
+			"name": "Escola d'Encantament",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Enchantment",
+			"subclassShortName": "Encantament",
 			"subclassSource": "PHB",
 			"level": 2,
 			"entries": [
-				"As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
+				"As a member of the Escola d'Encantament, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Enchantment Savant|Mag||Enchantment||2"
+					"subclassFeature": "Geni d'Encantament|Mag||Encantament||2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hypnotic Gaze|Mag||Enchantment||2"
+					"subclassFeature": "Esguard Hipnòtic|Mag||Encantament||2"
 				}
 			]
 		},
 		{
-			"name": "Enchantment Savant",
+			"name": "Geni d'Encantament",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Enchantment",
+			"subclassShortName": "Encantament",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Quan esculls aquesta escola a nivell 2, l'or i el temps que has de gastar per copiar un conjur de enchantment al teu llibre de conjurs es divideix en dos."
+				"Quan esculls aquesta escola a nivell 2, l'or i el temps que has de gastar per copiar un conjur de encantament al teu llibre de conjurs es divideix en dos."
 			]
 		},
 		{
-			"name": "Hypnotic Gaze",
+			"name": "Esguard Hipnòtic",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Enchantment",
+			"subclassShortName": "Encantament",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Quan esculls aquesta escola a nivell 2, your soft words and enchanting gaze can magically enthrall another creature. Com a acció, escull una criatura que puguis veure a 5 peus de tu. If the target can see or hear you, ha de salvar per Saviesa contra la teva CD de salvada de conjur de wizard or be {@condition charmed} per tu fins el final del teu proper torn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
-				"Als torns posteriors, pots, com a acció, to maintain this effect, extending its duration fins el final del teu proper torn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.",
-				"Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can't use this feature on that creature again fins que acabis un Descans Llarg."
+				"Quan esculls aquesta escola a nivell 2, les teves paraules i mirada encisadores fascinen màgicament a una altra criatura. Com a acció, escull una criatura que puguis veure a 5 peus de tu. Si l'objectiu et pot veure o sentir ha de salvar per Saviesa contra la teva CD de salvada de conjur de mag. Si falla, està {@condition charmed} per tu fins el final del teu proper torn. {@condition charmed} així, la seva velocitat es torna 0, i està {@condition incapacitated} i visiblement embadalit.",
+				"Als torns posteriors, pots, com a acció, extendre aquest efecte fins el final del teu proper torn. L'efecte s'acaba si: et mous a més de 5 peus de la criatura; la criatura ja no et pot veure ni sentir; o si la criatura rep mal.",
+				"Un cop acabi l'efecte o si la criatura supera la salvada inicial, no pots tornar a emprar aquest tret sobre aquesta criatura fins que acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Instinctive Charm",
+			"name": "Encant Innat",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Enchantment",
+			"subclassShortName": "Encantament",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, quan una criatura que puguis veure a 30 peus de tu makes an attack roll against you, pots, com a reacció, divert the attack, provided that another creature is within the attack's range. The attacker ha de salvar per Saviesa contra la teva CD de salvada de conjur de wizard. Si falla, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. Si supera, you can't use this feature on the attacker again fins que acabis un Descans Llarg.",
-				"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be {@condition charmed} are immune to this effect."
+				"Començant a nivell 6, quan una criatura que puguis veure a 30 peus de tu makes prova d'impactar-te pots, com a reacció, redirigir l'atac cap a una criatura a l'abast de l'atac (si n'hi ha). La criatura atacant ha de salvar per Saviesa contra la teva CD de salvada de conjur de mag. Si falla, l'atacant ha de redirigir l'atac vers a la criatura que tingui més propera (no pot ser ella ni tu). Si n'hi ha múltiples al mateix abast, l'atacant escull a aqui ataca. Si supera, no pots emprar aquest tret sobre l'atacant fins que acabis un Descans Llarg.",
+				"Has de declarar que empres aquest tret abans de saber si l'atac impacta o no. Les criatures que no poden ser {@condition charmed} són immunes a aquest tret."
 			]
 		},
 		{
-			"name": "Split Enchantment",
+			"name": "Encantament Partit",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Enchantment",
+			"subclassShortName": "Encantament",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
@@ -2134,13 +2134,13 @@
 			"page": 117,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Enchantment",
+			"subclassShortName": "Encantament",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being {@condition charmed}.",
-				"A més, once before the spell expires, pots, com a acció, to try to make la criatura designada forget some of the time it spent {@condition charmed}. The creature must succeed on an Intel·ligència saving throw contra la teva CD de salvada de conjur de wizard or lose a number of hours of its memories equal to 1 + el teu modificador de Carisma (mínim d'1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell."
+				"A nivell 14, ets capaç d'emmascarar la influència màgica que tens sobre els teus objectius. Quan llances un conjur d'encantament per a fascinar a una o més criatures, pots alterar la comprensió de la criatura perquè no sàpiga que està {@condition charmed}.",
+				"A més, on cop abans que acabi el conjur pots, com a acció, to try to make la criatura designada forget some of the time it spent {@condition charmed}. The creature must succeed on an Intel·ligència saving throw contra la teva CD de salvada de conjur de mag or lose a number of hours of its memories equal to 1 + el teu modificador de Carisma (mínim d'1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell."
 			]
 		},
 		{
@@ -2432,7 +2432,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, you can use magic to bring undead under your control, even those created by other wizards. Com a acció, you can choose one undead que puguis veure a 60 peus de tu. That creature ha de salvar per Carisma contra la teva CD de salvada de conjur de wizard. If it succeeds, you can't use this feature on it again. Si falla, it becomes friendly to you and obeys your commands fins que tornis a emprar aquest tret.",
+				"Començant a nivell 14, you can use magic to bring undead under your control, even those created by other wizards. Com a acció, you can choose one undead que puguis veure a 60 peus de tu. That creature ha de salvar per Carisma contra la teva CD de salvada de conjur de mag. If it succeeds, you can't use this feature on it again. Si falla, it becomes friendly to you and obeys your commands fins que tornis a emprar aquest tret.",
 				"Intelligent undead are harder to control in this way. If the target has an Intel·ligència of 8 or higher, it has advantage on the saving throw. Si falla the saving throw and has an Intel·ligència of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free."
 			]
 		},
