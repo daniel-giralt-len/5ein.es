@@ -1431,7 +1431,7 @@ TimeTrackerRoot_Clock_Weather._WIND_SPEEDS = [
 	"gale-near",
 	"gale",
 	"gale-severe",
-	"storm",
+	"tempesta",
 	"hurricane",
 ];
 TimeTrackerRoot_Clock_Weather._DEFAULT_STATE = {
