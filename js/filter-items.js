@@ -38,7 +38,7 @@ class PageFilterEquipment extends PageFilter {
 			if (item.type === "SCF") {
 				switch (item.scfType) {
 					case "arcane": {
-						if (!item._fFocus.includes("Sorcerer")) item._fFocus.push("Sorcerer");
+						if (!item._fFocus.includes("Sortiller")) item._fFocus.push("Sortiller");
 						if (!item._fFocus.includes("Bruixot")) item._fFocus.push("Bruixot");
 						if (!item._fFocus.includes("Mag")) item._fFocus.push("Mag");
 						break;

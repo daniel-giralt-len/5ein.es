@@ -3815,7 +3815,7 @@ Renderer.spell = {
 	STR_FIGHTER: "Guerrer",
 	STR_ROGUE: "Rogue",
 	STR_CLERIC: "Cleric",
-	STR_SORCERER: "Sorcerer",
+	STR_SORCERER: "Sortiller",
 	STR_WARLOCK: "Bruixot",
 	STR_ELD_KNIGHT: "Cavaller Èldritx",
 	STR_ARC_TCKER: "Entabanador Arcà",
