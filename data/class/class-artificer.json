@@ -3412,7 +3412,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armorer Spells|Artificier|TCE|Armadura|TCE|3"
+					"subclassFeature": "Conjurs d'Armadura|Artificier|TCE|Armadura|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3420,7 +3420,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armor Model|Artificier|TCE|Armadura|TCE|3"
+					"subclassFeature": "Model d'Armadura|Artificier|TCE|Armadura|TCE|3"
 				}
 			]
 		},
@@ -3443,14 +3443,14 @@
 					"items": [
 						"Si l'armadura té un requeriment de Força, no la té per a tu.",
 						"La pots emprar com a focus de llançament arcà pels teus artificer spells.",
-						"The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet com a acció bonus. The armor replaces any missing limbs, functioning identically to a limb it replaces.",
-						"You can doff or don the armor com a acció. The armor continues to be Armadura Arcana until you don another suit of armor or you die."
+						"L'armadura se't vincula i no se't pot treure en contra de la teva voluntat. També cobreix tot el teu cos, però en pots et pots treure o posar com a acció bonus. L'armadura reemplaça tota extremitat que falti, i funciona com si fos l'extremitat.",
+						"Pots posar-te i treure l'armadura com a acció. L'armadura continua sent una Armadura Arcana fins que et posis una altra armadura o moris."
 					]
 				}
 			]
 		},
 		{
-			"name": "Armor Model",
+			"name": "Model d'Armadura",
 			"source": "TCE",
 			"page": 15,
 			"className": "Artificier",
@@ -3461,30 +3461,30 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Armorer a nivell 3}",
-				"You can customize your Armadura Arcana. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.",
-				"Each model includes a special weapon. When you attack with that weapon, you can add el teu modificador d'Intel·ligència, instead of Força or Destresa, to the attack and damage rolls.",
-				"You can change the armor's model quan acabis un Descans Curt o Llarg, provided you have {@item eines de ferrer|PHB} in hand.",
+				"Pots personalitzar-te l'Armadura Arcana. Escull un dels models d'armadura següents. Guardià o Infiltració. El model que escullis et dona beneficis mentres el duguis.",
+				"Cada model inclous una arma especial. Quan ataques amb aquella arma, pots emprar teu modificador d'Intel·ligència en ves del de Força o Destresa a les tirades d'impactar i de dany.",
+				"Pots canviar el model de l'armadura quan acabis un Descans Curt o Llarg, sempre que tingus les {@item eines de ferrer|PHB}.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Guardian",
+							"name": "Guardià",
 							"entries": [
-								"You design your armor to be in the front line of conflict. It has the following features:",
+								"Dissenyes l'armadura perquè estigui a la vanguarda del conflicte. Té els trets següents:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Thunder Gauntlets.",
-											"entry": "Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals {@damage 1d8} de dany de tro on a hit. A creature hit by the gauntlet té desavantatge a tirades d'impacte against targets other than you fins l'inici del teu proper torn, as the armor magically emits a distracting pulse when the creature attacks someone else."
+											"name": "Guants de Tro.",
+											"entry": "Cada gua de l'armadura es considera una arma simple cos a cos mentre no duguis res amb aquella ma. Quan impacta, fa {@damage 1d8} de dany de tro. Una criatura impactada pel gua té desavantatge a tirades d'impacte contra altres objectius que no siguin tu fins l'inici del teu proper torn: l'armadura emet un pols distraient quan la criatura ataca a algú altre."
 										},
 										{
 											"type": "item",
-											"name": "Defensive Field.",
-											"entry": "Com a acció bonus, you can gain punts de vida temporals equal to el teu nivell en aquesta classe, replacing any punts de vida temporals you already have. You lose these punts de vida temporals if you doff the armor. You can use this bonus action tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+											"name": "Camp Defensiu.",
+											"entry": "Com a acció bonus, reps el teu nivell en aquesta classe de punts de vida temporals (reemplaça punts de vida temporals que ja tinguessis). Perds aquests punts de vida temporals si et treus l'armadura. Pots prendre aquesta acció bonus tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 										}
 									]
 								}
@@ -3492,27 +3492,27 @@
 						},
 						{
 							"type": "entries",
-							"name": "Infiltrator",
+							"name": "Infiltració",
 							"entries": [
-								"You customize your armor for subtle undertakings. It has the following features:",
+								"Personalitzes l'armadura per a treballs subtils. Té els trets següents:",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "Lightning Launcher.",
-											"entry": "A gemlike node appears on one of your armored fists or on the chest (escull). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals {@damage 1d6} de dany elèctric on a hit. Un cop a cada torn teu quan impactes a una criatura with it, you can deal an extra {@damage 1d6} de dany elèctric to that target."
+											"name": "Llançador Elèctric.",
+											"entry": "Un node fet com de gema apareix en un puny o al pit (escull). Es considera una arma simple a distància, amb 90 peus d'abast normal i 300 peus d'abast llarg. Quan impacta fa {@damage 1d6} de dany elèctric. Un cop a cada torn teu quan impactes a una criatura amb el Llançador, fas {@damage 1d6} de dany elèctric extra a aquell objectiu."
 										},
 										{
 											"type": "item",
-											"name": "Powered Steps.",
+											"name": "Passes Poderoses.",
 											"entry": "La teva velocitat de caminar incrementa en 5 peus."
 										},
 										{
 											"type": "item",
-											"name": "Dampening Field.",
-											"entry": "Tens avantatge a Destresa ({@skill Stealth}). If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal."
+											"name": "Camp Reductor.",
+											"entry": "Tens avantatge a tirades de Destresa ({@skill Stealth}). Si l'armadura imposa naturalment avantatge a aquestes tirades, ambdós es cancelen i tires normal."
 										}
 									]
 								}
@@ -3523,7 +3523,7 @@
 			]
 		},
 		{
-			"name": "Armorer Spells",
+			"name": "Conjurs d'Armadura",
 			"source": "TCE",
 			"page": 15,
 			"className": "Artificier",
@@ -3534,10 +3534,10 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Armorer a nivell 3}",
-				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Conjurs d'Armadura table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
 				{
 					"type": "table",
-					"caption": "Armorer Spells",
+					"caption": "Conjurs d'Armadura",
 					"colLabels": [
 						"Artificer Level",
 						"Spell"
@@ -3613,7 +3613,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Armorer a nivell 9}",
-				"You learn how to use your artificer infusions to specially modify your Armadura Arcana. That armor now counts as separate items for the purposes of your Infusionar Objectes feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. A més, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Armadura Arcana."
+				"You learn how to use your artificer infusions to specially modify your Armadura Arcana. That armor now counts as separate items for the purposes of your Infusionar Objectes feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Model d'Armadura feature. A més, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Armadura Arcana."
 			]
 		},
 		{
@@ -4129,7 +4129,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armorer Spells|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+					"subclassFeature": "Conjurs d'Armadura|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -4137,12 +4137,12 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armor Model|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+					"subclassFeature": "Model d'Armadura|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
 				}
 			]
 		},
 		{
-			"name": "Armor Model",
+			"name": "Model d'Armadura",
 			"source": "UA2020SubclassesPt3",
 			"page": 1,
 			"className": "Artificier",
@@ -4153,7 +4153,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Armorer a nivell 3}",
-				"You can customize your power armor. When you do so, choose one of the following armor models: guardian or infiltrator. The model you choose gives you special benefits while you wear it.",
+				"You can customize your power armor. When you do so, choose one of the following model d'armaduras: guardian or infiltrator. The model you choose gives you special benefits while you wear it.",
 				"Each model includes a special weapon. When you attack with that weapon, you can use el teu modificador d'Intel·ligència, instead of Força or Destresa, for the attack and damage rolls.",
 				"You can change your power armor's model quan acabis un Descans Curt o Llarg, provided you have {@item eines de ferrer|PHB} in hand.",
 				{
@@ -4210,7 +4210,7 @@
 			]
 		},
 		{
-			"name": "Armorer Spells",
+			"name": "Conjurs d'Armadura",
 			"source": "UA2020SubclassesPt3",
 			"page": 1,
 			"className": "Artificier",
@@ -4221,10 +4221,10 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Armorer a nivell 3}",
-				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Conjurs d'Armadura table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
 				{
 					"type": "table",
-					"caption": "Armorer Spells",
+					"caption": "Conjurs d'Armadura",
 					"colLabels": [
 						"Artificer Level",
 						"Spell"
