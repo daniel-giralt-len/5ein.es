@@ -3548,7 +3548,7 @@ Renderer.spell = {
 			}
 		}
 
-		// add divine soul, favored soul v2, favored soul v3
+		// add ànima divina, favored soul v2, favored soul v3
 		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => c.name === Renderer.spell.STR_CLERIC && c.source === SRC_PHB)) {
 			Renderer.spell._CACHE_HASHES[Renderer.spell.STR_DIV_SOUL] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_DIV_SOUL] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_CLERIC,
@@ -3819,7 +3819,7 @@ Renderer.spell = {
 	STR_WARLOCK: "Bruixot",
 	STR_ELD_KNIGHT: "Cavaller Èldritx",
 	STR_ARC_TCKER: "Entabanador Arcà",
-	STR_DIV_SOUL: "Divine Soul",
+	STR_DIV_SOUL: "Ànima Divina",
 	STR_FAV_SOUL_V2: "Favored Soul v2 (UA)",
 	STR_FAV_SOUL_V3: "Favored Soul v3 (UA)",
 	STR_ABERRANT_MIND: "Aberrant Mind",

@@ -1911,7 +1911,7 @@ Parser.spSubclassesToCurrentAndLegacyFull = function (sp, subclassLookup) {
 	function mapClassShortNameToMostRecent (shortName) {
 		switch (shortName) {
 			case "Favored Soul":
-				return "Divine Soul";
+				return "Ànima Divina";
 			case "Undying Light":
 				return "Celestial";
 			case "Deep Stalker":
