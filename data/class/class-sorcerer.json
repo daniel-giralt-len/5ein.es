@@ -545,14 +545,14 @@
 				"Font de Màgia|Sortiller||2",
 				"Font de Màgia Options|Sortiller||2|UAClassFeatureVariants",
 				"Metamàgia|Sortiller||3",
-				"Metamàgia Options|Sortiller||3|UAClassFeatureVariants",
-				"Metamàgia Options|Sortiller||3|TCE",
+				"Opcions de Metamàgia|Sortiller||3|UAClassFeatureVariants",
+				"Opcions de Metamàgia|Sortiller||3|TCE",
 				"Millora de Puntuació de Característica|Sortiller||4",
 				"Competència Versàtil|Sortiller||4|UAClassFeatureVariants",
-				"Sorcerous Versatility|Sortiller||4|TCE",
-				"Magical Guidance|Sortiller||5|TCE",
+				"Versatilitat Sortillera|Sortiller||4|TCE",
+				"Guia Màgica|Sortiller||5|TCE",
 				{
-					"classFeature": "Origen Sortiller feature|Sortiller||6",
+					"classFeature": "Tret d'Origen Sortiller|Sortiller||6",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Sortiller||8",
@@ -561,19 +561,19 @@
 				"Millora de Puntuació de Característica|Sortiller||12",
 				"Competència Versàtil|Sortiller||12|UAClassFeatureVariants",
 				{
-					"classFeature": "Origen Sortiller feature|Sortiller||14",
+					"classFeature": "Tret d'Origen Sortiller|Sortiller||14",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Sortiller||16",
 				"Competència Versàtil|Sortiller||16|UAClassFeatureVariants",
 				"Metamàgia|Sortiller||17",
 				{
-					"classFeature": "Origen Sortiller feature|Sortiller||18",
+					"classFeature": "Tret d'Origen Sortiller|Sortiller||18",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Sortiller||19",
 				"Competència Versàtil|Sortiller||19|UAClassFeatureVariants",
-				"Sorcerous Restoration|Sortiller||20"
+				"Recuperació Sortillera|Sortiller||20"
 			],
 			"subclassTitle": "Origen Sortiller",
 			"fluff": [
@@ -1671,8 +1671,8 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"A nivell 3, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamàgia options (escull). You gain another one at 10th and 17th level.",
-				"You can use only one Metamàgia option on a spell when you cast it, unless otherwise noted.",
+				"A nivell 3, aprèns a moldejar els teus conjurs a voluntat. Aprèns 2 opcions de Metamàgia (escull). N'aprèns una altra a nivell 10 i encara una altra a nivell 17.",
+				"Només pots emprar una Metamàgia sobre un conjur quan el llances, a no ser que s'indiqui el contrari.",
 				{
 					"type": "options",
 					"count": 2,
@@ -1714,7 +1714,7 @@
 			]
 		},
 		{
-			"name": "Metamàgia Options",
+			"name": "Opcions de Metamàgia",
 			"source": "TCE",
 			"page": 65,
 			"className": "Sortiller",
@@ -1722,8 +1722,8 @@
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel sorcerer a nivell 3}",
-				"When you choose Metamàgia options, you have access to the following additional options.",
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel sortiller a nivell 3}",
+				"Quan esculls Opcions de Metamàgia, també pots escollir de les següents.",
 				{
 					"type": "options",
 					"entries": [
@@ -1740,7 +1740,7 @@
 			]
 		},
 		{
-			"name": "Metamàgia Options",
+			"name": "Opcions de Metamàgia",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"className": "Sortiller",
@@ -1749,7 +1749,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de sorcerer a nivell 3 (millora Metamàgia)}",
-				"When you choose Metamàgia options, you have access to the following additional options.",
+				"When you choose Opcions de Metamàgia, you have access to the following additional options.",
 				{
 					"type": "options",
 					"entries": [
@@ -1797,7 +1797,7 @@
 			]
 		},
 		{
-			"name": "Sorcerous Versatility",
+			"name": "Versatilitat Sortillera",
 			"source": "TCE",
 			"page": 65,
 			"className": "Sortiller",
@@ -1805,19 +1805,19 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel sorcerer a nivell 4}",
-				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica , pots fer una de les coses següents representing the magic within you flowing in new ways:",
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel sortiller a nivell 4}",
+				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica , pots fer una de les coses següents que representa un nou flux màgic dins teu:",
 				{
 					"type": "list",
 					"items": [
-						"Replace one of the options you chose for the Metamàgia feature with a different {@filter Metamàgia option|optionalfeatures|Feature Type=MM} available to you.",
+						"Substitueix una de les opcions de Metamàgia que hagis escollit per una altra {@filter opció de Metamàgia|optionalfeatures|Feature Type=MM} available to you.",
 						"Substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter llista de conjurs de sortiller|spells|level=0|class=Sorcerer}."
 					]
 				}
 			]
 		},
 		{
-			"name": "Magical Guidance",
+			"name": "Guia Màgica",
 			"source": "TCE",
 			"page": 65,
 			"className": "Sortiller",
@@ -1825,12 +1825,12 @@
 			"level": 5,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel sorcerer a nivell 5}",
-				"You can tap into your inner wellspring of magic to try to conjure success from failure. Quan fas una tirada d'habilitat that fails, pots gastar 1 punt de sortilleria to reroll the {@dice d20}, and you must use the new roll, potentially turning the failure into a success."
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel sortiller a nivell 5}",
+				"Accedeixes al teu pou màgic per intentar treure l'èxit d'un fracàs. Quan falles una una tirada d'habilitat, pots gastar 1 punt de sortilleria per tornar a tirar el {@dice d20} i acceptar la nova tirada; potencialment, pot fer que superis la tirada."
 			]
 		},
 		{
-			"name": "Origen Sortiller feature",
+			"name": "Tret d'Origen Sortiller",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1838,7 +1838,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"A nivell 6, obténs un tret gràcies al Origen Sortiller."
+				"A nivell 6, obténs un tret gràcies a l'Origen Sortiller."
 			]
 		},
 		{
@@ -1877,7 +1877,7 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, you learn an additional metamàgia option."
+				"A nivell 10, aprèns una opció de metamàgia adicional."
 			]
 		},
 		{
@@ -1908,7 +1908,7 @@
 			]
 		},
 		{
-			"name": "Origen Sortiller feature",
+			"name": "Tret d'Origen Sortiller",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1916,7 +1916,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, obténs un tret gràcies al Origen Sortiller."
+				"A nivell 14, obténs un tret gràcies a l'Origen Sortiller."
 			]
 		},
 		{
@@ -1955,11 +1955,11 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"A nivell 17, you learn an additional metamàgia option."
+				"A nivell 17, aprèns una opció de metamàgia adicional."
 			]
 		},
 		{
-			"name": "Origen Sortiller feature",
+			"name": "Tret d'Origen Sortiller",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1967,7 +1967,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"A nivell 18, obténs un tret gràcies al Origen Sortiller."
+				"A nivell 18, obténs un tret gràcies a l'Origen Sortiller."
 			]
 		},
 		{
@@ -1998,7 +1998,7 @@
 			]
 		},
 		{
-			"name": "Sorcerous Restoration",
+			"name": "Recuperació Sortillera",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -2006,7 +2006,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, you regain 4 expended punts de sortilleria quan acabis un Descans Curt."
+				"A nivell 20, recuperes 4 punts de sortilleria gastats quan acabis un Descans Curt."
 			]
 		},
 		{
