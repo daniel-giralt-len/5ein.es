@@ -3688,8 +3688,8 @@ Renderer.spell = {
 		}
 		// endregion
 
-		// region Add Aberrant Mind Sorcerer and Soul de Rellotgeria Sorcerer
-		// Level 0-5, as the feature allows retraining only learned spell levels (and Aberrant Mind has the Mind Sliver cantrip)
+		// region Add Ment Aberrant Sorcerer and Soul de Rellotgeria Sorcerer
+		// Level 0-5, as the feature allows retraining only learned spell levels (and Ment Aberrant has the Mind Sliver cantrip)
 		if (spell.level <= 5 && spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => (c.name === Renderer.spell.STR_SORCERER || c.name === Renderer.spell.STR_WARLOCK || c.name === Renderer.spell.STR_WIZARD) && c.source === SRC_PHB)) {
 			if (spell.school === "D" || spell.school === "E") {
 				Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ABERRANT_MIND] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ABERRANT_MIND] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
@@ -3822,7 +3822,7 @@ Renderer.spell = {
 	STR_DIV_SOUL: "Ànima Divina",
 	STR_FAV_SOUL_V2: "Favored Soul v2 (UA)",
 	STR_FAV_SOUL_V3: "Favored Soul v3 (UA)",
-	STR_ABERRANT_MIND: "Aberrant Mind",
+	STR_ABERRANT_MIND: "Ment Aberrant",
 	STR_CLOCKWORK_SOUL: "Soul de Rellotgeria",
 	STR_DEATH: "Death",
 	_CACHE_HASHES: {},
