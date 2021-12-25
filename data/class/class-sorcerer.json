@@ -964,16 +964,16 @@
 		},
 		{
 			"name": "Màgia Salvatge",
-			"shortName": "Wild",
+			"shortName": "Salvatge",
 			"source": "PHB",
 			"className": "Sortiller",
 			"classSource": "PHB",
 			"page": 103,
 			"subclassFeatures": [
-				"Màgia Salvatge|Sortiller||Wild||1",
-				"Bend Luck|Sortiller||Wild||6",
-				"Controlled Chaos|Sortiller||Wild||14",
-				"Spell Bombardment|Sortiller||Wild||18"
+				"Màgia Salvatge|Sortiller||Salvatge||1",
+				"Bend Luck|Sortiller||Salvatge||6",
+				"Controlled Chaos|Sortiller||Salvatge||14",
+				"Spell Bombardment|Sortiller||Salvatge||18"
 			]
 		},
 		{
@@ -2207,52 +2207,52 @@
 			"page": 103,
 			"className": "Sortiller",
 			"classSource": "PHB",
-			"subclassShortName": "Wild",
+			"subclassShortName": "Salvatge",
 			"subclassSource": "PHB",
 			"level": 1,
 			"entries": [
 				"Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Màgia Salvatge Surge|Sortiller||Wild||1"
+					"subclassFeature": "Esclat Salvatge|Sortiller||Salvatge||1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tides of Chaos|Sortiller||Wild||1"
+					"subclassFeature": "Marea del Caos|Sortiller||Salvatge||1"
 				}
 			]
 		},
 		{
-			"name": "Tides of Chaos",
+			"name": "Marea del Caos",
 			"source": "PHB",
 			"page": 103,
 			"className": "Sortiller",
 			"classSource": "PHB",
-			"subclassShortName": "Wild",
+			"subclassShortName": "Salvatge",
 			"subclassSource": "PHB",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 1, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, pots emprar aquest tret un cop i no pots tornar-hi fins que acabis un Descans Llarg.",
-				"Any time before you regain the use of this feature, the DM can have you roll on the {@table Màgia Salvatge Surge|PHB} table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature."
+				"Començant a nivell 1, pots manipular les forces de l'atzar i el caos a favor teu; et dones avantatge a una tirada d'impacte, d'ahbilitat, o de salvació. Quan ho fas, no pots tornar-hi fins que acabis un Descans Llarg.",
+				"Abans que recuperis l'ús d'aquest tret, el/la/li MM et pot fer tirar a la taula d'{@table Esclat Salvatge|PHB} després que llancis un conjur de nivell 1 o superior. Un cop ho facis, recuperes l'ús d'aquest tret."
 			]
 		},
 		{
-			"name": "Màgia Salvatge Surge",
+			"name": "Esclat Salvatge",
 			"source": "PHB",
 			"page": 103,
 			"className": "Sortiller",
 			"classSource": "PHB",
-			"subclassShortName": "Wild",
+			"subclassShortName": "Salvatge",
 			"subclassSource": "PHB",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this origin a nivell 1, your spellcasting can unleash surges of untamed magic. Immediatament after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a {@dice d20}. If you roll a 1, roll on the Màgia Salvatge Surge table to create a random magical effect. A Màgia Salvatge Surge can happen un cop per torn.",
-				"If a Màgia Salvatge effect is a spell, it's too wild to be affected by Metamàgia. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
+				"Quan esculls aquest origen a nivell 1, els teus llançaments de conjur poden crear esclats indomables de màgia. Immediatament després de llançar un conjur de sortiller de nivell 1 o superior, el/la/li MM et pot fer tirar un {@dice d20}. Si treus un 1, tira a la taula d'Esclat Salvatge per a crear un efecte màgic a l'atzar. Pots causar un Esclat Salvatge per torn.",
+				"Si l'Esclat Salvatge resulta ser un conjur, és massa indomable com per a controlar-lo amb Metamàgia. Si normalment requereix concentració, no la necessita en aquest cas, i dura la duració sencera del conjur.",
 				{
 					"type": "table",
-					"caption": "Màgia Salvatge Surge",
+					"caption": "Esclat Salvatge",
 					"colLabels": [
 						"{@dice d100}",
 						"Efecte"
@@ -2264,203 +2264,203 @@
 					"rows": [
 						[
 							"01-02",
-							"Roll on this table a l'inici de cada torn teu for the next minute, ignoring this result on subsequent rolls."
+							"Tira a aquesta taula a l'inici de cada torn teu durant el següent minut (ignores aquest resultat per les tirades posteriors)."
 						],
 						[
 							"03-04",
-							"For the next minute, que puguis veure any {@condition invisible} creature if you have line of sight to it."
+							"El proper minut pots veure tota criatura {@condition invisible} que tinguis en línia de visió."
 						],
 						[
 							"05-06",
-							"Una {@filter modron|bestiary|source=mm|search=modron} chosen and controlled by the DM appears en un espai desocupat a 5 peus de tu, then disappears 1 minute later."
+							"Un {@filter modron|bestiary|source=mm|search=modron} que el/la/li escull i controla apareix en un espai desocupat a 5 peus de tu, i desapareix passat 1 minut."
 						],
 						[
 							"07-08",
-							"You cast {@spell bola de foc} as a 3rd-level spell centered on yourself."
+							"Llances {@spell bola de foc} com a conjur de nivell 3 centrada en tu."
 						],
 						[
 							"09-10",
-							"You cast {@spell magic missile} as a 5th-level spell."
+							"Llances {@spell magic missile} com a conjur de nivell 5."
 						],
 						[
 							"11-12",
-							"Roll a {@dice d10}. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."
+							"Tira un {@dice d10}. La teva alçada canvia tantes polzades com el resultat. Si és parell, creixes. Si és senar, encongeixes."
 						],
 						[
 							"13-14",
-							"You cast {@spell confusió} centered on yourself."
+							"Llances {@spell confusió} centrat en tu."
 						],
 						[
 							"15-16",
-							"For the next minute, you regain 5 punts de vida a l'inici de cada torn teu."
+							"Durant 1 minut, recuperes 5 punts de vida a l'inici de cada torn teu."
 						],
 						[
 							"17-18",
-							"You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."
+							"Creixes una barba llarga feta de plomes que roman fins que estornudis; llavors les plomes surten disparades de la teva cara."
 						],
 						[
 							"19-20",
-							"You cast {@spell grease} centered on yourself."
+							"Llances {@spell grease} centrat en tu."
 						],
 						[
 							"21-22",
-							"Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+							"Tota criatura salva amb desavantatge contra el primer conjur que llancis abans que passi 1 minut."
 						],
 						[
 							"23-24",
-							"Your skin turns a vibrant shade of blue. A {@spell anul·lar maledicció} spell can end this effect."
+							"La teva pell es torna un blau brillant. L'efecte s'acaba amb el conjur {@spell anul·lar maledicció}."
 						],
 						[
 							"25-26",
-							"An eye appears on your forehead for the next minute. During that time, you have advantage a tirades d'habilitat de Saviesa ({@skill Perception}) que involucrin veure-hi."
+							"Un ull apareix al teu front durant 1 minut. Mentre el tinguis, tens avantatge a tirades de Saviesa ({@skill Perception}) que involucrin veure-hi."
 						],
 						[
 							"27-28",
-							"For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."
+							"Durant 1 minut, tots els conjurs amb una duració de llançament d'1 acció la tindran d'1 acció bonus."
 						],
 						[
 							"29-30",
-							"You teleport fins a 60 peus en un espai desocupat (escull) que puguis veure."
+							"Et teleportes fins a 60 peus en un espai desocupat (escull) que puguis veure."
 						],
 						[
 							"31-32",
-							"You are transported to the Astral Plane fins el final del teu proper torn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
+							"Et teleportes al Pla Astral fins el final del teu proper torn. passat aquest temps reapareixes a l'espai que ocupaves abans o, si està ocupat al desocupat més proper."
 						],
 						[
 							"33-34",
-							"Maximize the damage of the next damaging spell you cast within the next minute."
+							"Maximitzes el dany del proper conjur que causi dany que llancis abans que passi 1 minut."
 						],
 						[
 							"35-36",
-							"Roll a {@dice d10}. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."
+							"Tira un {@dice d10}. La teva edat canvia tants anys com el resultat. Si és parell, envelleixes. Si és senar, rejoveneixes."
 						],
 						[
 							"37-38",
-							"{@dice 1d6} {@creature flumph||flumphs} controlled by the DM appear in unoccupied spaces a 60 peus de tu and are {@condition frightened} de tu. They vanish after 1 minute."
+							"{@dice 1d6} {@creature flumph||flumphs} controlats per el/la/li MM apareixen en espais desocupats a 60 peus de tu i estan {@condition frightened} de tu. S'esvaneixen passat 1 minut."
 						],
 						[
 							"39-40",
-							"You regain {@dice 2d10} punts de vida."
+							"Recuperes {@dice 2d10} punts de vida."
 						],
 						[
 							"41-42",
-							"You turn into a potted plant fins l'inici del teu proper torn. While a plant, you are {@condition incapacitated} and have vulnerability to all damage. If you drop to 0 punts de vida, your pot breaks, and your form reverts."
+							"Et tornes una planta en una torreta fins l'inici del teu proper torn. Mentre ets una planta estàs {@condition incapacitated} i tens vulnerabilitat a tot dany. Si et quedes a 0 punts de vida, el test es trenca i tornes a la teva forma originaly."
 						],
 						[
 							"43-44",
-							"For the next minute, you can teleport fins a 20 peus com a acció bonus a cada torn teu."
+							"Durant 1 minut, pots teleportar-te fins a 20 peus com a acció bonus a cada torn teu."
 						],
 						[
 							"45-46",
-							"You cast {@spell levitate} on yourself."
+							"Llances {@spell levitate} en tu."
 						],
 						[
 							"47-48",
-							"Una {@creature unicorn} controlled by the DM appears in a space a 5 peus de tu, then disappears 1 minute later."
+							"Un {@creature unicorn} controlat per el/la/li MM apareix en un espai a 5 peus de tu, i desapareix passat 1 minut."
 						],
 						[
 							"49-50",
-							"You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
+							"No pots parlar durant 1 minut. Quan ho intentes et surten bombolles roses de la boca."
 						],
 						[
 							"51-52",
-							"A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to {@spell magic missile}."
+							"Un escut espectral flota al teu voltant durant 1 minut. T'otorga un +2 a la CA i immunitat al conjur {@spell magic missile}."
 						],
 						[
 							"53-54",
-							"You are immune to being intoxicated by alcohol for the next {@dice 5d6} days."
+							"Ets immune a l'intoxicació per alcohol durant els propers {@dice 5d6} dies."
 						],
 						[
 							"55-56",
-							"Your hair falls out but grows back within 24 hours."
+							"Se't cau el cabell, però et creix abans de 24 hores."
 						],
 						[
 							"57-58",
-							"For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."
+							"Durant 1 minut, tot objecte inflamable que toquis que no estigui dut ni vestit s'encén immediatament."
 						],
 						[
 							"59-60",
-							"You regain your lowest-level expended spell slot."
+							"Recuperes la teva ranura de conjur gastada més baixa."
 						],
 						[
 							"61-62",
-							"For the next minute, you must shout when you speak."
+							"Durant 1 minut, has de cridar mentre parles."
 						],
 						[
 							"63-64",
-							"You cast {@spell núvol de boira} centered on yourself."
+							"Llances {@spell núvol de boira} centrat en tu."
 						],
 						[
 							"65-66",
-							"Up to three creatures you choose a 30 peus de tu take {@damage 4d10} de dany elèctric."
+							"Fins a 3 criatures a 30 peus de tu (escull) reben {@damage 4d10} de dany elèctric."
 						],
 						[
 							"67-68",
-							"You are {@condition frightened} by the nearest creature fins el final del teu proper torn."
+							"Estàs {@condition frightened} per la criatura més propera fins el final del teu proper torn."
 						],
 						[
 							"69-70",
-							"Tota criatura a 30 peus de tu becomes {@condition invisible} for the next minute. The invisibility ends on a creature when it attacks or casts a spell."
+							"Tota criatura a 30 peus de tu esdevé {@condition invisible} durant 1 minut. La invisibilitat s'acaba per una criatura quan ataca o llança un conjur."
 						],
 						[
 							"71-72",
-							"You gain resistance to all damage for the next minute."
+							"Tens resistència contra tot dany durant 1 minut."
 						],
 						[
 							"73-74",
-							"A random creature a 60 peus de tu becomes {@condition poisoned} for {@dice 1d4} hours."
+							"Una criatura a l'atzar a 60 peus de tu esdevé {@condition poisoned} durant {@dice 1d4} hores."
 						],
 						[
 							"75-76",
-							"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn a 5 peus de tu is {@condition blinded} fins el final del seu proper torn."
+							"Brilles amb llum forta en un radi de 30 peus durant 1 minut. Tota criatura que acabi el seu torn a 5 peus de tu està {@condition blinded} fins el final del seu proper torn."
 						],
 						[
 							"77-78",
-							"You cast {@spell polimorfia} on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."
+							"Llances {@spell polimorfia} en tu. Si falles la salvada, et tornes una ovella durant la duració del conjur."
 						],
 						[
 							"79-80",
-							"Illusory butterflies and flower petals flutter in the air a 10 peus de tu for the next minute."
+							"Papallones il·lusòries i pètals de flor dancen a l'aire a 10 peus de tu durant 1 minut."
 						],
 						[
 							"81-82",
-							"You can take one additional action immediately."
+							"Pots prendre una acció extra immediatament."
 						],
 						[
 							"83-84",
-							"Tota criatura a 30 peus de tu takes {@damage 1d10} de dany necròtic. You regain punts de vida equal to the sum of the necrotic damage dealt."
+							"Tota criatura a 30 peus de tu rep {@damage 1d10} de dany necròtic. Recuperes tants punts de vida com la suma dels danys."
 						],
 						[
 							"85-86",
-							"You cast {@spell imatge mirall}."
+							"Llances {@spell imatge mirall}."
 						],
 						[
 							"87-88",
-							"You cast {@spell fly} on a random creature a 60 peus de tu."
+							"Llances {@spell fly} en una criatura a l'atzar a 60 peus de tu."
 						],
 						[
 							"89-90",
-							"You become {@condition invisible} for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."
+							"Esdevéns {@condition invisible} durant 1 minut. Durant la duració, cap criatura et pot sentir. L'invisibilitat s'acaba si ataques o llances un conjur."
 						],
 						[
 							"91-92",
-							"If you die within the next minute, you immediately come back to life as if by the {@spell reincarnate} spell."
+							"Si mors durant el proper minut, retornes a la vida immediatament com pel conjur {@spell reincarnate}."
 						],
 						[
 							"93-94",
-							"Your size increases by one size category for the next minute."
+							"El teu tamany incrementa en una categoria durant 1 minut."
 						],
 						[
 							"95-96",
-							"You and all creatures a 30 peus de tu gain vulnerability to dany perforant for the next minute."
+							"Tu i tota criatura a 30 peus de tu obténen vulnerabilitat al dany perforant durant 1 minut."
 						],
 						[
 							"97-98",
-							"You are surrounded by faint, ethereal music for the next minute."
+							"T'envolta música fluixa i etèria durant 1 minut."
 						],
 						[
 							"99-00",
-							"You regain all expended punts de sortilleria."
+							"Recuperes tots els punts de sortilleria gastats."
 						]
 					],
 					"data": {
@@ -2475,7 +2475,7 @@
 			"page": 103,
 			"className": "Sortiller",
 			"classSource": "PHB",
-			"subclassShortName": "Wild",
+			"subclassShortName": "Salvatge",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
@@ -2489,12 +2489,12 @@
 			"page": 103,
 			"className": "Sortiller",
 			"classSource": "PHB",
-			"subclassShortName": "Wild",
+			"subclassShortName": "Salvatge",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, you gain a modicum of control over the surges of your màgia salvatge. Whenever you roll on the {@table Màgia Salvatge Surge|PHB} table, you can roll twice and use either number."
+				"A nivell 14, you gain a modicum of control over the surges of your màgia salvatge. Whenever you roll on the {@table Esclat Salvatge|PHB} table, you can roll twice and use either number."
 			]
 		},
 		{
@@ -2503,7 +2503,7 @@
 			"page": 103,
 			"className": "Sortiller",
 			"classSource": "PHB",
-			"subclassShortName": "Wild",
+			"subclassShortName": "Salvatge",
 			"subclassSource": "PHB",
 			"level": 18,
 			"header": 2,
@@ -3303,7 +3303,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Ànima de Rellotgeria a nivell 14}",
-				"You gain the ability to enter a state of clockwork consciousness com a acció bonus. For the next minute, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a {@dice d20} roll of 9 or lower as a 10.",
+				"You gain the ability to enter a state of clockwork consciousness com a acció bonus. Durant 1 minut, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a {@dice d20} roll of 9 or lower as a 10.",
 				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg or until you expend 5 punts de sortilleria to use it again."
 			]
 		},
