@@ -145,7 +145,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Sorcery Points"
+						"Punts de Sortilleria"
 					],
 					"rows": [
 						[
@@ -542,11 +542,11 @@
 					"gainSubclassFeature": true
 				},
 				"Spell Versatility|Sortiller||1|UAClassFeatureVariants",
-				"Font of Magic|Sortiller||2",
-				"Font of Magic Options|Sortiller||2|UAClassFeatureVariants",
-				"Metamagic|Sortiller||3",
-				"Metamagic Options|Sortiller||3|UAClassFeatureVariants",
-				"Metamagic Options|Sortiller||3|TCE",
+				"Font de Màgia|Sortiller||2",
+				"Font de Màgia Options|Sortiller||2|UAClassFeatureVariants",
+				"Metamàgia|Sortiller||3",
+				"Metamàgia Options|Sortiller||3|UAClassFeatureVariants",
+				"Metamàgia Options|Sortiller||3|TCE",
 				"Millora de Puntuació de Característica|Sortiller||4",
 				"Competència Versàtil|Sortiller||4|UAClassFeatureVariants",
 				"Sorcerous Versatility|Sortiller||4|TCE",
@@ -557,7 +557,7 @@
 				},
 				"Millora de Puntuació de Característica|Sortiller||8",
 				"Competència Versàtil|Sortiller||8|UAClassFeatureVariants",
-				"Metamagic|Sortiller||10",
+				"Metamàgia|Sortiller||10",
 				"Millora de Puntuació de Característica|Sortiller||12",
 				"Competència Versàtil|Sortiller||12|UAClassFeatureVariants",
 				{
@@ -566,7 +566,7 @@
 				},
 				"Millora de Puntuació de Característica|Sortiller||16",
 				"Competència Versàtil|Sortiller||16|UAClassFeatureVariants",
-				"Metamagic|Sortiller||17",
+				"Metamàgia|Sortiller||17",
 				{
 					"classFeature": "Origen Sortiller feature|Sortiller||18",
 					"gainSubclassFeature": true
@@ -1554,7 +1554,7 @@
 			]
 		},
 		{
-			"name": "Flexible Casting",
+			"name": "Llançament Flexible",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1563,18 +1563,18 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"You can use your punts de fetilleria to gain additional ranures de conjur, or sacrifice ranures de conjur to gain additional punts de fetilleria. You learn other ways to use your punts de fetilleria as you reach higher levels.",
+				"Pots emprar punts de sortilleria per a rebre ranures de conjur extra, o sacrificar ranures de conjur per a rebre punts de sortilleria extra. Aprèns altres maneres d'emprear els teus punts de sortilleria a nivells superiors.",
 				{
 					"type": "entries",
-					"name": "Creating Ranures de Conjur",
+					"name": "Crear Ranures de Conjur",
 					"entries": [
-						"You can transform unexpended punts de fetilleria into one spell slot com a acció bonus en el teu torn. The created ranures de conjur vanish quan acabis un Descans Llarg. The Creating Ranures de Conjur table shows the cost of creating a spell slot of a given level. You can create ranures de conjur no higher in level than 5th.",
+						"Transformes punts de sortilleria sense gastat en una ranura de conjur com a acció bonus en el teu torn. Aquestes ranures creades s'esvaeixen quan acabes un Descans Llarg. La Taula de Creació de Ranures mostra el cost de crear una ranura de conjur per cada nivell. No pots crear ranures de nivells superiors a 5.",
 						{
 							"type": "table",
-							"caption": "Creating Ranures de Conjur",
+							"caption": "Creació de Ranures",
 							"colLabels": [
-								"Spell Slot Level",
-								"Punt de fetilleria Cost"
+								"Nivell de Ranura",
+								"Punts de sortilleria"
 							],
 							"colStyles": [
 								"col-6 text-center",
@@ -1607,15 +1607,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Converting a Spell Slot to Punts de fetilleria",
+					"name": "Convertir Ranures de Conjur a Punts de sortilleria",
 					"entries": [
-						"Com a acció bonus en el teu torn, you can expend one spell slot and gain a number of punts de fetilleria equal to the slot's level."
+						"Com a acció bonus en el teu torn, pots gastar una ranura de conjur i guanyar el seu nivell en punts de sortilleria."
 					]
 				}
 			]
 		},
 		{
-			"name": "Font of Magic",
+			"name": "Font de Màgia",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1623,22 +1623,22 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"A nivell 2, you tap into a deep wellspring of magic within yourself. This wellspring is represented by punts de fetilleria, which allow you to create a variety of magical effects.",
+				"A nivell 2, accedeixes a un pou de màgia de dins deu. Aquest pou es representa com a punts de sortilleria, i et permeten crear un seguit d'efectes màgics.",
 				{
 					"type": "entries",
-					"name": "Sorcery Points",
+					"name": "Punts de Sortilleria",
 					"entries": [
-						"You have 2 punts de fetilleria, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can never have more punts de fetilleria than shown on the table for your level. You regain all spent punts de fetilleria quan acabis un Descans Llarg."
+						"Tnes 2 punts de sortilleria, i n'obténs 1 cada cop que puges de nivell de sortiller (per un màxim de 20 a nivell 20). No pots tenir més punts de sortilleria que els que es mostren a la taula pel teu nivell. Recuperes tots els punts de sortilleria quan acabes un Descans Llarg."
 					]
 				},
 				{
 					"type": "refClassFeature",
-					"classFeature": "Flexible Casting|Sortiller||2"
+					"classFeature": "Llançament Flexible|Sortiller||2"
 				}
 			]
 		},
 		{
-			"name": "Font of Magic Options",
+			"name": "Font de Màgia Options",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"className": "Sortiller",
@@ -1646,8 +1646,8 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de sorcerer a nivell 2 (millora Font of Magic)}",
-				"When you gain the Font of Magic feature, you get access to the following ways to spend your punts de fetilleria.",
+				"{@i tret de sorcerer a nivell 2 (millora Font de Màgia)}",
+				"When you gain the Font de Màgia feature, you get access to the following ways to spend your punts de sortilleria.",
 				{
 					"type": "refClassFeature",
 					"classFeature": "Empowering Reserves|Sortiller|UAClassFeatureVariants|2"
@@ -1663,7 +1663,7 @@
 			]
 		},
 		{
-			"name": "Metamagic",
+			"name": "Metamàgia",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1671,8 +1671,8 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"A nivell 3, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options (escull). You gain another one at 10th and 17th level.",
-				"You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.",
+				"A nivell 3, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamàgia options (escull). You gain another one at 10th and 17th level.",
+				"You can use only one Metamàgia option on a spell when you cast it, unless otherwise noted.",
 				{
 					"type": "options",
 					"count": 2,
@@ -1714,7 +1714,7 @@
 			]
 		},
 		{
-			"name": "Metamagic Options",
+			"name": "Metamàgia Options",
 			"source": "TCE",
 			"page": 65,
 			"className": "Sortiller",
@@ -1723,7 +1723,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i {@variantrule optional class features|tce|Tret opcional} pel sorcerer a nivell 3}",
-				"When you choose Metamagic options, you have access to the following additional options.",
+				"When you choose Metamàgia options, you have access to the following additional options.",
 				{
 					"type": "options",
 					"entries": [
@@ -1740,7 +1740,7 @@
 			]
 		},
 		{
-			"name": "Metamagic Options",
+			"name": "Metamàgia Options",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"className": "Sortiller",
@@ -1748,8 +1748,8 @@
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de sorcerer a nivell 3 (millora Metamagic)}",
-				"When you choose Metamagic options, you have access to the following additional options.",
+				"{@i tret de sorcerer a nivell 3 (millora Metamàgia)}",
+				"When you choose Metamàgia options, you have access to the following additional options.",
 				{
 					"type": "options",
 					"entries": [
@@ -1810,7 +1810,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Replace one of the options you chose for the Metamagic feature with a different {@filter Metamagic option|optionalfeatures|Feature Type=MM} available to you.",
+						"Replace one of the options you chose for the Metamàgia feature with a different {@filter Metamàgia option|optionalfeatures|Feature Type=MM} available to you.",
 						"Substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter llista de conjurs de sortiller|spells|level=0|class=Sorcerer}."
 					]
 				}
@@ -1826,7 +1826,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i {@variantrule optional class features|tce|Tret opcional} pel sorcerer a nivell 5}",
-				"You can tap into your inner wellspring of magic to try to conjure success from failure. Quan fas una tirada d'habilitat that fails, pots gastar 1 punt de fetilleria to reroll the {@dice d20}, and you must use the new roll, potentially turning the failure into a success."
+				"You can tap into your inner wellspring of magic to try to conjure success from failure. Quan fas una tirada d'habilitat that fails, pots gastar 1 punt de sortilleria to reroll the {@dice d20}, and you must use the new roll, potentially turning the failure into a success."
 			]
 		},
 		{
@@ -1869,7 +1869,7 @@
 			]
 		},
 		{
-			"name": "Metamagic",
+			"name": "Metamàgia",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1877,7 +1877,7 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, you learn an additional metamagic option."
+				"A nivell 10, you learn an additional metamàgia option."
 			]
 		},
 		{
@@ -1947,7 +1947,7 @@
 			]
 		},
 		{
-			"name": "Metamagic",
+			"name": "Metamàgia",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1955,7 +1955,7 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"A nivell 17, you learn an additional metamagic option."
+				"A nivell 17, you learn an additional metamàgia option."
 			]
 		},
 		{
@@ -2006,7 +2006,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, you regain 4 expended punts de fetilleria quan acabis un Descans Curt."
+				"A nivell 20, you regain 4 expended punts de sortilleria quan acabis un Descans Curt."
 			]
 		},
 		{
@@ -2018,7 +2018,7 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"Quan fas una tirada d'habilitat en el teu torn, pots gastar 2 punts de fetilleria to gain advantage on the check."
+				"Quan fas una tirada d'habilitat en el teu torn, pots gastar 2 punts de sortilleria to gain advantage on the check."
 			]
 		},
 		{
@@ -2030,7 +2030,7 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"Com a acció, you can touch one nonmagical weapon and spend 2 punts de fetilleria to imbue it with magic durant 1 minut. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks."
+				"Com a acció, you can touch one nonmagical weapon and spend 2 punts de sortilleria to imbue it with magic durant 1 minut. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks."
 			]
 		},
 		{
@@ -2042,7 +2042,7 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"Com a acció, you can spend any number of punts de fetilleria to roll a {@dice d4} for each point expended. You gain a number of punts de vida temporals equal to the total rolled."
+				"Com a acció, you can spend any number of punts de sortilleria to roll a {@dice d4} for each point expended. You gain a number of punts de vida temporals equal to the total rolled."
 			]
 		}
 	],
@@ -2167,7 +2167,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add el teu modificador de Carisma to one damage roll of that spell. At the same time, pots gastar 1 punt de fetilleria to gain resistance to that damage type durant 1 hora."
+				"Començant a nivell 6, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add el teu modificador de Carisma to one damage roll of that spell. At the same time, pots gastar 1 punt de sortilleria to gain resistance to that damage type durant 1 hora."
 			]
 		},
 		{
@@ -2198,7 +2198,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 18, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened}. Com a acció, pots gastar 5 punts de fetilleria to draw on this power and exude an aura of awe or fear (escull) to a distance of 60 feet. Durant 1 minut or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura ha de salvar per Saviesa. or be {@condition charmed} (if you chose awe) or {@condition frightened} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura durant 24 hores."
+				"Començant a nivell 18, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened}. Com a acció, pots gastar 5 punts de sortilleria to draw on this power and exude an aura of awe or fear (escull) to a distance of 60 feet. Durant 1 minut or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura ha de salvar per Saviesa. or be {@condition charmed} (if you chose awe) or {@condition frightened} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura durant 24 hores."
 			]
 		},
 		{
@@ -2249,7 +2249,7 @@
 			"header": 1,
 			"entries": [
 				"Starting when you choose this origin a nivell 1, your spellcasting can unleash surges of untamed magic. Immediatament after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a {@dice d20}. If you roll a 1, roll on the Màgia Salvatge Surge table to create a random magical effect. A Màgia Salvatge Surge can happen un cop per torn.",
-				"If a Màgia Salvatge effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
+				"If a Màgia Salvatge effect is a spell, it's too wild to be affected by Metamàgia. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
 				{
 					"type": "table",
 					"caption": "Màgia Salvatge Surge",
@@ -2460,7 +2460,7 @@
 						],
 						[
 							"99-00",
-							"You regain all expended punts de fetilleria."
+							"You regain all expended punts de sortilleria."
 						]
 					],
 					"data": {
@@ -2480,7 +2480,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, you have the ability to twist fate using your màgia salvatge. Quan una altra criatura que puguis veure makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 punts de fetilleria to roll {@dice 1d4} and apply the number rolled as a bonus or penalty (escull) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
+				"Començant a nivell 6, you have the ability to twist fate using your màgia salvatge. Quan una altra criatura que puguis veure makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 punts de sortilleria to roll {@dice 1d4} and apply the number rolled as a bonus or penalty (escull) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
 			]
 		},
 		{
@@ -2722,8 +2722,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 6}",
-				"When you cast any spell of 1st level or higher from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of punts de fetilleria equal to the spell's level.",
-				"If you cast the spell using punts de fetilleria, it requires no verbal or somatic components, and it requires no material components, unless they are consumed by the spell."
+				"When you cast any spell of 1st level or higher from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of punts de sortilleria equal to the spell's level.",
+				"If you cast the spell using punts de sortilleria, it requires no verbal or somatic components, and it requires no material components, unless they are consumed by the spell."
 			]
 		},
 		{
@@ -2753,7 +2753,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 14}",
-				"You can unleash the aberrant truth hidden within yourself. Com a acció bonus, you can spend 1 or more punts de fetilleria to magically transform your body durant 10 minuts. For each punt de fetilleria you spend, you can gain one of the following benefits (escull), the effects of which last until the transformation ends:",
+				"You can unleash the aberrant truth hidden within yourself. Com a acció bonus, you can spend 1 or more punts de sortilleria to magically transform your body durant 10 minuts. For each punt de sortilleria you spend, you can gain one of the following benefits (escull), the effects of which last until the transformation ends:",
 				{
 					"type": "list",
 					"items": [
@@ -2778,7 +2778,7 @@
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 18}",
 				"You can unleash your aberrant power as a space-warping anomaly. Com a acció, you can teleport en un espai desocupat que puguis veure a 120 peus de tu. Immediatament after you disappear, tota criatura within 30 feet of the space you left ha de salvar per Força. Si falla, a creature takes {@damage 3d10} de dany de força and is pulled straight toward the space you left, ending en un espai desocupat as close to your former space as possible. Si supera, the creature takes half as much damage and isn't pulled.",
-				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Llarg, unless you spend 5 punts de fetilleria to use it again."
+				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Llarg, unless you spend 5 punts de sortilleria to use it again."
 			]
 		},
 		{
@@ -2919,8 +2919,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Clockwork Soul a nivell 6}",
-				"You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. Com a acció, you can expend 1 to 5 punts de fetilleria to create a magical ward around yourself or another creature que puguis veure a 30 peus de tu. The ward lasts fins que acabis un Descans Llarg or fins que tornis a emprar aquest tret.",
-				"The ward is represented by a number of {@dice d8}s equal to the number of punts de fetilleria spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice."
+				"You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. Com a acció, you can expend 1 to 5 punts de sortilleria to create a magical ward around yourself or another creature que puguis veure a 30 peus de tu. The ward lasts fins que acabis un Descans Llarg or fins que tornis a emprar aquest tret.",
+				"The ward is represented by a number of {@dice d8}s equal to the number of punts de sortilleria spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice."
 			]
 		},
 		{
@@ -2936,7 +2936,7 @@
 			"entries": [
 				"{@i tret de Clockwork Soul a nivell 14}",
 				"You gain the ability to align your consciousness to the endless calculations of Mechanus. Com a acció bonus, you can enter this state durant 1 minut. For the duration, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a roll of 9 or lower on the {@dice d20} as a 10.",
-				"Un cop empris aquesta acció bonus, no hi pots tornar fins que acabis un Descans Llarg, unless you spend 5 punts de fetilleria to use it again."
+				"Un cop empris aquesta acció bonus, no hi pots tornar fins que acabis un Descans Llarg, unless you spend 5 punts de sortilleria to use it again."
 			]
 		},
 		{
@@ -2960,7 +2960,7 @@
 						"Every spell of 6th level or lower ends on creatures and objects (escull) in the cube."
 					]
 				},
-				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg, unless you spend 7 punts de fetilleria to use it again."
+				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg, unless you spend 7 punts de sortilleria to use it again."
 			]
 		},
 		{
@@ -3122,7 +3122,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Psionic Soul a nivell 14}",
-				"You can now use the psi that flows through you to give your body extraordinary abilities. Com a acció bonus, you can roll el teu Dau de Talent Psiònic and spend 1 or more punts de fetilleria to magically transform yourself for a number of hours equal to the number rolled. Until the transformation ends, you gain one of the following benefits (escull) for each punt de fetilleria you spent, choosing a different benefit for each point:",
+				"You can now use the psi that flows through you to give your body extraordinary abilities. Com a acció bonus, you can roll el teu Dau de Talent Psiònic and spend 1 or more punts de sortilleria to magically transform yourself for a number of hours equal to the number rolled. Until the transformation ends, you gain one of the following benefits (escull) for each punt de sortilleria you spent, choosing a different benefit for each point:",
 				{
 					"type": "list",
 					"items": [
@@ -3287,8 +3287,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Clockwork Soul a nivell 6}",
-				"You can imbue a creature with a shimmering shield of order. Com a acció, you can expend 1 to 5 punts de fetilleria to create a magical ward around yourself or another creature que puguis veure a 30 peus de tu. The ward lasts fins que acabis un Descans Llarg or fins que tornis a emprar aquest tret.",
-				"The ward is represented by a number of {@dice d8}s equal to the number of punts de fetilleria spent to create it. When the warded creature takes damage, it can use its reaction to spend a number of those dice, roll them, and reduce the damage taken by the total of the spent dice."
+				"You can imbue a creature with a shimmering shield of order. Com a acció, you can expend 1 to 5 punts de sortilleria to create a magical ward around yourself or another creature que puguis veure a 30 peus de tu. The ward lasts fins que acabis un Descans Llarg or fins que tornis a emprar aquest tret.",
+				"The ward is represented by a number of {@dice d8}s equal to the number of punts de sortilleria spent to create it. When the warded creature takes damage, it can use its reaction to spend a number of those dice, roll them, and reduce the damage taken by the total of the spent dice."
 			]
 		},
 		{
@@ -3304,7 +3304,7 @@
 			"entries": [
 				"{@i tret de Clockwork Soul a nivell 14}",
 				"You gain the ability to enter a state of clockwork consciousness com a acció bonus. For the next minute, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a {@dice d20} roll of 9 or lower as a 10.",
-				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg or until you expend 5 punts de fetilleria to use it again."
+				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg or until you expend 5 punts de sortilleria to use it again."
 			]
 		},
 		{
@@ -3328,7 +3328,7 @@
 						"Every spell of 6th level or lower ends on creatures and objects (escull) in the cube."
 					]
 				},
-				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg or until you expend 7 punts de fetilleria to use it again."
+				"Once you use this action, no hi pots tornar fins que acabis un Descans Llarg or until you expend 7 punts de sortilleria to use it again."
 			]
 		},
 		{
@@ -3593,7 +3593,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"From 1st level, you have {@sense darkvision} amb un abast de 60 peus. Pots llançar el conjur {@spell foscor} by spending 1 punt de fetilleria. que puguis veure through any {@spell foscor} spell you cast using this ability."
+				"From 1st level, you have {@sense darkvision} amb un abast de 60 peus. Pots llançar el conjur {@spell foscor} by spending 1 punt de sortilleria. que puguis veure through any {@spell foscor} spell you cast using this ability."
 			]
 		},
 		{
@@ -3621,7 +3621,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you gain the ability to call forth a howling creature of darkness to harass your foes. Com a acció bonus, pots gastar 3 punts de fetilleria to summon a hound of ill omen to target one creature que puguis veure. The hound uses a dire wolf's statistics with the following changes:",
+				"A nivell 6, you gain the ability to call forth a howling creature of darkness to harass your foes. Com a acció bonus, pots gastar 3 punts de sortilleria to summon a hound of ill omen to target one creature que puguis veure. The hound uses a dire wolf's statistics with the following changes:",
 				{
 					"type": "list",
 					"items": [
@@ -3658,7 +3658,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"A nivell 18, pots gastar 3 punts de fetilleria to transform yourself into a shadow form com a acció bonus. In this form, tens resistència a tot tipus de dany except force damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object. You remain in this form durant 1 minut."
+				"A nivell 18, pots gastar 3 punts de sortilleria to transform yourself into a shadow form com a acció bonus. In this form, tens resistència a tot tipus de dany except force damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object. You remain in this form durant 1 minut."
 			]
 		},
 		{
@@ -3817,7 +3817,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, the celestial energy coursing through you can empower your healing magic. Whenever you roll dice to determine the number of punts de vida a sorcerer spell of yours restores, pots gastar 1 punt de fetilleria to reroll any number of those dice once."
+				"Començant a nivell 6, the celestial energy coursing through you can empower your healing magic. Whenever you roll dice to determine the number of punts de vida a sorcerer spell of yours restores, pots gastar 1 punt de sortilleria to reroll any number of those dice once."
 			]
 		},
 		{
@@ -4526,7 +4526,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 6}",
-				"Començant a nivell 6, when you cast any of the spells gained from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of punts de fetilleria equal to the spell's level. If you cast the spell using punts de fetilleria, it requires no components."
+				"Començant a nivell 6, when you cast any of the spells gained from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of punts de sortilleria equal to the spell's level. If you cast the spell using punts de sortilleria, it requires no components."
 			]
 		},
 		{
@@ -4556,7 +4556,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 14}",
-				"Començant a nivell 14, you can unleash the aberrant truth hidden within your flesh. Com a acció bonus, you can spend 1 or more punts de fetilleria to magically transform your body durant 1 minut. For each punt de fetilleria you spend, you can gain one of the following benefits (escull), the effects of which last until the transformation ends:",
+				"Començant a nivell 14, you can unleash the aberrant truth hidden within your flesh. Com a acció bonus, you can spend 1 or more punts de sortilleria to magically transform your body durant 1 minut. For each punt de sortilleria you spend, you can gain one of the following benefits (escull), the effects of which last until the transformation ends:",
 				{
 					"type": "list",
 					"items": [
@@ -4827,7 +4827,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, the divine energy coursing through you can empower healing spells. Whenever you or an ally a 5 peus de tu rolls dice to determine the number of punts de vida a spell restores, pots gastar 1 punt de fetilleria to reroll any number of those dice once, provided you aren't {@condition incapacitated}. Només pots emprar aquest tret un cop per torn."
+				"Començant a nivell 6, the divine energy coursing through you can empower healing spells. Whenever you or an ally a 5 peus de tu rolls dice to determine the number of punts de vida a spell restores, pots gastar 1 punt de sortilleria to reroll any number of those dice once, provided you aren't {@condition incapacitated}. Només pots emprar aquest tret un cop per torn."
 			]
 		},
 		{
@@ -4932,7 +4932,7 @@
 			"header": 1,
 			"entries": [
 				"Començant a nivell 1, you have {@sense darkvision} amb un abast de 120 peus.",
-				"Quan arribes a nivell 3 en aquesta classe, aprèns el conjur {@spell foscor}, which doesn't count against your number of conjurs de sortiller known. A més, you can cast it by spending 2 punts de fetilleria or by expending a spell slot. If you cast it with punts de fetilleria, que puguis veure through the {@spell foscor} created by the spell."
+				"Quan arribes a nivell 3 en aquesta classe, aprèns el conjur {@spell foscor}, which doesn't count against your number of conjurs de sortiller known. A més, you can cast it by spending 2 punts de sortilleria or by expending a spell slot. If you cast it with punts de sortilleria, que puguis veure through the {@spell foscor} created by the spell."
 			]
 		},
 		{
@@ -4961,7 +4961,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you gain the ability to call forth a howling creature of darkness to harass your foes. Com a acció bonus, pots gastar 3 punts de fetilleria to magically summon a hound of ill omen to target one creature que puguis veure a 120 peus de tu. The hound uses the {@creature dire wolf}'s statistics (see the Monster Manual or appendix C in the Player's Handbook), with the following changes:",
+				"A nivell 6, you gain the ability to call forth a howling creature of darkness to harass your foes. Com a acció bonus, pots gastar 3 punts de sortilleria to magically summon a hound of ill omen to target one creature que puguis veure a 120 peus de tu. The hound uses the {@creature dire wolf}'s statistics (see the Monster Manual or appendix C in the Player's Handbook), with the following changes:",
 				{
 					"type": "list",
 					"items": [
@@ -4999,7 +4999,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 18, pots gastar 6 punts de fetilleria com a acció bonus to magically transform yourself into a shadowy form. In this form, tens resistència a tot tipus de dany except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
+				"Començant a nivell 18, pots gastar 6 punts de sortilleria com a acció bonus to magically transform yourself into a shadowy form. In this form, tens resistència a tot tipus de dany except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
 				"You remain in this form durant 1 minut. It ends early si et quedes {@condition incapacitated}, if you die, or if you dismiss it com a acció bonus."
 			]
 		},

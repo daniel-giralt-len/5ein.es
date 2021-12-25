@@ -515,12 +515,12 @@ class FeatConverter extends BaseConverter {
 	}
 }
 // region sample
-FeatConverter.SAMPLE_TEXT = `Metamagic Adept
+FeatConverter.SAMPLE_TEXT = `Metamàgia Adept
 Prerequisite: Spellcasting or Màgia de Pacte feature
 You’ve learned how to exert your will on your spells to alter how they function. Obténs els beneficis següents:
 • Increase your Intel·ligència, Saviesa, or Carisma score by 1, to a maximum of 20.
-• You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamagic options with another one from the sorcerer class.
-• You gain 2 punts de fetilleria to spend on Metamagic (these points are added to any punts de fetilleria you have from another source but can be used only on Metamagic). You regain all spent punts de fetilleria when you finish a long rest.
+• You learn two Metamàgia options of your choice from the sorcerer class. You can use only one Metamàgia option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamàgia options with another one from the sorcerer class.
+• You gain 2 punts de sortilleria to spend on Metamàgia (these points are added to any punts de sortilleria you have from another source but can be used only on Metamàgia). You regain all spent punts de sortilleria when you finish a long rest.
 `;
 // endregion
 

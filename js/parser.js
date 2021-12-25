@@ -1547,7 +1547,7 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	AI: "Artificer Infusion",
 	ED: "Elemental Discipline",
 	EI: "Invocació èldritx",
-	MM: "Metamagic",
+	MM: "Metamàgia",
 	"MV": "Maneuver",
 	"MV:B": "Maneuver, Mestre de Batalla",
 	"MV:C2-UA": "Maneuver, Genet V2 (UA)",
@@ -1737,7 +1737,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_QUICKREF] = "Quick Reference";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CULT] = "Cult";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_BOON] = "Boon";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_DISEASE] = "Disease";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_METAMAGIC] = "Metamagic";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_METAMAGIC] = "Metamàgia";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_BATTLEMASTER] = "Maneuver; Battlemaster";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "Table";
