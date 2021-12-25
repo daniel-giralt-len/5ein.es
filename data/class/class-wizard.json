@@ -822,23 +822,23 @@
 			"subclassFeatures": [
 				"Escola d'Encantament|Mag||Encantament||2",
 				"Encant Innat|Mag||Encantament||6",
-				"Encantament Partit|Mag||Encantament||10",
-				"Alter Memories|Mag||Encantament||14"
+				"Encantament Bifurcat|Mag||Encantament||10",
+				"Alterar Records|Mag||Encantament||14"
 			]
 		},
 		{
-			"name": "School of Evocation",
-			"shortName": "Evocation",
+			"name": "Escola d'Evocació",
+			"shortName": "Evocació",
 			"source": "PHB",
 			"className": "Mag",
 			"classSource": "PHB",
 			"page": 117,
 			"srd": true,
 			"subclassFeatures": [
-				"School of Evocation|Mag||Evocation||2",
-				"Potent Cantrip|Mag||Evocation||6",
-				"Empowered Evocation|Mag||Evocation||10",
-				"Overchannel|Mag||Evocation||14"
+				"Escola d'Evocació|Mag||Evocació||2",
+				"Truc Potent|Mag||Evocació||6",
+				"Evocació Empoderada|Mag||Evocació||10",
+				"Sobrecanalitzar|Mag||Evocació||14"
 			]
 		},
 		{
@@ -2115,7 +2115,7 @@
 			]
 		},
 		{
-			"name": "Encantament Partit",
+			"name": "Encantament Bifurcat",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
@@ -2125,11 +2125,11 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 10, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature."
+				"Començant a nivell 10, quan llances un conjur d'encantament de nivell 1 o superior que designa a només 1 criatura, pots fer que en designi una segona."
 			]
 		},
 		{
-			"name": "Alter Memories",
+			"name": "Alterar Records",
 			"source": "PHB",
 			"page": 117,
 			"className": "Mag",
@@ -2140,105 +2140,105 @@
 			"header": 2,
 			"entries": [
 				"A nivell 14, ets capaç d'emmascarar la influència màgica que tens sobre els teus objectius. Quan llances un conjur d'encantament per a fascinar a una o més criatures, pots alterar la comprensió de la criatura perquè no sàpiga que està {@condition charmed}.",
-				"A més, on cop abans que acabi el conjur pots, com a acció, to try to make la criatura designada forget some of the time it spent {@condition charmed}. The creature must succeed on an Intel·ligència saving throw contra la teva CD de salvada de conjur de mag or lose a number of hours of its memories equal to 1 + el teu modificador de Carisma (mínim d'1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell."
+				"A més, on cop abans que acabi el conjur pots, com a acció, intentar que la criatura designada oblidi part del temps que ha passat {@condition charmed}. La criatura ha de salvar per Intel·ligència contra la teva CD de salvada de conjur de mag. Si falla, perd 1 + el teu modificador de Carisma (mínim d'1) hores de records. Pots escollir que la criatura oblidi menys temps. El temps no pot excedir la duració del conjur d'encantament."
 			]
 		},
 		{
-			"name": "School of Evocation",
+			"name": "Escola d'Evocació",
 			"source": "PHB",
 			"page": 117,
 			"srd": true,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Evocation",
+			"subclassShortName": "Evocació",
 			"subclassSource": "PHB",
 			"level": 2,
 			"entries": [
 				"You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Evocation Savant|Mag||Evocation||2"
+					"subclassFeature": "Geni d'Evocació|Mag||Evocació||2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sculpt Spells|Mag||Evocation||2"
+					"subclassFeature": "Escolpir Conjurs|Mag||Evocació||2"
 				}
 			]
 		},
 		{
-			"name": "Evocation Savant",
+			"name": "Geni d'Evocació",
 			"source": "PHB",
 			"page": 117,
 			"srd": true,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Evocation",
+			"subclassShortName": "Evocació",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Quan esculls aquesta escola a nivell 2, l'or i el temps que has de gastar per copiar un conjur de evocation al teu llibre de conjurs es divideix en dos."
+				"Quan esculls aquesta escola a nivell 2, l'or i el temps que has de gastar per copiar un conjur de evocació al teu llibre de conjurs es divideix en dos."
 			]
 		},
 		{
-			"name": "Sculpt Spells",
+			"name": "Escolpir Conjurs",
 			"source": "PHB",
 			"page": 117,
 			"srd": true,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Evocation",
+			"subclassShortName": "Evocació",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures que puguis veure, you can choose a number of them equal to 1 + the spell's level. les criatures designades automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+				"Començant a nivell 2, pots crear buits de seguretat relativa dins de l'abast dels teus conjurs d'evocació. Quan llances un conjur d'evovació que afecta a altres criaturas que puguis veure, pots designar-ne fins a 1 + el nivell del conjur. Les criatures designades superen la salvada del conjur automàticament, i no reben dany si superar la salvada del conjur faria que en rebessin la meitat del dany."
 			]
 		},
 		{
-			"name": "Potent Cantrip",
+			"name": "Truc Potent",
 			"source": "PHB",
 			"page": 117,
 			"srd": true,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Evocation",
+			"subclassShortName": "Evocació",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, your damaging cantrips affect even creatures that avoid the brunt of the effect. Quan una criatura succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+				"Començant a nivell 6, els trucs que danyen afecten fins i tot les criatures que els eviten. Quan una criatura superen la salvada d'un truc que llances, reben la meitat del dany del truc (si en fa), però no pateixen cap efecte adicional."
 			]
 		},
 		{
-			"name": "Empowered Evocation",
+			"name": "Evocació Empoderada",
 			"source": "PHB",
 			"page": 117,
 			"srd": true,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Evocation",
+			"subclassShortName": "Evocació",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 10, you can add el teu modificador d'Intel·ligència to one damage roll of any wizard evocation spell you cast."
+				"Començant a nivell 10, pots afegir el teu modificador d'Intel·ligència a una tirada de dany a qualsevol conjur d'evocació de mag que llances."
 			]
 		},
 		{
-			"name": "Overchannel",
+			"name": "Sobrecanalitzar",
 			"source": "PHB",
 			"page": 117,
 			"srd": true,
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Evocation",
+			"subclassShortName": "Evocació",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th-level that deals damage, you can deal maximum damage with that spell.",
-				"The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take {@damage 2d12} de dany necròtic for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by {@dice 1d12}. This damage ignores resistance and immunity."
+				"Començant a nivell 14, pots incrementar el poder dels teus conjurs més senzills. Quan llances un conjur de mag de fins a nivell 5 (excepte trucs) que causa dany, pots causar el dany màxim del conjur.",
+				"El primer cop que fas això no reps cap efecte advers. Si hi tornes abans d'acabar un Descans Llarg, reps {@damage 2d12} de dany necròtic multiplicat pel nivell del conjur. Reps el dany immediatament després del llançament, ignora resistència i immunitat, i el dany augmenta en {@dice 1d12} cada cop que tornes a emprar aquest tret abans d'acabar un Descans Llarg."
 			]
 		},
 		{
