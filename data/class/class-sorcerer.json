@@ -94,9 +94,9 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) una {@item ballesta lleugera|phb} i {@item crossbow bolts (20)|phb|20 bolts} o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) una {@item component pouch|phb} o bé (b) an {@item focus arcà|phb}",
-					"(a) una {@item pack de masmorreig|phb} o bé (b) an {@item pack d'exploració|phb}",
-					"Two {@item daga|phb|daggers}"
+					"(a) una {@item component pouch|phb} o bé (b) un {@item focus arcà|phb}",
+					"(a) una {@item pack de masmorreig|phb} o bé (b) un {@item pack d'exploració|phb}",
+					"Dos {@item daga|phb|daggers}"
 				],
 				"goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Ors Inicials}",
 				"defaultData": [
@@ -538,7 +538,7 @@
 			"classFeatures": [
 				"Llançament de Conjurs|Sortiller||1",
 				{
-					"classFeature": "Sorcerous Origin|Sortiller||1",
+					"classFeature": "Origen Sortiller|Sortiller||1",
 					"gainSubclassFeature": true
 				},
 				"Spell Versatility|Sortiller||1|UAClassFeatureVariants",
@@ -552,7 +552,7 @@
 				"Sorcerous Versatility|Sortiller||4|TCE",
 				"Magical Guidance|Sortiller||5|TCE",
 				{
-					"classFeature": "Sorcerous Origin feature|Sortiller||6",
+					"classFeature": "Origen Sortiller feature|Sortiller||6",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Sortiller||8",
@@ -561,21 +561,21 @@
 				"Millora de Puntuació de Característica|Sortiller||12",
 				"Competència Versàtil|Sortiller||12|UAClassFeatureVariants",
 				{
-					"classFeature": "Sorcerous Origin feature|Sortiller||14",
+					"classFeature": "Origen Sortiller feature|Sortiller||14",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Sortiller||16",
 				"Competència Versàtil|Sortiller||16|UAClassFeatureVariants",
 				"Metamagic|Sortiller||17",
 				{
-					"classFeature": "Sorcerous Origin feature|Sortiller||18",
+					"classFeature": "Origen Sortiller feature|Sortiller||18",
 					"gainSubclassFeature": true
 				},
 				"Millora de Puntuació de Característica|Sortiller||19",
 				"Competència Versàtil|Sortiller||19|UAClassFeatureVariants",
 				"Sorcerous Restoration|Sortiller||20"
 			],
-			"subclassTitle": "Sorcerous Origin",
+			"subclassTitle": "Origen Sortiller",
 			"fluff": [
 				{
 					"name": "Sortiller",
@@ -1464,7 +1464,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "Sorcerous Origin",
+			"name": "Origen Sortiller",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1472,8 +1472,8 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Choose a sorcerous origin, which describes the source of your innate magical power, de la llista de origins disponibles",
-				"La teva elecció t'otorga trets when you choose it als nivells 1, 6, 14, i 18."
+				"Escull un origen sortiller de la llista següent; descriu la font del teu poder màgic innat.",
+				"La teva elecció t'otorga trets als nivells 1, 6, 14, i 18."
 			]
 		},
 		{
@@ -1486,7 +1486,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de sorcerer a nivell 1 (millora Spellcasting)}",
-				"Quan acabis un Descans Llarg, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace."
+				"Quan acabis un Descans Llarg, you can replace one spell you learned from this Spellcasting feature with another spell de la llista de conjurs de sortiller. The new spell must be the same level as the spell you replace."
 			]
 		},
 		{
@@ -1498,19 +1498,19 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter sorcerer spell list|spells|class=sorcerer}.",
+				"Un esdeveniment a la teva vida o a la d'un ancestre teu t'ha deixat una marca perenne que t'imbueix amb energia arcana. Aquesta font, sigui la que sigui, et permet llançar conjurs. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de sortiller|spells|class=sorcerer}.",
 				{
 					"type": "entries",
 					"name": "Trucs",
 					"entries": [
-						"A nivell 1, coneixes 4 trucs (escull) from the sorcerer spell list. You learn an additional sorcerer cantrip (escull) a nivell 4 and another a nivell 10."
+						"A nivell 1, coneixes 4 trucs (escull) de la llista de conjurs de sortiller. Aprèns un altre truc de sortiller (escull) a nivell 4 i encara un altre nivell 10."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ranures de Conjur",
 					"entries": [
-						"The Sorcerer table mostra les ranures de conjur que tens per llançar els {@filter sorcerer spells|spells|class=sorcerer} de nivells 1 i superior. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"La Taula de Sortiller mostra les ranures de conjur que tens per llançar els {@filter conjurs de sortiller|spells|class=sorcerer} de nivells 1 i superior. Per a llançar un conjur, has de gastar una ranura del nivell del conjur (o superior). Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
 						"Per exemple, si coneixes el conjur de nivell 1 {@spell mans ardents} i tens dues ranures, una ranura de nivell 1 i una de nivell 2 disponible, pots llançar {@spell mans ardents} gastant qualsevol de les dues ranures."
 					]
 				},
@@ -1518,16 +1518,16 @@
 					"type": "entries",
 					"name": "Conjurs de Nivells 1 i Superiors Coneguts",
 					"entries": [
-						"Coneixes 2 conjurs de nivell 1 (escull) from the sorcerer spell list.",
-						"You learn an additional sorcerer spell (escull) at each level except 12th, 14th, 16th, 18th, 19th, and 20th. No pots escollir conjurs que siguin de nivell superior a la les ranures de conjur que tens. Per exemple, quan arribes a nivell 3 en aquesta classe, pots aprendre un conjur de nivell 1 o de nivell 2.",
-						"A més, quan pugis de nivell en aquesta classe, pots escollir un dels sorcerer spells que coneixes i substituir-lo per un altre from the sorcerer spell list, que també ha de ser d'un nivell igual o inferior al de les teves ranures de conjur."
+						"Coneixes 2 conjurs de nivell 1 (escull) de la llista de conjurs de sortiller.",
+						"Aprèns un conjur de sortiller adicional (escull) a cada nivell excepte el 12, 14, 16, 18, i 20. No pots escollir conjurs que siguin de nivell superior a la les ranures de conjur que tens. Per exemple, quan arribes a nivell 3 en aquesta classe, pots aprendre un conjur de nivell 1 o de nivell 2.",
+						"A més, quan pugis de nivell en aquesta classe, pots escollir un dels conjurs de sortiller que coneixes i substituir-lo per un altre de la llista de conjurs de sortiller, que també ha de ser d'un nivell igual o inferior al de les teves ranures de conjur."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Habilitat de Llançament de Conjurs",
 					"entries": [
-						"La teva habilitat de llançament de conjurs pels conjurs de sorcerer és el Carisma, since the power of your magic relies on your ability to project your will into the world. Faràs servir el Carisma quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Carisma quan un conjur mencioni: o una CD de salvada; o una tirada d'impactar.",
+						"La teva habilitat de llançament de conjurs pels conjurs de sortiller és el Carisma, ja que el poder de la teva màgia depèn de la teva voluntat de dur-la al món. Faràs servir el Carisma quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Carisma quan un conjur mencioni: o una CD de salvada; o una tirada d'impactar.",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
@@ -1548,7 +1548,7 @@
 					"type": "entries",
 					"name": "Focus de Llançament de Conjurs",
 					"entries": [
-						"Pots emprar un {@item focus arcà|phb} com a focus de llançament de conjurs pel teus conjurs de sorcerer spells."
+					"Pots emprar un {@item focus arcà|phb} com a focus de llançament de conjurs pel teus conjurs de sortiller."
 					]
 				}
 			]
@@ -1811,7 +1811,7 @@
 					"type": "list",
 					"items": [
 						"Replace one of the options you chose for the Metamagic feature with a different {@filter Metamagic option|optionalfeatures|Feature Type=MM} available to you.",
-						"Substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter sorcerer spell list|spells|level=0|class=Sorcerer}."
+						"Substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter llista de conjurs de sortiller|spells|level=0|class=Sorcerer}."
 					]
 				}
 			]
@@ -1830,7 +1830,7 @@
 			]
 		},
 		{
-			"name": "Sorcerous Origin feature",
+			"name": "Origen Sortiller feature",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1838,7 +1838,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"A nivell 6, obténs un tret gràcies al Sorcerous Origin."
+				"A nivell 6, obténs un tret gràcies al Origen Sortiller."
 			]
 		},
 		{
@@ -1908,7 +1908,7 @@
 			]
 		},
 		{
-			"name": "Sorcerous Origin feature",
+			"name": "Origen Sortiller feature",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1916,7 +1916,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, obténs un tret gràcies al Sorcerous Origin."
+				"A nivell 14, obténs un tret gràcies al Origen Sortiller."
 			]
 		},
 		{
@@ -1959,7 +1959,7 @@
 			]
 		},
 		{
-			"name": "Sorcerous Origin feature",
+			"name": "Origen Sortiller feature",
 			"source": "PHB",
 			"page": 99,
 			"srd": true,
@@ -1967,7 +1967,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"A nivell 18, obténs un tret gràcies al Sorcerous Origin."
+				"A nivell 18, obténs un tret gràcies al Origen Sortiller."
 			]
 		},
 		{
@@ -2656,7 +2656,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 1}",
-				"You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of conjurs de sortiller you know.",
 				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a {@filter divination or an enchantment spell from the sorcerer, warlock, or llista de conjurs de mag|spells|class=sorcerer;warlock;wizard|school=D;E|level=1;2;3;4;5}.",
 				{
 					"type": "table",
@@ -2814,7 +2814,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Clockwork Soul a nivell 1}",
-				"You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of conjurs de sortiller you know.",
 				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an {@filter abjuration or a transmutation spell from the sorcerer, warlock, or llista de conjurs de mag|spells|class=sorcerer;warlock;wizard|school=A;T|level=1;2;3;4;5}.",
 				{
 					"type": "table",
@@ -2850,7 +2850,7 @@
 						]
 					]
 				},
-				"A més, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.",
+				"A més, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your conjurs de sortiller.",
 				{
 					"type": "table",
 					"caption": "Manifestations of Order",
@@ -3222,7 +3222,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Clockwork Soul a nivell 1}",
-				"You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. These spells can't be replaced when you gain a level en aquesta classe.",
+				"You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn't count against the number of conjurs de sortiller you know. These spells can't be replaced when you gain a level en aquesta classe.",
 				{
 					"type": "table",
 					"caption": "Clockwork Spells",
@@ -3377,7 +3377,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"A nivell 1, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, aprèns el conjurs associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don't count against your number of sorcerer spells known.",
+				"A nivell 1, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, aprèns el conjurs associated with your choice, as shown in the table. These spells count as conjurs de sortiller for you, but they don't count against your number of conjurs de sortiller known.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -3707,7 +3707,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"A nivell 1, you choose one of the cleric class's divine domains. You add that domain's spells for 1st-level clerics to your known spells. These spells do not count against the number of spells you can know, and they are considered to be sorcerer spells for you. When you reach 3rd, 5th, 7th, and 9th levels in the sorcerer class, you likewise learn your domain's spells that become available at those levels."
+				"A nivell 1, you choose one of the cleric class's divine domains. You add that domain's spells for 1st-level clerics to your known spells. These spells do not count against the number of spells you can know, and they are considered to be conjurs de sortiller for you. When you reach 3rd, 5th, 7th, and 9th levels in the sorcerer class, you likewise learn your domain's spells that become available at those levels."
 			]
 		},
 		{
@@ -3787,8 +3787,8 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell de la llista de conjurs de clèrgue, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
-				"You also learn the {@spell curar ferides} spell, which does not count against your number of sorcerer spells known."
+				"Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell de la llista de conjurs de clèrgue, in addition to the llista de conjurs de sortiller. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+				"You also learn the {@spell curar ferides} spell, which does not count against your number of conjurs de sortiller known."
 			]
 		},
 		{
@@ -3888,7 +3888,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell de la llista de conjurs de clèrgue, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you."
+				"Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell de la llista de conjurs de clèrgue, in addition to the llista de conjurs de sortiller. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you."
 			]
 		},
 		{
@@ -4314,7 +4314,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your affinity for metal gives you the option to learn some non-sorcerer spells that focus on weapon attacks. When your Spellcasting feature lets you learn a sorcerer spell of 1st level or higher, you can select the spell from the following list of spells, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+				"Your affinity for metal gives you the option to learn some non-conjurs de sortiller that focus on weapon attacks. When your Spellcasting feature lets you learn a sorcerer spell of 1st level or higher, you can select the spell from the following list of spells, in addition to the llista de conjurs de sortiller. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
 				{
 					"type": "table",
 					"caption": "Metal Magic",
@@ -4447,7 +4447,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Aberrant Mind a nivell 1}",
-				"Començant a nivell 1, your aberrant nature changes your mind in subtle but profound ways. You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Començant a nivell 1, your aberrant nature changes your mind in subtle but profound ways. You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn't count against the number of conjurs de sortiller you know.",
 				{
 					"type": "table",
 					"caption": "Psionic Spells",
@@ -4617,7 +4617,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"The arcane magic you command is infused with elemental air. You can speak, read, and write {@language Primordial}. A més, you gain the following spells at the listed sorcerer level. These spells do not count against the number of sorcerer spells you know.",
+				"The arcane magic you command is infused with elemental air. You can speak, read, and write {@language Primordial}. A més, you gain the following spells at the listed sorcerer level. These spells do not count against the number of conjurs de sortiller you know.",
 				{
 					"type": "table",
 					"caption": "Storm Sorcerer Bonus Spells",
@@ -4765,8 +4765,8 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your link to the divine allows you to learn spells from the cleric class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell de la llista de conjurs de clèrgue or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
-				"A més, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell de la llista de conjurs de clèrgue.",
+				"Your link to the divine allows you to learn spells from the cleric class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell de la llista de conjurs de clèrgue or the llista de conjurs de sortiller. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+				"A més, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn't count against your number of conjurs de sortiller known. If you later replace this spell, you must replace it with a spell de la llista de conjurs de clèrgue.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -4932,7 +4932,7 @@
 			"header": 1,
 			"entries": [
 				"Començant a nivell 1, you have {@sense darkvision} amb un abast de 120 peus.",
-				"Quan arribes a nivell 3 en aquesta classe, aprèns el conjur {@spell foscor}, which doesn't count against your number of sorcerer spells known. A més, you can cast it by spending 2 punts de fetilleria or by expending a spell slot. If you cast it with punts de fetilleria, que puguis veure through the {@spell foscor} created by the spell."
+				"Quan arribes a nivell 3 en aquesta classe, aprèns el conjur {@spell foscor}, which doesn't count against your number of conjurs de sortiller known. A més, you can cast it by spending 2 punts de fetilleria or by expending a spell slot. If you cast it with punts de fetilleria, que puguis veure through the {@spell foscor} created by the spell."
 			]
 		},
 		{
