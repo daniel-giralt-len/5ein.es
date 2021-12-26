@@ -1631,8 +1631,8 @@
 			"subclassFeatures": [
 				"Armadura|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3",
 				"Atac Extra|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|5",
-				"Armor Modifications|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|9",
-				"Perfected Armor|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|15"
+				"Modificacions d'Armadura|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|9",
+				"Armadura Perfeccionada|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|15"
 			]
 		},
 		{
@@ -1717,8 +1717,8 @@
 			"subclassFeatures": [
 				"Armadura|Artificier|TCE|Armadura|TCE|3",
 				"Atac Extra|Artificier|TCE|Armadura|TCE|5",
-				"Armor Modifications|Artificier|TCE|Armadura|TCE|9",
-				"Perfected Armor|Artificier|TCE|Armadura|TCE|15"
+				"Modificacions d'Armadura|Artificier|TCE|Armadura|TCE|9",
+				"Armadura Perfeccionada|Artificier|TCE|Armadura|TCE|15"
 			]
 		},
 		{
@@ -3203,7 +3203,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Alchemist Spells",
@@ -3408,7 +3408,7 @@
 				"An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificier|TCE|Armadura|TCE|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificier|TCE|Armadura|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3435,7 +3435,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
+				"{@i tret d'Armadura a nivell 3}",
 				"Els teus avenços metal·lúrgics t'han permès conduir la teva màgia a dins d'una armadura. Com a acció, pots tornar una armadura que vesteixis en una  Armadura Arcana, sempre que tinguis {@item eines de ferrer|PHB}.",
 				"Reps els beneficis següents mentre vesteixis l'armadura:",
 				{
@@ -3460,7 +3460,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
+				"{@i tret d'Armadura a nivell 3}",
 				"Pots personalitzar-te l'Armadura Arcana. Escull un dels models d'armadura següents. Guardià o Infiltració. El model que escullis et dona beneficis mentres el duguis.",
 				"Cada model inclous una arma especial. Quan ataques amb aquella arma, pots emprar teu modificador d'Intel·ligència en ves del de Força o Destresa a les tirades d'impactar i de dany.",
 				"Pots canviar el model de l'armadura quan acabis un Descans Curt o Llarg, sempre que tingus les {@item eines de ferrer|PHB}.",
@@ -3501,8 +3501,8 @@
 									"items": [
 										{
 											"type": "item",
-											"name": "Llançador Elèctric.",
-											"entry": "Un node fet com de gema apareix en un puny o al pit (escull). Es considera una arma simple a distància, amb 90 peus d'abast normal i 300 peus d'abast llarg. Quan impacta fa {@damage 1d6} de dany elèctric. Un cop a cada torn teu quan impactes a una criatura amb el Llançador, fas {@damage 1d6} de dany elèctric extra a aquell objectiu."
+											"name": "Canó Elèctric.",
+											"entry": "Un node fet com de gema apareix en un puny o al pit (escull). Es considera una arma simple a distància, amb 90 peus d'abast normal i 300 peus d'abast llarg. Quan impacta fa {@damage 1d6} de dany elèctric. Un cop a cada torn teu quan impactes a una criatura amb el Canó, fas {@damage 1d6} de dany elèctric extra a aquell objectiu."
 										},
 										{
 											"type": "item",
@@ -3533,14 +3533,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
-				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Conjurs d'Armadura table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"{@i tret d'Armadura a nivell 3}",
+				"Tencs certs conjurs sempre preparats quan arribes a certs nivells en aquesta classe; consulta la taula de Conjurs d'Armadura. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Conjurs d'Armadura",
 					"colLabels": [
-						"Artificer Level",
-						"Spell"
+						"Nivell d'Artificier",
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3553,7 +3553,7 @@
 						],
 						[
 							"5",
-							"{@spell imatge mirall}, {@spell shatter}"
+							"{@spell imatge mirall}, {@spell esclatar}"
 						],
 						[
 							"9",
@@ -3572,7 +3572,7 @@
 			]
 		},
 		{
-			"name": "Tools of the Trade",
+			"name": "L'Eina per a la Feina",
 			"source": "TCE",
 			"page": 15,
 			"className": "Artificier",
@@ -3582,8 +3582,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
-				"Tens competència amb heavy armor. You also gain proficiency with {@item eines de ferrer|PHB}. If you already have this tool proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
+				"{@i tret d'Armadura a nivell 3}",
+				"Tens competència amb armadures pesades. També tens competència amb {@item eines de ferrer|PHB}; si ja la tenies, obténs competència amb una altra mena d'{@item eines d'artesania|PHB} (escull)."
 			]
 		},
 		{
@@ -3597,12 +3597,12 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"{@i tret de Armorer a nivell 5}",
-				"You can attack twice, rather than once, quan prèns l'acció {@action Atacar} en el teu torn."
+				"{@i tret d'Armadura a nivell 5}",
+				"Pots atacar 2 cops, i no 1, quan prèns l'acció {@action Atacar} en el teu torn."
 			]
 		},
 		{
-			"name": "Armor Modifications",
+			"name": "Modificacions d'Armadura",
 			"source": "TCE",
 			"page": 15,
 			"className": "Artificier",
@@ -3612,12 +3612,12 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i tret de Armorer a nivell 9}",
-				"You learn how to use your artificer infusions to specially modify your Armadura Arcana. That armor now counts as separate items for the purposes of your Infusionar Objectes feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Model d'Armadura feature. A més, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Armadura Arcana."
+				"{@i tret d'Armadura a nivell 9}",
+				"Aprens com emprar les teves infusions d'artificier per a modificar especialment la teva Armadura Arcana. L'armadura es considera objectes separats per a Infusionar Objectes feature: l'armadura (el pit), les botes, el casc, i l'arma especial de l'armadura. Cada objecte pot tenir una de les teves infusions, i les infusions es transfereixen si canvies el model de l'armadur amb el tret Model d'Armadura. A més, el número màxim d'objectes que pots infusionar incrementa en 2, però aquests objectes extra han de ser part de l'Armadura Arcana."
 			]
 		},
 		{
-			"name": "Perfected Armor",
+			"name": "Armadura Perfeccionada",
 			"source": "TCE",
 			"page": 15,
 			"className": "Artificier",
@@ -3627,21 +3627,21 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i tret de Armorer a nivell 15}",
-				"Your Armadura Arcana gains additional benefits based on its model, as shown below.",
+				"{@i tret d'Armadura a nivell 15}",
+				"La teva Armadura Arcana rep beneficis adicionals segons el seu model.",
 				{
 					"type": "entries",
-					"name": "Guardian",
+					"name": "Guardià",
 					"entries": [
-						"When a Huge or smaller creature que puguis veure ends its turn a 30 peus de tu, pots, com a reacció, magically force the creature to make a Força contra la teva CD de salvació de conjur, pulling the creature fins a 30 peus toward you en un espai desocupat. If you pull the target to a space a 5 peus de tu, you can fer un atac armat cos a cos against it as part of this reaction.",
+						"Quan una criatura Enorme o menor que puguis veure acaba el seu torn a 30 peus de tu, pots, com a reacció, forçar-la màgicament a salvar per Força contra la teva CD de salvació de conjur. Si falla, l'estibes fins a 30 peus cap a tu en un espai desocupat. Si aquest moviment la deixa a 5 peus de tu, pots fer-li un atac armat cos a cos com a part d'aquesta reacció.",
 						"Pots prendre aquesta reacció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Infiltrator",
+					"name": "Infiltració",
 					"entries": [
-						"Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light fins l'inici del teu proper torn. The glimmering creature sheds dim light in a 5-foot radius, and it té desavantatge a tirades d'impacte against you, as the light jolts it if it attacks you. A més, the next attack roll against it has advantage, and if that attack hits, L'objectiu rep an extra {@damage 1d6} de dany elèctric."
+						"Tota criatura que reby dany del teu Canó Elèctric brilla amb llum màgica fins l'inici del teu proper torn. Aquesta brillantor radia llum tènue a 5 peus, i la criatura té desavantatge a tirades d'impacte contra tu, ja que s'electroxoca si t'ataca. A més, la propera tirada d'impacte contra la criatura té avantatge; i, si l'atac impacta, l'objectiu rep {@damage 1d6} de dany elèctric extra."
 					]
 				}
 			]
@@ -3695,7 +3695,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Artillerist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Artillerist Spells",
@@ -3714,7 +3714,7 @@
 						],
 						[
 							"5",
-							"{@spell raig d'incendi}, {@spell shatter}"
+							"{@spell raig d'incendi}, {@spell esclatar}"
 						],
 						[
 							"9",
@@ -3956,7 +3956,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Battle Smith Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Battle Smith Spells",
@@ -4125,7 +4125,7 @@
 				"An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificier|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -4152,7 +4152,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
+				"{@i tret d'Armadura a nivell 3}",
 				"You can customize your power armor. When you do so, choose one of the following model d'armaduras: guardian or infiltrator. The model you choose gives you special benefits while you wear it.",
 				"Each model includes a special weapon. When you attack with that weapon, you can use el teu modificador d'Intel·ligència, instead of Força or Destresa, for the attack and damage rolls.",
 				"You can change your power armor's model quan acabis un Descans Curt o Llarg, provided you have {@item eines de ferrer|PHB} in hand.",
@@ -4220,8 +4220,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
-				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Conjurs d'Armadura table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"{@i tret d'Armadura a nivell 3}",
+				"You always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Conjurs d'Armadura table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Conjurs d'Armadura",
@@ -4240,7 +4240,7 @@
 						],
 						[
 							"5",
-							"{@spell imatge mirall}, {@spell shatter}"
+							"{@spell imatge mirall}, {@spell esclatar}"
 						],
 						[
 							"9",
@@ -4269,7 +4269,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
+				"{@i tret d'Armadura a nivell 3}",
 				"Your metallurgical pursuits have led to you making armor a conduit for your artificer magic. Com a acció, you can turn a suit of heavy armor you are wearing into power armor, provided you have {@item eines de ferrer|PHB} in hand.",
 				"Reps els beneficis següents while wearing the power armor:",
 				{
@@ -4284,7 +4284,7 @@
 			]
 		},
 		{
-			"name": "Tools of the Trade",
+			"name": "L'Eina per a la Feina",
 			"source": "UA2020SubclassesPt3",
 			"page": 1,
 			"className": "Artificier",
@@ -4294,7 +4294,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i tret de Armorer a nivell 3}",
+				"{@i tret d'Armadura a nivell 3}",
 				"Tens competència amb heavy armor. You also gain proficiency with {@item eines de ferrer|PHB}. If you already have this tool proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
 			]
 		},
@@ -4309,12 +4309,12 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"{@i tret de Armorer a nivell 5}",
+				"{@i tret d'Armadura a nivell 5}",
 				"You can attack twice, rather than once, quan prèns l'acció {@action Atacar} en el teu torn."
 			]
 		},
 		{
-			"name": "Armor Modifications",
+			"name": "Modificacions d'Armadura",
 			"source": "UA2020SubclassesPt3",
 			"page": 1,
 			"className": "Artificier",
@@ -4324,12 +4324,12 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i tret de Armorer a nivell 9}",
+				"{@i tret d'Armadura a nivell 9}",
 				"You learn how to use your artificer infusions to specially modify the armor enhanced by your Power Armor feature. That armor now counts as separate items for the purposes of your Infusionar Objectes feature: armor (the chest piece), boots, bracers, and a weapon. Each of those items can bear one of your infusions. A més, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your power armor."
 			]
 		},
 		{
-			"name": "Perfected Armor",
+			"name": "Armadura Perfeccionada",
 			"source": "UA2020SubclassesPt3",
 			"page": 1,
 			"className": "Artificier",
@@ -4339,7 +4339,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i tret de Armorer a nivell 15}",
+				"{@i tret d'Armadura a nivell 15}",
 				"Your power armor gains additional benefits based on its model, as shown below.",
 				{
 					"type": "entries",
@@ -4642,7 +4642,7 @@
 				"An Alchemist is an expert at combining exotic reagents to produce mystical effects. Among artificers, members of this subclass are the greatest healers, as well as the ones most adept at wielding dangerous chemicals.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer (Revisitat)|UAArtificerRevisited|Alchemist|UAArtificerRevisited|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificer (Revisitat)|UAArtificerRevisited|Alchemist|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -4683,7 +4683,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Alchemist Spells",
@@ -4721,7 +4721,7 @@
 			]
 		},
 		{
-			"name": "Tools of the Trade",
+			"name": "L'Eina per a la Feina",
 			"source": "UAArtificerRevisited",
 			"page": 6,
 			"className": "Artificer (Revisitat)",
@@ -4791,7 +4791,7 @@
 				"What are the best ways to store vast amounts of information? That question has occupied chroniclers and librarians for centuries. Scrolls and books were the finest information-storing methods for a long time, but the first Archivists imagined something greater: storing information in a real or an artificial mind. What library could match a mental archive capable of accessing information in seconds? As they work towards this goal, Archivists have become masters of storing knowledge and creating artificial intelligences fueled by magic. These techniques have yet to be perfected and institutionalized, and of all artificers, archivists are on the cutting edge of arcane science.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer (Revisitat)|UAArtificerRevisited|Archivist|UAArtificerRevisited|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificer (Revisitat)|UAArtificerRevisited|Archivist|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -4818,7 +4818,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Archivist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Archivist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Archivist Spells",
@@ -4942,7 +4942,7 @@
 			]
 		},
 		{
-			"name": "Tools of the Trade",
+			"name": "L'Eina per a la Feina",
 			"source": "UAArtificerRevisited",
 			"page": 7,
 			"className": "Artificer (Revisitat)",
@@ -5039,7 +5039,7 @@
 				"An Artillerist specializes in using magic to create explosions and defensive positions, as well as magic-infused sidearms\u2014especially wands\u2014that can be used on the battlefield. Artillerists were valued by all the armies of the Last War.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -5106,7 +5106,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Artillerist Spells",
@@ -5125,7 +5125,7 @@
 						],
 						[
 							"5",
-							"{@spell raig d'incendi}, {@spell shatter}"
+							"{@spell raig d'incendi}, {@spell esclatar}"
 						],
 						[
 							"9",
@@ -5144,7 +5144,7 @@
 			]
 		},
 		{
-			"name": "Tools of the Trade",
+			"name": "L'Eina per a la Feina",
 			"source": "UAArtificerRevisited",
 			"page": 9,
 			"className": "Artificer (Revisitat)",
@@ -5217,7 +5217,7 @@
 				"Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer (Revisitat)|UAArtificerRevisited|Battle Smith|UAArtificerRevisited|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificer (Revisitat)|UAArtificerRevisited|Battle Smith|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -5265,7 +5265,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Battle Smith Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Battle Smith Spells",
@@ -5320,7 +5320,7 @@
 			]
 		},
 		{
-			"name": "Tools of the Trade",
+			"name": "L'Eina per a la Feina",
 			"source": "UAArtificerRevisited",
 			"page": 11,
 			"className": "Artificer (Revisitat)",
