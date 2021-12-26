@@ -1569,16 +1569,16 @@
 			]
 		},
 		{
-			"name": "Artillerist",
-			"shortName": "Artillerist",
+			"name": "Artilleria",
+			"shortName": "Artilleria",
 			"source": "UAArtificerRevisited",
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
 			"page": 9,
 			"subclassFeatures": [
-				"Artillerist|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|3",
-				"Wand Prototype|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|6",
-				"Fortified Position|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|14"
+				"Artilleria|Artificer (Revisitat)|UAArtificerRevisited|Artilleria|UAArtificerRevisited|3",
+				"Wand Prototype|Artificer (Revisitat)|UAArtificerRevisited|Artilleria|UAArtificerRevisited|6",
+				"Posició Fortificada|Artificer (Revisitat)|UAArtificerRevisited|Artilleria|UAArtificerRevisited|14"
 			]
 		},
 		{
@@ -1722,8 +1722,8 @@
 			]
 		},
 		{
-			"name": "Artillerist",
-			"shortName": "Artillerist",
+			"name": "Artilleria",
+			"shortName": "Artilleria",
 			"source": "TCE",
 			"className": "Artificier",
 			"classSource": "TCE",
@@ -1761,10 +1761,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Artillerist|Artificier|TCE|Artillerist|TCE|3",
-				"Arcane Firearm|Artificier|TCE|Artillerist|TCE|5",
-				"Explosive Cannon|Artificier|TCE|Artillerist|TCE|9",
-				"Fortified Position|Artificier|TCE|Artillerist|TCE|15"
+				"Artilleria|Artificier|TCE|Artilleria|TCE|3",
+				"Pistola Arcana|Artificier|TCE|Artilleria|TCE|5",
+				"Morter Explosiu|Artificier|TCE|Artilleria|TCE|9",
+				"Posició Fortificada|Artificier|TCE|Artilleria|TCE|15"
 			]
 		},
 		{
@@ -1904,10 +1904,10 @@
 					"type": "entries",
 					"name": "Preparar i Llançar Conjurs",
 					"entries": [
-						"The Artificer table mostra les ranures de conjur que tens per llançar els artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
-						"Pots preparar la llista de artificer spells that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=Artificer}. Esculls un número de artificer spells equivalent al teu modificador d'Intel·ligència + half your artificer level, arrodonint a la baixa (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
+						"The Artificer table mostra les ranures de conjur que tens per llançar els conjurs d'artificier. To cast one of your conjurs d'artificier of 1st level or higher, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"Pots preparar la llista de conjurs d'artificier that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=Artificer}. Esculls un número de conjurs d'artificier equivalent al teu modificador d'Intel·ligència + half your artificer level, arrodonint a la baixa (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
 						"For example, if you are a artificier de nivell 5, you have four 1st-level and two 2nd-level ranures de conjur. With an Intel·ligència of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. Si et prepares el conjur de nivell 1 {@spell curar ferides}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells quan acabis un Descans Llarg. Preparar una nova llista de artificer spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
+						"You can change your list of prepared spells quan acabis un Descans Llarg. Preparar una nova llista de conjurs d'artificier requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
 					]
 				},
 				{
@@ -1917,14 +1917,14 @@
 						"La teva habilitat de llançament de conjurs pels conjurs de artificer és l'Intel·ligència; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intel·ligència whenever an artificer spell refers to your habilitat de llançament de conjurs. A més, you use el teu modificador d'Intel·ligència when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Conjur",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Conjur",
 							"attributes": [
 								"int"
 							]
@@ -2406,7 +2406,7 @@
 			"classSource": "UAArtificer",
 			"level": 1,
 			"entries": [
-				"Començant a nivell 1, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells {@spell detectar màgia} i {@spell identify}, and you can cast them as rituals. You don't need to provide a material component when casting {@spell identify} with this class feature."
+				"Començant a nivell 1, your understanding of magic items allows you to analyze and understand their secrets. You know the conjurs d'artificier {@spell detectar màgia} i {@spell identify}, and you can cast them as rituals. You don't need to provide a material component when casting {@spell identify} with this class feature."
 			]
 		},
 		{
@@ -2497,7 +2497,7 @@
 					"type": "entries",
 					"name": "Conjurs de Nivells 1 i Superiors Coneguts",
 					"entries": [
-						"You know three 1st-level spells (escull) from the artificer spell list (which appears at the end of this document). The Columna de Conjurs Coneguts de la taula de Artificer table mostra quan aprendràs més conjurs de artificer (escull) from this feature. Each of these spells must be of a level for which you have ranures de conjur on the Artificer table. A més, quan pugis de nivell en aquesta classe, pots escollir un dels artificer spells you know from this feature and replace it with another spell from the artificer spell list. The new spell must also be of a level for which you have ranures de conjur on the Artificer."
+						"You know three 1st-level spells (escull) from the artificer spell list (which appears at the end of this document). The Columna de Conjurs Coneguts de la taula de Artificer table mostra quan aprendràs més conjurs de artificer (escull) from this feature. Each of these spells must be of a level for which you have ranures de conjur on the Artificer table. A més, quan pugis de nivell en aquesta classe, pots escollir un dels conjurs d'artificier you know from this feature and replace it with another spell from the artificer spell list. The new spell must also be of a level for which you have ranures de conjur on the Artificer."
 					]
 				},
 				{
@@ -2507,14 +2507,14 @@
 						"La teva habilitat de llançament de conjurs pels conjurs de artificer és l'Intel·ligència; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intel·ligència whenever an artificer spell refers to your habilitat de llançament de conjurs. A més, you use el teu modificador d'Intel·ligència when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Conjur",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Conjur",
 							"attributes": [
 								"int"
 							]
@@ -2525,7 +2525,7 @@
 					"type": "entries",
 					"name": "Focus de Llançament de Conjurs",
 					"entries": [
-						"Pots emprar un {@item focus arcà|phb} com a focus de llançament de conjurs pel teus conjurs de artificer spells. See chapter 5, \"Equipment,\" in the Player's Handbook for various arcane focus options."
+						"Pots emprar un {@item focus arcà|phb} com a focus de llançament de conjurs pel teus conjurs de conjurs d'artificier. See chapter 5, \"Equipment,\" in the Player's Handbook for various arcane focus options."
 					]
 				}
 			]
@@ -2549,7 +2549,7 @@
 			"classSource": "UAArtificer",
 			"level": 4,
 			"entries": [
-				"Començant a nivell 4, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. Si ho fas and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell's effects occur. Instead, the spell transfers into that item for later use if the item doesn't already contain a spell from this feature.",
+				"Començant a nivell 4, you gain the ability to channel your conjurs d'artificier into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. Si ho fas and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell's effects occur. Instead, the spell transfers into that item for later use if the item doesn't already contain a spell from this feature.",
 				"Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intel·ligència score of at least 6. The spell is cast using your habilitat de llançament de conjurs, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell's range is self, it targets the creature that activates the item.",
 				"When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted. You can have a limited number of infused spells at the same time. The number equals el teu modificador d'Intel·ligència."
 			]
@@ -2843,10 +2843,10 @@
 					"type": "entries",
 					"name": "Preparar i Llançar Conjurs",
 					"entries": [
-						"The Artificer table mostra les ranures de conjur que tens per llançar els artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
-						"Pots preparar la llista de artificer spells that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=artificer (uaar)}. Esculls un número de artificer spells equivalent al teu modificador d'Intel·ligència + half your artificer level, arrodonint a la baixa (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
+						"The Artificer table mostra les ranures de conjur que tens per llançar els conjurs d'artificier. To cast one of your conjurs d'artificier of 1st level or higher, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"Pots preparar la llista de conjurs d'artificier that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=artificer (uaar)}. Esculls un número de conjurs d'artificier equivalent al teu modificador d'Intel·ligència + half your artificer level, arrodonint a la baixa (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
 						"For example, if you are a artificier de nivell 5, you have four 1st-level and two 2nd-level ranures de conjur. With an Intel·ligència of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. Si et prepares el conjur de nivell 1 {@spell curar ferides}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can change your list of prepared spells quan acabis un Descans Llarg. Preparar una nova llista de artificer spells requires time spent in tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
+						"You can change your list of prepared spells quan acabis un Descans Llarg. Preparar una nova llista de conjurs d'artificier requires time spent in tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
 					]
 				},
 				{
@@ -2856,14 +2856,14 @@
 						"La teva habilitat de llançament de conjurs pels conjurs de artificer és l'Intel·ligència; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intel·ligència whenever an artificer spell refers to your habilitat de llançament de conjurs. A més, you use el teu modificador d'Intel·ligència when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
-							"name": "Spell",
+							"name": "Conjur",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "Spell",
+							"name": "Conjur",
 							"attributes": [
 								"int"
 							]
@@ -2935,7 +2935,7 @@
 			"classSource": "UAArtificerRevisited",
 			"level": 3,
 			"entries": [
-				"A nivell 3, you choose the type of specialist you are: Alchemist, Archivist, or Artillerist, or Battle Smith, each of which is detailed at the end of the class's description. La teva elecció t'otorga trets als nivells 3, 6 i 14.",
+				"A nivell 3, you choose the type of specialist you are: Alchemist, Archivist, or Artilleria, or Battle Smith, each of which is detailed at the end of the class's description. La teva elecció t'otorga trets als nivells 3, 6 i 14.",
 				{
 					"type": "inset",
 					"name": "Variant: Crafting",
@@ -3174,7 +3174,7 @@
 				"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificier|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Competència en Eines|Artificier|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3209,7 +3209,7 @@
 					"caption": "Alchemist Spells",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3302,7 +3302,7 @@
 			]
 		},
 		{
-			"name": "Tool Proficiency",
+			"name": "Competència en Eines",
 			"source": "TCE",
 			"page": 14,
 			"otherSources": [
@@ -3318,7 +3318,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you adopt this specialization a nivell 3, tens competència amb {@item alchemist's supplies|PHB}. If you already have this proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
+				"Quan agafes aquesta especialització a nivell 3, tens competència amb {@item alchemist's supplies|PHB}. If you already have this proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
 			]
 		},
 		{
@@ -3442,7 +3442,7 @@
 					"type": "list",
 					"items": [
 						"Si l'armadura té un requeriment de Força, no la té per a tu.",
-						"La pots emprar com a focus de llançament arcà pels teus artificer spells.",
+						"La pots emprar com a focus de llançament arcà pels teus conjurs d'artificier.",
 						"L'armadura se't vincula i no se't pot treure en contra de la teva voluntat. També cobreix tot el teu cos, però en pots et pots treure o posar com a acció bonus. L'armadura reemplaça tota extremitat que falti, i funciona com si fos l'extremitat.",
 						"Pots posar-te i treure l'armadura com a acció. L'armadura continua sent una Armadura Arcana fins que et posis una altra armadura o moris."
 					]
@@ -3534,7 +3534,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret d'Armadura a nivell 3}",
-				"Tencs certs conjurs sempre preparats quan arribes a certs nivells en aquesta classe; consulta la taula de Conjurs d'Armadura. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
+				"Tens certs conjurs sempre preparats quan arribes a certs nivells en aquesta classe; consulta la taula de Conjurs d'Armadura. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
 					"caption": "Conjurs d'Armadura",
@@ -3647,7 +3647,7 @@
 			]
 		},
 		{
-			"name": "Artillerist",
+			"name": "Artilleria",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3658,28 +3658,28 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire.",
+				"An Artilleria specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire.",
 				"The gnome artificer Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: \"It's about time we fixed things instead of blowing them all to hell.\"",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificier|TCE|Artillerist|TCE|3"
+					"subclassFeature": "Competència en Eines|Artificier|TCE|Artilleria|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Artillerist Spells|Artificier|TCE|Artillerist|TCE|3"
+					"subclassFeature": "Conjurs d'Artilleria|Artificier|TCE|Artilleria|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eldritch Cannon|Artificier|TCE|Artillerist|TCE|3"
+					"subclassFeature": "Morter Èldritx|Artificier|TCE|Artilleria|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "Artillerist Spells",
+			"name": "Conjurs d'Artilleria",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3690,18 +3690,18 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Artillerist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
+				"Tens certs conjurs sempre preparats quan arribes a certs nivells en aquesta classe; consulta la taula de Conjurs d'Artilleria. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
-					"caption": "Artillerist Spells",
+					"caption": "Conjurs d'Artilleria",
 					"colLabels": [
-						"Artificer Level",
-						"Spell"
+						"Nivell d'Artilleria",
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3733,7 +3733,7 @@
 			]
 		},
 		{
-			"name": "Eldritch Cannon",
+			"name": "Morter Èldritx",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3744,21 +3744,21 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, you learn how to create a magical cannon. Using {@item woodcarver's eines|PHB} or {@item eines de ferrer|PHB}, you can take an action to magically create a Small or Tiny eldritch cannon en un espai desocupat on a horizontal surface a 5 peus de tu. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.",
-				"Once you create a cannon, no pots tornar-hi fins que acabis un Descans Llarg or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.",
-				"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of punts de vida equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending} spell is cast on it, it regains {@dice 2d6} punts de vida. It disappears if it is reduced to 0 punts de vida or after 1 hour. You can dismiss it early com a acció.",
-				"When you create the cannon, en determines l'aparença and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. A cada torn teu, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb fins a 15 peus en un espai desocupat, provided it has legs.",
+				"A nivell 3, aprèns a crear un canó màgic. Amb {@item eines de fuster|PHB} o bé {@item eines de ferrer|PHB} i una acció pots, màgicament, crear un morter èldritx petit o diminut en un espai desocupat sobre una superfície horitzontal a 5 peus de tu. Un morter èldritx Petit ocupa el seu espai, i un de Diminut es pot dur amb una mà.",
+				"Un cop creïs un morter, no pots tornar-hi fins que acabis un Descans Llarg o fins que gastis una ranura de conjur per a tornar-hi. Només pots tenir 1 morter present; si ja n'existeix un, no en pots crear un altre.",
+				"El morter és un objecte màgic. Sigui del tamany que sigui: té una CA de 18; punts de vida equivalent a 5 vegades el teu nivell d'artificies; és immune a dany de verí i psíquic i a totes les condicions; i si ha de fer una tirada d'habilitat o de salvació, considera totes les seves habilitats com un 10 (+0). Si se li llança el conjur {@spell apedaçar} recupera {@dice 2d6} punts de vida. Desapareix: si es queda 0 punts de vida; passada 1 hora; o si el dissipes com a acció.",
+				"Quan crees el morter, en determines l'aparença i si té cames. També en decideixes quin tipus és d'un de la taula de Morters Èldritx. A cada torn teu, com a acció bonus, pots activar el morter si està a 60 peus d'abast. Com a part de l'acció bonus, pots ordenar al canó que camini o escali fins a 15 peus en un espai desocupat, si és que té cames.",
 				{
 					"type": "table",
-					"caption": "Eldritch Cannons",
+					"caption": "Morter Èldritxs",
 					"colLabels": [
-						"Cannon",
-						"Activation"
+						"Morter",
+						"Activació"
 					],
 					"colStyles": [
 						"col-2",
@@ -3766,23 +3766,23 @@
 					],
 					"rows": [
 						[
-							"Flamethrower",
-							"The cannon exhales fire in an adjacent 15-foot cone that you designate. Tota criatura dins de l'àrea ha de salvar per Destresa contra la teva CD de salvació de conjur, taking {@damage 2d8} de dany de foc si falla ; si supera, en rep la meitat. El foc encèn tot objecte inflamable dins de l'àrea que ningú estigui portant o vestint."
+							"Llançaflames",
+							"El morter exhala foc en un con de 15 peus en la direcció que escullis. Tota criatura dins de l'àrea ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli rep {@damage 2d8} de dany de foc; qui superi, en rep la meitat. El foc encèn tot objecte inflamable dins de l'àrea que ningú estigui portant o vestint."
 						],
 						[
-							"Force Ballista",
-							"Make a atac màgic a distància, originating from the cannon, at one creature or object within 120 feet of it. On a hit, L'objectiu rep {@damage 2d8} de dany de força, and if the target is a creature, it is pushed fins a 5 peus away from the cannon."
+							"Balista de Força",
+							"Fes un atac màgic a distància que surt del canó contra una criatura o objecte a 120 peus d'abast. Si impacta, l'objectiu rep {@damage 2d8} de dany de força, i si l'objectiu és una criatura, és empesa a 5 peus lluny del morter."
 						],
 						[
 							"Protector",
-							"The cannon emits a burst of positive energy that grants itself and tota criatura que designis within 10 feet of it a number of punts de vida temporals equal to {@damage 1d8} + el teu modificador d'Intel·ligència (mínim de +1)."
+							"El canó emet una onada d'energia positiva que l'otorga a alell i a tota criatura que designis a 10 peus d'abast {@damage 1d8} + el teu modificador d'Intel·ligència (mínim de +1) punts de vida temporals."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Tool Proficiency",
+			"name": "Competència en Eines",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3793,16 +3793,16 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you adopt this specialization a nivell 3, tens competència amb {@item woodcarver's eines|PHB}. If you already have this proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
+				"Quan agafes aquesta especialització a nivell 3, tens competència amb {@item eines de fuster|PHB}. Si ja la tenies, obténs competència amb un altre tipus d'{@item eines d'artesania|PHB} (escull)."
 			]
 		},
 		{
-			"name": "Arcane Firearm",
+			"name": "Pistola Arcana",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3813,17 +3813,17 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"A nivell 5, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. Quan acabis un Descans Llarg, you can use {@item woodcarver's eines|PHB} to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
-				"You can use your arcane firearm com a focus de llançament arcà pels teus artificer spells. When you cast an artificer spell through the firearm, roll a {@damage d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
+				"A nivell 5, aprèns a convertir una vareta, vara, o ceptre en una pistola arcana: un conductor pels teus conjurs destructius. Quan acabis un Descans Llarg, empres {@item eines de fuster|PHB} per escriure segells arcans especials en una vareta, vara, o ceptre i el tornes la teva pistola arcana. Els segells desapareixen si els escrius en un altre objecte posteriorment; si no ho fas, perduren indefinidament.",
+				"Pots fer servir la pistola arcana com a focus de llançament arcà pels teus conjurs d'artificier. Quan llances un conjur d'artificier a través de la teva pistola arcana, pots sumar {@damage d8} a una de les tirades de dany del conjur."
 			]
 		},
 		{
-			"name": "Explosive Cannon",
+			"name": "Morter Explosiu",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3834,23 +3834,23 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 9, every eldritch cannon you create is more destructive:",
+				"Començant a nivell 9, tot morter èldritx que crees esdevé més perillós:",
 				{
 					"type": "list",
 					"items": [
-						"The cannon's damage rolls all increase by {@damage 1d8}.",
-						"Com a acció, you can command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces tota criatura within 20 feet of it to make a Destresa contra la teva CD de salvació de conjur, taking {@damage 3d8} de dany de força si falla ; si supera, en rep la meitat."
+						"Tota tirada de dany del canó incrementa en {@damage 1d8}.",
+						"Com a acció, ordenes al canó que detoni si està a 60 peus de tu. Això destrueix el canó i fa salvar a tota criatura a 20 peus d'ell per Destresa contra la teva CD de salvació de conjur. Qui falli rep {@damage 3d8} de dany de força; qui superi, en rep la meitat."
 					]
 				}
 			]
 		},
 		{
-			"name": "Fortified Position",
+			"name": "Posició Fortificada",
 			"source": "TCE",
 			"page": 17,
 			"otherSources": [
@@ -3861,17 +3861,17 @@
 			],
 			"className": "Artificier",
 			"classSource": "TCE",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "TCE",
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 15, you're a master at forming well-defended emplacements using Eldritch Cannon:",
+				"Començant a nivell 15, aprèns a crear emplaçaments ben defensata amb el teu Morter Èldritx:",
 				{
 					"type": "list",
 					"items": [
-						"You and your allies have half cover while within 10 feet of a cannon you create with Eldritch Cannon, as a result of a shimmering field of magical protection that the cannon emits.",
-						"You can now have two cannons at the same time. You can create two with the same action (but not the same spell slot), and you can activate both of them with the same bonus action. You determine whether the cannons are identical to each other or different. You can't create a third cannon while you have two."
+						"Tu i els teus aliats teniu cobertura mitja mentre estigueu a 10 peus del teu Morter Èldritx: un camp brillant de protecció màgica surt del canó que us guareix.",
+						"Pots tenir 2 morters alhora. Pots crear els 2 amb una sola acció (però has de gastar una ranura de conjur per cadascun), i pots activar els dos amb la mateixa acció bonus. Escull si els canons són idèntics o diferents. No pots crear un tercer canó mentre en tinguis 2."
 					]
 				}
 			]
@@ -3896,7 +3896,7 @@
 				"Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificier|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "Competència en Eines|Artificier|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3962,7 +3962,7 @@
 					"caption": "Battle Smith Spells",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4012,12 +4012,12 @@
 			"entries": [
 				"A nivell 3, your tinkering has borne you a faithful companion, a {@creature defensor d'acer|tce}. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the defensor d'acer stat block, which uses el teu bonus de competència (BC) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.",
 				"In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, the defender can take any action of its choice, not just {@action Esquivar}.",
-				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item eines de ferrer|PHB} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The defensor d'acer returns to life after 1 minute with all its punts de vida restored.",
+				"If the {@spell apedaçar} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item eines de ferrer|PHB} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The defensor d'acer returns to life after 1 minute with all its punts de vida restored.",
 				"Quan acabis un Descans Llarg, you can create a new defensor d'acer if you have your {@item eines de ferrer|PHB} with you. If you already have a defensor d'acer from this feature, the first one immediately perishes. The defender also perishes if you die."
 			]
 		},
 		{
-			"name": "Tool Proficiency",
+			"name": "Competència en Eines",
 			"source": "TCE",
 			"page": 18,
 			"otherSources": [
@@ -4033,7 +4033,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you adopt this specialization a nivell 3, tens competència amb {@item eines de ferrer|PHB}. If you already have this proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
+				"Quan agafes aquesta especialització a nivell 3, tens competència amb {@item eines de ferrer|PHB}. If you already have this proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
 			]
 		},
 		{
@@ -4227,7 +4227,7 @@
 					"caption": "Conjurs d'Armadura",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4276,7 +4276,7 @@
 					"type": "list",
 					"items": [
 						"If the armor normally has a Força requirement, the power armor lacks this requirement for you.",
-						"You can use the power armor com a focus de llançament arcà pels teus artificer spells.",
+						"You can use the power armor com a focus de llançament arcà pels teus conjurs d'artificier.",
 						"The power armor attaches to you and can't be removed against your will. It also expands to cover your entire body, and it replaces any missing limbs, functioning identically to a body part it is replacing."
 					]
 				},
@@ -4669,7 +4669,7 @@
 				"Quan acabis un Descans Llarg and your {@item alchemist's supplies|PHB} are with you, you can form this homunculus en un espai desocupat a 5 peus de tu. If you already have a homunculus from this feature, the first one immediately dies.",
 				"The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the {@creature Alchemical Homunculus|uaartificerrevisited} stat block. You determine the homunculus's appearance, which includes wings and bits of alchemical equipment. Some alchemists prefer mechanical-looking birds, whereas others like winged vials or miniature cauldrons.",
 				"In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or to take l'acció {@action Córrer}, {@action Destravar-se}, or {@action Ajudar}.",
-				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item alchemist's supplies|PHB} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its punts de vida restored."
+				"If the {@spell apedaçar} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item alchemist's supplies|PHB} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its punts de vida restored."
 			]
 		},
 		{
@@ -4689,7 +4689,7 @@
 					"caption": "Alchemist Spells",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4824,7 +4824,7 @@
 					"caption": "Archivist Spells",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -5027,27 +5027,27 @@
 			]
 		},
 		{
-			"name": "Artillerist",
+			"name": "Artilleria",
 			"source": "UAArtificerRevisited",
 			"page": 9,
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "UAArtificerRevisited",
 			"level": 3,
 			"entries": [
-				"An Artillerist specializes in using magic to create explosions and defensive positions, as well as magic-infused sidearms\u2014especially wands\u2014that can be used on the battlefield. Artillerists were valued by all the armies of the Last War.",
+				"An Artilleria specializes in using magic to create explosions and defensive positions, as well as magic-infused sidearms\u2014especially wands\u2014that can be used on the battlefield. Artillerias were valued by all the armies of the Last War.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "L'Eina per a la Feina|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|3"
+					"subclassFeature": "L'Eina per a la Feina|Artificer (Revisitat)|UAArtificerRevisited|Artilleria|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Artillerist Spells|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|3"
+					"subclassFeature": "Conjurs d'Artilleria|Artificer (Revisitat)|UAArtificerRevisited|Artilleria|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Turret|Artificer (Revisitat)|UAArtificerRevisited|Artillerist|UAArtificerRevisited|3"
+					"subclassFeature": "Arcane Turret|Artificer (Revisitat)|UAArtificerRevisited|Artilleria|UAArtificerRevisited|3"
 				}
 			]
 		},
@@ -5057,13 +5057,13 @@
 			"page": 9,
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "UAArtificerRevisited",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"A nivell 3, you learn how to create a magical turret. With your {@item eines de ferrer|phb} in hand, you can take an action to magically summon a Medium turret en un espai desocupat on a horizontal surface a 5 peus de tu.",
-				"The turret is a magical object that occupies its space and that has crablike legs. It has an AC of 18 and a number of punts de vida equal to five times your artificer level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending} spell is cast on it, it regains {@dice 2d6} punts de vida. It disappears if it is reduced to 0 punts de vida or after 10 minutes. You can dismiss it early com a acció.",
+				"The turret is a magical object that occupies its space and that has crablike legs. It has an AC of 18 and a number of punts de vida equal to five times your artificer level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell apedaçar} spell is cast on it, it regains {@dice 2d6} punts de vida. It disappears if it is reduced to 0 punts de vida or after 10 minutes. You can dismiss it early com a acció.",
 				"When you summon the turret, you decide which type it is, choosing from the options on the Arcane Turrets table. A cada torn teu, you can take a bonus action to cause the turret to activate if you are within 60 feet of it. As part of the same action, you can direct the turret to walk or climb fins a 15 peus en un espai desocupat.",
 				"You can summon a turret once for free and must finish a long rest before doing so again. You can also summon the turret by expending a spell slot of 1st level or higher. If you summon a second turret, the first turret disappears.",
 				"Com a acció, you can command your turret to detonate if you are within 60 feet of it. Doing so destroys the turret and forces tota criatura within 10 feet of it to make a Destresa contra la teva CD de salvació de conjur, taking {@damage 3d6} de dany de força si falla ; si supera, en rep la meitat.",
@@ -5096,12 +5096,12 @@
 			]
 		},
 		{
-			"name": "Artillerist Spells",
+			"name": "Conjurs d'Artilleria",
 			"source": "UAArtificerRevisited",
 			"page": 9,
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "UAArtificerRevisited",
 			"level": 3,
 			"header": 1,
@@ -5109,10 +5109,10 @@
 				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Alchemist Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
-					"caption": "Artillerist Spells",
+					"caption": "Conjurs d'Artilleria",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -5149,7 +5149,7 @@
 			"page": 9,
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "UAArtificerRevisited",
 			"level": 3,
 			"header": 1,
@@ -5159,8 +5159,8 @@
 					"type": "entries",
 					"name": "Proficiencies",
 					"entries": [
-						"Tens competència amb {@item eines de ferrer|phb} i {@item woodcarver's eines|phb}, assuming you don't already have them. You also gain those tools for free\u2014the result of tinkering you've done as you've prepared for this specialization.",
-						"A més, you gain the ability to use rods, staffs, and wands as spellcasting focuses for your artificer spells. You also gain a nonmagical, wooden wand for free, which you've carved in your spare time."
+						"Tens competència amb {@item eines de ferrer|phb} i {@item eines de fuster|phb}, assuming you don't already have them. You also gain those tools for free\u2014the result of tinkering you've done as you've prepared for this specialization.",
+						"A més, you gain the ability to use rods, staffs, and wands as spellcasting focuses for your conjurs d'artificier. You also gain a nonmagical, wooden wand for free, which you've carved in your spare time."
 					]
 				},
 				{
@@ -5178,23 +5178,23 @@
 			"page": 9,
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "UAArtificerRevisited",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you now regularly experiment with channeling different types of magic through wands. Quan acabis un Descans Llarg and your {@item woodcarver's eines|phb} are with you, you can touch a nonmagical, wooden wand and turn it into a magic item. When you do so, you invest it with one artificer cantrip (escull)\u2014even one you don't know\u2014that has a casting time of 1 action. Com a acció, you can cause the magic wand to produce the cantrip, using your modificador d'habilitat de llançament de conjurs (other creatures are unable to use the wand's magic). The wand loses this magic when you finish your next long rest.",
+				"A nivell 6, you now regularly experiment with channeling different types of magic through wands. Quan acabis un Descans Llarg and your {@item eines de fuster|phb} are with you, you can touch a nonmagical, wooden wand and turn it into a magic item. When you do so, you invest it with one artificer cantrip (escull)\u2014even one you don't know\u2014that has a casting time of 1 action. Com a acció, you can cause the magic wand to produce the cantrip, using your modificador d'habilitat de llançament de conjurs (other creatures are unable to use the wand's magic). The wand loses this magic when you finish your next long rest.",
 				"Any damage roll you make for a cantrip in the wand gains a bonus equivalent al teu modificador d'Intel·ligència (mínim de +1).",
 				"Quan arribes a nivell 14 en aquesta classe, you can invest the wand with two cantrips quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Fortified Position",
+			"name": "Posició Fortificada",
 			"source": "UAArtificerRevisited",
 			"page": 9,
 			"className": "Artificer (Revisitat)",
 			"classSource": "UAArtificerRevisited",
-			"subclassShortName": "Artillerist",
+			"subclassShortName": "Artilleria",
 			"subclassSource": "UAArtificerRevisited",
 			"level": 14,
 			"header": 2,
@@ -5271,7 +5271,7 @@
 					"caption": "Battle Smith Spells",
 					"colLabels": [
 						"Artificer Level",
-						"Spell"
+						"Conjur"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -5280,7 +5280,7 @@
 					"rows": [
 						[
 							"3",
-							"{@spell heroisme}, {@spell searing smite}"
+							"{@spell heroisme}, {@spell càstig abrasador}"
 						],
 						[
 							"5",
@@ -5288,7 +5288,7 @@
 						],
 						[
 							"9",
-							"{@spell aura vital}, {@spell blinding smite}"
+							"{@spell aura vital}, {@spell càstig cegador}"
 						],
 						[
 							"13",
@@ -5315,7 +5315,7 @@
 			"entries": [
 				"A nivell 3, the tinkering in your free time has borne you a faithful companion, an iron defender. This metallic creature resembles a hound, a cougar, a bear, or another four-legged creature (escull). It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the {@creature iron defender|uaartificerrevisited} stat block.",
 				"In combat, the iron defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or l'acció {@action Córrer}, {@action Destravar-se}, or {@action Ajudar}.",
-				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item eines de ferrer|phb} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The iron defender returns to life after 1 minute with all its punts de vida restored.",
+				"If the {@spell apedaçar} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item eines de ferrer|phb} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The iron defender returns to life after 1 minute with all its punts de vida restored.",
 				"Quan acabis un Descans Llarg, you can create a new iron defender if you have your {@item eines de ferrer|phb} with you. If you already have an iron defender from this feature, the first one immediately perishes."
 			]
 		},
