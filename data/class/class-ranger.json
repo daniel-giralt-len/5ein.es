@@ -70,7 +70,7 @@
 				"default": [
 					"(a) {@item scale mail|phb} o bé (b) {@item armadura de cuir|phb}",
 					"(a) dos {@item shortsword|phb|shortswords} o bé (b) dos {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"(a) una {@item pack de masmorreig|phb} o bé (b) an {@item pack d'exploració|phb}",
+					"(a) una {@item pack de masmorreig|phb} o bé (b) un {@item pack d'exploració|phb}",
 					"Una {@item longbow|phb} i una {@item quiver|phb} de {@item arrows (20)|phb|20 arrows}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Ors Inicials}",
@@ -369,12 +369,12 @@
 				}
 			],
 			"classFeatures": [
-				"Favored Enemy|Explorador||1",
-				"Favored Foe|Explorador||1|UAClassFeatureVariants",
-				"Favored Foe|Explorador||1|TCE",
+				"Enemic Predilecte|Explorador||1",
+				"Enemic Favorit|Explorador||1|UAClassFeatureVariants",
+				"Enemic Favorit|Explorador||1|TCE",
 				"Natural Explorer|Explorador||1",
-				"Deft Explorer|Explorador||1|UAClassFeatureVariants",
-				"Deft Explorer|Explorador||1|TCE",
+				"Exploració Hàbil|Explorador||1|UAClassFeatureVariants",
+				"Exploració Hàbil|Explorador||1|TCE",
 				"Estil de Lluita|Explorador||2",
 				"Versatilitat Marcial|Explorador||2|UAClassFeatureVariants",
 				"Llançament de Conjurs|Explorador||2",
@@ -392,8 +392,8 @@
 				"Competència Versàtil|Explorador||4|UAClassFeatureVariants",
 				"Versatilitat Marcial|Explorador||4|TCE",
 				"Atac Extra|Explorador||5",
-				"Favored Enemy and Natural Explorer improvements|Explorador||6",
-				"Deft Explorer Improvement|Explorador||6|TCE",
+				"Enemic Predilecte and Natural Explorer improvements|Explorador||6",
+				"Exploració Hàbil Improvement|Explorador||6|TCE",
 				{
 					"classFeature": "Ranger Archetype feature|Explorador||7",
 					"gainSubclassFeature": true
@@ -405,7 +405,7 @@
 				"Fade Away|Explorador||10|UAClassFeatureVariants",
 				"Nature's Veil|Explorador||10|TCE",
 				"Natural Explorer improvement|Explorador||10",
-				"Deft Explorer Improvement|Explorador||10|TCE",
+				"Exploració Hàbil Improvement|Explorador||10|TCE",
 				{
 					"classFeature": "Ranger Archetype feature|Explorador||11",
 					"gainSubclassFeature": true
@@ -413,7 +413,7 @@
 				"Millora de Puntuació de Característica|Explorador||12",
 				"Competència Versàtil|Explorador||12|UAClassFeatureVariants",
 				"Vanish|Explorador||14",
-				"Favored Enemy improvement|Explorador||14",
+				"Enemic Predilecte improvement|Explorador||14",
 				{
 					"classFeature": "Ranger Archetype feature|Explorador||15",
 					"gainSubclassFeature": true
@@ -439,7 +439,7 @@
 							"type": "entries",
 							"name": "Deadly Hunters",
 							"entries": [
-								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.",
+								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific enemic favorits.",
 								"Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature's power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger's talents and abilities are honed with deadly focus on the grim task of protecting the borderlands."
 							]
 						},
@@ -455,7 +455,7 @@
 							"type": "entries",
 							"name": "Creating a Explorador",
 							"entries": [
-								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
+								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your enemic predilecte? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
 								"What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
 								{
 									"type": "entries",
@@ -564,7 +564,7 @@
 							"name": "Homelands",
 							"entries": [
 								"All rangers, regardless of how they came to take up the profession, have a strong connection to the natural world and its various terrains. For some rangers, the wilderness is where they grew up, either as a result of being born there or moving there at a young age. For other rangers, civilization was originally home, but the wilderness became a second homeland.",
-								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your favored enemies are?",
+								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your enemics predilectes are?",
 								{
 									"type": "table",
 									"caption": "Homelands",
@@ -639,7 +639,7 @@
 							"type": "entries",
 							"name": "Sworn Enemy",
 							"entries": [
-								"Every ranger begins with a favored enemy (or two). The determination of a favored enemy might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
+								"Every ranger begins with a enemic predilecte (or two). The determination of a enemic predilecte might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
 								"What spurred your character to select a particular enemy? Was the choice made because of tradition or curiosity, or do you have a grudge to settle?",
 								{
 									"type": "table",
@@ -875,12 +875,12 @@
 				}
 			],
 			"classFeatures": [
-				"Favored Enemy|Ranger (Spell-less)|UAModifyingClasses|1",
-				"Favored Foe|Ranger (Spell-less)|UAModifyingClasses|1|UAClassFeatureVariants",
-				"Favored Foe|Ranger (Spell-less)|UAModifyingClasses|1|TCE",
+				"Enemic Predilecte|Ranger (Spell-less)|UAModifyingClasses|1",
+				"Enemic Favorit|Ranger (Spell-less)|UAModifyingClasses|1|UAClassFeatureVariants",
+				"Enemic Favorit|Ranger (Spell-less)|UAModifyingClasses|1|TCE",
 				"Natural Explorer|Ranger (Spell-less)|UAModifyingClasses|1",
-				"Deft Explorer|Ranger (Spell-less)|UAModifyingClasses|1|UAClassFeatureVariants",
-				"Deft Explorer|Ranger (Spell-less)|UAModifyingClasses|1|TCE",
+				"Exploració Hàbil|Ranger (Spell-less)|UAModifyingClasses|1|UAClassFeatureVariants",
+				"Exploració Hàbil|Ranger (Spell-less)|UAModifyingClasses|1|TCE",
 				"Estil de Lluita|Ranger (Spell-less)|UAModifyingClasses|2",
 				"Versatilitat Marcial|Ranger (Spell-less)|UAModifyingClasses|2|UAClassFeatureVariants",
 				"Superioritat Bèl·lica|Ranger (Spell-less)|UAModifyingClasses|2",
@@ -897,8 +897,8 @@
 				"Versatilitat Marcial|Ranger (Spell-less)|UAModifyingClasses|4|TCE",
 				"Atac Extra|Ranger (Spell-less)|UAModifyingClasses|5",
 				"Additional Maneuvers|Ranger (Spell-less)|UAModifyingClasses|5",
-				"Favored Enemy and Natural Explorer improvements|Ranger (Spell-less)|UAModifyingClasses|6",
-				"Deft Explorer Improvement|Ranger (Spell-less)|UAModifyingClasses|6|TCE",
+				"Enemic Predilecte and Natural Explorer improvements|Ranger (Spell-less)|UAModifyingClasses|6",
+				"Exploració Hàbil Improvement|Ranger (Spell-less)|UAModifyingClasses|6|TCE",
 				{
 					"classFeature": "Ranger Archetype feature|Ranger (Spell-less)|UAModifyingClasses|7",
 					"gainSubclassFeature": true
@@ -912,7 +912,7 @@
 				"Fade Away|Ranger (Spell-less)|UAModifyingClasses|10|UAClassFeatureVariants",
 				"Nature's Veil|Ranger (Spell-less)|UAModifyingClasses|10|TCE",
 				"Natural Explorer improvement|Ranger (Spell-less)|UAModifyingClasses|10",
-				"Deft Explorer Improvement|Ranger (Spell-less)|UAModifyingClasses|10|TCE",
+				"Exploració Hàbil Improvement|Ranger (Spell-less)|UAModifyingClasses|10|TCE",
 				{
 					"classFeature": "Ranger Archetype feature|Ranger (Spell-less)|UAModifyingClasses|11",
 					"gainSubclassFeature": true
@@ -922,7 +922,7 @@
 				"Call Natural Allies|Ranger (Spell-less)|UAModifyingClasses|13",
 				"Additional Maneuvers|Ranger (Spell-less)|UAModifyingClasses|13",
 				"Vanish|Ranger (Spell-less)|UAModifyingClasses|14",
-				"Favored Enemy improvement|Ranger (Spell-less)|UAModifyingClasses|14",
+				"Enemic Predilecte improvement|Ranger (Spell-less)|UAModifyingClasses|14",
 				{
 					"classFeature": "Ranger Archetype feature|Ranger (Spell-less)|UAModifyingClasses|15",
 					"gainSubclassFeature": true
@@ -950,7 +950,7 @@
 							"type": "entries",
 							"name": "Deadly Hunters",
 							"entries": [
-								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.",
+								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific enemic favorits.",
 								"Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature's power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger's talents and abilities are honed with deadly focus on the grim task of protecting the borderlands."
 							]
 						},
@@ -966,7 +966,7 @@
 							"type": "entries",
 							"name": "Creating a Explorador",
 							"entries": [
-								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
+								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your enemic predilecte? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
 								"What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
 								{
 									"type": "entries",
@@ -1075,7 +1075,7 @@
 							"name": "Homelands",
 							"entries": [
 								"All rangers, regardless of how they came to take up the profession, have a strong connection to the natural world and its various terrains. For some rangers, the wilderness is where they grew up, either as a result of being born there or moving there at a young age. For other rangers, civilization was originally home, but the wilderness became a second homeland.",
-								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your favored enemies are?",
+								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your enemics predilectes are?",
 								{
 									"type": "table",
 									"caption": "Homelands",
@@ -1150,7 +1150,7 @@
 							"type": "entries",
 							"name": "Sworn Enemy",
 							"entries": [
-								"Every ranger begins with a favored enemy (or two). The determination of a favored enemy might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
+								"Every ranger begins with a enemic predilecte (or two). The determination of a enemic predilecte might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
 								"What spurred your character to select a particular enemy? Was the choice made because of tradition or curiosity, or do you have a grudge to settle?",
 								{
 									"type": "table",
@@ -1674,7 +1674,7 @@
 				}
 			],
 			"classFeatures": [
-				"Favored Enemy|Ranger (Revised)|UATheRangerRevised|1",
+				"Enemic Predilecte|Ranger (Revised)|UATheRangerRevised|1",
 				"Natural Explorer|Ranger (Revised)|UATheRangerRevised|1",
 				"Llançament de Conjurs|Ranger (Revised)|UATheRangerRevised|2",
 				"Estil de Lluita|Ranger (Revised)|UATheRangerRevised|2",
@@ -1691,7 +1691,7 @@
 					"classFeature": "Ranger Conclave feature|Ranger (Revised)|UATheRangerRevised|5",
 					"gainSubclassFeature": true
 				},
-				"Greater Favored Enemy|Ranger (Revised)|UATheRangerRevised|6",
+				"Greater Enemic Predilecte|Ranger (Revised)|UATheRangerRevised|6",
 				{
 					"classFeature": "Ranger Conclave feature|Ranger (Revised)|UATheRangerRevised|7",
 					"gainSubclassFeature": true
@@ -1732,7 +1732,7 @@
 							"type": "entries",
 							"name": "Deadly Hunters",
 							"entries": [
-								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.",
+								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific enemic favorits.",
 								"Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature's power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger's talents and abilities are honed with deadly focus on the grim task of protecting the borderlands."
 							]
 						},
@@ -1748,7 +1748,7 @@
 							"type": "entries",
 							"name": "Creating a Explorador",
 							"entries": [
-								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
+								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your enemic predilecte? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
 								"What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
 								{
 									"type": "entries",
@@ -1857,7 +1857,7 @@
 							"name": "Homelands",
 							"entries": [
 								"All rangers, regardless of how they came to take up the profession, have a strong connection to the natural world and its various terrains. For some rangers, the wilderness is where they grew up, either as a result of being born there or moving there at a young age. For other rangers, civilization was originally home, but the wilderness became a second homeland.",
-								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your favored enemies are?",
+								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your enemics predilectes are?",
 								{
 									"type": "table",
 									"caption": "Homelands",
@@ -1932,7 +1932,7 @@
 							"type": "entries",
 							"name": "Sworn Enemy",
 							"entries": [
-								"Every ranger begins with a favored enemy (or two). The determination of a favored enemy might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
+								"Every ranger begins with a enemic predilecte (or two). The determination of a enemic predilecte might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
 								"What spurred your character to select a particular enemy? Was the choice made because of tradition or curiosity, or do you have a grudge to settle?",
 								{
 									"type": "table",
@@ -3175,7 +3175,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "Canny",
+			"name": "Murri",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"className": "Explorador",
@@ -3188,7 +3188,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer",
+			"name": "Exploració Hàbil",
 			"source": "TCE",
 			"page": 56,
 			"className": "Explorador",
@@ -3196,20 +3196,20 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 1, which replaces the Natural Explorer feature}",
-				"You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below quan arribes a nivell 6 and 10th level en aquesta classe.",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 1, que substitueix el tret Natural Explorer}",
+				"Ets un/a/i explorador/a/i i supervivent sense igual, tant en els llocs salvatges com interactuant amb altres que viatgen. Reps els tret Murri, i un benefici extra dels llistats quan arribes a nivell 6 i 10 en aquesta classe.",
 				{
-					"name": "Canny",
+					"name": "Murri",
 					"type": "entries",
 					"entries": [
-						"Escull 1 habilitat amb la que tinguis competència. El teu bonus de competència is doubled for any ability check you make that uses the chosen skill.",
-						"You can also speak, read, and write two additional languages (escull)."
+						"Escull 1 habilitat amb la que tinguis competència. El teu bonus de competència es duplica per qualsevol tirada d'habilitat feta amb aquesta habilitat.",
+						"També aprèns a parlar, llegir, i escriure 2 idiomes extra (escull)."
 					]
 				}
 			]
 		},
 		{
-			"name": "Deft Explorer",
+			"name": "Exploració Hàbil",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"className": "Explorador",
@@ -3225,7 +3225,7 @@
 					"entries": [
 						{
 							"type": "refClassFeature",
-							"classFeature": "Canny|Explorador|PHB|1|UAClassFeatureVariants"
+							"classFeature": "Murri|Explorador|PHB|1|UAClassFeatureVariants"
 						},
 						{
 							"type": "refClassFeature",
@@ -3240,7 +3240,7 @@
 			]
 		},
 		{
-			"name": "Favored Enemy",
+			"name": "Enemic Predilecte",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3248,15 +3248,15 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Començant a nivell 1, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
-				"Choose a type of favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter beasts|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, {@filter diastres|bestiary|type=fiend}, {@filter giants|bestiary|type=giant}, {@filter monstrositats|bestiary|type=monstrositat}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, or {@filter undead|bestiary|type=undead}. Alternativament, you can select two races of {@filter humanoid|bestiary|type=humanoid} (such as {@creature gnoll||gnolls} i {@creature orc||orcs}) as favored enemies.",
-				"Tens avantatge a Saviesa ({@skill Survival}) to track your favored enemies, as well as on Intel·ligència checks to recall information about them.",
-				"When you gain this feature, you also learn one language (escull) that is spoken by your favored enemies, if they speak one at all.",
-				"You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+				"Començant a nivell 1, tens força experiència estudiant, rastrejant, caçant, i fins i tot parlant amb un tipus d'enemic específic.",
+				"Escull un tipus d'nemic predilecte: {@filter aberracions|bestiary|type=aberration}, {@filter bèsties|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructes|bestiary|type=construct}, {@filter dracs|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fates|bestiary|type=fey}, {@filter diastres|bestiary|type=fiend}, {@filter gegants|bestiary|type=giant}, {@filter monstrositats|bestiary|type=monstrositat}, {@filter llims|bestiary|type=ooze}, {@filter plantes|bestiary|type=plant}, o {@filter no-morts|bestiary|type=undead}. Alternativament, escull dos races {@filter humanoides|bestiary|type=humanoid} (com ara {@creature gnoll||gnolls} i {@creature orc||orcs}) com a enemics predilectes.",
+				"Tens avantatge a Saviesa ({@skill Survival}) per rastrejar els teus enemics predilectes, i en tirades d'Intel·ligència per a recordar informació sobre ells.",
+				"Quan aprèns aquest tret, també aprèns un idioma (escull) que parlin els teus enemics predilectes (si en parlen algun).",
+				"Esculls un enemic predilecte i idioma extres a nivell 6 i a nivell 14 d'aquesta classe. Conforme puges de nivell, les teves decisions haurien de reflexar els tipus de criatures que t'has trobat a les teves aventures."
 			]
 		},
 		{
-			"name": "Favored Foe",
+			"name": "Enemic Favorit",
 			"source": "TCE",
 			"page": 56,
 			"className": "Explorador",
@@ -3264,15 +3264,15 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 1, which replaces the Favored Enemy feature and works with the Foe Slayer feature}",
-				"Quan impactes a una criatura, you can call on your mystical bond with nature to mark the target as your favored enemy durant 1 minut or until you lose your concentration (com si et concentressis en un conjur).",
-				"The first time a cada torn teu that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by {@dice 1d4}.",
-				"You can use this feature to mark a favored enemy tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg.",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 1, que substitueix el tret Enemic Predilecte i funciona amb el tret Foe Slayer}",
+				"Quan impactes a una criatura, you can call on your mystical bond with nature to mark the target as your enemic predilecte durant 1 minut or until you lose your concentration (com si et concentressis en un conjur).",
+				"The first time a cada torn teu that you hit the enemic predilecte and deal damage to it, including when you mark it, you can increase that damage by {@dice 1d4}.",
+				"You can use this feature to mark a enemic predilecte tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg.",
 				"This feature's extra damage increases Quan pugis de nivell en aquesta classe: to {@dice 1d6} a nivell 6 and to {@dice 1d8} a nivell 14."
 			]
 		},
 		{
-			"name": "Favored Foe",
+			"name": "Enemic Favorit",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"className": "Explorador",
@@ -3280,8 +3280,8 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de ranger a nivell 1 (substitueix Favored Enemy)}",
-				"You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the {@spell marca de caça} spell, and Saviesa is your habilitat de llançament de conjurs for it. You can use it a certain number of times sense gastar cap ranura de conjur and without requiring concentration\u2014a number of times equivalent al teu modificador de Saviesa (mínim d'1 cop). En recuperes tots els usos quan acabis un Descans Llarg.",
+				"{@i tret de ranger a nivell 1 (substitueix Enemic Predilecte)}",
+				"You can call on your bond with nature to mark a creature as your enemic predilecte for a time: you know the {@spell marca de caça} spell, and Saviesa is your habilitat de llançament de conjurs for it. You can use it a certain number of times sense gastar cap ranura de conjur and without requiring concentration\u2014a number of times equivalent al teu modificador de Saviesa (mínim d'1 cop). En recuperes tots els usos quan acabis un Descans Llarg.",
 				"When you gain the Spellcasting feature a nivell 2, marca de caça doesn't count against the number of ranger spells you know."
 			]
 		},
@@ -3498,7 +3498,7 @@
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 2}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 2}",
 				"You can use a {@item druidic focus|phb} com a focus de llançament arcà pels teus ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals."
 			]
 		},
@@ -3524,7 +3524,7 @@
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 3, which replaces the Primeval Awareness feature}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 3, que substitueix el tret Primeval Awareness feature}",
 				"You can focus your awareness through the interconnections of nature: you learn additional spells Quan pugis de nivell en aquesta classe if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
 				{
 					"type": "table",
@@ -3657,7 +3657,7 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 4}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 4}",
 				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica feature, you can replace a Estil de Lluita you know with another Estil de Lluita available to rangers. This replacement represents a shift of focus in your martial practice."
 			]
 		},
@@ -3688,7 +3688,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer Improvement",
+			"name": "Exploració Hàbil Improvement",
 			"source": "TCE",
 			"page": 56,
 			"className": "Explorador",
@@ -3707,7 +3707,7 @@
 			]
 		},
 		{
-			"name": "Favored Enemy and Natural Explorer improvements",
+			"name": "Enemic Predilecte and Natural Explorer improvements",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3716,7 +3716,7 @@
 			"level": 6,
 			"entries": [
 				"A nivell 6, you gain an additional favored terrain.",
-				"A nivell 6, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+				"A nivell 6, you choose one additional enemic predilecte, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
 			]
 		},
 		{
@@ -3772,7 +3772,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer Improvement",
+			"name": "Exploració Hàbil Improvement",
 			"source": "TCE",
 			"page": 56,
 			"className": "Explorador",
@@ -3839,7 +3839,7 @@
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 10, which replaces the Hide in Plain Sight feature}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 10, que substitueix el tret Hide in Plain Sight feature}",
 				"You draw on the powers of nature to hide yourself from view briefly. Com a acció bonus, you can magically become {@condition invisible}, along with any equipment you are wearing or carrying, fins l'inici del teu proper torn.",
 				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
@@ -3884,7 +3884,7 @@
 			]
 		},
 		{
-			"name": "Favored Enemy improvement",
+			"name": "Enemic Predilecte improvement",
 			"source": "PHB",
 			"page": 89,
 			"srd": true,
@@ -3892,7 +3892,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+				"A nivell 14, you choose one additional enemic predilecte, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
 			]
 		},
 		{
@@ -3994,11 +3994,11 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, you become an unparalleled hunter of your enemies. Un cop a cada torn teu, you can add el teu modificador de Saviesa to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+				"A nivell 20, you become an unparalleled hunter of your enemies. Un cop a cada torn teu, you can add el teu modificador de Saviesa to the attack roll or the damage roll of an attack you make against one of your enemics predilectes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
 			]
 		},
 		{
-			"name": "Canny",
+			"name": "Murri",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"className": "Ranger (Spell-less)",
@@ -4011,7 +4011,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer",
+			"name": "Exploració Hàbil",
 			"source": "TCE",
 			"page": 56,
 			"className": "Ranger (Spell-less)",
@@ -4019,12 +4019,12 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 1, which replaces the Natural Explorer feature}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 1, que substitueix el tret Natural Explorer}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
-				"You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below quan arribes a nivell 6 and 10th level en aquesta classe.",
+				"You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Murri benefit below, and you gain an additional benefit below quan arribes a nivell 6 and 10th level en aquesta classe.",
 				{
 					"type": "entries",
-					"name": "Canny",
+					"name": "Murri",
 					"entries": [
 						"Escull 1 habilitat amb la que tinguis competència. El teu bonus de competència is doubled for any ability check you make that uses the chosen skill.",
 						"You can also speak, read, and write two additional languages (escull)."
@@ -4033,7 +4033,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer",
+			"name": "Exploració Hàbil",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"className": "Ranger (Spell-less)",
@@ -4050,7 +4050,7 @@
 					"entries": [
 						{
 							"type": "refClassFeature",
-							"classFeature": "Canny|Ranger (Spell-less)|UAModifyingClasses|1|UAClassFeatureVariants"
+							"classFeature": "Murri|Ranger (Spell-less)|UAModifyingClasses|1|UAClassFeatureVariants"
 						},
 						{
 							"type": "refClassFeature",
@@ -4065,7 +4065,7 @@
 			]
 		},
 		{
-			"name": "Favored Enemy",
+			"name": "Enemic Predilecte",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
@@ -4073,14 +4073,14 @@
 			"level": 1,
 			"entries": [
 				"Començant a nivell 1, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
-				"Choose a type of favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter beasts|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, {@filter diastres|bestiary|type=fiend}, {@filter giants|bestiary|type=giant}, {@filter monstrositats|bestiary|type=monstrositat}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, or {@filter undead|bestiary|type=undead}. Alternativament, you can select two races of {@filter humanoid|bestiary|type=humanoid} (such as {@creature gnoll||gnolls} i {@creature orc||orcs}) as favored enemies.",
-				"Tens avantatge a Saviesa ({@skill Survival}) to track your favored enemies, as well as on Intel·ligència checks to recall information about them.",
-				"When you gain this feature, you also learn one language (escull) that is spoken by your favored enemies, if they speak one at all.",
-				"You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+				"Choose a type of enemic predilecte: {@filter aberrations|bestiary|type=aberration}, {@filter beasts|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, {@filter diastres|bestiary|type=fiend}, {@filter giants|bestiary|type=giant}, {@filter monstrositats|bestiary|type=monstrositat}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, or {@filter undead|bestiary|type=undead}. Alternativament, you can select two races of {@filter humanoid|bestiary|type=humanoid} (such as {@creature gnoll||gnolls} i {@creature orc||orcs}) as enemics predilectes.",
+				"Tens avantatge a Saviesa ({@skill Survival}) to track your enemics predilectes, as well as on Intel·ligència checks to recall information about them.",
+				"When you gain this feature, you also learn one language (escull) that is spoken by your enemics predilectes, if they speak one at all.",
+				"You choose one additional enemic predilecte, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
 			]
 		},
 		{
-			"name": "Favored Foe",
+			"name": "Enemic Favorit",
 			"source": "TCE",
 			"page": 56,
 			"className": "Ranger (Spell-less)",
@@ -4088,16 +4088,16 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 1, which replaces the Favored Enemy feature and works with the Foe Slayer feature}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 1, que substitueix el tret Enemic Predilecte feature and works with the Foe Slayer feature}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
-				"Quan impactes a una criatura, you can call on your mystical bond with nature to mark the target as your favored enemy durant 1 minut or until you lose your concentration (com si et concentressis en un conjur).",
-				"The first time a cada torn teu that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by {@dice 1d4}.",
-				"You can use this feature to mark a favored enemy tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg.",
+				"Quan impactes a una criatura, you can call on your mystical bond with nature to mark the target as your enemic predilecte durant 1 minut or until you lose your concentration (com si et concentressis en un conjur).",
+				"The first time a cada torn teu that you hit the enemic predilecte and deal damage to it, including when you mark it, you can increase that damage by {@dice 1d4}.",
+				"You can use this feature to mark a enemic predilecte tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg.",
 				"This feature's extra damage increases Quan pugis de nivell en aquesta classe: to {@dice 1d6} a nivell 6 and to {@dice 1d8} a nivell 14."
 			]
 		},
 		{
-			"name": "Favored Foe",
+			"name": "Enemic Favorit",
 			"source": "UAClassFeatureVariants",
 			"page": 7,
 			"className": "Ranger (Spell-less)",
@@ -4105,9 +4105,9 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de ranger a nivell 1 (substitueix Favored Enemy)}",
+				"{@i tret de ranger a nivell 1 (substitueix Enemic Predilecte)}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
-				"You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the {@spell marca de caça} spell, and Saviesa is your habilitat de llançament de conjurs for it. You can use it a certain number of times sense gastar cap ranura de conjur and without requiring concentration\u2014a number of times equivalent al teu modificador de Saviesa (mínim d'1 cop). En recuperes tots els usos quan acabis un Descans Llarg.",
+				"You can call on your bond with nature to mark a creature as your enemic predilecte for a time: you know the {@spell marca de caça} spell, and Saviesa is your habilitat de llançament de conjurs for it. You can use it a certain number of times sense gastar cap ranura de conjur and without requiring concentration\u2014a number of times equivalent al teu modificador de Saviesa (mínim d'1 cop). En recuperes tots els usos quan acabis un Descans Llarg.",
 				"When you gain the Spellcasting feature a nivell 2, marca de caça doesn't count against the number of ranger spells you know."
 			]
 		},
@@ -4314,7 +4314,7 @@
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 3, which replaces the Primeval Awareness feature}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 3, que substitueix el tret Primeval Awareness feature}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
 				"You can focus your awareness through the interconnections of nature: you learn additional spells Quan pugis de nivell en aquesta classe if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
 				{
@@ -4447,7 +4447,7 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 4}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 4}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
 				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica feature, you can replace a Estil de Lluita you know with another Estil de Lluita available to rangers. This replacement represents a shift of focus in your martial practice."
 			]
@@ -4490,7 +4490,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer Improvement",
+			"name": "Exploració Hàbil Improvement",
 			"source": "TCE",
 			"page": 56,
 			"className": "Ranger (Spell-less)",
@@ -4509,7 +4509,7 @@
 			]
 		},
 		{
-			"name": "Favored Enemy and Natural Explorer improvements",
+			"name": "Enemic Predilecte and Natural Explorer improvements",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
@@ -4517,7 +4517,7 @@
 			"level": 6,
 			"entries": [
 				"A nivell 6, you gain an additional favored terrain.",
-				"A nivell 6, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+				"A nivell 6, you choose one additional enemic predilecte, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
 			]
 		},
 		{
@@ -4593,7 +4593,7 @@
 			]
 		},
 		{
-			"name": "Deft Explorer Improvement",
+			"name": "Exploració Hàbil Improvement",
 			"source": "TCE",
 			"page": 56,
 			"className": "Ranger (Spell-less)",
@@ -4659,7 +4659,7 @@
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 10, which replaces the Hide in Plain Sight feature}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 10, que substitueix el tret Hide in Plain Sight feature}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
 				"You draw on the powers of nature to hide yourself from view briefly. Com a acció bonus, you can magically become {@condition invisible}, along with any equipment you are wearing or carrying, fins l'inici del teu proper torn.",
 				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
@@ -4737,14 +4737,14 @@
 			]
 		},
 		{
-			"name": "Favored Enemy improvement",
+			"name": "Enemic Predilecte improvement",
 			"source": "UAModifyingClasses",
 			"page": 5,
 			"className": "Ranger (Spell-less)",
 			"classSource": "UAModifyingClasses",
 			"level": 14,
 			"entries": [
-				"A nivell 14, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+				"A nivell 14, you choose one additional enemic predilecte, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
 			]
 		},
 		{
@@ -4864,7 +4864,7 @@
 			"classSource": "UAModifyingClasses",
 			"level": 20,
 			"entries": [
-				"A nivell 20, you become an unparalleled hunter of your enemies. Un cop a cada torn teu, you can add el teu modificador de Saviesa to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+				"A nivell 20, you become an unparalleled hunter of your enemies. Un cop a cada torn teu, you can add el teu modificador de Saviesa to the attack roll or the damage roll of an attack you make against one of your enemics predilectes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
 			]
 		},
 		{
@@ -4914,7 +4914,7 @@
 			]
 		},
 		{
-			"name": "Favored Enemy",
+			"name": "Enemic Predilecte",
 			"source": "UATheRangerRevised",
 			"page": 1,
 			"className": "Ranger (Revised)",
@@ -4922,8 +4922,8 @@
 			"level": 1,
 			"entries": [
 				"Començant a nivell 1, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.",
-				"Choose a type of favored enemy: {@filter beasts|bestiary|type=beast}, {@filter fey|bestiary|type=fey}, {@filter humanoids|bestiary|type=humanoid}, {@filter monstrositats|bestiary|type=monstrositat}, or {@filter undead|bestiary|type=undead}. Tens un +2 a damage rolls with weapon attacks against creatures of the chosen type. A més, tens avantatge a Saviesa ({@skill Survival}) to track your favored enemies, as well as on Intel·ligència checks to recall information about them.",
-				"When you gain this feature, you also learn one language (escull), typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn."
+				"Choose a type of enemic predilecte: {@filter beasts|bestiary|type=beast}, {@filter fey|bestiary|type=fey}, {@filter humanoids|bestiary|type=humanoid}, {@filter monstrositats|bestiary|type=monstrositat}, or {@filter undead|bestiary|type=undead}. Tens un +2 a damage rolls with weapon attacks against creatures of the chosen type. A més, tens avantatge a Saviesa ({@skill Survival}) to track your enemics predilectes, as well as on Intel·ligència checks to recall information about them.",
+				"When you gain this feature, you also learn one language (escull), typically one spoken by your enemic predilecte or creatures associated with it. However, you are free to pick any language you wish to learn."
 			]
 		},
 		{
@@ -5108,8 +5108,8 @@
 				"Començant a nivell 3, your mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you.",
 				"You have an innate ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast com a acció, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it to not attack.",
 				"You cannot use this ability against a creature that you have attacked within the past 10 minutes.",
-				"A més, you can attune your senses to determine if any of your favored enemies lurk nearby. By spending 1 uninterrupted minute in concentration (com si et concentressis en un conjur), you can sense whether any of your favored enemies are present within 5 miles of you. This feature reveals which of your favored enemies are present, their numbers, and the creatures' general direction and distance (in miles) from you.",
-				"If there are multiple groups of your favored enemies within range, you learn this information for each group."
+				"A més, you can attune your senses to determine if any of your enemics predilectes lurk nearby. By spending 1 uninterrupted minute in concentration (com si et concentressis en un conjur), you can sense whether any of your enemics predilectes are present within 5 miles of you. This feature reveals which of your enemics predilectes are present, their numbers, and the creatures' general direction and distance (in miles) from you.",
+				"If there are multiple groups of your enemics predilectes within range, you learn this information for each group."
 			]
 		},
 		{
@@ -5144,7 +5144,7 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel ranger a nivell 4}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} per l'explorador a nivell 4}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Revised Ranger feature.}",
 				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica feature, you can replace a Estil de Lluita you know with another Estil de Lluita available to rangers. This replacement represents a shift of focus in your martial practice."
 			]
@@ -5176,15 +5176,15 @@
 			]
 		},
 		{
-			"name": "Greater Favored Enemy",
+			"name": "Greater Enemic Predilecte",
 			"source": "UATheRangerRevised",
 			"page": 1,
 			"className": "Ranger (Revised)",
 			"classSource": "UATheRangerRevised",
 			"level": 6,
 			"entries": [
-				"A nivell 6, you are ready to hunt even deadlier game. Choose a type of greater favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter diastres|bestiary|type=fiend}, or {@filter giants|bestiary|type=giant}. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.",
-				"A més, tens avantatge a saving throws against the spells and abilities used by a greater favored enemy."
+				"A nivell 6, you are ready to hunt even deadlier game. Choose a type of greater enemic predilecte: {@filter aberrations|bestiary|type=aberration}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter diastres|bestiary|type=fiend}, or {@filter giants|bestiary|type=giant}. You gain all the benefits against this chosen enemy that you normally gain against your enemic predilecte, including an additional language. Your bonus to damage rolls against all your enemics predilectes increases to +4.",
+				"A més, tens avantatge a saving throws against the spells and abilities used by a greater enemic predilecte."
 			]
 		},
 		{
@@ -5424,7 +5424,7 @@
 			"isClassFeatureVariant": true,
 			"header": 1,
 			"entries": [
-				"{@i tret de Beast Master variant a nivell 3, which replaces the Ranger's Companion feature}",
+				"{@i tret de Beast Master variant a nivell 3, que substitueix el tret Ranger's Companion feature}",
 				"You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block\u2014{@creature Beast of the Land|TCE}, {@creature Beast of the Sea|TCE}, or {@creature Beast of the Sky|TCE}\u2014which uses el teu bonus de competència (BC) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.",
 				"In combat, the beast acts durant el teu torn. It can move and use its reaction on its own, but the only action it takes is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks quan prèns l'acció {@action Atacar} to command the beast to take l'acció {@action Atacar}. Si et quedes {@condition incapacitated}, the beast can take any action of its choice, not just {@action Esquivar}.",
 				"If the beast has died within the last hour, pots, com a acció, to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its punts de vida restored.",
@@ -7752,7 +7752,7 @@
 			"isClassFeatureVariant": true,
 			"header": 1,
 			"entries": [
-				"{@i tret de Beast Master variant a nivell 3, which replaces the Ranger's Companion feature}",
+				"{@i tret de Beast Master variant a nivell 3, que substitueix el tret Ranger's Companion feature}",
 				"{@note Note that this feature is intended for use with the Ranger class presented in the Player's Handbook. It is presented here for convenience, and may be unsuitable for use as a Spell-less Ranger feature.}",
 				"You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block\u2014{@creature Beast of the Land|TCE}, {@creature Beast of the Sea|TCE}, or {@creature Beast of the Sky|TCE}\u2014which uses el teu bonus de competència (BC) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.",
 				"In combat, the beast acts durant el teu torn. It can move and use its reaction on its own, but the only action it takes is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks quan prèns l'acció {@action Atacar} to command the beast to take l'acció {@action Atacar}. Si et quedes {@condition incapacitated}, the beast can take any action of its choice, not just {@action Esquivar}.",
@@ -11190,7 +11190,7 @@
 				"For each level you gain after 3rd, your animal companion gains an additional dau de vida and increases its punts de vida accordingly.",
 				"Whenever you gain the Millora de Puntuació de Característica class feature, your companion's abilities also improve. Your companion can increase one ability score (escull) by 2, or it can increase two ability scores (escull) by 1. As normal, your companion can't increase an ability score above 20 using this feature unless its description specifies otherwise.",
 				"Your companion shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your companion shares your ideal, and its bond is always, \"The ranger who travels with me is a beloved companion for whom I would gladly give my life.\"",
-				"Your animal companion gains the benefits of your Favored Enemy feature, and of your Greater Favored Enemy feature when you gain that feature a nivell 6. It uses the favored enemies you selected for those features.",
+				"Your animal companion gains the benefits of your Enemic Predilecte feature, and of your Greater Enemic Predilecte feature when you gain that feature a nivell 6. It uses the enemics predilectes you selected for those features.",
 				{
 					"type": "table",
 					"caption": "Companion Trait",
