@@ -1590,8 +1590,8 @@
 			"page": 11,
 			"subclassFeatures": [
 				"Ferreria de Guerra|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|3",
-				"Arcane Jolt|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|6",
-				"Improved Defender|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|14"
+				"Electroxoc Arcà|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|6",
+				"Defensor Millorat|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|14"
 			]
 		},
 		{
@@ -1809,8 +1809,8 @@
 			"subclassFeatures": [
 				"Ferreria de Guerra|Artificier|TCE|Ferreria de Guerra|TCE|3",
 				"Atac Extra|Artificier|TCE|Ferreria de Guerra|TCE|5",
-				"Arcane Jolt|Artificier|TCE|Ferreria de Guerra|TCE|9",
-				"Improved Defender|Artificier|TCE|Ferreria de Guerra|TCE|15"
+				"Electroxoc Arcà|Artificier|TCE|Ferreria de Guerra|TCE|9",
+				"Defensor Millorat|Artificier|TCE|Ferreria de Guerra|TCE|15"
 			]
 		}
 	],
@@ -2990,7 +2990,7 @@
 			"classSource": "UAArtificerRevisited",
 			"level": 5,
 			"entries": [
-				"Començant a nivell 5, you can attack twice, rather than once, quan prèns l'acció {@action Atacar} en el teu torn, but one of the attacks must be made with a arma màgica, the magic of which you use to propel the attack."
+				"Començant a nivell 5, pots atacar 2 cops, i no 1, quan prèns l'acció {@action Atacar} en el teu torn, but one of the attacks must be made with a arma màgica, the magic of which you use to propel the attack."
 			]
 		},
 		{
@@ -3208,7 +3208,7 @@
 					"type": "table",
 					"caption": "Alchemist Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -3710,7 +3710,7 @@
 					"rows": [
 						[
 							"3",
-							"{@spell shield}, {@spell tronada}"
+							"{@spell escut}, {@spell tronada}"
 						],
 						[
 							"5",
@@ -3900,7 +3900,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ferreria de Guerra Spells|Artificier|TCE|Ferreria de Guerra|TCE|3"
+					"subclassFeature": "Conjurs de Ferreria de Guerra|Artificier|TCE|Ferreria de Guerra|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3929,18 +3929,18 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan arribes a nivell 3, your combat training and your experiments with magic have paid off in two ways:",
+				"Quan arribes a nivell 3, el teu entrenament en combat i en experiments màgics t'otorguen 2 beneficis:",
 				{
 					"type": "list",
 					"items": [
-						"Tens competència amb martial weapons.",
-						"When you attack with a arma màgica, you can use el teu modificador d'Intel·ligència, instead of Força or Destresa modifier, for the attack and damage rolls."
+						"Tens competència amb armes marcials.",
+						"Quan ataques amb una arma màgica, pots fer servir el teu modificador d'Intel·ligència, i no el de Força o Destresa, per les tirades d'impacte i de dany."
 					]
 				}
 			]
 		},
 		{
-			"name": "Ferreria de Guerra Spells",
+			"name": "Conjurs de Ferreria de Guerra",
 			"source": "TCE",
 			"page": 18,
 			"otherSources": [
@@ -3956,12 +3956,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Ferreria de Guerra Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
+				"Començant a nivell 3, Tens certs conjurs sempre preparats quan arribes a certs nivells en aquesta classe; consulta la taula de Conjurs de Ferreria de Guerra. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
-					"caption": "Ferreria de Guerra Spells",
+					"caption": "Conjurs de Ferreria de Guerra",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -3971,7 +3971,7 @@
 					"rows": [
 						[
 							"3",
-							"{@spell heroisme}, {@spell shield}"
+							"{@spell heroisme}, {@spell escut}"
 						],
 						[
 							"5",
@@ -4010,10 +4010,10 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, your tinkering has borne you a faithful companion, a {@creature defensor d'acer|tce}. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the defensor d'acer stat block, which uses el teu bonus de competència (BC) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.",
-				"In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, the defender can take any action of its choice, not just {@action Esquivar}.",
-				"If the {@spell apedaçar} spell is cast on it, it regains {@dice 2d6} punts de vida. If it has died within the last hour, you can use your {@item eines de ferrer|PHB} com a acció to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The defensor d'acer returns to life after 1 minute with all its punts de vida restored.",
-				"Quan acabis un Descans Llarg, you can create a new defensor d'acer if you have your {@item eines de ferrer|PHB} with you. If you already have a defensor d'acer from this feature, the first one immediately perishes. The defender also perishes if you die."
+				"A nivell 3, la teva ferreria t'ha otorgat un company lleial: un {@creature defensor d'acer|tce}. És amistós vers a tu i els teus aliats i obeeix les teves ordres. El seu bloc d'estats és el del Defensor d'Acer; empra el teu bonus de competència (BC) en alguns llocs. N'esculls l'aparença i si té 2 o 4 cames (no tenen cap efecte mecànic).",
+				"En combat, el defensor comparteix la teva iniciativa, i actua immmediatament després de tu. Es pot moure i prendre una reacció per si sol, però l'única acció que pot prendre és {@action Esquivar}. Si vols que prengui una altra acció, has de, com a acció bonus, donar-li una ordre. Aquesta ordre pot ser una acció del seu bloc d'estats (o alguna altra). Si et quedes {@condition incapacitated}, el defensor pot actuar per si sol i fer més coses que {@action Esquivar}.",
+				"Si se li llança el conjur {@spell apedaçar}, recupera {@dice 2d6} punts de vida. Si ha mort fa 1 hora o menys pots, com a acció, emprar {@item eines de ferrer|PHB} per a reviure'l; has d'estar a 5 peus d'ell i gastar una ranura de conjur. Llavors reviurà passat 1 minut amb tots els seus punts de vida.",
+				"Quan acabis un Descans Llarg, pots crear un altre defensor d'acer si tens {@item eines de ferrer|PHB}. Si ja tens un defensor d'acer degut a aquest tret, aquest defensor previ mor immediatament. El defensor també morirà si mors."
 			]
 		},
 		{
@@ -4033,7 +4033,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan agafes aquesta especialització a nivell 3, tens competència amb {@item eines de ferrer|PHB}. If you already have this proficiency, tens competència amb one other type of {@item eines d'artesania|PHB} (escull)."
+				"Quan agafes aquesta especialització a nivell 3, tens competència amb {@item eines de ferrer|PHB}. Si ja tens aquesta competència, tens competència amb un altre tipus d'{@item eines d'artesania|PHB} (escull)."
 			]
 		},
 		{
@@ -4053,11 +4053,11 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 5, you can attack twice, rather than once, quan prèns l'acció {@action Atacar} en el teu torn."
+				"Començant a nivell 5, pots atacar 2 cops, i no 1, quan prèns l'acció {@action Atacar} en el teu torn."
 			]
 		},
 		{
-			"name": "Arcane Jolt",
+			"name": "Electroxoc Arcà",
 			"source": "TCE",
 			"page": 18,
 			"otherSources": [
@@ -4073,19 +4073,19 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"A nivell 9, you learn new ways to channel arcane energy to harm or heal. When either you hit a target with a arma màgica attack or your defensor d'acer hits a target, you can channel magical energy through the strike to create one of the following effects:",
+				"A nivell 9, aprèns noves maneres de canalitzar energia arcana per a curar o malmetre. Quan impactes a un objectiu amb una arma màgica o el teu defensor d'acer impacta un objectiu, pots canalitzar energia a través de l'impacte i crear un dels efectes següents:",
 				{
 					"type": "list",
 					"items": [
-						"L'objectiu rep an extra {@damage 2d6} de dany de força.",
-						"Choose one creature or object que puguis veure within 30 feet of the target. Healing energy flows into the chosen recipient, restoring {@dice 2d6} punts de vida to it."
+						"L'objectiu rep {@damage 2d6} de dany de força extra.",
+						"Escull una criatura o objecte que puguis veure a 30 peus de l'objectiu. Es cura {@dice 2d6} punts de vid."
 					]
 				},
-				"You can use this energy a number of times equivalent al teu modificador d'Intel·ligència (mínim 1 cop), but you can do so no more than once on a turn. En recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots emprar aquest tret tantes vegades com el teu modificador d'Intel·ligència (mínim 1 cop), però només un cop per torn. En recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Improved Defender",
+			"name": "Defensor Millorat",
 			"source": "TCE",
 			"page": 18,
 			"otherSources": [
@@ -4101,13 +4101,13 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"A nivell 15, your Arcane Jolt and defensor d'acer become more powerful:",
+				"A nivell 15, el teu Electroxoc Arcà i el teu defensor d'acer es tornen més poderosos:",
 				{
 					"type": "list",
 					"items": [
-						"The extra damage and the healing of your Arcane Jolt both increase to {@damage 4d6}.",
-						"Your defensor d'acer gains a +2 bonus to Armor Class.",
-						"Whenever your defensor d'acer uses its Deflect Attack, the attacker takes force damage equal to {@damage 1d4} + el teu modificador d'Intel·ligència."
+						"El dany extra i la cura del teu Electroxoc Arcà incrementen en {@damage 4d6}.",
+						"El teu defensor d'acer incrementa la CA en +2.",
+						"Quan el teu defensor d'acer prengui el seu Desviar Atac, l'atacant  rep {@damage 1d4} + el teu modificador d'Intel·ligència de dany de força."
 					]
 				}
 			]
@@ -4226,7 +4226,7 @@
 					"type": "table",
 					"caption": "Conjurs d'Armadura",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -4236,7 +4236,7 @@
 					"rows": [
 						[
 							"3",
-							"{@spell missil màgic}, {@spell shield}"
+							"{@spell missil màgic}, {@spell escut}"
 						],
 						[
 							"5",
@@ -4310,7 +4310,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret d'Armadura a nivell 5}",
-				"You can attack twice, rather than once, quan prèns l'acció {@action Atacar} en el teu torn."
+				"Pots atacar 2 cops, i no 1, quan prèns l'acció {@action Atacar} en el teu torn."
 			]
 		},
 		{
@@ -4688,7 +4688,7 @@
 					"type": "table",
 					"caption": "Alchemist Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -4823,7 +4823,7 @@
 					"type": "table",
 					"caption": "Archivist Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -5111,7 +5111,7 @@
 					"type": "table",
 					"caption": "Conjurs d'Artilleria",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -5121,7 +5121,7 @@
 					"rows": [
 						[
 							"3",
-							"{@spell shield}, {@spell tronada}"
+							"{@spell escut}, {@spell tronada}"
 						],
 						[
 							"5",
@@ -5221,7 +5221,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ferreria de Guerra Spells|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|3"
+					"subclassFeature": "Conjurs de Ferreria de Guerra|Artificer (Revisitat)|UAArtificerRevisited|Ferreria de Guerra|UAArtificerRevisited|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -5255,7 +5255,7 @@
 			]
 		},
 		{
-			"name": "Ferreria de Guerra Spells",
+			"name": "Conjurs de Ferreria de Guerra",
 			"source": "UAArtificerRevisited",
 			"page": 11,
 			"className": "Artificer (Revisitat)",
@@ -5265,12 +5265,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Ferreria de Guerra Spells table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
+				"Començant a nivell 3, you always have certain spells prepared after you reach particular levels en aquesta classe, as shown in the Conjurs de Ferreria de Guerra table. Aquests conjurs es consideren conjurs d'artificier per a tu, però no compten vers el número de conjurs d'artificier que pots preparar.",
 				{
 					"type": "table",
-					"caption": "Ferreria de Guerra Spells",
+					"caption": "Conjurs de Ferreria de Guerra",
 					"colLabels": [
-						"Artificer Level",
+						"Nivell d'Artificier",
 						"Conjur"
 					],
 					"colStyles": [
@@ -5348,7 +5348,7 @@
 			]
 		},
 		{
-			"name": "Arcane Jolt",
+			"name": "Electroxoc Arcà",
 			"source": "UAArtificerRevisited",
 			"page": 11,
 			"className": "Artificer (Revisitat)",
@@ -5372,7 +5372,7 @@
 			]
 		},
 		{
-			"name": "Improved Defender",
+			"name": "Defensor Millorat",
 			"source": "UAArtificerRevisited",
 			"page": 11,
 			"className": "Artificer (Revisitat)",
@@ -5382,11 +5382,11 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, your Arcane Jolt and iron defender become more powerful:",
+				"A nivell 14, your Electroxoc Arcà and iron defender become more powerful:",
 				{
 					"type": "list",
 					"items": [
-						"The extra damage and the healing of your Arcane Jolt both increase to {@damage 4d4}.",
+						"The extra damage and the healing of your Electroxoc Arcà both increase to {@damage 4d4}.",
 						"Whenever your iron defender uses its Defensive Pounce, the attacker takes force damage equal to {@dice 1d4} + el teu modificador d'Intel·ligència."
 					]
 				}
