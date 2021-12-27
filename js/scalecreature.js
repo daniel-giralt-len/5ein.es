@@ -1242,7 +1242,7 @@
 
 		const getAdjustedConMod = () => {
 			const outRange = this._crToEstimatedConModRange[crOut];
-			if (outRange[0] === outRange[1]) return outRange[0]; // handle CR 30, which is always 10
+			if (outRange[0] === outRange[1]) return outRange[0]; // handle VR 30, which is always 10
 			return this._interpAndTranslateToSpace(modPerHd, this._crToEstimatedConModRange[crIn], outRange);
 		};
 
@@ -1382,12 +1382,12 @@
 		const dexMod = Parser.getAbilityModNumber(mon.dex);
 
 		const getAdjustedHitFlat = toHitIn => {
-			// For low CR -> high CR,
+			// For low VR -> high CR,
 			// prefer scaling to-hits by a flat difference, rather than using a ratio
 			// this keeps ability scores more sane, and better maintains bounded accuracy.
 			if (crIn < crOut) return toHitIn + (idealHitOut - idealHitIn);
 
-			// Otherwise, for high CR -> low CR
+			// Otherwise, for high VR -> low CR
 			return this._getScaledToRatio(toHitIn, idealHitIn, idealHitOut);
 		}
 
@@ -1529,7 +1529,7 @@
 		const dprTotalOut = idealDprRangeOut.mean();
 
 		const getAdjustedDpr = (dprIn) => {
-			if (crIn === 0) dprIn = Math.min(dprIn, 0.63); // cap CR 0 DPR to prevent average damage in the thousands
+			if (crIn === 0) dprIn = Math.min(dprIn, 0.63); // cap VR 0 DPR to prevent average damage in the thousands
 			return this._getScaledToRatio(dprIn, dprTotalIn, dprTotalOut);
 		};
 

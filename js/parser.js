@@ -340,7 +340,7 @@ Parser.crToPb = function (cr) {
 	if (cr === "Unknown" || cr == null) return 0;
 	cr = cr.cr || cr;
 	if (Parser.crToNumber(cr) < 5) return 2;
-	return Math.ceil(cr / 4) + 1;
+	return Math.ceil(vr / 4) + 1;
 };
 
 Parser.levelToPb = function (level) {
