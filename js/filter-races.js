@@ -801,7 +801,7 @@ class PageFilterRaces extends PageFilter {
 				"Gnomesc",
 				"Goblinesc",
 				"Halfling",
-				"Infernal",
+				"Diàstric",
 				"Orc",
 				"Other",
 				"Primordial",

@@ -450,18 +450,18 @@ class SpellParser extends BaseParser {
 					case "bards": stats.classes.fromClassList.push({"name": "Bard", "source": "PHB"}); break;
 					case "cleric":
 					case "clerics": stats.classes.fromClassList.push({"name": "Cleric", "source": "PHB"}); break;
-					case "druid":
-					case "druids": stats.classes.fromClassList.push({"name": "Druid", "source": "PHB"}); break;
-					case "paladin":
-					case "paladins": stats.classes.fromClassList.push({"name": "Paladin", "source": "PHB"}); break;
-					case "ranger":
-					case "rangers": stats.classes.fromClassList.push({"name": "Ranger", "source": "PHB"}); break;
-					case "sorcerer":
-					case "sorcerers": stats.classes.fromClassList.push({"name": "Sorcerer", "source": "PHB"}); break;
+					case "druida":
+					case "druids": stats.classes.fromClassList.push({"name": "Druida", "source": "PHB"}); break;
+					case "paladí":
+					case "paladins": stats.classes.fromClassList.push({"name": "Paladí", "source": "PHB"}); break;
+					case "explorador":
+					case "rangers": stats.classes.fromClassList.push({"name": "Explorador", "source": "PHB"}); break;
+					case "sortiller":
+					case "sorcerers": stats.classes.fromClassList.push({"name": "Sortiller", "source": "PHB"}); break;
 					case "bruixot":
 					case "warlocks": stats.classes.fromClassList.push({"name": "Bruixot", "source": "PHB"}); break;
-					case "wizard":
-					case "wizards": stats.classes.fromClassList.push({"name": "Wizard", "source": "PHB"}); break;
+					case "mag":
+					case "wizards": stats.classes.fromClassList.push({"name": "Mag", "source": "PHB"}); break;
 					default: options.cbWarning(`${stats.name ? `(${stats.name}) ` : ""}Class "${lowerPt}" requires manual conversion`); break;
 				}
 			});

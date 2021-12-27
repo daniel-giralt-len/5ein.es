@@ -8,7 +8,7 @@
 	},
 	"class": [
 		{
-			"name": "Druid",
+			"name": "Druida",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
@@ -51,7 +51,7 @@
 					"medium",
 					{
 						"proficiency": "{@item shield|phb|shields}",
-						"full": "shields (druids will not wear armor or use shields made of metal)"
+						"full": "escuts (els druides no duran armadura ni escuts fetes de metall)"
 					}
 				],
 				"weapons": [
@@ -90,9 +90,9 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a wooden {@item shield|phb} o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) un {@item shield|phb} de fusta o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"(a) una {@item simitarra|phb} o bé (b) qualsevol {@filter simple arma cos a cos|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-					"{@item Armadura de Cuir|phb}, an {@item pack d'exploració|phb}, and a {@item druidic focus|phb}"
+					"{@item Armadura de Cuir|phb}, un {@item pack d'exploració|phb}, o un {@item druidic focus|phb}"
 				],
 				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Ors Inicials}",
 				"defaultData": [
@@ -134,8 +134,8 @@
 						"light",
 						"medium",
 						{
-							"proficiency": "{@item shield|phb|shields}",
-							"full": "shields (druids will not wear armor or use shields made of metal)"
+							"proficiency": "{@item shield|phb|escuts}",
+							"full": "escuts (els druides no duran armadures ni escuts de metall)"
 						}
 					]
 				}
@@ -446,49 +446,49 @@
 				}
 			],
 			"classFeatures": [
-				"Druidic|Druid||1",
-				"Llançament de Conjurs|Druid||1",
-				"Cantrip Versatility|Druid||1|UAClassFeatureVariants",
-				"Wild Shape|Druid||2",
-				"Wild Companion|Druid||2|UAClassFeatureVariants",
-				"Wild Companion|Druid||2|TCE",
+				"Druidic|Druida||1",
+				"Llançament de Conjurs|Druida||1",
+				"Versatilitat en Trucs|Druida||1|UAClassFeatureVariants",
+				"Forma Feréstega|Druida||2",
+				"Company Salvatge|Druida||2|UAClassFeatureVariants",
+				"Company Salvatge|Druida||2|TCE",
 				{
-					"classFeature": "Druid Circle|Druid||2",
+					"classFeature": "Cercle Druida|Druida||2",
 					"gainSubclassFeature": true
 				},
-				"Wild Shape Improvement|Druid||4",
-				"Millora de Puntuació de Característica|Druid||4",
-				"Competència Versàtil|Druid||4|UAClassFeatureVariants",
-				"Cantrip Versatility|Druid||4|TCE",
+				"Millora de Forma Feréstega|Druida||4",
+				"Millora de Puntuació de Característica|Druida||4",
+				"Competència Versàtil|Druida||4|UAClassFeatureVariants",
+				"Versatilitat en Trucs|Druida||4|TCE",
 				{
-					"classFeature": "Druid Circle feature|Druid||6",
+					"classFeature": "Tret de Cercle Druida|Druida||6",
 					"gainSubclassFeature": true
 				},
-				"Wild Shape Improvement|Druid||8",
-				"Millora de Puntuació de Característica|Druid||8",
-				"Competència Versàtil|Druid||8|UAClassFeatureVariants",
+				"Millora de Forma Feréstega|Druida||8",
+				"Millora de Puntuació de Característica|Druida||8",
+				"Competència Versàtil|Druida||8|UAClassFeatureVariants",
 				{
-					"classFeature": "Druid Circle feature|Druid||10",
+					"classFeature": "Tret de Cercle Druida|Druida||10",
 					"gainSubclassFeature": true
 				},
-				"Millora de Puntuació de Característica|Druid||12",
-				"Competència Versàtil|Druid||12|UAClassFeatureVariants",
+				"Millora de Puntuació de Característica|Druida||12",
+				"Competència Versàtil|Druida||12|UAClassFeatureVariants",
 				{
-					"classFeature": "Druid Circle feature|Druid||14",
+					"classFeature": "Tret de Cercle Druida|Druida||14",
 					"gainSubclassFeature": true
 				},
-				"Millora de Puntuació de Característica|Druid||16",
-				"Competència Versàtil|Druid||16|UAClassFeatureVariants",
-				"Cos Perenne|Druid||18",
-				"Beast Spells|Druid||18",
-				"Millora de Puntuació de Característica|Druid||19",
-				"Competència Versàtil|Druid||19|UAClassFeatureVariants",
-				"Archdruid|Druid||20"
+				"Millora de Puntuació de Característica|Druida||16",
+				"Competència Versàtil|Druida||16|UAClassFeatureVariants",
+				"Cos Perenne|Druida||18",
+				"Conjurs Bestials|Druida||18",
+				"Millora de Puntuació de Característica|Druida||19",
+				"Competència Versàtil|Druida||19|UAClassFeatureVariants",
+				"Arxi-druida|Druida||20"
 			],
-			"subclassTitle": "Druid Circle",
+			"subclassTitle": "Cercle Druida",
 			"fluff": [
 				{
-					"name": "Druid",
+					"name": "Druida",
 					"type": "section",
 					"entries": [
 						"Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.",
@@ -500,7 +500,7 @@
 							"name": "Power of Nature",
 							"entries": [
 								"Druids revere nature above all, gaining their spells and other magical powers either from the force of nature itself or from a nature deity. Many druids pursue a mystic spirituality of transcendent union with nature rather than devotion to a divine entity, while others serve gods of wild nature, animals, or elemental forces. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
-								"Druid spells are oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some druids make a particular study of this practice, even to the point where they prefer animal form to their natural form."
+								"Conjurs de Druida are oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some druids make a particular study of this practice, even to the point where they prefer animal form to their natural form."
 							]
 						},
 						{
@@ -514,15 +514,15 @@
 						},
 						{
 							"type": "entries",
-							"name": "Creating a Druid",
+							"name": "Creating a Druida",
 							"entries": [
-								"When making a druid, consider why your character has such a close bond with nature. Perhaps your character lives in a society where the Old Faith still thrives, or was raised by a druid after being abandoned in the depths of a forest. Perhaps your character had a dramatic encounter with the spirits of nature, coming face to face with a giant eagle or dire wolf and surviving the experience. Maybe your character was born during an epic storm or a volcanic eruption, which was interpreted as a sign that becoming a druid was part of your character's destiny.",
+								"When making a druid, consider why your character has such a close bond with nature. Perhaps your character lives in a society where the Old Faith still thrives, or was raised by a druida after being abandoned in the depths of a forest. Perhaps your character had a dramatic encounter with the spirits of nature, coming face to face with a giant eagle or dire wolf and surviving the experience. Maybe your character was born during an epic storm or a volcanic eruption, which was interpreted as a sign that becoming a druida was part of your character's destiny.",
 								"Have you always been an adventurer as part of your druidic calling, or did you first spend time as a caretaker of a sacred grove or spring? Perhaps your homeland was befouled by evil, and you took up an adventuring life in hopes of finding a new home or purpose.",
 								{
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a druid quickly by following these suggestions. First, Saviesa should be your highest ability score, followed by Constitució. Second, choose the {@background hermit} background."
+										"You can make a druida quickly by following these suggestions. First, Saviesa should be your highest ability score, followed by Constitució. Second, choose the {@background hermit} background."
 									]
 								}
 							]
@@ -531,9 +531,9 @@
 							"type": "inset",
 							"name": "Sacred Plants and Wood",
 							"entries": [
-								"A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.",
-								"Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.",
-								"Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants."
+								"A druida holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.",
+								"Similarly, a druida uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.",
+								"Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druida of a desert region might value the yucca tree and cactus plants."
 							]
 						},
 						{
@@ -557,10 +557,10 @@
 							"entries": [
 								"Even in death, tota criatura plays its part in maintaining the Great Balance. But now an imbalance grows, a force that seeks to hold sway over nature. This is the destructive behavior of the mortal races. The farther away from nature their actions take them, the more corrupting their influence becomes. As druids, we seek mainly to protect and educate, to preserve the Great Balance, but there are times when we must rise up against danger and eradicate it."
 							],
-							"by": "Safhran, archdruid"
+							"by": "Safhran, arxi-druida"
 						},
-						"Druids are the caretakers of the natural world, and it is said that in time a druid becomes the voice of nature, speaking the truth that is too subtle for the general populace to hear. Many who become druids find that they naturally gravitate toward nature; its forces, cycles, and movements fill their minds and spirits with wonder and insight. Many sages and wise folk have studied nature, writing volumes about its mystery and power, but druids are a special kind of being: at some point, they begin to embody these natural forces, producing magical phenomena that link them to the spirit of nature and the flow of life. Because of their strange and mysterious power, druids are often revered, shunned, or considered dangerous by the people around them.",
-						"Your druid character might be a true worshiper of nature, one who has always scorned civilization and found solace in the wild. Or your character could be a child of the city who now strives to bring the civilized world into harmony with the wilderness. You can use the sections that follow to flesh out your druid, regardless of how your character came to the profession.",
+						"Druids are the caretakers of the natural world, and it is said that in time a druida becomes the voice of nature, speaking the truth that is too subtle for the general populace to hear. Many who become druids find that they naturally gravitate toward nature; its forces, cycles, and movements fill their minds and spirits with wonder and insight. Many sages and wise folk have studied nature, writing volumes about its mystery and power, but druids are a special kind of being: at some point, they begin to embody these natural forces, producing magical phenomena that link them to the spirit of nature and the flow of life. Because of their strange and mysterious power, druids are often revered, shunned, or considered dangerous by the people around them.",
+						"Your druida character might be a true worshiper of nature, one who has always scorned civilization and found solace in the wild. Or your character could be a child of the city who now strives to bring the civilized world into harmony with the wilderness. You can use the sections that follow to flesh out your druid, regardless of how your character came to the profession.",
 						{
 							"type": "entries",
 							"name": "Treasured Item",
@@ -790,15 +790,15 @@
 						},
 						{
 							"type": "section",
-							"name": "Learning Beast Shapes",
+							"name": "Aprendre Formes Feréstegues",
 							"entries": [
-								"The Wild Shape feature in the player's handbook lets you transform into a beast that you've seen. That rule gives you a tremendous amount of flexibility, making it easy to amass an array of beast form options for yourself, but you must abide by the limitations in the Beast Shapes table in that book.",
-								"When you gain Wild Shape as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen a nivell 2.",
+								"El tret Forma Feréstega al manual de jugador et permet tornar en una bèstia que hagis vist. És un tret molt flexible que et dona un catàleg vast de transformacions, però té limitacions dictades a la taula del llibre Taula Formes de Bèstia in that book.",
+								"When you gain Forma Feréstega as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druida grew up in, then consult the appropriate table for a list of animals that your druida has probably seen a nivell 2.",
 								"These tables can also help you and your DM determine which animals you might see on your travels. A més, the tables include each beast's challenge rating and note whether a beast has a flying or swimming speed. This information will help you determine whether you qualify to assume that beast's form.",
-								"The tables include all the individual beasts that are eligible for Wild Shape (up to a challenge rating of 1) or the Circle Forms feature of the Circle of the Moon (up to a challenge rating of 6).",
+								"The tables include all the individual beasts that are eligible for Forma Feréstega (up to a challenge rating of 1) or the Formes de Cercle feature of the Cercle de la Lluna (up to a challenge rating of 6).",
 								{
 									"type": "table",
-									"caption": "Arctic",
+									"caption": "Àrtic",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -849,7 +849,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Coast",
+									"caption": "Costa",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -1046,7 +1046,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Forest",
+									"caption": "Bosc",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -1247,7 +1247,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Grassland",
+									"caption": "Prats",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -1589,7 +1589,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Mountain",
+									"caption": "Muntanya",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -1655,7 +1655,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Swamp",
+									"caption": "Aiguamoll",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -1741,7 +1741,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Underdark",
+									"caption": "Sotafoscor",
 									"colLabels": [
 										"CR",
 										"Beast",
@@ -1887,16 +1887,16 @@
 	],
 	"subclass": [
 		{
-			"name": "Circle of the Land",
-			"shortName": "Land",
+			"name": "Cercle de la Terra",
+			"shortName": "Terra",
 			"source": "PHB",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 68,
 			"srd": true,
 			"additionalSpells": [
 				{
-					"name": "Arctic",
+					"name": "Àrtic",
 					"innate": {
 						"1": {
 							"_": [
@@ -1908,16 +1908,16 @@
 					},
 					"prepared": {
 						"3": [
-							"hold person",
+							"immobilitzar humanoide",
 							"brot d'espines"
 						],
 						"5": [
 							"tempesta d'aiguaneu",
-							"slow"
+							"alentir"
 						],
 						"7": [
-							"freedom of movement",
-							"ice storm"
+							"llibertat de moviments",
+							"tempesta de gel"
 						],
 						"9": [
 							"comunió amb la natura",
@@ -1926,7 +1926,7 @@
 					}
 				},
 				{
-					"name": "Coast",
+					"name": "Costa",
 					"innate": {
 						"1": {
 							"_": [
@@ -1938,20 +1938,20 @@
 					},
 					"prepared": {
 						"3": [
-							"mirror image",
-							"misty step"
+							"imatge mirall",
+							"pas boira"
 						],
 						"5": [
-							"water breathing",
-							"water walk"
+							"respirar sota l'aigua",
+							"caminar per l'aigua"
 						],
 						"7": [
 							"control d'aigua",
-							"freedom of movement"
+							"llibertat de moviments"
 						],
 						"9": [
-							"conjure elemental",
-							"scrying"
+							"convocar elemental",
+							"escodrinyar"
 						]
 					}
 				},
@@ -1976,17 +1976,17 @@
 							"protegir de l'energia"
 						],
 						"7": [
-							"blight",
-							"hallucinatory terrain"
+							"plaga",
+							"terreny il·lusori"
 						],
 						"9": [
-							"insect plague",
+							"plaga d'instectes",
 							"paret de pedra"
 						]
 					}
 				},
 				{
-					"name": "Forest",
+					"name": "Bosc",
 					"innate": {
 						"1": {
 							"_": [
@@ -2002,21 +2002,21 @@
 							"grimpat d'aranya"
 						],
 						"5": [
-							"call lightning",
+							"invocar llamps",
 							"creixement de la flora"
 						],
 						"7": [
-							"divination",
-							"freedom of movement"
+							"endevinació",
+							"llibertat de moviments"
 						],
 						"9": [
 							"comunió amb la natura",
-							"tree stride"
+							"passeig pels arbres"
 						]
 					}
 				},
 				{
-					"name": "Grassland",
+					"name": "Prats",
 					"innate": {
 						"1": {
 							"_": [
@@ -2028,25 +2028,25 @@
 					},
 					"prepared": {
 						"3": [
-							"invisibility",
-							"pass without trace"
+							"invisibilitat",
+							"passar desapercebudament"
 						],
 						"5": [
 							"llum del dia",
-							"haste"
+							"accelerar"
 						],
 						"7": [
-							"divination",
-							"freedom of movement"
+							"endevinació",
+							"llibertat de moviments"
 						],
 						"9": [
-							"dream",
-							"insect plague"
+							"somnis",
+							"plaga d'instectes"
 						]
 					}
 				},
 				{
-					"name": "Mountain",
+					"name": "Muntanya",
 					"innate": {
 						"1": {
 							"_": [
@@ -2067,7 +2067,7 @@
 						],
 						"7": [
 							"moldejar la pedra",
-							"stoneskin"
+							"pell de pedra"
 						],
 						"9": [
 							"passaparet",
@@ -2076,7 +2076,7 @@
 					}
 				},
 				{
-					"name": "Swamp",
+					"name": "Aiguamoll",
 					"innate": {
 						"1": {
 							"_": [
@@ -2088,25 +2088,25 @@
 					},
 					"prepared": {
 						"3": [
-							"darkness",
-							"Melf's acid arrow"
+							"foscor",
+							"Fletxa Acida d'en Melf"
 						],
 						"5": [
-							"water walk",
+							"caminar per l'aigua",
 							"núvol fètid"
 						],
 						"7": [
-							"freedom of movement",
+							"llibertat de moviments",
 							"localitzar criatura"
 						],
 						"9": [
-							"insect plague",
-							"scrying"
+							"plaga d'instectes",
+							"escodrinyar"
 						]
 					}
 				},
 				{
-					"name": "Underdark",
+					"name": "Sotafoscor",
 					"innate": {
 						"1": {
 							"_": [
@@ -2122,7 +2122,7 @@
 							"tirarany"
 						],
 						"5": [
-							"gaseous form",
+							"forma gasosa",
 							"núvol fètid"
 						],
 						"7": [
@@ -2131,133 +2131,133 @@
 						],
 						"9": [
 							"matanúvol",
-							"insect plague"
+							"plaga d'instectes"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Circle of the Land|Druid||Land||2",
-				"Land's Stride|Druid||Land||6",
-				"Nature's Ward|Druid||Land||10",
-				"Nature's Sanctuary|Druid||Land||14"
+				"Cercle de la Terra|Druida||Terra||2",
+				"Caminar la Terra|Druida||Terra||6",
+				"Guarda Natural|Druida||Terra||10",
+				"Santuari Natural|Druida||Terra||14"
 			]
 		},
 		{
-			"name": "Circle of the Moon",
-			"shortName": "Moon",
+			"name": "Cercle de la Lluna",
+			"shortName": "Lluna",
 			"source": "PHB",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 69,
 			"additionalSpells": [
 				{
 					"innate": {
 						"14": [
-							"alter self"
+							"ego alteració"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
-				"Circle of the Moon|Druid||Moon||2",
-				"Primal Strike|Druid||Moon||6",
-				"Elemental Wild Shape|Druid||Moon||10",
-				"Thousand Forms|Druid||Moon||14"
+				"Cercle de la Lluna|Druida||Lluna||2",
+				"Assalt Primari|Druida||Lluna||6",
+				"Forma Feréstega Elemental|Druida||Lluna||10",
+				"Mil Formes|Druida||Lluna||14"
 			]
 		},
 		{
-			"name": "Circle of Dreams (UA)",
+			"name": "Cercle dels Somnis (UA)",
 			"shortName": "Dreams (UA)",
 			"source": "UADruid",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Circle of Dreams|Druid||Dreams (UA)|UADruid|2",
-				"Hearth of Moonlight and Shadow|Druid||Dreams (UA)|UADruid|6",
-				"Hidden Paths|Druid||Dreams (UA)|UADruid|10",
-				"Purifying Light|Druid||Dreams (UA)|UADruid|14"
+				"Cercle dels Somnis|Druida||Dreams (UA)|UADruid|2",
+				"Llar a l'Ombra i a la Lluna|Druida||Dreams (UA)|UADruid|6",
+				"Camins que s'Esvaeixen|Druida||Dreams (UA)|UADruid|10",
+				"Purifying Light|Druida||Dreams (UA)|UADruid|14"
 			]
 		},
 		{
 			"name": "Circle of the Shepherd (UA)",
 			"shortName": "Shepherd (UA)",
 			"source": "UADruid",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Circle of the Shepherd|Druid||Shepherd (UA)|UADruid|2",
-				"Mighty Summoner|Druid||Shepherd (UA)|UADruid|6",
-				"Guardian Spirit|Druid||Shepherd (UA)|UADruid|10",
-				"Faithful Summons|Druid||Shepherd (UA)|UADruid|14"
+				"Cercle dels Pastors|Druida||Shepherd (UA)|UADruid|2",
+				"Convocació Poderosa|Druida||Shepherd (UA)|UADruid|6",
+				"Esperit Guardià|Druida||Shepherd (UA)|UADruid|10",
+				"Convocació Lleials|Druida||Shepherd (UA)|UADruid|14"
 			]
 		},
 		{
 			"name": "Circle of Twilight (UA)",
 			"shortName": "Twilight (UA)",
 			"source": "UADruid",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 2,
 			"subclassFeatures": [
-				"Circle of Twilight|Druid||Twilight (UA)|UADruid|2",
-				"Speech Beyond the Grave|Druid||Twilight (UA)|UADruid|6",
-				"Watcher at the Threshold|Druid||Twilight (UA)|UADruid|10",
-				"Paths of the Dead|Druid||Twilight (UA)|UADruid|14"
+				"Circle of Twilight|Druida||Twilight (UA)|UADruid|2",
+				"Speech Beyond the Grave|Druida||Twilight (UA)|UADruid|6",
+				"Watcher at the Threshold|Druida||Twilight (UA)|UADruid|10",
+				"Paths of the Dead|Druida||Twilight (UA)|UADruid|14"
 			]
 		},
 		{
 			"name": "Circle of the Shepherd v2 (UA)",
 			"shortName": "Shepherd v2 (UA)",
 			"source": "UARevisedClassOptions",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Circle of the Shepherd v2|Druid||Shepherd v2 (UA)|UARevisedClassOptions|2",
-				"Mighty Summoner|Druid||Shepherd v2 (UA)|UARevisedClassOptions|6",
-				"Guardian Spirit|Druid||Shepherd v2 (UA)|UARevisedClassOptions|10",
-				"Faithful Summons|Druid||Shepherd v2 (UA)|UARevisedClassOptions|14"
+				"Circle of the Shepherd v2|Druida||Shepherd v2 (UA)|UARevisedClassOptions|2",
+				"Convocació Poderosa|Druida||Shepherd v2 (UA)|UARevisedClassOptions|6",
+				"Esperit Guardià|Druida||Shepherd v2 (UA)|UARevisedClassOptions|10",
+				"Convocació Lleials|Druida||Shepherd v2 (UA)|UARevisedClassOptions|14"
 			]
 		},
 		{
-			"name": "Circle of Dreams",
-			"shortName": "Dreams",
+			"name": "Cercle dels Somnis",
+			"shortName": "Somnis",
 			"source": "XGE",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 22,
 			"subclassFeatures": [
-				"Circle of Dreams|Druid||Dreams|XGE|2",
-				"Hearth of Moonlight and Shadow|Druid||Dreams|XGE|6",
-				"Hidden Paths|Druid||Dreams|XGE|10",
-				"Walker in Dreams|Druid||Dreams|XGE|14"
+				"Cercle dels Somnis|Druida||Somnis|XGE|2",
+				"Llar a l'Ombra i a la Lluna|Druida||Somnis|XGE|6",
+				"Camins que s'Esvaeixen|Druida||Somnis|XGE|10",
+				"Viatjar pels Somnis|Druida||Somnis|XGE|14"
 			]
 		},
 		{
-			"name": "Circle of the Shepherd",
-			"shortName": "Shepherd",
+			"name": "Cercle dels Pastors",
+			"shortName": "Pastors",
 			"source": "XGE",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 23,
 			"subclassFeatures": [
-				"Circle of the Shepherd|Druid||Shepherd|XGE|2",
-				"Mighty Summoner|Druid||Shepherd|XGE|6",
-				"Guardian Spirit|Druid||Shepherd|XGE|10",
-				"Faithful Summons|Druid||Shepherd|XGE|14"
+				"Cercle dels Pastors|Druida||Pastors|XGE|2",
+				"Convocació Poderosa|Druida||Pastors|XGE|6",
+				"Esperit Guardià|Druida||Pastors|XGE|10",
+				"Convocació Lleials|Druida||Pastors|XGE|14"
 			]
 		},
 		{
-			"name": "Circle of Spores (UA)",
+			"name": "Cercle d'Espores (UA)",
 			"shortName": "Spores (UA)",
 			"source": "UAThreeSubclasses",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
@@ -2265,16 +2265,16 @@
 				{
 					"prepared": {
 						"3": [
-							"gentle repose",
+							"repòs gentil",
 							"ray of enfeeblement"
 						],
 						"5": [
-							"animate dead",
-							"gaseous form"
+							"animar els morts",
+							"forma gasosa"
 						],
 						"7": [
-							"blight",
-							"confusion"
+							"plaga",
+							"confusió"
 						],
 						"9": [
 							"matanúvol",
@@ -2284,17 +2284,17 @@
 				}
 			],
 			"subclassFeatures": [
-				"Circle of Spores (UA)|Druid||Spores (UA)|UAThreeSubclasses|2",
-				"Fungal Infestation|Druid||Spores (UA)|UAThreeSubclasses|6",
-				"Spreading Spores|Druid||Spores (UA)|UAThreeSubclasses|10",
-				"Fungal Body|Druid||Spores (UA)|UAThreeSubclasses|14"
+				"Cercle d'Espores (UA)|Druida||Spores (UA)|UAThreeSubclasses|2",
+				"Infestació Miceliana|Druida||Spores (UA)|UAThreeSubclasses|6",
+				"Escampar les Llavors|Druida||Spores (UA)|UAThreeSubclasses|10",
+				"Cos de Fong|Druida||Spores (UA)|UAThreeSubclasses|14"
 			]
 		},
 		{
-			"name": "Circle of Wildfire (UA)",
+			"name": "Cercle del Foc Feréstec (UA)",
 			"shortName": "Wildfire (UA)",
 			"source": "UAClericDruidWizard",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 2,
 			"isReprinted": true,
@@ -2321,32 +2321,32 @@
 				}
 			],
 			"subclassFeatures": [
-				"Circle of Wildfire|Druid||Wildfire (UA)|UAClericDruidWizard|2",
-				"Enhanced Bond|Druid||Wildfire (UA)|UAClericDruidWizard|6",
-				"Flames of Life|Druid||Wildfire (UA)|UAClericDruidWizard|10",
-				"Blazing Endurance|Druid||Wildfire (UA)|UAClericDruidWizard|14"
+				"Cercle del Foc Feréstec|Druida||Wildfire (UA)|UAClericDruidWizard|2",
+				"Vincle Augmentat|Druida||Wildfire (UA)|UAClericDruidWizard|6",
+				"Flames of Life|Druida||Wildfire (UA)|UAClericDruidWizard|10",
+				"Blazing Endurance|Druida||Wildfire (UA)|UAClericDruidWizard|14"
 			]
 		},
 		{
 			"name": "Circle of the Stars (UA)",
 			"shortName": "Stars (UA)",
 			"source": "UA2020SubclassesPt3",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 3,
 			"isReprinted": true,
 			"subclassFeatures": [
-				"Circle of the Stars|Druid||Stars (UA)|UA2020SubclassesPt3|2",
-				"Cosmic Omen|Druid||Stars (UA)|UA2020SubclassesPt3|6",
-				"Full of Stars|Druid||Stars (UA)|UA2020SubclassesPt3|10",
-				"Star Flare|Druid||Stars (UA)|UA2020SubclassesPt3|14"
+				"Circle of the Estrelles|Druida||Stars (UA)|UA2020SubclassesPt3|2",
+				"Presagi Còsmic|Druida||Stars (UA)|UA2020SubclassesPt3|6",
+				"Cel Ple d'Estrelles|Druida||Stars (UA)|UA2020SubclassesPt3|10",
+				"Star Flare|Druida||Stars (UA)|UA2020SubclassesPt3|14"
 			]
 		},
 		{
-			"name": "Circle of Spores",
-			"shortName": "Spores",
+			"name": "Cercle d'Espores",
+			"shortName": "Espores",
 			"source": "TCE",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 36,
 			"otherSources": [
@@ -2360,15 +2360,15 @@
 					"prepared": {
 						"3": [
 							"ceguera/sordera",
-							"gentle repose"
+							"repòs gentil"
 						],
 						"5": [
-							"animate dead",
-							"gaseous form"
+							"animar els morts",
+							"forma gasosa"
 						],
 						"7": [
-							"blight",
-							"confusion"
+							"plaga",
+							"confusió"
 						],
 						"9": [
 							"matanúvol",
@@ -2378,31 +2378,31 @@
 				}
 			],
 			"subclassFeatures": [
-				"Circle of Spores|Druid||Spores|TCE|2",
-				"Fungal Infestation|Druid||Spores|TCE|6",
-				"Spreading Spores|Druid||Spores|TCE|10",
-				"Fungal Body|Druid||Spores|TCE|14"
+				"Cercle d'Espores|Druida||Espores|TCE|2",
+				"Infestació Miceliana|Druida||Espores|TCE|6",
+				"Escampar les Llavors|Druida||Espores|TCE|10",
+				"Cos de Fong|Druida||Espores|TCE|14"
 			]
 		},
 		{
-			"name": "Circle of Stars",
-			"shortName": "Stars",
+			"name": "Cercle d'Estrelles",
+			"shortName": "Estrelles",
 			"source": "TCE",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 38,
 			"subclassFeatures": [
-				"Circle of Stars|Druid||Stars|TCE|2",
-				"Cosmic Omen|Druid||Stars|TCE|6",
-				"Twinkling Constellations|Druid||Stars|TCE|10",
-				"Full of Stars|Druid||Stars|TCE|14"
+				"Cercle d'Estrelles|Druida||Estrelles|TCE|2",
+				"Presagi Còsmic|Druida||Estrelles|TCE|6",
+				"Pampallugues Astrals|Druida||Estrelles|TCE|10",
+				"Cel Ple d'Estrelles|Druida||Estrelles|TCE|14"
 			]
 		},
 		{
-			"name": "Circle of Wildfire",
-			"shortName": "Wildfire",
+			"name": "Cercle del Foc Feréstec",
+			"shortName": "Foc Feréstec",
 			"source": "TCE",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"page": 39,
 			"additionalSpells": [
@@ -2432,17 +2432,17 @@
 				}
 			],
 			"subclassFeatures": [
-				"Circle of Wildfire|Druid||Wildfire|TCE|2",
-				"Enhanced Bond|Druid||Wildfire|TCE|6",
-				"Cauterizing Flames|Druid||Wildfire|TCE|10",
-				"Blazing Revival|Druid||Wildfire|TCE|14"
+				"Cercle del Foc Feréstec|Druida||Foc Feréstec|TCE|2",
+				"Vincle Augmentat|Druida||Foc Feréstec|TCE|6",
+				"Flames que Cauteritzen|Druida||Foc Feréstec|TCE|10",
+				"Reviure de les Flames|Druida||Foc Feréstec|TCE|14"
 			]
 		},
 		{
 			"name": "Mage of Prismari (UA)",
 			"shortName": "Prismari (UA)",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Prismari (UA)",
@@ -2459,7 +2459,7 @@
 			"name": "Mage of Witherbloom (UA)",
 			"shortName": "Witherbloom (UA)",
 			"source": "UA2021MagesOfStrixhaven",
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Witherbloom (UA)",
@@ -2475,16 +2475,16 @@
 	],
 	"classFeature": [
 		{
-			"name": "Cantrip Versatility",
+			"name": "Versatilitat en Trucs",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de druid a nivell 1 (millora Spellcasting)}",
-				"Whenever you gain a level en aquesta classe, you can replace one cantrip you learned from this Spellcasting feature with another cantrip de la llista de conjurs de druida."
+				"{@i tret de druida a nivell 1 (millora Spellcasting)}",
+				"Quan puges de nivell en aquesta classe, pots intercanviar un truc que has après via aquest tret de Llançament de conjurs amb un altre truc de la llista de conjurs de druida."
 			]
 		},
 		{
@@ -2492,11 +2492,11 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You know {@language Druidic}, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Saviesa ({@skill Perception}) but can't decipher it without magic."
+				"Coneixes el {@language Druidic}, la llengua secreta dels druides. L'escrius i l'utilitzes per a deixar missatges secrets. Els que coneixen el druídic els veuen i desxifren automàticament. Els que no han de superar una tirada de Saviesa ({@skill Perception}) de CD 15; tanmateix, no poden desxifrar-la sense màgia."
 			]
 		},
 		{
@@ -2504,33 +2504,33 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de druida|spells|class=druid}.",
+				"Pots llançar conjurs gràcies a l'essència divina de la pròpia natura, que moldeges amb la teva voluntat. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de druida|spells|class=druid}.",
 				{
 					"type": "entries",
 					"name": "Trucs",
 					"entries": [
-						"A nivell 1, coneixes 2 trucs (escull) from the {@filter llista de conjurs de druida|spells|level=0|class=druid}. Aprendràs més trucs de druid (escull) a nivells superiors, as shown in the Columna de Trucs Coneguts of the Druid table."
+						"A nivell 1, coneixes 2 trucs (escull) de la {@filter llista de conjurs de druida|spells|level=0|class=druid}. Aprendràs més trucs de druida (escull) a nivells superiors, que pots veure a la Columna de Trucs Coneguts de la taula de Druida."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Preparing and Casting Spells",
+					"name": "Preparar i Llançar Conjurs",
 					"entries": [
-						"The Druid table mostra les ranures de conjur que tens per llançar els {@filter druid spells|spells|class=druid} de nivells 1 i superior. To cast one of these druid spells, you must expend a slot of the spell's level or higher. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
-						"You prepare the list of druid spells that are available for you to cast, choosing de la llista de conjurs de druida. When you do so, choose a number of druid spells equivalent al teu modificador de Saviesa + your druid level (mínim d'1 spell). The spells must be of a level for which you have ranures de conjur.",
-						"For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level ranures de conjur. With a Saviesa of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell curar ferides}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-						"You can also change your list of prepared spells quan acabis un Descans Llarg. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+						"La taula de Druida mostra les ranures de conjur que tens per llançar els {@filter conjurs de druida|spells|class=druid} de nivells 1 i superior. Per a llançar conjurs de druida, has de gastar una ranura de conjur del nivell equivalent o superior al del conjur. Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
+						"Per a preparar la llista de conjurs que pots llançar, escull-los de la llista de conjurs de druida. Esculls tants conjurs de druida com el teu modificador de Saviesa + el teu nivell de druida (mínim d'1 conjur). Has de tenir una ranura del nivell d'un conjur per a poder preparar-lo.",
+						"Així, si ets un druida de nivell 3, tens quatre ranures de nivell 1 i dues de nivell 2. Si tens 16 de Saviesa, et pots preparar fins a 6 conjurs; cadascun pot ser de nivell 1 o bé nivell 2. Si et prepares el conjur de nivell 1 {@spell curar ferides}, el pots llançar gastant una ranura de nivell 1 o bé de nivell 2. Llançar un conjur no te l'elimina de la llista de conjurs preparats; només gasta la ranura.",
+						"Pots canviar la llista de conjurs preparats quan acabis un Descans Llarg. Preparar una nova llista de conjurs de druida requereix meditar i pregar com a mínim 1 minut per cada conjur que et preparis."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Habilitat de Llançament de Conjurs",
 					"entries": [
-						"La teva habilitat de llançament de conjurs pels conjurs de druid és la Saviesa, since your magic draws upon your devotion and attunement to nature. Faràs servir la Saviesa quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Saviesa quan un conjur de Saviesa mencioni: o una CD de salvada o una tirada d'impactar.",
+						"La teva habilitat de llançament de conjurs pels conjurs de druida és la Saviesa, ja que la teva màgia sorgeix de l'harmonia i la devoció que tens amb la natura. Faràs servir la Saviesa quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Saviesa quan un conjur de Saviesa mencioni: o una CD de salvada o una tirada d'impactar.",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
@@ -2551,77 +2551,77 @@
 					"type": "entries",
 					"name": "Llançar com a Ritual",
 					"entries": [
-						"You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+						"Pots llançar un conjur de druida que tinguis preparat i que tingui l'etiqueta Ritual."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Focus de Llançament de Conjurs",
 					"entries": [
-						"You can use a {@item druidic focus|phb} com a focus de llançament arcà pels teus druid spells"
+						"Pots emprar un {@item druidic focus|phb} com a focus de llançament arcà pels teus conjurs de druida"
 					]
 				}
 			]
 		},
 		{
-			"name": "Druid Circle",
+			"name": "Cercle Druida",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"A nivell 2, you choose to identify with a circle of druids de la llista de circles disponibles La teva elecció t'otorga trets als nivells 2, 6, 10, i 14."
+				"A nivell 2, t'identifiques amb un cercle de druites de la llista de cercles disponibles. La teva elecció t'otorga trets als nivells 2, 6, 10, i 14."
 			]
 		},
 		{
-			"name": "Wild Companion",
+			"name": "Company Salvatge",
 			"source": "TCE",
 			"page": 35,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel druid a nivell 2}",
-				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
-				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel druida a nivell 2}",
+				"Aprèns a convocar un esperit que adopta l'aparença d'un anima. Com a acció, pots gastar un ús de la teva Forma Feréstega per llançar el conjur {@spell trobar familiar} sense necessitar components materials.",
+				"Quan llances el conjur amb aquest tret el familiar és de tipus fata i no bèstia, i desapareix passats tans dies com la meitat del teu nivell de druida."
 			]
 		},
 		{
-			"name": "Wild Companion",
+			"name": "Company Salvatge",
 			"source": "UAClassFeatureVariants",
 			"page": 4,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i tret de druid a nivell 2 (millora Wild Shape)}",
-				"You gain the ability to summon a spirit that assumes an animal form: com a acció, you can expend a use of your Wild Shape feature to cast the {@spell find familiar} spell, without material components.",
-				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
+				"{@i tret de druida a nivell 2 (millora Forma Feréstega)}",
+				"You gain the ability to summon a spirit that assumes an animal form: com a acció, pots gastar un ús de la teva Forma Feréstega feature to cast the {@spell trobar familiar} spell, sense necessitar components materials.",
+				"When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to la meitat del teu nivell de druida."
 			]
 		},
 		{
-			"name": "Wild Shape",
+			"name": "Forma Feréstega",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Començant a nivell 2, pots, com a acció, to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses quan acabis un Descans Curt o Llarg.",
-				"Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. A nivell 2, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.",
+				"Començant a nivell 2, pots, com a acció, adoptar màgicament la forma d'una bèstia que hagis vist. Pots emprar aquest tret 2 cops. En recuperes tots els usos quan acabis un Descans Curt o Llarg.",
+				"El teu nivell de druida determina en quines bèsties et pots transformar; consulta la taula Taula Formes de Bèstia. Així, a nivell 2, et pots transformar en una bèstia amb Valor de Repte 1/4 que no tingui velocitat de vol ni de natació.",
 				{
 					"type": "table",
-					"caption": "Beast Shapes",
+					"caption": "Formes de Bèstia",
 					"colLabels": [
-						"Level",
-						"Max. CR",
-						"Limitations",
-						"Example"
+						"Nivell",
+						"VR Màx.",
+						"Limitacions",
+						"Exemple"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2633,33 +2633,33 @@
 						[
 							"2",
 							"{@filter 1/4|bestiary|challenge rating=[&0;&1/4]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
-							"No flying or swimming speed",
-							"Wolf"
+							"Sense vel. de vol o natació",
+							"Llop"
 						],
 						[
 							"4",
 							"{@filter 1/2|bestiary|challenge rating=[&0;&1/2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
-							"No flying speed",
-							"Crocodile"
+							"Sense vel. de vol",
+							"Cocodril"
 						],
 						[
 							"8",
 							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|miscellaneous=!swarm}",
 							"\u2014",
-							"Giant eagle"
+							"Àguila Gegant"
 						]
 					]
 				},
-				"You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action en el teu torn. You automatically revert if you fall {@condition unconscious}, drop to 0 punts de vida, or die.",
-				"While you are transformed, the following rules apply:",
+				"Pots mantenir la forma de bèstia tantes hores com la meitat del teu nivell de druida (arrodonint a la baixa). Un cop passades, tornes a la teva forma original, a no ser que gastis un altre ús d'aquest tret. Pots tornar a la teva forma original en qualsevol moment com a acció bonus en el teu torn. També hi tornes automàticament si et quedes {@condition unconscious}, et quedes a 0 punts de vida, o mors.",
+				"Mentre estiguis en Forma Feréstega, se t'apliquen aquestes condicions:",
 				{
 					"type": "list",
 					"items": [
-						"Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intel·ligència, Saviesa, and Carisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-						"When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 punts de vida, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 punts de vida, you aren't knocked {@condition unconscious}.",
-						"You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as {@spell call lightning}, that you've already cast.",
-						"You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
-						"You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+						"Les teves estadístiques es tornen les de la bèstia, però reténs les puntuacions d'Intel·ligència, Saviesa, i Carisma. També reténs: l'alineament; la personalitat; les teves competències d'habilitats i de salvacions (i hi afegeixes les de la bèstia!). Si tant tu com la bèstia teniu la mateixa competència faràs servir el bonus de competència més alt. No pots prendre cap acció Llegendària ni de Llar que pugui tenir la bèstia.",
+						"Quan et transformes adoptes els punts de vida i els Daus de Vida de la bèstia. Quan tornes a la teva forma original, tornes als punts de vida que tenis abans de transformar-te. Tanmateix, si tornes a la teva forma original perquè la Forma Feréstega ha rebut un dany que l'ha deixat a 0 punts de vida, et restes el dany extra als teus punts de vida originals. Així, sí reps 10 punts de dany i a la Forma Feréstega només li queda 1 punt de vida, tornes a la teva forma original i reps 9 punts de dany. Només et quedes {@condition unconscious} a la teva forma original si aquest dany et deixa a 0 punts de vida a la forma original.",
+						"No pots llançar conjurs, parlar, ni prendre cap acció que requereixi mans que la bèstia no tingui. Tanmateix, estar en Forma Feréstega no et trenca la concentració en un conjur que hagis llançat abans de transformar-te; a més, si un conjur activat prèviament et permet prendre accions, les pots prendre en Forma Feréstega (com ara el conjur {@spell invocar llamps}).",
+						"Reténs tot benefici de trets de classe, raça, i altres fonts i els pots emprar si a la teva Forma Feréstega li és físicament possible. Tanmateix no reténs els teus sentits especials originals com ara {@sense darkvision}: has de dependre dels que tingui la bèstia.",
+						"Quan et transformes, esculls si el teu equipament cau al terra en el teu espai, es fón en la teva nova forma, o si la Forma Feréstega el vesteix. L'equip vestit així funciona normalment, tot i que el/la/li MM decidirà si és pràctic que la teva forma el dugui. El teu equipament no canvia de forma ni de tamany per adapatar-se a la Forma Feréstega, i tot equipament que no puguis vestir raonablement l'has de fondre amb tu o deixar-lo caure. Tot equipament fós així no otorga cap efecte fins que no tornis a la teva forma original."
 					]
 				}
 			]
@@ -2669,24 +2669,24 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
 				"Quan arribes a nivell 4, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
-				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
 		{
-			"name": "Cantrip Versatility",
+			"name": "Versatilitat en Trucs",
 			"source": "TCE",
 			"page": 35,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i {@variantrule optional class features|tce|Tret opcional} pel druid a nivell 4}",
+				"{@i {@variantrule optional class features|tce|Tret opcional} pel druida a nivell 4}",
 				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica feature, you can substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter llista de conjurs de druida|spells|level=0|class=Druid}."
 			]
 		},
@@ -2694,7 +2694,7 @@
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
@@ -2705,27 +2705,27 @@
 			]
 		},
 		{
-			"name": "Wild Shape Improvement",
+			"name": "Millora de Forma Feréstega",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"A nivell 4, your Wild Shape improves as shown on the Beast Shapes table."
+				"A nivell 4, la teva Forma Feréstega millora: consulta la Taula Formes de Bèstia."
 			]
 		},
 		{
-			"name": "Druid Circle feature",
+			"name": "Tret de Cercle Druida",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"A nivell 6, obténs un tret gràcies al Druid Circle."
+				"A nivell 6, obténs un tret gràcies al Cercle Druida."
 			]
 		},
 		{
@@ -2733,19 +2733,19 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
 				"Quan arribes a nivell 8, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
-				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 8,
 			"isClassFeatureVariant": true,
@@ -2756,27 +2756,27 @@
 			]
 		},
 		{
-			"name": "Wild Shape Improvement",
+			"name": "Millora de Forma Feréstega",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"A nivell 8, your Wild Shape improves as shown on the Beast Shapes table."
+				"A nivell 8, la teva Forma Feréstega millora: consulta la Taula Formes de Bèstia."
 			]
 		},
 		{
-			"name": "Druid Circle feature",
+			"name": "Tret de Cercle Druida",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, obténs un tret gràcies al Druid Circle feature."
+				"A nivell 10, obténs un tret gràcies al Tret de Cercle Druida."
 			]
 		},
 		{
@@ -2784,19 +2784,19 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
 				"Quan arribes a nivell 12, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
-				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 12,
 			"isClassFeatureVariant": true,
@@ -2807,15 +2807,15 @@
 			]
 		},
 		{
-			"name": "Druid Circle feature",
+			"name": "Tret de Cercle Druida",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, obténs un tret gràcies al Druid Circle feature."
+				"A nivell 14, obténs un tret gràcies al Tret de Cercle Druida."
 			]
 		},
 		{
@@ -2823,19 +2823,19 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
 				"Quan arribes a nivell 16, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
-				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 16,
 			"isClassFeatureVariant": true,
@@ -2846,15 +2846,15 @@
 			]
 		},
 		{
-			"name": "Beast Spells",
+			"name": "Conjurs Bestials",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Començant a nivell 18, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
+				"Començant a nivell 18, pots llançar molts conjurs de druida quan ets en Forma Feréstega. Pots llançar tot conjur que tingui compotnents verbals i/o somàtics, però no aquells que requereixin components materials."
 			]
 		},
 		{
@@ -2862,11 +2862,11 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Començant a nivell 18, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+				"Començant a nivell 18, la màgia primordial que controles et fa envellir lentament. Envelleixes només 1 any per cada 10 anys que passen."
 			]
 		},
 		{
@@ -2874,19 +2874,19 @@
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
 				"Quan arribes a nivell 19, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
-				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls una {@5etools feat|feats.html}."
+				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
 		{
 			"name": "Competència Versàtil",
 			"source": "UAClassFeatureVariants",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 19,
 			"isClassFeatureVariant": true,
@@ -2897,81 +2897,81 @@
 			]
 		},
 		{
-			"name": "Archdruid",
+			"name": "Arxi-druida",
 			"source": "PHB",
 			"page": 64,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, you can use your Wild Shape an unlimited number of times.",
-				"A més, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape."
+				"A nivell 20, obténs usos infinits de la teva Forma Feréstega.",
+				"A més, ignorar els components verbals i somàtics dels teus conjurs de druida i també els components materials que no tinguin un cost i no els consumeixi el conjur. Reps aquest benefici tant en la teva forma normal i en la teva Forma Feréstega."
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Circle of the Land",
+			"name": "Cercle de la Terra",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 2,
 			"entries": [
-				"The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in {@language Druidic}. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.",
+				"The Cercle de la Terra is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in {@language Druidic}. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrip|Druid||Land||2"
+					"subclassFeature": "Truc Extra|Druida||Terra||2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Natural Recovery|Druid||Land||2"
+					"subclassFeature": "Recuperació Natural|Druida||Terra||2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Land||2"
+					"subclassFeature": "Conjurs de Cercle|Druida||Terra||2"
 				}
 			]
 		},
 		{
-			"name": "Bonus Cantrip",
+			"name": "Truc Extra",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"You learn one additional druid cantrip (escull)."
+				"You learn one additional druida cantrip (escull)."
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Conjurs de Cercle",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your connexió mística to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land - arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark - and consult the associated list of spells.",
-				"Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
+				"La teva connexió mística amb la terra t'otorga l'habilitat de llançar certs conjurs. Obténs accés a certs conjurs de cercle connectats amb la teva terra als nivells 3, 5, 7, i 9. Tria la teva terra: aiguamolls, àrtic, bosc, costa, desert, muntanya, prats, o la Sotafoscor, i consulta la llista de conjurs associada.",
+				"Un cop accedeixis a un conjur de cercle sempre el tindràs preparat, i no comptarà contra el teu número de conjurs que et pots preparar cada dia. Si un conjur d'aquesta llista no és un conjur de druida, el consideres un conjur de druida.",
 				{
 					"type": "table",
-					"caption": "Arctic",
+					"caption": "Àrtic",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2980,15 +2980,15 @@
 					"rows": [
 						[
 							"3",
-							"{@spell hold person}, {@spell brot d'espines}"
+							"{@spell immobilitzar humanoide}, {@spell brot d'espines}"
 						],
 						[
 							"5",
-							"{@spell tempesta d'aiguaneu}, {@spell slow}"
+							"{@spell tempesta d'aiguaneu}, {@spell alentir}"
 						],
 						[
 							"7",
-							"{@spell freedom of movement}, {@spell ice storm}"
+							"{@spell llibertat de moviments}, {@spell tempesta de gel}"
 						],
 						[
 							"9",
@@ -2998,10 +2998,10 @@
 				},
 				{
 					"type": "table",
-					"caption": "Coast",
+					"caption": "Costa",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3010,19 +3010,19 @@
 					"rows": [
 						[
 							"3",
-							"{@spell mirror image}, {@spell misty step}"
+							"{@spell imatge mirall}, {@spell pas boira}"
 						],
 						[
 							"5",
-							"{@spell water breathing}, {@spell water walk}"
+							"{@spell respirar sota l'aigua}, {@spell caminar per l'aigua}"
 						],
 						[
 							"7",
-							"{@spell control d'aigua}, {@spell freedom of movement}"
+							"{@spell control d'aigua}, {@spell llibertat de moviments}"
 						],
 						[
 							"9",
-							"{@spell conjure elemental}, {@spell scrying}"
+							"{@spell convocar elemental}, {@spell escodrinyar}"
 						]
 					]
 				},
@@ -3030,8 +3030,8 @@
 					"type": "table",
 					"caption": "Desert",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3048,20 +3048,20 @@
 						],
 						[
 							"7",
-							"{@spell blight}, {@spell hallucinatory terrain}"
+							"{@spell plaga}, {@spell terreny il·lusori}"
 						],
 						[
 							"9",
-							"{@spell insect plague}, {@spell paret de pedra}"
+							"{@spell plaga d'instectes}, {@spell paret de pedra}"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Forest",
+					"caption": "Bosc",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3074,24 +3074,24 @@
 						],
 						[
 							"5",
-							"{@spell call lightning}, {@spell creixement de la flora}"
+							"{@spell invocar llamps}, {@spell creixement de la flora}"
 						],
 						[
 							"7",
-							"{@spell divination}, {@spell freedom of movement}"
+							"{@spell endevinació}, {@spell llibertat de moviments}"
 						],
 						[
 							"9",
-							"{@spell comunió amb la natura}, {@spell tree stride}"
+							"{@spell comunió amb la natura}, {@spell passeig pels arbres}"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Grassland",
+					"caption": "Prats",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3100,28 +3100,28 @@
 					"rows": [
 						[
 							"3",
-							"{@spell invisibility}, {@spell pass without trace}"
+							"{@spell invisibilitat}, {@spell passar desapercebudament}"
 						],
 						[
 							"5",
-							"{@spell llum del dia}, {@spell haste}"
+							"{@spell llum del dia}, {@spell accelerar}"
 						],
 						[
 							"7",
-							"{@spell divination}, {@spell freedom of movement}"
+							"{@spell endevinació}, {@spell llibertat de moviments}"
 						],
 						[
 							"9",
-							"{@spell dream}, {@spell insect plague}"
+							"{@spell somnis}, {@spell plaga d'instectes}"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Mountain",
+					"caption": "Muntanya",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3138,7 +3138,7 @@
 						],
 						[
 							"7",
-							"{@spell moldejar la pedra}, {@spell stoneskin}"
+							"{@spell moldejar la pedra}, {@spell pell de pedra}"
 						],
 						[
 							"9",
@@ -3148,10 +3148,10 @@
 				},
 				{
 					"type": "table",
-					"caption": "Swamp",
+					"caption": "Aiguamoll",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3160,28 +3160,28 @@
 					"rows": [
 						[
 							"3",
-							"{@spell darkness}, {@spell Melf's acid arrow}"
+							"{@spell foscor}, {@spell Fletxa Acida d'en Melf}"
 						],
 						[
 							"5",
-							"{@spell water walk}, {@spell núvol fètid}"
+							"{@spell caminar per l'aigua}, {@spell núvol fètid}"
 						],
 						[
 							"7",
-							"{@spell freedom of movement}, {@spell localitzar criatura}"
+							"{@spell llibertat de moviments}, {@spell localitzar criatura}"
 						],
 						[
 							"9",
-							"{@spell insect plague}, {@spell scrying}"
+							"{@spell plaga d'instectes}, {@spell escodrinyar}"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Underdark",
+					"caption": "Sotafoscor",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3194,7 +3194,7 @@
 						],
 						[
 							"5",
-							"{@spell gaseous form}, {@spell núvol fètid}"
+							"{@spell forma gasosa}, {@spell núvol fètid}"
 						],
 						[
 							"7",
@@ -3202,117 +3202,117 @@
 						],
 						[
 							"9",
-							"{@spell matanúvol}, {@spell insect plague}"
+							"{@spell matanúvol}, {@spell plaga d'instectes}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Natural Recovery",
+			"name": "Recuperació Natural",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended ranures de conjur to recover. The ranures de conjur can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. No pots tornar a emprar aquest tret fins que acabis un descans llarg.",
-				"For example, when you are a 4th-level druid, you can recover up to two levels worth of ranures de conjur. You can recover either a 2nd-level slot or two 1st-level slots."
+				"Començant a nivell 2, pots regenerar una mica d'energia màgica a través de meditació i fer comunió amb la natura. Durant un descans curt, esculls ranures de conjur per a recuperar. El nivell sumat de les ranures de conjur ha de ser, com a molt, la meitat del teu nivell de druida (arrodonint a l'alça). Cap ranura recuperada pot superar el nivell 5. No pots tornar a emprar aquest tret fins que acabis un Descans Llarg.",
+				"Així, si ets un druida de nivell 4, pots recuperar 2 nivells en ranures de conjur; és a dir, una ranura de nivell 2 o dues ranures de nivell 1."
 			]
 		},
 		{
-			"name": "Land's Stride",
+			"name": "Caminar la Terra",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
-				"A més, tens avantatge a saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@spell entangle} spell."
+				"Començant a nivell 6, moure's a través de terreny difícil no màgic no et costa moviment extra. També pots atravessar plantes no màgiques sense que t'alenteixin i sense que et facin mal amb espines, punxes, o obstacles similars.",
+				"A més, tens avantatge a salvar contra plantes creades o manipulades màgicament per a obstaculitzar el moviment, com ara les del conjur {@spell enredar}."
 			]
 		},
 		{
-			"name": "Nature's Ward",
+			"name": "Guarda Natural",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Quan arribes a nivell 10, no pots ser {@condition charmed} ni {@condition frightened} by elementals or fey, and you are immune to poison and disease."
+				"Quan arribes a nivell 10, no pots ser {@condition charmed} ni {@condition frightened} per elementals ni fates. També tens immunitat a les metzines i les malalties."
 			]
 		},
 		{
-			"name": "Nature's Sanctuary",
+			"name": "Santuari Natural",
 			"source": "PHB",
 			"page": 68,
 			"srd": true,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Land",
+			"subclassShortName": "Terra",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Quan arribes a nivell 14, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature ha de salvar per Saviesa contra la teva CD de salvada de conjur de druid. Si falla, the creature must choose a different target, or the attack automatically misses. On a successful save, la criatura s'immunitza a aquest efecte durant 24 hores.",
-				"The creature is aware of this effect before it makes its attack against you."
+				"Quan arribes a nivell 14, les criatures de la natura entenen la connexió que tens amb el món natural i els costa malmetre't. Quan una bèstia o una planta t'ataqui, primer ha de salvar per Saviesa contra la teva CD de salvada de conjur de druida. Si falla, la criatura ha de: designar un nou objectiu; o fallar l'atac. Si supera, la criatura s'immunitza a aquest efecte durant 24 hores.",
+				"La criatura és conscient d'aquest efecte abans de provar d'impactar-te."
 			]
 		},
 		{
-			"name": "Circle of the Moon",
+			"name": "Cercle de la Lluna",
 			"source": "PHB",
 			"page": 69,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Moon",
+			"subclassShortName": "Lluna",
 			"subclassSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.",
-				"Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
+				"Druids of the Cercle de la Lluna are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.",
+				"Changeable as the moon, a druida of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Combat Wild Shape|Druid||Moon||2"
+					"subclassFeature": "Forma Feréstega de Combat|Druida||Lluna||2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Forms|Druid||Moon||2"
+					"subclassFeature": "Formes de Cercle|Druida||Lluna||2"
 				}
 			]
 		},
 		{
-			"name": "Circle Forms",
+			"name": "Formes de Cercle",
 			"source": "PHB",
 			"page": 69,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Moon",
+			"subclassShortName": "Lluna",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"The rites of your circle grant you the ability to transform into more dangerous animal forms. Començant a nivell 2, you can use your Wild Shape to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
-				"Començant a nivell 6, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
+				"Els rituals del teu cercle et permeten fer la teva Forma Feréstega més perillosa encara. Començant a nivell 2, pots transformar-te, amb la teva Forma Feréstega, en una {@filter bèstia amb VR 1 o menor|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (així, ignores la columna VR Màx de la Taula Formes de Bèstia; les altres limitacions continuen).",
+				"Començant a nivell 6, pots transformar-te en una bèstia amb un VR equivalent o menor al teu nivell de druida dividit per 3, arrodonint a la baixa.",
 				{
 					"type": "table",
-					"caption": "Circle of the Moon Beast Shapes",
+					"caption": "Cercle de la Lluna Formes de Bèstia",
 					"colLabels": [
-						"Level",
-						"Max. CR",
-						"Limitations"
+						"Nivell",
+						"VR Màx.",
+						"Limitacions"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3323,17 +3323,17 @@
 						[
 							"2",
 							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
-							"No flying or swimming speed"
+							"Sense vel. de vol o natació"
 						],
 						[
 							"4",
 							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly|miscellaneous=!swarm}",
-							"No flying speed"
+							"Sense vel. de vol"
 						],
 						[
 							"6",
 							"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
-							"No flying speed"
+							"Sense vel. de vol"
 						],
 						[
 							"8",
@@ -3365,64 +3365,64 @@
 			]
 		},
 		{
-			"name": "Combat Wild Shape",
+			"name": "Forma Feréstega de Combat",
 			"source": "PHB",
 			"page": 69,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Moon",
+			"subclassShortName": "Lluna",
 			"subclassSource": "PHB",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"You gain the ability to use Wild Shape en el teu torn com a acció bonus, rather than com a acció.",
-				"A més, while you are transformed by Wild Shape, pots, com a acció bonus, to expend one spell slot to regain {@dice 1d8} hit points per level of the spell slot expended."
+				"Ets capaç de transformar-te en Forma Feréstega en el teu torn com a acció bonus (i no com a acció).",
+				"A més, mentre estàs en Forma Feréstega, pots, com a acció bonus, gastar una ranura de conjur i recuperar {@dice 1d8} punts de vida per nivell de ranura."
 			]
 		},
 		{
-			"name": "Primal Strike",
+			"name": "Assalt Primari",
 			"source": "PHB",
 			"page": 69,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Moon",
+			"subclassShortName": "Lluna",
 			"subclassSource": "PHB",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, your attacks in beast form es consideren màgics quant a ignorar resistències i immunitats a atacs i dany no-màgic."
+				"Començant a nivell 6, els teus atacs en Forma Feréstega es consideren màgics quant a ignorar resistències i immunitats a atacs i dany no-màgic."
 			]
 		},
 		{
-			"name": "Elemental Wild Shape",
+			"name": "Forma Feréstega Elemental",
 			"source": "PHB",
 			"page": 69,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Moon",
+			"subclassShortName": "Lluna",
 			"subclassSource": "PHB",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
+				"A nivell 10, pots gastar 2 usos del tret Forma Feréstega alhora i transformar-te en un {@creature air elemental}, un {@creature earth elemental}, un {@creature fire elemental}, o un {@creature water elemental}."
 			]
 		},
 		{
-			"name": "Thousand Forms",
+			"name": "Mil Formes",
 			"source": "PHB",
 			"page": 69,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Moon",
+			"subclassShortName": "Lluna",
 			"subclassSource": "PHB",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, you have learned to use magic to alter your physical form in more subtle ways. You can cast the {@spell alter self} spell at will."
+				"A nivell 14, has après a alterar la teva forma màgicament formes subtils. Pots llançar el conjur {@spell ego alteració} a voluntat."
 			]
 		},
 		{
-			"name": "Circle of Spores",
+			"name": "Cercle d'Espores",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3431,31 +3431,31 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.",
+				"Druids of the Cercle d'Espores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.",
 				"These druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn't the end of life, but instead a change of state that sees life shift into a new form.",
 				"Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Spores|TCE|2"
+					"subclassFeature": "Conjurs de Cercle|Druida||Espores|TCE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Halo of Spores|Druid||Spores|TCE|2"
+					"subclassFeature": "Halo d'Espores|Druida||Espores|TCE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Symbiotic Entity|Druid||Spores|TCE|2"
+					"subclassFeature": "Entitat Simbiòtica|Druida||Espores|TCE|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Conjurs de Cercle",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3464,21 +3464,21 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. A nivell 2, aprèns el truc {@spell chill touch}. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
+				"El teu vincle simbiòtic amb els fongs i la teva capacitat de viatjar el cicle de la vida i la mort et permet accés a certs conjurs. A nivell 2, aprèns el truc {@spell mà morta}. Als nivells 3, 5, 7, i 9 reps accés als conjurs d'aquell nivell a la llista de la taula de Conjurs de Cercle d'Espores.",
+				"Un cop accedeixis a un conjur de cercle sempre el tindràs preparat, i no comptarà contra el teu número de conjurs que et pots preparar cada dia. Si un conjur d'aquesta llista no és un conjur de druida, el consideres un conjur de druida.",
 				{
 					"type": "table",
-					"caption": "Circle of Spores Spells",
+					"caption": "Cercle d'Espores Spells",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3487,15 +3487,15 @@
 					"rows": [
 						[
 							"3",
-							"{@spell ceguera/sordera}, {@spell gentle repose}"
+							"{@spell ceguera/sordera}, {@spell repòs gentil}"
 						],
 						[
 							"5",
-							"{@spell animate dead}, {@spell gaseous form}"
+							"{@spell animar els morts}, {@spell forma gasosa}"
 						],
 						[
 							"7",
-							"{@spell blight}, {@spell confusion}"
+							"{@spell plaga}, {@spell confusió}"
 						],
 						[
 							"9",
@@ -3506,7 +3506,7 @@
 			]
 		},
 		{
-			"name": "Halo of Spores",
+			"name": "Halo d'Espores",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3515,18 +3515,18 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. Quan una criatura que puguis veure moves into a space a 10 peus de tu or starts its turn there, pots, com a reacció, deal {@damage 1d4} de dany necròtic to that creature unless it succeeds on a Constitució saving throw contra la teva CD de salvació de conjur. The necrotic damage increases to {@dice 1d6} a nivell 6, {@dice 1d8} a nivell 10, i {@dice 1d10} a nivell 14."
+				"Començant a nivell 2, t'envoltens unes espores necròtiques i invisibles. Són inòcues fins que les alliberis vers a una criatura. Si criatura que puguis veure es mou a 10 peus de tu o hi comença el torn pots, com a reacció, fer-la salvar per Constitució contra la teva CD de salvació de conjur. Si falla, rep {@damage 1d4} de dany necròtic. Aquest dany es torna {@dice 1d6} a nivell 6, {@dice 1d8} a nivell 10, i {@dice 1d10} a nivell 14."
 			]
 		},
 		{
-			"name": "Symbiotic Entity",
+			"name": "Entitat Simbiòtica",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3535,26 +3535,26 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you gain the ability to channel magic into your spores. Com a acció, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 punts de vida temporals for each level you have en aquesta classe. While this feature is active, reps els beneficis següents:",
+				"A nivell 2, ets capaç de canalitzar màgia a les teves espores. Com a acció, pots gastar un ús de Forma Feréstega i, en comptes de transformar-te, despertes les espores. Reps tants punts de vida temporals com 4 vegades el teu nivell en aquesta classa. Mentre tinguis aquest tret activat, reps els beneficis següents:",
 				{
 					"type": "list",
 					"items": [
-						"When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.",
-						"Your atac armat cos a coss deal an extra {@damage 1d6} de dany necròtic to any target they hit."
+						"Quan fas mal amb l'Halo d'Espores, tires el dau de dany 2 cops.",
+						"Els teus atacs armats cos a cos fan {@damage 1d6} de dany necròtic extra quan impacten."
 					]
 				},
-				"These benefits last durant 10 minuts, until you lose all these punts de vida temporals, or until you use your Wild Shape again."
+				"Aquests beneficis duren: 10 minuts; fins que perdis tot s els punts de vida temporals, o fins que tornis a emprar la teva  Forma Feréstega."
 			]
 		},
 		{
-			"name": "Fungal Infestation",
+			"name": "Infestació Miceliana",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3563,20 +3563,20 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies a 10 peus de tu, pots, com a reacció, animate it, causing it to stand up immediately with 1 hit point. The creature uses the {@creature zombie} stat block in the {@book Monster Manual|MM}. It remains animate durant 1 hora, after which time it collapses and dies.",
-				"In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is l'acció {@action Attack}, making one atac cos a cos.",
-				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos of it quan acabis un Descans Llarg."
+				"A nivell 6, les teves espores poden infestar un cadàver i animar-lo. Si una bèstia o humanoide Mitjà o Petit mor a 10 peus de tu pots, com a reacció, animar-lo. S'aixeca immediatament amb 1 punt de vida. La criatura empra el bloc d'estats del {@creature zombie} del {@book Manual de Monstres|MM}. Roman animat durant 1 hora, i després cau i mor.",
+				"En combat, el torn del zombi va just després del teu. Obeeix les teves ordres mentals i només pot prendre l'acció {@action Atacar} per a fer un atac cos a cos.",
+				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Spreading Spores",
+			"name": "Escampar les Llavors",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3585,20 +3585,20 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, you gain the ability to seed an area with deadly spores. Com a acció bonus while your Symbiotic Entity feature is active, you can hurl spores fins a 30 peus away, where they swirl in a 10-foot cube durant 1 minut. The spores disappear early if you use this feature again, if you dismiss them com a acció bonus, or if your Symbiotic Entity feature is no longer active.",
-				"Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitució saving throw contra la teva CD de salvació de conjur. A creature can take this damage no more than un cop per torn.",
-				"While the cube of spores persists, you can't use your Halo of Spores reaction."
+				"A nivell 10, aprèns a plantar espores mortíferes en una àrea. Com a acció bonus mentre tinguis activa l'Entitat Simbiòtica pots llançar espores fins a 30 peus away. S'hi quedaran a l'aire en un cub de 10 peus de costat durant 1 minut. Les esportes desapareixes prematurament si tornes a emprar aquest tret de nou, si les dissipes com a acció bonus, or si se't desactiva l'Entitat Simbiòtica.",
+				"Quan una criatura entra a l'àrea o hi començi el seu torn, rep el dany del teu your Halo d'Espores (també ha de fer la salvada corresponent). Cada criatura només pot rebre aquest dany un cop per torn.",
+				"Mentre tinguis un cub d'espores actiu no pots prendre la reacció de l'Halo d'Espores."
 			]
 		},
 		{
-			"name": "Fungal Body",
+			"name": "Cos de Fong",
 			"source": "TCE",
 			"page": 36,
 			"otherSources": [
@@ -3607,54 +3607,54 @@
 					"page": 26
 				}
 			],
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Spores",
+			"subclassShortName": "Espores",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against you counts as a normal hit instead, unless you're {@condition incapacitated}."
+				"A nivell 14, les espores t'alteren la forma física: no pots ésser {@condition blinded}, {@condition deafened}, {@condition frightened}, ni {@condition poisoned}. Tot impacte crític contra tu compta com un impacte normal mentre no estigus {@condition incapacitated}."
 			]
 		},
 		{
-			"name": "Circle of Stars",
+			"name": "Cercle d'Estrelles",
 			"source": "TCE",
 			"page": 38,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Stars",
+			"subclassShortName": "Estrelles",
 			"subclassSource": "TCE",
 			"level": 2,
 			"entries": [
-				"The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
+				"The Cercle d'Estrelles allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
 				"Many druids of this circle keep records of the constellations and the stars' effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples-any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Star Map|Druid||Stars|TCE|2"
+					"subclassFeature": "Mapa Estelar|Druida||Estrelles|TCE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Starry Form|Druid||Stars|TCE|2"
+					"subclassFeature": "Forma Estelar|Druida||Estrelles|TCE|2"
 				}
 			]
 		},
 		{
-			"name": "Star Map",
+			"name": "Mapa Estelar",
 			"source": "TCE",
 			"page": 38,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Stars",
+			"subclassShortName": "Estrelles",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 2}",
-				"You've created a star chart as part of your heavenly studies. It is a Tiny object and can serve com a focus de llançament arcà pels teus druid spells. You determine its form by rolling on the Star Map table or by choosing one.",
+				"{@i tret de Cercle d'Estrelles a nivell 2}",
+				"Has creat un mapa d'estrelles com a part dels teus estudis del cel. És un objecte Diminut i pot fer-te de focus de llançament arcà pels teus conjurs de druida. En determines la forma tirant o escollint de la taula de Mapes Estelar.",
 				{
 					"type": "table",
-					"caption": "Star Map",
+					"caption": "Mapes Estelar",
 					"colLabels": [
 						"d6",
 						"Map Form"
@@ -3666,184 +3666,184 @@
 					"rows": [
 						[
 							"1",
-							"A scroll covered with depictions of constellations"
+							"Un pergamí ple de constel·lacions"
 						],
 						[
 							"2",
-							"A stone tablet with fine holes drilled through it"
+							"Una tableta de pedre amb foradets per estrelles"
 						],
 						[
 							"3",
-							"A speckled owlbear hide, tooled with raised marks"
+							"Cuir de mussolós amb puntets i xinxetes"
 						],
 						[
 							"4",
-							"A collection of maps bound in an ebony cover"
+							"Tot de mapes recollits en un tom de banús"
 						],
 						[
 							"5",
-							"A crystal that projects starry patterns when placed before a light"
+							"Un cristall que projecte patrons d'estels quan hi brilla llum a través"
 						],
 						[
 							"6",
-							"Glass disks that depict constellations"
+							"Un disc de vidre amb constel·lacions"
 						]
 					]
 				},
-				"While holding this map, you have these benefits:",
+				"Mentre duguis el mapa tens aquests beneficis:",
 				{
 					"type": "list",
 					"items": [
-						"You know the {@spell guia} cantrip.",
-						"You have the {@spell sageta guia} spell prepared. It counts as a druid spell for you, and it doesn't count against the number of spells you can have prepared.",
-						"Pots llançar el conjur {@spell sageta guia} sense gastar cap ranura de conjur. You can do so tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+						"Coneixes el truc {@spell guia}.",
+						"Tens el conjur {@spell sageta guia} preparat. El consideres un conjur druida però no compta contra el número de conjurs preparats.",
+						"Pots llançar el conjur {@spell sageta guia} sense gastar cap ranura de conjur. Ho pots fer tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 					]
 				},
-				"If you lose the map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map."
+				"Si perds el mapa, el pots reemplaçar amb una cerimònia d'1 hora. Pots fer-la durant un Descans Curt o Llarg. La cerimònia destrueix el mapa antic."
 			]
 		},
 		{
-			"name": "Starry Form",
+			"name": "Forma Estelar",
 			"source": "TCE",
 			"page": 38,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Stars",
+			"subclassShortName": "Estrelles",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 2}",
-				"Com a acció bonus, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.",
-				"While in your starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts. It ends early if you dismiss it (no requereix acció), are {@condition incapacitated}, die, or use this feature again.",
-				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
+				"{@i tret de Cercle d'Estrelles a nivell 2}",
+				"Com a acció bonus, pots gastar un ús de la teva Forma Feréstega per adoptar una forma estelar, en comptes d'una forma de bèstia.",
+				"En aquesta forma estelar reténs les teves estadístiques però el teu cos es torna luminós. Diversos punts del teu cos brillen com les estrelles, i estan connectades, formant una constel·lació. Brilles llum forta en un radi de 10 peus i llum tènue uns 10 peus adicionals. La forma dura 10 minuts. Acaba prematurament sí: la dissipes (no requereix acció); et quedes {@condition incapacitated}; mors; o tornes a emprar aquest tret.",
+				"Mentre estiguis en Forma Estelar, escull una de les constel·lacions següents; cadascuna t'otorga certe beneficis:",
 				{
 					"type": "entries",
-					"name": "Archer",
+					"name": "Arquer",
 					"entries": [
-						"A constellation of an archer appears on you. When you activate this form, and com a acció bonus on your subsequent turns while it lasts, you can make a atac màgic a distància, hurling a luminous arrow that targets one creature a 60 peus de tu. On a hit, the attack deals radiant damage equal to {@dice 1d8} + el teu modificador de Saviesa."
+						"Brilles amb la contel·lació de l'arquer. Quan actives aquesta constel·lació, o com a acció bonus en els teus torns posteriors mentre duri, pots fer un atac màgic a distància. Llances una fletxa de llum que designa a una criatura a 60 peus de tu. Si impactes, fa {@dice 1d8} + el teu modificador de Saviesa de dany radiant."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Chalice",
+					"name": "Calze",
 					"entries": [
-						"A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature a 30 peus de tu can regain hit points equal to {@dice 1d8} + el teu modificador de Saviesa."
+						"Brilles amb la contel·lació d'un calze ple de vida. Quan llances un conjur que curi punts de vida a una criatura gastant una ranura, tu o una criatura a 30 peus de tu recupera {@dice 1d8} + el teu modificador de Saviesa de punts de vida."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Drac",
 					"entries": [
-						"A constellation of a wise dragon appears on you. When you make an Intel·ligència or a Saviesa check or a Constitució per a mantenir concentracio en un conjur, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
+						"Brilles amb la contel·lació de d'un drac savi. Quan facis tirades d'Intel·ligència o Saviesa, o bé salvis per Constitució per a mantenir concentracio en un conjur, pots tractar un 9 o inferior al {@dice d20} com a 10."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cosmic Omen",
+			"name": "Presagi Còsmic",
 			"source": "TCE",
 			"page": 38,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Stars",
+			"subclassShortName": "Estrelles",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 6}",
-				"Quan acabis un Descans Llarg, you can consult your Star Map for omens. When you do so, roll a die. Until you finish your next long rest, you gain access to a special reaction based on whether you rolled an even or an odd number on the die:",
+				"{@i tret de Cercle d'Estrelles a nivell 6}",
+				"Quan acabis un Descans Llarg, pots consultar presagis en el teu Mapa Estelar. Tira un dau. Fins el final del teu propi Descans Llarg, obténs una reacció especial depenent de si el resultat del dau és parell o és senar:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Weal (even).",
-							"entry": "Whenever a creature que puguis veure a 30 peus de tu is about to make an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and add the number rolled to the total."
+							"name": "Sort (parell).",
+							"entry": "Quan una criatura que puguis veure a 30 peus de tu està a punt de fer una tirada d'impacte, de salvació, o d'habilitat pots, com a reacció, sumar-li un {@dice d6} al seu resultat."
 						},
 						{
 							"type": "item",
-							"name": "Woe (odd).",
-							"entry": "Whenever a creature que puguis veure a 30 peus de tu is about to make an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and subtract the number rolled from the total."
+							"name": "Infortuni (senar).",
+							"entry": "Quan una criatura que puguis veure a 30 peus de tu està a punt de fer una tirada d'impacte, de salvació, o d'habilitat pots, com a reacció, restar-li un {@dice d6} al seu resultat."
 						}
 					]
 				},
-				"You can use this reaction tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots prendre aquesta reacció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Twinkling Constellations",
+			"name": "Pampallugues Astrals",
 			"source": "TCE",
 			"page": 38,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Stars",
+			"subclassShortName": "Estrelles",
 			"subclassSource": "TCE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 10}",
-				"The constellations of your Starry Form improve. The {@dice 1d8} of the Archer and the Chalice becomes {@dice 2d8}, and while the Dragon is active, tens una velocitat de vol de 20 peus and can hover.",
-				"Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body."
+				"{@i tret de Cercle d'Estrelles a nivell 10}",
+				"Les constel·lacions de les Formes Estelars milloren. El {@dice 1d8} de l'Arquer i del Calze es tornen {@dice 2d8}. El Drac, adicionalment, t'otorga una velocitat de vol de 20 peus i pots flotar.",
+				"A més, a cada torn que comencis en Forma Estelar, pots canviar la constel·lació del teu cos."
 			]
 		},
 		{
-			"name": "Full of Stars",
+			"name": "Cel Ple d'Estrelles",
 			"source": "TCE",
 			"page": 38,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Stars",
+			"subclassShortName": "Estrelles",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 14}",
-				"While in your Starry Form, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
+				"{@i tret de Cercle d'Estrelles a nivell 14}",
+				"En la teva Forma Estelar, esdevéns incorpori: tens resistència al dany contundent, tallant, i perforant."
 			]
 		},
 		{
-			"name": "Circle of Wildfire",
+			"name": "Cercle del Foc Feréstec",
 			"source": "TCE",
 			"page": 39,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire",
+			"subclassShortName": "Foc Feréstec",
 			"subclassSource": "TCE",
 			"level": 2,
 			"entries": [
-				"Druids within the Circle of Wildfire understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.",
+				"Druids within the Cercle del Foc Feréstec understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Wildfire|TCE|2"
+					"subclassFeature": "Conjurs de Cercle|Druida||Foc Feréstec|TCE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summon Esperit de Foc Feréstec|Druid||Wildfire|TCE|2"
+					"subclassFeature": "Convocar Esperit de Foc Feréstec|Druida||Foc Feréstec|TCE|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Conjurs de Cercle",
 			"source": "TCE",
 			"page": 39,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire",
+			"subclassShortName": "Foc Feréstec",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 2}",
-				"You have formed a bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to some spells Quan pugis de nivell en aquesta classe, as shown on the Circle of Wildfire Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
+				"{@i tret de Cercle del Foc Feréstec a nivell 2}",
+				"Has creat un vincle amb un a esperit de foc feréstec: un ésser primordial de la creació i de la destrucció. Aquest vincle et dona accés a certs nivells quan pugis de nivell en aquesta classe. Consulta la taula de Conjurs del Cercle del Foc Feréstec.",
+				"Un cop accedeixis a un conjur de cercle sempre el tindràs preparat, i no comptarà contra el teu número de conjurs que et pots preparar cada dia. Si un conjur d'aquesta llista no és un conjur de druida, el consideres un conjur de druida.",
 				{
 					"type": "table",
-					"caption": "Circle of Wildfire Spells",
+					"caption": "Cercle del Foc Feréstec Spells",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3875,110 +3875,110 @@
 			]
 		},
 		{
-			"name": "Summon Esperit de Foc Feréstec",
+			"name": "Convocar Esperit de Foc Feréstec",
 			"source": "TCE",
 			"page": 39,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire",
+			"subclassShortName": "Foc Feréstec",
 			"subclassSource": "TCE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 2}",
-				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Wild Shape feature to summon your esperit de foc feréstec, rather than assuming a beast form.",
-				"The spirit appears in an unoccupied space (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d6} de dany de foc.",
-				"The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the {@creature Esperit de Foc Feréstec|TCE} stat block, which uses el teu bonus de competència (BC) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
-				"In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Dodge}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the spirit can take any action of its choice, not just {@action Dodge}.",
-				"The spirit manifests durant 1 hora, until it is reduced to 0 punts de vida, until you use this feature to summon the spirit again, or until you die."
+				"{@i tret de Cercle del Foc Feréstec a nivell 2}",
+				"Convoques l'esperit primordial que tens vinculat amb al teva ànima. Com a acció, gastes un ús de la teva Forma Feréstega i convoques el teu esperit de foc feréstec.",
+				"L'esperit apareix en un espai desocupat (escull) que puguis veure a 30 peus de tu. Tota criatura a 10 peus d'ell (excepte tu), quan apareix, ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli rep {@damage 2d6} de dany de foc.",
+				"L'esperit és amistós vers a tu i als teus aliats. Empra el bloc d'estats de l'{@creature Esperit de Foc Feréstec|TCE} i el teu bonus de competència (BC) en alguns llocs. En determines l'aparença. Alguns esperits tenen forma humanoide formada per branques enceses, i d'altres semblen bèsties fetes de foc pur.",
+				"Té la teva iniciativa i prèn el seu torn després de tu. Obeeix qualsevol ordre que li donis com a acció bonus. Si no en dones, prendrà l'acció {@action Esquivar} i només es mourà per a defensar-se. L'ordre que dónes li permet prendre un acció del seu bloc d'estats o alguna altra. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, l'esperit pot prendre l'acció que vulgui, no només {@action Esquivar}.",
+				"L'esperit es manifesta: durant 1 hora; fins que es quedi a 0 punts de vida; fins que el tornis a convocar amb aquest tret; o fins que moris."
 			]
 		},
 		{
-			"name": "Enhanced Bond",
+			"name": "Vincle Augmentat",
 			"source": "TCE",
 			"page": 39,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire",
+			"subclassShortName": "Foc Feréstec",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 6}",
-				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.",
-				"A més, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
+				"{@i tret de Cercle del Foc Feréstec a nivell 6}",
+				"El vincle amb el teu esperit de foc feréstec millora les teves capacitats de creació i de destrucció. Quan llances un conjur que o bé faci dany de foc o bé recuperi punts de vida i el teu esperit de foc feréstec està convocat, pots sumar {@dice d8} al dany o la curació que faci el conjur.",
+				"A més, quan llances un conjur amb un abast que no sigui llançador, el conjur pot originar de tu o del teu esperit de foc feréstec."
 			]
 		},
 		{
-			"name": "Cauterizing Flames",
+			"name": "Flames que Cauteritzen",
 			"source": "TCE",
 			"page": 39,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire",
+			"subclassShortName": "Foc Feréstec",
 			"subclassSource": "TCE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 10}",
-				"You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies a 30 peus de tu or your esperit de foc feréstec, a harmless spectral flame springs forth in the dead creature's space and flickers there durant 1 minut. Quan una criatura que puguis veure enters that space, pots, com a reacció, extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals {@dice 2d10} + el teu modificador de Saviesa.",
-				"You can use this reaction tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"{@i tret de Cercle del Foc Feréstec a nivell 10}",
+				"Aprèns a tornar la mort en flames màgiques que sanen o bé incineren. Quan una criatura Petita o menor mor a 30 peus de tu o del teu esperit de foc feréstec, una flama espectral inòcua en surt del seu espai i hi roman durant 1 minut. Quan una criatura que puguis veure entra aquell espai pots, com a reacció, apagar la flama i: o bé curar-la o bé fer-li mal de foc. Aquesta curació o dany equival a {@dice 2d10} + el teu modificador de Saviesa.",
+				"Pots prendre aquesta reacció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Blazing Revival",
+			"name": "Reviure de les Flames",
 			"source": "TCE",
 			"page": 39,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Wildfire",
+			"subclassShortName": "Foc Feréstec",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 14}",
-				"The bond with your esperit de foc feréstec can save you from death. If the spirit is a 120 peus de tu when you are reduced to 0 punts de vida and thereby fall {@condition unconscious}, you can cause the spirit to drop to 0 punts de vida. You then regain half your hit points and immediately rise to your feet.",
+				"{@i tret de Cercle del Foc Feréstec a nivell 14}",
+				"El vincle amb el teu esperit de foc feréstec et pot salvar de la mort. Si l'esperit és a 120 peus de tu quan et quedes a 0 punts de vida i caus {@condition unconscious} degut a això, pots fer que l'esperit es quedi a 0 punts de vida; immediatament recuperes la meitat dels teus punts de vida màxims i t'aixeques.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Circle of the Stars",
+			"name": "Circle of the Estrelles",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Stars (UA)",
 			"subclassSource": "UA2020SubclassesPt3",
 			"level": 2,
 			"entries": [
-				"An ancient lineage, the Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
+				"An ancient lineage, the Cercle d'Estrelles allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
 				"Many druids of this circle keep detailed records of the stars and their effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples\u2014any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Star Map|Druid||Stars (UA)|UA2020SubclassesPt3|2"
+					"subclassFeature": "Mapa Estelar|Druida||Stars (UA)|UA2020SubclassesPt3|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Starry Form|Druid||Stars (UA)|UA2020SubclassesPt3|2"
+					"subclassFeature": "Forma Estelar|Druida||Stars (UA)|UA2020SubclassesPt3|2"
 				}
 			]
 		},
 		{
-			"name": "Star Map",
+			"name": "Mapa Estelar",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Stars (UA)",
 			"subclassSource": "UA2020SubclassesPt3",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 2}",
-				"You've created a star map as part of your study of the heavens. The map is a Tiny object and can serve com a focus de llançament arcà pels teus druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.",
+				"{@i tret de Cercle d'Estrelles a nivell 2}",
+				"You've created a mapa estelar as part of your study of the heavens. The map is a Tiny object and can serve com a focus de llançament arcà pels teus conjurs de druida. You decide what form the object takes, or you can determine what it is by rolling on the Mapa Estelar table.",
 				{
 					"type": "table",
-					"caption": "Star Map",
+					"caption": "Mapa Estelar",
 					"colLabels": [
 						"d6",
 						"Map Form"
@@ -4015,24 +4015,24 @@
 					]
 				},
 				"If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.",
-				"You can cast the {@spell augury} i {@spell sageta guia} spells sense gastar cap ranura de conjur and without preparing the spell, provided you use the star map as the spellcasting focus. You can cast a spell from the map in this way a number of times equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
+				"You can cast the {@spell augury} i {@spell sageta guia} spells sense gastar cap ranura de conjur and without preparing the spell, provided you use the mapa estelar as the spellcasting focus. You can cast a spell from the map in this way a number of times equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Starry Form",
+			"name": "Forma Estelar",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Stars (UA)",
 			"subclassSource": "UA2020SubclassesPt3",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 2}",
-				"You gain the ability to harness constellations' power to alter your form. Com a acció, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.",
-				"While in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts or until you're {@condition incapacitated}.",
-				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
+				"{@i tret de Cercle d'Estrelles a nivell 2}",
+				"You gain the ability to harness constellations' power to alter your form. Com a acció, pots gastar un ús de la teva Forma Feréstega feature to take on a forma estelar rather than transforming into a beast.",
+				"While in your forma estelar, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form dura 10 minuts o fins que et quedis {@condition incapacitated}.",
+				"Whenever you assume your forma estelar, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -4040,12 +4040,12 @@
 						{
 							"type": "item",
 							"name": "Chalice",
-							"entry": "A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature a 30 peus de tu can regain hit points equal to {@dice 1d8} + half your level en aquesta classe."
+							"entry": "A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores punts de vida to a creature, you or another creature a 30 peus de tu can regain punts de vida equal to {@dice 1d8} + half el teu nivell en aquesta classe."
 						},
 						{
 							"type": "item",
 							"name": "Archer",
-							"entry": "A constellation of an archer appears on you. You gain a bonus action that you can use to make a atac màgic a distància, hurling a luminous arrow that targets a creature que puguis veure a 60 peus de tu. On a hit, the attack deals radiant damage equal to {@dice 1d8} + el teu modificador de Saviesa."
+							"entry": "A constellation of an archer appears on you. You gain a bonus action that you can use to make a atac màgic a distància, hurling a luminous arrow that targets una criatura que puguis veure a 60 peus de tu. On a hit, the attack deals radiant damage equal to {@dice 1d8} + el teu modificador de Saviesa."
 						},
 						{
 							"type": "item",
@@ -4057,18 +4057,18 @@
 			]
 		},
 		{
-			"name": "Cosmic Omen",
+			"name": "Presagi Còsmic",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Stars (UA)",
 			"subclassSource": "UA2020SubclassesPt3",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 6}",
-				"You learn to use your star map to divine the will of the cosmos. Quan acabis un Descans Llarg, you can consult your star map for omens. When you do so, roll a {@dice d6}. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the {@dice d6}:",
+				"{@i tret de Cercle d'Estrelles a nivell 6}",
+				"You learn to use your mapa estelar to divine the will of the cosmos. Quan acabis un Descans Llarg, you can consult your mapa estelar for omens. When you do so, roll a {@dice d6}. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the {@dice d6}:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -4076,90 +4076,90 @@
 						{
 							"type": "item",
 							"name": "Weal (even)",
-							"entry": "Whenever a creature que puguis veure a 30 peus de tu makes an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and add the number rolled to the total."
+							"entry": "Whenever una criatura que puguis veure a 30 peus de tu makes an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and add the number rolled to the total."
 						},
 						{
 							"type": "item",
 							"name": "Woe (odd)",
-							"entry": "Whenever a creature que puguis veure a 30 peus de tu makes an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and subtract the number rolled from the total."
+							"entry": "Whenever una criatura que puguis veure a 30 peus de tu makes an attack roll, a saving throw, or an ability check, pots, com a reacció, roll a {@dice d6} and subtract the number rolled from the total."
 						}
 					]
 				},
-				"You can use this reaction a number of times equivalent al teu modificador de Saviesa, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots prendre aquesta reacció a number of times equivalent al teu modificador de Saviesa, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Full of Stars",
+			"name": "Cel Ple d'Estrelles",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Stars (UA)",
 			"subclassSource": "UA2020SubclassesPt3",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 10}",
-				"While your Starry Form feature is active, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
+				"{@i tret de Cercle d'Estrelles a nivell 10}",
+				"While your Forma Estelar feature is active, you become partially incorporeal, giving you resistance to dany contundent, tallant, i perforant."
 			]
 		},
 		{
 			"name": "Star Flare",
 			"source": "UA2020SubclassesPt3",
 			"page": 3,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Stars (UA)",
 			"subclassSource": "UA2020SubclassesPt3",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of the Stars a nivell 14}",
+				"{@i tret de Cercle d'Estrelles a nivell 14}",
 				"Your connection to the cosmos allows you to conjure brilliant starlight. Com a acció, you conjure a burst of light in a 30-foot-radius sphere centered on a point que puguis veure a 120 peus de tu. You can immediately teleport each willing creature in the sphere en un espai desocupat within 30 feet of it. Tota criatura remaining in the sphere ha de salvar per Constitució. contra la teva CD de salvació de conjur or take {@damage 4d10} de dany radiant and be {@condition blinded} fins el final del teu proper torn.",
-				"Once you have used this action, you can't use it again fins que acabis un descans llarg or until you expend a spell slot of 5th level or higher to use it again."
+				"Once you have used this action, no hi pots tornar fins que acabis un Descans Llarg or until you expend a spell slot of 5th level or higher to use it again."
 			]
 		},
 		{
-			"name": "Circle of Wildfire",
+			"name": "Cercle del Foc Feréstec",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Wildfire (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"entries": [
-				"Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth. These druids bond with a primal spirit that harbors destructive tendencies, allowing the druids to use their power to create controlled flames that help flora and fauna reproduce and grow.",
+				"Druids who are members of the Cercle del Foc Feréstec understand the necessity of destruction, such as how a forest fire promotes growth. These druids bond with a primal spirit that harbors destructive tendencies, allowing the druids to use their power to create controlled flames that help flora and fauna reproduce and grow.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Wildfire (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "Conjurs de Cercle|Druida||Wildfire (UA)|UAClericDruidWizard|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Summon Wildfire|Druid||Wildfire (UA)|UAClericDruidWizard|2"
+					"subclassFeature": "Summon Foc Feréstec|Druida||Wildfire (UA)|UAClericDruidWizard|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Conjurs de Cercle",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Wildfire (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 2}",
+				"{@i tret de Cercle del Foc Feréstec a nivell 2}",
 				"You have formed a mystical bond with a esperit de foc feréstec, a primal being of creation and destruction. Your link with this spirit grants you access to certain spells. A nivell 2, you learn the fire bolt cantrip.",
-				"Quan pugis de nivell en aquesta classe, you gain access to the spells listed for that level in the Circle of Wildfire Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
+				"Quan pugis de nivell en aquesta classe, you gain access to the spells listed for that level in the Cercle del Foc Feréstec Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druida spell for you.",
 				{
 					"type": "table",
-					"caption": "Circle of Wildfire Spells",
+					"caption": "Cercle del Foc Feréstec Spells",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4180,129 +4180,129 @@
 						],
 						[
 							"9",
-							"{@spell batussa incendiària}, {@spell raise dead}"
+							"{@spell batussa incendiària}, {@spell llevar als morts}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Summon Wildfire",
+			"name": "Summon Foc Feréstec",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Wildfire (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 2}",
-				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Wild Shape feature to summon your {@creature esperit de foc feréstec|UAClericDruidWizard}, rather than assuming a beast form.",
-				"The spirit appears in an unoccupied space (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d10} de dany de foc.",
+				"{@i tret de Cercle del Foc Feréstec a nivell 2}",
+				"You can summon the primal spirit bound to your soul. Com a acció, you can expend one use of your Forma Feréstega feature to summon your {@creature esperit de foc feréstec|UAClericDruidWizard}, rather than assuming a beast form.",
+				"The spirit appears en un espai desocupat (escull) que puguis veure a 30 peus de tu. Tota criatura within 10 feet of the spirit (other than you) when it appears ha de salvar per Destresa. contra la teva CD de salvació de conjur or take {@damage 2d10} de dany de foc.",
 				"The esperit de foc feréstec is friendly to you and your companions and obeys your commands. See this creature's game statistics in the esperit de foc feréstec stat block. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
-				"In combat, the esperit de foc feréstec shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Dodge}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or to take l'acció {@action Dash}, {@action Disengage}, {@action Help}, or {@action Hide}.",
-				"The esperit de foc feréstec manifests durant 1 hora, until it is reduced to 0 punts de vida, or until you use your Wild Shape again."
+				"In combat, the esperit de foc feréstec shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or to take l'acció {@action Córrer}, {@action Destravar-se}, {@action Ajudar}, or {@action Amagar-se}.",
+				"The esperit de foc feréstec manifests durant 1 hora, until it is reduced to 0 punts de vida, or until you use your Forma Feréstega again."
 			]
 		},
 		{
-			"name": "Enhanced Bond",
+			"name": "Vincle Augmentat",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Wildfire (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 6}",
-				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus to one roll of the spell equal to the number rolled. A més, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
+				"{@i tret de Cercle del Foc Feréstec a nivell 6}",
+				"The bond with your esperit de foc feréstec enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores punts de vida while your esperit de foc feréstec is summoned, roll a {@dice d8}, and you gain a bonus to one roll of the spell equal to the number rolled. A més, when you cast a spell with a range other than self, the spell can originate from you or your esperit de foc feréstec."
 			]
 		},
 		{
 			"name": "Flames of Life",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Wildfire (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 10}",
-				"You gain the ability to turn death into flames of vitality. When a Small or larger creature que puguis veure dies a 30 peus de tu or your esperit de foc feréstec, pots, com a reacció, cause primal flames to spring from the body. Quan una criatura que puguis veure touches these flames, the creature regains hit points or takes fire damage (escull) equal to {@dice 2d10} + el teu modificador de Saviesa. The flames vanish after a creature has touched them or after 1 minute. Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop). En recuperes tots els usos quan acabis un Descans Llarg."
+				"{@i tret de Cercle del Foc Feréstec a nivell 10}",
+				"You gain the ability to turn death into flames of vitality. When a Small or larger creature que puguis veure dies a 30 peus de tu or your esperit de foc feréstec, pots, com a reacció, cause primal flames to spring from the body. Quan una criatura que puguis veure touches these flames, the creature regains punts de vida or takes fire damage (escull) equal to {@dice 2d10} + el teu modificador de Saviesa. The flames vanish after a creature has touched them or after 1 minute. Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop). En recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
 			"name": "Blazing Endurance",
 			"source": "UAClericDruidWizard",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Wildfire (UA)",
 			"subclassSource": "UAClericDruidWizard",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i tret de Circle of Wildfire a nivell 14}",
-				"The bond with your esperit de foc feréstec is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 punts de vida and don't die outright, you drop to 1 hit point instead and gain punts de vida temporals equal to five times your druid level, and tota criatura que designis a 30 peus de tu que puguis veure takes fire damage equal to {@dice 2d10} + your druid level.",
+				"{@i tret de Cercle del Foc Feréstec a nivell 14}",
+				"The bond with your esperit de foc feréstec is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 punts de vida and don't die outright, you drop to 1 punt de vida instead and gain punts de vida temporals equal to five times el teu nivell de druida, and tota criatura que designis a 30 peus de tu que puguis veure takes fire damage equal to {@dice 2d10} + el teu nivell de druida.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Circle of Dreams",
+			"name": "Cercle dels Somnis",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Dreams (UA)",
 			"subclassSource": "UADruid",
 			"level": 2,
 			"entries": [
-				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to la Terra Fata. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with merriment and light. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places.",
+				"Druids who are members of the Cercle dels Somnis hail from regions that have strong ties to la Terra Fata. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with merriment and light. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Balm of the Summer Court|Druid||Dreams (UA)|UADruid|2"
+					"subclassFeature": "Bàlsam de la Cort d'Estiu|Druida||Dreams (UA)|UADruid|2"
 				}
 			]
 		},
 		{
-			"name": "Balm of the Summer Court",
+			"name": "Bàlsam de la Cort d'Estiu",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Dreams (UA)",
 			"subclassSource": "UADruid",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that lends relief to weary feet and respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
-				"Com a acció bonus, you can choose an ally que puguis veure a 120 peus de tu and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 punt de vida temporal per die spent, and its speed increases by 5 feet per die spent. The speed increase dura 1 minut.",
+				"A nivell 2, you become imbued with the blessings of la Cort d'Estiu. You are a font of energy that lends relief to weary feet and respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to el teu nivell de druida.",
+				"Com a acció bonus, you can choose an ally que puguis veure a 120 peus de tu and spend a number of those dice equal to la meitat del teu nivell de druida or less. Roll the spent dice and add them together. The target regains a number of punts de vida equal to the total. The target also gains 1 punt de vida temporal per die spent, and its speed increases by 5 feet per die spent. The speed increase dura 1 minut.",
 				"You regain the expended dice quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Hearth of Moonlight and Shadow",
+			"name": "Llar a l'Ombra i a la Lluna",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Dreams (UA)",
 			"subclassSource": "UADruid",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, home is wherever you set up camp. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to ward your campsite from intruders. At the start of the rest, you create an area with a 30-foot radius. Within this area, you and your allies gain a +5 bonus to Saviesa ({@skill Perception}) to detect creatures, and any light from open flames (campfire, torches, and the like) is not visible outside the area. These effects end when the rest finishes or when you leave the area."
+				"A nivell 6, home is wherever you set up camp. During a short or long rest, you can invoke the shadowy power of the La Cort de la Posta to ward your campsite from intruders. At the start of the rest, you create an area with a 30-foot radius. Within this area, you and your allies gain a +5 bonus to Saviesa ({@skill Perception}) to detect creatures, and any light from open flames (campfire, torches, and the like) is not visible outside the area. These effects end when the rest finishes or when you leave the area."
 			]
 		},
 		{
-			"name": "Hidden Paths",
+			"name": "Camins que s'Esvaeixen",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Dreams (UA)",
 			"subclassSource": "UADruid",
@@ -4318,22 +4318,22 @@
 			"name": "Purifying Light",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Dreams (UA)",
 			"subclassSource": "UADruid",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, the favor of the Summer Court allows you to end spells that hamper you and your allies. When you cast a spell with a spell slot and it restores hit points to you or an ally this turn, you can simultaneously target the healed creature with dispel magic, using a spell slot with a level equal to the slot used to cast the healing spell.",
-				"Pots emprar aquest tret 3 cops, i en recuperes els usos of it quan acabis un Descans Llarg. If the healing spell targets more than one creature, you can use this feature on more than one at the same time, expending one use of it per creature."
+				"A nivell 14, the favor of la Cort d'Estiu allows you to end spells that hamper you and your allies. When you cast a spell with a spell slot and it restores punts de vida to you or an ally this turn, you can simultaneously target the healed creature with dissipar màgia, using a spell slot with a level equal to the slot used to cast the healing spell.",
+				"Pots emprar aquest tret 3 cops, i en recuperes els usos quan acabis un Descans Llarg. If the healing spell targets more than one creature, you can use this feature on more than one at the same time, expending one use of it per creature."
 			]
 		},
 		{
-			"name": "Circle of the Shepherd",
+			"name": "Cercle dels Pastors",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd (UA)",
 			"subclassSource": "UADruid",
@@ -4342,11 +4342,11 @@
 				"Druids of the Circle of the Shepherd commune with the spirits of beasts. While these druids recognize that all living things play a role in the natural world, they focus on protecting animals. Shepherds, as they are known, see beasts as their charges. They ward off monsters that threaten natural creatures, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on habitats and paths needed for animal migrations. Many of these druids are happiest far from cities and towns, content to spend their days in the company of wild animals.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Bond|Druid||Shepherd (UA)|UADruid|2"
+					"subclassFeature": "Spirit Bond|Druida||Shepherd (UA)|UADruid|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Parla Feréstega|Druid||Shepherd (UA)|UADruid|2"
+					"subclassFeature": "Parla Feréstega|Druida||Shepherd (UA)|UADruid|2"
 				}
 			]
 		},
@@ -4354,7 +4354,7 @@
 			"name": "Parla Feréstega",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd (UA)",
 			"subclassSource": "UADruid",
@@ -4369,7 +4369,7 @@
 			"name": "Spirit Bond",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd (UA)",
 			"subclassSource": "UADruid",
@@ -4386,7 +4386,7 @@
 							"type": "entries",
 							"name": "Bear",
 							"entries": [
-								"The bear spirit grants you and your allies its might and endurance. You and your allies who are in the aura when the spirit appears each gain punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
+								"The bear spirit grants you and your allies its might and endurance. You and your allies who are in the aura when the spirit appears each gain punts de vida temporals equal to 5 + el teu nivell de druida. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 							]
 						}
 					]
@@ -4410,7 +4410,7 @@
 							"type": "entries",
 							"name": "Wolf",
 							"entries": [
-								"The wolf spirit lends you and your allies its precise senses, while your magic works to benefit the members of your pack. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores hit points to anyone inside or outside the aura, each of your allies in the aura also regains hit points equal to your druid level."
+								"The wolf spirit lends you and your allies its precise senses, while your magic works to benefit the members of your pack. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores punts de vida to anyone inside or outside the aura, each of your allies in the aura also regains punts de vida equal to el teu nivell de druida."
 							]
 						}
 					]
@@ -4418,24 +4418,24 @@
 			]
 		},
 		{
-			"name": "Mighty Summoner",
+			"name": "Convocació Poderosa",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd (UA)",
 			"subclassSource": "UADruid",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you gain the ability to conjure forth powerful animals. Any beast summoned or created by your spells gains two benefits. Its punts de vida màxims increases by 2 per Hit Die, and the damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage."
+				"A nivell 6, you gain the ability to conjure forth powerful animals. Any beast summoned or created by your spells gains two benefits. Its punts de vida màxims increases by 2 per Dau de Vida, and the damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage."
 			]
 		},
 		{
-			"name": "Guardian Spirit",
+			"name": "Esperit Guardià",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd (UA)",
 			"subclassSource": "UADruid",
@@ -4446,17 +4446,17 @@
 			]
 		},
 		{
-			"name": "Faithful Summons",
+			"name": "Convocació Lleials",
 			"source": "UADruid",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd (UA)",
 			"subclassSource": "UADruid",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, the bestial spirits you commune with protect you when you are vulnerable. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it was cast with a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora.",
+				"Començant a nivell 14, the bestial spirits you commune with protect you when you are vulnerable. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell convocar animals} as if it was cast with a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -4464,7 +4464,7 @@
 			"name": "Circle of Twilight",
 			"source": "UADruid",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Twilight (UA)",
 			"subclassSource": "UADruid",
@@ -4474,7 +4474,7 @@
 				"These druids seek out lands that have been tainted by undeath. Such places are grim and foreboding. Once vibrant forests become gloomy, haunted places devoid of animals and filled with plants dying a slow, lingering death. The Circle of Twilight goes to such places to banish undeath and restore life.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Harvest's Scythe|Druid||Twilight (UA)|UADruid|2"
+					"subclassFeature": "Harvest's Scythe|Druida||Twilight (UA)|UADruid|2"
 				}
 			]
 		},
@@ -4482,15 +4482,15 @@
 			"name": "Harvest's Scythe",
 			"source": "UADruid",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Twilight (UA)",
 			"subclassSource": "UADruid",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of {@dice d10}s equal to your druid level.",
-				"When you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally (escull) que puguis veure a 30 peus de tu regains 2 hit points per die spent to increase the spell's damage, or 5 hit points per die if at least one of the slain creatures was undead.",
+				"Començant a nivell 2, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of {@dice d10}s equal to el teu nivell de druida.",
+				"When you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to la meitat del teu nivell de druida or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally (escull) que puguis veure a 30 peus de tu regains 2 punts de vida per die spent to increase the spell's damage, or 5 punts de vida per die if at least one of the slain creatures was undead.",
 				"You regain the expended dice quan acabis un Descans Llarg."
 			]
 		},
@@ -4498,14 +4498,14 @@
 			"name": "Speech Beyond the Grave",
 			"source": "UADruid",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Twilight (UA)",
 			"subclassSource": "UADruid",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you gain the ability to reach beyond death's veil in search of knowledge. Using this feature, Pots llançar el conjur {@spell parlar amb els morts} without material components, and you understand what the target of this casting says. It can understand your questions, even if you don't share a language or it is not intelligent enough to speak.",
+				"A nivell 6, you gain the ability to reach beyond death's veil in search of knowledge. Using this feature, Pots llançar el conjur {@spell parlar amb els morts} sense necessitar components materials, and you understand what the target of this casting says. It can understand your questions, even if you don't share a language or it is not intelligent enough to speak.",
 				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
 		},
@@ -4513,7 +4513,7 @@
 			"name": "Watcher at the Threshold",
 			"source": "UADruid",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Twilight (UA)",
 			"subclassSource": "UADruid",
@@ -4527,7 +4527,7 @@
 			"name": "Paths of the Dead",
 			"source": "UADruid",
 			"page": 2,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Twilight (UA)",
 			"subclassSource": "UADruid",
@@ -4541,7 +4541,7 @@
 			"name": "Circle of the Shepherd v2",
 			"source": "UARevisedClassOptions",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd v2 (UA)",
 			"subclassSource": "UARevisedClassOptions",
@@ -4551,19 +4551,19 @@
 				"Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Speech of the Woods|Druid||Shepherd v2 (UA)|UARevisedClassOptions|2"
+					"subclassFeature": "Parla d'allò Salvatge|Druida||Shepherd v2 (UA)|UARevisedClassOptions|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Totem|Druid||Shepherd v2 (UA)|UARevisedClassOptions|2"
+					"subclassFeature": "Tòtem Espiritual|Druida||Shepherd v2 (UA)|UARevisedClassOptions|2"
 				}
 			]
 		},
 		{
-			"name": "Speech of the Woods",
+			"name": "Parla d'allò Salvatge",
 			"source": "UARevisedClassOptions",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd v2 (UA)",
 			"subclassSource": "UARevisedClassOptions",
@@ -4571,14 +4571,14 @@
 			"header": 1,
 			"entries": [
 				"A nivell 2, you gain the ability to converse with beasts and many fey.",
-				"You learn to speak, read, and write {@language Sylvan}. A més, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you any special friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
+				"You learn to speak, read, and write {@language Silvànic}. A més, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you any special friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
 			]
 		},
 		{
-			"name": "Spirit Totem",
+			"name": "Tòtem Espiritual",
 			"source": "UARevisedClassOptions",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd v2 (UA)",
 			"subclassSource": "UARevisedClassOptions",
@@ -4596,7 +4596,7 @@
 							"type": "entries",
 							"name": "Bear Spirit",
 							"entries": [
-								"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
+								"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + el teu nivell de druida. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
 							]
 						}
 					]
@@ -4608,7 +4608,7 @@
 							"type": "entries",
 							"name": "Hawk Spirit",
 							"entries": [
-								"The hawk spirit is a consummate hunter, marking your enemies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, pots, com a reacció, grant advantage to that attack roll."
+								"The hawk spirit is a consummate hunter, marking your enemies with its keen sight. Quan una criatura makes an attack roll against a target in the spirit's aura, pots, com a reacció, grant advantage to that attack roll."
 							]
 						}
 					]
@@ -4620,7 +4620,7 @@
 							"type": "entries",
 							"name": "Unicorn Spirit",
 							"entries": [
-								"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores hit points to anyone inside or outside the aura, tota criatura que designis in the aura also regains hit points equal to your druid level."
+								"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell with a spell slot that restores punts de vida to anyone inside or outside the aura, tota criatura que designis in the aura also regains punts de vida equal to el teu nivell de druida."
 							]
 						}
 					]
@@ -4628,10 +4628,10 @@
 			]
 		},
 		{
-			"name": "Mighty Summoner",
+			"name": "Convocació Poderosa",
 			"source": "UARevisedClassOptions",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd v2 (UA)",
 			"subclassSource": "UARevisedClassOptions",
@@ -4642,85 +4642,85 @@
 				{
 					"type": "list",
 					"items": [
-						"The creature appears with more hit points than normal: 2 extra hit points per Hit Die it has.",
+						"The creature appears with more punts de vida than normal: 2 extra punts de vida per Dau de Vida it has.",
 						"The damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage."
 					]
 				}
 			]
 		},
 		{
-			"name": "Guardian Spirit",
+			"name": "Esperit Guardià",
 			"source": "UARevisedClassOptions",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd v2 (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level."
+				"A nivell 10, your Tòtem Espiritual safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Tòtem Espiritual aura, that creature regains a number of punts de vida equal to la meitat del teu nivell de druida."
 			]
 		},
 		{
-			"name": "Faithful Summons",
+			"name": "Convocació Lleials",
 			"source": "UARevisedClassOptions",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Shepherd v2 (UA)",
 			"subclassSource": "UARevisedClassOptions",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it were cast with a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora, requiring no concentration, or until you dismiss it (no requereix acció).",
+				"Començant a nivell 14, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell convocar animals} as if it were cast with a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora, requiring no concentration, or fins que ho dissipis (no requereix acció).",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Circle of Spores (UA)",
+			"name": "Cercle d'Espores (UA)",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
 			"level": 2,
 			"entries": [
-				"Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life. These druids believe that life and death are portions of a grand cycle, with one leading to the other and then back again. Death is not the end of life, but instead a change of state that sees life shift into a new form. Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. However, these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or avoid passing to a final rest, violate the cycle and must be thwarted.",
+				"Druids of the Cercle d'Espores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life. These druids believe that life and death are portions of a grand cycle, with one leading to the other and then back again. Death is not the end of life, but instead a change of state that sees life shift into a new form. Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. However, these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or avoid passing to a final rest, violate the cycle and must be thwarted.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Spores (UA)|UAThreeSubclasses|2"
+					"subclassFeature": "Conjurs de Cercle|Druida||Spores (UA)|UAThreeSubclasses|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Halo of Spores|Druid||Spores (UA)|UAThreeSubclasses|2"
+					"subclassFeature": "Halo d'Espores|Druida||Spores (UA)|UAThreeSubclasses|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Symbiotic Entity|Druid||Spores (UA)|UAThreeSubclasses|2"
+					"subclassFeature": "Entitat Simbiòtica|Druida||Spores (UA)|UAThreeSubclasses|2"
 				}
 			]
 		},
 		{
-			"name": "Circle Spells",
+			"name": "Conjurs de Cercle",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. A nivell 1, aprèns el truc {@spell chill touch}. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
-				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druid spell for you.",
+				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. A nivell 1, aprèns el truc {@spell mà morta}. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Cercle d'Espores Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the llista de conjurs de druida, the spell is nonetheless a druida spell for you.",
 				{
 					"type": "table",
-					"caption": "Circle of Spores Spells",
+					"caption": "Cercle d'Espores Spells",
 					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
+						"Nivell de Druida",
+						"Conjurs de Cercle"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4729,15 +4729,15 @@
 					"rows": [
 						[
 							"3",
-							"{@spell gentle repose}, {@spell ray of enfeeblement}"
+							"{@spell repòs gentil}, {@spell ray of enfeeblement}"
 						],
 						[
 							"5",
-							"{@spell animate dead}, {@spell gaseous form}"
+							"{@spell animar els morts}, {@spell forma gasosa}"
 						],
 						[
 							"7",
-							"{@spell blight}, {@spell confusion}"
+							"{@spell plaga}, {@spell confusió}"
 						],
 						[
 							"9",
@@ -4748,10 +4748,10 @@
 			]
 		},
 		{
-			"name": "Halo of Spores",
+			"name": "Halo d'Espores",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
@@ -4762,10 +4762,10 @@
 			]
 		},
 		{
-			"name": "Symbiotic Entity",
+			"name": "Entitat Simbiòtica",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
@@ -4773,14 +4773,14 @@
 			"header": 1,
 			"entries": [
 				"A nivell 2, you gain the ability to channel magic into the spores that infuse you.",
-				"Quan empris el tret Wild Shape, you can awaken those spores, rather than transforming. When you do so, you gain 3 punts de vida temporals per level you have en aquesta classe, the damage of your Halo of Spores feature doubles, and your atac armat cos a coss deal an extra {@damage 1d6} de dany de verí to any target they hit. These benefits last durant 10 minuts or until you use your Wild Shape again."
+				"Quan empris el tret Forma Feréstega, you can awaken those spores, rather than transforming. When you do so, you gain 3 punts de vida temporals per level you have en aquesta classe, the damage of your Halo d'Espores feature doubles, and your atac armat cos a coss deal an extra {@damage 1d6} de dany de verí to any target they hit. These benefits last durant 10 minuts or until you use your Forma Feréstega again."
 			]
 		},
 		{
-			"name": "Fungal Infestation",
+			"name": "Infestació Miceliana",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
@@ -4788,28 +4788,28 @@
 			"header": 2,
 			"entries": [
 				"A nivell 6, your spores gain the ability to infest a humanoid corpse and animate it.",
-				"If you slay a humanoid with your Halo of Spores damage, the creature rises as a {@creature zombie} at the end of your turn. It has 1 hit point. In combat, its turn is immediately after yours. It obeys your mental commands, and the only action it can take is l'acció {@action Attack}, making one atac cos a cos. It remains animate durant 1 hora, after which time it collapses and dies."
+				"If you slay a humanoid with your Halo d'Espores damage, the creature rises as a {@creature zombie} al final del teu torn. It has 1 punt de vida. In combat, its turn is immediately after yours. It obeys your mental commands, and the only action it can take is l'acció {@action Atacar}, making one atac cos a cos. It remains animate durant 1 hora, after which time it collapses and dies."
 			]
 		},
 		{
-			"name": "Spreading Spores",
+			"name": "Escampar les Llavors",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, you gain the ability to seed an area with deadly spores. Com a acció bonus, you hurl fungal spores fins a 30 peus away, where they swirl around in a 10-foot cube durant 1 minut. While the cube of spores persists, you can't use your Halo of Spores feature, but any creature that starts its turn in the cube takes your Halo of Spores damage. The cube of spores vanishes early if you use this feature again."
+				"A nivell 10, you gain the ability to seed an area with deadly spores. Com a acció bonus, you hurl fungal spores fins a 30 peus away, where they swirl around in a 10-foot cube durant 1 minut. While the cube of spores persists, you can't use your Halo d'Espores feature, but any creature that starts its turn in the cube takes your Halo d'Espores damage. The cube of spores vanishes early if you use this feature again."
 			]
 		},
 		{
-			"name": "Fungal Body",
+			"name": "Cos de Fong",
 			"source": "UAThreeSubclasses",
 			"page": 1,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
 			"subclassShortName": "Spores (UA)",
 			"subclassSource": "UAThreeSubclasses",
@@ -4820,93 +4820,93 @@
 			]
 		},
 		{
-			"name": "Circle of Dreams",
+			"name": "Cercle dels Somnis",
 			"source": "XGE",
 			"page": 22,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Dreams",
+			"subclassShortName": "Somnis",
 			"subclassSource": "XGE",
 			"level": 2,
 			"entries": [
-				"Druids who are members of the Circle of Dreams hail from regions that have strong ties to la Terra Fata and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
+				"Druids who are members of the Cercle dels Somnis hail from regions that have strong ties to la Terra Fata and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Balm of the Summer Court|Druid||Dreams|XGE|2"
+					"subclassFeature": "Bàlsam de la Cort d'Estiu|Druida||Somnis|XGE|2"
 				}
 			]
 		},
 		{
-			"name": "Balm of the Summer Court",
+			"name": "Bàlsam de la Cort d'Estiu",
 			"source": "XGE",
 			"page": 22,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Dreams",
+			"subclassShortName": "Somnis",
 			"subclassSource": "XGE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of {@dice d6}s equal to your druid level.",
-				"Com a acció bonus, you can escull una criatura que puguis veure a 120 peus de tu and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 punt de vida temporal per die spent.",
-				"You regain all expended dice quan acabis un Descans Llarg."
+				"A nivell 2, reps les benediccions de la Cort d'Estiu. Emets energia que ofereix un descans de les ferides. Tens una reserva d'energia fata: el teu nivell de druida en {@dice d6}s.",
+				"Com a acció bonus, designes una criatura que puguis veure a 120 peus de tu i gastes fins a la meitat del teu nivell de druida en daus d'energia. Tira'ls, i l'objectiu recupera aquell resultat en punts de vida equal to the total. També rep 1 punt de vida temporal per dau tirat.",
+				"Recuperes tots els daus quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Hearth of Moonlight and Shadow",
+			"name": "Llar a l'Ombra i a la Lluna",
 			"source": "XGE",
 			"page": 22,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Dreams",
+			"subclassShortName": "Somnis",
 			"subclassSource": "XGE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.",
-				"While within the sphere, you and your allies gain a +5 bonus to Destresa ({@skill Stealth}) and Saviesa ({@skill Perception}), and any light from open flames in the sphere (a campfire, torches, or the like) isn't visible outside it.",
-				"The sphere vanishes at the end of the rest or when you leave the sphere."
+				"A nivell 6, arreu pot ser casa teva. Durant un Descans Curt o Llarg invoques el poder dela Cort de la Posta per a vetllar el teu descans. A l'inici del descans, toques un punt a l'espai; una esfera invisible de 30 peus de radi apareix centrada allí. La cobertura total bloqueja l'esfera.",
+				"A dins de l'esfera tu i els teus aliats teniu un +5 bonus a tirades de Destresa ({@skill Stealth}) i de Saviesa ({@skill Perception}). A més, tota flama descoberta a dins de l'àrea no projecta llum a fora de l'àrea.",
+				"L'esfera s'esvaeix al final de descans o quan en surts."
 			]
 		},
 		{
-			"name": "Hidden Paths",
+			"name": "Camins que s'Esvaeixen",
 			"source": "XGE",
 			"page": 22,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Dreams",
+			"subclassShortName": "Somnis",
 			"subclassSource": "XGE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 10, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. Com a acció bonus en el teu torn, you can teleport fins a 60 peus en un espai desocupat que puguis veure. Alternatively, pots, com a acció, to teleport one willing creature you touch fins a 30 peus en un espai desocupat que puguis veure.",
-				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos of it quan acabis un Descans Llarg."
+				"Començant a nivell 10, pots utilitzar els camins amagats i màgics de les fates per a passejar a través de l'espai instantàntiament. Com a acció bonus en el teu torn, et pots teleportar fins a 60 peus en un espai desocupat que puguis veure. Alternativament, pots, com a acció, teleportar a una criatura voluntària que toquis fins a 30 peus en un espai desocupat que puguis veure.",
+				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Saviesa (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Walker in Dreams",
+			"name": "Viatjar pels Somnis",
 			"source": "XGE",
 			"page": 22,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Dreams",
+			"subclassShortName": "Somnis",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, the magic of la Terra Fata grants you the ability to travel mentally or physically through dreamlands.",
-				"Quan acabis un Descans Curt, you can cast one of the following spells, sense gastar cap ranura de conjur or requiring material components: {@spell dream} (with you as the messenger), {@spell scrying}, or {@spell teleportation circle}.",
-				"This use of {@spell teleportation circle} is special. Rather than opening a portal to a permanent {@spell teleportation circle}, it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven't taken a long rest on your current plane, the spell fails but isn't wasted.",
+				"A nivell 14, la màgia de la Terra Fata et permet viatjar mentalment o físicament a través dels móns dels somnis.",
+				"Quan acabis un Descans Curt, pots llançar un d'aquests conjurs sense gastar cap ranura de conjur ni necessitar components materials: {@spell somnis} (tu ets el missatger), {@spell escodrinyar}, or {@spell cercle de teletransport}.",
+				"Aquest {@spell cercle de teletransport} és especial. No obres un portal a un {@spell cercle de teletransport} permanent, sinò que l'obres a l'últim lloc on has acabat un Descans Llarg en el pla d'existència actual. Si no has acabat cap Descans Llarg en el pla d'existènica actual, el conjur falla (però no és malgastat).",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Circle of the Shepherd",
+			"name": "Cercle dels Pastors",
 			"source": "XGE",
 			"page": 23,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Shepherd",
+			"subclassShortName": "Pastors",
 			"subclassSource": "XGE",
 			"level": 2,
 			"entries": [
@@ -4914,114 +4914,114 @@
 				"Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Speech of the Woods|Druid||Shepherd|XGE|2"
+					"subclassFeature": "Parla d'allò Salvatge|Druida||Pastors|XGE|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Totem|Druid||Shepherd|XGE|2"
+					"subclassFeature": "Tòtem Espiritual|Druida||Pastors|XGE|2"
 				}
 			]
 		},
 		{
-			"name": "Speech of the Woods",
+			"name": "Parla d'allò Salvatge",
 			"source": "XGE",
 			"page": 23,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Shepherd",
+			"subclassShortName": "Pastors",
 			"subclassSource": "XGE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"A nivell 2, you gain the ability to converse with beasts and many fey.",
-				"You learn to speak, read, and write {@language Sylvan}. A més, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character."
+				"A nivell 2, aprèns a conversar amb bèsties i amb moltes fates.",
+				"Saps parlar, llegir i escriure {@language Silvànic}. A més, les bèsties entenen el que dius, i pots saps desxifrar els seus sons i gesticulacions. Moltes bèsties no son prou llestes com per a transmetre conceptes complicats, però una d'amistosa et pot revelar allò que ha sentit o vist en el passat recent. Aquesta habilitat no t'amista amb les bèsties, però la pots fer servir, juntament amb regals, per a amistar-t'hi com si fossin un personatge més."
 			]
 		},
 		{
-			"name": "Spirit Totem",
+			"name": "Tòtem Espiritual",
 			"source": "XGE",
 			"page": 23,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Shepherd",
+			"subclassShortName": "Pastors",
 			"subclassSource": "XGE",
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 2, you can call forth nature spirits to influence the world around you. Com a acció bonus, you can magically summon an incorporeal spirit to a point que puguis veure a 60 peus de tu. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.",
-				"Com a acció bonus, you can move the spirit fins a 60 peus to a point que puguis veure.",
-				"The spirit persists durant 1 minut or until you're {@condition incapacitated}. Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg.",
-				"The effect of the spirit's aura depends on the type of spirit you summon from the options below.",
+				"Començant a nivell 2, pots invocar als esperits naturals del món per a ajudar-te. Com a acció bonus, convoques a un esperit incorpori a un lloc que puguis veure a 60 peus de tu. L'esperit radia una aura a 30 peus de radi d'aquell punt. Té l'especte espectral de la criatura que representa, però no es considera criatura ni objecte.",
+				"Com a acció bonus, pots moure l'esperit fins a 60 peus a un punt que puguis veure.",
+				"L'esperit dura: 1 minut; o fins que et quedis {@condition incapacitated}. Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg.",
+				"L'efecte de l'esperit depèn del tipus que convoquis de la llista següent.",
 				{
 					"type": "entries",
-					"name": "Bear Spirit",
+					"name": "Esperit de l'Ós",
 					"entries": [
-						"The bear spirit grants you and your allies its might and endurance. Tota criatura que designis in the aura when the spirit appears gains punts de vida temporals equal to 5 + your druid level. A més, you and your allies gain advantage on Força checks and Força saving throws while in the aura."
+						"L'Esperit de l'Ós t'otorga a tu i als teus aliats poder i resistència. Tota criatura que designis a dins de l'aura quan l'esperit apareix rep 5 + el teu nivell de druida en punts de vida temporals. A més, a dins de l'àrea tu i els teus aliats feu tirades de Força i salvades de Força amb avantatge."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Hawk Spirit",
+					"name": "Esperit del Falcó",
 					"entries": [
-						"The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, pots, com a reacció, grant advantage to that attack roll. A més, you and your allies have advantage on Saviesa ({@skill Perception}) while in the aura."
+						"L'Esperit del Falcó és un caçador nat i us otorga una vista sense rival. Quan una criatura tiri per impactar contra una criatura a dins de l'àrea de l'esperit pots, com a reacció, donar avantatge a la tirada d'impacte. A més, to i els teus aliats tireu Saviesa ({@skill Perception}) amb avantatge si sou dins de l'aura."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Unicorn Spirit",
+					"name": "Esperit de l'Unicorn",
 					"entries": [
-						"The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. A més, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, tota criatura que designis in the aura also regains hit points equal to your druid level."
+						"L'Esperit de l'unicorn protegeix a aquells que té a prop. Tu i els teus aliats feu tirades per a detectar criatures a dins de l'àrea de l'esperit amb avantatge. A més, si llances un conjur que recuperi vida a qualsevol criatura gastant una ranura de conjur, pots designar qualsevol nombre de criatures a dins de l'àrea de l'esperit i rebran el teu nivell de druida en punts de vida extra."
 					]
 				}
 			]
 		},
 		{
-			"name": "Mighty Summoner",
+			"name": "Convocació Poderosa",
 			"source": "XGE",
 			"page": 23,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Shepherd",
+			"subclassShortName": "Pastors",
 			"subclassSource": "XGE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, beasts and fey that you conjure are more resilient than normal. Any beast or fey summoned or created by a spell that you cast gains the following benefits:",
+				"Començant a nivell 6, les bèsties i fates que convoques guanyen resiliència. Tota bèstia o fata que convoquis o creïs amb un conjur rep aquests beneficis:",
 				{
 					"type": "list",
 					"items": [
-						"The creature appears with more hit points than normal: 2 extra hit points per Hit Die it has.",
-						"The damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage."
+						"La criatura apareix amb 2 punts de vida extra per cada Dau de Vida que té.",
+						"Les seves armes naturals es consideren màgiques quant a ignorar resistències i immunitats a atacs i dany no-màgic."
 					]
 				}
 			]
 		},
 		{
-			"name": "Guardian Spirit",
+			"name": "Esperit Guardià",
 			"source": "XGE",
 			"page": 23,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Shepherd",
+			"subclassShortName": "Pastors",
 			"subclassSource": "XGE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 10, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level."
+				"Començant a nivell 10, el teu Tòtem Espiritual guareix a les bèsties i les fates que convoquis màgicament. Quan una bèstia o una fata que has convocat o creat amb un conjur acaba el seu torn a dins de l'aura del teu Tòtem Espiritual, recupera la meitat del teu nivell de druida en punts de vida."
 			]
 		},
 		{
-			"name": "Faithful Summons",
+			"name": "Convocació Lleials",
 			"source": "XGE",
 			"page": 23,
-			"className": "Druid",
+			"className": "Druida",
 			"classSource": "PHB",
-			"subclassShortName": "Shepherd",
+			"subclassShortName": "Pastors",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 punts de vida or are {@condition incapacitated} against your will, you can immediately gain the benefits of {@spell conjure animals} as if it were cast using a 9th-level spell slot. It summons four beasts (escull) that are challenge rating 2 or lower. The conjured beasts appear a 20 peus de tu. If they receive no commands from you, they protect you from harm and attack your foes. The spell dura 1 hora, requiring no concentration, or until you dismiss it (no requereix acció).",
+				"Començant a nivell 14, els esperits amb que fas comunió et protegeixen fins i tot quan no estàs en guàrdia. Si et quedes a 0 punts de vida o et quedes {@condition incapacitated} contra la teva voluntat, pots obtenir els beneficies del conjur {@spell convocar animals} immediatament, llançat amb una ranura de nivell 9. Convoca a 4 bèsties (escull) amb un VR de 2 o menor. Apareixen a 20 peus de tu. Si no els dones ordres, et protegeixen d'atacs i de mal. El conjur dura 1 hora (no requereix concentració) o fins que el dissipis (no requereix acció).",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		}

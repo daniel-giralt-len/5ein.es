@@ -513,8 +513,8 @@ class ReqAttuneTagTag {
 			tags.push({[abil]: Number(m[2])});
 		});
 
-		// "by a creature that can speak Infernal"
-		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Infernal|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
+		// "by a creature that can speak Diàstric"
+		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Diàstric|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
 			tags.push({languageProficiency: m[1].toLowerCase()});
 			return "";
 		});
@@ -553,8 +553,8 @@ class ReqAttuneTagTag {
 			return "";
 		});
 
-		// "by a bard, cleric, druid, sorcerer, warlock, or wizard"
-		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|cleric|druid|paladin|ranger|sorcerer|bruixot|wizard)\b/gi, (...m) => {
+		// "by a bard, cleric, druid, sorcerer, warlock, or mag"
+		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|cleric|druida|paladí|explorador|sortiller|bruixot|wizard)\b/gi, (...m) => {
 			const source = m[1].toLowerCase() === "artificer" ? SRC_TCE : null;
 			tags.push({class: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
@@ -564,7 +564,7 @@ class ReqAttuneTagTag {
 		// "by a creature of evil alignment"
 		// "by a dwarf, fighter, or paladin of good alignment"
 		// "by an elf or semi-elf of neutral good alignment"
-		// "by an evil cleric or paladin"
+		// "by an evil cleric or paladí"
 		const alignmentParts = req.split(/,| or /gi)
 			.map(it => it.trim())
 			.filter(it => it && it !== "," && it !== "or");

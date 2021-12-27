@@ -77,7 +77,7 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell alarm}*",
+								"{@spell alarma}*",
 								"{@spell armadura de mag}",
 								"{@spell missil màgic}",
 								"{@spell escut}*"
@@ -87,7 +87,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell pany arcà}*",
-								"{@spell invisibility}"
+								"{@spell invisibilitat}"
 							]
 						},
 						"3": {
@@ -101,7 +101,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}*",
+								"{@spell desterrament}*",
 								"{@spell pell de pedra}*"
 							]
 						},
@@ -135,7 +135,7 @@
 			],
 			"trait": [
 				{
-					"name": "Arcane Ward",
+					"name": "Guarda Arcana",
 					"entries": [
 						"The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward es queda a 0 punts de vida, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell."
 					]
@@ -297,7 +297,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell imatge mirall}",
 								"{@spell raig d'incendi}"
 							]
@@ -365,7 +365,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -766,7 +766,7 @@
 				}
 			],
 			"environment": [
-				"mountain",
+				"muntanya",
 				"hill"
 			],
 			"hasToken": true,
@@ -1028,7 +1028,7 @@
 							"spells": [
 								"{@spell convocar animals}",
 								"{@spell fondre's dins la pedra}",
-								"{@spell water breathing}"
+								"{@spell respirar sota l'aigua}"
 							]
 						},
 						"4": {
@@ -1095,9 +1095,9 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"mountain",
-				"swamp"
+				"bosc",
+				"muntanya",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -1210,7 +1210,7 @@
 				}
 			],
 			"environment": [
-				"forest",
+				"bosc",
 				"urban"
 			],
 			"hasToken": true,
@@ -1285,8 +1285,8 @@
 				}
 			],
 			"environment": [
-				"mountain",
-				"grassland",
+				"muntanya",
+				"prats",
 				"hill"
 			],
 			"hasToken": true,
@@ -1384,7 +1384,7 @@
 						"L'habilitat de llançament de conjurs innata de The babau és Saviesa ({@dc 11} salvació de conjur). The babau pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell darkness}",
+						"{@spell foscor}",
 						"{@spell dissipar màgia}",
 						"{@spell temor}",
 						"{@spell escalfar el metall}",
@@ -1420,7 +1420,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -1660,7 +1660,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell esclatar}"
 							]
 						}
@@ -1801,7 +1801,7 @@
 				"Abismal",
 				"Comú",
 				"Goblinesc",
-				"Infernal",
+				"Diàstric",
 				"telepatía 60 peus"
 			],
 			"cr": "4",
@@ -1868,10 +1868,10 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"grassland",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -2262,7 +2262,7 @@
 				}
 			],
 			"environment": [
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -2380,7 +2380,7 @@
 				}
 			],
 			"environment": [
-				"swamp",
+				"aiguamoll",
 				"urban"
 			],
 			"hasToken": true,
@@ -2531,14 +2531,14 @@
 					]
 				},
 				{
-					"name": "Dreadful Aspect (es Recarrega amb un descans Curt o Llarg)",
+					"name": "Aspecte Terrorífic (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
 						"The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. If a {@condition acovardit} target ends its turn more than 30 feet away from the blackguard, l'objectiu pot tornar a salvar, ending the effect on itself on a success."
 					]
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -2748,13 +2748,13 @@
 				{
 					"name": "Aura of Annihilation",
 					"entries": [
-						"The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect."
+						"The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and diastres ignore this effect."
 					]
 				},
 				{
 					"name": "Death Gaze",
 					"entries": [
-						"When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a {@dc 13} Constitució saving throw if the bodak isn't {@condition incapacitat} and can see the creature. If the saving throw fails by 5 or more, the creature es queda a 0 punts de vida, unless it is immune to the {@condition acovardit} condition. Otherwise, a creature takes 16 ({@damage 3d10}) de dany psíquic on a failed save.",
+						"Quan una criatura that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a {@dc 13} Constitució saving throw if the bodak isn't {@condition incapacitat} and can see the creature. If the saving throw fails by 5 or more, the creature es queda a 0 punts de vida, unless it is immune to the {@condition acovardit} condition. Otherwise, a creature takes 16 ({@damage 3d10}) de dany psíquic on a failed save.",
 						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it has disadvantage on attack rolls against the bodak fins a l'inici del seu següent torn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw."
 					]
 				},
@@ -2780,8 +2780,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"swamp",
+				"sotafoscor",
+				"aiguamoll",
 				"urban"
 			],
 			"hasToken": true,
@@ -2901,8 +2901,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"hill",
 				"urban"
 			],
@@ -2953,7 +2953,7 @@
 						"items": {
 							"name": "Wild Magic",
 							"entries": [
-								"Each time the goblin casts a spell (including cantrips), there is an accompanying surge of wild magic; roll on the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB} to determine the wild magic effect."
+								"Each time the goblin casts a spell (including cantrips), there is an accompanying surge of wild magic; roll on the {@table Wild Magic Surge|PHB} table in the {@book Manual del Jugador|PHB} to determine the wild magic effect."
 							]
 						}
 					}
@@ -3168,8 +3168,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest"
+				"prats",
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -3257,7 +3257,7 @@
 				}
 			],
 			"environment": [
-				"swamp"
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -3366,7 +3366,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -3601,7 +3601,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -3761,7 +3761,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -3905,7 +3905,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell suggestió}"
 							]
 						},
@@ -3955,7 +3955,7 @@
 				}
 			],
 			"environment": [
-				"mountain"
+				"muntanya"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -4188,7 +4188,7 @@
 				}
 			],
 			"environment": [
-				"grassland"
+				"prats"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -4263,7 +4263,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -4360,9 +4360,9 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
-				"swamp",
+				"sotafoscor",
+				"bosc",
+				"aiguamoll",
 				"urban"
 			],
 			"hasToken": true,
@@ -4467,14 +4467,14 @@
 				{
 					"name": "Darkness (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The darkling elder casts {@spell darkness} without any components. Saviesa is its habilitat de llançament de conjurs."
+						"The darkling elder casts {@spell foscor} without any components. Saviesa is its habilitat de llançament de conjurs."
 					]
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
-				"swamp",
+				"sotafoscor",
+				"bosc",
+				"aiguamoll",
 				"urban"
 			],
 			"hasToken": true,
@@ -4595,7 +4595,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -4690,7 +4690,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -4926,8 +4926,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -5031,7 +5031,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -5110,7 +5110,7 @@
 				}
 			],
 			"environment": [
-				"swamp",
+				"aiguamoll",
 				"coastal"
 			],
 			"hasToken": true,
@@ -5452,7 +5452,7 @@
 						"L'habilitat de llançament de conjurs innat de The draegloth's és Saviesa ({@dc 11} per salvar conjur). The draegloth pot llançar els conjurs següents innatament (no requereix components materials):"
 					],
 					"will": [
-						"{@spell darkness}"
+						"{@spell foscor}"
 					],
 					"daily": {
 						"1e": [
@@ -5493,7 +5493,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -5680,7 +5680,7 @@
 				"source": "VGM"
 			},
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -5806,7 +5806,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell immobilitzar humanoide}*",
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell suggestió}*"
 							]
 						},
@@ -5848,7 +5848,7 @@
 			],
 			"reaction": [
 				{
-					"name": "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
+					"name": "Encant Innat (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)",
 					"entries": [
 						"The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
 						"The attacker ha de salvar per Saviesa amb {@dc 14}. Si falla, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
@@ -6008,7 +6008,7 @@
 			],
 			"trait": [
 				{
-					"name": "Sculpt Spells",
+					"name": "Escolpir Conjurs",
 					"entries": [
 						"When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1 + the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
 					]
@@ -6133,8 +6133,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain"
+				"sotafoscor",
+				"muntanya"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -6281,8 +6281,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
+				"sotafoscor",
+				"muntanya",
 				"hill",
 				"desert"
 			],
@@ -6390,8 +6390,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
+				"sotafoscor",
+				"muntanya",
 				"hill",
 				"desert"
 			],
@@ -6539,9 +6539,9 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
-				"swamp"
+				"sotafoscor",
+				"bosc",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -6663,10 +6663,10 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -6794,8 +6794,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"swamp"
+				"sotafoscor",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -6931,7 +6931,7 @@
 			],
 			"environment": [
 				"coastal",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -7023,7 +7023,7 @@
 				{
 					"name": "Stunning Gaze",
 					"entries": [
-						"When a creature that can see the gauth's central eye starts its turn within 30 feet of the gauth, the gauth can force it to make a {@dc 14} Saviesa saving throw if the gauth isn't {@condition incapacitat} and can see the creature. A creature that fails the save is {@condition atordit} fins a l'inici del seu següent torn, when it can avert its eyes again. If the creature looks at the gauth in the meantime, it must immediately make the save."
+						"Quan una criatura that can see the gauth's central eye starts its turn within 30 feet of the gauth, the gauth can force it to make a {@dc 14} Saviesa saving throw if the gauth isn't {@condition incapacitat} and can see the creature. A creature that fails the save is {@condition atordit} fins a l'inici del seu següent torn, when it can avert its eyes again. If the creature looks at the gauth in the meantime, it must immediately make the save."
 					]
 				},
 				{
@@ -7090,7 +7090,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -7254,7 +7254,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"familiar": true,
 			"hasToken": true,
@@ -7346,8 +7346,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
+				"sotafoscor",
+				"muntanya",
 				"hill"
 			],
 			"hasToken": true,
@@ -7447,7 +7447,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -7557,10 +7557,10 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -7671,10 +7671,10 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -7787,10 +7787,10 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -7894,7 +7894,7 @@
 				}
 			],
 			"environment": [
-				"forest",
+				"bosc",
 				"urban"
 			],
 			"hasToken": true,
@@ -8062,7 +8062,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -8241,7 +8241,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -8452,7 +8452,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -8531,8 +8531,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"swamp"
+				"prats",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -8667,8 +8667,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -8802,8 +8802,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -8961,7 +8961,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detectar pensaments}",
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell Fletxa Àcida d'en Melf}",
 								"{@spell imatge mirall}"
 							]
@@ -9103,7 +9103,7 @@
 				"source": "VGM"
 			},
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -9234,7 +9234,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell invisibility}*",
+								"{@spell invisibilitat}*",
 								"{@spell imatge mirall}*",
 								"{@spell força fantasmagòrica}*"
 							]
@@ -9421,7 +9421,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
+								"{@spell desterrament}",
 								"{@spell llibertat de moviments}",
 								"{@spell guardià de fe}"
 							]
@@ -9529,8 +9529,8 @@
 				"source": "VGM"
 			},
 			"environment": [
-				"mountain",
-				"grassland",
+				"muntanya",
+				"prats",
 				"desert",
 				"coastal"
 			],
@@ -9668,9 +9668,9 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -9840,9 +9840,9 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"bosc",
 				"hill",
 				"urban"
 			],
@@ -9879,7 +9879,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Kobold Scale Sorcerer",
+			"name": "Kobold Scale Sortiller",
 			"source": "VGM",
 			"page": 167,
 			"otherSources": [
@@ -9967,10 +9967,10 @@
 			],
 			"trait": [
 				{
-					"name": "Sorcery Points",
+					"name": "Punts de Sortilleria",
 					"entries": [
-						"The kobold has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:",
-						"Conjur Precís: When it casts a spell that forces a creature to a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give un objectiu of the spell disadvantage on its first saving throw against the spell.",
+						"The kobold has 3 punts de sortilleria. It regains all its spent punts de sortilleria when it finishes a long rest. It can spend its punts de sortilleria on the following options:",
+						"Conjur Precís: When it casts a spell that forces a creature to a saving throw to resist the spell's effects, the kobold can spend 3 punts de sortilleria to give un objectiu of the spell disadvantage on its first saving throw against the spell.",
 						"Conjur Subtil: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components."
 					]
 				},
@@ -9996,9 +9996,9 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"bosc",
 				"hill",
 				"urban"
 			],
@@ -10158,7 +10158,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -10279,9 +10279,9 @@
 					"daily": {
 						"3e": [
 							"{@spell control d'aigua}",
-							"{@spell darkness}",
-							"{@spell water breathing}",
-							"{@spell water walk}"
+							"{@spell foscor}",
+							"{@spell respirar sota l'aigua}",
+							"{@spell caminar per l'aigua}"
 						],
 						"1e": [
 							"{@spell invocar llamps}",
@@ -10309,7 +10309,7 @@
 				{
 					"name": "Veu del Kraken (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) ha de salvar per Carisma amb {@dc 14} or be {@condition acovardit} durant 1 minut. Un objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Diàstric, or Primordial) ha de salvar per Carisma amb {@dc 14} or be {@condition acovardit} durant 1 minut. Un objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -10443,7 +10443,7 @@
 				}
 			],
 			"environment": [
-				"grassland",
+				"prats",
 				"desert"
 			],
 			"hasToken": true,
@@ -10825,7 +10825,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -10932,8 +10932,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp",
+				"bosc",
+				"aiguamoll",
 				"urban"
 			],
 			"hasToken": true,
@@ -11105,7 +11105,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"traitTags": [
@@ -11273,7 +11273,7 @@
 									"name": "6. Telekinetic Ray.",
 									"style": "italic",
 									"entries": [
-										"If the target is a creature, it ha de salvar per Força amb {@dc 13}. Si falla, the mindwitness moves it fins a 30 peus in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitat}.",
+										"If the target is a creature, ha de salvar per Força amb {@dc 13}. Si falla, the mindwitness moves it fins a 30 peus in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitat}.",
 										"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved fins a 30 peus in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 									]
 								}
@@ -11283,7 +11283,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -11412,7 +11412,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell darkness}",
+								"{@spell foscor}",
 								"{@spell detectar pensaments}",
 								"{@spell esclatar}"
 							]
@@ -11617,7 +11617,7 @@
 				}
 			],
 			"environment": [
-				"grassland",
+				"prats",
 				"hill"
 			],
 			"hasToken": true,
@@ -11770,7 +11770,7 @@
 			],
 			"trait": [
 				{
-					"name": "Grim Harvest (1/Torn)",
+					"name": "Collir Tragèdia (1/Torn)",
 					"entries": [
 						"When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell."
 					]
@@ -11891,7 +11891,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"hill"
 			],
 			"hasToken": true,
@@ -11983,7 +11983,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"hill"
 			],
 			"hasToken": true,
@@ -12090,7 +12090,7 @@
 								"{@spell temor}",
 								"{@spell immobilitzar humanoide}",
 								"{@spell fam d'Hadar}",
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell servent invisible}"
 							]
 						}
@@ -12139,7 +12139,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"hill"
 			],
 			"hasToken": true,
@@ -12281,7 +12281,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -12426,8 +12426,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -12559,10 +12559,10 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"grassland",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -12708,8 +12708,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain"
+				"sotafoscor",
+				"muntanya"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -12843,10 +12843,10 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"grassland",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -12951,10 +12951,10 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"grassland",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -13084,14 +13084,14 @@
 				{
 					"name": "Veil of Shargaas (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The orc casts {@spell darkness} without any components. Saviesa is its habilitat de llançament de conjurs."
+						"The orc casts {@spell foscor} without any components. Saviesa is its habilitat de llançament de conjurs."
 					]
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
-				"forest",
+				"sotafoscor",
+				"muntanya",
+				"bosc",
 				"hill",
 				"urban"
 			],
@@ -13177,7 +13177,7 @@
 				}
 			],
 			"environment": [
-				"grassland"
+				"prats"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -13260,7 +13260,7 @@
 				}
 			],
 			"environment": [
-				"mountain",
+				"muntanya",
 				"hill",
 				"coastal"
 			],
@@ -13351,7 +13351,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -13445,8 +13445,8 @@
 				}
 			],
 			"environment": [
-				"mountain",
-				"underdark",
+				"muntanya",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -13578,8 +13578,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp",
+				"bosc",
+				"aiguamoll",
 				"hill"
 			],
 			"hasToken": true,
@@ -13663,7 +13663,7 @@
 				}
 			],
 			"environment": [
-				"grassland"
+				"prats"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -13850,7 +13850,7 @@
 						"perforant",
 						"tallant"
 					],
-					"note": "from nonmagical attacks while in dim light or darkness",
+					"note": "from nonmagical attacks while in dim light or foscor",
 					"cond": true
 				}
 			],
@@ -13914,8 +13914,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp",
+				"bosc",
+				"aiguamoll",
 				"hill"
 			],
 			"hasToken": true,
@@ -14044,10 +14044,10 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -14217,7 +14217,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -14330,7 +14330,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"desert"
 			],
 			"hasToken": true,
@@ -14409,8 +14409,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest"
+				"prats",
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -14599,7 +14599,7 @@
 				}
 			],
 			"environment": [
-				"mountain",
+				"muntanya",
 				"hill",
 				"coastal"
 			],
@@ -14735,7 +14735,7 @@
 				{
 					"name": "Windjavelin",
 					"entries": [
-						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 ({@damage 3d6 + 9}) de dany perforant to the target, striking unerringly. The javelin disappears after it hits."
+						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a arma màgica and deals 19 ({@damage 3d6 + 9}) de dany perforant to the target, striking unerringly. The javelin disappears after it hits."
 					]
 				}
 			],
@@ -14765,10 +14765,10 @@
 			},
 			"environment": [
 				"underwater",
-				"mountain",
+				"muntanya",
 				"desert",
 				"coastal",
-				"arctic"
+				"àrtic"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -14901,7 +14901,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -15001,8 +15001,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"swamp"
+				"sotafoscor",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -15246,8 +15246,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"mountain",
+				"sotafoscor",
+				"muntanya",
 				"hill"
 			],
 			"hasToken": true,
@@ -15357,8 +15357,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp"
+				"bosc",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -15599,7 +15599,7 @@
 			],
 			"trait": [
 				{
-					"name": "Transmuter's Stone",
+					"name": "Pedra de Transmutació",
 					"entries": [
 						"The transmuter carries a magic stone it crafted that grants its bearer one of the following effects:",
 						"Darkvision out to a range of 60 feet",
@@ -15708,7 +15708,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -15859,7 +15859,7 @@
 				}
 			],
 			"environment": [
-				"underdark"
+				"sotafoscor"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -15952,7 +15952,7 @@
 			],
 			"idiomes": [
 				"understands Abyssal",
-				"Infernal",
+				"Diàstric",
 				"and any languages it knew before becoming a vargouille però no pot parlar"
 			],
 			"cr": "1",
@@ -15977,8 +15977,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"swamp",
+				"sotafoscor",
+				"aiguamoll",
 				"desert"
 			],
 			"hasToken": true,
@@ -16088,8 +16088,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp"
+				"bosc",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -16209,8 +16209,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp"
+				"bosc",
+				"aiguamoll"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -16316,8 +16316,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest"
+				"prats",
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -16443,13 +16443,13 @@
 								"{@spell dissipar màgia}",
 								"{@spell revifar}",
 								"{@spell guardians espirituals}",
-								"{@spell water walk}"
+								"{@spell caminar per l'aigua}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell banishment}",
+								"{@spell desterrament}",
 								"{@spell llibertat de moviments}",
 								"{@spell guardià de fe}",
 								"{@spell pell de pedra}"
@@ -16642,10 +16642,10 @@
 				}
 			],
 			"environment": [
-				"arctic",
-				"forest",
-				"mountain",
-				"swamp",
+				"àrtic",
+				"bosc",
+				"muntanya",
+				"aiguamoll",
 				"urban"
 			],
 			"hasToken": true,
@@ -16741,7 +16741,7 @@
 				}
 			],
 			"idiomes": [
-				"any two languages (usually Abyssal or Infernal)"
+				"any two languages (usually Abyssal or Diàstric)"
 			],
 			"cr": "7",
 			"spellcasting": [
@@ -16787,7 +16787,7 @@
 							"lower": 1,
 							"slots": 4,
 							"spells": [
-								"{@spell banishment}",
+								"{@spell desterrament}",
 								"{@spell mans ardents}",
 								"{@spell batussa incendiària}",
 								"{@spell venjança dels inferns}",
@@ -16820,9 +16820,9 @@
 				}
 			],
 			"environment": [
-				"arctic",
+				"àrtic",
 				"desert",
-				"underdark",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -16990,8 +16990,8 @@
 			"environment": [
 				"desert",
 				"hill",
-				"mountain",
-				"underdark",
+				"muntanya",
+				"sotafoscor",
 				"urban"
 			],
 			"hasToken": true,
@@ -17230,7 +17230,7 @@
 				}
 			],
 			"environment": [
-				"arctic",
+				"àrtic",
 				"urban"
 			],
 			"hasToken": true,
@@ -17345,7 +17345,7 @@
 				{
 					"name": "Passeig pels Arbres",
 					"entries": [
-						"Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+						"Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing en un espai desocupat within 5 feet of the second tree. Both trees must be Large or bigger."
 					]
 				}
 			],
@@ -17364,7 +17364,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"bosc"
 			],
 			"hasToken": true,
 			"soundClip": {
@@ -17474,7 +17474,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"hill"
 			],
 			"hasToken": true,
@@ -17582,7 +17582,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"hill"
 			],
 			"hasToken": true,
@@ -17691,7 +17691,7 @@
 							"spells": [
 								"{@spell mans ardents}",
 								"{@spell retirada estratègica}",
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell raig d'incendi}"
 							]
 						}
@@ -17728,7 +17728,7 @@
 				}
 			],
 			"environment": [
-				"underdark",
+				"sotafoscor",
 				"hill"
 			],
 			"hasToken": true,
@@ -17854,8 +17854,8 @@
 				}
 			],
 			"environment": [
-				"grassland",
-				"forest",
+				"prats",
+				"bosc",
 				"hill"
 			],
 			"hasToken": true,
@@ -17967,7 +17967,7 @@
 							"{@spell mot diví}"
 						],
 						"3e": [
-							"{@spell darkness}",
+							"{@spell foscor}",
 							"{@spell enredar}",
 							"{@spell temor}",
 							"{@spell pressa}",
@@ -18054,8 +18054,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"desert"
 			],
 			"hasToken": true,
@@ -18226,8 +18226,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"desert"
 			],
 			"hasToken": true,
@@ -18396,8 +18396,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp",
+				"bosc",
+				"aiguamoll",
 				"desert"
 			],
 			"hasToken": true,
@@ -18574,8 +18574,8 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"swamp",
+				"bosc",
+				"aiguamoll",
 				"desert"
 			],
 			"hasToken": true,
@@ -18788,8 +18788,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"desert"
 			],
 			"hasToken": true,
@@ -18932,7 +18932,7 @@
 							"slots": 2,
 							"spells": [
 								"{@spell braços d'Hadar}",
-								"{@spell darkness}",
+								"{@spell foscor}",
 								"{@spell temor}",
 								"{@spell embruix}",
 								"{@spell immobilitzar humanoide}",
@@ -19007,8 +19007,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"desert"
 			],
 			"hasToken": true,
@@ -19160,7 +19160,7 @@
 								"{@spell command}",
 								"{@spell contraconjur}",
 								"{@spell venjança dels inferns}",
-								"{@spell invisibility}",
+								"{@spell invisibilitat}",
 								"{@spell pas boira}",
 								"{@spell servent invisible}",
 								"{@spell toc vampíric}"
@@ -19227,8 +19227,8 @@
 				}
 			],
 			"environment": [
-				"underdark",
-				"forest",
+				"sotafoscor",
+				"bosc",
 				"desert"
 			],
 			"hasToken": true,

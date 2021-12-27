@@ -38,18 +38,18 @@ class PageFilterEquipment extends PageFilter {
 			if (item.type === "SCF") {
 				switch (item.scfType) {
 					case "arcane": {
-						if (!item._fFocus.includes("Sorcerer")) item._fFocus.push("Sorcerer");
+						if (!item._fFocus.includes("Sortiller")) item._fFocus.push("Sortiller");
 						if (!item._fFocus.includes("Bruixot")) item._fFocus.push("Bruixot");
-						if (!item._fFocus.includes("Wizard")) item._fFocus.push("Wizard");
+						if (!item._fFocus.includes("Mag")) item._fFocus.push("Mag");
 						break;
 					}
-					case "druid": {
-						if (!item._fFocus.includes("Druid")) item._fFocus.push("Druid");
+					case "druida": {
+						if (!item._fFocus.includes("Druida")) item._fFocus.push("Druida");
 						break;
 					}
 					case "holy":
 						if (!item._fFocus.includes("Cleric")) item._fFocus.push("Cleric");
-						if (!item._fFocus.includes("Paladin")) item._fFocus.push("Paladin");
+						if (!item._fFocus.includes("Paladí")) item._fFocus.push("Paladí");
 						break;
 				}
 			}

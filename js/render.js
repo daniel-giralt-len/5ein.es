@@ -3509,7 +3509,7 @@ Renderer.spell = {
 		spell._tmpClasses = {};
 		spell._tmpRaces = [];
 
-		// add eldritch knight and entabanador arcà
+		// add cavaller èldritx and entabanador arcà
 		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => c.name === Renderer.spell.STR_WIZARD && c.source === SRC_PHB)) {
 			Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ELD_KNIGHT] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ELD_KNIGHT] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_FIGHTER,
@@ -3548,7 +3548,7 @@ Renderer.spell = {
 			}
 		}
 
-		// add divine soul, favored soul v2, favored soul v3
+		// add ànima divina, favored soul v2, favored soul v3
 		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => c.name === Renderer.spell.STR_CLERIC && c.source === SRC_PHB)) {
 			Renderer.spell._CACHE_HASHES[Renderer.spell.STR_DIV_SOUL] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_DIV_SOUL] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_CLERIC,
@@ -3600,7 +3600,7 @@ Renderer.spell = {
 		}
 
 		// Add Arcana Cleric
-		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Wizard")) {
+		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Mag")) {
 			Renderer.spell._CACHE_HASHES["Arcana"] = Renderer.spell._CACHE_HASHES["Arcana"] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 				className: Renderer.spell.STR_CLERIC,
 				classSource: SRC_PHB,
@@ -3646,7 +3646,7 @@ Renderer.spell = {
 		}
 
 		// Add Nature cleric
-		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Druid")) {
+		if (spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.find(it => it.name === "Druida")) {
 			if (spell.level === 0) {
 				Renderer.spell._CACHE_HASHES["Nature"] = Renderer.spell._CACHE_HASHES["Nature"] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
 					className: Renderer.spell.STR_CLERIC,
@@ -3688,8 +3688,8 @@ Renderer.spell = {
 		}
 		// endregion
 
-		// region Add Aberrant Mind Sorcerer and Soul de Rellotgeria Sorcerer
-		// Level 0-5, as the feature allows retraining only learned spell levels (and Aberrant Mind has the Mind Sliver cantrip)
+		// region Add Ment Aberrant Sorcerer and Soul de Rellotgeria Sorcerer
+		// Level 0-5, as the feature allows retraining only learned spell levels (and Ment Aberrant has the Mind Sliver cantrip)
 		if (spell.level <= 5 && spell.classes && spell.classes.fromClassList && spell.classes.fromClassList.some(c => (c.name === Renderer.spell.STR_SORCERER || c.name === Renderer.spell.STR_WARLOCK || c.name === Renderer.spell.STR_WIZARD) && c.source === SRC_PHB)) {
 			if (spell.school === "D" || spell.school === "E") {
 				Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ABERRANT_MIND] = Renderer.spell._CACHE_HASHES[Renderer.spell.STR_ABERRANT_MIND] || UrlUtil.URL_TO_HASH_BUILDER["subclass"]({
@@ -3811,18 +3811,18 @@ Renderer.spell = {
 		}
 		// endregion
 	},
-	STR_WIZARD: "Wizard",
-	STR_FIGHTER: "Fighter",
+	STR_WIZARD: "Mag",
+	STR_FIGHTER: "Guerrer",
 	STR_ROGUE: "Rogue",
 	STR_CLERIC: "Cleric",
-	STR_SORCERER: "Sorcerer",
+	STR_SORCERER: "Sortiller",
 	STR_WARLOCK: "Bruixot",
-	STR_ELD_KNIGHT: "Eldritch Knight",
+	STR_ELD_KNIGHT: "Cavaller Èldritx",
 	STR_ARC_TCKER: "Entabanador Arcà",
-	STR_DIV_SOUL: "Divine Soul",
+	STR_DIV_SOUL: "Ànima Divina",
 	STR_FAV_SOUL_V2: "Favored Soul v2 (UA)",
 	STR_FAV_SOUL_V3: "Favored Soul v3 (UA)",
-	STR_ABERRANT_MIND: "Aberrant Mind",
+	STR_ABERRANT_MIND: "Ment Aberrant",
 	STR_CLOCKWORK_SOUL: "Soul de Rellotgeria",
 	STR_DEATH: "Death",
 	_CACHE_HASHES: {},
@@ -4621,7 +4621,7 @@ Renderer.monster = {
 		function getExampleSpells (maxSpellLevel, color) {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
-					B: ["darkness", "Fletxa Àcida d'en Melf", "núvol de boira", "raig d'incendi"],
+					B: ["foscor", "Fletxa Àcida d'en Melf", "núvol de boira", "raig d'incendi"],
 					G: ["raig d'arcada", "fascinar persona", "detectar pensaments", "invisibilitat", "suggestió"],
 					W: ["punyal de gel|XGE", "Exèrcit de Boles de Neu d'en Snilloc|XGE"],
 					A: ["veure invisibilitat", "boca màgica", "ceguera/sordera", "adormir", "detectar pensaments"],
@@ -4638,7 +4638,7 @@ Renderer.monster = {
 					B: ["Esfera Vitriòlica|XGE", "radiància malaltissa|XGE", "Tentacles Obscurs de l'Evard", "plaga", "fam d'Hadar"],
 					W: ["escut de foc", "tempesta de gel", "tempesta d'aiguaneu"],
 					A: ["fascinar criatura|XGE", "encàrrec", "Paret de Sorra|XGE", "senefes hipnòtiques", "llenguatges"],
-					C: ["polimorfia", "invisibilitat superior", "confusion", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
+					C: ["polimorfia", "invisibilitat superior", "confusió", "núvol fètid", "imatge major", "fascinar criatura|XGE"],
 				},
 				5: {
 					U: ["Telequinesi", "immobilitzar criatura", "porta dimensional", "paret de pedra", "paret de força"],
@@ -6032,7 +6032,7 @@ Renderer.item = {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "An arcane focus is a special item\u2014an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item\u2014designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}
-				if (item.scfType === "druid") {
+				if (item.scfType === "druida") {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "A druídic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}
@@ -6045,7 +6045,7 @@ Renderer.item = {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}
-				if (item.scfType === "druid") {
+				if (item.scfType === "druida") {
 					Renderer.item._initFullEntries(item);
 					item._fullEntries.push({type: "wrapper", wrapped: "A druid can use this object as a spellcasting focus.", data: {[VeCt.ENTDATA_ITEM_MERGED_ENTRY_TAG]: "type"}});
 				}

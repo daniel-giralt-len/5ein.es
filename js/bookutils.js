@@ -279,7 +279,7 @@ class BookUtil {
 			const href = ~BookUtil.curRender.chapter
 				? this._getHrefShowAll(bookId)
 				: `#${UrlUtil.encodeForHash(bookId)}`;
-			const $btnEntireBook = $(`<a href="${href}" class="btn btn-xs btn-default no-print ${~BookUtil.curRender.chapter ? "" : "active"}" title="Warning: Slow">View Entire ${BookUtil.contentType.uppercaseFirst()}</a>`);
+			const $btnEntireBook = $(`<a href="${href}" class="btn btn-xs btn-default no-print ${~BookUtil.curRender.chapter ? "" : "active"}" title="Warning: Alentir">View Entire ${BookUtil.contentType.uppercaseFirst()}</a>`);
 
 			if (BookUtil._isNarrow == null) {
 				const saved = StorageUtil.syncGetForPage("narrowMode");

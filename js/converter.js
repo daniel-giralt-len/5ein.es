@@ -263,7 +263,7 @@ class CreatureConverter extends BaseConverter {
 // region samples
 CreatureConverter.SAMPLE_TEXT =
 	`Mammon
-Huge fiend (devil), lawful evil
+Huge diastre (devil), lawful evil
 Armor Class 20 (armadura natural)
 Hit Points 378 (28d12 + 196)
 Speed 50 ft.
@@ -288,12 +288,12 @@ Cantrips (at will): sageta de foc, light, mà de mag, prestidigitació
 3rd level (3 slots): fly, lightning bolt
 Resistència Llegendària (3/Dia). Si Mammon falla una tirada de salvació pot escollir superar-la.
 Magic Resistance. Mammon té avantatge a salvar contra conjurs i altres efectes màgics.
-Magic Weapons. Mammon's weapon attacks are magical.
+Arma màgicas. Mammon's weapon attacks are magical.
 ACTIONS
 Multiattack. Mammon makes three attacks.
 Purse. Atac armat cos a cos: +14 a impactar, 10 peus d'abast, un objectiu. Hit: 19 (3d8 + 6) de dany contundent mes 18 (4d8) de dany radiant.
 Molten Coins. Atac armat a distància: +14 a impactar, 40/120 peus d'abast, un objectiu. Hit: 16 (3d6 + 6) de dany contundent mes 18 (4d8) de dany de foc.
-Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. The creature ha de salvar per Constitució (CD 24). If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw Al final del seu proper torn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a restabliment superior spell or comparable magic.
+Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. La criatura ha de salvar per Constitució (CD 24). If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw Al final del seu proper torn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a restabliment superior spell or comparable magic.
 LEGENDARY ACTIONS
 Mammon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Mammon regains spent legendary actions at the start of his turn.
 Attack. Mammon makes one purse or molten coins attack.
@@ -515,12 +515,12 @@ class FeatConverter extends BaseConverter {
 	}
 }
 // region sample
-FeatConverter.SAMPLE_TEXT = `Metamagic Adept
+FeatConverter.SAMPLE_TEXT = `Metamàgia Adept
 Prerequisite: Spellcasting or Màgia de Pacte feature
 You’ve learned how to exert your will on your spells to alter how they function. Obténs els beneficis següents:
 • Increase your Intel·ligència, Saviesa, or Carisma score by 1, to a maximum of 20.
-• You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamagic options with another one from the sorcerer class.
-• You gain 2 punts de fetilleria to spend on Metamagic (these points are added to any punts de fetilleria you have from another source but can be used only on Metamagic). You regain all spent punts de fetilleria when you finish a long rest.
+• You learn two Opcions de Metamàgia of your choice from the sorcerer class. You can use only one Metamàgia option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Opcions de Metamàgia with another one from the sorcerer class.
+• You gain 2 punts de sortilleria to spend on Metamàgia (these points are added to any punts de sortilleria you have from another source but can be used only on Metamàgia). You regain all spent punts de sortilleria when you finish a long rest.
 `;
 // endregion
 

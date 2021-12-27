@@ -52,7 +52,7 @@ class NavBar {
 		addLi(ulBooks, "book.html", "Mordenkainen's Tome of Foes", {aHash: "MTF", date: "2018"});
 		addLi(ulBooks, "book.html", "Guildmasters' Guide to Ravnica", {aHash: "GGR", date: null});
 		addLi(ulBooks, "book.html", "Acquisitions Incorporated", {aHash: "AI", date: "2019"});
-		addLi(ulBooks, "book.html", "Eberron: Rising from the Last War", {aHash: "ERLW", date: null});
+		addLi(ulBooks, "book.html", "Eberron: Rising from the Last Guerra", {aHash: "ERLW", date: null});
 		addLi(ulBooks, "book.html", "Dungeons & Dragons vs. Rick and Morty: Basic Rules", {aHash: "RMR", date: null});
 		addLi(ulBooks, "book.html", "Explorer's Guide to Wildemount", {aHash: "EGW", date: "2020"});
 		addLi(ulBooks, "book.html", "Mythic Odysseys of Theros", {aHash: "MOT", date: null});

@@ -77,7 +77,7 @@ class SpellBuilder extends Builder {
 			classes: {
 				fromClassList: [
 					{
-						name: "Wizard",
+						name: "Mag",
 						source: SRC_PHB,
 					},
 				],
@@ -744,7 +744,7 @@ class SpellBuilder extends Builder {
 	}
 
 	__$getClassesInputs (cb) {
-		const DEFAULT_CLASS = {name: "Wizard", source: SRC_PHB};
+		const DEFAULT_CLASS = {name: "Mag", source: SRC_PHB};
 		const DEFAULT_SUBCLASS = {name: "Evocació", source: SRC_PHB};
 
 		const [$rowCls, $rowInnerCls] = BuilderUi.getLabelledRowTuple("Classes", {isMarked: true});

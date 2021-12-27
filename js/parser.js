@@ -417,7 +417,7 @@ Parser.LANGUAGES_EXOTIC = [
 	"Dracònic",
 	"Parla Profunda",
 	"Ignan",
-	"Infernal",
+	"Diàstric",
 	"Primordial",
 	"Silvànic",
 	"Terrani",
@@ -601,7 +601,7 @@ Parser.stringToCasedSlug = function (str) {
 	return str.replace(/[^\w ]+/g, "").replace(/ +/g, "-");
 };
 
-Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Bruixot", "Wizard"];
+Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druida", "Paladí", "Explorador", "Sortiller", "Bruixot", "Mag"];
 
 Parser.itemValueToFull = function (item, opts = {isShortForm: false, isSmallUnits: false}) {
 	return Parser._moneyToFull(item, "value", "valueMult", opts);
@@ -1315,7 +1315,7 @@ Parser.monTypeToFullObj = function (type) {
 	if (type.tags) {
 		for (const tag of type.tags) {
 			if (typeof tag === "string") {
-				// handles e.g. "fiend (devil)"
+				// handles e.g. "diastre (devil)"
 				out.tags.push(tag);
 				tempTags.push(tag);
 			} else {
@@ -1438,12 +1438,12 @@ Parser.MON_SPELLCASTING_TAG_TO_FULL = {
 	"CA": "Class, Artificer",
 	"CB": "Class, Bard",
 	"CC": "Class, Cleric",
-	"CD": "Class, Druid",
-	"CP": "Class, Paladin",
-	"CR": "Class, Ranger",
-	"CS": "Class, Sorcerer",
+	"CD": "Class, Druida",
+	"CP": "Class, Paladí",
+	"CR": "Class, Explorador",
+	"CS": "Class, Sortiller",
 	"CL": "Class, Bruixot",
-	"CW": "Class, Wizard",
+	"CW": "Class, Mag",
 };
 Parser.monSpellcastingTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_SPELLCASTING_TAG_TO_FULL, tag);
@@ -1478,7 +1478,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"GO": "Goblinesc",
 	"GTH": "Gith",
 	"H": "Halfling",
-	"I": "Infernal",
+	"I": "Diàstric",
 	"IG": "Ignan",
 	"LF": "Languages Known in Life",
 	"O": "Orc",
@@ -1496,7 +1496,7 @@ Parser.monLanguageTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_LANGUAGE_TAG_TO_FULL, tag);
 };
 
-Parser.ENVIRONMENTS = ["arctic", "coastal", "desert", "forest", "grassland", "hill", "mountain", "swamp", "underdark", "underwater", "urban"];
+Parser.ENVIRONMENTS = ["àrtic", "coastal", "desert", "bosc", "prats", "hill", "muntanya", "aiguamoll", "sotafoscor", "underwater", "urban"];
 
 // psi-prefix functions are for parsing psionic data, and shared with the roll20 script
 Parser.PSI_ABV_TYPE_TALENT = "T";
@@ -1547,21 +1547,21 @@ Parser.OPT_FEATURE_TYPE_TO_FULL = {
 	AI: "Artificer Infusion",
 	ED: "Elemental Discipline",
 	EI: "Invocació èldritx",
-	MM: "Metamagic",
+	MM: "Metamàgia",
 	"MV": "Maneuver",
-	"MV:B": "Maneuver, Battle Master",
-	"MV:C2-UA": "Maneuver, Cavalier V2 (UA)",
-	"AS:V1-UA": "Arcane Shot, V1 (UA)",
-	"AS:V2-UA": "Arcane Shot, V2 (UA)",
-	"AS": "Arcane Shot",
+	"MV:B": "Maneuver, Mestre de Batalla",
+	"MV:C2-UA": "Maneuver, Genet V2 (UA)",
+	"AS:V1-UA": "Tir Arcà, V1 (UA)",
+	"AS:V2-UA": "Tir Arcà, V2 (UA)",
+	"AS": "Tir Arcà",
 	OTH: "Altres",
-	"FS:F": "Estil de Lluita; Fighter",
+	"FS:F": "Estil de Lluita; Guerrer",
 	"FS:B": "Estil de Lluita; Bard",
-	"FS:P": "Estil de Lluita; Paladin",
-	"FS:R": "Estil de Lluita; Ranger",
+	"FS:P": "Estil de Lluita; Paladí",
+	"FS:R": "Estil de Lluita; Explorador",
 	"PB": "Premi de Pacte",
 	"OR": "Onomancy Resonant",
-	"RN": "Rune Knight Rune",
+	"RN": "Guerrer de Runes Rune",
 	"AF": "Alchemical Formula",
 };
 
@@ -1737,12 +1737,12 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_QUICKREF] = "Quick Reference";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CULT] = "Cult";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_BOON] = "Boon";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_DISEASE] = "Disease";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_METAMAGIC] = "Metamagic";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_METAMAGIC] = "Metamàgia";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_BATTLEMASTER] = "Maneuver; Battlemaster";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE] = "Table";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "Table";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Cavalier";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Arcane Shot";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "Maneuver; Genet";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "Tir Arcà";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "Optional Feature";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "Estil de Lluita";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "Class Feature";
@@ -1753,7 +1753,7 @@ Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARTIFICER_INFUSION] = "Infusion";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SHIP_UPGRADE] = "Ship Upgrade";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_INFERNAL_WAR_MACHINE_UPGRADE] = "Infernal War Machine Upgrade";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ONOMANCY_RESONANT] = "Onomancy Resonant";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RUNE_KNIGHT_RUNE] = "Rune Knight Rune";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RUNE_KNIGHT_RUNE] = "Guerrer de Runes Rune";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ALCHEMICAL_FORMULA] = "Alchemical Formula";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER] = "Maneuver";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SUBCLASS] = "Subclass";
@@ -1911,7 +1911,7 @@ Parser.spSubclassesToCurrentAndLegacyFull = function (sp, subclassLookup) {
 	function mapClassShortNameToMostRecent (shortName) {
 		switch (shortName) {
 			case "Favored Soul":
-				return "Divine Soul";
+				return "Ànima Divina";
 			case "Undying Light":
 				return "Celestial";
 			case "Deep Stalker":
@@ -2125,7 +2125,7 @@ TP_CONSTRUCT = "constructe";
 TP_DRAGON = "drac";
 TP_ELEMENTAL = "elemental";
 TP_FEY = "fata";
-TP_FIEND = "infernal";
+TP_FIEND = "diastre";
 TP_GIANT = "gegant";
 TP_HUMANOID = "humanoide";
 TP_MONSTROSITY = "monstrositat";
@@ -2375,7 +2375,7 @@ SRC_UATOBM = `${SRC_UA_PREFIX}ThatOldBlackMagic`;
 SRC_UATRR = `${SRC_UA_PREFIX}TheRangerRevised`;
 SRC_UAWA = `${SRC_UA_PREFIX}WaterborneAdventures`;
 SRC_UAVR = `${SRC_UA_PREFIX}VariantRules`;
-SRC_UALDR = `${SRC_UA_PREFIX}LightDarkUnderdark`;
+SRC_UALDR = `${SRC_UA_PREFIX}LightDarkSotafoscor`;
 SRC_UARAR = `${SRC_UA_PREFIX}RangerAndRogue`;
 SRC_UAATOSC = `${SRC_UA_PREFIX}ATrioOfSubclasses`;
 SRC_UABPP = `${SRC_UA_PREFIX}BarbarianPrimalPaths`;
@@ -2488,7 +2488,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_BGDIA] = "Baldur's Gate: Descent Into Avernus";
 Parser.SOURCE_JSON_TO_FULL[SRC_LR] = "Locathah Rising";
 Parser.SOURCE_JSON_TO_FULL[SRC_AL] = "Adventurers' League";
 Parser.SOURCE_JSON_TO_FULL[SRC_SAC] = "Sage Advice Compendium";
-Parser.SOURCE_JSON_TO_FULL[SRC_ERLW] = "Eberron: Rising from the Last War";
+Parser.SOURCE_JSON_TO_FULL[SRC_ERLW] = "Eberron: Rising from the Last Guerra";
 Parser.SOURCE_JSON_TO_FULL[SRC_EFR] = "Eberron: Forgotten Relics";
 Parser.SOURCE_JSON_TO_FULL[SRC_RMBRE] = "The Lost Dungeon of Rickedness: Big Rick Energy";
 Parser.SOURCE_JSON_TO_FULL[SRC_RMR] = "Dungeons & Dragons vs. Rick and Morty: Basic Rules";
@@ -2534,7 +2534,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_UATOBM] = `${UA_PREFIX}That Old Black Magic`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UATRR] = `${UA_PREFIX}The Ranger, Revised`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAWA] = `${UA_PREFIX}Waterborne Adventures`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAVR] = `${UA_PREFIX}Variant Rules`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UALDR] = `${UA_PREFIX}Light, Dark, Underdark!`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UALDR] = `${UA_PREFIX}Light, Dark, Sotafoscor!`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARAR] = `${UA_PREFIX}Ranger and Rogue`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAATOSC] = `${UA_PREFIX}A Trio of Subclasses`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UABPP] = `${UA_PREFIX}Barbarian Primal Paths`;
@@ -2656,7 +2656,7 @@ Parser.SOURCE_JSON_TO_ABV[SRC_TCE] = "TCE";
 Parser.SOURCE_JSON_TO_ABV[SRC_VRGR] = "VRGR";
 Parser.SOURCE_JSON_TO_ABV[SRC_HoL] = "HoL";
 Parser.SOURCE_JSON_TO_ABV[SRC_SCREEN] = "Screen";
-Parser.SOURCE_JSON_TO_ABV[SRC_SCREEN_WILDERNESS_KIT] = "Wild";
+Parser.SOURCE_JSON_TO_ABV[SRC_SCREEN_WILDERNESS_KIT] = "Salvatge";
 Parser.SOURCE_JSON_TO_ABV[SRC_HEROES_FEAST] = "HF";
 Parser.SOURCE_JSON_TO_ABV[SRC_CM] = "CM";
 Parser.SOURCE_JSON_TO_ABV[SRC_ALCoS] = "ALCoS";

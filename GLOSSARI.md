@@ -54,6 +54,7 @@
 |Feats|Dots
 |Feature|Trets
 |Feywild|Terra Fata
+|Fiend|Diastre
 |Frightened|Acovardat
 |Gear|Equipament
 |Gold pieces|Ors
