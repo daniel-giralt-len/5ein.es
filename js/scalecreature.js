@@ -228,7 +228,7 @@
 	},
 
 	_casterLevelAndClassToCantrips (level, clazz) {
-		clazz = (clazz || "cleric").toLowerCase(); // Cleric/Wizard have middle-ground scaling
+		clazz = (clazz || "Clergue").toLowerCase(); // Cleric/Wizard have middle-ground scaling
 		return this._casterLevelAndClassCantrips[clazz][level];
 	},
 
@@ -1944,10 +1944,10 @@
 					} else return m[0];
 				});
 
-				const mClasses = /(artificer|bard|cleric|druida|paladí|explorador|sortiller|bruixot|wizard) spell(?:s)?/i.exec(outStr);
+				const mClasses = /(artificer|bard|Clergue|druida|paladí|explorador|sortiller|bruixot|wizard) spell(?:s)?/i.exec(outStr);
 				if (mClasses) spellsFromClass = mClasses[1];
 				else {
-					const mClasses2 = /(artificer|bard|cleric|druida|paladí|explorador|sortiller|bruixot|wizard)(?:'s)? spell list/i.exec(outStr);
+					const mClasses2 = /(artificer|bard|Clergue|druida|paladí|explorador|sortiller|bruixot|wizard)(?:'s)? spell list/i.exec(outStr);
 					if (mClasses2) spellsFromClass = mClasses2[1]
 				}
 

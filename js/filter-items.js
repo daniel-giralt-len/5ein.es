@@ -48,7 +48,7 @@ class PageFilterEquipment extends PageFilter {
 						break;
 					}
 					case "holy":
-						if (!item._fFocus.includes("Cleric")) item._fFocus.push("Cleric");
+						if (!item._fFocus.includes("Clergue")) item._fFocus.push("Clergue");
 						if (!item._fFocus.includes("Paladí")) item._fFocus.push("Paladí");
 						break;
 				}

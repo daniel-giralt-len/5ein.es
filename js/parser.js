@@ -601,7 +601,7 @@ Parser.stringToCasedSlug = function (str) {
 	return str.replace(/[^\w ]+/g, "").replace(/ +/g, "-");
 };
 
-Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Cleric", "Druida", "Paladí", "Explorador", "Sortiller", "Bruixot", "Mag"];
+Parser.ITEM_SPELLCASTING_FOCUS_CLASSES = ["Bard", "Clergue", "Druida", "Paladí", "Explorador", "Sortiller", "Bruixot", "Mag"];
 
 Parser.itemValueToFull = function (item, opts = {isShortForm: false, isSmallUnits: false}) {
 	return Parser._moneyToFull(item, "value", "valueMult", opts);
@@ -1437,7 +1437,7 @@ Parser.MON_SPELLCASTING_TAG_TO_FULL = {
 	"S": "Shared",
 	"CA": "Class, Artificer",
 	"CB": "Class, Bard",
-	"CC": "Class, Cleric",
+	"CC": "Class, Clergue",
 	"CD": "Class, Druida",
 	"CP": "Class, Paladí",
 	"CR": "Class, Explorador",
@@ -2541,7 +2541,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_UABPP] = `${UA_PREFIX}Barbarian Primal Paths`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARSC] = `${UA_PREFIX}Revised Subclasses`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAKOO] = `${UA_PREFIX}Kits of Old`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UABBC] = `${UA_PREFIX}Bard: Col·legi de Bardss`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UACDD] = `${UA_PREFIX}Cleric: Divine Domains`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UACDD] = `${UA_PREFIX}Cleric: Dominis Divins`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAD] = `${UA_PREFIX}Druid`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UARCO] = `${UA_PREFIX}Revised Class Options`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAF] = `${UA_PREFIX}Fighter`;
