@@ -3824,7 +3824,7 @@ Renderer.spell = {
 	STR_FAV_SOUL_V3: "Favored Soul v3 (UA)",
 	STR_ABERRANT_MIND: "Ment Aberrant",
 	STR_CLOCKWORK_SOUL: "Soul de Rellotgeria",
-	STR_DEATH: "Death",
+	STR_DEATH: "Mort",
 	_CACHE_HASHES: {},
 
 	pGetFluff (sp) {
