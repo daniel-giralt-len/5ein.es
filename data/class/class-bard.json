@@ -2,7 +2,7 @@
 	"_meta": {
 		"dependencies": {
 			"subclass": [
-				"generic"
+				"genèric"
 			]
 		}
 	},
@@ -18,10 +18,10 @@
 			},
 			"proficiency": [
 				"dex",
-				"cha"
+				"xa"
 			],
-			"spellcastingAbility": "cha",
-			"casterProgression": "full",
+			"spellcastingAbility": "xa",
+			"casterProgression": "ple",
 			"cantripProgression": [
 				2,
 				2,
@@ -72,18 +72,18 @@
 					"prepared": {
 						"10": [
 							{
-								"choose": "level=0;1;2;3;4;5"
+								"choose": "nivell=0;1;2;3;4;5"
 							},
 							{
-								"choose": "level=0;1;2;3;4;5"
+								"choose": "nivell=0;1;2;3;4;5"
 							}
 						],
 						"14": [
 							{
-								"choose": "level=0;1;2;3;4;5;6;7"
+								"choose": "nivell=0;1;2;3;4;5;6;7"
 							},
 							{
-								"choose": "level=0;1;2;3;4;5;6;7"
+								"choose": "nivell=0;1;2;3;4;5;6;7"
 							}
 						],
 						"18": [
@@ -99,40 +99,40 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light"
+					"llum"
 				],
 				"weapons": [
-					"simple",
-					"{@item hand crossbow|phb|hand crossbows}",
+					"senzill",
+					"{@item hand crossbow|phb|ballestes de mà}",
 					"{@item longsword|phb|longswords}",
 					"{@item rapier|phb|rapiers}",
 					"{@item shortsword|phb|shortswords}"
 				],
 				"tools": [
-					"tres {@item musical instrument|PHB|musical instruments} (escull)"
+					"tres {@item instrument musical|PHB|instruments musicals} (escull)"
 				],
 				"skills": [
 					{
 						"choose": {
 							"from": [
-								"athletics",
-								"acrobatics",
-								"sleight of hand",
-								"stealth",
-								"arcana",
-								"history",
-								"investigation",
-								"nature",
-								"religion",
-								"animal handling",
-								"insight",
-								"medicine",
-								"perception",
-								"survival",
-								"deception",
-								"intimidation",
-								"performance",
-								"persuasion"
+								"atletisme",
+								"acrobàcies",
+								"joc de mà",
+								"sigil",
+								"arcanes",
+								"història",
+								"investigació",
+								"naturalesa",
+								"religió",
+								"maneig d'animals",
+								"perspicàcia",
+								"medicament",
+								"percepció",
+								"supervivència",
+								"engany",
+								"intimidació",
+								"rendiment",
+								"persuasió"
 							],
 							"count": 3
 						}
@@ -142,41 +142,41 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) una {@item rapier|phb}, (b) una {@item longsword|phb}, o bé (c) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) una {@item rapier|phb}, (b) una {@item longsword|phb}, o bé (c) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon }",
 					"(a) una {@item diplomat's pack|phb} o bé (b) an {@item entertainer's pack|phb}",
 					"(a) una {@item lute|phb} o bé (b) qualsevol altre {@filter instrument musical|items|miscellaneous=mundane|type=instrument}",
-					"{@item Armadura de Cuir|phb}, and a {@item daga|phb}"
+					"{@item Armadura de Cuir|phb} i un {@item daga|phb}"
 				],
 				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Ors Inicials}",
 				"defaultData": [
 					{
 						"a": [
-							"rapier|phb"
+							"estoc|phb"
 						],
 						"b": [
-							"longsword|phb"
+							"espasa llarga|phb"
 						],
 						"c": [
 							{
-								"equipmentType": "weaponSimple"
+								"equipmentType": "armaSimple"
 							}
 						]
 					},
 					{
 						"a": [
-							"diplomat's pack|phb"
+							"paquet de diplomàtics|phb"
 						],
 						"b": [
-							"entertainer's pack|phb"
+							"paquet d'animació|phb"
 						]
 					},
 					{
 						"a": [
-							"lute|phb"
+							"llaüt|phb"
 						],
 						"b": [
 							{
-								"equipmentType": "instrumentMusical"
+								"equipmentType": "instrument musical"
 							}
 						]
 					},
@@ -194,45 +194,45 @@
 				},
 				"proficienciesGained": {
 					"armor": [
-						"light"
+						"llum"
 					],
 					"skills": [
 						{
 							"choose": {
 								"from": [
-									"athletics",
-									"acrobatics",
-									"sleight of hand",
-									"stealth",
-									"arcana",
-									"history",
-									"investigation",
-									"nature",
-									"religion",
-									"animal handling",
-									"insight",
-									"medicine",
-									"perception",
-									"survival",
-									"deception",
-									"intimidation",
-									"performance",
-									"persuasion"
+									"atletisme",
+									"acrobàcies",
+									"joc de mà",
+									"sigil",
+									"arcanes",
+									"història",
+									"investigació",
+									"naturalesa",
+									"religió",
+									"maneig d'animals",
+									"perspicàcia",
+									"medicament",
+									"percepció",
+									"supervivència",
+									"engany",
+									"intimidació",
+									"rendiment",
+									"persuasió"
 								],
 								"count": 1
 							}
 						}
 					],
 					"tools": [
-						"one {@item musical instrument|PHB} (escull)"
+						"un {@item musical instrument|PHB} (escull)"
 					]
 				}
 			},
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Trucs Coneguts|spells|level=0|class=bard}",
-						"{@filter Conjurs Coneguts|spells|class=bard}"
+						"{@filter Trucs Coneguts|encanteris|level=0|class=bard}",
+						"{@filter Conjurs Coneguts|encanteris|class=bard}"
 					],
 					"rows": [
 						[
@@ -320,15 +320,15 @@
 				{
 					"title": "Nivells de Ranura per Nivells de Conjur",
 					"colLabels": [
-						"{@filter Nv.1|spells|level=1|class=bard}",
-						"{@filter Nv.2|spells|level=2|class=bard}",
-						"{@filter Nv.3|spells|level=3|class=bard}",
-						"{@filter Nv.4|spells|level=4|class=bard}",
-						"{@filter Nv.5|spells|level=5|class=bard}",
-						"{@filter Nv.6|spells|level=6|class=bard}",
-						"{@filter Nv.7|spells|level=7|class=bard}",
-						"{@filter Nv.8|spells|level=8|class=bard}",
-						"{@filter Nv.9|spells|level=9|class=bard}"
+						"{@filter Nv.1|encanteris|nivell=1|classe=bard}",
+						"{@filter Nv.2|encanteris|nivell=2|classe=bard}",
+						"{@filter Nv.3|encanteris|nivell=3|classe=bard}",
+						"{@filter Nv.4|encanteris|nivell=4|classe=bard}",
+						"{@filter Nv.5|encanteris|nivell=5|classe=bard}",
+						"{@filter Nv.6|encanteris|nivell=6|classe=bard}",
+						"{@filter Nv.7|encanteris|nivell=7|classe=bard}",
+						"{@filter Nv.8|encanteris|nivell=8|classe=bard}",
+						"{@filter Nv.9|encanteris|nivell=9|classe=bard}"
 					],
 					"rows": [
 						[
@@ -558,7 +558,7 @@
 				"Inspiració Bàrdica|Bard||1",
 				"Inspiració Màgica|Bard||1|UAClassFeatureVariants",
 				"Llançament de Conjurs|Bard||1",
-				"Spell Versatility|Bard||1|UAClassFeatureVariants",
+				"Versatilitat ortogràfica|Bard||1|UAClassFeatureVariants",
 				"Mà Trencada|Bard||2",
 				"Cançó de Repòs (d6)|Bard||2",
 				"Inspiració Màgica|Bard||2|TCE",
@@ -604,39 +604,39 @@
 			"fluff": [
 				{
 					"name": "Bard",
-					"type": "section",
+					"type": "secció",
 					"entries": [
-						"Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song\u2014knowledge of the people who constructed the monument and the mythic saga it depicts.",
-						"A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.",
-						"Laughing as she tunes her cittern, a gnome weaves her subtle magic over the assembled nobles, ensuring that her companions' words will be well received.",
-						"Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.",
+						"Taral·leant mentre rastreja els seus dits sobre un antic monument en una ruïna oblidada des de fa temps, un mig elf amb cuirs rugosos descobreix que el coneixement brolla a la seva ment, evocat per la màgia de la seva cançó: el coneixement de les persones que van construir el monument i el saga mítica que representa.",
+						"Un sever guerrer humà colpeja la seva espasa rítmicament contra la seva malla d'escala, marcant el ritme del seu cant de guerra i exhortant els seus companys a la valentia i l'heroisme. La màgia de la seva cançó els enforteix i els envalentona.",
+						"Rient mentre afina la seva citerna, un gnom teixeix la seva màgia subtil sobre els nobles reunits, assegurant-se que les paraules dels seus companys seran ben rebudes.",
+						"Ja sigui erudit, escald o canalla, un bard teixeix màgia a través de paraules i música per inspirar als aliats, desmoralitzar els enemics, manipular les ments, crear il·lusions i, fins i tot, curar ferides.",
 						{
-							"type": "entries",
-							"name": "Music and Magic",
+							"type": "entrades",
+							"name": "Música i màgia",
 							"entries": [
-								"In the worlds of D&D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.",
-								"The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge."
+								"Als mons de D&D, les paraules i la música no són només vibracions de l'aire, sinó vocalitzacions amb un poder propi. El bard és un mestre de la cançó, la parla i la màgia que contenen. Els bards diuen que el multivers va existir, que les paraules dels déus li van donar forma i que els ecos d'aquestes Paraules primordials de la Creació encara ressonen a tot el cosmos. La música dels bards és un intent d'arrabassar i aprofitar aquests ecos, teixits subtilment en els seus encanteris i poders.",
+								"La força més gran dels bards és la seva gran versatilitat. Molts bardes prefereixen mantenir-se al marge en combat, utilitzant la seva màgia per inspirar als seus aliats i dificultar els seus enemics des de la distància. Però els bardes són capaços de defensar-se en cos a cos si cal, utilitzant la seva màgia per reforçar les seves espases i armadures. Els seus encanteris s'inclinen cap a encants i il·lusions en lloc d'encanteris descaradament destructius. Tenen un ampli coneixement de moltes matèries i una aptitud natural que els permet fer gairebé qualsevol cosa bé. Els bards esdevenen mestres dels talents que es proposen perfeccionar, des de la interpretació musical fins al coneixement esotèric."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Learning from Experience",
+							"type": "entrades",
+							"name": "Aprenent de l'experiència",
 							"entries": [
-								"True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. A bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows.",
-								"Only rarely do bards settle in one place for long, and their natural desire to travel\u2014to find new tales to tell, new skills to learn, and new discoveries beyond the horizon\u2014makes an adventuring career a natural calling. Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves."
+								"Els veritables bardes no són habituals al món. No tots els joglars que canten a una taverna o un bufó fent cabrioles a una cort reial són bards. Descobrir la màgia que amaga la música requereix un estudi dur i una mica de talent natural que manca a la majoria de trobadors i jongleurs. Tanmateix, pot ser difícil detectar la diferència entre aquests intèrprets i els veritables bardes. La vida d'un bard es passa deambulant per la terra recollint tradicions, explicant històries i vivint de l'agraïment del públic, com qualsevol altre animador. Però un coneixement profund, un nivell d'habilitat musical i un toc de màgia distingeixen els bards dels seus companys.",
+								"Només poques vegades els bards s'instal·len en un sol lloc durant molt de temps, i el seu desig natural de viatjar, per trobar noves històries per explicar, noves habilitats per aprendre i nous descobriments més enllà de l'horitzó, fa que una carrera aventurera sigui una vocació natural. Cada aventura és una oportunitat per aprendre, practicar una varietat d'habilitats, entrar en tombes oblidades, descobrir obres de màgia perdudes, desxifrar vells toms, viatjar a llocs estranys o trobar-se amb criatures exòtiques. Als bards els encanta acompanyar els herois per presenciar les seves accions de primera mà. Un bard que pot explicar una història impressionant des de l'experiència personal guanya renom entre altres bards. De fet, després d'explicar tantes històries sobre herois que aconsegueixen fets poderoses, molts bardes prenen aquests temes a cor i assumeixen ells mateixos rols heroics."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Creating a Bard",
+							"type": "entrades",
+							"name": "Creació d'un bard",
 							"entries": [
-								"Bards thrive on stories, whether those stories are true or not. Your character's background and motivations are not as important as the stories that he or she tells about them. Perhaps you had a secure and mundane childhood. There's no good story to be told about that, so you might paint yourself as an orphan raised by a hag in a dismal swamp. Or your childhood might be worthy of a story. Some bards acquire their magical music through extraordinary means, including the inspiration of fey or other supernatural creatures.",
-								"Did you serve an apprenticeship, studying under a master, following the more experienced bard until you were ready to strike out on your own? Or did you attend a college where you studied bardic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering bard who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?",
+								"Els bards es desenvolupen amb les històries, siguin certes o no. Els antecedents i les motivacions del vostre personatge no són tan importants com les històries que explica sobre ells. Potser vau tenir una infància segura i mundana. No hi ha una bona història per explicar-ho, així que et pots pintar com un orfe criat per una bruja en un pantà lúgubre. O la teva infantesa podria ser digna d'una història. Alguns bards adquireixen la seva música màgica a través de mitjans extraordinaris, inclosa la inspiració de feys o altres criatures sobrenaturals.",
+								"Vau fer un aprenentatge, vas estudiar amb un mestre, vas seguir el bard més experimentat fins que vas estar a punt per atacar pel teu compte? O vas assistir a una universitat on vas estudiar tradició barda i vas practicar la teva màgia musical? Potser eres un jove fugitiu o orfe, en què es va fer amistat amb un bard errant que es va convertir en el teu mentor. O potser has estat un nen noble mimat i tutoritzat per un mestre. Potser et vas ensopegar amb les urpes d'una bruja, fent una ganga per un regal musical a més de la teva vida i llibertat, però a quin preu?",
 								{
-									"type": "entries",
-									"name": "Quick Build",
+									"type": "entrades",
+									"name": "Construcció ràpida",
 									"entries": [
-										"You can make a bard quickly by following these suggestions. First, Carisma should be your highest ability score, followed by Destresa. Second, choose the {@background entertainer} background. Third, choose the {@spell dancing lights} i {@spell vicious mockery} cantrips, along with the following 1st-level spells: {@spell fascinar persona}, {@spell detectar màgia}, {@spell paraula de curació}, i {@spell tronada}."
+										"Podeu fer un bard ràpidament seguint aquests suggeriments. Primer, Carisma hauria de ser la vostra puntuació d'habilitat més alta, seguit de Destresa. En segon lloc, trieu el fons {@background entertainer}. En tercer lloc, escolliu els encanteris {@spell dancing lights} i {@spell vicious mockery}, juntament amb els següents encanteris de primer nivell: {@spell fascinar persona}, {@spell detectar màgia}, {@spell paraula de curació}, jo {@spell tronada}."
 									]
 								}
 							]
@@ -646,35 +646,35 @@
 					"page": 51
 				},
 				{
-					"type": "section",
+					"type": "secció",
 					"entries": [
 						{
-							"type": "quote",
+							"type": "citar",
 							"entries": [
-								"Music is the fruit of the divine tree that vibrates with the Words of Creation. But the question I ask you is, can a bard go to the root of this tree? Can one tap into the source of that power? Ah, then what manner of music they would bring to this world!"
+								"La música és el fruit de l'arbre diví que vibra amb les Paraules de la Creació. Però la pregunta que et faig és: pot un bard anar a l'arrel d'aquest arbre? Es pot aprofitar la font d'aquest poder? Ah, doncs, quina música portarien a aquest món!"
 							],
-							"by": "Fletcher Danairia, master bard"
+							"by": "Fletcher Danairia, mestre bard"
 						},
-						"Bards bring levity during grave times; they impart wisdom to offset ignorance; and they make the ridiculous seem sublime. Bards are preservers of ancient history, their songs and tales perpetuating the memory of great events down through time\u2014knowledge so important that it is memorized and passed along as oral history, to survive even when no written record remains.",
-						"It is also the bard's role to chronicle smaller and more contemporary events\u2014the stories of today's heroes, including their feats of valor as well as their less than impressive failures.",
-						"Of course, the world has many people who can carry a tune or tell a good story, and there's much more to any adventuring bard than a glib tongue and a melodious voice. Yet what truly sets bards apart from others\u2014and from one another\u2014are the style and substance of their performances.",
-						"To grab and hold the attention of an audience, bards are typically flamboyant and outgoing when they perform. The most famous of them are essentially the D&D world's equivalent of pop stars. If you're playing a bard, consider using one of your favorite musicians as a role model for your character.",
-						"You can add some unique aspects to your bard character by considering the suggestions that follow.",
+						"Els bardes aporten lleugeresa durant els temps greus; imparteixen saviesa per compensar la ignorància; i fan que el ridícul sembli sublim. Els bards són conservadors de la història antiga, les seves cançons i contes perpetuen la memòria dels grans esdeveniments al llarg del temps, un coneixement tan important que es memoritza i es transmet com a història oral, per sobreviure fins i tot quan no quedi cap registre escrit.",
+						"També és el paper del bard fer una crònica d'esdeveniments més petits i contemporanis: les històries dels herois actuals, incloses les seves gestes de valor i els seus fracassos menys que impressionants.",
+						"Per descomptat, al món hi ha moltes persones que poden portar una melodia o explicar una bona història, i qualsevol bard aventurer té molt més que una llengua fluix i una veu melodiosa. No obstant això, el que realment diferencia els bards dels altres, i els uns dels altres, és l'estil i la substància de les seves actuacions.",
+						"Per captar i captar l'atenció d'un públic, els bardes solen ser extravagants i extrovertits quan actuen. Els més famosos d'ells són essencialment l'equivalent mundial de les estrelles del pop de D&D. Si toques un bard, considera utilitzar un dels teus músics preferits com a model per al teu personatge.",
+						"Pots afegir alguns aspectes únics al teu personatge de bard tenint en compte els suggeriments que segueixen.",
 						{
-							"type": "entries",
-							"name": "Defining Work",
+							"type": "entrades",
+							"name": "Obra Definitiva",
 							"entries": [
-								"Every successful bard is renowned for at least one piece of performance art, typically a song or a poem that is popular with everyone who hears it. These performances are spoken about for years by those who view them, and some spectators have had their lives forever changed because of the experience.",
-								"If your character is just starting out, your ultimate defining work is likely in the future. But in order to make any sort of living at your profession, chances are you already have a piece or two in your repertoire that have proven to be audience pleasers.",
+								"Tots els bards d'èxit són coneguts per almenys una obra d'art escènic, normalment una cançó o un poema que és popular entre tots els que l'escolten. D'aquestes actuacions se'n parla des de fa anys els qui les veuen, i alguns espectadors han vist les seves vides canviades per sempre a causa de l'experiència.",
+								"Si el vostre personatge tot just comença, és probable que el vostre treball definitiu final sigui en el futur. Però, per guanyar-se la vida amb la vostra professió, és probable que ja tingueu una o dues peces al vostre repertori que hagin demostrat agradar al públic.",
 								{
-									"type": "table",
-									"caption": "Defining Work",
+									"type": "taula",
+									"caption": "Obra Definitiva",
 									"colLabels": [
-										"{@dice d6}",
-										"Defining Work"
+										"{@dis d6}",
+										"Obra Definitiva"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -737,20 +737,20 @@
 							]
 						},
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Instrument",
 							"entries": [
-								"In a bard's quest for the ultimate performance and the highest acclaim, one's instrument is at least as important as one's vocal ability. The instrument's quality of manufacture is a critical factor, of course; the best ones make the best music, and some bards are continually on the lookout for an improvement. Perhaps just as important, though, is the instrument's own entertainment value; those that are bizarrely constructed or made of exotic materials are likely to leave a lasting impression on an audience.",
-								"You might have an \"off the rack\" instrument, perhaps because it's all you can afford right now. Or, if your first instrument was gifted to you, it might be of a more elaborate sort. Are you satisfied with the instrument you have, or do you aspire to replace it with something truly distinctive?",
+								"En la recerca d'un bard de la màxima interpretació i la màxima aclamació, l'instrument d'un és almenys tan important com la seva capacitat vocal. La qualitat de fabricació de l'instrument és un factor crític, és clar; els millors fan la millor música, i alguns bards estan contínuament a la recerca d'una millora. Potser igual d'important, però, és el propi valor d'entreteniment de l'instrument; aquells que estan construïts de manera estranya o fets de materials exòtics probablement deixaran una impressió duradora en el públic.",
+								"És possible que tingueu un instrument \"fora del bastidor\", potser perquè és tot el que us podeu permetre ara mateix. O, si el vostre primer instrument us va regalar, podria ser d'un tipus més elaborat. Estàs satisfet amb l'instrument que tens o aspires a substituir-lo per alguna cosa realment distintiu?",
 								{
-									"type": "table",
+									"type": "taula",
 									"caption": "Instrument",
 									"colLabels": [
-										"{@dice d6}",
+										"{@dis d6}",
 										"Instrument"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -813,20 +813,20 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Embarrassment",
+							"type": "entrades",
+							"name": "Vergonya",
 							"entries": [
-								"Almost every bard has suffered at least one bad experience in front of an audience, and chances are you're no exception. No one becomes famous right away, after all; perhaps you had a few small difficulties early in your career, or maybe it took you a while to restore your reputation after one agonizing night when the fates conspired to bring about your theatrical ruin.",
-								"The ways that a performance can go wrong are as varied as the fish in the sea. No matter what sort of disaster might occur, however, a bard has the courage and the confidence to rebound from it\u2014either pressing on with the show (if possible) or promising to come back tomorrow with a new performance that's guaranteed to please.",
+								"Gairebé tots els bards han patit almenys una mala experiència davant d'un públic, i és probable que no siguis una excepció. Ningú es fa famós de seguida, després de tot; potser vau tenir algunes petites dificultats al principi de la vostra carrera, o potser vau trigar una estona a restaurar la vostra reputació després d'una nit agònica quan els destís van conspirar per provocar la vostra ruïna teatral.",
+								"Les maneres en què una actuació pot anar malament són tan variades com els peixos al mar. No importa quin tipus de desastre es pugui produir, però, un bard té el coratge i la confiança per recuperar-se, ja sigui seguint amb l'espectacle (si és possible) o prometent tornar demà amb una nova actuació que agradarà.",
 								{
-									"type": "table",
-									"caption": "Embarrassment",
+									"type": "taula",
+									"caption": "Vergonya",
 									"colLabels": [
-										"{@dice d6}",
-										"Embarrassment"
+										"{@dis d6}",
+										"Vergonya"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -837,7 +837,7 @@
 													"exact": 1
 												}
 											},
-											"The time when your comedic song, \"Big Tom's Hijinks\"\u2014which, by the way, you thought was brilliant\u2014did not go over well with Big Tom"
+											"The time when your comedic song, \"Big Tom's Hijinks\"—which, by the way, you thought was brilliant—did not go over well with Big Tom"
 										],
 										[
 											{
@@ -873,7 +873,7 @@
 													"exact": 5
 												}
 											},
-											"The time on stage when your wig caught fire and you threw it down\u2014which set fire to the stage"
+											"The time on stage when your wig caught fire and you threw it down—which set fire to the stage"
 										],
 										[
 											{
@@ -889,34 +889,34 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "A Bard's Muse",
+							"type": "entrades",
+							"name": "La musa d'un bard",
 							"entries": [
-								"Naturally, every bard has a repertoire of songs and stories. Some bards are generalists who can draw from a wide range of topics for each performance, and who take pride in their versatility. Others adopt a more personal approach to their art, driven by their attachment to a muse\u2014a particular concept that inspires much of what those bards do in front of an audience.",
-								"A bard who follows a muse generally does so to gain a deeper understanding of what that muse represents and how to best convey that understanding to others through performance.",
-								"If your bard character has a muse, it could be one of the three described here, or one of your own devising.",
+								"Naturalment, cada bard té un repertori de cançons i històries. Alguns bardes són generalistes que poden extreure una àmplia gamma de temes per a cada actuació i que s'enorgulleix de la seva versatilitat. Altres adopten un enfocament més personal del seu art, impulsat pel seu vincle a una musa, un concepte particular que inspira gran part del que fan aquests bards davant d'un públic.",
+								"Un bard que segueix una musa generalment ho fa per obtenir una comprensió més profunda del que representa aquesta musa i com transmetre millor aquesta comprensió als altres mitjançant la interpretació.",
+								"Si el vostre personatge de bard té una musa, podria ser una de les tres descrites aquí, o una de les vostres pròpies idees.",
 								{
-									"type": "entries",
+									"type": "entrades",
 									"entries": [
 										{
-											"type": "entries",
-											"name": "Nature",
+											"type": "entrades",
+											"name": "Naturalesa",
 											"entries": [
-												"You feel a kinship with the natural world, and its beauty and mystery inspire you. For you, a tree is deeply symbolic, its roots delving into the dark unknown to draw forth the power of the earth, while its branches reach toward the sun to nourish their flowers and fruit. Nature is the ancient witness who has seen every kingdom rise and fall, even those whose names have been forgotten and wait to be rediscovered. The gods of nature share their secrets with druids and sages, opening their hearts and minds to new ways of seeing, and as with those individuals, you find that your creativity blossoms while you wander in an open field of waving grass or walk in silent reverence through a grove of ancient oaks."
+												"Sents un parentiu amb el món natural, i la seva bellesa i misteri t'inspiren. Per a tu, un arbre és profundament simbòlic, les seves arrels s'endinsen en la foscor desconeguda per extreure el poder de la terra, mentre les seves branques arriben cap al sol per nodrir les seves flors i els seus fruits. La natura és l'antic testimoni que ha vist pujar i caure tots els regnes, fins i tot aquells els noms dels quals s'han oblidat i esperen ser redescoberts. Els déus de la natura comparteixen els seus secrets amb druides i savis, obrint els seus cors i ments a noves maneres de veure, i com passa amb aquests individus, trobareu que la vostra creativitat floreix mentre passegeu per un camp obert d'herba ondulant o camineu amb reverència silenciosa. per un bosc d'alzines mil·lenàries."
 											]
 										},
 										{
-											"type": "entries",
-											"name": "Love",
+											"type": "entrades",
+											"name": "Amor",
 											"entries": [
-												"You are on a quest to identify the essence of true love. Though you do not disdain the superficial love of flesh and form, the deeper form of love that can inspire thousands or bring joy to one's every moment is what you are interested in. Love of this sort takes on many forms, and que puguis veure its presence everywhere\u2014from the sparkling of a beautiful gem to the song of a simple fisher thanking the sea for its bounty. You are on the trail of love, that most precious and mysterious of emotions, and your search fills your stories and your songs with vitality and passion."
+												"Estàs en una recerca per identificar l'essència de l'amor veritable. Encara que no menyspreeu l'amor superficial de la carn i la forma, la forma més profunda d'amor que pot inspirar milers o donar alegria a cada moment és allò que us interessa. L'amor d'aquesta mena adquireix moltes formes, i que en pugui veure. presència a tot arreu, des de l'espurneig d'una bella joia fins a la cançó d'un senzill pescador agraint al mar la seva generositat. Estàs al camí de l'amor, la més preciosa i misteriosa de les emocions, i la teva recerca omple de vitalitat i passió les teves històries i les teves cançons."
 											]
 										},
 										{
-											"type": "entries",
-											"name": "Conflict",
+											"type": "entrades",
+											"name": "Conflicte",
 											"entries": [
-												"Drama embodies conflict, and the best stories have conflict as a key element. From the morning-after tale of a tavern brawl to the saga of an epic battle, from a lover's spat to a rift between powerful dynasties, conflict is what inspires tale-tellers like you to create your best work. Conflict can bring out the best in some people, causing their heroic nature to shine forth and transform the world, but it can cause others to gravitate toward darkness and fall under the sway of evil. You strive to experience or witness all forms of conflict, great and small, so as to study this eternal aspect of life and immortalize it in your words and music."
+												"El drama encarna el conflicte, i les millors històries tenen el conflicte com a element clau. Des del conte de l'endemà d'una baralla a una taverna fins a la saga d'una batalla èpica, des de la disputa d'un amant fins a una fractura entre dinasties poderoses, el conflicte és el que inspira a narradors com tu a crear la teva millor obra. Els conflictes poden treure el millor d'algunes persones, fent que la seva naturalesa heroica brilli i transformi el món, però pot fer que altres gravitin cap a la foscor i caiguin sota el domini del mal. T'esforces per experimentar o presenciar totes les formes de conflicte, grans i petits, per estudiar aquest aspecte etern de la vida i immortalitzar-lo en les teves paraules i música."
 											]
 										}
 									]
@@ -941,14 +941,14 @@
 			"srd": true,
 			"additionalSpells": [
 				{
-					"name": "Secrets Màgics Adicional",
+					"name": "Secrets Màgics Adicionals",
 					"prepared": {
 						"6": [
 							{
-								"choose": "level=0;1;2;3"
+								"choose": "nivell=0;1;2;3"
 							},
 							{
-								"choose": "level=0;1;2;3"
+								"choose": "nivell=0;1;2;3"
 							}
 						]
 					}
@@ -974,21 +974,21 @@
 			]
 		},
 		{
-			"name": "College of Satire (UA)",
-			"shortName": "Satire (UA)",
+			"name": "Facultat de Sàtira (UA)",
+			"shortName": "Sàtira (UA)",
 			"source": "UAKitsOfOld",
 			"className": "Bard",
 			"classSource": "PHB",
 			"page": 2,
 			"subclassFeatures": [
-				"College of Satire|Bard||Satire (UA)|UAKitsOfOld|3",
-				"Fool's Insight|Bard||Satire (UA)|UAKitsOfOld|6",
-				"Fool's Luck|Bard||Satire (UA)|UAKitsOfOld|14"
+				"College of Satire|Bard||Sàtira (UA)|UAKitsOfOld|3",
+				"Fool's Insight|Bard||Sàtira (UA)|UAKitsOfOld|6",
+				"Fool's Luck|Bard||Sàtira (UA)|UAKitsOfOld|14"
 			]
 		},
 		{
 			"name": "Col·legi d'Espases (UA)",
-			"shortName": "Swords (UA)",
+			"shortName": "Espases (UA)",
 			"source": "UAKitsOfOld",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -1016,7 +1016,7 @@
 		},
 		{
 			"name": "Col·legi dels Xiuxiuejos (UA)",
-			"shortName": "Whispers (UA)",
+			"shortName": "Xiuxiueigs (UA)",
 			"source": "UABardBardColleges",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -1038,7 +1038,7 @@
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Col·legi d'Espases v2|Bard||Swords v2 (UA)|UARevisedSubclasses|3",
-				"Cunning Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|6",
+				"Curning Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|6",
 				"Domini Filigrànic|Bard||Swords v2 (UA)|UARevisedSubclasses|14"
 			]
 		},
@@ -1092,7 +1092,7 @@
 		},
 		{
 			"name": "Col·legi d'Eloqüència (UA)",
-			"shortName": "Eloquence (UA)",
+			"shortName": "Eloqüència (UA)",
 			"source": "UABardAndPaladin",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -1100,14 +1100,14 @@
 			"isReprinted": true,
 			"subclassFeatures": [
 				"Col·legi d'Eloqüència|Bard||Eloquence (UA)|UABardAndPaladin|3",
-				"Undeniable Logic|Bard||Eloquence (UA)|UABardAndPaladin|6",
+				"Lògica innegable|Bard||Eloqüència (UA)|UABardAndPaladin|6",
 				"Inspiració Contagiosa|Bard||Eloquence (UA)|UABardAndPaladin|14"
 			]
 		},
 		{
 			"name": "Col·legi de Creació (UA)",
-			"shortName": "Creation (UA)",
-			"source": "UA2020SubclassesPt2",
+			"shortName": "Creació (UA)",
+			"source": "UA2020Subclasses Pt2",
 			"className": "Bard",
 			"classSource": "PHB",
 			"page": 1,
@@ -1120,15 +1120,15 @@
 		},
 		{
 			"name": "Col·legi d'Esperits (UA)",
-			"shortName": "Spirits (UA)",
-			"source": "UA2020SubclassesPt4",
+			"shortName": "Espirituosos (UA)",
+			"source": "UA2020Subclasses Pt4",
 			"className": "Bard",
 			"classSource": "PHB",
 			"page": 1,
 			"subclassFeatures": [
 				"Col·legi d'Esperits|Bard||Spirits (UA)|UA2020SubclassesPt4|3",
 				"Sessió Espiritual|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
-				"Focus Espiritual|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
+				"Focus Espiritual|Bard||Spirits (UA)|UA2020Subclasses Pt4|6",
 				"Connexió Mística|Bard||Spirits (UA)|UA2020SubclassesPt4|14"
 			]
 		},
@@ -1147,19 +1147,19 @@
 		},
 		{
 			"name": "Col·legi d'Eloqüència",
-			"shortName": "Eloquència",
+			"shortName": "Eloqüència",
 			"source": "TCE",
 			"className": "Bard",
 			"classSource": "PHB",
 			"page": 29,
 			"otherSources": [
 				{
-					"source": "MOT",
+					"source": "ITV",
 					"page": 28
 				}
 			],
 			"subclassFeatures": [
-				"Col·legi d'Eloqüència|Bard||Eloquència|TCE|3",
+				"Col·legi d'Eloqüència|Bard||Eloqüència|TCE|3",
 				"Inpiració Imparable|Bard||Eloquència|TCE|6",
 				"Parla Universal|Bard||Eloquència|TCE|6",
 				"Inspiració Contagiosa|Bard||Eloquència|TCE|14"
@@ -1190,15 +1190,15 @@
 		{
 			"name": "Mage of Lorehold (UA)",
 			"shortName": "Lorehold (UA)",
-			"source": "UA2021MagesOfStrixhaven",
+			"source": "UA2021 MagesOfStrixhaven",
 			"className": "Bard",
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Lorehold (UA)",
 				"shortName": "Lorehold (UA)",
-				"source": "UA2021MagesOfStrixhaven",
-				"className": "Generic",
-				"classSource": "Generic",
+				"source": "UA2021 MagesOfStrixhaven",
+				"className": "Genèric",
+				"classSource": "Genèric",
 				"_preserve": {
 					"page": true
 				}
@@ -1207,15 +1207,15 @@
 		{
 			"name": "Mage of Silverquill (UA)",
 			"shortName": "Silverquill (UA)",
-			"source": "UA2021MagesOfStrixhaven",
+			"source": "UA2021 MagesOfStrixhaven",
 			"className": "Bard",
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Silverquill (UA)",
 				"shortName": "Silverquill (UA)",
-				"source": "UA2021MagesOfStrixhaven",
-				"className": "Generic",
-				"classSource": "Generic",
+				"source": "UA2021 MagesOfStrixhaven",
+				"className": "Genèric",
+				"classSource": "Genèric",
 				"_preserve": {
 					"page": true
 				}
@@ -1233,8 +1233,8 @@
 			"level": 1,
 			"entries": [
 				"Pots inspirar a altres criatures amb discursos potents o amb música. Com a acció bonus en el teu, esculls una criatura (excepte tu) a 60 peus de tu que et pugui sentir. La criatura rep un Dau d'Inspiració Bàrdica: un {@dice d6}.",
-				"Abans que passin 10 minuts la criatura pot tirar el Dau d'Inspiració Bàrdica i sumar el resultat a una tirada d'habilitat, d'impacte, o de salvació. La criatura pot sumar el Dau d'Inspiració Bàrdica abans o després de tirar el {@dice d20}, però sempre abans que el/la/li MM resolgui la tirada i digui si supera o falla. Un cop es tiri el Dau d'Inspiració Bàrdica, es perd. Cada criatura només pot tenir un Dau d'Inspiració Bàrdica alhora.",
-				"Pots emprar aquest tret tants cops com el teu modificador de Carisma (mínim d'1 cop). En recuperes tots els usos quan acabis un Descans Llarg.",
+				"Abans que passin 10 minuts la criatura pot tirar el Dau d'Inspiració Bàrdica i suma el resultat a una tirada d'habilitat, d'impacte, o de salvació. La criatura pot sumar el Dau d'Inspiració Bàrdica abans o després de tirar el {@dice d20}, però sempre abans que el/la/li MM resolgui la tirada i digui si supera o falla. Un cop és tiri el Dau d'Inspiració Bàrdica, és perd. Cada criatura només pot tenir un Dau d'Inspiració Bàrdica alhora.",
+				"Pots emprar aquest tres tants cops com el teu modificador de Carisma (mínim d'1 cop). En recupera tots els usos quan acabis un Descans Llarg.",
 				"El teu Dau d'Inspiració Bàrdica augmenta de nivell quan puges de nivell en aquesta classe. El dau esdevé un {@dice d8} a nivell 5, un {@dice d10} a nivell 10, i un {@dice d12} a nivell 15."
 			]
 		},
@@ -1252,7 +1252,7 @@
 			]
 		},
 		{
-			"name": "Spell Versatility",
+			"name": "Versatilitat de l'encanteri",
 			"source": "UAClassFeatureVariants",
 			"page": 3,
 			"className": "Bard",
@@ -1261,7 +1261,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de bard a nivell 1 (millora Spellcasting)}",
-				"Quan acabis un Descans Llarg, you can replace one spell you learned from this Spellcasting feature with another spell de la llista de conjurs de bard. The new spell must be the same level as the spell you replace."
+				"Quan acabis un Descans Llarg, pots substituir un encanteri que has après d'aquesta funció de llançament d'encanteris per un altre encanteri de la llista de conjurs de bard. El nou encanteri ha de ser del mateix nivell que l'encanteri que substituïu."
 			]
 		},
 		{
@@ -1273,16 +1273,16 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Has après a harmonitzar el teixit que composa la realitat amb els teus desitjos i música i fer-los un. Els teus conjurs són part del teu cançoner, tot de màgia que pots tocar en diferents situacions. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de bard|spells|class=bard}.",
+				"Has després d'harmonitzar el teixit que composa la realitat amb els teus desitjos i música i fer-los un. Els teus conjurs són part del teu cançoner, tot de màgia que pots tocar en diferents situacions. El {@book capítol 10|PHB|10} té les normes generals del llançament de conjurs i {@book capítol 11|PHB|11} té la {@filter llista de conjurs de bard|spells|class=bard}.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Trucs",
 					"entries": [
-						"Coneixes 2 trucs (escull) de la llista de conjurs de bard. Aprendràs més trucs de bard (escull) a nivells superiors; també aprèns un 3r truc a nivell 4 i el 4t a nivell 10."
+						"Coneixes 2 trucs (escull) de la llista de conjurs de bard. Aprendràs més trucs de bard (escull) a nivells superiors; també aprèn un 3r truc a nivell 4 i el 4t a nivell 10."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Ranures de Conjur",
 					"entries": [
 						"La taula de Bard mostra les ranures de conjur que tens per llançar els {@filter conjurs de bard|spells|class=bard} de nivells 1 i superior. Per a llançar un conjur, has de gastar una ranura del nivell del conjur (o superior). Recuperes totes les ranures de conjur quan acabis un Descans Llarg.",
@@ -1290,47 +1290,47 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Conjurs de Nivells 1 i Superiors Coneguts",
 					"entries": [
 						"Coneixes 4 conjurs de nivell 1 (escull) de la llista de conjurs de bard.",
-						"Aprèns un conjur de bard més (escull) a cada nivell excepte el 12, el 16, el 19, i el 20. Cada conjur après hat each level except 12th, 16th, 19th, and 20th. No pots escollir conjurs que siguin de nivell superior a la les ranures de conjur que tens. Per exemple, quan arribes a nivell 3 en aquesta classe, pots aprendre un conjur de nivell 1 o de nivell 2.",
-						"A més, quan pugis de nivell en aquesta classe, pots escollir un dels conjurs de bard que coneixes i substituir-lo per un altre de la llista de conjurs de bard, que també ha de ser d'un nivell igual o inferior al de les teves ranures de conjur."
+						"Aprèn un conjur de bard més (escull) a cada nivell excepte el 12, el 16, el 19, i el 20. Cada nivell hat cada nivell excepte el 12, el 16, el 19 i el 20. No pots escollir conjurs que siguin de nivell superior a les ranures de conjur que tens. Per exemple, quan arribes a nivell 3 en aquesta classe, pots aprendre un conjur de nivell 1 o de nivell 2.",
+						"A més, quan pugis de nivell en aquesta classe, pots escollir un dels conjurs de bard que coneixes i substituir-lo per un altre de la llista de conjurs de bard, que també ha de ser d'un nivell igual o inferior al de les. teves ranures de conjur."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Habilitat de Llançament de Conjurs",
 					"entries": [
-						"La teva habilitat de llançament de conjurs pels conjurs de bard és el Carisma. La teva màgia surt del teu cor i ànima i l'aboques a la teva interpretació oratòria o musical. Faràs servir el Carisma quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Carisma quan un conjur mencioni: o una CD de salvada; o una tirada d'impactar.",
+						"La teva habilitat de llançament de conjurs pels conjurs de bard és el Carisma. La teva màgia surt del teu cor i ànima i l'aboques a la teva interpretació oratòria o musical. Faràs servir el Carisma quan un conjur parli de la teva habilitat de llançament de conjurs. També faràs servir el teu modificador de Carisma quan un conjur mencioni: o un CD de salvada; o una tirada d'impactar.",
 						{
-							"type": "abilityDc",
-							"name": "Spell",
+							"type": "capacitatDc",
+							"name": "Encanteri",
 							"attributes": [
-								"cha"
+								"xa"
 							]
 						},
 						{
-							"type": "abilityAttackMod",
-							"name": "Spell",
+							"type": "habilitatAttackMod",
+							"name": "Encanteri",
 							"attributes": [
-								"cha"
+								"xa"
 							]
 						}
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Llançar com a Ritual",
 					"entries": [
-						"Pots llançar qualsevol conjur de bard que coneixes com a ritual si té l'etiqueta ritual."
+						"Pots llançar qualsevol conjur de bard que coneix com a ritual si té l'etiqueta ritual."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Focus de Llançament de Conjurs",
 					"entries": [
-						"Pots usar un {@item musical instrument|PHB} com a focus de llançament arcà pels teus conjurs de bard."
+						"Pots usar un {@item musical instrument|PHB} com a focus de llançament arc pels teus conjurs de bard."
 					]
 				}
 			]
@@ -1382,7 +1382,7 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"A nivell 3, aprofundeixes a les tècniques avançades d'un col·legi de bards (escull) de la llista de colleges disponibles. La teva elecció t'otorga trets als nivells 3, 6 i 14."
+				"A nivell 3, aprofundeix a les tècniques avançades d'un col·legi de bards (escull) de la llista de col·legis disponibles. La teva elecció t'otorga tres als nivells 3, 6 i 14."
 			]
 		},
 		{
@@ -1394,7 +1394,7 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"A nivell 3, escull 2 habilitats amb les que tinguis competència. El teu bonus de competència el teu bonus de competència es suma 2 cops (i no 1) a tota tirada d'habilitat amb les habilitats.",
+				"A nivell 3, escull 2 ​​habilitats amb les que tenen competència. El teu bonus de competència el teu bonus de competència és suma 2 cops (i no 1) a tota tirada d'habilitat amb les habilitats.",
 				"A nivell 10, pots aplicar Perícia a 2 habilitats més."
 			]
 		},
@@ -1407,7 +1407,7 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"Quan arribes a nivell 4, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 4, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1421,12 +1421,12 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i {@variantrule optional class features|tce|Tret opcional} pel bard a nivell 4}",
-				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica, pots fer una de les coses següents. Representa un canvi de focus conforme aprèns les teves habilitats i màgia:",
+				"Quan arribes a un nivell amb aquesta classe que et doni el tret Millora de Puntuació de Característica, pots fer una de les coses següents. Representa un canvi de focus conforme aprèn les teves habilitats i màgia:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Subsititueixes una de les habilitats del tret Perícia amb una altre que no tingui Perícia però amb la que siguis competent.",
-						"Substitueixes un truc que has après d'aquesta classe amb el tret Llançament de Conjurs amb un altre de la {@filter llista de conjurs de bard|spells|level=0|class=bard}."
+						"Subsititueixes una de les habilitats del tres Perícia amb una altra que no tingui Perícia però amb la que siguis competent.",
+						"Substitueix un truc que ha després d'aquesta classe amb el tres Llançament de Conjurs amb un altre de la {@filter llista de conjurs de bard|spells|level=0|class=bard}."
 					]
 				}
 			]
@@ -1442,7 +1442,7 @@
 			"entries": [
 				"{@i tret de nivell 4 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1454,7 +1454,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"A nivell 5, el teu Dau d'Inspiració Bàrdica es torna un {@dice d8}."
+				"A nivell 5, el teu Dau d'Inspiració Bàrdica torna un {@dice d8}."
 			]
 		},
 		{
@@ -1466,7 +1466,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Quan arribes a nivell 5, recuperes tots els daus d'Inspiració Bàrdica quan acabis un Descans Curt o Llarg."
+				"Quan arribes a nivell 5, recupera tots els daus d'Inspiració Bàrdica quan acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -1478,7 +1478,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"A nivell 6, obténs un tret gràcies al Col·legi de Bards."
+				"A nivell 6, obtén un tret gràcies al Col·legi de Bards."
 			]
 		},
 		{
@@ -1490,7 +1490,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"A nivell 6, ets capaç d'utilitzar la teva música o les teves paraules per interrompre efectes d'influència mental. Com a acció, comences una actuació que dura fins el final del teu proper torn. En aquest temps, tu i tot aliat a 30 peus de tu teniu avantatge a salvar contra estar {@condition frightened} o {@condition charmed}. Les criatures t'han de poder sentir per rebre aquest benefici. L'actuació acaba prematurament si: et quedes {@condition incapacitated}; se't silencia; o si acabes voluntàriament (no requereix acció)."
+				"A nivell 6, ets capaç d'utilitzar la teva música o les teves paraules per interrompre efectes d'influència mental. Com una acció, comença una actuació que dura fins el final del teu proper torn. En aquest temps, tu i tot aliat a 30 peus de teu avantatge a salvar contra estar {@condition frightened} o {@condition charmed}. Les criatures t'han de poder sentir per rebre aquest benefici. L'actuació acaba prematurament si: et quedes {@condition incapacitated}; se't silencia; o si acabes voluntàriament (no requereix acció)."
 			]
 		},
 		{
@@ -1502,7 +1502,7 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"Quan arribes a nivell 8, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 8, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1517,7 +1517,7 @@
 			"entries": [
 				"{@i tret de nivell 8 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1529,7 +1529,7 @@
 			"classSource": "PHB",
 			"level": 9,
 			"entries": [
-				"A nivell 9, el dau de la Cançó de Repòs es torna {@dice 1d8}."
+				"A nivell 9, el dau de la Cançó de Repòs és torna {@dice 1d8}."
 			]
 		},
 		{
@@ -1541,7 +1541,7 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, el teu Dau d'Inspiració Bàrdica es torna un {@dice d10}."
+				"A nivell 10, el teu Dau d'Inspiració Bàrdica torna un {@dice d10}."
 			]
 		},
 		{
@@ -1553,7 +1553,7 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, pots escollir 2 habilitats més amb les que tens competència. El teu bonus de competència el teu bonus de competència es suma 2 cops (i no 1) a tota tirada d'habilitat amb les habilitats."
+				"A nivell 10, pots triar 2 habilitats més amb les que tens competència. El teu bonus de competència el teu bonus de competència és suma 2 cops (i no 1) a tota tirada d'habilitat amb les habilitats."
 			]
 		},
 		{
@@ -1565,9 +1565,9 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, has descobert coneixements màgics de diverses disciplines alhora. Tria 2 conjurs de qualsevol classe, incloent aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs.",
+				"A nivell 10, ha descobert coneixements màgics de diverses disciplines alhora. Tria de qualsevol classe 2 amb aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs.",
 				"Consideres aquests conjurs com de bard i estan inclosos a la Columna de Conjurs Coneguts de la taula de Bard.",
-				"Aprèns 2 conjurs més de qualsevol classe a nivell 14 i de nou al nivell 18."
+				"Aprèn 2 conjurs més de qualsevol classe a nivell 14 i de nou al nivell 18."
 			]
 		},
 		{
@@ -1579,7 +1579,7 @@
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
-				"Quan arribes a nivell 12, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 12, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1594,7 +1594,7 @@
 			"entries": [
 				"{@i tret de nivell 12 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1606,7 +1606,7 @@
 			"classSource": "PHB",
 			"level": 13,
 			"entries": [
-				"A nivell 13, el dau de la Cançó de Repòs es torna {@dice 1d10}."
+				"A nivell 13, el dau de la Cançó de Repòs és torna {@dice 1d10}."
 			]
 		},
 		{
@@ -1618,7 +1618,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, obténs un tret gràcies al Col·legi de Bards."
+				"A nivell 14, obtén un tret gràcies al Col·legi de Bards."
 			]
 		},
 		{
@@ -1630,7 +1630,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, has descobert coneixements màgics de diverses disciplines alhora. Tria 2 conjurs de qualsevol classe, incloent aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs.",
+				"A nivell 14, ha descobert coneixements màgics de diverses disciplines alhora. Tria de qualsevol classe 2 amb aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs.",
 				"Consideres aquests conjurs com de bard i estan inclosos a la Columna de Conjurs Coneguts de la taula de Bard."
 			]
 		},
@@ -1643,7 +1643,7 @@
 			"classSource": "PHB",
 			"level": 15,
 			"entries": [
-				"A nivell 15, el teu Dau d'Inspiració Bàrdica es torna un {@dice d12}."
+				"A nivell 15, el teu Dau d'Inspiració Bàrdica torna un {@dice d12}."
 			]
 		},
 		{
@@ -1655,7 +1655,7 @@
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
-				"Quan arribes a nivell 16, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 16, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1670,7 +1670,7 @@
 			"entries": [
 				"{@i tret de nivell 16 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1682,7 +1682,7 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"A nivell 17, el dau de la Cançó de Repòs es torna {@dice 1d12}."
+				"A nivell 17, el dau de la Cançó de Repòs és torna {@dice 1d12}."
 			]
 		},
 		{
@@ -1694,7 +1694,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"A nivell 18, has descobert coneixements màgics de diverses disciplines alhora. Tria 2 conjurs de qualsevol classe, incloent aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs.",
+				"A nivell 18, ha descobert coneixements màgics de diverses disciplines alhora. Tria de qualsevol classe 2 amb aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs.",
 				"Consideres aquests conjurs com de bard i estan inclosos a la Columna de Conjurs Coneguts de la taula de Bard."
 			]
 		},
@@ -1707,7 +1707,7 @@
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
-				"Quan arribes a nivell 19, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 19, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1722,7 +1722,7 @@
 			"entries": [
 				"{@i tret de nivell 19 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1734,7 +1734,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, quan tires per iniciativa i no et queden Daus d'Inspiració Bàrdica left, en recuperes 1."
+				"A nivell 20, quan tires per iniciativa i no i queden Daus d'Inspiració Bàrdica left, en recupera 1."
 			]
 		}
 	],
@@ -1750,9 +1750,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Bards of the Col·legi de Coneixement know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.",
-				"The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.",
-				"The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
+				"Els bards del Col·legi de Coneixement saben alguna cosa de la majoria de coses, recollint fragments de coneixement de fonts tan diverses com els toms erudits i els contes de pagesos. Tant si canten balades populars a les tavernes com si canten composicions elaborades a les corts reials, aquests bardes utilitzen els seus dons per encisar el públic. Quan s'apaga l'aplaudiment, els assistents podrien trobar-se qüestionant tot el que consideraven veritat, des de la seva fe en el sacerdoci del temple local fins a la seva lleialtat al rei.",
+				"La lleialtat d'aquests bards rau en la recerca de la bellesa i la veritat, no en la lleialtat a un monarca o en el seguiment dels principis d'una deïtat. Un noble que manté un bard com a herald o conseller sap que el bard preferiria ser honest que polític.",
+				"Els membres de la universitat es reuneixen a les biblioteques i, de vegades, a col·legis reals, amb aules i dormitoris, per compartir el seu coneixement entre ells. També es reuneixen en festivals o afers d'estat, on poden exposar la corrupció, desentranyar mentides i burlar-se de figures d'autoritat autoimportants.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Competències Adicionals|Bard||Coneixement||3"
@@ -1775,7 +1775,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al Col·legi de Coneixement a nivell 3, aprèns tres competències d'habilitat (escull)."
+				"Quan t'uneixes al Col·legi de Coneixement a nivell 3, aprèn tres competències d'habilitat (escull)."
 			]
 		},
 		{
@@ -1790,11 +1790,11 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"També a nivell 3, empres el teu enginy per distreure, confondre, i en general fer trontollar la decisió dels altres. Quan una criatura que puguis veure a 60 peus de tu faci una tirada d'impacte, d'habilitat, o de dany pots, com a reacció, gastar un dels teus Daus Inspiració Bàrdica, tirar-lo, i restar-ne el resultat a la tirada de l'objectiu. Pots emprar aquest tret després que la criatura tiri però abans que es resolgui la tirada (abans que es dicti si es supera o falla la tirada o abans que es faci dany). La criatura és immune si no et pot sentir o si és immune a estar {@condition charmed}."
+				"També a nivell 3, empres el teu enginy per distreure, confondre, i en general fer trontollar la decisió dels altres. Quan una criatura que pugui veure a 60 peus de tu faci una tirada d'impacte, d'habilitat, o de dany pots, com a reacció, gastar un dels teus Daus Inspiració Bàrdica, tirar-lo, i restar-ne el resultat a la tirada de l'objectiu. Pots emprar aquest tret després que la criatura tiri però abans que es resolgui la tirada (abans que es dicti si és supera o falla la tirada o abans que es faci dany). La criatura és immune si no et pot sentir o si és immune a estar {@condition charmed}."
 			]
 		},
 		{
-			"name": "Secrets Màgics Adicional",
+			"name": "Secrets Màgics Adicionals",
 			"source": "PHB",
 			"page": 54,
 			"srd": true,
@@ -1805,7 +1805,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, aprèns 2 conjurs de qualsevol classe, incloent aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs. Consideres aquests conjurs com de bard. No conten vers al número de conjurs que coneixes."
+				"A nivell aprèn 2 conjurs de qualsevol classe, amb aquesta. Has de poder llançar els conjurs (consulta la taula de Bard), o poden ser trucs. Consideres aquests conjurs com de bard. No conten vers al nombre de conjurs que coneixes."
 			]
 		},
 		{
@@ -1833,7 +1833,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Bards of the Col·legi de Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.",
+				"Els bards del Col·legi de Valor són uns atrevits escalds els contes dels quals mantenen viva la memòria dels grans herois del passat i inspiren així una nova generació d'herois. Aquests bardes es reuneixen a les sales d'hidromel o al voltant de grans fogueres per cantar les gestes dels poderosos, tant passats com presents. Recorren el país per presenciar grans esdeveniments de primera mà i per assegurar-se que la memòria d'aquests esdeveniments no passa del món. Amb les seves cançons, inspiren els altres a assolir els mateixos èxits que els herois d'antic.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Competències Adicionals|Bard||Valor||3"
@@ -1869,7 +1869,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"També a nivell 3, aprèns a inspirar als altres en combats. Una criatura amb un Dau d'Inspiració Bàrdica teu pot tirar-lo i afegir-lo al dany d'arma d'un atac que hagi fet. Alternativament, si és víctima d'una tirada d'impacte, pot afegir el Dau d'Inspiració Bàrdica a la seva CA per aquest atac; pots fer-ho després de la tirada d'impacte però abans de resoltre si impacta o no."
+				"També a nivell 3, s'aprèn a inspirar als altres en combats. Una criatura amb un Dau d'Inspiració Bàrdica teu pot tirar-lo i afegir-lo al dany d'arma d'un atac que hagi fet. Alternativament, si és víctima d'una tirada d'impacte, pot afegir el Dau d'Inspiració Bàrdica a la seva CA per aquest atac; pots fer-ho després de la tirada d'impacte però abans de resoldre si impacta o no."
 			]
 		},
 		{
@@ -1910,9 +1910,9 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Bards believe the cosmos is a work of art-the creation of the first dragons and gods. That creative work included harmonies that continue to resound through existence today, a power known as the Cançó de Creació. The bards of the Col·legi de Creació draw on that primeval song through dance, music, and poetry, and their teachers share this lesson:",
-				"\"Before the sun and the moon, there was the Song, and its music awoke the first dawn. Its melodies so delighted the stones and trees that some of them gained a voice of their own. And now they sing too. Learn the Song, students, and you too can teach the mountains to sing and dance.\"",
-				"Dwarves and gnomes often encourage their bards to become students of the Cançó de Creació. And among dragonborn, the Cançó de Creació is revered, for legends portray Bahamut and Tiamat-the greatest of dragons-as two of the song's first singers.",
+				"Els bards creuen que el cosmos és una obra d'art: la creació dels primers dracs i déus. Aquell treball creatiu va incloure harmonies que continuen ressonant a través de l'existència avui en dia, un poder conegut com la Cançó de Creació. Els bardes del Col·legi de Creació beuen d'aquell cant primigeni a través de la dansa, la música i la poesia, i els seus professors comparteixen aquesta lliçó:",
+				"\"Abans del sol i la lluna, hi havia la cançó, i la seva música va despertar la primera alba. Les seves melodies van delectar tant les pedres i els arbres que alguns d'ells van guanyar una veu pròpia. I ara també canten. Aprèn la cançó, estudiants, i tu també pots ensenyar a les muntanyes a cantar i ballar”.",
+				"Els nans i els gnoms sovint animen els seus bards a convertir-se en estudiants de la Cançó de Creació. I entre els dracs, la Cançó de Creació és venerada, perquè les llegendes mostren a Bahamut i Tiamat -el més gran dels dracs- com a dos dels primers cantants de la cançó.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Mota de Potencial|Bard||Creació|TCE|3"
@@ -1938,23 +1938,23 @@
 				"Quan dones Dau d'Inspiració Bàrdica pots afegir-li una nota de la Cançó de Creació i crear una Mota de Potencial Diminuta; orbita a 5 peus de la criatura que ha obtingut el dau. La mota és intangible i invulnerable, i dura fins que es gasti o es perdi el Dau d'Inspiració Bàrdica is lost. La mota sembla una nota musical, una estrella, una flor, o algun altre símbol que escullis.",
 				"Quan la criatura gasti el Dau d'Inspiració Bàrdica, la mota li otorga un efecte extra que depèn de si la tirada era d'habilitat, d'impacte, o de salvació:",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Tirada d'habilitat.",
 							"entry": "Quan se suma la Dau d'Inspiració Bàrdica a una tirada d'habilitat, la criatura pot tirar el Dau d'Inspiració Bàrdica dos cops i triar el resultat que vulgui; la mota desprèn espurnes de colors durant un moment."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Tirada d'impacte.",
-							"entry": "Immediatament després que es tiri el Dau d'Inspiració Bàrdica per sumar-lo a una tirada d'impacte, la mota explota sorollosament. L'objectiu de l'atac i tota criatura que designis que puguis veure a 5 peus de l'objectiu ha de salvar per Constitució contra la teva CD de salvació de conjur. Qui falli rep el resultat del Dau d'Inspiració Bàrdica de dany de tro."
+							"entry": "Immediatament després que es tiri el Dau d'Inspiració Bàrdica per sumar-lo a una tirada d'impacte, la mota explota sorollosament. L'objectiu de l'atac i tota criatura que dissenyis que pugui veure a 5 peus de l'objectiu ha de salvar per Constitució contra el teu CD de salvació de conjur. Qui falli rep el resultat del Dau d'Inspiració Bàrdica de dany de tro."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Tirada de salvació.",
-							"entry": "Immediatament després que es sumi un Dau d'Inspiració Bàrdica a una tirada de salvació, la mota s'esvaneix amb el so de música. La criatura que que ha salvat rep el resultat del Dau d'Inspiració Bàrdica + teu modificador de Carisma en punts de vida temporals (mínim d'1 punt de vida temporal)."
+							"entry": "Immediatament després que es sumi un Dau d'Inspiració Bàrdica a una tirada de salvació, la mota s'esvaneix amb el so de música. La criatura que ha salvat rep el resultat del Dau d'Inspiració Bàrdica + teu modificador de Carisma en punts de vida temporals (mínim d'1 punt de vida temporal)."
 						}
 					]
 				}
@@ -1972,9 +1972,9 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi de Creació a nivell 3}",
-				"Com a acció, canalitzes la màgia de la Cançó de Creació i crees un objecte no-màgic (escull) en un espai desocupat a 10 peus de tu. L'objecte ha d'apareixer damunt d'una superfície sòlida o líquida que pugui agunatar-lo. El valor en ors no pot ser més de 20 vegades el teu nivell de bard, i l'objecte ha de ser Mitjà o menor. L'objecte brilla lleugerament i pots sentir una mica de música quan el toques. L'objecte desapareix passades tantes hores com el teu bonus de competència. Consulta el capítol d'equipament del {@book Manual del Jugador|PHB|5} per veure exemples d'objectes.",
-				"Un cop creïs un objecte amb aquest tret, no pots tornar-hi fins que acabis un Descans Llarg o si gastes una ranura de conjur de nivell 2 o superior. Només pots tenir un objecte creat amb aquest tret alhora. Si en crees un altre amb aquest tret, el primer s'esvaneix immediatament.",
-				"El tamany màxim de l'objecte potencial incrementa un tamany quan arribes a nivell 6 (Gran) i a nivell 14 (Enorme)."
+				"Com a acció, canalitzes la màgia de la Cançó de Creació i crees un objecte no-màgic (escull) en un espai desocupat a 10 peus de tu. L'objecte ha d'apareixer damunt d'una superfície sòlida o líquida que pugui agunatar-lo. El valor en ors no pot ser més de 20 vegades el teu nivell de bard, i l'objecte ha de ser Mitjà o menor. L'objecte brilla lleugerament i pots sentir una mica de música quan els tocs. L'objecte desapareix passades tantes hores com el teu bonus de competència. Consulta el capítol d'equipament del {@book Manual del Jugador|PHB|5} per veure exemples d'objectes.",
+				"Un cop creïs un objecte amb aquest tret, no pots tornar-hi fins que acabis un Descans Llarg o si gastes una ranura de conjur de nivell 2 o superior. Només pots tenir un objecte creat amb aquest tres alhora. Si en crees un altre amb aquest tres, el primer s'esvaneix immediatament.",
+				"El tamany màxim de l'objecte potencial incrementa un tamany quan arriba a nivell 6 (Gran) i a nivell 14 (Enorme)."
 			]
 		},
 		{
@@ -1989,9 +1989,9 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi de Creació a nivell 6}",
-				"Com a acció, designes a un objecte no-màgic Gran o menor que puguis veure a 30 peus de tu i l'animes. l'objecte animat té el bloc d'estats {@creature Objecte Dansaire|TCE}, que fa servir el teu bonus de competència (BC). L'objecte és amistós vers a tu i els teus aliats i segueix les teves ordres. S'anima durant 1 hora, fins que es queda a 0 punts de vida, o fins que mors.",
-				"En combat comparteix la teva iniciativa i el seu torn va immediatament després del teu. Pot moure's i prendre la seva reacció per si mateix però només pod prendre l'acció {@action Esquivar} en el seu torn; només en pot prendre alguna altre si gastes la teva acció bonus en el teu torn. L'acció pot ser una del seu bloc d'estats o alguna altra. Si estàs {@condition incapacitat}, l'objecte pot fer l'acció que vulgui, no només {@action Esquivar}.",
-				"Quan empris el tret Inspiració Bàrdica pots, amb la mateixa acció bonus amb que l'actives, donar una ordre a l'objecte.",
+				"Com a acció, dissenya un objecte no-màgic Gran o menor que pugui veure a 30 peus de tu i l'anime. l'objecte animat té el bloc d'estats {@creature Objecte Dansaire|TCE}, que fa servir el teu bonus de competència (BC). L'objecte és amistós vers a tu i els teus aliats i segueix les teves ordres. S'anima durant 1 hora, fins que queda a 0 punts de vida, o fins que mors.",
+				"En combat comparteix la teva iniciativa i el seu torn va immediatament després del teu. Pot moure's i prendre la seva reacció per si mateix però només podrien prendre l'acció {@action Esquivar} en el seu torn; només en pot prendre alguna altra si gastes la teva acció bonus en el teu torn. L'acció pot ser una del seu bloc d'estats o alguna altra. Si estàs {@condition incapacitat}, l'objecte pot fer l'acció que vulgui, no només {@action Esquivar}.",
+				"Quan empris el tret Inspiració Bàrdica pots, amb la mateixa acció bonus amb que els actius, donar una ordre a l'objecte.",
 				"Un cop animis un objecte amb aquest tret, no pots tornar-hi fins que acabis un Descans Llarg o si gastes una ranura de conjur de nivell 3 o superior. Només pots animar un objecte alhora; si empres aquest tret un altre cop i ja tens un {@creature objecte dansaire|TCE} d'aquest tret, el primer es desanima immediatament."
 			]
 		},
@@ -2007,7 +2007,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi de Creació a nivell 14}",
-				"Quan empris el tret Actuació de Creació pots crear tants objectes alhora com el teu modificador de Carisma (mínim de 2). Si en crees de més, has de triar quin dels objectes anteriors es desanima per fer-li lloc al nou. Només un objecte animat pot ser del tamany màxim; els altres han d'ésser Petits o Diminuts.",
+				"Quan empris el tret Actuació de Creació pots crear tants objectes alhora com el teu modificador de Carisma (mínim de 2). Si en crees de més, has de triar quin dels objectes anteriors és desanima per fer-li lloc al nou. Només un objecte animat pot ser del tamany màxim; els altres han d'ésser Petits o Minuts.",
 				"Ja no tens límit monetari quan empres l'Actuació de Creació."
 			]
 		},
@@ -2017,11 +2017,11 @@
 			"page": 29,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Adherents of the Col·legi d'Eloqüència master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.",
+				"Els adeptes del Col·legi d'Eloqüència dominen l'art de l'oratòria. La persuasió es considera un art elevat, i un argument ben raonat i ben parlat sovint resulta més persuasiu que els fets. Aquests bards fan servir una barreja de lògica i jocs de paraules teatrals, guanyant a escèptics i detractors amb arguments lògics i agafant les cordes per atraure les emocions del públic.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Vèrbola|Bard||Eloquència|TCE|3"
@@ -2038,7 +2038,7 @@
 			"page": 29,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
@@ -2053,28 +2053,28 @@
 			"page": 29,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 3}",
-				"Pots crear paraules màgiques que incomoden a una criatura i fent que es dubti a si mateixa. Com a acció bonus, pots gastar un Dau d'Inspiració Bàrdica i escollir una criatura que puguis veure a 60 peus de tu. Tira el Dau d'Inspiració Bàrdica; la criatura ha de restar el resultat a la seva proper salvada de l'inici del teu proper torn."
+				"Pots crear paraules màgiques que incomoden a una criatura i fent que es dubti a la mateixa. Com a acció bonus, pots gastar un Dau d'Inspiració Bàrdica i escollir una criatura que pugui veure a 60 peus de tu. Tira el Dau d'Inspiració Bàrdica; la criatura ha de restar el resultat a la seva pròpia salvada de l'inici del teu proper torn."
 			]
 		},
 		{
-			"name": "Inpiració Imparable",
+			"name": "Inspiració Imparable",
 			"source": "TCE",
 			"page": 29,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 6}",
-				"Les teves paraules són tan inspiradores que fan que els del teu voltant s'esforcin al màxim. Quan una criatura afegeix un Dau d'Inspiració Bàrdica teu a una tirada d'habilitat, d'impacte, o de salvació, i la tirada falla, la criatura pot quedar-se amb el Dau d'Inspiració Bàrdica."
+				"Les teves paraules són tan inspiradores que fan que els del teu voltant s'esforcen al màxim. Quan una criatura afegeix un Dau d'Inspiració Bàrdica teu a una tirada d'habilitat, d'impacte, o de salvació, i la tirada falla, la criatura pot quedar-se amb el Dau d'Inspiració Bàrdica."
 			]
 		},
 		{
@@ -2083,13 +2083,13 @@
 			"page": 29,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 6}",
-				"La teva parla ara és comprensible per a qualsevol criatura. Com a acció, escull una o més criatures (fins al teu modificador de Carisma) a 60 peus de tu (mínim d'una). Les criatures designades et poden entendre màgicament, sigui l'idioma que sigui que parles, durant 1 hora.",
+				"La teva parla ara és comprensible per a qualsevol criatura. Com a acció, escull una o més criatures (fins al teu modificador de Carisma) a 60 peus de tu (mínim d'una). Les criatures designades i poden entendre màgicament, sigui l'idioma que segueix que parles, durant 1 hora.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg o si gastes una ranura de oconjur per tornar-lo a emprar."
 			]
 		},
@@ -2099,123 +2099,123 @@
 			"page": 29,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 14}",
-				"Quan aconsegueixes inspirar a algú, el poder de la teva eloqüència es contagia. Quan una criatura a 60 peus de tu sumi un dels teus Daus d'Inspiració Bàrdica a una tirada d'habilitat, d'impacte, o de salvació i supera la tirada pots, com a reacció, animar a una altra criatura (excepte tu) que et pugui sentir a 60 peus de tu: li dones un Dau d'Inspiració Bàrdica sense gastar-ne un de la teva reserva d'Inspiració Bàrdica.",
-				"Pots prendre aquesta reacció tants cops com el teu modificador de Carisma (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Quan es pot inspirar a algú, el poder de la teva eloqüència és contagia. Quan una criatura a 60 peus de tu sumi un dels teus Daus d'Inspiració Bàrdica a una tirada d'habilitat, d'impacte, o de salvació i supera la tirada pots, com a reacció, animar a una altra criatura (excepte tu) que et pugui sentir a 60 peus de tu: li dones un Dau d'Inspiració Bàrdica sense gastar-ne un de la teva reserva d'Inspiració Bàrdica.",
+				"Pots prendre aquesta reacció tants cops com el teu modificador de Carisma (mínim 1 cop), i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
 			"name": "Col·legi de Creació",
-			"source": "UA2020SubclassesPt2",
+			"source": "UA2020Subclasses Pt2",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
-			"subclassSource": "UA2020SubclassesPt2",
+			"subclassShortName": "Creació (UA)",
+			"subclassSource": "UA2020Subclasses Pt2",
 			"level": 3,
 			"entries": [
-				"Bards believe the multiverse was given existence through word and sound, esoteric harmonies that continue to resound through existence: the Cançó de Creació. The bards of this college draw on this ancient power through performances of dance, music, or song to bring into being what they need most.",
-				"Members of this college might have developed their powers during experiences on other worlds or planes of existence. Those who have seen the commonalities of multiple realities might have learned how to tap into truths most mortals glimpse only for a moment. Alternativament, the bard might find themselves out of step with their own home plane, reality, or time, their connections to elsewhere allowing them to manipulate the space around them. Regardless of where a bard draws their powers from, other performers might be drawn to them, either to learn their secrets or to put an end to their dangerous manipulation of the Cançó de Creació.",
+				"Els bards creuen que al multivers li va donar existència a través de la paraula i el so, harmonies esotèriques que continuen ressonant a través de l'existència: la Cançó de Creació. Els bards d'aquesta universitat aprofiten aquest poder antic a través d'actuacions de dansa, música o cançons per crear allò que més necessiten.",
+				"Els membres d'aquesta universitat podrien haver desenvolupat els seus poders durant experiències en altres mons o plans d'existència. Aquells que han vist els punts en comú de múltiples realitats podrien haver après a aprofitar les veritats que la majoria dels mortals entreveuen només per un moment. Alternativament, el bard pot trobar-se fora de pas amb el seu propi pla d'origen, la seva realitat o el seu temps, les seves connexions amb altres llocs els permeten manipular l'espai que l'envolta. Independentment d'on tregui els seus poders un bard, altres intèrprets poden sentir-se atrets per ells, ja sigui per conèixer els seus secrets o per posar fi a la seva perillosa manipulació de la Cançó de Creació.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Note of Potential|Bard||Creation (UA)|UA2020SubclassesPt2|3"
+					"subclassFeature": "Nota de potencial|Bard||Creació (UA)|UA2020SubclassesPt2|3"
 				}
 			]
 		},
 		{
-			"name": "Note of Potential",
-			"source": "UA2020SubclassesPt2",
+			"name": "Nota de potencial",
+			"source": "UA2020Subclasses Pt2",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
-			"subclassSource": "UA2020SubclassesPt2",
+			"subclassShortName": "Creació (UA)",
+			"subclassSource": "UA2020Subclasses Pt2",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi de Creació a nivell 3}",
-				"You can manipulate the Cançó de Creació to summon a floating musical note of possibility: Whenever you give a creature a Dau d'Inspiració Bàrdica, you can create a Note of Potential. The note orbits within 5 feet of the creature. The note is a Tiny object that is intangible and invulnerable, and it lasts until the Dau d'Inspiració Bàrdica is lost. A creature with a note can use it in the following ways.",
+				"Podeu manipular la Cançó de Creació per convocar una nota musical flotant de possibilitat: Sempre que doneu a una criatura un Dau d'Inspiració Bàrdica, podeu crear una Nota de Potencial. La nota orbita a 5 peus de la criatura. El bitllet és un objecte Tiny intangible i invulnerable, i dura fins que es perd el Dau d'Inspiració Bàrdica. Una criatura amb una nota la pot utilitzar de les maneres següents.",
 				{
-					"type": "entries",
-					"name": "Note of Destruction",
+					"type": "entrades",
+					"name": "Nota de destrucció",
 					"entries": [
-						"Immediatament after the creature rolls the Dau d'Inspiració Bàrdica to add it to an attack roll, the creature can expend the note to create a burst of sound. Each other creature within 5 feet of ha de salvar per Constitució contra la teva CD de salvació de conjur or take thunder damage equal to the number rolled on the Dau d'Inspiració Bàrdica."
+						"Immediatament després que la criatura faci tirar la Dau d'Inspiració Bàrdica per afegir-la a una tirada d'atac, la criatura pot gastar la nota per crear una explosió de so. Each other creature within 5 feet of ha de salvar per Constitució contra la teva CD de salvació de conjur or take thunder damage equal to the number rolled on the Dau d'Inspiració Bàrdica."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Note of Protection",
+					"type": "entrades",
+					"name": "Nota de protecció",
 					"entries": [
-						"Immediatament after the creature rolls the Dau d'Inspiració Bàrdica and adds it to a saving throw, the creature can expend the note to gain punts de vida temporals equal to the number rolled on the Dau d'Inspiració Bàrdica + el teu modificador de Carisma, provided the creature doesn't already have punts de vida temporals."
+						"Immediatament després que la criatura tiri el Dau d'Inspiració Bàrdica i l'afegeixi a una tirada de salvació, la criatura pot gastar la nota per guanyar punts de vida temporals iguals al nombre llançat al Dau d'Inspiració Bàrdica + el teu modificador de Carisma, sempre que la criatura no tingui ja punts de vida temporals."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Note of Ingenuity",
+					"type": "entrades",
+					"name": "Nota d'enginy",
 					"entries": [
-						"When the creature rolls the Dau d'Inspiració Bàrdica to add it to an ability check, the creature can expend the note to roll the Dau d'Inspiració Bàrdica again and choose which roll to use."
+						"Quan la criatura tira el Dau d'Inspiració Bàrdica per afegir-lo a una prova d'habilitat, la criatura pot gastar la nota per tornar a tirar el Dau d'Inspiració Bàrdica i triar quina tirada utilitzar."
 					]
 				}
 			]
 		},
 		{
 			"name": "Actuació que Anima",
-			"source": "UA2020SubclassesPt2",
+			"source": "UA2020Subclasses Pt2",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
-			"subclassSource": "UA2020SubclassesPt2",
+			"subclassShortName": "Creació (UA)",
+			"subclassSource": "UA2020Subclasses Pt2",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi de Creació a nivell 6}",
-				"Your mastery over the Cançó de Creació allows you to magically bring items to life. Com a acció, you can target a Large or smaller nonmagical item que puguis veure a 30 peus de tu and animate it. The animate item uses the {@creature Dancing Item|UA2020SubclassesPt2} stat block and is under your control durant 1 hora or until it is reduced to 0 punts de vida.",
-				"In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take one of the actions in its stat block or l'acció {@action Córrer}, {@action Destravar-se}, {@action Ajudar}, {@action Amagar-se}, or {@action Cerca}.",
-				"Quan empris el tret Inspiració Bàrdica, you can command which action your animated item takes as part of the same bonus action.",
-				"Once you animate an item with this feature, no pots tornar-hi fins que acabis un Descans Llarg or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a {@creature dancing item|UA2020SubclassesPt2} from this feature, the first one immediately becomes inanimate."
+				"El teu domini de la Cançó de Creació et permet donar vida màgicament als objectes. Com a acció, pots orientar-te a un ítem no màgic gran o petit que puguis veure a 30 peus de tu i animar-lo. L'element animat utilitza el bloc d'estadístiques {@creature Dancing Item|UA2020SubclassesPt2} i està sota el teu control durant 1 hora o fins que es redueixi a 0 punts de vida.",
+				"En combat, l'objecte comparteix el vostre recompte d'iniciatives, però fa el seu torn immediatament després del vostre. Pot moure's i utilitzar la seva reacció per si sol, però l'única acció que fa al seu torn és l'acció {@action Esquivar}, tret que facis una acció addicional en el teu trencat per ordenar-li que faci una de les accions a its stat block o l'acció {@action Córrer}, {@action Destravar-se}, {@action Ajudar}, {@action Amagar-se} o {@action Cerca}.",
+				"Quan empris el tret Inspiració Bàrdica, pots comandar quina acció fa el teu element animat com a part de la mateixa acció bonus.",
+				"Un cop animeu un ítem amb aquesta característica, no pots tornar-hi fins que acabis un Descans Llarg o fins que gastis un espai d'encanteri de 3r nivell o superior per utilitzar aquesta funció. Només podeu tenir un element animat per aquesta funció alhora; si feu servir aquesta acció i ja teniu un {@element de ball de criatures|UA2020SubclassesPt2} d'aquesta funció, la primera esdevé inanimada immediatament."
 			]
 		},
 		{
 			"name": "Actuar la Creació",
-			"source": "UA2020SubclassesPt2",
+			"source": "UA2020Subclasses Pt2",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Creation (UA)",
-			"subclassSource": "UA2020SubclassesPt2",
+			"subclassShortName": "Creació (UA)",
+			"subclassSource": "UA2020Subclasses Pt2",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi de Creació a nivell 14}",
-				"Your performance can manipulate the magic of creation, briefly transforming the world around you. Com a acció, you can create one nonmagical item (escull) en un espai desocupat a 10 peus de tu. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times el teu nivell de bard and must be Large or smaller. Tiny glimmering, intangible notes float around it, and a creature can faintly hear music when touching it. For examples of items you can create, see the Armor, Weapons, Adventuring Gear, Tools, and Mounts and Vehicles tables in chapter 5, \"Equipment,\" of the Player's Handbook.",
-				"The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the item's duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for a number of hours equal to el teu nivell de bard.",
-				"Once you create an item with this feature, no pots tornar-hi fins que acabis un Descans Llarg or until you expend a spell slot of 5th level or higher to use this feature. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes."
+				"La teva actuació pot manipular la màgia de la creació, transformant breument el món que t'envolta. Com a acció, you can create one nonmagical item (escull) en un espai desocupat a 10 peus de tu. L'element ha d'aparèixer sobre una superfície o en un líquid que el pugui suportar. El valor de gp de l'article no pot ser superior a 20 vegades el teu nivell de bard i ha de ser gran o menor. Petites notes brillants i intangibles suren al seu voltant, i una criatura pot escoltar una mica la música quan la toca. Per veure exemples d'elements que podeu crear, consulteu les taules d'Armadures, Armes, Equips d'aventura, Eines i Muntatges i Vehicles al capítol 5, \"Equipment\", del Manual del jugador.",
+				"L'element creat desapareix al final del vostre proper torn, tret que feu servir la vostra acció per mantenir-lo. Cada vegada que feu servir la vostra acció d'aquesta manera, la durada de l'element s'allarga fins al final del vostre proper torn, fins a un màxim d'1 minut. Si manté l'element durant el minut complet, continua existint durant un nombre d'hores igual al teu nivell de bard.",
+				"Una vegada que creeu un element amb aquesta característica, no pots tornar-hi fins que acabis un Descans Llarg o fins que gastis un espai d'encanteri de 5è nivell o superior per utilitzar aquesta funció. Només podeu crear un element a la vegada amb aquesta funció; si feu servir aquesta acció i ja teniu un element d'aquesta funció, el primer desapareix immediatament."
 			]
 		},
 		{
 			"name": "Col·legi d'Esperits",
-			"source": "UA2020SubclassesPt4",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 3,
 			"entries": [
-				"Stories of the past are powerful; they hold lessons of history, philosophy, and magic. Bards of the Col·legi d'Esperits seek the stories of those from beyond the pla material. Using gaming sets, they reach out to hear their stories, but the bards have no control over what story they find.",
+				"Les històries del passat són poderoses; ofereixen lliçons d'història, filosofia i màgia. Els bards del Col·legi d'Esperits busquen les històries dels més enllà del pla material. Utilitzant conjunts de joc, s'acosten per escoltar les seves històries, però els bardes no tenen control sobre quina història troben.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Remor que Guia|Bard||Spirits (UA)|UA2020SubclassesPt4|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Focus Espiritual|Bard||Spirits (UA)|UA2020SubclassesPt4|3"
+					"subclassFeature": "Focus Espiritual|Bard||Spirits (UA)|UA2020Subclasses Pt4|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -2225,59 +2225,59 @@
 		},
 		{
 			"name": "Remor que Guia",
-			"source": "UA2020SubclassesPt4",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 3}",
-				"You can reach out to spirits to guide you and others. aprèns el truc {@spell guia}, which doesn't count against the number of bard cantrips you know. For you, it has a range of 60 feet when you cast it."
+				"Podeu arribar als esperits per guiar-vos a vosaltres i als altres. aprèn el truc {@spell guia}, que no compta amb el nombre de cantrips de bard que coneixeu. Per a tu, té un abast de 60 peus quan el llancis."
 			]
 		},
 		{
-			"name": "Focus Espiritual",
-			"source": "UA2020SubclassesPt4",
+			"name": "Enfocament espiritual",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 3}",
-				"Your practice of contacting spirits can employ special tools. You can use the following objects com a focus de llançament arcà pels teus conjurs de bard: a candle, a crystal ball, a talking board, a tarokka deck, or a skull.",
-				"A nivell 6, when you cast a bard spell that deals damage or restores punts de vida through the Focus Espiritual, roll a {@dice d6}, and you gain a bonus to one roll of the spell equal to the number rolled."
+				"La vostra pràctica de contactar amb esperits pot utilitzar eines especials. You can use the following objects com a focus de llançament arc pels teus conjurs de bard: a candle, a crystal ball, a talking board, a tarokka deck, or a skull.",
+				"A nivell 6, quan llenceu un encanteri de bard que fa dany o restaura punts de vida a través del Focus Espiritual, tireu un {@dau d6} i obteniu una bonificació a una tirada de l'encanteri igual al nombre llançat."
 			]
 		},
 		{
 			"name": "Històries dels Morts",
-			"source": "UA2020SubclassesPt4",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 3}",
-				"You reach out to spirits who tell their tales through you. While you are holding your Focus Espiritual, pots, com a acció bonus, to expend one use of your Inspiració Bàrdica and roll on the Spirits' Tales table using el teu Dau d'Inspiració Bàrdica to determine the tale told. You retain the tale in mind until you bestow the tale's effect or you finish a short or long rest.",
-				"You can use an action triar una criatura que puguis veure a 30 peus de tu (tu també) to be the target of the tale's effect. Once you do so, you can't bestow the tale's effect again until you roll it again.",
-				"You can retain only one of these tales in mind at a time, and rolling on the Spirits' Tales table immediately ends the effect of the previous tale. If the tale requires a saving throw, la CD és la teva CD de salvació de conjur.",
+				"Arribes als esperits que expliquen les seves històries a través teu. Mentre esteu subjectant el vostre Focus Espiritual, pots, com a bonificació d'acció, per gastar un ús de la vostra Inspiració Bàrdica i rodar a la taula dels Spirits' Tales utilitzant el teu Dau d'Inspiració Bàrdica per determinar el conte explicat. Tens el conte en ment fins que atorgues l'efecte del conte o acabis un descans curt o llarg.",
+				"You can use an action triar una criatura que pugui veure a 30 peus de tu (tu també) to be the target of the tale's effect. Un cop ho feu, no podreu tornar a atorgar l'efecte del conte fins que el torneu a tirar.",
+				"Només pots tenir en compte un d'aquests contes alhora, i en rodar a la taula de Contes dels esperits s'acaba immediatament l'efecte del conte anterior. Si el conte requereix una tirada de salvació, el CD és el teu CD de salvació de conjur.",
 				{
-					"type": "table",
-					"caption": "Spirits' Tales",
+					"type": "taula",
+					"caption": "Contes dels esperits",
 					"colLabels": [
 						"Dau d'Inspiració",
-						"Tale"
+						"Conte"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -2335,49 +2335,49 @@
 		},
 		{
 			"name": "Sessió Espiritual",
-			"source": "UA2020SubclassesPt4",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 6}",
-				"You can channel spirits to gain insights into magic. You can conduct an hour-long ritual channeling spirits (which can be done during a short or long rest) using your Focus Espiritual. You can conduct the ritual with a number of creatures equal to el teu bonus de competència (including yourself). At the end of the ritual, you temporarily learn {@filter one spell (escull) from any class|spells|school=d;n|level=1;2;3;4;5;6}.",
-				"The spell you choose must be of a level equal to the number of creatures that conducted the ritual or less, the spell must of a level you can cast, and it must be in the escola de divinació or necromancy. The chosen spell counts as a bard spell for you but doesn't count against the number of conjurs de bard you know.",
-				"Once you perform the ritual, you can't do so again until you start a long rest, and you know the chosen spell until you start a long rest."
+				"Podeu canalitzar els esperits per obtenir informació sobre la màgia. Podeu dur a terme un ritual d'una hora de canalització dels esperits (que es pot fer durant un descans curt o llarg) utilitzant el vostre Focus Espiritual. Pots dur a terme el ritual amb un nombre de criatures igual al teu bonus de competència (incloent-te tu mateix). Al final del ritual, aprens temporalment {@filter un encanteri (escull) de qualsevol classe|encanteris|escola=d;n|nivell=1;2;3;4;5;6}.",
+				"L'encanteri que trieu ha de ser d'un nivell igual o inferior al nombre de criatures que van dur a terme el ritual, l'encanteri ha de ser d'un nivell que podeu llançar, i ha de ser a l'escola d'endevinació o nigromància. L'encanteri escollit compta com a conjur de bard per a tu, però no compta amb el nombre de conjurs de bard que coneixes.",
+				"Un cop realitzat el ritual, no ho pots tornar a fer fins que no comencis un descans llarg, i coneixes l'encanteri escollit fins que comencis un descans llarg."
 			]
 		},
 		{
-			"name": "Focus Espiritual",
-			"source": "UA2020SubclassesPt4",
+			"name": "Enfocament espiritual",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 6}",
-				"A nivell 6, when you cast a bard spell that deals damage or restores punts de vida through the Focus Espiritual, roll a {@dice d6}, and you gain a bonus to one roll of the spell equal to the number rolled."
+				"A nivell 6, quan llenceu un encanteri de bard que fa dany o restaura punts de vida a través del Focus Espiritual, tireu un {@dau d6} i obteniu una bonificació a una tirada de l'encanteri igual al nombre llançat."
 			]
 		},
 		{
 			"name": "Connexió Mística",
-			"source": "UA2020SubclassesPt4",
+			"source": "UA2020Subclasses Pt4",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits (UA)",
-			"subclassSource": "UA2020SubclassesPt4",
+			"subclassShortName": "Espirituosos (UA)",
+			"subclassSource": "UA2020Subclasses Pt4",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 14}",
-				"Your connection to spirits has become semi-permanent. Whenever you use your Històries dels Morts feature, you can roll a {@dice d6} and use it instead of expending a Dau d'Inspiració Bàrdica. You still use el teu Dau d'Inspiració Bàrdica for the tale's effect, without expending it."
+				"La teva connexió amb els esperits s'ha tornat semipermanent. Sempre que utilitzeu la vostra funció Històries dels Morts, podeu tirar un {@dice d6} i utilitzar-lo en comptes de gastar un Dau d'Inspiració Bàrdica. Encara fas servir el teu Dau d'Inspiració Bàrdica per a l'efecte del conte, sense gastar-lo."
 			]
 		},
 		{
@@ -2386,34 +2386,34 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquence (UA)",
+			"subclassShortName": "Eloqüència (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 3,
 			"entries": [
-				"Adherents of the Col·legi d'Eloqüència master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more powerful than objective truth. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments, and plucking at heartstrings to appeal to the emotions of entire audiences.",
+				"Els adeptes del Col·legi d'Eloqüència dominen l'art de l'oratòria. La persuasió es considera un art elevat, i un argument ben raonat i ben parlat sovint resulta més poderós que la veritat objectiva. Aquests bards fan servir una barreja de lògica i jocs de paraules teatrals, guanyant a escèptics i detractors amb arguments lògics i agafant les cordes per atraure les emocions de tot el públic.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Parla Universal|Bard||Eloquence (UA)|UABardAndPaladin|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soothing Words|Bard||Eloquence (UA)|UABardAndPaladin|3"
+					"subclassFeature": "Paraules calmants|Bard||Eloqüència (UA)|UABardAndPaladin|3"
 				}
 			]
 		},
 		{
-			"name": "Soothing Words",
+			"name": "Paraules calmants",
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquence (UA)",
+			"subclassShortName": "Eloqüència (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 3}",
-				"You can now cast calm emotions sense gastar cap ranura de conjur. Pots emprar aquest tret tants cops com el teu modificador de Carisma. En recuperes tots els usos quan acabis un Descans Llarg."
+				"Ara pots llançar emocions tranquil·les sense gastar cap ranura de conjur. Pots emprar aquest tret tants cops com el teu modificador de Carisma. En recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -2422,34 +2422,34 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquence (UA)",
+			"subclassShortName": "Eloqüència (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 3,
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 3}",
-				"You have gained the ability to speak and reason with any creature. Com a acció bonus, you can gastar un dels teus Daus Inspiració Bàrdica. When you do so, roll el teu Dau d'Inspiració Bàrdica, and choose a number of creatures a 60 peus de tu que puguis veure equal to the roll. Durant 10 minuts, les criatures designades can magically understand you, regardless of the language you speak, and tens avantatge a Carisma checks made to influence them. This feature works even on a creature that doesn't speak any languages."
+				"Has adquirit la capacitat de parlar i raonar amb qualsevol criatura. Com a acció bonus, you can gastar un dels teus Daus Inspiració Bàrdica. Quan ho facis, tira el teu Dau d'Inspiració Bàrdica, i tria un nombre de criatures a 60 peus de tu que puguis veure igual al rotllo. Durant 10 minuts, les criatures designades us poden entendre màgicament, independentment de l'idioma que parleu, i desenes d'avantatges a les comprovacions de Carisma fetes per influir-hi. Aquesta característica funciona fins i tot en una criatura que no parla cap idioma."
 			]
 		},
 		{
-			"name": "Undeniable Logic",
+			"name": "Lògica innegable",
 			"source": "UABardAndPaladin",
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquence (UA)",
+			"subclassShortName": "Eloqüència (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 6}",
-				"You can spin words laced with magic into a knot of reasoning that can be encouraging or impossible to follow.",
-				"Com a acció bonus, you can gastar un dels teus Daus Inspiració Bàrdica. When you do so, choose una criatura que puguis veure within 60 of you que et pugui sentir, then roll el teu Dau d'Inspiració Bàrdica and choose one of the following:",
+				"Pots fer girar paraules lligades amb màgia en un nus de raonament que pot ser encoratjador o impossible de seguir.",
+				"Com a acció bonus, you can gastar un dels teus Daus Inspiració Bàrdica. Quan ho facis, tria una criatura que pugui veure a 60 de tu que et pugui sentir, després enrotlla el teu Dau d'Inspiració Bàrdica i tria una de les opcions següents:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"The creature takes psychic damage equal to the number you roll on the Dau d'Inspiració Bàrdica, and the creature must succeed on an Intel·ligència contra la teva CD de salvació de conjur or have disadvantage on the next saving throw it makes before the end of your next turn.",
-						"The creature regains punts de vida equal to the number you roll on the Dau d'Inspiració Bàrdica, and the creature has advantage on the next saving throw it makes before the end of your next turn."
+						"La criatura rep un dany psíquic igual al nombre que tires a la Dau d'Inspiració Bàrdica, i la criatura ha de tenir èxit en un CD de salvació de conjur d'Intel·ligència contra la teva o tenir desavantatge en la següent tirada de salvació que faci abans del final. del teu proper torn.",
+						"La criatura recupera punts de vida iguals al nombre que tires a la Dau d'Inspiració Bàrdica, i la criatura té avantatge a la següent tirada de salvació que faci abans del final del teu següent torn."
 					]
 				}
 			]
@@ -2460,14 +2460,14 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquence (UA)",
+			"subclassShortName": "Eloqüència (UA)",
 			"subclassSource": "UABardAndPaladin",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Eloqüència a nivell 14}",
-				"Quan una criatura adds one of your Daus d'Inspiració Bàrdica to its ability check, attack roll, or saving throw and the roll fails, the creature can keep the Dau d'Inspiració Bàrdica.",
-				"A més, quan una criatura adds one of your Daus d'Inspiració Bàrdica to its ability check, attack roll, or saving throw and the roll succeeds, pots, com a reacció, encourage a different creature (excepte tu) que et pugui sentir a 60 peus de tu, giving it a Dau d'Inspiració Bàrdica without expending any of your Inspiració Bàrdica uses. Pots prendre aquesta reacció tants cops com el teu modificador de Carisma (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Quan una criatura afegeix un dels teus Daus d'Inspiració Bàrdica a la seva prova d'habilitat, tirada d'atac o tirada de salvació i la tirada falla, la criatura pot mantenir el Dau d'Inspiració Bàrdica.",
+				"A més, quan una criatura afegeix un dels teus Daus d'Inspiració Bàrdica a la seva prova d'habilitat, tirada d'atac o tirada de salvació i la tirada té èxit, pots, com a reacció, animar a una criatura diferent (excepte tu) que et pugui sentir a 60 peus de tu, donant-li un Dau d'Inspiració Bàrdica sense gastar cap dels teus usos d'Inspiració Bàrdica. Pots prendre aquesta reacció tants cops com el teu modificador de Carisma (mínim 1 cop), i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -2480,8 +2480,8 @@
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
 			"entries": [
-				"The Col·legi del Glamur is open to those bards who mastered their craft in the vibrant, deadly realm of la Terra Fata. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.",
-				"The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. The bards of this college are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, abusing their magic to turn their hosts into thralls.",
+				"El Col·legi del Glamur està obert a aquells bards que van dominar el seu ofici al vibrant i mortal regne de la Terra Fata. Tutoris per sàtirs, eladrins i altres fes, aquests bardes aprenen a utilitzar la seva màgia per deleitar i captivar els altres.",
+				"Els bards d'aquest col·legi són considerats amb una barreja de temor i por. Les seves actuacions són coses de llegenda. Els bards d'aquest col·legi són tan eloqüents que un discurs o una cançó que interpreta un d'ells pot provocar que els captors l'alliberin il·lès i pot arrullar un drac furiós en la complaença. La mateixa màgia que els permet sufocar les bèsties també pot doblegar les ments. Els bards vilans d'aquesta universitat poden allunyar una comunitat durant setmanes, abusant de la seva màgia per convertir els seus amfitrions en esclaves.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Mantell d'Inspiració|Bard||Glamour (UA)|UABardBardColleges|3"
@@ -2503,9 +2503,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, you can charge your performance with seductive fey magic.",
-				"If you perform durant 10 minuts o més, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids a 60 peus de tu who watched and listened to all of it, up to a number of them equal to el teu modificador de Carisma (mínim d'1). Each target ha de salvar per Saviesa. contra la teva CD de salvació de conjur or be {@condition charmed} per tu. While {@condition charmed} in this way, the target idolizes you, it speaks glowingly of you to anyone who speaks to it, and it hinders anyone who opposes you, avoiding violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.",
-				"If a target succeeds on its save against this effect, the target has no hint that you tried to charm it.",
+				"Començant a nivell 3, podeu carregar la vostra actuació amb una màgia fea seductora.",
+				"Si actues durant 10 minuts o més, pots intentar despertar la meravella del teu públic cantant, recitant un poema o ballant. Al final de l'actuació, escull un nombre d'humanoides a 60 peus de tu que l'han mirat i escoltat tot, fins a un nombre igual al teu modificador de Carisma (mínim d'1). Cada target ha de salvar per Saviesa. contra la teva CD de salvació de conjur o be {@condition charmed} per tu. Tot i que {@condition encantat} d'aquesta manera, l'objectiu us idolatra, parla brillantment de vosaltres a qualsevol que us parli i dificulta qualsevol persona que us oposi, evitant la violència tret que ja estigués disposat a lluitar en nom vostre. Aquest efecte s'acaba en un objectiu al cap d'1 hora, si rep algun dany, si l'ataques, o si veu com ataca o danya algun dels seus aliats.",
+				"Si un objectiu té èxit en la seva salvació contra aquest efecte, l'objectiu no té cap indici que hagis intentat encantar-lo.",
 				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
 		},
@@ -2520,10 +2520,10 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al Col·legi del Glamur a nivell 3, you gain the ability to weave a song of fey magic that enthralls your allies with vigor and speed.",
-				"Com a acció bonus, you can expend a use of Inspiració Bàrdica to grant yourself a wondrous, otherworldly appearance. Esculls un número de allies que puguis veure and who can see you a 60 peus de tu, up to a number of them equal to el teu modificador de Carisma (mínim d'1). Each target gains {@dice 2d6} punts de vida temporals.",
-				"When a target gains these punts de vida temporals, it can also use its reaction to move up to its speed toward you, sense provocar atacs d'oportunitat. It must take the shortest, safest path to you.",
-				"The number of punts de vida temporals increases Quan pugis de nivell en aquesta classe, increasing to {@dice 2d8} a nivell 5, {@dice 2d10} a nivell 10, i {@dice 2d12} a nivell 15."
+				"Quan t'uneixes al Col·legi del Glamur a nivell 3, obtens l'habilitat de teixir una cançó de màgia fea que captiva els teus aliats amb vigor i velocitat.",
+				"Com a bonus d'acció, pots fer servir Inspiració Bàrdica per donar-te una aparença meravellosa i d'un altre món. Esculls un nombre d'alliats que pugui veure and who can see you a 60 peus de tu, up to a number of them equal to el teu modificador de Carisma (mínim d'1). Cada objectiu guanya {@dice 2d6} punts de vida temporals.",
+				"Quan un objectiu guanya aquests punts de vida temporals, també pot utilitzar la seva reacció per moure's a la seva velocitat cap a tu, sense provocar atacs d'oportunitat. Ha d'agafar el camí més curt i segur fins a tu.",
+				"El nombre de punts de vida temporals augmenta Quan pugis de nivell en aquesta classe, augmentant a {@dice 2d8} a nivell 5, {@dice 2d10} a nivell 10, i {@dice 2d12} a nivell 15."
 			]
 		},
 		{
@@ -2537,7 +2537,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you gain the ability to cloak yourself in a fey magic that makes others want to serve you. Com a acció bonus, you take on an appearance of unearthly beauty durant 1 minut. During this time, Pots llançar el conjur {@spell ordre imperativa} com a acció bonus a cada torn teu, sense gastar cap ranura de conjur. L'efecte dura 1 minut, and any creature {@condition charmed} per tu automatically fails its saving throw against the spell.",
+				"A nivell 6, obtens l'habilitat d'envoltar-te d'una màgia que fa que els altres vulguin servir-te. Com a bonus d'acció, prens un aspecte de bellesa sobrenatural durant 1 minut. Durant aquest temps, Pots llançar el conjur {@spell ordre imperativa} com a acció bonus a cada torn teu, sense gastar cap ranura de conjur. L'efecte dura 1 minut, i qualsevol criatura {@condition charmed} per tu falla automàticament en la seva tirada de salvació contra l'encanteri.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -2552,9 +2552,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, you gain an otherworldly aspect to your appearance that makes you look more fierce and lovely.",
-				"A més, through this feature, Pots llançar el conjur {@spell sanctuary} on yourself. Si una criatura fails its saving throw against the spell, you also gain advantage on all Carisma checks against the creature durant 1 minut, and it has disadvantage on any saving throw it makes against your spells en el teu proper torn.",
-				"Once you cast {@spell sanctuary} using this feature, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
+				"A nivell 14, obtens un aspecte d'un altre món a la teva aparença que et fa semblar més ferotge i encantador.",
+				"A més, a través d'aquesta funció, Pots llançar el conjur {@spell sanctuary} on yourself. Si una criatura falla la seva tirada de salvació contra l'encanteri, també obtens avantatge en totes les proves de Carisma contra la criatura durant 1 minut, i té desavantatge en qualsevol tirada de salvació que faci contra els teus encanteris en el teu propi trencament.",
+				"Una vegada que emets {@spell sanctuary} amb aquesta funció, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -2563,52 +2563,52 @@
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Whispers (UA)",
+			"subclassShortName": "Xiuxiueigs (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
 			"entries": [
-				"Most folk are happy to welcome a bard into their midst. Bards of the Col·legi dels Xiuxiuejos use this to their advantage. They appear to be like any other bard, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the Col·legi dels Xiuxiuejos teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.",
-				"Many other bards hate the Col·legi dels Xiuxiuejos, viewing it as a parasite that uses the bards' reputation to acquire wealth and power. For this reason, these bards rarely reveal their true nature unless they must. They typically claim to follow some other college, or keep their true nature secret in order to better infiltrate and exploit royal courts and other settings of power.",
+				"La majoria de la gent està encantada de donar la benvinguda a un bard entre ells. Els bards del Col·legi dels Xiuxiuejos l'aprofiten. Sembla que són com qualsevol altre bard, compartint notícies, cantant cançons i explicant contes al públic que reuneixen. De fet, el Col·legi dels Xiuxiuejos ensenya als seus alumnes que són llops entre ovelles. Aquests bards utilitzen els seus coneixements i màgia per descobrir secrets i posar-los contra els altres mitjançant l'extorsió i les amenaces.",
+				"Molts altres bardes odien el Col·legi dels Xiuxiuejos, considerant-lo com un paràsit que aprofita la reputació dels bards per adquirir riquesa i poder. Per aquest motiu, aquests bardes poques vegades revelen la seva veritable naturalesa tret que ho facin. Normalment afirmen seguir alguna altra universitat o mantenir en secret la seva veritable naturalesa per infiltrar-se i explotar millor les corts reials i altres escenaris de poder.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Venomous Blades|Bard||Whispers (UA)|UABardBardColleges|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Venomous Words|Bard||Whispers (UA)|UABardBardColleges|3"
+					"subclassFeature": "Paraules verinoses|Bard||Whispers (UA)|UABardBardColleges|3"
 				}
 			]
 		},
 		{
-			"name": "Venomous Blades",
+			"name": "Blades verinoses",
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Whispers (UA)",
+			"subclassShortName": "Xiuxiueigs (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al Col·legi dels Xiuxiuejos a nivell 3, you gain the ability to magically make your weapon attacks toxic for a moment.",
+				"Quan t'uneixes al Col·legi dels Xiuxiuejos a nivell 3, obtens l'habilitat de fer que els teus atacs d'armes siguin tòxics per un moment.",
 				"Quan impactes a una criatura amb un atac armat, gastes un dels teus Daus d'Inspiració Bàrdica to deal an additional {@damage 2d6} de dany de verí to that target. Només pots fer-ho 1 cop per ronda en el teu torn.",
-				"The additional damage increases Quan pugis de nivell en aquesta classe, increasing to {@dice 2d8} a nivell 5, {@dice 2d10} a nivell 10, i {@dice 2d12} a nivell 15."
+				"El dany addicional augmenta Quan pugis de nivell en aquesta classe, augmentant a {@dice 2d8} a nivell 5, {@dice 2d10} a nivell 10, i {@dice 2d12} a nivell 15."
 			]
 		},
 		{
-			"name": "Venomous Words",
+			"name": "Paraules verinoses",
 			"source": "UABardBardColleges",
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Whispers (UA)",
+			"subclassShortName": "Xiuxiueigs (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, you learn to infuse innocent-seeming words with an insidious magic. A creature that hears you speak can become plunged into fear and paranoia.",
-				"If you speak to a humanoid alone durant 10 minuts o més, you can attempt to seed paranoia and fear into its mind. At the end of the conversation, l'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur or be {@condition frightened} for the next hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged. While {@condition frightened} in this way, the target is paranoid and tries to avoid the company of others, including its allies. The target seeks out what it considers the safest, most secret place available to it and hides there.",
-				"If the target succeeds on its save, the target has no hint that you tried to frighten it.",
+				"A nivell 3, s'aprèn a infondre paraules d'aparença innocent amb una màgia insidiosa. Una criatura que et senta parlar es pot submergir en la por i la paranoia.",
+				"Si parles amb un humanoide sol durant 10 minuts o més, pots intentar sembrar la paranoia i la por a la seva ment. Al final de la conversa, l'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur o estar {@condition frightened} durant l'hora següent, fins que sigui atacat o danyat, o fins que sigui testimoni dels seus aliats atacats. o danyat. Tot i que {@condition frightened} d'aquesta manera, l'objectiu és paranoic i intenta evitar la companyia dels altres, inclosos els seus aliats. L'objectiu busca el que considera el lloc més segur i secret disponible i s'hi amaga.",
+				"Si l'objectiu té èxit en la seva salvació, l'objectiu no té cap indici que hagis intentat espantar-lo.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Curt or long rest."
 			]
 		},
@@ -2618,16 +2618,16 @@
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Whispers (UA)",
+			"subclassShortName": "Xiuxiueigs (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, you gain the ability to adopt a creature's persona. When you slay a creature with an attack or a spell or a creature dies a 5 peus de tu, you can magically capture its shadow using your reaction. You can capture only the shadow of a creature that is your creature type, such as humanoid, and your size (you can capture a Small or Medium shadow if you're Small), and you can have only one shadow captured at a time.",
-				"After you capture a creature's shadow, you can use your magic to weave it into a disguise that allows you to take on its appearance and gain access to its surface memories. Com a acció, you take on the creature's appearance durant 1 hora or until you end this effect com a acció bonus.",
-				"During that hour, you gain access to all information that the creature would freely share with a casual acquaintance. Information includes general details on its background and personal life, but does not include secrets. The information is enough that you can pass yourself off as the creature by drawing on its memories.",
-				"Another creature can see through this disguise by making a Saviesa ({@skill Insight}) opposed by your Carisma ({@skill Deception}), though Tens un +5 a your check.",
-				"The disguise and the knowledge it grants disappears when this ability's duration ends."
+				"A nivell 6, obtens l'habilitat d'adoptar el personatge d'una criatura. Quan mates una criatura amb un atac o un encanteri o una criatura mor un 5 peus de tu, pots capturar màgicament la seva ombra utilitzant la teva reacció. Només pots capturar l'ombra d'una criatura que sigui el teu tipus de criatura, com ara un humanoide, i la teva mida (pots capturar una ombra petita o mitjana si ets petit) i només pots capturar una ombra alhora.",
+				"Després de capturar l'ombra d'una criatura, podeu utilitzar la vostra màgia per teixir-la en una disfressa que us permeti agafar el seu aspecte i accedir als seus records superficials. Com a acció, prens l'aspecte de la criatura durant 1 hora o fins que acabis aquest efecte com una bonificació d'acció.",
+				"Durant aquesta hora, obteniu accés a tota la informació que la criatura compartiria lliurement amb un conegut casual. La informació inclou detalls generals sobre els seus antecedents i la seva vida personal, però no inclou secrets. La informació és suficient per fer-te passar per la criatura aprofitant els seus records.",
+				"Una altra criatura pot veure a través d'aquesta disfressa fent una Saviesa ({@skill Insight}) oposada pel teu Carisma ({@skill Deception}), encara que Tens un +5 a la teva prova.",
+				"La disfressa i els coneixements que atorga desapareixen quan s'acaba la durada d'aquesta habilitat."
 			]
 		},
 		{
@@ -2636,40 +2636,40 @@
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Whispers (UA)",
+			"subclassShortName": "Xiuxiueigs (UA)",
 			"subclassSource": "UABardBardColleges",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, you gain the ability to weave dark magic into your words and tap into a creature's deepest fears.",
-				"Com a acció, you magically whisper a phrase that only one creature (escull) a 30 peus de tu can hear. L'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. It automatically succeeds if it doesn't share a language with you or if it can't hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect.",
-				"If the target fails its saving throw, it is {@condition charmed} per tu durant les properes 8 hores or until you or your allies attack or damage it. It interprets the whispers as a description of its most mortifying secret. While you gain no knowledge of this secret, the target is convinced you know it.",
-				"While {@condition charmed} in this way, the creature obeys your commands for fear that you will reveal its secret. It won't risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.",
-				"When the effect ends, the creature has no understanding of why it held you in such fear. Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
+				"A nivell 14, obtens l'habilitat de teixir màgia fosca a les teves paraules i aprofitar les pors més profundes d'una criatura.",
+				"Com a acció, xiuxiueges màgicament una frase que només pot escoltar una criatura (escull) a 30 peus de tu. L'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Té èxit automàticament si no comparteix un idioma amb tu o si no et pot escoltar. En una tirada de salvació amb èxit, el teu xiuxiueig sona com un murmuri inintel·ligible i no té cap efecte.",
+				"Si l'objectiu falla la seva tirada de salvació, serà {@condition charmed} durant les properes 8 hores o fins que tu o els teus aliats l'ataquin o danyin. Interpreta els murmuris com una descripció del seu secret més mortificador. Tot i que no coneixeu aquest secret, l'objectiu està convençut que el coneixeu.",
+				"Mentre {@condition encantada} d'aquesta manera, la criatura obeeix les teves ordres per por que en revelaràs el secret. No arriscarà la seva vida per tu ni lluitarà per tu, tret que ja estigués inclinat a fer-ho. Et concedeix favors i regals que oferiria a un amic proper.",
+				"Quan s'acaba l'efecte, la criatura no entén per què et tenia tanta por. Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "College of Satire",
+			"name": "Col·legi de Sàtira",
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Satire (UA)",
+			"subclassShortName": "Sàtira (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"entries": [
-				"Bards of the College of Satire are called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king's royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand's affair with an aged duchess or a mocking satire of a paladin of Helm's cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.",
-				"While jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester's barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.",
-				"For the duchess with a taste for strapping young laborers, such tales might serve to warn the targets of her affections and force her to change her ways for lack of willing partners. Striking back at the jester only ruins her already damaged reputation, and might provide the best evidence that the jester's satires have hit their mark. But if she is kind and generous to her conquests, the jokes and stories cast her as a kind of folk hero, while drawing even more potential partners to her.",
-				"Jesters are loyal to only one cause: the pursuit and propagation of the truth. They use their comedy and innocuous appearance to break down social barriers and expose corruption, incompetence, and stupidity among the rich and powerful. Whether revealing a con artist's treachery or exposing a baron's plans for war as driven by greed and bloodlust, a jester serves as the conscience of a realm.",
-				"Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies' spirits while casting doubt into foes' minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.",
+				"Els bardes del Col·legi de Sàtira s'anomenen bufons. Utilitzen històries modestes, acrobàcies atrevides i acudits per entretenir el públic, des de les multituds en un pub del moll degradat fins als nobles de la cort reial d'un rei. On altres bards busquen tradicions oblidades o històries de valentia èpica, els bufons descobreixen històries vergonyoses i divertides de tot tipus. Tant si explica la història obscena d'una aventura d'una mà estable amb una duquessa envellida o una sàtira burlona d'un paladí de la innocència empalagosa d'Helm, un bufó mai deixa que el gust, el decor social o la vergonya s'interposin en una bona rialla.",
+				"Tot i que els bufons són mestres de jocs de paraules, acudits i punxes verbals, són molt més que un simple alleujament còmic. S'espera que es burlin i provoquin, aprofitant que fins i tot la gent més poderosa s'espera que, per tradició, suportin amb bon humor les punxes d'un bufó. Aquesta expectativa permet que un bufó serveixi de crític o de veu de la raó quan els altres estan massa intimidats per dir la veritat.",
+				"Per a la duquessa amb gust per lligar els joves treballadors, aquestes històries poden servir per advertir els objectius dels seus afectes i obligar-la a canviar les seves maneres per falta de socis voluntaris. Contraatacar el bufó només arruïna la seva reputació ja danyada, i pot proporcionar la millor prova que les sàtires del bufó han tocat el seu punt. Però si és amable i generosa amb les seves conquestes, les bromes i les històries la converteixen en una mena d'heroi popular, alhora que atrauen encara més socis potencials.",
+				"Els bufons només són lleials a una causa: la recerca i la propagació de la veritat. Utilitzen la seva comèdia i la seva aparença innòcua per trencar les barreres socials i exposar la corrupció, la incompetència i l'estupidesa entre els rics i poderosos. Ja sigui revelant la traïció d'un estafador o exposant els plans de guerra d'un baró impulsats per la cobdícia i la sed de sang, un bufó serveix com a consciència d'un regne.",
+				"Els bufons s'aventuren per salvaguardar la gent comuna i per soscavar els plans dels rics, poderosos i arrogants. La seva màgia reforça els esperits dels aliats alhora que posa dubtes a la ment dels enemics. Entre els bards, els bufons són acròbates inigualables, i la seva capacitat per caure, esquivar, saltar i escalar els converteix en oponents relliscosos a la batalla.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Competències Adicionals|Bard||Satire (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Competències Adicionals|Bard||Sàtira (UA)|UAKitsOfOld|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tumbling Fool|Bard||Satire (UA)|UAKitsOfOld|3"
+					"subclassFeature": "Tumbling Fool|Bard||Sàtira (UA)|UAKitsOfOld|3"
 				}
 			]
 		},
@@ -2679,12 +2679,12 @@
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Satire (UA)",
+			"subclassShortName": "Sàtira (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al College of Satire a nivell 3, tens competència amb {@item eines de lladre|phb}. You also gain proficiency in {@skill Sleight of Hand} and one additional skill (escull). If you are already proficient with {@item eines de lladre|phb} or in {@skill Sleight of Hand}, choose another skill proficiency for each proficiency you already have."
+				"Quan t'uneixes al College of Satire a nivell 3, tens competència amb {@item eines de lladre|phb}. També aconseguiu coneixements de {@skill Sleight of Hand} i una habilitat addicional (escull). Si ja ets competent amb {@item eines de lladre|phb} o amb {@skill Sleight of Hand}, tria una altra competència per a cada competència que ja tinguis."
 			]
 		},
 		{
@@ -2693,51 +2693,51 @@
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Satire (UA)",
+			"subclassShortName": "Sàtira (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, you master a variety of acrobatic techniques that allow you to evade danger. Com a acció bonus, you can tumble. When you tumble, reps els beneficis següents for the rest of your turn:",
+				"A nivell 3, domines una varietat de tècniques acrobàtiques que et permeten evadir el perill. Com a bonus d'acció, pots caure. Quan toqui, repetiu els beneficis següents durant la resta del vostre torn:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"You gain the benefits of taking l'acció {@action Córrer} i {@action Destravar-se}s.",
-						"You gain a climbing speed equal to your current speed.",
-						"You take half damage from falling."
+						"Obteniu els beneficis de prendre l'acció {@action Córrer} i {@action Destravar-se}s.",
+						"Guanyes una velocitat d'escalada igual a la teva velocitat actual.",
+						"Prens la meitat del dany per la caiguda."
 					]
 				}
 			]
 		},
 		{
-			"name": "Fool's Insight",
+			"name": "Insight del tonto",
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Satire (UA)",
+			"subclassShortName": "Sàtira (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, your ability to gather stories and lore gains a supernatural edge. You can cast detectar pensaments up to tants cops com el teu modificador de Carisma. En recuperes tots els usos of this ability after completing a long rest.",
-				"Si una criatura resists your attempt to probe deeper and succeeds at its saving throw against your detectar pensaments, it immediately suffers an embarrassing social gaffe. It might loudly pass gas, unleash a thunderous burp, trip and fall, or be compelled to tell a tasteless joke."
+				"A nivell 6, la teva capacitat per reunir històries i tradicions adquireix un avantatge sobrenatural. You can cast detectar pensaments up to tants cops com el teu modificador de Carisma. En recupera tots els usos d'aquesta habilitat després de completar un llarg descans.",
+				"Si una criatura resisteix el teu intent d'aprofundir i aconsegueix la seva salvació contra els teus pensaments, de seguida pateix una vergonyosa gafa social. Pot passar gas en veu alta, desencadenar un eruc tronador, ensopegar i caure, o veure's obligat a explicar una broma sense gust."
 			]
 		},
 		{
-			"name": "Fool's Luck",
+			"name": "Sort dels ximples",
 			"source": "UAKitsOfOld",
 			"page": 2,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Satire (UA)",
+			"subclassShortName": "Sàtira (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Jesters seem to have a knack for pulling themselves out of tight situations, transforming what looks like sure failure into an embarrassing but effective success.",
-				"A nivell 14, pots gastar un Dau d'Inspiració Bàrdica after you fail an ability check, fail a saving throw, or miss with an attack roll. Roll a Dau d'Inspiració Bàrdica and add the number rolled to your attack, saving throw, or ability check, using the new result in place of the failed one.",
-				"If using this ability grants you a success on the attack, saving throw, or ability check, note the number you rolled on the Dau d'Inspiració Bàrdica. The DM can then apply that result as a penalty to an attack or check you make, and you cannot use this ability again until you suffer this drawback. When the DM invokes this penalty, describe an embarrassing gaffe or mistake you make as part of the affected die roll."
+				"Els bufons semblen tenir una habilitat per sortir de situacions difícils, transformant el que sembla un fracàs segur en un èxit vergonyós però efectiu.",
+				"A nivell 14, pots gastar un Dau d'Inspiració Bàrdica després de fallar una prova d'habilitat, fallar una tirada de salvació o fallar amb una tirada d'atac. Tira un Dau d'Inspiració Bàrdica i afegeix el número llançat al teu atac, tir de salvació o prova d'habilitat, utilitzant el nou resultat en lloc del fallat.",
+				"Si l'ús d'aquesta habilitat et garanteix un èxit en l'atac, el llançament de salvació o la prova d'habilitat, anota el número que has tirat al Dau d'Inspiració Bàrdica. Aleshores, el DM pot aplicar aquest resultat com a penalització a un atac o prova que feu, i no podeu tornar a utilitzar aquesta habilitat fins que no patiu aquest inconvenient. Quan el DM invoqui aquesta penalització, descriu una gafeta o un error vergonyós que cometis com a part de la tirada de daus afectada."
 			]
 		},
 		{
@@ -2746,13 +2746,13 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Swords (UA)",
+			"subclassShortName": "Espases (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"entries": [
-				"Bards of the Col·legi d'Espases are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. But though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.",
-				"Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust them.",
-				"Blades who abandon lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most performer troupes. With their weapon skills as their greatest asset, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
+				"Els bards del Col·legi d'Espases s'anomenen fulles i s'entretenen amb gestes agosarades d'armes. Les fulles realitzen acrobàcies com ara empassar espases, llançar ganivets i fer malabars, i simulacres de combat. Però tot i que fan servir les seves armes per entretenir, també són guerrers molt entrenats i hàbils per dret propi.",
+				"El seu talent amb les armes inspira moltes fulles per portar vides dobles. Una fulla podria utilitzar una companyia de circ com a coberta per a actes nefasts com l'assassinat, el robatori i el xantatge. Altres fulles xoquen contra els malvats, fent justícia contra els cruels i poderosos. La majoria de les companyies estan encantades d'acceptar el talent d'una pala per l'emoció que afegeix a una actuació, però pocs animadors confien plenament en ells.",
+				"Els blades que abandonen vides com a animadors sovint han tingut problemes que fan impossible mantenir les seves activitats secretes. Una fulla atrapada robant o participant en la justícia vigilant és una responsabilitat massa gran per a la majoria de les companyies d'intèrprets. Amb les seves habilitats d'armes com el seu millor actiu, aquestes fulles ocupen la feina com a encarregats de fer complir els gremis de lladres o s'executen soles com a aventurers.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Competències Adicionals|Bard||Swords (UA)|UAKitsOfOld|3"
@@ -2773,45 +2773,45 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Swords (UA)",
+			"subclassShortName": "Espases (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, you learn to conduct impressive displays of skill with your weapons. Quan prèns l'acció {@action Atacar} en el teu torn and attack with a dagger, longsword, rapier, scimitar, or shortsword, you can attempt one of the following flourishes.",
+				"A nivell 3, aprens a fer exhibicions impressionants d'habilitat amb les teves armes. Quan prèn l'acció {@action Atacar} en el teu trencat i atacant amb una daga, una espada llarga, un estoc, una cimitarra o una espasa curta, pots intentar una de les següents floritures.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Filigrana Defensa",
 							"entries": [
-								"You spin your weapon around you in swift circles, creating a hypnotic display. Com a acció bonus, you expend one use of Inspiració Bàrdica, rolling a Dau d'Inspiració Bàrdica and applying the number rolled as a bonus to your AC fins l'inici del teu proper torn."
+								"Gires l'arma al teu voltant en cercles ràpids, creant una pantalla hipnòtica. Com a bonificació d'acció, gastes un ús d'Inspiració Bàrdica, enrotllant un Dau d'Inspiració Bàrdica i aplicant el número enrotllat com a bonificació a les teves AC fins l'inici del teu propi trencat."
 							]
 						}
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
-							"name": "Trick Shooter's Flourish",
+							"type": "entrades",
+							"name": "La floració del tirador de trucs",
 							"entries": [
-								"This favorite trick of knife throwers allows you to expend one use of Inspiració Bàrdica com a acció bonus. Roll a Dau d'Inspiració Bàrdica and apply the number rolled as a bonus to the next atac a distància roll you make with a dagger this turn. If the target of the attack is an unattended, inanimate object, the bonus equals double the die roll."
+								"Aquest truc favorit dels llançadors de ganivets us permet gastar un ús d'Inspiració Bàrdica com a bonus d'acció. Tira un Dau d'Inspiració Bàrdica i aplica el número tirat com a bonus a la següent tirada d'atac a distància que facis amb una daga aquest torn. Si l'objectiu de l'atac és un objecte inanimat sense vigilància, la bonificació és igual al doble de la tirada de daus."
 							]
 						}
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
-							"name": "Unnerving Flourish",
+							"type": "entrades",
+							"name": "Floració desconcertant",
 							"entries": [
-								"Your deadly display of combat prowess unnerves your opponents, leaving them cowering in fear and at your mercy. Whenever you reduce a creature to 0 punts de vida amb un atac cos a cos, pots, com a acció bonus, to expend one use of Inspiració Bàrdica, and instead leave the creature at 1 punt de vida.",
-								"The creature is {@condition frightened} de tu for a number of minutes equal to el teu modificador de Carisma. It must also make a Carisma saving throw with a DC equal to your spellcasting DC + a bonus equal to the roll of el teu Dau d'Inspiració Bàrdica. If the creature fails this saving throw, it answers truthfully any questions you ask it and obeys your direct orders while it is {@condition frightened} by this effect."
+								"La teva demostració mortal de destreses de combat desconcerta els teus oponents, deixant-los acovardits de por i a la teva mercè. Sempre que reduïu una criatura a 0 punts de vida amb un atac per a cos, pots, com una bonificació d'acció, per gastar un ús d'Inspiració Bàrdica i, en canvi, deixeu la criatura a 1 punt de vida.",
+								"La criatura està {@condition frightened} de tu durant un nombre de minuts igual al teu modificador de Carisma. També ha de fer una tirada de salvació de Carisma amb una CD igual a la teva CD d'encanteri + una bonificació igual a la tirada del teu Dau d'Inspiració Bàrdica. Si la criatura falla aquesta tirada de salvació, respon amb veritat a totes les preguntes que li facis i obeeix les teves ordres directes mentre està {@condition espantat} per aquest efecte."
 							]
 						}
 					]
@@ -2824,12 +2824,12 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Swords (UA)",
+			"subclassShortName": "Espases (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al College of Blades a nivell 3, reps competència amb armadures intermitges and with scimitars."
+				"Quan t'uneixes al College of Blades a nivell 3, reps competència amb armadures intermitges i amb cimitarras."
 			]
 		},
 		{
@@ -2838,14 +2838,14 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Swords (UA)",
+			"subclassShortName": "Espases (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The College of Blades emphasizes mastery with weapons, granting you access to the lluita amb armes duals option for the Estil de Lluita class feature.",
+				"El College of Blades posa l'accent en el domini de les armes, donant-te accés a l'opció de lluita amb armes duals per a la funció de classe Estil de Lluita.",
 				{
-					"type": "refOptionalfeature",
+					"type": "ref Característica opcional",
 					"optionalfeature": "Lluita amb Armes Duals"
 				}
 			]
@@ -2856,7 +2856,7 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Swords (UA)",
+			"subclassShortName": "Espases (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 6,
 			"header": 2,
@@ -2870,12 +2870,12 @@
 			"page": 1,
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Swords (UA)",
+			"subclassShortName": "Espases (UA)",
 			"subclassSource": "UAKitsOfOld",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack com a acció bonus."
+				"A nivell 14, has dominat l'art de teixir l'encanteri i l'ús d'armes en un sol acte harmònic. Quan feu servir la vostra acció per llançar un encanteri de bard, podeu fer un atac d'arma com una bonificació d'acció."
 			]
 		},
 		{
@@ -2888,9 +2888,9 @@
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
 			"entries": [
-				"Bards of the Col·legi d'Espases are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. But though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.",
-				"Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust them.",
-				"Blades who abandon lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most performer troupes. With their weapon skills as their greatest asset, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
+				"Els bards del Col·legi d'Espases s'anomenen fulles i s'entretenen amb gestes agosarades d'armes. Les fulles realitzen acrobàcies com ara empassar espases, llançar ganivets i fer malabars, i simulacres de combat. Però tot i que fan servir les seves armes per entretenir, també són guerrers molt entrenats i hàbils per dret propi.",
+				"El seu talent amb les armes inspira moltes fulles per portar vides dobles. Una fulla podria utilitzar una companyia de circ com a coberta per a actes nefasts com l'assassinat, el robatori i el xantatge. Altres fulles xoquen contra els malvats, fent justícia contra els cruels i poderosos. La majoria de les companyies estan encantades d'acceptar el talent d'una pala per l'emoció que afegeix a una actuació, però pocs animadors confien plenament en ells.",
+				"Els blades que abandonen vides com a animadors sovint han tingut problemes que fan impossible mantenir les seves activitats secretes. Una fulla atrapada robant o participant en la justícia vigilant és una responsabilitat massa gran per a la majoria de les companyies d'intèrprets. Amb les seves habilitats d'armes com el seu millor actiu, aquestes fulles ocupen la feina com a encarregats de fer complir els gremis de lladres o s'executen soles com a aventurers.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Competències Adicionals|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
@@ -2916,39 +2916,39 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, you learn to conduct impressive displays of skill with your weapons. As a standard action, you can make a standard atac cos a cos and increase your walking speed by 10 feet fins el final del torn actual. Whenever you use this option, you can also use one of the following Fulla Filigrana options with it.",
+				"A nivell 3, aprens a fer exhibicions impressionants d'habilitat amb les teves armes. Com a acció estàndard, podeu fer un atac estàndard cos a cos i augmentar la vostra velocitat de marxa en 10 peus fins el final del torn actual. Sempre que utilitzeu aquesta opció, també podeu utilitzar una de les següents opcions de Fulla Filigrana amb ella.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Filigrana Defensa",
 							"entries": [
-								"You spin your weapon around you in swift circles, creating a hypnotic display. You can gastar un dels teus Daus Inspiració Bàrdica, rolling a Dau d'Inspiració Bàrdica and applying the number rolled as a bonus to your AC fins l'inici del teu proper torn."
+								"Gires l'arma al teu voltant en cercles ràpids, creant una pantalla hipnòtica. You can gastar un dels teus Daus Inspiració Bàrdica, rolling a Dau d'Inspiració Bàrdica and applying the number rolled as a bonus to your AC fins l'inici del teu proper torn."
 							]
 						}
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
+							"type": "entrades",
 							"name": "Filigrana Tallar",
 							"entries": [
-								"Si impactes its target, you can gastar un dels teus Daus Inspiració Bàrdica to cause the weapon to damage tota criatura que designis, other than the target, que puguis veure a 5 peus de tu. The damage equals the number you roll on the Dau d'Inspiració Bàrdica."
+								"Si impactes its target, you can gastar un dels teus Daus Inspiració Bàrdica to cause the weapon to damage tota criatura que designis, other than the target, que puguis veure a 5 peus de tu. El dany és igual al nombre que tires a la Dau d'Inspiració Bàrdica."
 							]
 						}
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
-							"name": "Filigrana Moviment",
+							"type": "entrades",
+							"name": "Moviment Filigrana",
 							"entries": [
-								"Si impactes its target, you can gastar un dels teus Daus Inspiració Bàrdica to push the target fins a 5 peus lluny de tu, plus a number of feet equal to the number you roll on the Dau d'Inspiració Bàrdica. You can then immediately use your reaction to move up to your speed en un espai desocupat within 5 feet of the target."
+								"Si impactes el seu objectiu, pots gastar un dels teus Daus Inspiració Bàrdica per empènyer l'objectiu fins a 5 peus lluny del teu, plus un nombre de peus igual al nombre que rodes al Dau d'Inspiració Bàrdica. A continuació, podeu utilitzar immediatament la vostra reacció per augmentar la vostra velocitat en un espai desocupat a 5 peus de l'objectiu."
 							]
 						}
 					]
@@ -2966,7 +2966,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al College of Blades a nivell 3, reps competència amb armadures intermitges and with scimitars. If you are proficient with a simple or martial melee weapon, you can use it com a focus de llançament arcà pels teus Conjurs de bard."
+				"Quan t'uneixes al College of Blades a nivell 3, reps competència amb armadures intermitges i amb cimitarras. Si ets competent amb una arma de cos a cos simple o marcial, pots utilitzar-la com a focus de llançament arc pels teus Conjurs de bard."
 			]
 		},
 		{
@@ -2980,17 +2980,17 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The College of Blades emphasizes mastery with weapons, granting you access to either the dueling or lluita amb armes duals option for the Estil de Lluita class feature, which are as follows.",
+				"El College of Blades posa èmfasi en el domini de les armes, donant-te accés a l'opció de duel o lluita amb armes duals per a la funció de classe Estil de Lluita, que són les següents.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Duelista"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Lluita amb Armes Duals"
 						}
 					]
@@ -2998,7 +2998,7 @@
 			]
 		},
 		{
-			"name": "Cunning Flourish",
+			"name": "Astúcia Flourish",
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bard",
@@ -3008,7 +3008,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, you can attack twice, instead of once, whenever you take the Fulla Filigrana action en el teu torn. You can, nevertheless, only use one Fulla Filigrana option when you take that action."
+				"Començant a nivell 6, pots atacar dues vegades, en lloc d'una vegada, sempre que facis l'acció Fulla Filigrana en el teu trencat. Tanmateix, només podeu utilitzar una opció de Fulla Filigrana quan feu aquesta acció."
 			]
 		},
 		{
@@ -3022,7 +3022,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, whenever you use a Fulla Filigrana option, you can roll a {@dice d6} and use it instead of expending a Dau d'Inspiració Bàrdica."
+				"Començant a nivell 14, sempre que utilitzeu una opció Fulla Filigrana, podeu tirar un {@dice d6} i utilitzar-lo en comptes de gastar un Dau d'Inspiració Bàrdica."
 			]
 		},
 		{
@@ -3035,7 +3035,7 @@
 			"subclassSource": "VRGR",
 			"level": 3,
 			"entries": [
-				"Bards of the Col·legi d'Esperits seek tales with inherent power\u2014be they legends, histories, or fictions\u2014and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.",
+				"Els bardes del Col·legi d'Esperits busquen contes amb un poder inherent —ja siguin llegendes, històries o ficcions— i donen vida als seus temes. Utilitzant trampes ocultes, aquests bardes evoquen encarnacions espirituals de forces poderoses per canviar el món una vegada més. Aquests esperits són capritxosos, però, i el que convoca un bard no sempre està completament sota el seu control.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Remor que Guia|Bard||Esperits|VRGR|3"
@@ -3062,11 +3062,11 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 3}",
-				"Demanes ajuda als esperits perquè et guiïn a tu i als teus. Aprèns el truc {@spell guia}, que no compta com a conjur de bard conegut. Tu el llances amb 60 peus d'abast."
+				"Demanes ajuda als esperits perquè et guiïn a tu i als teus. Aprèn el truc {@spell guia}, que no compta com a conjur de bard conegut. Tu el llances amb 60 peus d'abast."
 			]
 		},
 		{
-			"name": "Focus Espiritual",
+			"name": "Enfocament espiritual",
 			"source": "VRGR",
 			"page": 28,
 			"className": "Bard",
@@ -3077,7 +3077,7 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 3}",
-				"Utilitzes eines que t'ajuden a canalitzar esperits, ja siguin figures històriques o arquetips ficticis. Pots utilitzar aquests objectes com a focus de llançament arcà pels teus conjurs de bard: una espelma, una bola de cristall, una calavera, una ouija, o cartes del tarot.",
+				"Utilitzes eines que t'ajuden a canalitzar esperits, ja siguin figures històriques o arquetips ficticis. Pots utilitzar aquests objectes com a focus de llançament arc pels teus conjurs de bard: una espelma, una bola de cristall, una calavera, una ouija, o cartes del tarot.",
 				"Començant a nivell 6, quan llances un conjur de bard que causa dany o cura amb via el focus del Focus Espiritual, sumes un {@dice d6} al dany o cura que facis."
 			]
 		},
@@ -3093,19 +3093,19 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 3}",
-				"Escoltes el que han de dir els esperits. Mentre duguis el teu Focus Espiritual pots, com a acció bonus, gastar un Dau d'Inspiració Bàrdica i tirar-lo; consulta el resultat a la Taula d'Esperits per veure què et diuen els esperits. Retèns la història el cap fins que n'otogues l'efecte o acabis un Descans Curt o Llarg.",
-				"Com a acció, pots escollir una criatura que puguis veure a 30 peus de tu (tu també) per rebre l'efecte de la història. Quan ho facis no pots tornar a otorgar aquest benefici; has de tornar a tirar a la taula",
-				"Només pots tenir una història el cap a l'hora; si tornes a tirar a la Taula d'Esperits se t'oblida la història anterior.",
-				"Si la història involucra salvades, la CD és la teva CD de salvació de conjur.",
+				"Escoltes el que han de dir els esperits. Mentre duguis el teu Focus Espiritual pots, com a acció bonus, gastar un Dau d'Inspiració Bàrdica i tirar-lo; consulta el resultat a la Taula d'Esperits per veure què et diuen els esperits. Retèns la història el cap fins que no otogues l'efecte o acabis un Descans Curt o Llarg.",
+				"Com a acció, pots escollir una criatura que pugui veure a 30 peus de tu (també) per rebre l'efecte de la història. Quan ho facis no pots tornar a otorgar aquest benefici; has de tornar a tirar a la taula",
+				"Només pots tenir una història el cap a l'hora; si tornes a tirar a la Taula d'Esperits es t'oblida la història anterior.",
+				"Si la història involucra salvades, el CD és el teu CD de salvació de conjur.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Taula d'Esperits",
 					"colLabels": [
 						"Dau d'Inspiració",
 						"Història Explicada"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -3173,9 +3173,9 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 6}",
-				"Els esperits et donen una perspectiva sobrenatural. Pots fer un ritual d'1 hora (es pot fer durant un Descans Llarg o Curt) amb el teu Focus Espiritual. Al ritual hi poden assistir tantes criatures com el teu bonus de competència (incloent-te a tu). Quan acabi aprèns, temporalment, {@filter un conjur (escull) de qualsevol classe|spells|school=d;n|level=1;2;3;4;5;6}.",
-				"El nivell del conjur no ha de superar el nombre d'assistents del ritual; ha d'ésser d'un nivell que puguis llançar; i ha d'ésser de divinació o de nigromància. El consideres un conjur de bard però no et compta vers els conjurs coneguts de bard.",
-				"Un cop facis el ritual no hi pots tornar fins que comencis un Descans Llarg. També coneixes el conjur fins llavors."
+				"Els esperits et donen una perspectiva sobrenatural. Pots fer un ritual d'1 hora (es pot fer durant un Descans Llarg o Curt) amb el teu Focus Espiritual. Al ritual hi poden assistir tants criatures com el teu bonus de competència (incloent-te a tu). Quan acabi aprèn, temporalment, {@filter un conjur (escull) de qualsevol classe|spells|school=d;n|level=1;2;3;4;5;6}.",
+				"El nivell del conjur no ha de superar el nombre d'assistents del ritual; ha d'ésser d'un nivell que pugui llançar; i he d'ésser de divinació o de nigromància. El considera un conjur de bard però no et compta vers els conjurs coneguts de bard.",
+				"Un cop facis el ritual no hi pots tornar fins que comencis un Descans Llarg. També coneix el conjur fins llavors."
 			]
 		},
 		{
@@ -3190,12 +3190,12 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Col·legi d'Esperits a nivell 14}",
-				"Aprèns a buscar una mica durant el tret Històries dels Morts. Quan tires a la Taula d'Esperits, pots tirar 2 cops i escollir quin efecte et vols quedar. Si treus el mateix número als 2 daus pots triar l'efecte que vulguis.",
+				"Aprèn a buscar una mica durant el tres Històries dels Morts. Quan tires a la Taula d'Esperits, pots tirar 2 cops i escollir quin efecte i vols quedar. Si treus el mateix número als 2 pots triar l'efecte que vulguis.",
 				{
-					"type": "inset",
+					"type": "inserció",
 					"name": "Taula d'Esperits",
 					"entries": [
-						"Storytellers, like bards of the Col·legi d'Esperits, often give voice to tales inspired by some greater theme or body of work. When determining what stories you tell, consider what unites them. Do they all feature characters from a specific group, like archetypes from the tarokka deck, figures from constellations, childhood imaginary friends, or characters in a particular storybook? Or are your inspirations more general, incorporating historic champions, mythological heroes, or urban legends? Use the tales you tell to define your niche as a storytelling adventurer."
+						"Els contacontes, com els bardes del Col·legi d'Esperits, sovint donen veu a contes inspirats en algun tema o obra més gran. Quan determineu quines històries expliqueu, tingueu en compte què les uneix. Tots presenten personatges d'un grup específic, com ara arquetips de la baralla de tarokka, figures de constel·lacions, amics imaginaris de la infància o personatges d'un llibre de contes concret? O les teves inspiracions són més generals, incorporant campions històrics, herois mitològics o llegendes urbanes? Fes servir els contes que expliques per definir el teu nínxol com a aventurer narrador."
 					]
 				}
 			]
@@ -3210,8 +3210,8 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"The Col·legi del Glamur is the home of bards who mastered their craft in the vibrant realm of la Terra Fata or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.",
-				"The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.",
+				"El Col·legi del Glamur és la llar de bards que van dominar el seu ofici al vibrant regne de la Terra Fata o sota la tutela d'algú que hi vivia. Tutoris per sàtirs, eladrins i altres fes, aquests bardes aprenen a utilitzar la seva màgia per deleitar i captivar els altres.",
+				"Els bards d'aquest col·legi són considerats amb una barreja de temor i por. Les seves actuacions són coses de llegenda. Aquests bards són tan eloqüents que un discurs o una cançó que interpreta un d'ells pot provocar que els captors l'alliberin il·lès i pot fer que un drac furiós es complaeix. La mateixa màgia que els permet sufocar les bèsties també pot doblegar les ments. Els bards vilans d'aquesta universitat poden allunyar una comunitat durant setmanes, fent un mal ús de la seva màgia per convertir els seus amfitrions en esclaves. Els bards heroics d'aquesta universitat utilitzen aquest poder per alegrar els oprimits i soscavar els opressors.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Mantell d'Inspiració|Bard||Glamur|XGE|3"
@@ -3234,7 +3234,7 @@
 			"header": 1,
 			"entries": [
 				"Començant a nivell 3, analitzes màgia fata seductora a la teva actuació.",
-				"Si actues durant 1 minut o més, pots provar d'inspirar a la teva audiència amb una cançó, un poema, o una dansa. Al final de l'actuació, tria d'1 a el teu modificador de Carisma d'humanoides a 60 peus de tu que hagin vist l'actuació sencera. Cada objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Qui falli es queda {@condition charmed} per tu. {@condition charmed} així, cada objectiu t'idolitza i parla molt bé de tu a tothom que li parli; també obstaculitza a aquells que t'oposin, tot i que no seran violents si no estaven preparats ja per lluitar per tu abans. L'efecte dura: 1 hora; fins que l'objectiu rebi dany; fins que l'ataquis; o fins que et vegi malmetent als seus aliats.",
+				"Si actues durant 1 minut o més, pots provar d'inspirar a la teva audiència amb una cançó, un poema, o una dansa. Al final de l'actuació, tria d'1 al teu modificador de Carisma d'humanoides a 60 peus de tu que hagin vist l'actuació sencera. Cada objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Qui falli es queda {@condition charmed} per tu. {@condition charmed} així, cada objectiu t'idolitza i parla molt bé de tu a tothom que li parli; també obstaculitza a aquells que t'oposin, tot i que no seran violents si no estaven preparats ja per lluitar per tu abans. L'efecte dura: 1 hora; fins que l'objectiu rebi dany; fins que l'ataquis; o fins que et vegi malmentent als seus aliats.",
 				"Qui superi la salvada no sap que has provat de fascinar-lo.",
 				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
@@ -3250,9 +3250,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan t'uneixes al Col·legi del Glamur a nivell 3, aprèns a teixir màgia fata a l'actuació dels teus aliats; donant-los vigor i velocitat.",
-				"Com a acció bonus, gastes un dels teus Daus d'Inspiració Bàrdica per a obtenir una aparença meravellosa. Escull d'1 a el teu modificador de Carisma en criatures que et puguin veure a 60 peus de tu; cadascuna rep 5 punts de vida temporals. Quan els rebi pot, immediatament com a reacció, moure's fins la seva velocitat sencera sense provocar atacs d'oportunitat.",
-				"Els of punts de vida temporals canvien quan puges de nivell en aquesta classe: 8 a nivell 5, 11 a nivell 10, and 14 a nivell 15."
+				"Quan t'uneixes al Col·legi del Glamur a nivell 3, aprèn a teixir màgia fata a l'actuació dels teus aliats; donant-los vigor i velocitat.",
+				"Com a acció bonus, gastes un dels teus Daus d'Inspiració Bàrdica per a obtenir una aparença meravellosa. Escull d'1 al teu modificador de Carisma en criatures que et puguin veure a 60 peus de tu; cadascuna rep 5 punts de vida temporals. Quan els rebi pot, immediatament com a reacció, moure's fins la seva velocitat sencera sense provocar atacs d'oportunitat.",
+				"Els de punts de vida temporals canvien quan puges de nivell en aquesta classe: 8 a nivell 5, 11 a nivell 10, and 14 a nivell 15."
 			]
 		},
 		{
@@ -3266,7 +3266,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, ets capaç de cobrir-te de màgia fata que fa que els altres vulguin servir-te. Com a acció bonus, llances el conjur {@spell ordre imperativa}, sense gastar cap ranura de conjur, i adoptes l'aparença d'una bellesa de fora d'aquest món durant 1 minut o fins que se't trenqui la concentració (com si et concentressis en un conjur). Mentre duri l'efecte pots llançar el conjur {@spell ordre imperativa} com a acció bonus a cada torn teu, sense gastar cap ranura de conjur.",
+				"A nivell 6, ets capaç de cobrir-te de màgia fata que fa que els altres vulguin servir-te. Com a acció bonus, llances el conjur {@spell ordre imperativa}, sense gastar cap ranura de conjur, i adoptes l'aparença d'una bellesa de fora d'aquest món durant 1 minut o fins que se't trenqui la concentració ( com si et concentressis en un conjur). Mentre duri l'efecte pots llançar el conjur {@spell ordre imperativa} com a acció bonus a cada torn teu, sense gastar cap ranura de conjur.",
 				"Tota criatura {@condition charmed} per tu falla la salvada d'{@spell ordre imperativa} d'aquest tret automàticament.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
@@ -3283,8 +3283,8 @@
 			"header": 2,
 			"entries": [
 				"A nivell 14, la teva aparença guanya algun aspecte extraterrestre permanent que et fa o més afable o més temible.",
-				"A més, com a acció bonus, pots assumir una presència màgica durant 1 minut o fins que et quedis {@condition incapacitated}. Durent l'efecte, quan tota criatura provi d'impactar-te per primer cop en un torn, l'atacant ha de salvar per Carisma contra la teva CD de salvació de conjur. Si falla, no et pot atacar aquest torn i ha d'escollir un nou objectiu per l'atac detonant (o malgastar-lo). Si supera, et pot atacar aquest torn, però salva amb desavantatge contra els teus conjurs en el teu proper torn.",
-				"Un cop assumeixis aquesta presència majestàtica, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
+				"A més, com a acció bonus, pots assumir una presència màgica durant 1 minut o fins que et quedis {@condition incapacitated}. Durent l'efecte, quan tota criatura proves d'impactar-te per primer cop en un torn, l'atacant ha de salvar per Carisma contra la teva CD de salvació de conjur. Si falla, no et pot atacar aquest torn i ha d'escollir un nou objectiu per l'atac detonant (o malgastar-lo). Si supera, et pot atacar aquest torn, però salva amb desavantatges contra els teus conjurs en el teu proper torn.",
+				"Un cop assumeix aquesta presència majestuosa, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -3297,9 +3297,9 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Bards of the Col·legi d'Espases are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. Though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.",
-				"Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust a blade in their ranks.",
-				"Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
+				"Els bards del Col·legi d'Espases s'anomenen fulles i s'entretenen amb gestes agosarades d'armes. Les fulles realitzen acrobàcies com ara empassar espases, llançar ganivets i fer malabars, i simulacres de combat. Tot i que fan servir les seves armes per entretenir-se, també són guerrers molt entrenats i hàbils per dret propi.",
+				"El seu talent amb les armes inspira moltes fulles per portar vides dobles. Una fulla podria utilitzar una companyia de circ com a coberta per a actes nefasts com l'assassinat, el robatori i el xantatge. Altres fulles xoquen contra els malvats, fent justícia contra els cruels i poderosos. La majoria de les companyies estan encantades d'acceptar el talent d'una pala per l'emoció que afegeix a una actuació, però pocs animadors confien plenament en una fulla a les seves files.",
+				"Els blades que abandonen les seves vides com a animadors sovint han tingut problemes que fan impossible mantenir les seves activitats secretes. Una fulla atrapada robant o participant en la justícia vigilant és una responsabilitat massa gran per a la majoria de les companyies. Amb les seves habilitats d'armes i màgia, aquestes fulles ocupen la feina com a encarregats dels gremis de lladres o s'enfronten soles com a aventurers.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Competències Adicionals|Bard||Espases|XGE|3"
@@ -3325,10 +3325,10 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, demostres grans avenços marcials i de velocitat.",
-				"Quan prèns l'acció {@action Atacar} en el teu torn, la teva velocitat de caminar incrementa en 10 peus fins el final del torn, i si un atac (part d'aquesta acció) impacta a una criatura pots escollir una de les opcions Fulla Filigrana (escull). Només pots escollir una opció Fulla Filigrana per torn.",
+				"A nivell 3, demostra grans avenços marcials i de velocitat.",
+				"Quan prèn l'acció {@action Atacar} en el teu torn, la teva velocitat de caminar incrementa en 10 peus fins el final del torn, i si un atac (part d'aquesta acció) impacta a una criatura pots escollir una de les opcions Fulla Filigrana (escull). Només pots triar una opció Fulla Filigrana per torn.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
@@ -3358,7 +3358,7 @@
 			"header": 1,
 			"entries": [
 				"Quan t'uneixes al Col·legi d'Espases a nivell 3, reps competència amb armadures intermitges i amb {@item simitarra|phb}.",
-				"Si tens competència amb una arma simple o marcial, la pots fer servir com a focus de llançament arcà pels teus conjurs de bard."
+				"Si tens competència amb una arma simple o marcial, les pots fer servir com a focus de llançament arc pels teus conjurs de bard."
 			]
 		},
 		{
@@ -3372,17 +3372,17 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, t'especialitzes en un estil de lluita. Escull una de les opcions següents. No pots adoptar un Estil de Lluita més d'un cop, fins i tot si alguna altra cosa te'n permet escollir un altre.",
+				"A nivell 3, t'especialitzes en un estil de lluita. Escull una de les opcions següents. No pots adoptar un Estil de Lluita més d'un cop, fins i tot si alguna altra cosa et permet escollir un altre.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Duelista"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Lluita amb Armes Duals"
 						}
 					]
@@ -3414,7 +3414,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, quan uses una opció Fulla Filigrana pots tirar un {@dice d6} i usar-lo en ves de gastar un Dau d'Inspiració Bàrdica."
+				"Començant a nivell 14, quan utilitza una opció Fulla Filigrana pots tirar un {@dice d6} i usar-lo en ves de gastar un Dau d'Inspiració Bàrdica."
 			]
 		},
 		{
@@ -3427,8 +3427,8 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Most folk are happy to welcome a bard into their midst. Bards of the Col·legi dels Xiuxiuejos use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the Col·legi dels Xiuxiuejos teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.",
-				"Many other bards hate the Col·legi dels Xiuxiuejos, viewing it as a parasite that uses a bard's reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.",
+				"La majoria de la gent està encantada de donar la benvinguda a un bard entre ells. Els bards del Col·legi dels Xiuxiuejos l'aprofiten. Sembla que són com altres bardes, compartint notícies, canten cançons i expliquen contes al públic que reuneixen. De fet, el Col·legi dels Xiuxiuejos ensenya als seus alumnes que són llops entre ovelles. Aquests bards utilitzen els seus coneixements i màgia per descobrir secrets i posar-los contra els altres mitjançant l'extorsió i les amenaces.",
+				"Molts altres bards odien el Col·legi dels Xiuxiuejos, considerant-lo com un paràsit que utilitza la reputació d'un bard per adquirir riquesa i poder. Per aquest motiu, els membres d'aquest col·legi poques vegades revelen la seva veritable naturalesa. Normalment afirmen seguir alguna altra universitat, o mantenen la seva vocació en secret per infiltrar-se i explotar les corts reials i altres escenaris de poder.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Punyals Psíquics|Bard||Xiuxiuejos|XGE|3"
@@ -3467,8 +3467,8 @@
 			"header": 1,
 			"entries": [
 				"A nivell 3, infòns màgia terrorífica i subtil a les teves paraules que semblen innocents.",
-				"Si parles amb un humanoide durant 1 minut o més, pots provar de causar-li paranoia. Al final de la conversa, l'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Si falla, està {@condition frightened} de tu o una d'altra criatura (escull). Es queda {@condition frightened} així: durant 1 hora; fins que sigui atacada o malmesa; o fins que vegi un dels seus aliats sent atacats.",
-				"Si supera la salvada, l'objectiu no sap que has provat d'acovardir-lo.",
+				"Si parles amb un humanoide durant 1 minut o més, pots provar de causar-li paranoia. Al final de la conversa, l'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Si falla, està {@condition frightened} de tu o una d'altra criatura (escull). Es queda {@condition frightened} així: durant 1 hora; fins que sigui atacada o malmesa; o fins que vegi un dels seus aliats enviats atacats.",
+				"Si supera la salvada, l'objectiu no sap que ha provat d'acovardir-lo.",
 				"Un cop empris aquest tret, no pots tornar-hi fins que acabis un Descans Curt o Llarg."
 			]
 		},
@@ -3485,7 +3485,7 @@
 			"entries": [
 				"A nivell 6, ets capaç de suplentar la identitat d'un humanoide. Quan un humanoide mor 30 peus de tu, pots capturar la seva ombra màgicament com a reacció. Reténs la sea ombra fins que la facis servir o acabis un descans llarc.",
 				"Puts fer servir l'ombra com a acció. Quan ho facis s'esvaneix i es torna una disfressa que se't posa automàticament. Ara tens l'aparença física de l'humanoide, però viu i saludable. La disfressa dura 1 hora o fins que l'acabis com a acció bonus.",
-				"Amb aquest camuflatge tens accés a tota la informació que l'humanoide compartiria amb un conegut amistós: el seu rerefons i la seva vida personal, però no secrets. La informació és suficient per suplantar la identitat de l'humanoide.",
+				"Amb aquest camuflatge tens accés a tota la informació que l'humanoide comparteix amb un conegut amics: el seu refons i la seva vida personal, però no hi ha secrets. La informació és suficient per suplantar la identitat de l'humanoide.",
 				"Una altra criatura pot descobrir l'engany tirant per Saviesa ({@skill Insight}) contra la teva tirada de Carisma ({@skill Deception}). Tens un +5 a la tirada.",
 				"Només pots tenir una ombra capturada alhora, i no en pots capturar cap altra fins que acabis un Descans Curt o Llarg."
 			]
@@ -3501,11 +3501,11 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, infóns màgia fosca a les teves paraules per aprofitar-te de les pors més intrínsiques d'algú.",
-				"Com a acció, xiuxiueges una frase màgica que només pot sentir una critura (escull) a 30 peus. L'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Supera automàticament si no pot sentir-te o no compartiu un idioma. Si supera, els xiuxiuejos li són incomprensibles: el tret no fa efecte.",
-				"Si falla, esdevé {@condition charmed} per tu durant les properes 8 hores o fins que tu o els teus aliats l'ataquey, danyeu, o el feu salvar. Sent dels xiuxiuejos que coneixes un secret terrible. No saps quin és, però l'objectiu està convençut que el saps.",
+				"A nivell 14, infons màgia fosca a les teves paraules per aprofitar-te dels pors més intrínsiques d'algú.",
+				"Com a acció, xiuxiueges una frase màgica que només pot sentir una critura (escull) a 30 peus. L'objectiu ha de salvar per Saviesa contra la teva CD de salvació de conjur. Supera automàticament si no pot sentir-te o no compartir un idioma. Si supera, els xiuxiuejos li són incomprensibles: el tret no fa efecte.",
+				"Si falla, esdevé {@condition charmed} per tu durant les properes 8 hores o fins que tu o els teus aliats l'ataquey, danyeu, o el feu salvar. Sent dels xiuxiuejos que coneix un secret terrible. No saps quin és, però l'objectiu està convençut que el saps.",
 				"{@condition charmed} així, obeeix les teves ordres sota la por de que desvelis el secret. No lluitarà ni es sacrificarà per tu si no estava preparat per fer-ho abans de l'efecte. Et fa favors i et dona regals com si fossis un amic proper.",
-				"Quan l'efecte acaba l'objectiu no entèn per què et tenia tanta por.",
+				"Quan l'efecte acaba l'objectiu no entén per què et tenia tanta per.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -3519,11 +3519,11 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Quan impactes amb un atac armar, pots gastar un dels teus Daus d'Inspiració Bàrdica i el tires. Suma el resultat com a dany extra. També el pots sumar a la teva CA fins l'inici del teu proper torn."
+				"Quan impactes amb un atac armar, pots gastar un dels teus Daus d'Inspiració Bàrdica i els tires. Suma el resultat com a dany extra. També el pots sumar a la teva CA fins l'inici del teu proper torn."
 			]
 		},
 		{
-			"name": "Filigrana Moviment",
+			"name": "Moviment Filigrana",
 			"source": "XGE",
 			"page": 15,
 			"className": "Bard",
@@ -3532,7 +3532,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Quan impactes amb un atac armat, pots gastar un dels teus Daus d'Inspiració Bàrdica i el tires. Sumes el resultat com a dany extra. També pots empènyer a l'objectiu 5 + el resultat de peus lluny de tu; immediatament després pots, com a reacció, moure't fins la teva velocitat de caminar a un espai desocupat a 5 peus de l'objectiu."
+				"Quan impactes amb un atac armat, pots gastar un dels teus Daus d'Inspiració Bàrdica i els tires. Sumes el resultat com a dany extra. També pots empènyer a l'objectiu 5 + el resultat de peus lluny de tu; immediatament després pots, com a reacció, moure't fins la teva velocitat de caminar a un espai desocupat a 5 peus de l'objectiu."
 			]
 		},
 		{
@@ -3545,7 +3545,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Gastes un dels teus Daus d'Inspiració Bàrdica i el tires: afegeixes el resultat com a dany extra de l'objectiu; també causes el resultat com a dany a una altre criatura que puguis veure a 5 peus de tu.."
+				"Gastes un dels teus Daus d'Inspiració Bàrdica i el tires: afegeix el resultat com a dany extra de l'objectiu; també causes el resultat com a dany a una altra criatura que pugui veure a 5 peus de tu.."
 			]
 		}
 	]

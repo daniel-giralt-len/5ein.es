@@ -15,24 +15,24 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
+					"llum",
 					"mitjà",
 					"{@item shield|phb|shields}"
 				],
 				"weapons": [
-					"simple",
-					"martial"
+					"senzill",
+					"marcial"
 				],
 				"skills": [
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"athletics",
-								"intimidation",
-								"nature",
-								"perception",
-								"survival"
+								"maneig d'animals",
+								"atletisme",
+								"intimidació",
+								"naturalesa",
+								"percepció",
+								"supervivència"
 							],
 							"count": 2
 						}
@@ -42,7 +42,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) una {@item greataxe|phb} o bé (b) qualsevol {@filter martial arma cos a cos|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}",
+					"(a) una {@item greataxe|phb} o bé (b) qualsevol {@filter marcial arma cos a cos|items|source=phb|category=basic|type=martial weapon;mee weapon=sand}",
 					"(a) dos {@item handaxe|phb|handaxes} o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"An {@item pack d'exploració|phb}, i quatre {@item javelin|phb|javelins}"
 				],
@@ -54,20 +54,20 @@
 						],
 						"b": [
 							{
-								"equipmentType": "weaponMartialMelee"
+								"equipmentType": "armaMarcialMelee"
 							}
 						]
 					},
 					{
 						"a": [
 							{
-								"item": "handaxe|phb",
+								"item": "destral de mà|phb",
 								"quantity": 2
 							}
 						],
 						"b": [
 							{
-								"equipmentType": "weaponSimple"
+								"equipmentType": "armaSimple"
 							}
 						]
 					},
@@ -75,7 +75,7 @@
 						"_": [
 							"pack d'exploració|phb",
 							{
-								"item": "javelin|phb",
+								"item": "javelina|phb",
 								"quantity": 4
 							}
 						]
@@ -91,8 +91,8 @@
 						"{@item shield|phb|shields}"
 					],
 					"weapons": [
-						"simple",
-						"martial"
+						"senzill",
+						"marcial"
 					]
 				}
 			},
@@ -286,50 +286,50 @@
 				"Fúria Perenne|Bàrbar||15",
 				"Millora de Puntuació de Característica|Bàrbar||16",
 				"Competència Versàtil|Bàrbar||16|UAClassFeatureVariants",
-				"Crític Brutal (3 dice)|Bàrbar||17",
+				"Crític Brutal (3 daus)|Bàrbar||17",
 				"Poder Indomable|Bàrbar||18",
 				"Millora de Puntuació de Característica|Bàrbar||19",
 				"Competència Versàtil|Bàrbar||19|UAClassFeatureVariants",
 				"Campió Primordial|Bàrbar||20"
 			],
-			"subclassTitle": "Sender Primordial",
+			"subclassTitle": "Remitent primordial",
 			"fluff": [
 				{
 					"name": "Bàrbar",
-					"type": "section",
+					"type": "secció",
 					"entries": [
-						"A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's ant herd.",
-						"A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.",
-						"Frothing at the mouth, a dwarf slams his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another.",
-						"These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the Mar.",
-						"For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenesí but also uncanny reflexes, resilience, and feats of strength.",
+						"Un alt membre d'una tribu humana camina a través d'una tempesta de neu, embolicat de pell i aixecant la seva destral. Riu mentre carrega cap al gegant de les gelades que es va atrevir a robar el ramat de formigues del seu poble.",
+						"Un mig orc grunyeix a l'últim desafiador de la seva autoritat sobre la seva tribu salvatge, disposat a trencar-li el coll amb les seves mans nues com va fer amb els últims sis rivals.",
+						"Escumant a la boca, un nan colpeja el seu casc a la cara del seu enemic drow, després es gira per clavar el seu colze blindat a l'intestí d'un altre.",
+						"Aquests bàrbars, per diferents que siguin, es defineixen per la seva ràbia: una fúria desenfrenada, inextinguible i irreflexiva. Més que una mera emoció, la seva ira és la ferocitat d'un depredador arraconat, l'assalt implacable d'una tempesta, l'agitació agitada del Mar.",
+						"Per a alguns, la seva ràbia brolla d'una comunió amb esperits animals ferotges. D'altres treuen d'un dipòsit d'ira envoltat d'un món ple de dolor. Per a tot bàrbar, la ràbia és un poder que alimenta no només una batalla frenesí, sinó també reflexos, resistència i gestes de força estranys.",
 						{
-							"type": "entries",
-							"name": "Primal Instinct",
+							"type": "entrades",
+							"name": "Instint primigeni",
 							"entries": [
-								"People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature\u2014keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.",
-								"Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise."
+								"La gent de pobles i ciutats s'enorgulleix de com les seves maneres civilitzades els diferencien dels animals, com si negar la pròpia naturalesa fos una marca de superioritat. Per a un bàrbar, però, la civilització no és una virtut, sinó un signe de debilitat. Els forts abracen la seva naturalesa animal: instints aguts, físic primigeni i ràbia ferotge. Els bàrbars se senten incòmodes quan estan tancats per parets i multituds. Creixen a les zones salvatges de les seves terres d'origen: la tundra, la selva o les praderies on viuen i cacen les seves tribus.",
+								"Els bàrbars cobren vida en el caos del combat. Poden entrar en un estat de bogeria on la ràbia pren el relleu, donant-los força i resistència sobrehumanes. Un bàrbar pot aprofitar aquest dipòsit de fúria només unes quantes vegades sense descansar, però aquestes poques ràbias solen ser suficients per vèncer qualsevol amenaça que sorgeixi."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "A Life of Danger",
+							"type": "entrades",
+							"name": "Una vida de perill",
 							"entries": [
-								"Not every member of the tribes deemed \"barbarians\" by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don't have to.",
-								"Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties."
+								"No tots els membres de les tribus considerades \"bàrbars\" pels descendents de la societat civilitzada tenen la classe bàrbara. Un veritable bàrbar entre aquesta gent és tan poc comú com un lluitador hàbil en una ciutat, i té un paper similar com a protector de la gent i líder en temps de guerra. La vida als llocs salvatges del món està plena de perills: tribus rivals, clima mortal i monstres aterridors. Els bàrbars carreguen de cap en aquest perill perquè la seva gent no hagi de fer-ho.",
+								"El seu coratge davant el perill fa que els bàrbars siguin perfectes per a l'aventura. Vagar és sovint una forma de vida per a les seves tribus natives, i la vida sense arrels de l'aventurer és poca dificultat per a un bàrbar. Alguns bàrbars enyoren les unides estructures familiars de la tribu, però finalment les troben substituïdes pels vincles formats entre els membres dels seus grups aventurers."
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Creating a Bàrbar",
+							"type": "entrades",
+							"name": "Creació d'un Bàrbar",
 							"entries": [
-								"When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common?",
-								"What led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to \"civilized\" lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.",
+								"Quan creeu un personatge bàrbar, pensa d'on ve el teu personatge i el seu lloc al món. Parleu amb el vostre DM sobre un origen adequat per al vostre bàrbar. Vau venir d'una terra llunyana, convertint-vos en un desconegut a l'àmbit de la campanya? O la campanya està ambientada en una frontera difícil on els bàrbars són comuns?",
+								"Què et va portar a emprendre la vida aventurera? Us va atreure a les terres poblades per la promesa de riqueses? Vau unir forces amb els soldats d'aquelles terres per fer front a una amenaça compartida? Els monstres o una horda invasora et van expulsar de la teva terra natal, convertint-te en un refugiat sense arrels? Potser eres un presoner de guerra, portat encadenat a terres \"civilitzades\" i només ara pots guanyar-te la teva llibertat. O potser t'han expulsat de la teva gent a causa d'un crim que has comès, d'un tabú que has violat o d'un cop d'estat que t'ha eliminat d'una posició d'autoritat.",
 								{
-									"type": "entries",
-									"name": "Quick Build",
+									"type": "entrades",
+									"name": "Construcció ràpida",
 									"entries": [
-										"You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Força, followed by Constitució. Second, choose the {@background outlander} background."
+										"Podeu fer un bàrbar ràpidament seguint aquests suggeriments. Primer, posa la teva puntuació d'habilitat més alta a Força, seguida de Constitució. En segon lloc, trieu el fons {@background outlander}."
 									]
 								}
 							]
@@ -339,33 +339,33 @@
 					"page": 46
 				},
 				{
-					"type": "section",
+					"type": "secció",
 					"entries": [
 						{
-							"type": "quote",
+							"type": "citar",
 							"entries": [
-								"I have witnessed the indomitable performance of barbarians on the field of battle, and it makes me wonder what force lies at the heart of their rage."
+								"He estat testimoni de l'actuació indomable dels bàrbars al camp de batalla, i em fa preguntar-me quina força hi ha al cor de la seva ràbia."
 							],
-							"by": "Seret, archwizard"
+							"by": "Seret, arximago"
 						},
-						"The anger felt by a normal person resembles the rage of a barbarian in the same way that a gentle breeze is akin to a furious thunderstorm. The barbarian's driving force comes from a place that transcends mere emotion, making its manifestation all the more terrible. Whether the impetus for the fury comes entirely from within or from forging a link with a spirit animal, a raging barbarian becomes able to perform supernatural feats of strength and endurance. The outburst is temporary, but while it lasts, it takes over body and mind, driving the barbarian on despite peril and injury, until the last enemy falls.",
-						"It can be tempting to play a barbarian character that is a straightforward application of the classic archetype\u2014a brute, and usually a dimwitted one at that, who rushes in where others fear to tread. But not all the barbarians in the world are cut from that cloth, so you can certainly put your own spin on things. Either way, consider adding some flourishes to make your barbarian stand out from all others; see the following sections for some ideas.",
+						"La ràbia que sent una persona normal s'assembla a la ràbia d'un bàrbar de la mateixa manera que una brisa suau s'assembla a una tempesta furiosa. El motor del bàrbar prové d'un lloc que transcendeix la mera emoció, fent-ne encara més terrible la manifestació. Tant si l'impuls de la fúria ve totalment de dins com si forja un vincle amb un animal espiritual, un bàrbar furioso esdevé capaç de realitzar gestes sobrenaturals de força i resistència. L'esclat és temporal, però mentre dura, s'apodera del cos i la ment, impulsant el bàrbar malgrat els perills i les ferides, fins que cau l'últim enemic.",
+						"Pot ser temptador interpretar un personatge bàrbar que és una aplicació senzilla de l'arquetip clàssic: un brut, i normalment un tonto, que s'afanya allà on els altres temen trepitjar. Però no tots els bàrbars del món estan tallats d'aquest drap, de manera que segur que podeu donar el vostre propi gir a les coses. Sigui com sigui, penseu en afegir-hi algunes floritures perquè el vostre bàrbar destaqui de tots els altres; consulteu les seccions següents per obtenir algunes idees.",
 						{
-							"type": "entries",
-							"name": "Personal Totems",
+							"type": "entrades",
+							"name": "Tòtems personals",
 							"entries": [
-								"Barbarians tend to travel light, carrying little in the way of personal effects or other unnecessary gear. The few possessions they do carry often include small items that have special significance. A personal totem is significant because it has a mystical origin or is tied to an important moment in the character's life\u2014perhaps a remembrance from the barbarian's past or a harbinger of what lies ahead.",
-								"A personal totem of this sort might be associated with a barbarian's spirit animal, or might actually be the totem object for the animal, but such a connection is not essential. One who has a bear esperit totèmic, for instance, could still carry an eagle's feather as a personal totem.",
-								"Consider creating one or more personal totems for your character\u2014objects that hold a special link to your character's past or future. Think about how a totem might affect your character's actions.",
+								"Els bàrbars solen viatjar lleugers, portant pocs efectes personals o altres equips innecessaris. Les poques possessions que porten sovint inclouen objectes petits que tenen un significat especial. Un tòtem personal és significatiu perquè té un origen místic o està lligat a un moment important de la vida del personatge, potser un record del passat del bàrbar o un presagi del que ens espera.",
+								"Un tòtem personal d'aquest tipus pot estar associat amb l'esperit animal d'un bàrbar, o en realitat podria ser l'objecte tòtem de l'animal, però aquesta connexió no és essencial. Qui té un ós esperit totèmic, per exemple, encara podria portar una ploma d'àguila com a tòtem personal.",
+								"Considera la possibilitat de crear un o més tòtems personals per al teu personatge: objectes que tinguin un enllaç especial amb el passat o el futur del teu personatge. Penseu en com un tòtem pot afectar les accions del vostre personatge.",
 								{
-									"type": "table",
-									"caption": "Personal Totems",
+									"type": "taula",
+									"caption": "Tòtems personals",
 									"colLabels": [
-										"{@dice d6}",
-										"Totem"
+										"{@dis d6}",
+										"Tòtem"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -428,20 +428,20 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Tattoos",
+							"type": "entrades",
+							"name": "Tatuatges",
 							"entries": [
-								"The members of many barbarian clans decorate their bodies with tattoos, each of which represents a significant moment in the life of the bearer or the bearer's ancestors, or which symbolizes a feeling or an attitude. As with personal totems, a barbarian's tattoos might or might not be related to an animal spirit.",
-								"Each tattoo a barbarian displays contributes to that individual's identity. If your character wears tattoos, what do they look like, and what do they represent?",
+								"Els membres de molts clans bàrbars decoren el seu cos amb tatuatges, cadascun dels quals representa un moment significatiu en la vida del portador o dels avantpassats del portador, o que simbolitzen un sentiment o una actitud. Igual que amb els tòtems personals, els tatuatges d'un bàrbar poden estar relacionats o no amb un esperit animal.",
+								"Cada tatuatge que mostra un bàrbar contribueix a la identitat d'aquest individu. Si el teu personatge porta tatuatges, quin aspecte tenen i què representen?",
 								{
-									"type": "table",
-									"caption": "Tattoos",
+									"type": "taula",
+									"caption": "Tatuatges",
 									"colLabels": [
-										"{@dice d6}",
-										"Tattoo"
+										"{@dis d6}",
+										"Tatuatge"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -504,22 +504,22 @@
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Superstitions",
+							"type": "entrades",
+							"name": "Supersticions",
 							"entries": [
-								"Barbarians vary widely in how they understand life. Some follow gods and look for guidance from those deities in the cycles of nature and the animals they encounter. These barbarians believe that spirits inhabit the plants and animals of the world, and the barbarians look to them for omens and power.",
-								"Other barbarians trust only in the blood that runs in their veins and the steel they hold in their hands. They have no use for the invisible world, instead relying on their senses to hunt and survive like the wild beasts they emulate.",
-								"Both of these attitudes can give rise to superstitions. These beliefs are often passed down within a family or shared among the members of a clan or a hunting group.",
-								"If your barbarian character has any superstitions, were they ingrained in you by your family, or are they the result of personal experience?",
+								"Els bàrbars varien molt en com entenen la vida. Alguns segueixen els déus i busquen guia d'aquestes divinitats en els cicles de la natura i els animals que troben. Aquests bàrbars creuen que els esperits habiten les plantes i els animals del món, i els bàrbars els busquen presagis i poder.",
+								"Altres bàrbars confien només en la sang que corre per les seves venes i en l'acer que tenen a les mans. No serveixen per al món invisible, sinó que confien en els seus sentits per caçar i sobreviure com les bèsties salvatges que emulen.",
+								"Ambdues actituds poden donar lloc a supersticions. Aquestes creences sovint es transmeten dins d'una família o es comparteixen entre els membres d'un clan o un grup de caçadors.",
+								"Si el teu personatge bàrbar té alguna superstició, les va arrelar la teva família o són fruit de l'experiència personal?",
 								{
-									"type": "table",
-									"caption": "Superstition",
+									"type": "taula",
+									"caption": "Superstició",
 									"colLabels": [
-										"{@dice d6}",
-										"Superstition"
+										"{@dis d6}",
+										"Superstició"
 									],
 									"colStyles": [
-										"col-1 text-center",
+										"col-1 centre de text",
 										"col-11"
 									],
 									"rows": [
@@ -698,7 +698,7 @@
 			"classSource": "PHB",
 			"page": 1,
 			"isReprinted": true,
-			"spellcastingAbility": "wis",
+			"spellcastingAbility": "sabia",
 			"subclassFeatures": [
 				"Sender dels Guardians Ancestrals v2|Bàrbar||Guardians Ancestrals v2 (UA)|UARevisedSubclasses|3",
 				"Escut Ancestral|Bàrbar||Guardians Ancestrals v2 (UA)|UARevisedSubclasses|6",
@@ -708,12 +708,12 @@
 		},
 		{
 			"name": "Sender dels Guardians Ancestrals",
-			"shortName": "Ancestral Guardian",
+			"shortName": "Guardià ancestral",
 			"source": "XGE",
 			"className": "Bàrbar",
 			"classSource": "PHB",
 			"page": 9,
-			"spellcastingAbility": "wis",
+			"spellcastingAbility": "sabia",
 			"additionalSpells": [
 				{
 					"innate": {
@@ -830,17 +830,17 @@
 			"level": 1,
 			"entries": [
 				"Lluites cada batalla amb una ferocitat primordial. En el teu torn, pots, com a acció bonus, entrar en fúria.",
-				"Mentre estiguis en fúria, reps els beneficis següents (si no vesteixes armadura pesada):",
+				"Mentre sigues en fúria, reps els beneficis següents (si no vesteixes armadura pesada):",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Tens avantatge a tirades i salvades de Força.",
+						"Tens avantatges a tirades i salvades de Força.",
 						"Quan fas un atac armat cos a cos emprant Força, tens un +2 a la tirada de dany. Aquest bonus incrementa amb el teu nivell.",
 						"Tens resistència al dany contundent, perforant, i tallant."
 					]
 				},
-				"Si tens llançament de conjurs, no en pots llançar ni concentrar-te en un mentre estiguis en fúria.",
-				"La fúria dura 1 minut. Acaba prematurament: o bé si et quedes {@condition unconscious}; o bé si el teu torn acaba i no has atacat una criatura hostil des del teu torn passat i tampoc has rebut dany; o si decideixes acabar-la en el teu torn com a acció bonus.",
+				"Si tens llançament de conjurs, no en pots llançar ni concentrar-te en un mentre segueixen en fúria.",
+				"La fúria dura 1 minut. Acaba prematurament: o bé si et quedes {@condition inconscious}; o bé si el teu torn acaba i no has atacat una criatura hostil des del teu torn passat i tampoc has rebut dany; o si decideixes acabar-la en el teu torn com a acció bonus.",
 				"Quan hagis entrat en fúria tants cops com el teu nivell de bàrbar, no pots tornar-hi fins que acabis un Descans Llarg. Tens 2 fúries a nivell 1, 3 a nivell 3, 4 a nivell 6, 5 a nivell 12, i 6 a nivell 17."
 			]
 		},
@@ -865,7 +865,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"A nivell 2, desenvolupes un sentit per detectar allò que no està a lloc; això et dona la possibilitat d'escapar de perills. Tens avantatge en salvades de Destresa contra efectes que puguis veure, com ara trampes i conjurs. Per rebre aquest benefici, no pots estar {@condition blinded}, {@condition deafened}, ni {@condition incapacitated}."
+				"A nivell 2, desenvolupes un sentit per detectar que no està a lloc; això et dona la possibilitat d'escapar de perills. Tens avantatges en salvades de Destresa contra efectes que puguis veure, com ara trampes i conjurs. Per rebre aquest benefici, no pots estar {@condition blinded}, {@condition deafened}, ni {@condition incapacitated}."
 			]
 		},
 		{
@@ -877,7 +877,7 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"Començant a nivell 2, pots descartar tota estratègia defensiva i lluitar amb una ira desesperada. Quan fas el teu primer atac del teu torn pots decidir Atacar Imprudentment. Això et dona avantatge a impactar amb atacs armats cos a cos que emprin Força durant aquest torn. Tanmateix, tota tirada d'impacte contra tu té avantatge fins el teu proper torn."
+				"Començant a nivell 2, pots descartar tota l'estratègia defensiva i lluitar amb una ira desesperada. Quan fas el teu primer atac del teu torn pots decidir Atacar Imprudentment. Això et dona avantatge a impactar amb atacs armats cos a cos que emprin Força durant aquest torn. Tanmateix, tota tirada d'impacte contra el teu té avantatge fins el teu proper torn."
 			]
 		},
 		{
@@ -890,8 +890,8 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de bàrbar de nivell 2 (substitueix Sentir el Perill)}",
-				"Tens competència en 2 habilitats (escull) de: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, o {@skill Survival}.",
-				"El teu bonus de competència es suma 2 cops (i no 1) amb les tirades de les habilitats escollides."
+				"Tens competència en 2 habilitats (escull) de: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, {@skill Perception} o {@skill Survival}.",
+				"El teu bonus de competència és suma 2 cops (i no 1) amb les tirades de les habilitats escollides."
 			]
 		},
 		{
@@ -908,7 +908,7 @@
 			]
 		},
 		{
-			"name": "Sender Primordial",
+			"name": "Remitent primordial",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
@@ -916,7 +916,7 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"A nivell 3, tries el sender que formarà l'origen de la teva fúria; escull-lo de la llista de senders. La teva elecció t'otorga trets als nivells 3, 6, 10, i 14s."
+				"A nivell 3, prova el remitent que formarà l'origen de la teva fúria; escull-lo de la llista de senders. La teva elecció t'otorga tres als nivells 3, 6, 10, i 14s."
 			]
 		},
 		{
@@ -928,7 +928,7 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"Quan arribes a nivell 4, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 4, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -943,7 +943,7 @@
 			"entries": [
 				"{@i tret de nivell 4 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -980,7 +980,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i tret de bàrbar de nivell 5 (substitueix Moviment Veloç)}",
-				"Quan una criatura acabi el seu torn a 15 peus de tu pots, com a reacció, acostar-t'hi fins la meitat de la teva velocitat. Aquest moviment no provoca atacs d'oportunitat."
+				"Quan una criatura acabi el seu torn a 15 peus de les teves pots, com a reacció, acostar-t'hi fins la meitat de la teva velocitat. Aquest moviment no provoca atacs d'oportunitat."
 			]
 		},
 		{
@@ -992,7 +992,7 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"A nivell 6, obténs un tret gràcies al Sender Primordial."
+				"A nivell 6, obtén un tret gràcies al Sender Primordial."
 			]
 		},
 		{
@@ -1004,7 +1004,7 @@
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"A nivell 7, els teus instints són tan aguts que tens avantatge a tirades d'iniciativa.",
+				"A nivell 7, els teus instints són tan aguts que tens avantatges a tirades d'iniciativa.",
 				"A més, si sorprès/a/i a l'inici d'un combat i no estàs {@condition incapacitated}, pots actuar normalment al primer torn, però has d'entrar en fúria abans de tot."
 			]
 		},
@@ -1030,7 +1030,7 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"Quan arribes a nivell 8, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 8, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1045,7 +1045,7 @@
 			"entries": [
 				"{@i tret de nivell 8 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1070,7 +1070,7 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"A nivell 10, obténs un tret gràcies al Sender Primordial."
+				"A nivell 10, obtén un tret gràcies al Sender Primordial."
 			]
 		},
 		{
@@ -1082,8 +1082,8 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"Començant a nivell 11, la fúria et permet seguir lluitant tot i haver patit ferides greus. Si et quedes a 0 punts de vida mentre estiguis en fúria i no mors immediatament, pots salvar per Constitució (CD 10). Si superes, et quedes a 1 punt de vida i no a 0.",
-				"Cada cop que empris aquest tret després del primer cop, la CD incrementa en 5. Quan acabis un Descans Llarg la CD torna a 10."
+				"Començant a nivell 11, la fúria i permet seguir lluitant tot i haver patit ferides greus. Si et quedes a 0 punts de vida mentre estan en fúria i no mors immediatament, pots salvar per Constitució (CD 10). Si superes, et quedes a 1 punt de vida i no a 0.",
+				"Cada cop que empris aquest tres després del primer cop, la CD incrementa en 5. Quan acabis un Descans Llarg la CD torna a 10."
 			]
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
-				"Quan arribes a nivell 12, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 12, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1110,7 +1110,7 @@
 			"entries": [
 				"{@i tret de nivell 12 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1135,7 +1135,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"A nivell 14, obténs un tret gràcies al Sender Primordial."
+				"A nivell 14, obtén un tret gràcies al Sender Primordial."
 			]
 		},
 		{
@@ -1159,7 +1159,7 @@
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
-				"Quan arribes a nivell 16, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 16, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1174,11 +1174,11 @@
 			"entries": [
 				"{@i tret de nivell 16 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
-			"name": "Crític Brutal (3 dice)",
+			"name": "Crític Brutal (3 daus)",
 			"source": "PHB",
 			"page": 46,
 			"srd": true,
@@ -1210,7 +1210,7 @@
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
-				"Quan arribes a nivell 19, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuacions de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
+				"Quan arribes a nivell 19, pots incrementar en 2 una puntuació de característica, o bé incrementar en 1 dos puntuació de característica (escull). No pots incrementar cap puntuació de característica per sobre de 20 mitjançant aquest tret.",
 				"Si el/la/li MM ho permet, pots no incrementar cap puntuació; a canvi, esculls un {@5etools tret|feats.html}."
 			]
 		},
@@ -1225,7 +1225,7 @@
 			"entries": [
 				"{@i tret de nivell 19 (augmenta Millora de Puntuació de Característica)}",
 				"Quan obtinguis el tret Millora de Puntuació de Característica de la teva classe, pots substituir una de les teves competències d'habilitat (qualsevol; no ha de ser de la teva classe) per una altra de la llista d'habilitats de la teva classe a nivell 1.",
-				"Aquest canvi representa l'atrofia en una de les teves habilitats ja que et centres en una altra."
+				"Aquest canvi representa l'atròfia en una de les teves habilitats ja que et centres en una altra."
 			]
 		},
 		{
@@ -1237,7 +1237,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"A nivell 20, encarnes a tot allò salvatge. Les teves puntuacions de Força i de Constitució incrementen en 4; els màxims d'aquestes puntuacions són ara 24."
+				"A nivell 20, encarnes a tot allò salvatge. Les teves puntuacions de Força i de Constitució incrementen en 4; els màxims d'aquestes puntuació són ara 24."
 			]
 		}
 	],
@@ -1253,7 +1253,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Per algunes persones bàrbares, la fúria és un mètode justificada pels fins (on els fins és la violència). El Sender dels Berserker és un camí de fúria desbocada i tacada de sang. Quan entres en fúria et deixes endur pel caos de la batalla i et despreocupes de la teva pròpia salut o benestar.",
+				"Per algunes persones bàrbares, la fúria és un mètode justificat pels fins (on els fins és la violència). El Sender dels Berserker és un camí de fúria desbocada i tacada de sang. Quan entres en fúria et deixes endur pel caos de la batalla i et despreocupes de la teva pròpia salut o benestar.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Frenesí|Bàrbar||Berserker||3"
@@ -1287,7 +1287,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, no pots ser {@condition charmed} ni {@condition frightened} mentre estiguis en fúria. Si estàs {@condition charmed} o {@condition frightened} quan entres en fúria, l'efecte se suspèn mentre duri la fúria."
+				"Començant al nivell 6, no pots ser {@condition charmed} ni {@condition frightened} mentre estàs en fúria. Si estàs {@condition charmed} o {@condition frightened} quan entres en fúria, l'efecte se suspèn mentre duri la fúria."
 			]
 		},
 		{
@@ -1302,8 +1302,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 10, pots, com a acció, acovardir a algú mitjançant la teva presència amenaçadora. Quan ho facis, escull una criatura que puguis veure a 30 peus d'abast. Ha de salvar per Saviesa (CD de 8 + el teu bonus de competència + el teu modificador de Carisma). Si falla, està {@condition frightened} de tu fins el final del teu proper torn. Als torns posteriors, pots, com a acció, extendre l'efecte damunt la criatura {@condition frightened} fins el final del teu proper torn. L'efecte acaba si la criatura s'allunya més de 60 peus de tu o si trenca línia visual amb tu.",
-				"Si la criatura supera la salvada, no pots tornar-li a aplicar aquest tret durant 24 hores."
+				"Començant a nivell 10, pots, com a acció, acovardir a algú mitjançant la teva presència amenaçadora. Quan ho facis, escull una criatura que pugui veure a 30 peus d'abast. Ha de salvar per Saviesa (CD de 8 + el teu bonus de competència + el teu modificador de Carisma). Si falla, està {@condition frightened} de tu fins el final del teu proper torn. Als torns posteriors, pots, com a acció, estendre l'efecte damunt la criatura {@condition frightened} fins el final del teu proper torn. L'efecte acaba si la criatura s'allunya més de 60 peus de tu o si trenca línia visual amb tu.",
+				"Si la criatura supera la salvada, no pots tornar-li a aplicar aquest tres durant 24 hores."
 			]
 		},
 		{
@@ -1318,7 +1318,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, quan reps dany d'una criatura a 5 peus d'abast pots, com a reacció, fer un atac armat cos a cos contra aquella criatura."
+				"Començant a nivell 14, quan reps dany d'una criatura a 5 peus d'abast pots, com a reacció, fer un atac armat cos a contra aquella criatura."
 			]
 		},
 		{
@@ -1331,7 +1331,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Mentre estiguis en fúria, tens resistència a tot tipus de dany excepte dany psíquic. L'esperit de l'ós et dona prou força com per a aguantar qualsevol càstig."
+				"Mentre continues en fúria, tens resistència a tot tipus de dany excepte dany psíquic. L'esperit de l'ós et dona prou força com per a aguantar qualsevol càstig."
 			]
 		},
 		{
@@ -1344,7 +1344,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Mentre estiguis en fúria i no vesteixis armadura pesada, impactar-te a tu es fa amb desavantatge i pots, com a acció bonus, emprar l'acció {@action Córrer} en el teu torn. L'esperit de l'àliga et torna un depredador que es mou amb facilitat."
+				"Mentre estiguis en fúria i no vesteixis armadura pesada, impactar-te a tu et fa amb desavantatges i pots, com a acció bonus, emprar l'acció {@action Córrer} en el teu torn. L'esperit de l'àliga et torna un depredador que es mou amb facilitat."
 			]
 		},
 		{
@@ -1357,8 +1357,8 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"The Sender dels Guerrers del Tótem is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your esperit totèmic fills you with supernatural might, adding magical fuel to your barbarian rage.",
-				"Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
+				"El Sender dels Guerrers del Tótem és un viatge espiritual, ja que el bàrbar accepta un esperit animal com a guia, protector i inspiració. A la batalla, el teu esperit totèmic t'omple de poder sobrenatural, afegint combustible màgic a la teva ràbia bàrbara.",
+				"La majoria de les tribus bàrbares consideren que un animal tòtem és familiar d'un clan en particular. En aquests casos, és inusual que un individu tingui més d'un esperit animal tòtem, encara que hi ha excepcions.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Cerca-Esperits|Bàrbar||Guerrers del Tótem||3"
@@ -1379,7 +1379,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Mentre estiguis en fúria, els teus aliats tenen avantatge a impactar cos a cos contra tota criatura a 5 peus de tu que et sigui hostil. L'esperit del llop et fa líder de la manada."
+				"Mentre sigues en fúria, els teus aliats tenen avantatge a impactar cos a contra tota criatura a 5 peus de tu que et sigui hostil. L'esperit del llop et fa líder de la manada."
 			]
 		},
 		{
@@ -1407,10 +1407,10 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, quan escullis aquest sender, esculls un esperit totèmic i n'obtén el tret. Abans de tot has d'adquirir un objecte físic que et faci de tòtem (com ara un amulet) que tingui parts de l'animal (urpes, dents, plomes, pelatge...). Si vols, també desenvolupes canvis físics que t'assemblin al teu esperit totèmic: si has triat l'ós la teva pell potser és molt gruixuda o molt peluda; si és l'àguila, els teus ulls es tornen grocs.",
+				"A nivell 3, quan escullis aquest sender, esculls un esperit totèmic i n'obtén el tret. Abans de tot has d'adquirir un objecte físic que et faci de tòtem (com ara un amulet) que té parts de l'animal (urpes, dents, plomes, pelatge...). Si vols, també desenvolupes canvis físics que t'assemblin al teu esperit totèmic: si has triat l'ós la teva pell potser és molt gruixuda o molt peluda; si és l'àguila, els teus ulls es tornen grocs.",
 				"El teu animal totèmic pot ser el de la llista o un més vinculat a la teva terra natal: per exemple, un falcó o un voltor en ves d'una àguila.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
@@ -1447,7 +1447,7 @@
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"Tens el poder dels óssos. La teva capacitat de càrrega (incloent càrrega màxima i aixecar màxim) es duplica. També tens avantatge en tirades de Força per empènyer, estibar, aixecar, o trencar objectes."
+				"Tens el poder dels óssos. La teva capacitat de càrrega (incloent càrrega màxima i aixecar màxima) és duplicada. També tens avantatges en tirades de Força per empènyer, estibar, aixecar, o trencar objectes."
 			]
 		},
 		{
@@ -1489,7 +1489,7 @@
 			"entries": [
 				"A nivell 6, obtén un benefici màgic d'un tòtem animal que escullis. Pots escollir el mateix animal del nivell 3 o un de diferent.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
@@ -1527,7 +1527,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, pots llançar el conjur {@spell comunió amb la natura} com a ritual. Quan ho fas, t'apareix una versió espiritual d'un dels teus animals totèmics del tret Esperit Totèmic o l'Aspecte de la Bèstia i et dona el coneixement que anheles."
+				"A nivell 10, pots llançar el conjur {@spell comunió amb la natura} com a ritual. Quan ho fas, t'apareix una versió espiritual d'un dels teus animals totèmics del tret Esperit Totèmic o l'Aspecte de la Bèstia i dona el coneixement que anheles."
 			]
 		},
 		{
@@ -1540,7 +1540,7 @@
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"Mentre estiguis en fúria, tota criatura a 5 peus de tu que et sigui hostil té desavantatge a tirades d'impacte contra altres objectius que no siguin tu o aquells que també tinguin aquest tret. Tot enemic és immune a aquest efecte si no et pot veure ni sentir-te, o si és immune a ser can't be {@condition frightened}."
+				"Mentre estàs en fúria, tota criatura a 5 peus de tu que et sigui hostil té desavantatge a tirades d'impacte contra altres objectius que no siguin tu o aquells que també tinguin aquest tret. Tot enemic és immune a aquest efecte si no et pot veure ni sentir-te, o si és immune a ser can't be {@condition frightened}."
 			]
 		},
 		{
@@ -1553,7 +1553,7 @@
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"Mentre estiguis en fúria, tens una velocitat de vol equivalent a la teva velocitat de caminar. Només pots volar en períodes curts; si acabes el teu torn a l'aire i res et manté allà, caus."
+				"Mentre estàs en fúria, tens una velocitat de vol equivalent a la teva velocitat de caminar. Només pots volar en períodes curts; si acabes el teu torn a l'aire i res i manté tot, caus."
 			]
 		},
 		{
@@ -1566,7 +1566,7 @@
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"Mentre estiguis en fúria, pots, com a acció bonus, en el teu torn, fer caure {@condition prone} a una criatura Gran o menor quan l'impactis amb un atac armat cos a cos."
+				"Mentre sigues en fúria, pots, com a acció bonus, en el teu torn, fer caure {@condition prone} a una criatura Gran o menor quan l'impactes amb un atac armat cos a cos."
 			]
 		},
 		{
@@ -1582,7 +1582,7 @@
 			"entries": [
 				"A nivell 14, reps un benefici màgic basat en l'animal totèmic que escullis. Pots triar el mateix animal que hagis triat abans o un de diferent.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
@@ -1619,7 +1619,7 @@
 			"subclassSource": "SCAG",
 			"level": 3,
 			"entries": [
-				"Els Furiabatalla també són coneguts com a Kuldjargh (els idiotes de la destral en Nannès) i són nans que segueixen els déus de la guerra. Solen vestir, {@item spiked armor|scag} pesada i aparatosa i es llencen a la batalla colpejant amb el seu propi cos enmig del caos de la batalla.",
+				"Els Furiabatalla també són coneguts com a Kuldjargh (els idiotes de la destral en Nannès) i són nans que segueixen els déus de la guerra. Solen vestir, {@item spiked armor|scag} pesada i llencen a la batalla amb el seu propi cos enmig del caos de la batalla.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Restricció - Només Nans|Bàrbar||Furiabatalla|SCAG|3"
@@ -1642,8 +1642,8 @@
 			"header": 1,
 			"entries": [
 				"Quan esculls aquest sender a nivell 3, guanyes l'habilitat d'emprar la {@item spiked armor|scag} com a arma.",
-				"Mentre vesteixis {@item spiked armor|scag} i estiguis en fúria, pots, com a acció bonus, fer un atac armat cos a cos amb les punxes de la teva armadura a un objectiu a 5 peus d'abast. Si impactes, les punxes fan {@damage 1d4} de dany perforant. Pots emprar el teu modificador de Força per les tirades d'impacte i de dany.",
-				"A més, quan prèns l'acció {@action Atacar} per a apresar una criatura, l'objectiu rep 3 de dany perforant si superes la tirada de presa."
+				"Mentre vesteixis {@item spiked armor|scag} estic en fúria, pots, com a acció bonus, fer un atac armat com a cos amb les punxes de la teva armadura a un objectiu a 5 peus d'abast. Si impactes, les punxes fan {@damage 1d4} de dany perforant. Pots emprar el teu modificador de Força per les tirades d'impacte i de dany.",
+				"A més, quan prèn l'acció {@action Atacar} per a apresar una criatura, l'objectiu rep 3 de dany perforant si superes la tirada de presa."
 			]
 		},
 		{
@@ -1658,7 +1658,7 @@
 			"header": 1,
 			"entries": [
 				"Només els nans poden seguir el Sender dels Furiabatalla. Els furiabatalla formen una part molt específica de la societat i la cultura nanes.",
-				"El/la/li MM pot treure aquesta restricció si encaixa a la campanya. Aquesta restricció existeix pels Regnes Oblidats. Consulta-ho amb el/la/li MM."
+				"El/la/li MM pot treure aquesta restricció si encaixa a la campanya. Aquesta restricció existeix pels Regnes Obligats. Consulta-ho amb el/la/li MM."
 			]
 		},
 		{
@@ -1672,7 +1672,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, quan empris el tret Atac Imprudent mentre estiguis en fúria, reps punts de vida temporals equivalent al teu modificador de Constitució (mínim d'1). S'esvaeixen si te'n queden quan acaba la teva fúria."
+				"Començant a nivell 6, quan empris el tret Atac Imprudent mentre està en fúria, reps punts de vida temporals equivalents al teu modificador de Constitució (mínim d'1). S'esvaeixen si te'n queden quan acaba la teva fúria."
 			]
 		},
 		{
@@ -1700,7 +1700,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, quan una criatura a 5 peus de tu t'impacti amb un atac cos a cos, l'atacant rep 3 de dany perforant mentre: estiguis en fúria; no estiguis {@condition incapacitated}; i vesteixis {@item spiked armor|scag}."
+				"Començant a nivell 14, quan una criatura a 5 peus de tu t'impacti amb un atac cos a cos, l'atacant rep 3 de dany perforant mentre: segueix en fúria; no hi ha {@condition incapacitated}; i vesteixis {@item spiked armor|scag}."
 			]
 		},
 		{
@@ -1713,17 +1713,17 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Les persones bàrbares que caminen el Sender de les Bèsties treuen la seva fúria de l'espurna bestial que tenen a l'ànima. La bèstia emergeix d'elles durant la fúria i les arriben a transformar físicament.",
+				"Les persones bàrbares que caminen el Sender de les Bèsties treuen la seva fúria de l'espurna bestial que tenen a l'ànima. La bèstia emergeix d'elles durant la fúria i els arriben a transformar físicament.",
 				"Potser els bàrbars tinguin un esperit primordial dins seu, o tal vegada descendeixin d'un canviaformes. Pots tirar l'origen del teu poder ferotge o triar-lo tirant a la taula Origen de la Bèstia.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Origen de la Bèstia",
 					"colLabels": [
 						"d4",
 						"Origen"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -1763,26 +1763,26 @@
 			"header": 1,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 3}",
-				"Quan entris en fúria, et pots transformar, revelant el poder bestial que contens. Fins que se t'acabi la fúria, manifestes una arma natural. Es considera una arma cos a cos simple per a tu; afegeixes el teu modificador de Força a les tirades d'impacte i de dany quan ataquis amb ella (com de costum).",
+				"Quan entras en fúria, et pots transformar, revelant el poder bestial que conté. Fins que se t'acabi la fúria, manifesta una arma natural. Es considera una arma cos a cos simple per a tu; afegeix el teu modificador de Força a les tirades d'impacte i de dany quan ataquis amb ella (com de costum).",
 				"Esculls la forma de l'arma cada cop que entres en fúria:",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Mossegada.",
-							"entry": "La teva boca es transforma en un morro de bèstia o en mandíbules enormes (escull). Quan impactes, fa {@damage 1d8} de dany perforant. Un cop a cada torn teu, quan facis dany amb aquesta mossegada, recuperes el teu bonus de competència en punts de vida; tanmateix, no pots tenir més de la teva meitat de punts màxims de vida quan impactis."
+							"entry": "La teva boca es transforma en un morro de bèstia o en mandíbules enormes (escull). Quan impactes, fa {@damage 1d8} de dany perforant. Un cop a cada torn teu, quan facis dany amb aquesta mossegada, recupera el teu bonus de competència en punts de vida; tanmateix, no pots tenir més de la teva meitat de punts màxims de vida quan impactes."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Urpes.",
-							"entry": "Cada mà teva es torna en urpes, i les pots fer servir per atacar si estan buides. Si impacta, fa {@damage 1d6} de dany tallant. Un cop a cada torn teu quan ataquis amb una urpa amb l'acció {@action Atacar}, pots fer un atac amb l'Urpa extra com a part de la mateixa acció."
+							"entry": "Cada mà teva és torna en urpes, i els pots fer servir per atacar si estan buides. Si impacta, fa {@damage 1d6} de dany tallant. Un cop a cada torn teu quan ataquis amb una urpa amb l'acció {@action Atacar}, pots fer un atac amb l'Urpa extra com a part de la mateixa acció."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Cua.",
-							"entry": "Et creix una cua gruixuda i amb punxes que fa {@damage 1d8} de dany perforant quan impacta; a més, té la propietat abast. Si una criatura que puguis veure a 10 peus t'impacta amb un atac pots, com a reacció, atacar amb la cua i tirar un {@dice d8} i el sumes com a bonus a la CA, causant, potser, que l'impacte falli."
+							"entry": "Et creix una cua gruixuda i amb punxes que fa {@damage 1d8} de dany perforant quan impacta; a més, té la propietat abast. Si una criatura que pugui veure a 10 pocs t'impacta amb un atac pots, com a reacció, atacar amb la cua i tirar un {@dice d8} i el sumes com a bonus a la CA, causant, potser, que l' impacte falli."
 						}
 					]
 				}
@@ -1800,14 +1800,14 @@
 			"header": 2,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 6}",
-				"El poder ferèstec que tens a dins creix: les armes del tret Forma de la Bèstia es consideren màgiques quant a ignorar resistències i immunitats a atacs i dany no-màgic.",
+				"El poder ferèstec que tens a dins creix: els armes del tret Forma de la Bèstia es considera màgiques quant a ignorar resistències i immunitats a atacs i dany no-màgic.",
 				"També pots adaptar la teva forma física al teu entorn. Quan acabis un Descans Curt o Llarg, escull un dels beneficis següents, que duren fins que acabis el teu proper Descans Curt o Llarg:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Obténs una velocitat de natació equivalent a la teva velocitat de caminar, i pots respirar sota l'aigua.",
-						"Obténs una velocitat d'escalada equivalent a la teva velocitat de caminar, i pots escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat.",
-						"Quan saltes, pots fer una tirada de Força ({@skill Athletics}) i extendre el salt aquest número de peus. Només pots fer aquesta tirada especial un cop per torn."
+						"Obtén una velocitat de natació equivalent a la teva velocitat de caminar, i pots respirar sota l'aigua.",
+						"Obtén una velocitat d'escalada equivalent a la teva velocitat de caminar, i pots escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat.",
+						"Quan saltes, pots fer una tirada de Força (@skill Athletics}) i extendre el salt aquest nombre de peus. Només pots fer aquesta tirada especial un cop per torn."
 					]
 				}
 			]
@@ -1824,15 +1824,15 @@
 			"header": 2,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 10}",
-				"Quan impactis a una criatura amb les teves armes naturals mentre estiguis en fúria, la bèstia de dins teu pot maleïr-la amb la teva fúria. L'objectiu ha de salvar per Saviesa (la CD és 8 + el teu modificador de Constitució + el teu bonus de competència). Si falla, patirà un d'aquests efectes (escull):",
+				"Quan impactes a una criatura amb les teves armes naturals mentre estan en fúria, la bèstia de dins teu pot maleïr-la amb la teva fúria. L'objectiu ha de salvar per Saviesa (la CD és 8 + el teu modificador de Constitució + el teu bonus de competència). Si falla, patirà un d'aquests efectes (escull):",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"L'objectiu ha de, com a reacció, fer un atac cos a cos contra una altra criatura que escullis que pugui veure.",
+						"L'objectiu ha de, com a reacció, fer un atac perquè contra una altra criatura que esculli que pugui veure.",
 						"L'objectiu rep {@damage 2d12} de dany psíquic."
 					]
 				},
-				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots emprar aquest tres tants cops com el teu bonus de competència, i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -1847,9 +1847,9 @@
 			"header": 2,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 14}",
-				"La bèstia dins teu és tan poderosa que en pots extendre la seva ferocitat als altres, otorgant-los la resistència que ve d'unir-se a la teva cacera. Quan entris en fúria, pots designar a múltiples criatures que puguis veure a 30 peus de tu. Pots designar-ne tantes com el teu modificador de Constitució (mínim d'una).",
-				"Obténs 5 punts de vida temporals per cada criatura que accepti aquest tret. Fins que se t'acabi la fúria, tota criatura designada pot, un cop a cada torn seu, afegir {@dice d6} al dany d'un atac que impacti (i que faci dany).",
-				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"La bèstia dins teu és tan poderosa que en pots estendre la seva ferocitat als altres, otorgant-los la resistència que ve d'unir-se a la teva cacera. Quan entres en fúria, pots designar a múltiples criatures que puguin veure a 30 peus de tu. Pots designar-ne tantes com el teu modificador de Constitució (mínim d'una).",
+				"Obtén 5 punts de vida temporals per cada criatura que accepti aquest tret. Fins que se t'acabi la fúria, tota criatura designada pot, un cop a cada torn seu, afegir {@dice d6} al dany d'un atac que impacti (i que faci dany).",
+				"Pots emprar aquest tres tants cops com el teu bonus de competència, i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -1862,7 +1862,7 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Hi ha molts llocs al multivers plens de bellesa, d'emocions intenses, i de màgia que flueix amb llibertat; la Terra Fata, els Plans Superiors, i tot de reialmes irradien amb tanta força que poden arribar a influenciar a les persones. La gent bàrbara, tan vinculada amb els seus sentiments, són especialment sensibles a aquestes influències màgiques; i algunes persones les arriben a transformar. Aquestes caminen pel Sender de la Màgia Salvatge. Les persones Elfes, tíflins, aasimars, i genasi solen buscar aquest sender amb ganes de manifestar la màgia forània dels seus ancestres.",
+				"Hi ha molts llocs a molts molts de bellesa, d'emocions intenses, i de màgia que flueix amb llibertat; la Terra Fata, els Plans Superiors, i tot de reialmes irradien amb tanta força que poden arribar a influir a les persones. La gent bàrbara, tan vinculada amb els seus sentiments, són especialment sensibles a aquestes influències màgiques; i algunes persones les arriben a transformar. Aquests caminen pel Sender de la Màgia Salvatge. Les persones Elfes, tíflins, aasimars, i genasi solen buscar aquest sender amb ganes de manifestar la màgia forània dels seus ancestres.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Consciència Màgica|Bàrbar||Màgia Salvatge|TCE|3"
@@ -1885,8 +1885,8 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Sender de la Màgia Salvatge a nivell 3}",
-				"Com a acció, pots obrir els teus sentits per descobrir màgia concentrada. Fins el final del teu proper torn, saps la font o localització de qualsevol conjur o objecte màgic a 60 peus d'abast que no estigui darrere de cobertura completa. Quan sents un conjur, també enténs a quina escola de màgia pertany.",
-				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Com a acció, pots obrir els teus sentits per descobrir màgia concentrada. Fins el final del teu proper torn, saps la font o localització de qualsevol conjur o objecte màgic a 60 peus d'abast que no hi ha darrere de cobertura completa. Quan sents un conjur, també entén a quina escola de màgia pertany.",
+				"Pots emprar aquest tres tants cops com el teu bonus de competència, i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -1901,17 +1901,17 @@
 			"header": 1,
 			"entries": [
 				"{@i tret de Sender de la Màgia Salvatge a nivell 3}",
-				"De vegades, l'energia màgica que es cou a dins teu esclata. Quan entris en fúria, tira a la Taula de Màgia Salvatge, que determinarà l'efecte màgic que ocorre.",
-				"Si l'efecte requereix una salvada, la CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
+				"De vegades, l'energia màgica que és cou a dins teu esclata. Quan entra en fúria, tira a la Taula de Màgia Salvatge, que determinarà l'efecte màgic que ocorre.",
+				"Si l'efecte requereix una salvada, el CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Màgia Salvatge",
 					"colLabels": [
 						"d8",
 						"Efecte Màgic"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -1968,17 +1968,17 @@
 				"{@i tret de Sender de la Màgia Salvatge a nivell 6}",
 				"Pots vigoritzar-te a tu o a una criatura aliada amb la teva màgia salvatge. Com a acció, toques a una criatura (pots ser tu) i li otorgues un dels beneficis següents:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Durant 10 minuts, l'objectiu pot afegir {@dice d3} a les tirades d'impacte i d'habilitat.",
 						"Tira {@dice d3}. La criatura recupera una ranura de conjur de nivell equivalent o inferior al resultat de la tirada. Una criatura pot emprar aquest benefici un cop, i no hi pot tornar fins que acabi un Descans Llarg."
 					]
 				},
-				"Pots prendre aquesta acció tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots prendre aquesta acció tants cops com el teu bonus de competència, i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
-			"name": "Contrarèplica Inestable",
+			"name": "Contrarèplica inestable",
 			"source": "TCE",
 			"page": 25,
 			"className": "Bàrbar",
@@ -1989,7 +1989,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Sender de la Màgia Salvatge a nivell 10}",
-				"Quan estiguis en perill durant la teva fúria, pot emergir la teva màgia per a protegir-te; immediatament després de rebre dany o fallar una salvada, mentre estiguis en fúria, pots, com a reacció, tirar a la Taula de Màgia Salvatge i produïr l'efecte immediatament. Aquest nou efecte substitueix l'efecte de Màgia Salvatge que hagis tingut activat fins ara (si en tenies)."
+				"Quan estàs en perill durant la teva fúria, pot emergir la teva màgia per protegir-te; immediatament després de rebre dany o fallar una salvada, mentre continues en fúria, pots, com a reacció, tirar a la Taula de Màgia Salvatge i produir l'efecte immediatament. Aquest nou efecte substitueix l'efecte de Màgia Salvatge que hagis tingut activat fins ara (si en tenies)."
 			]
 		},
 		{
@@ -2004,7 +2004,7 @@
 			"header": 2,
 			"entries": [
 				"{@i tret de Sender de la Màgia Salvatge a nivell 14}",
-				"Quan tiris a la Taula de Màgia Salvatge, pots tirar el dau dos cops i triar quin dels dos efectes s'activen. Si treus el mateix número amb ambdós daus, pots triar qualsevol efecte de la taula."
+				"Quan tiris a la Taula de Màgia Salvatge, pots tirar el dau dos cops i triar quin dels dos efectes s'activen. Si treus el mateix nombre amb ambdós daus, pots triar qualsevol efecte de la taula."
 			]
 		},
 		{
@@ -2020,14 +2020,14 @@
 				"Les persones bàrbares que segueixen Sender de les Bèsties reben la fúria d'aquella espurna feréstega que viu a dins dels seus cors. La Bèstia llibera uns udols de poder i emergeix durant la fúria bàrbara.",
 				"Aquella gent que camina per aquest sender, tal vegada, siguin hostes d'un esperit primal; potser descenen de canviaformes. Pots triar l'origen del teu poder salvatge, o bé determinant-lo tirant a la Taula d'Origen de la Bèstia.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Origen de la Bèstia",
 					"colLabels": [
 						"d4",
-						"Origin"
+						"Origen"
 					],
 					"colStyles": [
-						"col-2 text-center",
+						"col-2 centre de text",
 						"col-10"
 					],
 					"rows": [
@@ -2067,23 +2067,23 @@
 			"header": 1,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 3}",
-				"Quan entris en fúria, et pots transformar, revelant el poder bestial que contens. Fins que se t'acabi la fúria, manifestes una arma natural. Esculls la forma de l'arma cada cop que entres en fúria:",
+				"Quan entras en fúria, et pots transformar, revelant el poder bestial que conté. Fins que se t'acabi la fúria, manifesta una arma natural. Esculls la forma de l'arma cada cop que entres en fúria:",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Mossegada",
-							"entry": "La teva boca es transforma en un morro de bèstia o en mandíbules enormes (escull). Quan impactes, fa {@damage 1d8} de dany perforant. Un cop a cada torn teu, quan facis dany amb aquesta mossegada, recuperes el teu modificador de Constitució en punts de vida (mínim d'1 punt de vida)."
+							"entry": "La teva boca es transforma en un morro de bèstia o en mandíbules enormes (escull). Quan impactes, fa {@damage 1d8} de dany perforant. Un cop a cada torn teu, quan facis dany amb aquesta mossegada, recupera el teu modificador de Constitució en punts de vida (mínim d'1 punt de vida)."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Urpes",
-							"entry": "Cada mà teva es torna en urpes, i les pots fer servir per atacar si estan buides. Si impacta, fa {@damage 1d6} de dany tallant. Un cop a cada torn teu quan ataquis amb una urpa amb l'acció {@action Atacar}, pots fer un atac amb l'Urpa extra com a part de la mateixa acció."
+							"entry": "Cada mà teva és torna en urpes, i els pots fer servir per atacar si estan buides. Si impacta, fa {@damage 1d6} de dany tallant. Un cop a cada torn teu quan ataquis amb una urpa amb l'acció {@action Atacar}, pots fer un atac amb l'Urpa extra com a part de la mateixa acció."
 						},
 						{
-							"type": "item",
+							"type": "article",
 							"name": "Cua",
 							"entry": "Et creix una cua gruixuda i amb punxes que fa {@damage 1d12} de dany perforant quan impacta; a més, té la propietat abast."
 						}
@@ -2103,14 +2103,14 @@
 			"header": 2,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 6}",
-				"El poder ferèstec que tens a dins creix: les armes del tret Forma de la Bèstia es consideren màgiques quant a ignorar resistències i immunitats a atacs i dany no-màgic.",
+				"El poder ferèstec que tens a dins creix: els armes del tret Forma de la Bèstia es considera màgiques quant a ignorar resistències i immunitats a atacs i dany no-màgic.",
 				"També pots adaptar la teva forma física al teu entorn. Quan acabis un Descans Curt o Llarg, escull un dels beneficis següents, que duren fins que acabis el teu proper Descans Curt o Llarg:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Obténs una velocitat de natació equivalent a la teva velocitat de caminar, i pots respirar sota l'aigua.",
-						"Obténs una velocitat d'escalada equivalent a la teva velocitat de caminar, i pots escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat.",
-						"Quan saltes, pots fer una tirada de Força ({@skill Athletics}) i extendre el salt aquest número de peus. Només pots fer aquesta tirada especial un cop per torn."
+						"Obtén una velocitat de natació equivalent a la teva velocitat de caminar, i pots respirar sota l'aigua.",
+						"Obtén una velocitat d'escalada equivalent a la teva velocitat de caminar, i pots escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat.",
+						"Quan saltes, pots fer una tirada de Força (@skill Athletics}) i extendre el salt aquest nombre de peus. Només pots fer aquesta tirada especial un cop per torn."
 					]
 				}
 			]
@@ -2127,15 +2127,15 @@
 			"header": 2,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 10}",
-				"Quan impactis a una criatura amb les teves armes naturals mentre estiguis en fúria, la bèstia de dins teu pot maleïr-la amb la teva fúria. L'objectiu ha de salvar per Saviesa (la CD és 8 + el teu modificador de Constitució + el teu bonus de competència). Si falla, patirà un d'aquests efectes (escull):",
+				"Quan impactes a una criatura amb les teves armes naturals mentre estan en fúria, la bèstia de dins teu pot maleïr-la amb la teva fúria. L'objectiu ha de salvar per Saviesa (la CD és 8 + el teu modificador de Constitució + el teu bonus de competència). Si falla, patirà un d'aquests efectes (escull):",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"L'objectiu ha de, com a reacció, fer un atac cos a cos contra una altra criatura que escullis que pugui veure.",
+						"L'objectiu ha de, com a reacció, fer un atac perquè contra una altra criatura que esculli que pugui veure.",
 						"L'objectiu rep {@damage 2d12} de dany psíquic."
 					]
 				},
-				"Pots emprar aquest tret tants cops com el teu modificador de Constitució (mínim 1 cop), i en recuperes tots els usos quan acabis un Descans Llarg."
+				"Pots emprar aquest tres tants cops com el teu modificador de Constitució (mínim 1 cop), i en recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -2150,8 +2150,8 @@
 			"header": 2,
 			"entries": [
 				"{@i tret del Sender de les Bèsties a nivell 14}",
-				"La bèstia dins teu és tan poderosa que en pots extendre la seva ferocitat als altres, otorgant-los la resistència que ve d'unir-se a la teva cacera. Quan entris en fúria, pots designar a múltiples criatures que puguis veure a 30 peus de tu. Pots designar-ne tantes com el teu modificador de Constitució (mínim d'una).",
-				"Fins que se t'acabi la fúria, les criatures reben el tret {@action Atacar} Impetuós, i salven amb avantatge contra estar {@condition frightened}. També reps 5  punts de vida temporals per cada criatura que accepti aquest tret. Pots emprar aquest tret tants cops com el teu modificador de Constitució, i en recuperes tots els usos quan acabis un Descans Llarg.."
+				"La bèstia dins teu és tan poderosa que en pots estendre la seva ferocitat als altres, otorgant-los la resistència que ve d'unir-se a la teva cacera. Quan entres en fúria, pots designar a múltiples criatures que puguin veure a 30 peus de tu. Pots designar-ne tantes com el teu modificador de Constitució (mínim d'una).",
+				"Fins que se t'acabi la fúria, les criatures reben el tret {@action Atacar} Impetuós, i salven amb avantatges contra estar {@condition frightened}. També reps 5 punts de vida temporals per cada criatura que accepti aquest tret. Pots emprar aquest tres tants cops com el teu modificador de Constitució, i en recupera tots els usos quan acabis un Descans Llarg.."
 			]
 		},
 		{
@@ -2164,7 +2164,7 @@
 			"subclassSource": "UABarbarianAndMonk",
 			"level": 3,
 			"entries": [
-				"Hi ha molts llocs al multivers plens de bellesa, d'emocions intenses, i de màgia que flueix amb llibertat, com ara la Terra Fata. Tot bàrbar que s'hi exposi sent emocions poderoses i és negat de màgia",
+				"Hi ha molts llocs a molts llocs de bellesa, d'emocions intenses, i de màgia que flueix amb llibertat, com ara la Terra Fata. Tot bàrbar que s'hi exposa sent emocions poderoses i és negat de màgia",
 				"La gent bàrbara que segueix aquest sender entra en fúria com qui xiscla per expressar la seva llibertat, per explotar d'autoexpressió i per actuar de maneres inesperades.",
 				{
 					"type": "refSubclassFeature",
@@ -2177,7 +2177,7 @@
 			]
 		},
 		{
-			"name": "Màgia Persistent",
+			"name": "Màgia persistent",
 			"source": "UABarbarianAndMonk",
 			"page": 1,
 			"className": "Bàrbar",
@@ -2187,8 +2187,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, el teu cos reacciona a la presència de la màgica. Pots llançar el conjur {@spell detectar màgia} sense gastar ranures ni components. La teva habilitat de llançament de conjurs per a aquest conjur és Constitució. Brilles lleugerament del color de l'escola de màgia a la que pertanyi la màgia que detectes (escull els colors).",
-				"Pots emprar aquest tret un número de cops equivalent al teu modificador de Constitució (mínim 1 cop). En recuperes tots els usos quan acabis un Descans Llarg."
+				"A nivell 3, el teu cos reacciona a la presència de la màgica. Pots llançar el conjur {@spell detectar màgia} sense gastar ranures ni components. La teva habilitat de llançament de conjurs per a aquest conjur és Constitució. Brilles lleugerament del color de l'escola de màgia a la que pertanyi a la màgia que detectes (escull els colors).",
+				"Pots emprar aquest tret un nombre de cops equivalent al teu modificador de Constitució (mínim 1 cop). En recupera tots els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -2202,17 +2202,17 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, l'energia màgica que es cou a dins teu esclata. Quan entris en fúria, tira a la Taula de Descàrrega Salvatge, que determinarà l'efecte màgic que ocorre.",
-				"Si l'efecte requereix una salvada, la CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
+				"Començant a nivell 3, l'energia màgica que és cou a dins la teva esclata. Quan entra en fúria, tira a la Taula de Descàrrega Salvatge, que determinarà l'efecte màgic que ocorre.",
+				"Si l'efecte requereix una salvada, el CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Descàrrega Salvatge",
 					"colLabels": [
 						"d8",
 						"Efecte"
 					],
 					"colStyles": [
-						"col-1 text-center",
+						"col-1 centre de text",
 						"col-11"
 					],
 					"rows": [
@@ -2265,7 +2265,7 @@
 			"entries": [
 				"A nivell 6, pots vigoritzar-te a tu o a una criatura aliada amb la teva màgia salvatge. Com a acció, toques a una criatura (pots ser tu) i tirar {@dice d4}. La criatura recupera una ranura de conjur de nivell equivalent al resultat de la tirada Si l'objectiu no pot recuperar una ranura d'aquell nivell, rep tants punts de vida temporals com 5 vegades el resultat de la tirada.",
 				"Reps 5 vegades el resultat de la tirada en dany de força.",
-				"Quan arribes a nivell 14 en aquesta classe, el dau es torna {@dice d6}."
+				"Quan arribes a nivell 14 en aquesta classe, el dau és torna {@dice d6}."
 			]
 		},
 		{
@@ -2279,7 +2279,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, la màgia que tens a dins lluita per emergir. Quan una criatura et faci salvar mentre estiguis en fúria, pots, com a reacció, fer-li {@damage 3d6} de dany de força."
+				"A nivell 10, la màgia que tens a dins lluita per emergir. Quan una criatura et faci salvar mentre estan en fúria, pots, com a reacció, fer-li {@damage 3d6} de dany de força."
 			]
 		},
 		{
@@ -2293,7 +2293,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, esdevéns un pou de màgia salvatge mentre estiguis en fúria. Com a acció bonus, pots tornar a tirar a la Taula de Descàrrega Salvatge i substituir l'efecte actiu (si en tens) per un de nou."
+				"A nivell 14, esdevé un pou de màgia salvatge mentre està en fúria. Com a acció bonus, pots tornar a tirar a la Taula de Descàrrega Salvatge i substituir l'efecte actiu (si en tens) per un de nou."
 			]
 		},
 		{
@@ -2307,7 +2307,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, incrementes el teu dau de reserves màgiques a {@dice d6}."
+				"A nivell 14, augmenta el teu dau de reserves màgiques a {@dice d6}."
 			]
 		},
 		{
@@ -2320,9 +2320,9 @@
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"entries": [
-				"Algunes gents bàrbares venen de cultures que veneren els seus avantpassats. Creuen que els guerrers del passats es queden com a esperits protectors. Tot bàrbar que segueixi aquest camí entra en fúria travessant al món espiritual i demanant ajuda dels guardians.",
-				"Els bàrbars que beguin dels seus guardians ancestrals lluiten per protegir les seves tribus i aliats. Amb la seva ajuda poden malmetre als enemics i colpejar-los amb força.",
-				"Per tal de vincular-se amb els seus guardians ancestrals, la gent bàrbara d'aquest sender es cobreixen de tattoos per celebrar les seves gestes. Els tattoos parlen de sagues èpiques de victòries contra monstes terribles o d'altres rivals.",
+				"Algunes gents bàrbares venen de cultures que veneren els seus avantpassats. Creuen que els guerrers dels passats es queden com a esperits protectors. Tot bàrbar que segueixi aquest camí entra en fúria travessant al món espiritual i demanant ajuda dels guardians.",
+				"Els bàbars que beguin dels guardians lluiten per protegir les seves tribus i aliats. Amb la seva ajuda poden malmetre als enemics i colpejar-los amb força.",
+				"Per tal de vincular-se amb els seus guardians ancestrals, la gent bàrbara d'aquest remitent és cobreixen de tattoos per celebrar les seves gestes. Els tattoos parlen de sagues èpiques de victòries contra monstes terribles o d'altres rivals.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Protectors Ancestrals|Bàrbar||Guardians Ancestrals (UA)|UABarbarianPrimalPaths|3"
@@ -2340,7 +2340,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan escullis aquest sender a nivell 3, apareixen guerrers espectrals entris en fúria. Els guerrers distreuen a un enemic que designis i li dificulten l'evasió. Mentre estiguis en fúria, pots, com a acció bonus en el teu torn, triar una criatura que puguis veure a 5 peus de tu. Fins l'inici del teu proper torn o fins que se t'acabi la fúria, la criatura designada impacta amb desavantatge a tota criatura que no siguis tu, i, si la criatura pren l'acció {@action Destravar-se} a 5 peus de tu, la seva velocitat es parteix per la meitat fins al final del seu torn."
+				"Quan escullis aquest sender a nivell 3, apareixen guerrers espectrals entris en fúria. Els guerrers distreuen a un enemic que designis i li dificulten l'evasió. Mentre estiguis en fúria, pots, com a acció bonus en el teu torn, triar una criatura que pugui veure a 5 peus de tu. Fins l'inici del teu proper torn o fins que se t'acabi la fúria, la criatura designada impacta amb desavantatges a tota criatura que no segueixes tu, i, si la criatura pren l'acció {@action Destravar-se} a 5 peus de tu, la seva velocitat és partix per la meitat fins al final del seu torn."
 			]
 		},
 		{
@@ -2354,11 +2354,11 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, els esperits guardians que t'ajuden poden protegir als teus aliats. Si està en fúria i un aliat que puguis veure a 30 peus de tu rep dany contundent, tallant o perforant, pots, com a reacció, transferir les teves resistències a aquests danys al teu aliat. La resistència s'aplica al mal que detona la reacció. Fins l'inici del teu proper torn, l'aliat conserva la resistència i tu et quedes sense, a no ser que tinguis una altra font de resistència que no sigui la fúria."
+				"Començant nivell 6, els esperits guardians t'ajuden poden protegir als teus aliats. Si està en fúria i un aliat que pugui veure a 30 peus de tu rep dany contundent, tallant o perforant, pots, com a reacció, transferir les teves resistències a aquests danys al teu aliat. La resistència s'aplica al mal que detona la reacció. Fins l'inici del teu proper torn, l'aliat conserva la resistència i tu et quedes sense, a no ser que tinguis una altra font de resistència que no sigui la fúria."
 			]
 		},
 		{
-			"name": "Consultar els Esperits",
+			"name": "Consulta els Esperits",
 			"source": "UABarbarianPrimalPaths",
 			"page": 1,
 			"className": "Bàrbar",
@@ -2368,7 +2368,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, pots demanar consell als teus esperits ancestrals. Abans de fer una tirada d'Intel·ligència o de Saviesa, pots obtenir avantatge a la tirada. Pots emprar aquest tret 3 cops, i en recuperes els usos quan acabis un Descans Llarg."
+				"A nivell 10, pots demanar consell als teus esperits ancestrals. Abans de fer una tirada d'Intel·ligència o de Saviesa, pots obtenir avantatges a la tirada. Pots emprar aquest tret 3 cops, i en recupera els usos quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -2382,7 +2382,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, els teus esperits ancestrals tenen prou poder per atacar als teus enemics. Quan tu o un aliat  que puguis veure a 30 peus de tu rebi dany d'un atac cos a cos mentre estiguis en fúria, pots, com a reacció, provocar {@damage 2d8} de dany de força a l'atacant."
+				"A nivell 14, els teus esperits ancestrals tenen prou poder per atacar als teus enemics. Quan tu o un aliat que puguis a 30 peus de veure el teu rebi dany d'un atac cos a cos mentre està en fúria, pots, com a reacció, provocar {@damage 2d8} de dany de força a l'atacant."
 			]
 		},
 		{
@@ -2414,23 +2414,23 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"A nivell 3, escull una de les opcions següents: desert, mar, o tundra. L'entorn forma la naturalesa de la tempesta que conjures quan entris en fúria. Mentre estiguis en fúria, emanes una aura de 10 peus de radi. Els seus efectes depenen de l'entorn escollit.",
+				"A nivell 3, escull una de les següents opcions: desert, mar, o tundra. L'entorn forma la naturalesa de la tempesta que conjures quan entras en fúria. Mentre sigues en fúria, emana una aura de 10 peus de radi. Els seus efectes depenen de l'entorn escollit.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Desert",
 					"entries": [
 						"Tot enemic que acbi el torn a dins de l'aura rep 2 + (el teu nivell de bàrbar / 4) de dany de foc."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Mar",
+					"type": "entrades",
+					"name": "desfigurar",
 					"entries": [
-						"Al final de cada torn teu, pots designar una criatura a dins de l'aura (no pots ser tu). Ha de salvar per Destresa (la CD és 8 + el teu bonus de competència + el teu modificador de Constitució). Si falla, l'objectiu rep {@damage 2d6} de dany elèctric; si supera; si supera, en rep la meitat. El dany es torna {@dice 3d6} a nivell 10 i {@dice 4d6} a nivell 15."
+						"Al final de cada torn teu, pots designar una criatura a dins de l'aura (no pots ser tu). Ha de salvar per Destresa (la CD és 8 + el teu bonus de competència + el teu modificador de Constitució). Si falla, l'objectiu rep {@damage 2d6} de dany elèctric; si supera; si supera, en rep la meitat. El dany és torna {@dice 3d6} a nivell 10 i {@dice 4d6} a nivell 15."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Tundra",
 					"entries": [
 						"Tot enemic que acabi el seu torn a dins de l'aura rep 2 + (el teu nivell de bàrbar / 4) de dany de fred."
@@ -2449,23 +2449,23 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, el poder que et vincula amb la tempesta t'otorga habilitats adicionals que depenen de l'entorn que has escollit a nivell 3.",
+				"A nivell 6, el poder que et vincula amb la tempesta t'otorga habilitats addicionals que depenen de l'entorn que has escollit a nivell 3.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Desert",
 					"entries": [
 						"Tens resistència a dany de foc i la calor extrema no t'afecta."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Mar",
+					"type": "entrades",
+					"name": "desfigurar",
 					"entries": [
 						"Tens resistència al mal elèctric i pots respirar a sota de l'aigua."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Tundra",
 					"entries": [
 						"Tens resistència al mal de fred i el fred extrem no t'afecta."
@@ -2484,7 +2484,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, empres el teu domini de la tempesta per a protegir els teus aliats. Mentre estiguis en fúria, els aliats a dins de la teva aura obténen el tret Ànima de Tempesta."
+				"A nivell0, empres el teu domini de la tempesta per al teu domini als teus aliats. Mentre sigues en fúria, els aliats a dins de la teva aura obténen el tret Ànima de Tempesta."
 			]
 		},
 		{
@@ -2500,21 +2500,21 @@
 			"entries": [
 				"A nivell 14, el poder de la tempesta que canalitzes és encara major.",
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Desert",
 					"entries": [
-						"El terra al teu voltant es torna arenes movedisses. Tot enemic que vulgui moure's més de 5 peus per torn al terra de dins de la teva aura ha de salvar per Força (CD 8 + el teu bonus de competència + el teu modificador de Constitució). Si falla, la velocitat de la criatura es queda a 0 fins el final del seu proper torn."
+						"El terra al teu voltant és torna arenes movedisses. Tot enemic que vulgui moure's més de 5 peus per torn a la terra de dins de la teva aura ha de salvar per Força (CD 8 + el teu bonus de competència + el teu modificador de Constitució). Si falla, la velocitat de la criatura queda a 0 fins el final del seu proper torn."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Mar",
+					"type": "entrades",
+					"name": "desfigurar",
 					"entries": [
-						"Una galerna bufa a dins de la teva aura; tota criatura que hi sigui a dins i que impactis amb un atac ha de salvar per Força (CD 8 + el teu bonus de competència + el teu modificador de Força). Si falla, cau {@condition enderrocat}."
+						"Una galerna bufa a dins de la teva aura; tota criatura que hi va seguir a dins i que impactes amb un atac ha de salvar per Força (CD 8 + el teu bonus de competència + el teu modificador de Força). Si falla, cau {@condition enderrocat}."
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"name": "Tundra",
 					"entries": [
 						"L'aire al teu voltant és tan fred que alenteix als enemics. La teva aura és considerada terreny difícil pels teus enemics."
@@ -2532,8 +2532,8 @@
 			"subclassSource": "UABarbarianPrimalPaths",
 			"level": 3,
 			"entries": [
-				"Certes divinitats inspiren als seus seguidors a llançar-se temeràriament al combat. Els seguidors s'anomenen zelosos: guerrers que treuen la seva fúria com a actes de poder diví.",
-				"Tot de divinitats del món animen als seus seguidors de caminar aquest sender. Tempus dels Regnes Oblidats i Hextor i Erythnul de Greyhawk en són exemples. En general, els deus que inspiren els zelosos són déus de combat, destrucció i violència. No tots són malvats, però no gaires són bons.",
+				"Certes divinitats inspiren als seus propis a llançar-se temeràriament al combat. Els possibles s'anomenen zelosos: guerrers que treuen la seva fúria com a actes de poder diví.",
+				"Tot de divinitat del món animen als seus altres de caminar aquest sender. Tempus dels Regnes Oblidats i Hextor i Erythnul de Greyhawk en són exemples. En general, els deus que inspiren els zelosos són déus de combat, destrucció i violència. No tots són malvats, però no gaires són bons.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Fúria Divina|Bàrbar||Zelós (UA)|UABarbarianPrimalPaths|3"
@@ -2583,7 +2583,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, el poder diví que et corre per les venes et protegeix del dany. Si falles una salvada mentre estiguis en fúria, pots superar-la com a reacció. Si ho fas, la fúria s'acaba immediatament i no pots tornar a entrar en fúria fins que acabis un Descans Curt o Llarg."
+				"A nivell 6, el poder diví que et corre per les venes et protegeix del dany. Si falles una salvada mentre està en fúria, pots superar-la com a reacció. Si ho fas, la fúria s'acaba immediatament i no pots tornar a entrar en fúria fins que acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -2597,7 +2597,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, aprèns a canalitzar el teu poder diví en altres persones. Com a acció, udoles de fúria i fas un crit de guerra ple d'energia divina. Tot aliat a 60 peus de tu té avantatge a impactar i a salvar fins l'inici del teu proper torn.",
+				"A nivell 10, aprèn a canalitzar el teu poder diví en altres persones. Com a acció, udoles de fúria i fas un crit de guerra ple d'energia divina. Tot aliat a 60 peus del teu té avantatge a impactar i a salvar fins l'inici del teu proper torn.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -2612,8 +2612,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, el poder diví que alimenta la teva fúria et permet ignorar ferides mortals.",
-				"Mentre estiguis en fúria, si tens 0 punts de vida no et deixa {@condition unconscious}. Has de fer les salvades de mort i pateixes els efectes normals de rebre dany a 0 punts de vida. Tanmateix, si morissis degut a fallar salvades de mort, no mors fins que se t'acabi la fúria."
+				"Començant a nivell 14, el poder diví que alimenta la teva fúria i permet ignorar ferides mortals.",
+				"Mentre sigues en fúria, si tens 0 punts de vida no i deixa {@condition unconscious}. Has de fer les salvades de mort i pateixes els efectes normals de rebre dany a 0 punts de vida. Tanmateix, si morissis degut a fallar salvades de mort, no mors fins que se t'acabi la fúria."
 			]
 		},
 		{
@@ -2626,9 +2626,9 @@
 			"subclassSource": "UARevisedSubclasses",
 			"level": 3,
 			"entries": [
-				"Algunes gents bàrbares venen de cultures que veneren els seus avantpassats. Creuen que els guerrers del passats es queden com a esperits protectors. Tot bàrbar que segueixi aquest camí entra en fúria travessant al món espiritual i demanant ajuda dels guardians.",
-				"Els bàrbars que beguin dels seus guardians ancestrals lluiten per protegir les seves tribus i aliats. Amb la seva ajuda poden malmetre als enemics i colpejar-los amb força.",
-				"Per tal de vincular-se amb els seus guardians ancestrals, la gent bàrbara d'aquest sender es cobreixen de tattoos per celebrar les seves gestes. Els tattoos parlen de sagues èpiques de victòries contra monstes terribles o d'altres rivals.",
+				"Algunes gents bàrbares venen de cultures que veneren els seus avantpassats. Creuen que els guerrers dels passats es queden com a esperits protectors. Tot bàrbar que segueixi aquest camí entra en fúria travessant al món espiritual i demanant ajuda dels guardians.",
+				"Els bàbars que beguin dels guardians lluiten per protegir les seves tribus i aliats. Amb la seva ajuda poden malmetre als enemics i colpejar-los amb força.",
+				"Per tal de vincular-se amb els seus guardians ancestrals, la gent bàrbara d'aquest remitent és cobreixen de tattoos per celebrar les seves gestes. Els tattoos parlen de sagues èpiques de victòries contra monstes terribles o d'altres rivals.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Protectors Ancestrals|Bàrbar||Guardians Ancestrals v2 (UA)|UARevisedSubclasses|3"
@@ -2646,7 +2646,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan escullis aquest sender a nivell 3, apareixen guerrers espectrals entris en fúria. Els guerrers distreuen a un enemic que designis i li dificulten l'evasió. Mentre estiguis en fúria, la primera criatura que ataquis en el teu torn esdevé l'objectiu dels esperits. Fins l'inici del teu proper torn o fins que se t'acabi la fúria, la criatura designada impacta amb desavantatge a tota criatura que no siguis tu, i les criatures (excepte tu) tenen resistència al dany rebut dels atacs de l'objectiu"
+				"Quan escullis aquest sender a nivell 3, apareixen guerrers espectrals entris en fúria. Els guerrers distreuen a un enemic que designis i li dificulten l'evasió. Mentre sigues en fúria, la primera criatura que ataquis en el teu torn esdevé l'objectiu dels esperits. Fins l'inici del teu proper torn o fins que se t'acabi la fúria, la criatura designada impacta amb desavantatges a tota criatura que no siguis tu, i les criatures (excepte tu) tenen resistència al dany rebut dels atacs de l'objectiu."
 			]
 		},
 		{
@@ -2660,11 +2660,11 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, els esperits guardians que t'ajuden poden protegir als teus aliats. Si està en fúria i un aliat que puguis veure a 30 peus de tu rep dany, pots, com a reacció, reduir {@dice 2d8} de dany. La reducció es torna {@dice 3d8} a nivell 10 i {@dice 4d8} a nivell 14."
+				"Començant nivell 6, els esperits guardians t'ajuden poden protegir als teus aliats. Si està en fúria i un aliat que pugui veure a 30 peus de tu rep dany, pots, com a reacció, requerir {@dice 2d8} de dany. La reducció és torna {@dice 3d8} a nivell 10 i {@dice 4d8} a nivell 14."
 			]
 		},
 		{
-			"name": "Consultar els Esperits",
+			"name": "Consulta els Esperits",
 			"source": "UARevisedSubclasses",
 			"page": 1,
 			"className": "Bàrbar",
@@ -2674,7 +2674,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, pots demanar consell als teus esperits ancestrals i per a explorar terres llunyanes. Pots llançar el conjur {@spell clarividència} sense necessitar ranura. El conjur no crea un sensor esfèric invisible, sinò que un dels esperits ancestrals es convoquen a la posició escollida. La teva habilitat de llançament de conjur per aquest conjur és Saviesa. Quan llancis el conjur així, no ho pots tornar a fer fins que acabis un Descans Curt o Llarg."
+				"A nivell 10, pots demanar consell als teus esperits ancestrals i per a explorar terres llunyanes. Pots llançar el conjur {@spell clarividència} sense necessitat de ranura. El conjur no crea un sensor esfèric invisible, sinò que un dels esperits ancestrals es convoquen a la posició escollida. La teva habilitat de llançament de conjur per aquest conjur és Saviesa. Quan llancis el conjur així, no ho pots tornar a fer fins que acabis un Descans Curt o Llarg."
 			]
 		},
 		{
@@ -2697,12 +2697,12 @@
 			"page": 9,
 			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Algunes gents bàrbares venen de cultures que veneren els seus avantpassats. Creuen que els guerrers del passats es queden com a esperits protectors. Tot bàrbar que segueixi aquest camí entra en fúria travessant al món espiritual i demanant ajuda dels guardians.",
-				"Els bàrbars que beguin dels seus guardians ancestrals lluiten per protegir les seves tribus i aliats. Per tal de vincular-se amb els seus guardians ancestrals, la gent bàrbara d'aquest sender es cobreixen de tattoos per celebrar les seves gestes. Els tattoos parlen de sagues èpiques de victòries contra monstes terribles o d'altres rivals.",
+				"Algunes gents bàrbares venen de cultures que veneren els seus avantpassats. Creuen que els guerrers dels passats es queden com a esperits protectors. Tot bàrbar que segueixi aquest camí entra en fúria travessant al món espiritual i demanant ajuda dels guardians.",
+				"Els bàbars que beguin dels guardians lluiten per protegir les seves tribus i aliats. Per tal de vincular-se amb els seus guardians ancestrals, la gent bàrbara d'aquest remitent és cobreixen de tattoos per celebrar les seves gestes. Els tattoos parlen de sagues èpiques de victòries contra monstes terribles o d'altres rivals.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Protectors Ancestrals|Bàrbar||Ancestral Guardian|XGE|3"
@@ -2715,12 +2715,12 @@
 			"page": 9,
 			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan escullis aquest sender a nivell 3, apareixen guerrers espectrals entris en fúria.  Mentre estiguis en fúria, la primera criatura que impactis en el teu torn esdevé l'objectiu dels esperits. Fins l'inici del teu proper torn o fins que se t'acabi la fúria, la criatura designada impacta amb desavantatge a tota criatura que no siguis tu, i les criatures (excepte tu) tenen resistència al dany rebut dels atacs de l'objectiu. L'efecte acaba prematurament si la fúria acaba"
+				"Quan escullis aquest sender a nivell 3, apareixen guerrers espectrals entris en fúria. Mentre continues en fúria, la primera criatura que impacta en el teu torn esdevé l'objectiu dels esperits. Fins l'inici del teu proper torn o fins que se t'acabi la fúria, la criatura designada impacta amb desavantatges a tota criatura que no siguis tu, i les criatures (excepte tu) tenen resistència al dany rebut dels atacs de l'objectiu. . L'efecte acaba prematurament si la fúria acaba"
 			]
 		},
 		{
@@ -2729,27 +2729,27 @@
 			"page": 9,
 			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, els esperits guardians que t'ajuden poden protegir als teus aliats. Si està en fúria i un aliat que puguis veure a 30 peus de tu rep dany, pots, com a reacció, reduir {@dice 2d6} de dany.",
-				"Quan puges de nivell, la reducció incrementa: es torna {@dice 3d6} a nivell 10 i {@dice 4d6} a nivell 14."
+				"Començant nivell 6, els esperits guardians t'ajuden poden protegir als teus aliats. Si està en fúria i un aliat que pugui veure a 30 peus de tu rep dany, pots, com a reacció, requerir {@dice 2d6} de dany.",
+				"Quan puges de nivell, la reducció incrementa: és torna {@dice 3d6} a nivell 10 i {@dice 4d6} a nivell 14."
 			]
 		},
 		{
-			"name": "Consultar els Esperits",
+			"name": "Consulta els Esperits",
 			"source": "XGE",
 			"page": 9,
 			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, pots demanar consell als teus esperits ancestrals. Pots llançar el conjur {@spell auguri} o {@spell clarividència} sense necessitar ranura ni components materials. El conjur no crea un sensor esfèric invisible, sinò que un dels esperits ancestrals es convoquen a la posició escollida. La teva habilitat de llançament de conjur per aquest conjur és Saviesa.",
+				"A nivell 10, pots demanar consell als teus esperits ancestrals. Pots llançar el conjur {@spell auguri} o {@spell clarividència} sense necessitat de ranura ni components materials. El conjur no crea un sensor esfèric invisible, sinò que un dels esperits ancestrals es convoquen a la posició escollida. La teva habilitat de llançament de conjur per aquest conjur és Saviesa.",
 				"Quan llancis el conjur així, no ho pots tornar a fer fins que acabis un Descans Curt o Llarg."
 			]
 		},
@@ -2759,7 +2759,7 @@
 			"page": 9,
 			"className": "Bàrbar",
 			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian",
+			"subclassShortName": "Guardià ancestral",
 			"subclassSource": "XGE",
 			"level": 14,
 			"header": 2,
@@ -2796,11 +2796,11 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Començant a nivell 3, emanes una aura de tempesta màgica mentre estiguis en fúria. L'aura és una esfera de 10 peus de radi, però no supera la cobertura total.",
-				"L'efecte de l'aura s'activa quan entris en fúria, i pots tornar a activar l'efecte a cada torn teu com a acció bonus. Escull desert, mar o tundra. L'efecte de l'aura depèn de l'entorn com es diu més avall. Pots canviar l'entorn quan pugis de nivell en aquesta classa.",
-				"Si l'efecte requreix una salvada, la CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
+				"Començant a nivell 3, emana una aura de tempesta màgica mentre està en fúria. L'aura és una esfera de 10 peus de radi, però no supera la cobertura total.",
+				"L'efecte de l'aura s'activa quan entra en fúria, i pots tornar a activar l'efecte a cada torn teu com a acció bonus. Escull desert, mar o tundra. L'efecte de l'aura depèn de l'entorn com és diu més avall. Pots canviar l'entorn quan pugis de nivell en aquesta classe.",
+				"Si l'efecte requereix una salvada, el CD és 8 + el teu bonus de competència + el teu modificador de Constitució.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
@@ -2829,9 +2829,9 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"A nivell 6, la tempesta et dona beneficis fins i tot quan l'aura no està activa. Els beneficis es basen en l'entorn que has escollit a l'Aura de Tempesta.",
+				"A nivell 6, la tempesta i dona beneficis fins i tot quan l'aura no està activa. Els beneficis es basen en l'entorn que ha escollit a l'Aura de Tempesta.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
@@ -2860,7 +2860,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, empres el teu domini de la tempesta per a protegir els teus aliats. Tota criatura que designis té la resistència que tinguis del tret Ànima de Tempesta mentre estigui a dins de la teva Aura de Tempesta."
+				"A nivell0, empres el teu domini de la tempesta per al teu domini als teus aliats. Tota criatura que designis té la resistència que tinguis del tret Ànima de Tempesta mentre està a dins de la teva Aura de Tempesta."
 			]
 		},
 		{
@@ -2874,9 +2874,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"A nivell 14, el poder de la tempesta que canalitzes és encara major. L'efecte es basa en l'entorn que has escollit a l'Aura de Tempesta.",
+				"A nivell 14, el poder de la tempesta que canalitzes és encara major. L'efecte és basa en l'entorn que ha escollit a l'Aura de Tempesta.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
@@ -2904,8 +2904,8 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Certes divinitats inspiren als seus seguidors a llançar-se temeràriament al combat. Els seguidors s'anomenen zelosos: guerrers que treuen la seva fúria com a actes de poder diví.",
-				"Tot de divinitats del món animen als seus seguidors de caminar aquest sender. Tempus dels Regnes Oblidats i Hextor i Erythnul de Greyhawk en són exemples. En general, els deus que inspiren els zelosos són déus de combat, destrucció i violència. No tots són malvats, però no gaires són bons.",
+				"Certes divinitats inspiren als seus propis a llançar-se temeràriament al combat. Els possibles s'anomenen zelosos: guerrers que treuen la seva fúria com a actes de poder diví.",
+				"Tot de divinitat del món animen als seus altres de caminar aquest sender. Tempus dels Regnes Oblidats i Hextor i Erythnul de Greyhawk en són exemples. En general, els deus que inspiren els zelosos són déus de combat, destrucció i violència. No tots són malvats, però no gaires són bons.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Fúria Divina|Bàrbar||Zelós|XGE|3"
@@ -2927,7 +2927,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Quan escullis aquest sender a nivell 3, pots canalitzar la teva fúria divina als teus atacs armats. Mentre estiguis en fúria, la primera criatura que impactis a cada torn teu amb un atac armat rep {@dice 1d6} + (el teu nivell de bàrbar / 2) de dany extra. El tipus és necròtic o radiant (escull quan obtinguis aquest tret)."
+				"Quan escullis aquest sender a nivell 3, pots canalitzar la teva fúria divina als teus atacs armats. Mentre sigues en fúria, la primera criatura que impacta a cada torn teu amb un atac armat rep {@dice 1d6} + (el teu nivell de bàrbar / 2) de dany extra. El tipus és necròtic o radiant (escull quan obtinguis aquest tret)."
 			]
 		},
 		{
@@ -2955,7 +2955,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, el poder diví que et corre per les venes et protegeix del dany. Si falles una salvada mentre estiguis en fúria, pots tornar a tirar i has d'acceptar la nova tirada. Només pots emprar aquest tret un cop per fúria."
+				"Començant a nivell 6, el poder diví que et corre per les venes et protegeix del dany. Si falles una salvada mentre estàs en fúria, pots tornar a tirar i has d'acceptar la nova tirada. Només pots emprar aquest tret un cop per fúria."
 			]
 		},
 		{
@@ -2969,7 +2969,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"A nivell 10, aprèns a canalitzar el teu poder diví en altres persones. Com a acció, fas un crit de guerra ple d'energia divina. Tot aliat a 60 peus de tu que et pugui sentir té avantatge a impactar i a salvar fins l'inici del teu proper torn.",
+				"A nivell 10, aprèn a canalitzar el teu poder diví en altres persones. Com a acció, fa un crit de guerra ple d'energia divina. Tot aliat a 60 peus de tu que et pugui sentir té avantatge a impactar i a salvar fins l'inici del teu proper torn.",
 				"Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg."
 			]
 		},
@@ -2984,8 +2984,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 14, el poder diví que alimenta la teva fúria et permet ignorar ferides mortals.",
-				"Mentre estiguis en fúria, si tens 0 punts de vida no et deixa {@condition unconscious}. Has de fer les salvades de mort i pateixes els efectes normals de rebre dany a 0 punts de vida. Tanmateix, si morissis degut a fallar salvades de mort, no mors fins que se t'acabi la fúria, i només moriràs llavors si encara tens només 0 punts de vida."
+				"Començant a nivell 14, el poder diví que alimenta la teva fúria i permet ignorar ferides mortals.",
+				"Mentre sigues en fúria, si tens 0 punts de vida no i deixa {@condition unconscious}. Has de fer les salvades de mort i pateixes els efectes normals de rebre dany a 0 punts de vida. Tanmateix, si morissis degut a fallar salvades de mort, no mors fins que se t'acabi la fúria, i només moriràs llavors si encara tens només 0 punts de vida."
 			]
 		},
 		{
@@ -2998,7 +2998,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Mentre estiguis en fúria i no vesteixis armadura pesada, la teva velocitat de caminar incrementa en 15 peus. L'esperit de l'ant et fa sorprenentment veloç."
+				"Mentre sigues en fúria i no vesteixis armadura pesada, la teva velocitat de caminar incrementa en 15 peus. L'esperit de l'ant et fa sorprenentment veloç."
 			]
 		},
 		{
@@ -3011,7 +3011,7 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Mentre estiguis en fúria, afegeixies 10 peus als teus salts de llargada i 3 peus als teus salts verticals. L'esperit del tigre permet abraonar-te millor."
+				"Mentre sigues en fúria, afegeixies 10 peus als teus salts de llargada i 3 peus als teus salts verticals. L'esperit del tigre permet abraonar-te millor."
 			]
 		},
 		{
@@ -3024,7 +3024,7 @@
 			"subclassSource": "PHB",
 			"level": 6,
 			"entries": [
-				"Quan vagis a peu o amb una muntura la teva velocitat de viatge i la de fins a 10 companys es duplica mentre estiguin a 50 peus de tu i no estiguis {@condition incapacitated}. L'esperita de l'ant t'ajuda a viatjar lluny i ràpid."
+				"Quan vagis a peu o amb una muntura la teva velocitat de viatge i la de fins a 10 companyies es duplica mentre estiguin a 50 peus de tu i no trobaràs {@condition incapacitated}. L'esperança de l'ant t'ajuda a viatjar i ràpid."
 			]
 		},
 		{
@@ -3050,7 +3050,7 @@
 			"subclassSource": "PHB",
 			"level": 14,
 			"entries": [
-				"Mentre estiguis en fúria, pots, com a acció bonus, passar a través de l'espai d'una criatura Llarga o menor. La criatura ha de salvar per Força. (CD 8 + el teu modificador de Força + el teu bonus de competència). Si falla, cau {@condition enderrocat} i rep and take dany {@dice 1d12} + el teu modificador de Força de dany contundent."
+				"Mentre us en fúria, pots, com a acció bonus, passar a través de l'espai d'una criatura Llarga o menor. La criatura ha de salvar per Força. (CD 8 + el teu modificador de Força + el teu bonus de competència). Si falla, cau {@condition enderrocat} i rep and take dany {@dice 1d12} + el teu modificador de Força de dany contundent."
 			]
 		},
 		{
@@ -3076,11 +3076,11 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Mentre aquest efecte estigui activat, tota altra criatura a dins de l'aura reben 2 de dany de foc. El dany es torna 3 a nivell 5, 4 a nivell 10, 5 a nivell 15, and 6 a nivell 20."
+				"Mentre aquest efecte està activat, tota altra criatura a dins de l'aura reben 2 de dany de foc. El dany és torna 3 a nivell 5, 4 a nivell 10, 5 a nivell 15 i 6 a nivell 20."
 			]
 		},
 		{
-			"name": "Mar",
+			"name": "desfigurar",
 			"source": "XGE",
 			"page": 10,
 			"className": "Bàrbar",
@@ -3089,7 +3089,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Mentre aquest efecte estigui activat, pots designar una altra criatura que puguis veure in your aura. L'objectiu ha de salvar per Destresa. Si falla rep {@damage 1d6} de dany elèctric; si supera, en rep la meitat. El dany es torna {@dice 2d6} a nivell 10, {@dice 3d6} a nivell 15, i {@dice 4d6} a nivell 20."
+				"Mentre aquest efecte està activat, pots designar una altra criatura que pugui veure a la teva aura. L'objectiu ha de salvar per Destresa. Si falla rep {@damage 1d6} de dany elèctric; si supera, en rep la meitat. El dany és torna {@dice 2d6} a nivell 10, {@dice 3d6} a nivell 15, i {@dice 4d6} a nivell 20."
 			]
 		},
 		{
@@ -3102,7 +3102,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Mentre aquest efecte estigui activat, tota criatura que designis a dins de l'aura rep 2 punts de vida temporals, ja que els guareixen els esperits de gel. Els punts de vida temporals es tornen 3 a nivell 5, 4 a nivell 10, 5 a nivell 15, and 6 a nivell 20."
+				"Mentre aquest efecte està activat, tota criatura que designis a dins de l'aura rep 2 punts de vida temporals, ja que els guareixen els esperits de gel. Els punts de vida temporals tornen 3 a nivell 5, 4 a nivell 10, 5 a nivell 15 i 6 a nivell 20."
 			]
 		},
 		{
@@ -3115,11 +3115,11 @@
 			"subclassSource": "XGE",
 			"level": 6,
 			"entries": [
-				"Tens resistència a fany de foc i no pateixes la calor extrema descrita al Guia del Mestre de Masmorres. Moreover, com a acció, pots tocar un objecte inflamable que no sigui dut ni vestit i encendre'l."
+				"Tens resistència a fany de foc i no pateixes la calor extrema descrita a la Guia del Mestre de Masmorres. Moreover, com a acció, pots tocar un objecte inflamable que no sigui dut ni vestit i encendre'l."
 			]
 		},
 		{
-			"name": "Mar",
+			"name": "desfigurar",
 			"source": "XGE",
 			"page": 10,
 			"className": "Bàrbar",
@@ -3128,7 +3128,7 @@
 			"subclassSource": "XGE",
 			"level": 6,
 			"entries": [
-				"Tens resistència a dany elèctric, i pots respirar sota l'aigua. També obténs una velocitat de natació de 30 peus."
+				"Tens resistència a dany elèctric, i pots respirar sota l'aigua. També obtén una velocitat de natació de 30 peus."
 			]
 		},
 		{
@@ -3158,7 +3158,7 @@
 			]
 		},
 		{
-			"name": "Mar",
+			"name": "desfigurar",
 			"source": "XGE",
 			"page": 10,
 			"className": "Bàrbar",
@@ -3167,7 +3167,7 @@
 			"subclassSource": "XGE",
 			"level": 14,
 			"entries": [
-				"Quan impactis a una criatura amb un atac pots, com a reacció, fer-la salvar per Força. Si falla, cau {@condition prone}, com si la tombés una onada."
+				"Quan impactes a una criatura amb un atac pots, com a reacció, fer-la salvar per Força. Si falla, cau {@condition prone}, com si la tombés una onada."
 			]
 		},
 		{
@@ -3180,7 +3180,7 @@
 			"subclassSource": "XGE",
 			"level": 14,
 			"entries": [
-				"Quan l'efecte de l'Aura de Tempesta s'activa, pots designar una criatura que puguis veure a dins de l'aura. La criatura ha de salvar per Força. Si falla, la seva velocitat es queda a 0 fins l'inici del teu proper torn, ja que una gebre màgica la cobreix."
+				"Quan l'efecte de l'Aura de Tempesta s'activa, pots designar una criatura que pugui veure a dins de l'aura. La criatura ha de salvar per Força. Si falla, la seva velocitat queda a 0 fins l'inici del teu proper torn, ja que una gebre màgica la cobreix."
 			]
 		}
 	]

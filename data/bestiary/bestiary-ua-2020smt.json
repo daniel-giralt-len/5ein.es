@@ -6,7 +6,7 @@
 			"page": 3,
 			"summonedBySpell": "Convocar Esperit Aberrant|UA2020SpellsAndMagicTattoos",
 			"size": "M",
-			"type": "aberration",
+			"type": "aberració",
 			"alineament": [
 				"N",
 				"E"
@@ -17,7 +17,7 @@
 				}
 			],
 			"hp": {
-				"special": "equal the aberration's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the aberration's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 30,
@@ -54,15 +54,15 @@
 				{
 					"name": "Aura de Murmuris (Només Engendre dels Estels)",
 					"entries": [
-						"A l'inici de cada torn de the aberration, each creature within 5 feet of it ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla rep{@damage 3d6} de dany psíquic, provided that the aberration isn't {@condition incapacitat}."
+						"A l'inici de cada torn de l'aberration, each creature within 5 feet of it ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla rep{@damage 3d6} de dany psíquic, sempre que l'aberració no sigui {@condition incapacitat}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The aberration makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"L'aberració fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
@@ -74,7 +74,7 @@
 				{
 					"name": "Urpes (Només Slaadi)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany tallant. If the target is a creature, no pot recuperar punts de vida fins el següent torn de the aberration's."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany tallant. Si l'objectiu és una criatura, no pot recuperar punts de vida fins el següent trencat de l'aberració."
 					]
 				},
 				{
@@ -91,7 +91,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"DS"
@@ -120,7 +120,7 @@
 				}
 			],
 			"hp": {
-				"special": "equal the beast's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the beast's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 30,
@@ -152,7 +152,7 @@
 			],
 			"trait": [
 				{
-					"name": "Amphibious (Només Water)",
+					"name": "Amfibi (Aigua de Només)",
 					"entries": [
 						"The beast pot respirar aire i a l'aigua"
 					]
@@ -164,7 +164,7 @@
 					]
 				},
 				{
-					"name": "Estratègies de Manada (Només Land and Water)",
+					"name": "Estratègies de Manada (Només Terra i Aigua)",
 					"entries": [
 						"The beast té avantatge a impactar una criatura que tingui un aliat de beast's no {@condition incapacitat} a 5 peus."
 					]
@@ -172,13 +172,13 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The beast makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"La bèstia fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
-					"name": "Maul",
+					"name": "Apallissar",
 					"entries": [
 						"{@atk mw} {@hit 4 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d8 + 4 + summonSpellLevel} de dany perforant."
 					]
@@ -193,7 +193,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"P"
@@ -219,7 +219,7 @@
 				}
 			],
 			"hp": {
-				"special": "equal the celestial's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the celestial's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 30,
@@ -248,9 +248,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The celestial makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"El celeste fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
@@ -260,15 +260,15 @@
 					]
 				},
 				{
-					"name": "Maça Radiant (Només Defender)",
+					"name": "Maça Radiant (Defensor Només)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany radiant, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains punts de vida temporals equal to the damage dealt, provided it doesn't already have punts de vida temporals."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 3 + summonSpellLevel} de dany radiant, i el celeste pot escollir a si mateix o una altra criatura que pugui veure a 10 peus de l'objectiu. La criatura escollida guanya punts de vida temporals iguals al dany infligit, sempre que encara no tingui punts de vida temporals."
 					]
 				},
 				{
 					"name": "Toc Curatiu (1/Dia)",
 					"entries": [
-						"The celestial touches another creature. The target magically regains hit points equal to {@dice 2d8 + summonSpellLevel}."
+						"El celeste toca una altra criatura. L'objectiu recupera màgicament punts de vida iguals a {@dice 2d8 + summonSpellLevel}."
 					]
 				}
 			],
@@ -276,7 +276,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"CE"
@@ -305,7 +305,7 @@
 				}
 			],
 			"hp": {
-				"special": "equal the elemental's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the elemental's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 40,
@@ -315,7 +315,7 @@
 				},
 				"burrow": {
 					"number": 40,
-					"condition": "(earth only)"
+					"condition": "(només terra)"
 				},
 				"swim": {
 					"number": 40,
@@ -346,7 +346,7 @@
 					"resist": [
 						"tallant"
 					],
-					"note": "(earth only)"
+					"note": "(només terra)"
 				},
 				{
 					"resist": [
@@ -361,11 +361,11 @@
 					"immune": [
 						"foc"
 					],
-					"note": "(fire only)"
+					"note": "(només foc)"
 				}
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat",
@@ -385,15 +385,15 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The elemental makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"L'elemental fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
 					"name": "Colpeig",
 					"entries": [
-						"{@atk mw} {@hit 4 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 4 + summonSpellLevel} de dany contundent (Air, Earth, and Només Aigua) or fire damage (Fire only)."
+						"{@atk mw} {@hit 4 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d10 + 4 + summonSpellLevel} de dany contundent (Aire, Terra i Només Aigua) o danys de foc (només de foc)."
 					]
 				}
 			],
@@ -404,7 +404,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"P"
@@ -418,7 +418,7 @@
 			]
 		},
 		{
-			"name": "Esperit Faèric",
+			"name": "Esper Faèric",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 5,
 			"summonedBySpell": "Convocar Esperit Faèric|UA2020SpellsAndMagicTattoos",
@@ -434,7 +434,7 @@
 				}
 			],
 			"hp": {
-				"special": "equal the fey's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the fey's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 40
@@ -453,46 +453,46 @@
 				"fascinat"
 			],
 			"idiomes": [
-				"Silvànic",
+				"Silvanic",
 				"comprèn els idiomes que coneixes"
 			],
 			"trait": [
 				{
 					"name": "Pas de Fata",
 					"entries": [
-						"Com a acció bonus, the fey can magically teleport fins a 30 peus to an unoccupied space it can see."
+						"Com a bonus d'acció, el fey pot teletransportar màgicament les aletes de 30 peus a un espai desocupat que pugui veure."
 					]
 				},
 				{
-					"name": "Darkening Step (Només Deceitful)",
+					"name": "Pas enfosquidor (Només enganyós)",
 					"entries": [
-						"Immediately after using its Pas de Fata, the fey can fill a 5-foot cube within 5 feet of it with magical darkness, which remains until the end of the fey's next turn."
+						"Immediatament després d'utilitzar el seu Pas de Fata, el fey pot omplir un cub de 5 peus a 5 peus d'ell amb foscor màgica, que roman fins al final del següent torn del fey."
 					]
 				},
 				{
-					"name": "Ecstatic Step (Només Joyful)",
+					"name": "Pas Extàtic (Només Joyful)",
 					"entries": [
-						"Immediately after using its Pas de Fata, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Saviesa contra la teva CD de salvació de conjur or be {@condition fascinat} by the fey durant 1 minut. The charm ends if the fey or any of its companions deals any damage to the target."
+						"Immediatament després d'utilitzar el seu Pas de Fata, el fey pot triar una criatura que pugui veure a 10 peus d'ell i obligar-lo a triomfar en una Saviesa contra la teva CD de salvació de conjur o ser {@condition fascinat} pel fey durant 1 minut. L'encant s'acaba si el fey o qualsevol dels seus companys fa cap dany a l'objectiu."
 					]
 				},
 				{
-					"name": "Impassioned Step (Només Furious)",
+					"name": "Pas apassionat (Només Furious)",
 					"entries": [
-						"Immediately after using its Pas de Fata, the fey has advantage on the next attack roll it makes before the end of its turn."
+						"Immediatament després d'utilitzar el seu Pas de Fata, el fey té avantatge a la següent tirada d'atac que fa abans del final del seu torn."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The fey makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"El fey fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
 					"name": "Espasa curta",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany perforant{@damage  + 1d6} de dany de força."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d6 + 3 + summonSpellLevel} de dany perforant{@damage + 1d6} de dany de força."
 					]
 				}
 			],
@@ -500,7 +500,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"S"
@@ -530,21 +530,21 @@
 						"C",
 						"E"
 					],
-					"note": "Demon only"
+					"note": "Només dimoni"
 				},
 				{
 					"alineament": [
 						"L",
 						"E"
 					],
-					"note": "Devil only"
+					"note": "Només diable"
 				},
 				{
 					"alineament": [
 						"N",
 						"E"
 					],
-					"note": "Yugoloth only"
+					"note": "Només Yugoloth"
 				}
 			],
 			"ac": [
@@ -553,17 +553,17 @@
 				}
 			],
 			"hp": {
-				"special": "equal the fiend's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the fiend's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 40,
 				"climb": {
 					"number": 40,
-					"condition": "(demon only)"
+					"condition": "(només dimoni)"
 				},
 				"volar": {
 					"number": 60,
-					"condition": "(devil only)"
+					"condition": "(només diable)"
 				}
 			},
 			"str": 13,
@@ -588,7 +588,7 @@
 			"idiomes": [
 				"Abismal",
 				"Infernal",
-				"telepatía 60 peus"
+				"telepatia 60 peus"
 			],
 			"trait": [
 				{
@@ -600,11 +600,11 @@
 				{
 					"name": "Acaballes de la Mortalitat (Només Demon)",
 					"entries": [
-						"When the diastre es queda a 0 punts de vida or the spell ends, the diastre explodes, and each creature within 10 feet of ha de salvar per Destresa contra la teva CD de salvació de conjur. Qui falli, rep {@damage 2d10 + summonSpellLevel} de dany de foc; qui superi, en rep la meitat."
+						"Quan el diastre queda a 0 punts de vida o l'encanteri acaba, el diastre explota, i cada criatura a menys de 10 peus d'ha de salvar per Destresa contra el teu CD de salvació de conjur. Qui falli, rep {@damage 2d10 + summonSpellLevel} de dany de foc; qui superi, en rep la meitat."
 					]
 				},
 				{
-					"name": "Ulls de Diables (Només Devil)",
+					"name": "Ulls de Diables (Diable Noms)",
 					"entries": [
 						"El diastre pot veure a través de la foscor màgica amb la seva visió de foscor."
 					]
@@ -612,13 +612,13 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The diastre makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"El diastre fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
-					"name": "Mossegada (Només Demon)",
+					"name": "Mossegada (Dimoni Només)",
 					"entries": [
 						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d12 + 3 + summonSpellLevel} de dany necròtic."
 					]
@@ -626,7 +626,7 @@
 				{
 					"name": "Urpes (Només Yugoloth)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany tallant. Immediately after the attack hits or misses, the diastre can magically teleport fins a 30 peus to an unoccupied space it can see."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, un objectiu. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany tallant. Immediatament després que l'atac hagi colpejat o falla, el diastre pot teletransportar màgicament les aletes de 30 peus a un espai desocupat que pugui veure."
 					]
 				},
 				{
@@ -645,11 +645,11 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
-				"I",
+				"jo",
 				"TP"
 			],
 			"damageTags": [
@@ -678,7 +678,7 @@
 				}
 			],
 			"hp": {
-				"special": "equal the shadow's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the shadow's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 40
@@ -707,27 +707,27 @@
 				{
 					"name": "Bloodthirsty Frenzy (Només Fury)",
 					"entries": [
-						"The spirit has advantage on attack rolls against {@condition acovardit} creatures."
+						"L'esperit té avantatge a les tires d'atac contra les criatures {@condition acovardit}."
 					]
 				},
 				{
-					"name": "Sigil de l'Ombra (Només Fear)",
+					"name": "Segell de l'Ombra (Només Fear)",
 					"entries": [
 						"Quan és dins de llum tènue o de foscor the spirit can take the Hide action as a bonus action."
 					]
 				},
 				{
-					"name": "Weight of Ages (Només Despair)",
+					"name": "Weight of Ages (Només Desesperació)",
 					"entries": [
-						"Any beast or humanoid, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that beast or humanoid's next turn."
+						"Qualsevol bèstia o humanoide, que no sigui tu, que comenci el seu torn a 5 peus de l'esperit té la seva velocitat reduïda en 20 peus fins a l'inici del següent torn d'aquesta bèstia o humanoide."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The spirit makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"L'esperit fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
@@ -739,7 +739,7 @@
 				{
 					"name": "Crit Desesperant (1/Dia)",
 					"entries": [
-						"The spirit crida. Tota criatura a 30 peus d'abast ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} of the spirit durant 1 minut. La criatura {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"L'esperit crida. Tota criatura a 30 peus d'abast ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} de l'esperit durant 1 minut. La criatura {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				}
 			],
@@ -747,7 +747,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -768,7 +768,7 @@
 			"page": 8,
 			"summonedBySpell": "Convocar Esperit No-Mort|UA2020SpellsAndMagicTattoos",
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -779,13 +779,13 @@
 				}
 			],
 			"hp": {
-				"special": "equal the undead's Constitució modifier + el teu modificador de llançament de conjurs + ten times the spell's level"
+				"special": "equal the undead's Constitució modificador + el teu modificador de llançament de conjurs + ten times the spell's level"
 			},
 			"speed": {
 				"walk": 30,
 				"volar": {
 					"number": 40,
-					"condition": "(ghostly only; hover)"
+					"condition": "(només fantasmal; flotar)"
 				},
 				"canHover": true
 			},
@@ -804,7 +804,7 @@
 				"verí"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
@@ -817,7 +817,7 @@
 				{
 					"name": "Moviment Incorpori (Només Ghostly)",
 					"entries": [
-						"The undead can become incorporeal while moving and pass through other creatures and objects as if they were terreny difícil. Si acaba el torn dins d'un objecte, és empès a l'espai desocupat més proper i rep {@damage 1d10} de dany de força per cada 5 peus empesos."
+						"Els no-morts poden tornar-se incorporis mentre es mouen i passar per altres criatures i objectes com si fossin un terreny difícil. Si acaba el torn dins d'un objecte, és empès a l'espai desocupat més proper i rep {@damage 1d10} de dany de força per cada 5 peus empesos."
 					]
 				},
 				{
@@ -829,15 +829,15 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The spirit makes a number of attacks equal to half this spell's level (arrodoneix a la baixa)."
+						"L'esperit fa un nombre d'atacs igual a la meitat del nivell d'aquest encanteri (arrodoneix a la baixa)."
 					]
 				},
 				{
 					"name": "Toc Mortífer (Només Ghostly)",
 					"entries": [
-						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, i la criatura ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} of the undead until the end of the target's next turn."
+						"{@atk mw} {@hit 3 + summonSpellLevel} a impactar, 5 peus d'abast, una criatura. {@h}{@damage 1d8 + 3 + summonSpellLevel} de dany necròtic, i la criatura ha de salvar per Saviesa amb la teva CD de salvació de conjur. Si falla està {@condition acovardit} dels no-morts fins al final del següent torn de l'objectiu."
 					]
 				},
 				{
@@ -860,7 +860,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
