@@ -2051,7 +2051,7 @@ class CreatureBuilder extends Builder {
 			},
 			null,
 			{
-				display: "\uD835\uDC65/rest (/each) spells",
+				display: "\uD835\uDC65/descans (/each) spells",
 				type: "rest",
 				mode: "frequency",
 			},
