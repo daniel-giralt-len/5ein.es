@@ -1057,7 +1057,7 @@ class EncounterBuilderUtils {
 		data = data.filter(it => EncounterBuilderUtils.getCr(it) < VeCt.CR_CUSTOM).sort((a, b) => SortUtil.ascSort(EncounterBuilderUtils.getCr(b), EncounterBuilderUtils.getCr(a)));
 		if (!data.length) return 0;
 
-		// no cutoff for CR 0-2
+		// no cutoff for VR 0-2
 		if (EncounterBuilderUtils.getCr(data[0]) <= 2) return 0;
 
 		// ===============================================================================================================
@@ -1136,7 +1136,7 @@ class EncounterBuilderUtils {
 					}
 				}
 
-				// Sort by descending average CR -> ascending deviation
+				// Sort by descending average VR -> ascending deviation
 				crMetas.sort((a, b) => SortUtil.ascSort(b.mean, a.mean) || SortUtil.ascSort(a.deviation, b.deviation));
 
 				// "significantly below the average" -> cutoff at half the average
