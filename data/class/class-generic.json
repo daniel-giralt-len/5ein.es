@@ -16,7 +16,7 @@
 						],
 						"5": [
 							"parlar amb els morts",
-							"spirit guardians"
+							"guardians espirituals"
 						],
 						"7": [
 							"ull arcà",
@@ -66,7 +66,7 @@
 						],
 						"5": [
 							"parlar amb els morts",
-							"spirit guardians"
+							"guardians espirituals"
 						],
 						"7": [
 							"ull arcà",
@@ -119,7 +119,7 @@
 							"vampiric touch"
 						],
 						"7": [
-							"blight",
+							"plaga",
 							"restabliment superior"
 						],
 						"9": [
@@ -152,8 +152,8 @@
 				"{@i Level 1+ Mage of Lorehold Feature}",
 				"You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.",
 				"Quan acabis un Descans Curt o Llarg, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue a 10 peus de tu to serve as your {@creature company ancià|UA2021MagesOfStrixhaven}. See this creature's game statistics in the {@creature Company Ancià|UA2021MagesOfStrixhaven} stat block, which uses el teu bonus de competència (BC) in several places. When you bond with your company ancià, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit's appearance.",
-				"The company ancià is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is l'acció {@action Dodge}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the companion can take any action of its choice, not just {@action Dodge}.",
-				"Com a acció, you can touch the company ancià and expend a spell slot of 1st-level or higher. The company ancià regains a number of hit points equal to 10 times the level of spell slot expended.",
+				"The company ancià is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is l'acció {@action Esquivar}, unless you take a bonus action en el teu torn to command it to take another action. That action can be one in its stat block or some other action. Si et quedes {@condition incapacitated}, the companion can take any action of its choice, not just {@action Esquivar}.",
+				"Com a acció, you can touch the company ancià and expend a spell slot of 1st-level or higher. The company ancià regains a number of punts de vida equal to 10 times the level of spell slot expended.",
 				"The companion perishes when it drops to 0 punts de vida, when you bond with a new company ancià at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object."
 			]
 		},
@@ -189,7 +189,7 @@
 						],
 						[
 							"5",
-							"{@spell parlar amb els morts}, {@spell spirit guardians}"
+							"{@spell parlar amb els morts}, {@spell guardians espirituals}"
 						],
 						[
 							"7",
@@ -221,7 +221,7 @@
 					"name": "Using This Subclass",
 					"entries": [
 						"Upon selecting the Mage of Lorehold subclass, you gain two features: Lorehold Spells and Company Ancià.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a bard, the Col·legi de Coneixementhold counts as your college; if you're a warlock, the magic of the college serves as your patron; and if you're a wizard, the college represents your arcane tradition.",
+						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a bard, the Col·legi de Coneixementhold counts as your college; if you're a warlock, the magic of the college serves as your patron; and if you're a wizard, the college represents your tradició arcana.",
 						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature (escull) from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
 					]
 				},
@@ -256,7 +256,7 @@
 						{
 							"type": "item",
 							"name": "Healer.",
-							"entry": "Els teus punts de vida màxims increases by an amount equal to your level en aquesta classe, and you gain the same number of hit points. When you regain hit points from a spell, you regain an additional {@dice 1d8} hit points."
+							"entry": "Els teus punts de vida màxims increases by an amount equal to el teu nivell en aquesta classe, and you gain the same number of punts de vida. When you regain punts de vida from a spell, you regain an additional {@dice 1d8} punts de vida."
 						},
 						{
 							"type": "item",
@@ -286,7 +286,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Level 10+ Mage of Lorehold Feature}",
-				"By pulling from the magic of the past, you can cause your opponent's old wounds to resonate anew. Un cop per torn, quan una criatura que puguis veure hits a target with an attack roll, pots, com a reacció, force the target to make a Saviesa saving throw contra la teva CD de salvació de conjur. On a failure, the target becomes vulnerable to one of the damage types dealt by the attack. This vulnerability lasts until the end of the target's next turn and affects the damage dealt by the triggering attack.",
+				"By pulling from the magic of the past, you can cause your opponent's old wounds to resonate anew. Un cop per torn, quan una criatura que puguis veure hits a target with an attack roll, pots, com a reacció, force the target to make a Saviesa contra la teva CD de salvació de conjur. On a failure, the target becomes vulnerable to one of the damage types dealt by the attack. This vulnerability lasts until the end of the target's next turn and affects the damage dealt by the triggering attack.",
 				"You can use your reaction in this way tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
@@ -326,7 +326,7 @@
 					]
 				},
 				"The benefit lasts fins l'inici del teu proper torn. You cannot choose the same benefit two rounds in a row.",
-				"The state dura 1 minut and ends early if you're {@condition incapacitated}. Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg, unless you expend a spell slot of 4th level or higher to use it again."
+				"The state dura 1 minut and ends early if you're {@condition incapacitated}. Quan empris aquest tret, no hi pots tornar fins que acabis un Descans Llarg o fins que gastis una ranura de conjur of 4th level or higher to use it again."
 			]
 		},
 		{
@@ -341,7 +341,7 @@
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
 				"{@i Level 1+ Mage of Prismari Feature}",
-				"You gain proficiency in two of the following skills (escull): {@skill Acrobatics}, {@skill Athletics}, {@skill Nature}, or {@skill Performance}."
+				"You gain proficiency in two of the following skills (escull): {@skill Acrobàcies}, {@skill Athletics}, {@skill Nature}, or {@skill Performance}."
 			]
 		},
 		{
@@ -356,7 +356,7 @@
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
 				"{@i Level 1+ Mage of Prismari Feature}",
-				"You can {@action Dash} com a acció bonus. When you take this bonus action, choose one of the following additional effects:",
+				"You can {@action Córrer} com a acció bonus. When you take this bonus action, choose one of the following additional effects:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -364,12 +364,12 @@
 						{
 							"type": "item",
 							"name": "Boreal Sweep",
-							"entry": "Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. A més, when you leave a space within 5 feet of a creature, you can force that creature to make a Força saving throw contra la teva CD de salvació de conjur. Si falla, the creature is knocked {@condition prone}. A creature can be affected by the water only once each turn."
+							"entry": "Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. A més, when you leave a space within 5 feet of a creature, you can force that creature to make a Força contra la teva CD de salvació de conjur. Si falla, the creature is knocked {@condition prone}. A creature can be affected by the water only once each turn."
 						},
 						{
 							"type": "item",
 							"name": "Scorching Whirl",
-							"entry": "Flames wreath your steps. Once before the end of your turn, you can force tota criatura a 5 peus de tu to make a Destresa saving throw contra la teva CD de salvació de conjur. On a failure, a creature takes fire damage equal to {@dice 1d4} + your spellcasting modifier."
+							"entry": "Flames wreath your steps. Once before the end of your turn, you can force tota criatura a 5 peus de tu to make a Destresa contra la teva CD de salvació de conjur. On a failure, a creature takes fire damage equal to {@dice 1d4} + your spellcasting modifier."
 						},
 						{
 							"type": "item",
@@ -399,7 +399,7 @@
 					"name": "Using This Subclass",
 					"entries": [
 						"Upon selecting the Mage of Prismari subclass, you gain two features: Creative Skills and Kinetic Artistry.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a druid, the College of Prismari counts as your circle; if you're a sorcerer, the magic of the college is the origin of your sorcery; and if you're a wizard, the college represents your arcane tradition.",
+						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a druid, the College of Prismari counts as your circle; if you're a sorcerer, the magic of the college is the origin of your sorcery; and if you're a wizard, the college represents your tradició arcana.",
 						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature (escull) from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
 					]
 				},
@@ -428,7 +428,7 @@
 				"{@i Level 6+ Mage of Prismari Feature}",
 				"You have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type.",
 				"A més, when you cast a spell using a spell slot that deals the chosen damage type, you emit a spectacular aura of artistry, which extends 5 feet from you in every direction (però no a través de cobertura total) and lasts fins el final del teu proper torn. While the aura is active, tota criatura que designis has resistance to your chosen damage type while within the aura, as you shape your favored elemental medium around them.",
-				"You can change your choice of damage type quan acabis un descans llarg."
+				"You can change your choice of damage type quan acabis un Descans Llarg."
 			]
 		},
 		{
@@ -533,7 +533,7 @@
 					"name": "Using This Subclass",
 					"entries": [
 						"Upon selecting the Mage of Quandrix subclass, you gain two features: Quandrix Spells and Functions of Probability.",
-						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a sorcerer, the magic of Quandrix is part of your sorcerous origin, and if you're a wizard, the college represents your arcane tradition.",
+						"In this subclass's features, any reference to your class refers to the class from which you gained the subclass. If you're a sorcerer, the magic of Quandrix is part of your origen sortiller, and if you're a wizard, the college represents your tradició arcana.",
 						"When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature (escull) from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature."
 					]
 				},
@@ -579,11 +579,11 @@
 						],
 						[
 							"5",
-							"{@spell aura of vitality}, {@spell haste}"
+							"{@spell aura vital}, {@spell accelerar}"
 						],
 						[
 							"7",
-							"{@spell control d'aigua}, {@spell freedom of movement}"
+							"{@spell control d'aigua}, {@spell llibertat de moviments}"
 						],
 						[
 							"9",
@@ -606,7 +606,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Level 6+ Mage of Quandrix Feature}",
-				"You learn to manipulate kinetic formulas and alter the velocity of another creature. Quan una criatura que puguis veure starts its turn or moves to a space a 30 peus de tu, pots, com a reacció, force the creature to make a Carisma saving throw contra la teva CD de salvació de conjur, which it can choose to fail. On a failure, the creature is teleported en un espai desocupat (escull) que puguis veure a 30 peus de tu.",
+				"You learn to manipulate kinetic formulas and alter the velocity of another creature. Quan una criatura que puguis veure starts its turn or moves to a space a 30 peus de tu, pots, com a reacció, force the creature to make a Carisma contra la teva CD de salvació de conjur, which it can choose to fail. On a failure, the creature is teleported en un espai desocupat (escull) que puguis veure a 30 peus de tu.",
 				"You can use your reaction in this way tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
@@ -623,7 +623,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Level 10+ Mage of Quandrix Feature}",
-				"Through careful calculations, you beset your enemies with abstract equations that reduce their might. Un cop per torn, immediately after dealing damage to a creature, you can force the creature to make a Constitució saving throw contra la teva CD de salvació de conjur. On a failure, the creature has disadvantage on Força and Destresa saving throws, and its weapon attacks deal only half damage. These effects last fins l'inici del teu proper torn.",
+				"Through careful calculations, you beset your enemies with abstract equations that reduce their might. Un cop per torn, immediately after dealing damage to a creature, you can force the creature to make a Constitució contra la teva CD de salvació de conjur. On a failure, the creature has disadvantage on Força and Destresa saving throws, and its weapon attacks deal only half damage. These effects last fins l'inici del teu proper torn.",
 				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		},
@@ -704,8 +704,8 @@
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
 				"{@i Level 1+ Mage of Silverquill Feature}",
-				"You can invoke words laced with magic to demoralize your foes and turn their misfortune into a boon to bolster your allies. Immediatament after a creature que puguis veure a 60 peus de tu succeeds on an attack roll, an ability check, or a saving throw, pots, com a reacció, demoralize the creature. Unless the creature is immune to being {@condition charmed}, it rerolls the {@dice d20} and must use the lower roll. If the attack roll, ability check, or saving throw then fails, you can choose a different creature que puguis veure a 60 peus de tu (you can choose yourself). That creature is empowered, and can reroll one attack roll, ability check, or saving throw it makes within 1 minute and use the higher result. A creature can be empowered by only one use of this feature at a time.",
-				"Once a creature fails an attack roll, an ability check, or a saving throw because of a reroll forced by this feature, you can't use the feature again fins que acabis un descans llarg, unless you expend a spell slot to use it again."
+				"You can invoke words laced with magic to demoralize your foes and turn their misfortune into a boon to bolster your allies. Immediatament after una criatura que puguis veure a 60 peus de tu succeeds on an attack roll, an ability check, or a saving throw, pots, com a reacció, demoralize the creature. Unless the creature is immune to being {@condition charmed}, it rerolls the {@dice d20} and must use the lower roll. If the attack roll, ability check, or saving throw then fails, you can choose a different creature que puguis veure a 60 peus de tu (you can choose yourself). That creature is empowered, and can reroll one attack roll, ability check, or saving throw it makes within 1 minute and use the higher result. A creature can be empowered by only one use of this feature at a time.",
+				"Once a creature fails an attack roll, an ability check, or a saving throw because of a reroll forced by this feature, you can't use the feature again fins que acabis un Descans Llarg o fins que gastis una ranura de conjur to use it again."
 			]
 		},
 		{
@@ -722,7 +722,7 @@
 			"entries": [
 				"{@i Level 6+ Mage of Silverquill Feature}",
 				"You learn the darkness spell, and it is added to your class spell list if it isn't there already. If you are a wizard, you add it to your spellbook, if it's not there already.",
-				"You can cast the spell sense gastar cap ranura de conjur, and no pots tornar-hi fins que acabis un descans llarg. When you cast the spell in this way, que puguis veure normally through the darkness created, and quan una criatura que puguis veure starts its turn in the darkness, you can deal {@damage 2d10} de dany psíquic to that creature.",
+				"You can cast the spell sense gastar cap ranura de conjur, and no pots tornar-hi fins que acabis un Descans Llarg. When you cast the spell in this way, que puguis veure normally through the darkness created, and quan una criatura que puguis veure starts its turn in the darkness, you can deal {@damage 2d10} de dany psíquic to that creature.",
 				"You can also cast the spell normally, without the additional effects, by using ranures de conjur you have of 2nd level or higher."
 			]
 		},
@@ -811,7 +811,7 @@
 						{
 							"type": "item",
 							"name": "Overgrowth",
-							"entry": "When you choose this benefit, and com a acció bonus als torns posteriors while the benefit lasts, you can expend and roll one Hit Die. You regain a number of hit points equal to the number rolled plus your modificador d'habilitat de llançament de conjurs."
+							"entry": "When you choose this benefit, and com a acció bonus als torns posteriors while the benefit lasts, you can expend and roll one Dau de Vida. You regain a number of punts de vida equal to the number rolled plus your modificador d'habilitat de llançament de conjurs."
 						},
 						{
 							"type": "item",
@@ -867,7 +867,7 @@
 			"isGainAtNextFeatureLevel": true,
 			"entries": [
 				"{@i Level 1+ Mage of Witherbloom Feature}",
-				"You learn the cantrip Rèquiem pels Morts and the 1stlevel spells curar ferides and inflict wounds. You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Witherbloom Spells table.",
+				"You learn the cantrip Rèquiem pels Morts and the 1stlevel spells curar ferides and inflingir ferides. You learn additional spells Quan pugis de nivell en aquesta classe, as shown on the Witherbloom Spells table.",
 				"Each of these spells count as a class spell for you, but it doesn't count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don't count against the number of spells you can prepare each day.",
 				{
 					"type": "table",
@@ -891,7 +891,7 @@
 						],
 						[
 							"7",
-							"{@spell blight}, {@spell restabliment superior}"
+							"{@spell plaga}, {@spell restabliment superior}"
 						],
 						[
 							"9",
@@ -914,7 +914,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Level 6+ Mage of Witherbloom Feature}",
-				"You gain proficiency with herbalism kits if you don't already have it.",
+				"Tens competència amb herbalism kits if you don't already have it.",
 				"Quan acabis un Descans Llarg, you can use an herbalism kit and a pot or cauldron to create magical brews. You create a number of brews equal to el teu bonus de competència. Each brew requires its own flask. A brew retains its magical potency durant 24 hores or until it is used. For each brew, choose one of the following effects:",
 				{
 					"type": "list",
@@ -928,7 +928,7 @@
 						{
 							"type": "item",
 							"name": "Quickening",
-							"entry": "A creature can drink this brew or administer it to another creature com a acció. The recipient regains {@dice 2d6} hit points, and one disease or condition from the following list affecting the recipient ends (brew user's choice): {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition stunned}."
+							"entry": "A creature can drink this brew or administer it to another creature com a acció. The recipient regains {@dice 2d6} punts de vida, and one disease or condition from the following list affecting the recipient ends (brew user's choice): {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, {@condition stunned}."
 						},
 						{
 							"type": "item",
@@ -952,7 +952,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Level 10+ Mage of Witherbloom Feature}",
-				"Your connection to the flow of life force deepens. Un cop per torn when you deal necrotic damage or restore hit points using a spell, un objectiu of the spell takes additional damage or regains additional hit points equal to el teu bonus de competència."
+				"Your connection to the flow of life force deepens. Un cop per torn when you deal necrotic damage or restore punts de vida using a spell, un objectiu of the spell takes additional damage or regains additional punts de vida equal to el teu bonus de competència."
 			]
 		},
 		{
@@ -968,7 +968,7 @@
 			"header": 2,
 			"entries": [
 				"{@i Level 14+ Mage of Witherbloom Feature}",
-				"When you cast a spell using a spell slot that deals necrotic damage to any number of creatures that aren't Undead or Constructs, choose one of the creatures that took damage. You drain an amount of life energy equal to half the damage dealt to la criatura designada. One creature (excepte tu) que puguis veure a 30 peus de tu regains a number of hit points equal to the life energy drained.",
+				"When you cast a spell using a spell slot that deals necrotic damage to any number of creatures that aren't Undead or Constructs, choose one of the creatures that took damage. You drain an amount of life energy equal to half the damage dealt to la criatura designada. One creature (excepte tu) que puguis veure a 30 peus de tu regains a number of punts de vida equal to the life energy drained.",
 				"Pots emprar aquest tret tants cops com el teu bonus de competència, i en recuperes tots els usos quan acabis un Descans Llarg."
 			]
 		}
