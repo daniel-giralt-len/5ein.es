@@ -8,7 +8,7 @@
 			]
 		},
 		"internalCopies": [
-			"monster"
+			"monstre"
 		],
 		"otherSources": {
 			"monster": {
@@ -30,9 +30,9 @@
 					"action": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Multi-atac",
+							"name": "Multiatac",
 							"entries": [
-								"The amphisbaena fa dos atacs, only one of which can be a constrict attack."
+								"L'amphisbaena fa dos atacs, només un dels quals pot ser un atac de constricció."
 							]
 						}
 					}
@@ -41,15 +41,15 @@
 			"cr": "3",
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			]
 		},
 		{
-			"name": "Animated Table",
+			"name": "Taula animada",
 			"source": "TftYP",
 			"page": 230,
 			"size": "L",
-			"type": "constructe",
+			"type": "construir",
 			"alineament": [
 				"U"
 			],
@@ -75,7 +75,7 @@
 			"wis": 3,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 60 peus (sense visió més enllà)"
+				"visió a cegues 60 peus (sens visió més enllà)"
 			],
 			"passive": 6,
 			"immune": [
@@ -86,7 +86,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -97,19 +97,19 @@
 				{
 					"name": "Debilitat Antimàgica",
 					"entries": [
-						"The table is {@condition incapacitat} while in the area of an camp antimàgic. If targeted by dissipar màgia, the table must succeed on a Constitució saving throw against the caster's spell save DC or fall {@condition inconscient} durant 1 minut."
+						"La taula és {@condition incapacitat} mentre es troba a la zona d'un campament antimàgic. Si l'objectiu és dissipar màgia, la taula ha de tenir èxit en una tirada de salvació de Constitució contra l'encanteri salvació de CD del llançador o caure {@condition inconscient} durant 1 minut."
 					]
 				},
 				{
 					"name": "Falsa Aparença",
 					"entries": [
-						"Si table es mantè immòbil, és indistingible d'un normal table."
+						"Si taula és mantè immòbil, és indistingible d'una taula normal."
 					]
 				},
 				{
 					"name": "Carregar",
 					"entries": [
-						"Si the table es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un ram, tot al mateix torn, the target takes an extra 9 ({@damage 2d8}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
+						"Si the table és mou 20 peus com un mínim directe cap a un objectiu i l'impacta amb un ram, tot al mateix torn, the target takes an extra 9 ({@damage 2d8}) de dany contundent. Si l'objectiu és una criatura, ha de salvar per Força amb {@dc 15} o ser knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -188,7 +188,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Belak the Outcast",
+			"name": "Belak el marginat",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 9,
@@ -206,7 +206,7 @@
 				11,
 				{
 					"ac": 16,
-					"condition": "with {@spell pell d'escorça}",
+					"condition": "amb {@spell pell d'escorça}",
 					"braces": true
 				}
 			],
@@ -230,7 +230,7 @@
 			},
 			"passive": 14,
 			"idiomes": [
-				"Druídic plus any two languages"
+				"Druídic més dues llengües qualsevol"
 			],
 			"cr": "2",
 			"spellcasting": [
@@ -264,14 +264,14 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"action": [
 				{
 					"name": "Bastó",
 					"entries": [
-						"{@atk mw} {@hit 2} a impactar ({@hit 4} a impactar amb shillelagh), 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent, o 6 ({@damage 1d8 + 2}) de dany contundent amb shillelagh or if wielded with two hands."
+						"{@atk mw} {@hit 2} a impactar ({@hit 4} a impactar amb shillelagh), 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent, o 6 ({@damage 1d8 + 2}) de dany contundent amb shillelagh o si es maneja amb dues mans."
 					]
 				}
 			],
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"name": "Bugbear Gardener",
+			"name": "Jardiner Bugbear",
 			"source": "TftYP",
 			"page": 29,
 			"_copy": {
@@ -299,8 +299,8 @@
 				"source": "MM",
 				"_mod": {
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Morningstar",
+						"mode": "substituirArr",
+						"replace": "Estel de l'alba",
 						"items": {
 							"name": "Glaive",
 							"entries": [
@@ -323,7 +323,7 @@
 			]
 		},
 		{
-			"name": "Bugbear Lieutenant",
+			"name": "Tinent Bugbear",
 			"source": "TftYP",
 			"page": 173,
 			"_copy": {
@@ -331,12 +331,12 @@
 				"source": "MM",
 				"_mod": {
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Morningstar",
+						"mode": "substituirArr",
+						"replace": "Estel de l'alba",
 						"items": {
 							"name": "Espasa llarga",
 							"entries": [
-								"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany tallant, o 13 ({@damage 2d10 + 2}) de dany tallant if used with both hands."
+								"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany tallant, o 13 ({@damage 2d10 + 2}) de dany tallant si s'utilitza amb les dues mans."
 							]
 						}
 					}
@@ -421,7 +421,7 @@
 				{
 					"name": "Alè de Cold {@recharge 5}",
 					"entries": [
-						"The dragon exhales an icy blast of hail en un con de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12}. Qui falli rep 22 ({@damage 5d8}) de dany de fred; qui superi, en rep la meitat."
+						"The dragon exhales an geled blast of hail en un amb de 15 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 12}. Qui falli rep 22 (@damage 5d8}) de dany de fred; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -444,11 +444,11 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Centaure Mummy",
+			"name": "Mòmia Centaure",
 			"source": "TftYP",
 			"page": 231,
 			"size": "L",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"L",
 				"E"
@@ -501,29 +501,29 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
 			"idiomes": [
 				"Comú",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "6",
 			"trait": [
 				{
 					"name": "Carregar",
 					"entries": [
-						"Si the centaure mummy es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un pike, tot al mateix torn, the target takes an extra 10 ({@damage 3d6}) de dany perforant."
+						"Si the centaure mummy és mou 20 peus com un mínim directe cap a un mateix objectiu i l'impacte amb un pike, tot al torn, the target takes an extra 10 ({@damage 3d6}) de dany perforant."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The centaure mummy makes two melee attacks, one with its pike and one with its hooves, or it attacks with its pike and uses Dreadful Glare."
+						"La mòmia centaure fa dos atacs cos a cos, un amb la seva pica i l'altre amb les peülles, o ataca amb la seva pica i fa servir Dreadful Glare."
 					]
 				},
 				{
@@ -535,13 +535,13 @@
 				{
 					"name": "Peülles",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany perforant mes 10 ({@damage 3d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 14} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell anul·lar maledicció} spell or similar magic."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany perforant mes 10 ({@damage 3d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 14} o ser maleït amb putrefacció de la mòmia. L'objectiu maleït no pot recuperar punts de vida, i els seus punts de vida màxims disminueixen en 10 ({@dice 3d6}) per cada 24 hores que passen. Si la maledicció redueix els punts de vida màxims de l'objectiu a 0, l'objectiu mor i el seu cos es converteix en pols. La maledicció dura fins que l'elimina l'encanteri {@spell anul·lar maledicció} o màgia similar."
 					]
 				},
 				{
-					"name": "Dreadful Glare",
+					"name": "Enlluernament terrible",
 					"entries": [
-						"The centaure mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target ha de salvar per Saviesa amb {@dc 12} against this magic or become {@condition acovardit} until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralitzat} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not senyors de les mòmies) durant les properes 24 hores."
+						"La mòmia centaure apunta a una criatura que pot veure a 60 peus d'ella. Si l'objectiu pot veure la mòmia, l'objectiu ha de salvar per Saviesa amb {@dc 12} contra aquesta màgia o es converteix en {@condition acovardit} fins al final del següent torn de la mòmia. Si l'objectiu falla la tirada de salvació per 5 o més, també és {@condition paralitzat} durant la mateixa durada. Un objectiu que aconsegueix la tirada de salvació és immune a l'enlluernament terrible de totes les mòmies (però no dels senyors de les mòmies) durant les 24 hores."
 					]
 				}
 			],
@@ -553,7 +553,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -575,18 +575,18 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Chief Nosnra",
+			"name": "Cap Nosnra",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 170,
 			"_copy": {
-				"name": "Frost Giant",
+				"name": "Gegant de gelades",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the giant",
-						"with": "Chief Nosnra",
+						"mode": "substituirTxt",
+						"replace": "el gegant",
+						"with": "Cap Nosnra",
 						"flags": "i"
 					}
 				}
@@ -604,11 +604,11 @@
 			"conditionInflict": []
 		},
 		{
-			"name": "Cloud Giant Noble",
+			"name": "Núvol Gegant Noble",
 			"source": "TftYP",
 			"page": 206,
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Núvol Gegant",
 				"source": "MM"
 			},
 			"ac": [
@@ -630,7 +630,7 @@
 				"name": "Plebeu",
 				"source": "MM",
 				"_trait": {
-					"name": "Stout Halfling",
+					"name": "Halfling robust",
 					"source": "PHB"
 				}
 			},
@@ -642,7 +642,7 @@
 			]
 		},
 		{
-			"name": "Dragonpriest",
+			"name": "Sacerdot Drac",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 16,
@@ -651,24 +651,24 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "troll",
-						"with": "dragonpriest",
+						"with": "sacerdot drac",
 						"flags": "i"
 					},
 					"trait": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Regeneració",
 						"items": {
 							"name": "Regeneració",
 							"entries": [
-								"The dragonpriest recupera 5 punts de toc a l'inici del seu torn. If the dragonpriest takes acid or fire damage, this trait doesn't function at the start of the dragonpriest's next turn. The dragonpriest dies only if it starts its turn with 0 hit points and doesn't regenerate."
+								"The dragonpriest recupera 5 punts de toc a l'inici del seu torn. Si el sacerdot drac rep danys per àcid o foc, aquest tret no funciona al començament del següent torn del sacerdot drac. El sacerdot drac només mor si comença el seu torn amb 0 punts de vida i no es regenera."
 							]
 						}
 					},
 					"action": {
-						"mode": "removeArr",
-						"names": "Multi-atac"
+						"mode": "eliminarArr",
+						"names": "Multiatac"
 					}
 				}
 			},
@@ -684,7 +684,7 @@
 			"source": "TftYP",
 			"page": 233,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -726,7 +726,7 @@
 				"verí"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			],
 			"idiomes": [
@@ -737,13 +737,13 @@
 				{
 					"name": "Resiliència No-morta",
 					"entries": [
-						"If damage reduces the dread warrior to 0 hit points, ha de salvar per Constitució with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the dread warrior drops to 1 hit point instead."
+						"Si el dany redueix el guerrer temible a 0 punts de cop, ha de salvar per Constitució amb una CD de 5+el dany rebut, tret que el dany sigui radiant o d'un cop crític. En cas d'èxit, el guerrer temible baixa a 1 punt de vida."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"The dread warrior fa dos atacs cos a cos."
 					]
@@ -751,11 +751,11 @@
 				{
 					"name": "Destral de guerra",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany tallant, o 7 ({@damage 1d10 + 2}) de dany tallant if wielded with two hands."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany tallant, o 7 ({@damage 1d10 + 2}) de dany tallant si es maneja amb dues mans."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant."
 					]
@@ -769,7 +769,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -794,12 +794,12 @@
 				"name": "Espia",
 				"source": "MM",
 				"_trait": {
-					"name": "Stout Halfling",
+					"name": "Halfling robust",
 					"source": "PHB"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'espia",
 						"with": "Drevin",
 						"flags": "i"
@@ -813,11 +813,11 @@
 			]
 		},
 		{
-			"name": "Drow Commander",
+			"name": "Comandant drow",
 			"source": "TftYP",
 			"page": 209,
 			"_copy": {
-				"name": "Drow Elite Warrior",
+				"name": "Guerrer d'elit drow",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -825,37 +825,37 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"The drow carries three magical bolts, as follows:",
+								"El drow porta tres parabolts màgics, de la següent manera:",
 								{
-									"type": "list",
+									"type": "llista",
 									"items": [
-										"A {@i bolt of holding}, which casts {@spell immobilitzar humanoide} on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
-										"A {@i bolt of blinding}, which casts {@spell ceguera/sordera} to blind on a target hit with the bolt, as well as up to two other targets within 30 feet of that target",
-										"A {@i bolt of vapors}, which casts {@spell núvol fètid} centered on the point it hits"
+										"Un {@i raig de retenció}, que llança {@spell immobilitzar humanoide} sobre un objectiu colpejat amb el raig, així com fins a dos objectius més a menys de 30 peus d'aquest objectiu",
+										"Un {@i bolt of blinding}, que llança {@spell ceguera/sordera} per cegar un objectiu colpejat amb el forrellat, així com fins a dos objectius més a menys de 30 peus d'aquest objectiu",
+										"Un {@i raig de vapors}, que llança {@spell núvol fètid} centrat al punt que toca"
 									]
 								},
-								"Each of these effects has a spell save DC of 15 and a duration of 1 minute."
+								"Cadascun d'aquests efectes té una CD de salvament d'encanteris de 15 i una durada d'1 minut."
 							]
 						}
 					},
 					"action": [
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Espasa curta",
 							"items": {
-								"name": "Shortsword +2",
+								"name": "Espasa curta +2",
 								"entries": [
 									"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 1d6 + 6}) de dany perforant mes 10 ({@damage 3d6}) de dany de verí."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
-							"replace": "Hand Crossbow",
+							"mode": "substituirArr",
+							"replace": "Ballesta de mà",
 							"items": {
-								"name": "Hand Crossbow +1",
+								"name": "Ballesta de mà +1",
 								"entries": [
-									"{@atk rw} {@hit 8} a impactar, 30/120 peus d'abast, un objectiu. {@h}8 ({@damage 1d6 + 5}) de dany perforant, and the target ha de salvar per Constitució (CD 13). Si falla, be {@condition emmetzinat} durant 1 hora. If the saving throw fails by 5 or more, the target is also {@condition inconscient} while {@condition emmetzinat} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+									"{@atk rw} {@hit 8} a impactar, 30/120 peus d'abast, un objectiu. {@h}8 ({@damage 1d6 + 5}) de dany perforant, and the target ha de salvar per Constitució (CD 13). Si falla, be {@condition emmetzinat} durant 1 hora. Si la tirada de salvament falla en 5 o més, l'objectiu també és {@condition inconscient} mentre {@condition emmetzinat} d'aquesta manera. L'objectiu es desperta si rep dany o si una altra criatura fa una acció per despertar-lo."
 								]
 							}
 						}
@@ -869,7 +869,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Duergar Spy",
+			"name": "Espia Duergar",
 			"source": "TftYP",
 			"page": 234,
 			"size": "M",
@@ -929,49 +929,49 @@
 				{
 					"name": "Acció Astuta",
 					"entries": [
-						"On each of its turns, the spy pot Córrer, Destravar-se o Amagar-se com a acció bonus."
+						"En cadascun dels seus torns, l'olla espia Córrer, Destravar-se o Amagar-se com a bonus d'acció."
 					]
 				},
 				{
 					"name": "Resiliència Duergar",
 					"entries": [
-						"The spy has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition fascinat} or {@condition paralitzat}."
+						"L'espia té avantatge en els tirs de salvació contra el verí, els encanteris i les il·lusions, així com per resistir-se a ser {@condition fascinat} o {@condition paralitzat}."
 					]
 				},
 				{
 					"name": "Atac Furtiu",
 					"entries": [
-						"Un cop per torn, the spy can deal an extra 7 ({@dice 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't {@condition incapacitat} and the spy doesn't have disadvantage on the attack roll."
+						"Un cop per trencat, l'espia pot infligir 7 ({@das 2d6}) de dany addicionals quan colpeja un objectiu amb un atac d'arma i té avantatge a la tirada d'atac, o quan l'objectiu es troba a 5 peus d'un aliat del espia que no és {@condition incapacitat} i l'espia no té desavantatge en la tirada d'atac."
 					]
 				},
 				{
 					"name": "Sensible al Sol",
 					"entries": [
-						"the spy té desavantatge quan li toca llum solar, as well as a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista."
+						"the spy té desavantatge quan li toca llum solar, as well as a tirades d'habilitat de Saviesa (@skill Percepció}) que involucrin la vista."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The spy makes two shortsword attacks."
+						"L'espia fa dos atacs d'espasa curta."
 					]
 				},
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available."
+						"Durant 1 minut, l'espia augmenta de mida màgicament, juntament amb qualsevol cosa que porti o porti. Mentre s'amplia, l'espia és gran, duplica els seus daus de dany als atacs amb armes basats en Força (inclosos als atacs) i fa proves de Força i tirs de salvació de Força amb avantatge. Si l'espia no té l'espai per convertir-se en gran, assoleix la mida màxima possible en l'espai disponible."
 					]
 				},
 				{
 					"name": "Espasa curta",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant, o 10 ({@damage 2d6 + 3}) de dany perforant while enlarged."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant, o 10 ({@damage 2d6 + 3}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
-					"name": "Hand Crossbow",
+					"name": "Ballesta de mà",
 					"entries": [
 						"{@atk rw} {@hit 5} a impactar, 30/120 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant."
 					]
@@ -979,7 +979,7 @@
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The spy magically turns {@condition invisible} until it attacks, deals damage, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the spy wears or carries is {@condition invisible} with it."
+						"L'espia torna màgicament {@condition invisible} fins que ataca, fa dany, llança un encanteri o utilitza la seva Ampliació, o fins que la seva concentració es trenca, fins a 1 hora (com si es concentrés en un encanteri). Qualsevol equip que l'espia faci servir o porti és {@condition invisible} amb ell."
 					]
 				}
 			],
@@ -992,7 +992,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"D",
@@ -1017,7 +1017,7 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"goblinoide"
+					"follet"
 				]
 			},
 			"alineament": [
@@ -1059,7 +1059,7 @@
 				{
 					"name": "Avantatge Marcial",
 					"entries": [
-						"Un cop per torn, the hobgoblin can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't {@condition incapacitat}."
+						"Un cop per trencat, el follet pot infligir 7 ({@das 2d6}) de dany addicionals a una criatura que colpeja amb un atac d'arma si aquesta criatura es troba a 5 peus d'un aliat del follet que no sigui {@condició incapacitat. }."
 					]
 				}
 			],
@@ -1083,7 +1083,7 @@
 			],
 			"languageTags": [
 				"C",
-				"GO"
+				"ANAR"
 			],
 			"damageTags": [
 				"P",
@@ -1105,13 +1105,13 @@
 				"name": "Druida",
 				"source": "MM",
 				"_trait": {
-					"name": "Wood Elf",
+					"name": "Elf de fusta",
 					"source": "PHB"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the druida",
+						"mode": "substituirTxt",
+						"replace": "la druida",
 						"with": "Eira",
 						"flags": "i"
 					}
@@ -1123,11 +1123,11 @@
 			]
 		},
 		{
-			"name": "Elder Black Pudding",
+			"name": "Pudín negre de saüc",
 			"source": "TftYP",
 			"page": 143,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pudding negre",
 				"source": "MM"
 			},
 			"size": "H",
@@ -1138,7 +1138,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Elder Giant Lizard",
+			"name": "Llangardaix gegant gran",
 			"source": "TftYP",
 			"page": 176,
 			"_copy": {
@@ -1146,9 +1146,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "cocodril",
-						"with": "lizard",
+						"with": "sargantana",
 						"flags": "i"
 					}
 				}
@@ -1215,7 +1215,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The acolyte és llançador/a de conjurs de nivell 1. La seva habilitat de llançament de conjurs és Saviesa (CD per salvar conjur {@dc 12}, {@hit 4} a impactar amb atacs màgics). The acolyte has following cleric spells prepared:"
+						"The acolyte és llançador/a de conjurs de nivell 1. La seva habilitat de llançament de conjurs és Saviesa (CD per salvar conjur {@dc 12}, {@hit 4} a impactar amb atacs màgics). L'acòlit té preparats els següents encanteris de clergues:"
 					],
 					"spells": {
 						"0": {
@@ -1234,7 +1234,7 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"action": [
@@ -1247,8 +1247,8 @@
 				{
 					"name": "Canalitzar Divinitat: Turn Undead (1/Short Rest)",
 					"entries": [
-						"Erky presents his holy Symbol and speaks a prayer censuring the Undead. Each Undead that can see or hear Erky within 30 feet of him ha de salvar per Saviesa amb {@dc 12}. If the creature fails its saving throw, it is turned for 1 minute o fins que rebi dany.",
-						"A turned creature must spend its turns trying to move as far away from Erky as it can, and it can't willingly move to a space within 30 feet of him. Tampoc pot prendre reaccions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+						"Erky presenta el seu símbol sagrat i fa una pregària censurant els no-morts. Cada Undead que pot veure o sentir Erky a 30 peus d'ell ha de salvar per Saviesa amb {@dc 12}. Si la criatura falla la seva tirada de salvació, es gira durant 1 minut o fins que rebi dany.",
+						"Una criatura convertida ha de passar els seus torns intentant allunyar-se tan lluny com pugui d'Erky, i no pot moure's voluntàriament a un espai a menys de 30 peus d'ell. Tampoc pot prendre reaccions. Per a la seva acció, només pot utilitzar l'acció Dash o intentar escapar d'un efecte que li impedeix moure's. Si no hi ha on moure's, la criatura pot utilitzar l'acció Dodge."
 					]
 				}
 			],
@@ -1260,7 +1260,7 @@
 				"C",
 				"DR",
 				"G",
-				"GO"
+				"ANAR"
 			],
 			"damageTags": [
 				"B"
@@ -1279,19 +1279,19 @@
 			"source": "TftYP",
 			"page": 189,
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Núvol Gegant",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the giant",
+						"mode": "substituirTxt",
+						"replace": "el gegant",
 						"with": "Estia",
 						"flags": "i"
 					},
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Morningstar",
+							"mode": "substituirArr",
+							"replace": "Estel de l'alba",
 							"items": {
 								"name": "Morningstar +2",
 								"entries": [
@@ -1312,29 +1312,29 @@
 			"spellcastingTags": []
 		},
 		{
-			"name": "Fire Giant Royal Headsman",
+			"name": "Cap reial del gegant de foc",
 			"source": "TftYP",
 			"page": 201,
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Gegant de foc",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The giant makes two greataxe attacks."
+									"El gegant fa dos atacs de gran destral."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Espasa Gran",
 							"items": {
-								"name": "Greataxe +2",
+								"name": "Gran Destral +2",
 								"entries": [
 									"{@atk mw} {@hit 13} a impactar, 10 peus d'abast, un objectiu. {@h}28 ({@damage 3d12 + 9}) de dany tallant."
 								]
@@ -1346,31 +1346,31 @@
 			"hasToken": true
 		},
 		{
-			"name": "Fire Giant Servant",
+			"name": "Servent Gegant de Foc",
 			"source": "TftYP",
 			"page": 171,
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Turó Gegant",
 				"source": "MM",
 				"_mod": {
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The giant makes two longsword attacks."
+									"El gegant fa dos atacs d'espasa llarga."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
-							"replace": "Greatclub",
+							"mode": "substituirArr",
+							"replace": "Gran club",
 							"items": {
 								"name": "Espasa llarga",
 								"entries": [
-									"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}18 ({@damage 3d8 + 5}) de dany tallant, o 21 ({@damage 3d10 + 5}) de dany tallant if used with both hands."
+									"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}18 ({@damage 3d8 + 5}) de dany tallant, o 21 ({@damage 3d10 + 5}) de dany tallant si s'utilitza amb les dues mans."
 								]
 							}
 						}
@@ -1387,15 +1387,15 @@
 			]
 		},
 		{
-			"name": "Flying Shield",
+			"name": "Escut Volador",
 			"source": "TftYP",
 			"page": 224,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Espasa Voladora",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "espasa",
 						"with": "escut",
 						"flags": "i"
@@ -1407,7 +1407,7 @@
 			"miscTags": []
 		},
 		{
-			"name": "Four-Armed Gargoyle",
+			"name": "Gàrgola de quatre braços",
 			"source": "TftYP",
 			"page": 129,
 			"size": "M",
@@ -1457,7 +1457,7 @@
 				"verí"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"petrificat",
 				"emmetzinat"
 			],
@@ -1475,9 +1475,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The gargoyle fa tres atacs: one with its bite and two with its claws."
+						"La gàrgola fa tres atacs: una amb la mossegada i dues amb les urpes."
 					]
 				},
 				{
@@ -1501,7 +1501,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"T"
@@ -1515,11 +1515,11 @@
 			]
 		},
 		{
-			"name": "Frost Giant Servant",
+			"name": "Servent Gegant de Gelada",
 			"source": "TftYP",
 			"page": 187,
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Turó Gegant",
 				"source": "MM"
 			},
 			"immune": [
@@ -1528,11 +1528,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Gargantuan Rug of Smothering",
+			"name": "Catifa gigantesca d'asfixia",
 			"source": "TftYP",
 			"page": 56,
 			"_copy": {
-				"name": "Rug of Smothering",
+				"name": "Catifa de l'asfixia",
 				"source": "MM"
 			},
 			"size": "G",
@@ -1543,7 +1543,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Giant Crayfish",
+			"name": "Cranc de riu gegant",
 			"source": "TftYP",
 			"page": 235,
 			"size": "L",
@@ -1585,21 +1585,21 @@
 				{
 					"name": "Amfibi",
 					"entries": [
-						"The giant crayfish pot respirar aire i a l'aigua"
+						"The giant crancfish pot respirar aire i a l'aigua"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The giant crayfish fa dos atacs d'Urpa."
+						"El cranc de riu gegant fa dos atacs d'Urpa."
 					]
 				},
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). The crayfish té dos claws, i cadascun només pot apresar  un objectiu."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). The crayfish té dos claws, i cadascun només pot apresar un objectiu."
 					]
 				}
 			],
@@ -1611,7 +1611,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"B"
@@ -1624,7 +1624,7 @@
 			]
 		},
 		{
-			"name": "Giant Gripau de Gel",
+			"name": "Gegant Gripau de Gel",
 			"source": "TftYP",
 			"page": 235,
 			"size": "L",
@@ -1688,14 +1688,14 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the toad can't bite another target."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, i el gripau no pot mossegar un altre objectiu."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, one Medium or smaller creature the toad is grappling. {@h}10 ({@damage 2d6 + 3}) de dany perforant, the target is swallowed, and the grapple ends. The swallowed target is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the toad, and it takes 10 ({@damage 3d6}) de dany d'àcid and 11 ({@damage 2d10}) de dany de fred at the start of each of the toad's turns. The toad can have only un objectiu swallowed at a time.",
-						"If the toad dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition enderrocat}."
+						"{@atk mw} {@hit 5} un impactar, 5 peus d'abast, una criatura mitjana o més petita que el gripau està lluitant. {@h}10 ({@damage 2d6 + 3}) de dany perforant, l'objectiu s'empassa i la grapa acaba. L'objectiu empasat és {@condition encegat} i {@condition restrained}, té una cobertura total contra atacs i altres efectes fora del gripau, i necessita 10 ({@damage 3d6}) de dany d'àcid i 11 ({@ dany 2d10}) de dany de fred a l'inici de cadascun dels girs del gripau. El gripau només pot tenir un objectiu empasat a la vegada.",
+						"Si el gripau mor, una criatura empasada ja no està {@condition restringida} i pot escapar del cadàver amb 5 peus de moviment, sortint de {@condition enderrocat}."
 					]
 				}
 			],
@@ -1728,7 +1728,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Giant Lightning Eel",
+			"name": "Anguila llamp gegant",
 			"source": "TftYP",
 			"page": 236,
 			"size": "L",
@@ -1763,17 +1763,17 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Respirar sota l'aigua",
+					"name": "Respira sota l'aigua",
 					"entries": [
-						"The eel can breathe only underwater."
+						"L'anguila només pot respirar sota l'aigua."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The eel makes two bite attacks."
+						"L'anguila fa dos atacs de mossegada."
 					]
 				},
 				{
@@ -1783,21 +1783,21 @@
 					]
 				},
 				{
-					"name": "Lightning Jolt {@recharge 5}",
+					"name": "Socta llamp {@recharge 5}",
 					"entries": [
-						"One creature the eel touches within 5 feet of it outside water, or each creature within 15 feet of it in a body of water, ha de salvar per Constitució amb {@dc 12}. On failed save, a target takes 13 ({@damage 3d8}) de dany elèctric. If the target takes any of this damage, the target is {@condition atordit} until the end of the eel's next turn. Si supera en rep la meitat i no està {@condition atordit}."
+						"Una criatura que l'anguila toqui a 5 peus d'ella fora de l'aigua, o cada criatura a 15 peus d'ella en un cos d'aigua, ha de salvar per Constitució amb {@dc 12}. En salvar fallits, un objectiu triga 13 ({@damage 3d8}) de dany elèctric. Si l'objectiu rep algun d'aquests danys, l'objectiu és {@condition atordit} fins al final del següent torn de l'anguila. Si supera en rep la meitat i no està {@condition atordit}."
 					]
 				}
 			],
 			"hasToken": true,
 			"traitTags": [
-				"Respirar sota l'aigua"
+				"Respira sota l'aigua"
 			],
 			"senseTags": [
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"L",
@@ -1811,7 +1811,7 @@
 			]
 		},
 		{
-			"name": "Giant Skeleton",
+			"name": "Esquelet gegant",
 			"source": "TftYP",
 			"page": 236,
 			"otherSources": [
@@ -1826,7 +1826,7 @@
 				}
 			],
 			"size": "H",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -1863,18 +1863,18 @@
 				"contundent"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Giant però no pot parlar"
+				"entén Giant però no pot parlar"
 			],
 			"cr": "7",
 			"trait": [
 				{
 					"name": "Evasió",
 					"entries": [
-						"If the skeleton is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+						"Si l'esquelet està sotmès a un efecte que li permet fer una tirada de salvació per rebre només la meitat del dany, en canvi no rebrà cap dany si té èxit en la tirada de salvació, i només la meitat de dany si falla."
 					]
 				},
 				{
@@ -1892,9 +1892,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The skeleton makes three scimitar attacks."
+						"L'esquelet fa tres atacs de cimitarra."
 					]
 				},
 				{
@@ -1913,7 +1913,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"CS",
@@ -1929,7 +1929,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Giant Subterranean Lizard",
+			"name": "Llangardaix subterrani gegant",
 			"source": "TftYP",
 			"page": 236,
 			"size": "H",
@@ -1966,34 +1966,34 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The lizard fa dos atacs: one with its bite and one with its tail. One attack can be replaced by Swallow."
+						"El llangardaix fa dos atacs: un amb la mossegada i un altre amb la cua. Un atac pot ser substituït per Swallow."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 2d10 + 5}) de dany perforant i l'objectiu està {@condition grappled} ({@dc 15} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the lizard can't bite another target."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 2d10 + 5}) de dany perforant i l'objectiu està {@condition grappled} ({@dc 15} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, i el llangardaix no pot mossegar un altre objectiu."
 					]
 				},
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
+						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany perforant. Si l'objectiu és una criatura, ha de salvar per Força amb {@dc 15} o ser knocked {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one Medium or smaller creature the lizard is grappling. {@h}16 ({@damage 2d10 + 5}) de dany perforant. The target is swallowed, and the grapple ends. The swallowed target is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the lizard, and it takes 10 ({@damage 3d6}) de dany d'àcid at the start of each of the lizard's turns. The lizard can have only un objectiu swallowed at a time.",
+						"{@atk mw} {@hit 7} un impactar, 5 peus d'abast, una criatura mitjana o més petita amb la qual el llangardaix està lluitant. {@h}16 ({@damage 2d10 + 5}) de dany perforant. S'empassa l'objectiu i s'acaba el grapat. L'objectiu empasat és {@condition encegat} i {@condition restrained}, té una cobertura total contra atacs i altres efectes fora de la sargantana, i necessita 10 ({@damage 3d6}) de dany d'àcid al començament de cada un. dels torns de la sargantana. El llangardaix només pot tenir un objectiu empasat a la vegada.",
 						"Si the lizard mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Empassar"
 			],
 			"damageTags": [
@@ -2042,12 +2042,12 @@
 			],
 			"languageTags": [
 				"C",
-				"GO",
+				"ANAR",
 				"X"
 			]
 		},
 		{
-			"name": "Gorvan Ironheart",
+			"name": "Gorvan Cor de Ferro",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 151,
@@ -2060,7 +2060,7 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "el sacerdot",
 						"with": "Gorvan",
 						"flags": "i"
@@ -2070,7 +2070,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Great Ulfe",
+			"name": "Gran Ulfe",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 42,
@@ -2079,16 +2079,16 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the ogre",
+						"mode": "substituirTxt",
+						"replace": "l'ogre",
 						"with": "Ulfe",
 						"flags": "i"
 					},
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Greatclub",
+						"mode": "substituirArr",
+						"replace": "Gran club",
 						"items": {
-							"name": "Greataxe",
+							"name": "Gran destral",
 							"entries": [
 								"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}17 ({@damage 2d12 + 4}) de dany tallant."
 							]
@@ -2103,7 +2103,7 @@
 			]
 		},
 		{
-			"name": "Greater Zombie",
+			"name": "Zombi més gran",
 			"source": "TftYP",
 			"page": 237,
 			"otherSources": [
@@ -2118,7 +2118,7 @@
 				}
 			],
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -2160,13 +2160,13 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
 			"idiomes": [
-				"comprèn els idiomes que se sabia en vida però no pot parlar"
+				"comprèn els idiomes que se sap en vida però no pot parlar"
 			],
 			"cr": "5",
 			"trait": [
@@ -2179,21 +2179,21 @@
 				{
 					"name": "Resiliència No-morta",
 					"entries": [
-						"Si hi ha dany que redueix al zombi a 0 punts de vida, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi es queda amb 1 punt de vida i no 0."
+						"Si hi ha dany que redueix al zombi a 0 punts de vida, ha de salvar Constitució amb CD de 5 + el dany rebut (si el dany no és radiant o crític). Si supera, el zombi és queda amb 1 punt de vida i no 0."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"The zombie fa dos atacs cos a cos."
 					]
 				},
 				{
-					"name": "Empowered Slam",
+					"name": "Slam empoderat",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent and 7 ({@damage 2d6}) de dany necròtic."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany contundent i 7 ({@damage 2d6}) de dany necròtic."
 					]
 				}
 			],
@@ -2206,7 +2206,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"CS",
@@ -2230,7 +2230,7 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"goblinoide"
+					"follet"
 				]
 			},
 			"alineament": [
@@ -2292,14 +2292,14 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
 					"name": "Fugida Veloç",
 					"entries": [
-						"The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+						"El follet pot fer l'acció Desactivar o Amagar com a acció addicional en cadascun dels seus torns."
 					]
 				}
 			],
@@ -2323,7 +2323,7 @@
 			],
 			"languageTags": [
 				"C",
-				"GO"
+				"ANAR"
 			],
 			"damageTags": [
 				"P"
@@ -2344,12 +2344,12 @@
 			"source": "TftYP",
 			"page": 170,
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Turó Gegant",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the giant",
+						"mode": "substituirTxt",
+						"replace": "el gegant",
 						"with": "Grutha",
 						"flags": "i"
 					}
@@ -2392,7 +2392,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d4 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 10} or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's punts de vida màxims decreases by 3 ({@dice 1d6}) every 24 hours. If the target's punts de vida màxims drops to 0 as a result of this disease, the target dies."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d4 + 2}) de dany perforant. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 10} o contractar una malaltia. Fins que no es curi la malaltia, l'objectiu no pot recuperar punts de vida excepte per mitjans màgics, i els punts de vida màxims de l'objectiu disminueixen en 3 ({@dice 1d6}) cada 24 hores. Si els punts de vida màxims de l'objectiu cauen a 0 com a conseqüència d'aquesta malaltia, l'objectiu mor."
 					]
 				}
 			],
@@ -2418,8 +2418,8 @@
 				"source": "MTF",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the wight",
+						"mode": "substituirTxt",
+						"replace": "el wight",
 						"with": "Hedrun",
 						"flags": "i"
 					}
@@ -2428,11 +2428,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Hill Giant Sergeant",
+			"name": "Sergent gegant del turó",
 			"source": "TftYP",
 			"page": 170,
 			"_copy": {
-				"name": "Hill Giant",
+				"name": "Turó Gegant",
 				"source": "MM"
 			},
 			"ac": [
@@ -2450,7 +2450,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Hill Giant Servant",
+			"name": "Servent Gegant del Turó",
 			"source": "TftYP",
 			"page": 170,
 			"_copy": {
@@ -2458,27 +2458,27 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "ogre",
-						"with": "giant"
+						"with": "gegant"
 					}
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Hill Giant Subchief",
+			"name": "Subcap del gegant del turó",
 			"source": "TftYP",
 			"page": 170,
 			"_copy": {
-				"name": "Stone Giant",
+				"name": "Gegant de pedra",
 				"source": "MM"
 			},
 			"trait": null,
 			"hasToken": true
 		},
 		{
-			"name": "Huge Giant Crab",
+			"name": "Cranc gegant enorme",
 			"source": "TftYP",
 			"page": 103,
 			"otherSources": [
@@ -2528,9 +2528,9 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Banded Claw",
+					"name": "Arpa amb banda",
 					"entries": [
-						"On one of its claws, the crab wears a rune-covered copper band that makes it immune to being {@condition fascinat}, {@condition acovardit}, i {@condition paralitzat}. The copper band is worthless as a treasure, as the magic is keyed to this crab."
+						"En una de les seves urpes, el cranc porta una banda de coure coberta de runes que el fa immune a ser {@condition fascinat}, {@condition acovardit}, i {@condition paralitzat}. La banda de coure no té valor com a tresor, ja que la màgia té la clau d'aquest cranc."
 					]
 				},
 				{
@@ -2544,7 +2544,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, un objectiu. {@h}27 ({@damage 4d10 + 5}) de dany contundent, i l'objectiu està {@condition grappled}, escape {@dc 14}. The crab té dos claws, i cadascun només pot apresar  un objectiu."
+						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, un objectiu. {@h}27 ({@damage 4d10 + 5}) de dany contundent, i l'objectiu està {@condition grappled}, escape {@dc 14}. The crab té dos claws, i cadascun només pot apresar un objectiu."
 					]
 				}
 			],
@@ -2567,11 +2567,11 @@
 			]
 		},
 		{
-			"name": "Huge Ochre Jelly",
+			"name": "Gelatina ocre enorme",
 			"source": "TftYP",
 			"page": 225,
 			"_copy": {
-				"name": "Ochre Jelly",
+				"name": "Gelatina ocre",
 				"source": "MM"
 			},
 			"size": "H",
@@ -2582,11 +2582,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Huge Polar Bear",
+			"name": "Ós polar enorme",
 			"source": "TftYP",
 			"page": 187,
 			"_copy": {
-				"name": "Polar Bear",
+				"name": "Ós polar",
 				"source": "MM"
 			},
 			"size": "H",
@@ -2605,7 +2605,7 @@
 				"name": "Plebeu",
 				"source": "MM",
 				"_trait": {
-					"name": "Semi-Elf",
+					"name": "Semielf",
 					"source": "PHB"
 				}
 			},
@@ -2628,33 +2628,33 @@
 			"source": "TftYP",
 			"page": 189,
 			"_copy": {
-				"name": "Cloud Giant",
+				"name": "Núvol Gegant",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the giant",
+						"mode": "substituirTxt",
+						"replace": "el gegant",
 						"with": "Grugnur",
 						"flags": "i"
 					},
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"Grugnur makes two longsword attacks."
+									"Grugnur fa dos atacs d'espasa llarga."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
-							"replace": "Morningstar",
+							"mode": "substituirArr",
+							"replace": "Estel de l'alba",
 							"items": {
-								"name": "Longsword +2",
+								"name": "Espasa llarga +2",
 								"entries": [
-									"{@atk mw} {@hit 14} a impactar, 10 peus d'abast, un objectiu. {@h}23 ({@damage 3d8 + 10}) de dany tallant, o 26 ({@damage 3d10 + 10}) de dany tallant if used with both hands."
+									"{@atk mw} {@hit 14} a impactar, 10 peus d'abast, un objectiu. {@h}23 ({@damage 3d8 + 10}) de dany tallant, o 26 ({@damage 3d10 + 10}) de dany tallant si s'utilitza amb les dues mans."
 								]
 							}
 						}
@@ -2671,7 +2671,7 @@
 				},
 				{
 					"ac": 20,
-					"condition": "against ranged attacks",
+					"condition": "contra atacs a distància",
 					"braces": true
 				}
 			],
@@ -2694,12 +2694,12 @@
 			"source": "TftYP",
 			"page": 15,
 			"_copy": {
-				"name": "Quasit",
+				"name": "Quasi",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the quasit",
+						"mode": "substituirTxt",
+						"replace": "el quasit",
 						"with": "Jot",
 						"flags": "i"
 					}
@@ -2777,7 +2777,7 @@
 							"spells": [
 								"{@spell mans ardents}",
 								"{@spell escut}",
-								"{@spell adormir}"
+								"{@spell adorar}"
 							]
 						},
 						"2": {
@@ -2788,20 +2788,20 @@
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
 					"name": "Pell Camaleònica",
 					"entries": [
-						"The troglodita has advantage on Destresa (Sigil) checks made to hide."
+						"La troglodita té avantatge en les proves de Destresa (Sigil) fetes per amagar-se."
 					]
 				},
 				{
 					"name": "Ferum",
 					"entries": [
-						"Any creature other than a troglodita that starts its turn within 5 feet of the troglodita ha de salvar per Constitució amb {@dc 12} or be {@condition emmetzinat} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all trogloditas durant 1 hora."
+						"Qualsevol criatura que no sigui una troglodita que comenci el seu torn a 5 peus de la troglodita ha de salvar per Constitució amb {@dc 12} o sigui {@condition emmetzinat} fins a l'inici del següent torn de la criatura. En una tirada de salvació reeixida, la criatura és immune a la pudor de totes les trogloditas durant 1 hora."
 					]
 				},
 				{
@@ -2813,9 +2813,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The troglodita fa tres atacs: one with its bite and two with its claws."
+						"La troglodita fa tres atacs: una amb la seva mossegada i dues amb les seves urpes."
 					]
 				},
 				{
@@ -2839,7 +2839,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"DR",
@@ -2916,19 +2916,19 @@
 				{
 					"name": "Falsa Aparença",
 					"entries": [
-						"While Kalka-Kylla remains motionless and hidden in its shell, it is indistinguishable from a polished boulder."
+						"Tot i que Kalka-Kylla roman immòbil i amagat a la seva closca, no es pot distingir d'una roca polida."
 					]
 				},
 				{
 					"name": "Shell",
 					"entries": [
-						"Kalka-Kylla can use a bonus action to retract into or emerge from its shell. While retracted, Kalka-Kylla gains a +4 bonus to AC, and it has a speed of 0 and can't benefit from bonuses to speed."
+						"Kalka-Kylla pot utilitzar una acció de bonificació per retirar-se o sortir de la seva closca. Mentre està retractat, Kalka-Kylla obté una bonificació +4 a la CA i té una velocitat de 0 i no es pot beneficiar de bonificacions a la velocitat."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Kalka-Kylla fa dos atacs d'Urpa."
 					]
@@ -2936,7 +2936,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, and if the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}. Kalka-Kylla té dos claws, i cadascun només pot apresar  un objectiu."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, i si l'objectiu és una criatura mitjana o més petita, és {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}. Kalka-Kylla té dos claws, i cadascun només pot apresar un objectiu."
 					]
 				}
 			],
@@ -2949,7 +2949,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"OTH"
@@ -3013,11 +3013,11 @@
 			"conditionImmune": [
 				"encegat",
 				"eixordat",
-				"exhaust"
+				"escapament"
 			],
 			"idiomes": [
 				"Comú",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "4",
 			"trait": [
@@ -3028,37 +3028,37 @@
 					]
 				},
 				{
-					"name": "Seaweed Shape",
+					"name": "Forma d'alga",
 					"entries": [
-						"The kelpie can use its action to reshape its body into the form of a humanoid or beast that is Small, Medium, or Large. Its statistics are otherwise unchanged. The disguise is convincing, unless the kelpie is in bright light or the viewer is within 30 feet of it, in which case the seams between the seaweed strands are visible. The kelpie returns to its true form if takes a bonus action to do so or if it dies."
+						"El kelpie pot utilitzar la seva acció per remodelar el seu cos en forma d'humanoide o bèstia petita, mitjana o gran. En cas contrari, les seves estadístiques no canvien. La disfressa és convincent, tret que el kelpie estigui a la llum brillant o l'espectador estigui a menys de 30 peus d'ell, en aquest cas les costures entre els fils d'algues són visibles. El kelpie torna a la seva forma real si fa una acció addicional per fer-ho o si mor."
 					]
 				},
 				{
 					"name": "Falsa Aparença",
 					"entries": [
-						"While the kelpie remains motionless in its true form, it is indistinguishable from normal seaweed."
+						"Tot i que el kelpie roman immòbil en la seva forma real, no es pot distingir de les algues normals."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The kelpie makes two slam attacks."
+						"El kelpie fa dos atacs de slam."
 					]
 				},
 				{
 					"name": "Colpeig",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant. If the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 12} per escapar)."
+						"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant. Si l'objectiu és una criatura mitjana o més petita, és {@condition grappled} ({@dc 12} per escapar)."
 					]
 				},
 				{
-					"name": "Drowning Hypnosis",
+					"name": "Hipnosi d'ofegament",
 					"entries": [
-						"The kelpie chooses one humanoid it can see within 150 feet of it. If the target can see the kelpie, the target ha de salvar per Saviesa amb {@dc 11} or be magically {@condition fascinat} while the kelpie maintains concentration, up to 10 minutes (as if concentrating on a spell). The {@condition fascinat} target is {@condition incapacitat}, and instead of holding its breath underwater, it tries to breathe normally and immediately runs out of breath, unless it can breathe water. If the {@condition fascinat} target is more than 5 feet away from the kelpie, the target must move on its turn toward the kelpie by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks.",
-						"Before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the kelpie or drowning, l'objectiu pot tornar a salvar. A {@condition fascinat} target can also repeat the saving throw al final de cada torn seu. If the saving throw is successful, the effect ends on it.",
-						"A target that successfully saves is immune to this kelpie's hypnosis durant les properes 24 hores."
+						"El kelpie tria un humanoide que pot veure a 150 peus d'ell. Si l'objectiu pot veure el kelpie, l'objectiu ha de salvar per Saviesa amb {@dc 11} o ser màgicament {@condition fascinat} mentre el kelpie manté la concentració, fins a 10 minuts (com si es concentrés en un encanteri). L'objectiu de {@condition fascinat} és {@condition incapacitat} i, en lloc de contenir la respiració sota l'aigua, intenta respirar amb normalitat i immediatament es queda sense alè, tret que pugui respirar aigua. Si l'objectiu {@condition fascinat} es troba a més de 5 peus de distància del kelpie, l'objectiu s'ha de moure al seu torn cap al kelpie per la ruta més directa, intentant arribar a 5 peus. No evita els atacs d'oportunitat.",
+						"Abans d'entrar en terrenys perjudicials, com ara lava o fossa, i sempre que es produeixi danys d'una font diferent del kelpie o l'ofegament, l'objectiu pot tornar a salvar-se. Un objectiu {@condition fascinat} també pot repetir el llançament de salvació al final de cada torn. Si la tirada de salvació té èxit, l'efecte s'hi acaba.",
+						"Un objectiu que salva amb èxit és immune a la hipnosi d'aquest kelpie durant les properes 24 hores."
 					]
 				}
 			],
@@ -3071,7 +3071,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -3099,7 +3099,7 @@
 				"name": "Plebeu",
 				"source": "MM",
 				"_trait": {
-					"name": "Semi-Elf",
+					"name": "Semielf",
 					"source": "PHB"
 				}
 			},
@@ -3134,22 +3134,22 @@
 			"hasToken": true
 		},
 		{
-			"name": "King Snurre",
+			"name": "Rei Snurre",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 193,
 			"_copy": {
-				"name": "Fire Giant",
+				"name": "Gegant de foc",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the giant",
+						"mode": "substituirTxt",
+						"replace": "el gegant",
 						"with": "Snurre",
 						"flags": "i"
 					},
 					"action": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Espasa Gran",
 						"items": {
 							"name": "Espasa Gran",
@@ -3222,7 +3222,7 @@
 			]
 		},
 		{
-			"name": "Kobold Elite",
+			"name": "Kobold Elit",
 			"source": "TftYP",
 			"page": 18,
 			"_copy": {
@@ -3236,7 +3236,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Lacedon",
+			"name": "Lacedònia",
 			"source": "TftYP",
 			"page": 147,
 			"otherSources": [
@@ -3249,9 +3249,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "ghoul",
-						"with": "lacedon",
+						"with": "lacedó",
 						"flags": "i"
 					}
 				}
@@ -3268,12 +3268,12 @@
 			"source": "TftYP",
 			"page": 131,
 			"_copy": {
-				"name": "Evoker",
+				"name": "Evocador",
 				"source": "VGM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the evoker",
+						"mode": "substituirTxt",
+						"replace": "l'evocador",
 						"with": "Lahnis",
 						"flags": "i"
 					}
@@ -3282,7 +3282,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Lesser Senyor de les Mòmies",
+			"name": "Menor Senyor de les Mòmies",
 			"source": "TftYP",
 			"page": 224,
 			"_copy": {
@@ -3294,7 +3294,7 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"The mummy wears a {@item ring of fire resistència}."
+								"La mòmia porta un {@item ring of fire resistance}."
 							]
 						}
 					}
@@ -3314,7 +3314,7 @@
 			"spellcastingTags": []
 		},
 		{
-			"name": "Lumalia",
+			"name": "Lumàlia",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 153,
@@ -3323,9 +3323,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the deva",
-						"with": "Lumalia",
+						"mode": "substituirTxt",
+						"replace": "la deva",
+						"with": "Lumàlia",
 						"flags": "i"
 					}
 				}
@@ -3333,7 +3333,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Malformed Kraken",
+			"name": "Kraken mal format",
 			"source": "TftYP",
 			"page": 239,
 			"size": "H",
@@ -3394,8 +3394,8 @@
 				"paralitzat"
 			],
 			"idiomes": [
-				"understands Common però no pot parlar",
-				"telepatía 60 peus"
+				"entén Comú però no pot parlar",
+				"telepatia 60 peus"
 			],
 			"cr": "10",
 			"trait": [
@@ -3414,9 +3414,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The kraken makes three tentacle attacks. One of them can be replaced with a bite attack, and any of them can be replaced with Fling."
+						"El kraken fa tres atacs de tentacles. Un d'ells es pot substituir per un atac de mossegada, i qualsevol d'ells es pot substituir per Fling."
 					]
 				},
 				{
@@ -3434,13 +3434,13 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken 's tentacles is thrown fins a 60 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
+						"Un objecte mitjà o més petit o una criatura {@condition grappled} pels tentacles del kraken es llança amb aletes de 60 peus en una direcció aleatòria i es colpeja {@condition enderrocat}. Si un objectiu llançat colpeja una superfície sòlida, l'objectiu pren 3 ({@dany 1d6}) de dany contundent per cada 10 peus que ha estat llançat. Si l'objectiu és llançat a una altra criatura, aquesta criatura ha de salvar-se per Destresa amb {@dc 16} o reben el mateix dany i serà colpejada {@condition enderrocat}."
 					]
 				},
 				{
-					"name": "Lightning Storm",
+					"name": "Tempesta de llamps",
 					"entries": [
-						"The kraken creates three bolts of lightning, each of which can strike a target the kraken can see within 150 feet of it. A target ha de salvar per Destresa amb {@dc 16}. Qui falli rep 16 ({@damage 3d10}) de dany elèctric; qui superi, en rep la meitat."
+						"El kraken crea tres llamps, cadascun dels quals pot colpejar un objectiu que el kraken pot veure a 150 peus d'ell. A target ha de salvar per Destresa amb {@dc 16}. Qui falli rep 16 (@damage 3d10}) de dany elèctric; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -3453,7 +3453,7 @@
 				"U"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Tentacles"
 			],
 			"languageTags": [
@@ -3483,12 +3483,12 @@
 			"source": "TftYP",
 			"page": 157,
 			"_copy": {
-				"name": "Enchanter",
+				"name": "Encantador",
 				"source": "VGM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the enchanter",
+						"mode": "substituirTxt",
+						"replace": "l'encantador",
 						"with": "Mennek",
 						"flags": "i"
 					}
@@ -3553,25 +3553,25 @@
 				{
 					"name": "Canviaformes",
 					"entries": [
-						"The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Tot equipament que duu o vesteix no es transforma. Retorna a la seva forma veritable si mor."
+						"El doppelganger pot utilitzar la seva acció per transformar-se en un humanoide petit o mitjà que hagi vist, o tornar a la seva forma real. Les seves estadístiques, a part de la seva mida, són les mateixes en cada forma. Tot equipament que duu o vesteix no es transforma. Retorna a la seva forma veritable si mor."
 					]
 				},
 				{
 					"name": "Emboscar",
 					"entries": [
-						"In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it has surprised."
+						"A la primera ronda d'un combat, el doppelganger té avantatge a les tires d'atac contra qualsevol criatura que hagi sorprès."
 					]
 				},
 				{
 					"name": "Atac Sorpresa",
 					"entries": [
-						"Si the doppelganger sorprèn a una criatura i l'impacta durant la primera ronda de combat, l'objectiu rep, adicionalment, 10 ({@dice 3d6}) damage from the attack."
+						"Si the doppelganger sorprèn a una criatura i l'impacte durant la primera ronda de combat, l'objectiu rep, addicionalment, 10 ({@dice 3d6}) damage from the attack."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"The doppelganger fa dos atacs cos a cos."
 					]
@@ -3583,9 +3583,9 @@
 					]
 				},
 				{
-					"name": "Read Thoughts",
+					"name": "Llegeix Pensaments",
 					"entries": [
-						"The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or una fulla fina de plom blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Saviesa ({@skill Perspicàcia}) and Carisma ({@skill Deception}, {@skill Intimidation}, i {@skill Persuasion}) checks against the target."
+						"El doppelganger llegeix màgicament els pensaments superficials d'una criatura a 60 peus d'ella. L'efecte pot penetrar barreres, però 3 peus de fusta o brutícia, 2 peus de pedra, 2 polzades de metall o una fina fina de plom ho bloquegen. Mentre l'objectiu està a l'abast, el doppelganger pot continuar llegint els seus pensaments, sempre que la concentració del doppelganger no es trenqui (com si es concentrés en un encanteri). Mentre llegeix la ment de l'objectiu, el doppelganger té avantatge en proves de Saviesa ({@skill Perspicàcia}) i Carisma ({@skill Deception}, {@skill Intimidation}, i {@skill Persuasion}) contra l'objectiu."
 					]
 				}
 			],
@@ -3598,7 +3598,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -3611,18 +3611,18 @@
 			]
 		},
 		{
-			"name": "Nedylene",
+			"name": "Nedilè",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 209,
 			"_copy": {
-				"name": "Drow Priestess of Lolth",
+				"name": "Sacerdotessa drow de Lolth",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the drow",
-						"with": "Nedylene",
+						"mode": "substituirTxt",
+						"replace": "el drow",
+						"with": "Nedilè",
 						"flags": "i"
 					},
 					"trait": {
@@ -3630,15 +3630,15 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"Nedylene carries a {@item staff of swarming insects}."
+								"Nedylene porta un {@item bàcul d'insectes en eixams}."
 							]
 						}
 					},
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Scourge",
+						"mode": "substituirArr",
+						"replace": "Plaga",
 						"items": {
-							"name": "Scourge +2",
+							"name": "Plaga +2",
 							"entries": [
 								"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d6 + 4}) de dany perforant mes 17 ({@damage 5d6}) de dany de verí."
 							]
@@ -3649,7 +3649,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Nereid",
+			"name": "Nereida",
 			"source": "TftYP",
 			"page": 240,
 			"size": "M",
@@ -3691,7 +3691,7 @@
 				"Aquà",
 				"Comú",
 				"Èlfic",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "2",
 			"trait": [
@@ -3702,47 +3702,47 @@
 					]
 				},
 				{
-					"name": "Aquatic Invisibilitat",
+					"name": "Invisibilitat aquàtica",
 					"entries": [
-						"If immersed in water, the nereid can make itself {@condition invisible} as a bonus action. It remains {@condition invisible} until it leaves the water, ends the invisibility com a acció bonus, or dies."
+						"Si es submergeix a l'aigua, la nereida pot fer-se {@condition invisible} com a acció addicional. Es manté {@condition invisible} fins que surt de l'aigua, acaba amb la bonificació d'invisibilitat com a acció o mor."
 					]
 				},
 				{
-					"name": "Mantle Dependent",
+					"name": "Dependent del mantell",
 					"entries": [
-						"The nereid wears a mantle of silky cloth the color of sea foam, which holds the creature's spirit. The mantle has an AC and hit points equal to that of the nereid, but the garment can't be directly harmed while the nereid wears it. If the mantle is destroyed, the nereid becomes {@condition emmetzinat} and dies within 1 hour. A nereid is willing to do anything in its power to recover the mantle if it is stolen, including serving the thief."
+						"La nereida porta un mantell de tela sedosa del color de l'escuma del mar, que conté l'esperit de la criatura. El mantell té una CA i punts de vida iguals als de la nereida, però la peça no es pot fer mal directament mentre la nereida la porta. Si el mantell es destrueix, la nereida es converteix en {@condition emmetzinat} i mor en 1 hora. Una nereida està disposada a fer tot el que estigui al seu abast per recuperar el mantell si és robat, inclòs servir el lladre."
 					]
 				},
 				{
 					"name": "Moldejar l'Aigua",
 					"entries": [
-						"The nereid can cast {@spell control d'aigua} at will, sense requerir components. Its habilitat de llançament de conjurs for it is Carisma. This use of the spell has a range of 30 feet and can affect a cube of water no larger than 30 feet on a side."
+						"La nereida pot llançar {@spell control d'aigua} a voluntat, sentir els components requerits. La seva habilitat de llançament de conjurs for it is Carisma. Aquest ús de l'encanteri té un abast de 30 peus i pot afectar un cub d'aigua no més gran de 30 peus de costat."
 					]
 				},
 				{
 					"name": "Parlar Animal",
 					"entries": [
-						"The nereid can comprehend and verbally communicate with beasts."
+						"La nereida pot comprendre i comunicar-se verbalment amb les bèsties."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Blinding Acid",
+					"name": "Àcid cegador",
 					"entries": [
-						"{@atk ms,rs} {@hit 5} a impactar, 5 peus d'abast o 30 peus d'abast, un objectiu. {@h}16 ({@damage 2d12 + 3}) de dany d'àcid, and the target is {@condition encegat} until the start of the nereid's next turn."
+						"{@atk ms,rs} {@hit 5} a impactar, 5 peus d'abast o 30 peus d'abast, un objectiu. {@h}16 ({@damage 2d12 + 3}) de dany d'àcid, i l'objectiu és {@condition encegat} fins a l'inici del següent torn de la nereida."
 					]
 				},
 				{
-					"name": "Drowning Kiss {@recharge 5}",
+					"name": "Petó ofegant {@recharge 5}",
 					"entries": [
-						"The nereid touches one creature it can see within 5 feet of it. The target ha de salvar per Constitució amb {@dc 13} or take 22 ({@damage 3d12 + 3}) de dany d'àcid. On a failure, it also runs out of breath and can't speak durant 1 minut. Al final de cada torn seu, it can repeat the save, ending the effect on itself on a success."
+						"La nereida toca una criatura que pot veure a 5 peus d'ella. The target ha de salvar per Constitució amb {@dc 13} or take 22 ({@damage 3d12 + 3}) de dany d'àcid. En una fallada, també es queda sense alè i no pot parlar durant 1 minut. Al final de cada torn seu, pot repetir el desat, acabant amb l'efecte sobre si mateix en un èxit."
 					]
 				},
 				{
-					"name": "Water Lash",
+					"name": "Pestanya d'aigua",
 					"entries": [
-						"The nereid causes a 5-foot cube of water within 60 feet of it to take a shape of its choice and strike un objectiu it can see within 5 feet of that water. L'objectiu ha de salvar per Força amb {@dc 13}. Si falla, rep 17 ({@damage 4d6 + 3}) de dany contundent, and if it is a Large or smaller creature, it is pushed fins a 15 peus en línia recta or is knocked {@condition enderrocat} (nereid's choice). Si supera, l'objectiu rep la meitat del dany and isn't pushed or knocked {@condition enderrocat}."
+						"La nereida fa que un cub d'aigua de 5 peus a 60 peus d'ell prengui la forma de la seva elecció i toqui l'objectiu que pot veure a 5 peus d'aquesta aigua. L'objectiu ha de salvar per Força amb {@dc 13}. Si falla, rep 17 ({@damage 4d6 + 3}) de dany contundent, and if it is a Large or smaller creature, it is pushed fins a 15 peus en línia recta or is knocked {@condition enderrocat} (nereid's choice) . Si supera, l'objectiu rep la meitat del dany and isn't pushed or knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -3782,8 +3782,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the duergar",
+						"mode": "substituirTxt",
+						"replace": "el duergar",
 						"with": "Nimira",
 						"flags": "i"
 					},
@@ -3791,15 +3791,15 @@
 						"mode": "prependArr",
 						"items": [
 							{
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"Multiattack. Nimira makes two greatsword attacks."
+									"Multiatac. Nimira fa dos atacs d'espasa."
 								]
 							},
 							{
 								"name": "Espasa Gran",
 								"entries": [
-									"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, o 16 ({@damage 4d6 + 2}) de dany tallant while enlarged."
+									"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, o 16 ({@damage 4d6 + 2}) de dany tallant mentre està ampliat."
 								]
 							}
 						]
@@ -3821,7 +3821,7 @@
 			"cr": "3",
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"P",
@@ -3835,7 +3835,7 @@
 			"source": "TftYP",
 			"page": 196,
 			"_copy": {
-				"name": "Assassí",
+				"name": "Assassi",
 				"source": "MM",
 				"_trait": {
 					"name": "Nan de Muntanya",
@@ -3843,18 +3843,18 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"mode": "substituirTxt",
+						"replace": "l'assassí",
 						"with": "Obmi",
 						"flags": "i"
 					},
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Multi-atac",
+						"mode": "substituirArr",
+						"replace": "Multiatac",
 						"items": {
-							"name": "Multi-atac",
+							"name": "Multiatac",
 							"entries": [
-								"Obmi makes three shortsword attacks."
+								"Obmi fa tres atacs d'espasa curta."
 							]
 						}
 					}
@@ -3865,7 +3865,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Ogre Skeleton",
+			"name": "Esquelet d'ogre",
 			"source": "TftYP",
 			"page": 54,
 			"_copy": {
@@ -3885,11 +3885,11 @@
 			]
 		},
 		{
-			"name": "Ooze Master",
+			"name": "Ooze Mestre",
 			"source": "TftYP",
 			"page": 241,
 			"size": "H",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"L",
 				"E"
@@ -3950,7 +3950,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat",
@@ -3972,7 +3972,7 @@
 						"0": {
 							"spells": [
 								"{@spell esquitx àcid}",
-								"{@spell amistar}",
+								"{@spell astar}",
 								"{@spell mà de mag}",
 								"{@spell esprai de verí}"
 							]
@@ -4021,16 +4021,16 @@
 			],
 			"trait": [
 				{
-					"name": "Corrosive Form",
+					"name": "Forma corrosiva",
 					"entries": [
-						"A creature that touches the Ooze Master or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) de dany d'àcid. Any nonmagical weapon that hits the Ooze Master corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. If its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition that hits the Ooze Master is destroyed after dealing damage.",
-						"The Ooze Master can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+						"Una criatura que toca l'Ooze Master o el colpeja amb un atac cos a cos a menys de 5 peus d'ell triga 9 ({@damage 2d8}) de dany d'àcid. Qualsevol arma no màgica que colpeja l'Ooze Master es corroeix. Després de fer dany, l'arma pren una penalització permanent i acumulada de -1 a les tirades de dany. Si la seva penalització baixa a -5, l'arma es destrueix. La munició no màgica que colpeja l'Ooze Master es destrueix després de fer dany.",
+						"L'Ooze Master pot menjar fusta o metall no màgic de 2 polzades de gruix en 1 ronda."
 					]
 				},
 				{
-					"name": "Instinctive Attack",
+					"name": "Atac instintiu",
 					"entries": [
-						"When the Ooze Master casts a spell with a casting time of 1 action, it can make one pseudòpode attack as a bonus action."
+						"Quan l'Ooze Master llança un encanteri amb un temps de llançament d'1 acció, pot fer un atac pseudòpode com a acció addicional."
 					]
 				},
 				{
@@ -4052,7 +4052,7 @@
 				{
 					"name": "Encant Innat",
 					"entries": [
-						"If a creature the Ooze Master can see makes an attack roll against it while within 30 feet of it, the Ooze Master can use a reaction to divert the attack if another creature is within the attack's range. The attacker ha de salvar per Saviesa amb {@dc 15}. Si falla, the attacker targets the creature that is closest to it, not including itself or the Ooze Master. If multiple creatures are closest, the attacker chooses which one to target. Si supera, the attacker is immune to this Encant Innat for 24 hours. Creatures that can't be {@condition fascinat} are immune to this effect."
+						"Si una criatura que el Mestre de l'Ooze pot veure fa una tirada d'atac contra ella mentre es troba a 30 peus d'ella, el Mestre de l'Ooze pot utilitzar una reacció per desviar l'atac si una altra criatura es troba a l'abast de l'atac. The attacker ha de salvar per Saviesa amb {@dc 15}. Si falla, l'atacant apunta a la criatura que està més a prop d'ell, sense incloure'l ni l'Ooze Master. Si hi ha diverses criatures més a prop, l'atacant tria a quina apuntar. Si supera, l'atacant és immune a aquest Encant Innat durant 24 hores. Les criatures que no poden ser {@condition fascinat} són immunes a aquest efecte."
 					]
 				}
 			],
@@ -4087,7 +4087,7 @@
 			]
 		},
 		{
-			"name": "Orc Commoner",
+			"name": "Orc plebeu",
 			"source": "TftYP",
 			"page": 167,
 			"_copy": {
@@ -4117,12 +4117,12 @@
 			"source": "TftYP",
 			"page": 157,
 			"_copy": {
-				"name": "Yuan-ti Malison (Type 3)",
+				"name": "Yuan-ti Malison (tipus 3)",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the yuan-ti",
+						"mode": "substituirTxt",
+						"replace": "el yuan-ti",
 						"with": "Oussa",
 						"flags": "i"
 					}
@@ -4131,18 +4131,18 @@
 			"hasToken": true
 		},
 		{
-			"name": "Phaia",
+			"name": "Faia",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 132,
 			"_copy": {
-				"name": "Necromancer",
+				"name": "Nigromant",
 				"source": "VGM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the necromancer",
-						"with": "Phaia",
+						"mode": "substituirTxt",
+						"replace": "el nigromant",
+						"with": "Faia",
 						"flags": "i"
 					}
 				}
@@ -4156,47 +4156,47 @@
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Aboleth",
+			"name": "Aboleth d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Aboleth",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Basilisk",
+			"name": "Basilisc d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilisc",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Behir",
+			"name": "Behir d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Behir",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				},
 				"_mod": {
 					"action": {
-						"mode": "removeArr",
+						"mode": "eliminarArr",
 						"names": [
 							"Constrènyer",
 							"Empassar"
@@ -4206,7 +4206,7 @@
 			},
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"L",
@@ -4214,115 +4214,115 @@
 			]
 		},
 		{
-			"name": "Reduced-Threat Beholder",
+			"name": "Observador d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Beholder",
+				"name": "Mirador",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Black Pudding",
+			"name": "Pudín negre d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pudding negre",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Carrion Crawler",
+			"name": "Carrion Crawler d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Carrion Crawler",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Clay Gòlem",
+			"name": "Gòlem d'argila d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Clay Gòlem",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Darkmantle",
+			"name": "Mantell fosc d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Darkmantle",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Displacer Beast",
+			"name": "Bèstia desplaçadora d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Displacer Beast",
+				"name": "Bèstia desplaçadora",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Dragon Turtle",
+			"name": "Tortuga drac d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Dragon Turtle",
+				"name": "Tortuga Drac",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				},
 				"_mod": {
 					"action": [
 						{
-							"mode": "removeArr",
+							"mode": "eliminarArr",
 							"names": [
 								"Cua"
 							]
 						},
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The dragon turtle fa tres atacs: one with its bite and two with its claws."
+									"La tortuga drac fa tres atacs: una amb la mossegada i dues amb les urpes."
 								]
 							}
 						}
@@ -4337,14 +4337,14 @@
 			]
 		},
 		{
-			"name": "Reduced-Threat Ettercap",
+			"name": "Ettercap d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Ettercap",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
@@ -4356,42 +4356,42 @@
 			]
 		},
 		{
-			"name": "Reduced-Threat Flesh Gòlem",
+			"name": "Gòlem de carn d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Flesh Gòlem",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Glabrezu",
+			"name": "Glabrezu d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Glabrezu",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Gray Ooze",
+			"name": "Refluència grisa d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Gray Ooze",
+				"name": "Grey Ooze",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
@@ -4402,82 +4402,82 @@
 			]
 		},
 		{
-			"name": "Reduced-Threat Terror de Cuirassa",
+			"name": "Terror de Cuirassa d'Amenaça Reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Terror de Cuirassa",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Hezrou",
+			"name": "Hezrou d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Hezrou",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Hook Horror",
+			"name": "Horror de ganxo d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Hook Horror",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Ochre Jelly",
+			"name": "Gelatina ocre d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Ochre Jelly",
+				"name": "Gelatina ocre",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Otyugh",
+			"name": "Otyugh d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Otyugh",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				},
 				"_mod": {
 					"action": [
 						{
-							"mode": "removeArr",
+							"mode": "eliminarArr",
 							"names": [
 								"Batre Tencacle"
 							]
 						},
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Tentacle",
 							"items": {
 								"name": "Tentacle",
@@ -4495,98 +4495,98 @@
 			]
 		},
 		{
-			"name": "Reduced-Threat Owlbear",
+			"name": "Ós mussol d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
-				"name": "Owlbear",
+				"name": "Ós mussol",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Peryton",
+			"name": "Peryton d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Peryton",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Remorhaz",
+			"name": "Remorhaz d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Remorhaz",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Stone Gòlem",
+			"name": "Gòlem de pedra d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Stone Gòlem",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Vrock",
+			"name": "Vrock d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Vrock",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Wight",
+			"name": "Wight d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Wight",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Reduced-Threat Wyvern",
+			"name": "Wyvern d'amenaça reduïda",
 			"source": "TftYP",
 			"page": 113,
 			"_copy": {
 				"name": "Wyvern",
 				"source": "MM",
 				"_trait": {
-					"name": "Reduced Threat",
+					"name": "Amenaça reduïda",
 					"source": "TftYP"
 				}
 			},
@@ -4607,7 +4607,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Sea Lion",
+			"name": "Lleó marí",
 			"source": "TftYP",
 			"page": 242,
 			"otherSources": [
@@ -4656,13 +4656,13 @@
 				{
 					"name": "Amfibi",
 					"entries": [
-						"The sea lion pot respirar aire i a l'aigua"
+						"The sea lleo pot respirar aire i a l'aigua"
 					]
 				},
 				{
 					"name": "Olfacte Agut",
 					"entries": [
-						"The sea lion has advantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin l'olfacte."
+						"The sea lion has advantage a tirades d'habilitat de Saviesa (@skill Percepció}) que involucrin l'olfacte."
 					]
 				},
 				{
@@ -4672,17 +4672,17 @@
 					]
 				},
 				{
-					"name": "Swimming Leap",
+					"name": "Salt de natació",
 					"entries": [
-						"With a 10-foot swimming start, the sea lion can long jump out of or across the water fins a 25 peus."
+						"Amb un inici de natació de 10 peus, el lleó marí pot saltar llargament fora o a través de les aletes de l'aigua un 25 peus."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The sea lion fa tres atacs: one bite attack and two claw attacks."
+						"El lleó marí fa tres atacs: un atac de mossegada i dos atacs d'urpa."
 					]
 				},
 				{
@@ -4701,7 +4701,7 @@
 			"hasToken": true,
 			"altArt": [
 				{
-					"name": "Sea Lion",
+					"name": "Lleó marí",
 					"source": "GoS"
 				}
 			],
@@ -4711,7 +4711,7 @@
 				"Estratègies de Manada"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"P"
@@ -4723,15 +4723,15 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sentient Gray Ooze",
+			"name": "Sentient Grey Ooze",
 			"source": "TftYP",
 			"page": 158,
 			"_copy": {
-				"name": "Gray Ooze",
+				"name": "Grey Ooze",
 				"source": "MM",
 				"_mod": {
 					"conditionImmune": {
-						"mode": "removeArr",
+						"mode": "eliminarArr",
 						"items": "fascinat"
 					}
 				}
@@ -4750,15 +4750,15 @@
 			]
 		},
 		{
-			"name": "Sentient Ochre Jelly",
+			"name": "Gelatina Ocre Sentint",
 			"source": "TftYP",
 			"page": 158,
 			"_copy": {
-				"name": "Ochre Jelly",
+				"name": "Gelatina ocre",
 				"source": "MM",
 				"_mod": {
 					"conditionImmune": {
-						"mode": "removeArr",
+						"mode": "eliminarArr",
 						"items": "fascinat"
 					}
 				}
@@ -4778,10 +4778,10 @@
 			"source": "TftYP",
 			"page": 119,
 			"_copy": {
-				"name": "Knight",
+				"name": "cavaller",
 				"source": "MM",
 				"_trait": {
-					"name": "High Elf",
+					"name": "Alt Elf",
 					"source": "PHB"
 				}
 			},
@@ -4810,7 +4810,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"Pell d'Escorça trait"
+						"Tret Pell d'Escorça"
 					]
 				}
 			],
@@ -4859,7 +4859,7 @@
 								"{@spell esprai de colors}",
 								"{@spell missil màgic}",
 								"{@spell escut}",
-								"{@spell adormir}"
+								"{@spell adorar}"
 							]
 						}
 					},
@@ -4870,19 +4870,19 @@
 				{
 					"name": "Pell d'Escorça",
 					"entries": [
-						"Sharwyn's AC can't be lower than 16."
+						"L'AC de Sharwyn no pot ser inferior a 16."
 					]
 				},
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Sharwyn has a {@item spellbook|phb} that contains the spells listed in her Spellcasting trait, plus {@spell detectar màgia} i {@spell imatge silenciosa}."
+						"La Sharwyn té un {@item spellbook|phb} que conté els encanteris que figuren al seu tret d'encanteri, a més de {@spell detectar màgia} i {@spell imatge silenciosa}."
 					]
 				},
 				{
 					"name": "Serf de l'Arbre",
 					"entries": [
-						"If the Arbre Gulthias dies, Sharwyn dies 24 hours later."
+						"Si l'Arbre Gulthias mor, Sharwyn mor 24 hores després."
 					]
 				}
 			],
@@ -4898,7 +4898,7 @@
 			"languageTags": [
 				"C",
 				"DR",
-				"GO"
+				"ANAR"
 			],
 			"damageTags": [
 				"P"
@@ -4961,19 +4961,19 @@
 				{
 					"name": "Pell d'Escorça",
 					"entries": [
-						"Sir Braford's AC can't be lower than 16."
+						"L'AC de Sir Braford no pot ser inferior a 16."
 					]
 				},
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Sir Braford wields {@item Shatterspike|tftyp}, a magic longsword that grants a +1 a les tirades d'impacte i de dany que faci (included in his attack). See the Shatterspike handout for the item's other properties."
+						"Sir Braford empunya {@item Shatterspike|tftyp}, una espasa llarga màgica que atorga un +1 a les tirades d'impacte i de dany que faci (inclòs en el seu atac). Consulteu el fullet de Shatterspike per veure les altres propietats de l'element."
 					]
 				},
 				{
 					"name": "Serf de l'Arbre",
 					"entries": [
-						"If the Arbre Gulthias dies, Sir Braford dies 24 hours later."
+						"Si l'Arbre Gulthias mor, Sir Braford mor 24 hores després."
 					]
 				}
 			],
@@ -4987,9 +4987,9 @@
 			],
 			"reaction": [
 				{
-					"name": "Protection",
+					"name": "Protecció",
 					"entries": [
-						"Quan una criatura Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll."
+						"Quan una criatura Sir Braford pot veure ataca un objectiu diferent d'ell que es troba a 5 peus d'ell, pot utilitzar una reacció per utilitzar el seu escut per imposar desavantatge a la tirada d'atac."
 					]
 				}
 			],
@@ -5005,13 +5005,13 @@
 			]
 		},
 		{
-			"name": "Siren",
+			"name": "Sirena",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 243,
 			"otherSources": [
 				{
-					"source": "MOT"
+					"source": "ITV"
 				}
 			],
 			"size": "M",
@@ -5050,24 +5050,24 @@
 			"idiomes": [
 				"Comú",
 				"Èlfic",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "3",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de Siren's és Saviesa ({@dc 13} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de Siren's és Saviesa ({@dc 13} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"daily": {
 						"1e": [
 							"{@spell fascinar persona}",
 							"{@spell núvol de boira}",
 							"{@spell invisibilitat superior}",
-							"{@spell polimorfia} (self only)"
+							"{@spell polimorfia} (només propi)"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
@@ -5092,9 +5092,9 @@
 					]
 				},
 				{
-					"name": "Stupefying Touch",
+					"name": "Tacte estupefactori",
 					"entries": [
-						"Siren touches one creature she can see within 5 feet of her. La criatura ha de salvar per Intel·ligència amb {@dc 13} or take 13 ({@damage 3d6 + 3}) de dany psíquic and be {@condition atordit} until the start of Siren's next turn."
+						"La sirena toca una criatura que pot veure a 5 peus d'ella. La criatura ha de salvar per Intel·ligència amb {@dc 13} or take 13 ({@damage 3d6 + 3}) de dany psíquic and be {@condition atordit} fins a l'inici del proper torn de Siren."
 					]
 				}
 			],
@@ -5157,7 +5157,7 @@
 					"from": [
 						"armadura natural"
 					],
-					"condition": "in wolf and hybrid forms"
+					"condition": "en formes de llop i híbrides"
 				}
 			],
 			"hp": {
@@ -5167,7 +5167,7 @@
 			"speed": {
 				"walk": {
 					"number": 30,
-					"condition": "(40 ft. in wolf form)"
+					"condition": "(40 peus en forma de llop)"
 				}
 			},
 			"str": 15,
@@ -5192,7 +5192,7 @@
 				}
 			],
 			"idiomes": [
-				"Comú (no pot parlar in wolf form)"
+				"Comú (no pot parlar en forma de llop)"
 			],
 			"cr": "5",
 			"spellcasting": [
@@ -5242,27 +5242,27 @@
 				{
 					"name": "Canviaformes",
 					"entries": [
-						"The home-llop can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. A part de la CA, les seves estadístiques son iguals a les dues formes. Tot equipament que duu o vesteix no es transforma. Retorna a la seva forma veritable si mor."
+						"El home-llop pot utilitzar la seva acció per transformar-se en un híbrid llop-humanoide o en un llop, o tornar a la seva forma real, que és humanoide. A part de la CA, les seves estadístiques són iguals a les dues formes. Tot equipament que duu o vesteix no es transforma. Retorna a la seva forma veritable si mor."
 					]
 				},
 				{
 					"name": "Oïda i Olfacte Aguts",
 					"entries": [
-						"The home-llop has advantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin l'oïda o l'olfacte."
+						"The home-llop has advantage a tirades d'habilitat de Saviesa (@skill Percepció}) que involucrin l'oïda o l'olfacte."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multiattack (Només en forma de Humanoid or Hybrid)",
+					"name": "Multiatac (Només en forma de Humanoid o Hybrid)",
 					"entries": [
-						"The home-llop fa dos atacs: one with its bite and one with its claws or spear."
+						"El home-llop fa dos atacs: un amb la seva mossegada i un altre amb les seves urpes o llança."
 					]
 				},
 				{
 					"name": "Mossegada (Només en forma de Wolf or Hybrid)",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant. If the target is a humanoid, ha de salvar per Constitució amb {@dc 12} or be cursed with home-llop lycanthropy."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant. Si l'objectiu és un humanoide, ha de salvar per Constitució amb {@dc 12} o ser maleït amb licantropia home-llop."
 					]
 				},
 				{
@@ -5284,7 +5284,7 @@
 				"Canviaformes"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -5305,17 +5305,17 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Snow Leopard",
+			"name": "Lleopard de les neus",
 			"source": "TftYP",
 			"page": 183,
 			"_copy": {
-				"name": "Tiger",
+				"name": "tigre",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "tiger",
-						"with": "leopard",
+						"mode": "substituirTxt",
+						"replace": "tigre",
+						"with": "lleopard",
 						"flags": "i"
 					}
 				}
@@ -5410,7 +5410,7 @@
 				{
 					"name": "Resiliència Duergar",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition fascinat} or {@condition paralitzat}."
+						"El duergar té avantatge en els tirs de salvació contra el verí, els encanteris i les il·lusions, així com per resistir-se a ser {@condition fascinat} o {@condition paralitzat}."
 					]
 				},
 				{
@@ -5424,25 +5424,25 @@
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, the màgia duergarally increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+						"Durant 1 minut, la màgia duergaralment augmenta de mida, juntament amb qualsevol cosa que porti o porti. Mentre s'amplia, el duergar és gran, duplica els seus daus de dany als atacs amb armes basats en Força (inclosos als atacs) i fa proves de Força i tirs de salvació de Força amb avantatge. Si el duergar no té l'espai per fer-se Gran, assoleix la màxima mida possible en l'espai disponible."
 					]
 				},
 				{
-					"name": "War Pick",
+					"name": "Selecció de guerra",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant, o 11 ({@damage 2d8 + 2}) de dany perforant while enlarged."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant, o 11 ({@damage 2d8 + 2}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant while enlarged."
+						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The màgia duergarally turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"La màgia duergarally torna {@condition invisible} fins que ataca, llança un encanteri o utilitza el seu Enlarge, o fins que es trenca la seva concentració, fins a 1 hora (com si es concentrés en un encanteri). Qualsevol equip que porti o porti el duergar és {@condition invisible} amb ell."
 					]
 				}
 			],
@@ -5475,7 +5475,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Stone Dragon Statue",
+			"name": "Estàtua de Drac de Pedra",
 			"source": "TftYP",
 			"page": 85,
 			"_copy": {
@@ -5483,18 +5483,18 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "gòlem",
-						"with": "statue",
+						"with": "estàtua",
 						"flags": "i"
 					}
 				}
 			},
 			"action": [
 				{
-					"name": "Steam Breath",
+					"name": "Respiració de vapor",
 					"entries": [
-						"The statue exhales steam in a line that is 30 feet long and 10 feet wide. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 15}, taking 7 ({@damage 2d4 + 2}) de dany de foc; si supera, en rep la meitat."
+						"L'estàtua exhala vapor en una línia de 30 peus de llarg i 10 peus d'ample. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 15}, prenant 7 ({@damage 2d4 + 2}) de dany de foc; si supera, en rep la meitat."
 					]
 				}
 			],
@@ -5512,7 +5512,7 @@
 			"source": "TftYP",
 			"page": 244,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -5572,7 +5572,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
@@ -5590,7 +5590,7 @@
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
 						"Var és un llançador de conjurs de nivell 12. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 17} salvada de conjur, {@hit 9} a impactar amb atacs màgics). Té els següents conjurs de mag preparats:",
-						"*Conjuration spell of 1st level or higher"
+						"*Encanteri de conjuració de 1r nivell o superior"
 					],
 					"spells": {
 						"0": {
@@ -5656,7 +5656,7 @@
 				{
 					"name": "Conjuració Concentrada",
 					"entries": [
-						"While Var is concentrating on a conjuration spell, his concentration can't be broken as a result of taking damage."
+						"Mentre Var es concentra en un encanteri de conjuració, la seva concentració no es pot trencar com a resultat de rebre danys."
 					]
 				},
 				{
@@ -5668,7 +5668,7 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"If Var is destroyed but his phylactery remains intact, Var gains a new body in {@dice 1d10} days, regaining all his hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+						"Si Var és destruït però el seu filacteri es manté intacte, Var guanya un nou cos en {@dice 1d10} dies, recupera tots els seus punts de vida i torna a estar actiu. El nou cos apareix a 5 peus de la filacteria."
 					]
 				},
 				{
@@ -5680,15 +5680,15 @@
 			],
 			"action": [
 				{
-					"name": "Paralyzing Touch",
+					"name": "Tacte paralitzant",
 					"entries": [
-						"{@atk ms} {@hit 9} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany de fred. The target ha de salvar per Constitució amb {@dc 17} or be {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk ms} {@hit 9} a impactar, 5 peus d'abast, una criatura. {@h}10 ({@damage 3d6}) de dany de fred. The target ha de salvar per Constitució amb {@dc 17} or be {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
 					"name": "Transposició Benigna",
 					"entries": [
-						"Var teleports fins a 30 peus to an unoccupied space he can see. Alternativament, he can choose a space within range that is occupied by a Small or Medium creature. If that creature is willing, both creatures teleport, swapping places. Var can use this feature again only after he finishes a long rest or casts a conjuration spell of 1st level or higher."
+						"Var es teletransporta fins un 30 peus a un espai desocupat que pot veure. Alternativament, pot triar un espai dins del rang que estigui ocupat per una criatura petita o mitjana. Si aquesta criatura està disposada, ambdues criatures es teletransportan, intercanviant llocs. Var pot tornar a utilitzar aquesta funció només després d'haver acabat un descans llarg o de llançar un encanteri de conjuració de 1r nivell o superior."
 					]
 				}
 			],
@@ -5696,19 +5696,19 @@
 				{
 					"name": "Cantrip",
 					"entries": [
-						"Var casts a cantrip."
+						"Var llança un cantrip."
 					]
 				},
 				{
 					"name": "Paralyzing Touch (Costa 2 Accions)",
 					"entries": [
-						"Var uses Paralyzing Touch."
+						"Var utilitza el toc paralitzant."
 					]
 				},
 				{
-					"name": "Frightening Gaze (Costa 2 Accions)",
+					"name": "Mirada espantosa (Costa 2 Accions)",
 					"entries": [
-						"Var fixes his gaze on one creature he can see within 10 feet of him. The target ha de salvar per Saviesa amb {@dc 17} against this magic o estar {@condition acovardit} durant 1 minut. L'objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. If a target's saving throw is successful or the effect ends for it, the target is immune to Var's gaze durant les properes 24 hores."
+						"Var fixa la seva mirada en una criatura que pot veure a 10 peus d'ell. The target ha de salvar per Saviesa amb {@dc 17} against this magic o estar {@condition acovardit} durant 1 minut. L'objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la tirada de salvació d'un objectiu té èxit o l'efecte s'acaba, l'objectiu és immune a la mirada de Var durant les properes 24 hores."
 					]
 				}
 			],
@@ -5810,15 +5810,15 @@
 					]
 				},
 				{
-					"name": "Glowing",
+					"name": "Brillant",
 					"entries": [
-						"Tecuziztecatl sheds dim light within 20 feet of itself."
+						"Tecuziztecatl fa llum tènue a 20 peus de si mateix."
 					]
 				},
 				{
 					"name": "Flexible",
 					"entries": [
-						"Tecuziztecatl can enter a space large enough for a Medium creature without squeezing."
+						"Tecuziztecatl pot entrar en un espai prou gran com per a una criatura mitjana sense esprémer."
 					]
 				},
 				{
@@ -5830,9 +5830,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Tecuziztecatl makes two pseudòpode attacks."
+						"Tecuziztecatl fa dos atacs de pseudòpode."
 					]
 				},
 				{
@@ -5842,9 +5842,9 @@
 					]
 				},
 				{
-					"name": "Spit Acid {@recharge 4}",
+					"name": "Àcid d'escup {@recharge 4}",
 					"entries": [
-						"Tecuziztecatl exhala àcid en una línia de 30 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 13}. Qui falli rep 18 ({@damage 4d8}) de dany d'àcid; qui superi, en rep la meitat."
+						"Tecuziztecatl exhala àcid en una línia de 30 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 13}. Qui falli rep 18 (@damage 4d8}) de dany d'àcid; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -5857,7 +5857,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"OTH"
@@ -5874,7 +5874,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Thayan Apprentice",
+			"name": "Aprenent Thayan",
 			"source": "TftYP",
 			"page": 245,
 			"size": "M",
@@ -5958,9 +5958,9 @@
 			],
 			"trait": [
 				{
-					"name": "Doomvault Devotion",
+					"name": "Doomvault Devoció",
 					"entries": [
-						"Within the Doomvault, the apprentice té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
+						"Dins de Doomvault, l'aprenent té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
 				}
 			],
@@ -5990,7 +5990,7 @@
 			]
 		},
 		{
-			"name": "Thayan Warrior",
+			"name": "Guerrer Thayan",
 			"source": "TftYP",
 			"page": 246,
 			"size": "M",
@@ -6040,9 +6040,9 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Doomvault Devotion",
+					"name": "Doomvault Devoció",
 					"entries": [
-						"Within the Doomvault, the warrior té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
+						"Dins de Doomvault, el guerrer té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
 				},
 				{
@@ -6054,9 +6054,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The warrior fa dos atacs cos a cos."
+						"El guerrer fa dos atacs cos a cos."
 					]
 				},
 				{
@@ -6066,7 +6066,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant."
 					]
@@ -6077,7 +6077,7 @@
 				"Estratègies de Manada"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -6094,38 +6094,38 @@
 			]
 		},
 		{
-			"name": "The Keeper",
+			"name": "El guardià",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 173,
 			"_copy": {
-				"name": "Stone Giant",
+				"name": "Gegant de pedra",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "giant",
-						"with": "Keeper",
+						"mode": "substituirTxt",
+						"replace": "gegant",
+						"with": "Guardià",
 						"flags": "i"
 					},
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The Keeper makes two battleaxe attacks."
+									"El Guardià fa dos atacs de destral de batalla."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
-							"replace": "Greatclub",
+							"mode": "substituirArr",
+							"replace": "Gran club",
 							"items": {
-								"name": "Battleaxe +2",
+								"name": "Destral de batalla +2",
 								"entries": [
-									"{@atk mw} {@hit 10} a impactar, 15 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany tallant, o 23 ({@damage 3d10 + 7}) de dany tallant if used with both hands."
+									"{@atk mw} {@hit 10} a impactar, 15 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany tallant, o 23 ({@damage 3d10 + 7}) de dany tallant si s'utilitza amb les dues mans."
 								]
 							}
 						}
@@ -6178,7 +6178,7 @@
 			]
 		},
 		{
-			"name": "Thorn Slinger",
+			"name": "Fons d'espines",
 			"source": "TftYP",
 			"page": 246,
 			"size": "L",
@@ -6203,7 +6203,7 @@
 			"wis": 10,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 60 peus (sense visió més enllà)"
+				"visió a cegues 60 peus (sens visió més enllà)"
 			],
 			"passive": 10,
 			"conditionImmune": [
@@ -6214,10 +6214,10 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Adhesive Blossoms",
+					"name": "Flors adhesives",
 					"entries": [
-						"The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also {@condition grappled} by it ({@dc 11} per escapar). Ability checks made to escape this grapple have disadvantage.",
-						"Al final de cada torn de the thorn slinger, anything {@condition grappled} by it takes 3 ({@damage 1d6}) de dany d'àcid."
+						"El foner d'espines s'adhereix a qualsevol cosa que el toqui. Una criatura mitjana o més petita adherida al foner d'espines també és {@condition grappled} ({@dc 11} per escapar). Les proves d'habilitat fetes per escapar d'aquesta lluita tenen un desavantatge.",
+						"Al final de cada tornada del foner d'espines, any {@condition grappled} by it takes 3 ({@damage 1d6}) de dany d'àcid."
 					]
 				},
 				{
@@ -6229,7 +6229,7 @@
 			],
 			"action": [
 				{
-					"name": "Thorns",
+					"name": "Espines",
 					"entries": [
 						"{@atk mw,rw} {@hit 3} a impactar, 5 peus d'abast o 30 peus d'abast, un objectiu. {@h}8 ({@damage 2d6 + 1}) de dany perforant."
 					]
@@ -6260,7 +6260,7 @@
 			"source": "TftYP",
 			"page": 68,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -6311,17 +6311,17 @@
 				}
 			],
 			"idiomes": [
-				"the languages it knew in life"
+				"les llengües que va conèixer a la vida"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"Tloques can cast {@spell immobilitzar humanoide} ({@dc 14}) at will, sense requerir components, but his target must be able to see him."
+						"Tloques pot llançar {@spell immobilitzar humanoide} ({@dc 14}) a voluntat, detectar els components requerits, però el seu objectiu ha de poder veure'l."
 					],
 					"hidden": [
-						"will"
+						"voluntat"
 					],
 					"will": [
 						"{@spell immobilitzar humanoide}"
@@ -6332,7 +6332,7 @@
 				{
 					"name": "Regeneració",
 					"entries": [
-						"The vampire recupera 10 punts de toc a l'inici del seu torn si it has at least 1 hit point and isn't in sunlight or running water. If the vampire rep dany radiant o d'aigua beneïda, aquest tret no funciona fins a l'inici del seu següent torn."
+						"El vampir recupera 10 punts de toc a l'inici del seu trencat si té almenys 1 punt d'impacte i no està a la llum del sol ni a l'aigua corrent. If the vampire rep dany radiant o d'aigua beneïda, aquest tret no funciona fins a l'inici del seu següent torn."
 					]
 				},
 				{
@@ -6342,16 +6342,16 @@
 					]
 				},
 				{
-					"name": "Vampire Weaknesses",
+					"name": "Debilitats dels vampirs",
 					"entries": [
-						"The vampire has the following flaws:",
+						"El vampir té els següents defectes:",
 						{
-							"type": "list",
+							"type": "llista",
 							"items": [
-								"Prohibició. The vampire can't enter a residence without an invitation from one of the occupants.",
-								"Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water.",
-								"Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitat} in its resting place.",
-								"Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. it té desavantatge quan li toca llum solar and ability checks."
+								"Prohibició. El vampir no pot entrar a una residència sense la invitació d'un dels ocupants.",
+								"Perjudicat per l'aigua corrent. El vampir rep 20 danys per àcid quan acaba el seu torn a l'aigua corrent.",
+								"Estaca al cor. El vampir és destruït si una arma perforadora feta de fusta li clava al cor mentre està {@condition incapacitat} al seu lloc de descans.",
+								"Hipersensibilitat a la llum solar. El vampir rep 20 danys radiants quan comença el seu torn a la llum del sol. it té desavantatge quan li toca llum solar i controls de capacitat."
 							]
 						}
 					]
@@ -6359,28 +6359,28 @@
 				{
 					"name": "Canviaformes",
 					"entries": [
-						"If the vampire isn't in sunlight or running water, it can use its action to Polymorph into a Tiny bat, or back into its true form.",
-						"While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has una velocitat de vol de 30 peus. Its Statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies."
+						"Si el vampir no està a la llum del sol ni a l'aigua corrent, pot utilitzar la seva acció per convertir-se en un ratpenat petit o tornar a la seva forma real.",
+						"Mentre està en forma de ratpenat, el vampir no pot parlar, la seva velocitat de marxa és de 5 peus i té una velocitat de vol de 30 peus. Les seves estadístiques, a part de la seva mida i velocitat, no canvien. Tot el que porta es transforma amb ell, però res del que porta ho fa. Torna a la seva veritable forma si mor."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The vampire fa dos atacs."
+						"El vampir fa dos atacs."
 					]
 				},
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}8 ({@damage 2d4 + 3}) de dany tallant. Instead of dealing damage, the vampire can grapple the target, escape {@dc 13}."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}8 ({@damage 2d4 + 3}) de dany tallant. En lloc de fer mal, el vampir pot agafar l'objectiu i escapar {@dc 13}."
 					]
 				},
 				{
-					"name": "Children of the Night (1/Dia)",
+					"name": "Els nens de la nit (1/dia)",
 					"entries": [
-						"The vampire magically calls {@dice 2d4} swarms of bats, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain durant 1 hora, until the vampire dies, or until the vampire dismisses them as a bonus action."
+						"El vampir crida màgicament {@dice 2d4} eixams de ratpenats, sempre que el sol no surti. Les criatures cridades arriben en rondes de {@dices 1d4}, actuant com a aliats del vampir i obeint les seves ordres pronunciades. Les bèsties romanen durant 1 hora, fins que el vampir mor, o fins que el vampir les acomiada com una acció addicional."
 					]
 				},
 				{
@@ -6401,7 +6401,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"LF"
@@ -6430,8 +6430,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the wight",
+						"mode": "substituirTxt",
+						"replace": "el wight",
 						"with": "Torlin",
 						"flags": "i"
 					}
@@ -6448,8 +6448,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "tiger",
+						"mode": "substituirTxt",
+						"replace": "tigre",
 						"with": "jaguar",
 						"flags": "i"
 					}
@@ -6458,7 +6458,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "White Maw",
+			"name": "Fauça Blanca",
 			"isNpc": true,
 			"source": "TftYP",
 			"page": 248,
@@ -6485,7 +6485,7 @@
 			"wis": 10,
 			"cha": 3,
 			"senses": [
-				"visió a cegues 60 peus (sense visió més enllà)"
+				"visió a cegues 60 peus (sens visió més enllà)"
 			],
 			"passive": 10,
 			"resist": [
@@ -6500,39 +6500,39 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"emmetzinat",
 				"enderrocat"
 			],
 			"idiomes": [
-				"telepatía 50 peus"
+				"telepatia 50 peus"
 			],
 			"cr": "10",
 			"trait": [
 				{
 					"name": "Amorf",
 					"entries": [
-						"White Maw can occupy another creature's space and vice versa."
+						"White Maw pot ocupar l'espai d'una altra criatura i viceversa."
 					]
 				},
 				{
-					"name": "Corrode Metal",
+					"name": "Metall corroït",
 					"entries": [
-						"Any nonmagical weapon made of metal that hits White Maw corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. if its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition made of metal that hits White Maw is destroyed after dealing damage.",
-						"White Maw can eat through 2-inch-thick, nonmagical metal in 1 round."
+						"Qualsevol arma no màgica feta de metall que colpeja White Maw es corroeix. Després de fer dany, l'arma pren una penalització permanent i acumulada de -1 a les tirades de dany. si la seva penalització baixa a -5, l'arma es destrueix. La munició no màgica feta de metall que colpeja White Maw es destrueix després d'infligir danys.",
+						"White Maw pot menjar un metall no màgic de 2 polzades de gruix en 1 ronda."
 					]
 				},
 				{
 					"name": "Falsa Aparença",
 					"entries": [
-						"While White Maw remains motionless, it is indistinguishable from white stone."
+						"Tot i que White Maw roman immòbil, no es distingeix de la pedra blanca."
 					]
 				},
 				{
-					"name": "Killer Response",
+					"name": "Resposta Killer",
 					"entries": [
-						"Any creature that starts its turn in White Maw's space is targeted by a pseudòpode attack if White Maw isn't {@condition incapacitat}."
+						"Qualsevol criatura que comenci el seu torn a l'espai de White Maw és objectiu d'un atac pseudòpode si White Maw no és {@condition incapacitat}."
 					]
 				}
 			],
@@ -6540,7 +6540,7 @@
 				{
 					"name": "Pseudòpode",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}22 ({@damage 4d8 + 4}) de dany contundent mes 9 ({@damage 2d8}) de dany d'àcid. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}22 ({@damage 4d8 + 4}) de dany contundent mes 9 ({@damage 2d8}) de dany d'àcid. Si l'objectiu porta una armadura metàl·lica no màgica, la seva armadura està parcialment corroïda i pren una penalització permanent i acumulada de -1 a la CA que ofereix. L'armadura es destrueix si la penalització redueix la seva CA a 10."
 					]
 				}
 			],
@@ -6574,8 +6574,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the roper",
+						"mode": "substituirTxt",
+						"replace": "la corda",
 						"with": "Xilonen",
 						"flags": "i"
 					}
@@ -6585,7 +6585,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Yeti Leader",
+			"name": "Líder Yeti",
 			"source": "TftYP",
 			"page": 183,
 			"_copy": {
@@ -6594,20 +6594,20 @@
 				"_mod": {
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The yeti can use its Chilling Gaze and makes two greatsword attacks."
+									"El yeti pot utilitzar la seva mirada esgarrifosa i fa dos atacs d'espasa."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Urpa",
 							"items": {
-								"name": "Frost Brand Espasa Gran",
+								"name": "Frost Marca Espasa Gran",
 								"entries": [
 									"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany tallant mes 3 ({@damage 1d6}) de dany de fred."
 								]
@@ -6619,7 +6619,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Young Fire Giant",
+			"name": "Jove gegant de foc",
 			"source": "TftYP",
 			"page": 192,
 			"_copy": {
@@ -6627,9 +6627,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "ogre",
-						"with": "giant",
+						"with": "gegant",
 						"flags": "i"
 					}
 				}
@@ -6640,7 +6640,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Young Frost Giant",
+			"name": "Jove gegant de gel",
 			"source": "TftYP",
 			"page": 187,
 			"_copy": {
@@ -6648,9 +6648,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "ogre",
-						"with": "giant",
+						"with": "gegant",
 						"flags": "i"
 					}
 				}
@@ -6661,7 +6661,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Young Hill Giant",
+			"name": "Jove gegant del turó",
 			"source": "TftYP",
 			"page": 167,
 			"_copy": {
@@ -6669,9 +6669,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "orc",
-						"with": "giant",
+						"with": "gegant",
 						"flags": "i"
 					}
 				}
@@ -6679,7 +6679,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Young Ogre Servant",
+			"name": "Jove Servent Ogre",
 			"source": "TftYP",
 			"page": 171,
 			"_copy": {
@@ -6687,7 +6687,7 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "orc",
 						"with": "ogre",
 						"flags": "i"
@@ -6697,7 +6697,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Young Troglodita",
+			"name": "Jove Troglodita",
 			"source": "TftYP",
 			"page": 176,
 			"_copy": {
@@ -6705,8 +6705,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "kobold",
+						"mode": "substituirTxt",
+						"replace": "còbold",
 						"with": "troglodita",
 						"flags": "i"
 					}
@@ -6721,11 +6721,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Young Winter Wolf",
+			"name": "Jove llop d'hivern",
 			"source": "TftYP",
 			"page": 181,
 			"_copy": {
-				"name": "Wolf Terrible",
+				"name": "Llop Terrible",
 				"source": "MM"
 			},
 			"hasToken": true
@@ -6739,7 +6739,7 @@
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"kobold"
+					"còbold"
 				]
 			},
 			"alineament": [
@@ -6805,7 +6805,7 @@
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
@@ -6818,7 +6818,7 @@
 				{
 					"name": "Estratègies de Manada",
 					"entries": [
-						"Yusdrayl has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition incapacitat}."
+						"La Yusdrayl té avantatge en una tirada d'atac contra una criatura si almenys un dels seus aliats es troba a menys de 5 peus de la criatura i l'aliat no és {@condition incapacitat}."
 					]
 				}
 			],

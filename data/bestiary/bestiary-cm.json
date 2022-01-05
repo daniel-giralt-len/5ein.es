@@ -17,11 +17,11 @@
 	},
 	"monster": [
 		{
-			"name": "Animated Broom",
+			"name": "Escombra animada",
 			"source": "CM",
 			"page": 20,
 			"size": "S",
-			"type": "constructe",
+			"type": "construir",
 			"ac": [
 				{
 					"ac": 15,
@@ -49,7 +49,7 @@
 			"wis": 5,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 120 peus (sense visió més enllà)"
+				"visió a cegues 120 peus (sens visió més enllà)"
 			],
 			"passive": 7,
 			"immune": [
@@ -60,7 +60,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -70,9 +70,9 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "False Object",
+					"name": "Objecte fals",
 					"entries": [
-						"If the broom is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the broom move or act, that creature must succeed on a {@dc 15} Saviesa (Percepció) check to discern that the broom is animate."
+						"Si l'escombra està immòbil a l'inici del combat, té avantatge en la seva tirada d'iniciativa. A més, si una criatura no ha observat que l'escombra es mou o actua, aquesta criatura ha de superar una prova de {@dc 15} Saviesa (Percepció) per discernir que l'escombra està animada."
 					]
 				},
 				{
@@ -84,13 +84,13 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The broom fa dos atacs cos a cos."
+						"La escombra fa dos atacs cos a cos."
 					]
 				},
 				{
-					"name": "Broomstick",
+					"name": "Escombra",
 					"entries": [
 						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}5 ({@damage 1d4 + 3}) de dany contundent."
 					]
@@ -104,7 +104,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"B"
@@ -114,11 +114,11 @@
 			]
 		},
 		{
-			"name": "Animated Chained Library",
+			"name": "Biblioteca encadenada animada",
 			"source": "CM",
 			"page": 24,
 			"size": "L",
-			"type": "constructe",
+			"type": "construir",
 			"ac": [
 				{
 					"ac": 14,
@@ -141,7 +141,7 @@
 			"wis": 5,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 30 peus (sense visió més enllà)"
+				"visió a cegues 30 peus (sens visió més enllà)"
 			],
 			"passive": 7,
 			"immune": [
@@ -152,7 +152,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -162,23 +162,23 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "False Object",
+					"name": "Objecte fals",
 					"entries": [
-						"If the library is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the library move or act, that creature must succeed on a {@dc 15} Saviesa (Percepció) check to discern that the library is animate."
+						"Si la biblioteca està immòbil a l'inici del combat, té avantatge en la seva tirada d'iniciativa. A més, si una criatura no ha observat que la biblioteca es mou o actua, aquesta criatura ha de superar una prova de {@dc 15} Saviesa (Percepció) per discernir que la biblioteca està animada."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The library fa dos atacs."
+						"La biblioteca fa dos atacs."
 					]
 				},
 				{
-					"name": "Chained Book",
+					"name": "Llibre encadenat",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany contundent, and if the target is a creature, it is {@condition grappled} ({@dc 12} per escapar)."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany contundent, i si l'objectiu és una criatura, és {@condition grappled} ({@dc 12} per escapar)."
 					]
 				}
 			],
@@ -187,7 +187,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"B"
@@ -257,7 +257,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Quill casts one of the following spells using Carisma as the habilitat de llançament de conjurs (save {@dc 17}):"
+						"Quill llança un dels encanteris següents utilitzant Carisma com a habilitat de llançament de conjurs (salva {@dc 17}):"
 					],
 					"will": [
 						"{@spell llum}",
@@ -276,15 +276,15 @@
 							"{@spell teleportació}"
 						]
 					},
-					"ability": "cha",
-					"displayAs": "action"
+					"ability": "xa",
+					"displayAs": "acció"
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Quill fa dos atacs with his dagger and uses Supreme Mockery."
+						"Quill fa dos atacs amb la seva daga i utilitza Supreme Mockery."
 					]
 				},
 				{
@@ -296,19 +296,19 @@
 				{
 					"name": "Quill's Fable {@recharge}",
 					"entries": [
-						"Quill utters a short fable while targeting up to five creatures within 30 feet of him that he can see. Each target that can hear Quill's magical fable ha de salvar per Saviesa amb {@dc 17}. Qui falli rep 36 ({@damage 8d8}) de dany psíquic; qui superi, en rep la meitat."
+						"Quill pronuncia una breu faula mentre apunta fins a cinc criatures a 30 peus d'ell que pot veure. Cada objectiu que pot escoltar la faula màgica de Quill ha de salvar per Saviesa amb {@dc 17}. Qui falli rep 36 (@damage 8d8}) de dany psíquic; qui superi, en rep la meitat."
 					]
 				},
 				{
-					"name": "Supreme Mockery",
+					"name": "La burla suprema",
 					"entries": [
-						"Quill hurls a string of insults laced with enchantments at a creature he can see within 60 feet of him. If the creature can hear Quill (though it need not understand him), ha de salvar per Saviesa amb {@dc 17} or take 66 ({@damage 12d10}) de dany psíquic and have disadvantage on the next attack roll it makes before the end of its next turn."
+						"Quill llança una sèrie d'insults lligats amb encantaments a una criatura que pot veure a 60 peus d'ell. Si la criatura pot escoltar Quill (tot i que no cal que l'entengui), ha de salvar per Saviesa amb {@dc 17} o agafa 66 ({@damage 12d10}) de dany psíquic i té desavantatge a la següent tirada d'atac que faci abans. el final del seu següent torn."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -349,7 +349,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"unarmored defense"
+						"defensa sense blindatge"
 					]
 				}
 			],
@@ -406,39 +406,39 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Bak Mei carries a staff of striking with 10 charges."
+						"Bak Mei porta una plantilla de vaga amb 10 càrrecs."
 					]
 				},
 				{
-					"name": "Unarmored Defense",
+					"name": "Defensa sense blindatge",
 					"entries": [
-						"While Bak Mei is wearing no armor and wielding no shield, his AC includes his Saviesa modifier."
+						"Mentre que Bak Mei no porta cap armadura i no porta cap escut, la seva CA inclou el seu modificador Saviesa."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Bak Mei attacks three times: twice with Thunder Strike and once with his staff of striking."
+						"Bak Mei ataca tres vegades: dues vegades amb Thunder Strike i una altra amb el seu bastó de cop."
 					]
 				},
 				{
-					"name": "Thunder Strike",
+					"name": "Tronada",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}15 ({@damage 2d10 + 4}) de dany de tro, and if the target is a creature, ha de salvar per Constitució amb {@dc 17} or be {@condition eixordat} and {@condition atordit} until the start of Bak Mei's next turn."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}15 ({@damage 2d10 + 4}) de dany de tro, and if the target is a creature, ha de salvar per Constitució amb {@dc 17} or be {@condition eixordat} and {@condition atordit } fins a l'inici del proper torn de Bak Mei."
 					]
 				},
 				{
-					"name": "Staff of Striking",
+					"name": "Bastó de Vaga",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent, o 4 ({@damage 1d8}) de dany contundent si s'usa amb dos mans, and Bak Mei can expend up to 3 of the staff's charges. For each expended charge, l'objectiu rep un {@damage 1d6} extra de dany de força."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent, o 4 ({@damage 1d8}) de dany contundent si s'usa amb dos mans, i Bak Mei pot gastar fins a 3 dels càrrecs del personal. Per cada càrrec gastat, l'objectiu rep un {@damage 1d6} extra de dany de força."
 					]
 				},
 				{
 					"name": "Auto Curació (es Recarrega amb un Descans Llarg)",
 					"entries": [
-						"Bak Mei regains {@dice 2d8 + 4} hit points, and all levels of {@condition exhaust} end on him."
+						"Bak Mei recupera {@dices 2d8 + 4} punts de vida i tots els nivells d'{@condition exhaust} acaben amb ell."
 					]
 				}
 			],
@@ -446,29 +446,29 @@
 				{
 					"name": "Fugida Veloç",
 					"entries": [
-						"Bak Mei takes the Disengage or Hide action."
+						"Bak Mei fa l'acció Desactivar o Amagar."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Deflect Missile",
+					"name": "Míssil de desviació",
 					"entries": [
-						"In response to being hit by a atac armat a distància, Bak Mei deflects the missile. The damage he takes from the attack is reduced by {@dice 1d10 + 12}. If the damage is reduced to 0, Bak Mei catches the missile if it's small enough to hold in one hand and Bak Mei has a hand free."
+						"En resposta a ser colpejat per un atac armat a distància, Bak Mei desvia el míssil. El dany que rep de l'atac es redueix en {@das 1d10 + 12}. Si el dany es redueix a 0, Bak Mei agafa el míssil si és prou petit per agafar-lo amb una mà i Bak Mei té la mà lliure."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Crane Dance",
+					"name": "Dansa de grues",
 					"entries": [
-						"Bak Mei moves fins a 20 peus. This movement does not provoke opportunity attacks."
+						"Bak Mei move fins a 20 peus. Aquest moviment no provoca atacs d'oportunitat."
 					]
 				},
 				{
 					"name": "Thunder Strike (Costa 2 Accions)",
 					"entries": [
-						"Bak Mei uses Thunder Strike."
+						"Bak Mei utilitza Thunder Strike."
 					]
 				}
 			],
@@ -477,7 +477,7 @@
 				"Resistències Llegendàries"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AU",
@@ -502,7 +502,7 @@
 			"source": "CM",
 			"page": 179,
 			"size": "L",
-			"type": "constructe",
+			"type": "construir",
 			"ac": [
 				{
 					"ac": 17,
@@ -540,7 +540,7 @@
 				"encegat",
 				"fascinat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -549,23 +549,23 @@
 			"cr": "13",
 			"trait": [
 				{
-					"name": "Limited Spell Immunity",
+					"name": "Immunitat limitada a l'encanteri",
 					"entries": [
-						"The gòlem automatically succeeds on saving throws against spells of 7th level or lower, and the attack rolls of such spells always miss it."
+						"El gòlem aconsegueix automàticament les tirades de salvació contra encanteris de nivell 7 o inferior, i les tires d'atac d'aquests encanteris sempre ho perden."
 					]
 				},
 				{
 					"name": "Naturalesa Inusual",
 					"entries": [
-						"The gòlem no necessita aire, menjar, beure, ni dormir."
+						"El gòlem no necessita aire, menjar, beure, ni dormir."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The gòlem fa dos atacs."
+						"El gòlem fa dos atacs."
 					]
 				},
 				{
@@ -583,9 +583,9 @@
 			],
 			"reaction": [
 				{
-					"name": "Spell Deflection",
+					"name": "Desviació d'encanteris",
 					"entries": [
-						"In response to a spell attack missing the gòlem, it causes that spell a impactar another creature within 120 feet of it that it can see."
+						"En resposta a un atac d'encanteri que no té el gòlem, fa que aquest encanteri impacti una altra criatura a 120 peus d'ell que pugui veure."
 					]
 				}
 			],
@@ -594,7 +594,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"O"
@@ -620,11 +620,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Cloud Giant Ghost",
+			"name": "Fantasma gegant del núvol",
 			"source": "CM",
 			"page": 146,
 			"size": "H",
-			"type": "no-mort",
+			"type": "no mort",
 			"ac": [
 				{
 					"ac": 15,
@@ -671,7 +671,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"pres",
 				"paralitzat",
@@ -689,7 +689,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The ghost casts one of the following spells, using Carisma as the habilitat de llançament de conjurs and sense que calguin components materials:"
+						"El fantasma llança un dels següents encanteris, utilitzant Carisma com a capacitat de llançament de conjurs i sentit que calguin components materials:"
 					],
 					"will": [
 						"{@spell núvol de boira}"
@@ -702,8 +702,8 @@
 							"{@spell Telequinesi}"
 						]
 					},
-					"ability": "cha",
-					"displayAs": "action"
+					"ability": "xa",
+					"displayAs": "acció"
 				}
 			],
 			"trait": [
@@ -722,19 +722,19 @@
 				{
 					"name": "Regeneració",
 					"entries": [
-						"The ghost recupera 10 punts de toc a l'inici del seu torn. If the ghost takes radiant damage or damage from a arma màgica, this trait doesn't function at the start of the ghost's next turn. The ghost dies only if it starts its turn with 0 hit points and doesn't regenerate."
+						"The ghost recupera 10 punts de toc a l'inici del seu torn. Si el fantasma rep dany radiant o dany d'una arma màgica, aquest tret no funciona al començament del següent torn del fantasma. El fantasma només mor si comença el seu torn amb 0 punts de vida i no es regenera."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The ghost fa dos atacs cos a cos."
+						"El fantasma fa dos atacs cos a cos."
 					]
 				},
 				{
-					"name": "Spectral Weapon",
+					"name": "Arma espectral",
 					"entries": [
 						"{@atk mw} {@hit 12} a impactar, 10 peus d'abast, un objectiu. {@h}21 ({@damage 3d8 + 8}) de dany de força."
 					]
@@ -742,13 +742,13 @@
 				{
 					"name": "Eterietat",
 					"entries": [
-						"The ghost entra el Pla Etèri des del Pla Material (i viceversa). És visible des del Pla Material quan està al Llindar Eteri (i viceversa). Tanmateix no pot afectar ni ésser afectat per res de l'altre pla."
+						"El fantasma entra al Pla Etèri des del Pla Material (i viceversa). És visible des del Pla Material quan està al Llindar Eteri (i viceversa). Tanmateix no pot afectar ni ésser afectat per res de l'altre pla."
 					]
 				},
 				{
-					"name": "Wind Howl {@recharge}",
+					"name": "Udol del vent {@recharge}",
 					"entries": [
-						"The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up to three creatures of the ghost's choice that it can see within 60 feet of it. Each target is pulled fins a 20 peus toward the ghost i ha de salvar per Constitució amb {@dc 15}. Qui falli rep 16 ({@damage 3d10}) de dany de fred; qui superi, en rep la meitat."
+						"El fantasma emet un udol terrible que convoca un vent fred i mordaç. Aquest vent engoleix fins a tres criatures de l'elecció del fantasma que pot veure a 60 peus d'ell. Each target is pulled fins a 20 peus toward the ghost i ha de salvar per Constitució amb {@dc 15}. Qui falli rep 16 (@damage 3d10}) de dany de fred; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -761,7 +761,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -778,11 +778,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Constructed Commoner",
+			"name": "Públic construït",
 			"source": "CM",
 			"page": 149,
 			"size": "M",
-			"type": "constructe",
+			"type": "construir",
 			"ac": [
 				{
 					"ac": 15,
@@ -809,7 +809,7 @@
 				"verí"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			],
 			"idiomes": [
@@ -820,7 +820,7 @@
 				{
 					"name": "Naturalesa Inusual",
 					"entries": [
-						"The commoner no necessita aire, menjar, beure, ni dormir, and it gains no benefit from finishing a short or long rest. When it es queda a 0 punts de vida, it becomes a lifeless object."
+						"El plebeu no necessita aire, menjar, beure, ni dormir, i no treu cap benefici en acabar un descans curt o llarg. Quan queda a 0 punts de vida, es converteix en un objecte sense vida."
 					]
 				}
 			],
@@ -846,7 +846,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Corrupted Avatar of Lurue",
+			"name": "Avatar corrupte de Lurue",
 			"source": "CM",
 			"page": 123,
 			"size": "L",
@@ -897,15 +897,15 @@
 			"idiomes": [
 				"Celestial",
 				"Èlfic",
-				"Silvànic",
-				"telepatía 60 peus"
+				"Silvanic",
+				"telepatia 60 peus"
 			],
 			"cr": "8",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The avatar fa dos atacs: one with its hooves and one with its horn."
+						"L'avatar fa dos atacs: un amb les peülles i un altre amb la banya."
 					]
 				},
 				{
@@ -915,9 +915,9 @@
 					]
 				},
 				{
-					"name": "Horn",
+					"name": "Banya",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}32 ({@damage 8d6 + 4}) de dany necròtic. If the target is a humanoid, ha de salvar per Saviesa amb {@dc 13} or be transformed into a wolf under the avatar's control. This transformation dura 1 hora, or until the target es queda a 0 punts de vida or dies. The target's game statistics are replaced by the wolf's statistics, but it retains its hit points. The target is limited in the actions it can perform by the nature of its wolf form, and it can't speak, cast spells, or take any other action that requires hands or speech. The target's gear melds into the new form, and it can't activate, use, wield, or otherwise benefit from any of its equipment."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}32 ({@damage 8d6 + 4}) de dany necròtic. Si l'objectiu és un humanoide, ha de salvar per Saviesa amb {@dc 13} o transformar-se en un llop sota el control de l'avatar. Aquesta transformació dura 1 hora, o fins que l'objectiu queda a 0 punts de vida o mor. Les estadístiques de joc de l'objectiu són substituïdes per les estadístiques del llop, però conserva els seus punts de vida. L'objectiu està limitat en les accions que pot realitzar per la naturalesa de la seva forma de llop, i no pot parlar, fer encanteris ni fer cap altra acció que requereixi mans o parla. L'equip de l'objectiu es fon en la nova forma, i no pot activar-se, utilitzar, fer servir ni beneficiar-se de cap dels seus equips."
 					]
 				}
 			],
@@ -926,7 +926,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"CE",
@@ -944,7 +944,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Dragon Tortoise",
+			"name": "Tortuga Drac",
 			"source": "CM",
 			"page": 205,
 			"size": "G",
@@ -992,9 +992,9 @@
 			"cr": "17",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The dragon tortoise fa tres atacs: one with its bite and two with its claws. It can make one atac de cua in place of its two claw attacks."
+						"La tortuga drac fa tres atacs: una amb la mossegada i dues amb les urpes. Pot fer un atac de cua en lloc dels seus dos atacs d'urpa."
 					]
 				},
 				{
@@ -1012,13 +1012,13 @@
 				{
 					"name": "Cua",
 					"entries": [
-						"{@atk mw} {@hit 13} a impactar, 15 peus d'abast, un objectiu. {@h}26 ({@damage 3d12 + 7}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 20} or be pushed fins a 10 peus away from the dragon tortoise and knocked {@condition enderrocat}."
+						"{@atk mw} {@hit 13} a impactar, 15 peus d'abast, un objectiu. {@h}26 ({@damage 3d12 + 7}) de dany contundent. Si l'objectiu és una criatura, ha de salvar per Força amb {@dc 20} o ser empès fins a 10 peus lluny de la tortuga drac i colpejat {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Alè de Steam {@recharge 5}",
 					"entries": [
-						"The dragon tortoise exhales abrasive sand en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 18}. Qui falli rep 52 ({@damage 15d6}) de dany tallant; qui superi, en rep la meitat."
+						"The dragon tortuga exhales abrasive sand en un amb de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 18}. Qui falli rep 52 (@damage 15d6}) de dany tallant; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -1026,7 +1026,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"DR",
@@ -1068,7 +1068,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item pectoral|PHB}"
 					]
 				}
 			],
@@ -1106,7 +1106,7 @@
 			],
 			"action": [
 				{
-					"name": "Rapier",
+					"name": "Estoc",
 					"entries": [
 						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}5 ({@damage 1d8 + 1}) de dany perforant."
 					]
@@ -1116,7 +1116,7 @@
 				{
 					"name": "Parada",
 					"entries": [
-						"Faerl adds 2 to his AC against one melee attack that would hit it. To do so, he must see the attacker and be wielding a melee weapon."
+						"Faerl afegeix 2 a la seva CA contra un atac cos a cos que el colpejaria. Per fer-ho, ha de veure l'atacant i portar una arma cos a cos."
 					]
 				}
 			],
@@ -1141,11 +1141,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Fungal Servant",
+			"name": "Servidor de fongs",
 			"source": "CM",
 			"page": 217,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"L",
 				"E"
@@ -1203,20 +1203,20 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
 			"idiomes": [
-				"The languages it knew in life"
+				"Els idiomes que va conèixer a la vida"
 			],
 			"cr": "15",
 			"spellcasting": [
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The fungal servant és un/a llançador/a de conjurs de nivell 10. La seva habilitat de llançament de conjur és Saviesa ({@dc 17} salvada de conjur, {@hit 9} a impactar amb atacs màgics). The fungal servant has the following cleric spells prepared:"
+						"The fungal servant és un/a llançador/a de conjurs de nivell 10. La seva habilitat de llançament de conjur és Saviesa ({@dc 17} salvada de conjur, {@hit 9} a impactar amb atacs màgics). El servent del fong té preparats els següents encanteris de clergues:"
 					],
 					"spells": {
 						"0": {
@@ -1228,7 +1228,7 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
+								"{@ordre ortogràfica}",
 								"{@spell sageta guia}",
 								"{@spell escut de fe}"
 							]
@@ -1252,7 +1252,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell endevinació}",
-								"{@spell guardià de fe}"
+								"{@spell guardà de fe}"
 							]
 						},
 						"5": {
@@ -1269,7 +1269,7 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
@@ -1282,59 +1282,59 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"A destroyed fungal servant gains a new body in 24 hours if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 feet of the fungal servant's heart."
+						"Un servidor de fongs destruït guanya un nou cos en 24 hores si el seu cor està intacte, recupera tots els seus punts de vida i torna a ser actiu. El nou cos apareix a 5 peus del cor del servent del fong."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The fungal servant can use its Dreadful Glare and makes one attack with its rotting fist."
+						"El servent del fong pot utilitzar el seu resplendor terrible i fa un atac amb el puny podrit."
 					]
 				},
 				{
-					"name": "Rotting Fist",
+					"name": "Puny podrit",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to spores. The curse lasts until removed by the anul·lar maledicció spell or other magic."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 16} o ser maleït amb la putrefacció de la mòmia. L'objectiu maleït no pot recuperar punts de vida, i els seus punts de vida màxims disminueixen en 10 ({@dice 3d6}) per cada 24 hores que passen. Si la maledicció redueix els punts de vida màxims de l'objectiu a 0, l'objectiu mor i el seu cos es converteix en espores. La maledicció dura fins que l'elimina l'encanteri anul·lar maledicció o una altra màgia."
 					]
 				},
 				{
-					"name": "Dreadful Glare",
+					"name": "Enlluernament terrible",
 					"entries": [
-						"The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, ha de salvar per Saviesa amb {@dc 16} against this magic or become {@condition acovardit} until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralitzat} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants durant les properes 24 hores."
+						"El servidor de fongs apunta a una criatura que pot veure a 60 peus d'ella. Si l'objectiu pot veure el servent fong, ha de salvar per Saviesa amb {@dc 16} contra aquesta màgia o es converteix en {@condition acovardit} fins al final del següent torn del servent fong. Si l'objectiu falla la tirada de salvació per 5 o més, també és {@condition paralitzat} durant la mateixa durada. Un objectiu que aconsegueix la tirada de salvació és immune a l'enlluernament terrible de tots els servidors de fongs durant les 24 hores."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Atacar",
 					"entries": [
-						"The fungal servant makes one attack with its rotting fist or uses its Dreadful Glare."
+						"El servent del fong fa un atac amb el seu puny podrit o utilitza el seu resplendor terrible."
 					]
 				},
 				{
-					"name": "Blinding Spores",
+					"name": "Espores cegadores",
 					"entries": [
-						"Blinding spores swirls magically around the fungal servant. Each creature within 5 feet of the fungal servant ha de salvar per Constitució amb {@dc 16} or be {@condition encegat} until the end of the creature's next turn."
+						"Les espores cegadores giren màgicament al voltant del servidor de fongs. Cada criatura a menys de 5 peus del servidor fong ha de salvar per Constitució amb {@dc 16} o ser {@condition encegat} fins al final del següent torn de la criatura."
 					]
 				},
 				{
-					"name": "Blasphemous Word (Costa 2 Accions)",
+					"name": "Paraula blasfema (Costa 2 Accions)",
 					"entries": [
-						"The fungal servant utters a blasphemous word. Each non-undead creature within 10 feet of the fungal servant that can hear the magical utterance ha de salvar per Constitució amb {@dc 16} or be {@condition atordit} until the end of the fungal servant's next turn."
+						"El servent del fong pronuncia una paraula blasfema. Cada criatura no morta a 10 peus del servent del fong que pot escoltar la paraula màgica ha de salvar per Constitució amb {@dc 16} o ser {@condition atordit} fins al final del següent torn del servent del fong."
 					]
 				},
 				{
 					"name": "Channel Negative Energy (Costa 2 Accions)",
 					"entries": [
-						"The fungal servant magically unleashes negative energy. Creatures within 60 feet of the fungal servant, including ones behind barriers and around corners, can't regain hit points until the end of the fungal servant's next turn."
+						"El servidor de fongs allibera màgicament energia negativa. Les criatures a menys de 60 peus del servidor del fong, incloses les que es troben darrere de les barreres i al voltant de les cantonades, no poden recuperar els punts de vida fins al final del següent torn del servidor del fong."
 					]
 				},
 				{
 					"name": "Whirlwind of Spores (Costa 2 Accions)",
 					"entries": [
-						"The fungal servant magically transforms into a whirlwind of spores, moves fins a 60 peus, and reverts to its normal form. While in whirlwind form, the fungal servant is immune to all damage, and it can't be {@condition grappled}, {@condition petrificat}, knocked {@condition enderrocat}, {@condition restrained}, o {@condition atordit}. Equipment worn or carried by the fungal servant remain in its possession."
+						"El criat fong es transforma màgicament en un remolí d'espores, mou les aletes uns 60 peus i torna a la seva forma normal. Mentre es troba en forma de remolí, el servidor del fong és immune a tots els danys i no pot ser {@condition grappled}, {@condition petrificat}, colpejat {@condition enderrocat}, {@condition restrained}, o {@condition atordit }. L'equip que porta o porta el criat fong roman en el seu poder."
 					]
 				}
 			],
@@ -1347,7 +1347,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"LF"
@@ -1384,7 +1384,7 @@
 			"page": 27,
 			"size": "S",
 			"type": {
-				"type": "aberration",
+				"type": "aberració",
 				"tags": [
 					"canviaformes"
 				]
@@ -1400,7 +1400,7 @@
 				"walk": 30,
 				"volar": {
 					"number": 30,
-					"condition": "(flotar) in its true form only"
+					"condition": "(flotar) només en la seva forma real"
 				},
 				"canHover": true
 			},
@@ -1411,7 +1411,7 @@
 			"wis": 11,
 			"cha": 6,
 			"senses": [
-				"visió a cegues 60 peus (sense visió més enllà)"
+				"visió a cegues 60 peus (sens visió més enllà)"
 			],
 			"passive": 10,
 			"immune": [
@@ -1421,14 +1421,14 @@
 				"emmetzinat"
 			],
 			"idiomes": [
-				"telepatía 60 peus"
+				"telepatia 60 peus"
 			],
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Alternate Forms",
+					"name": "Formes alternatives",
 					"entries": [
-						"The gingwatzim has two alternate forms, both of which are chosen by its creator when the gingwatzim comes into being. One form is an exact duplicate of a Tiny nonmagical object (such as a book, dagger, or gemstone) that its creator is carrying or wearing when the gingwatzim is conjured. The other form can be any Tiny beast. Once these alternate forms are chosen, they can't be changed."
+						"El gingwatzim té dues formes alternatives, totes dues escollides pel seu creador quan neix el gingwatzim. Una de les formes és un duplicat exacte d'un petit objecte no màgic (com un llibre, un punyal o una pedra preciosa) que el seu creador porta o porta quan el gingwatzim és evocat. L'altra forma pot ser qualsevol petita bèstia. Un cop escollides aquestes formes alternatives, no es poden canviar."
 					]
 				}
 			],
@@ -1436,13 +1436,13 @@
 				{
 					"name": "Energy Drain (Només en forma de True)",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}16 ({@damage 4d6 + 2}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o gain 1 level of {@condition exhaust}. When the target finishes a short or long rest, the target loses every level of {@condition exhaust} gained from this attack."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}16 ({@damage 4d6 + 2}) de dany necròtic, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o gain 1 level of {@condition exhaust}. Quan l'objectiu acaba un descans curt o llarg, l'objectiu perd tots els nivells d'{@condition exhaust} obtinguts amb aquest atac."
 					]
 				},
 				{
 					"name": "Canviar de Forma",
 					"entries": [
-						"The gingwatzim changes from its true form\u2014a 3-foot-diameter sphere of luminous ectoplasm\u2014into one of its two alternate forms, or from one of those forms back into its true form. In object form, it can't move or make attacks but otherwise retains its statistics, and it is indistinguishable from the thing it is imitating. In beast form, it retains its hit points but otherwise uses the stat block of the beast it is imitating. When it dies, the gingwatzim reverts to its true form and then vanishes."
+						"El gingwatzim canvia de la seva forma real, una esfera d'ectoplasma lluminós de 3 peus de diàmetre, a una de les seves dues formes alternatives, o d'una d'aquestes formes torna a la seva forma real. En forma d'objecte, no pot moure's ni fer atacs, però conserva les seves estadístiques, i és indistinguible de la cosa que està imitant. En forma de bèstia, conserva els seus punts de vida, però en cas contrari utilitza el bloc d'estadístiques de la bèstia que està imitant. Quan mor, el gingwatzim torna a la seva veritable forma i després desapareix."
 					]
 				}
 			],
@@ -1463,12 +1463,12 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"exhaust"
+				"escapament"
 			],
 			"hasFluff": true
 		},
 		{
-			"name": "Grippli Warrior",
+			"name": "Guerrer Grippli",
 			"source": "CM",
 			"page": 99,
 			"size": "S",
@@ -1503,7 +1503,7 @@
 			},
 			"passive": 12,
 			"idiomes": [
-				"Grippli plus one other language (usually Common, Dracònic, or Primordial)"
+				"Grippli més un altre idioma (normalment comú, dracònic o primordial)"
 			],
 			"cr": "1/4",
 			"trait": [
@@ -1516,33 +1516,33 @@
 				{
 					"name": "Salt Dempeus",
 					"entries": [
-						"The grippli can leap 30 feet horizontally or 20 feet vertically from a standing position."
+						"El grippli pot saltar 30 peus horitzontalment o 20 peus verticalment des d'una posició dempeus."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The grippli makes one attack with its tongue. If this attack hits, the grippli can make a melee attack using its trident against the same target."
+						"El grippli fa un atac amb la llengua. Si aquest atac colpeja, el grippli pot fer un atac cos a cos usant el seu trident contra el mateix objectiu."
 					]
 				},
 				{
-					"name": "Tongue",
+					"name": "Llengua",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}L'objectiu està {@condition grappled} ({@dc 12} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the grippli can't grab another creature."
+						"{@atk mw} {@hit 4} un impactar, 5 peus d'abast, una criatura mitjana o menor. {@h}L'objectiu està {@condition grappled} ({@dc 12} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, i el grippli no pot agafar una altra criatura."
 					]
 				},
 				{
 					"name": "Trident",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 6 ({@damage 1d8 + 2}) de dany perforant si s'usa a dues mans per un atac cos a cos, plus 2 ({@damage 1d4}) de dany perforant if the grippli had advantage on the attack roll."
+						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 6 ({@damage 1d8 + 2}) de dany perforant si s'usa a dues mans per un atac cos a cos, plus 2 ({ @damage 1d4}) de dany perforant si el grippli tenia avantatge a la tirada d'atac."
 					]
 				},
 				{
 					"name": "Arc curt",
 					"entries": [
-						"{@atk rw} {@hit 4} a impactar, 80/320 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, mes 2 ({@damage 1d4}) de dany perforant if the grippli had advantage on the attack roll."
+						"{@atk rw} {@hit 4} a impactar, 80/320 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, mes 2 ({@damage 1d4}) de dany perforant si el grippli tenia avantatge a la tirada d'atac."
 					]
 				}
 			],
@@ -1551,7 +1551,7 @@
 				"Aguantar la Respiració"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -1576,7 +1576,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hag of the Fetid Gaze",
+			"name": "Bruja de la mirada fétida",
 			"source": "CM",
 			"page": 76,
 			"size": "M",
@@ -1619,26 +1619,26 @@
 			"idiomes": [
 				"Comú",
 				"Dracònic",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de The hag's és Saviesa ({@dc 12} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de The hag's és Saviesa ({@dc 12} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
 						"{@spell llums dansaires}",
 						"{@spell il·lusió menor}",
 						"{@spell mofa i escarni}"
 					],
-					"ability": "cha"
+					"ability": "xa"
 				},
 				{
-					"name": "Shared Spellcasting",
+					"name": "L'encanteri compartit",
 					"headerEntries": [
-						"While all three members of the Fetid Gaze are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+						"Tot i que els tres membres de Fetid Gaze es troben a menys de 30 peus l'un de l'altre, cadascun poden llançar els següents encanteris de la llista de conjurs del mag, però han de compartir els espais d'encanteris entre ells:"
 					],
 					"spells": {
 						"1": {
@@ -1685,7 +1685,7 @@
 						}
 					},
 					"footerEntries": [
-						"For casting these spells, each hag is a 12th-level spellcaster that uses Intel·ligència as her habilitat de llançament de conjurs. The spell save DC is 12 + the hag's Intel·ligència modifier, and the spell attack bonus is 4 + the hag's Intel·ligència modifier."
+						"Per llançar aquests encanteris, cada bruja és un encanteri de nivell 12 que utilitza Intel·ligència com a habilitat de llançament de conjurs. La CD de salvació d'encanteris és 12 + el modificador d'Intel·ligència de la bruja, i la bonificació d'atac de l'encanteri és de 4 + el modificador d'Intel·ligència de la bruja."
 					]
 				}
 			],
@@ -1699,7 +1699,7 @@
 				{
 					"name": "Mimetisme",
 					"entries": [
-						"The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Saviesa (Insight) check."
+						"La bruja pot imitar els sons dels animals i les veus humanoides. Una criatura que escolta els sons pot dir que són imitacions amb una prova correcta de {@dc 14} Saviesa (Insight)."
 					]
 				}
 			],
@@ -1711,16 +1711,16 @@
 					]
 				},
 				{
-					"name": "Illusory Appearance",
+					"name": "Aparença il·lusòria",
 					"entries": [
-						"The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
-						"The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intel·ligència (Investigation) check to discern that the hag is disguised."
+						"La bruja es cobreix a si mateixa i tot allò que porta o porta amb una il·lusió màgica que la fa semblar una altra criatura de la seva mida general i forma humanoide. La il·lusió acaba si la bruja fa una acció addicional per acabar-la o si mor.",
+						"Els canvis produïts per aquest efecte no aguanten la inspecció física. Per exemple, la bruja podria semblar que té la pell llisa, però algú que la toqués sentiria la seva carn aspra. En cas contrari, una criatura ha de fer una acció per inspeccionar visualment la il·lusió i superar una prova d'{@dc 20} Intel·ligència (Investigació) per discernir que la bruja està disfressada."
 					]
 				},
 				{
-					"name": "Invisible Passage",
+					"name": "Pas invisible",
 					"entries": [
-						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+						"La bruja torna màgicament {@condition invisible} fins que ataca o llança un encanteri, o fins que s'acaba la seva concentració (com si es concentrés en un encanteri). Tot i que {@condition invisible}, no deixa cap evidència física del seu pas, de manera que només es pot rastrejar per màgia. Qualsevol equip que porti o porti és {@condition invisible} amb ella."
 					]
 				}
 			],
@@ -1763,7 +1763,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"unarmored defense"
+						"defensa sense blindatge"
 					]
 				}
 			],
@@ -1792,17 +1792,17 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Unarmored Defense",
+					"name": "Defensa sense blindatge",
 					"entries": [
-						"While the monk is wearing no armor and wielding no shield, its AC includes its Saviesa modifier."
+						"Mentre el monjo no porta cap armadura i no porta cap escut, la seva CA inclou el seu modificador Saviesa."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The monk fa dos atacs."
+						"El monjo fa dos atacs."
 					]
 				},
 				{
@@ -1820,7 +1820,7 @@
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -1839,7 +1839,7 @@
 			]
 		},
 		{
-			"name": "Jade Tigress",
+			"name": "Tigressa de Jade",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "CM",
@@ -1859,7 +1859,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"unarmored defense"
+						"defensa sense blindatge"
 					]
 				}
 			],
@@ -1900,15 +1900,15 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Unarmored Defense",
+					"name": "Defensa sense blindatge",
 					"entries": [
-						"While Jade Tigress is wearing no armor and wielding no shield, her AC includes her Saviesa modifier."
+						"Mentre que la Tigressa de Jade no porta cap armadura i no porta cap escut, la seva CA inclou el seu modificador Saviesa."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Jade Tigress fa tres atacs."
 					]
@@ -1916,19 +1916,19 @@
 				{
 					"name": "Colpeig de Força",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}13 ({@damage 2d8 + 4}) de dany de força, and if the target is a creature, ha de salvar per Constitució amb {@dc 15} or be {@condition atordit} until the of Jade Tigress's next turn."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}13 ({@damage 2d8 + 4}) de dany de força, and if the target is a creature, ha de salvar per Constitució amb {@dc 15} or be {@condition atordit} fins the of Jade Tigress's torn següent."
 					]
 				},
 				{
-					"name": "Poisoned Dard",
+					"name": "Dard enverinat",
 					"entries": [
-						"{@atk rw} {@hit 5} a impactar, 20/60 peus d'abast, un objectiu. {@h}4 ({@damage 1d4 + 2}) de dany perforant mes 7 ({@damage 3d4}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 15} o gain 1 level of {@condition exhaust}."
+						"{@atk rw} {@hit 5} a impactar, 20/60 peus d'abast, un objectiu. {@h}4 ({@damage 1d4 + 2}) de dany perforant mes 7 ({@damage 3d4}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 15} o gain 1 nivell d'{@condition exhaust}."
 					]
 				},
 				{
 					"name": "Auto Curació (es Recarrega amb un Descans Llarg)",
 					"entries": [
-						"Jade Tigress regains {@dice 2d8 + 2} hit points, and all levels of {@condition exhaust} end on her."
+						"Jade Tigress recupera {@dice 2d8 + 2} punts de vida i tots els nivells d'{@condition exhaust} acaben amb ella."
 					]
 				}
 			],
@@ -1936,21 +1936,21 @@
 				{
 					"name": "Fugida Veloç",
 					"entries": [
-						"Jade Tigress takes the Disengage or Hide action."
+						"Jade Tigress fa l'acció Desenganxar o Amagar."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Deflect Missile",
+					"name": "Míssil de desviació",
 					"entries": [
-						"In response to being hit by a atac armat a distància, Jade Tigress deflects the missile. The damage she takes from the attack is reduced by {@dice 1d10 + 9}. If the damage is reduced to 0, Jade Tigress catches the missile if it's small enough to hold in one hand and Jade Tigress has a hand free."
+						"En resposta a ser colpejat per un atac armat a distància, Jade Tigress desvia el míssil. El dany que rep de l'atac es redueix en {@das 1d10 + 9}. Si el dany es redueix a 0, Jade Tigress agafa el míssil si és prou petit per agafar-lo amb una mà i Jade Tigress té la mà lliure."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -1966,7 +1966,7 @@
 				"THW"
 			],
 			"conditionInflict": [
-				"exhaust",
+				"escapament",
 				"atordit"
 			],
 			"hasFluff": true,
@@ -2023,7 +2023,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"K'Tulah is a 4th-level spellcaster. K'Tulah's habilitat de llançament de conjurs is Saviesa ({@dc 12} salvada de conjur, {@hit 4} a impactar amb atacs màgics). K'Tulah has the following conjurs de druida prepared:"
+						"K'Tulah és un lançador d'encanteris de 4t nivell. K'Tulah's habilitat de llançament de conjurs is Saviesa ({@dc 12} salvada de conjur, {@hit 4} a impactar amb atacs màgics). K'Tulah té preparats els següents conjurs de druida:"
 					],
 					"spells": {
 						"0": {
@@ -2050,14 +2050,14 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
 					"name": "Agilitat Felina",
 					"entries": [
-						"When K'Tulah moves on her turn in combat, she can double her speed fins el final del torn. Once she uses this ability, K'Tulah can't use it again until she moves 0 feet on one of her turns."
+						"Quan K'Tulah es mou al seu torn en combat, pot doblar les seves aletes de velocitat el final del torn. Un cop utilitza aquesta habilitat, K'Tulah no la pot tornar a utilitzar fins que no es mogui 0 peus en un dels seus torns."
 					]
 				}
 			],
@@ -2065,7 +2065,7 @@
 				{
 					"name": "Bastó",
 					"entries": [
-						"{@atk mw} {@hit 2} a impactar ({@hit 4} a impactar amb shillelagh), 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent, 4 ({@damage 1d8}) de dany contundent if wielded with two hands, o 6 ({@damage 1d8 + 2}) de dany contundent amb shillelagh."
+						"{@atk mw} {@hit 2} a impactar ({@hit 4} a impactar amb shillelagh), 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent, 4 ({@damage 1d8}) de dany contundent si es maneja amb dues mans, o 6 ({@damage 1d8 + 2}) de dany contundent amb shillelagh."
 					]
 				},
 				{
@@ -2103,7 +2103,7 @@
 			"source": "CM",
 			"page": 136,
 			"size": "S",
-			"type": "constructe",
+			"type": "construir",
 			"ac": [
 				{
 					"ac": 16,
@@ -2127,7 +2127,7 @@
 			"wis": 10,
 			"cha": 1,
 			"senses": [
-				"darkvision 60"
+				"visió fosca 60"
 			],
 			"passive": 10,
 			"immune": [
@@ -2137,7 +2137,7 @@
 			"conditionImmune": [
 				"encegat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
@@ -2156,15 +2156,15 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The kiddywidget fa dos atacs: one with its bite and one with its tail."
+						"El kiddywidget fa dos atacs: un amb la seva mossegada i un altre amb la seva cua."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d4 + 2}) de dany perforant. If the target is a creature, it is {@condition grappled} by the kiddywidget ({@dc 8} per escapar)."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d4 + 2}) de dany perforant. Si l'objectiu és una criatura, és {@condition grappled} pel kiddywidget ({@dc 8} per escapar)."
 					]
 				},
 				{
@@ -2179,7 +2179,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"L",
@@ -2195,11 +2195,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Lichen Lich",
+			"name": "Liquen Lich",
 			"source": "CM",
 			"page": 223,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"ac": [
 				{
 					"ac": 20,
@@ -2246,7 +2246,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat",
@@ -2255,14 +2255,14 @@
 			"idiomes": [
 				"Comú",
 				"Druídic",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "18",
 			"spellcasting": [
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The lich casts one of the following spells using Saviesa as the habilitat de llançament de conjurs (save {@dc 19}):"
+						"El lich llança un dels següents encanteris utilitzant Saviesa com a habilitat de llançament de conjurs (salva {@dc 19}):"
 					],
 					"will": [
 						"{@spell arts de druida}"
@@ -2284,39 +2284,39 @@
 							}
 						]
 					},
-					"ability": "wis",
-					"displayAs": "action"
+					"ability": "sabia",
+					"displayAs": "acció"
 				}
 			],
 			"trait": [
 				{
 					"name": "Resistència Llegendària (3/Dia)",
 					"entries": [
-						"Si the lich falla una salvació, pot escollir superar-la."
+						"Si el lich falla una salvació, pot escollir superar-la."
 					]
 				},
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"If it has a phylactery, a destroyed lich gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+						"Si té una filacteria, un lich destruït guanya un cos nou en {@dice 1d10} dies, recupera tots els seus punts de vida i torna a estar actiu. El nou cos apareix a 5 peus de la filacteria."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"The lich fa quatre atacs."
 					]
 				},
 				{
-					"name": "Poisonous Touch",
+					"name": "Tacte verinós",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, una criatura. {@h}17 ({@damage 5d6}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 19} o estar {@condition emmetzinat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 9} a impactar, 10 peus d'abast, una criatura. {@h}17 ({@damage 5d6}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 19} o estar {@condition emmetzinat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
-					"name": "Wither",
+					"name": "Marcir",
 					"entries": [
 						"{@atk rs} {@hit 9} a impactar, 60 peus d'abast, un objectiu. {@h}14 ({@damage 4d6}) de dany necròtic."
 					]
@@ -2324,32 +2324,32 @@
 				{
 					"name": "Tempesta de Foc (Conjur de Nivell 7; 1/Dia)",
 					"entries": [
-						"The lich fills up to ten 10-foot cubes with fire. Every cube must be within 150 feet of the lich and occupy a space the lich can see, and each cube must have at least one face adjacent to the face of another cube. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 19}. Qui falli rep 38 ({@damage 7d10}) de dany de foc; qui superi, en rep la meitat. El foc encèn tot objecte inflamable a l'àrea que ningú estigui portant o vestint. If the lich chooses, plant life in the area is unaffected by the spell."
+						"El lich omple amb foc fins a deu cubs de 10 peus. Cada cub ha d'estar a 150 peus del lich i ocupar un espai que el lich pugui veure, i cada cub ha de tenir almenys una cara adjacent a la cara d'un altre cub. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 19}. Qui falli rep 38 (@damage 7d10}) de dany de foc; qui superi, en rep la meitat. El foc encèn tot l'objecte inflamable a l'àrea que ningú porta o vestint. Si el lich tria, la vida vegetal de la zona no es veu afectada per l'encanteri."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Atacar",
 					"entries": [
-						"The lich makes an attack."
+						"El lich fa un atac."
 					]
 				},
 				{
-					"name": "Poison Prick (Cost 2 Actions)",
+					"name": "Poison Prick (cost 2 accions)",
 					"entries": [
-						"The lich targets one {@condition emmetzinat} creature it can see within 30 feet of it. The target ha de salvar per Constitució amb {@dc 19} or fall {@condition inconscient} until the {@condition emmetzinat} condition ends on it."
+						"El lich apunta a una criatura {@condition emmetzinat} que pot veure a 30 peus d'ella. L'objectiu ha de salvar per Constitució amb {@dc 19} o caure {@condition inconscient} fins que la condició {@condition emmetzinat} acabi sobre ell."
 					]
 				},
 				{
 					"name": "Sap Life (Costa 2 Accions)",
 					"entries": [
-						"The lich targets one creature it can see within 30 feet of it. The target ha de salvar per Constitució amb {@dc 19} or take 11 ({@damage 2d10}) de dany necròtic. The lich regains a number of hit points equal to the amount of damage that the creature takes."
+						"El lich apunta a una criatura que pot veure a 30 peus d'ella. The target ha de salvar per Constitució amb {@dc 19} or take 11 ({@damage 2d10}) de dany necròtic. El lich recupera un nombre de punts de vida igual a la quantitat de dany que rep la criatura."
 					]
 				}
 			],
 			"legendaryGroup": {
-				"name": "Lichen Lich",
+				"name": "Liquen Lich",
 				"source": "CM"
 			},
 			"hasToken": true,
@@ -2361,7 +2361,7 @@
 				"U"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -2386,11 +2386,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Lightning Gòlem",
+			"name": "Llamp Gòlem",
 			"source": "CM",
 			"page": 129,
 			"size": "M",
-			"type": "constructe",
+			"type": "construir",
 			"alineament": [
 				"N"
 			],
@@ -2429,7 +2429,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -2443,12 +2443,12 @@
 				{
 					"name": "Bersèrk",
 					"entries": [
-						"Quan el gòlem comenci el seu torn amb 40 punts de vida o menys, tira {@dice d6}. Si surt un 6 el gòlem es torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferentment més petit). Quan el gòlem sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de vida.",
+						"Quan el gòlem comenci el seu torn amb 40 punts de vida o menys, tira {@dice d6}. Si surt un 6 el gòlem és torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferent més petit). Quan el gòlem sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de vida.",
 						"Si el creador del gòlem hi és a 60 peus d'abast pot intentar calmar-lo com a acció. El gòlem l'ha de poder sentir. El creador farà una tirada de Carisma (Persuasión) amb {@dc 15}. Si supera, el bersèrk s'acaba pel gòlem. Si el gòlem torna a rebre mal estant a 40 punts de vida o menys, pot tornar a activar-se el bersèrk."
 					]
 				},
 				{
-					"name": "Forma Immutable",
+					"name": "Forma immutable",
 					"entries": [
 						"The gòlem és immune a tot conjur o efecte que vulgui alterar-li la forma."
 					]
@@ -2456,7 +2456,7 @@
 				{
 					"name": "Absorbir Electricitat",
 					"entries": [
-						"Quan the gòlem hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de vida."
+						"Quan el gòlem hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de vida."
 					]
 				},
 				{
@@ -2474,9 +2474,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The gòlem makes two slam attacks."
+						"El gòlem fa dos atacs de slam."
 					]
 				},
 				{
@@ -2489,7 +2489,7 @@
 			"hasToken": true,
 			"traitTags": [
 				"Absorbir Dany",
-				"Forma Immutable",
+				"Forma immutable",
 				"Resistència a la Màgia",
 				"Armament Màgic"
 			],
@@ -2497,7 +2497,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"CS"
@@ -2511,14 +2511,14 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Master Sage",
+			"name": "Mestre savi",
 			"source": "CM",
 			"page": 9,
 			"size": "M",
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"any race"
+					"qualsevol cursa"
 				]
 			},
 			"ac": [
@@ -2548,14 +2548,14 @@
 			},
 			"passive": 14,
 			"idiomes": [
-				"Common plus any five languages"
+				"Comú més cinc idiomes qualsevol"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The sage casts one of the following spells, using Intel·ligència as the habilitat de llançament de conjurs (save {@dc 14}, {@hit 6} a impactar amb atacs màgics):"
+						"El savi llança un dels encanteris següents, utilitzant Intel·ligència com a habilitat de llançament de conjurs (save {@dc 14}, {@hit 6} a impactar amb atacs màgics):"
 					],
 					"will": [
 						"{@spell llum}",
@@ -2601,28 +2601,28 @@
 						]
 					},
 					"ability": "int",
-					"displayAs": "action"
+					"displayAs": "acció"
 				}
 			],
 			"action": [
 				{
 					"name": "Braó Electritzant (Truc)",
 					"entries": [
-						"{@atk ms} {@hit 8} a impactar (with advantage if the target is wearing armor made of metal), 5 peus d'abast, una criatura. {@h}13 ({@damage 3d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
+						"{@atk ms} {@hit 8} a impactar (amb avantatge si l'objectiu porta una armadura de metall), 5 peus d'abast, una criatura. {@h}13 ({@damage 3d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
 				},
 				{
-					"name": "Fireball (Conjur de Nivell 3; 3/Dia)",
+					"name": "Bola de foc (Conjur de Nivell 3; 3/Dia)",
 					"entries": [
-						"The sage creates a fiery explosion centered on a point it can see within 150 feet of it. Tota criatura en una esfera de 20 peus de radi centrada en aquell punt ha de salvar per Destresa amb {@dc 14}. Qui falli rep 28 ({@damage 8d6}) de dany de foc; qui superi, en rep la meitat. The fire s'extén per les cantonades and ignites flammable objects in the area que ningú estigui portant o vestint."
+						"El savi crea una explosió de foc centrada en un punt que pot veure a 150 peus d'ell. Tota criatura en una esfera de 20 peus de radi centrada en aquell punt ha de salvar per Destresa amb {@dc 14}. Qui falli rep 28 (@damage 8d6}) de dany de foc; qui superi, en rep la meitat. El foc s'extén per les cantonades i encén objectes inflamables a la zona que ningú ha de portar o vestir."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Shield (Conjur de Nivell 1; 3/Dia)",
+					"name": "Escut (Conjur de Nivell 1; 3/Dia)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a missil màgic spell, it calls forth an invisible barrier of magical force that protects it. Fins a l'inici del seu següent torn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from missil màgic."
+						"Quan el savi és colpejat per un atac o l'objectiu d'un encanteri màgic de míssils, provoca una barrera invisible de força màgica que el protegeix. Fins a l'inici del seu següent trencat, el savi té una bonificació de +5 a la CA, inclòs contra l'atac desencadenant, i no rep cap dany del míssil màgic."
 					]
 				}
 			],
@@ -2648,7 +2648,7 @@
 			"source": "CM",
 			"page": 16,
 			"size": "L",
-			"type": "no-mort",
+			"type": "no mort",
 			"ac": [
 				10
 			],
@@ -2685,7 +2685,7 @@
 			},
 			"senses": [
 				"visió a cegues 60 peus",
-				"visió de foscor 120 peus; see also \"x-ray vision\" below"
+				"visió de foscor 120 peus; vegeu també \"visió de raigs X\" a continuació"
 			],
 			"passive": 26,
 			"resist": [
@@ -2701,7 +2701,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"pres",
 				"paralitzat",
@@ -2718,7 +2718,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Miirym casts one of the following spells, using Carisma as the habilitat de llançament de conjurs (save {@dc 21}) and sense que calguin components materials:"
+						"Miirym llança un dels encanteris següents, utilitzant Carisma com a habilitat de llançament de conjurs (save {@dc 21}) i sense que calguin materials components:"
 					],
 					"will": [
 						"{@spell llums dansaires}",
@@ -2733,30 +2733,30 @@
 						],
 						"1e": [
 							"{@spell dissipar el bé i el mal}",
-							"{@spell paret de força}"
+							"{@spell pare de força}"
 						]
 					},
-					"ability": "cha",
-					"displayAs": "action"
+					"ability": "xa",
+					"displayAs": "acció"
 				}
 			],
 			"trait": [
 				{
-					"name": "Bound to Candlekeep",
+					"name": "Lligat a Candlekeep",
 					"entries": [
-						"Miirym can't leave Candlekeep and is immune to any effect that would place her in a location outside it, including an extradimensional space. If she dies, Miirym regains her form and all her hit points after {@dice 1d10} days, reappearing in the location where she died or in the nearest unoccupied space."
+						"La Miirym no pot abandonar Candlekeep i és immune a qualsevol efecte que la col·loqui en un lloc fora d'ella, inclòs un espai extradimensional. Si mor, la Miirym recupera la seva forma i tots els seus punts de vida després de {@dice 1d10} dies, tornant a aparèixer al lloc on va morir o a l'espai desocupat més proper."
 					]
 				},
 				{
 					"name": "Regeneració",
 					"entries": [
-						"Miirym recupera 40 punts de toc a l'inici del seu torn. If Miirym takes damage from a arma màgica or a spell, this trait doesn't function at the start of Miirym's next turn. Miirym dies only if she starts her turn with 0 hit points and doesn't regenerate."
+						"Miirym recupera 40 punts de toc a l'inici del seu torn. Si Miirym rep dany d'una arma màgica o d'un encanteri, aquest tret no funciona al començament del següent torn de Miirym. La Miirym només mor si comença el seu torn amb 0 punts de vida i no es regenera."
 					]
 				},
 				{
 					"name": "Moviment Incorpori",
 					"entries": [
-						"Miirym pot moure's a través d'altres criatures i objectes com si fossin terreny difícil. She takes 5 ({@damage 1d10}) de dany de força if she ends her turn inside an object."
+						"Miirym pot moure's a través d'altres criatures i objectes com si fossin terreny difícil. Pren 5 ({@damage 1d10}) de dany de força si acaba el seu torn dins d'un objecte."
 					]
 				},
 				{
@@ -2766,9 +2766,9 @@
 					]
 				},
 				{
-					"name": "X-Ray Vision",
+					"name": "Visió de raigs X",
 					"entries": [
-						"Miirym can see through solid matter out to a range of 60 feet. To her, opaque creatures, objects, and obstacles within that distance appear transparent and don't prevent light from passing through them. This vision can penetrate 5 feet of stone, 3 inches of common metal, and fins a 10 peus of wood or dirt. Thicker substances block this vision, as does una fulla fina de plom."
+						"Miirym pot veure a través de la matèria sòlida fins a una distància de 60 peus. Per a ella, les criatures, els objectes i els obstacles opacs a aquesta distància semblen transparents i no impedeixen que la llum els passi. Aquesta visió pot penetrar 5 peus de pedra, 3 polzades de metall comú i aletes per 10 peus de fusta o brutícia. Les substàncies més espesses bloquegen aquesta visió, com ho fa una fulla fina de plom."
 					]
 				}
 			],
@@ -2780,33 +2780,33 @@
 					]
 				},
 				{
-					"name": "Breath Weapon {@recharge 5}",
+					"name": "Arma de respiració {@recharge 5}",
 					"entries": [
-						"Miirym uses one of the following breath weapons:"
+						"Miirym utilitza una de les següents armes de respiració:"
 					]
 				},
 				{
 					"name": "Alè Gèlid",
 					"entries": [
-						"Miirym exhales an icy blast en un con de 90 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 21}. Qui falli rep 67 ({@damage 15d8}) de dany de fred; qui superi, en rep la meitat."
+						"Miirym exhales an icy blast en un amb de 90 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 21}. Qui falli rep 67 (@damage 15d8}) de dany de fred; qui superi, en rep la meitat."
 					]
 				},
 				{
-					"name": "Necrotic Breath",
+					"name": "Respiració necròtica",
 					"entries": [
-						"Miirym exhala un bolt of necrotic energy en una línia de 120 peus de llarg i 10 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 21}. Qui falli rep 82 ({@damage 15d10}) de dany necròtic; qui superi, en rep la meitat."
+						"Miirym exhala un bolt of necrotic energy en una línia de 120 peus de llarg i 10 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 21}. Qui falli rep 82 (@damage 15d10}) de dany necròtic; qui superi, en rep la meitat."
 					]
 				},
 				{
-					"name": "Paralyzing Breath",
+					"name": "Respiració paralitzant",
 					"entries": [
-						"Miirym exhales paralyzing gas en un con de 90 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 21} or be {@condition paralitzat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"Miirym exhales paralyzing gas en un amb de 90 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 21} or be {@condition paralitzat} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Tota criatura que Miirym's designi que hi estigui a 120 peus d'abast i en coneguin la presència ha de salvar per Saviesa amb {@dc 21} o estar {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Miirym's Presència Aterradora durant les properes 24 hores."
+						"Tota criatura que Miirym's designi que hi trobarà a 120 peus d'abast i en coneguin la presència ha de salvar per Saviesa amb {@dc 21} o estar {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to Miirym's Presència Aterradora durant les properes 24 hores."
 					]
 				}
 			],
@@ -2814,13 +2814,13 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"Miirym makes a bite attack."
+						"Miirym fa un atac de mossegada."
 					]
 				},
 				{
 					"name": "Teleportar (Costa 2 Accions)",
 					"entries": [
-						"Miirym magically teleports fins a 120 peus to an unoccupied space she can see."
+						"La Miirym teletransporta màgicament les aletes d'un 120 peus a un espai desocupat que pot veure."
 					]
 				}
 			],
@@ -2858,7 +2858,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Mimic Chair",
+			"name": "Cadira Mimic",
 			"source": "CM",
 			"page": 22,
 			"size": "M",
@@ -2910,25 +2910,25 @@
 				{
 					"name": "Canviaformes",
 					"entries": [
-						"The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Tot equipament que duu o vesteix no es transforma. Retorna a la seva forma veritable si mor."
+						"El mímic pot utilitzar la seva acció per transformar-se en un objecte o tornar a la seva veritable forma amorfa. Les seves estadístiques són les mateixes en cada forma. Tot equipament que duu o vesteix no es transforma. Retorna a la seva forma veritable si mor."
 					]
 				},
 				{
-					"name": "Adhesive (Només en forma d'objecte)",
+					"name": "Adhesive (Nomes en forma d'objecte)",
 					"entries": [
-						"The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it ({@dc 10} per escapar). Ability checks made to escape this grapple have disadvantage."
+						"El mímic s'adhereix a tot allò que el toca. Una criatura enorme o més petita adherida a la imitació també és {@condition grappled} per ella ({@dc 10} per escapar). Les proves d'habilitat fetes per escapar d'aquesta lluita tenen un desavantatge."
 					]
 				},
 				{
 					"name": "Falsa Aparença (Només en forma d'objecte)",
 					"entries": [
-						"Quan the mimic es manté immòbil, és indistingible d'un object ordinary."
+						"Quan el mimic es manté immòbil, és indistingible d'un objecte ordinari."
 					]
 				},
 				{
 					"name": "Grappler",
 					"entries": [
-						"The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+						"L'imitador té avantatge a les tires d'atac contra qualsevol criatura {@condition grappled} per ella."
 					]
 				}
 			],
@@ -2936,7 +2936,7 @@
 				{
 					"name": "Pseudòpode",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany contundent. If the mimic is in object form, the target is subjected to its Adhesive trait."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany contundent. Si el mímic està en forma d'objecte, l'objectiu està sotmès al seu tret adhesiu."
 					]
 				},
 				{
@@ -3015,20 +3015,20 @@
 			"passive": 17,
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"atordit"
 			],
 			"idiomes": [
 				"Comú",
 				"Èlfic",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "16",
 			"spellcasting": [
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Nintra casts one of the following spells, using Carisma as the habilitat de llançament de conjurs (save {@dc 20}) and sense que calguin components materials:"
+						"Nintra llança un dels encanteris següents, utilitzant Carisma com a capacitat de llançament de conjurs (save {@dc 20}) i sense que calguin materials components:"
 					],
 					"daily": {
 						"3e": [
@@ -3037,8 +3037,8 @@
 							"{@spell imatge mirall}"
 						]
 					},
-					"ability": "cha",
-					"displayAs": "action"
+					"ability": "xa",
+					"displayAs": "acció"
 				}
 			],
 			"trait": [
@@ -3051,7 +3051,7 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Nintra fa dos atacs."
 					]
@@ -3063,35 +3063,35 @@
 					]
 				},
 				{
-					"name": "Shard of Shadow",
+					"name": "Fragment de l'ombra",
 					"entries": [
-						"{@atk rs} {@hit 12} a impactar, 120 peus d'abast, un objectiu. {@h}10 ({@damage 1d6 + 7}) de dany necròtic, and if the target is a creature, ha de salvar per Constitució amb {@dc 20} or be {@condition emmetzinat} fins el final del seu proper torn."
+						"{@atk rs} {@hit 12} a impactar, 120 peus d'abast, un objectiu. {@h}10 ({@damage 1d6 + 7}) de dany necròtic, and if the target is a creature, ha de salvar per Constitució amb {@dc 20} or be {@condition emmetzinat} fins el final del seu proper esquinçat."
 					]
 				},
 				{
-					"name": "Storm of Shattered Glass {@recharge}",
+					"name": "Tempesta de vidre trencat {@recharge}",
 					"entries": [
-						"Nintra targets a point she can see within 60 feet of her and creates a 20-foot-radius sphere of swirling glass shards centered on that point. Each creature in the sphere ha de salvar per Destresa amb {@dc 20}, taking 28 ({@damage 8d6}) de dany tallant si falla; si supera, en rep la meitat. If Nintra is in the sphere, the shards deal no damage to her."
+						"Nintra apunta a un punt que pot veure a 60 peus d'ella i crea una esfera de 20 peus de radi de fragments de vidre remolins centrades en aquest punt. Cada criatura de la sfera ha de salvar per Destresa amb {@dc 20}, prenent 28 ({@damage 8d6}) de dany tallant si falla; si supera, en rep la meitat. Si Nintra està a l'esfera, els fragments no li fan mal."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Atacar",
 					"entries": [
-						"Nintra makes one attack."
+						"Nintra fa un atac."
 					]
 				},
 				{
 					"name": "Pas de Fata",
 					"entries": [
-						"Nintra teleports to an unoccupied space she can see within 30 feet of her."
+						"Nintra es teletransporta a un espai desocupat que pot veure a 30 peus d'ella."
 					]
 				},
 				{
 					"name": "Shadow Strikes (Costa 2 Accions)",
 					"entries": [
-						"Provided she is in bright or dim light, Nintra causes her shadow to attack a creature within 10 feet of her. Her shadow fa dos atacs d'Urpa. each attack identical to Nintra's claw attack except that it deals psychic damage instead of piercing damage."
+						"Sempre que tingui una llum intensa o tènue, Nintra fa que la seva ombra atac una criatura a 10 peus d'ella. Her shadow fa dos atacs d'Urpa. cada atac és idèntic a l'atac de les urpes de Nintra, excepte que fa dany psíquic en lloc de dany perforant."
 					]
 				}
 			],
@@ -3107,7 +3107,7 @@
 				"U"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -3130,11 +3130,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Parasite-infested Behir",
+			"name": "Behir infestat de paràsits",
 			"source": "CM",
 			"page": 220,
 			"size": "H",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"N",
 				"E"
@@ -3178,9 +3178,9 @@
 			"cr": "11",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The behir fa dos atacs: one with its bite and one to constrict."
+						"El behir fa dos atacs: un amb la seva mossegada i un altre per contraure."
 					]
 				},
 				{
@@ -3192,21 +3192,21 @@
 				{
 					"name": "Constrènyer",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) de dany contundent mes 17 ({@damage 2d10 + 6}) de dany tallant. L'objectiu està {@condition grappled} ({@dc 16} per escapar) if the behir isn't already constricting a creature, and the target is {@condition restrained} mentre duri aquesta presa."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) de dany contundent mes 17 ({@damage 2d10 + 6}) de dany tallant. L'objectiu està {@condition grappled} ({@dc 16} per escapar) si el behir encara no està restringint una criatura, i l'objectiu és {@condition restrained} mentre duri aquesta presa."
 					]
 				},
 				{
 					"name": "Alè de Llamp {@recharge 5}",
 					"entries": [
-						"The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 16}. Qui falli rep 66 ({@damage 12d10}) de dany elèctric; qui superi, en rep la meitat."
+						"El behir exhala una línia de llamps de 20 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 16}. Qui falli rep 66 (@damage 12d10}) de dany elèctric; qui superi, en rep la meitat."
 					]
 				},
 				{
 					"name": "Empassar",
 					"entries": [
-						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) de dany d'àcid at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
-						"Any creature swallowed by a parasite-infested behir ha de salvar per Constitució amb {@dc 19} at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 ({@damage 8d8}) de dany necròtic si falla; si supera, en rep la meitat. This damage is in addition to the damage caused by the behir's digestive acids.",
-						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir ha de salvar per Constitució amb {@dc 14} at the end of that turn or regurgitate the creature, which falls {@condition enderrocat} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition enderrocat}."
+						"El behir fa un atac d'una mossegada contra un objectiu mitjà o més petit que està lluitant. Si l'atac colpeja, també s'empassa l'objectiu i s'acaba la presa. Mentre s'empassa, l'objectiu és {@condition encegat} i {@condition restrained}, té una cobertura total contra atacs i altres efectes fora del behir, i necessita 21 ({@damage 6d6}) de dany d'àcid al començament de cada un dels torns del behir. Un behir només pot empassar una criatura alhora.",
+						"Qualsevol criatura que s'empassa per un behir infestat de paràsits ha de salvar per Constitució amb {@dc 19} al començament de cadascun dels torns de behir o se'l delecta per paràsits de sang, prenent 36 ({@damage 8d8}) de dany necròtic si falla; si supera, en rep la meitat. Aquest dany s'afegeix al dany causat pels àcids digestius del behir.",
+						"Si el behir rep 30 danys o més en un sol torn de la criatura empasada, el behir ha de salvar per Constitució amb {@dc 14} al final d'aquest torn o regurgita la criatura, que cau {@condition enderrocat} en un espai a 10 peus del behir. Si el behir mor, una criatura empasada ja no està {@condition restringida} i pot escapar del cadàver fent servir 15 peus de moviment, sortint de {@condition enderrocat}."
 					]
 				}
 			],
@@ -3214,7 +3214,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Empassar"
 			],
 			"languageTags": [
@@ -3240,7 +3240,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Ram Sugar",
+			"name": "Sucre de Ram",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "CM",
@@ -3295,7 +3295,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Ram Sugar és llançador/a de conjurs de nivell 4. La seva habilitat de llançament de conjurs és Saviesa (CD per salvar conjur {@dc 11}, {@hit 3} a impactar amb atacs màgics). Ram Sugar has the following cleric spells prepared:"
+						"Ram Sugar és llançador/a de conjurs de nivell 4. La seva habilitat de llançament de conjurs és Saviesa (CD per salvar conjur {@dc 11}, {@hit 3} a impactar amb atacs màgics). Ram Sugar té preparats els següents encanteris de clergues:"
 					],
 					"spells": {
 						"0": {
@@ -3308,7 +3308,7 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
+								"{@ordre ortogràfica}",
 								"{@spell infligir ferides}",
 								"{@spell escut de fe}"
 							]
@@ -3321,12 +3321,12 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
-					"name": "Dark Devotion",
+					"name": "Devoció fosca",
 					"entries": [
 						"Ram Sugar té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
@@ -3334,7 +3334,7 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Ram Sugar fa dos atacs cos a cos."
 					]
@@ -3348,13 +3348,13 @@
 				{
 					"name": "Breath Weapon (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Ram Sugar exhales fire in a 30-foot-long line that is 5 feet wide. Any creature in the line ha de salvar per Destresa amb {@dc 11}. Qui falli rep 7 ({@damage 2d6}) de dany de foc; qui superi, en rep la meitat."
+						"Ram Sugar exhala foc en una línia de 30 peus de llarg i 5 peus d'ample. Qualsevol criatura de la línia ha de salvar per Destresa amb {@dc 11}. Qui falli rep 7 (@damage 2d6}) de dany de foc; qui superi, en rep la meitat."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -3379,14 +3379,14 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Sage",
+			"name": "Sàlvia",
 			"source": "CM",
 			"page": 9,
 			"size": "M",
 			"type": {
 				"type": "humanoide",
 				"tags": [
-					"any race"
+					"qualsevol cursa"
 				]
 			},
 			"ac": [
@@ -3416,14 +3416,14 @@
 			},
 			"passive": 12,
 			"idiomes": [
-				"Common plus any four languages"
+				"Comú més quatre idiomes qualsevol"
 			],
 			"cr": "1/2",
 			"spellcasting": [
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The sage casts one of the following spells, using Intel·ligència as the habilitat de llançament de conjurs (save {@dc 14}, {@hit 6} a impactar amb atacs màgics):"
+						"El savi llança un dels encanteris següents, utilitzant Intel·ligència com a habilitat de llançament de conjurs (save {@dc 14}, {@hit 6} a impactar amb atacs màgics):"
 					],
 					"will": [
 						"{@spell llum}",
@@ -3455,22 +3455,22 @@
 						]
 					},
 					"ability": "int",
-					"displayAs": "action"
+					"displayAs": "acció"
 				}
 			],
 			"action": [
 				{
 					"name": "Braó Electritzant (Truc)",
 					"entries": [
-						"{@atk ms} {@hit 6} a impactar (with advantage if the target is wearing armor made of metal), 5 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
+						"{@atk ms} {@hit 6} a impactar (amb avantatge si l'objectiu porta una armadura de metall), 5 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany elèctric, and the target can't take reactions fins a l'inici del seu següent torn."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Shield (Conjur de Nivell 1; 3/Dia)",
+					"name": "Escut (Conjur de Nivell 1; 3/Dia)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a missil màgic spell, it calls forth an {@condition invisible} barrier of magical force that protects it. Fins a l'inici del seu següent torn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from missil màgic."
+						"Quan el savi és colpejat per un atac o l'objectiu d'un encanteri màgic de míssils, provoca una barrera {@condition invisible} de força màgica que el protegeix. Fins a l'inici del seu següent trencat, el savi té una bonificació de +5 a la CA, inclòs contra l'atac desencadenant, i no rep cap dany del míssil màgic."
 					]
 				}
 			],
@@ -3486,11 +3486,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sapphire Sentinel",
+			"name": "Sentinel de safir",
 			"source": "CM",
 			"page": 201,
 			"size": "L",
-			"type": "constructe",
+			"type": "construir",
 			"alineament": [
 				"U"
 			],
@@ -3534,19 +3534,19 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Common però no pot parlar"
+				"entén Comú però no pot parlar"
 			],
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Forma Immutable",
+					"name": "Forma immutable",
 					"entries": [
 						"The gòlem és immune a tot conjur o efecte que vulgui alterar-li la forma."
 					]
@@ -3566,9 +3566,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The gòlem makes two slam attacks."
+						"El gòlem fa dos atacs de slam."
 					]
 				},
 				{
@@ -3578,21 +3578,21 @@
 					]
 				},
 				{
-					"name": "Slow {@recharge 5}",
+					"name": "{@recharge 5} lenta",
 					"entries": [
-						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the target can take either an action or a bonus action on its turn, not both. These effects last durant 1 minut. A target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success."
+						"El gòlem apunta a una o més criatures que pot veure a 10 peus d'ell. Cada objectiu ha de salvar per Saviesa amb {@dc 17} contra aquesta màgia. Si falla, un objectiu no pot utilitzar reaccions, la seva velocitat es redueix a la meitat i no pot fer més d'un atac al seu torn. A més, l'objectiu pot fer una acció o una acció bonus al seu torn, no totes dues. Aquests efectes duren durant 1 minut. Un objectiu pot repetir el llançament de salvació al final de cada tornat, acabant amb l'efecte sobre si mateix en un èxit."
 					]
 				},
 				{
-					"name": "Sapphire",
+					"name": "Safir",
 					"entries": [
-						"The sapphire té 3 càrregues. Com a acció, the gòlem can expend 1 charge to cast dissipar màgia (com a conjur de nivell 9) from the sapphire using Constitució as its habilitat de llançament de conjurs. The sapphire ceases to glow if all its charges are expended, but recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba and glows again once it has 1 or more charges."
+						"El safir té 3 càrregues. Com a acció, el gòlem pot gastar 1 càrrega per llançar dissipar màgia (com a conjur de nivell 9) del safir usant Constitució com a habilitat de llançament de conjurs. El safir deixa de brillar si s'esgoten totes les seves càrregues, però recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba i torna a brillar quan té 1 o més càrregues."
 					]
 				}
 			],
 			"hasToken": true,
 			"traitTags": [
-				"Forma Immutable",
+				"Forma immutable",
 				"Resistència a la Màgia",
 				"Armament Màgic"
 			],
@@ -3600,7 +3600,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -3622,7 +3622,7 @@
 			"source": "CM",
 			"page": 69,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"ac": [
 				13
 			],
@@ -3672,7 +3672,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"pres",
 				"paralitzat",
@@ -3682,14 +3682,14 @@
 				"retingut"
 			],
 			"idiomes": [
-				"telepatía 60 peus"
+				"telepatia 60 peus"
 			],
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Crushing End",
+					"name": "Final triturador",
 					"entries": [
-						"If damage reduces Shemshime to 0 hit points, Shemshime instead drops to 1 hit point unless the damage is the result of Shemshime being crushed by an object weighing at least 1,000 pounds."
+						"Si el dany redueix Shemshime a 0 punts de vida, Shemshime baixa a 1 punt de vida tret que el dany sigui el resultat de l'aixafament de Shemshime per un objecte que pesi almenys 1.000 lliures."
 					]
 				},
 				{
@@ -3701,21 +3701,21 @@
 			],
 			"action": [
 				{
-					"name": "Maddening Touch",
+					"name": "Tacte enfatidor",
 					"entries": [
 						"{@atk ms} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}17 ({@damage 4d6 + 3}) de dany psíquic."
 					]
 				},
 				{
-					"name": "Whispers of Violence",
+					"name": "Xiuxiueigs de violència",
 					"entries": [
-						"Shemshime chooses up to two creatures it can see within 60 feet of it. Each target ha de salvar per Saviesa amb {@dc 13}, or that target takes 7 ({@damage 1d8 + 3}) de dany psíquic and must use its reaction to make a atac armat cos a cos against one creature it can abast (Shemshime's choice) that Shemshime can see."
+						"Shemshime tria fins a dues criatures que pot veure a 60 peus d'ell. Cada objectiu ha de salvar per Saviesa amb {@dc 13}, o aquest objectiu pren 7 ({@damage 1d8 + 3}) de dany psíquic i ha d'utilitzar la seva reacció per fer un atac armat perquè contra una criatura pugui abastar. (Elecció de Shemshime) que Shemshime pot veure."
 					]
 				},
 				{
-					"name": "Howling Babble {@recharge}",
+					"name": "Babble udolant {@recharge}",
 					"entries": [
-						"Shemshime targets one creature it can see within 30 feet of it. La criatura ha de salvar per Saviesa amb {@dc 13}. Si falla, rep 21 ({@damage 4d8 + 3}) de dany psíquic i està {@condition atordit} fins el final del seu proper torn. Si supera en rep la meitat i no està {@condition atordit}."
+						"Shemshime apunta a una criatura que pot veure a 30 peus d'ella. La criatura ha de salvar per Saviesa amb {@dc 13}. Si falla, rep 21 ({@damage 4d8 + 3}) de dany psíquic i està {@condition atordit} fins el final del seu proper torn. Si supera en rep la meitat i no està {@condition atordit}."
 					]
 				}
 			],
@@ -3740,7 +3740,7 @@
 			"source": "CM",
 			"page": 136,
 			"size": "M",
-			"type": "constructe",
+			"type": "construir",
 			"ac": [
 				{
 					"ac": 18,
@@ -3774,7 +3774,7 @@
 			"conditionImmune": [
 				"encegat",
 				"eixordat",
-				"exhaust",
+				"escapament",
 				"paralitzat",
 				"petrificat",
 				"emmetzinat"
@@ -3793,21 +3793,21 @@
 				{
 					"name": "Naturalesa Inusual",
 					"entries": [
-						"The skitterwidget no necessita aire, menjar, beure, ni dormir."
+						"El skitterwidget no necessita aire, menjar, beure, ni dormir."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The skitterwidget fa dos atacs: one with its bite and one with its tail."
+						"El skitterwidget fa dos atacs: un amb la seva mossegada i un altre amb la seva cua."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant. If the target is a creature, it is {@condition grappled} by the skitterwidget ({@dc 13} per escapar)."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant. Si l'objectiu és una criatura, és {@condition grappled} pel skitterwidget ({@dc 13} per escapar)."
 					]
 				},
 				{
@@ -3819,9 +3819,9 @@
 			],
 			"reaction": [
 				{
-					"name": "Good Parent",
+					"name": "Bon Pare",
 					"entries": [
-						"The skitterwidget imposes disadvantage on one attack roll made against a kiddywidget it can see within 5 feet of it."
+						"El skitterwidget imposa un desavantatge a una tirada d'atac feta contra un kiddywidget que pot veure a 5 peus d'ell."
 					]
 				}
 			],
@@ -3833,7 +3833,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"L",
@@ -3850,7 +3850,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Steel Crane",
+			"name": "Grua d'acer",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "CM",
@@ -3870,7 +3870,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"unarmored defense"
+						"defensa sense blindatge"
 					]
 				}
 			],
@@ -3908,15 +3908,15 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Unarmored Defense",
+					"name": "Defensa sense blindatge",
 					"entries": [
-						"While Steel Crane is wearing no armor and wielding no shield, his AC includes his Saviesa modifier."
+						"Mentre que Steel Crane no porta cap armadura i no porta cap escut, la seva CA inclou el seu modificador Saviesa."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Steel Crane fa tres atacs."
 					]
@@ -3924,39 +3924,39 @@
 				{
 					"name": "Colpeig de Força",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d8 + 4}) de dany de força, and if the target is a creature, ha de salvar per Constitució amb {@dc 15} or be {@condition atordit} until the start of Steel Crane's next turn."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d8 + 4}) de dany de força, and if the target is a creature, ha de salvar per Constitució amb {@dc 15} o be {@condition atordit} fins a l'inici de Steel El proper torn de Crane."
 					]
 				},
 				{
-					"name": "Whip",
+					"name": "Fut",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}6 ({@damage 1d4 + 4}) de dany tallant or, if the target is a creature, Steel Crane can grapple the target instead ({@dc 15} per escapar). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature {@condition grappled} by the whip (no requereix acció)."
+						"{@atk mw} {@hit 7} a impactar, 10 peus d'abast, un objectiu. {@h}6 ({@damage 1d4 + 4}) de dany tallant o, si l'objectiu és una criatura, Steel Crane pot agafar l'objectiu ({@dc 15} per escapar). Steel Crane no pot fer atacs amb el fuet mentre l'utilitza per agafar una criatura. En qualsevol moment al seu torn, pot alliberar una criatura {@condition grappled} amb el fuet (no requereix acció)."
 					]
 				},
 				{
 					"name": "Auto Curació (es Recarrega amb un Descans Llarg)",
 					"entries": [
-						"Steel Crane regains {@dice 2d8 + 4} hit points, and all levels of {@condition exhaust} end on him."
+						"Steel Crane recupera {@dices 2d8 + 4} punts de vida i tots els nivells d'{@condition exhaust} acaben amb ell."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Deflect Missile",
+					"name": "Míssil de desviació",
 					"entries": [
-						"In response to being hit by a atac armat a distància, Steel Crane deflects the missile. The damage he takes from the attack is reduced by {@dice 1d10 + 10}. If the damage is reduced to 0, Steel Crane catches the missile if it's small enough to hold in one hand and Steel Crane has a hand free."
+						"En resposta a ser colpejat per un atac armat a distància, Steel Crane desvia el míssil. El dany que rep de l'atac es redueix en {@das 1d10 + 10}. Si el dany es redueix a 0, Steel Crane atrapa el míssil si és prou petit per subjectar-lo amb una mà i Steel Crane té la mà lliure."
 					]
 				},
 				{
-					"name": "Slow Descent (3/Dia)",
+					"name": "Descens lent (3/dia)",
 					"entries": [
-						"When Steel Crane falls, he can slow his descent, taking no damage from the fall."
+						"Quan Steel Crane cau, pot frenar el seu descens, sense patir cap dany per la caiguda."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -3976,16 +3976,16 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Storm Giant Skeleton",
+			"name": "Esquelet gegant de la tempesta",
 			"source": "CM",
 			"page": 208,
 			"size": "H",
-			"type": "no-mort",
+			"type": "no mort",
 			"ac": [
 				{
 					"ac": 13,
 					"from": [
-						"armor scraps"
+						"restes d'armadura"
 					]
 				}
 			],
@@ -4025,15 +4025,15 @@
 				"contundent"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			],
 			"cr": "16",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The giant fa dos atacs with its greatsword or hurls two rocks."
+						"El gegant fa dos atacs amb la seva gran espasa o llança dues roques."
 					]
 				},
 				{
@@ -4043,7 +4043,7 @@
 					]
 				},
 				{
-					"name": "Rock",
+					"name": "Roca",
 					"entries": [
 						"{@atk rw} {@hit 14} a impactar, abast 60/240 ft., un objectiu. {@h}35 ({@damage 4d12 + 9}) de dany contundent."
 					]
@@ -4051,7 +4051,7 @@
 				{
 					"name": "Llança de Llamp {@recharge 5}",
 					"entries": [
-						"The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point ha de salvar per Destresa amb {@dc 15}. Qui falli rep 54 ({@damage 12d8}) de dany elèctric; qui superi, en rep la meitat."
+						"El gegant llança un llamp màgic en un punt que pot veure a 500 peus d'ell. Cada criatura a 10 peus d'aquest punt ha de salvar per Destresa amb {@dc 15}. Qui falli rep 54 (@damage 12d8}) de dany elèctric; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -4060,7 +4060,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"B",
@@ -4076,12 +4076,12 @@
 			]
 		},
 		{
-			"name": "Swarm of Animated Books",
+			"name": "Eixam de llibres animats",
 			"source": "CM",
 			"page": 19,
 			"size": "M",
 			"type": {
-				"type": "constructe",
+				"type": "construir",
 				"swarmSize": "T"
 			},
 			"ac": [
@@ -4111,7 +4111,7 @@
 			"wis": 10,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 60 peus (sense visió més enllà)"
+				"visió a cegues 60 peus (sens visió més enllà)"
 			],
 			"passive": 10,
 			"immune": [
@@ -4123,7 +4123,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"pres",
 				"paralitzat",
@@ -4136,23 +4136,23 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "False Objects",
+					"name": "Objectes falsos",
 					"entries": [
-						"If the swarm is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the swarm move or act, that creature must succeed on a {@dc 15} Saviesa (Percepció) check to discern that the swarm is animate."
+						"Si l'eixam està immòbil a l'inici del combat, té avantatge en la seva tirada d'iniciativa. A més, si una criatura no ha observat que l'eixam es mou o actua, aquesta criatura ha de superar una prova de {@dc 15} Saviesa (Percepció) per discernir que l'eixam està animat."
 					]
 				},
 				{
-					"name": "Swarm",
+					"name": "eixam",
 					"entries": [
-						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a 1-foot-tall, 8-inch-wide, 2-inch-thick object. The swarm can't regain hit points or gain punts de vida temporals."
+						"L'eixam pot ocupar l'espai d'una altra criatura i viceversa, i l'eixam pot moure's per qualsevol obertura prou gran per a un objecte d'1 peu d'alçada, 8 polzades d'ample i 2 polzades de gruix. L'eixam no pot recuperar punts de vida ni guanyar punts de vida temporals."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Book Club",
+					"name": "Club de lectura",
 					"entries": [
-						"{@atk mw} {@hit 3} a impactar, 0 peus d'abast, un objectiu in the swarm's space. {@h}6 ({@damage 2d4 + 1}) de dany contundent, o 3 ({@damage 1d4 + 1}) de dany contundent if the swarm has half its hit points or fewer."
+						"{@atk mw} {@hit 3} a impactar, 0 peus d'abast, un objectiu in the swarm's space. {@h}6 ({@damage 2d4 + 1}) de dany contundent, o 3 ({@damage 1d4 + 1}) de dany contundent si l'eixam té la meitat dels seus punts de vida o menys."
 					]
 				}
 			],
@@ -4175,7 +4175,7 @@
 			"source": "CM",
 			"page": 182,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"L",
 				"E"
@@ -4233,13 +4233,13 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
 			],
 			"idiomes": [
-				"The languages it knew in life"
+				"Els idiomes que va conèixer a la vida"
 			],
 			"cr": "16",
 			"spellcasting": [
@@ -4258,7 +4258,7 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell command}",
+								"{@ordre ortogràfica}",
 								"{@spell sageta guia}",
 								"{@spell escut de fe}"
 							]
@@ -4299,7 +4299,7 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
@@ -4312,59 +4312,59 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"While her heart remains in Alessia's body, Valin re-forms inside her sarcophagus, regaining all her hit points and becoming active again."
+						"Mentre el seu cor roman al cos de l'Alessia, la Valin es torna a formar dins del seu sarcòfag, recuperant tots els seus punts de vida i tornant a ser activa."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Valin can use her Dreadful Glare and makes one attack with her rotting fist."
+						"La Valin pot fer servir el seu enlluernador terrible i fa un atac amb el seu puny podrit."
 					]
 				},
 				{
-					"name": "Rotting Fist",
+					"name": "Puny podrit",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. If the target is a creature, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to dust. The curse lasts until removed by the anul·lar maledicció spell or other magic."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 16} o ser maleït amb la putrefacció de la mòmia. L'objectiu maleït no pot recuperar punts de vida, i els seus punts de vida màxims disminueixen en 10 ({@dice 3d6}) per cada 24 hores que passen. Si la maledicció redueix els punts de vida màxims de l'objectiu a 0, l'objectiu mor i el seu cos es converteix en pols. La maledicció dura fins que l'elimina l'encanteri anul·lar maledicció o una altra màgia."
 					]
 				},
 				{
-					"name": "Dreadful Glare",
+					"name": "Enlluernament terrible",
 					"entries": [
-						"Valin targets one creature she can see within 60 feet of her. If the target can see Valin, ha de salvar per Saviesa amb {@dc 16} against this magic or become {@condition acovardit} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralitzat} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and senyors de les mòmies durant les properes 24 hores."
+						"Valin apunta a una criatura que pot veure a 60 peus d'ella. Si l'objectiu pot veure en Valin, ha de salvar per Saviesa amb {@dc 16} contra aquesta màgia o es converteix en {@condition acovardit} fins al final del següent torn de Valin. Si l'objectiu falla la tirada de salvació per 5 o més, també és {@condition paralitzat} durant la mateixa durada. Un objectiu que aconsegueix la tirada de salvació és immune a l'enlluernament terrible de totes les mòmies i els senyors de les mòmies durant les 24 hores pròpies."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Atacar",
 					"entries": [
-						"Valin makes one attack with her rotting fist or uses her Dreadful Glare."
+						"Valin fa un atac amb el seu puny podrit o fa servir el seu enlluernador terrible."
 					]
 				},
 				{
-					"name": "Blinding Dust",
+					"name": "Pols cegador",
 					"entries": [
-						"Blinding dust and sand swirls magically around Valin. Each creature within 5 feet of Valin ha de salvar per Constitució amb {@dc 16} or be {@condition encegat} until the end of her next turn."
+						"La pols i la sorra encegadores s'arrosseguen màgicament al voltant de Valin. Cada criatura a 5 peus de Valin ha de salvar per Constitució amb {@dc 16} o ser {@condition encegat} fins al final del seu següent torn."
 					]
 				},
 				{
-					"name": "Blasphemous Word (Costa 2 Accions)",
+					"name": "Paraula blasfema (Costa 2 Accions)",
 					"entries": [
-						"Valin utters a blasphemous word. Each non-undead creature within 10 feet of Valin that can hear the magical utterance ha de salvar per Constitució amb {@dc 16} or be {@condition atordit} until the end of Valin's next turn."
+						"Valin pronuncia una paraula blasfema. Cada criatura no morta a 10 peus de Valin que pugui escoltar la paraula màgica ha de salvar per Constitució amb {@dc 16} o ser {@condition atordit} fins al final del següent torn de Valin."
 					]
 				},
 				{
 					"name": "Channel Negative Energy (Costa 2 Accions)",
 					"entries": [
-						"Valin magically unleashes negative energy. Creatures within 60 feet of Valin, including ones behind barriers and around corners, can't regain hit points until the end of Valin's next turn."
+						"Valin allibera màgicament energia negativa. Les criatures a menys de 60 peus de Valin, incloses les darrere de les barreres i les cantonades, no poden recuperar els punts de vida fins al final del següent torn de Valin."
 					]
 				},
 				{
 					"name": "Whirlwind of Sand (Costa 2 Accions)",
 					"entries": [
-						"Valin magically transforms into a whirlwind of sand, moves fins a 60 peus, and reverts to her normal form. While in whirlwind form, Valin is immune to all damage, and it can't be {@condition grappled}, {@condition petrificat}, knocked {@condition enderrocat}, {@condition restrained}, o {@condition atordit}. Equipment worn or carried by Valin remain in her possession."
+						"La Valin es transforma màgicament en un remolí de sorra, mou les aletes de 60 peus i torna a la seva forma normal. Mentre està en forma de remolí, Valin és immune a tots els danys i no pot ser {@condition grappled}, {@condition petrificat}, cop {@condition enderrocat}, {@condition restrained}, o {@condition atordit}. L'equipament utilitzat o portat per Valin roman en el seu poder."
 					]
 				}
 			],
@@ -4381,7 +4381,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"LF"
@@ -4435,7 +4435,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item breastplate|PHB}"
+						"{@item pectoral|PHB}"
 					]
 				}
 			],
@@ -4476,13 +4476,13 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Varnyr fa dos atacs."
 					]
 				},
 				{
-					"name": "Cane",
+					"name": "Canya",
 					"entries": [
 						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}2 ({@damage 1d4}) de dany contundent."
 					]
@@ -4492,7 +4492,7 @@
 				{
 					"name": "Parada",
 					"entries": [
-						"Varnyr adds 2 to their AC against one melee attack that would hit it. To do so, Varnyr must see the attacker and be wielding a melee weapon."
+						"Varnyr afegeix 2 a la seva CA contra un atac cos a cos que el colpejaria. Per fer-ho, Varnyr ha de veure l'atacant i portar una arma cos a cos."
 					]
 				}
 			],
@@ -4504,7 +4504,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Parada"
 			],
 			"languageTags": [
@@ -4520,7 +4520,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Wood Elf Wizard",
+			"name": "Mag elf del bosc",
 			"source": "CM",
 			"page": 187,
 			"size": "M",
@@ -4569,7 +4569,7 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de The wood elf's és Saviesa ({@dc 12} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de The wood elf's és Saviesa ({@dc 12} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
 						"{@spell llums dansaires}"
@@ -4578,15 +4578,15 @@
 						"1e": [
 							"{@spell foscor}",
 							"{@spell foc follet}",
-							"{@spell levitar} (self only)"
+							"{@spell levitar} (només propi)"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				},
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The wood elf és un/a llançador/a de conjurs de nivell 10. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 14} salvada de conjur, {@hit 6} a impactar amb atacs màgics). The wood elf has the following wizard spells prepared:"
+						"The wood elf és un/a llançador/a de conjurs de nivell 10. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 14} salvada de conjur, {@hit 6} a impactar amb atacs màgics). L'elf del bosc té preparats els següents encanteris de mag:"
 					],
 					"spells": {
 						"0": {
@@ -4642,7 +4642,7 @@
 				{
 					"name": "Ascendència Faèrica",
 					"entries": [
-						"The wood elf has advantage on saving throws against being {@condition fascinat}, and the wood elf no pot ésser adormit màgicament."
+						"L'elf boscós té avantatge en els tirs de salvament en contra de ser {@condition fascinat}, i l'elf boscós no pot ésser adormit màgicament."
 					]
 				}
 			],
@@ -4654,9 +4654,9 @@
 					]
 				},
 				{
-					"name": "Summon Demon (1/Dia)",
+					"name": "Convocar dimoni (1/dia)",
 					"entries": [
-						"The wood elf magically summons a quasit, or attempts to summon a shadow demon with a {@chance 50|50 percent} chance of success. The summoned demon apareix en un espai desocupat within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains durant 10 minuts, until it or its summoner dies, or until its summoner dismisses it as an action."
+						"L'elf del bosc convoca màgicament un quasit o intenta convocar un dimoni de l'ombra amb un {@chance 50|50 per cent} de possibilitats d'èxit. El dimoni convocat apareix en un espai desocupat a 60 peus del seu invocador, actua com a aliat del seu invocador i no pot convocar altres dimonis. Es manté durant 10 minuts, fins que ell o el seu invocador mor, o fins que el seu invocador ho desestimi com a acció."
 					]
 				}
 			],
@@ -4694,7 +4694,7 @@
 			"source": "CM",
 			"page": 145,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimat",
 				"source": "MM",
 				"_trait": {
 					"name": "Genasi d'Aigua",
@@ -4702,13 +4702,13 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"mode": "substituirTxt",
+						"replace": "l'arximag",
 						"with": "Zikran",
 						"flags": "i"
 					},
 					"_": {
-						"mode": "addSpells",
+						"mode": "afegir Encanteris",
 						"spells": {
 							"5": {
 								"spells": [
@@ -4752,7 +4752,7 @@
 			"source": "CM",
 			"page": 209,
 			"size": "H",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"L",
 				"E"
@@ -4804,7 +4804,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat"
@@ -4830,9 +4830,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Zikzokrishka can use its Presència Aterradora. It then fa tres atacs: one with its bite and two with its claws."
+						"Zikzokrishka pot utilitzar la seva Presència Aterradora. Llavors fa tres atacs: un amb la mossegada i dos amb les urpes."
 					]
 				},
 				{
@@ -4856,13 +4856,13 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of Zikzokrishka's choice that is within 120 feet of the Zikzokrishka and aware of ha de salvar per Saviesa amb {@dc 18} o estar {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a Zikzokrishka's Presència Aterradora durant les properes 24 hores."
+						"Cada criatura de l'elecció de Zikzokrishka que es trobi a 120 peus del Zikzokrishka i sap que ha de salvar per Saviesa amb {@dc 18} o estar {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a la Presència Aterradora de Zikzokrishka durant les properes 24 hores."
 					]
 				},
 				{
 					"name": "Alè de Llamp {@recharge 5}",
 					"entries": [
-						"Zikzokrishka exhala lamps en una línia de 90 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 20}. Qui falli rep 66 ({@damage 12d10}) de dany elèctric; qui superi, en rep la meitat."
+						"Zikzokrishka exhala lamps en una línia de 90 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 20}. Qui falli rep 66 (@damage 12d10}) de dany elèctric; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -4882,7 +4882,7 @@
 				{
 					"name": "Atac Ala (Costa 2 Accions)",
 					"entries": [
-						"Zikzokrishka beats its tattered wings. Each creature within 10 feet of Zikzokrishka ha de salvar per Destresa amb {@dc 21} or take 14 ({@damage 2d6 + 7}) de dany contundent and be knocked {@condition enderrocat}. After beating its wings this way, Zikzokrishka can fly up to half its flying speed."
+						"Zikzokrishka batega les seves ales trencades. Cada criatura a menys de 10 peus de Zikzokrishka ha de salvar per Destresa amb {@dc 21} o agafa 14 ({@damage 2d6 + 7}) de dany contundent i serà colpejada {@condition enderrocat}. Després de colpejar les seves ales d'aquesta manera, Zikzokrishka pot volar fins a la meitat de la seva velocitat de vol."
 					]
 				}
 			],
@@ -4901,7 +4901,7 @@
 			],
 			"actionTags": [
 				"Presència Aterradora",
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",

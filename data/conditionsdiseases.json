@@ -7,10 +7,10 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura encegada no pot veure. Falla automàticamen tota tirada d'habilitat que involucri la vista.",
-						"Les tirades d'impactar contra la criatura tenen avantatge, i les tirades d'impactar de la criatura tenen desavantatge."
+						"Les tirades d'impactar contra la criatura tenen avantatges, i les tirades d'impactar de la criatura tenen desavantatges."
 					]
 				}
 			],
@@ -23,7 +23,7 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura fascinada no pot atacar l'origen fascinador ni designar-lo objectiu d'efectes màgics ni habilitats ofensives.",
 						"L'origen fascinador té avantatge a tirades d'interacció social amb la criatura."
@@ -39,7 +39,7 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura eixordada no pot sentir-hi. Falla les tirades d'habilitat que involucrin l'oïda automàticament."
 					]
@@ -48,20 +48,20 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Exhaust",
+			"name": "Escapament",
 			"source": "PHB",
 			"page": 291,
 			"srd": true,
 			"entries": [
-				"Algunes habilitats i perills ambientals com la inanició o l'exposició al fred poden conduir a l'exhaustió. L'exhaustió té sis nivells. Un efecte pot donar un o mes nivells d'exhaustió a una criatura.",
+				"Algunes habilitats i perills ambientals com la inanició o l'exposició al fred poden conduir a l'esgotament. L'exhaustió té sis nivells. Un efecte pot donar un o mes nivells d'esgotament a una criatura.",
 				{
-					"type": "table",
+					"type": "taula",
 					"colLabels": [
 						"Nivell",
 						"Efecte"
 					],
 					"colStyles": [
-						"col-1 text-center",
+						"col-1 centre de text",
 						"col-11"
 					],
 					"rows": [
@@ -91,10 +91,10 @@
 						]
 					]
 				},
-				"Si una criatura exhausta rep un altre nivell d'exhaustió, es suma al que ja té.",
-				"Els efectes de l'exhaustió: una criatura amb 2 nivells d'exhaustió tan té desavantatge a tirades d'habilitat com té la velocitat reduïda a la meitat.",
-				"Un efecte que redueixi l'exhaustió en redueix tants nivells com indiqui. El nivell mínim d'exhaustió és 0 (sense efectes d'exhaustió).",
-				"Acabar un Descans Llarg resta 1 nivell d'exhaustió (la criatura ha de menjar i beure). Ressucitar d'entre els morts suma 1 nivell d'exhaustió."
+				"Si una criatura exhausta rep un altre nivell d'exhaustió, és suma al que ja té.",
+				"Els efectes de l'exhaustió: una criatura amb 2 nivells d'exhaustió tan desavantatges a tirades d'habilitat com a la velocitat reduïda a la meitat.",
+				"Un efecte que redueix l'exhaustió en redueix tants nivells com indiqui. El nivell mínim d'exhaustió és 0 (sense efectes d'exhaustió).",
+				"Acabar un Descans Llarg resta 1 nivell d'exhaustió (la criatura ha de menjar i beure). Ressucitar d'entre els morts suma 1 nivell d'esgotament."
 			]
 		},
 		{
@@ -104,7 +104,7 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura acovardada té desavantatge a tirades d'habilitat i d'impactar mentre pugui veure l'origen de la por",
 						"La criatura no pot acostar-se a l'origen de la por voluntàriament."
@@ -120,11 +120,11 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Una criatura presa te una velocitat de 0 i no pot obtenir cap increment a la seva velocitat.",
-						"La condició es cancel·la si l'origen de al presa queda {@condition incapacitat}.",
-						"La condició es cancel·la també si algun efecte allunya la criatura presa de l'origen de la presa. Per exemple, quan una criatura és llançada pel conjur {@spell tronada}."
+						"Una criatura presa et una velocitat de 0 i no pot obtenir cap increment a la seva velocitat.",
+						"La condició és cancel·la si l'origen de la presa queda {@condition incapacitat}.",
+						"La condició és cancel·la també si algun efecte allunya la criatura presa de l'origen de la presa. Per exemple, quan una criatura és llançada pel conjur {@spell tronada}."
 					]
 				}
 			],
@@ -137,7 +137,7 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura incapacitada no pot prendre accions ni reaccions."
 					]
@@ -151,10 +151,10 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Una criatura invisible no es pot veure sense sentits especials o ajut de la màgia. Quant a estar amagada, la criatura es considera molt ofuscada. La criatura es pot localitzar mitjançant sorolls i rastres.",
-						"Les tirades d'impactar contra la criatura tenen desavantatge. Les tirades d'impactar de la criatura tenen avantatge."
+						"Una criatura invisible no es pot veure sense sentits especials o ajut de la màgia. Quant a estar amagada, la criatura és considera molt ofuscada. La criatura és pot localitzar mitjançant sorolls i rastres.",
+						"Les tirades d'impactar contra la criatura tenen desavantatges. Les tirades d'impactar de la criatura tenen avantatges."
 					]
 				}
 			],
@@ -167,12 +167,12 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Una criatura paralitzada està {@condition incapacitat} i no es pot moure ni parlar.",
+						"Una criatura paralizada està {@condition incapacitat} i no és pot moure ni parlar.",
 						"La criatura falla salvades de Força i de Destresa automàticament.",
-						"Les tirades d'impacte contra la criatura tenen avantatge.",
-						"Tot atac que impacti a la criatura es un crític si la criatura atacant hi és a 5 peus."
+						"Les tirades d'impacte contra la criatura tenen avantatges.",
+						"Tot atac que impacti a la criatura és un crític si la criatura atacant hi és a 5 peus."
 					]
 				}
 			],
@@ -185,11 +185,11 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Una criatura es torna un objecte sòlid i inanimat (normalment pedra) juntament amb els objectes no màgics que dugui o vesteixi. El seu pes es multiplica per 10 i deixa d'envellir.",
+						"Una criatura és torna un objecte sòlid i inanimat (normalment pedra) juntament amb els objectes no màgics que dugui o vesteixi. El seu pes és multiplica per 10 i deixa d'envellir.",
 						"La criatura està {@condition incapacitat}, no pot moure's ni parlar, i no percep el seu entorn.",
-						"Les tirades d'impacte contra la criatura tenen avantatge.",
+						"Les tirades d'impacte contra la criatura tenen avantatges.",
 						"La criatura falla salvades de Força i Destresa automàticament",
 						"La criatura és resistent a tota mena de dany",
 						"La criatura és immune a metzines i malalties. Qualsevol metzina o malaltia que ja tingués se suspèn però no es neutralitza."
@@ -205,7 +205,7 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura emmetzinada té desavantatge a tirades d'impactar i d'habilitat."
 					]
@@ -220,11 +220,11 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Una criatura enderrocada només pot gatejar per moure's. Si s'aixeca es cancel·la la condició.",
+						"Una criatura enderrocada només pot gatejar per moure's. Si s'aixeca és cancel·la la condició.",
 						"La criatura té desavantatge a tirades d'impactar.",
-						"Una tirada per impactar la criatura té avantatge si la criatura atacant hi és a 5 peus. Sinò, té desavantatge."
+						"Una tirada per impactar la criatura té avantatges si la criatura atacant hi és a 5 peus. Sinò, té desavantatge."
 					]
 				}
 			],
@@ -237,10 +237,10 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura retinguda té velocitat 0 i no pot rebre increments a la velocitat.",
-						"Les tirades d'impactar contra la criatura tenen avantatge, i les tirades d'impactar de la criatura tenen desavantatge.",
+						"Les tirades d'impactar contra la criatura tenen avantatges, i les tirades d'impactar de la criatura tenen desavantatges.",
 						"La criatura té desavanatge a salvades de Destresa."
 					]
 				}
@@ -254,11 +254,11 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Una criatura atordida està {@condition incapacitat}, no es pot moure i només pot parlar trabadament.",
+						"Una criatura atordida està {@condition incapacitat}, no és pot moure i només pot parlar treballant.",
 						"La criatura falla salvades de Força i Destresa automàticament",
-						"Les tirades d'impacte contra la criatura tenen avantatge."
+						"Les tirades d'impacte contra la criatura tenen avantatges."
 					]
 				}
 			],
@@ -271,13 +271,13 @@
 			"srd": true,
 			"entries": [
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
 						"Una criatura inconscient està {@condition incapacitat}, no pot moure's ni parlar, i no percep el seu entorn.",
-						"La criatura deixa caure el que estigui subjectant i queda {@condition enderrocat}.",
+						"La criatura deixa caure el que està subjectant i queda {@condition enderrocat}.",
 						"La criatura falla salvades de Força i Destresa automàticament",
-						"Les tirades d'impacte contra la criatura tenen avantatge.",
-						"Tot atac que impacti la criatura és crític si la criatura atacant hi és a 5 peus."
+						"Les tirades d'impacte contra la criatura tenen avantatges.",
+						"Tot atac que impacti la criatura és crítica si la criatura atacant hi és a 5 peus."
 					]
 				}
 			],
@@ -286,12 +286,12 @@
 	],
 	"disease": [
 		{
-			"name": "Blinding Sickness",
+			"name": "Malaltia cegadora",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Saviesa checks and Saviesa saving throws i està {@condition encegat}.",
-				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
+				"El dolor agafa la ment de la criatura i els seus ulls es tornen d'un blanc lletós. La criatura té desavantatge en les proves de Saviesa i en els tirs de salvació de Saviesa i està {@condition encegat}.",
+				"{@note Aquesta malaltia es pot infligir amb l'encanteri {@spell contagiar}.}"
 			]
 		},
 		{
@@ -299,33 +299,33 @@
 			"source": "GoS",
 			"page": 234,
 			"entries": [
-				"This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifest in {@dice 1d4} hours, causing the victim's Constitució and Carisma scores to decrease by {@dice 1d4} each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.",
-				"At the end of each long rest, an infected creature makes a DC 12 Constitució saving throw. On a success, the victim regains 1 point of Constitució and 1 point of Carisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 ({@dice 4d8}) de dany necròtic as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal."
+				"Aquesta malaltia es dirigeix ​​als humanoides. Mentre està afectat per la putrefagia blava, a una víctima li creixen forúnculos blaus grotescos a la cara i l'esquena. Aquesta malaltia la transmeten no morts (inclosos els ofegats a Tammeraut's Fate), i les víctimes l'adquireixen sovint a través de ferides causades per criatures infectades. Els furúnculos de la malaltia es manifesten en {@dice 1d4} hores, fent que les puntuacions de Constitució i Carisma de la víctima disminueixin en {@dice 1d4} cadascuna, fins a un mínim de 3. A continuació, ràpidament hi ha febre i formigueig a les extremitats. Una criatura infectada és vulnerable al dany radiant i adquireix la capacitat de respirar sota l'aigua.",
+				"Al final de cada descans llarg, una criatura infectada fa una tirada de salvació de Constitució DC 12. En èxit, la víctima recupera 1 punt de Constitució i 1 punt de Carisma perdut per la malaltia. Si la criatura infectada recupera tots els punts perduts per la malaltia, es cura. Altres efectes que augmenten les puntuacions d'habilitat de la víctima no curen la malaltia. En una tirada de salvació fallida, la víctima treu 18 ({@des 4d8}) de dany necròtic mentre els furúnculos esclaten i s'estenen. Una criatura reduïda a 0 punts de vida per aquest dany no pot recuperar els punts de vida fins que la malaltia no es curi, encara que es pot estabilitzar amb normalitat."
 			]
 		},
 		{
-			"name": "Cackle Fever",
+			"name": "Febre de les rialles",
 			"source": "DMG",
 			"page": 257,
 			"srd": true,
 			"entries": [
-				"This disease targets humanoids, although gnoms are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: \"the shrieks.\"",
-				"Symptoms manifest {@dice 1d4} hours after infection and include fever and disorientation. The infected creature gains one level of {@condition exhaust} that can't be removed until the disease is cured.",
-				"Any event that causes the infected creature great stress-including entering combat, taking damage, experiencing fear, or having a nightmare-forces the creature to make a DC 13 Constitució saving throw.",
-				"Si falla, rep 5 ({@dice 1d10}) de dany psíquic and becomes {@condition incapacitat} with mad laughter durant 1 minut. The creature can repeat the saving throw al final de cada torn seu, ending the mad laughter and the {@condition incapacitat} condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter ha de salvar per Constitució (CD 10). Si falla, also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.",
+				"Aquesta malaltia apunta als humanoides, tot i que els gnoms són estranyament immunes. Mentre es troben a les mans d'aquesta malaltia, les víctimes solen sucumbir a rialles boges, donant a la malaltia el seu nom comú i el seu sobrenom morbós: \"els crits\".",
+				"Els símptomes es manifesten {@dice 1d4} hores després de la infecció i inclouen febre i desorientació. La criatura infectada guanya un nivell d'{@condition exhaust} que no es pot eliminar fins que la malaltia no es curi.",
+				"Qualsevol esdeveniment que provoqui un gran estrès a la criatura infectada, com ara entrar en combat, rebre danys, experimentar por o tenir un malson, obliga a la criatura a fer una tirada de salvació de Constitució DC 13.",
+				"Si falla, rep 5 ({@dice 1d10}) de dany psíquic i es converteix en {@condition incapacitat} amb una rialla boja durant 1 minut. La criatura pot repetir la tirada de salvació al final de cada tornat, acabant amb el riure boig i la condició {@condition incapacitat} d'èxit. Qualsevol criatura humanoide que comenci el seu torn a 10 peus d'una criatura infectada en plena riallada boja ha de salvar per Constitució (CD 10). Si falla, també s'infecten de la malaltia. Una vegada que una criatura aconsegueix aquesta salvació, és immune a les rialles boges d'aquesta criatura infectada en particular durant 24 hores.",
 				{
-					"type": "inline",
+					"type": "en linia",
 					"entries": [
-						"At the end of each long rest, an infected creature can make a DC 13 Constitució saving throw. Si supera, the DC for this save and for the save to avoid an attack of mad laughter drops by {@dice 1d6}. When the saving throw DC drops to 0, the creature recovers from the disease. A creature that fails three of these saving throws gains a randomly determined form of ",
+						"Al final de cada descans llarg, una criatura infectada pot fer una tirada de salvació de Constitució CD 13. Si supera, el CD per a aquesta salvació i per a la salvació per evitar un atac de rialles boges cau per {@des 1d6}. Quan la CD de la tirada de salvació baixa a 0, la criatura es recupera de la malaltia. Una criatura que falli tres d'aquestes tirades de salvació guanya una forma determinada a l'atzar de",
 						{
-							"type": "link",
+							"type": "enllaç",
 							"href": {
-								"type": "internal",
+								"type": "intern",
 								"path": "variantrules.html",
-								"hash": "madness_dmg",
+								"hash": "bogeria_dmg",
 								"hashPreEncoded": true
 							},
-							"text": "indefinite madness"
+							"text": "bogeria indefinida"
 						},
 						"."
 					]
@@ -333,30 +333,30 @@
 			]
 		},
 		{
-			"name": "Filth Fever",
+			"name": "Febre de la brutícia",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"A raging fever sweeps through the creature's body. The creature has disadvantage on Força checks, Força saving throws, and attack rolls that use Força.",
-				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
+				"Una febre furiosa travessa el cos de la criatura. La criatura té un desavantatge en les proves de Força, en els tirs de salvació de Força i en les tires d'atac que utilitzen Força.",
+				"{@note Aquesta malaltia es pot infligir amb l'encanteri {@spell contagiar}.}"
 			]
 		},
 		{
-			"name": "Flesh Rot",
+			"name": "Pudrició de la carn",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature's flesh decays. The creature has disadvantage on Carisma checks and vulnerability to all damage.",
-				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
+				"La carn de la criatura es descompone. La criatura té un desavantatge a les proves de Carisma i és vulnerable a tots els danys.",
+				"{@note Aquesta malaltia es pot infligir amb l'encanteri {@spell contagiar}.}"
 			]
 		},
 		{
-			"name": "Mad Monkey Fever",
+			"name": "Febre del mico boig",
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"A magical mist creeps through the jungles of Chult. Contact with this thin, blue, odorless mist can infect giants and humanoids with mad monkey fever. A {@spell dissipar màgia} spell destroys the mist in a 20-foot square starting at a point chosen by the caster within the spell's range. An encounter with this mist typically covers {@dice 1d6} such areas (400-2,400 square feet).",
-				"A giant or humanoid that comes into contact with the mist ha de salvar per Constitució (CD 13). Si falla, become infected with mad monkey fever. The infected creature gains a random form of long-term madness (roll on the {@table Long-Term Madness} table in chapter 8 of the Dungeon Master's Guide) that manifests {@dice 1d6} hours after infection and lasts for the duration ({@dice 1d10 × 10} hours). If the madness is allowed to run its full course, the creature must repeat the saving throw at the end of the madness. If the second saving throw fails, the creature suffers another bout of long-term madness (roll again on the table) that lasts for the normal duration. The madness symptoms continue until the disease ends."
+				"Una boira màgica s'arrossega per les selves de Chult. El contacte amb aquesta boira fina, blava i inodora pot infectar gegants i humanoides amb la febre del mico boig. Un encanteri {@spell dissipar màgia} destrueix la boira en un quadrat de 20 peus començant en un punt escollit pel llançador dins del rang de l'encanteri. Una trobada amb aquesta boira normalment cobreix {@dice 1d6} aquestes àrees (400-2.400 peus quadrats).",
+				"Un gegant o humanoide que entra en contacte amb la boira ha de salvar per Constitució (CD 13). Si falla, contagi's amb la febre del mico boig. La criatura infectada obté una forma aleatòria de bogeria a llarg termini (roda a la taula {@table Long-Term Madness} del capítol 8 de la Guia de Dungeon Master) que es manifesta {@dice 1d6} hores després de la infecció i dura tot el temps ( {@dice 1d10 × 10} hores). Si es deixa que la bogeria segueixi tot el seu curs, la criatura ha de repetir la tirada de salvació al final de la bogeria. Si falla la segona tirada de salvació, la criatura pateix un altre atac de bogeria a llarg termini (torna a tirar sobre la taula) que dura la durada normal. Els símptomes de la bogeria continuen fins que s'acaba la malaltia."
 			]
 		},
 		{
@@ -364,52 +364,52 @@
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature's mind becomes feverish. The creature has disadvantage on Intel·ligència checks and Intel·ligència saving throws, and the creature behaves as if under the effects of the {@spell confusió} spell during combat.",
-				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
+				"La ment de la criatura es torna febril. La criatura té un desavantatge en les proves d'Intel·ligència i en les tires de salvació d'Intel·ligència, i la criatura es comporta com si sota els efectes de l'encanteri {@spell confusió} durant el combat.",
+				"{@note Aquesta malaltia es pot infligir amb l'encanteri {@spell contagiar}.}"
 			]
 		},
 		{
-			"name": "Seizure",
+			"name": "Confiscació",
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature is overcome with shaking. The creature has disadvantage on Destresa checks, Destresa saving throws, and attack rolls that use Destresa.",
-				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
+				"La criatura està superada per la sacsejada. La criatura té un desavantatge a les proves de Destresa, les tires de salvació de Destresa i les tires d'atac que utilitzen Destresa.",
+				"{@note Aquesta malaltia es pot infligir amb l'encanteri {@spell contagiar}.}"
 			]
 		},
 		{
-			"name": "Sewer Plague",
+			"name": "Plaga de clavegueram",
 			"source": "DMG",
 			"page": 257,
 			"srd": true,
 			"entries": [
-				"Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.",
-				"When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, la criatura ha de salvar per Constitució (CD 11). Si falla, become infected.",
-				"It takes {@dice 1d4} days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of {@condition exhaust}, and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.",
-				"At the end of each long rest, an infected creature ha de salvar per Constitució (CD 11). Si falla, the character gains one level of {@condition exhaust}.",
-				"Si supera, the character's {@condition exhaust} level decreases by one level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease."
+				"La pesta del clavegueram és un terme genèric per a una àmplia categoria de malalties que s'incuben a les clavegueres, munts d'escombraries i pantans estancats, i que de vegades es transmeten per criatures que habiten en aquestes zones, com les rates i els otyughs.",
+				"Quan una criatura humanoide és mossegada per una criatura portadora de la malaltia, o quan entra en contacte amb brutícia o despulles contaminats per la malaltia, la criatura ha de salvar per Constitució (CD 11). Si falla, infectar-se.",
+				"Els símptomes de la plaga de clavegueram triguen {@dice 1d4} dies a manifestar-se en una criatura infectada. Els símptomes inclouen cansament i rampes. La criatura infectada pateix un nivell d'{@condition exhaust} i només recupera la meitat del nombre normal de punts de vida en gastar Daus de Vida i cap punt de fer en acabar un descans llarg.",
+				"Al final de cada descans llarg, una criatura infectada ha de salvar per Constitució (CD 11). Si falla, el personatge guanya un nivell d'{@condition exhaust}.",
+				"Si supera, el nivell {@condition exhaust} del personatge disminueix un nivell. Si una tirada de salvació reeixida redueix el nivell d'{@condition exhaust} de la criatura infectada per sota d'1, la criatura es recupera de la malaltia."
 			]
 		},
 		{
-			"name": "Shivering Sickness",
+			"name": "Malaltia del tremolor",
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"Insects native to the jungles and marshes of Chult carry this disease, shivering sickness. The easiest protection against it is a coating of insect-repelling salve on all exposed skin (for the cost of insect repellent, see {@adventure \"Buying a Special Item\"|ToA|1|Buying a Special Item}.",
-				"A giant or humanoid that takes damage from {@creature Swarm of Insects||insect swarms} or from {@creature giant centipede||giant centipedes}, {@creature giant scorpion||giant scorpions}, o {@creature giant wasp||giant wasps} is exposed to the disease at the end of the encounter. Those who haven't applied insect repellent since their previous long rest are exposed to the disease when they finish a long rest.",
-				"A giant or humanoid exposed to the disease ha de salvar per Constitució (CD 11). Si falla, become infected. A creature with armadura natural has advantage on the saving throw. It takes {@dice 2d6} hours for symptoms to manifest in an infected creature. Symptoms include blurred vision, disorientation, and a sudden drop in body temperature that causes uncontrollable shivering and chattering of the teeth.",
-				"Once symptoms begin, the infected creature regains only half the normal number of hit points from spending Hit Dice and no hit points from a long rest. The infected creature also has disadvantage on ability checks and attack rolls. At the end of a long rest, an infected creature repeats the saving throw, shaking off the disease on a successful save."
+				"Els insectes autòctons de les selves i els pantans de Chult porten aquesta malaltia, tremolor. La protecció més senzilla contra això és una capa d'ungüent repel·lent d'insectes a tota la pell exposada (per al cost del repel·lent d'insectes, vegeu {@adventure \"Comprar un article especial\"|ToA|1|Comprar un article especial}).",
+				"Un gegant o humanoide que rep dany de {@creature Swarm of Insects||eixams d'insectes} o de {@creature giant centipede||giant centipedes}, {@creature giant scorpion||giant scorpion}, o {@creature giant wasp| |vespes gegants} s'exposa a la malaltia al final de la trobada. Aquells que no han aplicat repel·lent d'insectes des del seu llarg descans anterior estan exposats a la malaltia quan acaben un llarg descans.",
+				"Un gegant o humanoide exposat a la malaltia ha de salvar per Constitució (CD 11). Si falla, infectar-se. Una criatura amb armadura natural té avantatge en la tirada de salvació. Els símptomes triguen {@dice 2d6} hores a manifestar-se en una criatura infectada. Els símptomes inclouen visió borrosa, desorientació i una caiguda sobtada de la temperatura corporal que provoca tremolors i xoc de les dents incontrolables.",
+				"Una vegada que comencen els símptomes, la criatura infectada només recupera la meitat del nombre normal de punts de vida en gastar els daus de vida i cap d'un descans llarg. La criatura infectada també té un desavantatge en proves d'habilitat i tirades d'atac. Al final d'un llarg descans, una criatura infectada repeteix la tirada de salvació, sacsejant la malaltia en una salvació exitosa."
 			]
 		},
 		{
-			"name": "Sight Rot",
+			"name": "Vista Rot",
 			"source": "DMG",
 			"page": 257,
 			"srd": true,
 			"entries": [
-				"This painful infection causes bleeding from the eyes and eventually blinds the victim.",
-				"A beast or humanoid that drinks water tainted by sight rot ha de salvar per Constitució (CD 15). Si falla, become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a -1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches -5, the victim is {@condition encegat} until its sight is restored by magic such as {@spell restabliment menor} or {@spell sanar}.",
-				"Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an {@item herbalism kit|phb} can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely."
+				"Aquesta infecció dolorosa provoca sagnat dels ulls i, finalment, cega la víctima.",
+				"Una bèstia o un humanoide que beu aigua contaminada per la vista podrit ha de salvar per Constitució (CD 15). Si falla, infectar-se. Un dia després de la infecció, la visió de la criatura comença a ser borrosa. La criatura pren una penalització de -1 per tirar d'atac i proves d'habilitat que depenen de la vista. Al final de cada repòs llarg després de l'aparició dels símptomes, la penalització empitjora en 1. Quan arriba a -5, la víctima és {@condition encegat} fins que la seva visió es recupera per màgia com {@spell restabliment menor} o {@ lletrejar sanar}.",
+				"La podridura de la vista es pot curar amb una flor rara anomenada Eyebright, que creix en alguns pantans. Amb una hora, un personatge que tingui habilitat amb un {@item herbalism kit|phb} pot convertir la flor en una dosi d'ungüent. Aplicat als ulls abans d'un repòs llarg, una dosi evita que la malaltia empitjori després d'aquest descans. Després de tres dosis, la pomada cura la malaltia completament."
 			]
 		},
 		{
@@ -417,39 +417,39 @@
 			"source": "PHB",
 			"page": 227,
 			"entries": [
-				"The creature begins to bleed uncontrollably. The creature has disadvantage on Constitució checks and Constitució saving throws. A més, whenever the creature takes damage, it is {@condition atordit} fins el final del seu proper torn.",
-				"{@note This disease can be inflicted with the {@spell contagiar} spell.}"
+				"La criatura comença a sagnar sense control. La criatura té desavantatge en les escaques de Constitució i en els tirs de salvació de Constitució. A més, sempre que la criatura pren danys, és {@condition atordit} fins el final del seu proper trencat.",
+				"{@note Aquesta malaltia es pot infligir amb l'encanteri {@spell contagiar}.}"
 			]
 		},
 		{
-			"name": "Throat Leeches",
+			"name": "Sanguijuelas de gola",
 			"source": "ToA",
 			"page": 40,
 			"entries": [
-				"Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water ha de salvar per Constitució (CD 12). Si falla, be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After {@dice 1d6} hours, the infected character gains 1 level of {@condition exhaust} that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. Si falla, the creature's {@condition exhaust} increases by 1 level; si supera, the creature's {@condition exhaust} decreases by 1 level. If a successful saving throw reduces the infected creature's level of {@condition exhaust} below 1, the creature recovers from the disease.",
-				"Explorers can avoid contracting throat leeches by drinking only rainwater or water that's been boiled or magically purified."
+				"Uns paràsits minúsculs coneguts com a sangoneres de la gola infecten l'aigua dels boscos, pantans i rius de Chult. Qualsevol gegant o humanoide que s'empassa aigua contaminada ha de salvar per Constitució (CD 12). Si falla, estar infestat de sangoneres de gola. Els símptomes immediats inclouen inflamació de la gola i dificultat per respirar. Després de {@dice 1d6} hores, el personatge infectat guanya 1 nivell d'{@condition exhaust} que no es pot eliminar (excepte com es descriu a continuació) fins que la malaltia no es curi. Al final de cada descans llarg, la criatura infectada ha de repetir la tirada de salvació. Si falla, el {@condition exhaust} de la criatura augmenta 1 nivell; si supera, l'{@condition exhaust} de la criatura disminueix 1 nivell. Si una tirada de salvació reeixida redueix el nivell d'{@condition exhaust} de la criatura infectada per sota d'1, la criatura es recupera de la malaltia.",
+				"Els exploradors poden evitar contraure sangsugues a la gola bevent només aigua de pluja o aigua que s'hagi bullit o purificat màgicament."
 			]
 		}
 	],
 	"status": [
 		{
-			"name": "Concentration",
+			"name": "Concentració",
 			"source": "PHB",
 			"page": 203,
 			"srd": true,
 			"entries": [
-				"Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.",
-				"If a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end concentration at any time (no requereix acció).",
-				"Normal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:",
+				"Alguns encanteris requereixen que mantingueu la concentració per mantenir activa la seva màgia. Si perds la concentració, aquest encanteri s'acaba.",
+				"Si un encanteri s'ha de mantenir amb concentració, aquest fet apareix a la seva entrada Durada, i l'encanteri especifica quant de temps us podeu concentrar. Pots acabar la concentració en qualsevol moment (no necessitat d'acció).",
+				"L'activitat normal, com moure's i atacar, no interfereix amb la concentració. Els factors següents poden trencar la concentració:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"{@b Casting another spell that requires concentration.} You lose concentration on a spell if you cast another spell that requires concentration. You can't concentrate on two spells at once.",
-						"{@b Taking damage.} Whenever you take damage while you are concentrating on a spell, you ha de salvar per Constitució to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.",
-						"{@b Being incapacitated or killed.} You lose concentration on a spell if you are {@condition incapacitat} or if you die."
+						"{@b Llançar un altre encanteri que requereixi concentració.} Perds la concentració en un encanteri si fas un altre encanteri que requereixi concentració. No et pots concentrar en dos encanteris alhora.",
+						"{@b Taking damage.} Sempre que reps dany mentre et concentres en un encanteri, has de salvar per Constitució per mantenir la teva concentració. La CD és igual a 10 o la meitat del dany que rebeu, el nombre que sigui més gran. Si reps dany de diverses fonts, com ara una fletxa i l'alè d'un drac, faràs una tirada de salvació independent per a cada font de dany.",
+						"{@b Ser incapacitat o assassinat.} Perds la concentració en un encanteri si ets {@condition incapacitat} o si mors."
 					]
 				},
-				"The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Constitució per a mantenir concentracio en un conjur."
+				"El DM també pot decidir que determinats fenòmens ambientals, com ara una onada que s'estavella sobre tu mentre estàs en un vaixell llançat per la tempesta, requereixen que triunfis en un DC 10."
 			]
 		}
 	]
