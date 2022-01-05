@@ -19,12 +19,12 @@
 			"source": "OotA",
 			"page": 149,
 			"_copy": {
-				"name": "Knight",
+				"name": "cavaller",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the knight",
+						"mode": "substituirTxt",
+						"replace": "el cavaller",
 						"with": "Aljanor",
 						"flags": "i"
 					}
@@ -47,7 +47,7 @@
 			"source": "OotA",
 			"page": 142,
 			"_copy": {
-				"name": "Veteran",
+				"name": "Veterà",
 				"source": "MM",
 				"_trait": {
 					"name": "Nan de Muntanya",
@@ -55,16 +55,16 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the veteran",
+						"mode": "substituirTxt",
+						"replace": "el veterà",
 						"with": "Amarith",
 						"flags": "i"
 					},
 					"action": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Espasa llarga",
 						"items": {
-							"name": "Warhammer",
+							"name": "Martell de guerra",
 							"entries": [
 								"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany contundent, o 8 ({@damage 1d10 + 3}) de dany contundent si s'usa amb dues mans."
 							]
@@ -83,23 +83,23 @@
 			]
 		},
 		{
-			"name": "Animated Drow Statue",
+			"name": "Estàtua animada de Drow",
 			"source": "OotA",
 			"page": 96,
 			"_copy": {
-				"name": "Animated Armor",
+				"name": "Armadura animada",
 				"source": "MM",
 				"_mod": {
 					"*": [
 						{
-							"mode": "replaceTxt",
-							"replace": "suit of armor",
-							"with": "statue"
+							"mode": "substituirTxt",
+							"replace": "armadura",
+							"with": "estàtua"
 						},
 						{
-							"mode": "replaceTxt",
-							"replace": "armor",
-							"with": "statue"
+							"mode": "substituirTxt",
+							"replace": "armadura",
+							"with": "estàtua"
 						}
 					]
 				}
@@ -108,7 +108,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Awakened Zurkhwood",
+			"name": "Zurkhwood despertat",
 			"source": "OotA",
 			"page": 230,
 			"size": "H",
@@ -149,20 +149,20 @@
 				"foc"
 			],
 			"idiomes": [
-				"one language known by its creator"
+				"un llenguatge conegut pel seu creador"
 			],
 			"cr": "2",
 			"trait": [
 				{
 					"name": "Falsa Aparença",
 					"entries": [
-						"Si tree es mantè immòbil, és indistingible d'un normal zurkhwood mushroom."
+						"Si arbre és mantè immòbil, és indistingible d'un normal zurkhwood mushroom."
 					]
 				},
 				{
-					"name": "Mute",
+					"name": "Silenciar",
 					"entries": [
-						"If the awakened zurkhwood was created by a myconid sovereign, it can't speak."
+						"Si el zurkhwood despertat va ser creat per un sobirà micònid, no pot parlar."
 					]
 				}
 			],
@@ -200,8 +200,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the orog",
+						"mode": "substituirTxt",
+						"replace": "l'orog",
 						"with": "Blurg",
 						"flags": "i"
 					}
@@ -210,7 +210,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Bridesmaid of Zuggtmoy",
+			"name": "Dama d'honor de Zuggtmoy",
 			"source": "OotA",
 			"page": 230,
 			"size": "M",
@@ -245,28 +245,28 @@
 			],
 			"passive": 9,
 			"idiomes": [
-				"understands Abyssal però no pot parlar"
+				"entén Abyssal però no pot parlar"
 			],
 			"cr": "1/8",
 			"trait": [
 				{
 					"name": "Fungus Stride",
 					"entries": [
-						"Once on its turn, the bridesmaid can use 10 feet of its movement to step magically into one living mushroom or fungus patch within 5 feet and emerge from another within 60 feet of the first one, appearing en un espai desocupat within 5 feet of the second mushroom or fungus patch. The mushrooms and patches must be large or bigger."
+						"Un cop al seu torn, la dama d'honor pot utilitzar 10 peus del seu moviment per entrar màgicament en un pegat de bolets o fongs vius a 5 peus i sortir d'un altre a 60 peus del primer, apareixent en un espai desocupat a 5 peus del segon. pegat de bolets o fongs. Els bolets i els pegats han de ser grans o més grans."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Hallucination Spores",
+					"name": "Espores d'al·lucinació",
 					"entries": [
-						"The bridesmaid ejects spores at one creature it can see within 5 feet of it. The target ha de salvar per Constitució amb {@dc 10} or be {@condition emmetzinat} durant 1 minut. While {@condition emmetzinat} in this way, the target is {@condition incapacitat}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"La dama d'honor expulsa espores a una criatura que pot veure a 5 peus d'ella. The target ha de salvar per Constitució amb {@dc 10} or be {@condition emmetzinat} durant 1 minut. Mentre que {@condition emmetzinat} d'aquesta manera, l'objectiu és {@condition incapacitat}. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
-					"name": "Infestació Spores (1/Dia)",
+					"name": "Infecció Spores (1/Dia)",
 					"entries": [
-						"The bridesmaid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers durant 1 minut. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, ha de salvar per Constitució amb {@dc 10}. Si supera, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+						"La dama d'honor allibera espores que esclaten en un núvol que omple una esfera de 10 peus de radi centrada en ella, i el núvol roman durant 1 minut. Qualsevol criatura de carn i ossos del núvol quan apareix, o que hi entri més tard, ha de salvar per Constitució amb {@dc 10}. Si supera, la criatura no es pot infectar per aquestes espores durant 24 hores. Si falla, la criatura està infectada amb una malaltia anomenada espores de Zuggtmoy i també guanya una forma aleatòria de bogeria indefinida (determinada fent rodar a la taula Madness of Zuggtmoy de l'apèndix D) que dura fins que la criatura es cura de la malaltia o mor. . Mentre estigui infectada d'aquesta manera, la criatura no es pot reinfectar, i s'ha de repetir la tirada de salvació al final de cada 24 hores, acabant la infecció amb èxit. En un fracàs, el cos de la criatura infectada és agafat lentament pel creixement dels fongs, i després de tres estalvis fallits, la criatura mor i es reanima com a servidor d'espores si és un tipus de criatura que pot ser (vegeu l'entrada \"Micònids\" a el Manual del monstre)."
 					]
 				}
 			],
@@ -296,8 +296,8 @@
 				"source": "MTF",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the derro",
+						"mode": "substituirTxt",
+						"replace": "el derro",
 						"with": "Buppido",
 						"flags": "i"
 					}
@@ -306,11 +306,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Cave Badger",
+			"name": "Teixó de les coves",
 			"source": "OotA",
 			"page": 96,
 			"_copy": {
-				"name": "Giant Badger",
+				"name": "Teixó gegant",
 				"source": "MM"
 			},
 			"ac": [
@@ -335,7 +335,7 @@
 			]
 		},
 		{
-			"name": "Chamberlain of Zuggtmoy",
+			"name": "Camberlà de Zuggtmoy",
 			"source": "OotA",
 			"page": 230,
 			"size": "L",
@@ -380,23 +380,23 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Mushroom Portal",
+					"name": "Portal de bolets",
 					"entries": [
-						"The chamberlain counts as a mushroom for the Fungus Stride feature of the bridesmaid of Zuggtmoy."
+						"El camarlenc compta com un bolet per a la funció Fungus Stride de la dama d'honor de Zuggtmoy."
 					]
 				},
 				{
-					"name": "Poison Spores",
+					"name": "Espores verinoses",
 					"entries": [
-						"Whenever the chamberlain takes damage, it releases a cloud of spores. Creatures within 5 feet of the chamberlain when this happens ha de salvar per Constitució amb {@dc 12} or be {@condition emmetzinat} durant 1 minut. A creature can repeat the saving throw al final de cada torn seu, ending the effect on a success."
+						"Sempre que el camarlenc rep danys, allibera un núvol d'espores. Criatures a menys de 5 peus del camarlenc quan això succeeix ha de salvar per Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. Una criatura pot repetir la tirada de salvació al final de cada torn seu, acabant amb l'efecte d'un èxit."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The chamberlain makes two slam attacks."
+						"El camarlenc fa dos atacs de cop."
 					]
 				},
 				{
@@ -406,9 +406,9 @@
 					]
 				},
 				{
-					"name": "Infestació Spores (1/Dia)",
+					"name": "Infecció Spores (1/Dia)",
 					"entries": [
-						"The chamberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers durant 1 minut. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, ha de salvar per Constitució amb {@dc 12}. Si supera, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+						"El camarlenc allibera espores que esclaten en un núvol que omple una esfera de 10 peus de radi centrada en ella, i el núvol es perdura durant 1 minut. Qualsevol criatura de carn i ossos del núvol quan apareix, o que hi entri més tard, ha de salvar per Constitució amb {@dc 12}. Si supera, la criatura no es pot infectar per aquestes espores durant 24 hores. Si falla, la criatura està infectada amb una malaltia anomenada espores de Zuggtmoy i també guanya una forma aleatòria de bogeria indefinida (determinada fent rodar a la taula Madness of Zuggtmoy de l'apèndix D) que dura fins que la criatura es cura de la malaltia o mor. . Mentre estigui infectada d'aquesta manera, la criatura no es pot reinfectar, i s'ha de repetir la tirada de salvació al final de cada 24 hores, acabant la infecció amb èxit. En un fracàs, el cos de la criatura infectada és agafat lentament pel creixement dels fongs, i després de tres estalvis fallits, la criatura mor i es reanima com a servidor d'espores si és un tipus de criatura que pot ser (vegeu l'entrada \"Micònids\" a el Manual del monstre)."
 					]
 				}
 			],
@@ -417,7 +417,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
@@ -435,7 +435,7 @@
 			]
 		},
 		{
-			"name": "Chuul Spore Servant",
+			"name": "Servidor d'espores de Chuul",
 			"source": "OotA",
 			"page": 228,
 			"size": "L",
@@ -466,7 +466,7 @@
 			"wis": 6,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 30 peus (sense visió més enllà)"
+				"visió a cegues 30 peus (sens visió més enllà)"
 			],
 			"passive": 8,
 			"immune": [
@@ -482,15 +482,15 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The spore servant makes two pincer attacks."
+						"El servidor d'espores fa dos atacs de pinça."
 					]
 				},
 				{
-					"name": "Pincer",
+					"name": "Pinça",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany contundent. L'objectiu està {@condition grappled} ({@dc 14} per escapar) if it is a Large or smaller creature and the spore servant doesn't have two other creatures {@condition grappled}."
+						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany contundent. L'objectiu està {@condition grappled} ({@dc 14} per escapar) si es tracta d'una criatura gran o més petita i el servidor d'espores no té dues criatures més {@condition grappled}."
 					]
 				}
 			],
@@ -499,7 +499,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"B"
@@ -532,7 +532,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item dwarven plate}"
+						"{@item plat nano}"
 					]
 				}
 			],
@@ -562,22 +562,22 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "(Optional) Indefinite Madness",
+					"name": "(Opcional) Bogeria indefinida",
 					"entries": [
 						{
-							"type": "inline",
+							"type": "en linia",
 							"entries": [
-								"Horgar has been affected by the demon lords let loose in the Abyss during the Rage of Demons storyline. Roll on the ",
+								"Horgar s'ha vist afectat pels senyors dimonis que es van deixar anar a l'abisme durant la història de Rage of Demons. Roda sobre el",
 								{
-									"type": "link",
+									"type": "enllaç",
 									"href": {
-										"type": "internal",
+										"type": "intern",
 										"path": "variantrules.html",
-										"hash": "madness_dmg"
+										"hash": "bogeria_dmg"
 									},
-									"text": "Indefinite Madness table"
+									"text": "Taula de bogeria indefinida"
 								},
-								" to determine Horgar's flaw."
+								"per determinar el defecte d'Horgar."
 							]
 						}
 					]
@@ -585,7 +585,7 @@
 				{
 					"name": "Resiliència Duergar",
 					"entries": [
-						"Horgar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition fascinat} or {@condition paralitzat}."
+						"Horgar té avantatge en els tirs de salvació contra el verí, els encanteris i les il·lusions, així com per resistir-se a ser {@condition fascinat} o {@condition paralitzat}."
 					]
 				},
 				{
@@ -597,13 +597,13 @@
 				{
 					"name": "Guants de Poder d'Ogre",
 					"entries": [
-						"Horgar wields {@item Guants de Poder d'Ogre} giving him a Força score of 19 (+4)."
+						"Horgar esgrimeix {@item Guants de Poder d'Ogre} donant-li un marcador Força de 19 (+4)."
 					]
 				},
 				{
 					"name": "Coratge",
 					"entries": [
-						"Horgar has advantage on saving throws against being {@condition acovardit}."
+						"Horgar té avantatge en els tirs de salvació en contra de ser {@condition acovardit}."
 					]
 				}
 			],
@@ -611,17 +611,17 @@
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, Horgar magically increases in size, along with anything he is wearing or carrying. While enlarged, Horgar is Large, doubles his damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If Horgar lacks the room to become Large, he attains the maximum size possible in the space available."
+						"Durant 1 minut, l'Horgar augmenta de mida màgicament, juntament amb qualsevol cosa que porti o porti. Mentre està ampliat, Horgar és gran, duplica els seus daus de dany als atacs d'armes basats en Força (inclosos als atacs) i fa proves de Força i tirs de salvació de Força amb avantatge. Si l'Horgar no té l'espai per convertir-se en Gran, assoleix la mida màxima possible en l'espai disponible."
 					]
 				},
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Horgar magically turns {@condition invisible} until he attacks, casts a spell, or uses his Enlarge, or until his concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment Horgar wears or carries is {@condition invisible} with him."
+						"L'Horgar converteix màgicament {@condition invisible} fins que ataca, llança un encanteri o utilitza la seva Ampliació, o fins que la seva concentració es trenca, fins a 1 hora (com si es concentrés en un encanteri). Qualsevol equip que l'Horgar porti o porti és {@condition invisible} amb ell."
 					]
 				},
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Horgar fa dos atacs armats cos a cos."
 					]
@@ -629,7 +629,7 @@
 				{
 					"name": "Warhammer +2",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 1d8 + 6}) de dany contundent, o 11 ({@damage 1d10 + 6}) de dany contundent si s'usa amb dues mans. While Horgar is enlarged, the damage increases to 15 ({@dice 2d8 + 6}) or 17 ({@damage 2d10 + 6}) de dany contundent, respectively."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 1d8 + 6}) de dany contundent, o 11 ({@damage 1d10 + 6}) de dany contundent si s'usa amb dues mans. Mentre Horgar s'amplia, el dany augmenta a 15 ({@dau 2d8 + 6}) o 17 ({@dany 2d10 + 6}) de dany contundent, respectivament."
 					]
 				},
 				{
@@ -641,7 +641,7 @@
 				{
 					"name": "Leadership (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, Horgar can utter a special command or warning whenever a nonhostile creature that he can see within 30 feet of Horgar makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand Horgar. A creature can benefit from only one Leadership die at a time. This effect ends if Horgar is {@condition incapacitat}."
+						"Durant 1 minut, Horgar pot pronunciar una ordre especial o un avís sempre que una criatura no hostil que pugui veure a 30 peus d'Horgar fa una tirada d'atac o una tirada de salvació. La criatura pot afegir un {@dau d4} a la seva tirada sempre que pugui escoltar i entendre Horgar. Una criatura només es pot beneficiar d'un dau de lideratge alhora. Aquest efecte acaba si Horgar és {@condition incapacitat}."
 					]
 				}
 			],
@@ -649,7 +649,7 @@
 				{
 					"name": "Parada",
 					"entries": [
-						"Horgar adds 2 to its AC against one melee attack that would hit him. To do so, Horgar must see the attacker and be wielding a melee weapon."
+						"Horgar afegeix 2 a la seva CA contra un atac cos a cos que el colpejaria. Per fer-ho, Horgar ha de veure l'atacant i portar una arma cos a cos."
 					]
 				}
 			],
@@ -658,7 +658,7 @@
 				"Sensible al Sol"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Parada"
 			],
 			"languageTags": [
@@ -707,7 +707,7 @@
 			"speed": {
 				"walk": {
 					"number": 30,
-					"condition": "(60 ft. with boots of speed)"
+					"condition": "(60 peus amb botes de velocitat)"
 				}
 			},
 			"str": 11,
@@ -732,7 +732,7 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de Droki's és Saviesa ({@dc 13} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de Droki's és Saviesa ({@dc 13} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
 						"{@spell il·lusió menor}"
@@ -744,7 +744,7 @@
 							"{@spell esclatar}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
@@ -755,7 +755,7 @@
 					]
 				},
 				{
-					"name": "Insanity",
+					"name": "bogeria",
 					"entries": [
 						"Droki té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
@@ -763,7 +763,7 @@
 				{
 					"name": "Atac Furtiu (1/Torn)",
 					"entries": [
-						"En Droki fa 7 ({@dice 2d6}) extra de dany quan impacta amb un atac armat i: o bé té avantatge a impactar, o bé l'objectiu té un aliat d'en Droki a 5 peus que no està {@condition incapacitat} i l'atacant no té desavantatge a impactar."
+						"En Droki fa 7 ({@dice 2d6}) extra de dany quan impacta amb un atac armat i: o bé té avantatge a impactar, o bé l'objectiu té un aliat d'en Droki a 5 peus que no està {@condition. incapacitat} i l'atacant no té desavantatge a impactar."
 					]
 				},
 				{
@@ -781,15 +781,15 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Droki fa dos atacs with his shortsword"
+						"Droki fa dos atacs amb la seva espasa curta"
 					]
 				},
 				{
 					"name": "Espasa curta",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant. The sword is coated with serpent venom that wears off after the first hit. A target subjected to the venom ha de salvar per Constitució amb {@dc 11}. Qui falli rep 10 ({@damage 3d6}) de dany de verí; qui superi, en rep la meitat."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant. L'espasa està recoberta de verí de serp que desapareix després del primer cop. A target subjected to the venom ha de salvar per Constitució amb {@dc 11}. Qui falli rep 10 (@damage 3d6}) de dany de verí; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -797,7 +797,7 @@
 				{
 					"name": "Parada",
 					"entries": [
-						"Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon."
+						"Droki afegeix 3 a la seva CA contra un atac cos a cos que el colpejaria. Per fer-ho, en Droki ha de veure l'atacant i portar una arma cos a cos."
 					]
 				}
 			],
@@ -811,7 +811,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Parada"
 			],
 			"languageTags": [
@@ -857,7 +857,7 @@
 			]
 		},
 		{
-			"name": "Drow Bandit",
+			"name": "Bandit Drow",
 			"source": "OotA",
 			"page": 194,
 			"_copy": {
@@ -899,11 +899,11 @@
 			]
 		},
 		{
-			"name": "Drow Cultist",
+			"name": "Cultista drow",
 			"source": "OotA",
 			"page": 196,
 			"_copy": {
-				"name": "Cultist",
+				"name": "Cultista",
 				"source": "MM",
 				"_trait": {
 					"name": "Drow",
@@ -920,11 +920,11 @@
 			]
 		},
 		{
-			"name": "Drow Guard",
+			"name": "Guàrdia drow",
 			"source": "OotA",
 			"page": 195,
 			"_copy": {
-				"name": "Guard",
+				"name": "Guàrdia",
 				"source": "MM",
 				"_trait": {
 					"name": "Drow",
@@ -945,7 +945,7 @@
 			"source": "OotA",
 			"page": 196,
 			"_copy": {
-				"name": "Noble",
+				"name": "noble",
 				"source": "MM",
 				"_trait": {
 					"name": "Drow",
@@ -966,7 +966,7 @@
 			"source": "OotA",
 			"page": 191,
 			"_copy": {
-				"name": "Scout",
+				"name": "Escolta",
 				"source": "MM",
 				"_trait": {
 					"name": "Drow",
@@ -984,7 +984,7 @@
 			]
 		},
 		{
-			"name": "Drow Spore Servant",
+			"name": "Servidor d'espores drow",
 			"source": "OotA",
 			"page": 229,
 			"size": "M",
@@ -1014,7 +1014,7 @@
 			"wis": 6,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 30 peus (sense visió més enllà)"
+				"visió a cegues 30 peus (sens visió més enllà)"
 			],
 			"passive": 8,
 			"conditionImmune": [
@@ -1074,19 +1074,19 @@
 				"source": "MM",
 				"_mod": {
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Javelin",
+						"mode": "substituirArr",
+						"replace": "Javelina",
 						"items": [
 							{
-								"name": "Acid Vial",
+								"name": "Vial d'àcid",
 								"entries": [
 									"{@atk rw} {@hit 4} a impactar, 20 peus d'abast, un objectiu. {@h}7 ({@damage 2d6}) de dany d'àcid."
 								]
 							},
 							{
-								"name": "Alchemist's Fire",
+								"name": "El foc de l'alquimista",
 								"entries": [
-									"{@atk rw} {@hit 4} a impactar, 20 peus d'abast, un objectiu. {@h}2 ({@damage 1d4}) de dany de foc at the start of each of the target's turns. A creature can end this damage by using its action to make a successful {@dc 10} Destresa check to extinguish the flames."
+									"{@atk rw} {@hit 4} a impactar, 20 peus d'abast, un objectiu. {@h}2 ({@damage 1d4}) de dany de foc a l'inici de cadascun dels torns de l'objectiu. Una criatura pot acabar amb aquest dany utilitzant la seva acció per fer una prova correcta de {@dc 10} Destresa per apagar les flames."
 								]
 							}
 						]
@@ -1156,13 +1156,13 @@
 						"L'habilitat de llançament de conjurs innata de The darkhaft és Intel·ligència ({@dc 10} salvació de conjur) pot llançar els següents conjurs innatament, sense requerir components:"
 					],
 					"will": [
-						"{@spell amistar}",
+						"{@spell astar}",
 						"{@spell mà de mag}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell ego camuflatge}",
-							"{@spell adormir}"
+							"{@spell adorar}"
 						]
 					},
 					"ability": "int"
@@ -1172,7 +1172,7 @@
 				{
 					"name": "Resiliència Duergar",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition fascinat} or {@condition paralitzat}."
+						"El duergar té avantatge en els tirs de salvació contra el verí, els encanteris i les il·lusions, així com per resistir-se a ser {@condition fascinat} o {@condition paralitzat}."
 					]
 				},
 				{
@@ -1186,25 +1186,25 @@
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, the màgia duergarally increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+						"Durant 1 minut, la màgia duergaralment augmenta de mida, juntament amb qualsevol cosa que porti o porti. Mentre s'amplia, el duergar és gran, duplica els seus daus de dany als atacs amb armes basats en Força (inclosos als atacs) i fa proves de Força i tirs de salvació de Força amb avantatge. Si el duergar no té l'espai per fer-se Gran, assoleix la màxima mida possible en l'espai disponible."
 					]
 				},
 				{
-					"name": "War Pick",
+					"name": "Selecció de guerra",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant, o 11 ({@damage 2d8 + 2}) de dany perforant while enlarged."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant, o 11 ({@damage 2d8 + 2}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant while enlarged."
+						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The màgia duergarally turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"La màgia duergarally torna {@condition invisible} fins que ataca, llança un encanteri o utilitza el seu Enlarge, o fins que es trenca la seva concentració, fins a 1 hora (com si es concentrés en un encanteri). Qualsevol equip que porti o porti el duergar és {@condition invisible} amb ell."
 					]
 				}
 			],
@@ -1237,7 +1237,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Duergar Keeper of the Flame",
+			"name": "Duergar Guardià de la Flama",
 			"source": "OotA",
 			"page": 226,
 			"size": "M",
@@ -1292,20 +1292,20 @@
 						"L'habilitat de llançament de conjurs innata de The Keeper of the Flame és Saviesa (spell save {@dc 12}.) Pot llançar els següents conjurs innatament, sense requerir components:"
 					],
 					"will": [
-						"{@spell amistar}",
+						"{@spell astar}",
 						"{@spell missatge}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell command}"
+							"{@ordre ortogràfica}"
 						]
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				},
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The Keeper of the Flame és llançador/a de conjurs de nivell 3. La seva habilitat de llançament de conjurs és Saviesa (CD per salvar conjur {@dc 12}, {@hit 4} a impactar amb atacs màgics). The Keeper of the Flame has the following cleric spells prepared:"
+						"The Keeper of the Flame és llançador/a de conjurs de nivell 3. La seva habilitat de llançament de conjurs és Saviesa (CD per salvar conjur {@dc 12}, {@hit 4} a impactar amb atacs màgics). El Guardià de la Flama té preparats els següents encanteris de clergues:"
 					],
 					"spells": {
 						"0": {
@@ -1331,14 +1331,14 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
 					"name": "Resiliència Duergar",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition fascinat} or {@condition paralitzat}."
+						"El duergar té avantatge en els tirs de salvació contra el verí, els encanteris i les il·lusions, així com per resistir-se a ser {@condition fascinat} o {@condition paralitzat}."
 					]
 				},
 				{
@@ -1352,25 +1352,25 @@
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, the màgia duergarally increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+						"Durant 1 minut, la màgia duergaralment augmenta de mida, juntament amb qualsevol cosa que porti o porti. Mentre s'amplia, el duergar és gran, duplica els seus daus de dany als atacs amb armes basats en Força (inclosos als atacs) i fa proves de Força i tirs de salvació de Força amb avantatge. Si el duergar no té l'espai per fer-se Gran, assoleix la màxima mida possible en l'espai disponible."
 					]
 				},
 				{
-					"name": "War Pick",
+					"name": "Selecció de guerra",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant, o 11 ({@damage 2d8 + 2}) de dany perforant while enlarged."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant, o 11 ({@damage 2d8 + 2}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant while enlarged."
+						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant mentre està ampliat."
 					]
 				},
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The màgia duergarally turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"La màgia duergarally torna {@condition invisible} fins que ataca, llança un encanteri o utilitza el seu Enlarge, o fins que es trenca la seva concentració, fins a 1 hora (com si es concentrés en un encanteri). Qualsevol equip que porti o porti el duergar és {@condition invisible} amb ell."
 					]
 				}
 			],
@@ -1404,7 +1404,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Duergar Spore Servant",
+			"name": "Servidor d'espores de Duergar",
 			"source": "OotA",
 			"page": 229,
 			"size": "M",
@@ -1435,7 +1435,7 @@
 			"wis": 6,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 30 peus (sense visió més enllà)"
+				"visió a cegues 30 peus (sens visió més enllà)"
 			],
 			"passive": 8,
 			"resist": [
@@ -1450,7 +1450,7 @@
 			"cr": "1/2",
 			"action": [
 				{
-					"name": "War Pick",
+					"name": "Selecció de guerra",
 					"entries": [
 						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant."
 					]
@@ -1473,7 +1473,7 @@
 			"source": "OotA",
 			"page": 6,
 			"_copy": {
-				"name": "Scout",
+				"name": "Escolta",
 				"source": "MM",
 				"_trait": {
 					"name": "Nan de Muntanya",
@@ -1481,8 +1481,8 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the scout",
+						"mode": "substituirTxt",
+						"replace": "l'escolta",
 						"with": "Eldeth",
 						"flags": "i"
 					}
@@ -1517,7 +1517,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item pectoral|phb}"
 					]
 				}
 			],
@@ -1556,25 +1556,25 @@
 				{
 					"name": "Resiliència Nana",
 					"entries": [
-						"The scout has advantage on saving throws against poison."
+						"L'escolta té avantatge en els tirs de salvació contra el verí."
 					]
 				},
 				{
-					"name": "Keen Hearing and Sight",
+					"name": "Audició i vista agudes",
 					"entries": [
-						"The scout has advantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin l'oïda o la vista."
+						"The scout has advantage a tirades d'habilitat de Saviesa (@skill Percepció}) que involucrin l'oïda o la vista."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"The scout fa dos atacs cos a cos."
 					]
 				},
 				{
-					"name": "War Pick",
+					"name": "Selecció de guerra",
 					"entries": [
 						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant."
 					]
@@ -1594,7 +1594,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -1610,11 +1610,11 @@
 			]
 		},
 		{
-			"name": "Fiendish Giant Spider",
+			"name": "Aranya gegant diabòlica",
 			"source": "OotA",
 			"page": 97,
 			"_copy": {
-				"name": "Giant Wolf Spider",
+				"name": "Aranya llop gegant",
 				"source": "MM"
 			},
 			"resist": [
@@ -1632,7 +1632,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Four-Armed Statue",
+			"name": "Estàtua de quatre braços",
 			"source": "OotA",
 			"page": 206,
 			"_copy": {
@@ -1640,23 +1640,23 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "gòlem",
-						"with": "statue"
+						"with": "estàtua"
 					},
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The statue makes four sword attacks."
+									"L'estàtua fa quatre atacs d'espasa."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Colpeig",
 							"items": {
 								"name": "Espasa",
@@ -1683,17 +1683,17 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the gnoll",
+						"mode": "substituirTxt",
+						"replace": "el gnoll",
 						"with": "Gash",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Wretched",
+							"name": "Miserable",
 							"entries": [
-								"Gash has disadvantage on Saviesa checks and Saviesa saving throws because of the physical and mental abuse he has suffered. A restabliment menor spell rids him of these effects."
+								"Gash té desavantatge en els xecs de Saviesa i en els tirs de salvació de Saviesa a causa del maltractament físic i mental que ha patit. Un encanteri d'establiment menor el desfer d'aquests efectes."
 							]
 						}
 					}
@@ -1714,12 +1714,12 @@
 			"source": "OotA",
 			"page": 141,
 			"_copy": {
-				"name": "Noble",
+				"name": "noble",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
+						"mode": "substituirTxt",
+						"replace": "el noble",
 						"with": "Ghazrim",
 						"flags": "i"
 					}
@@ -1734,7 +1734,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Giant Riding Lizard",
+			"name": "Llangardaix a cavall gegant",
 			"source": "OotA",
 			"page": 131,
 			"size": "L",
@@ -1800,26 +1800,26 @@
 			]
 		},
 		{
-			"name": "Giant Rocktopus",
+			"name": "Rocktopus gegant",
 			"source": "OotA",
 			"page": 28,
 			"_copy": {
-				"name": "Giant Octopus",
+				"name": "Pop gegant",
 				"source": "MM",
 				"_mod": {
 					"trait": [
 						{
-							"mode": "replaceArr",
-							"replace": "Underwater Camouflage",
+							"mode": "substituirArr",
+							"replace": "Camuflatge sota l'aigua",
 							"items": {
-								"name": "Camouflage",
+								"name": "Camuflatge",
 								"entries": [
-									"The octopus has advantage on Destresa (Sigil) checks."
+									"El pop té avantatge a les proves de Destresa."
 								]
 							}
 						},
 						{
-							"mode": "removeArr",
+							"mode": "eliminarArr",
 							"names": "Aguantar la Respiració"
 						}
 					]
@@ -1831,7 +1831,7 @@
 			},
 			"hasToken": true,
 			"traitTags": [
-				"Respirar sota l'aigua"
+				"Respira sota l'aigua"
 			]
 		},
 		{
@@ -1840,12 +1840,12 @@
 			"source": "OotA",
 			"page": 35,
 			"_copy": {
-				"name": "Gelatinous Cube",
+				"name": "Cub gelatinós",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the cube",
+						"mode": "substituirTxt",
+						"replace": "el cub",
 						"with": "Glabbagool",
 						"flags": "i"
 					}
@@ -1853,7 +1853,7 @@
 			},
 			"int": 10,
 			"idiomes": [
-				"telepatía 60 peus"
+				"telepatia 60 peus"
 			],
 			"hasToken": true
 		},
@@ -1867,8 +1867,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mind flayer",
+						"mode": "substituirTxt",
+						"replace": "l'escorxador mental",
 						"with": "Grazilaxx",
 						"flags": "i"
 					}
@@ -1935,7 +1935,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Grisha is a 6th-level-spellcaster. His habilitat de llançament de conjurs is Saviesa ({@dc 12} salvada de conjur, {@hit 4} a impactar amb atacs màgics). Té els següents conjurs de clergue preparats:"
+						"Grisha és una lançadora d'encanteris de 6è nivell. His habilitat de llançament de conjurs is Saviesa ({@dc 12} salvada de conjur, {@hit 4} a impactar amb atacs màgics). Té els següents conjurs de clergue preparats:"
 					],
 					"spells": {
 						"0": {
@@ -1974,18 +1974,18 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Grisha fa dos atacs with his +1 flail."
+						"Grisha fa dos atacs amb el seu flagel +1."
 					]
 				},
 				{
-					"name": "Flail +1",
+					"name": "Flau +1",
 					"entries": [
 						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany contundent"
 					]
@@ -1993,7 +1993,7 @@
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -2041,7 +2041,7 @@
 			"wis": 6,
 			"cha": 1,
 			"senses": [
-				"visió a cegues 30 peus (sense visió més enllà)"
+				"visió a cegues 30 peus (sens visió més enllà)"
 			],
 			"passive": 8,
 			"resist": [
@@ -2056,13 +2056,13 @@
 			"cr": "3",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The spore servant makes two hook attacks."
+						"El servidor d'espores fa dos atacs de ganxo."
 					]
 				},
 				{
-					"name": "Hook",
+					"name": "Ganxo",
 					"entries": [
 						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany perforant."
 					]
@@ -2073,7 +2073,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"P"
@@ -2089,12 +2089,12 @@
 			"source": "OotA",
 			"page": 9,
 			"_copy": {
-				"name": "Drow Priestess of Lolth",
+				"name": "Sacerdotessa drow de Lolth",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the drow",
+						"mode": "substituirTxt",
+						"replace": "el drow",
 						"with": "Ilvara",
 						"flags": "i"
 					},
@@ -2103,7 +2103,7 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"Ilvara wields a {@item tentacle vara} in addition to her scourge."
+								"Ilvara porta un {@item tentacle vara} a més del seu flagell."
 							]
 						}
 					}
@@ -2112,11 +2112,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Infant Basilisk",
+			"name": "Basilisc Infantil",
 			"source": "OotA",
 			"page": 100,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilisc",
 				"source": "MM"
 			},
 			"size": "T",
@@ -2142,7 +2142,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}1 piercing damage plus 1 poison damage."
+						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}1 dany perforant més 1 dany per verí."
 					]
 				}
 			],
@@ -2150,7 +2150,7 @@
 			"conditionInflict": []
 		},
 		{
-			"name": "Infant Hook Horror",
+			"name": "Horror de ganxo infantil",
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
@@ -2185,7 +2185,7 @@
 			"source": "OotA",
 			"page": 225,
 			"size": "S",
-			"type": "aberration",
+			"type": "aberració",
 			"alineament": [
 				"C",
 				"E"
@@ -2233,7 +2233,7 @@
 				{
 					"name": "Cua Espinosa",
 					"entries": [
-						"Quan una criatura provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
+						"Quan una criatura provoca un atac d'oportunitat de l'ixitxachitl, l'ixitxachitl pot fer el següent atac en comptes d'utilitzar la seva mossegada.",
 						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant."
 					]
 				}
@@ -2256,11 +2256,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Ixitxachitl Cleric",
+			"name": "Clergue Ixitxachitl",
 			"source": "OotA",
 			"page": 225,
 			"size": "S",
-			"type": "aberration",
+			"type": "aberració",
 			"alineament": [
 				"C",
 				"E"
@@ -2300,7 +2300,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"El ixitxachitl és un llançador de conjurs de nivell 5. La seva habilitat de conjur és Saviesa ({@dc 11} salvada de conjur), {@hit 3} a impactar amb atacs màgics). The ixitxachitl has the following cleric spells prepared:"
+						"El ixitxachitl és un llançador de conjurs de nivell 5. La seva habilitat de conjur és Saviesa ({@dc 11} salvada de conjur), {@hit 3} a impactar amb atacs màgics). L'ixitxachitl té preparats els següents encanteris clergues:"
 					],
 					"spells": {
 						"0": {
@@ -2331,7 +2331,7 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"action": [
@@ -2346,7 +2346,7 @@
 				{
 					"name": "Cua Espinosa",
 					"entries": [
-						"Quan una criatura provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
+						"Quan una criatura provoca un atac d'oportunitat de l'ixitxachitl, l'ixitxachitl pot fer el següent atac en comptes d'utilitzar la seva mossegada.",
 						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant."
 					]
 				}
@@ -2371,7 +2371,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Jade Giant Spider",
+			"name": "Aranya gegant de jade",
 			"source": "OotA",
 			"page": 201,
 			"_copy": {
@@ -2379,9 +2379,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "gòlem",
-						"with": "spider",
+						"with": "aranya",
 						"flags": "i"
 					}
 				}
@@ -2408,12 +2408,12 @@
 				"name": "Espia",
 				"source": "MM",
 				"_trait": {
-					"name": "Gnom de les profunditatse",
+					"name": "Gnom de les profunditats",
 					"source": "DMG"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'espia",
 						"with": "Jimjar",
 						"flags": "i"
@@ -2426,7 +2426,7 @@
 			]
 		},
 		{
-			"name": "Juvenile Hook Horror",
+			"name": "Horror de ganxo juvenil",
 			"source": "OotA",
 			"page": 34,
 			"_copy": {
@@ -2434,10 +2434,10 @@
 				"source": "MM",
 				"_mod": {
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Hook",
+						"mode": "substituirArr",
+						"replace": "Ganxo",
 						"items": {
-							"name": "Hook",
+							"name": "Ganxo",
 							"entries": [
 								"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant."
 							]
@@ -2475,12 +2475,12 @@
 				"name": "Espia",
 				"source": "MM",
 				"_trait": {
-					"name": "High Elf",
+					"name": "Alt Elf",
 					"source": "PHB"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'espia",
 						"with": "Khalessa",
 						"flags": "i"
@@ -2494,7 +2494,7 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"Khalessa owns a {@item barret de camuflatge}, which she uses to appear as a female drow while in the company of drow."
+								"La Khalessa té un {@item barret de camuflatge}, que fa servir per aparèixer com una dona drow mentre està en companyia d'un drow."
 							]
 						}
 					}
@@ -2530,7 +2530,7 @@
 			"source": "OotA",
 			"page": 134,
 			"_copy": {
-				"name": "Assassí",
+				"name": "Assassi",
 				"source": "MM",
 				"_trait": {
 					"name": "Drow",
@@ -2538,8 +2538,8 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"mode": "substituirTxt",
+						"replace": "l'assassí",
 						"with": "Kinyel",
 						"flags": "i"
 					}
@@ -2565,8 +2565,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the gnoll",
+						"mode": "substituirTxt",
+						"replace": "el gnoll",
 						"with": "Kurr",
 						"flags": "i"
 					}
@@ -2575,7 +2575,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Lords' Alliance Guard",
+			"name": "Guàrdia de l'Aliança dels Senyors",
 			"source": "OotA",
 			"page": 131,
 			"size": "M",
@@ -2623,13 +2623,13 @@
 				{
 					"name": "Resiliència Nana",
 					"entries": [
-						"The guard has advantage on saving throws against poison."
+						"El guàrdia té avantatge en els tirs de salvació contra el verí."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Halberd",
+					"name": "Alabarda",
 					"entries": [
 						"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany tallant."
 					]
@@ -2648,7 +2648,7 @@
 			]
 		},
 		{
-			"name": "Lords' Alliance Spy",
+			"name": "Espía de l'Aliança dels Senyors",
 			"source": "OotA",
 			"page": 131,
 			"size": "M",
@@ -2701,21 +2701,21 @@
 				{
 					"name": "Acció Astuta",
 					"entries": [
-						"On each of its turns, the spy pot Córrer, Destravar-se o Amagar-se com a acció bonus."
+						"En cadascun dels seus torns, l'olla espia Córrer, Destravar-se o Amagar-se com a bonus d'acció."
 					]
 				},
 				{
 					"name": "Atac Furtiu (1/Torn)",
 					"entries": [
-						"The spy deals an extra 7 ({@dice 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't {@condition incapacitat} and the spy doesn't have disadvantage on the attack roll."
+						"L'espia fa 7 ({@das 2d6}) de dany addicionals quan colpeja un objectiu amb un atac d'arma i té avantatge en la tirada d'atac, o quan l'objectiu es troba a 5 peus d'un aliat de l'espia que no sigui { @condition incapacitat} i l'espia no té desavantatge a la tirada d'atac."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The spy fa dos atacs cos a cos."
+						"L'espia fa dos atacs cos a cos."
 					]
 				},
 				{
@@ -2725,7 +2725,7 @@
 					]
 				},
 				{
-					"name": "Hand Crossbow",
+					"name": "Ballesta de mà",
 					"entries": [
 						"{@atk rw} {@hit 4} a impactar, 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant."
 					]
@@ -2736,7 +2736,7 @@
 				"Atac Furtiu"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -2757,63 +2757,63 @@
 			"source": "OotA",
 			"page": 141,
 			"_copy": {
-				"name": "Beholder",
+				"name": "Mirador",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the beholder",
+						"mode": "substituirTxt",
+						"replace": "l'espectador",
 						"with": "Lorthuun",
 						"flags": "i"
 					},
 					"action": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Rajos d'Ull",
 						"items": {
 							"name": "Rajos d'Ull",
 							"entries": [
-								"The beholder shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
+								"L'espectador dispara tres dels següents raigs d'ulls màgics a l'atzar (rerollen duplicats), escollint d'un a tres objectius que pot veure a 120 peus d'ell:",
 								{
-									"type": "list",
-									"style": "list-hang-notitle",
+									"type": "llista",
+									"style": "llista-penja-sense títol",
 									"items": [
 										{
-											"type": "item",
-											"name": "1. Charm Ray.",
-											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Saviesa amb {@dc 16} or be {@condition fascinat} by the beholder durant 1 hora, or until the beholder harms the creature."
+											"type": "article",
+											"name": "1. Encant Ray.",
+											"style": "cursiva",
+											"entry": "The targeted creature ha de salvar per Saviesa amb {@dc 16} or be {@condition fascinat} by the beholder durant 1 hora, o fins que l'observador fa mal a la criatura."
 										},
 										{
-											"type": "item",
-											"name": "2. Paralyzing Ray.",
-											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Constitució amb {@dc 16} or be {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+											"type": "article",
+											"name": "2. Raig paralitzant.",
+											"style": "cursiva",
+											"entry": "The targeted creature ha de salvar per Constitució amb {@dc 16} or be {@condition paralitzat} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 										},
 										{
-											"type": "item",
-											"name": "3. Fear Ray.",
-											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Saviesa amb {@dc 16} or be {@condition acovardit} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+											"type": "article",
+											"name": "3. Ray de por.",
+											"style": "cursiva",
+											"entry": "The targeted creature ha de salvar per Saviesa amb {@dc 16} or be {@condition acovardit} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 										},
 										{
-											"type": "item",
-											"name": "4. Slowing Ray.",
-											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Destresa amb {@dc 16}. Si falla, the target's speed is halved durant 1 minut. A més, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+											"type": "article",
+											"name": "4. Raig alentint.",
+											"style": "cursiva",
+											"entry": "The targeted creature ha de salvar per Destresa amb {@dc 16}. Si falla, la velocitat de l'objectiu es redueix a la meitat durant 1 minut. A més, la criatura no pot prendre reaccions, i pot fer una acció o una acció addicional al seu torn, no totes dues. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 										},
 										{
-											"type": "item",
-											"name": "5. Enervation Ray.",
-											"style": "italic",
-											"entry": "The targeted creature ha de salvar per Constitució amb {@dc 16}. Qui falli rep 36 ({@damage 8d8}) de dany necròtic; qui superi, en rep la meitat."
+											"type": "article",
+											"name": "5. Raig d'enervació.",
+											"style": "cursiva",
+											"entry": "The targeted creature ha de salvar per Constitució amb {@dc 16}. Qui falli rep 36 (@damage 8d8}) de dany necròtic; qui superi, en rep la meitat."
 										},
 										{
-											"type": "item",
-											"name": "6. Telekinetic Ray.",
-											"style": "italic",
+											"type": "article",
+											"name": "6. Raig telecinètic.",
+											"style": "cursiva",
 											"entries": [
-												"If the target is a creature, ha de salvar per Força amb {@dc 16} or the beholder moves it fins a 30 peus in any direction. It is {@condition restrained} by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is {@condition incapacitat}.",
-												"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved fins a 30 peus in any direction. The beholder can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
+												"Si l'objectiu és una criatura, ha de salvar per Força amb {@dc 16} o l'espectador ho mou fins a 30 peus en qualsevol direcció. És {@condition restringit} per l'adherència telecinètica del raig fins a l'inici del següent torn de l'espectador o fins que l'espectador és {@condition incapacitat}.",
+												"Si l'objectiu és un objecte que pesi 300 lliures o menys que no es porta ni es porta, es mou fins a 30 peus en qualsevol direcció. L'espectador també pot exercir un control fi sobre els objectes amb aquest raig, com ara manipular una eina senzilla o obrir una porta o un contenidor."
 											]
 										}
 									]
@@ -2884,13 +2884,13 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Narrak és llançador/a de conjurs de nivell 5. La seva habilitat de llançament de conjurs és Carisma (Save {@dc 13}, {@hit 5} a impactar amb atacs màgics) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest. Coneix els encanteris de bruixot següents:"
+						"Narrak és llançador/a de conjurs de nivell 5. La seva habilitat de llançament de conjurs és Carisma (Save {@dc 13}, {@hit 5} a impactar amb atacs màgics) Narrak has two 2nd-level spell slots, which he recupera després d'acabar un descans curt o llarg. Coneix els canters de bruixot següents en:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell missil èldritx}",
-								"{@spell amistar}",
+								"{@spell míssil èldritx}",
+								"{@spell astar}",
 								"{@spell esprai de verí}"
 							]
 						},
@@ -2907,12 +2907,12 @@
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
-					"name": "Insanity",
+					"name": "bogeria",
 					"entries": [
 						"Narrak té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
@@ -2926,7 +2926,7 @@
 				{
 					"name": "Sensible al Sol",
 					"entries": [
-						"Narrak té desavantatge quan li toca llum solar, as well as a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista."
+						"Narrak té desavantatges quan li toca llum solar, as well as a tirades d'habilitat de Saviesa (@skill Percepció}) que involucrin la vista."
 					]
 				}
 			],
@@ -2934,7 +2934,7 @@
 				{
 					"name": "Armadura d'Ombres (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Narrak casts armadura de mag on himself"
+						"Narrak es llança armadura de mag sobre ell mateix"
 					]
 				},
 				{
@@ -2946,7 +2946,7 @@
 				{
 					"name": "Esdevenir les Ombres",
 					"entries": [
-						"While he is in a dim light or darkness, Narrak can become {@condition invisible}. He remains so until he moves or takes an action or reaction."
+						"Mentre es troba amb una llum tènue o foscor, Narrak pot esdevenir {@condition invisible}. Continua així fins que es mou o fa una acció o reacció."
 					]
 				}
 			],
@@ -2986,8 +2986,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the kuo-toa",
+						"mode": "substituirTxt",
+						"replace": "el kuo-toa",
 						"with": "Ougalop",
 						"flags": "i"
 					}
@@ -3004,12 +3004,12 @@
 				"name": "Espia",
 				"source": "MM",
 				"_trait": {
-					"name": "Gnom de les profunditatse",
+					"name": "Gnom de les profunditats",
 					"source": "DMG"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'espia",
 						"with": "Peebles",
 						"flags": "i"
@@ -3022,7 +3022,7 @@
 			]
 		},
 		{
-			"name": "Prince Derendil",
+			"name": "El príncep Derendil",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 6,
@@ -3031,9 +3031,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the quaggoth",
-						"with": "Prince Derendil",
+						"mode": "substituirTxt",
+						"replace": "el quaggoth",
+						"with": "El príncep Derendil",
 						"flags": "i"
 					}
 				}
@@ -3041,18 +3041,18 @@
 			"hasToken": true
 		},
 		{
-			"name": "Princess Ebonmire",
+			"name": "Princesa Ebonmire",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 111,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pudding negre",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the pudding",
-						"with": "Princess Ebonmire",
+						"mode": "substituirTxt",
+						"replace": "el pudding",
+						"with": "Princesa Ebonmire",
 						"flags": "i"
 					}
 				}
@@ -3062,18 +3062,18 @@
 				{
 					"name": "Pseudòpode",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 30 ft., un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany contundent mes 18 ({@damage 4d8}) de dany d'àcid. A més, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative \u22121 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 30 ft., un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany contundent mes 18 ({@damage 4d8}) de dany d'àcid. Una armadura més, no màgica que porta l'objectiu es dissol parcialment i comporta una penalització permanent i acumulada de -1 a la CA que ofereix. L'armadura es destrueix si la penalització redueix la seva CA a 10."
 					]
 				}
 			],
 			"hasToken": true
 		},
 		{
-			"name": "Regenerating Black Pudding",
+			"name": "Pudín negre regenerador",
 			"source": "OotA",
 			"page": 211,
 			"_copy": {
-				"name": "Black Pudding",
+				"name": "Pudding negre",
 				"source": "MM",
 				"_mod": {
 					"trait": {
@@ -3081,7 +3081,7 @@
 						"items": {
 							"name": "Regeneració",
 							"entries": [
-								"The pudding recupera 10 punts de toc a l'inici del seu torn. If the pudding takes fire damage, this trait doesn't function at the start of the pudding's next turn. The pudding dies only if it starts its turn with 0 hit points and doesn't regenerate."
+								"The pudding recupera 10 punts de toc a l'inici del seu torn. Si el budín rep danys per foc, aquest tret no funciona al començament del següent torn del pudding. El pudding només mor si comença el seu torn amb 0 punts de vida i no es regenera."
 							]
 						}
 					}
@@ -3106,8 +3106,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the orc",
+						"mode": "substituirTxt",
+						"replace": "l'orc",
 						"with": "Ront",
 						"flags": "i"
 					}
@@ -3121,12 +3121,12 @@
 			"source": "OotA",
 			"page": 72,
 			"_copy": {
-				"name": "Myconid Sprout",
+				"name": "Brot micònid",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the myconid",
+						"mode": "substituirTxt",
+						"replace": "el micònid",
 						"with": "Rumpadump",
 						"flags": "i"
 					}
@@ -3144,7 +3144,7 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "l'espia",
 						"with": "Rystia",
 						"flags": "i"
@@ -3173,8 +3173,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the drow",
+						"mode": "substituirTxt",
+						"replace": "el drow",
 						"with": "Sarith",
 						"flags": "i"
 					}
@@ -3192,8 +3192,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mage",
+						"mode": "substituirTxt",
+						"replace": "el mag",
 						"with": "Shedrak",
 						"flags": "i"
 					}
@@ -3211,16 +3211,16 @@
 			],
 			"trait": [
 				{
-					"name": "Eye Tattoos",
+					"name": "Tatuatges d'ulls",
 					"entries": [
-						"Shedrak has ten small eyes tattooed on his bald head that allow him to see invisible creatures and objects as if they were visible."
+						"Shedrak té deu petits ulls tatuats al cap calb que li permeten veure criatures i objectes invisibles com si fossin visibles."
 					]
 				}
 			],
 			"hasToken": true
 		},
 		{
-			"name": "Shuushar the Awakened",
+			"name": "Shuushar el Despertat",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 7,
@@ -3229,8 +3229,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the kuo-toa",
+						"mode": "substituirTxt",
+						"replace": "el kuo-toa",
 						"with": "Shuushar",
 						"flags": "i"
 					}
@@ -3248,8 +3248,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the troglodita",
+						"mode": "substituirTxt",
+						"replace": "la troglodita",
 						"with": "Skriss",
 						"flags": "i"
 					}
@@ -3266,13 +3266,13 @@
 				"name": "Druida",
 				"source": "MM",
 				"_trait": {
-					"name": "High Elf",
+					"name": "Alt Elf",
 					"source": "PHB"
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the druida",
+						"mode": "substituirTxt",
+						"replace": "la druida",
 						"with": "Sladis",
 						"flags": "i"
 					},
@@ -3297,12 +3297,12 @@
 			"source": "OotA",
 			"page": 29,
 			"_copy": {
-				"name": "Kuo-toa Archpriest",
+				"name": "Arxiprest de Kuo-toa",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the kuo-toa",
+						"mode": "substituirTxt",
+						"replace": "el kuo-toa",
 						"with": "Sloopidoop",
 						"flags": "i"
 					}
@@ -3311,18 +3311,18 @@
 			"hasToken": true
 		},
 		{
-			"name": "Sovereign Basidia",
+			"name": "Basidia sobirana",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 88,
 			"_copy": {
-				"name": "Myconid Sovereign",
+				"name": "Sobirà Micònid",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the myconid",
-						"with": "Basidia",
+						"mode": "substituirTxt",
+						"replace": "el micònid",
+						"with": "Basídia",
 						"flags": "i"
 					}
 				}
@@ -3339,20 +3339,20 @@
 			]
 		},
 		{
-			"name": "Spider King",
+			"name": "Rei aranya",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 74,
 			"_copy": {
-				"name": "Giant Spider",
+				"name": "Aranya gegant",
 				"source": "MM",
 				"_mod": {
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Two Heads",
+							"name": "Dos Caps",
 							"entries": [
-								"Because of its two heads, the Spider King has advantage on Saviesa ({@skill Percepció}) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
+								"A causa dels seus dos caps, el Rei Aranya té avantatge en les proves de Saviesa ({@skill Percepció}) i en els tirs de salvació contra ser {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit} , {@condition atordit} i va fer caure {@condition inconscient}."
 							]
 						}
 					}
@@ -3392,8 +3392,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the goblin",
+						"mode": "substituirTxt",
+						"replace": "el follet",
 						"with": "Spiderbait",
 						"flags": "i"
 					}
@@ -3410,18 +3410,18 @@
 			"hasToken": true
 		},
 		{
-			"name": "Stool",
+			"name": "Tamboret",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 7,
 			"_copy": {
-				"name": "Myconid Sprout",
+				"name": "Brot micònid",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the myconid",
-						"with": "Stool",
+						"mode": "substituirTxt",
+						"replace": "el micònid",
+						"with": "Tamboret",
 						"flags": "i"
 					}
 				}
@@ -3429,7 +3429,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "The Pudding King",
+			"name": "El rei del pudí",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 233,
@@ -3498,10 +3498,10 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innata de The Pudding King és Intel·ligència ({@dc 12} salvació de conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innata de The Pudding King és Intel·ligència ({@dc 12} salvació de conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
-						"{@spell indetectable} (self only)"
+						"{@spell indetectable} (només propi)"
 					],
 					"daily": {
 						"1e": [
@@ -3515,7 +3515,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The Pudding King és llançador/a de conjurs de nivell 9. La seva habilitat de llançament de conjurs és Carisma (CD per salvar conjur {@dc 14}, {@hit 6} a impactar amb atacs màgics). The Puddin. Coneix els encanteris de fetiller següents:"
+						"The Pudding King és llançador/a de conjurs de nivell 9. La seva habilitat de llançament de conjurs és Carisma (CD per salvar conjur {@dc 14}, {@hit 6} a impactar amb atacs màgics). El Pudín. Coneix els encanteris de fetiller següents:"
 					],
 					"spells": {
 						"0": {
@@ -3564,14 +3564,14 @@
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
-					"name": "Camuflatge Petri",
+					"name": "Camuflage Petri",
 					"entries": [
-						"The Pudding King has advantage on Destresa (Sigil) checks made per a amagar-se en un terreny pedregós."
+						"The Pudding King té avantatge en els controls de Destresa (Sigilo) fets per a amagar-se en un terreny pedregós."
 					]
 				},
 				{
@@ -3581,7 +3581,7 @@
 					]
 				},
 				{
-					"name": "Insanity",
+					"name": "bogeria",
 					"entries": [
 						"The Pudding King té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
@@ -3589,7 +3589,7 @@
 			],
 			"action": [
 				{
-					"name": "War Pick",
+					"name": "Selecció de guerra",
 					"entries": [
 						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany perforant."
 					]
@@ -3597,13 +3597,13 @@
 				{
 					"name": "Canviar de Forma",
 					"entries": [
-						"The Pudding King magically transforms into an {@filter ooze|bestiary|type=ooze}, or back into his true form. He reverts to his true form if he dies. Any equipment he is wearing or carrying is absorbed by the new form. In ooze form, the Pudding King retains his alignment, hit points, Hit Dice, and Intel·ligència, Saviesa, and Carisma scores, as well as this action. His statistics and capabilities are otherwise replaced by those of the new form."
+						"El rei del pudí es transforma màgicament en un {@filter ooze|bestiary|type=ooze}, o torna a la seva veritable forma. Torna a la seva veritable forma si mor. Qualsevol equip que porti o porti és absorbit pel nou formulari. En forma de sudor, el Pudding King conserva la seva alineació, els punts de vida, els daus d'èxit i les puntuacions d'Intel·ligència, Saviesa i Carisma, així com aquesta acció. Les seves estadístiques i capacitats són substituïdes per les de la nova forma."
 					]
 				},
 				{
 					"name": "Create Green Slime (es Recarrega amb un Descans Llarg)",
 					"entries": [
-						"The Pudding King creates a patch of green slime (see \"Dungeon Hazards\" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King."
+						"El Pudding King crea un pegat de llim verd (vegeu \"Dungeon Hazards\" al capítol 5 de la Guia del Dungeon Master). El llim apareix en una secció de paret, sostre o terra a 30 peus del Pudding King."
 					]
 				}
 			],
@@ -3645,8 +3645,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"mode": "substituirTxt",
+						"replace": "el drac",
 						"with": "Themberchaud",
 						"flags": "i"
 					}
@@ -3664,8 +3664,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the wererat",
+						"mode": "substituirTxt",
+						"replace": "l'homerat",
 						"with": "Topsy",
 						"flags": "i"
 					}
@@ -3674,7 +3674,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Troglodita Champion of Laogzed",
+			"name": "Troglodita Campió de Laogzed",
 			"source": "OotA",
 			"page": 229,
 			"size": "M",
@@ -3726,13 +3726,13 @@
 				{
 					"name": "Pell Camaleònica",
 					"entries": [
-						"The troglodita has advantage on Destresa (Sigil) checks made to hide."
+						"La troglodita té avantatge en les proves de Destresa (Sigil) fetes per amagar-se."
 					]
 				},
 				{
 					"name": "Ferum",
 					"entries": [
-						"Any creature other than a troglodita that starts its turn within 5 feet of the troglodita ha de salvar per Constitució amb {@dc 14} or be {@condition emmetzinat} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all trogloditas durant 1 hora."
+						"Qualsevol criatura que no sigui una troglodita que comenci el seu torn a 5 peus de la troglodita ha de salvar per Constitució amb {@dc 14} o sigui {@condition emmetzinat} fins a l'inici del següent torn de la criatura. En una tirada de salvació reeixida, la criatura és immune a la pudor de totes les trogloditas durant 1 hora."
 					]
 				},
 				{
@@ -3744,9 +3744,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The troglodita fa tres atacs: one with its bite and two with either its claws or its greatclub."
+						"La troglodita fa tres atacs: una amb la seva mossegada i dues amb les seves urpes o amb la seva gran porra."
 					]
 				},
 				{
@@ -3762,15 +3762,15 @@
 					]
 				},
 				{
-					"name": "Greatclub",
+					"name": "Gran club",
 					"entries": [
 						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d8 + 4}) de dany contundent."
 					]
 				},
 				{
-					"name": "Acid Spray {@recharge}",
+					"name": "Spray àcid {@recharge}",
 					"entries": [
-						"The troglodita spits acid in a line 15 feet long and 5 feet wide. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 14}. Qui falli rep 10 ({@damage 3d6}) de dany d'àcid; qui superi, en rep la meitat."
+						"La troglodita escupe àcid en una línia de 15 peus de llarg i 5 d'ample. Tota criatura dins de la línia ha de salvar per Destresa amb {@dc 14}. Qui falli rep 10 ({@damage 3d6}) de dany d'àcid; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -3781,7 +3781,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"OTH"
@@ -3810,8 +3810,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the wererat",
+						"mode": "substituirTxt",
+						"replace": "l'homerat",
 						"with": "Turvy",
 						"flags": "i"
 					}
@@ -3824,7 +3824,7 @@
 			"source": "OotA",
 			"page": 226,
 			"size": "M",
-			"type": "aberration",
+			"type": "aberració",
 			"alineament": [
 				"C",
 				"E"
@@ -3864,7 +3864,7 @@
 				{
 					"name": "Mossegada Vampírica",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant. The target ha de salvar per Constitució amb {@dc 11} or its punts de vida màxims is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. La reducció dura fins que l'objectiu acabi un Descans Llarg. The target dies if its punts de vida màxims is reduced to 0."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant. L'objectiu ha de salvar per Constitució amb {@dc 11} o els seus punts de vida màxims es redueix en una quantitat igual al dany rebut, i l'ixitxachitl recupera punts de vida iguals a aquesta quantitat. La reducció dura fins que l'objectiu acabi un Descans Llarg. L'objectiu mor si els seus punts de vida màxims es redueixen a 0."
 					]
 				}
 			],
@@ -3872,7 +3872,7 @@
 				{
 					"name": "Cua Espinosa",
 					"entries": [
-						"Quan una criatura provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
+						"Quan una criatura provoca un atac d'oportunitat de l'ixitxachitl, l'ixitxachitl pot fer el següent atac en comptes d'utilitzar la seva mossegada.",
 						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 1d10 + 4}) de dany perforant."
 					]
 				}
@@ -3894,11 +3894,11 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Vampiric Ixitxachitl Cleric",
+			"name": "Clergue Vampiric Ixitxachitl",
 			"source": "OotA",
 			"page": 226,
 			"size": "M",
-			"type": "aberration",
+			"type": "aberració",
 			"alineament": [
 				"C",
 				"E"
@@ -3938,7 +3938,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"El ixitxachitl és un llançador de conjurs de nivell 5. La seva habilitat de conjur és Saviesa ({@dc 11} salvada de conjur), {@hit 3} a impactar amb atacs màgics). The ixitxachitl has the following cleric spells prepared:"
+						"El ixitxachitl és un llançador de conjurs de nivell 5. La seva habilitat de conjur és Saviesa ({@dc 11} salvada de conjur), {@hit 3} a impactar amb atacs màgics). L'ixitxachitl té preparats els següents encanteris clergues:"
 					],
 					"spells": {
 						"0": {
@@ -3969,14 +3969,14 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"action": [
 				{
 					"name": "Mossegada Vampírica",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant. The target ha de salvar per Constitució amb {@dc 11} or its punts de vida màxims is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. La reducció dura fins que l'objectiu acabi un Descans Llarg. The target dies if its punts de vida màxims is reduced to 0."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany perforant. L'objectiu ha de salvar per Constitució amb {@dc 11} o els seus punts de vida màxims es redueix en una quantitat igual al dany rebut, i l'ixitxachitl recupera punts de vida iguals a aquesta quantitat. La reducció dura fins que l'objectiu acabi un Descans Llarg. L'objectiu mor si els seus punts de vida màxims es redueixen a 0."
 					]
 				}
 			],
@@ -3984,7 +3984,7 @@
 				{
 					"name": "Cua Espinosa",
 					"entries": [
-						"Quan una criatura provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
+						"Quan una criatura provoca un atac d'oportunitat de l'ixitxachitl, l'ixitxachitl pot fer el següent atac en comptes d'utilitzar la seva mossegada.",
 						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 1d10 + 4}) de dany perforant."
 					]
 				}
@@ -4014,12 +4014,12 @@
 			"source": "OotA",
 			"page": 151,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilisc",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the basilisk",
+						"mode": "substituirTxt",
+						"replace": "el basilisc",
 						"with": "Veldyskar",
 						"flags": "i"
 					}
@@ -4050,7 +4050,7 @@
 			]
 		},
 		{
-			"name": "Veteran of the Gauntlet",
+			"name": "Veterà del Guantelet",
 			"source": "OotA",
 			"page": 130,
 			"size": "M",
@@ -4097,9 +4097,9 @@
 			"cr": "3",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+						"El veterà fa dos atacs d'espasa llarga. Si té una espasa curta dibuixada, també pot fer un atac d'espasa curta."
 					]
 				},
 				{
@@ -4123,7 +4123,7 @@
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -4145,7 +4145,7 @@
 			"source": "OotA",
 			"page": 155,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimat",
 				"source": "MM",
 				"_trait": {
 					"name": "Drow",
@@ -4153,8 +4153,8 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"mode": "substituirTxt",
+						"replace": "l'arximag",
 						"with": "Vizeran",
 						"flags": "i"
 					}
@@ -4176,17 +4176,17 @@
 			]
 		},
 		{
-			"name": "Xazax the Eyemonger",
+			"name": "Xazax l'eyemonger",
 			"isNpc": true,
 			"source": "OotA",
 			"page": 142,
 			"_copy": {
-				"name": "Beholder",
+				"name": "Mirador",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the beholder",
+						"mode": "substituirTxt",
+						"replace": "l'espectador",
 						"with": "Xazax",
 						"flags": "i"
 					}
@@ -4204,8 +4204,8 @@
 				"source": "MTF",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the derro savant",
+						"mode": "substituirTxt",
+						"replace": "el derro savant",
 						"with": "Y",
 						"flags": "i"
 					}
@@ -4258,7 +4258,7 @@
 			],
 			"idiomes": [
 				"Abismal",
-				"telepatía 60 peus"
+				"telepatia 60 peus"
 			],
 			"cr": "4",
 			"trait": [
@@ -4277,30 +4277,30 @@
 					]
 				},
 				{
-					"name": "Caustic Spores (1/Dia)",
+					"name": "Espores càustiques (1/dia)",
 					"entries": [
-						"Yestabrod releases spores en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 12} or rep {@dice 1d6} de dany d'àcid at the start of each of Yestabrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success."
+						"Yestabrod releases spores en un amb de 30 peus. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 12} o rep {@dice 1d6} de dany d'àcid a l'inici de cada torn de Yestabrod. Una criatura pot repetir la tirada de salvació al final de cadascun dels seus torns, acabant amb l'efecte sobre si mateixa en cas d'èxit."
 					]
 				},
 				{
-					"name": "Infestació Spores (1/Dia)",
+					"name": "Infecció Spores (1/Dia)",
 					"entries": [
-						"Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers durant 1 minut. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, ha de salvar per Constitució amb {@dc 12}. Si supera, the creature can't be infected by these spores for 24 hours. Si falla, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+						"Yestabrod allibera espores que esclaten en un núvol que omple una esfera de 10 peus de radi centrada en ella, i el núvol es perdura durant 1 minut. Qualsevol criatura de carn i ossos del núvol quan apareix, o que hi entri més tard, ha de salvar per Constitució amb {@dc 12}. Si supera, la criatura no es pot infectar per aquestes espores durant 24 hores. Si falla, la criatura està infectada amb una malaltia anomenada espores de Zuggtmoy i també guanya una forma aleatòria de bogeria indefinida (determinada fent rodar a la taula Madness of Zuggtmoy de l'apèndix D) que dura fins que la criatura es cura de la malaltia o mor. . Mentre estigui infectada d'aquesta manera, la criatura no es pot reinfectar, i s'ha de repetir la tirada de salvació al final de cada 24 hores, acabant la infecció amb èxit. En un fracàs, el cos de la criatura infectada és agafat lentament pel creixement dels fongs, i després de tres estalvis fallits, la criatura mor i es reanima com a servidor d'espores si és un tipus de criatura que pot ser (vegeu l'entrada \"Micònids\" a el Manual del monstre)."
 					]
 				}
 			],
 			"legendaryActions": 2,
 			"legendary": [
 				{
-					"name": "Corpse Burst",
+					"name": "Esclat de cadàvers",
 					"entries": [
-						"Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod. Creatures within 10 feet of the corpse ha de salvar per Destresa amb {@dc 12} or take 7 ({@damage 2d6}) de dany d'àcid."
+						"Gore, vísceres i àcid surten d'un cadàver a 20 peus de Yestabrod. Les criatures a 10 peus del cadàver han de salvar per Destresa amb {@dc 12} o prendre 7 ({@damage 2d6}) de dany d'àcid."
 					]
 				},
 				{
-					"name": "Foul Absorption",
+					"name": "Absorció dolenta",
 					"entries": [
-						"Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining {@dice 1d8 + 2} hit points"
+						"Yestabrod absorbeix la putrescència d'un cadàver a 5 peus d'ell, recuperant {@dices 1d8 + 2} punts de vida"
 					]
 				}
 			],
@@ -4327,11 +4327,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Young Basilisk",
+			"name": "Jove Basilisc",
 			"source": "OotA",
 			"page": 100,
 			"_copy": {
-				"name": "Basilisk",
+				"name": "Basilisc",
 				"source": "MM"
 			},
 			"size": "S",
@@ -4356,9 +4356,9 @@
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"If a creature starts its turn within 15 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a {@dc 12} Constitució saving throw if the basilisk isn't {@condition incapacitat}. Si falla, the creature magically begins to turn to stone i està {@condition restrained}. It must repeat the saving throw Al final del seu proper torn. On a success, the effect ends. On a failure, the creature is {@condition petrificat} until freed by the  {@spell restabliment superior} spell or other magic.",
-						"A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk fins a l'inici del seu següent torn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.",
-						"If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze."
+						"Si una criatura comença el seu torn a 15 peus del basilisc i tots dos es poden veure, el basilisc pot forçar la criatura a fer una tirada de salvació de {@dc 12} Constitució si el basilisc no és {@condition incapacitat} . Si falla, la criatura com a màgia comença a convertir-se en pedra i està {@condition restrained}. Ha de repetir el tir de salvació Al final del seu propi trencat. En cas d'èxit, l'efecte s'acaba. En cas d'error, la criatura és {@condition petrificat} fins que l'allibera l'encanteri {@spell restabliment superior} o una altra màgia.",
+						"Una criatura que no s'estranya pot desviar els ulls per evitar la tirada de salvació al començament del seu torn. Si ho fa, no pot veure les aletes del basilisc a l'inici del seu següent esquinçat, quan pot tornar a desviar els ulls. Si mentrestant mira el basilisc, immediatament ha de fer la guarda.",
+						"Si el basilisc veu el seu reflex a 30 peus d'ell amb llum brillant, s'equivoca amb un rival i s'orienta amb la seva mirada."
 					]
 				}
 			],
@@ -4381,10 +4381,10 @@
 				"source": "MM",
 				"_mod": {
 					"action": {
-						"mode": "replaceArr",
-						"replace": "Hook",
+						"mode": "substituirArr",
+						"replace": "Ganxo",
 						"items": {
-							"name": "Hook",
+							"name": "Ganxo",
 							"entries": [
 								"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany perforant."
 							]
@@ -4423,8 +4423,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the goblin",
+						"mode": "substituirTxt",
+						"replace": "el follet",
 						"with": "Yuk Yuk",
 						"flags": "i"
 					}
@@ -4493,9 +4493,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The thug makes two melee attacks"
+						"El maton fa dos atacs cos a cos"
 					]
 				},
 				{
@@ -4516,7 +4516,7 @@
 				"Estratègies de Manada"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -4545,8 +4545,8 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mage",
+						"mode": "substituirTxt",
+						"replace": "el mag",
 						"with": "Zilchyn",
 						"flags": "i"
 					}

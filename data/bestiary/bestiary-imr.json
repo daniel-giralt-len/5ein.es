@@ -21,17 +21,17 @@
 			}
 		},
 		"internalCopies": [
-			"monster"
+			"monstre"
 		]
 	},
 	"monster": [
 		{
-			"name": "\"The Demogorgon\"",
+			"name": "\"El Demogorgon\"",
 			"isNpc": true,
 			"source": "IMR",
 			"page": 53,
 			"size": "L",
-			"type": "giant",
+			"type": "gegant",
 			"alineament": [
 				"C",
 				"N"
@@ -71,23 +71,23 @@
 			"cr": "8",
 			"trait": [
 				{
-					"name": "Two Heads",
+					"name": "Dos Caps",
 					"entries": [
-						"The ettin has advantage on Saviesa (Percepció) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
+						"L'ettin té avantatge en les escaques de Saviesa (Percepció) i en els tirs de salvació per ser {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit} i toquejat {@ condició inconscient}."
 					]
 				},
 				{
-					"name": "Wakeful",
+					"name": "Despert",
 					"entries": [
-						"When one of the ettin's heads is asleep, its other head is awake."
+						"Quan un dels caps de l'ettin està adormit, l'altre cap està despert."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The ettin fa dos atacs: one with its battleaxe and one with its morningstar."
+						"L'ettin fa dos atacs: un amb la seva destral de batalla i un altre amb la seva estrella del matí."
 					]
 				},
 				{
@@ -97,7 +97,7 @@
 					]
 				},
 				{
-					"name": "Morningstar",
+					"name": "Estel de l'alba",
 					"entries": [
 						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 2d8 + 5}) de dany perforant."
 					]
@@ -105,38 +105,38 @@
 				{
 					"name": "Alè de Fire {@recharge 5}",
 					"entries": [
-						"The ettin's right head exhales fire en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 14}. Qui falli rep 45 ({@damage 10d8}) de dany de foc; qui superi, en rep la meitat."
+						"El cap dret de l'ettin exhala foc en un amb de 30 peus. Tota criatura dins de l'àrea ha de salvar per Destresa amb {@dc 14}. Qui falli rep 45 (@damage 10d8}) de dany de foc; qui superi, en rep la meitat."
 					]
 				},
 				{
 					"name": "Alè de Cold {@recharge 5}",
 					"entries": [
-						"The ettin's left head exhales an icy blast en un con de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 14}. Qui falli rep 45 ({@damage 10d8}) de dany de fred; qui superi, en rep la meitat."
+						"The ettin's left head exhales an geled blast en un amb de 30 peus. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 14}. Qui falli rep 45 (@damage 10d8}) de dany de fred; qui superi, en rep la meitat."
 					]
 				},
 				{
-					"name": "Gaze",
+					"name": "Mirar fixament",
 					"entries": [
-						"The ettin turns its magical gaze toward one creature that it can see within 120 feet of it. That target ha de salvar per Saviesa amb {@dc 14}. Unless the target is {@condition incapacitat}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see the ettin until the start of the ettin's next turn. If the target looks at the ettin in the meantime, it must immediately make the save.",
-						"If the target fails the save, it suffers one of the following effects of the ettin's choice or at random:"
+						"L'ettin gira la seva mirada màgica cap a una criatura que pot veure a 120 peus d'ella. That target ha de salvar per Saviesa amb {@dc 14}. Llevat que l'objectiu sigui {@condition incapacitat}, pot desviar els ulls per evitar la mirada i per salvar automàticament. Si l'objectiu ho fa, no pot veure l'ettin fins a l'inici del següent torn de l'ettin. Si l'objectiu mira l'ettin mentrestant, ha de salvar immediatament.",
+						"Si l'objectiu falla el desament, pateix un dels efectes següents a elecció de l'ettin o a l'atzar:"
 					]
 				},
 				{
-					"name": "Beguiling Gaze",
+					"name": "Mirada seductora",
 					"entries": [
-						"The target is {@condition atordit} until the start of the ettin's next turn or until the ettin is no longer within line of sight."
+						"L'objectiu és {@condition atordit} fins a l'inici del següent gir de l'ettin o fins que l'ettin ja no estigui dins de la línia de visió."
 					]
 				},
 				{
 					"name": "Esguard Hipnòtic",
 					"entries": [
-						"The target is {@condition fascinat} by the ettin until the start of the ettin's next turn. The ettin chooses how the {@condition fascinat} target uses its actions, reactions, and movement."
+						"L'objectiu és {@condition fascinat} per l'ettin fins a l'inici del següent torn de l'ettin. L'ettin tria com l'objectiu {@condition fascinat} utilitza les seves accions, reaccions i moviment."
 					]
 				},
 				{
-					"name": "Insanity Gaze",
+					"name": "Mirada de bogeria",
 					"entries": [
-						"The target suffers the effect of the confusion spell without making a saving throw. The effect lasts until the start of the ettin's next turn. The ettin doesn't need to concentrate on the spell."
+						"L'objectiu pateix l'efecte de l'encanteri de confusió sense fer una tirada de salvació. L'efecte dura fins a l'inici del següent torn de l'ettin. L'ettin no necessita concentrar-se en l'encanteri."
 					]
 				}
 			],
@@ -145,7 +145,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"GI",
@@ -174,27 +174,27 @@
 			"source": "IMR",
 			"page": 31,
 			"_copy": {
-				"name": "Assassí",
+				"name": "Assassi",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the assassin",
+						"mode": "substituirTxt",
+						"replace": "l'assassí",
 						"with": "Andras",
 						"flags": "i"
 					},
 					"trait": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Keen Hearing and Sight",
+							"name": "Audició i vista agudes",
 							"entries": [
-								"Andras advantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin l'oïda o la vista."
+								"Andras avantatge a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin l'oïda o la vista."
 							]
 						}
 					},
 					"action": [
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Espasa curta",
 							"items": {
 								"name": "Espasa curta",
@@ -204,7 +204,7 @@
 							}
 						},
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Ballesta Lleugera",
 							"items": {
 								"name": "Ballesta Lleugera",
@@ -222,7 +222,7 @@
 			],
 			"idiomes": [
 				"Comú",
-				"Giant Owl"
+				"Mussol gegant"
 			],
 			"traitTags": [
 				"Sentits Aguts",
@@ -310,32 +310,32 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
-					"name": "Rust Monster Cloak",
+					"name": "Capa de monstre de rovell",
 					"entries": [
-						"Any nonmagical weapon made of metal that hits Barbatos corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits Barbatos is destroyed after dealing damage."
+						"Qualsevol arma no màgica feta de metall que colpeja Barbatos es corroeix. Després de fer dany, l'arma pren una penalització permanent i acumulada de -1 a les tirades de dany. Si la seva penalització baixa a -5, l'arma es destrueix. La munició no màgica feta de metall que colpeja Barbatos es destrueix després d'infligir danys."
 					]
 				},
 				{
-					"name": "Heart of the Troll",
+					"name": "Cor del Troll",
 					"entries": [
-						"Barbatos recupera 10 punts de toc a l'inici del seu torn. If Barbatos takes acid or fire damage, this trait doesn't function at the start of Barbatos's next turn. Barbatos dies only if he starts his turn with 0 hit points and doesn't regenerate."
+						"Barbatos recupera 10 punts de toc a l'inici del seu torn. Si Barbatos rep danys per àcid o foc, aquest tret no funciona al començament del següent torn de Barbatos. Barbatos només mor si comença el seu torn amb 0 punts de vida i no es regenera."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Barbatos makes two bone shortsword attacks."
+						"Barbatos fa dos atacs d'espasa curta d'os."
 					]
 				},
 				{
-					"name": "Bone Shortsword",
+					"name": "Espasa curta d'os",
 					"entries": [
 						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant."
 					]
@@ -343,19 +343,19 @@
 				{
 					"name": "Ballesta Lleugera",
 					"entries": [
-						"{@atk rw} {@hit 6} a impactar, 80/320 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o be {@condition emmetzinat} durant 1 hora. If the saving throw fails by 5 or more, the target is also {@condition inconscient}. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+						"{@atk rw} {@hit 6} a impactar, 80/320 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o be {@condition emmetzinat} durant 1 hora. Si la tirada de salvació falla en 5 o més, l'objectiu també és {@condition inconscient}. L'objectiu recupera la consciència si rep dany o si una altra criatura fa una acció per sacsejar-lo."
 					]
 				},
 				{
-					"name": "Cloak Sweep",
+					"name": "Escombrat de capa",
 					"entries": [
-						"Barbatos corrodes a nonmagical ferrous metal object he can see within 5 feet of himself. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. If the object is being worn or carried by a creature, the creature can make a {@dc 12} Destresa saving throw to avoid Barbatos's touch.",
-						"If the object touched is either metal armor or a metal shield being worn or carried, it takes a permanent and cumulative 1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in Barbatos's Rust Monster Cloak trait."
+						"Barbatos corroeix un objecte de metall ferro no màgic que pot veure a 5 peus de si mateix. Si l'objecte no es porta ni es porta, el tacte en destrueix un cub d'1 peu. Si l'objecte el porta o porta una criatura, aquesta pot fer una tirada de salvació de {@dc 12} Destresa per evitar el toc d'en Barbatos.",
+						"Si l'objecte tocat és una armadura metàl·lica o un escut metàl·lic que es porta o es porta, es necessita una penalització permanent i acumulada d'1 a la CA que ofereix. Es destrueix una armadura reduïda a una CA de 10 o un escut que baixa a una bonificació +0. Si l'objecte tocat és una arma metàl·lica subjectada, s'oxida tal com es descriu al tret Rust Monster Cloak de Barbatos."
 					]
 				}
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -381,7 +381,7 @@
 			]
 		},
 		{
-			"name": "Brain in Iron",
+			"name": "Cervell en ferro",
 			"source": "IMR",
 			"page": 48,
 			"_copy": {
@@ -389,14 +389,14 @@
 				"source": "LLK",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "cervell en conserva",
-						"with": "brain in iron"
+						"with": "cervell en ferro"
 					}
 				}
 			},
 			"size": "L",
-			"type": "constructe",
+			"type": "construir",
 			"alineament": [
 				"L",
 				"N"
@@ -414,11 +414,11 @@
 			}
 		},
 		{
-			"name": "Dwarven Worker",
+			"name": "Treballador nan",
 			"source": "IMR",
 			"page": 15,
 			"_copy": {
-				"name": "Cultist",
+				"name": "Cultista",
 				"source": "MM",
 				"_trait": {
 					"name": "Nan de Muntanya",
@@ -426,18 +426,18 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "cultist",
-						"with": "worker",
+						"mode": "substituirTxt",
+						"replace": "cultista",
+						"with": "treballador",
 						"flags": "i"
 					}
 				}
 			},
 			"action": [
 				{
-					"name": "Pick or Hammer",
+					"name": "Pica o Martell",
 					"entries": [
-						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, una criatura. {@h}4 ({@damage 1d6 + 1}) bludgeoning or piercing damage."
+						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, una criatura. {@h}4 ({@damage 1d6 + 1}) danys contundents o perforants."
 					]
 				}
 			],
@@ -452,9 +452,9 @@
 			]
 		},
 		{
-			"name": "Enhanced Medusa",
+			"name": "Medusa millorada",
 			"alias": [
-				"Daoud's Living Lanthor"
+				"El Lanthor Vivent de Daoud"
 			],
 			"source": "IMR",
 			"page": 47,
@@ -469,7 +469,7 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de The medusa's és Saviesa ({@dc 13} per salvar conjur). The medusa pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de The medusa's és Saviesa ({@dc 13} per salvar conjur). The medusa pot llançar els conjurs següents innatament (no requereixen materials):"
 					],
 					"spells": {
 						"0": {
@@ -478,16 +478,16 @@
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
 					"name": "Mirada Petrificant",
 					"entries": [
-						"Si una criatura que pugui veure la medusa comença el torn a 30 peus seus, la medusa pot forçar-la a salvar per Constitució amb {@dc 14}. Per poder fer-ho, la medusa no pot estar {@condition incapacitat} i ha de poder veure la criatura. Si la criatura falla per més de 5, es {@condition petrificat} immediatament. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) i està {@condition restrained}. La criatura {@condition restrained} ha de repetir la salvada a l'inici del seu proper torn. Si falla, estarà {@condition petrificat}. Si supera, l'efecte es cancel·la. La petrificació continuarà fins que un efecte màgic com ara {@spell restabliment superior} la cancel·li.",
+						"Si una criatura que pugui veure la medusa comença el torn a 30 pocs seus, la medusa pot forçar-la a salvar per Constitució amb {@dc 14}. Per poder fer-ho, la medusa no pot estar {@condition incapacitat} i ha de poder veure la criatura. Si la criatura falla per més de 5, és {@condition petrificat} immediatament. En cas contrari, una criatura que falla la salvació comença a convertir-se en metall, fusta o porcellana (a elecció de la medusa) i està {@condition restrained}. La criatura {@condition restrained} ha de repetir la salvada a l'inici del seu proper torn. Si falla, estarà {@condition petrificat}. Si supera, l'efecte és cancel·la. La petrificació continuarà fins que un efecte màgic com ara {@spell restabliment superior} la cancel·li.",
 						"Una criatura no sorpresa pot desviar la mirada per evitar la salvada al principi del seu torn. Si ho fa, no veurà la medusa fins el principi del seu proper torn (on pot tornar a desviar la mirada). Si en algun moment la criatura mira a la medusa, ha de salvar immediatament.",
-						"Si la medusa es veu el reflexe a una superfície polida a 30 metres d'abast en una àrea de llum forta es veurà afectada per la seva pròpia maledicció."
+						"Si la medusa veu el reflex a una superfície polida a 30 metres d'abast en una àrea de llum forta es veurà afectada per la seva pròpia maledicció."
 					]
 				}
 			],
@@ -496,7 +496,7 @@
 			]
 		},
 		{
-			"name": "Grandfather Oak",
+			"name": "L'avi Roure",
 			"isNpc": true,
 			"source": "IMR",
 			"page": 5,
@@ -505,17 +505,17 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the treant",
-						"with": "Grandfather Oak",
+						"mode": "substituirTxt",
+						"replace": "el tractant",
+						"with": "L'avi Roure",
 						"flags": "i"
 					},
 					"action": {
 						"mode": "appendArr",
 						"items": {
-							"name": "Pacifying Spores (3/Dia)",
+							"name": "Espores pacificadores (3/dia)",
 							"entries": [
-								"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target ha de salvar per Constitució amb {@dc 17} or be {@condition atordit} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+								"L'avi Oak expulsa espores a una criatura que pot veure a 5 peus d'ella. The target ha de salvar per Constitució amb {@dc 17} or be {@condition atordit} durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 							]
 						}
 					}
@@ -529,7 +529,7 @@
 			"page": 54,
 			"size": "M",
 			"type": {
-				"type": "no-mort",
+				"type": "no mort",
 				"tags": [
 					"tíflin"
 				]
@@ -566,7 +566,7 @@
 				"cha": "+7"
 			},
 			"senses": [
-				"darkvision 60ft."
+				"visió fosca de 60 peus."
 			],
 			"passive": 13,
 			"resist": [
@@ -578,7 +578,7 @@
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"emmetzinat",
@@ -593,25 +593,25 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Lynx's crystal eye is a magically shrunken crystal ball of visió veritable. One of her teeth is a refashioned anell de protecció mental, while another has been magicked to place her under a permanent Aura Màgica d'en Nystul spell, concealing the magic of these items and hiding her true nature from magic or features that can detect undead."
+						"L'ull de cristall de Lynx és una bola de cristall reduïda màgicament de visió veritable. Una de les seves dents és un anell de protecció mental redissenyat, mentre que una altra s'ha fet màgia per posar-la sota un encanteri permanent Aura Màgica d'en Nystul, ocultant la màgia d'aquests objectes i ocultant la seva veritable naturalesa de la màgia o de les característiques que poden detectar no morts. ."
 					]
 				},
 				{
 					"name": "Aversió al Foc",
 					"entries": [
-						"If Lynx takes fire damage, she has disadvantage on attack rolls and ability checks until the end of her next turn."
+						"Si Lynx rep danys de foc, té desavantatge a les tirades d'atac i proves d'habilitat fins al final del seu següent torn."
 					]
 				},
 				{
-					"name": "Forma Immutable",
+					"name": "Forma immutable",
 					"entries": [
-						"Lynx is immune to any spell or effect that would alter her form."
+						"Lynx és immune a qualsevol encanteri o efecte que alteri la seva forma."
 					]
 				},
 				{
 					"name": "Absorbir Electricitat",
 					"entries": [
-						"Whenever Lynx is subjected to lightning damage, she takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+						"Sempre que Lynx pateix danys per llamps, no rep cap dany i, en canvi, recupera un nombre de punts de vida igual al dany causat per llamps."
 					]
 				},
 				{
@@ -623,7 +623,7 @@
 				{
 					"name": "Regeneració",
 					"entries": [
-						"Lynx recupera 10 punts de toc a l'inici del seu torn. If she takes fire or radiant damage, this trait doesn't function at the start of her next turn. Lynx's body is destroyed only if she starts her turn with 0 hit points and doesn't regenerate."
+						"Lynx recupera 10 punts de toc a l'inici del seu torn. Si rep dany de foc o radiant, aquest tret no funciona al començament del seu següent torn. El cos de Lynx només es destrueix si comença el seu torn amb 0 punts de vida i no es regenera."
 					]
 				},
 				{
@@ -635,9 +635,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Lynx makes two shortsword attacks."
+						"Lynx fa dos atacs d'espasa curta."
 					]
 				},
 				{
@@ -649,7 +649,7 @@
 			],
 			"traitTags": [
 				"Absorbir Dany",
-				"Forma Immutable",
+				"Forma immutable",
 				"Resistència a la Màgia",
 				"Regeneració",
 				"Immunitat a l'Expulsió"
@@ -658,7 +658,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -692,7 +692,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item pectoral|phb}"
 					]
 				}
 			],
@@ -732,7 +732,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Moghadam is an 18th-level spellcaster. His habilitat de llançament de conjurs is Intel·ligència ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Té els següents conjurs de artificer preparats:"
+						"Moghadam és un lançador d'encanteris de nivell 18. His habilitat de llançament de conjurs is Intel·ligència ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Té els següents conjurs d'artificier preparats:"
 					],
 					"spells": {
 						"0": {
@@ -771,8 +771,8 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell fabricar}",
-								"{@spell moldejar la pedra}",
+								"{@fabricant d'ortografia}",
+								"{@spell modelar la pedra}",
 								"{@spell pell de pedra}"
 							]
 						},
@@ -790,19 +790,19 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Moghadam wields {@item Ruinblade|IMR} (see appendix C)."
+						"Moghadam porta {@item Ruinblade|IMR} (vegeu l'apèndix C)."
 					]
 				},
 				{
-					"name": "Artificial Mind",
+					"name": "Ment Artificial",
 					"entries": [
-						"Moghadam can manifest an artificial mind as a floating spectral image of a {@creature demilich}'s jeweled skull. Moghadam can communicate telepathically with this mind, send it fins a 300 peus away from him, and see and hear through it."
+						"Moghadam pot manifestar una ment artificial com una imatge espectral flotant del crani amb joies d'una {@creature demilich}. Moghadam pot comunicar-se telepàticament amb aquesta ment, enviar-la a una distància de 300 peus d'ell, i veure i escoltar a través d'ella."
 					]
 				},
 				{
-					"name": "Infoportation (1/Dia)",
+					"name": "Infoportació (1/dia)",
 					"entries": [
-						"Moghadam can teleport himself into an unoccupied space next to his artificial mind."
+						"Moghadam es pot teletransportar a un espai desocupat al costat de la seva ment artificial."
 					]
 				}
 			],
@@ -814,21 +814,21 @@
 					]
 				},
 				{
-					"name": "Blight (1/Dia)",
+					"name": "Placa (1/dia)",
 					"entries": [
-						"While wielding {@item Ruinblade|IMR}, Moghadam can cast the {@spell plaga} spell ({@dc 15})."
+						"Mentre fa servir {@item Ruinblade|IMR}, Moghadam pot llançar l'encanteri {@spell plaga} ({@dc 15})."
 					]
 				},
 				{
-					"name": "Disintegrate (1/7 Days)",
+					"name": "Desintegrar (1/7 dies)",
 					"entries": [
-						"While wielding {@item Ruinblade|IMR}, Moghadam can cast the {@spell desintegrar} spell against any nonmagical object or creation of magical force."
+						"Mentre maneja {@item Ruinblade|IMR}, Moghadam pot llançar l'encanteri {@spell desintegrar} contra qualsevol objecte no màgic o creació de força màgica."
 					]
 				},
 				{
-					"name": "Information Overload {@recharge 5}",
+					"name": "Sobrecàrrega d'informació {@recharge 5}",
 					"entries": [
-						"Moghadam overloads the thoughts of one creature within 5 feet of either himself or his artificial mind. The target ha de salvar per Intel·ligència amb {@dc 16} or take 22 ({@damage 4d8 + 4}) de dany psíquic, and the next attack roll made against the target before the end of Moghadam's next turn has advantage."
+						"Moghadam sobrecarrega els pensaments d'una criatura a 5 peus de si mateix o de la seva ment artificial. L'objectiu ha de salvar per Intel·ligència amb {@dc 16} o agafa 22 ({@damage 4d8 + 4}) de dany psíquic, i la següent tirada d'atac feta contra l'objectiu abans del final del següent torn de Moghadam té avantatge."
 					]
 				}
 			],
@@ -857,7 +857,7 @@
 			"source": "IMR",
 			"page": 75,
 			"size": "H",
-			"type": "aberration",
+			"type": "aberració",
 			"alineament": [
 				"N"
 			],
@@ -907,7 +907,7 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell command}",
+							"{@ordre ortogràfica}",
 							"{@spell immobilitzar humanoide}"
 						]
 					},
@@ -918,33 +918,33 @@
 				{
 					"name": "Telepatia Limitada",
 					"entries": [
-						"The otyugh can magically transmit simple messages and images to any creature within 120 feet of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
+						"L'otyugh pot transmetre màgicament missatges i imatges senzills a qualsevol criatura a 120 peus d'ell que pugui entendre un idioma. Aquesta forma de telepatia no permet que la criatura receptora respongui telepàticament."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The neo-otyugh fa tres atacs: one with its bite and two with its tentacles."
+						"El neo-otyugh fa tres atacs: un amb la seva mossegada i dos amb els seus tentacles."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}16 ({@damage 2d10 + 5}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 17} against disease or become {@condition emmetzinat} until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its punts de vida màxims by 5 ({@dice 1d10}) on a failure. The disease is cured on a success. The target dies if the disease reduces its punts de vida màxims to 0. Aquesta reducció de punts de vida màxims dura fins que the disease is cured."
+						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}16 ({@damage 2d10 + 5}) de dany perforant. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 17} contra la malaltia o esdevé {@condition emmetzinat} fins que la malaltia es curi. Cada 24 hores que passen, l'objectiu ha de repetir la tirada de salvació, reduint els seus punts de vida màxims en 5 ({@dice 1d10}) en cas de fallada. La malaltia es cura amb èxit. L'objectiu dies si la malaltia redueix els seus punts de vida màxims a 0. Aquesta reducció de punts de vida màxims dura fins que la malaltia està curada."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany contundent. If the target is Large or smaller, it is {@condition grappled} ({@dc 16} per escapar) and {@condition restrained} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple un objectiu."
+						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany contundent. Si l'objectiu és gran o més petit, serà {@condition grappled} ({@dc 16} per escapar) i {@condition restrained} fins que s'acaba la presa. El neo-otyugh té dos tentacles, cadascun dels quals pot agafar un objectiu."
 					]
 				},
 				{
 					"name": "Batre Tencacle",
 					"entries": [
-						"The neo-otyugh slams creatures {@condition grappled} by it into each other or a solid surface. Each creature ha de salvar per Constitució amb {@dc 16} or take 15 ({@damage 3d6 + 5}) de dany contundent and be {@condition atordit} until the end of the neo-otyugh's next turn. Si supera, the target takes half the dany contundent i no està {@condition atordit}."
+						"El neo-otyugh colpeja les criatures {@condition grappled} entre elles o una superfície sòlida. Cada criatura ha de salvar per Constitució amb {@dc 16} o prendre 15 ({@damage 3d6 + 5}) de dany contundent i ser {@condition atordit} fins al final del següent torn del neo-otyugh. Si supera, l'objectiu agafa la meitat del dany contundent i no està {@condition atordit}."
 					]
 				}
 			],
@@ -953,7 +953,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Tentacles"
 			],
 			"languageTags": [
@@ -990,12 +990,12 @@
 			"source": "IMR",
 			"page": 41,
 			"_copy": {
-				"name": "Noble",
+				"name": "noble",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the noble",
+						"mode": "substituirTxt",
+						"replace": "el noble",
 						"with": "Seodra",
 						"flags": "i"
 					},
@@ -1005,13 +1005,13 @@
 							{
 								"name": "Pas Terràqui",
 								"entries": [
-									"Seodra can move across terreny difícil made of earth or stone without expending extra movement."
+									"Seodra pot moure's per un terreny difícil fet de terra o pedra sense gastar un moviment addicional."
 								]
 							},
 							{
-								"name": "Treasure Sense",
+								"name": "Sentit del tresor",
 								"entries": [
-									"Seodra can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of her."
+									"Seodra pot identificar, mitjançant l'olor, la ubicació de metalls preciosos i pedres, com monedes i gemmes, a 60 peus d'ella."
 								]
 							}
 						]
@@ -1095,27 +1095,27 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Mestre Ursas wears a anell de protecció mental and armadura de plaques of fire resistance."
+						"Mestre Ursas porta un anell de protecció mental i armadura de plaques de resistència al foc."
 					]
 				},
 				{
 					"name": "Coratge",
 					"entries": [
-						"Mestre Ursas has advantage on saving throws against being {@condition acovardit}."
+						"El Mestre Ursas té avantatge en els tirs de salvació per ser {@condition acovardit}."
 					]
 				},
 				{
-					"name": "Brute",
+					"name": "Brut",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when Mestre Ursas hits with it (included in his attack)."
+						"Una arma cos a cos infligeix ​​un dau addicional pel seu dany quan el Mestre Ursas la colpeja (inclòs en el seu atac)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Mestre Ursas makes three melee attacks or two ranged attacks."
+						"Mestre Ursas fa tres atacs cos a cos o dos a distància."
 					]
 				},
 				{
@@ -1125,15 +1125,15 @@
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Llança",
 					"entries": [
 						"{@atk mw,rw} {@hit 7} a impactar, 5 peus d'abast i 20/60 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany perforant, o 13 ({@damage 2d8 + 4}) de dany perforant si s'usa a dues mans per un atac cos a cos."
 					]
 				},
 				{
-					"name": "Shield Bash",
+					"name": "Escut de l'escut",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d4 + 4}) de dany contundent, and if the target is a Medium or smaller creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d4 + 4}) de dany contundent, i si l'objectiu és una criatura mitjana o menor, ha de salvar per Força amb {@dc 15} o ser noquejat {@condition enderrocat}."
 					]
 				}
 			],
@@ -1141,15 +1141,15 @@
 				{
 					"name": "Parada",
 					"entries": [
-						"Mestre Ursas adds 3 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
+						"Mestre Ursas afegeix 3 a la seva CA contra un atac cos a cos que el colpejaria. Per fer-ho, ha de veure l'atacant i portar una arma cos a cos."
 					]
 				}
 			],
 			"traitTags": [
-				"Brute"
+				"Brut"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Parada"
 			],
 			"languageTags": [
@@ -1172,14 +1172,14 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Skeletal Giant Owl",
+			"name": "Mussol gegant esquelètic",
 			"source": "IMR",
 			"page": 33,
 			"_copy": {
-				"name": "Giant Owl",
+				"name": "Mussol gegant",
 				"source": "MM"
 			},
-			"type": "no-mort",
+			"type": "no mort",
 			"immune": [
 				"verí"
 			],
@@ -1187,19 +1187,19 @@
 				"contundent"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			]
 		},
 		{
-			"name": "Skeletal Owlbear",
+			"name": "Ós Mussol Esquelètic",
 			"source": "IMR",
 			"page": 36,
 			"_copy": {
-				"name": "Owlbear",
+				"name": "Ós mussol",
 				"source": "MM"
 			},
-			"type": "no-mort",
+			"type": "no mort",
 			"immune": [
 				"verí"
 			],
@@ -1207,19 +1207,19 @@
 				"contundent"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			]
 		},
 		{
-			"name": "Skeletal Polar Bear",
+			"name": "Ós polar esquelètic",
 			"source": "IMR",
 			"page": 34,
 			"_copy": {
-				"name": "Polar Bear",
+				"name": "Ós polar",
 				"source": "MM"
 			},
-			"type": "no-mort",
+			"type": "no mort",
 			"immune": [
 				"verí"
 			],
@@ -1227,19 +1227,19 @@
 				"contundent"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			]
 		},
 		{
-			"name": "Skeletal Mussolós de Dos Caps",
+			"name": "Mussolós esquelètic de Dos Caps",
 			"source": "IMR",
 			"page": 36,
 			"_copy": {
 				"name": "Mussolós de Dos Caps",
 				"source": "IMR"
 			},
-			"type": "no-mort",
+			"type": "no mort",
 			"immune": [
 				"verí"
 			],
@@ -1247,7 +1247,7 @@
 				"contundent"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"emmetzinat"
 			]
 		},
@@ -1257,12 +1257,12 @@
 			"source": "IMR",
 			"page": 33,
 			"_copy": {
-				"name": "Warlock of the Primer de Tots",
+				"name": "Bruixot del Primer de Tots",
 				"source": "VGM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the bruixot",
+						"mode": "substituirTxt",
+						"replace": "el bruixot",
 						"with": "Stolos",
 						"flags": "i"
 					}
@@ -1278,7 +1278,7 @@
 			},
 			"action": [
 				{
-					"name": "Talons",
+					"name": "Garres",
 					"entries": [
 						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 2d6 + 1}) de dany tallant."
 					]
@@ -1302,15 +1302,15 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the balor",
+						"mode": "substituirTxt",
+						"replace": "el balor",
 						"with": "Tarnhem",
 						"flags": "i"
 					},
 					"action": {
 						"mode": "prependArr",
 						"items": {
-							"name": "Fist of Retribution",
+							"name": "Puny de retribució",
 							"entries": [
 								"{@atk mw} {@hit 14} a impactar, 10 peus d'abast, un objectiu. {@h}13 ({@damage 2d4 + 8}) de dany contundent mes 7 ({@damage 2d6}) de dany de foc."
 							]
@@ -1345,7 +1345,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item pectoral|phb}"
 					]
 				}
 			],
@@ -1392,7 +1392,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Thessalar is an 18th-level spellcaster. His habilitat de llançament de conjurs is Intel·ligència ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Té els següents conjurs de artificer preparats:"
+						"Thessalar és un lançador d'encanteris de nivell 18. His habilitat de llançament de conjurs is Intel·ligència ({@dc 16} salvada de conjur, {@hit 8} a impactar amb atacs màgics). Té els següents conjurs d'artificier preparats:"
 					],
 					"spells": {
 						"0": {
@@ -1450,25 +1450,25 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Thessalar wields a {@item +1 daga} coated with {@item Thessaltoxin|IMR|thessaltoxin poison} (see appendix C)."
+						"Thessalar porta un {@item +1 daga} recobert amb {@item Thessaltoxin|IMR|thessaltoxin verí} (vegeu l'annex C)."
 					]
 				},
 				{
 					"name": "Homúncul Alquímic",
 					"entries": [
-						"Thessalar is accompanied by his {@creature Thessalar's homunculus|IMR}. If the {@spell apedaçar} spell is cast on it, the homunculus regains {@dice 2d6} hit points."
+						"Thessalar va acompanyat del seu {@creature Thessalar's homunculus|IMR}. Si s'hi llança l'encanteri {@spell apedaçar}, l'homuncle recupera {@dice 2d6} punts de vida."
 					]
 				},
 				{
-					"name": "Healing Toxicity",
+					"name": "Toxicitat curativa",
 					"entries": [
-						"Any magic item that restores hit points and can be applied to a piercing or slashing weapon (a potion, an ointment, and so forth) causes a hit with that weapon to deal extra damage to Thessalar equal to the amount the item would normally heal."
+						"Qualsevol objecte màgic que restableixi punts de vida i que es pugui aplicar a una arma perforadora o tallant (una poció, un ungüent, etc.) fa que un cop amb aquesta arma infligui dany addicional a Thessalar igual a la quantitat que l'objecte curaria normalment."
 					]
 				},
 				{
 					"name": "Restabliment Superior (1/Dia)",
 					"entries": [
-						"Thessalar can cast {@spell restabliment superior} if he has access to {@item Materials d'alquímia|phb|alchemical supplies}."
+						"Thessalar pot emetre {@spell restabliment superior} si té accés a {@item Materials d'alquímia|phb|alchemical supplies}."
 					]
 				}
 			],
@@ -1476,7 +1476,7 @@
 				{
 					"name": "Daga",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany perforant, and the target ha de salvar per Constitució amb {@dc 15}. Si falla, the target is affected as if by the {@spell polimorfia} spell, transforming into a random {@filter beast|bestiary|type=beast|miscellaneous=!swarm} or a creature it has seen within the last 24 hours (as chosen by the DM). This effect lasts until the target finishes a long rest."
+						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}3 ({@damage 1d4 + 1}) de dany perforant, and the target ha de salvar per Constitució amb {@dc 15}. Si falla, l'objectiu es veu afectat com si l'encanteri {@spell polimorfia}, transformant-se en una {@filter beast|bestiary|type=beast|miscellaneous=!swarm} o una criatura que hagi vist en les últimes 24 hores ( tal com escollia el DM). Aquest efecte dura fins que l'objectiu acaba un llarg descans."
 					]
 				}
 			],
@@ -1502,7 +1502,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Thessalar's Homunculus",
+			"name": "Homunculus de Tessalar",
 			"isNpc": true,
 			"source": "IMR",
 			"page": 35,
@@ -1531,11 +1531,11 @@
 			]
 		},
 		{
-			"name": "Contructe Cor Thessal",
+			"name": "Constructe Cor Thessal",
 			"source": "IMR",
 			"page": 86,
 			"size": "T",
-			"type": "constructe",
+			"type": "construir",
 			"alineament": [
 				"N"
 			],
@@ -1562,7 +1562,7 @@
 			"wis": 10,
 			"cha": 7,
 			"senses": [
-				"darkvision 60"
+				"visió fosca 60"
 			],
 			"passive": 10,
 			"immune": [
@@ -1578,9 +1578,9 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Telepathic Bond",
+					"name": "Vincle telepàtic",
 					"entries": [
-						"While the construct is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
+						"Si bé la construcció es troba en el mateix pla d'existència que el seu mestre, pot transmetre màgicament el que sent al seu mestre i els dos es poden comunicar telepàticament."
 					]
 				}
 			],
@@ -1588,7 +1588,7 @@
 				{
 					"name": "Urpes",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}1 de dany tallant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 10} o estar {@condition emmetzinat} durant 1 minut. If the saving throw fails by 5 or more, the target is instead {@condition emmetzinat} for 5 ({@dice 1d10}) minutes and {@condition inconscient} while {@condition emmetzinat} in this way."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}1 de dany tallant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 10} o estar {@condition emmetzinat} durant 1 minut. Si la tirada de salvament falla en 5 o més, l'objectiu és {@condition emmetzinat} durant 5 ({@dice 1d10}) minuts i {@condition inconscient} mentre {@condition emmetzinat} d'aquesta manera."
 					]
 				}
 			],
@@ -1620,7 +1620,7 @@
 			"type": {
 				"type": "monstrositat",
 				"tags": [
-					"titan"
+					"tità"
 				]
 			},
 			"alineament": [
@@ -1678,11 +1678,11 @@
 				"paralitzat"
 			],
 			"idiomes": [
-				"understands Abyssal",
+				"entén Abyssal",
 				"Celestial",
 				"Diàstric",
-				"and Primordial però no pot parlar",
-				"telepatía 120 peus"
+				"i Primordial però no pot parlar",
+				"telepatia 120 peus"
 			],
 			"cr": "14",
 			"trait": [
@@ -1695,22 +1695,22 @@
 				{
 					"name": "Llibertat de Moviments",
 					"entries": [
-						"The kraken thessal ignores terreny difícil, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"La tessala del kraken ignora el terreny difícil i els efectes màgics no poden reduir la seva velocitat ni fer que sigui {@condition restrained}. Pot passar 5 peus de moviment per escapar de restriccions no màgiques o per ser {@condition grappled}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The kraken thessal makes one bite attack and two tentacle attacks. It can replace each tentacle attack with one use of Fling."
+						"El kraken thessal fa un atac de mossegada i dos atacs de tentacle. Pot substituir cada atac de tentacle amb un ús de Fling."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant mes 5 ({@damage 1d10}) de dany d'àcid. If the target is a Medium or smaller creature {@condition grappled} by the kraken thessal, that creature is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the kraken thessal, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de the kraken thessal's.",
-						"If the kraken thessal takes 35 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 23} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of the kraken thessal. Si the kraken thessal mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
+						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant mes 5 ({@damage 1d10}) de dany d'àcid. Si l'objectiu és una criatura mitjana o més petita {@condition grappled} pel kraken thessal, aquesta criatura s'empassa i la lluita acaba. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the kraken thessal, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de el kraken thessal's.",
+						"Si el kraken thessal rep 35 de dany o més en un sol torn d'una criatura que hi ha dins, ha de salvar per Constitució amb {@dc 23} al final d'aquest torn o regurgita totes les criatures empasades, que cauen {@condition enderrocat} en un espai a 10 peus de la tessala kraken. Si the kraken thessal mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				},
 				{
@@ -1722,33 +1722,33 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken thessal is thrown fins a 40 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
+						"Un objecte mitjà o més petit o una criatura {@condition grappled} per la tessal kraken es llança amb aletes de 40 peus en una direcció aleatòria i es colpeja {@condition enderrocat}. Si un objectiu llançat colpeja una superfície sòlida, l'objectiu pren 3 ({@dany 1d6}) de dany contundent per cada 10 peus que ha estat llançat. Si l'objectiu és llançat a una altra criatura, aquesta criatura ha de salvar-se per Destresa amb {@dc 16} o reben el mateix dany i serà colpejada {@condition enderrocat}."
 					]
 				},
 				{
 					"name": "Saliva Àcida {@recharge 5}",
 					"entries": [
-						"The kraken thessal spits a glob of acid at a point it can see within 60 feet of it. Each creature within 10 feet of that point ha de salvar per Destresa amb {@dc 18}. Qui falli rep 22 ({@damage 4d10}) de dany d'àcid; qui superi, en rep la meitat."
+						"El kraken thessal escupe un globus d'àcid en un punt que pot veure a 60 peus d'ell. Cada criatura a 10 peus d'aquest punt ha de salvar per Destresa amb {@dc 18}. Qui falli rep 22 (@damage 4d10}) de dany d'àcid; qui superi, en rep la meitat."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Tentacle Attack",
+					"name": "Atac de tentacles",
 					"entries": [
-						"The kraken thessal makes one tentacle attack."
+						"El kraken thessal fa un atac de tentacle."
 					]
 				},
 				{
 					"name": "Estimbar",
 					"entries": [
-						"The kraken thessal uses Fling."
+						"El kraken thessal utilitza Fling."
 					]
 				},
 				{
 					"name": "Núvol de tinta (Costa 3 Accions)",
 					"entries": [
-						"While underwater, the kraken thessal expels an ink cloud in a 60-foot radius. The cloud s'extén per les cantonades, and that area is heavily obscured to creatures other than the kraken thessal. Each creature other than the kraken thessal that ends its turn there ha de salvar per Constitució amb {@dc 18}. Qui falli rep 16 ({@damage 3d10}) de dany de verí; qui superi, en rep la meitat. A strong current disperses the cloud, which otherwise disappears at the end of the kraken thessal's next turn."
+						"Mentre està sota l'aigua, el kraken thessal expulsa un núvol de tinta en un radi de 60 peus. El núvol s'extén per les cantonades, i aquesta zona està molt enfosquida per a criatures diferents del kraken thessal. Cada criatura que no sigui el kraken thessal que hi acabi el seu torn ha de salvar per Constitució amb {@dc 18}. Qui falli rep 16 (@damage 3d10}) de dany de verí; qui superi, en rep la meitat. Un fort corrent dispersa el núvol, que d'altra manera desapareix al final del següent torn del kraken thessal."
 					]
 				}
 			],
@@ -1763,7 +1763,7 @@
 				"U"
 			],
 			"actionTags": [
-				"Multi-atac",
+				"Multiatac",
 				"Empassar",
 				"Tentacles"
 			],
@@ -1796,11 +1796,11 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Tiefling Muralist",
+			"name": "Muralista Tiefling",
 			"source": "IMR",
 			"page": 17,
 			"_copy": {
-				"name": "Cultist",
+				"name": "Cultista",
 				"source": "MM",
 				"_trait": {
 					"name": "Tíflin",
@@ -1808,9 +1808,9 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "cultist",
-						"with": "muralist"
+						"mode": "substituirTxt",
+						"replace": "cultista",
+						"with": "muralista"
 					}
 				}
 			},
@@ -1824,7 +1824,7 @@
 			]
 		},
 		{
-			"name": "Two-Headed Crocodile",
+			"name": "Cocodril de dos caps",
 			"source": "IMR",
 			"page": 89,
 			"size": "L",
@@ -1868,29 +1868,29 @@
 					]
 				},
 				{
-					"name": "Two Heads",
+					"name": "Dos Caps",
 					"entries": [
-						"The two-headed crocodile has advantage on Saviesa (Percepció) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
+						"El cocodril de dos caps té avantatge en les proves de Saviesa (Percepció) i en els tirs de salvació per ser {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit} i va colpejar {@condition inconscient}."
 					]
 				},
 				{
-					"name": "Wakeful",
+					"name": "Despert",
 					"entries": [
-						"When one of the crocodile's heads is asleep, its other head is awake."
+						"Quan un dels caps del cocodril està adormit, l'altre cap està despert."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The two-headed crocodile fa dos atacs with its bite."
+						"El cocodril de dos caps fa dos atacs amb la seva mossegada."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and that head of the crocodile can't bite another target."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d10 + 2}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, i aquest cap del cocodril no pot mossegar un altre objectiu."
 					]
 				}
 			],
@@ -1898,7 +1898,7 @@
 				"Aguantar la Respiració"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"P"
@@ -1945,29 +1945,29 @@
 				"perception": "+3"
 			},
 			"senses": [
-				"darkvision 60"
+				"visió fosca 60"
 			],
 			"passive": 13,
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Two Heads",
+					"name": "Dos Caps",
 					"entries": [
-						"The mussolós de dos caps has advantage on Saviesa (Percepció) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
+						"El mussolós de dos caps té avantatge en tirs de Saviesa (Percepció) i en tirs de salvació per ser {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit} i va colpejar {@condition inconscient}."
 					]
 				},
 				{
-					"name": "Wakeful",
+					"name": "Despert",
 					"entries": [
-						"When one of the owlbear's heads is asleep, its other head is awake."
+						"Quan un dels caps de l'ós mussol està adormit, l'altre cap està despert."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The mussolós de dos caps fa tres atacs: two with its beaks and one with its claws."
+						"Els mussolós de dos caps fa tres atacs: dos amb el bec i un amb les urpes."
 					]
 				},
 				{
@@ -1988,7 +1988,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"damageTags": [
 				"P",

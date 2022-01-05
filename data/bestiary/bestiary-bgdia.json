@@ -18,12 +18,12 @@
 			}
 		},
 		"internalCopies": [
-			"monster"
+			"monstre"
 		]
 	},
 	"monster": [
 		{
-			"name": "Abyssal Chicken",
+			"name": "Pollastre abissal",
 			"source": "BGDIA",
 			"page": 97,
 			"size": "T",
@@ -53,7 +53,7 @@
 				"walk": 30,
 				"volar": {
 					"number": 30,
-					"condition": "(see bad flier below)"
+					"condition": "(vegeu el mal volant a continuació)"
 				}
 			},
 			"str": 6,
@@ -63,7 +63,7 @@
 			"wis": 9,
 			"cha": 5,
 			"senses": [
-				"visió a cegues 30ft. (sense visió més enllà)"
+				"visió a cegues 30ft. (sens visió més enllà)"
 			],
 			"passive": 9,
 			"resist": [
@@ -79,22 +79,22 @@
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Abyssal però no pot parlar"
+				"entén Abyssal però no pot parlar"
 			],
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Bad Flier",
+					"name": "Mala Voladora",
 					"entries": [
-						"The abyssal chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed."
+						"El pollastre abissal cau al final d'un gir si està en l'aire i l'únic que el manté en alt és la seva velocitat de vol."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The abyssal chicken fa dos atacs: one with its bite and one with its claws."
+						"El pollastre abissal fa dos atacs: un amb la seva mossegada i un altre amb les urpes."
 					]
 				},
 				{
@@ -116,7 +116,7 @@
 				"B"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
@@ -153,7 +153,7 @@
 					"ac": 17,
 					"from": [
 						"{@item armadura de cuir|phb}",
-						"charisma modifier"
+						"modificador de carisma"
 					]
 				}
 			],
@@ -184,17 +184,17 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Suave Defense",
+					"name": "Defensa Suave",
 					"entries": [
-						"While Amrik is wearing light or no armor and wielding no shield, his AC includes his Carisma modifier."
+						"Mentre Amrik porta una armadura lleugera o sense armadura i no porta cap escut, la seva CA inclou el seu modificador de Carisma."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Amrik makes three dagger attacks."
+						"Amrik fa tres atacs de punyal."
 					]
 				},
 				{
@@ -204,15 +204,15 @@
 					]
 				},
 				{
-					"name": "Smoke Bomb (1/Dia)",
+					"name": "Bomba de fum (1/dia)",
 					"entries": [
-						"Amrik hurls a smoke bomb fins a 20 peus away. The bomb explodes on impact, creating a cloud of black smoke that fills a 10-foot-radius sphere. The area within the cloud is heavily obscured. A strong wind disperses the cloud, which otherwise remains until the end of Amrik's next turn."
+						"Amrik llança una aleta de bomba de fum a 20 peus de distància. La bomba explota en l'impacte, creant un núvol de fum negre que omple una esfera de 10 peus de radi. L'àrea dins del núvol està molt enfosquida. Un fort vent dispersa el núvol, que d'altra manera romandrà fins al final del següent torn d'Amrik."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -231,7 +231,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Archduke Zariel of Avernus",
+			"name": "Arxiduc Zariel d'Averno",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 243,
@@ -241,32 +241,32 @@
 				"_mod": {
 					"action": [
 						{
-							"mode": "replaceArr",
-							"replace": "Multi-atac",
+							"mode": "substituirArr",
+							"replace": "Multiatac",
 							"items": {
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"Zariel attacks twice with her flail and once with Matalotok. She can substitute Horrid Touch for Matalotok."
+									"La Zariel ataca dues vegades amb el seu flagell i una altra amb Matalotok. Pot substituir Horrid Touch per Matalotok."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
+							"mode": "substituirArr",
 							"replace": "Espasa llarga",
 							"items": {
-								"name": "Flail",
+								"name": "Flau",
 								"entries": [
 									"{@atk mw} {@hit 16} a impactar, 10 peus d'abast, un objectiu. {@h}17 ({@damage 2d8 + 8}) de dany perforant mes 36 ({@damage 8d8}) de dany de foc."
 								]
 							}
 						},
 						{
-							"mode": "replaceArr",
-							"replace": "Javelin",
+							"mode": "substituirArr",
+							"replace": "Javelina",
 							"items": {
-								"name": "Matalotok (Warhammer)",
+								"name": "Matalotok (Martell de guerra)",
 								"entries": [
-									"{@atk mw} {@hit 16} a impactar, 10 peus d'abast, un objectiu. {@h}17 ({@damage 2d8 + 8}) bludgeoning, o 19 ({@damage 2d10 + 8}) de dany contundent si s'usa amb dues mans, plus 36 ({@damage 8d8}) de dany de foc. A més, the weapon emits a burst of cold that deals 10 ({@damage 3d6}) de dany de fred to each creature within 30 feet of it."
+									"{@atk mw} {@hit 16} a impactar, 10 peus d'abast, un objectiu. {@h}17 ({@damage 2d8 + 8}) bludgeoning, o 19 ({@damage 2d10 + 8}) de dany contundent si s'usa amb dues mans, plus 36 ({@damage 8d8}) de dany de foc. A més, l'arma emet un esclat de fred que infligeix ​​10 ({@damage 3d6}) de dany de fred a cada criatura a 30 peus d'ella."
 								]
 							}
 						}
@@ -307,7 +307,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Arkhan the Cruel",
+			"name": "Arkhan el Cruel",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 111,
@@ -326,7 +326,7 @@
 				{
 					"ac": 23,
 					"from": [
-						"{@item obsidian flint dragon plate|bgdia}",
+						"{@item placa de drac de sílex d'obsidiana|bgdia}",
 						"{@item shield|phb}"
 					]
 				}
@@ -354,7 +354,7 @@
 				"intimidation": "+9"
 			},
 			"senses": [
-				"visió de foscor 60 peus (can see invisible creatures out to the same range)"
+				"visió de foscor 60 peus (pot veure criatures invisibles al mateix rang)"
 			],
 			"passive": 10,
 			"resist": [
@@ -382,12 +382,12 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"Arkhan's habilitat de llançament de conjurs is Carisma ({@dc 17} salvació de conjur). He can cast the following spells, sense que calguin components materials:"
+						"Arkhan's habilitat de llançament de conjurs is Carisma ({@dc 17} salvació de conjur). Ell pot llançar els següents encanteris, sentir que calguin components materials:"
 					],
 					"daily": {
 						"3e": [
 							"{@spell animar els morts}",
-							"{@spell càstig marcador} (at 4th level)",
+							"{@spell càstig marcador} (a 4t nivell)",
 							"{@spell revifar}"
 						],
 						"1e": [
@@ -395,46 +395,46 @@
 							"{@spell llevar als morts}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
 					"name": "Aura d'Odi",
 					"entries": [
-						"While Arkhan isn't {@condition incapacitat}, he and all diastres and undead within 30 feet of him deal 4 extra damage whenever they hit amb un atac armat cos a cos (already factored into Arkhan's attacks). This extra damage is of the same type as the weapon's damage type."
+						"Tot i que l'Arkhan no és {@condition incapacitat}, ell i tots els diastres i morts morts a menys de 30 peus d'ell infligen 4 danys addicionals cada cop que xoquen amb un atac armat cos a cos (ja es tenen en compte en els atacs d'Arkhan). Aquest dany addicional és del mateix tipus que el tipus de dany de l'arma."
 					]
 				},
 				{
-					"name": "Hand of Vecna",
+					"name": "Mà de Vecna",
 					"entries": [
-						"The Hand of Vecna has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges ({@dc 18} salvació de conjur): {@spell dit de la mort} (5 charges), {@spell adormir} (1 charge), {@spell alentir} (2 charges), and {@spell teleportació} (3 charges)."
+						"La mà de Vecna ​​té 8 càrregues i recupera {@dices 1d4 + 4} càrregues gastades diàriament a l'alba. Arkhan pot llançar els conjurs següents des de la mà gastant el nombre especificat de càrregues ({@dc 18} salvació de conjur): {@spell dit de la mort} (5 càrregues), {@spell adormir} (1 càrrega), {@spell alentir} (2 càrrecs) i {@spell teleportació} (3 càrrecs)."
 					]
 				},
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Arkhan wields {@item Fane-Eater|bgdia} and wears a suit of {@item Obsidian Flint Dragon Plate|bgdia}. The armor gives Arkhan advantage on ability checks and saving throws made to avoid or end the {@condition grappled} condition on him."
+						"L'Arkhan porta {@item Fane-Eater|bgdia} i porta un vestit de {@item Obsidian Flint Dragon Plate|bgdia}. L'armadura dóna avantatge a l'Arkhan en les proves d'habilitat i en els tirs de salvació realitzats per evitar o acabar amb la condició {@condition grappled} sobre ell."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Arkhan makes three weapon attacks."
+						"Arkhan fa tres atacs amb armes."
 					]
 				},
 				{
-					"name": "Fane-Eater (Battleaxe)",
+					"name": "Fane-Eater (Destral de batalla)",
 					"entries": [
-						"{@atk mw} {@hit 13} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 1d8 + 12}) de dany tallant, o 17 ({@damage 1d10 + 12}) de dany tallant si s'usa amb dos mans, plus 9 ({@damage 2d8}) de dany de fred. If the target is a creature and Arkhan rolls a 20 on the attack roll, the creature takes an extra 9 ({@damage 2d8}) de dany necròtic, and Arkhan regains an amount of hit points equal to the necrotic damage dealt."
+						"{@atk mw} {@hit 13} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 1d8 + 12}) de dany tallant, o 17 ({@damage 1d10 + 12}) de dany tallant si s'usa amb dos mans, plus 9 ({@damage 2d8}) de dany de fred. Si l'objectiu és una criatura i l'Arkhan treu un 20 a la tirada d'atac, la criatura pren un 9 addicional ({@damage 2d8}) de dany necròtic, i Arkhan recupera una quantitat de punts de vida igual al dany necròtic infligit."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
-						"{@atk mw,rw} {@hit 10} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}8 ({@damage 1d6 + 5}) de dany perforant, mes 4 piercing damage and 9 ({@damage 2d8}) de dany de fred if the javelin was used to make a melee attack."
+						"{@atk mw,rw} {@hit 10} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}8 ({@damage 1d6 + 5}) de dany perforant, mes 4 de dany perforant i 9 ({@damage 2d8}) de dany de fred si la javelina s'utilitzava per fer un atac cos a cos."
 					]
 				}
 			],
@@ -443,7 +443,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -478,7 +478,7 @@
 			"type": {
 				"type": "infernal",
 				"tags": [
-					"diable"
+					"discapacitat"
 				]
 			},
 			"alineament": [
@@ -544,14 +544,14 @@
 			"idiomes": [
 				"Comú",
 				"Diàstric",
-				"telepatía 120 peus"
+				"telepatia 120 peus"
 			],
 			"cr": "25",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"Bel's habilitat de llançament de conjurs is Carisma ({@dc 23} salvació de conjur). Bel pot llançar els conjurs següents innatament (no requereix components materials):"
+						"Bel's habilitat de llançament de conjurs is Carisma ({@dc 23} salvació de conjur). Bel pot llançar els conjurs següents innatament (no requereixen materials):"
 					],
 					"will": [
 						"{@spell detectar màgia}",
@@ -565,21 +565,21 @@
 							"{@spell desconcertar}",
 							"{@spell llevar als morts}",
 							"{@spell teleportació}",
-							"{@spell paret de foc}"
+							"{@spell pare de foc}"
 						],
 						"1e": [
 							"{@spell engarjolament}",
 							"{@spell eixam de meteorits}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
-					"name": "Fear Aura",
+					"name": "Aura de por",
 					"entries": [
-						"Any creature hostile to Bel that starts its turn within 20 feet of him ha de salvar per Saviesa amb {@dc 23}, unless Bel is {@condition incapacitat}. Unless the save succeeds, the creature is {@condition acovardit} fins a l'inici del seu següent torn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura durant les properes 24 hores."
+						"Qualsevol criatura hostil a Bel que comenci el seu torn a menys de 20 peus d'ell ha de salvar per Saviesa amb {@dc 23}, tret que Bel sigui {@condition incapacitat}. A menys que el desat tingui èxit, la criatura és {@condition acovardit} fins a l'inici del seu següent trencat. Si la tirada de salvació d'una criatura té èxit, la criatura és immune a l'aura de la por de Bel durant les 24 hores."
 					]
 				},
 				{
@@ -603,15 +603,15 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Bel fa tres atacs: two with his greatsword and one with his tail."
+						"Bel fa tres atacs: dos amb la seva gran espasa i un amb la seva cua."
 					]
 				},
 				{
 					"name": "Espasa Gran",
 					"entries": [
-						"{@atk mw} {@hit 16} a impactar, 10 peus d'abast, un objectiu. {@h}23 ({@damage 4d6 + 9}) de dany tallant mes 21 ({@damage 6d6}) de dany de foc. If the target is a flammable object that is not being held or worn, it catches fire."
+						"{@atk mw} {@hit 16} a impactar, 10 peus d'abast, un objectiu. {@h}23 ({@damage 4d6 + 9}) de dany tallant mes 21 ({@damage 6d6}) de dany de foc. Si l'objectiu és un objecte inflamable que no es subjecta ni es porta, s'encén."
 					]
 				},
 				{
@@ -625,19 +625,19 @@
 				{
 					"name": "Bola de Foc",
 					"entries": [
-						"Bel casts fireball."
+						"Bel llança una bola de foc."
 					]
 				},
 				{
 					"name": "Tactical Edge (Costa 2 Accions)",
 					"entries": [
-						"Roll a {@dice d6} for Bel. The number rolled on the die is subtracted from the next attack roll made against Bel or an ally of his choice within the next minute."
+						"Tira un {@dau d6} per a Bel. El nombre llançat al dau es resta de la següent tirada d'atac contra Bel o un aliat de la seva elecció durant el minut següent."
 					]
 				},
 				{
 					"name": "Summon Ice Devil (Costa 3 Accions)",
 					"entries": [
-						"Bel magically summons an ice devil with an ice spear (as described in the ice devil's entry in the Monster Manual). The ice devil apareix en un espai desocupat within 60 feet of Bel, acts as Bel's ally, and can summon other devils if it has such power. The ice devil remains until Bel dies or until he dismisses it as an action."
+						"Bel convoca màgicament un diable de gel amb una llança de gel (tal com es descriu a l'entrada del diable de gel al Manual del monstre). El diable de gel apareix en un espai desocupat a 60 peus de Bel, actua com a aliat de Bel i pot convocar altres diables si té aquest poder. El diable de gel roman fins que Bel mor o fins que ho descarta com una acció."
 					]
 				}
 			],
@@ -651,7 +651,7 @@
 				"U"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -684,7 +684,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Bitter Breath",
+			"name": "Alè Amarg",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 90,
@@ -693,9 +693,9 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the devil",
-						"with": "Bitter Breath",
+						"mode": "substituirTxt",
+						"replace": "el diable",
+						"with": "Alè Amarg",
 						"flags": "i"
 					}
 				}
@@ -706,7 +706,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Black Gauntlet of Perdició",
+			"name": "Guant Negre de la Perdició",
 			"source": "BGDIA",
 			"page": 235,
 			"size": "M",
@@ -776,7 +776,7 @@
 								"{@spell perdició}",
 								"{@spell beneir}",
 								"{@spell curar ferides}",
-								"{@spell sageta guia} (see \"Actions\" below)"
+								"{@spell sageta guia} (vegeu \"Accions\" a continuació)"
 							]
 						},
 						"2": {
@@ -795,28 +795,28 @@
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
-					"name": "Aura of Terror",
+					"name": "Aura de terror",
 					"entries": [
-						"When a hostile creature within 5 feet of the black gauntlet makes an attack roll or a saving throw, it has disadvantage on the roll. Creatures that are immune to the {@condition acovardit} condition are immune to this trait."
+						"Quan una criatura hostil a 5 peus del guant negre fa una tirada d'atac o una tirada de salvació, té desavantatge a la tirada. Les criatures que són immunes a la condició {@condition acovardit} són immunes a aquest tret."
 					]
 				},
 				{
-					"name": "Tactical Discipline",
+					"name": "Disciplina tàctica",
 					"entries": [
-						"The black gauntlet has advantage on all ability checks and saving throws made during combat."
+						"El guant negre té avantatge en totes les proves d'habilitat i en els tirs de salvació realitzats durant el combat."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The black gauntlet fa dos atacs with its mace."
+						"El guant negre fa dos atacs amb la seva maça."
 					]
 				},
 				{
@@ -826,15 +826,15 @@
 					]
 				},
 				{
-					"name": "Sageta Guia (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Sageta Guia (Encanteri de 1r nivell; Requereix un espai per a encanteris)",
 					"entries": [
-						"{@atk rs} {@hit 7} a impactar, 120 peus d'abast, una criatura. {@h}14 ({@damage 4d6}) de dany radiant, and the next attack roll made against the target before the end of the black gauntlet's next turn has advantage. If the black gauntlet casts this spell using a spell slot of 2nd level or higher, el dany incrementa en {@dice 1d6} per cada nivell per sobre d'1."
+						"{@atk rs} {@hit 7} a impactar, 120 peus d'abast, una criatura. {@h}14 ({@damage 4d6}) de dany radiant, i la següent tirada d'atac feta contra l'objectiu abans del final del següent torn del guant negre té avantatge. Si el guant negre llança aquest encanteri utilitzant una ranura d'encanteri de 2n nivell o superior, el dany incrementa en {@dice 1d6} per cada nivell per sobre d'1."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -858,7 +858,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Bone Whelk",
+			"name": "Buc d'os",
 			"source": "BGDIA",
 			"page": 119,
 			"size": "L",
@@ -895,15 +895,15 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Adhesive",
+					"name": "Adhesiu",
 					"entries": [
-						"The bone whelk can cause Medium or smaller objects to adhere to it. A Medium or smaller creature that touches the bone whelk is {@condition grappled} by it ({@dc 10} per escapar)."
+						"El comiat d'os pot fer que s'hi adhereixin objectes mitjans o més petits. Una criatura mitjana o més petita que toca el bucc d'os és {@condition grappled} per ella ({@dc 10} per escapar)."
 					]
 				},
 				{
-					"name": "Death Scream",
+					"name": "Crit de la mort",
 					"entries": [
-						"When the bone whelk dies, it emits a blood-curdling shriek than can be heard out to a range of 120 feet. This shriek causes nonmagical, organic material within 10 feet of the bone whelk to rot. Each creature within 10 feet of the bone whelk when it dies takes 9 ({@damage 2d8}) de dany necròtic."
+						"Quan el bucc d'os mor, emet un crit de sang que es pot escoltar a una distància de 120 peus. Aquest crit fa que el material orgànic i no màgic es podrigui a 10 peus de l'os. Cada criatura a menys de 10 peus del bucc ossi quan mor triga 9 ({@damage 2d8}) de dany necròtic."
 					]
 				},
 				{
@@ -939,7 +939,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Burney the Barber",
+			"name": "Burney el barber",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "BGDIA",
@@ -949,8 +949,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the dragon",
+						"mode": "substituirTxt",
+						"replace": "el drac",
 						"with": "Burney",
 						"flags": "i"
 					},
@@ -958,22 +958,22 @@
 						"mode": "appendArr",
 						"items": [
 							{
-								"name": "Healer",
+								"name": "Sanador",
 								"entries": [
-									"Burney has the benefits of the {@feat healer} feat as well as proficiency with both the {@item healer's kit|phb} and the {@item herbalism kit|phb}."
+									"Burney té els avantatges de la proesa {@feat healer}, així com la competència tant amb el {@item healer's kit|phb} com amb el {@item herbalism kit|phb}."
 								]
 							},
 							{
-								"name": "Bahamut's Blessings",
+								"name": "Les benediccions de Bahamut",
 								"entries": [
-									"Burney has received several blessings in her service to Bahamut:",
+									"Burney ha rebut diverses benediccions en el seu servei a Bahamut:",
 									{
-										"type": "list",
+										"type": "llista",
 										"items": [
-											"Unless Burney decided otherwise, once any creature less powerful than a deity has taken three steps from her, they can no longer remember her or having interacted with her specifically.",
-											"Burney is under the effect of a permanent {@spell ment en blanc} spell, and cannot be detected by magical or mundane means unless she wishes it. In exchange for this blessing, Burney can take no direct action against the denizens of els Nou Inferns, though she can certainly enlist the help of those who can.",
-											"Burney always knows the location of the Wandering Emporium and can transport herself there as though by a {@spell formular el retorn} spell. This explains why Burney simply seems to appear amid the fully deployed marketplace each morning it is active to provide service and tell stories.",
-											"Once each day, when Burney so desires, she can instantly transport herself to the court of Bahamut via a powerful blessing akin to the {@spell saltar de pla} spell."
+											"A menys que Burney decideixi el contrari, una vegada que qualsevol criatura menys poderosa que una deïtat ha fet tres passos d'ella, ja no la poden recordar ni haver interactuat amb ella específicament.",
+											"Burney està sota l'efecte d'un encanteri permanent {@spell ment en blanc} i no es pot detectar per mitjans màgics o mundans tret que ella ho desitgi. A canvi d'aquesta benedicció, Burney no pot prendre cap acció directa contra els habitants dels Nou Inferns, tot i que certament pot comptar amb l'ajuda d'aquells que puguin.",
+											"Burney sempre sap la ubicació del Wandering Emporium i pot transportar-s'hi com si fes un encanteri {@spell formular el retorn}. Això explica per què Burney sembla simplement aparèixer enmig del mercat completament desplegat cada matí que està actiu per oferir servei i explicar històries.",
+											"Un cop al dia, quan Burney així ho desitgi, pot transportar-se instantàniament a la cort de Bahamut mitjançant una poderosa benedicció semblant a l'encanteri {@spell saltar de pla}."
 										]
 									}
 								]
@@ -994,8 +994,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the kenku",
+						"mode": "substituirTxt",
+						"replace": "el kenku",
 						"with": "Chukka",
 						"flags": "i"
 					}
@@ -1003,7 +1003,7 @@
 			},
 			"action": [
 				{
-					"name": "Silvered Pike",
+					"name": "Lluç platejat",
 					"entries": [
 						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}5 ({@damage 1d10}) de dany perforant."
 					]
@@ -1024,8 +1024,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the kenku",
+						"mode": "substituirTxt",
+						"replace": "el kenku",
 						"with": "Clonk",
 						"flags": "i"
 					}
@@ -1033,7 +1033,7 @@
 			},
 			"action": [
 				{
-					"name": "Focferni Warhammer",
+					"name": "Fofferni Warhammer",
 					"entries": [
 						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany contundent, o 5 ({@damage 1d10 + 1}) de dany contundent si s'usa a dues mans per un atac cos a cos."
 					]
@@ -1116,7 +1116,7 @@
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Abyssal però no pot parlar"
+				"entén Abyssal però no pot parlar"
 			],
 			"cr": "14",
 			"trait": [
@@ -1139,9 +1139,9 @@
 					]
 				},
 				{
-					"name": "Secure Memory",
+					"name": "Memòria segura",
 					"entries": [
-						"Crokek'toeck is immune to the waters of the River Styx as well as any effect that would steal or modify its memories or detect or read its thoughts."
+						"Crokek'toeck és immune a les aigües del riu Styx, així com a qualsevol efecte que pugui robar o modificar els seus records o detectar o llegir els seus pensaments."
 					]
 				},
 				{
@@ -1159,9 +1159,9 @@
 					]
 				},
 				{
-					"name": "Disgorge Allies {@recharge}",
+					"name": "Desboca els aliats {@recharge}",
 					"entries": [
-						"Crokek'toeck opens its mouth and disgorges {@dice 1d4} {@creature barlgura||barlguras}, {@dice 3d6} {@creature gnoll||gnolls} led by 1 {@creature gnoll fang of Yeenoghu}, {@dice 6d6} {@creature dretch||dretches}, o {@dice 1d3} {@creature vrock||vrocks}. Each creature it disgorges apareix en un espai desocupat within 30 feet of Crokek'toeck's mouth, or the next closest unoccupied space."
+						"Crokek'toeck obre la boca i degolla {@dice 1d4} {@creature barlgura||barlguras}, {@dice 3d6} {@creature gnoll||gnolls} dirigit per 1 {@creature gnoll fang de Yeenoghu}, {@dices 6d6} {@creature dretch||dretches}, o {@dice 1d3} {@creature vrock||vrocks}. Cada criatura que desgorge apareix en un espai desocupat a 30 peus de la boca de Crokek'toeck, o el següent espai desocupat més proper."
 					]
 				}
 			],
@@ -1189,7 +1189,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Death's Head of Bhaal",
+			"name": "Cap de la mort de Bhaal",
 			"source": "BGDIA",
 			"page": 233,
 			"size": "M",
@@ -1235,9 +1235,9 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "Aura of Murder",
+					"name": "Aura d'assassinat",
 					"entries": [
-						"As long as the death's head is not {@condition incapacitat}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+						"Mentre el cap de la mort no sigui {@condition incapacitat}, les criatures hostils a menys de 5 peus d'ella guanyen vulnerabilitat a danys perforants tret que tinguin resistència o immunitat a aquests danys."
 					]
 				},
 				{
@@ -1249,9 +1249,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The death's head uses Stunning Gaze and makes two dagger attacks."
+						"El cap de la mort utilitza Stunning Gaze i fa dos atacs de punyal."
 					]
 				},
 				{
@@ -1261,17 +1261,17 @@
 					]
 				},
 				{
-					"name": "Stunning Gaze",
+					"name": "Mirada impressionant",
 					"entries": [
-						"The death's head targets one creature it can see within 30 feet of it. The target ha de salvar per Saviesa amb {@dc 14} or be {@condition atordit} fins el final del seu proper torn."
+						"El cap de la mort apunta a una criatura que pot veure a 30 peus d'ella. The target ha de salvar per Saviesa amb {@dc 14} or be {@condition atordit} fins el final del seu proper torn."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Unstoppable (3/Dia)",
+					"name": "Imparable (3/dia)",
 					"entries": [
-						"The death's head reduces the damage it takes from an attack to 0."
+						"El cap de la mort redueix a 0 el dany que pren d'un atac."
 					]
 				}
 			],
@@ -1283,7 +1283,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -1302,7 +1302,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Dryad Spirit",
+			"name": "Esperit Dríade",
 			"source": "BGDIA",
 			"page": 108,
 			"_copy": {
@@ -1310,16 +1310,16 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "banshee",
-						"with": "dryad"
+						"with": "dríade"
 					}
 				}
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Duke Thalamra Vanthampur",
+			"name": "Duc Thalamra Vanthampur",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 38,
@@ -1367,7 +1367,7 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "Dark Devotion",
+					"name": "Devoció fosca",
 					"entries": [
 						"Thalamra té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
@@ -1375,15 +1375,15 @@
 				{
 					"name": "Ulls de Diables",
 					"entries": [
-						"Thalamra can see normally in darkness, both magical and nonmagical, out a 120 peus d'abast."
+						"Thalamra pot veure normalment a la foscor, tant màgica com no màgica, fora d'un 120 peus d'abast."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Thalamra uses missil èldritx twice or makes two atacs desarmats."
+						"Thalamra utilitza missil èldritx dues vegades o fa dos atacs desarmats."
 					]
 				},
 				{
@@ -1403,7 +1403,7 @@
 				{
 					"name": "Venjança dels Inferns (Conjur de Nivell 1; 2/Dia)",
 					"entries": [
-						"When Thalamra is damaged by a creature within 60 feet of her that she can see, the creature that damaged her is engulfed in hellish flames i ha de salvar per Destresa amb {@dc 14}. Qui falli rep 16 ({@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
+						"Quan Thalamra és danyada per una criatura a menys de 60 peus d'ella que pot veure, la criatura que la va danyar queda envoltada en flames infernals i ha de salvar per Destresa amb {@dc 14}. Qui falli rep 16 (@damage 3d10}) de dany de foc; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -1415,7 +1415,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -1442,8 +1442,8 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the mage",
+						"mode": "substituirTxt",
+						"replace": "el mag",
 						"with": "Elliach",
 						"flags": "i"
 					}
@@ -1481,12 +1481,12 @@
 			"source": "BGDIA",
 			"page": 130,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimat",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"mode": "substituirTxt",
+						"replace": "l'arximag",
 						"with": "Feonor",
 						"flags": "i"
 					}
@@ -1509,7 +1509,7 @@
 			"source": "BGDIA",
 			"page": 236,
 			"size": "L",
-			"type": "constructe",
+			"type": "construir",
 			"alineament": [
 				"U"
 			],
@@ -1556,13 +1556,13 @@
 						"perforant",
 						"tallant"
 					],
-					"note": "from nonmagical attacks that aren't adamantine or silvered",
+					"note": "d'atacs no màgics que no són adamantins ni platejats",
 					"cond": true
 				}
 			],
 			"conditionImmune": [
 				"fascinat",
-				"exhaust",
+				"escapament",
 				"acovardit",
 				"paralitzat",
 				"petrificat",
@@ -1576,12 +1576,12 @@
 				{
 					"name": "Bersèrk",
 					"entries": [
-						"Quan el gòlem comenci el seu torn amb 100 punts de vida o menys, tira {@dice d6}. Si surt un 6 el gòlem es torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferentment més petit). Quan el gòlem sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de vida.",
+						"Quan el gòlem comenci el seu torn amb 100 punts de vida o menys, tira {@dice d6}. Si surt un 6 el gòlem és torna bersèrk. A cada torn així ataca a la criatura que tingui més a prop i pugui veure. Si no n'hi ha cap prou a prop per moure's i atacar-la, atacarà a un objecte (preferent més petit). Quan el gòlem sigui bersèrk no parara fins que sigui destruit o recuperi tots els punts de vida.",
 						"Si el creador del gòlem hi és a 60 peus d'abast pot intentar calmar-lo com a acció. El gòlem l'ha de poder sentir. El creador farà una tirada de Carisma (Persuasión) amb {@dc 15}. Si supera, el bersèrk s'acaba pel gòlem. Si el gòlem torna a rebre mal estant a 100 punts de vida o menys, pot tornar a activar-se el bersèrk."
 					]
 				},
 				{
-					"name": "Forma Immutable",
+					"name": "Forma immutable",
 					"entries": [
 						"The gòlem és immune a tot conjur o efecte que vulgui alterar-li la forma."
 					]
@@ -1589,7 +1589,7 @@
 				{
 					"name": "Absorbir Electricitat",
 					"entries": [
-						"Quan the gòlem hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de vida."
+						"Quan el gòlem hagi de rebre dany elèctric, no rep mal sinò que recupera la meitat de dany elèctric en punts de vida."
 					]
 				},
 				{
@@ -1607,9 +1607,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The gòlem makes two slam attacks."
+						"El gòlem fa dos atacs de slam."
 					]
 				},
 				{
@@ -1622,7 +1622,7 @@
 			"hasToken": true,
 			"traitTags": [
 				"Absorbir Dany",
-				"Forma Immutable",
+				"Forma immutable",
 				"Resistència a la Màgia",
 				"Armament Màgic"
 			],
@@ -1630,7 +1630,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"CS"
@@ -1644,7 +1644,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Fist of Perdició",
+			"name": "Puny de Perdició",
 			"source": "BGDIA",
 			"page": 232,
 			"size": "M",
@@ -1690,9 +1690,9 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Tactical Discipline",
+					"name": "Disciplina tàctica",
 					"entries": [
-						"The fist of Bane has advantage on all ability checks and saving throws made during combat."
+						"El puny de Bane té avantatge en totes les proves d'habilitat i en els tirs de salvació realitzats durant el combat."
 					]
 				}
 			],
@@ -1726,20 +1726,20 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Flying Daga",
+			"name": "Daga voladora",
 			"source": "BGDIA",
 			"page": 30,
 			"_copy": {
-				"name": "Flying Sword",
+				"name": "Espasa Voladora",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "espasa",
 						"with": "daga"
 					},
 					"action": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Espasa llarga",
 						"items": {
 							"name": "Daga",
@@ -1766,7 +1766,7 @@
 			"source": "BGDIA",
 			"page": 65,
 			"size": "M",
-			"type": "no-mort",
+			"type": "no mort",
 			"alineament": [
 				"L",
 				"E"
@@ -1819,7 +1819,7 @@
 				"radiant"
 			],
 			"conditionImmune": [
-				"exhaust",
+				"escapament",
 				"paralitzat",
 				"emmetzinat"
 			],
@@ -1831,27 +1831,27 @@
 				{
 					"name": "Regeneració",
 					"entries": [
-						"Gideon regains 10 hit points a l'inici de cada torn seu. If he takes radiant damage, this trait doesn't function at the start of his next turn. Gideon is destroyed only if he starts his turn with 0 hit points and doesn't regenerate."
+						"Gideon recupera 10 punts de vida a l'inici de cada torn seu. Si rep dany radiant, aquest tret no funciona al començament del seu següent torn. Gideon és destruït només si comença el seu torn amb 0 punts de vida i no es regenera."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Gideon attacks twice with his fists."
+						"Gideon ataca dues vegades amb els punys."
 					]
 				},
 				{
-					"name": "Fist",
+					"name": "Puny",
 					"entries": [
 						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany contundent."
 					]
 				},
 				{
-					"name": "Withering Gaze",
+					"name": "Mirada marchita",
 					"entries": [
-						"Gideon targets one creature he can see within 60 feet of him. L'objectiu ha de salvar per Constitució amb {@dc 15}. Qui falli rep 22 ({@damage 4d10}) de dany necròtic; qui superi, en rep la meitat."
+						"Gideon apunta a una criatura que pot veure a 60 peus d'ell. L'objectiu ha de salvar per Constitució amb {@dc 15}. Qui falli rep 22 (@damage 4d10}) de dany necròtic; qui superi, en rep la meitat."
 					]
 				}
 			],
@@ -1863,7 +1863,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -1966,7 +1966,7 @@
 			],
 			"idiomes": [
 				"Diàstric",
-				"telepatía 300 peus (with other hellwasps only)"
+				"telepatía 300 peus (només amb altres hellwasps)"
 			],
 			"cr": "5",
 			"trait": [
@@ -1979,19 +1979,19 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The hellwasp fa dos atacs: one with its sting and one with its sword talons."
+						"L'infern fa dos atacs: un amb el seu agulló i un altre amb les seves urpes d'espasa."
 					]
 				},
 				{
 					"name": "Fiblar",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}8 ({@damage 1d8 + 4}) de dany perforant mes 7 ({@damage 2d6}) de dany de foc, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. While {@condition emmetzinat} in this way, the target is also {@condition paralitzat}. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura. {@h}8 ({@damage 1d8 + 4}) de dany perforant mes 7 ({@damage 2d6}) de dany de foc, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. Si bé {@condition emmetzinat} d'aquesta manera, l'objectiu també és {@condition paralitzat}. L'objectiu pot repetir la salvada al final de cada torn el seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
-					"name": "Sword Talons",
+					"name": "Garres d'espasa",
 					"entries": [
 						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany perforant."
 					]
@@ -2005,7 +2005,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"I",
@@ -2026,11 +2026,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hellwasp Grub",
+			"name": "Larva Hellwasp",
 			"source": "BGDIA",
 			"page": 95,
 			"_copy": {
-				"name": "Giant Centipede",
+				"name": "Centpeus gegant",
 				"source": "MM"
 			},
 			"hasToken": true
@@ -2092,14 +2092,14 @@
 			],
 			"idiomes": [
 				"Celestial",
-				"telepatía 120 peus"
+				"telepatia 120 peus"
 			],
 			"cr": "5",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innata de The hollyphant és Saviesa ({@dc 15} salvació de conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innata de The hollyphant és Saviesa ({@dc 15} salvació de conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
 						"{@spell llum}"
@@ -2114,18 +2114,18 @@
 							"{@spell desterrament}",
 							"{@spell sanar}",
 							"{@spell llevar als morts}",
-							"{@spell canviaformes} (into a golden-furred {@creature mamut} with feathered wings and a flying speed of 120 ft.)",
-							"{@spell teleportació} (with no chance of error)"
+							"{@spell canviaformes} (en un {@creature mamut} de pell daurada amb ales emplomades i una velocitat de vol de 120 peus)",
+							"{@spell teleportació} (sense possibilitat d'error)"
 						]
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
-					"name": "Aura of Invulnerability",
+					"name": "Aura d'invulnerabilitat",
 					"entries": [
-						"An {@condition invisible} aura forms a 10-foot-radius sphere around the hollyphant for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. The hollyphant can use an action to suppress this trait until its concentration ends (as if concentrating on a spell)."
+						"Una aura {@condition invisible} forma una esfera de 10 peus de radi al voltant del grèvol durant el temps que viu. Qualsevol encanteri de 5è nivell o inferior llançat des de fora de la barrera no pot afectar les criatures o els objectes que hi ha dins, fins i tot si l'encanteri es llança amb un espai de conjur de nivell superior. Aquest encanteri pot apuntar a criatures i objectes dins de la barrera, però l'encanteri no té cap efecte sobre ells. De la mateixa manera, l'àrea dins de la barrera queda exclosa de les zones afectades per aquests encanteris. El grèvol pot fer servir una acció per suprimir aquest tret fins que acabi la seva concentració (com si es concentrés en un encanteri)."
 					]
 				},
 				{
@@ -2143,21 +2143,21 @@
 					]
 				},
 				{
-					"name": "Trumpet (3/Dia)",
+					"name": "Trompeta (3/dia)",
 					"entries": [
-						"The hollyphant blows air through its trunk, creating a trumpet sound that can be heard out to a range of 600 feet. The trumpet also creates a 30-foot cone of energy that has one of the following effects, chosen by the hollyphant:"
+						"El grèvol bufa aire a través del seu tronc, creant un so de trompeta que es pot escoltar a una distància de 600 peus. La trompeta també crea un con d'energia de 30 peus que té un dels efectes següents, escollit pel grèvol:"
 					]
 				},
 				{
-					"name": "Trumpet of Blasting",
+					"name": "Trompeta d'explosió",
 					"entries": [
-						"Tota criatura a dins del con ha de salvar per Constitució amb {@dc 14}. Qui falli rep 17 ({@damage 5d6}) de dany de tro i està {@condition eixordat} durant 1 minut. Qui superi en rep la meitat i no està {@condition eixordat}. Nonmagical objects in the cone that aren't being held or worn take 35 ({@damage 10d6}) de dany de tro."
+						"Tota criatura a dins del amb ha de salvar per Constitució amb {@dc 14}. Qui falli rep 17 ({@damage 5d6}) de dany de tro i està {@condition eixordat} durant 1 minut. Qui superi en rep la meitat i no està {@condition eixordat}. Els objectes no màgics del con que no s'aguanten ni es porten prenen 35 ({@damage 10d6}) de dany de tro."
 					]
 				},
 				{
-					"name": "Trumpet of Sparkles",
+					"name": "Trompeta d'espurnes",
 					"entries": [
-						"Creatures in the cone ha de salvar per Constitució amb {@dc 14}, taking 22 ({@damage 4d8 + 4}) de dany radiant; si supera, en rep la meitat. Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage."
+						"Creatures in the cone ha de salvar per Constitució amb {@dc 14}, prenant 22 ({@damage 4d8 + 4}) de dany radiant; si supera, en rep la meitat. Les criatures malvades tenen desavantatge en la tirada de salvació. Les bones criatures del con no tenen cap dany."
 					]
 				}
 			],
@@ -2191,7 +2191,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Iron Consul",
+			"name": "Cònsol de Ferro",
 			"source": "BGDIA",
 			"page": 232,
 			"size": "M",
@@ -2243,35 +2243,35 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "Tactical Discipline",
+					"name": "Disciplina tàctica",
 					"entries": [
-						"The iron consul has advantage on all ability checks and saving throws made during combat."
+						"El cònsol de ferro té avantatge en totes les proves d'habilitat i en els tirs de salvació realitzats durant el combat."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The iron consul makes one attack with its spear and can use its Voice of Command ability."
+						"El cònsol de ferro fa un atac amb la seva llança i pot utilitzar la seva habilitat Veu de comandament."
 					]
 				},
 				{
-					"name": "Spear",
+					"name": "Llança",
 					"entries": [
 						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant, o 7 ({@damage 1d8 + 3}) de dany perforant si s'usa amb dos mans to make a melee attack."
 					]
 				},
 				{
-					"name": "Voice of Command",
+					"name": "Veu de comandament",
 					"entries": [
-						"The iron consul selects up to two allies within 90 feet of it that can hear its commands. Each ally can immediately use its reaction to make one melee attack."
+						"El cònsol de ferro selecciona fins a dos aliats a 90 peus d'ell que poden escoltar les seves ordres. Cada aliat pot utilitzar immediatament la seva reacció per fer un atac cos a cos."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -2363,17 +2363,17 @@
 			"idiomes": [
 				"Abismal",
 				"Gegantès",
-				"telepathy 120 ft"
+				"telepatia 120 peus"
 			],
 			"cr": "25",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de Kostchtchie's és Saviesa ({@dc 20} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de Kostchtchie's és Saviesa ({@dc 20} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
-						"{@spell command}",
+						"{@ordre ortogràfica}",
 						"{@spell foscor}"
 					],
 					"daily": {
@@ -2386,7 +2386,7 @@
 							"{@spell pas del vent}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
@@ -2405,9 +2405,9 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Kostchtchie makes two melee attacks, only one of which can be a bite attack."
+						"Kostchtchie fa dos atacs cos a cos, només un dels quals pot ser un atac de mossegada."
 					]
 				},
 				{
@@ -2417,29 +2417,29 @@
 					]
 				},
 				{
-					"name": "Matalotok (Warhammer)",
+					"name": "Matalotok (Martell de guerra)",
 					"entries": [
-						"{@atk mw} {@hit 18} a impactar, 10 peus d'abast, un objectiu. {@h}19 ({@damage 2d8 + 10}) de dany contundent, o 21 ({@damage 2d10 + 10}) de dany contundent si s'usa amb dos mans, and the weapon emits a burst of cold that deals 10 ({@damage 3d6}) de dany de fred to each creature within 30 feet of it."
+						"{@atk mw} {@hit 18} a impactar, 10 peus d'abast, un objectiu. {@h}19 ({@damage 2d8 + 10}) de dany contundent, o 21 ({@damage 2d10 + 10}) de dany contundent si s'usa amb dos mans, i l'arma emet un esclat de fred que fa 10 ({@damage 3d6}) de dany de fred a cada criatura a 30 peus d'ella."
 					]
 				}
 			],
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Atacar",
 					"entries": [
-						"Kostchtchie makes one atac armat cos a cos."
+						"Kostchtchie fa un atac armat cos a cos."
 					]
 				},
 				{
 					"name": "Carregar",
 					"entries": [
-						"Kostchtchie moves up to his speed."
+						"Kostchtchie es mou a la seva velocitat."
 					]
 				},
 				{
 					"name": "Curse (Costa 2 Accions)",
 					"entries": [
-						"Kostchtchie curses one creature he can see within 60 feet of him. The cursed creature gains vulnerability to all damage dealt by Kostchtchie until the end of Kostchtchie's next turn."
+						"Kostchtchie maleeix una criatura que pot veure a 60 peus d'ell. La criatura maleïda guanya vulnerabilitat a tots els danys infligits per Kostchtchie fins al final del següent torn de Kostchtchie."
 					]
 				}
 			],
@@ -2452,7 +2452,7 @@
 				"U"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
@@ -2549,7 +2549,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell curar ferides}",
-								"{@spell detectar el bé i el mal}",
+								"{@spell detecta el bé i el mal}",
 								"{@spell pseudo vida}",
 								"{@spell infligir ferides}",
 								"{@spell raig d'arcada}"
@@ -2609,20 +2609,20 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
 					"name": "Aguantar la Respiració",
 					"entries": [
-						"Krull can hold his breath durant 1 hora."
+						"Krull pot aguantar la respiració durant 1 hora."
 					]
 				},
 				{
-					"name": "Inescapable Destruction",
+					"name": "Destrucció ineludible",
 					"entries": [
-						"Necrotic damage dealt by Krull's spells ignores resistance to necrotic damage."
+						"El dany necròtic causat pels encanteris de Krull ignora la resistència al dany necròtic."
 					]
 				}
 			],
@@ -2642,7 +2642,7 @@
 				{
 					"name": "Defensa Closca",
 					"entries": [
-						"Krull withdraws into his shell. Until he emerges com a acció bonus, he has a +4 bonus to AC and has advantage on Força and Constitució saving throws. While in his shell, Krull is {@condition enderrocat}, his speed is 0 and can't increase, he has disadvantage on Destresa saving throws, he can't take reactions, and the only action he can take is to emerge from his shell."
+						"Krull es retira a la seva closca. Fins que no surt com a bonus d'acció, té un +4 a l'AC i té avantatge en tirs de salvació de Força i Constitució. Mentre està a la seva closca, Krull és {@condition enderrocat}, la seva velocitat és 0 i no pot augmentar, té desavantatge en els tirs de salvació de Destresa, no pot prendre reaccions i l'única acció que pot fer és sortir del seu closca."
 					]
 				}
 			],
@@ -2686,8 +2686,8 @@
 				"source": "BGDIA",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the hollyphant",
+						"mode": "substituirTxt",
+						"replace": "el grèvol",
 						"with": "Lulu",
 						"flags": "i"
 					}
@@ -2696,17 +2696,17 @@
 			"hasToken": true
 		},
 		{
-			"name": "Mad Maggie",
+			"name": "Maggie boja",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 74,
 			"_copy": {
-				"name": "Night Hag",
+				"name": "Bruja nocturna",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the hag",
+						"mode": "substituirTxt",
+						"replace": "la bruja",
 						"with": "Maggie",
 						"flags": "i"
 					}
@@ -2715,7 +2715,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Mahadi the Rakshasa",
+			"name": "Mahadi el Rakshasa",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 127,
@@ -2776,12 +2776,12 @@
 					"vulnerable": [
 						"perforant"
 					],
-					"note": "from arma màgicas wielded by good creatures",
+					"note": "d'arma màgica emprada per bones criatures",
 					"cond": true
 				}
 			],
 			"idiomes": [
-				"all (can read only)",
+				"tot (només es pot llegir)",
 				"Comú",
 				"Diàstric"
 			],
@@ -2790,7 +2790,7 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innata de Mahadi és Carisma ({@dc 18} salvada de conjur, {@hit 9} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innata de Mahadi és Carisma ({@dc 18} salvada de conjur, {@hit 9} a impactar amb atacs màgics). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
 						"{@spell detectar pensaments}",
@@ -2820,14 +2820,14 @@
 							"{@spell visió veritable}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
 					"name": "Immunitat Màgica Limitada",
 					"entries": [
-						"Mahadi can't be affected or detected by spells of 6th level or lower unless he wishes to be. Té avantatge a salvades contra conjurs i altres efectes màgics."
+						"Mahadi no pot ser afectat ni detectat per encanteris de 6è nivell o inferior tret que ho desitgi. Té avantatges a salvades contra conjurs i altres efectes màgics."
 					]
 				},
 				{
@@ -2839,7 +2839,7 @@
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
 						"Mahadi fa quatre atacs d'Urpa."
 					]
@@ -2847,13 +2847,13 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, and l'objectiu està maleït if it's a creature. The curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a anul·lar maledicció spell or similar magic."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, i l'objectiu està maleït si és una criatura. La maledicció té efecte sempre que l'objectiu pren un descans curt o llarg, omplint els seus pensaments d'imatges i somnis horribles. L'objectiu maleït no treu cap benefici en acabar un descans curt o llarg. La maledicció dura fins que és aixecada per un encanteri anul·lar maledicció o màgia semblant."
 					]
 				},
 				{
-					"name": "Summon Erinyes (1/Dia)",
+					"name": "Convocar Erinyes (1/dia)",
 					"entries": [
-						"Mahadi summons Ilzabet, an erinyes bound to him by an infernal contract. The erinyes apareix en un espai desocupat within 60 feet of him, acts as his ally, and can't summon other devils. The erinyes remains durant 10 minuts or until Mahadi dismisses it as an action. If the erinyes dies, Mahadi loses this action option."
+						"Mahadi convoca Ilzabet, una erinyes lligada a ell per un contracte infernal. Les erinyes apareixen en un espai desocupat a 60 peus d'ell, actua com a seu aliat i no poden convocar altres diables. Les erinyes romanen durant 10 minuts o fins que Mahadi la desestima com a acció. Si l'erinyes mor, Mahadi perd aquesta opció d'acció."
 					]
 				}
 			],
@@ -2865,7 +2865,7 @@
 				"SD"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -2885,7 +2885,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Master of Souls",
+			"name": "Mestre de les ànimes",
 			"source": "BGDIA",
 			"page": 234,
 			"size": "M",
@@ -2938,7 +2938,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mà morta} (see \"Actions\" below)",
+								"{@spell mà morta} (vegeu \"Accions\" a continuació)",
 								"{@spell mà de mag}",
 								"{@spell missatge}",
 								"{@spell prestidigitació}"
@@ -2949,7 +2949,7 @@
 							"spells": [
 								"{@spell mans ardents}",
 								"{@spell detectar màgia}",
-								"{@spell raig d'arcada} (see \"Actions\" below)",
+								"{@spell raig d'arcada} (vegeu \"Accions\" a continuació)",
 								"{@spell escut}"
 							]
 						},
@@ -2958,7 +2958,7 @@
 							"spells": [
 								"{@spell foscor}",
 								"{@spell pas boira}",
-								"{@spell raig d'incendi} (see \"Actions\" below)"
+								"{@spell raig d'incendi} (vegeu \"Accions\" a continuació)"
 							]
 						},
 						"3": {
@@ -2974,47 +2974,47 @@
 			],
 			"trait": [
 				{
-					"name": "Grave Magic",
+					"name": "Màgia Grave",
 					"entries": [
-						"When the master of souls cast a spell that deals damage, it can change the spell's damage type to necrotic."
+						"Quan el mestre de les ànimes llança un encanteri que fa dany, pot canviar el tipus de dany de l'encanteri a necròtic."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The master of souls attacks twice with its flail."
+						"El mestre de les ànimes ataca dues vegades amb el seu flagell."
 					]
 				},
 				{
-					"name": "Silvered Skull Flail",
+					"name": "Calavera plateada",
 					"entries": [
-						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany contundent mes 14 ({@damage 4d6}) de dany necròtic, and the target has disadvantage on all saving throws until the end of the master of souls' next turn."
+						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany contundent mes 14 ({@damage 4d6}) de dany necròtic, i l'objectiu té desavantatge en totes les tirades de salvació fins al final del següent torn del mestre de les ànimes."
 					]
 				},
 				{
 					"name": "Mà Morta (Truc)",
 					"entries": [
-						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, una criatura. {@h}13 ({@damage 2d8}) de dany necròtic, and the target can't regain hit points until the start of the master of souls' next turn. If the target is undead, it has disadvantage on attack rolls against the master of souls for the same duration."
+						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, una criatura. {@h}13 ({@damage 2d8}) de dany necròtic, i l'objectiu no pot recuperar punts de vida fins que comenci el proper torn del mestre de les ànimes. Si l'objectiu és no mort, té un desavantatge a les tires d'atac contra el mestre de les ànimes durant la mateixa durada."
 					]
 				},
 				{
-					"name": "Raig d'Arcada (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Raig d'Arcada (Encanteri de 1r nivell; Requereix un espai per a encanteris)",
 					"entries": [
-						"{@atk rs} {@hit 6} a impactar, 60 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition emmetzinat} until the end of the master of souls' next turn. If the master of souls casts this spell using a spell slot of 2nd level or higher, el dany incrementa en {@dice 1d8} per cada nivell per sobre d'1."
+						"{@atk rs} {@hit 6} a impactar, 60 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition emmetzinat} fins al final del mestre de les ànimes' torn següent. Si el mestre de les ànimes llança aquest encanteri utilitzant un espai d'encanteri de 2n nivell o superior, el dany incrementa en {@dice 1d8} per cada nivell per sobre d'1."
 					]
 				},
 				{
-					"name": "Raig d'Incendi (2nd-Level Spell; Requires a Spell Slot)",
+					"name": "Raig d'Incendi (Encanteri de 2n nivell; Requereix un espai per a encanteris)",
 					"entries": [
-						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, un objectiu per ray (3 rays if a 2nd-level spell slot is used, 4 rays if a 3rd-level spell slot is used). {@h}7 ({@damage 2d6}) de dany de foc per ray."
+						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, un objectiu per ray (3 raigs si s'utilitza una ranura d'encanteris de 2n nivell, 4 rajos si s'utilitza una ranura d'encanteris de 3r nivell). {@h}7 ({@damage 2d6}) de dany de foc per ray."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
@@ -3084,23 +3084,23 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "Indomable (2/Dia)",
+					"name": "Indomable (2/dia)",
 					"entries": [
-						"Mortlock can reroll a saving throw that he fails. He must use the new roll."
+						"Mortlock pot tornar a tirar una tirada de salvació que falla. Ha d'utilitzar la nova tirada."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Mortlock fa dos atacs with his greatclub."
+						"Mortlock fa dos atacs amb el seu gran club."
 					]
 				},
 				{
-					"name": "Greatclub",
+					"name": "Gran club",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d4 + 4}) de dany contundent, mes 5 ({@damage 2d4}) de dany contundent if Mortlock has taken any damage since his last turn."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d4 + 4}) de dany contundent, mes 5 ({@damage 2d4}) de dany contundent si Mortlock ha patit algun dany des del seu darrer torn."
 					]
 				},
 				{
@@ -3112,7 +3112,7 @@
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -3130,7 +3130,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Necromite of Myrkul",
+			"name": "Necròmita de Myrkul",
 			"source": "BGDIA",
 			"page": 234,
 			"size": "M",
@@ -3173,13 +3173,13 @@
 			"cr": "1/2",
 			"action": [
 				{
-					"name": "Skull Flail",
+					"name": "Calavera de calavera",
 					"entries": [
 						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany contundent."
 					]
 				},
 				{
-					"name": "Claws of the Grave",
+					"name": "Les urpes de la tomba",
 					"entries": [
 						"{@atk rs} {@hit 5} a impactar, 90 peus d'abast, un objectiu. {@h}8 ({@damage 2d4 + 3}) de dany necròtic."
 					]
@@ -3202,7 +3202,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Necrotic Centipede",
+			"name": "Centpeus necròtic",
 			"source": "BGDIA",
 			"page": 119,
 			"_copy": {
@@ -3210,17 +3210,17 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
+						"mode": "substituirTxt",
 						"replace": "remorhaz",
-						"with": "centipede"
+						"with": "centpeus"
 					},
 					"action": {
-						"mode": "replaceArr",
+						"mode": "substituirArr",
 						"replace": "Mossegada",
 						"items": {
 							"name": "Mossegada",
 							"entries": [
-								"{@atk mw} {@hit 11} a impactar, 10 peus d'abast, un objectiu. {@h}40 ({@damage 6d10 + 7}) de dany perforant mes 10 ({@damage 3d6}) de dany necròtic. If the target is a creature, it is {@condition grappled} ({@dc 17} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the centipede can't bite another target."
+								"{@atk mw} {@hit 11} a impactar, 10 peus d'abast, un objectiu. {@h}40 ({@damage 6d10 + 7}) de dany perforant mes 10 ({@damage 3d6}) de dany necròtic. Si l'objectiu és una criatura, és {@condition grappled} ({@dc 17} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, i el centpeus no pot mossegar un altre objectiu."
 							]
 						}
 					}
@@ -3232,9 +3232,9 @@
 			],
 			"trait": [
 				{
-					"name": "Necrotic Body",
+					"name": "Cos necròtic",
 					"entries": [
-						"A creature that touches the centipede or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) de dany necròtic."
+						"Una criatura que toca el centpeus o el colpeja amb un atac cos a cos a menys de 5 peus d'aquest triga 10 ({@damage 3d6}) de dany necròtic."
 					]
 				}
 			],
@@ -3281,7 +3281,7 @@
 				"stealth": "+6"
 			},
 			"senses": [
-				"darkvision 60"
+				"visió fosca 60"
 			],
 			"passive": 10,
 			"idiomes": [
@@ -3290,9 +3290,9 @@
 			"cr": "1/4",
 			"trait": [
 				{
-					"name": "Aura of Murder",
+					"name": "Aura d'assassinat",
 					"entries": [
-						"As long as the night blade is not {@condition incapacitat}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+						"Mentre la fulla nocturna no sigui {@condition incapacitat}, les criatures hostils a menys de 5 peus d'ella guanyen vulnerabilitat a danys perforants tret que tinguin resistència o immunitat a aquests danys."
 					]
 				}
 			],
@@ -3322,7 +3322,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Nine-Fingers Keene",
+			"name": "Keene de nou dits",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 170,
@@ -3380,27 +3380,27 @@
 				{
 					"name": "Acció Astuta",
 					"entries": [
-						"On each of her turns in combat, Nine-Fingers pot Córrer, Destravar-se o Amagar-se com a acció bonus."
+						"En cadascun dels seus torns en combat, Nine-Fingers pot Córrer, Destravar-se o Amagar-se com a acció bonus."
 					]
 				},
 				{
-					"name": "Dagger Thrower",
+					"name": "Llançador de punyals",
 					"entries": [
-						"Nine-Fingers adds double her proficiency bonus to the damage she deals on ranged attacks made with daggers (already factored into her attacks)."
+						"Nine-Fingers afegeix el doble de la seva bonificació de competència al dany que fa als atacs a distància realitzats amb punyals (ja es tenen en compte en els seus atacs)."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Nine-Fingers attacks three times with her daggers."
+						"Nine-Fingers ataca tres vegades amb les seves dagues."
 					]
 				},
 				{
 					"name": "Daga",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}6 ({@damage 1d4 + 4}) de dany perforant, mes 6 piercing damage if it's a ranged attack."
+						"{@atk mw,rw} {@hit 7} a impactar, 5 peus d'abast o 20/60 peus d'abast, un objectiu. {@h}6 ({@damage 1d4 + 4}) de dany perforant, mes 6 de dany perforant si és un atac a distància."
 					]
 				}
 			],
@@ -3408,13 +3408,13 @@
 				{
 					"name": "Esquivar l'Impossible",
 					"entries": [
-						"Nine-Fingers halves the damage that she takes from an attack that hits her. She must be able to see the attacker."
+						"Nine-Fingers redueix a la meitat el dany que rep d'un atac que la colpeja. Ha de ser capaç de veure l'atacant."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -3432,17 +3432,17 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Peacock",
+			"name": "Paó",
 			"source": "BGDIA",
 			"page": 195,
 			"_copy": {
-				"name": "Vulture",
+				"name": "Voltor",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "vulture",
-						"with": "peacock"
+						"mode": "substituirTxt",
+						"replace": "voltor",
+						"with": "paó"
 					}
 				}
 			},
@@ -3454,12 +3454,12 @@
 			"source": "BGDIA",
 			"page": 91,
 			"_copy": {
-				"name": "Chain Devil",
+				"name": "Diable de cadena",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the devil",
+						"mode": "substituirTxt",
+						"replace": "el diable",
 						"with": "Kovik",
 						"flags": "i"
 					}
@@ -3473,12 +3473,12 @@
 			"source": "BGDIA",
 			"page": 87,
 			"_copy": {
-				"name": "Wereboar",
+				"name": "Senglar home",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the wereboar",
+						"mode": "substituirTxt",
+						"replace": "el senglar",
 						"with": "Raggadragga",
 						"flags": "i"
 					}
@@ -3491,7 +3491,7 @@
 			"hasToken": true
 		},
 		{
-			"name": "Reaper of Bhaal",
+			"name": "Segador de Bhaal",
 			"source": "BGDIA",
 			"page": 233,
 			"size": "M",
@@ -3539,7 +3539,7 @@
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de The reaper's és Saviesa ({@dc 13} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de The reaper's és Saviesa ({@dc 13} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"daily": {
 						"1e": [
@@ -3548,22 +3548,22 @@
 							"{@spell santuari}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
-					"name": "Aura of Murder",
+					"name": "Aura d'assassinat",
 					"entries": [
-						"As long as the reaper is not {@condition incapacitat}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+						"Mentre el segador no sigui {@condition incapacitat}, les criatures hostils a menys de 5 peus d'ell guanyen vulnerabilitat a danys perforants tret que tinguin resistència o immunitat a aquests danys."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The reaper makes two dagger attacks and uses Shroud Self."
+						"El segador fa dos atacs de punyal i utilitza Shroud Self."
 					]
 				},
 				{
@@ -3573,9 +3573,9 @@
 					]
 				},
 				{
-					"name": "Shroud Self",
+					"name": "Jo sudari",
 					"entries": [
-						"The reaper magically turns {@condition invisible} fins a l'inici del seu següent torn. This invisibility ends if the reaper makes an attack roll, makes a damage roll, or casts a spell."
+						"The reaper magically turns {@condition invisible} fins a l'inici del seu següent trencat. Aquesta invisibilitat acaba si el segador fa una tirada d'atac, fa una tirada de dany o fa un encanteri."
 					]
 				}
 			],
@@ -3584,7 +3584,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -3664,27 +3664,27 @@
 				{
 					"name": "Acció Astuta",
 					"entries": [
-						"On each of her turns in combat, Rilsa pot Córrer, Destravar-se o Amagar-se com a acció bonus."
+						"En cadascun dels seus torns en combat, Rilsa pot Córrer, Destravar-se o Amagar-se com a bonus d'acció."
 					]
 				},
 				{
 					"name": "Focus",
 					"entries": [
-						"If Rilsa damages a creature with a weapon attack, she gains advantage on attack rolls against that target until the end of her next turn."
+						"Si la Rilsa fa mal a una criatura amb un atac d'arma, obté avantatge a les tires d'atac contra aquest objectiu fins al final del seu següent torn."
 					]
 				},
 				{
-					"name": "Tactical Leadership",
+					"name": "Lideratge tàctic",
 					"entries": [
-						"Com a acció bonus, Rilsa chooses one creature she can see within 30 feet of her. The creature doesn't provoke opportunity attacks fins el final del seu proper torn. provided it can hear Rilsa's commands."
+						"Com a bonus d'acció, la Rilsa tria una criatura que pugui veure a menys de 30 peus d'ella. La criatura no provoca atacs d'oportunitat fins el final del seu propi trencament. sempre que pugui escoltar les ordres de la Rilsa."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Rilsa makes three weapon attacks."
+						"Rilsa fa tres atacs d'armes."
 					]
 				},
 				{
@@ -3702,7 +3702,7 @@
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -3720,21 +3720,21 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Skeletal Rats",
+			"name": "Rates esquelètiques",
 			"source": "BGDIA",
 			"page": 23,
 			"_copy": {
-				"name": "Swarm of Rats",
+				"name": "Eixam de rates",
 				"source": "MM"
 			},
 			"type": {
-				"type": "no-mort",
+				"type": "no mort",
 				"swarmSize": "T"
 			},
 			"hasToken": true
 		},
 		{
-			"name": "Skull Lasher of Myrkul",
+			"name": "Llaçador de cranis de Myrkul",
 			"source": "BGDIA",
 			"page": 234,
 			"size": "M",
@@ -3797,7 +3797,7 @@
 							"spells": [
 								"{@spell detectar màgia}",
 								"{@spell protegir del bé i del mal}",
-								"{@spell raig d'arcada} (see \"Actions\" below)",
+								"{@spell raig d'arcada} (vegeu \"Accions\" a continuació)",
 								"{@spell escut}"
 							]
 						},
@@ -3809,32 +3809,32 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"The skull lasher fa dos atacs with its flail."
+						"The skull flags fa dos atacs with its flil."
 					]
 				},
 				{
-					"name": "Iron Skull Flail",
+					"name": "Calavera de ferro",
 					"entries": [
-						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany contundent mes 7 ({@damage 2d6}) de dany necròtic, and the target has disadvantage on all saving throws until the end of the skull lasher's next turn."
+						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, un objectiu. {@h}4 ({@damage 1d8}) de dany contundent mes 7 ({@damage 2d6}) de dany necròtic, i l'objectiu té desavantatge en tots els tirs de salvació fins al final del següent torn del skull flag."
 					]
 				},
 				{
-					"name": "Raig d'Arcada (1st-Level Spell; Requires a Spell Slot)",
+					"name": "Raig d'Arcada (Encanteri de 1r nivell; Requereix un espai per a encanteris)",
 					"entries": [
-						"{@atk rs} {@hit 5} a impactar, 60 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o be {@condition emmetzinat} until the end of the skull lasher's next turn. If the skull lasher casts this spell using a spell slot of 2nd level or higher, el dany incrementa en {@dice 1d8} per cada nivell per sobre d'1."
+						"{@atk rs} {@hit 5} a impactar, 60 peus d'abast, una criatura. {@h}9 ({@damage 2d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 13} o be {@condition emmetzinat} fins al final del torn següent del skull lasher . Si el skull flagrant llança aquest encanteri utilitzant una ranura d'encanteri de 2n nivell o superior, el dany incrementa en {@dice 1d8} per cada nivell per sobre d'1."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
@@ -3861,7 +3861,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Smiler the Defiler",
+			"name": "Somriu el Profanador",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 133,
@@ -3919,14 +3919,14 @@
 			"idiomes": [
 				"Comú",
 				"Èlfic",
-				"Silvànic"
+				"Silvanic"
 			],
 			"cr": "7",
 			"spellcasting": [
 				{
 					"name": "Llançament de conjurs Innat",
 					"headerEntries": [
-						"L'habilitat de llançament de conjurs innat de Smiler's és Saviesa ({@dc 15} per salvar conjur). Pot llançar els conjurs següents innatament (no requereix components materials):"
+						"L'habilitat de llançament de conjurs innat de Smiler's és Saviesa ({@dc 15} per salvar conjur). Pot llançar els conjurs següents innatament (no necessiten components materials):"
 					],
 					"will": [
 						"{@spell fascinar persona}",
@@ -3943,14 +3943,14 @@
 							"{@spell Dansa Irresistible de l'Otto}"
 						]
 					},
-					"ability": "cha"
+					"ability": "xa"
 				}
 			],
 			"trait": [
 				{
 					"name": "Pas de Fata {@recharge 4}",
 					"entries": [
-						"Com a acció bonus, Smiler can teleport fins a 30 peus to an unoccupied space that he can see or to the empty seat of his infernal war machine."
+						"Com a bonus d'acció, Smiler pot teletransportar-se un 30 peus a un espai desocupat que pot veure o al seient buit de la seva màquina de guerra infernal."
 					]
 				},
 				{
@@ -3960,21 +3960,21 @@
 					]
 				},
 				{
-					"name": "Equipment",
+					"name": "Equipament",
 					"entries": [
-						"Smiler wears +2 leather armor. He carries seven soul coins in a bag and a +1 shortsword"
+						"Smiler porta una armadura de cuir +2. Porta set monedes d'ànima en una bossa i una espasa curta +1"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Smiler makes two weapon attacks. He can cast a spell in place of one of these attacks."
+						"Smiler fa dos atacs d'armes. Pot llançar un encanteri en lloc d'un d'aquests atacs."
 					]
 				},
 				{
-					"name": "Shortsword +1",
+					"name": "Espasa curta +1",
 					"entries": [
 						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 1d6 + 6}) de dany perforant."
 					]
@@ -3988,7 +3988,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C",
@@ -4013,7 +4013,7 @@
 			"source": "BGDIA",
 			"page": 46,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimat",
 				"source": "MM",
 				"_trait": {
 					"name": "Tíflin",
@@ -4021,8 +4021,8 @@
 				},
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"mode": "substituirTxt",
+						"replace": "l'arximag",
 						"with": "Sylvira",
 						"flags": "i"
 					},
@@ -4063,7 +4063,7 @@
 			]
 		},
 		{
-			"name": "Thavius Kreeg",
+			"name": "Thavius ​​Kreeg",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 42,
@@ -4109,9 +4109,9 @@
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Shadow of Guilt",
+					"name": "L'ombra de la culpa",
 					"entries": [
-						"Thavius's shadow is that of a pudgy, horned devil with small wings."
+						"L'ombra d'en Thavius ​​és la d'un diable gordit i cornut amb ales petites."
 					]
 				}
 			],
@@ -4191,25 +4191,25 @@
 						"0": {
 							"spells": [
 								"{@spell guia}",
-								"{@spell flama sagrada} (see \"Actions\" below)",
+								"{@spell flama sagrada} (vegeu \"Accions\" a continuació)",
 								"{@spell taumatúrgia}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell command}",
-								"{@spell detectar el bé i el mal}",
+								"{@ordre ortogràfica}",
+								"{@spell detecta el bé i el mal}",
 								"{@spell santuari}"
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "sabia"
 				}
 			],
 			"trait": [
 				{
-					"name": "Dark Devotion",
+					"name": "Devoció fosca",
 					"entries": [
 						"Thurstwell té avantatge a salvar contra ser {@condition fascinat} o {@condition acovardit}."
 					]
@@ -4219,7 +4219,7 @@
 				{
 					"name": "Flama Sagrada (Truc)",
 					"entries": [
-						"Flame-like radiance descends on one creature Thurstwell can see within 60 feet of him. The target ha de salvar per Destresa amb {@dc 13} or take 4 ({@damage 1d8}) de dany radiant, gaining no benefit from cover."
+						"Un resplendor semblant a una flama descendeix sobre una criatura que Thurstwell pot veure a 60 peus d'ell. L'objectiu ha de salvar per Destresa amb {@dc 13} o prendre 4 ({@damage 1d8}) de dany radiant, sense obtenir cap benefici de la cobertura."
 					]
 				}
 			],
@@ -4242,7 +4242,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Torogar Steelfist",
+			"name": "Torogar Puny d'acer",
 			"isNpc": true,
 			"source": "BGDIA",
 			"page": 112,
@@ -4290,48 +4290,48 @@
 				{
 					"name": "Càrrega Empaladora",
 					"entries": [
-						"Immediately after using the Dash action, Torogar can make one melee attack with his horns."
+						"Immediatament després d'utilitzar l'acció Dash, Torogar pot fer un atac cos a cos amb les seves banyes."
 					]
 				},
 				{
 					"name": "Enteniment Laberíntic",
 					"entries": [
-						"Torogar can perfectly recall any path he has traveled."
+						"Torogar recorda perfectament qualsevol camí que hagi recorregut."
 					]
 				},
 				{
 					"name": "Rage (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"Com a acció bonus, Torogar can enter a rage that dura 1 minut. The rage ends early if Torogar is knocked {@condition inconscient} or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Torogar gains the following benefits:",
-						"He has advantage on Força checks and Força saving throws.",
-						"He deals an extra 3 damage when he hits a target amb un atac armat cos a cos.",
-						"He has resistance to dany contundent, tallant, i perforant."
+						"Com a bonus d'acció, Torogar pot entrar en una ràbia que dura 1 minut. La ràbia s'acaba aviat si el Torogar és colpejat {@condition inconscient} o si el seu torn acaba i no ha atacat cap criatura hostil ni ha patit dany des del seu darrer torn. Mentre s'enfada, Torogar obté els següents beneficis:",
+						"Té avantatge a les jugades del Força i als tirs de salvació del Força.",
+						"Inflige 3 danys addicionals quan colpeja un objectiu amb un atac armat com a cos.",
+						"Té resistència a dany contundent, tallant, i perforant."
 					]
 				},
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Torogar wears {@item gauntlets of flaming fury|bgdia} and a {@item cinturó de fire giant strength}. Without the belt, his Força is 21. He also carries a {@item soul coin|bgdia}."
+						"Torogar porta {@item guants de fúria flamígera|bgdia} i un {@item cinturó de foc gegant de força}. Sense el cinturó, la seva Força és de 21. També porta una {@item soul coin|bgdia}."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Torogar fa tres atacs: two with his scimitars and one with his horns."
+						"Torogar fa tres atacs: dos amb la cimitarra i un amb les banyes."
 					]
 				},
 				{
 					"name": "Simitarra",
 					"entries": [
-						"{@atk mw} {@hit 11} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 2d6 + 7}) de dany tallant, o 17 ({@damage 2d6 + 10}) de dany tallant while raging, plus 3 ({@damage 1d6}) de dany de foc from the gauntlets of flaming fury."
+						"{@atk mw} {@hit 11} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 2d6 + 7}) de dany tallant, o 17 ({@damage 2d6 + 10}) de dany tallant while raging, més 3 ({@damage 1d6}) de dany de foc del guants de fúria flamejant."
 					]
 				},
 				{
 					"name": "Banyes",
 					"entries": [
-						"{@atk mw} {@hit 11} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 2d8 + 7}) de dany perforant, o 19 ({@damage 2d8 + 10}) de dany perforant while raging."
+						"{@atk mw} {@hit 11} a impactar, 5 peus d'abast, un objectiu. {@h}16 ({@damage 2d8 + 7}) de dany perforant, o 19 ({@damage 2d8 + 10}) de dany perforant mentre ràbia."
 					]
 				}
 			],
@@ -4340,7 +4340,7 @@
 				"D"
 			],
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"AB",
@@ -4362,17 +4362,17 @@
 			"source": "BGDIA",
 			"page": 50,
 			"_copy": {
-				"name": "Archmage",
+				"name": "Archimat",
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "the archmage",
+						"mode": "substituirTxt",
+						"replace": "l'arximag",
 						"with": "Traxigor",
 						"flags": "i"
 					},
 					"_": {
-						"mode": "replaceSpells",
+						"mode": "substituir Encanteris",
 						"spells": {
 							"7": [
 								{
@@ -4396,7 +4396,7 @@
 				"Dracònic",
 				"Nannès",
 				"Gnomesc",
-				"Halfling",
+				"Mitjançant",
 				"Troglodita"
 			],
 			"hasToken": true,
@@ -4479,13 +4479,13 @@
 			"cr": "5",
 			"action": [
 				{
-					"name": "Multi-atac",
+					"name": "Multiatac",
 					"entries": [
-						"Ulder makes three melee attacks, only one of which can be with his shield."
+						"Ulder fa tres atacs cos a cos, només un dels quals pot ser amb el seu escut."
 					]
 				},
 				{
-					"name": "Longsword +1",
+					"name": "Espasa llarga +1",
 					"entries": [
 						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}8 ({@damage 1d8 + 4}) de dany tallant, o 9 ({@damage 1d10 + 4}) de dany tallant si s'usa amb dos mans."
 					]
@@ -4493,21 +4493,21 @@
 				{
 					"name": "Escut",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}6 ({@damage 1d6 + 3}) de dany contundent, and Ulder pushes the target 5 feet away from him. Ulder then enters the space vacated by the target. If the target is pushed to within 5 feet of a creature friendly to Ulder, the target provokes an opportunity attack from that creature."
+						"{@atk mw} {@hit 6} a impactar, 5 peus d'abast, una criatura. {@h}6 ({@damage 1d6 + 3}) de Dany contundent, i l'Ulder empeny l'objectiu a 5 peus d'ell. Llavors, Ulder entra a l'espai desocupat per l'objectiu. Si l'objectiu és empès a menys de 5 peus d'una criatura amiga d'Ulder, l'objectiu provoca un atac d'oportunitat d'aquesta criatura."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Guardian Strike",
+					"name": "Vaga de Guardians",
 					"entries": [
-						"If an enemy within 5 feet of Ulder attacks a target other than him, Ulder can make a melee attack against that enemy."
+						"Si un enemic a 5 peus d'Ulder ataca un objectiu que no sigui ell, Ulder pot fer un atac cos a cos contra aquest enemic."
 					]
 				}
 			],
 			"hasToken": true,
 			"actionTags": [
-				"Multi-atac"
+				"Multiatac"
 			],
 			"languageTags": [
 				"C"
@@ -4523,7 +4523,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Undead Tree",
+			"name": "Arbre No-mort",
 			"source": "BGDIA",
 			"page": 109,
 			"_copy": {
@@ -4531,13 +4531,13 @@
 				"source": "MM",
 				"_mod": {
 					"*": {
-						"mode": "replaceTxt",
-						"replace": "treant",
-						"with": "tree"
+						"mode": "substituirTxt",
+						"replace": "tractant",
+						"with": "arbre"
 					}
 				}
 			},
-			"type": "no-mort",
+			"type": "no mort",
 			"resist": [
 				"necròtic"
 			],

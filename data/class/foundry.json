@@ -12,9 +12,9 @@
 					"name": "Defensa Desvestida",
 					"changes": [
 						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
-							"value": "(ceil((@classes.monk.levels - 1) / 4) * 5) + 5"
+							"key": "dades.atributs.moviment.caminada",
+							"mode": "AFEGIR",
+							"value": "(ceil(@classes.monk.levels - 1) / 4) * 5) + 5"
 						}
 					]
 				}
@@ -27,62 +27,62 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"A nivell 3, you gain the ability to twist your spells to suit your needs. You gain two of the following Opcions de Metamàgia (escull). You gain another one at 10th and 17th level.",
-				"You can use only one Metamàgia option on a spell when you cast it, unless otherwise noted.",
+				"A nivell 3, obtens la capacitat de retorçar els teus encanteris segons les teves necessitats. Guanyes dues de les següents Opcions de Metamàgia (escull). En guanyes un altre al nivell 10 i 17.",
+				"Només podeu utilitzar una opció de Metamàgia en un encanteri quan el feu, tret que s'indiqui el contrari.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Careful Spell"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri amb compte"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Llunyà"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Poderós"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Durador"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Precís"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Accelerat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Subtil"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Bessó"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Elemental Spell|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri elemental|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Teledirigit|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unerring Spell|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri infal·lible|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Teledirigit|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Transmutat|TCE"
 						}
 					]
@@ -113,59 +113,59 @@
 			"level": 10,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Careful Spell"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri amb compte"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Llunyà"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Poderós"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Durador"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Precís"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Accelerat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Subtil"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Bessó"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Elemental Spell|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri elemental|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Teledirigit|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unerring Spell|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri infal·lible|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Teledirigit|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Transmutat|TCE"
 						}
 					]
@@ -180,59 +180,59 @@
 			"level": 17,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Careful Spell"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri amb compte"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Llunyà"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Poderós"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Durador"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Precís"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Accelerat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Subtil"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Bessó"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Elemental Spell|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri elemental|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Teledirigit|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unerring Spell|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Encanteri infal·lible|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Teledirigit|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Conjur Transmutat|TCE"
 						}
 					]
@@ -254,10 +254,10 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"In your study of occult lore, you have unearthed invocacions èldritx, fragments of forbidden knowledge that imbue you with an abiding magical ability.",
-				"A nivell 2, you gain two invocacions èldritx (escull). Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations (escull), as shown in the Invocacions Conegudes a la Taula de Bruixot.",
-				"A més, quan pugis de nivell en aquesta classe, pots escollir un dels invocations you know and replace it with another invocation that you could learn at that level.",
-				"If an invocació èldritx has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to el teu nivell en aquesta classe."
+				"En el teu estudi de la tradició oculta, has descobert invocacions èldritx, fragments de coneixement prohibit que t'imbueixen d'una habilitat màgica permanent.",
+				"A nivell 2, guanyes dues invocacions èldritx (escull). Les vostres opcions d'invocació es detallen al final de la descripció de la classe. Quan aconsegueixes certs nivells de bruixot, obtens invocacions addicionals (escull), tal com es mostra a les Invocacions Conegudes a la Taula de Bruixot.",
+				"A més, quan pugis de nivell en aquesta classe, pots triar un dels invocacions que coneixes i substituir-la per una altra invocació que podries aprendre a aquest nivell.",
+				"Si una invocació èldritx té uns requisits previs, cal complir-los per aprendre-la. Podeu aprendre la invocació al mateix temps que compliu els seus requisits previs. A level prerequisite fa referència al teu nivell en aquesta classe."
 			]
 		},
 		{
@@ -269,18 +269,18 @@
 			"subEntities": {
 				"item": [
 					{
-						"name": "Unarmed Strike (Monk)",
+						"name": "Vaga desarmada (monjo)",
 						"source": "PHB",
 						"page": 76,
 						"srd": true,
 						"type": "M",
-						"rarity": "none",
-						"weaponCategory": "simple",
+						"rarity": "cap",
+						"weaponCategory": "senzill",
 						"entries": [
 							{
-								"type": "quote",
+								"type": "citar",
 								"entries": [
-									"Tether even a roasted chicken."
+									"Lliga fins i tot un pollastre rostit."
 								],
 								"by": "Yamamoto Tsunetomo",
 								"from": "Hagakure Kikigaki"
@@ -310,8 +310,8 @@
 				{
 					"changes": [
 						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
+							"key": "dades.atributs.moviment.caminada",
+							"mode": "AFEGIR",
 							"value": 10
 						}
 					]
@@ -393,12 +393,12 @@
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"athletics",
-								"intimidation",
-								"nature",
-								"perception",
-								"survival"
+								"maneig d'animals",
+								"atletisme",
+								"intimidació",
+								"naturalesa",
+								"percepció",
+								"supervivència"
 							]
 						}
 					}
@@ -408,7 +408,7 @@
 		{
 			"name": "Competències Adicionals",
 			"source": "TCE",
-			"className": "Spellcaster Sidekick",
+			"className": "Sidekick del llançador d'encanteris",
 			"classSource": "TCE",
 			"level": 1,
 			"entryData": {
@@ -416,14 +416,14 @@
 					{
 						"choose": {
 							"from": [
-								"arcana",
-								"history",
-								"insight",
-								"investigation",
-								"medicine",
-								"performance",
-								"persuasion",
-								"religion"
+								"arcanes",
+								"història",
+								"perspicàcia",
+								"investigació",
+								"medicament",
+								"rendiment",
+								"persuasió",
+								"religió"
 							],
 							"count": 2
 						}
@@ -434,7 +434,7 @@
 		{
 			"name": "Competències Adicionals",
 			"source": "TCE",
-			"className": "Warrior Sidekick",
+			"className": "Sidekick guerrer",
 			"classSource": "TCE",
 			"level": 1,
 			"entryData": {
@@ -442,13 +442,13 @@
 					{
 						"choose": {
 							"from": [
-								"acrobatics",
-								"animal handling",
-								"athletics",
-								"intimidation",
-								"nature",
-								"perception",
-								"survival"
+								"acrobàcies",
+								"maneig d'animals",
+								"atletisme",
+								"intimidació",
+								"naturalesa",
+								"percepció",
+								"supervivència"
 							],
 							"count": 2
 						}
@@ -457,7 +457,7 @@
 			}
 		},
 		{
-			"name": "Druidic",
+			"name": "Druídic",
 			"source": "PHB",
 			"className": "Druida",
 			"classSource": "PHB",
@@ -528,7 +528,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.jackOfAllTrades",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -546,7 +546,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.reliableTalent",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -564,7 +564,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.diamondSoul",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -582,7 +582,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.meleeCriticalDamageDice",
-							"mode": "UPGRADE",
+							"mode": "ACTUALITZACIÓ",
 							"value": 1
 						}
 					]
@@ -600,7 +600,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.meleeCriticalDamageDice",
-							"mode": "UPGRADE",
+							"mode": "ACTUALITZACIÓ",
 							"value": 2
 						}
 					]
@@ -608,7 +608,7 @@
 			]
 		},
 		{
-			"name": "Crític Brutal (3 dice)",
+			"name": "Crític Brutal (3 daus)",
 			"source": "PHB",
 			"className": "Bàrbar",
 			"classSource": "PHB",
@@ -618,7 +618,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.meleeCriticalDamageDice",
-							"mode": "UPGRADE",
+							"mode": "ACTUALITZACIÓ",
 							"value": 3
 						}
 					]
@@ -632,7 +632,7 @@
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Campió",
 			"subclassSource": "PHB",
 			"level": 7,
 			"effects": [
@@ -640,7 +640,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.remarkableAthlete",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": true
 						}
 					]
@@ -652,7 +652,7 @@
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Campió",
 			"subclassSource": "PHB",
 			"level": 3,
 			"effects": [
@@ -660,7 +660,7 @@
 					"changes": [
 						{
 							"key": "flags.dnd5e.weaponCriticalThreshold",
-							"mode": "OVERRIDE",
+							"mode": "ANUL·LACIÓ",
 							"value": 19
 						}
 					]
@@ -668,7 +668,7 @@
 			]
 		},
 		{
-			"name": "Eagle",
+			"name": "àguila",
 			"source": "PHB",
 			"className": "Bàrbar",
 			"classSource": "PHB",
@@ -676,12 +676,12 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"data": {
-				"activation.type": "bonus",
+				"activation.type": "bonificació",
 				"activation.cost": 1
 			}
 		},
 		{
-			"name": "Maneuvers",
+			"name": "Maniobres",
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
@@ -689,129 +689,129 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"The maneuvers are presented in alphabetical order.",
+				"Les maniobres es presenten per ordre alfabètic.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 3,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ordre de Comandant"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Desarmant"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Maniobra de Distracció"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Maniobra de Comunitat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Joc de Peus Evasiu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Finta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Provocació"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Manioba d'Abast"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Reposicionament"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Amenaçadora"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Parada"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Precisa"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobre d'Empenta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Envigorir"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Contra-atac"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Batuda"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra d'Entrebanc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Restraining Strike|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Vaga restrictiva|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Vèrbola|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Snipe|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Studious Eye|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Presència Imponent|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Impacte Presa|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Git Ràpid|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Judici Tàctic|TCE"
 						}
 					]
@@ -819,7 +819,7 @@
 			]
 		},
 		{
-			"name": "Additional Maneuvers",
+			"name": "Maniobres addicionals",
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
@@ -828,127 +828,127 @@
 			"level": 7,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ordre de Comandant"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Desarmant"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Maniobra de Distracció"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Maniobra de Comunitat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Joc de Peus Evasiu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Finta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Provocació"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Manioba d'Abast"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Reposicionament"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Amenaçadora"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Parada"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Precisa"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobre d'Empenta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Envigorir"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Contra-atac"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Batuda"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra d'Entrebanc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Restraining Strike|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Vaga restrictiva|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Vèrbola|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Snipe|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Studious Eye|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Presència Imponent|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Impacte Presa|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Git Ràpid|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Judici Tàctic|TCE"
 						}
 					]
@@ -956,7 +956,7 @@
 			]
 		},
 		{
-			"name": "Additional Maneuvers",
+			"name": "Maniobres addicionals",
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
@@ -965,127 +965,127 @@
 			"level": 10,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ordre de Comandant"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Desarmant"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Maniobra de Distracció"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Maniobra de Comunitat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Joc de Peus Evasiu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Finta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Provocació"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Manioba d'Abast"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Reposicionament"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Amenaçadora"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Parada"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Precisa"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobre d'Empenta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Envigorir"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Contra-atac"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Batuda"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra d'Entrebanc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Restraining Strike|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Vaga restrictiva|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Vèrbola|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Snipe|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Studious Eye|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Presència Imponent|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Impacte Presa|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Git Ràpid|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Judici Tàctic|TCE"
 						}
 					]
@@ -1093,7 +1093,7 @@
 			]
 		},
 		{
-			"name": "Additional Maneuvers",
+			"name": "Maniobres addicionals",
 			"source": "PHB",
 			"className": "Guerrer",
 			"classSource": "PHB",
@@ -1102,127 +1102,127 @@
 			"level": 15,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ordre de Comandant"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Desarmant"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Maniobra de Distracció"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Maniobra de Comunitat"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Joc de Peus Evasiu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Finta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Provocació"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Manioba d'Abast"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Reposicionament"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Amenaçadora"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Parada"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra Precisa"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobre d'Empenta"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Envigorir"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Contra-atac"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra de Batuda"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Maniobra d'Entrebanc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Restraining Strike|UAClassFeatureVariants"
+							"type": "ref Característica opcional",
+							"optionalfeature": "Vaga restrictiva|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Vèrbola|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Snipe|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Studious Eye|UAClassFeatureVariants"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Emboscada|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Enroc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Apuntalar|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Presència Imponent|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Impacte Presa|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Git Ràpid|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Judici Tàctic|TCE"
 						}
 					]
@@ -1277,12 +1277,12 @@
 			"level": 3,
 			"isChooseDataRenderEntries": true,
 			"data": {
-				"activation.type": "special",
-				"activation.condition": "Mentre estiguis en fúria, the first creature you hit a cada torn teu with a weapon attack"
+				"activation.type": "especial",
+				"activation.condition": "Mentre sigues en fúria, la primera criatura va colpejar un cada trencat teu amb un atac d'arma"
 			},
 			"chooseData": [
 				{
-					"name": "Necrotic Damage",
+					"name": "Dany necròtic",
 					"data": {
 						"damage.parts": [
 							[
@@ -1293,7 +1293,7 @@
 					}
 				},
 				{
-					"name": "Radiant Damage",
+					"name": "Danys radiants",
 					"data": {
 						"damage.parts": [
 							[
@@ -1317,8 +1317,8 @@
 				"activation.type": "minut",
 				"activation.cost": 1,
 				"target.value": 60,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -1330,7 +1330,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"data": {
-				"activation.type": "special",
+				"activation.type": "especial",
 				"activation.condition": "Quan impactes a una criatura amb un atac armat",
 				"damage.parts": [
 					[
@@ -1352,7 +1352,7 @@
 				"activation.type": "minut",
 				"activation.cost": 1,
 				"target.value": 1,
-				"target.type": "creature"
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -1365,12 +1365,12 @@
 			"level": 6,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
-			"name": "Shadow Lore",
+			"name": "Coneixement de l'ombra",
 			"source": "XGE",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -1379,36 +1379,36 @@
 			"level": 14,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
 			"name": "Canalitzar Divinitat: Arcane Abjuration",
 			"source": "SCAG",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Arcanes",
 			"subclassSource": "SCAG",
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
 			"name": "Canalitzar Divinitat: Toc de la Mort",
 			"source": "DMG",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Death",
+			"subclassShortName": "Mort",
 			"subclassSource": "DMG",
 			"level": 2,
 			"data": {
-				"activation.type": "special",
-				"activation.condition": "When the cleric hits a creature amb un atac cos a cos",
+				"activation.type": "especial",
+				"activation.condition": "Quan el clergue colpeja una criatura amb un atac cos a cos",
 				"damage.parts": [
 					[
 						"5 + (2 * @classes.cleric.levels)",
@@ -1418,11 +1418,11 @@
 			}
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Vaga Divina",
 			"source": "DMG",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Death",
+			"subclassShortName": "Mort",
 			"subclassSource": "DMG",
 			"level": 8,
 			"data": {
@@ -1435,11 +1435,11 @@
 			}
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Vaga Divina",
 			"source": "XGE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Forjar",
 			"subclassSource": "XGE",
 			"level": 8,
 			"data": {
@@ -1452,11 +1452,11 @@
 			}
 		},
 		{
-			"name": "Saint of Forge and Fire",
+			"name": "Sant de Forja i Foc",
 			"source": "XGE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Forjar",
 			"subclassSource": "XGE",
 			"level": 17,
 			"entryData": {
@@ -1466,56 +1466,56 @@
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Path to the Grave",
+			"name": "Canalitzar Divinitat: Camí de la Sepultura",
 			"source": "XGE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Grave",
+			"subclassShortName": "Sepultura",
 			"subclassSource": "XGE",
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Sentinel at Death's Door",
+			"name": "Sentinel a la porta de la mort",
 			"source": "XGE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Grave",
+			"subclassShortName": "Sepultura",
 			"subclassSource": "XGE",
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Keeper of Souls",
+			"name": "Guardià de les ànimes",
 			"source": "XGE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Grave",
+			"subclassShortName": "Sepultura",
 			"subclassSource": "XGE",
 			"level": 17,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Knowledge of the Ages",
+			"name": "Canalitzar Divinitat: Coneixement de les èpoques",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Knowledge",
+			"subclassShortName": "Coneixement",
 			"subclassSource": "PHB",
 			"level": 2,
 			"data": {
@@ -1524,26 +1524,26 @@
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Read Thoughts",
+			"name": "Canalitzar Divinitat: Llegir pensaments",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Knowledge",
+			"subclassShortName": "Coneixement",
 			"subclassSource": "PHB",
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Visions of the Past",
+			"name": "Visions del passat",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Knowledge",
+			"subclassShortName": "Coneixement",
 			"subclassSource": "PHB",
 			"level": 17,
 			"data": {
@@ -1554,15 +1554,15 @@
 		{
 			"name": "Canalitzar Divinitat: Radiance of the Dawn",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Light",
+			"subclassShortName": "Llum",
 			"subclassSource": "PHB",
 			"level": 2,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere",
+				"target.units": "peus",
+				"target.type": "esfera",
 				"damage.parts": [
 					[
 						"2d10 + @classes.cleric.levels",
@@ -1573,31 +1573,31 @@
 			}
 		},
 		{
-			"name": "Corona of Light",
+			"name": "Corona de Llum",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Light",
+			"subclassShortName": "Llum",
 			"subclassSource": "PHB",
 			"level": 17,
 			"data": {
 				"target.value": 60,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Charm Animals and Plants",
+			"name": "Canalitzar Divinitat: Encant Animals i Plantes",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Nature",
+			"subclassShortName": "Naturalesa",
 			"subclassSource": "PHB",
 			"level": 2,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere",
+				"target.units": "peus",
+				"target.type": "esfera",
 				"damage.parts": [
 					[
 						"2d10 + @classes.cleric.levels",
@@ -1607,11 +1607,11 @@
 			}
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Vaga Divina",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Nature",
+			"subclassShortName": "Naturalesa",
 			"subclassSource": "PHB",
 			"level": 8,
 			"data": {
@@ -1632,25 +1632,25 @@
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Order's Demand",
+			"name": "Canalitzar Divinitat: Demanda de l'Ordre",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Order",
+			"subclassShortName": "Ordre",
 			"subclassSource": "TCE",
 			"level": 2,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Vaga Divina",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Order",
+			"subclassShortName": "Ordre",
 			"subclassSource": "TCE",
 			"level": 8,
 			"data": {
@@ -1663,26 +1663,26 @@
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Invoke Duplicity",
+			"name": "Canalitzar Divinitat: Invocar la Duplicitat",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Engany",
 			"subclassSource": "PHB",
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Divine Strike",
+			"name": "Vaga Divina",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Trickery",
+			"subclassShortName": "Engany",
 			"subclassSource": "PHB",
 			"level": 8,
 			"data": {
@@ -1704,9 +1704,9 @@
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 120,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1719,8 +1719,8 @@
 			"level": 6,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -1733,9 +1733,9 @@
 			"level": 10,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1751,7 +1751,7 @@
 					"verí"
 				],
 				"conditionImmune": [
-					"disease",
+					"malaltia",
 					"emmetzinat"
 				]
 			}
@@ -1782,9 +1782,9 @@
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1797,8 +1797,8 @@
 			"level": 2,
 			"data": {
 				"target.value": 10,
-				"target.units": "ft",
-				"target.type": "sphere",
+				"target.units": "peus",
+				"target.type": "esfera",
 				"range.units": "llançador"
 			}
 		},
@@ -1812,10 +1812,10 @@
 			"level": 10,
 			"data": {
 				"target.value": 10,
-				"target.units": "ft",
-				"target.type": "cube",
+				"target.units": "peus",
+				"target.type": "cub",
 				"range.value": 30,
-				"range.units": "ft",
+				"range.units": "peus",
 				"duration.value": 1,
 				"duration.units": "minut"
 			}
@@ -1847,9 +1847,9 @@
 			"level": 15,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1862,13 +1862,13 @@
 			"level": 3,
 			"data": {
 				"target.value": 3,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Inspiring Surge",
+			"name": "Onda inspiradora",
 			"source": "SCAG",
 			"className": "Guerrer",
 			"classSource": "PHB",
@@ -1877,9 +1877,9 @@
 			"level": 10,
 			"data": {
 				"target.value": 1,
-				"target.type": "ally",
+				"target.type": "aliat",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1892,8 +1892,8 @@
 			"level": 6,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -1906,8 +1906,8 @@
 			"level": 6,
 			"data": {
 				"target.value": 60,
-				"target.units": "ft",
-				"target.type": "space"
+				"target.units": "peus",
+				"target.type": "espai"
 			}
 		},
 		{
@@ -1920,10 +1920,10 @@
 			"level": 11,
 			"data": {
 				"target.value": 20,
-				"target.units": "ft",
-				"target.type": "sphere",
+				"target.units": "peus",
+				"target.type": "esfera",
 				"range.value": 150,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1936,8 +1936,8 @@
 			"level": 17,
 			"data": {
 				"target.value": 60,
-				"target.units": "ft",
-				"target.type": "radius"
+				"target.units": "peus",
+				"target.type": "radi"
 			}
 		},
 		{
@@ -1950,9 +1950,9 @@
 			"level": 3,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 10,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -1965,12 +1965,12 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
-			"name": "Canalitzar Divinitat: Conquering Presence",
+			"name": "Canalitzar Divinitat: Conquerir la Presència",
 			"source": "XGE",
 			"className": "Paladí",
 			"classSource": "PHB",
@@ -1979,8 +1979,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -1993,8 +1993,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -2007,8 +2007,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -2021,8 +2021,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 40,
-				"target.units": "ft",
-				"target.type": "radius"
+				"target.units": "peus",
+				"target.type": "radi"
 			}
 		},
 		{
@@ -2035,8 +2035,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -2049,8 +2049,8 @@
 			"level": 20,
 			"data": {
 				"target.value": 60,
-				"target.units": "ft",
-				"target.type": "radius"
+				"target.units": "peus",
+				"target.type": "radi"
 			}
 		},
 		{
@@ -2063,8 +2063,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -2077,7 +2077,7 @@
 			"level": 15,
 			"data": {
 				"range.value": 10,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2090,8 +2090,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -2104,8 +2104,8 @@
 			"level": 3,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "creature"
+				"target.units": "peus",
+				"target.type": "criatura"
 			}
 		},
 		{
@@ -2118,7 +2118,7 @@
 			"level": 3,
 			"data": {
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2131,7 +2131,7 @@
 			"level": 3,
 			"data": {
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2144,11 +2144,11 @@
 			"level": 3,
 			"data": {
 				"range.value": 10,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Umbral Sight",
+			"name": "Vista Umbral",
 			"source": "XGE",
 			"className": "Explorador",
 			"classSource": "PHB",
@@ -2158,14 +2158,14 @@
 			"actorTokenMod": {
 				"_": [
 					{
-						"mode": "conditionals",
+						"mode": "condicionals",
 						"conditionals": [
 							{
 								"condition": "!PLUT_CONTEXT?.actor?.data?.token?.dimSight",
 								"mod": {
 									"dimSight": [
 										{
-											"mode": "set",
+											"mode": "conjunt",
 											"value": 60
 										}
 									]
@@ -2175,7 +2175,7 @@
 								"mod": {
 									"dimSight": [
 										{
-											"mode": "scalarAdd",
+											"mode": "escalarAdd",
 											"scalar": 30
 										}
 									]
@@ -2187,16 +2187,16 @@
 			}
 		},
 		{
-			"name": "Hunter's Sense",
+			"name": "El sentit del caçador",
 			"source": "XGE",
 			"className": "Explorador",
 			"classSource": "PHB",
-			"subclassShortName": "Monster Slayer",
+			"subclassShortName": "Monstre Slayer",
 			"subclassSource": "XGE",
 			"level": 3,
 			"data": {
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2204,25 +2204,25 @@
 			"source": "XGE",
 			"className": "Explorador",
 			"classSource": "PHB",
-			"subclassShortName": "Monster Slayer",
+			"subclassShortName": "Monstre Slayer",
 			"subclassSource": "XGE",
 			"level": 3,
 			"data": {
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Magic-User's Nemesis",
+			"name": "Nèmesi de l'usuari màgic",
 			"source": "XGE",
 			"className": "Explorador",
 			"classSource": "PHB",
-			"subclassShortName": "Monster Slayer",
+			"subclassShortName": "Monstre Slayer",
 			"subclassSource": "XGE",
 			"level": 11,
 			"data": {
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2230,12 +2230,12 @@
 			"source": "XGE",
 			"className": "Briball",
 			"classSource": "PHB",
-			"subclassShortName": "Mastermind",
+			"subclassShortName": "El cervell",
 			"subclassSource": "XGE",
 			"level": 3,
 			"data": {
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2243,7 +2243,7 @@
 			"source": "XGE",
 			"className": "Briball",
 			"classSource": "PHB",
-			"subclassShortName": "Scout",
+			"subclassShortName": "Escolta",
 			"subclassSource": "XGE",
 			"level": 9,
 			"effects": [
@@ -2251,8 +2251,8 @@
 					"name": "Mobilitat Superior",
 					"changes": [
 						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
+							"key": "dades.atributs.moviment.caminada",
+							"mode": "AFEGIR",
 							"value": "10"
 						}
 					]
@@ -2269,8 +2269,8 @@
 			"level": 18,
 			"data": {
 				"target.value": 60,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -2283,9 +2283,9 @@
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 120,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2298,9 +2298,9 @@
 			"level": 14,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 120,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2319,8 +2319,8 @@
 			},
 			"data": {
 				"target.value": 10,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -2348,8 +2348,8 @@
 			"level": 1,
 			"data": {
 				"target.value": 10,
-				"target.units": "ft",
-				"target.type": "cube"
+				"target.units": "peus",
+				"target.type": "cub"
 			}
 		},
 		{
@@ -2362,9 +2362,9 @@
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2391,9 +2391,9 @@
 			"level": 14,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2420,12 +2420,12 @@
 			"level": 14,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
-			"name": "Awakened Mind",
+			"name": "Ment Despertada",
 			"source": "PHB",
 			"className": "Bruixot",
 			"classSource": "PHB",
@@ -2434,8 +2434,8 @@
 			"level": 1,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -2457,13 +2457,13 @@
 			"source": "PHB",
 			"className": "Mag",
 			"classSource": "PHB",
-			"subclassShortName": "Abjuration",
+			"subclassShortName": "Abjuració",
 			"subclassSource": "PHB",
 			"level": 6,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -2476,7 +2476,7 @@
 			"level": 2,
 			"data": {
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2489,7 +2489,7 @@
 			"level": 6,
 			"data": {
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2502,7 +2502,7 @@
 			"level": 14,
 			"data": {
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2515,9 +2515,9 @@
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2530,9 +2530,9 @@
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 5,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2545,9 +2545,9 @@
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2560,9 +2560,9 @@
 			"level": 2,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"level": 10,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2590,8 +2590,8 @@
 			"level": 14,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "sphere"
+				"target.units": "peus",
+				"target.type": "esfera"
 			}
 		},
 		{
@@ -2618,9 +2618,9 @@
 			"level": 14,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2633,9 +2633,9 @@
 			"level": 14,
 			"data": {
 				"target.value": 3,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2648,7 +2648,7 @@
 			"level": 14,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft"
+				"target.units": "peus"
 			}
 		},
 		{
@@ -2661,7 +2661,7 @@
 			"level": 3,
 			"data": {
 				"target.value": 60,
-				"target.units": "ft"
+				"target.units": "peus"
 			}
 		},
 		{
@@ -2674,13 +2674,13 @@
 			"level": 3,
 			"data": {
 				"target.value": 1,
-				"target.type": "object",
+				"target.type": "objecte",
 				"range.value": 10,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Animating Performance",
+			"name": "Actuació d'animació",
 			"source": "TCE",
 			"className": "Bard",
 			"classSource": "PHB",
@@ -2689,9 +2689,9 @@
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "object",
+				"target.type": "objecte",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2699,14 +2699,14 @@
 			"source": "TCE",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 3,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2714,13 +2714,13 @@
 			"source": "TCE",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 6,
 			"data": {
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2728,36 +2728,36 @@
 			"source": "TCE",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Eloquència",
+			"subclassShortName": "Eloqüència",
 			"subclassSource": "TCE",
 			"level": 14,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Emboldening Bond",
+			"name": "Vincle envalentonador",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Pau",
 			"subclassSource": "TCE",
 			"level": 1,
 			"data": {
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Eyes of Night",
+			"name": "Ulls de nit",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight",
+			"subclassShortName": "Crepuscle",
 			"subclassSource": "TCE",
 			"level": 1,
 			"actorTokenMod": {
@@ -2769,9 +2769,9 @@
 				]
 			},
 			"data": {
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 10,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2783,9 +2783,9 @@
 			"subclassSource": "TCE",
 			"level": 2,
 			"data": {
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2811,9 +2811,9 @@
 			"subclassSource": "TCE",
 			"level": 15,
 			"data": {
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2826,9 +2826,9 @@
 			"level": 7,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2841,13 +2841,13 @@
 			"level": 15,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Beguiling Twist",
+			"name": "Twist seductor",
 			"source": "TCE",
 			"className": "Explorador",
 			"classSource": "PHB",
@@ -2856,24 +2856,24 @@
 			"level": 7,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 120,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
-			"name": "Wails from the Grave",
+			"name": "Laments des de la tomba",
 			"source": "TCE",
 			"className": "Briball",
 			"classSource": "PHB",
-			"subclassShortName": "Phantom",
+			"subclassShortName": "fantasma",
 			"subclassSource": "TCE",
 			"level": 3,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2886,9 +2886,9 @@
 			"level": 1,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2901,9 +2901,9 @@
 			"level": 18,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 120,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2916,9 +2916,9 @@
 			"level": 1,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2931,9 +2931,9 @@
 			"level": 6,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2946,8 +2946,8 @@
 			"level": 18,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "cube"
+				"target.units": "peus",
+				"target.type": "cub"
 			}
 		},
 		{
@@ -2960,9 +2960,9 @@
 			"level": 1,
 			"data": {
 				"target.value": 1,
-				"target.type": "space",
+				"target.type": "espai",
 				"range.value": 60,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -2978,8 +2978,8 @@
 					"name": "Regal del Mar",
 					"changes": [
 						{
-							"key": "data.attributes.movement.swim",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.moviment.natació",
+							"mode": "ACTUALITZACIÓ",
 							"value": "40"
 						}
 					]
@@ -3010,8 +3010,8 @@
 			"level": 14,
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "radius",
+				"target.units": "peus",
+				"target.type": "radi",
 				"range.value": 1,
 				"range.units": "mi"
 			}
@@ -3026,9 +3026,9 @@
 			"level": 10,
 			"data": {
 				"target.value": 5,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -3040,8 +3040,8 @@
 			"subclassSource": "EGW",
 			"level": 3,
 			"data": {
-				"activation.type": "special",
-				"activation.condition": "Whenever you take the Attack action",
+				"activation.type": "especial",
+				"activation.condition": "Sempre que feu l'acció d'atac",
 				"activation.cost": 1
 			}
 		},
@@ -3055,39 +3055,39 @@
 			"level": 7,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Esvanidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fascinadora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Bursting Arrow|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Afeblidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Apressant|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Travessa|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Teledirigida|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fosca|XGE"
 						}
 					]
@@ -3104,39 +3104,39 @@
 			"level": 10,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Esvanidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fascinadora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Bursting Arrow|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Afeblidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Apressant|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Travessa|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Teledirigida|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fosca|XGE"
 						}
 					]
@@ -3153,39 +3153,39 @@
 			"level": 15,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Esvanidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fascinadora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Bursting Arrow|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Afeblidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Apressant|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Travessa|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Teledirigida|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fosca|XGE"
 						}
 					]
@@ -3202,39 +3202,39 @@
 			"level": 18,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Esvanidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fascinadora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Bursting Arrow|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Afeblidora|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Apressant|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Travessa|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Teledirigida|XGE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fletxa Fosca|XGE"
 						}
 					]
@@ -3251,18 +3251,18 @@
 			"level": 3,
 			"entries": [
 				"{@i tret de Guerrer de Runes a nivell 3}",
-				"You can use magic runes to enhance your gear. You learn two runes (escull), from among the runes described below, and each time you gain a level en aquesta classe, you can replace one rune you know with a different one from this feature. Quan pugis de nivell en aquesta classe, you learn additional runes, as shown in the Runes Conegudes table.",
-				"Quan acabis un Descans Llarg, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object fins que acabis un Descans Llarg, and an object can bear only one of your runes at a time.",
+				"Podeu utilitzar runes màgiques per millorar el vostre equipament. Aprens dues runes (escull), d'entre les runes descrites a continuació, i cada vegada que guanyis un nivell en aquesta classe, pots substituir una runa que coneguis per una de diferent d'aquesta funció. Quan pugis de nivell en aquesta classe, aprens runes addicionals, tal com es mostra a la taula de Runes Conegudes.",
+				"Quan acabis un Descans Llarg, pots tocar un nombre d'objectes igual al nombre de runes que coneixes, i inscriu una runa diferent a cadascun dels objectes. Per ser elegible, un objecte ha de ser una arma, una armadura, un escut, una joia o qualsevol altra cosa que puguis portar o agafar a la mà. La teva runa roman en un objecte fins que acabis un Descans Llarg, i un objecte només pot portar una de les teves runes alhora.",
 				{
-					"type": "table",
+					"type": "taula",
 					"caption": "Runes Conegudes",
 					"colLabels": [
-						"Fighter Level",
-						"Number of Runes"
+						"Nivell de lluitador",
+						"Nombre de runes"
 					],
 					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
+						"col-6 centre de text",
+						"col-6 centre de text"
 					],
 					"rows": [
 						[
@@ -3283,25 +3283,25 @@
 						]
 					]
 				},
-				"The following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level en aquesta classe to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + el teu bonus de competència + el teu modificador de Constitució.",
+				"Les runes següents teniu disponibles quan apreneu una runa. Si una runa té un requisit de nivell, heu de tenir almenys aquest nivell en aquesta classe per aprendre la runa. Si una runa requereix una tirada de salvació, la CD salvada de la màgia de les runes és igual a 8 + el teu bonus de competència + el teu modificador de Constitució.",
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 2,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Cloud Rune|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Foc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Gebre|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Pedra|TCE"
 						}
 					]
@@ -3318,31 +3318,31 @@
 			"level": 7,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Cloud Rune|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Foc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Gebre|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Pedra|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Turó|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Tempesta|TCE"
 						}
 					]
@@ -3359,31 +3359,31 @@
 			"level": 10,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Cloud Rune|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Foc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Gebre|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Pedra|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Turó|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Tempesta|TCE"
 						}
 					]
@@ -3400,31 +3400,31 @@
 			"level": 15,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Cloud Rune|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Foc|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Gebre|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Pedra|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Turó|TCE"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Runa de Tempesta|TCE"
 						}
 					]
@@ -3441,79 +3441,79 @@
 			"level": 6,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Alè d'Hivern",
 							"name": "Alè d'Hivern (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Mà del Vent del Nord",
 							"name": "Mà del Vent del Nord (Requisit: nivell 6)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Defensa de la Muntanya Eterna",
 							"name": "Defensa de la Muntanya Eterna (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ullals de la Serp del Foc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Puny dels Quatre Trons"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Aire Intacte"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Flames del Fènix",
 							"name": "Flames del Fènix (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Gong del Cim",
 							"name": "Gong del Cim (Requisit: nivell 6)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Postura de Boira",
 							"name": "Postura de Boira (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Solcar el Vent",
 							"name": "Solcar el Vent (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Riu del Foc que Devora",
 							"name": "Riu del Foc que Devora (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Eixida dels Esperits del Vent"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Canviar la Corrent del Riu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Patada Batuda de Cendra"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fuet d'Aigua"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Onada de Terra i Pedra",
 							"name": "Onada de Terra i Pedra (Requisit: nivell 17)"
 						}
@@ -3531,79 +3531,79 @@
 			"level": 11,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Alè d'Hivern",
 							"name": "Alè d'Hivern (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Mà del Vent del Nord",
 							"name": "Mà del Vent del Nord (Requisit: nivell 6)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Defensa de la Muntanya Eterna",
 							"name": "Defensa de la Muntanya Eterna (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ullals de la Serp del Foc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Puny dels Quatre Trons"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Aire Intacte"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Flames del Fènix",
 							"name": "Flames del Fènix (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Gong del Cim",
 							"name": "Gong del Cim (Requisit: nivell 6)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Postura de Boira",
 							"name": "Postura de Boira (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Solcar el Vent",
 							"name": "Solcar el Vent (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Riu del Foc que Devora",
 							"name": "Riu del Foc que Devora (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Eixida dels Esperits del Vent"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Canviar la Corrent del Riu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Patada Batuda de Cendra"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fuet d'Aigua"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Onada de Terra i Pedra",
 							"name": "Onada de Terra i Pedra (Requisit: nivell 17)"
 						}
@@ -3621,79 +3621,79 @@
 			"level": 17,
 			"entries": [
 				{
-					"type": "options",
+					"type": "opcions",
 					"count": 1,
 					"entries": [
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Alè d'Hivern",
 							"name": "Alè d'Hivern (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Mà del Vent del Nord",
 							"name": "Mà del Vent del Nord (Requisit: nivell 6)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Defensa de la Muntanya Eterna",
 							"name": "Defensa de la Muntanya Eterna (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Ullals de la Serp del Foc"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Puny dels Quatre Trons"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Aire Intacte"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Flames del Fènix",
 							"name": "Flames del Fènix (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Gong del Cim",
 							"name": "Gong del Cim (Requisit: nivell 6)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Postura de Boira",
 							"name": "Postura de Boira (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Solcar el Vent",
 							"name": "Solcar el Vent (Requisit: nivell 11)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Riu del Foc que Devora",
 							"name": "Riu del Foc que Devora (Requisit: nivell 17)"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Eixida dels Esperits del Vent"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Canviar la Corrent del Riu"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Patada Batuda de Cendra"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Fuet d'Aigua"
 						},
 						{
-							"type": "refOptionalfeature",
+							"type": "ref Característica opcional",
 							"optionalfeature": "Onada de Terra i Pedra",
 							"name": "Onada de Terra i Pedra (Requisit: nivell 17)"
 						}
@@ -3702,11 +3702,11 @@
 			]
 		},
 		{
-			"name": "Blessings of Knowledge",
+			"name": "Benediccions del coneixement",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Knowledge",
+			"subclassShortName": "Coneixement",
 			"subclassSource": "PHB",
 			"level": 1,
 			"entryData": {
@@ -3714,10 +3714,10 @@
 					{
 						"choose": {
 							"from": [
-								"arcana",
-								"history",
-								"nature",
-								"religion"
+								"arcanes",
+								"història",
+								"naturalesa",
+								"religió"
 							]
 						}
 					}
@@ -3742,10 +3742,10 @@
 					{
 						"choose": {
 							"from": [
-								"athletics",
-								"acrobatics",
-								"stealth",
-								"survival"
+								"atletisme",
+								"acrobàcies",
+								"sigil",
+								"supervivència"
 							],
 							"count": 2
 						}
@@ -3754,11 +3754,11 @@
 			}
 		},
 		{
-			"name": "Acolyte of Nature",
+			"name": "Acòlit de la natura",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Nature",
+			"subclassShortName": "Naturalesa",
 			"subclassSource": "PHB",
 			"level": 1,
 			"entryData": {
@@ -3766,9 +3766,9 @@
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"nature",
-								"survival"
+								"maneig d'animals",
+								"naturalesa",
+								"supervivència"
 							]
 						}
 					}
@@ -3776,9 +3776,9 @@
 			}
 		},
 		{
-			"name": "Acolyte of Força",
+			"name": "Acòlit de Força",
 			"source": "PSA",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
 			"subclassShortName": "Força (PSA)",
 			"subclassSource": "PSA",
@@ -3788,10 +3788,10 @@
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"athletics",
-								"nature",
-								"survival"
+								"maneig d'animals",
+								"atletisme",
+								"naturalesa",
+								"supervivència"
 							]
 						}
 					}
@@ -3799,11 +3799,11 @@
 			}
 		},
 		{
-			"name": "Arcane Initiate",
+			"name": "Iniciat Arcane",
 			"source": "SCAG",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Arcana",
+			"subclassShortName": "Arcanes",
 			"subclassSource": "SCAG",
 			"level": 1,
 			"entryData": {
@@ -3817,9 +3817,9 @@
 		{
 			"name": "Competències Adicionals",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Order",
+			"subclassShortName": "Ordre",
 			"subclassSource": "TCE",
 			"level": 1,
 			"entryData": {
@@ -3827,8 +3827,8 @@
 					{
 						"choose": {
 							"from": [
-								"intimidation",
-								"persuasion"
+								"intimidació",
+								"persuasió"
 							]
 						}
 					}
@@ -3841,11 +3841,11 @@
 			}
 		},
 		{
-			"name": "Implement of Peace",
+			"name": "Implementació de la Pau",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Peace",
+			"subclassShortName": "Pau",
 			"subclassSource": "TCE",
 			"level": 1,
 			"entryData": {
@@ -3853,9 +3853,9 @@
 					{
 						"choose": {
 							"from": [
-								"insight",
-								"performance",
-								"persuasion"
+								"perspicàcia",
+								"rendiment",
+								"persuasió"
 							]
 						}
 					}
@@ -3863,7 +3863,7 @@
 			}
 		},
 		{
-			"name": "Royal Envoy",
+			"name": "Enviat Reial",
 			"source": "SCAG",
 			"className": "Guerrer",
 			"classSource": "PHB",
@@ -3875,11 +3875,11 @@
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"insight",
-								"intimidation",
-								"performance",
-								"persuasion"
+								"maneig d'animals",
+								"perspicàcia",
+								"intimidació",
+								"rendiment",
+								"persuasió"
 							]
 						}
 					}
@@ -3904,8 +3904,8 @@
 					{
 						"choose": {
 							"from": [
-								"arcana",
-								"nature"
+								"arcanes",
+								"naturalesa"
 							]
 						}
 					}
@@ -3925,11 +3925,11 @@
 					{
 						"choose": {
 							"from": [
-								"animal handling",
-								"history",
-								"insight",
-								"performance",
-								"persuasion"
+								"maneig d'animals",
+								"història",
+								"perspicàcia",
+								"rendiment",
+								"persuasió"
 							]
 						}
 					}
@@ -3949,10 +3949,10 @@
 					{
 						"choose": {
 							"from": [
-								"history",
-								"insight",
-								"performance",
-								"persuasion"
+								"història",
+								"perspicàcia",
+								"rendiment",
+								"persuasió"
 							]
 						}
 					}
@@ -4003,7 +4003,7 @@
 			}
 		},
 		{
-			"name": "Otherworldly Glamur",
+			"name": "Glamur d'un altre món",
 			"source": "TCE",
 			"className": "Explorador",
 			"classSource": "PHB",
@@ -4015,9 +4015,9 @@
 					{
 						"choose": {
 							"from": [
-								"deception",
-								"performance",
-								"persuasion"
+								"engany",
+								"rendiment",
+								"persuasió"
 							]
 						}
 					}
@@ -4029,7 +4029,7 @@
 			"source": "XGE",
 			"className": "Briball",
 			"classSource": "PHB",
-			"subclassShortName": "Scout",
+			"subclassShortName": "Escolta",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entryData": {
@@ -4037,8 +4037,8 @@
 					{
 						"choose": {
 							"from": [
-								"nature",
-								"survival"
+								"naturalesa",
+								"supervivència"
 							]
 						}
 					}
@@ -4242,24 +4242,24 @@
 					{
 						"choose": {
 							"from": [
-								"athletics",
-								"acrobatics",
-								"sleight of hand",
-								"stealth",
-								"arcana",
-								"history",
-								"investigation",
-								"nature",
-								"religion",
-								"animal handling",
-								"insight",
-								"medicine",
-								"perception",
-								"survival",
-								"deception",
-								"intimidation",
-								"performance",
-								"persuasion"
+								"atletisme",
+								"acrobàcies",
+								"joc de mà",
+								"sigil",
+								"arcanes",
+								"història",
+								"investigació",
+								"naturalesa",
+								"religió",
+								"maneig d'animals",
+								"perspicàcia",
+								"medicament",
+								"percepció",
+								"supervivència",
+								"engany",
+								"intimidació",
+								"rendiment",
+								"persuasió"
 							]
 						}
 					}
@@ -4312,9 +4312,9 @@
 		{
 			"name": "Competència Adicional",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Life",
+			"subclassShortName": "La vida",
 			"subclassSource": "PHB",
 			"level": 1,
 			"entryData": {
@@ -4328,9 +4328,9 @@
 		{
 			"name": "Competència Adicional",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Nature",
+			"subclassShortName": "Naturalesa",
 			"subclassSource": "PHB",
 			"level": 1,
 			"entryData": {
@@ -4344,9 +4344,9 @@
 		{
 			"name": "Competències Adicionals",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Tempest",
+			"subclassShortName": "Tempesta",
 			"subclassSource": "PHB",
 			"level": 1,
 			"entryData": {
@@ -4365,7 +4365,7 @@
 		{
 			"name": "Competències Adicionals",
 			"source": "PHB",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
 			"subclassShortName": "Guerra",
 			"subclassSource": "PHB",
@@ -4386,9 +4386,9 @@
 		{
 			"name": "Competències Adicionals",
 			"source": "TCE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Twilight",
+			"subclassShortName": "Crepuscle",
 			"subclassSource": "TCE",
 			"level": 1,
 			"entryData": {
@@ -4407,9 +4407,9 @@
 		{
 			"name": "Competència Adicional",
 			"source": "XGE",
-			"className": "Cleric",
+			"className": "Clergue",
 			"classSource": "PHB",
-			"subclassShortName": "Forge",
+			"subclassShortName": "Forjar",
 			"subclassSource": "XGE",
 			"level": 1,
 			"entryData": {
@@ -4454,8 +4454,8 @@
 					{
 						"choose": {
 							"from": [
-								"calligrapher's supplies",
-								"painter's supplies"
+								"subministraments de cal·lígraf",
+								"subministraments de pintor"
 							]
 						}
 					}
@@ -4467,7 +4467,7 @@
 			"source": "PHB",
 			"className": "Briball",
 			"classSource": "PHB",
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Assassí",
 			"subclassSource": "PHB",
 			"level": 3,
 			"entryData": {
@@ -4484,7 +4484,7 @@
 			"source": "XGE",
 			"className": "Briball",
 			"classSource": "PHB",
-			"subclassShortName": "Mastermind",
+			"subclassShortName": "El cervell",
 			"subclassSource": "XGE",
 			"level": 3,
 			"entryData": {
@@ -4525,7 +4525,7 @@
 			}
 		},
 		{
-			"name": "Iron Mind",
+			"name": "Ment de Ferro",
 			"source": "XGE",
 			"className": "Explorador",
 			"classSource": "PHB",
@@ -4541,7 +4541,7 @@
 						"choose": {
 							"from": [
 								"int",
-								"cha"
+								"xa"
 							]
 						}
 					}
@@ -4565,7 +4565,7 @@
 						"choose": {
 							"from": [
 								"int",
-								"cha"
+								"xa"
 							]
 						}
 					}
@@ -4577,14 +4577,14 @@
 			"source": "VRGR",
 			"className": "Bard",
 			"classSource": "PHB",
-			"subclassShortName": "Spirits",
+			"subclassShortName": "Esperits",
 			"subclassSource": "VRGR",
 			"level": 3,
 			"data": {
 				"target.value": 1,
-				"target.type": "creature",
+				"target.type": "criatura",
 				"range.value": 30,
-				"range.units": "ft"
+				"range.units": "peus"
 			}
 		},
 		{
@@ -4592,7 +4592,7 @@
 			"source": "VRGR",
 			"className": "Bruixot",
 			"classSource": "PHB",
-			"subclassShortName": "Undead",
+			"subclassShortName": "Morts morts",
 			"subclassSource": "VRGR",
 			"level": 10,
 			"entryData": {
@@ -4602,8 +4602,8 @@
 			},
 			"data": {
 				"target.value": 30,
-				"target.units": "ft",
-				"target.type": "radius"
+				"target.units": "peus",
+				"target.type": "radi"
 			}
 		},
 		{
@@ -4619,18 +4619,18 @@
 					"name": "Armadura Natural",
 					"changes": [
 						{
-							"key": "data.attributes.ac.value",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.ac.valor",
+							"mode": "ACTUALITZACIÓ",
 							"value": "13 + @abilities.dex.mod"
 						}
 					]
 				},
 				{
-					"name": "HP Increase",
+					"name": "Augment de HP",
 					"changes": [
 						{
-							"key": "data.attributes.hp.max",
-							"mode": "ADD",
+							"key": "atributs.dades.hp.max",
+							"mode": "AFEGIR",
 							"value": "@classes.sorcerer.levels"
 						}
 					]
@@ -4647,11 +4647,11 @@
 			"level": 14,
 			"effects": [
 				{
-					"name": "Flying Speed",
+					"name": "Velocitat de vol",
 					"changes": [
 						{
-							"key": "data.attributes.movement.fly",
-							"mode": "UPGRADE",
+							"key": "dades.atributs.moviment.vola",
+							"mode": "ACTUALITZACIÓ",
 							"value": "@attributes.movement.walk"
 						}
 					]
@@ -4659,7 +4659,7 @@
 			]
 		},
 		{
-			"name": "Immortal Durability",
+			"name": "Durabilitat immortal",
 			"source": "UATheMysticClass",
 			"className": "Místic",
 			"classSource": "UATheMysticClass",
@@ -4668,11 +4668,11 @@
 			"level": 1,
 			"effects": [
 				{
-					"name": "HP Increase",
+					"name": "Augment de HP",
 					"changes": [
 						{
-							"key": "data.attributes.hp.max",
-							"mode": "ADD",
+							"key": "atributs.dades.hp.max",
+							"mode": "AFEGIR",
 							"value": "@classes.mystic.levels"
 						}
 					]

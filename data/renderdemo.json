@@ -1,162 +1,162 @@
 {
 	"data": [
 		{
-			"type": "section",
-			"name": "Renderer Demo",
+			"type": "secció",
+			"name": "Demostració del renderitzador",
 			"entries": [
-				"(This is a section heading. This is mainly used in Adventures, for the header of entire chapters. The root entry does {@b not} need have the 'section' type, 'entries' is generally used instead. The 'section' produces a {@bold level -1} header; the 'basement' level, if you will.)",
+				"(Aquest és un encapçalament de secció. S'utilitza principalment a Aventures, per a la capçalera de capítols sencers. L'entrada arrel {@b no} necessita tenir el tipus \"secció\"; generalment s'utilitza \"entrades\". La \"secció\" produeix una capçalera {@bold level -1}; el nivell \"soterrani\", si voleu).",
 				{
-					"type": "quote",
+					"type": "citar",
 					"entries": [
-						"Look, don't quote me on this, but"
+						"Mira, no em cites sobre això, però"
 					],
 					"by": "Anon",
-					"from": "Archive of Lost Chats"
+					"from": "Arxiu de xats perduts"
 				},
-				"This is a demo of the JSON format, and how it (usually) gets rendered. You can edit this text, and it will reset on refresh.",
-				"{@b If a JSON property is described as 'optional,' the property may be excluded, unless otherwise noted.}",
-				"The goal of this system is to emulate the look and feel of the books, while maintaining a convenient and consistent data structure that can be re-used.",
-				"The general format is to nest multiple levels of 'entries'-typed objects, with other specific types (described in detail below) used as needed.",
-				"String entries can contain tags, and these work when nested in most other structures. These will eventually all work with the hover-to-view feature. They are case-insensitive, unless otherwise noted. These are:",
+				"Aquesta és una demostració del format JSON i de com es representa (normalment). Podeu editar aquest text i es restablirà en actualitzar-lo.",
+				"{@b Si una propietat JSON es descriu com a \"opcional\", la propietat es pot excloure, tret que s'indiqui el contrari.}",
+				"L'objectiu d'aquest sistema és emular l'aspecte dels llibres, mantenint una estructura de dades còmoda i coherent que es pot reutilitzar.",
+				"El format general és niar diversos nivells d'objectes escrits amb \"entrades\", amb altres tipus específics (descrits en detall a continuació) utilitzats segons sigui necessari.",
+				"Les entrades de cadena poden contenir etiquetes, i aquestes funcionen quan estan imbricades a la majoria d'altres estructures. Finalment, tots funcionaran amb la funció de passar el cursor per visualitzar. No distingeixen entre majúscules i minúscules, tret que s'indiqui el contrari. Aquests són:",
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"Style tags; {@bold some text to be bolded} (alternative {@b shorthand}), {@italic some text to be italicised} (alternative {@i shorthand}), {@underline some text to be underlined} (alternative {@u shorthand}), {@strike some text to strike-through}, (alternative {@s shorthand}), {@color color|e40707} tags",
-						"Additionally, {@note note tags}, used for adding errata or Twitter \"designer footnotes.\"",
-						"Dice roller tags; {@dice 1d2-2+2d3+5} for regular dice rolls ({@dice 1d6;2d6} for multiple options; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} for input prompts), with extended {@dice 1d20+2|display text} and {@dice 1d20+2|display text|rolled by name}, and a special 'hit' version which assumes a d20 is to be rolled {@hit +7} (and rolls advantage on shift-click, disadvantage on alt-click). There's also {@damage 1d12+3} which will roll critical hits on shift-click and half damage (rounding down) on alt-click, and {@d20 -4} which will also roll advantage/disadvantage, although @hit tags are preferred where appropriate. Spells can have scaling-dice tags, (damage of 2d6 or 3d6 at level 1, add an extra {@scaledice 2d6;3d6|2-9|1d6} for each level beyond 2nd), for when a spell effect scales at higher levels.",
-						"Chance tags; similar to dice roller tags, but output success/failure. Similar syntax as dice tags: {@chance 50}, {@chance 50|display text}, i {@chance 50|display text|rolled by name}.",
-						"Recharge tags; output success/failure for ability recharge. {@recharge} in an ability title for '(Recharge 6)', {@recharge 4} for '(Recharge 4-6)'.",
-						"Skill and sense tags; {@skill Athletics}/{@skill Perception} (case sensitive) and {@sense Truesight}/{@sense visió de foscor} (case insensitive) which provide tooltips on hover.",
-						"Footnote tags; allows a footnote to be embedded {@footnote directly in text|This is primarily for homebrew purposes, as the official texts (so far) avoid using footnotes}, with {@footnote optional reference information|This is the footnote. References are free text.|Footnote 1, page 20}.",
-						"The homebrew tag; can show {@homebrew changes|modifications}, {@homebrew additions} or {@homebrew |removals}.",
-						"Content tags:",
+						"Etiquetes d'estil; {@bold some text to be en negreta} (alternativa {@b taquigrafía}), {@italic some text to be italicised} (alternativa {@i shortcut}), {@underline some text to be underlined} (alternativa {@u taquigrafía}), etiquetes {@strike some text to barrat}, (taquigrafia alternativa {@s}), {@color color|e40707}",
+						"A més, {@note note tags}, que s'utilitzen per afegir errates o \"notes al peu de disseny\" de Twitter.",
+						"Etiquetes de rodets de daus; {@dice 1d2-2+2d3+5} per a tirades de daus normals ({@dice 1d6;2d6} per a múltiples opcions; {@dice 1d6 + #$prompt_number:min=1,title=Introdueix un número!,default=123 $#} per a les sol·licituds d'entrada), amb {@dice 1d20+2|text de visualització} i {@dice 1d20+2|text de visualització|enrotllat pel nom}, i una versió especial de \"encert\" que suposa que s'ha de ser un d20 tirat {@hit +7} (i tira avantatge amb majúscules-clic, desavantatge amb alt-clic). També hi ha {@damage 1d12+3} que produirà cops crítics amb majúscules i clic i mig dany (arrodoniment cap avall) amb alt-clic, i {@d20 -4} que també produirà avantatges/desavantatges, tot i que les etiquetes @hit són preferida quan escaigui. Els encanteris poden tenir etiquetes de daus d'escala (dany de 2d6 o 3d6 al nivell 1, afegeix un {@scaledice 2d6;3d6|2-9|1d6} addicional per a cada nivell més enllà del 2n), per quan un efecte d'encanteri s'escala a nivells superiors. .",
+						"Etiquetes d'oportunitat; similar a les etiquetes de rodets de daus, però la sortida ha estat correcta/fallida. Sintaxi semblant a les etiquetes de daus: {@chance 50}, {@chance 50|mostrar el text}, i {@chance 50|mostrar el text|enrotllar per nom}.",
+						"Recàrrega d'etiquetes; èxit / fracàs de la sortida per a la recàrrega d'habilitats. {@recharge} en un títol d'habilitat per a \"(Recharge 6)\", {@recharge 4} per a \"(Recharge 4-6)\".",
+						"Etiquetes d'habilitat i sentit; {@skill Athletics}/{@skill Perception} (distingeix entre majúscules i minúscules) i {@sense Truesight}/{@sense visió de foscor} (no distingeix entre majúscules i minúscules) que proporcionen consells sobre eines al passar el cursor.",
+						"Etiquetes de notes al peu; permet inserir una nota a peu de pàgina {@footnote directament al text|Això és principalment amb finalitats d'homebrew, ja que els textos oficials (fins ara) eviten utilitzar notes a peu de pàgina}, amb {@footnote informació de referència opcional|Aquesta és la nota a peu de pàgina. Les referències són text lliure.|Nota al peu 1, pàgina 20}.",
+						"L'etiqueta homebrew; pot mostrar {@homebrew canvis|modificacions}, {@homebrew addicions} o {@homebrew |eliminacions}.",
+						"Etiquetes de contingut:",
 						{
-							"type": "list",
+							"type": "llista",
 							"items": [
-								"Spells: {@spell esquitx àcid} assumes PHB by default, {@spell servent diminut|xge} can have sources added with a pipe, {@spell servent diminut|xge|and optional link text added with another pipe}.",
-								"Items: {@item gerra alquímica} assumed DMG by default, {@item longsword|phb} can have sources added with a pipe, {@item longsword|phb|and optional link text added with another pipe}.",
-								"Creatures: {@creature goblin} assumes MM by default, {@creature cow|vgm} can have sources added with a pipe, {@creature cow|vgm|and optional link text added with another pipe}.",
-								"Backgrounds: {@background Charlatan} assumes PHB by default, {@background Anthropologist|toa} can have sources added with a pipe, {@background Anthropologist|ToA|and optional link text added with another pipe}.",
-								"Races: {@race Human} assumes PHB by default, {@race Aarakocra|eepc} can have sources added with a pipe, {@race Aarakocra|eepc|and optional link text added with another pipe}.",
-								"Invocations and Other Optional Features: {@optfeature Missil Agonitzant} assumes PHB by default, {@optfeature Aspecte de la Lluna|xge} can have sources added with a pipe, {@optfeature Aspecte de la Lluna|xge|and optional link text added with another pipe}.",
-								"Classes: {@class guerrer} assumes PHB by default, {@class artificier|uaartificer} can have sources added with a pipe, {@class guerrer|phb|optional link text added with another pipe}, {@class guerrer|phb|subclasses added|Cavaller Èldritx} with another pipe, {@class guerrer|phb|and class feature added|Cavaller Èldritx|phb|2-0} with another pipe (first number is level index (0-19), second number is feature index (0-n)).",
-								"Class Features: {@classFeature Rage|Bàrbar||1}, {@classFeature Infusionar Objecte|Artificier|TCE|2}, {@classFeature Survival Instincts|Bàrbar||2|UAClassFeatureVariants}, {@classFeature Rage|Bàrbar||1||optional display text}. Class source is assumed to be PHB. Class feature source is assumed to be the same as class source.",
-								"Subclass Features: {@subclassFeature Sender dels Berserker|Bàrbar||Berserker||3}, {@subclassFeature Alquímia|Artificier|TCE|Alquímia|TCE|3}, {@subclassFeature Path of the Battlerager|Bàrbar||Battlerager|SCAG|3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|UAClassFeatureVariants}, {@subclassFeature Sender dels Berserker|Bàrbar||Berserker||3||optional display text}. Class source is assumed to be PHB. Subclass source is assumed to be PHB. Subclass feature source is assumed to be the same as subclass source.",
-								"Conditions: {@condition atordit} assumes PHB by default, {@condition stunned|PHB} can have sources added with a pipe (not that it's ever useful), {@condition stunned|PHB|and optional link text added with another pipe}.",
-								"Diseases: {@disease cackle fever} assumes DMG by default, {@disease cackle fever} can have sources added with a pipe, {@disease cackle fever|DMG|and optional link text added with another pipe}.",
-								"Other Rewards: {@reward Blessing of Health} assumes DMG by default, {@reward Blessing of Health} can have sources added with a pipe, {@reward Blessing of Health|DMG|and optional link text added with another pipe}.",
-								"Feats: {@feat Alert} assumes PHB by default, {@feat Elven Accuracy|xge} can have sources added with a pipe, {@feat Elven Accuracy|xge|and optional link text added with another pipe}.",
-								"Psionics: {@psionic Mastery of Force} assumes UATheMysticClass by default, {@psionic Mastery of Force|UATheMysticClass} can have sources added with a pipe, {@psionic Mastery of Force|UATheMysticClass|and optional link text added with another pipe}.",
-								"Objects: {@object Ballista} assumes DMG by default, {@object Ballista} can have sources added with a pipe, {@object Ballista|DMG|and optional link text added with another pipe}.",
-								"Boons: {@boon Demonic Boon of Demogorgon} assumes MTF by default, {@boon Demonic Boon of Demogorgon} can have sources added with a pipe, {@boon Demonic Boon of Demogorgon|MTF|and optional link text added with another pipe}.",
-								"Cults: {@cult Cult of Asmodeus} assumes MTF by default, {@cult Cult of Asmodeus} can have sources added with a pipe, {@cult Cult of Asmodeus|MTF|and optional link text added with another pipe}.",
-								"Traps: {@trap falling net} assumes DMG by default, {@trap falling portcullis|xge} can have sources added with a pipe, {@trap falling portcullis|xge|and optional link text added with another pipe}.",
-								"Hazards: {@hazard brown mold} assumes DMG by default, {@hazard russet mold|vgm} can have sources added with a pipe, {@hazard russet mold|vgm|and optional link text added with another pipe}.",
-								"Deities: {@deity Gond} assumes PHB Forgotten Realms pantheon by default, {@deity Gruumsh|nonhuman} can have pantheons added with a pipe, {@deity Ioun|dawn guerra|dmg} can have sources added with another pipe, {@deity Ioun|dawn guerra|dmg|and optional link text added with another pipe}.",
-								"Variant rules: {@variantrule Diagonals} assumes DMG by default, {@variantrule Multiclassing|phb} can have sources added with a pipe, {@variantrule Multiclassing|phb|and optional link text added with another pipe}.",
-								"Vehicles: {@vehicle Galley} assumes GoS by default, {@vehicle Galley|UAOfShipsAndSea} can have sources added with a pipe, {@vehicle Galley|GoS|and optional link text added with another pipe}.",
-								"Vehicle upgrades: {@vehupgrade Guardian Figurehead} assumes GoS by default, {@vehicle Gilded Death Armor|BGDIA} can have sources added with a pipe, {@vehicle Guardian Figurehead|GoS|and optional link text added with another pipe}.",
-								"Tables: {@table 25 gp Objectes d'Art} assumes DMG by default, {@table Equip d'Aventures|phb} can have sources added with a pipe, {@table Equip d'Aventures|phb|and optional link text added with another pipe}.",
-								"Actions: {@action Atacar} assumes PHB by default, {@action Malabarismes|DMG} can have sources added with a pipe, {@action Malabarismes|DMG|and optional link text added with another pipe}.",
-								"Languages: {@language common} assumes PHB by default, {@language Dambrathan|SCAG} can have sources added with a pipe, {@language Dambrathan|SCAG|and optional link text added with another pipe}.",
-								"Other Character Creation Options: {@charoption Anvilwrought} assumes MOT by default, {@charoption Hollow One|EGW} can have sources added with a pipe, {@charoption Hollow One|EGW|and optional link text added with another pipe}.",
-								"Recipes: {@recipe Elven Bread} assumes Banquet d'Heroi by default, {@recipe Elven Bread|HF} can have sources added with a pipe, {@recipe Elven Bread|HF|and optional link text added with another pipe}."
+								"Encanteris: {@spell esquitx àcid} assumeix PHB de manera predeterminada, {@spell servent diminut|xge} pot afegir fonts amb una canalització, {@spell servent diminut|xge|i un text d'enllaç opcional afegit amb un altre canal}.",
+								"Elements: {@item gerra alquímica} s'assumeix DMG per defecte, {@item longsword|phb} pot afegir fonts amb una canonada, {@item longsword|phb|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Criatures: {@creature goblin} assumeix MM de manera predeterminada, {@creature cow|vgm} pot afegir fonts amb una canonada, {@creature cow|vgm|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Antecedents: {@background Charlatan} assumeix PHB de manera predeterminada, {@background Anthropologist|toa} pot afegir fonts amb una canonada, {@background Anthropologist|ToA|i un text d'enllaç opcional afegit amb un altre canal}.",
+								"Races: {@race Human} assumeix PHB de manera predeterminada, {@race Aarakocra|eepc} pot afegir fonts amb una canalització, {@race Aarakocra|eepc|i text d'enllaç opcional afegit amb una altra canalització}.",
+								"Invocacions i altres funcions opcionals: {@optfeature Missil Agonitzant} assumeix que PHB de manera predeterminada, {@optfeature Aspecte de la Lluna|xge} pot afegir fonts amb una canalització, {@optfeature Aspecte de la Lluna|xge|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Classes: {@class guerrer} assumeix PHB per defecte, {@class artificier|uaartificier} pot afegir fonts amb una canalització, {@class guerrer|phb|text d'enllaç opcional afegit amb una altra canalització}, {@class guerrer|phb| subclasses afegides|Cavaller Èldritx} amb una altra canonada, {@class guerrer|phb|i funció de classe afegida|Cavaller Èldritx|phb|2-0} amb una altra canalització (el primer número és l'índex de nivell (0-19), el segon número és la característica índex (0-n)).",
+								"Funcions de classe: {@classFeature Rage|Bàrbar||1}, {@classFeature Infusionar Objecte|Artificier|TCE|2}, {@classFeature Survival Instincts|Bàrbar||2|UAClassFeatureVariants}, {@classFeature Rage|Bàrbar||1 ||text de visualització opcional}. Se suposa que la font de classe és PHB. Se suposa que l'origen de les característiques de la classe és el mateix que l'origen de la classe.",
+								"Característiques de la subclasse: {@subclassFeature Sender dels Berserker|Bàrbar||Berserker||3}, {@subclassFeature Alquímia|Artificier|TCE|Alquímia|TCE|3}, {@subclassFeature Path of the Battlerager|Bàrbar||Battlerager|SCAG| 3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|UAClassFeatureVariants}, {@subclassFeature Sender dels Berserker|Bàrbar||Berserker||3||text de visualització opcional}. Se suposa que la font de classe és PHB. Se suposa que la font de la subclasse és PHB. S'assumeix que la font de característiques de la subclasse és la mateixa que la font de la subclasse.",
+								"Condicions: {@condition atordit} assumeix PHB de manera predeterminada, {@condition stunned|PHB} pot afegir fonts amb una canonada (no és que sigui útil), {@condition stunned|PHB|i text d'enllaç opcional afegit amb una altra canonada} .",
+								"Malalties: {@disease cackle fever} assumeix DMG de manera predeterminada, {@disease cackle fever} pot afegir fonts amb un tub, {@disease cackle fever|DMG|i un text d'enllaç opcional afegit amb un altre tub}.",
+								"Altres recompenses: {@reward Blessing of Health} assumeix DMG de manera predeterminada, {@reward Blessing of Health} pot afegir fonts amb una canalització, {@reward Blessing of Health|DMG|i un text d'enllaç opcional afegit amb un altre canal}.",
+								"Proeses: {@feat Alert} assumeix PHB de manera predeterminada, {@feat Elven Accuracy|xge} pot afegir fonts amb una canalització, {@feat Elven Accuracy|xge|i un text d'enllaç opcional afegit amb una altra canalització}.",
+								"Psionics: {@psionic Mastery of Force} assumeix UATheMysticClass per defecte, {@psionic Mastery of Force|UATheMysticClass} pot afegir fonts amb una canalització, {@psionic Mastery of Force|UATheMysticClass|i un text d'enllaç opcional afegit amb una altra canalització}.",
+								"Objectes: {@object Ballista} assumeix DMG per defecte, {@object Ballista} pot afegir fonts amb una canonada, {@object Ballista|DMG|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Bons: {@boon Demonic Boon of Demogorgon} assumeix MTF per defecte, {@boon Demonic Boon of Demogorgon} pot afegir fonts amb una canalització, {@boon Demonic Boon of Demogorgon|MTF|i un text d'enllaç opcional afegit amb una altra canalització} .",
+								"Cultes: {@cult Cult of Asmodeus} assumeix MTF per defecte, {@cult Cult of Asmodeus} pot afegir fonts amb una canonada, {@cult Cult of Asmodeus|MTF|i un text d'enllaç opcional afegit amb una altra canalització}.",
+								"Traps: {@trap falling net} assumeix DMG de manera predeterminada, {@trap falling portcullis|xge} pot afegir fonts amb una canonada, {@trap falling portcullis|xge|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Perills: {@hazard brown mold} assumeix DMG de manera predeterminada, {@hazard russet mold|vgm} pot afegir fonts amb una canonada, {@hazard russet mold|vgm|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Deïtats: {@deity Gond} assumeix de manera predeterminada el panteó de PHB Forgotten Realms, {@deity Gruumsh|nohuman} pot afegir panteons amb una canonada, {@deity Ioun|dawn guerra|dmg} pot afegir fonts amb una altra canonada, {@ deity Ioun|dawn guerra|dmg|i text d'enllaç opcional afegit amb una altra canonada}.",
+								"Regles de variants: {@variantrule Diagonals} assumeix DMG per defecte, {@variantrule Multiclassing|phb} pot afegir fonts amb una canalització, {@variantrule Multiclassing|phb|i un text d'enllaç opcional afegit amb una altra canalització}.",
+								"Vehicles: {@vehicle Galley} assumeix GoS de manera predeterminada, {@vehicle Galley|UAOfShipsAndSea} pot afegir fonts amb una canonada, {@vehicle Galley|GoS|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Actualitzacions de vehicles: {@vehupgrade Guardian Figurehead} assumeix GoS de manera predeterminada, {@vehicle Gilded Death Armor|BGDIA} pot afegir fonts amb una canonada, {@vehicle Guardian Figurehead|GoS|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Taules: {@table 25 gp Objectes d'Art} assumeix DMG per defecte, {@table Equip d'Aventures|phb} pot afegir fonts amb una canalització, {@table Equip d'Aventures|phb|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Accions: {@action Atacar} assumeix PHB de manera predeterminada, {@action Malabarismes|DMG} pot afegir fonts amb una canalització, {@action Malabarismes|DMG|i un text d'enllaç opcional afegit amb una altra canalització}.",
+								"Idiomes: {@language common} assumeix PHB de manera predeterminada, {@language Dambrathan|SCAG} pot afegir fonts amb una canalització, {@language Dambrathan|SCAG|i text d'enllaç opcional afegit amb una altra canalització}.",
+								"Altres opcions de creació de personatges: {@charoption Anvilwrought} assumeix la ITV de manera predeterminada, {@charoption Hollow One|EGW} pot afegir fonts amb una canonada, {@charoption Hollow One|EGW|i un text d'enllaç opcional afegit amb una altra canonada}.",
+								"Receptes: {@recipe Elven Bread} assumeix Banquet d'Heroi de manera predeterminada, {@recipe Elven Bread|HF} pot afegir fonts amb una pipa, {@recipe Elven Bread|HF|i un text d'enllaç opcional afegit amb una altra pipa}."
 							]
 						},
 						{
-							"type": "inset",
-							"name": "Filter Tag",
+							"type": "inserció",
+							"name": "Etiqueta de filtre",
 							"entries": [
-								"Another tag that appears occasionally in the data is the @filter tag. This tag can be tricky to use, and generally relies on knowledge of the internals of each page. As such, use with caution, and if you're not sure about something, don't be afraid to drop by our {@link Discord|https://discord.gg/nGvRCDs} and ask questions.",
-								"The syntax for the @filter tag is as follows:",
-								"(open curly brace)@filter display text|page_without_file_extension|filter_name_1=filter_1_value_1;filter_1_value_2;...filter_1_value_n|...|filter_name_m=filter_m_value_1;filter_m_value_2;...(close curly brace)",
-								"The purpose of this tag is to open the given page, pre-filtered with the specified filtering options. There's one major caveat that makes this tricky to use for aspiring JSONtranauts\u2014the filter values use the {@i internal} version, as you'd find in the data. So, for example, ..|school=D|.. would filter spells to Divination school spells, as 'D' is the Divination identifier in the data. Trying to do e.g. ..|school=Endevinació|.. will not work.",
-								"The 'filter_name_X' here matches the literal text name of the filter, as displayed in the dropdown.",
-								"Some examples of the tag in action:",
-								"{@filter Races that have a bonus to Intel·ligència|races|Ability Bonus (Including Subrace)=Intel·ligència +any}",
-								"{@filter Bard cantrips and first-level spells|spells|level=0;1|class=bard}",
-								"{@filter Beast with challenge rating 1 or lower|bestiary|challenge rating=[&0;&1]|type=beast}",
-								"{@filter Creatures with a Força score of 18 or more|bestiary|strength=[18;]}",
-								"{@filter Divination and Evocation spells|spells|school=D;V}",
-								"{@filter All uncommon magic items|items|source=null|type=null|rarity=uncommon|miscellaneous=Magic}",
-								"{@filter Simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
-								"Meta-options can be set; inline for individual filters, and using 'fbmt' for filtering meta-options {@filter filter meta example|spells|level=1;2=sor~sand~b1|fbmt=sor|fbmh=source}",
-								"Search can be set; {@filter view dinosaures|bestiary|search=dinosaure}",
-								"An exact starting entity; {@filter filter for beasts and show cat|bestiary|type=beast|hash=cat_mm} where 'hash' is the part after a '#' and before any commas which appears in the URL bar when viewing the entity.",
+								"Una altra etiqueta que apareix ocasionalment a les dades és l'etiqueta @filter. Aquesta etiqueta pot ser complicada d'utilitzar i, en general, es basa en el coneixement dels elements interns de cada pàgina. Per tant, feu servir amb precaució i, si no esteu segur d'alguna cosa, no tingueu por de passar pel nostre {@link Discord|https://discord.gg/nGvRCDs} i fer preguntes.",
+								"La sintaxi de l'etiqueta @filter és la següent:",
+								"(obriu una clau arrissada)@filtre de text de visualització|page_without_file_extension|filter_name_1=filter_1_value_1;filter_1_value_2;...filter_1_value_n|...|filter_name_m=filter_m_value_1;filter_m_value_2;...)(tanca el sostenidor arrissat)",
+								"L'objectiu d'aquesta etiqueta és obrir la pàgina donada, filtrada prèviament amb les opcions de filtratge especificades. Hi ha una advertència important que fa que sigui difícil d'utilitzar per als aspirants a JSONtranauts: els valors del filtre utilitzen la versió {@i interna}, tal com trobareu a les dades. Així, per exemple, ..|escola=D|.. filtraria els encanteris als encanteris de l'escola d'Endevinació, ja que \"D\" és l'identificador d'Endevinació a les dades. Intentant fer p. ex. ..|escola=Endevinació|.. no funcionarà.",
+								"El \"filter_name_X\" aquí coincideix amb el nom de text literal del filtre, tal com es mostra al menú desplegable.",
+								"Alguns exemples de l'etiqueta en acció:",
+								"{@filter Races que tenen una bonificació a Intel·ligència|races|Bonus d'habilitat (incloent la subraça)=Intel·ligència +qualsevol}",
+								"{@filter Cantrips de bard i encanteris de primer nivell|encanteris|nivell=0;1|classe=bard}",
+								"{@filter Beast amb puntuació de desafiament 1 o inferior|bestiari|puntuació de desafiament=[&0;&1]|type=beast}",
+								"{@filter Criatures amb una puntuació de Força de 18 o més|bestiari|força=[18;]}",
+								"{@filter Encanteris d'endevinació i evocació|encanteris|escola=D;V}",
+								"{@filter Tots els elements màgics poc comuns|items|source=null|type=null|rarity=uncommon|miscellaneous=Magic}",
+								"{@filter Armes cos a cos simples|items|source=phb|category=basic|type=arma simple;arma cos a cos=sorra}",
+								"Es poden establir metaopcions; en línia per a filtres individuals i utilitzant 'fbmt' per filtrar meta-opcions {@filter filter meta example|spells|level=1;2=sor~sand~b1|fbmt=sor|fbmh=source}",
+								"La cerca es pot configurar; {@filter view dinosaures|bestiari|cerca=dinosaure}",
+								"Una entitat de partida exacta; {@filter filter for besties and show cat|bestiary|type=beast|hash=cat_mm} on \"hash\" és la part després d'un \"#\" i abans de qualsevol come que aparegui a la barra d'URL quan visualitzeu l'entitat.",
 								{
-									"type": "entries",
-									"name": "Note",
+									"type": "entrades",
+									"name": "Nota",
 									"entries": [
-										"Setting a filter to null, i.e. ..|school=null|.. is equivalent to 'clear the filter,' resetting it to all-white.",
-										"The pages that support this functionality are those with the 'magnet' button; the link this button exports will give clues as to what one could do with the filter tag."
+										"Establir un filtre com a nul, és a dir, ..|school=null|.. equival a \"esborrar el filtre\" i restablir-lo a tot blanc.",
+										"Les pàgines que admeten aquesta funcionalitat són les que tenen el botó 'imant'; l'enllaç que exporta aquest botó donarà pistes sobre què es podria fer amb l'etiqueta de filtre."
 									]
 								}
 							]
 						},
 						{
-							"type": "inset",
-							"name": "Area Tags and IDs",
+							"type": "inserció",
+							"name": "Etiquetes i identificadors d'àrea",
 							"entries": [
-								"Adventure and book content supports \"area\" tags, which have the form `@area [area name]|[entry id]` or `@area [area name]|[entry id]|[modifiers]` where [modifiers] is a combination of \"x\" for e[x]act text, and \"u\" for [u]ppercase. The \"exact\" modifier removes the leading \"area \" which is prepended to the area name, and the \"uppercase\" modifier causes the prepended text to \"Area \".",
-								"A variety of entries blocks can have \"id\" fields (and may therefore be linked to with \"area\" tags), notable \"entries\"-type, \"section\"-type, and \"inset\"-type. These IDs are conventionally 3-digit hexadecimal numbers (allowing for a total of 4096 IDs per adventure/book), but any string which is unique within the document will suffice."
+								"El contingut d'aventures i llibres admet etiquetes \"àrea\", que tenen la forma `@area [nom de l'àrea]|[id de l'entrada]` o `@area [nom de l'àrea]|[id de l'entrada]|[modificadors]` on és [modificadors] una combinació de \"x\" per al text e[x]act i \"u\" per a [u]majúscules. El modificador \"exact\" elimina l'\"àrea\" inicial que s'adjunta al nom de l'àrea, i el modificador \"majúscula\" fa que el text posat al davant sigui \"Àrea\".",
+								"Una varietat de blocs d'entrades poden tenir camps \"id\" (i, per tant, es poden enllaçar amb etiquetes \"àrea\"), tipus \"entrades\" notables, tipus \"secció\" i tipus \"insert\". Aquests identificadors són convencionalment números hexadecimals de 3 dígits (que permeten un total de 4096 identificadors per aventura/llibre), però n'hi haurà prou amb qualsevol cadena que sigui única dins del document."
 							]
 						},
 						{
-							"type": "inset",
-							"name": "Book/Reference Tags",
+							"type": "inserció",
+							"name": "Etiquetes de llibres/referències",
 							"entries": [
-								"The following tags can be used to link specific sections of adventures/books. Note that chapters and headers are indexed from zero.",
+								"Les etiquetes següents es poden utilitzar per enllaçar seccions específiques d'aventures/llibres. Tingueu en compte que els capítols i les capçaleres s'indexen des de zero.",
 								{
-									"type": "list",
+									"type": "llista",
 									"items": [
-										"Adventure tags: link to an adventure {@adventure display text|CoS}; a chapter in an adventure {@adventure display text|CoS|2}; a heading in a chapter in an adventure {@adventure display text|CoS|2|Tresor}; or the Nth heading of a given name in a chapter in an adventure {@adventure display text|CoS|2|Tresor|1}",
-										"Book tags: link to a book {@book display text|PHB}; a chapter in a book {@book display text|PHB|2}; a heading in a chapter in a book {@book display text|PHB|2|Age}; or the Nth heading of a given name in a chapter in a book {@book display text|PHB|2|Age|0} (although this is generally unnecessary as, unlike adventures, books don't repeat their headings very often."
+										"Etiquetes d'aventura: enllaç a una aventura {@adventure display text|CoS}; un capítol d'una aventura {@adventure display text|CoS|2}; un encapçalament d'un capítol d'una aventura {@adventure display text|CoS|2|Tresor}; o l'nè encapçalament d'un nom donat en un capítol d'una aventura {@adventure display text|CoS|2|Tresor|1}",
+										"Etiquetes de llibres: enllaç a un llibre {@book display text|PHB}; un capítol d'un llibre {@book display text|PHB|2}; un encapçalament d'un capítol d'un llibre {@book display text|PHB|2|Edat}; o l'ensè encapçalament d'un nom donat en un capítol d'un llibre {@book display text|PHB|2|Edat|0} (tot i que això és generalment innecessari, ja que, a diferència de les aventures, els llibres no repeteixen els seus encapçalaments molt sovint."
 									]
 								}
 							]
 						},
 						{
-							"type": "inset",
-							"name": "Other Tags",
+							"type": "inserció",
+							"name": "Altres etiquetes",
 							"entries": [
-								"Links:",
+								"Enllaços:",
 								{
-									"type": "list",
+									"type": "llista",
 									"items": [
-										"Internal links: {@5etools This Is Your Life|lifegen.html}",
-										"External links: {@link https://discord.gg/nGvRCDs} or {@link Discord|https://discord.gg/nGvRCDs}"
+										"Enllaços interns: {@5etools This Is Your Life|lifegen.html}",
+										"Enllaços externs: {@link https://discord.gg/nGvRCDs} o {@link Discord|https://discord.gg/nGvRCDs}"
 									]
 								},
-								"Page specific/other tags:",
+								"Etiquetes específiques de la pàgina/altres:",
 								{
-									"type": "list",
+									"type": "llista",
 									"items": [
-										"Bestiary 'attack' tags: {@atk m}, {@atk r}, {@atk m,r}, {@atk mw}, {@atk rw}, {@atk ms}, {@atk rs}; (homebrew only) {@atk a}, {@atk aw}. Commas separate or'd attack types; the general form is: '@atk &lt;m|r|a&gt;[&lt;w|s&gt;][,&lt;m|r|a&gt;[&lt;w|s&gt;][,...]]'"
+										"Etiquetes \"atac\" del bestiari: {@atk m}, {@atk r}, {@atk m,r}, {@atk mw}, {@atk rw}, {@atk ms}, {@atk rs}; (només homebrew) {@atk a}, {@atk aw}. Les comes separen els tipus d'atac; la forma general és: '@atk &lt;m|r|a&gt;[&lt;w|s&gt;][,&lt;m|r|a&gt;[&lt;w|s&gt;][,...]]'"
 									]
 								},
-								"Homebrew loading tags: {@loader Tome of Beasts|creature/Kobold Press; Tome of Beasts.json}. The URL after the pipe is assumed to be from the root of the homebrew repository, unless it starts with a \"...://\" prefix (i.e., any link should work, but there's a shorthand for homebrew repository links)."
+								"Etiquetes de càrrega homebrew: {@loader Tome of Beasts|creature/Kobold Press; Tom de Beasts.json}. Se suposa que l'URL després de la canalització prové de l'arrel del dipòsit homebrew, tret que comenci amb un prefix \"...://\" (és a dir, qualsevol enllaç hauria de funcionar, però hi ha una abreviatura per als enllaços del dipòsit homebrew)."
 							]
 						}
 					]
 				},
-				"These tags may be {@b {@i {@spell bola de foc|phb|nested}}}, although there are often better ways to get the combination of bold and italic that you're probably going to use this for; consider using one of the properly typed objects below (such as level 2 headers).",
+				"Aquestes etiquetes poden ser {@b {@i {@spell bola de foc|phb|nidada}}}, tot i que sovint hi ha millors maneres d'aconseguir la combinació de negreta i cursiva per a la qual probablement utilitzareu això; penseu a utilitzar un dels objectes escrits correctament a continuació (com ara les capçaleres de nivell 2).",
 				{
-					"type": "entries",
-					"name": "A Subclass Name, For Example",
+					"type": "entrades",
+					"name": "Un nom de subclasse, per exemple",
 					"entries": [
-						"The above is a 'level 0' header.",
-						"The 'name' property is optional",
+						"L'anterior és una capçalera de \"nivell 0\".",
+						"La propietat \"nom\" és opcional",
 						{
-							"type": "entries",
-							"name": "A Subclass Feature Name",
+							"type": "entrades",
+							"name": "Un nom de característica de subclasse",
 							"entries": [
-								"The above is a 'level 1' header.",
+								"L'anterior és una capçalera de \"nivell 1\".",
 								{
-									"type": "entries",
-									"name": "A Subclass Feature Inline Header",
+									"type": "entrades",
+									"name": "Una capçalera en línia de subclasse",
 									"entries": [
-										"This bold-italic inline header is a 'level 2' header, please use this as opposed to nesting tags. You can make a chain of empty entry objects with no names to get to this header level, if required.",
-										"Note that the period in the inline name is added automagically."
+										"Aquesta capçalera en línia en negreta i cursiva és una capçalera de \"nivell 2\". Utilitzeu-la en lloc de les etiquetes d'imbricació. Podeu fer una cadena d'objectes d'entrada buits sense noms per arribar a aquest nivell de capçalera, si cal.",
+										"Tingueu en compte que el punt al nom en línia s'afegeix automàticament."
 									]
 								}
 							]
@@ -164,16 +164,16 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "entrades",
 					"entries": [
 						{
-							"type": "entries",
+							"type": "entrades",
 							"entries": [
 								{
-									"type": "entries",
-									"name": "This is an example of a level 2 header with no real parents",
+									"type": "entrades",
+									"name": "Aquest és un exemple d'una capçalera de nivell 2 sense pares reals",
 									"entries": [
-										"This technique can be useful, sometimes."
+										"Aquesta tècnica pot ser útil, de vegades."
 									]
 								}
 							]
@@ -181,72 +181,72 @@
 					]
 				},
 				{
-					"type": "inline",
+					"type": "en linia",
 					"entries": [
-						"Entries can be inlined, useful for e.g. links beyond the tags listed above, ",
+						"Les entrades es poden incloure, útils per, p. enllaços més enllà de les etiquetes esmentades anteriorment,",
 						{
-							"type": "link",
+							"type": "enllaç",
 							"href": {
-								"type": "internal",
+								"type": "intern",
 								"path": "index.html"
 							},
-							"text": "such as a link to the homepage"
+							"text": "com ara un enllaç a la pàgina d'inici"
 						},
-						" but you can see why the tags are preferable."
+						"però podeu veure per què les etiquetes són preferibles."
 					]
 				},
 				{
 					"type": "inlineBlock",
 					"entries": [
-						"Similar to the above, but keeps the paragraph/etc tags around the inlined children, ",
+						"Similar a l'anterior, però manté les etiquetes de paràgraf/etc al voltant dels nens alineats,",
 						{
-							"type": "link",
+							"type": "enllaç",
 							"href": {
-								"type": "internal",
+								"type": "intern",
 								"path": "index.html"
 							},
-							"text": "such as a link to the homepage"
+							"text": "com ara un enllaç a la pàgina d'inici"
 						},
-						" so can easily be mixed with lines of text."
+						"de manera que es pot barrejar fàcilment amb línies de text."
 					]
 				},
 				{
-					"type": "options",
+					"type": "opcions",
 					"entries": [
 						{
-							"type": "entries",
-							"name": "Option B",
+							"type": "entrades",
+							"name": "Opció B",
 							"entries": [
-								"Sometimes useful, e.g. for Estil de Lluitas on a class. (Note that this option is rendered second, when it's listed first in the data.)"
+								"De vegades útil, p. per a Estil de Lluitas a classe. (Tingueu en compte que aquesta opció es representa en segon lloc, quan apareix primer a les dades.)"
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Option A",
+							"type": "entrades",
+							"name": "Opció A",
 							"entries": [
-								"The 'options' type is very similar to a list of entries, but it alphabetically sorts the list of options by name, before displaying them."
+								"El tipus \"opcions\" és molt semblant a una llista d'entrades, però ordena alfabèticament la llista d'opcions per nom, abans de mostrar-les."
 							]
 						}
 					]
 				},
 				{
-					"type": "table",
-					"caption": "Optional Caption",
+					"type": "taula",
+					"caption": "Subtítol opcional",
 					"colLabels": [
 						"Col 1",
-						"Column the Second",
-						"Third Col"
+						"Columna Segona",
+						"Tercer Col"
 					],
 					"colStyles": [
-						"col-6 text-center",
-						"col-4-5 text-right ",
+						"col-6 centre de text",
+						"col-4-5 text-dreta",
 						"col-1-5"
 					],
 					"intro": [
-						"Optional intro entries."
+						"Entrades d'introducció opcionals."
 					],
 					"outro": [
-						"Optional outro entries."
+						"Entrades d'outro opcionals."
 					],
 					"rows": [
 						[
@@ -271,30 +271,30 @@
 							""
 						],
 						{
-							"type": "row",
-							"style": "row-indent-first",
+							"type": "fila",
+							"style": "fila-sagnia-primer",
 							"row": [
-								"Rows may also be defined",
-								"As objects with additional properties",
+								"També es poden definir files",
+								"Com a objectes amb propietats addicionals",
 								""
 							]
 						}
 					],
 					"footnotes": [
-						"* Optional footer entries",
-						"** As an extension to Bootstrap's 1-to-12 system, 1/10th subdivisions can be used, e.g. col-1-5 for 1.5/12. The total column widths should still sum to exactly 12; enjoy doing the math."
+						"* Entrades opcionals al peu de pàgina",
+						"** Com a extensió del sistema 1 a 12 de Bootstrap, es poden utilitzar subdivisions 1/10, p. col-1-5 per 1,5/12. L'amplada total de les columnes encara hauria de sumar exactament 12; gaudeix fent les matemàtiques."
 					]
 				},
-				"Rollable tables can be made like so (note the 'pad' to format single digit numbers e.g. '01' for tables with >10 rows):",
+				"Les taules enrotllables es poden fer així (tingueu en compte el 'pad' per formatar números d'un sol dígit, per exemple, '01' per a taules amb >10 files):",
 				{
-					"type": "table",
-					"caption": "Rollable Table Caption",
+					"type": "taula",
+					"caption": "Subtítol de taula enrotllable",
 					"colLabels": [
-						"{@dice d6}",
-						"Item"
+						"{@dis d6}",
+						"Article"
 					],
 					"colStyles": [
-						"col-1 text-center",
+						"col-1 centre de text",
 						"col-11"
 					],
 					"rows": [
@@ -348,108 +348,108 @@
 					]
 				},
 				{
-					"type": "list",
+					"type": "llista",
 					"items": [
-						"A basic list of items",
-						"As usual, nested entries work",
+						"Una llista bàsica d'elements",
+						"Com és habitual, les entrades imbricades funcionen",
 						{
-							"type": "list",
+							"type": "llista",
 							"items": [
-								"Such as a nested list"
+								"Com ara una llista imbricada"
 							]
 						}
 					]
 				},
 				{
-					"type": "list",
+					"type": "llista",
 					"columns": 3,
 					"items": [
-						"A list of items with wrapping columns",
-						"Which will wrap",
-						"Up to a maximum number of times as specified by the 'columns' field",
-						"And will attempt to balance content between each column"
+						"Una llista d'elements amb columnes d'ajustament",
+						"Que embolicarà",
+						"Fins al nombre màxim de vegades especificat pel camp \"columnes\".",
+						"I intentarà equilibrar el contingut entre cada columna"
 					]
 				},
-				"There's also:",
+				"També hi ha:",
 				{
-					"type": "list",
-					"style": "list-no-bullets",
+					"type": "llista",
+					"style": "llista sense vinyes",
 					"items": [
-						"A list of items without bullets",
-						"Used very rarely"
+						"Una llista d'elements sense pics",
+						"S'utilitza molt poques vegades"
 					]
 				},
 				{
-					"type": "list",
-					"style": "list-hang",
-					"name": "Hanging List",
+					"type": "llista",
+					"style": "llista-penjar",
+					"name": "Llista penjant",
 					"items": [
-						"A hanging items list",
-						"Which has a 'name'/title, and will hang below that title"
+						"Una llista d'articles penjats",
+						"Que té un \"nom\"/títol i es penjarà a sota d'aquest títol"
 					]
 				},
 				{
-					"type": "list",
-					"style": "list-hang",
-					"name": "Hanging List",
+					"type": "llista",
+					"style": "llista-penjar",
+					"name": "Llista penjant",
 					"items": [
 						{
-							"type": "item",
-							"name": "An extension of the hanging list.",
-							"entry": "Which has bold inline titles -- note that this only allows {@i one} entry per item (it's 'entry' and not 'entries')"
+							"type": "article",
+							"name": "Una extensió de la llista penjada.",
+							"entry": "Que té títols en negreta en línia; tingueu en compte que això només permet {@i una} entrada per element (és \"entrada\" i no \"entrades\")."
 						},
-						"Can be mixed with regular strings"
+						"Es pot barrejar amb cordes normals"
 					]
 				},
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
+					"type": "llista",
+					"style": "llista-penja-sense títol",
 					"items": [
 						{
-							"type": "item",
-							"name": "A similar story here",
-							"entry": "The 'item' is an entry as above, but there's no 'name' for the entire list, so this has no left inset. Some long text to show what happens when the lines wrap around, it should continue but be indented after the first line. Some example of this in the source books can be found in Metalic Dragon breath weapons in the Monster Manual."
+							"type": "article",
+							"name": "Una història semblant aquí",
+							"entry": "L'\"element\" és una entrada com l'anterior, però no hi ha cap \"nom\" per a tota la llista, de manera que no té cap inserció esquerre. Un text llarg per mostrar què passa quan les línies s'emboliquen, hauria de continuar però sagnat després de la primera línia. Alguns exemples d'això als llibres font es poden trobar a les armes d'alè de Drac metàl·lic al Manual del monstre."
 						},
 						{
 							"type": "itemSub",
-							"name": "A sub-item used in some places.",
-							"entry": "For example, XGE's complex traps"
+							"name": "Un subelement utilitzat en alguns llocs.",
+							"entry": "Per exemple, les trampes complexes de XGE"
 						},
 						{
-							"type": "item",
-							"name": "Multiple entry version.",
+							"type": "article",
+							"name": "Versió d'entrada múltiple.",
 							"entries": [
-								"This was, again, required specifically for XGE's complex traps, which can have multiple lines of text; due to their large and complex nature, one would have to presume.",
-								"Speaking of lines, this one is very long (much like the one above, which was specifically packed with superfluous information to pad it out to a decent word count) to hopefully demonstrate the effects of having to wrap a paragraph into the column, which should indent the first line of the paragraph only. Of course, if you're viewing this on an obscenely wide monitor, this will have little or no effect, so if you're in the future where 10k monitors are standard, then congratulations. Otherwise, like the rest of us plebs, you should see the desired layout.",
-								"For most uses, the single-entry version is preferred.",
-								"And here's another really long run-on sentence, just to really hammer home the effects of {@s drugs} excessive text, something I'm sure my English teacher would have a few comments about; thankfully, they're not much of a fan of Dungeons & Dragons, or even fantasy in general (needless to say, they were at best ambivalent towards the vast majority of my literary interests as a teenager; at least, as much as an English teacher can be towards a student who enjoys reading and who would choose to do it of their own volition).",
-								"What on earth did I just write"
+								"Això era, de nou, requerit específicament per a les trampes complexes de XGE, que poden tenir diverses línies de text; a causa de la seva naturalesa gran i complexa, s'hauria de suposar.",
+								"Parlant de línies, aquest és molt llarg (com l'anterior, que estava específicament ple d'informació superflua per completar-lo amb un recompte de paraules decent) per demostrar els efectes d'haver d'embolicar un paràgraf a la columna, que hauria de sagna només la primera línia del paràgraf. Per descomptat, si esteu veient això en un monitor obscenament ample, això tindrà poc o cap efecte, de manera que si esteu en el futur on els monitors 10k són estàndard, aleshores enhorabona. En cas contrari, com la resta de plebs, hauríeu de veure el disseny desitjat.",
+								"Per a la majoria d'usos, es prefereix la versió d'una sola entrada.",
+								"I aquí hi ha una altra frase molt llarga, només per aclarir realment els efectes de l'excés de text de {@s drugs}, una cosa sobre la qual estic segur que el meu professor d'anglès voldria fer alguns comentaris; Per sort, no són molt fans de Dungeons & Dragons, ni tan sols de la fantasia en general (no cal dir que, en el millor dels casos, eren ambivalents amb la gran majoria dels meus interessos literaris d'adolescent; almenys, tant com un anglès). el professor pot ser cap a un alumne a qui li agrada llegir i que optaria per fer-ho per voluntat pròpia).",
+								"Què diables acabo d'escriure"
 							]
 						}
 					]
 				},
 				{
-					"type": "list",
-					"style": "list-decimal",
+					"type": "llista",
+					"style": "llista decimal",
 					"items": [
-						"A decimal-numbered list. Alternativament, 'list-lower-roman' can be used for lowercase Roman numerals.",
-						"So far only seen in homebrew."
+						"Una llista numerada en decimals. Alternativament, 'lista-menús-romans' es pot utilitzar per als números romans minúscules.",
+						"Fins ara només s'ha vist en homebrew."
 					]
 				},
-				"The 'bonus' type just sticks a + in front of things",
+				"El tipus \"bonus\" només enganxa un + davant de les coses",
 				{
-					"type": "bonus",
+					"type": "bonificació",
 					"value": 3
 				},
-				"We don't use that one much. It's useful because it allows us to store the data as a number, and render it with a plus sign as required, but it's mostly just forgotten about.",
-				"Similar story with 'bonusSpeed' type (these 'bonus' flavors are mainly used in the class tables)",
+				"No la fem servir gaire. És útil perquè ens permet emmagatzemar les dades com a nombre i representar-les amb un signe més segons sigui necessari, però sobretot s'obliden.",
+				"Història similar amb el tipus \"bonusSpeed\" (aquests sabors \"bonus\" s'utilitzen principalment a les taules de classe)",
 				{
-					"type": "bonusSpeed",
+					"type": "Bonificació de velocitat",
 					"value": 100
 				},
-				"The 'dice' type is rarely used, since the shorthand tag exists, but it looks like this:",
+				"El tipus \"dau\" s'utilitza poques vegades, ja que existeix l'etiqueta taquigràfica, però té aquest aspecte:",
 				{
-					"type": "dice",
+					"type": "daus",
 					"toRoll": [
 						{
 							"number": 1,
@@ -469,102 +469,102 @@
 					],
 					"rollable": true
 				},
-				"The 'abilityDc' type is more helpful:",
+				"El tipus \"abilityDc\" és més útil:",
 				{
-					"type": "abilityDc",
-					"name": "Buggy Code",
+					"type": "capacitatDc",
+					"name": "Codi Buggy",
 					"attributes": [
-						"wis",
+						"sabia",
 						"int"
 					]
 				},
-				"As is the 'abilityAttackMod' type:",
+				"Com és el tipus \"abilityAttackMod\":",
 				{
-					"type": "abilityAttackMod",
-					"name": "Killing Things",
+					"type": "habilitatAttackMod",
+					"name": "Matant Coses",
 					"attributes": [
 						"str"
 					]
 				},
-				"There's also a generic version that allows more text customisation; 'abilityGeneric':",
+				"També hi ha una versió genèrica que permet més personalització del text; 'capacitatGeneric':",
 				{
-					"type": "abilityGeneric",
-					"name": "Initiative",
-					"text": "10 - your power level + somebody else's",
+					"type": "capacitatGeneric",
+					"name": "Iniciativa",
+					"text": "10 - el teu nivell de poder + el d'una altra persona",
 					"attributes": [
 						"dex",
 						"str"
 					]
 				},
 				{
-					"type": "abilityGeneric",
-					"text": "leave out the 'name' and 'attributes' properties as required"
+					"type": "capacitatGeneric",
+					"text": "deixa de banda les propietats \"nom\" i \"atributs\" segons sigui necessari"
 				},
-				"External links using 'link':",
+				"Enllaços externs amb 'enllaç':",
 				{
-					"type": "link",
+					"type": "enllaç",
 					"href": {
-						"type": "external",
+						"type": "extern",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/TheGiddyLimit.github.io/master/test/schema/entry.json"
 					},
-					"text": "The full 'entry' schema."
+					"text": "L'esquema d'\"entrada\" complet."
 				},
-				"Internal links are also possible, but generally covered by @tags. Check out the schema linked above for the full usage; it's massive and horrible so I'm not going to go into detail here.",
-				"Invocations/Other Optional Features:",
+				"També són possibles enllaços interns, però generalment coberts per @etiquetes. Consulteu l'esquema enllaçat anteriorment per a l'ús complet; és enorme i horrible, així que no entraré en detalls aquí.",
+				"Invocacions/altres funcions opcionals:",
 				{
-					"type": "optfeature",
-					"name": "Optional Feature Name",
-					"prerequisite": "Optional prerequisite, which can include tags {@spell missil èldritx}",
+					"type": "característica opta",
+					"name": "Nom de la funció opcional",
+					"prerequisite": "Requisit previ opcional, que pot incloure etiquetes {@spell missil èldritx}",
 					"entries": [
-						"Optional feature text."
+						"Text de funció opcional."
 					]
 				},
 				"Patrons:",
 				{
-					"type": "inset",
-					"name": "Inset Title (Optional)",
+					"type": "inserció",
+					"name": "Títol inserit (opcional)",
 					"entries": [
-						"This is a text inset/insert/sidebar/etc."
+						"Aquest és un text inserit/insert/barra lateral/etc."
 					]
 				},
 				{
-					"type": "insetReadaloud",
-					"name": "Same As Above",
+					"type": "insetLlegit en veu alta",
+					"name": "Igual que l'anterior",
 					"entries": [
-						"But a different color."
+						"Però un color diferent."
 					]
 				},
 				{
 					"type": "variant",
-					"name": "Better Monster",
+					"name": "Millor monstre",
 					"entries": [
-						"Some variant monster text",
+						"Algun text de monstre variant",
 						{
-							"type": "entries",
-							"name": "Inline Header",
+							"type": "entrades",
+							"name": "Capçalera en línia",
 							"entries": [
 								"Text text text",
 								{
 									"type": "variantSub",
-									"name": "These can have child items",
+									"name": "Aquests poden tenir articles infantils",
 									"entries": [
-										"And the header style for them is unique, so this exists to cope with that."
+										"I l'estil de capçalera per a ells és únic, de manera que això existeix per fer front a això."
 									]
 								}
 							]
 						}
 					]
 				},
-				"Images (similar to the structure of the 'link' type):",
+				"Imatges (similar a l'estructura del tipus \"enllaç\"):",
 				{
-					"type": "image",
+					"type": "imatge",
 					"href": {
-						"type": "internal",
-						"path": "blank.png"
+						"type": "intern",
+						"path": "en blanc.png"
 					},
-					"title": "Optional Title"
+					"title": "Títol opcional"
 				},
-				"Creatures; format based on Bestiary data, with added type (note that a proper Bestiary entry and a link to the entry is the preferred method of adding creatures, this functionality exists primarily for homebrew data):",
+				"Criatures; format basat en dades del Bestiari, amb un tipus afegit (tingueu en compte que una entrada de Bestiari adequada i un enllaç a l'entrada és el mètode preferit per afegir criatures, aquesta funcionalitat existeix principalment per a les dades homebrew):",
 				{
 					"type": "dataCreature",
 					"dataCreature": {
@@ -607,15 +607,15 @@
 						"idiomes": [
 							"Celestial",
 							"Èlfic",
-							"Silvànic",
-							"telepatía 60 peus"
+							"Silvanic",
+							"telepatia 60 peus"
 						],
 						"cr": "5",
 						"trait": [
 							{
 								"name": "Carregar",
 								"entries": [
-									"If the unicorn moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 ({@dice 2d8}) de dany perforant. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked prone."
+									"Si l'unicorn es mou com a mínim 20 peus recte cap a un objectiu i després li colpeja amb un atac de banya en el mateix torn, l'objectiu agafa un 9 ({@dice 2d8}) addicional de dany perforant. Si l'objectiu és una criatura, ha de salvar per Força amb {@dc 15} o ser knocked prone."
 								]
 							},
 							{
@@ -633,33 +633,33 @@
 						],
 						"action": [
 							{
-								"name": "Multi-atac",
+								"name": "Multiatac",
 								"entries": [
-									"The unicorn fa dos atacs: one with its hooves and one with its horn."
+									"L'unicorn fa dos atacs: un amb les peülles i un altre amb la banya."
 								]
 							},
 							{
 								"name": "Peülles",
 								"entries": [
-									"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. Hit: 11 ({@damage 2d6 + 4}) de dany contundent."
+									"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. Encert: 11 ({@damage 2d6 + 4}) de dany contundent."
 								]
 							},
 							{
-								"name": "Horn",
+								"name": "Banya",
 								"entries": [
-									"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. Hit: 8 ({@damage 1d8 + 4}) de dany perforant."
+									"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. Encert: 8 ({@damage 1d8 + 4}) de dany perforant."
 								]
 							},
 							{
 								"name": "Toc Curatiu (3/Dia)",
 								"entries": [
-									"The unicorn touches another creature with its horn. The target magically regains 11 ({@dice 2d8 + 2}) hit points. A més, the touch removes all diseases and neutralizes all poisons afflicting the target."
+									"L'unicorn toca una altra criatura amb la seva banya. L'objectiu recupera màgicament 11 ({@des 2d8 + 2}) punts de vida. A més, el tacte elimina totes les malalties i neutralitza tots els verins que afecten l'objectiu."
 								]
 							},
 							{
 								"name": "Teleportar (1/Dia)",
 								"entries": [
-									"The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away."
+									"L'unicorn es teletransporta màgicament i fins a tres criatures voluntaris que poden veure a 5 peus d'ell, juntament amb qualsevol equip que portin o portin, a un lloc que l'unicorn conegui, fins a 1 milla de distància."
 								]
 							}
 						],
@@ -671,19 +671,19 @@
 							{
 								"name": "Peülles",
 								"entries": [
-									"The unicorn makes one attack with its hooves."
+									"L'unicorn fa un atac amb les peülles."
 								]
 							},
 							{
 								"name": "Escut de Pampallugues (Costa 2 Accions)",
 								"entries": [
-									"The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn."
+									"L'unicorn crea un camp màgic brillant al seu voltant o a una altra criatura que pugui veure a 60 peus d'ell. L'objectiu guanya una bonificació +2 a la CA fins al final del següent torn de l'unicorn."
 								]
 							},
 							{
 								"name": "Auto Curació (Costa 3 Accions)",
 								"entries": [
-									"The unicorn magically regains 11 ({@dice 2d8 + 2}) hit points."
+									"L'unicorn recupera màgicament 11 ({@des 2d8 + 2}) punts de vida."
 								]
 							}
 						],
@@ -692,10 +692,10 @@
 							{
 								"name": "Llançament de conjurs Innat",
 								"headerEntries": [
-									"L'habilitat de llançament de conjurs innat de The unicorn és Carisma ({@dc 14)} per salvar conjur). The unicorn pot llançar els següents conjurs innatament sense requerir components"
+									"L'habilitat de llançament de conjurs innat de The unicorn és Carisma (@{@dc 14)} per salvar conjur). The unicorn pot llançar els següents conjurs innatament sense requerir components"
 								],
 								"will": [
-									"{@spell detectar el bé i el mal}",
+									"{@spell detecta el bé i el mal}",
 									"{@spell arts de druida}",
 									"{@spell passar desapercebudament}"
 								],
@@ -706,15 +706,15 @@
 										"{@spell enredar}"
 									]
 								},
-								"ability": "cha"
+								"ability": "xa"
 							}
 						],
 						"environment": [
 							"bosc"
 						],
 						"soundClip": {
-							"type": "internal",
-							"path": "bestiary/unicorn.mp3"
+							"type": "intern",
+							"path": "bestiari/unicorn.mp3"
 						},
 						"traitTags": [
 							"Carregar",
@@ -722,11 +722,11 @@
 							"Armament Màgic"
 						],
 						"actionTags": [
-							"Multi-atac"
+							"Multiatac"
 						]
 					}
 				},
-				"Spells; as above:",
+				"Encanteris; com a dalt:",
 				{
 					"type": "dataSpell",
 					"dataSpell": {
@@ -740,7 +740,7 @@
 							}
 						],
 						"range": {
-							"type": "point",
+							"type": "punt",
 							"distance": {
 								"type": "peus",
 								"amount": 150
@@ -749,7 +749,7 @@
 						"components": {
 							"v": true,
 							"s": true,
-							"m": "a tiny ball of bat guano and sulfur"
+							"m": "una petita bola de guano de ratpenat i sofre"
 						},
 						"duration": [
 							{
@@ -770,11 +770,11 @@
 							"fromSubclass": [
 								{
 									"class": {
-										"name": "Cleric",
+										"name": "Clergue",
 										"source": "PHB"
 									},
 									"subclass": {
-										"name": "Light",
+										"name": "Llum",
 										"source": "PHB"
 									}
 								},
@@ -790,11 +790,11 @@
 								},
 								{
 									"class": {
-										"name": "Cleric",
+										"name": "Clergue",
 										"source": "PHB"
 									},
 									"subclass": {
-										"name": "Zeal (PSA)",
+										"name": "Zel (PSA)",
 										"source": "PSA"
 									}
 								}
@@ -802,12 +802,12 @@
 						},
 						"source": "PHB",
 						"entries": [
-							"A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Tota criatura en una esfera de 20 peus de radi centrada en aquell punt ha de salvar per Destresa. A target takes {@dice 8d6} de dany de foc; si supera, en rep la meitat.",
-							"The fire s'extén per les cantonades. It ignites flammable objects in the area que ningú estigui portant o vestint."
+							"Una ratlla brillant parpelleja des del dit assenyalant fins a un punt que trieu dins de l'abast i després floreix amb un rugit baix en una explosió de flama. Tota criatura en una esfera de 20 peus de radi centrada en aquell punt ha de salvar per Destresa. A target take {@dice 8d6} de dany de foc; si supera, en rep la meitat.",
+							"El foc s'extén per les cantonades. S'encén objectes inflamables a la zona que ningú ha de portar o vestir."
 						],
 						"entriesHigherLevel": [
 							{
-								"type": "entries",
+								"type": "entrades",
 								"name": "A Nivells Superiors",
 								"entries": [
 									"Quan llances aquest conjur emprant una ranura de nivell 4 o superior, el dany incrementa en {@scaledice 8d6|3-9|1d6} per cada nivell per sobre de 3."
@@ -817,15 +817,15 @@
 						"page": 241
 					}
 				},
-				"There exist a few homebrew features (generally) for use in custom copies of the site:",
+				"Hi ha algunes característiques homebrew (generalment) per utilitzar-les en còpies personalitzades del lloc:",
 				{
 					"type": "homebrew",
 					"entries": [
 						{
 							"name": "Homebrew",
-							"type": "entries",
+							"type": "entrades",
 							"entries": [
-								"If you make additions to existing text, you may want to use the \"homebrew\" entry type, to clearly mark homebrew sections."
+								"Si feu addicions al text existent, és possible que vulgueu utilitzar el tipus d'entrada \"homebrew\" per marcar clarament les seccions homebrew."
 							]
 						}
 					]
@@ -834,28 +834,28 @@
 					"type": "homebrew",
 					"entries": [
 						{
-							"name": "Homebrew which changed something",
-							"type": "entries",
+							"name": "Homebrew que va canviar alguna cosa",
+							"type": "entrades",
 							"entries": [
-								"It also supports changes, which show the replaced entries on hover."
+								"També admet els canvis, que mostren les entrades substituïdes al passar el cursor."
 							]
 						}
 					],
 					"oldEntries": [
-						"This was the original content."
+						"Aquest era el contingut original."
 					]
 				},
 				{
 					"type": "homebrew",
 					"oldEntries": [
-						"You can also mark removed content."
+						"També podeu marcar el contingut eliminat."
 					]
 				},
 				{
 					"type": "homebrew",
-					"movedTo": "a completely different place",
+					"movedTo": "un lloc completament diferent",
 					"oldEntries": [
-						"And you can also mark moved content."
+						"I també podeu marcar el contingut mogut."
 					]
 				}
 			]
