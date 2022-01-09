@@ -9167,7 +9167,7 @@ Renderer.getRollableRow = function (row, opts) {
 	try {
 		const cleanRow = String(row[0]).trim();
 
-		// format: "20 or lower"; "99 or higher"
+		// format: "20 o menys"; "99 or higher"
 		const mLowHigh = /^(\d+) or (lower|higher)$/i.exec(cleanRow)
 		if (mLowHigh) {
 			row[0] = {type: "cell", entry: cleanRow}; // Preseve the original text
