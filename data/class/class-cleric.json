@@ -924,7 +924,7 @@
 			]
 		},
 		{
-			"name": "Domini de Nature",
+			"name": "Domini de la Natura",
 			"shortName": "Nature",
 			"source": "PHB",
 			"className": "Clergue",
@@ -966,13 +966,13 @@
 				}
 			],
 			"subclassFeatures": [
-				"Domini de Nature|Clergue||Nature||1",
-				"Canalitzar Divinitat: Charm Animals and Plants|Clergue||Nature||2",
-				"Dampen Elements|Clergue||Nature||6",
+				"Domini de la Natura|Clergue||Nature||1",
+				"Canalitzar Divinitat: Fascinar Animals i Plantes|Clergue||Nature||2",
+				"Debilitar Elements|Clergue||Nature||6",
 				"Colpejos Divins|Clergue||Nature||8",
 				"Colpejos Beneïts|Clergue||Nature||8|UAClassFeatureVariants",
 				"Colpejos Beneïts|Clergue||Nature||8|TCE",
-				"Master of Nature|Clergue||Nature||17"
+				"Mestratge de la Natura|Clergue||Nature||17"
 			]
 		},
 		{
@@ -3148,7 +3148,7 @@
 			]
 		},
 		{
-			"name": "Domini de Nature",
+			"name": "Domini de la Natura",
 			"source": "PHB",
 			"page": 61,
 			"className": "Clergue",
@@ -3161,7 +3161,7 @@
 				"At each indicated cleric level, you add the listed spells to your spells prepared.",
 				{
 					"type": "table",
-					"caption": "Conjurs de Domini de Nature",
+					"caption": "Conjurs de Domini de la Natura",
 					"colLabels": [
 						"Cleric Level",
 						"Conjurs"
@@ -3173,7 +3173,7 @@
 					"rows": [
 						[
 							"1",
-							"{@spell animal friendship}, {@spell parlar animal}"
+							"{@spell amistat animal}, {@spell parlar animal}"
 						],
 						[
 							"3",
@@ -3185,7 +3185,7 @@
 						],
 						[
 							"7",
-							"{@spell dominar bèstia}, {@spell grasping vine}"
+							"{@spell dominar bèstia}, {@spell heura de presa}"
 						],
 						[
 							"9",
@@ -3195,7 +3195,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Acolyte of Nature|Clergue||Nature||1"
+					"subclassFeature": "Acòlit de la Natura|Clergue||Nature||1"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3204,7 +3204,7 @@
 			]
 		},
 		{
-			"name": "Acolyte of Nature",
+			"name": "Acòlit de la Natura",
 			"source": "PHB",
 			"page": 61,
 			"className": "Clergue",
@@ -3214,7 +3214,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"A nivell 1, you learn one druid cantrip (escull). You also gain proficiency in one of the following skills (escull): {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}."
+				"A nivell 1, aprèns un truc de druida (escull). També reps competència en una de les habilitats següents (escull): {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}."
 			]
 		},
 		{
@@ -3232,7 +3232,7 @@
 			]
 		},
 		{
-			"name": "Canalitzar Divinitat: Charm Animals and Plants",
+			"name": "Canalitzar Divinitat: Fascinar Animals i Plantes",
 			"source": "PHB",
 			"page": 61,
 			"className": "Clergue",
@@ -3242,12 +3242,12 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 2, pots emprar Canalitzar Divinitat to charm animals and plants.",
-				"Com a acció, presentes el teu símbol sagrat i invoke the name of your deity. Each beast or plant creature que et pugui veure a 30 peus de tu ha de salvar per Saviesa. If the creature fails its saving throw, it is {@condition charmed} per tu durant 1 minut o fins que rebi dany. While it is {@condition charmed} per tu, it is friendly to you and other creatures you designate."
+				"Començant a nivell 2, pots emprar el Canalitzar Divinitat per Fascinar Animals i Plantes.",
+				"Com a acció, presentes el teu símbol sagrat i invoques el nom de la teva divinitat. Cada criatura de tipus bèstia o planta que et pugui veure a 30 peus de tu ha de salvar per Saviesa. Si falla, està {@condition charmed} per tu durant 1 minut o fins que rebi dany. {@condition charmed} per tu així, és amistosa vers a tu i altres criatures que escullis."
 			]
 		},
 		{
-			"name": "Dampen Elements",
+			"name": "Debilitar Elements",
 			"source": "PHB",
 			"page": 61,
 			"className": "Clergue",
@@ -3257,7 +3257,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 6, when you or a creature a 30 peus de tu takes acid, cold, fire, lightning, or thunder damage, pots, com a reacció, grant resistance to the creature against that instance of the damage."
+				"Començant a nivell 6, quan tu o una criatura a 30 peus de tu rebi dany d'àcid, elèctric, de foc, de fred, o de tro pots, com a reacció, otorgar-li resistència a la criatura contra aquell dany específic."
 			]
 		},
 		{
@@ -3303,11 +3303,11 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"A nivell 8, aprèns a imbuir els teus atacs armats amb energia divina. Un cop a cada torn teu quan impactes a una criatura amb un atac armat, pots fer {@damage 1d8} cold, fire, or lightning damage (escull) to the target. Quan arribes a nivell 14, el dany es torna {@dice 2d8}."
+				"A nivell 8, aprèns a imbuir els teus atacs armats amb energia divina. Un cop a cada torn teu quan impactes a una criatura amb un atac armat, pots fer {@damage 1d8} dany elèctric, de foc, i de fred (escull) extra. Quan arribes a nivell 14, el dany es torna {@dice 2d8}."
 			]
 		},
 		{
-			"name": "Master of Nature",
+			"name": "Mestratge de la Natura",
 			"source": "PHB",
 			"page": 61,
 			"className": "Clergue",
@@ -3317,7 +3317,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"A nivell 17, you gain the ability to command animals and plant creatures. While creatures are {@condition charmed} per tur Charm Animals and Plants feature, you can take a bonus action en el teu torn to verbally command what each of those creatures will do on its next turn."
+				"A nivell 17, aprèns a comandar criatures animals i plantes. Quan tinguis criatures {@condition charmed} amb el teu Fascinar Animals i Plantes pots, com a acció bonus en el teu torn, ordenar que farà cadascuna en el seu torn següent."
 			]
 		},
 		{
@@ -4294,7 +4294,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"A nivell 1, you learn one druid cantrip (escull). You also gain proficiency in one of the following skills (escull): {@skill Animal Handling}, {@skill Athletics}, {@skill Nature}, or {@skill Survival}."
+				"A nivell 1, aprèns un truc de druida (escull). També reps competència en una de les habilitats següents (escull): {@skill Animal Handling}, {@skill Athletics}, {@skill Nature}, or {@skill Survival}."
 			]
 		},
 		{
