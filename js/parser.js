@@ -1915,7 +1915,7 @@ Parser.spSubclassesToCurrentAndLegacyFull = function (sp, subclassLookup) {
 			case "Undying Light":
 				return "Celestial";
 			case "Deep Stalker":
-				return "Gloom Stalker";
+				return "Reptador de la Foscor";
 		}
 		return shortName;
 	}
