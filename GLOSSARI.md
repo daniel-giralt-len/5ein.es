@@ -67,7 +67,7 @@
 |Hellfire|Focferni
 |High Jump|Salt vertical
 |History|Història
-|Hit Dice|Daus de Cop
+|Hit Dice|Daus de Vida
 |Hit Points|Punts de Cop
 |Hover|Flotar
 |Incapacitated|Incapacitat
