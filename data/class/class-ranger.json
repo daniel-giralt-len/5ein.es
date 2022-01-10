@@ -2050,9 +2050,9 @@
 			"srd": true,
 			"subclassFeatures": [
 				"Caçador|Explorador||Caçador||3",
-				"Defensive Tactics|Explorador||Caçador||7",
-				"Multiattack|Explorador||Caçador||11",
-				"Superior Hunter's Defense|Explorador||Caçador||15"
+				"Estratagema de Defensa|Explorador||Caçador||7",
+				"Multi-atac|Explorador||Caçador||11",
+				"Defensa Superior del Caçador|Explorador||Caçador||15"
 			]
 		},
 		{
@@ -2064,9 +2064,9 @@
 			"page": 93,
 			"subclassFeatures": [
 				"Caçador|Ranger (Spell-less)|UAModifyingClasses|Caçador||3",
-				"Defensive Tactics|Ranger (Spell-less)|UAModifyingClasses|Caçador||7",
-				"Multiattack|Ranger (Spell-less)|UAModifyingClasses|Caçador||11",
-				"Superior Hunter's Defense|Ranger (Spell-less)|UAModifyingClasses|Caçador||15"
+				"Estratagema de Defensa|Ranger (Spell-less)|UAModifyingClasses|Caçador||7",
+				"Multi-atac|Ranger (Spell-less)|UAModifyingClasses|Caçador||11",
+				"Defensa Superior del Caçador|Ranger (Spell-less)|UAModifyingClasses|Caçador||15"
 			]
 		},
 		{
@@ -2214,9 +2214,9 @@
 			"subclassFeatures": [
 				"Hunter Conclave (UA)|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3",
 				"Atac Extra|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|5",
-				"Defensive Tactics|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7",
-				"Multiattack|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|11",
-				"Superior Hunter's Defense|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|15"
+				"Estratagema de Defensa|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7",
+				"Multi-atac|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|11",
+				"Defensa Superior del Caçador|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|15"
 			]
 		},
 		{
@@ -5524,12 +5524,12 @@
 				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Explorador||Caçador||3"
+					"subclassFeature": "Presa del Caçador|Explorador||Caçador||3"
 				}
 			]
 		},
 		{
-			"name": "Horde Breaker",
+			"name": "Esmicola-Hordes",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5540,11 +5540,11 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Un cop a cada torn teu when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+				"Un cop a cada torn teu quan fas un atac armat, pots fer un altre atac amb la mateixa arma contra una altra criatura que estigui a 5 peus de l'objectiu original (i a dins de l'abast de la teva arma)."
 			]
 		},
 		{
-			"name": "Hunter's Prey",
+			"name": "Presa del Caçador",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5562,22 +5562,22 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Colossus Slayer|Explorador||Caçador||3"
+							"subclassFeature": "Destructor de Colossos|Explorador||Caçador||3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Giant Killer|Explorador||Caçador||3"
+							"subclassFeature": "Mata Gegants|Explorador||Caçador||3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Horde Breaker|Explorador||Caçador||3"
+							"subclassFeature": "Esmicola-Hordes|Explorador||Caçador||3"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Colossus Slayer",
+			"name": "Destructor de Colossos",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5588,11 +5588,11 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your tenacity can wear down the most potent foes. Quan impactes a una criatura amb un atac armat, the creature takes an extra {@damage 1d8} damage if it's below its punts de vida màxims. You can deal this extra damage only un cop per torn."
+				"La teva tenacitat desgasta fins i tot els enemics més forts. Quan impactes a una criatura amb un atac armat, la criatura rep {@damage 1d8} de dany extra si està per sota dels seus punts de vida màxims. Només pots fer aquest dany extra un cop per torn."
 			]
 		},
 		{
-			"name": "Giant Killer",
+			"name": "Mata Gegants",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5603,11 +5603,11 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When a Large or larger creature a 5 peus de tu hits or misses you with an attack, pots, com a reacció, attack that creature immediately after its attack, provided que puguis veure the creature."
+				"Quan una criatura Gran o major a 5 peus de tu prova d'impactar-te (impacti o falli) pots, com a reacció, atacar a aquella criatura immediatament després de l'atac si pots veure the creature."
 			]
 		},
 		{
-			"name": "Defensive Tactics",
+			"name": "Estratagema de Defensa",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5625,22 +5625,22 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Escape the Horde|Explorador||Caçador||7"
+							"subclassFeature": "Fugir de l'Horda|Explorador||Caçador||7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Multiattack Defense|Explorador||Caçador||7"
+							"subclassFeature": "Defensa contra Multi-atacs|Explorador||Caçador||7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Steel Will|Explorador||Caçador||7"
+							"subclassFeature": "Voluntat de Ferro|Explorador||Caçador||7"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Escape the Horde",
+			"name": "Fugir de l'Horda",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5651,11 +5651,11 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Opportunity attacks against you are made with disadvantage."
+				"Els atacs d'oportunitat contra tu se't fan amb desavantatge."
 			]
 		},
 		{
-			"name": "Multiattack Defense",
+			"name": "Defensa contra Multi-atacs",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5666,11 +5666,11 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Quan una criatura t'impacta amb un atac, tens +4 a la CA against all subsequent attacks made by that creature for the rest of the turn."
+				"Quan una criatura t'impacta amb un atac, tens +4 a la CA contra tot atac subseqüent que et faci aquella criatura durant la resta del torn."
 			]
 		},
 		{
-			"name": "Steel Will",
+			"name": "Voluntat de Ferro",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5681,11 +5681,11 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Tens avantatge a saving throws against being {@condition frightened}."
+				"Tens avantatge a salvades contra estar {@condition frightened}."
 			]
 		},
 		{
-			"name": "Multiattack",
+			"name": "Multi-atac",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5703,18 +5703,18 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Volley|Explorador||Caçador||11"
+							"subclassFeature": "Bombardeig|Explorador||Caçador||11"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Whirlwind Attack|Explorador||Caçador||11"
+							"subclassFeature": "Atac Remolí|Explorador||Caçador||11"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Volley",
+			"name": "Bombardeig",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5725,11 +5725,11 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Pots, com a acció, to make a atac a distància against any number of creatures within 10 feet of a point que puguis veure within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+				"Pots, com a acció, fer un atac a distància contra totes les criatures que vulguis a 10 peus de radi d'un punt que puguis veure a l'abast de la teva arma. Has de tenir munició per a cada objectiu, com de costum, i fas una tirada d'impacte per a cadascun."
 			]
 		},
 		{
-			"name": "Whirlwind Attack",
+			"name": "Atac Remolí",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5740,7 +5740,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Pots, com a acció, to make a atac cos a cos against any number of creatures a 5 peus de tu, with a separate attack roll for each target."
+				"Pots, com a acció, fer un a atac cos a cos contra totes les criatures que vulguis a 5 peus de tu, i fas una tirada d'impacte per a cada objectiu."
 			]
 		},
 		{
@@ -5755,11 +5755,11 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a {@spell llampec} spell. Si has de salvar per Destresa contra un efecte pel que rebràs la meitat de dany si superes la salvada, no rebràs cap dany si superes la salvada, i només en rebràs la meitat si la falles."
+				"Pots arribar a esquivar alguns efectes en àrea, com ara l'alè de foc d'un drac o el conjur {@spell llampec}. Si has de salvar per Destresa contra un efecte pel que rebràs la meitat de dany si superes la salvada, no rebràs cap dany si superes la salvada, i només en rebràs la meitat si la falles."
 			]
 		},
 		{
-			"name": "Stand Against the Tide",
+			"name": "Tu Contra l'Onada",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5770,11 +5770,11 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"When a hostile creature misses you amb un atac cos a cos, pots, com a reacció, force that creature to repeat the same attack against another creature (other than itself) (escull)."
+				"Quan una criatura hostil falla una tirada d'impacte contra tu amb un atac cos a cos, pots, com a reacció, forçar-la a repetir l'atac contra una altra criatura (escull-ne una que no sigui ella mateixa)."
 			]
 		},
 		{
-			"name": "Superior Hunter's Defense",
+			"name": "Defensa Superior del Caçador",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -5796,7 +5796,7 @@
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Stand Against the Tide|Explorador||Caçador||15"
+							"subclassFeature": "Tu Contra l'Onada|Explorador||Caçador||15"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -5818,7 +5818,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"When an attacker que puguis veure t'impacta amb un atac, pots, com a reacció, rebré només la meitat del dany."
+				"Quan un atacant que puguis veure t'impacta amb un atac, pots, com a reacció, rebré només la meitat del dany."
 			]
 		},
 		{
@@ -7822,7 +7822,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Començant a nivell 11, when you command your beast companion to take l'acció {@action Atacar}, the beast can make two attacks, or it can take the Multiattack action if it has that action."
+				"Començant a nivell 11, when you command your beast companion to take l'acció {@action Atacar}, the beast can make two attacks, or it can take the Multi-atac action if it has that action."
 			]
 		},
 		{
@@ -7853,12 +7853,12 @@
 				"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger (Spell-less)|UAModifyingClasses|Caçador||3"
+					"subclassFeature": "Presa del Caçador|Ranger (Spell-less)|UAModifyingClasses|Caçador||3"
 				}
 			]
 		},
 		{
-			"name": "Horde Breaker",
+			"name": "Esmicola-Hordes",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7873,7 +7873,7 @@
 			]
 		},
 		{
-			"name": "Hunter's Prey",
+			"name": "Presa del Caçador",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7891,22 +7891,22 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Colossus Slayer|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|3"
+							"subclassFeature": "Destructor de Colossos|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Giant Killer|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|3"
+							"subclassFeature": "Mata Gegants|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Horde Breaker|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|3"
+							"subclassFeature": "Esmicola-Hordes|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|3"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Colossus Slayer",
+			"name": "Destructor de Colossos",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7921,7 +7921,7 @@
 			]
 		},
 		{
-			"name": "Giant Killer",
+			"name": "Mata Gegants",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7936,7 +7936,7 @@
 			]
 		},
 		{
-			"name": "Defensive Tactics",
+			"name": "Estratagema de Defensa",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7954,22 +7954,22 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Escape the Horde|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|7"
+							"subclassFeature": "Fugir de l'Horda|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Multiattack Defense|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|7"
+							"subclassFeature": "Defensa contra Multi-atacs|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Steel Will|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|7"
+							"subclassFeature": "Voluntat de Ferro|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|7"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Escape the Horde",
+			"name": "Fugir de l'Horda",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7984,7 +7984,7 @@
 			]
 		},
 		{
-			"name": "Multiattack Defense",
+			"name": "Defensa contra Multi-atacs",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -7999,7 +7999,7 @@
 			]
 		},
 		{
-			"name": "Steel Will",
+			"name": "Voluntat de Ferro",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -8014,7 +8014,7 @@
 			]
 		},
 		{
-			"name": "Multiattack",
+			"name": "Multi-atac",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -8032,18 +8032,18 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Volley|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|11"
+							"subclassFeature": "Bombardeig|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|11"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Whirlwind Attack|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|11"
+							"subclassFeature": "Atac Remolí|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|11"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Volley",
+			"name": "Bombardeig",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -8058,7 +8058,7 @@
 			]
 		},
 		{
-			"name": "Whirlwind Attack",
+			"name": "Atac Remolí",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -8088,7 +8088,7 @@
 			]
 		},
 		{
-			"name": "Stand Against the Tide",
+			"name": "Tu Contra l'Onada",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -8103,7 +8103,7 @@
 			]
 		},
 		{
-			"name": "Superior Hunter's Defense",
+			"name": "Defensa Superior del Caçador",
 			"source": "PHB",
 			"page": 93,
 			"srd": true,
@@ -8125,7 +8125,7 @@
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Stand Against the Tide|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|15"
+							"subclassFeature": "Tu Contra l'Onada|Ranger (Spell-less)|UAModifyingClasses|Caçador|PHB|15"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -11182,7 +11182,7 @@
 			"header": 1,
 			"entries": [
 				"Your animal companion gains a variety of benefits while it is linked to you.",
-				"The animal companion loses its Multiattack action, if it has one.",
+				"The animal companion loses its Multi-atac action, if it has one.",
 				"The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. Si et quedes {@condition incapacitated} or absent, your companion acts on its own.",
 				"When using your Explorador Nat feature, you and your animal companion can both move stealthily at a normal pace.",
 				"Your animal companion has abilities and game statistics determined in part by your level. Your companion uses el teu bonus de competència rather than its own. In addition to the areas where it normally uses its proficiency bonus, an animal companion also adds its proficiency bonus to its AC and to its damage rolls.",
@@ -11477,12 +11477,12 @@
 				"Some rangers seek to master weapons to better protect civilization from the terrors of the wilderness. Members of the Hunter Conclave learn specialized fighting techniques for use against the most dire threats, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
+					"subclassFeature": "Presa del Caçador|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
 				}
 			]
 		},
 		{
-			"name": "Horde Breaker",
+			"name": "Esmicola-Hordes",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11496,7 +11496,7 @@
 			]
 		},
 		{
-			"name": "Hunter's Prey",
+			"name": "Presa del Caçador",
 			"source": "UATheRangerRevised",
 			"page": 7,
 			"className": "Ranger (Revised)",
@@ -11513,22 +11513,22 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Colossus Slayer|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
+							"subclassFeature": "Destructor de Colossos|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Giant Killer|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
+							"subclassFeature": "Mata Gegants|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Horde Breaker|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
+							"subclassFeature": "Esmicola-Hordes|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|3"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Colossus Slayer",
+			"name": "Destructor de Colossos",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11542,7 +11542,7 @@
 			]
 		},
 		{
-			"name": "Giant Killer",
+			"name": "Mata Gegants",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11570,7 +11570,7 @@
 			]
 		},
 		{
-			"name": "Defensive Tactics",
+			"name": "Estratagema de Defensa",
 			"source": "UATheRangerRevised",
 			"page": 7,
 			"className": "Ranger (Revised)",
@@ -11587,22 +11587,22 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Escape the Horde|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7"
+							"subclassFeature": "Fugir de l'Horda|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Multiattack Defense|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7"
+							"subclassFeature": "Defensa contra Multi-atacs|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Steel Will|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7"
+							"subclassFeature": "Voluntat de Ferro|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|7"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Escape the Horde",
+			"name": "Fugir de l'Horda",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11616,7 +11616,7 @@
 			]
 		},
 		{
-			"name": "Multiattack Defense",
+			"name": "Defensa contra Multi-atacs",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11630,7 +11630,7 @@
 			]
 		},
 		{
-			"name": "Steel Will",
+			"name": "Voluntat de Ferro",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11644,7 +11644,7 @@
 			]
 		},
 		{
-			"name": "Multiattack",
+			"name": "Multi-atac",
 			"source": "UATheRangerRevised",
 			"page": 7,
 			"className": "Ranger (Revised)",
@@ -11661,18 +11661,18 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Volley|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|11"
+							"subclassFeature": "Bombardeig|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|11"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Whirlwind Attack|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|11"
+							"subclassFeature": "Atac Remolí|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|11"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Volley",
+			"name": "Bombardeig",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11686,7 +11686,7 @@
 			]
 		},
 		{
-			"name": "Whirlwind Attack",
+			"name": "Atac Remolí",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11714,7 +11714,7 @@
 			]
 		},
 		{
-			"name": "Stand Against the Tide",
+			"name": "Tu Contra l'Onada",
 			"source": "UATheRangerRevised",
 			"page": 93,
 			"className": "Ranger (Revised)",
@@ -11728,7 +11728,7 @@
 			]
 		},
 		{
-			"name": "Superior Hunter's Defense",
+			"name": "Defensa Superior del Caçador",
 			"source": "UATheRangerRevised",
 			"page": 7,
 			"className": "Ranger (Revised)",
@@ -11749,7 +11749,7 @@
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Stand Against the Tide|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|15"
+							"subclassFeature": "Tu Contra l'Onada|Ranger (Revised)|UATheRangerRevised|Hunter Conclave|UATheRangerRevised|15"
 						},
 						{
 							"type": "refSubclassFeature",
