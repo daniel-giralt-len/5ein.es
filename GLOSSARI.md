@@ -4,7 +4,7 @@
 |(Skill) Saving Throw|Salvar per (Habilitat)
 |(Spell) slot|Ranura (de conjur)
 |5 feet|5 peus
-|Ability score|Puntuació d'habilitat
+|Ability score|Puntuació de característica
 |Abyss|Abisme
 |Acrobatics|Acrobàcies
 |Adamantine|Adamantí
@@ -89,6 +89,7 @@
 |Medium armor|Armadura intermitja
 |Melee|Melé
 |Mithral|Mitrall
+|Multiclassing|Multi-classe
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
 |Nature|Naturalesa
 |Nonmagical|No-màgic
