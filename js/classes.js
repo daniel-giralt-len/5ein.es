@@ -883,7 +883,7 @@ class ClassesPage extends BaseComponent {
 			const abilityPart = [orPart, basePart].filter(Boolean).join("; ");
 
 			const allEntries = [
-				abilityPart ? `{@b Ability Score Minimum:} ${abilityPart}` : null,
+				abilityPart ? `{@b Puntuació Mínima:} ${abilityPart}` : null,
 				...requirements.entries || [],
 			].filter(Boolean);
 

@@ -257,7 +257,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Hit Points and Hit Dice",
+							"name": "Punts de Vida i Daus de Vida",
 							"page": 12,
 							"entries": [
 								"Your character's hit points define how tough your character is in combat and other dangerous situations. Your hit points are determined by your Hit Dice (short for Hit Point Dice).",
@@ -1073,7 +1073,7 @@
 							"Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords"
 						],
 						[
-							"{@class Cleric}",
+							"{@class Clergue}",
 							"A priestly champion who wields divine magic in service of a higher power",
 							"d8",
 							"Saviesa",
@@ -1121,7 +1121,7 @@
 							"Armadures lleugeries i intermitges, shields, simple and martial weapons"
 						],
 						[
-							"{@class Rogue}",
+							"{@class Briball}",
 							"A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
 							"d8",
 							"Destresa",
@@ -5482,21 +5482,21 @@
 					"name": "Multi-classe",
 					"page": 163,
 					"entries": [
-						"Multi-classe allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options.",
-						"With this rule, you have the option of gaining a level in a new class whenever you advance in level, instead of gaining a level in your current class. Your levels in all your classes are added together to determine your character level. For example, if you have three levels in wizard and two in fighter, you're a 5th-level character.",
-						"As you advance in levels, you might primarily remain a member of your original class with just a few levels in another class, or you might change course entirely, never looking back at the class you left behind. You might even start progressing in a third or fourth class. Compared to a single-class character of the same level, you'll sacrifice some focus in exchange for versatility.",
+						"Fer multi-classe et permet pujar de nivell en més d'una classe. Així, podràs barrejar els trets de diferents classes i crear una barreja de personatge únic i fora del que podria ser amb una sola classe.",
+						"Amb aquest reglament, pots afegir un nivell en una nova classe quan puges de nivell, en comptes de pujar amb la teva classe base. La suma dels teus nivells en totes les teves classes és el teu nivell de personatge. Així, si tens 3 nivells de maga i 2 nivells de guerrera, el teu nivell de personatge és 5.",
+						"Quan puges de nivells, pots escollir invertir molts nivells en la teva classe base i alguns pocs en altres classes, o bé pots oblidar-te de la teva classe base i invertir més en la nova. Fins i tot podries considerar una 3a o 4a classe! Si adoptes múltiples classes, no tindràs molt de poder en una àrea, però seràs més versàtil.",
 						{
 							"type": "entries",
-							"name": "Prerequisites",
+							"name": "Prerequisits",
 							"page": 163,
 							"entries": [
-								"To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multi-classe Prerequisites table. For example, a barbarian who decides to multiclass into the druid class must have both Força and Saviesa scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class. having a natural aptitude that is reflected by higher-than-average ability scores.",
+								"Per a fer multi-classe, necessites un mínim en certes puntuacions de característica; tant per la teva classe actual com per la nova; consulta la taula de Prerequisits per Multi-classe. Així, una bàrbara que vulgui fer multi-classe a druida ha de tenir una puntuació de Força de 13 (per ser bàrbara) i una puntuació de druida de 13 (per voler ser druida). Com que no comences amb la formació necessària per a la nova classe, has de saber aprendre ràpidament o tenir un talent natural: això es reflexa en unes puntuacions altes.",
 								{
 									"type": "table",
-									"caption": "Multi-classe Prerequisites",
+									"caption": "Prerequisits per Multi-classe",
 									"colLabels": [
-										"Class",
-										"Ability Score Minimum"
+										"Classe",
+										"Puntuació Mínima"
 									],
 									"colStyles": [
 										"col-2",
@@ -5512,7 +5512,15 @@
 											"Carisma 13"
 										],
 										[
-											"{@class Cleric}",
+											"{@class Briball}",
+											"Destresa 13"
+										],
+										[
+											"{@class Bruixot}",
+											"Carisma 13"
+										],
+										[
+											"{@class Clergue}",
 											"Saviesa 13"
 										],
 										[
@@ -5520,31 +5528,23 @@
 											"Saviesa 13"
 										],
 										[
+											"{@class Explorador}",
+											"Destresa 13 i Saviesa 13"
+										],
+										[
 											"{@class Guerrer}",
-											"Força 13 or Destresa 13"
+											"Força 13 o Destresa 13"
 										],
 										[
 											"{@class Monjo}",
-											"Destresa 13 and Saviesa 13"
+											"Destresa 13 i Saviesa 13"
 										],
 										[
 											"{@class Paladí}",
-											"Força 13 and Carisma 13"
-										],
-										[
-											"{@class Explorador}",
-											"Destresa 13 and Saviesa 13"
-										],
-										[
-											"{@class Rogue}",
-											"Destresa 13"
+											"Força 13 i Carisma 13"
 										],
 										[
 											"{@class Sortiller}",
-											"Carisma 13"
-										],
-										[
-											"{@class Bruixot}",
 											"Carisma 13"
 										],
 										[
@@ -5558,44 +5558,44 @@
 						},
 						{
 							"type": "entries",
-							"name": "Experience Points",
+							"name": "Punts d'Experiència",
 							"page": 163,
 							"entries": [
-								"The experience point cost to gain a level is always based on your total character level, as shown in La taula de Progrés de Personatge in chapter I, not your level in a particular class. So, if you are a cleric 6/fighter 1, you must gain enough PX to reach 8th level before you can take your second level as a fighter or your seventh level as a cleric."
+								"Els punts d'experiència que necessites per pujar de nivell no es basen en els teus nivells en una classe, sinò en el teu nivell de personatge total. Així, si ets clergue 6/guerrer 1, has de guanyar prou PX per arribar a nivell 8; llavors podràs pujar a nivell 7 de clergue o a nivell 2 de guerrer."
 							],
 							"id": "0f5"
 						},
 						{
 							"type": "entries",
-							"name": "Hit Points and Hit Dice",
+							"name": "Punts de Vida i Daus de Vida",
 							"page": 163,
 							"entries": [
-								"You gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.",
-								"You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the fighter and the paladin have a d10, so if you are a paladin 5/fighter 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, keep track of them separately. If you are a paladin 5/cleric 5, for example, you have five d10 Hit Dice and five d8 Hit Dice."
+								"Guanyes els punts de vida de nivell 1 només quan ets un personatge de nivell 1. Quan puges de nivell en una classe, guanyes els punts de vida de la teva nova classe que es descriu a la classe pels nivells posteriors a 1.",
+								"Sumes els Daus de Vida otorgats per cada classe que tinguis: formen la teva reserva de Daus de Vida. Poden ser diferents tipus de daus o el mateix. Així, un guerrer 5/paladí 5 tindrà 10d10, però un clergue 5/guerrer 5 tindrà 5d8 i 5d10."
 							],
 							"id": "0f6"
 						},
 						{
 							"type": "entries",
-							"name": "Proficiency Bonus",
+							"name": "Bonus de Competència",
 							"page": 163,
 							"entries": [
-								"el teu bonus de competència is always based on your total character level, as shown in La taula de Progrés de Personatge in chapter 1, not your level in a particular class. For example, if you are a fighter 3/rogue 2, you have the proficiency bonus of a 5th-level character, which is +3."
+								"el teu bonus de competència sempre es basa en el teu nivell de personatge, no en el nivell d'una classe que tinguis; consulta La taula de Progrés de Personatge. Així, un briball 2/guerrer 3 té un bonus de competència de +3 perquè és un personatge de nivell 5."
 							],
 							"id": "0f7"
 						},
 						{
 							"type": "entries",
-							"name": "Proficiencies",
+							"name": "Competències",
 							"page": 164,
 							"entries": [
-								"When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies, as shown in the Multi-classe Proficiencies table.",
+								"Quan puges de nivell en una classe que no sigui la base, només obténs algunes competències inicials d'aquella classe; consulta la taula Competències de Multi-classe.",
 								{
 									"type": "table",
-									"caption": "Multi-classe Proficiencies",
+									"caption": "Competències de Multi-classe",
 									"colLabels": [
-										"Class",
-										"Proficiencies Gained"
+										"Classe",
+										"Noves Competències"
 									],
 									"colStyles": [
 										"col-2",
@@ -5604,51 +5604,51 @@
 									"rows": [
 										[
 											"{@class Bàrbar}",
-											"Shields, simple weapons, martial weapons"
+											"Escuts, armes simples, armes marcials"
 										],
 										[
 											"{@class Bard}",
-											"Light armor, one skill of your choice, one musical instrument of your choice"
+											"Armadures lleugers, una habilitat (escull), un instrument musical (escull)"
 										],
 										[
-											"{@class Cleric}",
-											"Light armor, medium armor, shields"
-										],
-										[
-											"{@class Druida}",
-											"Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)"
-										],
-										[
-											"{@class Guerrer}",
-											"Light armor, medium armor, shields, simple weapons, martial weapons"
-										],
-										[
-											"{@class Monjo}",
-											"Simple weapons, shortswords"
-										],
-										[
-											"{@class Paladí}",
-											"Light armor, medium armor, shields, simple weapons, martial weapons"
-										],
-										[
-											"{@class Explorador}",
-											"Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class's skill list"
-										],
-										[
-											"{@class Rogue}",
-											"Light armor, one skill from the class's skill list, {@item eines de lladre|phb}"
-										],
-										[
-											"{@class Sortiller}",
-											"\u2014"
+											"{@class Briball}",
+											"Armadures lleugers, una habilitat de la llista d'habilitats de la classe, {@item eines de lladre|phb}"
 										],
 										[
 											"{@class Bruixot}",
-											"Light armor, simple weapons"
+											"Armadures lleugers, armes simples"
+										],
+										[
+											"{@class Clergue}",
+											"Armadures lleugers, armadures intermitges, escuts"
+										],
+										[
+											"{@class Druida}",
+											"Armadures lleugers, armadures intermitges, escuts (els druides no vestiran armadures ni duran escuts fets de metalls)"
+										],
+										[
+											"{@class Explorador}",
+											"Armadures lleugers, armadures intermitges, escuts, armes simples, armes marcials, una habilitat de la llista d'habilitats de la classe"
+										],
+										[
+											"{@class Guerrer}",
+											"Armadures lleugers, armadures intermitges, escuts, armes simples, armes marcials"
 										],
 										[
 											"{@class Mag}",
-											"\u2014"
+											"-"
+										],
+										[
+											"{@class Monjo}",
+											"Armes simples, espases curtes"
+										],
+										[
+											"{@class Paladí}",
+											"Armadures lleugers, armadures intermitges, escuts, armes simples, armes marcials"
+										],
+										[
+											"{@class Sortiller}",
+											"-"
 										]
 									]
 								}
@@ -5657,16 +5657,16 @@
 						},
 						{
 							"type": "entries",
-							"name": "Class Features",
+							"name": "Trets de classe",
 							"page": 164,
 							"entries": [
-								"When you gain a new level in a class, you get its features for that level. You don't, however, receive the class's starting equipment, and a few features have additional rules when you're Multi-classe: Canalitzar Divinitat, Extra Attack, Unarmored Defense, and Spellcasting.",
+								"Quan puges de nivell en una classe, guanyes els trets d'aquell nivell. No reps l'equipament inicial de la classe; a més, alguns trets tenen unes normes adicionals quan fas Multi-classe: Canalitzar Divinitat, Atack Extra, Defensa Desvestida, i Llançament de Conjurs.",
 								{
 									"type": "entries",
 									"name": "Canalitzar Divinitat",
 									"page": 164,
 									"entries": [
-										"If you already have the Canalitzar Divinitat feature and gain a level in a class that also grants the feature, you gain the Canalitzar Divinitat effects granted by that class, but getting the feature again doesn't give you an additional use of it. You gain additional uses only when you reach a class level that explicitly grants them to you. For example, if you are a cleric 6/paladin 4, you can use Canalitzar Divinitat twice between rests because you are high enough level in the cleric class to have more uses. Whenever you use the feature, you can choose any of the Canalitzar Divinitat effects available to you from your two classes."
+										"Si ja tens el tret Canalitzar Divinitat i puges un nivell en una classe que també otorga aquest tret, obténs els efectes de Canalitzar Divinitat d'aquella classe, però no guanyes un ús extra del tret. Només reps usos extra quan arribes a un nivell en una classe que te'ls otorga explícitament. Així, un clergue 6/paladí 4 pot Canalitzar Divinitat 2 cops entre descansos degut al nivell de clergue, que otroga 2 usos; els de paladí no li otorguen nu tercer. Quan empres Canalitzar Divinitat, pots escollir un efecte que tinguis gràcies a qualsevol de les teves classes."
 									],
 									"id": "0fa"
 								},
@@ -5675,16 +5675,16 @@
 									"name": "Atac Extra",
 									"page": 164,
 									"entries": [
-										"If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make more than two attacks with this feature unless it says you do (as the fighter's version of Extra Attack does). Similarly, the warlock's invocació èldritx Fulla Assedegada doesn't give you additional attacks if you also have Extra Attack."
+										"Si reps el tret Atac Extra de més d'una classe, elt trets no s'apilen. Només pots fer més de 2 atacs si un tret Atac Extra especial t'ho permet (com el del guerrer, que et pot otorgar 3 atacs o més). De la mateixa manera, l'invocació èldritx Fulla Assedegada del bruixot no et dona atacs extra si també tens el tret Atac Extra."
 									],
 									"id": "0fb"
 								},
 								{
 									"type": "entries",
-									"name": "Unarmored Defense",
+									"name": "Defensa Desvestida",
 									"page": 164,
 									"entries": [
-										"If you already have the Unarmored Defense feature, you can't gain it again from another class."
+										"Si ja tens el tret Defensa Desvestida, no el pots rebre d'una altra classe."
 									],
 									"id": "0fc"
 								},
@@ -5693,10 +5693,10 @@
 									"name": "Llançament de Conjurs",
 									"page": 164,
 									"entries": [
-										"Your capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellcasting feature from more than one class, use the rules below. If you multiclass but have the Spellcasting feature from only one class, you follow the rules as described in that class.",
+										"La teva capacitat per a llançar conjurs es basa en els teus nivells en totes les teves classes que llancen conjurs, tant per separats com sumats. Quan reps el tret Llançament de Conjurs de més d'una classe, fes servir les regles següents. Si el teu multi-calsse només t'otorga el Llançament de Conjurs un cop, segueix les normes descrites en aquella classe i prou.",
 										{
 											"type": "entries",
-											"name": "Spells Known and Prepared",
+											"name": "Conjurs Coneguts i Preparats",
 											"page": 164,
 											"entries": [
 												"You determine what spells you know and can prepare for each class individually, as if you were a single-classed member of that class. If you are a ranger 4/wizard 3, for example, you know three 1st-level ranger spells based on your levels in the ranger class. As 3rd-level wizard, you know three wizard cantrips, and your spellbook contains ten wizard spells, two of which (the two you gained when you reached 3rd level as a wizard) can be 2nd-level spells. If your intelligence is 16, you can prepare six wizard spells from your spellbook.",
@@ -7797,7 +7797,7 @@
 									"name": "Moving between Attacks",
 									"page": 190,
 									"entries": [
-										"If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Extra Attack feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again."
+										"If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Atack Extra feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again."
 									],
 									"id": "186"
 								},
