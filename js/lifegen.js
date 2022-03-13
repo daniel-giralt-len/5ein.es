@@ -383,7 +383,7 @@ const LIFE_EVENTS_BOONS = [
 	{min: 5, result: "A relative bequeathed you a simple weapon of your choice."},
 	{min: 6, result: () => `You found something interesting. You gain one additional trinket ${fmtChoice(rollTrinket())}.`, display: "You found something interesting. You gain one additional trinket."},
 	{min: 7, result: "You once performed a service for a local temple. The next time you visit the temple, you can receive healing up to your punts de vida màxims."},
-	{min: 8, result: "A friendly alchemist gifted you with a potion of healing or a flask of acid, as you choose."},
+	{min: 8, result: "A friendly alchemist gifted you with a poció de curació or a flask of acid, as you choose."},
 	{min: 9, result: "You found a treasure map."},
 	{min: 10, result: () => `A distant relative left you a stipend that enables you to live at the comfortable lifestyle for {@dice 1d20} ${fmtChoice(RNG(20))} years. If you choose to live at a higher lifestyle, you reduce the price of the lifestyle by 2 gp during that time period.`, display: "A distant relative left you a stipend that enables you to live at the comfortable lifestyle for {@dice 1d20} years. If you choose to live at a higher lifestyle, you reduce the price of the lifestyle by 2 gp during that time period."},
 ];

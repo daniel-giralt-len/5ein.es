@@ -42,7 +42,7 @@ const ListUtil = {
 			list.reset();
 		});
 
-		// region Magnifying glass/clear button
+		// region Lupa/clear button
 		const $btnSearchClear = $(`#lst__search-glass`)
 			.click(() => $iptSearch.val("").change().keydown().keyup());
 		const _handleSearchChange = () => {
