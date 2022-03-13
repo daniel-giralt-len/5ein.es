@@ -120,7 +120,7 @@ class AcConvert {
 						case "badge of the watch": froms.push("{@item Badge of the Watch|wdh}"); break;
 						case "anell de protecció": froms.push("{@item anell de protecció}"); break;
 						case "robe of the archmagi": froms.push("{@item robe of the archmagi}"); break;
-						case "staff of power": froms.push("{@item staff of power}"); break;
+						case "staff of power": froms.push("{@item ceptre of power}"); break;
 
 						// everything else
 						default: {
