@@ -109,7 +109,7 @@ class AcConvert {
 							break;
 
 						case "scale armor": froms.push("{@item cota d'escates|phb}"); break;
-						case "chain shirt": froms.push("{@item chain shirt|phb}"); break;
+						case "chain shirt": froms.push("{@item samarra de malla|phb}"); break;
 						case "shields": froms.push("{@item shield|phb|shields}"); break;
 
 						// magic items
