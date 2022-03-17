@@ -6175,17 +6175,17 @@
 					"data": {
 						"quickref": 3
 					},
-					"name": "Ability Checks",
+					"name": "Tirades d'Habilitat",
 					"page": 174,
 					"entries": [
-						"An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The DM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.",
-						"For every ability check, the DM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.",
+						"Una tirada d'habilitat representa la capacitat d'un personatge o monstre per a superar un repte. El/la/li MM demana una tirada d'habilitat quan un personatge o monstre intenta fer una acció (que no sigui un atac) en que es pot fallar. Si no se sap del cert si la criatura superarà l'obstacle, els daus ho determinen.",
+						"Per tota tirada d'habilitat, el/la/li MM decideix quina de les 6 característiques és rellevant i la dificultat de la tasca, representada per la Classe de Dificultat (CD); com més alta la CD, més difícil serà la tasca. La taula Classes de Dificultat Típiques mostra les CDs més comunes.",
 						{
 							"type": "table",
-							"caption": "Typical Difficulty Classes",
+							"caption": "Classes de Dificultat Típiques",
 							"colLabels": [
-								"Task Difficulty",
-								"DC"
+								"Dificultat de Tasca",
+								"CD"
 							],
 							"colStyles": [
 								"col-9",
@@ -6193,41 +6193,40 @@
 							],
 							"rows": [
 								[
-									"Very easy",
+									"Molt fàcil",
 									"5"
 								],
 								[
-									"Easy",
+									"Fàcil",
 									"10"
 								],
 								[
-									"Medium",
+									"Mitjana",
 									"15"
 								],
 								[
-									"Hard",
+									"Difícil",
 									"20"
 								],
 								[
-									"Very hard",
+									"Molt difícil",
 									"25"
 								],
 								[
-									"Nearly impossible",
+									"Quasi impossible",
 									"30"
 								]
 							]
 						},
-						"To make an ability check, roll a d20 and add the relevant ability modifier.",
-						"As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success\u2014the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the DM.",
+						"Per a fer una tirada d'habilitat, tira un d20 i afegeix-li el modificador de característica adient. Com amb la resta de tirades de d20, suma-li els bonus i aplica els penalitzadors, i compara el resultat amb la CD. Si la tirada és igual o superior a la CD, el personatge o monstre supera la tirada d'habilitat i, així, el repte. Sino, falla, i el personatge o monstre no fa progrés vers a l'objectiu, o fins i tot es topa amb un obstacle determinat per el/la/li MM.",
 						{
 							"type": "entries",
-							"name": "Contests",
+							"name": "Enfrontament",
 							"page": 174,
 							"entries": [
-								"Sometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen to the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal\u2014for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.",
-								"Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That character or monster either succeeds at the action or prevents the other one from succeeding.",
-								"If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut."
+								"De vegades les intencions d'un personatge o monstre s'oposen directament a la d'un altre. Per exemple, quan dues criatures intenten fer el mateix, però només una pot aconseguir-ho, com ara agafar un anell màgic del terra; o quan una intenta aturar a l'altre, com quan un monstre prova d'esbotzar una porta que una aventurera esta aguantat. En aquestes situacion es fa una tirada d'habilitat especial: un enfrontament.",
+								"Els participants d'un enfrontament fan tirades d'habilitat i en comparen els resultats. S'apliquen els bonus i penalitzadors com de costum, però no hi ha CD: comparen els totals de les seves tirades. Qui hagi tret una tirada més alta guanya l'enfrontament, i per tant supera l'acció (o impedeix que els altres la superin).",
+								"Si l'enfronament empata, no canvia res. Pot ser que a un participant ja li vagi bé que tot es quedi igual. En un enfrontament per agafar un anell del terra, un empat vol dir que ningú l'agafa. En un enfrontament entre un monstre provant d'obrir la porta i una aventurera tancant-la, un empat significa que la porta roman tancada."
 							],
 							"data": {
 								"quickrefIndex": true
@@ -6239,17 +6238,17 @@
 							"data": {
 								"quickref": 3
 							},
-							"name": "Skills",
+							"name": "Habiilitats",
 							"page": 174,
 							"entries": [
-								"Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)",
-								"For example, a Destresa check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Destresa has an associated skill: {@skill Acrobàcies}, {@skill Sleight of Hand}, i {@skill Stealth}, respectively. So a character who has proficiency in the {@skill Stealth} is particularly good at Destresa checks related to sneaking and hiding.",
-								"The skills related to each ability score are shown in the following list. (No skills are related to Constitució.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.",
+								"Cada característica engloba un ventall ampli d'habilitats, i cada monstre o personatge pot tenir competència en certes d'aqeustes habilitats. Una habilitat representa un aspecte concret d'una característica, i la competència representa el focus d'un personatge en aquell aspecte. Les competències d'habilitat inicials d'un personatge s'escullen quan es crea; les d'un monstre apareixen al bloc d'estats.",
+								"Per exemple, una tirada de Destresa es pot demanar quan un personatge provi de fer piruetes, amagar-se un objecte, o mantenir-se en sigil. Aquests aspectes de la Destresa se'ls representa amb un habilitat: {@skill Acrobàcies}, {@skill Sleight of Hand}, i {@skill Stealth}, respectivament. Un personatge que té competència en {@skill Stealth} és especialment bo a les tirades de Destresa d'amagar-se i ser discret.",
+								"Les habilitats i les seves característiques associades estan llistades a baix (la Constitució no té cap habilitat associada). Les seccions posteriors les descriuen una mica més per a donar idees de com fer-les servir.",
 								{
 									"type": "table",
 									"colLabels": [
-										"Ability",
-										"Skills"
+										"Característica",
+										"Habilitats"
 									],
 									"colStyles": [
 										"col-2",
@@ -6278,8 +6277,8 @@
 										]
 									]
 								},
-								"Sometimes, the DM might ask fo una tirada d'habilitat amb a specific skill\u2014for example, \"Make una tirada de Saviesa ({@skill Percepció}).\" At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.",
-								"For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for una tirada de Força ({@skill Atletisme}). If the character is proficient in {@skill Athletics}, the character's proficiency bonus is added to the Força check. If the character lacks that proficiency, he or she just makes a Força check.",
+								"De vegades, el/la/li MM pot demanar una tirada d'habilitat amb una habilitat específica: \"Fes una tirada de Saviesa ({@skill Percepció}).\" D'altres, un/a/i jugador/a/i pot demanar si la competència d'una habilitat particular aplica a una tirada en concret. Sigui com sigui, tenir competència en una habilitat vol dir que se li pot sumar el bonus de competència a les tirades d'aquella habilitat. Sense competència, la tirada és una tirada d'habilitat normal i corrent.",
+								"Per exemple, si un personatge vol escalar un cingle perillós, el/la/li MM pot demanar una tirada de Força ({@skill Atletisme}). Si el personatge té competència en {@skill Athletics}, també li suma el bonus de competència a la tirada de Força. Si no ho és, només li suma la Força.",
 								{
 									"type": "entries",
 									"name": "Variant: Skills with Different Abilities",
