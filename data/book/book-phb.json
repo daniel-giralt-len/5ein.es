@@ -8183,26 +8183,26 @@
 						},
 						{
 							"type": "entries",
-							"name": "Grappling",
+							"name": "Apresar",
 							"page": 195,
 							"entries": [
-								"When you want to grab a creature or wrestle with it, you can use the {@action Atacar} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Atacar} action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-								"Using at least one free hand, you try to seize the target by making a grapple check, una tirada de Força ({@skill Atletisme}) contested by the target's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitat}. If you succeed, you subject the target to the {@condition grappled} condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no requereix acció).",
+								"Quan vols agafar o sotmetre a una criatura, pots emprar l'acció {@action Atacar} i fer un atac cos a cos especial: una presa. Si amb l'acció {@action Atacar} pots fer múltiples atacs, la presa en substitueix un. L'objectiu de la teva presa ha d'estar a l'abast i ser d'un tamany major a tu o menys.",
+								"Has de tenir una o més mans lliures per intentar apresar a un objectiu. Has de fer una tirada enfrontada de presa: tu fas una tirada de Força ({@skill Atletisme}) contra una tirada de Força ({@skill Atletisme}) o de Destresa ({@skill Acrobàcies}) de l'objectiu (escull ell). Si l'objectiu està {@condition incapacitat}, superes automàticament. Si superes, l'objectiu està {@condition grappled} per a tu (consulta l'apèndix PH-A). La condició especifica com acabar-la. Tu pots acabar la presa sobre l'objectiu quan vulguis (no requereix acció).",
 								{
 									"type": "entries",
-									"name": "Escaping a Grapple",
+									"name": "Escapar una Presa",
 									"page": 195,
 									"entries": [
-										"A {@condition grappled} creature can use its action to escape. To do so, it must succeed on a Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check contested by your Força ({@skill Atletisme}) check."
+										"Una criatura {@condition grappled} pot, com a acció, escapar. Ha de fer una tirada enfrontada de Força ({@skill Atletisme}) o bé Destresa ({@skill Acrobàcies}) (l'objectiu escull) contra la teva tirada de Força ({@skill Atletisme})."
 									],
 									"id": "1a5"
 								},
 								{
 									"type": "entries",
-									"name": "Moving a Grappled Target",
+									"name": "Movent un Objectiu Apresat",
 									"page": 195,
 									"entries": [
-										"When you move, you can drag or carry the {@condition grappled} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
+										"Quan et mous, arrossegues o duus a l'objectiu {@condition grappled}. Si la criatura no és 2 tamanys o més menor que tu, la teva velocitat està partida en 2."
 									],
 									"id": "1a6"
 								}
@@ -8211,11 +8211,11 @@
 						},
 						{
 							"type": "entries",
-							"name": "Shoving a Creature",
+							"name": "Empènyer una Criatura",
 							"page": 195,
 							"entries": [
-								"Using the {@action Atacar} action, you can make a special melee attack to shove a creature, either to knock it {@condition enderrocat} or push it away from you. If you're able to make multiple attacks with the {@action Atacar} action, this attack replaces one of them.",
-								"The target of your shove must be no more than one size larger than you, and it must be within your reach. You make una tirada de Força ({@skill Atletisme}) contested by the target's Força ({@skill Atletisme}) or Destresa ({@skill Acrobàcies}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitat}. If you succeed, you either knock the target {@condition enderrocat} or push it 5 peus lluny de tu."
+								"Quan vols empènyer a una criatura o deixar-la {@condition enderrocat}, pots emprar l'acció {@action Atacar} i fer un atac cos a cos especial: una presa. Si amb l'acció {@action Atacar} pots fer múltiples atacs, la presa en substitueix un.",
+								"L'objectiu de l'empenta ha de ser d'un tamany més que tu o menor, i ha d'estar a l'abast. Tu fas una tirada de Força ({@skill Atletisme}) contra una tirada de Força ({@skill Atletisme}) o de Destresa ({@skill Acrobàcies}) de l'objectiu (escull ell). Si l'objectiu està {@condition incapacitat}, superes automàticament. Si superes, l'objectiu està {@condition enderrocat} o bé l'empenys 5 peus lluny de tu."
 							],
 							"id": "1a7"
 						}
@@ -8227,14 +8227,14 @@
 					"data": {
 						"quickref": 4
 					},
-					"name": "Cover",
+					"name": "Cobertura",
 					"page": 196,
 					"entries": [
-						"Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.",
-						"There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.",
-						"A target with {@b half cover} has a +2 bonus to AC and Destresa saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-						"A target with {@b three-quarters} cover has a +5 bonus to AC and Destresa saving throws. A target has three-quarters cover if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-						"A target with {@b total cover} can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."
+						"Certs obstacles et poden protegir d'atacs: parets, arbres, criatures, i d'altres. Un objectiu només pot gaudir de cobertura si l'atac ve de l'altra banda de la cobertura.",
+						"Hi ha 3 graus de cobertura. Si un objectiu té múltiples fonts que el cobreixen, no s'apilen les proteccions; s'aplica només la cobertura que més protegeix. Per exemple, si gaudeixes de mitja cobertura en una direcció i també de 3/4 en la mateixa direcció, només tens 3/4 de cobertura.",
+						"{@b Mitja cobertura} otorga un +2 a la CA i a les salvades de Destresa. Una mitja cobertura cobreix la meitat del cos d'un objectiu, com ara una paret baixa, un moble gran, una soca curta, o una criatura, ja sigui amiga o enemig.",
+						"{@b 3/4 de cobertura} otorga un +4 a la CA i a les salvades de Destresa. 3/4 de cobertura cobreixen uns 3/4 del cos d'un objectiu, com ara un ull de bou, una finestra prima, o un arbre ample.",
+						"{@b Cobertura total} impedeix que una criatura sigui objectiu de conjurs atacs. Ara bé alguns efectes i conjurs el poden tocar si tenen una àrea d'efecte. Una cobertura total oculta completament a un objectiu."
 					],
 					"id": "1a8"
 				},
@@ -8243,60 +8243,60 @@
 					"data": {
 						"quickref": 4
 					},
-					"name": "Damage and Healing",
+					"name": "Dany i Curació",
 					"page": 196,
 					"entries": [
-						"Injury and the risk of death are constant companions of those who explore the worlds of D&D. The thrust of a sword, a well-placed arrow, or a blast of flame from a fireball spell all have the potential to damage, or even kill, the hardiest of creatures.",
+						"Als jocs de fantasia, les ferides i el perill de mort són coses del dia a dia. Moltes coses poden danyar o fins i tot matar a les criatures més resilients: una espasa, una fletxa ben a puntada, o l'explosió d'una bola de foc.",
 						{
 							"type": "entries",
 							"name": "Punts de vida",
 							"page": 196,
 							"entries": [
-								"Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more hit points are more difficult to kill. Those with fewer hit points are more fragile.",
-								"A creature's current hit points (usually just called hit points) can be any number from the creature's punts de vida màxims down to 0. This number changes frequently as a creature takes damage or receives healing. Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature es queda a 0 punts de vida."
+								"Els punts de vida representen la durabilitat física i mental d'una criatura, i la seva força de voluntat i sort. Les criatures amb menys punts de vida són més fràgils.",
+								"Els punts de vida actuals d'una criatura van dels punts de vida màxims fins a 0. El número canvia tot sovint ja que les criatures reben danys i curació. Quan una criatura rep dany, se li resta el dany dels seus punts de vida. Pedre punts de vida no afecta les capacitats de la criatura fins que no es queda a 0 punts de vida."
 							],
 							"id": "1aa"
 						},
 						{
 							"type": "entries",
-							"name": "Damage Rolls",
+							"name": "Tirades de Dany",
 							"page": 196,
 							"entries": [
-								"Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Arma màgicas, special abilities, and other factors can grant a bonus to damage.",
-								"When attacking with a {@b weapon}, you add your ability modifier\u2014the same modifier used for the attack roll to the damage. A {@b spell} tells you which dice to roll for damage and whether to add any modifiers.",
-								"If a spell or other effect deals damage to {@b more than un objectiu} at the same time, roll the damage once for all of them. For example, when a wizard casts fireball or a cleric casts batussa incendiària, the spell's damage is rolled once for all creatures caught in the blast.",
+								"Tota arma, conjur, i tret danyí de monstre especifica quant dany fa. Tires el/s dau/s de dany, sumes els modificadors, i el resultat és el dany que fas a l'objectiu. Les armes màgiques, certes habilitats, i d'altres facors poden otorgar un bonus al dany.",
+								"Quan ataques amb una {@b arma}, afegeixes el teu modificador de característica (el mateix que la tirada d'impacte). Un {@b conjur} especifica quins daus de dany has de tirar i si has d'afegir-hi cap modificador.",
+								"Si un conjur o altre efecte fa mal a {@b més d'un objectiu} alhora, tira el dany un cop per a tothom. Per exemple, si una maga tira bola de foc o un clergue llança una batussa incendiària, el dany del conjur es tira un cop i totes les criatures afectades reben aquell dany.",
 								{
 									"type": "entries",
-									"name": "Critical Hits",
+									"name": "Crítics",
 									"page": 196,
 									"entries": [
-										"When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.",
-										"For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. If the attack involves other damage dice, such as from the rogue's Atac Furtiu feature, you roll those dice twice as well."
+										"Quan tires un impacte crític, tires daus de dany extra contra l'objectiu. Tira tots els daus de dany 2 cops i suma'l. Llavors suma-hi els modificadors que toquin. Per anar més ràpid, pots tirar tots els daus de dany alhora.",
+										"Per exemple, si tires un crític amb una daga (dau de dany 1d4), tires 2d4 de dany + el modificador de característica. Si l'atac involucra altres daus de danys, com el tret Atac Furtiu del briball, també tires aquells daus 2 cops."
 									],
 									"id": "1ac"
 								},
 								{
 									"type": "entries",
-									"name": "Damage Types",
+									"name": "Tipus de Danys",
 									"page": 196,
 									"entries": [
-										"Different attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.",
-										"The damage types follow, with examples to help a DM assign a damage type to a new effect.",
+										"Diferents atacs, conjurs, i efectes fan tipus de danys diferents. Els tipus de danys no tenen regles especials; ara, algunes normes, com les de resistència de dany, depenen dels tipus de dany.",
+										"Dessota es descriuen tots els tipus de dany amb exemples.",
 										{
 											"type": "entries",
 											"name": "Àcid",
 											"page": 196,
 											"entries": [
-												"The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pudding deal acid damage."
+												"L'esprai corrosiu de l'alenada d'un drac negre; els enzims digestius d'un pudding negre."
 											],
 											"id": "1ae"
 										},
 										{
 											"type": "entries",
-											"name": "contundent",
+											"name": "Contundent",
 											"page": 196,
 											"entries": [
-												"Blunt force attacks\u2014hammers, falling, constriction, and the like\u2014deal dany contundent."
+												"Cops secs de martells, de caiguda, o de constricció."
 											],
 											"id": "1af"
 										},
@@ -8305,7 +8305,7 @@
 											"name": "Fred",
 											"page": 196,
 											"entries": [
-												"The infernal chill radiating from an ice devil's spear and the frigid blast of a white dragon's breath deal cold damage."
+												"El gebre infernal de la llança d'un diable de gel, l'alenada frígida d'un drac blanc."
 											],
 											"id": "1b0"
 										},
@@ -8323,7 +8323,7 @@
 											"name": "Força",
 											"page": 196,
 											"entries": [
-												"Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including missil màgic and arma espiritual."
+												"Energia pur de màgia que prové, sobretot, de conjurs com missil màgic o arma espiritual."
 											],
 											"id": "1b2"
 										},
@@ -8332,7 +8332,7 @@
 											"name": "Elèctric",
 											"page": 196,
 											"entries": [
-												"A lightning bolt spell and a blue dragon's breath deal lightning damage."
+												"El conjur llampec i l'alenada d'un drac blau."
 											],
 											"id": "1b3"
 										},
@@ -8341,16 +8341,16 @@
 											"name": "Necròtic",
 											"page": 196,
 											"entries": [
-												"Necrotic damage, dealt by certain undead and some spells, withers matter and even the soul."
+												"Dany que panseix el físic i l'ànima, causat per certs no-morts i conjurs."
 											],
 											"id": "1b4"
 										},
 										{
 											"type": "entries",
-											"name": "perforant",
+											"name": "Perforant",
 											"page": 196,
 											"entries": [
-												"Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage."
+												"Atacs que punxen, com les mossegades o les llances."
 											],
 											"id": "1b5"
 										},
@@ -8359,7 +8359,7 @@
 											"name": "Verí",
 											"page": 196,
 											"entries": [
-												"Venomous stings and the toxic gas of a green dragon's breath deal poison damage."
+												"Fiblades verinoses o l'alenada d'un drac verd."
 											],
 											"id": "1b6"
 										},
@@ -8368,7 +8368,7 @@
 											"name": "Psíquic",
 											"page": 196,
 											"entries": [
-												"Mental abilities such as a mind flayer's psionic blast deal psychic damage."
+												"Habilitats mentals com ara l'explosió psiònica d'un assota-ments."
 											],
 											"id": "1b7"
 										},
@@ -8377,16 +8377,16 @@
 											"name": "Radiant",
 											"page": 196,
 											"entries": [
-												"Radiant damage, dealt by a cleric's batussa incendiària spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
+												"Dany que crema la carn com foc i sobrecarrega de l'esperit, que ve de conjurs com ara batussa incendiària spell o d'armes de càstig angelical."
 											],
 											"id": "1b8"
 										},
 										{
 											"type": "entries",
-											"name": "tallant",
+											"name": "Tallant",
 											"page": 196,
 											"entries": [
-												"Swords, axes, and monsters' claws deal slashing damage."
+												"Dany d'espases, destrals, i d'urpes."
 											],
 											"id": "1b9"
 										},
@@ -8395,7 +8395,7 @@
 											"name": "Tro",
 											"page": 196,
 											"entries": [
-												"A concussive burst of sound, such as the effect of the tronada spell, deals thunder damage."
+												"Un impacte concussionari com d'un conjur de tronada."
 											],
 											"id": "1ba"
 										}
@@ -8407,13 +8407,13 @@
 						},
 						{
 							"type": "entries",
-							"name": "Damage Resistance and Vulnerability",
+							"name": "Resistència i Vulnerabilitat al Dany",
 							"page": 197,
 							"entries": [
-								"Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.",
-								"If a creature or an object has {@b resistència} to a damage type, damage of that type is halved against it. If a creature or an object has {@b vulnerability} to a damage type, damage of that type is doubled against it.",
-								"Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to dany contundent and is hit by an attack that deals 25 dany contundent. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.",
-								"Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.",
+								"Algunes criatures i objectes se'ls danya amb més facilitat o dificultat amb certs tipus de dany.",
+								"Si una criatura o objecte té {@b resistència} a un tipus de dany, tot dany d'aquell tipus es dividirà en 2 per a ella, damage of that type is halved against it. Si una criatura o objecte té {@b vulnerabilitat} a un tipus de dany, tot dany d'aquell tipus es duplicarà per a ella.",
+								"Les resistències i vulnerabilitats s'apliquen després de tots els modificadors del dany. Per exemple, una criatura resistent al dany contundent rep un atac que li faria 25 de dany contundent. La criatura també està a dins d'una aura màgica que li redueix tot el dany en 5. Així, als 25 de dany se li resten 5 (20) i després es divideix en 2; per tant, rep 10 de dany contundent.",
+								"Si hi ha múltiples resistències o vulnerabilitats vers el mateix dany, no s'apilen: només s'apliquen un cop. Per exemple, si una criatura és resistent tant al dany de foc i al dany no-màgic, un dany no-màgic de foc es divideix en 2, però no menys.",
 								{
 									"type": "inset",
 									"name": "Describing the Effects of Damage",
@@ -8428,42 +8428,42 @@
 						},
 						{
 							"type": "entries",
-							"name": "Healing",
+							"name": "Curació",
 							"page": 197,
 							"entries": [
-								"Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points (as explained in chapter 8), and magical methods such as a curar ferides spell or a poció de curació can remove damage in an instant.",
-								"Quan una criatura receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its punts de vida màxims, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a punts de vida màxims of 20, the ranger regains 6 hit points from the druid, not 8.",
-								"A creature that has died can't regain hit points until magic such as the revifar spell has restored it to life."
+								"El dany no és permanent si no mata a la criatura, i fins i tot la mort es pot corregir amb màgia poderosa. Un descans pot restaurar els punts de vida d'una criatura, i alguns efectes màgics com ara el conjur curar ferides o una poció de curació poden curar dany instantàniament.",
+								"Quan una criatura rep qualsevol mena de cura, se li sumen els punts de vida recuperats als punts de vida actual. Una criatura no pot tenir més punts de vida que els seus punts de vida màxims; si se la cura en excés, l'excés es perd. Per exemple, un druida cura a l'exploradora 8 punts de vida. L'exploradora té 14 punts de vida i 20 punts de vida màxim: per tant, l'exploradora recupera 6 punts de vida i no 8.",
+								"Una criatura morta no pot recuperar punts de vida si no es ressucita mitjançant màgia com ara el conjur revifar."
 							],
 							"id": "1bd"
 						},
 						{
 							"type": "entries",
-							"name": "Dropping to 0 Hit Points",
+							"name": "Quedar-se a 0 Punts de Vida",
 							"alias": [
-								"Instant Death",
+								"Mort Instantània",
 								"Salvades de mort",
-								"Stabilizing a Creature"
+								"Estabilitzar a una Criatura"
 							],
 							"page": 197,
 							"entries": [
-								"When you drop to 0 hit points, you either die outright or fall {@condition inconscient}, as explained in the following sections.",
+								"Quan et quedes a 0 punts de vida, o mors a l'instant o et quedes {@condition inconscient}; el procés es descriu dessota.",
 								{
 									"type": "entries",
-									"name": "Instant Death",
+									"name": "Mort Instantània",
 									"page": 197,
 									"entries": [
-										"Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your punts de vida màxims.",
-										"For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she es queda a 0 punts de vida, but 12 damage remains. Because the remaining damage equals her punts de vida màxims, the cleric dies."
+										"Un dany massiu pot matar a l'instant. Quan un dany et deixa a 0 punts de vida, conta el dany restant; si és major a la meitat dels teus punts de vida màxims, mors instantàntiament.",
+										"Per exemple, una clergue té 6 punts de vida i 12 punts de vida màxim. Rep 18 de dany, per tant es queda a 0 punts de vida, i resten 12 punts de vida. Com que la meitat dels punts de vida màxims és 6, el dany és major, i mor instantàniament."
 									],
 									"id": "1bf"
 								},
 								{
 									"type": "entries",
-									"name": "Falling Unconscious",
+									"name": "Quedar-se Inconscient",
 									"page": 197,
 									"entries": [
-										"If damage reduces you to 0 hit points and fails to kill you, you fall {@condition inconscient} (see the appendix). This unconsciousness ends if you regain any hit points."
+										"Si un dany et deixa a 0 punts de vida i no et mata, et quedes {@condition inconscient} (consulta la secció PH-A). Recuperes la consciència si reps qualsevol curació."
 									],
 									"id": "1c0"
 								},
@@ -8472,23 +8472,23 @@
 									"name": "Salvades de mort",
 									"page": 197,
 									"entries": [
-										"Whenever you start your turn with 0 hit points, you ha de salvar per special, called a salvada de mort, to determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any ability score. You are in the hands of fate now, aided only by spells and features that improve your chances of succeeding on a saving throw.",
-										"Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any hit points or become stable.",
+										"Quan comences el teu torn a 0 punts de vida, has de fer una tirada de salvació especial: una salvada de mort. Determinarà si t'acostes a la mort o si et manténs amb vida. Aquesta salvada no s'associa a cap modificador de característica. Estàs a les mans del destí i només et poden ajudar conjurs i trets que puguin donar-te més possiblitats de superar una tirada de salvació.",
+										"Tira un d20. Si treus 10 o més, superes. Sinó, falles. Si acumules 3 superades, t'estabilitzes (descrit dessota). Si acumules 3 falles, mors. Els resultats no han d'ésser conscutius. Ves-los comptant fins que n'acumulis 3 d'una mena. Els resultats es reinicien quan recuperis punts de vida o t'estabilitzis.",
 										{
 											"type": "entries",
-											"name": "Rolling 1 or 20",
+											"name": "Tirar un 1 o un 20",
 											"page": 197,
 											"entries": [
-												"When you make a salvada de mort and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point."
+												"Si fas una salvada de mort i treus un 1 al d20, són 2 falles. Si treus un 20, recuperes 1 punt de vida."
 											],
 											"id": "1c2"
 										},
 										{
 											"type": "entries",
-											"name": "Damage at 0 Hit Points",
+											"name": "Rebre dany a 0 punts de vida",
 											"page": 197,
 											"entries": [
-												"If you take any damage while you have 0 hit points, you suffer a salvada de mort failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your punts de vida màxims, you suffer instant death."
+												"Si reps dany estant a 0 punts de vida, anota't una falla de salvada de mort. Si el dany és d'un impacte crític, anota-te'n 2. Si el dany és igual o major als teus punts de vida màxima, mors instantàniament."
 											],
 											"id": "1c3"
 										}
@@ -8497,22 +8497,22 @@
 								},
 								{
 									"type": "entries",
-									"name": "Stabilizing a Creature",
+									"name": "Estabilitzar a una Criatura",
 									"page": 197,
 									"entries": [
-										"The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed salvada de mort.",
-										"Pots, com a acció, administer first aid to an {@condition inconscient} creature and attempt to stabilize it, which requires a successful DC 10 Saviesa ({@skill Medicina}) check.",
-										"A stable creature doesn't make salvades de mort, even though it has 0 hit points, but it does remain {@condition inconscient}. The creature stops being stable, and must start making salvades de mort again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours."
+										"La millor forma de salvar a una criatura a 0 punts de vida és curant-la. Si no podeu, la podeu establitzar per evitar que es mori degut a 3 salvada de mort fallades.",
+										"Pots, com a acció, administrar primers auxilis a una criatura {@condition inconscient} per provar d'establitzar-la. Has de superar una tirada de Saviesa ({@skill Medicina}) (CD 10).",
+										"Una criatura estabilitzada no fa salvades de mort però està a 0 punts de vida, així que roman {@condition inconscient}. Si rep dany, es desestablitza de nou i ha de tornar a fer salvades de mort. Una criatura estabilitzada però no curada recupera 1 punt de vida passades 1d4 hores."
 									],
 									"id": "1c4"
 								},
 								{
 									"type": "entries",
-									"name": "Monsters and Death",
+									"name": "La Mort dels Monstres",
 									"page": 198,
 									"entries": [
-										"Most DMs have a monster die the instant it es queda a 0 punts de vida, rather than having it fall {@condition inconscient} and make salvades de mort.",
-										"Mighty villains and special nonplayer characters are common exceptions; the DM might have them fall {@condition inconscient} and follow the same rules as player characters."
+										"Normalment, el/la/li MM deixa que un monstre mori instantàniament si es queda a 0 punts de vida en ves de quedar-se {@condition inconscient} i fer salvades de mort.",
+										"Alguns monstres i villans poderosos en poden ser excepcions, i el/la/li MM el poden deixar-los {@condition inconscient} i seguir les mateixes normes que els personatges jugadors."
 									],
 									"id": "1c5"
 								}
@@ -8521,10 +8521,10 @@
 						},
 						{
 							"type": "entries",
-							"name": "Knocking a Creature Out",
+							"name": "Noquejar a una Criatura",
 							"page": 198,
 							"entries": [
-								"Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls {@condition inconscient} and is stable."
+								"De vegades un atacant vol noquejar a un enemic en comptes de matar-lo. Quan un enemic deixa a una craitura a 0 punts de vida amb un atac cos a cos, l'atacant pot optar noquejar a la criatura. Pot escollir fer aquest dany no letal tan bon punt causi el dany. Una criatura noquejada es queda {@condition inconscient} però estable."
 							],
 							"data": {
 								"quickrefIndex": true
@@ -8536,13 +8536,13 @@
 							"name": "Punts de vida temporals",
 							"page": 198,
 							"entries": [
-								"Some spells and special abilities confer punts de vida temporals to a creature. Punts de vida temporals aren't actual hit points; they are a buffer against damage, a pool of hit points that protect you from injury.",
-								"When you have punts de vida temporals and take damage, the punts de vida temporals are lost first, and any leftover damage carries over to your normal hit points. For example, if you have 5 punts de vida temporals and take 7 damage, you lose the punts de vida temporals and then take 2 damage.",
-								"Because punts de vida temporals are separate from your actual hit points, they can exceed your punts de vida màxims. A character can, therefore, be at full hit points and receive punts de vida temporals.",
-								"Healing can't restore punts de vida temporals, and they can't be added together. If you have punts de vida temporals and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 punts de vida temporals when you already have 10, you can have 12 or 10, not 22.",
-								"If you have 0 hit points, receiving punts de vida temporals doesn't restore you to consciousness or stabilize you.",
-								"They can still absorb damage directed at you while you're in that state, but only true healing can save you.",
-								"Unless a feature that grants you punts de vida temporals has a duration, they last until they're depleted or you finish a long rest."
+								"Alguns conjurs i habilitats especials otorguen punts de vida temporals a una criatura. Els punts de vida temporals no són punts de vida normals; són com un escut contra el dany.",
+								"Quan tens punts de vida temporals i reps dany, perds primer els punts de vida temporals; si et queda dany després de perdre'ls tots, se't rest als punts de vida normals. Per exemple, si tens 5 punts de vida temporals i reps 7 de dany, perts tots els punts de vida temporals i 2 punts de vida.",
+								"Com que els punts de vida temporals no són normals, poden excedir els teu punts de vida màxim. Així, pots tenir tots els punts de vida i rebre punts de vida temporals.",
+								"La curació no pot recuperar punts de vida temporals, i no es poden sumar; si ja tens punts de vida temporals i en reps molt, pots decidir quin dels dos et quedes. Per exemple, si tens 10 punts de vida temporals i un conjur te n'otorga 12, pots escollir tenir-ne o bé 10 o bé 12, però no 22.",
+								"Si està a 0 punts de vida, rebre punts de vida temporals no t'estabilitza ni et recupera la consciència.",
+								"Poden absorbir dany mentre estàs inconscient, però només una cura de debò et pot salvar.",
+								"Si l'efecte que t'otorga punts de vida temporals no especifica una duració, et duren fins que els perdis o fins que acabis un Descans Llarg."
 							],
 							"data": {
 								"quickrefIndex": true
