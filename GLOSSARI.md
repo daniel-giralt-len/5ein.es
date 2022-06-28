@@ -22,7 +22,8 @@
 |Blindsight|Visió a cegues
 |Bonus action|Acció bonus
 |Bright light|Llum forta
-|Cantrip| Truc
+|Cantrip|Truc
+|Circlet|Tiara
 |City of Brass|Ciutat Llautó
 |Challenge Rating (CR)|Valor de Repte (VR)
 |Charisma|Carisma
@@ -62,6 +63,7 @@
 |Grappled|Apresat
 |Half-(elf)|Semi-(elf)
 |Halfling|Mitjerol
+|Headband|Diadema
 |Heavily obscured|Molt ofuscat
 |Heavy armor|Armadura pesada
 |Hellfire|Focferni
