@@ -207,7 +207,7 @@ const BIRTHPLACES = [
 	{min: 1, max: 50, result: "Home"},
 	{min: 51, max: 55, result: "Home of a family friend"},
 	{min: 56, max: 63, result: () => `Home of a healer or midwife ${choose("healer", "midwife")}`, display: "Home of a healer or midwife"},
-	{min: 64, max: 65, result: () => `Carriage, cart, or wagon ${choose("carriage", "cart", "wagon")}`, display: "Carriage, cart, or wagon"},
+	{min: 64, max: 65, result: () => `Carriage, cart, or wagon ${choose("carruatge", "carro", "wagon")}`, display: "Carriage, cart, or wagon"},
 	{min: 66, max: 68, result: () => `Barn, shed, or other outbuilding ${choose("barn", "shed", "outbuilding")}`, display: "Barn, shed, or other outbuilding"},
 	{min: 69, max: 70, result: "Cave"},
 	{min: 71, max: 72, result: "Field"},
