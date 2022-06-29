@@ -140,6 +140,7 @@
 |Teleport|Teletransportació O BÉ Teleportació
 |To hit|A impactar
 |Truesight|Visió veraç
+|Unaligned|Desalineat
 |Underdark|Sotafoscor
 |Unconscious|Inconscient
 |Walking speed|Velocitat de caminar
