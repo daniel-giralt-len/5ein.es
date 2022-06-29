@@ -395,28 +395,28 @@
 						},
 						{
 							"type": "entries",
-							"name": "Ability Scores",
+							"name": "Puntuacions d'habilitat",
 							"page": 8,
 							"entries": [
-								"Every monster has six ability scores (Força, Destresa, Constitució, Intel·ligència, Saviesa, and Carisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see the {@i Manual del Jugador.}"
+								"Tot monstre té 6 puntuacions d'habilitat (Força, Destresa, Constitució, Intel·ligència, Saviesa, and Carisma) i els modificadors corresponents. Consulta'n més al {@i Manual del Jugador.}"
 							],
 							"id": "018"
 						},
 						{
 							"type": "entries",
-							"name": "Saving Throws",
+							"name": "Tirades de salvació",
 							"page": 8,
 							"entries": [
-								"The Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily {@condition fascinat} or {@condition acovardit} might gain a bonus on its Saviesa saving throws. Most creatures don't have special saving throw bonuses, in which case this section is absent.",
-								"A saving throw bonus is the sum of a monster's relevant ability modifier and its proficiency bonus, which is determined by the monster's challenge rating (as shown in the Proficiency Bonus by Challenge Rating table).",
+								"Les Tirades de salvació només surten si el monstre és adepte a resistir certa mena d'efectes. Així, una criatura que no es queda {@condition fascinat} o {@condition acovardit} fàcilment poden tenir un bonus a les tirades de salvació de Saviesa. La majoria no tenen bonus a les salvades, i per tant no tenen aquesta secció.",
+								"Un bonus a una tirada de salvació suma el modificador d'habilitat rellevant i el bonus de competència, que es determina pel VR de la criatura (consulta la taula Bonus de Competència per Valor de Repte).",
 								{
 									"type": "table",
-									"caption": "Proficiency Bonus by Challenge Rating",
+									"caption": "Bonus de Competència per Valor de Repte",
 									"colLabels": [
-										"Challenge",
-										"Proficiency Bonus",
-										"Challenge",
-										"Proficiency Bonus"
+										"VR",
+										"Bonus de Competència",
+										"VR",
+										"Bonus de Competència"
 									],
 									"colStyles": [
 										"col-3 text-center",
@@ -534,36 +534,36 @@
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"name": "Habilitats",
 							"page": 8,
 							"entries": [
-								"The Skills entry is reserved for monsters that are proficient in one or more skills. For example, a monster that is very perceptive and stealthy might have bonuses to Saviesa ({@skill Percepció}) and Destresa ({@skill Sigil}) checks.",
-								"A skill bonus is the sum of a monster's relevant ability modifier and its proficiency bonus, which is determined by the monster's challenge rating (as shown in the Proficiency Bonus by Challenge Rating table). Other modifiers might apply. For instance, a monster might have a larger-than-expected bonus (usually double its proficiency bonus) to account for its heightened expertise."
+								"La secció Habilitats només surt si un monstre en té competència en una o més. Així, un monstre perceptiu i sigilós pot tenir bonus a les tirades de Saviesa ({@skill Percepció}) i de Destresa ({@skill Sigil}).",
+								"Un bonus a una habilitat suma el modificador d'habilitat rellevant i el bonus de competència, que es determina pel VR de la criatura (consulta la taula Bonus de Competència per Valor de Repte). Poden sumar-s'hi modificadors adicionals. Així, un monstre pot tenir un bonus superior a l'esperat (normalment el doble del seu bonus de competència) si és especialment habilidós."
 							],
 							"id": "01a"
 						},
 						{
 							"type": "entries",
-							"name": "Vulnerabilities, Resistances, and Immunities",
+							"name": "Vulnerabilitats, Resistències, i Immunitats",
 							"page": 8,
 							"entries": [
-								"Some creatures have vulnerability, resistance, or immunity to certain types of damage. Particular creatures are even resistant or immune to damage from nonmagical attacks (a magical attack is an attack delivered by a spell, a magic item, or another magical source). A més, some creatures are immune to certain conditions."
+								"Algunes criatures tenen vulnerabilitat, resistència, o immunitat a certs tipus de dany. Algunes criatures són resistents o immunes a qualsevol dany d'atacs no-màgics. Un atac màgic el fa un conjur, un objecte màgic, o alguna altra font de màgia. A més, algunes criatures són immunes a certes condicions."
 							],
 							"id": "01b"
 						},
 						{
 							"type": "entries",
-							"name": "Senses",
+							"name": "Sentits",
 							"page": 8,
 							"entries": [
-								"The Senses entry notes a monster's passive Saviesa ({@skill Percepció}) score, as well as any special senses the monster might have. Special senses are described below.",
+								"La secció de Sentits té la puntuació de Saviesa ({@skill Percepció}) del monstre i també els sentits especials que pugui tenir. Els sentits especials es descriuen dessota.",
 								{
 									"type": "entries",
 									"name": "Visió a cegues",
 									"page": 8,
 									"entries": [
-										"A monster with {@sense visió a cegues} can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as grimlocks and gray oozes, typically have this special sense, as do creatures with echolocation or heightened senses, such as bats and true dragons.",
-										"If a monster is naturally blind, it has a parenthetical note to this effect, indicating that the radius of its {@sense visió a cegues} defines the maximum range of its perception."
+										"Un monstre amb {@sense visió a cegues} percep el seu entorn sense necessitar la vista fins a un cert abast. El tenen criatures sense ulls com ara grimlocks i llims grisos; també les criatures amb ecolocació o sentits aguts com ara ratpenats o dracs veritables.",
+										"Si un monstre és cec per naturalesa, aquest sentit té una nota indicant que l'abast de {@sense visió a cegues} és el seu abast màxim de percepció."
 									],
 									"id": "01d"
 								},
@@ -572,25 +572,25 @@
 									"name": "Visió de Foscor",
 									"page": 9,
 									"entries": [
-										"A monster with {@sense visió de foscor} can see in the dark within a specific radius. The monster can see in dim light within the radius as if it were bright light, and in darkness as if it were dim light. The monster can't discern color in darkness, only shades of gray. Many creatures that live underground have this special sense."
+										"Un monstre amb {@sense visió de foscor} pot veure-hi a la foscor fins a cert abast. El monstre pot veure-hi en llum tènue a dins de l'abast com si fos llum forta, i en foscor com si fos llum tènue. No pot discernir colors a la foscor, només grisos. Moltes criatures que viuen sota terra tenen aquest sentit."
 									],
 									"id": "01e"
 								},
 								{
 									"type": "entries",
-									"name": "Tremorsense",
+									"name": "Tremoltecció",
 									"page": 9,
 									"entries": [
-										"A monster with {@sense tremorsense} can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense."
+										"A monster with {@sense tremoltecció} pot detectar i localitzar les vibracions a un radi específic si ell i el causant de les vibracions estan en contacte amb el terra o substància per on es transmet. No es pot emprar per a detectar criatures que volen o incorpòries. Moltes criatures excavadores tenen aquest sentit, com ankhegs i umber hulks."
 									],
 									"id": "01f"
 								},
 								{
 									"type": "entries",
-									"name": "Truesight",
+									"name": "Visió veraç",
 									"page": 9,
 									"entries": [
-										"A monster with {@sense truesight} can, out to a specific range, see in normal and magical darkness, see {@condition invisible} creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the monster can see into the Pla Etèri within the same range."
+										"Un monstre amb {@sense visió veraç} pot: veure-hi a través de foscor màgica o mundana; veure a les criatures i objectes {@condition invisible}; detectar il·lusions visuals automàticament (i salvar contra elles a voluntat); percebre la forma veritable d'un canviaformes o d'una criatura transformada per màgia; i veure-hi al Pla Etèri. Aquest sentit té un cert abast limitat."
 									],
 									"id": "020"
 								}
