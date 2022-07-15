@@ -113,9 +113,9 @@ class AcConvert {
 						case "shields": froms.push("{@item shield|phb|shields}"); break;
 
 						// magic items
-						case "dwarven plate": froms.push("{@item dwarven plate}"); break;
-						case "elven chain": froms.push("{@item elven chain}"); break;
-						case "glamoured studded leather": froms.push("{@item glamoured studded leather}"); break;
+						case "plaques nanes": froms.push("{@item plaques nanes}"); break;
+						case "malla èlfica": froms.push("{@item malla èlfica}"); break;
+						case "cuir tatxonat glamuros": froms.push("{@item cuir tatxonat glamuros}"); break;
 						case "braçals de defensa": froms.push("{@item braçals de defensa}"); break;
 						case "badge of the watch": froms.push("{@item Badge of the Watch|wdh}"); break;
 						case "anell de protecció": froms.push("{@item anell de protecció}"); break;

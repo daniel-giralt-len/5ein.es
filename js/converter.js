@@ -293,7 +293,7 @@ ACTIONS
 Multi-atac. Mammon makes three attacks.
 Purse. Atac armat cos a cos: +14 a impactar, 10 peus d'abast, un objectiu. Hit: 19 (3d8 + 6) de dany contundent mes 18 (4d8) de dany radiant.
 Molten Coins. Atac armat a distància: +14 a impactar, 40/120 peus d'abast, un objectiu. Hit: 16 (3d6 + 6) de dany contundent mes 18 (4d8) de dany de foc.
-Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. La criatura ha de salvar per Constitució (CD 24). If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw Al final del seu proper torn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a restabliment superior spell or comparable magic.
+Your Weight In Gold (Recharge 5-6). Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. La criatura ha de salvar per Constitució (CD 24). Si falla la salvada per 5 o més, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw Al final del seu proper torn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a restabliment superior spell or comparable magic.
 LEGENDARY ACTIONS
 Mammon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Mammon regains spent legendary actions at the start of his turn.
 Attack. Mammon makes one purse or molten coins attack.
@@ -348,7 +348,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >
 >- **Cantrip.** The lich casts a cantrip.
 >- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
->- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target can repeat the saving throw al final de cada torn seu, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze durant les properes 24 hores.
+>- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze durant les properes 24 hores.
 >- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich ha de salvar per Constitució (CD 18) against this magic, taking 21 (6d6) de dany necròtic; si supera, en rep la meitat.
 >
 >`;
