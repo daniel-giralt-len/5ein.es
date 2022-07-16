@@ -395,7 +395,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"resiliència no-morta": "Resiliència No-morta",
 
 		"agressivitat": "Agressivitat",
-		"illumination": "Illumination",
+		"il·luminació": "Il·luminació",
 		"enfurismar": "Enfurismar",
 		"rejovenir": "Rejovenir",
 		"web walker": "Web Walker",
