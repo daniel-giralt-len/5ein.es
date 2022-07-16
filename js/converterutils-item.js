@@ -37,7 +37,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"espasa curta",
 	"trident",
 	"war pick",
-	"warhammer",
+	"martell de guerra",
 	"whip",
 	"sarbatana",
 	"hand crossbow",
