@@ -31,7 +31,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"espasa llarga",
 	"maul",
 	"estel de l'alba",
-	"pike",
+	"pica",
 	"rapier",
 	"simitarra",
 	"espasa curta",
