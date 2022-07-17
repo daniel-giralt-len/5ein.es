@@ -514,7 +514,7 @@ class ReqAttuneTagTag {
 		});
 
 		// "by a creature that can speak Diàstric"
-		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Diàstric|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
+		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Parla Profunda|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Diàstric|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
 			tags.push({languageProficiency: m[1].toLowerCase()});
 			return "";
 		});
