@@ -11,7 +11,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"daga",
 	"greatclub",
 	"handaxe",
-	"javelin",
+	"javelina",
 	"light hammer",
 	"mace",
 	"quarterstaff",

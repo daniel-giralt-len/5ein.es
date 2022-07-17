@@ -861,7 +861,7 @@ class MiscTag {
 MiscTag._THROWN_WEAPONS = [
 	"daga",
 	"handaxe",
-	"javelin",
+	"javelina",
 	"light hammer",
 	"spear",
 	"trident",
