@@ -30,7 +30,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"lance",
 	"espasa llarga",
 	"maul",
-	"morningstar",
+	"estel de l'alba",
 	"pike",
 	"rapier",
 	"simitarra",
