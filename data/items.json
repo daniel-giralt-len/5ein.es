@@ -1582,7 +1582,7 @@
 					"type": "entries",
 					"name": "Frost Shot",
 					"entries": [
-						"The canó shoots a ball of frost to a point you can see within 1,200 feet of the canó. The ball then expands to form a 30-foot-radius sphere centered on that point. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 15). Qui falli rep 22 ({@damage 4d10}) de dany de fred, and its speed is reduced by 10 feet durant 1 minut. Qui superi en rep la meitat, and its speed isn't reduced. A creature whose speed is reduced by this effect can repeat the save al final de cada torn seu, ending the effect on itself on a success."
+						"The canó shoots a ball of frost to a point you can see within 1,200 feet of the canó. The ball then expands to form a 30-foot-radius sphere centered on that point. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 15). Qui falli rep 22 ({@damage 4d10}) de dany de fred, and its speed is reduced by 10 feet durant 1 minut. Qui superi en rep la meitat, and its speed isn't reduced. A creature whose speed is reduced by this effect can repeat the save al final de cada torn seu. si supera, l'efecte s'acaba."
 					]
 				},
 				{
@@ -1596,7 +1596,7 @@
 					"type": "entries",
 					"name": "Esprai de Verí",
 					"entries": [
-						"The canó expels poison gas en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 15). Si falla, rep 22 ({@damage 4d10}) de dany de verí i està {@condition emmetzinat} durant 1 minut. Si supera, la criatura rep la meitat del dany i no està {@condition emmetzinat}. A creature {@condition emmetzinat} in this way pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success."
+						"The canó expels poison gas en un con de 60 peus. Tota criatura dins de l'àrea ha de salvar per Constitució (CD 15). Si falla, rep 22 ({@damage 4d10}) de dany de verí i està {@condition emmetzinat} durant 1 minut. Si supera, la criatura rep la meitat del dany i no està {@condition emmetzinat}. A creature {@condition emmetzinat} in this way pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba."
 					]
 				}
 			]
@@ -7735,7 +7735,7 @@
 			"value": 500,
 			"entries": [
 				"This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice ha de salvar per Constitució (CD 14). Si falla, begin a comic dance that dura 1 minut. Humanoids that can't be {@condition emmetzinat} are immune to this magical effect.",
-				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Destresa saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer pot repetir la salvada, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {@condition emmetzinat} condition durant 1 hora."
+				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Destresa saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer pot repetir la salvada. si supera, l'efecte s'acaba. When the dancing effect ends, the humanoid suffers the {@condition emmetzinat} condition durant 1 hora."
 			]
 		},
 		{
@@ -18599,8 +18599,8 @@
 			"recharge": "trenc d'alba",
 			"charges": 3,
 			"entries": [
-				"Aquesta arma màgica té 3 càrregues. Mentre l'empunyes, you can use an action and gastar 1 càrrega to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition acovardit} de tu durant 1 minut. While està {@condition acovardit} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. Tampoc pot prendre reaccions. For its action it can use only the {@action Córrer} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the {@action Esquivar} action. Al final de cada torn seu, a creature pot repetir la salvada, ending the effect on itself on a success.",
-				"The mace recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba."
+				"Aquesta arma màgica té 3 càrregues. Mentre l'empunyes, pots, com a acció, gastar 1 càrrega i desembocar una onada de terror. Tota criatura que escullis en un radi de 30 peus centrada en tu ha de salvar per Saviesa (CD 15). Qui falli esdevé {@condition acovardit} de tu durant 1 minut. {@condition acovardit} així, una criatura ha d'emprar els seus torns allunyant-se de tu tan com pugui, i no pot acostar-se voluntàriament a tu a més de 30 peus. Tampoc pot prendre reaccions. Com a acció, només pot {@action Córrer} per a escapar d'un efecte que pugui previndre-la d'escapar. Si no es pot moure enlloc, la criatura empra la seva acció per a {@action Esquivar} action. Al final de cada torn seu, una criatura pot repetir la salvada. si supera, l'efecte s'acaba.",
+				"La maça recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba."
 			],
 			"lootTables": [
 				"Taula d'Objectes Màgics G"
@@ -19283,7 +19283,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 3,
 			"entries": [
-				"The medallion té 3 càrregues. Mentre ho vesteixis, you can use an action and gastar 1 càrrega to cast the {@spell detectar pensaments} (CD 13) from it. The medallion recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba."
+				"The medallion té 3 càrregues. Mentre ho vesteixis, pots, com a acció, gastar 1 càrrega to cast the {@spell detectar pensaments} (CD 13) from it. The medallion recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba."
 			],
 			"attachedSpells": [
 				"detectar pensaments"
@@ -22169,7 +22169,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 3,
 			"entries": [
-				"You must be proficient with wind instruments to use these pipes. They have 3 charges. Pots, com a acció, play them and gastar 1 càrrega to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition acovardit} de tu durant 1 minut. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it al final de cada torn seu, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes durant 24 hores. The pipes regain {@dice 1d3} càrregues gastades diàriament a trenc d'alba."
+				"You must be proficient with wind instruments to use these pipes. They have 3 charges. Pots, com a acció, play them and gastar 1 càrrega to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition acovardit} de tu durant 1 minut. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it al final de cada torn seu. si supera, l'efecte s'acaba. A creature that succeeds on its saving throw is immune to the effect of these pipes durant 24 hores. The pipes regain {@dice 1d3} càrregues gastades diàriament a trenc d'alba."
 			],
 			"lootTables": [
 				"Taula d'Objectes Màgics F"
@@ -23955,7 +23955,7 @@
 					"rows": [
 						[
 							"1",
-							"{@b Androphagia.} Each creature within 60 feet of the vessel ha de salvar per Saviesa (CD 17). Si falla, go berserk durant 1 minut. The berserk creature must begin its turn using the {@action Atacar} action to make one melee or ranged attack (its choice) against the creature nearest to it. The berserk creature can repeat the save at the end of its turn, ending the effect on itself on a success."
+							"{@b Androphagia.} Each creature within 60 feet of the vessel ha de salvar per Saviesa (CD 17). Si falla, go berserk durant 1 minut. The berserk creature must begin its turn using the {@action Atacar} action to make one melee or ranged attack (its choice) against the creature nearest to it. The berserk creature can repeat the save at the end of its turn. si supera, l'efecte s'acaba."
 						],
 						[
 							"2",
@@ -25407,7 +25407,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 3,
 			"entries": [
-				"Aquesta robe té 3 càrregues, and recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba. While you wear it, you can use an action and gastar 1 càrrega to cause the garment to display a shifting pattern of dazzling hues fins el final del teu proper torn. During this time, the robe desprèn llum forta en un radi de 30 peus i llum tènue uns 30 peus adicionals. Creatures that can see you have disadvantage on attack rolls against you. A més, any creature in the bright light that can see you when the robe's power is activated ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition atordit} until the effect ends."
+				"Aquesta robe té 3 càrregues, and recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba. While you wear it, pots, com a acció, gastar 1 càrrega to cause the garment to display a shifting pattern of dazzling hues fins el final del teu proper torn. During this time, the robe desprèn llum forta en un radi de 30 peus i llum tènue uns 30 peus adicionals. Creatures that can see you have disadvantage on attack rolls against you. A més, any creature in the bright light that can see you when the robe's power is activated ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition atordit} until the effect ends."
 			],
 			"lootTables": [
 				"Taula d'Objectes Màgics H"
@@ -29317,7 +29317,7 @@
 					"name": "Insect Cloud",
 					"type": "entries",
 					"entries": [
-						"While holding the staff, you can use an action and gastar 1 càrrega to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain durant 10 minuts, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect."
+						"While holding the staff, pots, com a acció, gastar 1 càrrega to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain durant 10 minuts, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect."
 					]
 				}
 			],
@@ -31321,7 +31321,7 @@
 			"reqAttune": true,
 			"weight": 2,
 			"entries": [
-				"Made by the {@creature drow}, this rod is a arma màgica that ends in three rubbery tentacles. While holding the rod, pots, com a acció, direct each tentacle to attack una criatura que puguis veure a 15 peus d'abast. Each tentacle makes a melee attack roll with a +9 bonus. Si impacta, the tentacle deals {@dice 1d6} de dany contundent. If you hit a target with all three tentacles, ha de salvar per Constitució (CD 15). On a failure, the creature's speed is halved, it has disadvantage on Destresa saving throws, and it can't use reactions durant 1 minut. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. Al final de cada torn seu, pot repetir la salvada, ending the effect on itself on a success."
+				"Made by the {@creature drow}, this rod is a arma màgica that ends in three rubbery tentacles. While holding the rod, pots, com a acció, direct each tentacle to attack una criatura que puguis veure a 15 peus d'abast. Each tentacle makes a melee attack roll with a +9 bonus. Si impacta, the tentacle deals {@dice 1d6} de dany contundent. If you hit a target with all three tentacles, ha de salvar per Constitució (CD 15). On a failure, the creature's speed is halved, it has disadvantage on Destresa saving throws, and it can't use reactions durant 1 minut. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. Al final de cada torn seu, pot repetir la salvada. si supera, l'efecte s'acaba."
 			],
 			"lootTables": [
 				"Taula d'Objectes Màgics G"
@@ -32681,7 +32681,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 3,
 			"entries": [
-				"This trident is a arma màgica. It has 3 charges. While you carry it, you can use an action and gastar 1 càrrega to cast {@spell dominar bèstia} (save DC 15) from it on a beast that has an innate swimming speed. The trident recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba."
+				"This trident is a arma màgica. It has 3 charges. While you carry it, pots, com a acció, gastar 1 càrrega to cast {@spell dominar bèstia} (save DC 15) from it on a beast that has an innate swimming speed. The trident recupera {@dice 1d3} càrregues gastades cada dia a trenc d'alba."
 			],
 			"attachedSpells": [
 				"dominar bèstia"
@@ -34582,7 +34582,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 7,
 			"entries": [
-				"Aquesta wand té 7 càrregues. Mentre l'empunyes, you can use an action and gastar 1 càrrega to speak its paraula màgica. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, {@condition invisible}, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
+				"Aquesta wand té 7 càrregues. Mentre l'empunyes, pots, com a acció, gastar 1 càrrega to speak its paraula màgica. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, {@condition invisible}, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
 				"The wand regains {@dice 1d6 + 1} càrregues gastades diàriament a trenc d'alba. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"lootTables": [
@@ -34638,7 +34638,7 @@
 					"name": "Cone of Temor",
 					"type": "entries",
 					"entries": [
-						"While holding the wand, pots, com a acció, gastar 2 càrregues, causing the wand's tip to emit a 60-foot cone of amber light. Tota criatura a dins del con ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition acovardit} de tu durant 1 minut. While està {@condition acovardit} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. Tampoc pot prendre reaccions. For its action, it can use only the Dash action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the Dodge action. Al final de cada torn seu, a creature pot repetir la salvada, ending the effect on itself on a success."
+						"While holding the wand, pots, com a acció, gastar 2 càrregues, causing the wand's tip to emit a 60-foot cone of amber light. Tota criatura a dins del con ha de salvar per Saviesa (CD 15). Si falla, esdevé {@condition acovardit} de tu durant 1 minut. While està {@condition acovardit} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. Tampoc pot prendre reaccions. For its action, it can use only the Dash action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the Dodge action. Al final de cada torn seu, una criatura pot repetir la salvada. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -34868,7 +34868,7 @@
 			"recharge": "trenc d'alba",
 			"charges": 7,
 			"entries": [
-				"Aquesta wand té 7 càrregues. Mentre l'empunyes, pots, com a acció, expend 1 of its charges to cause a thin blue ray to streak from the tip toward una criatura que puguis veure a 60 peus d'abast. The target ha de salvar per Constitució (CD 15). Si falla, està {@condition paralitzat} durant 1 minut. Al final de cada torn de l'objectiu, pot repetir la salvada, ending the effect on itself on a success.",
+				"Aquesta wand té 7 càrregues. Mentre l'empunyes, pots, com a acció, expend 1 of its charges to cause a thin blue ray to streak from the tip toward una criatura que puguis veure a 60 peus d'abast. The target ha de salvar per Constitució (CD 15). Si falla, està {@condition paralitzat} durant 1 minut. Al final de cada torn de l'objectiu, pot repetir la salvada. si supera, l'efecte s'acaba.",
 				"The wand regains {@dice 1d6 + 1} càrregues gastades diàriament a trenc d'alba. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"lootTables": [

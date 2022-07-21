@@ -5152,7 +5152,7 @@
 								{
 									"type": "item",
 									"name": "Second Roar",
-									"entry": "Each creature that fails a {@dc 18} Saviesa saving throw is {@condition eixordat} and {@condition acovardit} durant 1 minut. A {@condition acovardit} creature is {@condition paralitzat} and pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success."
+									"entry": "Each creature that fails a {@dc 18} Saviesa saving throw is {@condition eixordat} and {@condition acovardit} durant 1 minut. A {@condition acovardit} creature is {@condition paralitzat} and pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba."
 								},
 								{
 									"type": "item",
@@ -7454,7 +7454,7 @@
 				{
 					"name": "Albir Terrorífic",
 					"entries": [
-						"Each non-undead creature within 60 feet of the banshee that can see her ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. A {@condition acovardit} target pot repetir la salvada al final de cada torn seu, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Albir Terrorífic durant les properes 24 hores."
+						"Each non-undead creature within 60 feet of the banshee that can see her ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. A {@condition acovardit} target pot repetir la salvada al final de cada torn seu, with disadvantage if the banshee is within line of sight. si supera, l'efecte s'acaba. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Albir Terrorífic durant les properes 24 hores."
 					]
 				},
 				{
@@ -11158,7 +11158,7 @@
 				{
 					"name": "Fiendish Charm",
 					"entries": [
-						"One humanoid the cambion can see within 30 feet of ha de salvar per Saviesa amb {@dc 14} or be magically {@condition fascinat} for 1 day. The {@condition fascinat} target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, l'objectiu pot tornar a salvar, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm durant les properes 24 hores."
+						"One humanoid the cambion can see within 30 feet of ha de salvar per Saviesa amb {@dc 14} or be magically {@condition fascinat} for 1 day. The {@condition fascinat} target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, l'objectiu pot tornar a salvar. si supera, l'efecte s'acaba. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm durant les properes 24 hores."
 					]
 				}
 			],
@@ -15334,7 +15334,7 @@
 				{
 					"name": "Poisoned Dard",
 					"entries": [
-						"{@atk rw} {@hit 4} a impactar, 30/120 peus d'abast, una criatura. {@h}4 ({@damage 1d4 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, ending the effect on itself on a success"
+						"{@atk rw} {@hit 4} a impactar, 30/120 peus d'abast, una criatura. {@h}4 ({@damage 1d4 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu. si supera, l'efecte s'acaba"
 					]
 				}
 			],
@@ -17986,7 +17986,7 @@
 					"name": "Fey Charm",
 					"entries": [
 						"The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, ha de salvar per Saviesa amb {@dc 14} or be magically {@condition fascinat}. The {@condition fascinat} creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.",
-						"Each time the dryad or its allies do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm durant les properes 24 hores.",
+						"Each time the dryad or its allies do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm durant les properes 24 hores.",
 						"The dryad can have no more than one humanoid and up to three beasts {@condition fascinat} at a time."
 					]
 				}
@@ -18356,7 +18356,7 @@
 				{
 					"name": "Cadàver Detonant",
 					"entries": [
-						"When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a {@dc 10} Constitució saving throw or be {@condition encegat} durant 1 minut. A {@condition encegat} creature pot repetir la salvada on each of its turns, ending the effect on itself on a success."
+						"When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a {@dc 10} Constitució saving throw or be {@condition encegat} durant 1 minut. A {@condition encegat} creature pot repetir la salvada on each of its turns. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -19760,7 +19760,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -19908,7 +19908,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20053,7 +20053,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20194,7 +20194,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20339,7 +20339,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20493,7 +20493,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20635,7 +20635,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -39816,7 +39816,7 @@
 							"type": "entries",
 							"name": "Caustic Spores (1/Dia)",
 							"entries": [
-								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 11} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. A creature pot repetir la salvada at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
+								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 11} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. Una criatura pot repetir la salvada at the end of its turn. si supera, l'efecte s'acaba. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
 							]
 						},
 						{
@@ -39830,7 +39830,7 @@
 							"type": "entries",
 							"name": "Euphoria Spores (1/Dia)",
 							"entries": [
-								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 11} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. A creature pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
+								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 11} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. Una criatura pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
 							]
 						}
 					],
@@ -39980,7 +39980,7 @@
 							"type": "entries",
 							"name": "Caustic Spores (1/Dia)",
 							"entries": [
-								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 12} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. A creature pot repetir la salvada at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
+								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 12} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. Una criatura pot repetir la salvada at the end of its turn. si supera, l'efecte s'acaba. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
 							]
 						},
 						{
@@ -39994,7 +39994,7 @@
 							"type": "entries",
 							"name": "Euphoria Spores (1/Dia)",
 							"entries": [
-								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 12} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. A creature pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
+								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 12} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. Una criatura pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
 							]
 						}
 					],
@@ -45630,7 +45630,7 @@
 				{
 					"name": "Scare (1/Dia)",
 					"entries": [
-						"One creature of the quasit's choice within 20 feet of ha de salvar per Saviesa amb {@dc 10} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success."
+						"One creature of the quasit's choice within 20 feet of ha de salvar per Saviesa amb {@dc 10} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the quasit is within line of sight. si supera, l'efecte s'acaba."
 					]
 				},
 				{
@@ -48218,7 +48218,7 @@
 							"name": "Panpipes",
 							"entries": [
 								"The sàtir plays its pipes and chooses one of the following magical effects: a charming melody, a frightening strain, or a gentle lullaby. Any creature within 60 feet of the sàtir that can hear the pipes ha de salvar per Saviesa amb {@dc 13} or be affected as described below. Other sàtirs and creature that can't be {@condition fascinat} are unaffected",
-								"An affected creature pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to these panpipes durant les properes 24 hores.",
+								"An affected creature pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to these panpipes durant les properes 24 hores.",
 								{
 									"type": "variantSub",
 									"name": "Charming Melody",
@@ -48716,7 +48716,7 @@
 				{
 					"name": "Horrific Appearance",
 					"entries": [
-						"Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form ha de salvar per Saviesa amb {@dc 11}. Si falla, the creature is {@condition acovardit} durant 1 minut. A creature pot repetir la salvada al final de cada torn seu, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a hag's Horrific Appearance durant les properes 24 hores.",
+						"Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form ha de salvar per Saviesa amb {@dc 11}. Si falla, the creature is {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, with disadvantage if the hag is within line of sight. si supera, l'efecte s'acaba. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a hag's Horrific Appearance durant les properes 24 hores.",
 						"Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Fins a l'inici del seu següent torn, a creature that averts its eyes has disadvantage on attack rolls against the hag."
 					]
 				}
@@ -50416,7 +50416,7 @@
 									"type": "item",
 									"name": "3. Fear Ray.",
 									"style": "italic",
-									"entry": "The target ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success."
+									"entry": "The target ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the spectator is visible to the target. si supera, l'efecte s'acaba."
 								},
 								{
 									"type": "item",
@@ -51913,7 +51913,7 @@
 				{
 					"name": "Slow {@recharge 5}",
 					"entries": [
-						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the target can take either an action or a bonus action on its turn, not both. These effects last durant 1 minut. A target pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success."
+						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the target can take either an action or a bonus action on its turn, not both. These effects last durant 1 minut. A target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -53596,7 +53596,7 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the tarrasque's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature pot repetir la salvada al final de cada torn seu, with disadvantage if the tarrasque is within line of sight, ending the effect on itself on a success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a tarrasque's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the tarrasque's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, with disadvantage if the tarrasque is within line of sight. si supera, l'efecte s'acaba. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a tarrasque's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
@@ -55801,7 +55801,7 @@
 					"name": "Charm",
 					"entries": [
 						"The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} pel vampir. The {@condition fascinat} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
-						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{
@@ -56239,7 +56239,7 @@
 					"name": "Charm",
 					"entries": [
 						"The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} pel vampir. The {@condition fascinat} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
-						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{
@@ -56464,7 +56464,7 @@
 					"name": "Charm",
 					"entries": [
 						"The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} pel vampir. The {@condition fascinat} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
-						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{
@@ -57031,7 +57031,7 @@
 				{
 					"name": "Spores {@recharge}",
 					"entries": [
-						"A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 14} or become {@condition emmetzinat}. While {@condition emmetzinat} in this way, a target takes 5 ({@damage 1d10}) de dany de verí a l'inici de cada torn seu. A target pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. Emptying a vial of aigua beneïda on the target also ends the effect on it."
+						"A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 14} or become {@condition emmetzinat}. While {@condition emmetzinat} in this way, a target takes 5 ({@damage 1d10}) de dany de verí a l'inici de cada torn seu. A target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. Emptying a vial of aigua beneïda on the target also ends the effect on it."
 					]
 				},
 				{

@@ -951,7 +951,7 @@
 				{
 					"name": "Forgetfulness {@recharge}",
 					"entries": [
-						"The amnizu targets one creature it can see within 60 feet of it. That creature ha de salvar per Intel·ligència amb {@dc 18} and on a failure the target is {@condition atordit} durant 1 minut. A {@condition atordit} creature repeats the saving throw al final de cada torn seu, ending the effect on itself on a success. If the target remains {@condition atordit} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+						"The amnizu targets one creature it can see within 60 feet of it. That creature ha de salvar per Intel·ligència amb {@dc 18} and on a failure the target is {@condition atordit} durant 1 minut. A {@condition atordit} creature repeats the saving throw al final de cada torn seu. si supera, l'efecte s'acaba. If the target remains {@condition atordit} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
 					]
 				}
 			],
@@ -1432,7 +1432,7 @@
 					"name": "Enchanting Presence",
 					"entries": [
 						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature is {@condition fascinat} by the eladrin durant 1 minut. Si supera, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
-						"Whenever the eladrin deals damage to the {@condition fascinat} creature, the creature pot repetir la salvada, ending the effect on itself on a success."
+						"Whenever the eladrin deals damage to the {@condition fascinat} creature, the creature pot repetir la salvada. si supera, l'efecte s'acaba."
 					]
 				},
 				{
@@ -3884,7 +3884,7 @@
 				{
 					"name": "Vira del Més Enllàs",
 					"entries": [
-						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, one or two targets. {@h}18 ({@damage 4d8}) de dany necròtic. If the target is Large or smaller, ha de salvar per Força amb {@dc 16} or become {@condition restrained} as shadowy tendrils wrap around it durant 1 minut. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+						"{@atk rs} {@hit 6} a impactar, 120 peus d'abast, one or two targets. {@h}18 ({@damage 4d8}) de dany necròtic. If the target is Large or smaller, ha de salvar per Força amb {@dc 16} or become {@condition restrained} as shadowy tendrils wrap around it durant 1 minut. A {@condition restrained} target can use its action to repeat the saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -5975,7 +5975,7 @@
 				{
 					"name": "Tentacle Vara",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 15 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent. If the target is hit three times by the rod on one turn, the target ha de salvar per Constitució amb {@dc 15} or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Destresa saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. Al final de cada torn seu, pot repetir la salvada, ending the effect on itself on a success."
+						"{@atk mw} {@hit 9} a impactar, 15 peus d'abast, un objectiu. {@h}3 ({@damage 1d6}) de dany contundent. If the target is hit three times by the rod on one turn, the target ha de salvar per Constitució amb {@dc 15} or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Destresa saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. Al final de cada torn seu, pot repetir la salvada. si supera, l'efecte s'acaba."
 					]
 				},
 				{
@@ -11312,7 +11312,7 @@
 				{
 					"name": "Steal Memory (1/Dia)",
 					"entries": [
-						"The hydroloth targets one creature it can see within 60 feet of it. L'objectiu rep {@dice 4d6} de dany psíquic, and it ha de salvar per Intel·ligència amb {@dc 16}. Si supera, the target becomes immune to this hydroloth's Steal Memory for 24 hours. Si falla, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intel·ligència and Carisma scores are higher than 5, they become 5. Each time the target finishes a long rest, pot repetir la salvada, ending the effect on itself on a success. A {@spell restabliment superior} or {@spell anul·lar maledicció} spell cast on the target ends this effect early."
+						"The hydroloth targets one creature it can see within 60 feet of it. L'objectiu rep {@dice 4d6} de dany psíquic, and it ha de salvar per Intel·ligència amb {@dc 16}. Si supera, the target becomes immune to this hydroloth's Steal Memory for 24 hours. Si falla, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intel·ligència and Carisma scores are higher than 5, they become 5. Each time the target finishes a long rest, pot repetir la salvada. si supera, l'efecte s'acaba. A {@spell restabliment superior} or {@spell anul·lar maledicció} spell cast on the target ends this effect early."
 					]
 				},
 				{
@@ -13799,7 +13799,7 @@
 					"name": "Terrifying Command",
 					"entries": [
 						"Each creature that isn't a diastre within 60 feet of the narzugon that can hear ha de salvar per Carisma amb {@dc 17} or become {@condition acovardit} of it durant 1 minut.",
-						"A creature pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
+						"Una criatura pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
 					]
 				},
 				{
@@ -14538,7 +14538,7 @@
 				{
 					"name": "Chain Smash {@recharge}",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}13 ({@damage 2d8 + 4}) de dany contundent, i l'objectiu ha de salvar per Constitució amb {@dc 14}. On a failure the target is {@condition inconscient} durant 1 minut. The {@condition inconscient} target repeats the saving throw if it takes damage and al final de cada torn seu, ending the effect on itself on a success."
+						"{@atk mw} {@hit 6} a impactar, 10 peus d'abast, un objectiu. {@h}13 ({@damage 2d8 + 4}) de dany contundent, i l'objectiu ha de salvar per Constitució amb {@dc 14}. On a failure the target is {@condition inconscient} durant 1 minut. The {@condition inconscient} target repeats the saving throw if it takes damage and al final de cada torn seu. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -15968,7 +15968,7 @@
 				{
 					"name": "Crippling Temor",
 					"entries": [
-						"Quan una criatura that isn't a demon starts its turn within 30 feet of three or more rutterkins, ha de salvar per Saviesa amb {@dc 11}. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. Si supera, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. Si falla, the creature becomes {@condition acovardit} durant 1 minut. While {@condition acovardit} in this way, the creature is {@condition restrained}. Al final de cada torn de the {@condition acovardit} creature, pot repetir la salvada, ending the effect on itself on a success."
+						"Quan una criatura that isn't a demon starts its turn within 30 feet of three or more rutterkins, ha de salvar per Saviesa amb {@dc 11}. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. Si supera, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. Si falla, the creature becomes {@condition acovardit} durant 1 minut. While {@condition acovardit} in this way, the creature is {@condition restrained}. Al final de cada torn de the {@condition acovardit} creature, pot repetir la salvada. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -15976,7 +15976,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 3d6 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 13} against disease or become {@condition emmetzinat}. At the end of each long rest, the {@condition emmetzinat} target pot repetir la salvada, ending the effect on itself on a success. If the target es queda a 0 punts de vida while {@condition emmetzinat} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell desig} spell. (See notes)"
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 3d6 + 2}) de dany perforant. If the target is a creature, ha de salvar per Constitució amb {@dc 13} against disease or become {@condition emmetzinat}. At the end of each long rest, the {@condition emmetzinat} target pot repetir la salvada. si supera, l'efecte s'acaba. If the target es queda a 0 punts de vida while {@condition emmetzinat} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell desig} spell. (See notes)"
 					]
 				}
 			],
@@ -17363,7 +17363,7 @@
 					"name": "Joyful Presence",
 					"entries": [
 						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 16}. Si falla, the creature is {@condition fascinat} durant 1 minut. Si supera, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
-						"Whenever the eladrin deals damage to the {@condition fascinat} creature, pot repetir la salvada, ending the effect on itself on a success."
+						"Whenever the eladrin deals damage to the {@condition fascinat} creature, pot repetir la salvada. si supera, l'efecte s'acaba."
 					]
 				},
 				{
@@ -20777,7 +20777,7 @@
 					"name": "Sorrowful Presence",
 					"entries": [
 						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin ha de salvar per Saviesa amb {@dc 13}. Si falla, the creature is {@condition fascinat} durant 1 minut. While {@condition fascinat} in this way, the creature has disadvantage on ability checks and saving throws. La criatura {@condition fascinat} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to any eladrin's Sorrowful Presence durant les properes 24 hores.",
-						"Whenever the eladrin deals damage to the {@condition fascinat} creature, pot repetir la salvada, ending the effect on itself on a success."
+						"Whenever the eladrin deals damage to the {@condition fascinat} creature, pot repetir la salvada. si supera, l'efecte s'acaba."
 					]
 				}
 			],
