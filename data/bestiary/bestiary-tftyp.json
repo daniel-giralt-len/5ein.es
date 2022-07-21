@@ -97,7 +97,7 @@
 				{
 					"name": "Debilitat Antimàgica",
 					"entries": [
-						"The table is {@condition incapacitat} while in the area of an camp antimàgic. If targeted by dissipar màgia, the table must succeed on a Constitució saving throw against the caster's spell save DC or fall {@condition inconscient} durant 1 minut."
+						"The table is {@condition incapacitat} while in the area of an camp antimàgic. If targeted by dissipar màgia, the table ha de salvar per Constitució contra la CD de salvada de conjur de qui el llança. Si falla, cau {@condition inconscient} durant 1 minut."
 					]
 				},
 				{
@@ -109,7 +109,7 @@
 				{
 					"name": "Carregar",
 					"entries": [
-						"Si the table es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un ram, tot al mateix torn, the target takes an extra 9 ({@damage 2d8}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
+						"Si the table es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un ram, tot al mateix torn, l'objectiu rep an extra 9 ({@damage 2d8}) de dany contundent. If the target is a creature, ha de salvar per Força amb {@dc 15} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -300,7 +300,7 @@
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Morningstar",
+						"replace": "Estel de l'Alba",
 						"items": {
 							"name": "Glaive",
 							"entries": [
@@ -332,7 +332,7 @@
 				"_mod": {
 					"action": {
 						"mode": "replaceArr",
-						"replace": "Morningstar",
+						"replace": "Estel de l'Alba",
 						"items": {
 							"name": "Espasa llarga",
 							"entries": [
@@ -515,7 +515,7 @@
 				{
 					"name": "Carregar",
 					"entries": [
-						"Si the centaure mummy es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un pike, tot al mateix torn, the target takes an extra 10 ({@damage 3d6}) de dany perforant."
+						"Si el centaure mummy es mou 20 peus com a mínim directe cap a un objectiu i l'impacta amb un pike, tot al mateix torn, l'objectiu rep an extra 10 ({@damage 3d6}) de dany perforant."
 					]
 				}
 			],
@@ -523,11 +523,11 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The centaure mummy makes two melee attacks, one with its pike and one with its hooves, or it attacks with its pike and uses Dreadful Glare."
+						"El centaure mummy makes two melee attacks, un amb la seva pica and un amb les seves peülles, or it attacks with its pike and uses Dreadful Glare."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Pica",
 					"entries": [
 						"{@atk mw} {@hit 8} a impactar, 10 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany perforant."
 					]
@@ -541,7 +541,7 @@
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"The centaure mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target ha de salvar per Saviesa amb {@dc 12} against this magic or become {@condition acovardit} until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralitzat} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not senyors de les mòmies) durant les properes 24 hores."
+						"El centaure mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target ha de salvar per Saviesa amb {@dc 12} against this magic or become {@condition acovardit} until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralitzat} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not senyors de les mòmies) durant les properes 24 hores."
 					]
 				}
 			],
@@ -694,7 +694,7 @@
 					"ac": 18,
 					"from": [
 						"{@item cota de malla|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -755,7 +755,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant."
 					]
@@ -961,7 +961,7 @@
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available."
+						"For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Força-based weapon attacks (ja sumat a l'atacs), and makes Força checks and Força saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available."
 					]
 				},
 				{
@@ -1029,7 +1029,7 @@
 					"ac": 19,
 					"from": [
 						"{@item armadura de làmines|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -1291,9 +1291,9 @@
 					"action": [
 						{
 							"mode": "replaceArr",
-							"replace": "Morningstar",
+							"replace": "Estel de l'Alba",
 							"items": {
-								"name": "Morningstar +2",
+								"name": "Estel de l'Alba +2",
 								"entries": [
 									"{@atk mw} {@hit 14} a impactar, 10 peus d'abast, un objectiu. {@h}23 ({@damage 3d8 + 10}) de dany perforant."
 								]
@@ -1477,7 +1477,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The gargoyle fa tres atacs: one with its bite and two with its claws."
+						"The gargoyle fa tres atacs: una Mossegada and two with its claws."
 					]
 				},
 				{
@@ -1528,11 +1528,11 @@
 			"hasToken": true
 		},
 		{
-			"name": "Gargantuan Rug of Smothering",
+			"name": "Gargantuan Catifa d'Asfixia",
 			"source": "TftYP",
 			"page": 56,
 			"_copy": {
-				"name": "Rug of Smothering",
+				"name": "Catifa d'Asfixia",
 				"source": "MM"
 			},
 			"size": "G",
@@ -1694,8 +1694,8 @@
 				{
 					"name": "Empassar",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, one Medium or smaller creature the toad is grappling. {@h}10 ({@damage 2d6 + 3}) de dany perforant, the target is swallowed, and the grapple ends. The swallowed target is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the toad, and it takes 10 ({@damage 3d6}) de dany d'àcid and 11 ({@damage 2d10}) de dany de fred at the start of each of the toad's turns. The toad can have only un objectiu swallowed at a time.",
-						"If the toad dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition enderrocat}."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, una criatura Mitjana o menor the toad is grappling. {@h}10 ({@damage 2d6 + 3}) de dany perforant, the target is swallowed, and the grapple ends. The swallowed target is {@condition encegat} and {@condition restrained}, té cobertura completa contra atacs i altres efectes de fora de the toad, and rep 10 ({@damage 3d6}) de dany d'àcid and 11 ({@damage 2d10}) de dany de fred at the start of each of the toad's turns. The toad can have only un objectiu swallowed at a time.",
+						"If the toad dies, una criatura empassad ja no està {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition enderrocat}."
 					]
 				}
 			],
@@ -1785,7 +1785,7 @@
 				{
 					"name": "Lightning Jolt {@recharge 5}",
 					"entries": [
-						"One creature the eel touches within 5 feet of it outside water, or each creature within 15 feet of it in a body of water, ha de salvar per Constitució amb {@dc 12}. On failed save, a target takes 13 ({@damage 3d8}) de dany elèctric. If the target takes any of this damage, the target is {@condition atordit} until the end of the eel's next turn. Si supera en rep la meitat i no està {@condition atordit}."
+						"One creature the eel touches within 5 feet of it outside water, or each creature within 15 feet of it in a body of water, ha de salvar per Constitució amb {@dc 12}. On failed save, a target takes 13 ({@damage 3d8}) de dany elèctric. If l'objectiu rep any of this damage, the target is {@condition atordit} until the end of the eel's next turn. Si supera en rep la meitat i no està {@condition atordit}."
 					]
 				}
 			],
@@ -1867,7 +1867,7 @@
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Giant però no pot parlar"
+				"comprèn Giant però no pot parlar"
 			],
 			"cr": "7",
 			"trait": [
@@ -1968,7 +1968,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The lizard fa dos atacs: one with its bite and one with its tail. One attack can be replaced by Swallow."
+						"The lizard fa dos atacs: una Mossegada and one with its tail. One attack can be replaced by Swallow."
 					]
 				},
 				{
@@ -1986,7 +1986,7 @@
 				{
 					"name": "Empassar",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, one Medium or smaller creature the lizard is grappling. {@h}16 ({@damage 2d10 + 5}) de dany perforant. The target is swallowed, and the grapple ends. The swallowed target is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the lizard, and it takes 10 ({@damage 3d6}) de dany d'àcid at the start of each of the lizard's turns. The lizard can have only un objectiu swallowed at a time.",
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, una criatura Mitjana o menor the lizard is grappling. {@h}16 ({@damage 2d10 + 5}) de dany perforant. The target is swallowed, and the grapple ends. The swallowed target is {@condition encegat} and {@condition restrained}, té cobertura completa contra atacs i altres efectes de fora de the lizard, and rep 10 ({@damage 3d6}) de dany d'àcid at the start of each of the lizard's turns. The lizard can have only un objectiu swallowed at a time.",
 						"Si the lizard mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				}
@@ -2242,7 +2242,7 @@
 					"ac": 15,
 					"from": [
 						"{@item armadura de cuir|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -2650,7 +2650,7 @@
 						},
 						{
 							"mode": "replaceArr",
-							"replace": "Morningstar",
+							"replace": "Estel de l'Alba",
 							"items": {
 								"name": "Longsword +2",
 								"entries": [
@@ -2815,7 +2815,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The troglodita fa tres atacs: one with its bite and two with its claws."
+						"The troglodita fa tres atacs: una Mossegada and two with its claws."
 					]
 				},
 				{
@@ -2936,7 +2936,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, and if the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}. Kalka-Kylla té dos claws, i cadascun només pot apresar  un objectiu."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent, and if the target is a Medium or smaller creature, està {@condition grappled} ({@dc 13} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}. Kalka-Kylla té dos claws, i cadascun només pot apresar  un objectiu."
 					]
 				}
 			],
@@ -3050,7 +3050,7 @@
 				{
 					"name": "Colpeig",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant. If the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 12} per escapar)."
+						"{@atk mw} {@hit 4} a impactar, 10 peus d'abast, un objectiu. {@h}11 ({@damage 2d8 + 2}) de dany perforant. If the target is a Medium or smaller creature, està {@condition grappled} ({@dc 12} per escapar)."
 					]
 				},
 				{
@@ -3394,7 +3394,7 @@
 				"paralitzat"
 			],
 			"idiomes": [
-				"understands Common però no pot parlar",
+				"comprèn Common però no pot parlar",
 				"telepatía 60 peus"
 			],
 			"cr": "10",
@@ -3434,7 +3434,7 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken 's tentacles is thrown fins a 60 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
+						"One Medium or smaller object held or creature {@condition grappled} by the kraken 's tentacles is thrown fins a 60 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, l'objectiu rep 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -3565,7 +3565,7 @@
 				{
 					"name": "Atac Sorpresa",
 					"entries": [
-						"Si the doppelganger sorprèn a una criatura i l'impacta durant la primera ronda de combat, l'objectiu rep, adicionalment, 10 ({@dice 3d6}) damage from the attack."
+						"Si the doppelganger sorprèn a una criatura i l'impacta durant la primera ronda de combat, l'objectiu rep, adicionalment, 10 ({@dice 3d6}) de dany extra de l'atac."
 					]
 				}
 			],
@@ -4023,7 +4023,7 @@
 				{
 					"name": "Corrosive Form",
 					"entries": [
-						"A creature that touches the Ooze Master or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) de dany d'àcid. Any nonmagical weapon that hits the Ooze Master corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. If its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition that hits the Ooze Master is destroyed after dealing damage.",
+						"Si una criatura toca the Ooze Master i l'impacta amb un atac cos a cos mentre hi està a 5 peus rep 9 ({@damage 2d8}) de dany d'àcid. Any nonmagical weapon that hits the Ooze Master corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. If its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition that hits the Ooze Master is destroyed after dealing damage.",
 						"The Ooze Master can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
 					]
 				},
@@ -4322,7 +4322,7 @@
 							"items": {
 								"name": "Multi-atac",
 								"entries": [
-									"The dragon turtle fa tres atacs: one with its bite and two with its claws."
+									"The dragon turtle fa tres atacs: una Mossegada and two with its claws."
 								]
 							}
 						}
@@ -4931,7 +4931,7 @@
 					"ac": 18,
 					"from": [
 						"{@item cota de malla|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -5256,7 +5256,7 @@
 				{
 					"name": "Multi-atac (Només en forma de Humanoid or Hybrid)",
 					"entries": [
-						"The home-llop fa dos atacs: one with its bite and one with its claws or spear."
+						"The home-llop fa dos atacs: una Mossegada and un amb les Urpes or spear."
 					]
 				},
 				{
@@ -5343,7 +5343,7 @@
 					"ac": 16,
 					"from": [
 						"{@item cota d'escates|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -5424,7 +5424,7 @@
 				{
 					"name": "Enlarge (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"For 1 minute, the màgia duergarally increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Força-based weapon attacks (included in the attacks), and makes Força checks and Força saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+						"For 1 minute, the màgia duergarally increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Força-based weapon attacks (ja sumat a l'atacs), and makes Força checks and Força saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
 					]
 				},
 				{
@@ -5434,7 +5434,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant, o 9 ({@damage 2d6 + 2}) de dany perforant while enlarged."
 					]
@@ -5494,7 +5494,7 @@
 				{
 					"name": "Steam Breath",
 					"entries": [
-						"The statue exhales steam in a line that is 30 feet long and 10 feet wide. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 15}, taking 7 ({@damage 2d4 + 2}) de dany de foc; si supera, en rep la meitat."
+						"The statue exhales steam en una línia de 30 peus de llarg i 10 peus d'ample. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 15}, taking 7 ({@damage 2d4 + 2}) de dany de foc; si supera, en rep la meitat."
 					]
 				}
 			],
@@ -6012,7 +6012,7 @@
 					"ac": 16,
 					"from": [
 						"{@item samarra de malla|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -6066,7 +6066,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}6 ({@damage 1d6 + 3}) de dany perforant."
 					]
@@ -6217,7 +6217,7 @@
 					"name": "Adhesive Blossoms",
 					"entries": [
 						"The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also {@condition grappled} by it ({@dc 11} per escapar). Ability checks made to escape this grapple have disadvantage.",
-						"Al final de cada torn de the thorn slinger, anything {@condition grappled} by it takes 3 ({@damage 1d6}) de dany d'àcid."
+						"Al final de cada torn de the thorn slinger, anything {@condition grappled} by rep 3 ({@damage 1d6}) de dany d'àcid."
 					]
 				},
 				{

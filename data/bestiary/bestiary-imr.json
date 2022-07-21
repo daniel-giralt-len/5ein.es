@@ -87,7 +87,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The ettin fa dos atacs: one with its battleaxe and one with its morningstar."
+						"The ettin fa dos atacs: one with its battleaxe and one with its estel de l'alba."
 					]
 				},
 				{
@@ -97,7 +97,7 @@
 					]
 				},
 				{
-					"name": "Morningstar",
+					"name": "Estel de l'Alba",
 					"entries": [
 						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 2d8 + 5}) de dany perforant."
 					]
@@ -926,7 +926,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The neo-otyugh fa tres atacs: one with its bite and two with its tentacles."
+						"The neo-otyugh fa tres atacs: una Mossegada and two with its tentacles."
 					]
 				},
 				{
@@ -938,13 +938,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany contundent. If the target is Large or smaller, it is {@condition grappled} ({@dc 16} per escapar) and {@condition restrained} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple un objectiu."
+						"{@atk mw} {@hit 8} a impactar, 15 peus d'abast, un objectiu. {@h}10 ({@damage 1d10 + 5}) de dany contundent. If the target is Large or smaller, està {@condition grappled} ({@dc 16} per escapar) and {@condition restrained} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple un objectiu."
 					]
 				},
 				{
 					"name": "Batre Tencacle",
 					"entries": [
-						"The neo-otyugh slams creatures {@condition grappled} by it into each other or a solid surface. Each creature ha de salvar per Constitució amb {@dc 16} or take 15 ({@damage 3d6 + 5}) de dany contundent and be {@condition atordit} until the end of the neo-otyugh's next turn. Si supera, the target takes half the dany contundent i no està {@condition atordit}."
+						"The neo-otyugh slams creatures {@condition grappled} by it into each other or a solid surface. Each creature ha de salvar per Constitució amb {@dc 16} or take 15 ({@damage 3d6 + 5}) de dany contundent and be {@condition atordit} until the end of the neo-otyugh's next turn. Si supera, l'objectiu rep half the dany contundent i no està {@condition atordit}."
 					]
 				}
 			],
@@ -1056,7 +1056,7 @@
 					"ac": 20,
 					"from": [
 						"{@item armadura de plaques|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -1105,9 +1105,9 @@
 					]
 				},
 				{
-					"name": "Brute",
+					"name": "Fera",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when Mestre Ursas hits with it (included in his attack)."
+						"Quan Mestre Ursas impacta amb un atac cos a cos, fa 1 dau de dany extra (included in his attack)."
 					]
 				}
 			],
@@ -1146,7 +1146,7 @@
 				}
 			],
 			"traitTags": [
-				"Brute"
+				"Fera"
 			],
 			"actionTags": [
 				"Multi-atac",
@@ -1678,7 +1678,7 @@
 				"paralitzat"
 			],
 			"idiomes": [
-				"understands Abyssal",
+				"comprèn Abyssal",
 				"Celestial",
 				"Diàstric",
 				"and Primordial però no pot parlar",
@@ -1710,7 +1710,7 @@
 					"name": "Mossegada",
 					"entries": [
 						"{@atk mw} {@hit 12} a impactar, 5 peus d'abast, un objectiu. {@h}20 ({@damage 3d8 + 7}) de dany perforant mes 5 ({@damage 1d10}) de dany d'àcid. If the target is a Medium or smaller creature {@condition grappled} by the kraken thessal, that creature is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de the kraken thessal, i rep 21 ({@damage 6d6}) de dany d'àcid a l'inici de cada torn de the kraken thessal's.",
-						"If the kraken thessal takes 35 damage or more on a single turn from a creature inside it, ha de salvar per Constitució amb {@dc 23} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of the kraken thessal. Si the kraken thessal mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
+						"If the kraken thessal rep 35 o més de dany en un sol torn from a creature inside it, ha de salvar per Constitució amb {@dc 23} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition enderrocat} in a space within 10 feet of the kraken thessal. Si the kraken thessal mor, una criatura empassada ja no està {@condition restrained} i pot escapar del cadàver fent servir 10 peus de moviment. Surt {@condition enderrocat}."
 					]
 				},
 				{
@@ -1722,7 +1722,7 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken thessal is thrown fins a 40 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
+						"One Medium or smaller object held or creature {@condition grappled} by the kraken thessal is thrown fins a 40 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, l'objectiu rep 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 16} or take the same damage and be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -1967,7 +1967,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The mussolós de dos caps fa tres atacs: two with its beaks and one with its claws."
+						"The mussolós de dos caps fa tres atacs: two with its beaks and un amb les Urpes."
 					]
 				},
 				{

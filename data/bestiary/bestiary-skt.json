@@ -78,7 +78,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant."
 					]
@@ -156,7 +156,7 @@
 					"ac": 15,
 					"from": [
 						"{@item samarra de malla|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -207,7 +207,7 @@
 			],
 			"action": [
 				{
-					"name": "Warhammer",
+					"name": "Martell de Guerra",
 					"entries": [
 						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany contundent, o 7 ({@damage 1d10 + 2}) de dany contundent si s'usa amb dues mans."
 					]
@@ -1038,7 +1038,7 @@
 					]
 				},
 				{
-					"name": "Morningstar",
+					"name": "Estel de l'Alba",
 					"entries": [
 						"{@atk mw} {@hit 12} a impactar, 10 peus d'abast, un objectiu. {@h}21 ({@damage 3d8 + 8}) de dany perforant."
 					]
@@ -1928,7 +1928,7 @@
 					"ac": 14,
 					"from": [
 						"{@item cuirassa|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -3438,7 +3438,7 @@
 							"mode": "replaceArr",
 							"replace": "Espasa Gran",
 							"items": {
-								"name": "Warhammer",
+								"name": "Martell de Guerra",
 								"entries": [
 									"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany contundent, o 8 ({@damage 1d10 + 3}) de dany contundent si s'usa amb dues mans."
 								]
@@ -3456,7 +3456,7 @@
 					"ac": 20,
 					"from": [
 						"{@item armadura de plaques|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -3655,7 +3655,7 @@
 				{
 					"name": "Fire Aura",
 					"entries": [
-						"A l'inici de cada torn de Maegera, each creature within 30 feet of it takes 35 ({@damage 10d6}) de dany de foc, and flammable objects in the aura que ningú estigui portant o vestint ignite. A creature also takes 35 ({@damage 10d6}) de dany de foc from touching Maegera or from hitting it with a melee attack while within 10 feet of it, and a creature takes that damage the first time on a turn that Maegera moves into its space. Nonmagical weapons that hit Maegera are destroyed by fire immediately after dealing damage to it."
+						"A l'inici de cada torn de Maegera, each creature within 30 feet of rep 35 ({@damage 10d6}) de dany de foc, and flammable objects in the aura que ningú estigui portant o vestint ignite. A creature also takes 35 ({@damage 10d6}) de dany de foc from touching Maegera or from hitting it with a melee attack while within 10 feet of it, and a creature takes that damage the first time on a turn that Maegera moves into its space. Nonmagical weapons that hit Maegera are destroyed by fire immediately after dealing damage to it."
 					]
 				},
 				{
@@ -3665,7 +3665,7 @@
 					]
 				},
 				{
-					"name": "Illumination",
+					"name": "Il·luminació",
 					"entries": [
 						"Maegera sheds bright light in a 120-foot radius and dim light in an additional 120 peus"
 					]
@@ -3713,7 +3713,7 @@
 			],
 			"hasToken": true,
 			"traitTags": [
-				"Illumination",
+				"Il·luminació",
 				"Resistència a la Màgia"
 			],
 			"senseTags": [
@@ -4885,14 +4885,14 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The wormling fa dos atacs: one with its bite and one with its stinger."
+						"The wormling fa dos atacs: una Mossegada and one with its stinger."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 5}) de dany perforant. If the target is a Small or smaller creature, ha de salvar per Destresa amb {@dc 13} or be swallowed by the worm. A swallowed creature is {@condition encegat} and {@condition restrained}, it has total cover against attacks and other effects outside the wormling, and it takes 3 ({@damage 1d6}) de dany d'àcid at the start of each of the wormling's turns.",
-						"Si the wormling rep 10 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 21} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the wormling. If the wormling dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 5 feet of movement, exiting {@condition enderrocat}."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 5}) de dany perforant. If the target is a Small or smaller creature, ha de salvar per Destresa amb {@dc 13} or be swallowed by the worm. A swallowed creature is {@condition encegat} and {@condition restrained}, té cobertura completa contra atacs i altres efectes de fora de the wormling, and rep 3 ({@damage 1d6}) de dany d'àcid at the start of each of the wormling's turns.",
+						"Si the wormling rep 10 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 21} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de the wormling. If the wormling dies, una criatura empassad ja no està {@condition restrained} by it and can escape from the corpse by using 5 feet of movement, exiting {@condition enderrocat}."
 					]
 				},
 				{
@@ -5337,7 +5337,7 @@
 			],
 			"action": [
 				{
-					"name": "Warhammer",
+					"name": "Martell de Guerra",
 					"entries": [
 						"{@atk mw} {@hit 3} a impactar, 5 peus d'abast, un objectiu. {@h}5 ({@damage 1d8 + 1}) de dany contundent, o 6 ({@damage 1d10 + 1}) de dany contundent si s'usa amb dues mans."
 					]
@@ -5665,7 +5665,7 @@
 				"paralitzat"
 			],
 			"idiomes": [
-				"understands Abyssal",
+				"comprèn Abyssal",
 				"Celestial",
 				"Diàstric",
 				"and Primordial però no pot parlar",
@@ -5790,7 +5790,7 @@
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 17} a impactar, 5 peus d'abast, un objectiu. {@h}23 ({@damage 3d8 + 10}) de dany perforant. If the target is a Large or smaller creature {@condition grappled} by Slarkrethel, that creature is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de Slarkrethel, i rep 42 ({@damage 12d6}) de dany d'àcid a l'inici de cada torn de Slarkrethel's. Si Slarkrethel rep 50 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 25} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de Slarkrethel. If Slarkrethel dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition enderrocat}."
+						"{@atk mw} {@hit 17} a impactar, 5 peus d'abast, un objectiu. {@h}23 ({@damage 3d8 + 10}) de dany perforant. Si l'objectiu és una criatura Gran o menor {@condition grappled} by Slarkrethel, that creature is swallowed, and the grapple ends. Una criatura empassada està {@condition encegat} i {@condition restrained}, té cobertura total contra atacs fora de Slarkrethel, i rep 42 ({@damage 12d6}) de dany d'àcid a l'inici de cada torn de Slarkrethel's. Si Slarkrethel rep 50 o més de dany en un sol torn d'una criatura a dins seu, ha de salvar per Constitució amb {@dc 25} al final del torn. Si falla, regurgita tota criatura empassada, que queden {@condition enderrocat} a 10 peus d'abast de Slarkrethel. If Slarkrethel dies, una criatura empassad ja no està {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition enderrocat}."
 					]
 				},
 				{
@@ -5802,7 +5802,7 @@
 				{
 					"name": "Estimbar",
 					"entries": [
-						"One Large or smaller object held or creature {@condition grappled} by Slarkrethel is thrown fins a 60 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 18} or take the same damage and be knocked {@condition enderrocat}."
+						"One Large or smaller object held or creature {@condition grappled} by Slarkrethel is thrown fins a 60 peus in a random direction and knocked {@condition enderrocat}. If a thrown target strikes a solid surface, l'objectiu rep 3 ({@damage 1d6}) de dany contundent for every 10 feet it was thrown. If the target is thrown at another creature, that creature ha de salvar per Destresa amb {@dc 18} or take the same damage and be knocked {@condition enderrocat}."
 					]
 				},
 				{
@@ -6345,7 +6345,7 @@
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Common però no pot parlar"
+				"comprèn Common però no pot parlar"
 			],
 			"cr": "0",
 			"trait": [
@@ -6572,11 +6572,11 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"Urgala fa dos atacs with her morningstar or her shortbow."
+						"Urgala fa dos atacs with her estel de l'alba or her shortbow."
 					]
 				},
 				{
-					"name": "Morningstar",
+					"name": "Estel de l'Alba",
 					"entries": [
 						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant."
 					]
@@ -7312,7 +7312,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 5} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany perforant."
 					]

@@ -141,7 +141,9 @@
 |Target|Objectiu
 |Teleport|Teletransportació O BÉ Teleportació
 |To hit|A impactar
+|Tremorsense|Tremoltecció
 |Truesight|Visió veraç
+|Unaligned|Desalineat
 |Underdark|Sotafoscor
 |Unconscious|Inconscient
 |Walking speed|Velocitat de caminar

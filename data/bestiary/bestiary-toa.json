@@ -988,7 +988,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}5 ({@damage 1d6 + 2}) de dany perforant."
 					]
@@ -1086,7 +1086,7 @@
 				{
 					"name": "Constrènyer",
 					"entries": [
-						"{@atk mw} {@hit 6} a impactar, 20 peus d'abast, una criatura. {@h}The target takes 11 ({@damage 2d6 + 4}) de dany contundent, and it is {@condition grappled} ({@dc 14} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and it takes 21 ({@damage 6d6}) de dany de verí a l'inici de cada torn seu. The vine can constrict only un objectiu at a time."
+						"{@atk mw} {@hit 6} a impactar, 20 peus d'abast, una criatura. {@h}L'objectiu rep 11 ({@damage 2d6 + 4}) de dany contundent, and està {@condition grappled} ({@dc 14} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and rep 21 ({@damage 6d6}) de dany de verí a l'inici de cada torn seu. The vine can constrict only un objectiu at a time."
 					]
 				},
 				{
@@ -1185,7 +1185,7 @@
 				"emmetzinat"
 			],
 			"idiomes": [
-				"understands Celestial but utters only obscene nonsense"
+				"comprèn Celestial but utters only obscene nonsense"
 			],
 			"cr": "13",
 			"trait": [
@@ -1615,7 +1615,7 @@
 					"ac": 17,
 					"from": [
 						"armadura natural",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -1666,9 +1666,9 @@
 					]
 				},
 				{
-					"name": "Brute",
+					"name": "Fera",
 					"entries": [
-						"A melee weapon deals one extra die of its damage when the gladiador hits with it (included in the attack)."
+						"Quan the gladiador impacta amb un atac cos a cos, fa 1 dau de dany extra (ja sumat a l'atac)."
 					]
 				}
 			],
@@ -1702,7 +1702,7 @@
 			],
 			"hasToken": true,
 			"traitTags": [
-				"Brute"
+				"Fera"
 			],
 			"actionTags": [
 				"Multi-atac",
@@ -1741,7 +1741,7 @@
 					"ac": 17,
 					"from": [
 						"{@item cuirassa|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -1768,7 +1768,7 @@
 			},
 			"passive": 13,
 			"idiomes": [
-				"understands Common però no pot parlar"
+				"comprèn Common però no pot parlar"
 			],
 			"cr": "5",
 			"trait": [
@@ -2217,7 +2217,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The gargoyle fa cinc atacs: one with its bite and four with its claws."
+						"The gargoyle fa cinc atacs: una Mossegada and four with its claws."
 					]
 				},
 				{
@@ -2274,7 +2274,7 @@
 				},
 				{
 					"ac": 12,
-					"condition": "while prone"
+					"condition": "mentre està enderrocat"
 				}
 			],
 			"hp": {
@@ -2394,7 +2394,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The zombie fa cinc atacs: one with its bite and four with its claws."
+						"The zombie fa cinc atacs: una Mossegada and four with its claws."
 					]
 				},
 				{
@@ -2702,7 +2702,7 @@
 				{
 					"name": "Spring",
 					"entries": [
-						"The jaculi springs fins a 30 peus en línia recta and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 ({@damage 2d6}) de dany perforant."
+						"The jaculi springs fins a 30 peus en línia recta and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. Si impacta, the bite deals an extra 7 ({@damage 2d6}) de dany perforant."
 					]
 				}
 			],
@@ -2825,7 +2825,7 @@
 				{
 					"name": "Abraonar",
 					"entries": [
-						"If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn that target ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}. If the target is knocked {@condition enderrocat}, the kamadan can make two attacks\u2014one with its bite and one with its snakes\u2014against it as a bonus action."
+						"If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn that target ha de salvar per Força amb {@dc 13} or be knocked {@condition enderrocat}. If the target is knocked {@condition enderrocat}, the kamadan can make two attacks\u2014una Mossegada and one with its snakes\u2014against it as a bonus action."
 					]
 				}
 			],
@@ -2833,7 +2833,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The kamadan fa dos atacs: one with its bite or claw and one with its snakes."
+						"The kamadan fa dos atacs: una Mossegada or claw and one with its snakes."
 					]
 				},
 				{
@@ -2951,13 +2951,13 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The King of Feathers fa dos atacs: one with its bite and one with its tail. It can't make both attacks against the same target."
+						"The King of Feathers fa dos atacs: una Mossegada and one with its tail. It can't make both attacks against the same target."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 10 peus d'abast, un objectiu. {@h}33 ({@damage 4d12 + 7}) de dany perforant. If the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 17} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the tyrannosaurus can't bite another target."
+						"{@atk mw} {@hit 10} a impactar, 10 peus d'abast, un objectiu. {@h}33 ({@damage 4d12 + 7}) de dany perforant. If the target is a Medium or smaller creature, està {@condition grappled} ({@dc 17} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained}, and the tyrannosaurus can't bite another target."
 					]
 				},
 				{
@@ -3107,7 +3107,7 @@
 					"ac": 15,
 					"from": [
 						"{@item armadura de cuir tatxonada|phb}",
-						"{@item shield|phb}"
+						"{@item shield|phb|escut}"
 					]
 				}
 			],
@@ -3255,7 +3255,7 @@
 				{
 					"name": "Engulf",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Medium or smaller creature. {@h}The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is {@condition encegat} and {@condition restrained}, has total cover from an attacks and other effects outside the mantrap, and takes 14 ({@damage 4d6}) de dany d'àcid at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer {@condition restrained} by it. A mantrap can engulf only one creature at a time."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura Mitjana o menor. {@h}The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is {@condition encegat} and {@condition restrained}, has total cover from an attacks and other effects outside the mantrap, and takes 14 ({@damage 4d6}) de dany d'àcid a l'inici de cada torn de l'objectiu. If the mantrap dies, the creature inside it is no longer {@condition restrained} by it. A mantrap can engulf only one creature at a time."
 					]
 				}
 			],
@@ -3658,7 +3658,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The pterafolk fa tres atacs: one with its bite and two with its claws. Alternativament, it makes two melee attacks with its javelin."
+						"The pterafolk fa tres atacs: una Mossegada and two with its claws. Alternativament, it makes two melee attacks with its javelina."
 					]
 				},
 				{
@@ -3674,7 +3674,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Javelina",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} a impactar, 5 peus d'abast o 30/120 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany perforant."
 					]
@@ -4412,7 +4412,7 @@
 				{
 					"name": "Colpeig",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 3d12 + 6}) de dany contundent. If the target is a Large or smaller creature, ha de salvar per Força amb {@dc 17} or be knocked {@condition enderrocat}."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, un objectiu. {@h}25 ({@damage 3d12 + 6}) de dany contundent. Si l'objectiu és una criatura Gran o menor, ha de salvar per Força amb {@dc 17} or be knocked {@condition enderrocat}."
 					]
 				}
 			],
@@ -4474,7 +4474,7 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The su-monster fa dos atacs: one with its bite and one with its claws."
+						"The su-monster fa dos atacs: una Mossegada and un amb les Urpes."
 					]
 				},
 				{
@@ -5125,7 +5125,7 @@
 				{
 					"name": "Red Blossom",
 					"entries": [
-						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, una criatura. {@h}2 ({@damage 1d4}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 11} per escapar). Mentre duri aquesta presa, the target takes 5 ({@damage 2d4}) de dany de verí a l'inici de cada torn seu. The red blossom can grapple only un objectiu at a time. Another creature within abast of the tri-flower frond can use its action to end the grapple on the target."
+						"{@atk mw} {@hit 2} a impactar, 5 peus d'abast, una criatura. {@h}2 ({@damage 1d4}) de dany perforant, i l'objectiu està {@condition grappled} ({@dc 11} per escapar). Mentre duri aquesta presa, l'objectiu rep 5 ({@damage 2d4}) de dany de verí a l'inici de cada torn seu. The red blossom can grapple only un objectiu at a time. Another creature within abast of the tri-flower frond can use its action to end the grapple on the target."
 					]
 				}
 			],
@@ -5211,13 +5211,13 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The tyrannosaurus zombie fa dos atacs: one with its bite and one with its tail. It can't make both attacks against the same target."
+						"The tyrannosaurus zombie fa dos atacs: una Mossegada and one with its tail. It can't make both attacks against the same target."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 10 peus d'abast, un objectiu. {@h}33 ({@damage 4d12 + 7}) de dany perforant. If the target is a Medium or smaller creature, it is {@condition grappled} ({@dc 17} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained} and the tyrannosaurus zombie can't bite another target or disgorge zombies."
+						"{@atk mw} {@hit 10} a impactar, 10 peus d'abast, un objectiu. {@h}33 ({@damage 4d12 + 7}) de dany perforant. If the target is a Medium or smaller creature, està {@condition grappled} ({@dc 17} per escapar). Fins que s'acabi aquesta presa, l'objectiu està {@condition restrained} and the tyrannosaurus zombie can't bite another target or disgorge zombies."
 					]
 				},
 				{
@@ -5687,12 +5687,12 @@
 			"source": "ToA",
 			"page": 141,
 			"_copy": {
-				"name": "Water Weird",
+				"name": "Aigüextranya",
 				"source": "MM",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "water weird",
+						"replace": "aigüextranya",
 						"with": "wine weird"
 					}
 				}
