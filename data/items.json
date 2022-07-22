@@ -9260,7 +9260,7 @@
 					"type": "entries",
 					"name": "Conjurs",
 					"entries": [
-						"The book té 8 càrregues. recupera {@dice 1d8} càrregues gastades cada dia a trenc d'alba. Mentre l'empunyes, pots, com a acció, cast {@spell Riure Horrible de la Tasha} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: {@spell cercle màgic} (1 charge), {@spell gerra màgica} (3 charges), {@spell planar ally} (3 charges), {@spell vincle planar} (2 charges), {@spell saltar de pla} (to layers of the Abyss only; 3 charges), {@spell convocar infernal|TCE} (3 charges)."
+						"The book té 8 càrregues. recupera {@dice 1d8} càrregues gastades cada dia a trenc d'alba. Mentre l'empunyes, pots, com a acció, cast {@spell Riure Horrible de la Tasha} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: {@spell cercle màgic} (1 charge), {@spell gerra màgica} (3 charges), {@spell aliança planar} (3 charges), {@spell vincle planar} (2 charges), {@spell saltar de pla} (to layers of the Abyss only; 3 charges), {@spell convocar infernal|TCE} (3 charges)."
 					]
 				},
 				{
@@ -9304,7 +9304,7 @@
 			"attachedSpells": [
 				"cercle màgic",
 				"gerra màgica",
-				"planar ally",
+				"aliança planar",
 				"vincle planar",
 				"saltar de pla",
 				"convocar infernal|tce",
@@ -20224,7 +20224,7 @@
 			"value": 250000
 		},
 		{
-			"name": "Necklace of Prayer Beads",
+			"name": "Rosari de Pregària",
 			"source": "DMG",
 			"page": 182,
 			"srd": true,
@@ -20245,14 +20245,14 @@
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This necklace has {@dice 1d4 + 2} magic beads made from aquamarine, black pearl, or topazi. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.",
-				"Six types of magic beads exist. El/la/li MM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead no es pot tornar a utilitzar fins el proper trenc d'alba.",
+				"El collaret té {@dice 1d4 + 2} esferes màgiques: aiguamarines, perles negres, o topazos. També té esferes no-màgiques: ambres, pedres de sang, citrins, coralls, jades, perles, o quartzos. Si se separa una de les esferes màgiques del collaret, aquest per la seva màgia.",
+				"Existeixen 6 menes d'esferes màgiques. El/la/li MM escull la mena de cada tipus o les escull a l'atzar. Per a emprar-ne una, has de dur el collaret. Cada esfera contè un conjur que pots llançar com a acció bonus (si es necessita una CD de salvada de conjur, fes servir el teu). Un cop es llança el conjur d'una esfera, aquesta no es pot tornar a utilitzar fins el proper trenc d'alba.",
 				{
 					"type": "table",
 					"colLabels": [
 						"{@dice d20}",
-						"Bead of...",
-						"Spell"
+						"Esfera de...",
+						"Conjur"
 					],
 					"colStyles": [
 						"col-1 text-center",
@@ -20262,13 +20262,13 @@
 					"rows": [
 						[
 							"1-6",
-							"Blessing",
+							"Benedicció",
 							"{@spell Beneir}"
 						],
 						[
 							"7-12",
-							"Curing",
-							"{@spell Curar Ferides} (nivell 2) or {@spell restabliment menor}"
+							"Sanació",
+							"{@spell Curar Ferides} (nivell 2) o {@spell restabliment menor}"
 						],
 						[
 							"13-16",
@@ -20277,17 +20277,17 @@
 						],
 						[
 							"17-18",
-							"Smiting",
+							"Càstig",
 							"{@spell Càstig Marcador}"
 						],
 						[
 							"19",
-							"Summons",
-							"{@spell Planar ally}"
+							"Convocació",
+							"{@spell Aliança planar}"
 						],
 						[
 							"20",
-							"Wind walking",
+							"Caminar pel cel",
 							"{@spell Pas del Vent}"
 						]
 					]
@@ -20299,7 +20299,7 @@
 				"restabliment menor",
 				"restabliment superior",
 				"càstig marcador",
-				"planar ally",
+				"aliança planar",
 				"pas del vent"
 			],
 			"lootTables": [
