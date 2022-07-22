@@ -3468,7 +3468,7 @@
 					"type": "entries",
 					"name": "Flying Creatures and Falling",
 					"entries": [
-						"A flying creature in flight falls if it is knocked {@condition enderrocat}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as the {@spell volar} spell.",
+						"A flying creature in flight falls if it is knocked {@condition enderrocat}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as el conjur {@spell volar}.",
 						"If you'd like a flying creature to have a better chance of surviving a fall than a non-flying creature does, use this rule: subtract the creature's current flying speed from the distance it fell before calculating falling damage. This rule is helpful to a flier that is knocked {@condition enderrocat} but is still conscious and has a current flying speed that is greater than 0 feet. The rule is designed to simulate the creature flapping its wings furiously or taking similar measures to slow the velocity of its fall.",
 						"If you use the rule for rate of falling in the previous section, a flying creature descends 500 feet on the turn when it falls, just as other creatures do. But if that creature starts any of its later turns still falling i està {@condition enderrocat}, it can halt the fall on its turn by spending half its flying speed to counter the {@condition enderrocat} condition (as if it were standing up in midair)."
 					]
@@ -3481,7 +3481,7 @@
 			"page": 347,
 			"ruleType": "V",
 			"entries": [
-				"Any spellcaster that can cast the {@spell trobar familiar} spell (such as an apprentice, warlock, or wizard) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the {@i Manual del Jugador}) or some other {@filter Tiny monster|bestiary|size=T|miscellaneous=!swarm}, such as a {@creature ma reptadora}, an {@creature imp}, a {@creature pseudodragon}, or a {@creature quasit}.",
+				"Any spellcaster that can cast el conjur {@spell trobar familiar} (such as an apprentice, warlock, or wizard) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the {@i Manual del Jugador}) or some other {@filter Tiny monster|bestiary|size=T|miscellaneous=!swarm}, such as a {@creature ma reptadora}, an {@creature imp}, a {@creature pseudodragon}, or a {@creature quasit}.",
 				"{@note This variant is {@link intended for NPCs.|https://twitter.com/JeremyECrawford/status/920714594334654465}}"
 			]
 		},
@@ -3491,7 +3491,7 @@
 			"page": 213,
 			"ruleType": "V",
 			"entries": [
-				"Any spellcaster that can cast the {@spell trobar familiar} spell (such as an apprentice, warlock, or wizard) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the {@i Manual del Jugador}) or some other {@filter Tiny monster|bestiary|size=T|miscellaneous=!swarm}, such as a {@creature cranium rat|vgm}, a {@creature ma reptadora}, a {@creature gazer|vgm}, an {@creature imp}, a {@creature pseudodragon}, or a {@creature quasit}.",
+				"Any spellcaster that can cast el conjur {@spell trobar familiar} (such as an apprentice, warlock, or wizard) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the {@i Manual del Jugador}) or some other {@filter Tiny monster|bestiary|size=T|miscellaneous=!swarm}, such as a {@creature cranium rat|vgm}, a {@creature ma reptadora}, a {@creature gazer|vgm}, an {@creature imp}, a {@creature pseudodragon}, or a {@creature quasit}.",
 				"{@note This variant is {@link intended for NPCs.|https://twitter.com/JeremyECrawford/status/920714594334654465}}"
 			]
 		},
@@ -3645,8 +3645,8 @@
 							"name": "Reducing Stress",
 							"entries": [
 								"A character who spends an entire day relaxing or in otherwise calm circumstances reduces their Stress Score by 1 when they finish their next long rest.",
-								"The {@spell apaivagar emocions} spell effect used to suppress the {@condition fascinat} and {@condition acovardit} conditions also suppresses the effects of one's Stress Score durant la duració del conjur.",
-								"A {@spell restabliment menor} spell reduces the target's Stress Score by 1, and a {@spell restabliment superior} spell reduces a character's Stress Score to 0."
+								"El conjur {@spell apaivagar emocions} effect used to suppress the {@condition fascinat} and {@condition acovardit} conditions also suppresses the effects of one's Stress Score durant la duració del conjur.",
+								"Un conjur {@spell restabliment menor} reduces the target's Stress Score by 1, and un conjur {@spell restabliment superior} reduces a character's Stress Score to 0."
 							]
 						}
 					]
@@ -4002,7 +4002,7 @@
 					"type": "entries",
 					"name": "Disarming Haunted Traps",
 					"entries": [
-						"Characters who notice a haunted trap before it activates can attempt to disarm it. Typical methods of disarming traps, such as thieves' tools and {@spell dissipar màgia}, don't affect haunted traps. However, the Canalitzar Divinitat class feature and the {@spell anul·lar maledicció} spell can disarm a haunted trap.",
+						"Characters who notice a haunted trap before it activates can attempt to disarm it. Typical methods of disarming traps, such as thieves' tools and {@spell dissipar màgia}, don't affect haunted traps. However, the Canalitzar Divinitat class feature and el conjur {@spell anul·lar maledicció} can disarm a haunted trap.",
 						"To use Canalitzar Divinitat to disarm a haunted trap, a character uses an action to present their holy symbol and speak a prayer. To use {@spell anul·lar maledicció} instead, a character must cast the spell and touch an object that is part of the trap. Whichever disarming method is used, the trap itself then makes a saving throw against the character's spell save DC, adding its Haunt Bonus to the save. On a failure, the trap is disarmed for 24 hours. If the trap fails the save by 10 or more, the trap is disarmed permanently.",
 						"Depending on the haunted trap's origins, certain spells might also affect the trap. For example, a haunted trap with a fiendish origin might be permanently disarmed by the spell {@spell dissipar el bé i el mal}.",
 						"Some haunted traps might also be disarmed in nonmagical ways related to the history of a haunted area. Such methods might be as simple as wearing the clothes of a haunted house's former owner or singing a lullaby that soothes a restless spirit. Haunted traps disarmed in such ways typically remain disarmed for 24 hours."
@@ -4027,7 +4027,7 @@
 							"name": "Faceless Malice",
 							"entries": [
 								"{@i Haunt Bonus +2}",
-								"This haunted trap affects a 15-foot-cube in front of an ornate mirror hanging on a wall. When a visible creature enters the area, the trap's emanation manifests as the creature's distorted reflection in the mirror. If that creature is still in the area at the start of its next turn, ha de salvar per Saviesa (CD 12). Si falla, està {@condition encegat}, {@condition eixordat}, and rendered unable to speak durant 1 minut. Additionally, an illusion makes it appear that the creature has had its face erased. The {@spell anul·lar maledicció} spell ends this effect, as does destroying the mirror. The mirror has AC 12, 10 hit points, vulnerability to dany contundent, and immunity to poison and psychic damage. After a creature fails its saving throw against the trap, the trap won't activate again for 24 hours.",
+								"This haunted trap affects a 15-foot-cube in front of an ornate mirror hanging on a wall. When a visible creature enters the area, the trap's emanation manifests as the creature's distorted reflection in the mirror. If that creature is still in the area at the start of its next turn, ha de salvar per Saviesa (CD 12). Si falla, està {@condition encegat}, {@condition eixordat}, and rendered unable to speak durant 1 minut. Additionally, an illusion makes it appear that the creature has had its face erased. El conjur {@spell anul·lar maledicció} ends this effect, as does destroying the mirror. The mirror has AC 12, 10 hit points, vulnerability to dany contundent, and immunity to poison and psychic damage. After a creature fails its saving throw against the trap, the trap won't activate again for 24 hours.",
 								{
 									"type": "image",
 									"href": {
@@ -4392,15 +4392,15 @@
 					"rows": [
 						[
 							"1",
-							"{@bold Lose an Eye.} You have disadvantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista and on ranged attack rolls. Magic such as the {@spell regeneració} spell can restore the lost eye. If you have no eyes left after sustaining this injury, you're {@condition encegat}."
+							"{@bold Lose an Eye.} You have disadvantage a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista and on ranged attack rolls. Magic such as el conjur {@spell regeneració} can restore the lost eye. If you have no eyes left after sustaining this injury, you're {@condition encegat}."
 						],
 						[
 							"2",
-							"{@bold Lose an Arm or a Hand.} You can no longer hold anything with two hands, and you can hold only a single object at a time. Magic such as the {@spell regeneració} spell can restore the lost appendage."
+							"{@bold Lose an Arm or a Hand.} You can no longer hold anything with two hands, and you can hold only a single object at a time. Magic such as el conjur {@spell regeneració} can restore the lost appendage."
 						],
 						[
 							"3",
-							"{@bold Lose a Foot or Leg.} Your speed on foot is halved, and you must use a cane or crutch to move unless you have a peg leg or other prosthesis. You fall {@condition enderrocat} after using the Dash action. You have disadvantage on Destresa checks made to balance. Magic such as the {@spell regeneració} spell can restore the lost appendage."
+							"{@bold Lose a Foot or Leg.} Your speed on foot is halved, and you must use a cane or crutch to move unless you have a peg leg or other prosthesis. You fall {@condition enderrocat} after using the Dash action. You have disadvantage on Destresa checks made to balance. Magic such as el conjur {@spell regeneració} can restore the lost appendage."
 						],
 						[
 							"4",
@@ -4702,7 +4702,7 @@
 								],
 								[
 									"31-40",
-									"The character regards something (usually the source of madness) with intense revulsion, as if affected by the antipathy effect of the {@spell antipatia/simpatia} spell."
+									"The character regards something (usually the source of madness) with intense revulsion, as if affected by the antipathy effect of el conjur {@spell antipatia/simpatia}."
 								],
 								[
 									"41-45",
@@ -4726,7 +4726,7 @@
 								],
 								[
 									"86-90",
-									"Whenever the character takes damage, he or she ha de salvar per Saviesa (CD 15). Si falla, be affected as though he or she failed a saving throw against the {@spell confusió} spell. The confusion effect dura 1 minut."
+									"Whenever the character takes damage, he or she ha de salvar per Saviesa (CD 15). Si falla, be affected as though he or she failed a saving throw against el conjur {@spell confusió}. The confusion effect dura 1 minut."
 								],
 								[
 									"91-95",
@@ -4806,7 +4806,7 @@
 					"type": "entries",
 					"name": "Curing Madness",
 					"entries": [
-						"A {@spell apaivagar emocions} spell can suppress the effects of madness, while a {@spell restabliment menor} spell can rid a character of a short-term or long-term madness. Depending on the source of the madness, {@spell anul·lar maledicció} or {@spell dissipar el bé i el mal||dispel evil} might also prove effective. A {@spell restabliment superior} spell or more powerful magic is required to rid a character of indefinite madness."
+						"Un conjur {@spell apaivagar emocions} can suppress the effects of madness, while un conjur {@spell restabliment menor} can rid a character of a short-term or long-term madness. Depending on the source of the madness, {@spell anul·lar maledicció} or {@spell dissipar el bé i el mal||dispel evil} might also prove effective. Un conjur {@spell restabliment superior} or more powerful magic is required to rid a character of indefinite madness."
 					]
 				}
 			]
@@ -6325,7 +6325,7 @@
 										],
 										[
 											"5",
-											"Creatures must succeed on a DC 10 Constitució saving throw at the end of each hour they spend on the island. If they fail, they gain a 1-inch scar in a random place on their body. Only a {@spell anul·lar maledicció} spell or similar magic removes the scar."
+											"Creatures must succeed on a DC 10 Constitució saving throw at the end of each hour they spend on the island. If they fail, they gain a 1-inch scar in a random place on their body. Only un conjur {@spell anul·lar maledicció} or similar magic removes the scar."
 										],
 										[
 											"6",
@@ -6961,7 +6961,7 @@
 									"rows": [
 										[
 											"1",
-											"The island hides a spring that restores life to anyone washed in it, as per the {@spell llevar als morts} spell. A creature can only benefit from the spring once."
+											"The island hides a spring that restores life to anyone washed in it, as per el conjur {@spell llevar als morts}. A creature can only benefit from the spring once."
 										],
 										[
 											"2",
@@ -7991,7 +7991,7 @@
 							"name": "Time Warp",
 							"entries": [
 								"While time seems to pass normally in the Terra Fata, characters might spend a day there and realize, upon leaving the plane, that less or more time has elapsed everywhere else in the multiverse.",
-								"Whenever a creature or group of creatures leaves the Terra Fata after spending at least 1 day on that plane, you can choose a time change that works best for your campaign, if any, or roll on the Terra Fata Time Warp table. A {@spell desig} spell can be used to remove the effect on up to ten creatures. Some powerful fey have the ability to grant such wishes and might do so if the beneficiaries agree to subject themselves to a {@spell geas} spell and complete a quest after the {@spell desig} spell is cast.",
+								"Whenever a creature or group of creatures leaves the Terra Fata after spending at least 1 day on that plane, you can choose a time change that works best for your campaign, if any, or roll on the Terra Fata Time Warp table. Un conjur {@spell desig} can be used to remove the effect on up to ten creatures. Some powerful fey have the ability to grant such wishes and might do so if the beneficiaries agree to subject themselves to un conjur {@spell geas} and complete a quest after el conjur {@spell desig} is cast.",
 								{
 									"type": "table",
 									"caption": "Terra Fata Time Warp",
@@ -8067,7 +8067,7 @@
 							]
 						},
 						"If a character is already suffering a despair effect and fails the saving throw, the new despair effect replaces the old one. After finishing a long rest, a character can attempt to overcome the despair with a DC 15 Saviesa saving throw. (The DC is higher because it's harder to shake off despair once it has taken hold.) Si supera, the despair effect ends for that character.",
-						"A {@spell apaivagar emocions} spell removes despair, as does any spell or other magical effect that removes a curse."
+						"Un conjur {@spell apaivagar emocions} removes despair, as does any spell or other magical effect that removes a curse."
 					]
 				},
 				{
@@ -8081,21 +8081,21 @@
 					"type": "entries",
 					"name": "Mount Celestia: Blessed Beneficence",
 					"entries": [
-						"In contrast to the dissonance experienced by evil creatures here, good creatures are literally blessed by the pervasive beneficence of the plane. Creatures of good alignment gain the benefit of the {@spell beneir} spell as long as they remain on the plane. A més, finishing a long rest on the plane grants a good creature the benefit of a {@spell restabliment menor} spell."
+						"In contrast to the dissonance experienced by evil creatures here, good creatures are literally blessed by the pervasive beneficence of the plane. Creatures of good alignment gain the benefit of el conjur {@spell beneir} as long as they remain on the plane. A més, finishing a long rest on the plane grants a good creature the benefit of un conjur {@spell restabliment menor}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Bytopia: Pervasive Goodwill",
 					"entries": [
-						"At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good ha de salvar per Saviesa (CD 10). Si falla, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the {@spell dissipar el bé i el mal} spell on the creature also restores its original alignment."
+						"At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good ha de salvar per Saviesa (CD 10). Si falla, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting el conjur {@spell dissipar el bé i el mal} on the creature also restores its original alignment."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Elysium: Overwhelming Joy",
 					"entries": [
-						"Visitors spending any time on this plane risk becoming trapped by overwhelming sensations of contentment and happiness. At the end of each long rest taken on this plane, a visitor ha de salvar per Saviesa (CD 10). Si falla, the creature is unwilling to leave the plane before taking another long rest. After three failed saving throws, the creature never willingly leaves the plane and, if forcibly removed, does everything in its power to return to the plane. A {@spell dissipar el bé i el mal} spell removes this effect from the creature."
+						"Visitors spending any time on this plane risk becoming trapped by overwhelming sensations of contentment and happiness. At the end of each long rest taken on this plane, a visitor ha de salvar per Saviesa (CD 10). Si falla, the creature is unwilling to leave the plane before taking another long rest. After three failed saving throws, the creature never willingly leaves the plane and, if forcibly removed, does everything in its power to return to the plane. Un conjur {@spell dissipar el bé i el mal} removes this effect from the creature."
 					]
 				},
 				{
@@ -8109,14 +8109,14 @@
 					"type": "entries",
 					"name": "The Terrabèstia: Beast Transformation",
 					"entries": [
-						"Whenever a visitor slays a beast native to the plane, the slayer ha de salvar per Carisma (CD 10). Si falla, become transformed (as the polymorph spell) into the type of beast that was slain. In this form, the creature retains its intelligence and ability to speak. At the end of each long rest, the polymorphed creature pot repetir la salvada. On a successful saving throw, the creature returns to its true form. After three failed saving throws. the transformation can be undone only by a {@spell anul·lar maledicció} spell or similar magic. "
+						"Whenever a visitor slays a beast native to the plane, the slayer ha de salvar per Carisma (CD 10). Si falla, become transformed (as the polymorph spell) into the type of beast that was slain. In this form, the creature retains its intelligence and ability to speak. At the end of each long rest, the polymorphed creature pot repetir la salvada. On a successful saving throw, the creature returns to its true form. After three failed saving throws. the transformation can be undone only by un conjur {@spell anul·lar maledicció} or similar magic. "
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Arborea: Intense Yearning",
 					"entries": [
-						"Keep track of how many days a visitor spends on Arborea. When the visitor leaves, ha de salvar per Carisma against a DC of 5, plus 1 for each day spent on the plane. Si falla, the creature becomes afflicted with a yearning to return to Arborea. As long as the effect persists the creature has disadvantage on ability checks. At the end of each long rest, the creature pot repetir la salvada, ending the effect on a success. A {@spell dissipar el bé i el mal} spell removes this effect from the creature."
+						"Keep track of how many days a visitor spends on Arborea. When the visitor leaves, ha de salvar per Carisma against a DC of 5, plus 1 for each day spent on the plane. Si falla, the creature becomes afflicted with a yearning to return to Arborea. As long as the effect persists the creature has disadvantage on ability checks. At the end of each long rest, the creature pot repetir la salvada, ending the effect on a success. Un conjur {@spell dissipar el bé i el mal} removes this effect from the creature."
 					]
 				},
 				{
@@ -8148,7 +8148,7 @@
 					"entries": [
 						"A non-evil visitor that finishes a long rest in the Abyss ha de salvar per Carisma (CD 10). On a failure, the creature becomes corrupted. Refer to the Abyssal Corruption table to determine the effects of this corruption. You can substitute different corruption effects of your own creation.",
 						"After finishing a long rest, a corrupted creature can make a DC 15 Carisma saving throw. Si supera, the corruption effect ends. A dissipar el bé i el mal spell or any magic that removes a curse also ends the effect.",
-						"If a corrupted creature doesn't leave the plane within {@dice 1d4 + 2} days, its alignment changes to chaotic evil. Casting the {@spell dissipar el bé i el mal} spell on the creature restores its original alignment.",
+						"If a corrupted creature doesn't leave the plane within {@dice 1d4 + 2} days, its alignment changes to chaotic evil. Casting el conjur {@spell dissipar el bé i el mal} on the creature restores its original alignment.",
 						{
 							"type": "table",
 							"caption": "Abyssal Corruption",
@@ -8208,7 +8208,7 @@
 					"type": "entries",
 					"name": "Els Nou Inferns: Pervasive Evil",
 					"entries": [
-						"Evil pervades els Nou Inferns, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil ha de salvar per Saviesa (CD 10). Si falla, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than els Nou Inferns. Casting the {@spell dissipar el bé i el mal} spell on the creature also restores its original alignment."
+						"Evil pervades els Nou Inferns, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil ha de salvar per Saviesa (CD 10). Si falla, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within {@dice 1d4} days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than els Nou Inferns. Casting el conjur {@spell dissipar el bé i el mal} on the creature also restores its original alignment."
 					]
 				},
 				{
@@ -8229,7 +8229,7 @@
 					"type": "entries",
 					"name": "Mechanus: Imposing Order",
 					"entries": [
-						"At the end of each long rest taken on this plane, a visitor that isn't lawful neutral ha de salvar per Saviesa (CD 10). Si falla, the creature's alignment changes to lawful neutral. The creature's alignment reverts to normal after one day spent on a plane other than Mechanus. Casting the {@spell dissipar el bé i el mal} spell on the creature also restores its original alignment."
+						"At the end of each long rest taken on this plane, a visitor that isn't lawful neutral ha de salvar per Saviesa (CD 10). Si falla, the creature's alignment changes to lawful neutral. The creature's alignment reverts to normal after one day spent on a plane other than Mechanus. Casting el conjur {@spell dissipar el bé i el mal} on the creature also restores its original alignment."
 					]
 				},
 				{
@@ -8344,7 +8344,7 @@
 				}
 			],
 			"entries": [
-				"The game statistics of a player character transformed into a {@creature vampire spawn} and then a {@creature vampire} don't change, except that the character's Força, Destresa, and Constitució scores become 18 if they aren't higher. A més, the character gains the vampire's damage resistances, darkvision, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Força. The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Carisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a {@spell desig} spell or the character is killed and brought back to life.",
+				"The game statistics of a player character transformed into a {@creature vampire spawn} and then a {@creature vampire} don't change, except that the character's Força, Destresa, and Constitució scores become 18 if they aren't higher. A més, the character gains the vampire's damage resistances, darkvision, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Força. The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Carisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with un conjur {@spell desig} or the character is killed and brought back to life.",
 				{
 					"type": "entries",
 					"name": "Jiangshi",
@@ -9512,7 +9512,7 @@
 					"name": "Identifying Runes",
 					"entries": [
 						"Runes are identified in a manner similar to magic items. Simply handling a master rune causes a strong sense of its rune's identity to echo in a character's mind. For example, touching a master rune item containing the kalt rune (the rune of cold) might cause you to experience a sudden chill as visions of snow and ice flash through your mind.",
-						"The {@spell identificar} spell immediately reveals a master rune's simple properties. You can also learn its simple properties over the course of a short rest while maintaining physical contact with the rune."
+						"El conjur {@spell identificar} immediately reveals a master rune's simple properties. You can also learn its simple properties over the course of a short rest while maintaining physical contact with the rune."
 					]
 				},
 				{
@@ -14443,7 +14443,7 @@
 									"type": "entries",
 									"name": "Glowing Mosaic",
 									"entries": [
-										"Pink, purple, and blue crystals cover the walls in a mosaic that depicts sirènid raising their hands toward an aboleth. These crystals give off dim light that fills the cave. A {@spell detectar màgia} spell or similar effect reveals an aura of divination magic radiating from the mosaic.",
+										"Pink, purple, and blue crystals cover the walls in a mosaic that depicts sirènid raising their hands toward an aboleth. These crystals give off dim light that fills the cave. Un conjur {@spell detectar màgia} or similar effect reveals an aura of divination magic radiating from the mosaic.",
 										"A creature that takes a short or long rest in the cave receives at the end of the rest a vague vision of a danger it might face within the next 10 days. If the creature isn't an aberration, ha de salvar per Saviesa (CD 14). Si falla, gain a random form of short-term madness (see \"{@book Madness|DMG|8|Madness}\" in chapter 8 of the {@book Guia del Mestre de Masmorres|DMG}).",
 										"Removing a crystal from the wall causes that crystal to stop glowing and become worthless. Removing all of the crystals from the wall by hand takes 24 hours of work divided by the number of creatures performing the task (arrodoneix a la baixa). As long as at least one crystal remains embedded in the wall, the mosaic's magic functions."
 									]
@@ -14461,7 +14461,7 @@
 									"name": "Stone Clam",
 									"entries": [
 										"A pedestal-like rock near the middle of the reef rises 5 feet above the coral. The rock holds an algae-covered stone statue of an enormous clam. A character who makes a successful DC 20 Intel·ligència ({@skill Història}) check knows that the clam is the symbol of the aboleth Ogrorlo.",
-										"A {@spell detectar màgia} spell or similar effect reveals an aura of enchantment magic emanating from the statue. Every night at midnight the statue sheds bright green light in a 20-foot radius and dim light for another 20 feet for 4 hours.",
+										"Un conjur {@spell detectar màgia} or similar effect reveals an aura of enchantment magic emanating from the statue. Every night at midnight the statue sheds bright green light in a 20-foot radius and dim light for another 20 feet for 4 hours.",
 										"Si una criatura toca the statue feels bolstered and happy, gaining 10 punts de vida temporals. This feeling also makes the creature more likely to trust others, giving it disadvantage on Saviesa ({@skill Perspicàcia}) checks and saving throws against being {@condition fascinat} durant les properes 24 hores.",
 										"The statue can affect a creature only once every 24 hours. Aberrations and creatures that can't be {@condition fascinat} are unaffected if they touch the statue."
 									]
@@ -14733,7 +14733,7 @@
 					"name": "Wreck Features",
 					"entries": [
 						"The {@i Marshal} has the following features:",
-						"{@b Barnacles}. The outside of the {@i Marshal} is covered in all manner of sharp barnacles. A creature that is pushed against the outside of the ship by magic like the {@spell tronada} spell, or by a shove attack, or that falls {@condition enderrocat} onto a barnacle-covered surface takes 3 ({@dice 1d6}) de dany tallant.",
+						"{@b Barnacles}. The outside of the {@i Marshal} is covered in all manner of sharp barnacles. A creature that is pushed against the outside of the ship by magic like el conjur {@spell tronada}, or by a shove attack, or that falls {@condition enderrocat} onto a barnacle-covered surface takes 3 ({@dice 1d6}) de dany tallant.",
 						"{@b Ceilings}. The ceilings of the {@i Marshal}'s lower deck are 8 feet high, with 6-foot-high doorways connecting the chambers.",
 						"{@b Depth}. The sea floor is 40 feet below the surface of the water. The {@i Marshal}'s highest point is 5 feet below the surface of the water. The depth of the rocks and various decks of the ship are noted on map A.6.",
 						"{@b Light}. The exposed decks of the {@i Marshal} and areas outside the ship are brightly lit by the sun during the day and dimly lit by the moon at night. The interior of the ship and the sea cave are concealed in darkness.",
@@ -14797,7 +14797,7 @@
 									"type": "entries",
 									"name": "Cudgel Ram",
 									"entries": [
-										"A {@spell detectar màgia} spell or similar effect reveals an aura of evocation magic around the 1,000-pound naval ram. A ship with the naval ram attached has advantage on all saving throws relating to crashing when it crashes into a creature or object. The ship and the ram suffer no damage in the crash. These benefits don't apply if another vessel crashes into the ship with the naval ram attached."
+										"Un conjur {@spell detectar màgia} or similar effect reveals an aura of evocation magic around the 1,000-pound naval ram. A ship with the naval ram attached has advantage on all saving throws relating to crashing when it crashes into a creature or object. The ship and the ram suffer no damage in the crash. These benefits don't apply if another vessel crashes into the ship with the naval ram attached."
 									]
 								}
 							]
@@ -14821,7 +14821,7 @@
 									"name": "Statue of St. Cuthbert",
 									"entries": [
 										"The missionaries of St. Cuthbert planned to stay for months or years in most ports, so they brought along a statue of their sacred deity to display at each stop. The statue weighs 1,500 pounds.",
-										"A {@spell detectar màgia} spell or similar effect reveals auras of enchantment and necromancy magic radiating from the statue. A creature of any nonchaotic alignment that prays to St. Cuthbert for 1 minute while within 10 feet of the statue is affected as if it just drank a {@item potion of heroisme}. The statue grants this benefit to no more than one creature every 24 hours.",
+										"Un conjur {@spell detectar màgia} or similar effect reveals auras of enchantment and necromancy magic radiating from the statue. A creature of any nonchaotic alignment that prays to St. Cuthbert for 1 minute while within 10 feet of the statue is affected as if it just drank a {@item potion of heroisme}. The statue grants this benefit to no more than one creature every 24 hours.",
 										"A creature of any chaotic alignment that prays to St. Cuthbert for 1 minute while within 10 feet of the statue ha de salvar per Constitució (CD 15). Si falla, esdevé {@condition encegat} durant 1 hora."
 									]
 								}
@@ -14838,8 +14838,8 @@
 									"type": "entries",
 									"name": "Altar",
 									"entries": [
-										"A {@spell detectar màgia} spell or similar effect reveals an aura of divination magic radiating from the altar. A character who examines the altar and succeeds on una tirada d'Intel·ligència ({@skill Investigació}) amb CD 15 finds a hidden lid that allows the altar to open. The inside of the lid is mirrored. The altar's inner compartment holds a carved indentation of a holy symbol of St. Cuthbert and a coiled {@creature iron cobra|MTF} that attacks any creature not wearing a symbol of St. Cuthbert.",
-										"Quan una criatura places the {@i symbol of St. Cuthbert's knowledge} (see {@adventure area M8|GoS|8|M8. Brig}) in the indentation, that creature can touch the mirrored lid and cast a {@spell escodrinyar} spell (DC 17) with the altar. The altar can be used to cast this spell only once every 24 hours."
+										"Un conjur {@spell detectar màgia} or similar effect reveals an aura of divination magic radiating from the altar. A character who examines the altar and succeeds on una tirada d'Intel·ligència ({@skill Investigació}) amb CD 15 finds a hidden lid that allows the altar to open. The inside of the lid is mirrored. The altar's inner compartment holds a carved indentation of a holy symbol of St. Cuthbert and a coiled {@creature iron cobra|MTF} that attacks any creature not wearing a symbol of St. Cuthbert.",
+										"Quan una criatura places the {@i symbol of St. Cuthbert's knowledge} (see {@adventure area M8|GoS|8|M8. Brig}) in the indentation, that creature can touch the mirrored lid and cast un conjur {@spell escodrinyar} (DC 17) with the altar. The altar can be used to cast this spell only once every 24 hours."
 									]
 								}
 							]
@@ -14867,7 +14867,7 @@
 									"type": "entries",
 									"name": "Crab of Cuthbert",
 									"entries": [
-										"The day before the {@i Marshal} sank, Clergol of the Viola, a bard and a follower of St. Cuthbert, cast the {@spell obrir els ulls} spell on a crab he named Barnacle Bess. Bess has the statistics of a {@creature giant crab}, with the following changes:",
+										"The day before the {@i Marshal} sank, Clergol of the Viola, a bard and a follower of St. Cuthbert, cast el conjur {@spell obrir els ulls} on a crab he named Barnacle Bess. Bess has the statistics of a {@creature giant crab}, with the following changes:",
 										{
 											"type": "list",
 											"items": [
@@ -14904,7 +14904,7 @@
 									"type": "entries",
 									"name": "Symbol of St. Cuthbert's Knowledge",
 									"entries": [
-										"One of the skeletons is that of Uzol Telmock, a high priest of St. Cuthbert. It still carries the {@i symbol of St. Cuthbert's magic} inside its robes. A {@spell detectar màgia} spell or similar effect reveals an aura of divination magic emanating from this jade symbol of St. Cuthbert. The symbol can activate the altar in area M4."
+										"One of the skeletons is that of Uzol Telmock, a high priest of St. Cuthbert. It still carries the {@i symbol of St. Cuthbert's magic} inside its robes. Un conjur {@spell detectar màgia} or similar effect reveals an aura of divination magic emanating from this jade symbol of St. Cuthbert. The symbol can activate the altar in area M4."
 									]
 								}
 							]
@@ -14986,7 +14986,7 @@
 									"type": "entries",
 									"name": "Cursed Daga",
 									"entries": [
-										"The cursed dagger, decorated with the hand and eye symbol of Vecna, is hidden beneath the statue of St. Cuthbert in {@adventure area M3|GoS|8|M3. Cargo Hold}. A character can spot it with a successful DC 17 Saviesa ({@skill Percepció}) check. A {@spell detectar màgia} spell or similar effect reveals an aura of necromancy magic radiating from the dagger.",
+										"The cursed dagger, decorated with the hand and eye symbol of Vecna, is hidden beneath the statue of St. Cuthbert in {@adventure area M3|GoS|8|M3. Cargo Hold}. A character can spot it with a successful DC 17 Saviesa ({@skill Percepció}) check. Un conjur {@spell detectar màgia} or similar effect reveals an aura of necromancy magic radiating from the dagger.",
 										"Whenever an undead creature is destroyed within 500 feet of the dagger, the creature's essence is trapped in the blade, and {@dice 1d10} days later the creature re-forms with all its hit points in a space within 10 feet of the dagger. Quan una criatura that is not undead and does not worship Vecna touches the dagger, that creature ha de salvar per Constitució (CD 12). Si falla, esdevé {@condition paralitzat} durant 1 hora. If the creature is still touching the dagger when the condition ends, that creature must repeat the saving throw, becoming subject to the effect again on a failure.",
 										"A character who examines the dagger and succeeds on una tirada d'Intel·ligència ({@skill Arcana}) amb CD 15 discerns that casting {@spell dissipar màgia} on the dagger or striking the dagger with a magic or adamantine weapon will cause the dagger to break. The ghosts in area M9 know how to destroy the dagger. If the dagger is destroyed, the undead it created are destroyed, and their souls return to the afterlife."
 									]
@@ -15487,7 +15487,7 @@
 									"type": "entries",
 									"name": "Green Conch Shell",
 									"entries": [
-										"The green conch shell was dropped into {@adventure area W7f|GoS|8|W7f. Crumbling Hall. A crumbling mosaic depicts a kraken devouring an entire planet on the ceiling of this chamber. Si una criatura toca the walls, floor, or ceiling of this chamber ha de salvar per Destresa (CD 12). Si falla, take 3 (1d6) damage from falling debris.} of the Temple of Vaalastroth. A {@spell detectar màgia} spell or similar effect reveals an aura of conjuration magic around the shell. If the shell is destroyed, the portal closes."
+										"The green conch shell was dropped into {@adventure area W7f|GoS|8|W7f. Crumbling Hall. A crumbling mosaic depicts a kraken devouring an entire planet on the ceiling of this chamber. Si una criatura toca the walls, floor, or ceiling of this chamber ha de salvar per Destresa (CD 12). Si falla, take 3 (1d6) damage from falling debris.} of the Temple of Vaalastroth. Un conjur {@spell detectar màgia} or similar effect reveals an aura of conjuration magic around the shell. If the shell is destroyed, the portal closes."
 									]
 								},
 								{

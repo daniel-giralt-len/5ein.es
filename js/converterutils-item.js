@@ -116,11 +116,11 @@ class SpellTag {
 		const outSet = new Set();
 
 		const regexps = [ // uses m[1]
-			/duplicate the effect of the {@spell ([^}]*)} spell/gi,
-			/a creature is under the effect of a {@spell ([^}]*)} spell/gi,
+			/duplicate the effect of el conjur {@spell ([^}]*)}/gi,
+			/a creature is under the effect of un conjur {@spell ([^}]*)}/gi,
 			/(?:gain(?:s)?|under|produces) the (?:[a-zA-Z\\"]+ )?effect of (?:the|a|an) {@spell ([^}]*)} spell/gi,
-			/functions as the {@spell ([^}]*)} spell/gi,
-			/as with the {@spell ([^}]*)} spell/gi,
+			/functions as el conjur {@spell ([^}]*)}/gi,
+			/as with el conjur {@spell ([^}]*)}/gi,
 			/as if using a(?:n)? {@spell ([^}]*)} spell/gi,
 			/cast a(?:n)? {@spell ([^}]*)} spell/gi,
 			/as a(?:n)? \d..-level {@spell ([^}]*)} spell/gi,
