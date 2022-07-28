@@ -226,14 +226,14 @@ class BonusTag {
 		});
 
 		// FIXME(Future) false negatives:
-		//   - Robe of the Archmagi
+		//   - Túnica de l'Arximag
 		strEntries = strEntries.replace(/\+\s*(\d)([^.]+(?:bonus )?(?:to|on) [^.]*spell attack rolls)/g, (...m) => {
 			obj.bonusSpellAttack = `+${m[1]}`;
 			return opts.isVariant ? `{=bonusSpellAttack}${m[2]}` : m[0];
 		});
 
 		// FIXME(Future) false negatives:
-		//   - Robe of the Archmagi
+		//   - Túnica de l'Arximag
 		strEntries = strEntries.replace(/\+\s*(\d)([^.]+(?:bonus )?(?:to|on) [^.]*saving throw DCs)/g, (...m) => {
 			obj.bonusSpellSaveDc = `+${m[1]}`;
 			return opts.isVariant ? `{=bonusSpellSaveDc}${m[2]}` : m[0];
