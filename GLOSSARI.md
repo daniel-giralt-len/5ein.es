@@ -125,7 +125,7 @@
 |Silver pieces|Argents
 |Skills|Habilitats
 |Sleight of Hand|Joc de Mans
-|Sorcerer|Fetiller/a/i
+|Sorcerer|Sortiller/a/i
 |Speed|Velocitat
 |Spell attack bonus|Bonus d'atac màgic
 |Spell save DC|CD de conjur

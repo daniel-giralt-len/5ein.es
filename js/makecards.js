@@ -845,7 +845,7 @@ MakeCards.utils = class {
 		if (item.type === "SCF") {
 			if (item.scfType === "arcane") {
 				Renderer.item._initFullEntries(item);
-				item._fullEntries.push("Un bruixot, un fetiller, o un mag ho pot emprar com a focus de llançament de conjurs.");
+				item._fullEntries.push("Un bruixot, un sortiller, o un mag ho pot emprar com a focus de llançament de conjurs.");
 			}
 			if (item.scfType === "druida") {
 				Renderer.item._initFullEntries(item);

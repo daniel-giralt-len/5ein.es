@@ -493,7 +493,7 @@ class ReqAttuneTagTag {
 
 		const tags = [];
 
-		// "by a creature with the Marcatroba"
+		// "per un creature with the Marcatroba"
 		req = req.replace(/(?:a creature with the )?\bMark of ([A-Z][^ ]+)/g, (...m) => {
 			const races = ReqAttuneTagTag._EBERRON_MARK_RACES[`Mark of ${m[1]}`];
 			if (!races) return "";
@@ -501,38 +501,38 @@ class ReqAttuneTagTag {
 			return "";
 		});
 
-		// "by a member of the Azorius guild"
+		// "per un member of the Azorius guild"
 		req = req.replace(/(?:a member of the )?\b(Azorius|Boros|Dimir|Golgari|Gruul|Izzet|Orzhov|Rakdos|Selesnya|Simic)\b guild/g, (...m) => {
 			tags.push({background: ReqAttuneTagTag._RAVNICA_GUILD_BACKGROUNDS[m[1]].toLowerCase()});
 			return "";
 		});
 
-		// "by a creature with an intelligence score of 3 or higher"
+		// "per un creature with an intelligence score of 3 or higher"
 		req = req.replace(/(?:a creature with (?:an|a) )?\b(strength|dexterity|constitution|intelligence|wisdom|charisma)\b score of (\d+)(?: or higher)?/g, (...m) => {
 			const abil = m[1].slice(0, 3).toLowerCase();
 			tags.push({[abil]: Number(m[2])});
 		});
 
-		// "by a creature that can speak Diàstric"
+		// "per un creature that can speak Diàstric"
 		req = req.replace(/(?:a creature that can )?speak \b(Abyssal|Aquan|Auran|Celestial|Common|Deep Speech|Dracònic|Druídic|Nan|Èlfic|Giant|Gnomesc|Goblin|Halfling|Ignan|Diàstric|Orc|Primordial|Silvà|Terran|Argot de Lladres|Undercommon)\b/g, (...m) => {
 			tags.push({languageProficiency: m[1].toLowerCase()});
 			return "";
 		});
 
-		// "by a creature that has proficiency in the Arcana skill"
+		// "per un creature that has proficiency in the Arcana skill"
 		req = req.replace(/(?:a creature that has )?(?:proficiency|proficient).*?\b(Acrobatics|Animal Handling|Arcana|Athletics|Deception|History|Insight|Intimidation|Investigation|Medicine|Nature|Perception|Performance|Persuasion|Religion|Sleight of Hand|Stealth|Survival)\b skill/g, (...m) => {
 			tags.push({skillProficiency: m[1].toLowerCase()});
 			return "";
 		});
 
-		// "by a dwarf"
+		// "per un dwarf"
 		req = req.replace(/(?:(?:a|an) )?\b(Dragonborn|Dwarf|Elf|Gnome|Semi-Elf|Semi-Orc|Halfling|Human|Tiefling|Guerraforjat)\b/gi, (...m) => {
 			const source = m[1].toLowerCase() === "guerraforjat" ? SRC_ERLW : "";
 			tags.push({race: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
 			return "";
 		});
 
-		// "by a humanoid", "by a small humanoid"
+		// "per un humanoid", "per un small humanoid"
 		req = req.replace(/a (?:\b(tiny|small|medium|large|huge|gargantuan)\b )?\b(aberration|beast|celestial|construct|dragon|elemental|fey|fiend|giant|humanoid|monstrositat|ooze|plant|undead)\b/gi, (...m) => {
 			const size = m[1] ? m[1][0].toUpperCase() : null;
 			const out = {creatureType: m[2].toLowerCase()};
@@ -547,13 +547,13 @@ class ReqAttuneTagTag {
 			return "";
 		});
 
-		// "by a creature that has psionic ability"
+		// "per un creature that has psionic ability"
 		req = req.replace(/(?:a creature that has )?\bpsionic ability/gi, (...m) => {
 			tags.push({psionics: true});
 			return "";
 		});
 
-		// "by a bard, cleric, druid, sorcerer, warlock, or mag"
+		// "per un bard, cleric, druid, sorcerer, warlock, or mag"
 		req = req.replace(/(?:(?:a|an) )?\b(artificer|bard|Clergue|druida|paladí|explorador|sortiller|bruixot|wizard)\b/gi, (...m) => {
 			const source = m[1].toLowerCase() === "artificer" ? SRC_TCE : null;
 			tags.push({class: `${m[1]}${source ? `|${source}` : ""}`.toLowerCase()});
@@ -561,8 +561,8 @@ class ReqAttuneTagTag {
 		});
 
 		// region Alignment
-		// "by a creature of evil alignment"
-		// "by a dwarf, fighter, or paladin of good alignment"
+		// "per un creature of evil alignment"
+		// "per un dwarf, fighter, or paladin of good alignment"
 		// "by an elf or semi-elf of neutral good alignment"
 		// "by an evil cleric or paladí"
 		const alignmentParts = req.split(/,| or /gi)
