@@ -25640,7 +25640,7 @@
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
 			"entries": [
-				"Una vara amb brides al cap. Té els trets següents.",
+				"Una vara amb esferes al cap. Té els trets següents.",
 				{
 					"name": "Alerta",
 					"type": "entries",
@@ -25675,7 +25675,7 @@
 			]
 		},
 		{
-			"name": "Rod of Lordly Might",
+			"name": "Vara de Poder Reial",
 			"source": "DMG",
 			"page": 196,
 			"srd": true,
@@ -25686,39 +25686,39 @@
 			"weight": 2,
 			"bonusWeapon": "+3",
 			"entries": [
-				"This rod has a flanged head, and it functions as a magic mace that grants a +3 bonus to attack and damage roll made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.",
+				"Una vara amb esferes al cap que funciona com una maça màgica amb un +3 a impactar i al dany amb atacs fets amb ella. Té 6 botons, cadascun amb propietats diferents. A part, la vara té 3 propietats més, totes descrites dessota.",
 				{
-					"name": "Six Buttons",
+					"name": "6 botons",
 					"type": "entries",
 					"entries": [
-						"You can press one of the rod's six buttons as a bonus action. A button's effect lasts until you push a different button or until you push the same button again, which causes the rod to revert to its normal form.",
-						"If you press button 1, the rod becomes a {@item llengua-flama} as a fiery blade sprouts from the end opposite the rod's flanged head (you choose the type of sword).",
-						"If you press button 2, the rod's flanged head folds down and two crescent-shaped blades spring out, transforming the rod into a magic battleaxe that grants a +3 a les tirades d'impacte i de dany que faci.",
-						"If you press button 3, the rod's flanged head folds down, a spear point springs from the rod's tip, and the rod's handle lengthens into a 6-foot haft, transforming the rod into a magic spear that grants a+3 a les tirades d'impacte i de dany que faci.",
-						"If you press button 4, the rod transforms into a climbing pole fins a 50 peus long, as you specify. In surfaces as hard as granite, a spike at the bottom and three hooks at the top anchor the pole. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, forming a ladder. The pole can bear up to 4,000 pounds. More weight or lack of solid anchoring causes the rod to revert to its normal form.",
-						"If you press button 5, the rod transforms into a handheld battering ram and grants its user a +10 bonus to Força checks made to break through doors, barricades, and other barriers.",
-						"If you press button 6, the rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it."
+						"Com a acció bonus, pots prèmer uns dels 6 botons del mànec de la vara. L'efecte dels botons dura fins que en prèms un altre o prèms el mateix (això retorna la vara a la normalitat).",
+						"Botó 1: la vara esdevé {@item llengua-flama} i en surt foc de la punta que no té esferes (esculls en quina espasa es converteix).",
+						"Botó 2: el cap desplega 2 mitges llunes i torna la vara en una destral de guerra amb un +3 a impactar i al dany.",
+						"Botó 3: el cap treu una punxa afilada i el mànec s'estira 6 peus: es torna en una llança màgica amb un +3 a les tirades d'impacte i de dany que faci.",
+						"Botó 4: la vara es torna un pal escalable de fins a 50 peus (escull tu). En una superfície dura, com ara el granit, la punta es torna una pinxa i el cap 3 ganxos per a poder ancorar el pal. En surten barres horitzontals petites, formant una escala. El pal pot aguantar fins a 4,000 lliures. Si es desancora o si se li posa més pes, la vara torna a la seva forma normal.",
+						"Botó 5: la vara es torna un ariet portàtil amb un +10 a les tirades de Força per a atravessar portes, barricades, i barreres en general.",
+						"Botó 6: la vara adopta la seva forma normal però indica el Nord magnètic (si estàs en un lloc que no té Nord magnètic, no fa res). També et dona coneixement de la profunditat aproximada en la que et trobes sota terra, o la teva alçada per sobre del nivell del mar."
 					]
 				},
 				{
 					"name": "Drenar Vida",
 					"type": "entries",
 					"entries": [
-						"Quan impactes a una criatura with a melee attack using the rod, you can force the target to make a DC 17 Constitució saving throw. On a failure, the target rakes an extra {@dice 4d6} de dany necròtic, and you regain a number of hit points equal to half that necrotic damage. This property no es pot tornar a utilitzar fins el proper trenc d'alba."
+						"Quan impactes a una criatura amb un atac cos a cos amb la vara, la pots fer salvar per Constitució (CD 17). Si falla, rep {@dice 4d6} de dany necròtic extra, i recuperes la meitat d'aquest dany en punts de vida. Aquest tret no es pot tornar a utilitzar fins el proper trenc d'alba."
 					]
 				},
 				{
-					"name": "Paralyze",
+					"name": "Paralitzar",
 					"type": "entries",
 					"entries": [
-						"Quan impactes a una criatura with a melee attack using the rod, you can force the target to make a DC 17 Força saving throw. On a failure, the target is {@condition paralitzat} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, ending the effect on a success. This property no es pot tornar a utilitzar fins el proper trenc d'alba."
+						"Quan impactes a una criatura amb un atac cos a cos amb la vara, la pots fer salvar per Força (CD 17). Si falla, està {@condition paralitzat} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu; quan supera, l'efecte s'acaba. Aquest tret no es pot tornar a utilitzar fins el proper trenc d'alba."
 					]
 				},
 				{
-					"name": "Terrify",
+					"name": "Atemorir",
 					"type": "entries",
 					"entries": [
-						"Mentre empunyis la vara, pots, com a acció, force each creature que puguis veure a 30 peus d'abast to make a DC 17 Saviesa saving throw. On a failure, a target is {@condition acovardit} de tu durant 1 minut. Un objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. This property no es pot tornar a utilitzar fins el proper trenc d'alba."
+						"Mentre empunyis la vara, pots, com a acció, fer salvar a cada criatura que puguis veure a 30 peus d'abast per Saviesa (CD 17). Qui falli està {@condition acovardit} de tu durant 1 minut. Un objectiu {@condition acovardit} pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera. Aquest tret no es pot tornar a utilitzar fins el proper trenc d'alba."
 					]
 				}
 			],
