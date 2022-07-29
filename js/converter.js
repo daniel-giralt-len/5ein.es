@@ -348,7 +348,7 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >
 >- **Cantrip.** The lich casts a cantrip.
 >- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
->- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze durant les properes 24 hores.
+>- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze durant les properes 24 hores.
 >- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich ha de salvar per Constitució (CD 18) against this magic, taking 21 (6d6) de dany necròtic; si supera, en rep la meitat.
 >
 >`;
@@ -459,7 +459,7 @@ Wondrous Item, legendary (cal harmonitzar)
 This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.
 Dormant
 While wearing the wreath in its dormant state, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the wreath increases the range of your darkvision by 60 feet.
-When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast dominar criatura on the creature (save DC 13). Si supera, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target’s neck or as a crown on its head (escull) until it is no longer charmed by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. Quan acaba el conjur, the target knows it was charmed by you.
+When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast dominar criatura on the creature (CD de salvada 13). Si supera, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target’s neck or as a crown on its head (escull) until it is no longer charmed by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. Quan acaba el conjur, the target knows it was charmed by you.
 Awakened
 Once the Wreath of the Prism reaches an awakened state, it gains the following benefits:
 • You can affect creatures of challenge rating 10 or lower with the wreath.

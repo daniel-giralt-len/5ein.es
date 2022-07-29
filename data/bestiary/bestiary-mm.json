@@ -82,7 +82,7 @@
 				{
 					"name": "Summon Air Elemental",
 					"entries": [
-						"Five aarakocra within 30 feet of each other can magically summon an {@creature air elemental}. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental apareix en un espai desocupat within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains durant 1 hora, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+						"Five aarakocra within 30 feet of each other can magically summon an {@creature air elemental}. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (com si et concentressis en un conjur). When all five have finished their third turn of the dance, the elemental apareix en un espai desocupat within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains durant 1 hora, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
 					]
 				}
 			],
@@ -366,7 +366,7 @@
 				{
 					"name": "Snow Camouflage",
 					"entries": [
-						"The yeti has advantage on Destresa ({@skill Sigil}) checks made to hide in snowy terrain."
+						"The yeti has advantage on Destresa ({@skill Sigil}) made to hide in snowy terrain."
 					]
 				}
 			],
@@ -5152,7 +5152,7 @@
 								{
 									"type": "item",
 									"name": "Second Roar",
-									"entry": "Each creature that fails a {@dc 18} Saviesa saving throw is {@condition eixordat} and {@condition acovardit} durant 1 minut. A {@condition acovardit} creature is {@condition paralitzat} and pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success."
+									"entry": "Each creature that fails a {@dc 18} Saviesa saving throw is {@condition eixordat} and {@condition acovardit} durant 1 minut. A {@condition acovardit} creature is {@condition paralitzat} and pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba."
 								},
 								{
 									"type": "item",
@@ -6011,7 +6011,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"The archmage is an 18th-level spellcaster. Its habilitat de llançament de conjurs is Intel·ligència ({@dc 17} salvada de conjur, {@hit 9} a impactar amb atacs màgics). The archmage can cast {@spell ego camuflatge} i {@spell invisibilitat} at will and has the following wizard spells prepared:"
+						"The archmage is an 18th-level spellcaster. Its habilitat de llançament de conjurs is Intel·ligència ({@dc 17} salvada de conjur, {@hit 9} a impactar amb atacs màgics). The archmage can cast {@spell ego camuflatge} i {@spell invisibilitat} a voluntat and has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -6123,7 +6123,7 @@
 					"type": "variant",
 					"name": "Familiars",
 					"entries": [
-						"Any spellcaster that can cast the {@spell trobar familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature ma reptadora}, {@creature imp}, {@creature pseudodragon}, o {@creature quasit}."
+						"Any spellcaster that can cast el conjur {@spell trobar familiar} (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature ma reptadora}, {@creature imp}, {@creature pseudodragon}, o {@creature quasit}."
 					]
 				}
 			],
@@ -7454,7 +7454,7 @@
 				{
 					"name": "Albir Terrorífic",
 					"entries": [
-						"Each non-undead creature within 60 feet of the banshee that can see her ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. A {@condition acovardit} target pot repetir la salvada al final de cada torn seu, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Albir Terrorífic durant les properes 24 hores."
+						"Each non-undead creature within 60 feet of the banshee that can see her ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. A {@condition acovardit} target pot repetir la salvada al final de cada torn seu, with disadvantage if the banshee is within line of sight. si supera, l'efecte s'acaba. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Albir Terrorífic durant les properes 24 hores."
 					]
 				},
 				{
@@ -8412,7 +8412,7 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The beholder's central eye creates an area of antimagic, as in the {@spell camp antimàgic} spell, en un con de 150 peus. A l'inici de cada torn seu, the beholder decides which way the cone faces and whether the cone is active. The area works against the beholder's own eye rays."
+						"The beholder's central eye creates an area of antimagic, as in el conjur {@spell camp antimàgic}, en un con de 150 peus. A l'inici de cada torn seu, the beholder decides which way the cone faces and whether the cone is active. The area works against the beholder's own eye rays."
 					]
 				}
 			],
@@ -9572,7 +9572,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany tallant. If the target is a humanoid, ha de salvar per Constitució amb {@dc 15} or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its punts de vida màxims is reduced by 10 ({@dice 3d6}) every 24 hours. If the disease reduces the target's punts de vida màxims to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a {@spell desig} spell can reverse the transformation."
+						"{@atk mw} {@hit 8} a impactar, 5 peus d'abast, un objectiu. {@h}12 ({@damage 2d6 + 5}) de dany tallant. If the target is a humanoid, ha de salvar per Constitució amb {@dc 15} or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its punts de vida màxims is reduced by 10 ({@dice 3d6}) every 24 hours. If the disease reduces the target's punts de vida màxims to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only un conjur {@spell desig} can reverse the transformation."
 					]
 				}
 			],
@@ -9582,8 +9582,8 @@
 					"name": "Control Gem",
 					"entries": [
 						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition fascinat} while so controlled.",
-						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell desig} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-						"A {@spell restabliment superior} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. Un conjur {@spell desig}, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"Un conjur {@spell restabliment superior} cast on the slaad destroys the gem without harming the slaad.",
 						"Someone who is proficient in Saviesa (Medicine) can remove the gem from an {@condition incapacitat} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Saviesa (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) de dany psíquic to the slaad."
 					]
 				}
@@ -11158,7 +11158,7 @@
 				{
 					"name": "Fiendish Charm",
 					"entries": [
-						"One humanoid the cambion can see within 30 feet of ha de salvar per Saviesa amb {@dc 14} or be magically {@condition fascinat} for 1 day. The {@condition fascinat} target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, l'objectiu pot tornar a salvar, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm durant les properes 24 hores."
+						"One humanoid the cambion can see within 30 feet of ha de salvar per Saviesa amb {@dc 14} or be magically {@condition fascinat} for 1 day. The {@condition fascinat} target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, l'objectiu pot tornar a salvar. si supera, l'efecte s'acaba. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm durant les properes 24 hores."
 					]
 				}
 			],
@@ -12772,7 +12772,7 @@
 							"name": "Wind Aura",
 							"type": "entries",
 							"entries": [
-								"A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against atacs armats a distància, and all open flames within the aura are extinguished unless they are magical."
+								"A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (com si et concentressis en un conjur). While the aura is in effect, the giant gains a +2 bonus to its AC against atacs armats a distància, and all open flames within the aura are extinguished unless they are magical."
 							]
 						}
 					],
@@ -14342,7 +14342,7 @@
 							"type": "entries",
 							"name": "Disguises",
 							"entries": [
-								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the {@spell ego camuflatge} spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the {@spell polimorfia veritable} spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
+								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast el conjur {@spell ego camuflatge} a voluntat, often with a longer duration than is normal for that spell. Mightier genies can cast el conjur {@spell polimorfia veritable} one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
 							]
 						},
 						{
@@ -14350,7 +14350,7 @@
 							"name": "Wishes",
 							"entries": [
 								"The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year), and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.",
-								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the {@spell desig} spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
+								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast el conjur {@spell desig} on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
 							]
 						}
 					]
@@ -14546,7 +14546,7 @@
 				{
 					"name": "Two-Headed",
 					"entries": [
-						"The dog has advantage on Saviesa ({@skill Percepció}) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, or knocked {@condition inconscient}."
+						"The dog has advantage on Saviesa ({@skill Percepció}) and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, or knocked {@condition inconscient}."
 					]
 				}
 			],
@@ -14961,8 +14961,8 @@
 					"name": "Control Gem",
 					"entries": [
 						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition fascinat} while so controlled.",
-						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell desig} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-						"A {@spell restabliment superior} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. Un conjur {@spell desig}, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"Un conjur {@spell restabliment superior} cast on the slaad destroys the gem without harming the slaad.",
 						"Someone who is proficient in Saviesa (Medicine) can remove the gem from an {@condition incapacitat} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Saviesa (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) de dany psíquic to the slaad."
 					]
 				}
@@ -15334,7 +15334,7 @@
 				{
 					"name": "Poisoned Dard",
 					"entries": [
-						"{@atk rw} {@hit 4} a impactar, 30/120 peus d'abast, una criatura. {@h}4 ({@damage 1d4 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, ending the effect on itself on a success"
+						"{@atk rw} {@hit 4} a impactar, 30/120 peus d'abast, una criatura. {@h}4 ({@damage 1d4 + 2}) de dany perforant, i l'objectiu ha de superar una salvada de Constitució amb {@dc 12} o estar {@condition emmetzinat} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu. si supera, l'efecte s'acaba"
 					]
 				}
 			],
@@ -16139,7 +16139,7 @@
 				{
 					"name": "Create Whirlwind",
 					"entries": [
-						"A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind ha de salvar per Força amb {@dc 18} or be {@condition restrained} by it. The djinni can move the whirlwind fins a 60 peus com a acció, and creatures {@condition restrained} by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.",
+						"A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (com si et concentressis en un conjur). Any creature but the djinni that enters the whirlwind ha de salvar per Força amb {@dc 18} or be {@condition restrained} by it. The djinni can move the whirlwind fins a 60 peus com a acció, and creatures {@condition restrained} by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.",
 						"A creature can use its action to free a creature {@condition restrained} by the whirlwind, including itself, by succeeding on a {@dc 18} Força check. If the check succeeds, the creature is no longer {@condition restrained} and moves to the nearest space outside the whirlwind."
 					]
 				}
@@ -16154,7 +16154,7 @@
 							"type": "entries",
 							"name": "Disguises",
 							"entries": [
-								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the {@spell ego camuflatge} spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the {@spell polimorfia veritable} spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
+								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast el conjur {@spell ego camuflatge} a voluntat, often with a longer duration than is normal for that spell. Mightier genies can cast el conjur {@spell polimorfia veritable} one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
 							]
 						},
 						{
@@ -16162,7 +16162,7 @@
 							"name": "Wishes",
 							"entries": [
 								"The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year), and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.",
-								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the {@spell desig} spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
+								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast el conjur {@spell desig} on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
 							]
 						}
 					]
@@ -16327,7 +16327,7 @@
 				{
 					"name": "Llegir Pensaments",
 					"entries": [
-						"The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or una fulla fina de plom blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Saviesa ({@skill Perspicàcia}) and Carisma ({@skill Deception}, {@skill Intimidation}, i {@skill Persuasion}) checks against the target."
+						"The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or una fulla fina de plom blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (com si et concentressis en un conjur). While reading the target's mind, the doppelganger has advantage on Saviesa ({@skill Perspicàcia}) and Carisma ({@skill Deception}, {@skill Intimidation}, i {@skill Persuasion}) against the target."
 					]
 				}
 			],
@@ -17986,7 +17986,7 @@
 					"name": "Fey Charm",
 					"entries": [
 						"The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, ha de salvar per Saviesa amb {@dc 14} or be magically {@condition fascinat}. The {@condition fascinat} creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.",
-						"Each time the dryad or its allies do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm durant les properes 24 hores.",
+						"Each time the dryad or its allies do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm durant les properes 24 hores.",
 						"The dryad can have no more than one humanoid and up to three beasts {@condition fascinat} at a time."
 					]
 				}
@@ -18136,7 +18136,7 @@
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The màgia duergarally turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"The màgia duergarally turns {@condition invisible} until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (com si et concentressis en un conjur). Any equipment the duergar wears or carries is {@condition invisible} with it."
 					]
 				}
 			],
@@ -18775,7 +18775,7 @@
 							"type": "entries",
 							"name": "Disguises",
 							"entries": [
-								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the {@spell ego camuflatge} spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the {@spell polimorfia veritable} spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
+								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast el conjur {@spell ego camuflatge} a voluntat, often with a longer duration than is normal for that spell. Mightier genies can cast el conjur {@spell polimorfia veritable} one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
 							]
 						},
 						{
@@ -18783,7 +18783,7 @@
 							"name": "Wishes",
 							"entries": [
 								"The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year), and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.",
-								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the {@spell desig} spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
+								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast el conjur {@spell desig} on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
 							]
 						}
 					]
@@ -19308,7 +19308,7 @@
 				{
 					"name": "Arc llarg",
 					"entries": [
-						"{@atk rw} {@hit 7} a impactar, 150/600 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant mes 13 ({@damage 3d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition emmetzinat}. The poison lasts until it is removed by the {@spell restabliment menor} spell or similar magic."
+						"{@atk rw} {@hit 7} a impactar, 150/600 peus d'abast, un objectiu. {@h}7 ({@damage 1d8 + 3}) de dany perforant mes 13 ({@damage 3d8}) de dany de verí, i l'objectiu ha de superar una salvada de Constitució amb {@dc 14} o be {@condition emmetzinat}. The poison lasts until it is removed by el conjur {@spell restabliment menor} or similar magic."
 					]
 				}
 			],
@@ -19323,9 +19323,9 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "Rope of Entanglement",
+					"name": "Corda d'Entortolligament",
 					"entries": [
-						"Some erinyes carry a {@item rope of entanglement} (detailed in the Dungeon Master's Guide). When such an erinyes uses its Multi-atac, the erinyes can use the rope in place of two of the attacks."
+						"Some erinyes carry a {@item corda d'entortolligament} (detailed in the Dungeon Master's Guide). When such an erinyes uses its Multi-atac, the erinyes can use the rope in place of two of the attacks."
 					]
 				}
 			],
@@ -19593,7 +19593,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The ettin has advantage on Saviesa ({@skill Percepció}) checks and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
+						"The ettin has advantage on Saviesa ({@skill Percepció}) and on saving throws against being {@condition encegat}, {@condition fascinat}, {@condition eixordat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
 					]
 				},
 				{
@@ -19732,7 +19732,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -19760,7 +19760,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -19880,7 +19880,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -19908,7 +19908,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20025,7 +20025,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -20053,7 +20053,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20166,7 +20166,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -20194,7 +20194,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20311,7 +20311,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -20339,7 +20339,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20465,7 +20465,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -20493,7 +20493,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -20607,7 +20607,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is {@condition invisible} with it."
+						"Com a acció bonus, the dragon can magically turn {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the dragon wears or carries is {@condition invisible} with it."
 					]
 				},
 				{
@@ -20635,7 +20635,7 @@
 					"entries": [
 						"The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target ha de salvar per Saviesa amb {@dc 11}, or for 1 minute, the target can't take reactions and must roll a {@dice d6} a l'inici de cada torn seu to determine its behavior during the turn:",
 						"1\u20134. L'objectiu rep no action or bonus action and uses all of its movement to move in a random direction.",
-						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw, ending the effect on itself on a success."
+						"5\u20136. The target doesn't move, and the only thing it can do on its turn is make a {@dc 11} Saviesa saving throw. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -21563,7 +21563,7 @@
 				{
 					"name": "Tendrils",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}4 ({@damage 1d4 + 2}) de dany perforant mes 2 ({@damage 1d4}) de dany d'àcid. Al final de cada torn seu, l'objectiu ha de salvar per Constitució amb {@dc 10}, taking 2 ({@damage 1d4}) de dany d'àcid on a failure or ending the recurring acid damage on a success. A {@spell restabliment menor} spell cast on the target also ends the recurring acid damage."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}4 ({@damage 1d4 + 2}) de dany perforant mes 2 ({@damage 1d4}) de dany d'àcid. Al final de cada torn seu, l'objectiu ha de salvar per Constitució amb {@dc 10}, taking 2 ({@damage 1d4}) de dany d'àcid on a failure or ending the recurring acid damage on a success. Un conjur {@spell restabliment menor} cast on the target also ends the recurring acid damage."
 					]
 				},
 				{
@@ -22253,7 +22253,7 @@
 				{
 					"name": "Animate Boulders (1/Dia)",
 					"entries": [
-						"The galeb duhr magically animates up to two boulders it can see within 60 feet of it. A boulder has statistics like those of a galeb duhr, except it has Intel·ligència 1 and Carisma 1, it can't be {@condition fascinat} or {@condition acovardit}, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell)."
+						"The galeb duhr magically animates up to two boulders it can see within 60 feet of it. A boulder has statistics like those of a galeb duhr, except it has Intel·ligència 1 and Carisma 1, it can't be {@condition fascinat} or {@condition acovardit}, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (com si et concentressis en un conjur)."
 					]
 				}
 			],
@@ -24652,7 +24652,7 @@
 				{
 					"name": "Underwater Camouflage",
 					"entries": [
-						"The octopus has advantage on Destresa ({@skill Sigil}) checks made while underwater."
+						"The octopus has advantage on Destresa ({@skill Sigil}) made while underwater."
 					]
 				},
 				{
@@ -26181,7 +26181,7 @@
 				{
 					"name": "Silver Espasa Gran",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}13 ({@damage 2d6 + 6}) de dany tallant mes 10 ({@damage 3d6}) de dany psíquic. This is a arma màgica attack. On a critical hit against a target in an astral body (as with the {@spell projecció astral} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}13 ({@damage 2d6 + 6}) de dany tallant mes 10 ({@damage 3d6}) de dany psíquic. This és una arma màgica attack. On a critical hit against a target in an astral body (as with el conjur {@spell projecció astral}), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
 					]
 				}
 			],
@@ -26403,7 +26403,7 @@
 				{
 					"name": "Atac Desarmat",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany contundent mes 9 ({@damage 2d8}) de dany psíquic. This is a arma màgica attack."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, un objectiu. {@h}6 ({@damage 1d8 + 2}) de dany contundent mes 9 ({@damage 2d8}) de dany psíquic. This és una arma màgica attack."
 					]
 				}
 			],
@@ -26526,7 +26526,7 @@
 				{
 					"name": "Atac Desarmat",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany contundent mes 13 ({@damage 3d8}) de dany psíquic. This is a arma màgica attack."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 2d6 + 4}) de dany contundent mes 13 ({@damage 3d8}) de dany psíquic. This és una arma màgica attack."
 					]
 				}
 			],
@@ -28361,8 +28361,8 @@
 					"name": "Control Gem",
 					"entries": [
 						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition fascinat} while so controlled.",
-						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell desig} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-						"A {@spell restabliment superior} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. Un conjur {@spell desig}, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"Un conjur {@spell restabliment superior} cast on the slaad destroys the gem without harming the slaad.",
 						"Someone who is proficient in Saviesa (Medicine) can remove the gem from an {@condition incapacitat} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Saviesa (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) de dany psíquic to the slaad."
 					]
 				}
@@ -28637,7 +28637,7 @@
 				{
 					"name": "Invisible Passage",
 					"entries": [
-						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her concentration ends (com si et concentressis en un conjur). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
 					]
 				}
 			],
@@ -28904,8 +28904,8 @@
 					"name": "Control Gem",
 					"entries": [
 						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition fascinat} while so controlled.",
-						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell desig} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-						"A {@spell restabliment superior} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. Un conjur {@spell desig}, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"Un conjur {@spell restabliment superior} cast on the slaad destroys the gem without harming the slaad.",
 						"Someone who is proficient in Saviesa (Medicine) can remove the gem from an {@condition incapacitat} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Saviesa (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) de dany psíquic to the slaad."
 					]
 				}
@@ -29798,7 +29798,7 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell desig} spell can prevent this trait from functioning."
+						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only un conjur {@spell desig} can prevent this trait from functioning."
 					]
 				}
 			],
@@ -36526,7 +36526,7 @@
 					"type": "variant",
 					"name": "Familiars",
 					"entries": [
-						"Any spellcaster that can cast the {@spell trobar familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature ma reptadora}, {@creature imp}, {@creature pseudodragon}, o {@creature quasit}."
+						"Any spellcaster that can cast el conjur {@spell trobar familiar} (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature ma reptadora}, {@creature imp}, {@creature pseudodragon}, o {@creature quasit}."
 					]
 				}
 			],
@@ -37290,7 +37290,7 @@
 							"type": "entries",
 							"name": "Disguises",
 							"entries": [
-								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the {@spell ego camuflatge} spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the {@spell polimorfia veritable} spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
+								"Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast el conjur {@spell ego camuflatge} a voluntat, often with a longer duration than is normal for that spell. Mightier genies can cast el conjur {@spell polimorfia veritable} one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well."
 							]
 						},
 						{
@@ -37298,7 +37298,7 @@
 							"name": "Wishes",
 							"entries": [
 								"The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year), and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.",
-								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the {@spell desig} spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
+								"To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast el conjur {@spell desig} on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
 							]
 						}
 					]
@@ -39420,7 +39420,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent mes 10 ({@damage 3d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 12} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell anul·lar maledicció} spell or other magic."
+						"{@atk mw} {@hit 5} a impactar, 5 peus d'abast, un objectiu. {@h}10 ({@damage 2d6 + 3}) de dany contundent mes 10 ({@damage 3d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 12} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to dust. The curse lasts until removed by el conjur {@spell anul·lar maledicció} or other magic."
 					]
 				},
 				{
@@ -39635,7 +39635,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell anul·lar maledicció} spell or other magic."
+						"{@atk mw} {@hit 9} a impactar, 5 peus d'abast, un objectiu. {@h}14 ({@damage 3d6 + 4}) de dany contundent mes 21 ({@damage 6d6}) de dany necròtic. Si l'objectiu és una criatura, ha de salvar per Constitució amb {@dc 16} or be cursed with mummy rot. The cursed target can't regain hit points, and its punts de vida màxims decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's punts de vida màxims to 0, the target dies, and its body turns to dust. The curse lasts until removed by el conjur {@spell anul·lar maledicció} or other magic."
 					]
 				},
 				{
@@ -39816,7 +39816,7 @@
 							"type": "entries",
 							"name": "Caustic Spores (1/Dia)",
 							"entries": [
-								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 11} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. A creature pot repetir la salvada at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
+								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 11} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. Una criatura pot repetir la salvada at the end of its turn. si supera, l'efecte s'acaba. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
 							]
 						},
 						{
@@ -39830,7 +39830,7 @@
 							"type": "entries",
 							"name": "Euphoria Spores (1/Dia)",
 							"entries": [
-								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 11} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. A creature pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
+								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 11} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. Una criatura pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
 							]
 						}
 					],
@@ -39980,7 +39980,7 @@
 							"type": "entries",
 							"name": "Caustic Spores (1/Dia)",
 							"entries": [
-								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 12} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. A creature pot repetir la salvada at the end of its turn, ending the effect on itself on a success. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
+								"The myconid releases spores en un con de 30 peus. Each creature inside the cone ha de salvar per Destresa amb {@dc 12} or take 3 ({@damage 1d6}) de dany d'àcid at the start of each of the myconid's turns. Una criatura pot repetir la salvada at the end of its turn. si supera, l'efecte s'acaba. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus."
 							]
 						},
 						{
@@ -39994,7 +39994,7 @@
 							"type": "entries",
 							"name": "Euphoria Spores (1/Dia)",
 							"entries": [
-								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 12} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. A creature pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
+								"The myconid releases a cloud of spores in a 20-foot-radius sphere centered on itself. Other creatures in that area must each succeed on a {@dc 12} Constitució saving throw or become {@condition emmetzinat} durant 1 minut. The save DC is 8 + the myconid's Constitució modifier + the myconid's proficiency bonus. Una criatura pot repetir la salvada al final de cada torn seu, ending the effect early on itself on a success. When the effect ends on it, the creature gains one level of {@condition exhaust}."
 							]
 						}
 					],
@@ -40553,7 +40553,7 @@
 				{
 					"name": "Nightmare Haunting (1/Dia)",
 					"entries": [
-						"While on the Pla Etèri, the hag magically touches a sleeping humanoid on the Material Plane. A {@spell protegir del bé i del mal} spell cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its punts de vida màxims is reduced by 5 ({@dice 1d10}). If this effect reduces the target's punts de vida màxims to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's punts de vida màxims lasts until removed by the  {@spell restabliment superior} spell or similar magic."
+						"While on the Pla Etèri, the hag magically touches a sleeping humanoid on the Material Plane. Un conjur {@spell protegir del bé i del mal} cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its punts de vida màxims is reduced by 5 ({@dice 1d10}). If this effect reduces the target's punts de vida màxims to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's punts de vida màxims lasts until removed by the  {@spell restabliment superior} spell or similar magic."
 					]
 				}
 			],
@@ -41453,7 +41453,7 @@
 				{
 					"name": "Underwater Camouflage",
 					"entries": [
-						"The octopus has advantage on Destresa ({@skill Sigil}) checks made while underwater."
+						"The octopus has advantage on Destresa ({@skill Sigil}) made while underwater."
 					]
 				},
 				{
@@ -43845,7 +43845,7 @@
 				{
 					"name": "Superior Invisibilitat",
 					"entries": [
-						"The pixie magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is {@condition invisible} with it."
+						"The pixie magically turns {@condition invisible} until its concentration ends (com si et concentressis en un conjur). Any equipment the pixie wears or carries is {@condition invisible} with it."
 					]
 				}
 			],
@@ -45630,13 +45630,13 @@
 				{
 					"name": "Scare (1/Dia)",
 					"entries": [
-						"One creature of the quasit's choice within 20 feet of ha de salvar per Saviesa amb {@dc 10} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success."
+						"One creature of the quasit's choice within 20 feet of ha de salvar per Saviesa amb {@dc 10} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the quasit is within line of sight. si supera, l'efecte s'acaba."
 					]
 				},
 				{
 					"name": "Invisibilitat",
 					"entries": [
-						"The quasit magically turns {@condition invisible} until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is {@condition invisible} with it."
+						"The quasit magically turns {@condition invisible} until it attacks or uses Scare, or until its concentration ends (com si et concentressis en un conjur). Any equipment the quasit wears or carries is {@condition invisible} with it."
 					]
 				}
 			],
@@ -45914,7 +45914,7 @@
 				{
 					"name": "Urpa",
 					"entries": [
-						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, and l'objectiu està maleït if it is a creature. The magical curse takes effect whenever l'objectiu rep a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a {@spell anul·lar maledicció} spell or similar magic."
+						"{@atk mw} {@hit 7} a impactar, 5 peus d'abast, un objectiu. {@h}9 ({@damage 2d6 + 2}) de dany tallant, and l'objectiu està maleït if it is a creature. The magical curse takes effect whenever l'objectiu rep a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by un conjur {@spell anul·lar maledicció} or similar magic."
 					]
 				}
 			],
@@ -46327,8 +46327,8 @@
 					"name": "Control Gem",
 					"entries": [
 						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition fascinat} while so controlled.",
-						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell desig} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-						"A {@spell restabliment superior} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell engarjolament}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. Un conjur {@spell desig}, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"Un conjur {@spell restabliment superior} cast on the slaad destroys the gem without harming the slaad.",
 						"Someone who is proficient in Saviesa (Medicine) can remove the gem from an {@condition incapacitat} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Saviesa (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) de dany psíquic to the slaad."
 					]
 				}
@@ -46669,7 +46669,7 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"When the retornat's body is destroyed, its soul lingers. Passades 24 hores, the soul inhabits and animates another humanoid corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, a {@spell desig} spell can be used to force the soul to go to the afterlife and not return."
+						"When the retornat's body is destroyed, its soul lingers. Passades 24 hores, the soul inhabits and animates another humanoid corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, un conjur {@spell desig} can be used to force the soul to go to the afterlife and not return."
 					]
 				},
 				{
@@ -48218,7 +48218,7 @@
 							"name": "Panpipes",
 							"entries": [
 								"The sàtir plays its pipes and chooses one of the following magical effects: a charming melody, a frightening strain, or a gentle lullaby. Any creature within 60 feet of the sàtir that can hear the pipes ha de salvar per Saviesa amb {@dc 13} or be affected as described below. Other sàtirs and creature that can't be {@condition fascinat} are unaffected",
-								"An affected creature pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to these panpipes durant les properes 24 hores.",
+								"An affected creature pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. Si una criatura supera la salvada o aquest efecte se li cancel·la, the creature is immune to these panpipes durant les properes 24 hores.",
 								{
 									"type": "variantSub",
 									"name": "Charming Melody",
@@ -48716,7 +48716,7 @@
 				{
 					"name": "Horrific Appearance",
 					"entries": [
-						"Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form ha de salvar per Saviesa amb {@dc 11}. Si falla, the creature is {@condition acovardit} durant 1 minut. A creature pot repetir la salvada al final de cada torn seu, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a hag's Horrific Appearance durant les properes 24 hores.",
+						"Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form ha de salvar per Saviesa amb {@dc 11}. Si falla, the creature is {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, with disadvantage if the hag is within line of sight. si supera, l'efecte s'acaba. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a hag's Horrific Appearance durant les properes 24 hores.",
 						"Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Fins a l'inici del seu següent torn, a creature that averts its eyes has disadvantage on attack rolls against the hag."
 					]
 				}
@@ -50416,7 +50416,7 @@
 									"type": "item",
 									"name": "3. Fear Ray.",
 									"style": "italic",
-									"entry": "The target ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success."
+									"entry": "The target ha de salvar per Saviesa amb {@dc 13} or be {@condition acovardit} durant 1 minut. L'objectiu pot tornar a salvar al final de cada torn seu, with disadvantage if the spectator is visible to the target. si supera, l'efecte s'acaba."
 								},
 								{
 									"type": "item",
@@ -51039,7 +51039,7 @@
 				{
 					"name": "Rejovenir",
 					"entries": [
-						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell desig} spell can prevent this trait from functioning."
+						"If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only un conjur {@spell desig} can prevent this trait from functioning."
 					]
 				}
 			],
@@ -51172,7 +51172,7 @@
 				{
 					"name": "Invisibilitat",
 					"entries": [
-						"The sprite magically turns {@condition invisible} until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is {@condition invisible} with it."
+						"The sprite magically turns {@condition invisible} until it attacks or casts a spell, or until its concentration ends (com si et concentressis en un conjur). Any equipment the sprite wears or carries is {@condition invisible} with it."
 					]
 				}
 			],
@@ -51913,7 +51913,7 @@
 				{
 					"name": "Slow {@recharge 5}",
 					"entries": [
-						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the target can take either an action or a bonus action on its turn, not both. These effects last durant 1 minut. A target pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success."
+						"The gòlem targets one or more creatures it can see within 10 feet of it. Each target ha de salvar per Saviesa amb {@dc 17} against this magic. Si falla, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. A més, the target can take either an action or a bonus action on its turn, not both. These effects last durant 1 minut. A target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba."
 					]
 				}
 			],
@@ -53552,7 +53552,7 @@
 				{
 					"name": "Reflective Carapace",
 					"entries": [
-						"Any time the tarrasque is targeted by a {@spell missil màgic} spell, a line spell, or a spell that requires a ranged attack roll, roll a {@dice d6}. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target."
+						"Any time the tarrasque is targeted by un conjur {@spell missil màgic}, a line spell, or a spell that requires a ranged attack roll, roll a {@dice d6}. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target."
 					]
 				},
 				{
@@ -53596,7 +53596,7 @@
 				{
 					"name": "Presència Aterradora",
 					"entries": [
-						"Each creature of the tarrasque's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. A creature pot repetir la salvada al final de cada torn seu, with disadvantage if the tarrasque is within line of sight, ending the effect on itself on a success. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a tarrasque's Presència Aterradora durant les properes 24 hores."
+						"Each creature of the tarrasque's choice within 120 feet of it and aware of ha de salvar per Saviesa amb {@dc 17} o estar {@condition acovardit} durant 1 minut. Una criatura pot repetir la salvada al final de cada torn seu, with disadvantage if the tarrasque is within line of sight. si supera, l'efecte s'acaba. Si la criatura supera la salvació o l'efecte acaba prematurament, la criatura és immune a tarrasque's Presència Aterradora durant les properes 24 hores."
 					]
 				},
 				{
@@ -55801,7 +55801,7 @@
 					"name": "Charm",
 					"entries": [
 						"The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} pel vampir. The {@condition fascinat} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
-						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{
@@ -56239,7 +56239,7 @@
 					"name": "Charm",
 					"entries": [
 						"The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} pel vampir. The {@condition fascinat} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
-						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{
@@ -56464,7 +56464,7 @@
 					"name": "Charm",
 					"entries": [
 						"The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} pel vampir. The {@condition fascinat} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
-						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time the vampire or the vampire's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{
@@ -57031,7 +57031,7 @@
 				{
 					"name": "Spores {@recharge}",
 					"entries": [
-						"A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 14} or become {@condition emmetzinat}. While {@condition emmetzinat} in this way, a target takes 5 ({@damage 1d10}) de dany de verí a l'inici de cada torn seu. A target pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. Emptying a vial of aigua beneïda on the target also ends the effect on it."
+						"A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Tota criatura dins de l'àrea ha de salvar per Constitució amb {@dc 14} or become {@condition emmetzinat}. While {@condition emmetzinat} in this way, a target takes 5 ({@damage 1d10}) de dany de verí a l'inici de cada torn seu. A target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. Emptying a vial of aigua beneïda on the target also ends the effect on it."
 					]
 				},
 				{
@@ -59032,7 +59032,7 @@
 				{
 					"name": "Invisibilitat",
 					"entries": [
-						"The will-o'-wisp and its light magically become {@condition invisible} until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell)."
+						"The will-o'-wisp and its light magically become {@condition invisible} until it attacks or uses its Consume Life, or until its concentration ends (com si et concentressis en un conjur)."
 					]
 				}
 			],

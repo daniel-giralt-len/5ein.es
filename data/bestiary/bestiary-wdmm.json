@@ -170,16 +170,16 @@
 				{
 					"name": "Wielder Domination",
 					"entries": [
-						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff ha de salvar per Carisma amb {@dc 12} or be {@condition fascinat} by the staff until the staff is no longer in its grasp. While the creature is {@condition fascinat}, the staff can issue commands to it, which the creature does its best to obey. The creature pot repetir la salvada each time it takes damage, ending the effect on itself on a success. A creature that successfully resists the staff's control can't be {@condition fascinat} by it for 24 hours.",
+						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff ha de salvar per Carisma amb {@dc 12} or be {@condition fascinat} by the staff until the staff is no longer in its grasp. While the creature is {@condition fascinat}, the staff can issue commands to it, which the creature does its best to obey. The creature pot repetir la salvada each time it takes damage. si supera, l'efecte s'acaba. A creature that successfully resists the staff's control can't be {@condition fascinat} by it for 24 hours.",
 						"A creature holding the staff that isn't {@condition fascinat} by it can use an action to attempt to break the staff over a knee or against a solid surface, doing so with a successful {@dc 17} Força ({@skill Atletisme}) check. Breaking the staff in this manner destroys it."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Staff of Frost",
+					"name": "Bastó de Gebre",
 					"entries": [
-						"The staff té 10 càrregues. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell con de fred} (5 charges), {@spell núvol de boira} (1 charge), {@spell tempesta de gel} (4 charges), or {@spell paret de glaç} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
+						"El bastó té 10 càrregues. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell con de fred} (5 càrregues), {@spell núvol de boira} (1 càrrega), {@spell tempesta de gel} (4 càrregues), or {@spell paret de glaç} (4 càrregues). Recupera {@dice 1d6 + 4} càrregues gastades diàriament a trenc d'alba. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
 					]
 				},
 				{
@@ -365,7 +365,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Arcturia is an 18th-level spellcaster. Her habilitat de llançament de conjurs is Intel·ligència ({@dc 20} salvada de conjur, {@hit 12} a impactar amb atacs màgics). Arcturia can cast {@spell ego alteració} at will and has the following wizard spells prepared:"
+						"Arcturia is an 18th-level spellcaster. Her habilitat de llançament de conjurs is Intel·ligència ({@dc 20} salvada de conjur, {@hit 12} a impactar amb atacs màgics). Arcturia can cast {@spell ego alteració} a voluntat and has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -941,7 +941,7 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"Cassiok carries a {@item ceptre of power} that grants him +2 a la CA, spell attack rolls, and saving throws. His insectoid physiology prevents him from making melee attacks with the staff. If reduced to 20 hit points or fewer, Cassiok uses his next action to break his staff in a retributive strike."
+								"Cassiok carries a {@item ceptre of power} that grants him +2 a la CA, spell attack rolls, and saving throws. His insectoid physiology prevents him from making melee attacks with the staff. If reduced to 20 hit points or fewer, Cassiok uses his next action to break his staff in a cop retributiu."
 							]
 						}
 					},
@@ -1215,7 +1215,7 @@
 							{
 								"name": "Merged Heads",
 								"entries": [
-									"The duergar has advantage on Saviesa ({@skill Percepció}) checks and on saving throws against being {@condition fascinat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
+									"The duergar has advantage on Saviesa ({@skill Percepció}) and on saving throws against being {@condition fascinat}, {@condition acovardit}, {@condition atordit}, and knocked {@condition inconscient}."
 								]
 							}
 						]
@@ -1789,8 +1789,8 @@
 							{
 								"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 								"entries": [
-									"The senyor de les mòmies magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the senyor de les mòmies wears or carries is {@condition invisible} with it.",
-									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The senyor de les mòmies is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the senyor de les mòmies uses a {@spell moldejar la pedra} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
+									"The senyor de les mòmies magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (com si et concentressis en un conjur). Any equipment the senyor de les mòmies wears or carries is {@condition invisible} with it.",
+									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The senyor de les mòmies is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the senyor de les mòmies uses un conjur {@spell moldejar la pedra} to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
 									"At the bottom of the stalagmite's hollow cavity, four 1-foot-tall clay urns contain Gorka Tharn's preserved internal organs, including the senyor de les mòmies's shriveled heart. Only by destroying the heart can the characters prevent the senyor de les mòmies from rejuvenating. The heart is a Tiny object with AC 5, 25 hit points, and immunity to all damage except fire."
 								]
 							}
@@ -1993,7 +1993,7 @@
 				{
 					"name": "Llançament de Conjurs",
 					"headerEntries": [
-						"Halaster és un llançador de conjurs de nivell 20. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 22} salvada de conjur, {@hit 14} a impactar amb atacs màgics). He can cast {@spell ego camuflatge} i {@spell invisibilitat} at will. He can cast {@spell volar} i {@spell llampec} once each sense gastar cap ranura de conjur, but can't do so again until he finishes a short or long rest. Té els següents conjurs de mag preparats:"
+						"Halaster és un llançador de conjurs de nivell 20. La seva habilitat de llançament de conjur és Intel·ligència ({@dc 22} salvada de conjur, {@hit 14} a impactar amb atacs màgics). He can cast {@spell ego camuflatge} i {@spell invisibilitat} a voluntat. He can cast {@spell volar} i {@spell llampec} once each sense gastar cap ranura de conjur, but can't do so again until he finishes a short or long rest. Té els següents conjurs de mag preparats:"
 					],
 					"spells": {
 						"0": {
@@ -2099,7 +2099,7 @@
 				{
 					"name": "Equipament Especial",
 					"entries": [
-						"Halaster wears a robe of eyes that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Saviesa (Percepció) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Pla Etèri, out to a range of 120 feet.",
+						"Halaster wears a túnica d'ulls that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Saviesa (Percepció) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Pla Etèri, out to a range of 120 feet.",
 						"Halaster wields a blast scepter (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, com a acció, use it to cast tronada com a conjur de nivell 4 (save {@dc 16}) sense gastar cap ranura de conjur.",
 						"Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
 					]
@@ -2206,7 +2206,7 @@
 						"items": {
 							"name": "Spell Immunity",
 							"entries": [
-								"The Halaster horror is immune to the {@spell con de fred}, {@spell desintegrar}, i {@spell bola de foc} spells."
+								"The Halaster horror is immune to el conjur {@spell con de fred}, {@spell desintegrar}, i {@spell bola de foc}s."
 							]
 						}
 					}
@@ -2323,7 +2323,7 @@
 				{
 					"name": "Magical Properties",
 					"entries": [
-						"A creature that uses an action to touch the living snail gains 6 punts de vida temporals that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell anul·lar maledicció} spell. The snail loses these magical properties if it dies."
+						"A creature that uses an action to touch the living snail gains 6 punts de vida temporals that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of un conjur {@spell anul·lar maledicció}. The snail loses these magical properties if it dies."
 					]
 				},
 				{
@@ -2421,7 +2421,7 @@
 				{
 					"name": "Invisibility (es Recarrega amb un descans Curt o Llarg)",
 					"entries": [
-						"The ooze magically turns {@condition invisible} for up to 1 hour until it attacks, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell)."
+						"The ooze magically turns {@condition invisible} for up to 1 hour until it attacks, it uses its Enlarge, or its concentration is broken (com si et concentressis en un conjur)."
 					]
 				}
 			],
@@ -3721,7 +3721,7 @@
 				{
 					"name": "Brew Bound",
 					"entries": [
-						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell purificar menjar i beure} spell is cast on the brew."
+						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if un conjur {@spell purificar menjar i beure} is cast on the brew."
 					]
 				},
 				{
@@ -3758,7 +3758,7 @@
 							"items": {
 								"name": "Erm de l'Ombra Despair",
 								"entries": [
-									"Portia suffers from Erm de l'Ombra despair manifesting as unshakable dread. Until the despair ends, she has disadvantage on all saving throws and gains the following flaw: \"I'm convinced that I'm going to die in Vanrakdoom.\" Portia can attempt to end her despair each time she finishes a long rest, doing so with a successful DC 15 Saviesa saving throw. A {@spell apaivagar emocions} spell also ends her despair, as does any spell or other magical effect that removes a curse."
+									"Portia suffers from Erm de l'Ombra despair manifesting as unshakable dread. Until the despair ends, she has disadvantage on all saving throws and gains the following flaw: \"I'm convinced that I'm going to die in Vanrakdoom.\" Portia can attempt to end her despair each time she finishes a long rest, doing so with a successful DC 15 Saviesa saving throw. Un conjur {@spell apaivagar emocions} also ends her despair, as does any spell or other magical effect that removes a curse."
 								]
 							}
 						}
@@ -5311,7 +5311,7 @@
 						"items": {
 							"name": "Equipament Especial",
 							"entries": [
-								"Zalthar wields a {@item nine lives stealer} longsword with 5 charges remaining."
+								"Zalthar wields a {@item nou drenavides} longsword with 5 charges remaining."
 							]
 						}
 					},
@@ -5319,7 +5319,7 @@
 						"mode": "replaceArr",
 						"replace": "Espasa llarga",
 						"items": {
-							"name": "Nine Lives Stealer Longsword",
+							"name": "Nou Drenavides Longsword",
 							"entries": [
 								"{@atk mw} {@hit 13} a impactar, 5 peus d'abast, un objectiu. {@h}11 ({@damage 1d8 + 7}) de dany tallant, o 12 ({@damage 1d10 + 7}) de dany tallant si s'usa amb dues mans, plus 18 ({@damage 4d8}) de dany necròtic."
 							]
@@ -5494,7 +5494,7 @@
 					"name": "Charm",
 					"entries": [
 						"Zorak targets one humanoid he can see within 30 feet of it. If the target can see Zorak, the target ha de salvar per Saviesa amb {@dc 17} against this magic or be {@condition fascinat} by Zorak. The {@condition fascinat} target regards Zorak as a trusted friend to be heeded and protected. Although the target isn't under Zorak's control, it takes Zorak's requests or actions in the most favorable way it can, and it is a willing target for Zorak's bite attack.",
-						"Each time Zorak or Zorak's companions do anything harmful to the target, pot repetir la salvada, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Zorak is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+						"Each time Zorak or Zorak's companions do anything harmful to the target, pot repetir la salvada. si supera, l'efecte s'acaba. Otherwise, the effect lasts 24 hours or until Zorak is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
 					]
 				},
 				{

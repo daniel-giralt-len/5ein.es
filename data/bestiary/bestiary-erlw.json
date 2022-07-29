@@ -147,7 +147,7 @@
 									"type": "item",
 									"name": "1. Psyche-Reconstruction Ray.",
 									"style": "italic",
-									"entry": "L'objectiu ha de salvar per Saviesa amb {@dc 22}. Qui falli rep 49 ({@damage 9d10}) de dany psíquic; qui superi, en rep la meitat. If this damage reduces a creature to 0 hit points, it dies and transforms into a spectator under Belashyrra's control and acts immediately after Belashyrra in the initiative order. The target can't be returned to its original form by any means short of a {@spell desig} spell."
+									"entry": "L'objectiu ha de salvar per Saviesa amb {@dc 22}. Qui falli rep 49 ({@damage 9d10}) de dany psíquic; qui superi, en rep la meitat. If this damage reduces a creature to 0 hit points, it dies and transforms into a spectator under Belashyrra's control and acts immediately after Belashyrra in the initiative order. The target can't be returned to its original form by any means short of un conjur {@spell desig}."
 								},
 								{
 									"type": "item",
@@ -1092,7 +1092,7 @@
 					"name": "Corruption",
 					"entries": [
 						"Dyrrn targets one creature it can see within 60 feet of it. The target ha de salvar per Constitució amb {@dc 23} or take 22 ({@damage 4d6 + 8}) de dany necròtic and become corrupted durant 1 minut.",
-						"A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a {@dc 15} Intel·ligència check or the spell fails and is wasted. The corrupted creature pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success."
+						"A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a {@dc 15} Intel·ligència check or the spell fails and is wasted. The corrupted creature pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba."
 					]
 				},
 				{
@@ -1420,7 +1420,7 @@
 					"name": "Posseïr {@recharge}",
 					"entries": [
 						"One humanoid that the quori can see within 5 feet of ha de salvar per Carisma amb {@dc 16} or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitat} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and retè l'alineament, la Intel·ligència, la Saviesa, el Carisma, i la immunitat a ésser {@condition fascinat} o {@condition acovardit}. La resta d'estadístiques són les de l'objectiu, però no en guanya els coneixements, trets de classes, o competències.",
-						"The possession lasts until the body es queda a 0 punts de vida, the quori ends it com a acció bonus, or the quori is forced out by an effect like the {@spell dissipar el bé i el mal} spell. Quan la possessió acaba the quori reapareix en un espai lliure a 5 peus del cos. L'objectiu és immune a possessions d'aquest this quori's durant 24 hores des que supera la salvada o la possessió acaba."
+						"The possession lasts until the body es queda a 0 punts de vida, the quori ends it com a acció bonus, or the quori is forced out by an effect like el conjur {@spell dissipar el bé i el mal}. Quan la possessió acaba the quori reapareix en un espai lliure a 5 peus del cos. L'objectiu és immune a possessions d'aquest this quori's durant 24 hores des que supera la salvada o la possessió acaba."
 					]
 				}
 			],
@@ -1582,7 +1582,7 @@
 									"type": "entries",
 									"name": "Suggestion (3/Dia)",
 									"entries": [
-										"The Inspired can cast the {@spell suggestió} spell ({@dc 13} salvació de conjur), sense que calguin components materials."
+										"The Inspired can cast el conjur {@spell suggestió} ({@dc 13} salvació de conjur), sense que calguin components materials."
 									]
 								}
 							]
@@ -1602,7 +1602,7 @@
 									"type": "entries",
 									"name": "Ull Arcà (3/Dia)",
 									"entries": [
-										"The Inspired can cast the {@spell ull arcà} spell, sense que calguin components materials."
+										"The Inspired can cast el conjur {@spell ull arcà}, sense que calguin components materials."
 									]
 								}
 							]
@@ -1615,7 +1615,7 @@
 									"type": "entries",
 									"name": "Fear (1/Dia)",
 									"entries": [
-										"The Inspired can cast the {@spell temor} spell ({@dc 13} salvació de conjur), sense que calguin components materials."
+										"The Inspired can cast el conjur {@spell temor} ({@dc 13} salvació de conjur), sense que calguin components materials."
 									]
 								}
 							]
@@ -1877,14 +1877,14 @@
 				{
 					"name": "Soul Binding",
 					"entries": [
-						"{@atk ms} {@hit 13} a impactar, 5 peus d'abast, un objectiu. {@h}29 ({@damage 4d10 + 7}) de dany necròtic. A creature reduced to 0 hit points from this attack dies and has its soul imprisoned in one of the quori's eyes. The target can't be revived by any means short of a {@spell desig} spell until the quori is destroyed."
+						"{@atk ms} {@hit 13} a impactar, 5 peus d'abast, un objectiu. {@h}29 ({@damage 4d10 + 7}) de dany necròtic. A creature reduced to 0 hit points from this attack dies and has its soul imprisoned in one of the quori's eyes. The target can't be revived by any means short of un conjur {@spell desig} until the quori is destroyed."
 					]
 				},
 				{
 					"name": "Mind Seed (1/Dia)",
 					"entries": [
 						"The quori touches one humanoid, which ha de salvar per Intel·ligència amb {@dc 21} or be cursed. The curse lasts until it's removed by a anul·lar maledicció or restabliment superior spell.",
-						"The cursed target suffers 1 level of {@condition exhaust} every 24 hours, and finishing a long rest doesn't reduce its {@condition exhaust}. If the cursed target reaches {@condition exhaust} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition exhaust} is removed. Only the {@spell desig} spell can free the thrall from this control."
+						"The cursed target suffers 1 level of {@condition exhaust} every 24 hours, and finishing a long rest doesn't reduce its {@condition exhaust}. If the cursed target reaches {@condition exhaust} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition exhaust} is removed. Only el conjur {@spell desig} can free the thrall from this control."
 					]
 				},
 				{
@@ -1897,7 +1897,7 @@
 					"name": "Posseïr {@recharge}",
 					"entries": [
 						"One humanoid that the quori can see within 5 feet of ha de salvar per Carisma amb {@dc 21} or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitat} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and retè l'alineament, la Intel·ligència, la Saviesa, el Carisma, i la immunitat a ésser {@condition fascinat} o {@condition acovardit}. La resta d'estadístiques són les de l'objectiu, però no en guanya els coneixements, trets de classes, o competències.",
-						"The possession lasts until the body es queda a 0 punts de vida, the quori ends it com a acció bonus, or the quori is forced out by an effect like the {@spell dissipar el bé i el mal} spell. Quan la possessió acaba the quori reapareix en un espai lliure a 5 peus del cos. L'objectiu és immune a possessions d'aquest this quori's durant 24 hores des que supera la salvada o la possessió acaba."
+						"The possession lasts until the body es queda a 0 punts de vida, the quori ends it com a acció bonus, or the quori is forced out by an effect like el conjur {@spell dissipar el bé i el mal}. Quan la possessió acaba the quori reapareix en un espai lliure a 5 peus del cos. L'objectiu és immune a possessions d'aquest this quori's durant 24 hores des que supera la salvada o la possessió acaba."
 					]
 				}
 			],
@@ -2624,7 +2624,7 @@
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries": [
 						"The living spell creates a 40-foot-diameter sphere of fog within 60 feet of it (the fog s'extén per les cantonades). Quan una criatura enters the fog per primer cop en un torn o hi començi el torn, ha de salvar per Constitució amb {@dc 16}. Qui falli rep 22 ({@damage 5d8}) de dany de verí; qui superi, en rep la meitat.",
-						"The fog moves 10 feet away from the living spell a l'inici de cada torn seu, rolling along the ground and through openings. The fog dura 10 minuts or until the living spell's concentration ends (as if concentrating on a spell)."
+						"The fog moves 10 feet away from the living spell a l'inici de cada torn seu, rolling along the ground and through openings. The fog dura 10 minuts or until the living spell's concentration ends (com si et concentressis en un conjur)."
 					]
 				}
 			],
@@ -3105,7 +3105,7 @@
 				{
 					"name": "Aura of False Divinity",
 					"entries": [
-						"A creature that starts its turn within 30 feet of the radiant idol ha de salvar per Saviesa amb {@dc 17}, provided the radiant idol isn't {@condition incapacitat}. Si falla, the creature is {@condition fascinat} by the radiant idol. A creature {@condition fascinat} in this way pot repetir la salvada al final de cada torn seu, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours."
+						"A creature that starts its turn within 30 feet of the radiant idol ha de salvar per Saviesa amb {@dc 17}, provided the radiant idol isn't {@condition incapacitat}. Si falla, the creature is {@condition fascinat} by the radiant idol. A creature {@condition fascinat} in this way pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours."
 					]
 				},
 				{
@@ -4166,7 +4166,7 @@
 					"name": "Posseïr {@recharge}",
 					"entries": [
 						"One humanoid that the quori can see within 5 feet of ha de salvar per Carisma amb {@dc 14} or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitat} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and retè l'alineament, la Intel·ligència, la Saviesa, el Carisma, i la immunitat a ésser {@condition fascinat} o {@condition acovardit}. La resta d'estadístiques són les de l'objectiu, però no en guanya els coneixements, trets de classes, o competències.",
-						"The possession lasts until the body es queda a 0 punts de vida, the quori ends it com a acció bonus, or the quori is forced out by an effect like the {@spell dissipar el bé i el mal} spell. Quan la possessió acaba the quori reapareix en un espai lliure a 5 peus del cos. L'objectiu és immune a possessions d'aquest this quori's durant 24 hores des que supera la salvada o la possessió acaba."
+						"The possession lasts until the body es queda a 0 punts de vida, the quori ends it com a acció bonus, or the quori is forced out by an effect like el conjur {@spell dissipar el bé i el mal}. Quan la possessió acaba the quori reapareix en un espai lliure a 5 peus del cos. L'objectiu és immune a possessions d'aquest this quori's durant 24 hores des que supera la salvada o la possessió acaba."
 					]
 				}
 			],
@@ -4332,7 +4332,7 @@
 							"slots": 1,
 							"spells": [
 								"{@spell prohibició}",
-								"{@spell planar ally}"
+								"{@spell aliança planar}"
 							]
 						},
 						"7": {

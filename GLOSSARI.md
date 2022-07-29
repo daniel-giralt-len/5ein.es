@@ -89,7 +89,8 @@
 |Long Jump|Salt de Llargada
 |Medicine|Medicina
 |Medium armor|Armadura intermitja
-|Melee|Melé
+|Melee|Cos a cos
+|Mind Reading|Lectura Mental
 |Mithral|Mitrall
 |Multiclassing|Multi-classe
 |Must make a X saving throw. On a success, Y. On a failure, Z|Ha de salvar per X. Si falla, Y. Sinò, Z,
@@ -124,7 +125,7 @@
 |Silver pieces|Argents
 |Skills|Habilitats
 |Sleight of Hand|Joc de Mans
-|Sorcerer|Fetiller/a/i
+|Sorcerer|Sortiller/a/i
 |Speed|Velocitat
 |Spell attack bonus|Bonus d'atac màgic
 |Spell save DC|CD de conjur
