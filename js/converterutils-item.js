@@ -38,7 +38,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"trident",
 	"war pick",
 	"martell de guerra",
-	"whip",
+	"fuet",
 	"sarbatana",
 	"hand crossbow",
 	"ballesta pesada",
