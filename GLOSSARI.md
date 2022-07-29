@@ -58,6 +58,7 @@
 |Fiend|Diastre
 |Frightened|Acovardat
 |Gear|Equipament
+|Glaive|Guixa
 |Gold pieces|Ors
 |Grapple|Presa
 |Grappled|Apresat
