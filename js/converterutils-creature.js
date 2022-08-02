@@ -383,7 +383,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"debilitat antimàgica": "Debilitat Antimàgica",
 		"atac furtiu": "Atac Furtiu",
 		"reckless": "Reckless",
-		"web sense": "Web Sense",
+		"sentir el tirarany": "Sentir el Tirarany",
 		"passar volant": "Passar Volant",
 		"abraonar": "Abraonar",
 		"respirar sota l'aigua": "Respirar sota l'aigua",

@@ -8271,7 +8271,7 @@
 				{
 					"name": "Constrènyer",
 					"entries": [
-						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, una criature Gran o menor. {@h}17 ({@damage 2d10 + 6}) de dany contundent mes 17 ({@damage 2d10 + 6}) de dany tallant. L'objectiu està {@condition grappled} ({@dc 16} per escapar) si el behir no està ja constrenyint a una criatura, i l'objectiu està {@condition restrained} mentre duri aquesta presa."
+						"{@atk mw} {@hit 10} a impactar, 5 peus d'abast, una criatura Gran o menor. {@h}17 ({@damage 2d10 + 6}) de dany contundent mes 17 ({@damage 2d10 + 6}) de dany tallant. L'objectiu està {@condition grappled} ({@dc 16} per escapar) si el behir no està ja constrenyint a una criatura, i l'objectiu està {@condition restrained} mentre duri aquesta presa."
 					]
 				},
 				{
@@ -19440,19 +19440,19 @@
 				{
 					"name": "Grimpat d'Aranya",
 					"entries": [
-						"The ettercap pot escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat."
+						"L'ettercap pot escalar superfícies difícils (incloent cap per avall pels sostres) sense haver de fer una tirada d'habilitat."
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Sentir el Tirarany",
 					"entries": [
-						"While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web."
+						"Si està tocant un tirarany l'ettercap sap la posició exacta de tota criatura que també l'estigui tocant."
 					]
 				},
 				{
 					"name": "Caminar pel Tirarany",
 					"entries": [
-						"The ettercap ignora les restriccions de moviment dels tiraranys."
+						"L'ettercap ignora les restriccions de moviment dels tiraranys."
 					]
 				}
 			],
@@ -19460,13 +19460,13 @@
 				{
 					"name": "Multi-atac",
 					"entries": [
-						"The ettercap fa dos atacs: una Mossegada i un amb les Urpes."
+						"L'ettercap fa dos atacs: una Mossegada i un amb les Urpes."
 					]
 				},
 				{
 					"name": "Mossegada",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}6 ({@damage 1d8 + 2}) de dany perforant mes 4 ({@damage 1d8}) de dany de verí. L'objectiu ha de salvar per Constitució amb {@dc 11} or be {@condition emmetzinat} durant 1 minut. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, una criatura. {@h}6 ({@damage 1d8 + 2}) de dany perforant mes 4 ({@damage 1d8}) de dany de verí. L'objectiu ha de salvar per Constitució amb {@dc 11} o esdevenir {@condition emmetzinat} durant 1 minut. La criatura pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera."
 					]
 				},
 				{
@@ -19476,9 +19476,9 @@
 					]
 				},
 				{
-					"name": "Web {@recharge 5}",
+					"name": "Tirarany {@recharge 5}",
 					"entries": [
-						"{@atk rw} {@hit 4} a impactar, 30/60 peus d'abast, una criature Gran o menor. {@h}The creature is {@condition restrained} by webbing. Com a acció, the {@condition restrained} creature can make a {@dc 11} Força check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to fire damage and immune to bludgeoning, poison and psychic damage."
+						"{@atk rw} {@hit 4} a impactar, 30/60 peus d'abast, una criatura Gran o menor. {@h}La criatura es queda {@condition restrained} pel tirarany. Com a acció, la criatura {@condition restrained} pot fer una tirada de Força ({@dc 11}); si supera, escapa. L'efecte acaba si el tirarany és destruït. El tirarany té CA 10, 5 punts de vida, vulnerabilitat al dany de foc i immune al dany contundent, psíquic, i de verí."
 					]
 				}
 			],
@@ -19487,7 +19487,7 @@
 					"type": "variant",
 					"name": "Web Garrote",
 					"entries": [
-						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Medium or Small creature against which the ettercap has advantage on the attack roll. {@h}4 ({@damage 1d4 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). Mentre duri aquesta presa, the target can't breathe, and the ettercap has advantage on attack rolls against it."
+						"{@atk mw} {@hit 4} a impactar, 5 peus d'abast, one Medium or Small creature against which l'ettercap has advantage on the attack roll. {@h}4 ({@damage 1d4 + 2}) de dany contundent, i l'objectiu està {@condition grappled} ({@dc 12} per escapar). Mentre duri aquesta presa, the target can't breathe, and l'ettercap has advantage on attack rolls against it."
 					]
 				}
 			],
@@ -19501,7 +19501,7 @@
 			},
 			"traitTags": [
 				"Grimpat d'Aranya",
-				"Web Sense",
+				"Sentir el Tirarany",
 				"Caminar pel Tirarany"
 			],
 			"senseTags": [
@@ -25422,9 +25422,9 @@
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Sentir el Tirarany",
 					"entries": [
-						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+						"Si està tocant un tirarany the spider sap la posició exacta de tota criatura que també l'estigui tocant."
 					]
 				},
 				{
@@ -25442,7 +25442,7 @@
 					]
 				},
 				{
-					"name": "Web {@recharge 5}",
+					"name": "Tirarany {@recharge 5}",
 					"entries": [
 						"{@atk rw} {@hit 5} a impactar, 30/60 peus d'abast, una criatura. {@h}The target is {@condition restrained} by webbing. Com a acció, the {@condition restrained} target can make a {@dc 12} Força check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
@@ -25462,7 +25462,7 @@
 			},
 			"traitTags": [
 				"Grimpat d'Aranya",
-				"Web Sense",
+				"Sentir el Tirarany",
 				"Caminar pel Tirarany"
 			],
 			"senseTags": [
@@ -25925,9 +25925,9 @@
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Sentir el Tirarany",
 					"entries": [
-						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+						"Si està tocant un tirarany the spider sap la posició exacta de tota criatura que també l'estigui tocant."
 					]
 				},
 				{
@@ -25959,7 +25959,7 @@
 			},
 			"traitTags": [
 				"Grimpat d'Aranya",
-				"Web Sense",
+				"Sentir el Tirarany",
 				"Caminar pel Tirarany"
 			],
 			"senseTags": [
@@ -34511,7 +34511,7 @@
 				{
 					"name": "Net",
 					"entries": [
-						"{@atk rw} {@hit 3} a impactar, 5/15 peus d'abast, una criature Gran o menor. {@h}The target is {@condition restrained}. A creature can use its action to make a {@dc 10} Força check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net."
+						"{@atk rw} {@hit 3} a impactar, 5/15 peus d'abast, una criatura Gran o menor. {@h}The target is {@condition restrained}. A creature can use its action to make a {@dc 10} Força check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net."
 					]
 				}
 			],
@@ -50709,9 +50709,9 @@
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Sentir el Tirarany",
 					"entries": [
-						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+						"Si està tocant un tirarany the spider sap la posició exacta de tota criatura que també l'estigui tocant."
 					]
 				},
 				{
@@ -50737,7 +50737,7 @@
 			},
 			"traitTags": [
 				"Grimpat d'Aranya",
-				"Web Sense",
+				"Sentir el Tirarany",
 				"Caminar pel Tirarany"
 			],
 			"senseTags": [
@@ -53308,9 +53308,9 @@
 					]
 				},
 				{
-					"name": "Web Sense",
+					"name": "Sentir el Tirarany",
 					"entries": [
-						"While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web."
+						"Si està tocant un tirarany the swarm sap la posició exacta de tota criatura que també l'estigui tocant."
 					]
 				},
 				{
@@ -53340,7 +53340,7 @@
 			"hasToken": true,
 			"traitTags": [
 				"Grimpat d'Aranya",
-				"Web Sense",
+				"Sentir el Tirarany",
 				"Caminar pel Tirarany"
 			],
 			"senseTags": [
