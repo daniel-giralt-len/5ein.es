@@ -798,7 +798,7 @@
 
 			const handleShield = () => {
 				// if there's a shield, try dropping it
-				const DUAL_SHIELD_AC = 3; // dual-wield shields is 3 AC, according to VGM's Fire Giant Dreadnought
+				const DUAL_SHIELD_AC = 3; // dual-wield shields is 3 AC, according to VGM's Gegant de Foc Dreadnought
 
 				if (acItem.from) {
 					const fromShields = acItem.from.filter(f => this._ALL_SHIELD_VARIANTS.find(s => f._.includes(`@item ${s.tag}`)));
