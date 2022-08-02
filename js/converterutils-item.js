@@ -24,7 +24,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"destral de guerra",
 	"flail",
 	"guixa",
-	"greataxe",
+	"gran destral",
 	"espasa gran",
 	"halberd",
 	"lance",

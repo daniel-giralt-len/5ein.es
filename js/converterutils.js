@@ -374,7 +374,7 @@ TagCondition.__TGT = `(?:target|wielder)`;
 TagCondition._CONDITION_INFLICTED_MATCHERS = [
 	`(?:creature|enemy|target) (?:is|becomes) (?:\\w+ )?{@condition ([^}]+)}`,
 	`saving throw (?:by \\d+ or more, it )?is (?:\\w+ )?{@condition ([^}]+)}`, // MM :: Sphinx :: First Roar
-	`(?:the save|fails) by \\d+ or more, [^.!?]+?{@condition ([^}]+)}`, // VGM :: Gegant de Foc Dreadnought :: Shield Charge
+	`(?:the save|fails) by \\d+ or more, [^.!?]+?{@condition ([^}]+)}`, // VGM :: Gegant del Foc Dreadnought :: Shield Charge
 	`(?:${TagCondition.__TGT}|creatures?|humanoid|undead|other creatures|enemy) [^.!?]+?(?:succeed|make|pass)[^.!?]+?saving throw[^.!?]+?or (?:fall|be(?:come)?|is) (?:\\w+ )?{@condition ([^}]+)}`,
 	`and then be (?:\\w+ )?{@condition ([^}]+)}`,
 	`(?:be|is) knocked (?:\\w+ )?{@condition (prone|unconscious)}`,
