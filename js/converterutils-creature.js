@@ -546,7 +546,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Èlfic": "E",
 	"Gegantès": "GI",
 	"Gnomesc": "G",
-	"Goblinesc": "GO",
+	"Gòblinesc": "GO",
 	"Halfling": "H",
 	"Diàstric": "I",
 	"Orc": "O",

@@ -561,7 +561,7 @@ class Builder extends ProxyBase {
 					async () => {
 						const copy = MiscUtil.copy(BrewUtil.getEntryByEntryIx(this._prop, ix));
 
-						// Get the root name without trailing numbers, e.g. "Goblin (2)" -> "Goblin"
+						// Get the root name without trailing numbers, e.g. "Gòblin (2)" -> "Gòblin"
 						const m = /^(.*?) \((\d+)\)$/.exec(copy.name.trim());
 						if (m) copy.name = `${m[1]} (${Number(m[2]) + 1})`;
 						else copy.name = `${copy.name} (1)`;

@@ -799,7 +799,7 @@ class PageFilterRaces extends PageFilter {
 				"Èlfic",
 				"Gegantès",
 				"Gnomesc",
-				"Goblinesc",
+				"Gòblinesc",
 				"Halfling",
 				"Diàstric",
 				"Orc",

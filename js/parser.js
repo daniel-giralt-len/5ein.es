@@ -404,7 +404,7 @@ Parser.LANGUAGES_STANDARD = [
 	"Èlfic",
 	"Gegantès",
 	"Gnomesc",
-	"Goblinesc",
+	"Gòblinesc",
 	"Halfling",
 	"Orc",
 ];
@@ -1475,7 +1475,7 @@ Parser.MON_LANGUAGE_TAG_TO_FULL = {
 	"E": "Èlfic",
 	"G": "Gnomesc",
 	"GI": "Gegantès",
-	"GO": "Goblinesc",
+	"GO": "Gòblinesc",
 	"GTH": "Gith",
 	"H": "Halfling",
 	"I": "Diàstric",
