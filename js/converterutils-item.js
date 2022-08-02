@@ -9,7 +9,7 @@ class ConverterUtilsItem {}
 ConverterUtilsItem.BASIC_WEAPONS = [
 	"garrot",
 	"daga",
-	"greatclub",
+	"gran garrot",
 	"handaxe",
 	"javelina",
 	"light hammer",
