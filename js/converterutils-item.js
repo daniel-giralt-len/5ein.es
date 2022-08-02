@@ -36,7 +36,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"simitarra",
 	"espasa curta",
 	"trident",
-	"war pick",
+	"pic de guerra",
 	"martell de guerra",
 	"fuet",
 	"sarbatana",
