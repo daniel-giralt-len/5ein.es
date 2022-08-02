@@ -418,7 +418,7 @@ const LIFE_EVENTS_SUPERNATURAL = [
 	{min: 61, max: 70, result: "You explored an empty house and found it to be haunted."},
 	{min: 71, max: 75, result: () => { const p = RNG(6); return `You were briefly possessed. Roll a {@dice d6} to determine what type of creature possessed you: 1, celestial; 2, devil; 3, demon; 4, fey; 5, elemental; 6, undead ${fmtChoice(`${p}; ${["celestial", "diable", "dimoni", "fata", "elemental", "no-mort"][p - 1]}`)}.` }, display: "You were briefly possessed. Roll a {@dice d6} to determine what type of creature possessed you: 1, celestial; 2, devil; 3, demon; 4, fey; 5, elemental; 6, undead."},
 	{min: 76, max: 80, result: "You saw a ghost."},
-	{min: 81, max: 85, result: "You saw a ghoul feeding on a corpse."},
+	{min: 81, max: 85, result: "You saw a gul feeding on a corpse."},
 	{min: 86, max: 90, result: "A celestial or a diastre visited you in your dreams to give a warning of dangers to come."},
 	{min: 91, max: 95, result: () => `You briefly visited the Terra Fata or the Erm de l'Ombra ${choose("Terra Fata", "Erm de l'Ombra")}.`, "results": "You briefly visited the Terra Fata or the Erm de l'Ombra."},
 	{min: 96, max: 100, result: "You saw a portal that you believe leads to another plane of existence."},
