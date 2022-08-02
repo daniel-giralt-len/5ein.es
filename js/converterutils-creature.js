@@ -874,7 +874,7 @@ MiscTag._RANGED_WEAPONS = [
 	"arc curt",
 	"fona",
 	"sarbatana",
-	"hand crossbow",
+	"ballesta de mà",
 	"ballesta pesada",
 	"arc llarg",
 ];

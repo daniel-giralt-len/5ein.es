@@ -40,7 +40,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"martell de guerra",
 	"fuet",
 	"sarbatana",
-	"hand crossbow",
+	"ballesta de mà",
 	"ballesta pesada",
 	"arc llarg",
 	"net",
