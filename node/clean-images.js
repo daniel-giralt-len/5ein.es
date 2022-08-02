@@ -52,7 +52,7 @@ function cleanBestiaryFluffImages () {
 	// a value of "true" in the mapping represents "map to the shortest available name in the array"
 	const MAP_TO_SHORTEST = {
 		"bestiary/GoS/Locathah.jpg": true,
-		"bestiary/MM/Gnoll.jpg": true,
+		"bestiary/MM/Gnòl.jpg": true,
 		"bestiary/MM/Orc.jpg": true,
 		"bestiary/MTF/Deathlock.jpg": true,
 		"bestiary/MTF/Tòrtel.jpg": true,

@@ -16,7 +16,7 @@ ConverterUtilsItem.BASIC_WEAPONS = [
 	"mace",
 	"quarterstaff",
 	"sickle",
-	"spear",
+	"Llança",
 	"ballesta lleugera",
 	"dard",
 	"arc curt",
