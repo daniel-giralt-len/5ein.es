@@ -429,7 +429,7 @@ TraitActionTag.tags = { // true = map directly; string = map to this string
 		"sensible al sol": "Sensible al Sol",
 		"sunlight hypersensitivity": "Sensible al Sol",
 		"sensible a la llum": "Sensible a la Llum",
-		"vampire weaknesses": "Sensible al Sol",
+		"debilitat vampírica": "Sensible al Sol",
 
 		"amfibi": "Amfibi",
 
@@ -794,7 +794,7 @@ DamageTypeTag._TYPE_LOOKUP = {};
 // Avoid parsing these, as they commonly have e.g. "self-damage" sections
 //   Note that these names should exclude parenthetical parts (as these are removed before lookup)
 DamageTypeTag._BLACKLIST_NAMES = new Set([
-	"vampire weaknesses",
+	"debilitat vampírica",
 ]);
 
 class MiscTag {
