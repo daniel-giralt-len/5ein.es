@@ -318,14 +318,14 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >- **Damage Immunities** poison; bludgeoning, piercing, and slashing from nonmagical attacks
 >- **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
 >- **Senses** visió veraç 120 peus, passive Perception 19
->- **Languages** Common plus up to five other languages
+>- **Languages** Comú i fins a 5 idiomes més
 >- **Challenge** 21 (33000 PX)
 >___
->***Resistència Llegendària (3/Dia).*** Si the lich falla una salvació, pot escollir superar-la.
+>***Resistència Llegendària (3/Dia).*** Si el lítx falla una salvació, pot escollir superar-la.
 >
 >***Rejovenir.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
 >
->***Spellcasting.*** The lich is an 18th-level spellcaster. Its habilitat de llançament de conjurs is Intel·ligència (spell save DC 20, +12 a impactar amb atacs màgics). The lich has the following wizard spells prepared:
+>***Spellcasting.*** El lítx té llançament de conjurs de nivell 18. La seva habilitat de llançament de conjurs is Intel·ligència (spell save DC 20, +12 a impactar amb atacs màgics). El lítx té els següents conjurs de mag preparats:
 >
 >• Cantrips (at will): mà de mag, prestidigitació, raig gebre
 >• 1st level (4 slots): detectar màgia, missil màgic, shield, tronada
@@ -338,18 +338,18 @@ CreatureConverter.SAMPLE_MARKDOWN =
 >• 8th level (1 slot): dominar criatura, paraula de poder atordir
 >• 9th level (1 slot): paraula de poder matar
 >
->***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
+>***Turn Resistance.*** El lítx has advantage on saving throws against any effect that turns undead.
 >
 >### Actions
->***Paralyzing Touch.*** Atac màgic cos a cos: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target ha de salvar per Constitució (CD 18). Si falla, be paralyzed durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
+>***Toc Paralitzant.*** Atac màgic cos a cos: +12 a impactar, 5 peus d'abast, una criatura. *Hit*: 10 (3d6) de dany de fred. The target ha de salvar per Constitució (CD 18). Si falla, be paralyzed durant 1 minut. L'objectiu pot repetir la salvada al final de cada torn seu, acabant l'efecte prematurament si supera.
 >
 >### Legendary Actions
->The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
+>El lítx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. El lítx regains spent legendary actions at the start of its turn.
 >
->- **Cantrip.** The lich casts a cantrip.
->- **Paralyzing Touch (Costa 2 Accions).** The lich uses its Paralyzing Touch.
->- **Frightening Gaze (Costa 2 Accions).** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze durant les properes 24 hores.
->- **Disrupt Life (Costa 3 Accions).** Each non-undead creature within 20 feet of the lich ha de salvar per Constitució (CD 18) against this magic, taking 21 (6d6) de dany necròtic; si supera, en rep la meitat.
+>- **Cantrip.** El lítx casts a cantrip.
+>- **Toc Paralitzant (Costa 2 Accions).** El lítx uses its Toc Paralitzant.
+>- **Mirada Terrorífica (Costa 2 Accions).** El lítx fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Saviesa saving throw against this magic or become frightened durant 1 minut. The frightened target pot repetir la salvada al final de cada torn seu. si supera, l'efecte s'acaba. If a target's saving throw is successful or the effect ends for it, the target is immune to el lítx's gaze durant les properes 24 hores.
+>- **Irrompre Vida (Costa 3 Accions).** Each non-undead creature within 20 feet of el lítx ha de salvar per Constitució (CD 18) against this magic, taking 21 (6d6) de dany necròtic; si supera, en rep la meitat.
 >
 >`;
 // endregion
