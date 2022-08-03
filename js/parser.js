@@ -3182,7 +3182,7 @@ Parser.SKILL_JSON_TO_FULL = {
 		"Make a Destresa (Sigil) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
 	],
 	"Survival": [
-		"The DM might ask you to make a Saviesa (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.",
+		"The DM might ask you to make a Saviesa (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that mussolóssos live nearby, predict the weather, or avoid quicksand and other natural hazards.",
 	],
 };
 
