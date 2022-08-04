@@ -78,7 +78,7 @@ class RenderSpells {
 
 		if (sp._scrollNote) {
 			renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted">`);
-			renderer.recursiveRender(`{@italic Note: Both the {@class guerrer||${Renderer.spell.STR_FIGHTER} (${Renderer.spell.STR_ELD_KNIGHT})|cavaller èldritx} and the {@class briball||${Renderer.spell.STR_ROGUE} (${Renderer.spell.STR_ARC_TCKER})|entabanador arcà} spell lists include all {@class ${Renderer.spell.STR_WIZARD}} spells. Spells of 5th level or higher may be cast with the aid of a spell scroll or similar.}`, renderStack, {depth: 2});
+			renderer.recursiveRender(`{@italic Note: Both the {@class guerrer||${Renderer.spell.STR_FIGHTER} (${Renderer.spell.STR_ELD_KNIGHT})|cavaller èldritx} and the {@class brivall||${Renderer.spell.STR_ROGUE} (${Renderer.spell.STR_ARC_TCKER})|entabanador arcà} spell lists include all {@class ${Renderer.spell.STR_WIZARD}} spells. Spells of 5th level or higher may be cast with the aid of a spell scroll or similar.}`, renderStack, {depth: 2});
 			renderStack.push(`</section></td></tr>`);
 		}
 
