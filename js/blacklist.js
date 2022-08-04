@@ -124,7 +124,7 @@ class Blacklist {
 
 		[...catSet]
 			.sort((a, b) => SortUtil.ascSort(Blacklist.getDisplayCategory(a), Blacklist.getDisplayCategory(b)))
-			.forEach(cat => $selCategory.append(`<option value="${cat}">${Blacklist.getDisplayCategory(cat)}</option>`));
+			.forEach(cat => $selCategory.append(`<option value="${gat}">${Blacklist.getDisplayCategory(cat)}</option>`));
 
 		function onSelChange () {
 			function populateName (arr, cat) {

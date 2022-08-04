@@ -556,7 +556,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Sotacomú": "U",
 	"Aarakocra": "OTH",
 	"one additional": "X",
-	"Blink Dog": "OTH",
+	"Gos Pampalluga": "OTH",
 	"Bothii": "OTH",
 	"Batrac": "OTH",
 	"one other language": "X",
