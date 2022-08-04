@@ -602,7 +602,7 @@ ReqAttuneTagTag._RAVNICA_GUILD_BACKGROUNDS = {
 	"Gruul": "Gruul Anarch|GGR",
 	"Izzet": "Izzet Engineer|GGR",
 	"Orzhov": "Orzhov Representative|GGR",
-	"Rakdos": "Rakdos Cultist|GGR",
+	"Rakdos": "Rakdos Cultista|GGR",
 	"Selesnya": "Selesnya Initiate|GGR",
 	"Simic": "Simic Scientist|GGR",
 };

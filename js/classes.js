@@ -1937,7 +1937,7 @@ ClassesPage._DEFAULT_STATE = {
 	isViewActiveBook: false,
 	isHideOutline: false,
 	// N.b. ensure none of these start with the string "sub" as this prefix is used for subclass state keys e.g.
-	// `"sub Berserker": false`
+	// `"sub Bersèrker": false`
 };
 
 ClassesPage.ClassBookView = class {

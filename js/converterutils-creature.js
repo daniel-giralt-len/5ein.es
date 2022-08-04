@@ -598,7 +598,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"any three languages": "X",
 	"any four languages": "X",
 	"any five languages": "X",
-	"any six languages": "X",
+	"6 idiomes qualsevols": "X",
 	"one language of its creator's choice": "X",
 	"two other languages": "X",
 	"telepathy": "TP",
