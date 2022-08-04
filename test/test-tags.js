@@ -245,7 +245,7 @@ class ClassLinkCheck {
 	}
 
 	static checkString (file, str) {
-		// e.g. "{@class fighter|phb|and class feature added|Eldritch Knight|phb|2-0}"
+		// e.g. "{@class fighter|phb|and class feature added|Eldritch Cavaller|phb|2-0}"
 
 		let match;
 		while ((match = ClassLinkCheck.RE.exec(str))) {
