@@ -565,7 +565,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"up to five other languages": "X",
 	"Druídic": "DU",
 	"Àguila Gegant": "OTH",
-	"Giant Elk": "OTH",
+	"Giant Ant": "OTH",
 	"Giant Owl": "OTH",
 	"Gith": "GTH",
 	"Grell": "OTH",
