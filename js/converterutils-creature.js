@@ -587,7 +587,7 @@ LanguageTag.LANGUAGE_MAP = {
 	"Troglodita": "OTH",
 	"Umber Hulk": "OTH",
 	"Vegepygmy": "OTH",
-	"Winter Wolf": "OTH",
+	"Llop Hivernal": "OTH",
 	"Worg": "OTH",
 	"Yeti": "OTH",
 	"Yikaria": "OTH",
