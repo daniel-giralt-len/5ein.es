@@ -1334,7 +1334,7 @@
 	},
 
 	_wepThrownFinesse: ["daga", "dard"],
-	_wepFinesse: ["daga", "dard", "rapier", "simitarra", "espasa curta", "fuet"],
+	_wepFinesse: ["daga", "dard", "rapier", "simitarra", "Espasa Curta", "fuet"],
 	_wepThrown: ["handaxe", "javelina", "light hammer", "Llança", "trident", "net"],
 	_getModBeingScaled (strMod, dexMod, modFromAbil, name, content) {
 		const guessMod = () => {
