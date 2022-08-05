@@ -1361,7 +1361,7 @@
             "default": [
               "(a) una {@item destral enorme|phb} o bé (b) qualsevol {@filter martial arma cos a cos|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}",
               "(a) dos {@item destral de mà|phb|handaxes} o bé (b) qualsevol {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-              "An {@item pack d'exploració|phb}, i quatre {@item javelinaa|phb|javelinas}"
+              "An {@item pack d'exploració|phb}, i quatre {@item javelina|phb|javelinas}"
             ],
             "goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Ors Inicials}",
             "defaultData": [
@@ -7339,7 +7339,7 @@
               "{@item garrot|phb|clubs}",
               "{@item daga|phb|daggers}",
               "{@item dart|phb|darts}",
-              "{@item javelinaa|phb|javelinas}",
+              "{@item javelina|phb|javelinas}",
               "{@item maça|phb|maces}",
               "{@item quarterstaff|phb|quarterstaffs}",
               "{@item simitarra|phb|scimitars}",
@@ -15273,7 +15273,7 @@
             "additionalFromBackground": true,
             "default": [
               "(a) una {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} i un {@item shield|phb} o bé (b) dos {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-              "(a) cinc {@item javelinaa|phb|javelinas} o bé (b) qualsevol {@filter simple arma cos a cos|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+              "(a) cinc {@item javelina|phb|javelinas} o bé (b) qualsevol {@filter simple arma cos a cos|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
               "(a) un {@item pack religiós|phb} o bé (b) un {@item pack d'exploració|phb}",
               "{@item Chain mail|phb} i un {@item símbol sagrat|phb}"
             ],
@@ -19956,7 +19956,7 @@
                 "type": "row",
                 "style": "row-indent-first",
                 "row": [
-                  "{@item Javelinaa|phb}",
+                  "{@item Javelina|phb}",
                   "5 pa",
                   "1d6 perforant",
                   "2 lb.",
@@ -23334,7 +23334,7 @@
                 "name": "Tirades d'Impacte i de Dany",
                 "page": 176,
                 "entries": [
-                  "Quan ataques amb una arma cos a cos com una maça, una destral de guerra, o una javelinaa, sumes el teu modificador de Força a les tirades d'impacte i de dany. Amb les armes cos a cosa fas atacs cos a cos, tot i que alguns poden ser llançats a distància."
+                  "Quan ataques amb una arma cos a cos com una maça, una destral de guerra, o una javelina, sumes el teu modificador de Força a les tirades d'impacte i de dany. Amb les armes cos a cosa fas atacs cos a cos, tot i que alguns poden ser llançats a distància."
                 ],
                 "id": "113"
               },
@@ -24272,5 +24272,968 @@
       }
     ],
     "id": "146"
+  },
+  {
+    "type": "section",
+    "name": "Combat",
+    "page": 189,
+    "entries": [
+      {
+        "type": "inset",
+        "name": "El Combat Pas a Pas",
+        "page": 189,
+        "entries": [
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "1. Determina sorpresa.",
+                "entry": "El/la/li MM determina si algú del combat està sorpres/a/i."
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "2. Establir posicions.",
+                "entry": "El/la/li MM decideix on estan els personatges i els monstres. El/la/li MM considera l'ordre de marxa del grup aventurer (o les seves posicions a l'escenari) i d'allà en treu les posicions dels enemics, les distàncies i cap a on miren."
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "3. Tirar iniciativa.",
+                "entry": "Tota criatura involucrada al combat tira iniciativa per a determinar l'ordre dels torns."
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "4. Fer els torns.",
+                "entry": "Cada participant al combat prèn el seu torn en ordre d'iniciativa."
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "5. Començar la nova ronda.",
+                "entry": "Quan cada participant del combat hagi fet el seu torn, la ronda s'acaba. Repetir des del pas 4 fins que s'acabi la batalla."
+              }
+            ]
+          }
+        ],
+        "id": "17b"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "L'Ordre del Combat",
+        "page": 189,
+        "entries": [
+          "Un combat típic és una batalla entre 2 bàndols, una tempesta d'armes impactant, de fintes, parades, joc de peus, i llançament de conjurs. El joc organitza el caos d'un combat en un cicle de rondes i torns. Una ronda són 6 segons de temps al món real. Durant una ronda, cada participant del combat té un torn. L'ordre dels torns es determina a l'inici del combat tirant initicativa. Quan tothom hagi près el seu torn, s'enceta una nova ronda de combat fins que una banda hagi derrotat a l'altra.",
+          {
+            "type": "entries",
+            "name": "Sorpresa",
+            "page": 189,
+            "entries": [
+              "Un grup aventurer s'apropa sigilosament al campament de bandolers i salten del sotabosc per a atacar-los. Un cub gelatinós llisca passadís avall sense que cap aventurer el detecti... Fins que se n'empassa a un. Aquestes són situacions típiques en que un bàndol agafa a l'altre per sorpresa.",
+              "El/la/li MM determina qui està sorpres/a/i. Si cap dels bàndols va en sigil, es detecten mútuament automàticament. Sinò, el/la/li MM compara les tirades de Destresa ({@skill Sigil}) de les criatures que s'amaguen contra les Savieses ({@skill Percepció}) passives de cada criatura de l'altre bàndol. Tot personatge i monstre que no detecti una amenaça estarà sorprès al començament del combat.",
+              "Si estàs sorprès/a/i, no et pots moure ni prendre una acció durant el teu primer torn de combat. Tampoc pots prendre reaccions fins que acabi aquell torn teu. Un participant d'un bàndol pot patir sorpresa fins independentment dels altres."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "17d"
+          },
+          {
+            "type": "entries",
+            "name": "Iniciativa",
+            "page": 189,
+            "entries": [
+              "L'Iniciativa determina l'ordre dels torns durant el combat. Quan el combat comença, tot participant fa una tirada de Destresa per determinar el seu lloc a l'ordre d'iniciative. El/la/li MM fa una tirada per cada grup de criatures idèntiques: cada membre del grup actua alhora.",
+              "El/la/li MM ordena als participants del combat, de més a menys, segons la tirada d'Iniciativa. Aquest és l'ordre en què actuen a cada ronda. L'ordre roman el igual a cada ronda.",
+              "Si hi ha un empat, El/la/li MM decideix l'ordre entre criatures que controli que hagin empatat. Si l'empat és entre personatges, els seus jugadors decideixen. El/la/li MM determina l'ordre si l'empat és entre monstre i jugador, o bé pot fer que els dos tirin 1d20 i qui tregui més alt va abans."
+            ],
+            "id": "17e"
+          },
+          {
+            "type": "entries",
+            "name": "El teu torn",
+            "page": 189,
+            "entries": [
+              "En el teu torn, et pots {@b moure} tota la teva velocitat (o menys) i {@b prendre una acció}. Esculls que fas primer, si moure't o prendre l'acció. La teva velocitat de caminar està a la teva fitxa de personatge.",
+              "Les accions més comunes estan descrites a la secció \"Accions en el Combat\" més avall. Hi ha trets de classe i d'altres fonts que t'otorguen opcions d'accions adicionals.",
+              "La secció \"Moviment i Posicionament\" més avall explica les normes del teu moviment.",
+              "Pots escollir no moure't, no prendre la teva acció, o no fer res en el teu torn. Si no pots decidir què fer, és recomanat prendre l'acció {@action Esquivar} o bé una acció {@action Preparada}, descrites en la secció \"Accions en el Combat.\"",
+              {
+                "type": "entries",
+                "name": "Accions Bonus",
+                "page": 189,
+                "entries": [
+                  "Alguns trets de classe, conjurs, i altres fonts et permeten prendre una acció adicional al teu torn: una acció bonus. Per exemple, el tret Acció Astuta permet prendre una acció bonus als brivalls. Només pots prendre una acció bonus quan t'ho permeti una habilitat especial, conjur, o tret del joc. Sinò, no tens cap acció bonus per a prendre.",
+                  "Només pots prendre una acció bonus en el teu torn; si en tens més d'una disponible, has d'escollir quina prèns.",
+                  "Pots prendre l'acció bonus en qualsevol moment del teu torn, a no ser que l'acció bonus requereixi un moment específic. Tot efecte que t'impedeixi prendre accions també t'impedeix prendre accions bonus."
+                ],
+                "id": "180"
+              },
+              {
+                "type": "entries",
+                "name": "Altres Activitats en el teu Torn",
+                "page": 190,
+                "entries": [
+                  "Pots ornamentar les teves activitats sense requerir accions adicionals.",
+                  "Pots comunicar-te com de costum en el teu torn, però amb gesticulacions breus i mots curts.",
+                  "També pots interactuar de franc amb certs objectes o elements de l'entorn durant el teu moviment o la teva acció. Per exemple, pots obrir una porta mentre avances cap a una criatura enemiga, o pots desembeinar la teva arma com a part de la teva acció d'atac.",
+                  "Si vols interactuar amb un segon objecte, has de gastar la teva acció per a fer-ho. Alguns objectes màgics o especials sempre requereixen una acció per a emprar-los, i està escrit a les seves descripcions.",
+                  "El/la/li MM et pot demanar emprar una acció per a fer qualsevol d'aquestes activitats si necessita una atenció especial o és un obstacle important. Per exemple, se't podria demanar emprar l'acció per a obrir una porta trabada o per a girar la manivela que fa baixar el pont del fort.",
+                  {
+                    "type": "inset",
+                    "name": "Interactuar amb objectes del teu voltant",
+                    "page": 190,
+                    "entries": [
+                      "Aquí hi ha exemples de coses que pots fer combinades amb el teu moviment i acció:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "embeinar o desembeinar una espasa",
+                          "obrir o tancar una porta",
+                          "agafar una poció de la motxilla",
+                          "recollir una destral",
+                          "agafar una bagatel·la d'una taula",
+                          "treure't un anell",
+                          "posar-te menjar a la boca",
+                          "plantar una senyera al terra",
+                          "recollir unes monedes de la teva bossa",
+                          "beure't l'alcohol d'una gerra",
+                          "activar un botó o palanca",
+                          "agafar una torxa",
+                          "agafar un llibre d'una prestatgeria",
+                          "apagar una flama xica",
+                          "posar-se una màscara",
+                          "posar-te la caputxa de la teva capaa",
+                          "escoltar darrere d'una porta",
+                          "clavar una puntada de peu a una pedreta",
+                          "posar la clau a un pany",
+                          "picar el terra amb un pal de 10 peus",
+                          "donar un objecte a un altre personatge"
+                        ]
+                      }
+                    ],
+                    "id": "182"
+                  }
+                ],
+                "id": "181"
+              }
+            ],
+            "id": "17f"
+          },
+          {
+            "type": "entries",
+            "name": "Reaccions",
+            "page": 190,
+            "entries": [
+              "Algunes habilitats especials, conjurs, i situacions et permeten prendre una acció especial: una reacció. Una reacció és una resposta instantània a un detonant. Pot ocòrrer durant el teu torn o el torn d'algú altre. Per exemple, un atac d'oportunitat és una reacció (es descriu més avall).",
+              "Quan prèns una reacció, no en pot prendre una altra fins el final del teu proper torn. Si la reacció interromp el torn d'una altra criatura, aquesta pot continuar el seu torn un cop es resolgui la reacció."
+            ],
+            "id": "183"
+          }
+        ],
+        "id": "17c"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Moviment i Posicionament",
+        "page": 190,
+        "entries": [
+          "Durant el combat, els personatges i els monstres es mouen constantment i es reposicionen per a agafar a l'altre bàndol per sorpresa.",
+          "En el teu torn, et pots moure fins a la teva velocitat en distància, però no cal que et moguis tota la velocitat.",
+          "El moviment inclou saltar, escalar, i nadar. Aquests moviments es poden combinar amb caminar, o poden ser els únics que facis servir. Et moguis com et moguis, restes les distàncies de cada mena de moviment de la teva velocitat fins que la gastis tota o fins que ja no et vulguis moure més.",
+          {
+            "type": "entries",
+            "name": "Moure's a trossos",
+            "page": 190,
+            "entries": [
+              "Pots moure't abans i després de la teva acció en el teu torn. Per exemple, si tens una velocitat de 30 peus, te'n pots moure 10, prendre la teva acció, i després moure't 20 peus més.",
+              {
+                "type": "entries",
+                "name": "Moure's entre Atacs",
+                "page": 190,
+                "entries": [
+                  "Si prèns una acció que inclogui més d'un atac armat, pots moure't entre cada atac. Per exemple, una guerrera que pot fer 2 atacs gràcies al tret Atac Extra i que tingui una velocitat de 25 peus pot moure's 10 peus, atacar, moure's 15 peus, i fer l'altre atac."
+                ],
+                "id": "186"
+              },
+              {
+                "type": "entries",
+                "name": "Diferents Velocitats",
+                "page": 190,
+                "entries": [
+                  "Si tens més d'una mena de velocitat (per exemple, de caminar i de vol), pots anar canviar de velocitats durant el teu moviment. Quan canvies, resta la distància que ja t'hagis mogut de la nova velocitat. El resultat et diu quant moviment et queda; si te'n queda 0 o menys, no pots fer servir la nova velocitat durant el moviment actual.",
+                  "Per exemple: si tens una velocitat de caminar de 30 peus i una de vol de 60, pots volar 20 peus, caminar-ne 10, i tornar a volar-ne 20. Podries volar-ne 10 més, però no en podries caminar cap més."
+                ],
+                "id": "187"
+              }
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "185"
+          },
+          {
+            "type": "entries",
+            "name": "Terreny difícil",
+            "page": 190,
+            "entries": [
+              "El combat no sol ocòrrer en habitacions buides ni prats sense obstacles.",
+              "Sol passar en cavernes rocosos, boscos amb sotabosc punxegut, escales de cargol... Bàsicament, en terreny difícil.",
+              "Cada 1 peu de terreny difícil costa 1 peu adicional. Si hi ha múltiples coses que fan que un terreny sigui difícil, no s'apilen: el cost de moviment és el mateix.",
+              "Altres exemples de terreny difícil són mobles baixos, runes, plantes, neu, i aiguamolls. L'espai d'una altra criatura (hostil o no) també és terreny difícil."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "188"
+          },
+          {
+            "type": "entries",
+            "name": "Enderrocar-se",
+            "page": 190,
+            "entries": [
+              "Els combatents de vegades s'estiren (o els tomben) al terra. Al joc, es manifesta amb la condició {@condition enderrocat}, descrit a l'apèndix PH-A.",
+              "Pots quedar-te {@condition enderrocat} sense gastar velocitat. Aixecar-te et costa la meitat de la teva velocitat. Així, si tens 30 peus de velocitat, n'ha de gastar 15 per a aixecar-te. Si no en tens prou o la teva velocitat és 0, no et pots aixecar.",
+              "Per a moure's mentre s'està {@condition enderrocat}, has d'arrossegar-te o emprar màgia com, per exemple,d de teleportació. Cada 1 peu de moviment arrossegant-se costa 1 peu extra. Així, arrossegar-se 1 peu per terreny difícil costa un total de 3 peus."
+            ],
+            "id": "189"
+          },
+          {
+            "type": "entries",
+            "name": "Moure's al Voltant d'altres Criatures",
+            "page": 191,
+            "entries": [
+              "Pots moure't per l'espai d'una criatura no hostil. Només pots moure't per l'espai d'una criatura hostil si la criatura és 2 tamanys més gran o més petit que tu. Sia com sia, l'espai d'una altra criatura se't considera terreny difícil.",
+              "No pots acabar el moviment a dins l'espai d'una altra criatura.",
+              "Si surts de l'espai d'una criatura hostil durant el teu moviment, provocaràs un atac d'oportunitat."
+            ],
+            "id": "18a"
+          },
+          {
+            "type": "entries",
+            "name": "Moviment de Vol",
+            "page": 191,
+            "entries": [
+              "Les criatures voladores gaudeixen d'un millor moviment però també dels perills d'estar tant amunt. Si una criatura que està volant cau {@condition enderrocat}, se li redueix la velocitat a 0, o se li impedeix que es mogui, aquesta cau si no es pot mantenir flotant màgicament, com ara amb el conjur {@spell volar}."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "18b"
+          },
+          {
+            "type": "entries",
+            "name": "Tamany de Criatura",
+            "page": 191,
+            "entries": [
+              "Cada criatura ocupa diferents quantitats d'espai.",
+              "La taula Categories de Tamany mostra quin espai ocupa una criatura de cada tamany en combat. Alguna objectes també empren les categories de tamany.",
+              {
+                "type": "table",
+                "caption": "Categories de Tamany",
+                "colLabels": [
+                  "Tamany",
+                  "Espai"
+                ],
+                "colStyles": [
+                  "col-6",
+                  "col-6"
+                ],
+                "rows": [
+                  [
+                    "Diminut",
+                    "2.5 x 2.5  peus"
+                  ],
+                  [
+                    "Petit",
+                    "5 x 5 peus"
+                  ],
+                  [
+                    "Mitjà",
+                    "5 x 5 peus"
+                  ],
+                  [
+                    "Gran",
+                    "10 x 10 peus"
+                  ],
+                  [
+                    "Enorme",
+                    "15 x 15 peus"
+                  ],
+                  [
+                    "Titànic",
+                    "20 x 20 peus o més"
+                  ]
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Espai",
+                "page": 191,
+                "entries": [
+                  "L'espai d'una criatura és l'àrea, en peus, que controla durant el combat, i no quin tamany té. Una criatura Mitjana no sol fer 5 peus de costat, però si que controla aquest espai. Si un hobgòblin mitjà roman en una porta de 5 peus d'ample, altres criatures no la podran creuar si el hobgòblin no les deixa.",
+                  "L'espai d'una criatura també determina quina àrea necessita perquè lluiti eficaçment. Per això hi ha un límit de criatures que poden envoltar-ne a una altre. Només 8 combatents Mitjans, per exemple, poden embolcallar-ne a una altra de mitjana.",
+                  "Com que les criatures grans ocupent més espai, menys d'elles poden envoltar a criatures.",
+                  "Si 4 criatures Grans n'envolten a una de Mitja, no hi ha gaire espai per a ningú més. D'altra banda 20 criatures Mitges en poden envoltar a una de Titànica."
+                ],
+                "id": "18d"
+              },
+              {
+                "type": "entries",
+                "name": "Passar per un Espai Petit",
+                "page": 192,
+                "entries": [
+                  "Una criatura pot passar per un espai d'un tamany menor que ella. Una criatura Gran pot passar per un corredor de 5 peus de costat. Tanmateix ha de gastar 1 peu extra per cada 1 peu que es mogui per allà. A més, té desavantatge a les tirades d'impacte i de salvació de Destresa. Rep tirades d'impacte amb avantatge."
+                ],
+                "id": "18e"
+              }
+            ],
+            "id": "18c"
+          }
+        ],
+        "id": "184"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Accions de Combat",
+        "page": 192,
+        "entries": [
+          "Quan prèns la teva acció en el teu torn pots fer una de les accions d'aquesta secció. També pots optar per una opció d'un tret de la teva classe o similar, o una acció improvitazada. Molts monstres tenen accions particulars en el seu bloc d'estats.",
+          "Quan vols fer una acció que no està a les normes, el/la/li MM et diu si és possible i quina tirada has de fer (si n'has de fer).",
+          {
+            "type": "list",
+            "columns": 3,
+            "items": [
+              "{@action Atac}",
+              "{@action Fer un conjur}",
+              "{@action Córrer}",
+              "{@action Destravar-se}",
+              "{@action Esquivar}",
+              "{@action Ajudar}",
+              "{@action Amagar-se}",
+              "{@action Preparada}",
+              "{@action Cerca}",
+              "{@action Utilitzar un Objecte}",
+              "{@action Improvisar una Acció}"
+            ]
+          }
+        ],
+        "id": "195"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Fer un Atac",
+        "page": 193,
+        "entries": [
+          "Ja ataquis amb una arma cos a cos, a distància, o un conjur, els atacs tenen una estructura senzilla.",
+          {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+              {
+                "type": "item",
+                "name": "1. Escull un objectiu.",
+                "entry": "Tria un objectiu a l'abast del teu atac: una criatura, un objecte, o un lloc."
+              },
+              {
+                "type": "item",
+                "name": "2. Determinar modificadors.",
+                "entry": "El/la/li MM determina si l'objectiu té cobertura i si tens avantatge o desavantatge vers la criatura. A més, els conjurs, habilitats especials, i altres efectes poden otorgar bonus o penalitzadors a la tirada d'impacte."
+              },
+              {
+                "type": "item",
+                "name": "3. Resoldre l'atac.",
+                "entry": "Fas la tirada d'impacte. Si impacta, tires el dany, a no ser que aquest atac tingui regles especials que ho contradiguin. Alguns atacs causen efectes especials a més de, o en ves de, dany."
+              }
+            ]
+          },
+          "Si hi ha dubtes si una cosa és un atac: si estàs fent una tirada d'impacte, és un atac.",
+          {
+            "type": "entries",
+            "name": "Tirades d'Impacte",
+            "page": 194,
+            "entries": [
+              "Quan fas un atac, fas una tirada d'impacte per veure si l'atac toca o falla. Per a fer una tirada d'impacte, tira un d20 i afegeix-hi els modificadors que toquen. Si el total de la tirada (afegint modificadors) és igual o més que la Classe d'Armadura (CA) de l'objectiu, l'atac impacta. La CA d'un personatge es determina quan es crea el personatge; la d'un monstre està al seu bloc d'estats.",
+              {
+                "type": "entries",
+                "name": "Modificadors de la tirada",
+                "page": 194,
+                "entries": [
+                  "Quan un personatge tira a impactar, els modificadors més comuns són el modificador de característica i el bonus de competència. Quan un monstre tira a impactar, suma el modificador del seu bloc d'estats.",
+                  {
+                    "type": "entries",
+                    "name": "Modificador de Característica",
+                    "page": 194,
+                    "entries": [
+                      "El modificador de característica d'un atac armat cos a cos és Força; el d'un atac armat a distància és Destresa. Les armes subtils o llancívoles són excepcions.",
+                      "Alguns conjurs també requereixen una tirada d'impacte. El modificador de característica d'un conjur depen de l'habilitat de llançament de conjurs de qui conjura."
+                    ],
+                    "id": "199"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bonus de Competència",
+                    "page": 194,
+                    "entries": [
+                      "Sumes el teu bonus de competència a la teva tirada d'impacte quan fas servir una arma amb que tens competència, o quan fas la tirada per un conjur."
+                    ],
+                    "id": "19a"
+                  }
+                ],
+                "id": "198"
+              },
+              {
+                "type": "entries",
+                "name": "Tirar un 1 o un 20",
+                "page": 194,
+                "entries": [
+                  "De vegades el destí l'ajuda o et condemna; de vegadesel novell impacta i la vetarana falla.",
+                  "Si el {@dice d20} treu un 20, l'atac impacta sense importar els modificadors de la tirada ni a CA. Treure un 20 és un crític.",
+                  "Si el {@dice d20} treu un 1, l'atac falla sense importar els modificadors de la tirada ni a CA."
+                ],
+                "id": "19b"
+              }
+            ],
+            "id": "197"
+          },
+          {
+            "type": "entries",
+            "name": "Atacants i Objectius Ocults",
+            "page": 194,
+            "entries": [
+              "Els combatents intenten ocultar-se dels contrincants amagant-se, llançant el conjur {@spell invisibilitat} spell, o quedant-se a la foscor.",
+              "Quan ataques a un objectiu que no pots veure, tens desavantatge a impactar, tant si proves d'endevinar la seva posició com si el pots sentir (però no veure). Si l'objectiu no està al lloc on has endevinat, falles automàticament; típicament, el/la/li MM simplement diu que l'impacte falla, no que el lloc era incorrecte.",
+              "Quan una criatura no te pugui avantatge, tens avantatge a tirades d'impacte contra aquesta.",
+              "Si estàs ocult/a/i (no se't pot veure ni sentir) i fas un atac, et reveles, tant si l'atac impacta o no."
+            ],
+            "id": "19c"
+          },
+          {
+            "type": "entries",
+            "name": "Atacs a Distància",
+            "page": 195,
+            "entries": [
+              "Quan fas un atac a distància empres una arma com un arc, ballesta, o llances una destral. En resum: envies un projectil a distància contra un objectiu. Un monstre tal vegada llanci espines de la seva cua. Molts conjurs també involucren un atac a distància.",
+              {
+                "type": "entries",
+                "name": "Abast",
+                "page": 195,
+                "entries": [
+                  "Pots fer atacs a distància només fins a un abast específice.",
+                  "Un atac que tingui un sol abast (com els d'un conjur) no pot tocar a un objectiu que estigui més lluny que l'abast.",
+                  "Alguns atacs a distància, com ara els dels arcs, tenen 2 abastos. El menor és l'abast normal, i el major és l'abast llarg. Si l'objectiu està entre l'abast normal i el llarg, tires l'impacte amb desavantatge. No pots atacar a un objectiu que estigui més enllà que l'abast llarg."
+                ],
+                "id": "19e"
+              },
+              {
+                "type": "entries",
+                "name": "Atacs a Distància estant a Cos a Cos",
+                "page": 195,
+                "entries": [
+                  "Atacar a distància és complicat quan tens un enemic a prop. Quan fas un atac a distància amb una arma, conjur, o altres maneres, fas la tirada d'impacte amb desavantatge si tens a una criatura hostil a 5 peus de tu que no estigui {@condition incapacitat}."
+                ],
+                "id": "19f"
+              }
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "19d"
+          },
+          {
+            "type": "entries",
+            "name": "Atacs Cos a Cos",
+            "page": 195,
+            "entries": [
+              "Un atac cos a cos inclou els atacs a abast melé. Normalment ataques cos a cos amb una espasa, un martell, una destra, o així. Un monstre ho fa amb les seves urpes, banyes, dents, tentacles, o altres parts del cos. Alguns conjurs també involucren un atac cos a cos.",
+              "La majoria de les criatures tenen un abast de 5 peus, així que poden fer atacs cos a cos a criatures a 5 peus d'elles. Algunes criatures (normalment aquelles més grans que Mitjà) tenen abastos cos a cos major, descrit als seus blocs d'estat.",
+              "En comptes de fer un atac armat cos a cos, en pots fer un de {@b atac desarmat}: un cop de puny, una puntada de peu, un cop de cap, o una cosa similar (no compten com a atac armat). Si impacta, un atac desarmat fa 1 + el teu modificador de Força de dany contundent. Tens competència amb els teus atacs desarmats."
+            ],
+            "id": "1a0"
+          },
+          {
+            "type": "entries",
+            "name": "Atacs d'Oportunitat",
+            "page": 195,
+            "entries": [
+              "En una lluita, tothom busca que l'enemic baixi la guàrdia. Normalment no et pots moure despreocupadament prop dels teus enemics. Si ho fas, provoques un atac d'oportunitat.",
+              "Quan una criatura hostil s'allunya del teu abast, pots optar a fer-li un atac d'oportunitat: com a reacció, fas un atac cos a cos contra la criatura. L'atac interromp el moviment de l'objectiu, i ocorre just abans que la criatura surti del teu abast.",
+              "Pots evitar rebre atacs d'oportunitat mitjançant l'acció {@action Destravar-se}. Tampoc provoques atacs d'oportunitat quan et teleportes o quan algú et mou sense emprar el teu moviment, acció, ni reacció. Per exemple, no provoques atacs d'oportunitat si una explosió t'envia volant fora de l'abast d'algú, no provoques un atac d'oportunitat."
+            ],
+            "id": "1a1"
+          },
+          {
+            "type": "entries",
+            "name": "Lluita amb Armes Duals",
+            "page": 195,
+            "entries": [
+              "Quan prens l'acció {@action Atacar} i ataques amb una arma lleugera cos a cos que empunyis amb una mà pots, com a acció bonus, atacar amb una altra arma lleugera cos a cos que duguis a l'altra mà. No afegiràs el modificador de característica al dany de l'atac bonus, excepte si el modificador és negatiu.",
+              "Si una de les armes és, també, llancívola, pots llançar-la en comptes de fer un atac cos a cos."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "1a2"
+          },
+          {
+            "type": "inset",
+            "name": "Enfrontaments al Combat",
+            "page": 195,
+            "entries": [
+              "Una batalla consisteix en enfrontar el teu poder contra el d'un enemic. Aquest repte es representa amb un enfrontament. Aquesta secció inclou els enfronaments més comuns que requereixen una acció en combat: preses i empènyer criatures. El/la/li MM pot copiar aquests enfrontaments per a crear-ne de nous."
+            ],
+            "id": "1a3"
+          },
+          {
+            "type": "entries",
+            "name": "Apresar",
+            "page": 195,
+            "entries": [
+              "Quan vols agafar o sotmetre a una criatura, pots emprar l'acció {@action Atacar} i fer un atac cos a cos especial: una presa. Si amb l'acció {@action Atacar} pots fer múltiples atacs, la presa en substitueix un. L'objectiu de la teva presa ha d'estar a l'abast i ser d'un tamany major a tu o menys.",
+              "Has de tenir una o més mans lliures per intentar apresar a un objectiu. Has de fer una tirada enfrontada de presa: tu fas una tirada de Força ({@skill Atletisme}) contra una tirada de Força ({@skill Atletisme}) o de Destresa ({@skill Acrobàcies}) de l'objectiu (escull ell). Si l'objectiu està {@condition incapacitat}, superes automàticament. Si superes, l'objectiu està {@condition grappled} per a tu (consulta l'apèndix PH-A). La condició especifica com acabar-la. Tu pots acabar la presa sobre l'objectiu quan vulguis (no requereix acció).",
+              {
+                "type": "entries",
+                "name": "Escapar una Presa",
+                "page": 195,
+                "entries": [
+                  "Una criatura {@condition grappled} pot, com a acció, escapar. Ha de fer una tirada enfrontada de Força ({@skill Atletisme}) o bé Destresa ({@skill Acrobàcies}) (l'objectiu escull) contra la teva tirada de Força ({@skill Atletisme})."
+                ],
+                "id": "1a5"
+              },
+              {
+                "type": "entries",
+                "name": "Movent un Objectiu Apresat",
+                "page": 195,
+                "entries": [
+                  "Quan et mous, arrossegues o duus a l'objectiu {@condition grappled}. Si la criatura no és 2 tamanys o més menor que tu, la teva velocitat està partida en 2."
+                ],
+                "id": "1a6"
+              }
+            ],
+            "id": "1a4"
+          },
+          {
+            "type": "entries",
+            "name": "Empènyer una Criatura",
+            "page": 195,
+            "entries": [
+              "Quan vols empènyer a una criatura o deixar-la {@condition enderrocat}, pots emprar l'acció {@action Atacar} i fer un atac cos a cos especial: una presa. Si amb l'acció {@action Atacar} pots fer múltiples atacs, la presa en substitueix un.",
+              "L'objectiu de l'empenta ha de ser d'un tamany més que tu o menor, i ha d'estar a l'abast. Tu fas una tirada de Força ({@skill Atletisme}) contra una tirada de Força ({@skill Atletisme}) o de Destresa ({@skill Acrobàcies}) de l'objectiu (escull ell). Si l'objectiu està {@condition incapacitat}, superes automàticament. Si superes, l'objectiu està {@condition enderrocat} o bé l'empenys 5 peus lluny de tu."
+            ],
+            "id": "1a7"
+          }
+        ],
+        "id": "196"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Cobertura",
+        "page": 196,
+        "entries": [
+          "Certs obstacles et poden protegir d'atacs: parets, arbres, criatures, i d'altres. Un objectiu només pot gaudir de cobertura si l'atac ve de l'altra banda de la cobertura.",
+          "Hi ha 3 graus de cobertura. Si un objectiu té múltiples fonts que el cobreixen, no s'apilen les proteccions; s'aplica només la cobertura que més protegeix. Per exemple, si gaudeixes de mitja cobertura en una direcció i també de 3/4 en la mateixa direcció, només tens 3/4 de cobertura.",
+          "{@b Mitja cobertura} otorga un +2 a la CA i a les salvades de Destresa. Una mitja cobertura cobreix la meitat del cos d'un objectiu, com ara una paret baixa, un moble gran, una soca curta, o una criatura, ja sigui amiga o enemig.",
+          "{@b 3/4 de cobertura} otorga un +4 a la CA i a les salvades de Destresa. 3/4 de cobertura cobreixen uns 3/4 del cos d'un objectiu, com ara un ull de bou, una finestra prima, o un arbre ample.",
+          "{@b Cobertura total} impedeix que una criatura sigui objectiu de conjurs atacs. Ara bé alguns efectes i conjurs el poden tocar si tenen una àrea d'efecte. Una cobertura total oculta completament a un objectiu."
+        ],
+        "id": "1a8"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Dany i Curació",
+        "page": 196,
+        "entries": [
+          "Als jocs de fantasia, les ferides i el perill de mort són coses del dia a dia. Moltes coses poden danyar o fins i tot matar a les criatures més resilients: una espasa, una fletxa ben a puntada, o l'explosió d'una bola de foc.",
+          {
+            "type": "entries",
+            "name": "Punts de vida",
+            "page": 196,
+            "entries": [
+              "Els punts de vida representen la durabilitat física i mental d'una criatura, i la seva força de voluntat i sort. Les criatures amb menys punts de vida són més fràgils.",
+              "Els punts de vida actuals d'una criatura van dels punts de vida màxims fins a 0. El número canvia tot sovint ja que les criatures reben danys i curació. Quan una criatura rep dany, se li resta el dany dels seus punts de vida. Pedre punts de vida no afecta les capacitats de la criatura fins que no es queda a 0 punts de vida."
+            ],
+            "id": "1aa"
+          },
+          {
+            "type": "entries",
+            "name": "Tirades de Dany",
+            "page": 196,
+            "entries": [
+              "Tota arma, conjur, i tret danyí de monstre especifica quant dany fa. Tires el/s dau/s de dany, sumes els modificadors, i el resultat és el dany que fas a l'objectiu. Les armes màgiques, certes habilitats, i d'altres factors poden otorgar un bonus al dany.",
+              "Quan ataques amb una {@b arma}, afegeixes el teu modificador de característica (el mateix que la tirada d'impacte). Un {@b conjur} especifica quins daus de dany has de tirar i si has d'afegir-hi cap modificador.",
+              "Si un conjur o altre efecte fa mal a {@b més d'un objectiu} alhora, tira el dany un cop per a tothom. Per exemple, si una maga tira bola de foc o un clergue llança una batussa incendiària, el dany del conjur es tira un cop i totes les criatures afectades reben aquell dany.",
+              {
+                "type": "entries",
+                "name": "Crítics",
+                "page": 196,
+                "entries": [
+                  "Quan tires un impacte crític, tires daus de dany extra contra l'objectiu. Tira tots els daus de dany 2 cops i suma'l. Llavors suma-hi els modificadors que toquin. Per anar més ràpid, pots tirar tots els daus de dany alhora.",
+                  "Per exemple, si tires un crític amb una daga (dau de dany 1d4), tires 2d4 de dany + el modificador de característica. Si l'atac involucra altres daus de danys, com el tret Atac Furtiu del brivall, també tires aquells daus 2 cops."
+                ],
+                "id": "1ac"
+              },
+              {
+                "type": "entries",
+                "name": "Tipus de Danys",
+                "page": 196,
+                "entries": [
+                  "Diferents atacs, conjurs, i efectes fan tipus de danys diferents. Els tipus de danys no tenen regles especials; ara, algunes normes, com les de resistència de dany, depenen dels tipus de dany.",
+                  "Dessota es descriuen tots els tipus de dany amb exemples.",
+                  {
+                    "type": "entries",
+                    "name": "Àcid",
+                    "page": 196,
+                    "entries": [
+                      "L'esprai corrosiu de l'alenada d'un drac negre; els enzims digestius d'un pudding negre."
+                    ],
+                    "id": "1ae"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Contundent",
+                    "page": 196,
+                    "entries": [
+                      "Cops secs de martells, de caiguda, o de constricció."
+                    ],
+                    "id": "1af"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Fred",
+                    "page": 196,
+                    "entries": [
+                      "El gebre infernal de la llança d'un diable de gel, l'alenada frígida d'un drac blanc."
+                    ],
+                    "id": "1b0"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Foc",
+                    "page": 196,
+                    "entries": [
+                      "Red dragons breathe fire, and many spells conjure flames to deal fire damage."
+                    ],
+                    "id": "1b1"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Força",
+                    "page": 196,
+                    "entries": [
+                      "Energia pur de màgia que prové, sobretot, de conjurs com missil màgic o arma espiritual."
+                    ],
+                    "id": "1b2"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Elèctric",
+                    "page": 196,
+                    "entries": [
+                      "El conjur llampec i l'alenada d'un drac blau."
+                    ],
+                    "id": "1b3"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Necròtic",
+                    "page": 196,
+                    "entries": [
+                      "Dany que panseix el físic i l'ànima, causat per certs no-morts i conjurs."
+                    ],
+                    "id": "1b4"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Perforant",
+                    "page": 196,
+                    "entries": [
+                      "Atacs que punxen, com les mossegades o les llances."
+                    ],
+                    "id": "1b5"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Verí",
+                    "page": 196,
+                    "entries": [
+                      "Fiblades verinoses o l'alenada d'un drac verd."
+                    ],
+                    "id": "1b6"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Psíquic",
+                    "page": 196,
+                    "entries": [
+                      "Habilitats mentals com ara l'explosió psiònica d'un assota-ments."
+                    ],
+                    "id": "1b7"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Radiant",
+                    "page": 196,
+                    "entries": [
+                      "Dany que crema la carn com foc i sobrecarrega de l'esperit, que ve de conjurs com ara batussa incendiària spell o d'armes de càstig angelical."
+                    ],
+                    "id": "1b8"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tallant",
+                    "page": 196,
+                    "entries": [
+                      "Dany d'espases, destrals, i d'urpes."
+                    ],
+                    "id": "1b9"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tro",
+                    "page": 196,
+                    "entries": [
+                      "Un impacte concussionari com d'un conjur de tronada."
+                    ],
+                    "id": "1ba"
+                  }
+                ],
+                "id": "1ad"
+              }
+            ],
+            "id": "1ab"
+          },
+          {
+            "type": "entries",
+            "name": "Resistència i Vulnerabilitat al Dany",
+            "page": 197,
+            "entries": [
+              "Algunes criatures i objectes se'ls danya amb més facilitat o dificultat amb certs tipus de dany.",
+              "Si una criatura o objecte té {@b resistència} a un tipus de dany, tot dany d'aquell tipus es dividirà en 2 per a ella, damage of that type is halved against it. Si una criatura o objecte té {@b vulnerabilitat} a un tipus de dany, tot dany d'aquell tipus es duplicarà per a ella.",
+              "Les resistències i vulnerabilitats s'apliquen després de tots els modificadors del dany. Per exemple, una criatura resistent al dany contundent rep un atac que li faria 25 de dany contundent. La criatura també està a dins d'una aura màgica que li redueix tot el dany en 5. Així, als 25 de dany se li resten 5 (20) i després es divideix en 2; per tant, rep 10 de dany contundent.",
+              "Si hi ha múltiples resistències o vulnerabilitats vers el mateix dany, no s'apilen: només s'apliquen un cop. Per exemple, si una criatura és resistent tant al dany de foc i al dany no-màgic, un dany no-màgic de foc es divideix en 2, però no menys."
+            ],
+            "id": "1bb"
+          },
+          {
+            "type": "entries",
+            "name": "Curació",
+            "page": 197,
+            "entries": [
+              "El dany no és permanent si no mata a la criatura, i fins i tot la mort es pot corregir amb màgia poderosa. Un descans pot restaurar els punts de vida d'una criatura, i alguns efectes màgics com ara el conjur curar ferides o una poció de curació poden curar dany instantàniament.",
+              "Quan una criatura rep qualsevol mena de cura, se li sumen els punts de vida recuperats als punts de vida actual. Una criatura no pot tenir més punts de vida que els seus punts de vida màxims; si se la cura en excés, l'excés es perd. Per exemple, un druida cura a l'exploradora 8 punts de vida. L'exploradora té 14 punts de vida i 20 punts de vida màxim: per tant, l'exploradora recupera 6 punts de vida i no 8.",
+              "Una criatura morta no pot recuperar punts de vida si no es ressucita mitjançant màgia com ara el conjur revifar."
+            ],
+            "id": "1bd"
+          },
+          {
+            "type": "entries",
+            "name": "Quedar-se a 0 Punts de Vida",
+            "alias": [
+              "Mort Instantània",
+              "Salvades de mort",
+              "Estabilitzar a una Criatura"
+            ],
+            "page": 197,
+            "entries": [
+              "Quan et quedes a 0 punts de vida, o mors a l'instant o et quedes {@condition inconscient}; el procés es descriu dessota.",
+              {
+                "type": "entries",
+                "name": "Mort Instantània",
+                "page": 197,
+                "entries": [
+                  "Un dany massiu pot matar a l'instant. Quan un dany et deixa a 0 punts de vida, conta el dany restant; si és major a la meitat dels teus punts de vida màxims, mors instantàntiament.",
+                  "Per exemple, una clergue té 6 punts de vida i 12 punts de vida màxim. Rep 18 de dany, per tant es queda a 0 punts de vida, i resten 12 punts de vida. Com que la meitat dels punts de vida màxims és 6, el dany és major, i mor instantàniament."
+                ],
+                "id": "1bf"
+              },
+              {
+                "type": "entries",
+                "name": "Quedar-se Inconscient",
+                "page": 197,
+                "entries": [
+                  "Si un dany et deixa a 0 punts de vida i no et mata, et quedes {@condition inconscient} (consulta la secció PH-A). Recuperes la consciència si reps qualsevol curació."
+                ],
+                "id": "1c0"
+              },
+              {
+                "type": "entries",
+                "name": "Salvades de mort",
+                "page": 197,
+                "entries": [
+                  "Quan comences el teu torn a 0 punts de vida, has de fer una tirada de salvació especial: una salvada de mort. Determinarà si t'acostes a la mort o si et manténs amb vida. Aquesta salvada no s'associa a cap modificador de característica. Estàs a les mans del destí i només et poden ajudar conjurs i trets que puguin donar-te més possiblitats de superar una tirada de salvació.",
+                  "Tira un d20. Si treus 10 o més, superes. Sinó, falles. Si acumules 3 superades, t'estabilitzes (descrit dessota). Si acumules 3 falles, mors. Els resultats no han d'ésser conscutius. Ves-los comptant fins que n'acumulis 3 d'una mena. Els resultats es reinicien quan recuperis punts de vida o t'estabilitzis.",
+                  {
+                    "type": "entries",
+                    "name": "Tirar un 1 o un 20",
+                    "page": 197,
+                    "entries": [
+                      "Si fas una salvada de mort i treus un 1 al d20, són 2 falles. Si treus un 20, recuperes 1 punt de vida."
+                    ],
+                    "id": "1c2"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Rebre dany a 0 punts de vida",
+                    "page": 197,
+                    "entries": [
+                      "Si reps dany estant a 0 punts de vida, anota't una falla de salvada de mort. Si el dany és d'un impacte crític, anota-te'n 2. Si el dany és igual o major als teus punts de vida màxima, mors instantàniament."
+                    ],
+                    "id": "1c3"
+                  }
+                ],
+                "id": "1c1"
+              },
+              {
+                "type": "entries",
+                "name": "Estabilitzar a una Criatura",
+                "page": 197,
+                "entries": [
+                  "La millor forma de salvar a una criatura a 0 punts de vida és curant-la. Si no podeu, la podeu establitzar per evitar que es mori degut a 3 salvada de mort fallades.",
+                  "Pots, com a acció, administrar primers auxilis a una criatura {@condition inconscient} per provar d'establitzar-la. Has de superar una tirada de Saviesa ({@skill Medicina}) (CD 10).",
+                  "Una criatura estabilitzada no fa salvades de mort però està a 0 punts de vida, així que roman {@condition inconscient}. Si rep dany, es desestablitza de nou i ha de tornar a fer salvades de mort. Una criatura estabilitzada però no curada recupera 1 punt de vida passades 1d4 hores."
+                ],
+                "id": "1c4"
+              },
+              {
+                "type": "entries",
+                "name": "La Mort dels Monstres",
+                "page": 198,
+                "entries": [
+                  "Normalment, el/la/li MM deixa que un monstre mori instantàniament si es queda a 0 punts de vida en ves de quedar-se {@condition inconscient} i fer salvades de mort.",
+                  "Alguns monstres i villans poderosos en poden ser excepcions, i el/la/li MM el poden deixar-los {@condition inconscient} i seguir les mateixes normes que els personatges jugadors."
+                ],
+                "id": "1c5"
+              }
+            ],
+            "id": "1be"
+          },
+          {
+            "type": "entries",
+            "name": "Noquejar a una Criatura",
+            "page": 198,
+            "entries": [
+              "De vegades un atacant vol noquejar a un enemic en comptes de matar-lo. Quan un enemic deixa a una craitura a 0 punts de vida amb un atac cos a cos, l'atacant pot optar noquejar a la criatura. Pot escollir fer aquest dany no letal tan bon punt causi el dany. Una criatura noquejada es queda {@condition inconscient} però estable."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "1c6"
+          },
+          {
+            "type": "entries",
+            "name": "Punts de vida temporals",
+            "page": 198,
+            "entries": [
+              "Alguns conjurs i habilitats especials otorguen punts de vida temporals a una criatura. Els punts de vida temporals no són punts de vida normals; són com un escut contra el dany.",
+              "Quan tens punts de vida temporals i reps dany, perds primer els punts de vida temporals; si et queda dany després de perdre'ls tots, se't rest als punts de vida normals. Per exemple, si tens 5 punts de vida temporals i reps 7 de dany, perts tots els punts de vida temporals i 2 punts de vida.",
+              "Com que els punts de vida temporals no són normals, poden excedir els teu punts de vida màxim. Així, pots tenir tots els punts de vida i rebre punts de vida temporals.",
+              "La curació no pot recuperar punts de vida temporals, i no es poden sumar; si ja tens punts de vida temporals i en reps molt, pots decidir quin dels dos et quedes. Per exemple, si tens 10 punts de vida temporals i un conjur te n'otorga 12, pots escollir tenir-ne o bé 10 o bé 12, però no 22.",
+              "Si està a 0 punts de vida, rebre punts de vida temporals no t'estabilitza ni et recupera la consciència.",
+              "Poden absorbir dany mentre estàs inconscient, però només una cura de debò et pot salvar.",
+              "Si l'efecte que t'otorga punts de vida temporals no especifica una duració, et duren fins que els perdis o fins que acabis un Descans Llarg."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "1c7"
+          }
+        ],
+        "id": "1a9"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Combat Muntat",
+        "page": 198,
+        "entries": [
+          "Una muntura et pot otorgar mobilitat i velocitat adicional, com ara un cavaller muntat en un cavall de guerra, una maga que llança conjurs a sobre d'un grif, o una clergue volant pel cel amb un pegàs.",
+          "Una criatura voluntària d'un tamany més o major que tu que tingui una anotamia apropiada pot ser la teva muntura. La muntura segueix les regles següents.",
+          {
+            "type": "entries",
+            "name": "Muntar i Desmuntar",
+            "page": 198,
+            "entries": [
+              "Un cop durant el teu moviment, pots muntar o desmuntar a una criatura a 5 peus d'abast. Costa la meitat de la teva velocitat en moviemtn. Per exemple, si tens 30 peus de velocitat, has de gastar-ne 15 per a muntar un caball. Així, si no tens 15 peus de moviment (o tens una velocitat de 0) no pots muntar-lo.",
+              "Si un efecte mou la teva muntura contra la seva voluntat mentre la muntes, has de salvar per Destresa (CD 10). Si falles, caus de la muntura i quedes {@condition enderrocat} en un espai a 5 peus de la muntura. Si caus {@condition enderrocat} mentre vas en muntura, has de fer la mateixa salvada.",
+              "Si la teva muntura cau {@condition enderrocat}, pots, com a reacció, desmuntar-la i caure dempeus al costat. Si no ho fas, caus {@condition enderrocat} a 5 peus seu."
+            ],
+            "id": "1c9"
+          },
+          {
+            "type": "entries",
+            "name": "Controlar una Muntura",
+            "page": 198,
+            "entries": [
+              "Mentre vas en muntura, tens 2 opcions: controlar-la o deixar que actuï independentment. Les criatures intel·ligents, com ara els dracs, són muntures independents.",
+              "Només pots controlar una muntura si se l'ha entrenat per a ser controlada. Un cavall domesticat o un ase són exemples de criatures entrenades així.",
+              "Quan controles a una muntura, canvia la seva iniciativa: serà la teva d'ara endavant. Es mou com la dirigeixes, i només té 3 opcions com a acció: {@action Córrer}, {@action Destravar-se}, i {@action Esquivar}. Una muntura controlada pot moure's i actuar fins i tot en el torn en que la muntes.",
+              "Una muntura independent: reté la seva iniciativa; no té restriccions d'acció ni que estigui muntada; i es mou i actua de la forma que vol. Tal vegada fugi de combat, carregui per atacar o per a devorar a un enemic, o fins i tot anar en contra de les teves ordres.",
+              "En qualsevol cas, si la muntura provoca un atac d'oportunitat quan la muntes, l'atacant pot atacar a la muntura o a tu."
+            ],
+            "id": "1ca"
+          }
+        ],
+        "id": "1c8"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 4
+        },
+        "name": "Combat Aquàtic",
+        "page": 198,
+        "entries": [
+          "Combatre sota l'aigua és un repte, i té les seves pròpies normes. S'apliquen quan el grup aventurer persegueix als sahuagins fins a casa seva, lluiten contra taurons a dins d'un vaixell enfonsat, o entren en una masmorra inundada.",
+          "Quan fas un {@b atac armat cos a cos}, una criatura que no té velocitat de natació (ni natural ni màgica) fa la tirada d'impacte amb desavantatge, a no ser que l'arma sigui: una daga, una javelina, una espasa curta, una llança, o un trident.",
+          "Un {@b atac armat a distància} falla automàticament si l'objectiu està més lluny que l'abast normal de l'arma. Si està a dins de l'abast normal, la tirada d'impacte té desavantatge, a no ser que l'arma sigui: una ballesta, una xarxa, o una arma llancívola que estiguis llançant, com ara una javelina, una llança, un trident, o un dard.",
+          "Tota criatura i objecte submergida completament en aigua té resistència al dany de foc."
+        ],
+        "id": "1cb"
+      }
+    ],
+    "id": "17a"
   }
 ]
