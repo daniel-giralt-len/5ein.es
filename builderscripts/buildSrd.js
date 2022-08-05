@@ -90,7 +90,7 @@ let dataOut = [
 
 	},
 	getSection(data.phb, ["00e", "029"], ["02a"]), // passat el nivell 1
-	getSection(data.phb, ["0f2", "0f3"]), // TODO: remove 0f3 > 0f9 > 101,
+	getSection(data.phb, ["0f2", "0f3"], ["101"]), // TODO: remove 0f3 > 0f9 > 101,
 ]
 // 0f2, 0f3 //multiclass
 // 0f2, 102 // feats
