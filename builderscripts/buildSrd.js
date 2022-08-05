@@ -135,7 +135,7 @@ let dataOut = [
 			.filter(i => i.verí)
 			.sort(sortByNameDesc),
 	},
-	getSection(data.dmg, ["23c", "248"], ["249", "24a", "24b", "24e", "24f", "263", "266", "267", "268" ]), // magic items
+	getSection(data.dmg, ["23c", "248"], ["249", "24a", "24b", "24e", "24f", "263", "266", "267", "268"]), // magic items
 	{
 		name: "Objectes Màgics",
 		type: "entries",
@@ -145,7 +145,8 @@ let dataOut = [
 			.filter(i => !["none", "artifact"].includes(i.rarity))
 			.sort(sortByNameDesc),
 	},
+	getSection(data.dmg, ["23c", "26a"], ["270", "273"]), // sentient items
 ]
-//["26a"] Sentient magic items
+
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
