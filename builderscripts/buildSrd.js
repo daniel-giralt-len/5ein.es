@@ -124,6 +124,7 @@ let dataOut = [
 	getSection(data.dmg, ["289", "2f6"], ["2f7"]), // diseases
 	getSrdMarkedSection("Malalties d'Exemple", data.conditionsdiseases.disease),
 	getSection(data.dmg, ["289", "300"]), // madness
+	getSection(data.dmg, ["289", "2cb"]), // objects
 ]
 
 const outPath = buildDataPath("srd")
