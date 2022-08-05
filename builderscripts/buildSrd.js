@@ -101,7 +101,9 @@ let dataOut = [
 		type: "entries",
 		entries: data.backgrounds.background.filter(srdOnly),
 	},
+	getSection(data.phb, ["05d"], ["05e", "0f1", "06f",]), // equipament
 ]
+
 // 0f2, 102 // feats
 // 103 //emprar puntuacions de característica
 
