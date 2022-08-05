@@ -23853,5 +23853,166 @@
       "En combat i en situacions d'acció intensa, el temps es compta en rondes. Cada ronda són 6 segons."
     ],
     "id": "145"
+  },
+  {
+    "type": "section",
+    "name": "Moviment",
+    "page": 181,
+    "entries": [
+      "Creuar un riu nadant, passar d'amagatotis per una masmorra, escalar un sender de muntanya complicat són tot moviments que són crucials pels jocs de fantasia.",
+      "El/la/li MM pot resumir el moviment dels personatges sense haver d'especificar distàncies o temps exactes: \"Atravesses el bosc i trobes l'entrada a la masmorra al capvespre del tercer dia.\" Fins i tot a dins d'una masmorra, sobretot a les grans, el/la/li MM pot resumir el moviment entre combats: \"Quan mateu els guardians a l'entrada de l'antic fort nan, consulteu el vostre mapa i atravesseu la multitud de passadissos fins arribar a un cingle amb un pont prim e pedra que el creua.\" De vegades, tanmateix, és important especificar quant temps passa anant d'un lloc a l'altre, ja sigui en dies, hores, o minuts. Les normes per determinar els viatges depenent de dos factors: la velocitat i ritme de viatge de les criatures, i el terreny per on es mouen.",
+      {
+        "type": "entries",
+        "name": "Velocitat",
+        "page": 181,
+        "entries": [
+          "Cada personatge i monstre té una velocitat: quanta distància, en peus, pot moure's en 1 ronda. Representa una velocitat energètica que només es pot mantenir a curt termini en situacions de vida o mort.",
+          "Les normes següents determinen quina distància pot moure's un personatge o monstra en un minut, hora, i dia.",
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 5
+            },
+            "name": "Pas de Viatge",
+            "page": 181,
+            "entries": [
+              "Quan viatgen, un grup d'aventurers es poden moure a pas normal, a pas ràpid, o a pas lent. Consulta la taula Pas de Viatge, que indica la distància que es pot fer amb cada pas després d'un cert període de temps. Un pas ràpid fa difícil que el grup pugui percebre coses; un pas lent ajuda a que el grup es mogui discretament i pugui buscar pistes en les àrees que atravessen.",
+              {
+                "type": "entries",
+                "name": "Marxa Forçada",
+                "page": 181,
+                "entries": [
+                  "la taula Pas de Viatge assumeix que el grup viatja 8 hores al dia. Poden viatjar més temps i arriscar-se a quedar-se {@condition exhaust}."
+                ],
+                "id": "149"
+              },
+              "Per cada hora extra que viatgin passades les 8 hores, els personatges avançaran la distància estipulada a la taula a la columna Hora; també, per cada hora extra, cada personatge haurà de salvar per Constitució al final de l'hora; la CD és 10 + 1 per cada hora extra que passi de les 8 hores. Qui falli rep un nivell d'{@condition exhaust} (consulta l'apèndix PH-A).",
+              {
+                "type": "entries",
+                "name": "Muntures i Vehicles",
+                "page": 181,
+                "entries": [
+                  "Molts animals es mouen més ràpid que els humanoides durant períodes curts de temps (fins a 1 hora). Un personatge amb muntura pot galopar durant 1 hora i fer el doble de camí que a pas ràpid. Si es proporcionent muntures descansades cada 8-10 milles, els personatges poden mantenir aquest pas durant molt de temps, però aquesta condició és difícil de complir excepte en àrees molt poblades.",
+                  "Els personatges que viatgen amb carro, carruatges, o altres vehicles terrestres viatgen a pas normal. El que viatgen amb vehicles marítims poden viatjar tan ràpid com permeti el vehicle, i no reben els penalitzadors del pas ràpid però tampoc els beneficis del pas lent. Depenent del vehicle marítim i dels mariners que el duuen, el vehicle podria viatjar fins a 24 hores per dia.",
+                  "Algunes muntures especials, com ara un pegàs, un grif, o certs vehicles especials com una catifa voladora permeten viatjar més ràpidament."
+                ],
+                "id": "14a"
+              },
+              {
+                "type": "table",
+                "caption": "Pas de Viatge",
+                "colLabels": [
+                  "Pace",
+                  "Distància/Minut",
+                  "Distància/Hora",
+                  "Distància/Dia",
+                  "Efecte"
+                ],
+                "colStyles": [
+                  "col-2",
+                  "col-2",
+                  "col-2",
+                  "col-2",
+                  "col-4"
+                ],
+                "rows": [
+                  [
+                    "Ràpid",
+                    "400 peus",
+                    "4 milles",
+                    "30 milles",
+                    "-5 a la Saviesa ({@skill Percepció}) passiva"
+                  ],
+                  [
+                    "Normal",
+                    "300 peus",
+                    "3 milles",
+                    "24 milles",
+                    "-"
+                  ],
+                  [
+                    "Lent",
+                    "200 peus",
+                    "2 milles",
+                    "18 milles",
+                    "Es pot emprar sigil"
+                  ]
+                ]
+              }
+            ],
+            "id": "148"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 5
+            },
+            "name": "Terreny difícil",
+            "page": 182,
+            "entries": [
+              "Les velocitats de la taula Pas de Viatge assumeixen un terreny senzill, amb carreteres, prats, o passadissos nets de masmorres. Però sovint els grups aventurers es troben amb boscos densos, aiguamolls profunts, ruïnes plenes de runa, muntanyes altíssimes, i terres glaçats: en altres paraules, tereny difícil.",
+              "Si estàs en terreny difícil, et mous a la meitat de la teva velocitat; és a dir, 1 peu de moviment en costa 2. Per tant, la distància que pots cobrir en un minut, hora, o dia es divideix en 2."
+            ],
+            "id": "14b"
+          }
+        ],
+        "id": "147"
+      },
+      {
+        "type": "entries",
+        "name": "Tipus de Moviment Especials",
+        "page": 182,
+        "entries": [
+          "Moure's a través de masmorres perilloses o àrees feréstegues involucra altres moviments a part de caminar. Un grup aventurer pot necessitar escalar, arrossegar-se, nadar, o saltar per a fer camí.",
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 5
+            },
+            "name": "Escalar, Nadar, i Arrossegar-se",
+            "page": 182,
+            "entries": [
+              "Quan escales, nades, o t'arrossegues, cada 1 peu de moviment en costa 2; si, a més a més, estàs en terreny difícil, en costa 3. Si tens una velocitat d'escalada o de natació, ignores aquest cost extra quan fas aquestes activitats. El/la/li MM pot determinar que un obstacle especialment perillós (com la cara d'una muntanya que rellisca) requereix, a més, que superis una tirada de Força ({@skill Atletisme}) check; o que nadar a contracorrent requereixi que superis una tirada de Força ({@skill Atletisme})."
+            ],
+            "id": "14d"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 5
+            },
+            "name": "Saltar",
+            "page": 182,
+            "entries": [
+              "La teva Força determina la teva distància de salt.",
+              {
+                "type": "entries",
+                "name": "Salt de Llargada",
+                "page": 182,
+                "entries": [
+                  "Quan fas un salt de llargada, pots saltar tants peus com la teva puntuació de Força, sempre i quant agafis 10 peus o més d'impuls abans de saltar. Si no fas aquest impuls, només pots saltar la meitat de la distància. Sia com sia, cada peu que saltis et costa 1 peus de moviment.",
+                  "Aquesta norma assumeix que l'alçada del salt no importa, com quan saltes un rierol o esvoranc. El/la/li MM pot determinar que has de superar una tirada de Força ({@skill Atletisme}) de CD 10 per saltar per damunt d'un obstacle baix, o sigui fins a 1/4 de la distància del salt d'alçada. Per exemple, una tanca baixa o un arbust. Si falles la tirada, xoques contra l'obstacle.",
+                  "Quan aterres a dins de terreny difícil, has de fer una tirada de Destresa ({@skill Acrobàcies}) de CD 10 per caure dempeus. Si falles, caus {@condition enderrocat}."
+                ],
+                "id": "14f"
+              },
+              {
+                "type": "entries",
+                "name": "Salt d'Alçada",
+                "page": 182,
+                "entries": [
+                  "Quan fas un salt d'alçada, pots saltar tants peus d'alt com 3 + el teu modificador de Força (minimum 0 peus)sempre i quant agafis 10 peus o més d'impuls abans de saltar. Si no fas aquest impuls, només pots saltar la meitat de la distància. Sia com sia, cada peu que saltis et costa 1 peus de moviment. En alguns casos, el/la/li MM et pot deixar fer una tirada de Força ({@skill Atletisme}); si la superes, pots saltar més alt que de costum.",
+                  "Si aixeques les mans per damunt del teu cap durant el salt, pots agafar més amunt: pots arribar a la teva alçada del salt + 3/2 de la teva alçada."
+                ],
+                "id": "150"
+              }
+            ],
+            "id": "14e"
+          }
+        ],
+        "id": "14c"
+      }
+    ],
+    "id": "146"
   }
 ]

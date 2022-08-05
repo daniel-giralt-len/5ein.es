@@ -111,10 +111,11 @@ let dataOut = [
 	},
 	getSection(data.phb, ["103"], ["13a"]), // emprar puntuacions de característica
 	getSection(data.phb, ["144", "145"]), // time
+	getSection(data.phb, ["144", "146"], ["151", "15e", "169", "16f", "172"]), // movement
 
 ]
 
-//["144", "146"], []
+//["144", "147"], []
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
