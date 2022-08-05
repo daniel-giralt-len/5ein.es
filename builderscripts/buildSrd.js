@@ -146,6 +146,14 @@ let dataOut = [
 			.sort(sortByNameDesc),
 	},
 	getSection(data.dmg, ["23c", "26a"], ["270", "273"]), // sentient items
+	{
+		name: "Artefactes",
+		type: "entries",
+		entries: data.items
+			.filter(srdOnly)
+			.filter(i => i.rarity === "artifact")
+			.sort(sortByNameDesc),
+	},
 ]
 
 const outPath = buildDataPath("srd")
