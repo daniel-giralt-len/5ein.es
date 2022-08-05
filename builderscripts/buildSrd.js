@@ -23,6 +23,18 @@ const data = {
 	],
 }
 
+const cleanEntriesRecursively = (entriesIn, idsToRemove) => {
+	return entriesIn
+		.filter(e => !idsToRemove.includes(e.id))
+		.map(e => {
+			if (typeof e !== "object" || !e.entries) { return e }
+			return ({
+				...e,
+				entries: cleanEntriesRecursively(e.entries, idsToRemove),
+			})
+		})
+}
+
 const getSection = (source, idsTrail, idsToRemove = []) => {
 	const [currentId, ...restOfIds] = idsTrail
 	const section = source.find(({id}) => currentId === id)
@@ -30,19 +42,20 @@ const getSection = (source, idsTrail, idsToRemove = []) => {
 		console.err("COULD NOT FIND SECTION", idsTrail[0])
 		return {}
 	}
+
+	const cleanedEntries = cleanEntriesRecursively(section.entries, idsToRemove)
+
 	if (restOfIds.length === 0) {
 		return {
 			...section,
-			entries: section.entries
-				? section.entries.filter(({id}) => !idsToRemove.includes(id))
-				: null,
+			entries: cleanedEntries,
 		}
 	}
-	if (!section.entries) {
+	if (!cleanedEntries) {
 		console.err("got section", currentId, "but it has no 'entries'... was going to look for id", restOfIds[0])
 	}
 
-	return getSection(section.entries, restOfIds, idsToRemove)
+	return getSection(cleanedEntries, restOfIds, idsToRemove)
 }
 const srdOnly = dataInstance => dataInstance.srd
 const sortByNameDesc = (a, b) => a.name.localeCompare(b.name)
@@ -76,8 +89,12 @@ let dataOut = [
 			.sort((a, b) => sortByNameDesc(a.class, b.class)),
 
 	},
-	getSection(data.phb, ["00e", "029"], ["02a"]),
+	getSection(data.phb, ["00e", "029"], ["02a"]), // passat el nivell 1
+	getSection(data.phb, ["0f2", "0f3"]), // TODO: remove 0f3 > 0f9 > 101,
 ]
+// 0f2, 0f3 //multiclass
+// 0f2, 102 // feats
+// 103 //emprar puntuacions de característica
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))

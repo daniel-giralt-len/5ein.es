@@ -18193,5 +18193,544 @@
       }
     ],
     "id": "029"
+  },
+  {
+    "type": "section",
+    "data": {
+      "quickref": 1
+    },
+    "name": "Multi-classe",
+    "page": 163,
+    "entries": [
+      "Fer multi-classe et permet pujar de nivell en més d'una classe. Així, podràs barrejar els trets de diferents classes i crear una barreja de personatge únic i fora del que podria ser amb una sola classe.",
+      "Amb aquest reglament, pots afegir un nivell en una nova classe quan puges de nivell, en comptes de pujar amb la teva classe base. La suma dels teus nivells en totes les teves classes és el teu nivell de personatge. Així, si tens 3 nivells de maga i 2 nivells de guerrera, el teu nivell de personatge és 5.",
+      "Quan puges de nivells, pots escollir invertir molts nivells en la teva classe base i alguns pocs en altres classes, o bé pots oblidar-te de la teva classe base i invertir més en la nova. Fins i tot podries considerar una 3a o 4a classe! Si adoptes múltiples classes, no tindràs molt de poder en una àrea, però seràs més versàtil.",
+      {
+        "type": "entries",
+        "name": "Prerequisits",
+        "page": 163,
+        "entries": [
+          "Per a fer multi-classe, necessites un mínim en certes puntuacions de característica; tant per la teva classe actual com per la nova; consulta la taula de Prerequisits per Multi-classe. Així, una bàrbara que vulgui fer multi-classe a druida ha de tenir una puntuació de Força de 13 (per ser bàrbara) i una puntuació de druida de 13 (per voler ser druida). Com que no comences amb la formació necessària per a la nova classe, has de saber aprendre ràpidament o tenir un talent natural: això es reflexa en unes puntuacions altes.",
+          {
+            "type": "table",
+            "caption": "Prerequisits per Multi-classe",
+            "colLabels": [
+              "Classe",
+              "Puntuació Mínima"
+            ],
+            "colStyles": [
+              "col-2",
+              "col-10"
+            ],
+            "rows": [
+              [
+                "{@class Bàrbar}",
+                "Força 13"
+              ],
+              [
+                "{@class Bard}",
+                "Carisma 13"
+              ],
+              [
+                "{@class Brivall}",
+                "Destresa 13"
+              ],
+              [
+                "{@class Bruixot}",
+                "Carisma 13"
+              ],
+              [
+                "{@class Clergue}",
+                "Saviesa 13"
+              ],
+              [
+                "{@class Druida}",
+                "Saviesa 13"
+              ],
+              [
+                "{@class Explorador}",
+                "Destresa 13 i Saviesa 13"
+              ],
+              [
+                "{@class Guerrer}",
+                "Força 13 o Destresa 13"
+              ],
+              [
+                "{@class Monjo}",
+                "Destresa 13 i Saviesa 13"
+              ],
+              [
+                "{@class Paladí}",
+                "Força 13 i Carisma 13"
+              ],
+              [
+                "{@class Sortiller}",
+                "Carisma 13"
+              ],
+              [
+                "{@class Mag}",
+                "Intel·ligència 13"
+              ]
+            ]
+          }
+        ],
+        "id": "0f4"
+      },
+      {
+        "type": "entries",
+        "name": "Punts d'Experiència",
+        "page": 163,
+        "entries": [
+          "Els punts d'experiència que necessites per pujar de nivell no es basen en els teus nivells en una classe, sinò en el teu nivell de personatge total. Així, si ets clergue 6/guerrer 1, has de guanyar prou PX per arribar a nivell 8; llavors podràs pujar a nivell 7 de clergue o a nivell 2 de guerrer."
+        ],
+        "id": "0f5"
+      },
+      {
+        "type": "entries",
+        "name": "Punts de Vida i Daus de Vida",
+        "page": 163,
+        "entries": [
+          "Guanyes els punts de vida de nivell 1 només quan ets un personatge de nivell 1. Quan puges de nivell en una classe, guanyes els punts de vida de la teva nova classe que es descriu a la classe pels nivells posteriors a 1.",
+          "Sumes els Daus de Vida otorgats per cada classe que tinguis: formen la teva reserva de Daus de Vida. Poden ser diferents tipus de daus o el mateix. Així, un guerrer 5/paladí 5 tindrà 10d10, però un clergue 5/guerrer 5 tindrà 5d8 i 5d10."
+        ],
+        "id": "0f6"
+      },
+      {
+        "type": "entries",
+        "name": "Bonus de Competència",
+        "page": 163,
+        "entries": [
+          "el teu bonus de competència sempre es basa en el teu nivell de personatge, no en el nivell d'una classe que tinguis; consulta La taula de Progrés de Personatge. Així, un brivall 2/guerrer 3 té un bonus de competència de +3 perquè és un personatge de nivell 5."
+        ],
+        "id": "0f7"
+      },
+      {
+        "type": "entries",
+        "name": "Competències",
+        "page": 164,
+        "entries": [
+          "Quan puges de nivell en una classe que no sigui la base, només obténs algunes competències inicials d'aquella classe; consulta la taula Competències de Multi-classe.",
+          {
+            "type": "table",
+            "caption": "Competències de Multi-classe",
+            "colLabels": [
+              "Classe",
+              "Noves Competències"
+            ],
+            "colStyles": [
+              "col-2",
+              "col-10"
+            ],
+            "rows": [
+              [
+                "{@class Bàrbar}",
+                "Escuts, armes simples, armes marcials"
+              ],
+              [
+                "{@class Bard}",
+                "Armadures lleugers, una habilitat (escull), un instrument musical (escull)"
+              ],
+              [
+                "{@class Brivall}",
+                "Armadures lleugers, una habilitat de la llista d'habilitats de la classe, {@item eines de lladre|phb}"
+              ],
+              [
+                "{@class Bruixot}",
+                "Armadures lleugers, armes simples"
+              ],
+              [
+                "{@class Clergue}",
+                "Armadures lleugers, armadures intermitges, escuts"
+              ],
+              [
+                "{@class Druida}",
+                "Armadures lleugers, armadures intermitges, escuts (els druides no vestiran armadures ni duran escuts fets de metalls)"
+              ],
+              [
+                "{@class Explorador}",
+                "Armadures lleugers, armadures intermitges, escuts, armes simples, armes marcials, una habilitat de la llista d'habilitats de la classe"
+              ],
+              [
+                "{@class Guerrer}",
+                "Armadures lleugers, armadures intermitges, escuts, armes simples, armes marcials"
+              ],
+              [
+                "{@class Mag}",
+                "-"
+              ],
+              [
+                "{@class Monjo}",
+                "Armes simples, espases curtes"
+              ],
+              [
+                "{@class Paladí}",
+                "Armadures lleugers, armadures intermitges, escuts, armes simples, armes marcials"
+              ],
+              [
+                "{@class Sortiller}",
+                "-"
+              ]
+            ]
+          }
+        ],
+        "id": "0f8"
+      },
+      {
+        "type": "entries",
+        "name": "Trets de classe",
+        "page": 164,
+        "entries": [
+          "Quan puges de nivell en una classe, guanyes els trets d'aquell nivell. No reps l'equipament inicial de la classe; a més, alguns trets tenen unes normes adicionals quan fas Multi-classe: Canalitzar Divinitat, Atack Extra, Defensa Desvestida, i Llançament de Conjurs.",
+          {
+            "type": "entries",
+            "name": "Canalitzar Divinitat",
+            "page": 164,
+            "entries": [
+              "Si ja tens el tret Canalitzar Divinitat i puges un nivell en una classe que també otorga aquest tret, obténs els efectes de Canalitzar Divinitat d'aquella classe, però no guanyes un ús extra del tret. Només reps usos extra quan arribes a un nivell en una classe que te'ls otorga explícitament. Així, un clergue 6/paladí 4 pot Canalitzar Divinitat 2 cops entre descansos degut al nivell de clergue, que otroga 2 usos; els de paladí no li otorguen nu tercer. Quan empres Canalitzar Divinitat, pots escollir un efecte que tinguis gràcies a qualsevol de les teves classes."
+            ],
+            "id": "0fa"
+          },
+          {
+            "type": "entries",
+            "name": "Atac Extra",
+            "page": 164,
+            "entries": [
+              "Si reps el tret Atac Extra de més d'una classe, elt trets no s'apilen. Només pots fer més de 2 atacs si un tret Atac Extra especial t'ho permet (com el del guerrer, que et pot otorgar 3 atacs o més). De la mateixa manera, l'invocació èldritx Fulla Assedegada del bruixot no et dona atacs extra si també tens el tret Atac Extra."
+            ],
+            "id": "0fb"
+          },
+          {
+            "type": "entries",
+            "name": "Defensa Desvestida",
+            "page": 164,
+            "entries": [
+              "Si ja tens el tret Defensa Desvestida, no el pots rebre d'una altra classe."
+            ],
+            "id": "0fc"
+          },
+          {
+            "type": "entries",
+            "name": "Llançament de Conjurs",
+            "page": 164,
+            "entries": [
+              "La teva capacitat per a llançar conjurs es basa en els teus nivells en totes les teves classes que llancen conjurs, tant per separats com sumats. Quan reps el tret Llançament de Conjurs de més d'una classe, fes servir les regles següents. Si el teu multi-classe només t'otorga el Llançament de Conjurs un cop, segueix les normes descrites en aquella classe i prou.",
+              {
+                "type": "entries",
+                "name": "Conjurs Coneguts i Preparats",
+                "page": 164,
+                "entries": [
+                  "Designes els conjurs que coneixes i/o prepares de cada classe individualment. Així, un mag 3/explorador 4, sap 3 trucs de mag, té 10 conjurs al llibre de conjurs, on 2 poden ser de nivell 2 (que ha après al nivell 3 de mag). Si té una puntuació d'Intel·ligència de 16, es pot preparar 6 conjurs de mag. I, per últim, coneix 3 conjurs d'explorador de nivell 1.",
+                  "Cada conjur que coneixes o prepares s'associa a una de les seves classes, i empraràs l'habilitat de llançament de conjurs d'aquella classe quan llances el conjur. També necessites el focus arcà associat a aquella classe: un símbol sagrat no pot ser un focus arcà per a conjurs de mag.",
+                  "Si un truc que coneixes incrementa en poder a nivells superiors, incrementa basat en el teu nivell de personatge, no el d'una classe en particular."
+                ],
+                "id": "0fe"
+              },
+              {
+                "type": "entries",
+                "name": "Ranures de Conjur",
+                "page": 164,
+                "entries": [
+                  "Determines les teves ranures de conjur sumant: tots els nivells de bard, clergue, druida, sortiller, i mag; la meitat dels nivells de paladí i explorador (arrodoneix a la baixa); un terç dels nivells de brivall i guerrer (arrodoneix a la baixa) si tens els arquetips Cavaller Èldritx i/o Entabanador Arcà. Aquest total determinarà les ranures de conjur que tens; consulta la taula Conjuració Multi-classe.",
+                  "Si tens més d'una classe amb llançament de conjurs, la taula et pot otorgar ranures de nivell superior als nivells dels conjurs que coneixes o pots preparar. Pots gastar aquelles ranures, però només pots llançar conjurs de nivells inferiors. Si algun conjur es fa més poderós amb ranures superiors com ara {@spell mans ardents}, pots llançar-lo a aquell nivell superior.",
+                  "Així, el mag 3/explorador 4 és considera un llançador de conjurs de nivell 5: tens 4 ranures de nivell 1, 3 ranures de 2, i 2 ranures de 3. Tanmateix no saps cap conjur de nivell 3, ni tampoc conjurs d'explorador de nivell 2. Pots emprar qualsevol ranura per a llançar conjurs que coneixes, i, potencionalment, llançar-los a nivells superiors."
+                ],
+                "id": "0ff"
+              },
+              {
+                "type": "entries",
+                "name": "Màgia de Pacte",
+                "page": 164,
+                "entries": [
+                  "Si tens el tret Llançament de Conjurs i també el de Màgia de Pacte class del bruixot, pots gastar les ranures guanyades amb la Màgia de Pacte per a llançar conjurs que vinguin de Llançament de Conjurs. També pots gastar les ranures guanyades pel Llançament de Conjurs per a llançar conjurs de bruixot."
+                ],
+                "id": "100"
+              },
+              {
+                "type": "table",
+                "caption": "Conjuració Multi-classe: Ranures per Nivell",
+                "colLabels": [
+                  "Nvll.",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "colStyles": [
+                  "col-1-2",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center",
+                  "col-1-2 text-center"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    2,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "2",
+                    3,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "3",
+                    4,
+                    2,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "4",
+                    4,
+                    3,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "5",
+                    4,
+                    3,
+                    2,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "6",
+                    4,
+                    3,
+                    3,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "7",
+                    4,
+                    3,
+                    3,
+                    1,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "8",
+                    4,
+                    3,
+                    3,
+                    2,
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "9",
+                    4,
+                    3,
+                    3,
+                    3,
+                    1,
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "10",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "11",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "12",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "13",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "14",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "15",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    "—"
+                  ],
+                  [
+                    "16",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    "—"
+                  ],
+                  [
+                    "17",
+                    4,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    "18",
+                    4,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    "19",
+                    4,
+                    3,
+                    3,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    "20",
+                    4,
+                    3,
+                    3,
+                    3,
+                    3,
+                    2,
+                    2,
+                    1,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "id": "0fd"
+          },
+          {
+            "type": "entries",
+            "name": "Starting Equipment",
+            "page": 165,
+            "entries": [
+              "You gain the starting equipment of your first class only."
+            ],
+            "id": "101"
+          }
+        ],
+        "id": "0f9"
+      }
+    ],
+    "id": "0f3"
   }
 ]
