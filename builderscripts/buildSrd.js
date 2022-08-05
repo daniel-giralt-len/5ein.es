@@ -168,6 +168,7 @@ let dataOut = [
 	},
 	getSection(data.phb, ["1f6"], ["1f6s"]), // conditions explanation
 	getSrdMarkedSection("Condicions", data.conditionsdiseases.condition), // conditions list
+	getSection(data.phb, ["1f7"], ["1f9", "1fd", "1f8"]), // pantheons
 ]
 
 const outPath = buildDataPath("srd")
