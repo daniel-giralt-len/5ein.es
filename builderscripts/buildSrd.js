@@ -179,7 +179,7 @@ let dataOut = [
 			.filter(i => data.miscellaneousCreaturesNames.includes(i.name))
 			.sort(sortByNameDesc),
 	},
-	//getSection(data.mm, ["040"], ["049"]), // appendix npcs
+	getSection(data.mm, ["040"], ["049"]), // appendix npcs
 ]
 
 const outPath = buildDataPath("srd")
