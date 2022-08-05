@@ -136,7 +136,15 @@ let dataOut = [
 			.sort(sortByNameDesc),
 	},
 	getSection(data.dmg, ["23c", "248"], ["249", "24a", "24b", "24e", "24f", "263", "266", "267", "268" ]), // magic items
-
+	{
+		name: "Objectes Màgics",
+		type: "entries",
+		entries: data.items
+			.filter(srdOnly)
+			.filter(i => !i.verí)
+			.filter(i => !["none", "artifact"].includes(i.rarity))
+			.sort(sortByNameDesc),
+	},
 ]
 //["26a"] Sentient magic items
 const outPath = buildDataPath("srd")
