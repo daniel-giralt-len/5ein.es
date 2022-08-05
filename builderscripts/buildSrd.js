@@ -125,7 +125,10 @@ let dataOut = [
 	getSrdMarkedSection("Malalties d'Exemple", data.conditionsdiseases.disease),
 	getSection(data.dmg, ["289", "300"]), // madness
 	getSection(data.dmg, ["289", "2cb"]), // objects
+	getSection(data.dmg, ["289", "2f8"], ["2fe", "2ff", "2fd"]), // poisons
 ]
+
+
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
