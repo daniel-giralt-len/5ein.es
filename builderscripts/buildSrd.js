@@ -6,6 +6,7 @@ const data = {
 	"races": require(buildDataPath("races")).race,
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
+	"backgrounds": require(buildDataPath("backgrounds")),
 	"spells": require(buildDataPath("spells/spells-phb")),
 	"classes": [
 		require(buildDataPath("class/class-barbarian")),
@@ -95,6 +96,11 @@ let dataOut = [
 	getSection(data.phb, ["041", "042", "04c"]), // idiomes
 	getSection(data.phb, ["041", "053"]), // inspiració
 	getSection(data.phb, ["041", "056"], ["05c"]), // referons
+	{
+		name: "Rerefons d'Exemple",
+		type: "entries",
+		entries: data.backgrounds.background.filter(srdOnly),
+	},
 ]
 // 0f2, 102 // feats
 // 103 //emprar puntuacions de característica
