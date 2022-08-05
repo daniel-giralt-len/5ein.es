@@ -114,6 +114,10 @@ let dataOut = [
 	getSection(data.phb, ["144", "146"], ["151", "169"]), // movement, environment (15e), resting (16f), between adventures (172)
 	getSection(data.phb, ["17a"], ["18f", "1bc"]), // time
 	getSection(data.phb, ["1cc"], ["1f5"]), // spellcasting
+	{ // spell lists
+		...getSection(data.phb, ["1e7"], ["216"]),
+		entries: getSection(data.phb, ["1e7"], ["216"]).entries.sort(sortByNameDesc),
+	},
 
 ]
 
