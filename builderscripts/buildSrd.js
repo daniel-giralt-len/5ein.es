@@ -20,17 +20,22 @@ const getSection = (source, idsTrail) => {
 		return section
 	}
 	if (!section.entries) {
-		console.err("got section", currentId, "but it has no 'entries'... was going to look for id",restOfIds[0])
+		console.err("got section", currentId, "but it has no 'entries'... was going to look for id", restOfIds[0])
 	}
 
 	return getSection(section.entries, restOfIds)
 }
 const srdOnly = dataInstance => dataInstance.srd
+const sortByNameDesc = (a, b) => a.name.localeCompare(b.name)
 
 let dataOut = [
-	data.legalinfo[0],
-	getSection(data.phb, ["02b", "037", "038"]),
-    data.races.filter(srdOnly).map(({subraces, ...rest}) => ({...rest, subraces: subraces ? subraces.filter(srdOnly) : null}))
+	data.legalinfo[0], // legal info
+	getSection(data.phb, ["02b", "037", "038"]), // races explanation
+	data.races
+		.filter(srdOnly)
+		.map(({subraces, ...rest}) => ({...rest, subraces: subraces ? subraces.filter(srdOnly) : null}))
+		.sort(sortByNameDesc), // races
+
 ]
 
 const outPath = buildDataPath("srd")
