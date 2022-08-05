@@ -90,11 +90,12 @@ let dataOut = [
 
 	},
 	getSection(data.phb, ["00e", "029"], ["02a"]), // passat el nivell 1
-	getSection(data.phb, ["0f2", "0f3"], ["101"]), // TODO: remove 0f3 > 0f9 > 101,
+	getSection(data.phb, ["0f2", "0f3"], ["101"]), // multiclasse
+	getSection(data.phb, ["041", "042", "049"], ["04b"]), // alineament
 ]
-// 0f2, 0f3 //multiclass
 // 0f2, 102 // feats
 // 103 //emprar puntuacions de característica
+"041", "042", "04c"
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
