@@ -8,10 +8,11 @@ const data = {
 	"races": require(buildDataPath("races")).race,
 	"items": require(buildDataPath("items")).item,
 	"legalinfo": require(buildDataPath("legalinfo")),
+	"miscellaneousCreaturesNames": require(buildDataPath("miscellaneouscreatures")),
 	"feats": require(buildDataPath("feats")).feat,
 	"trapshazards": require(buildDataPath("trapshazards")).trap,
 	"conditionsdiseases": require(buildDataPath("conditionsdiseases")),
-	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
+	"bestiary": require(buildDataPath("bestiary/bestiary-mm")).monster,
 	"backgrounds": require(buildDataPath("backgrounds")).background,
 	"spells": require(buildDataPath("spells/spells-phb")).spell,
 	"classes": [
@@ -148,7 +149,7 @@ let dataOut = [
 	},
 	getSection(data.dmg, ["23c", "26a"], ["270", "273"]), // sentient items
 	{
-		name: "Artefactes",
+		name: "Llista d'Artefactes",
 		type: "entries",
 		entries: data.items
 			.filter(srdOnly)
@@ -157,7 +158,14 @@ let dataOut = [
 	},
 	getSection(data.mm, ["000", "002", "00a", "00b"]), // modifying monsters
 	getSection(data.mm, ["000", "00c"], ["023"]), // monsters mechanics
-
+	{
+		name: "Llista de Monstres",
+		type: "entries",
+		entries: data.bestiary
+			.filter(srdOnly)
+			.filter(i => !data.miscellaneousCreaturesNames.includes(i.name))
+			.sort(sortByNameDesc),
+	},
 ]
 
 const outPath = buildDataPath("srd")
