@@ -64,6 +64,11 @@ const getSection = (source, idsTrail, idsToRemove = []) => {
 }
 const srdOnly = dataInstance => dataInstance.srd
 const sortByNameDesc = (a, b) => a.name.localeCompare(b.name)
+const getSrdMarkedSection = (name, data) => ({
+	name,
+	type: "entries",
+	entries: data.filter(srdOnly).sort(sortByNameDesc),
+})
 
 let dataOut = [
 	{
@@ -100,18 +105,10 @@ let dataOut = [
 	getSection(data.phb, ["041", "042", "04c"]), // idiomes
 	getSection(data.phb, ["041", "053"]), // inspiració
 	getSection(data.phb, ["041", "056"], ["05c"]), // referons
-	{
-		name: "Rerefons d'Exemple",
-		type: "entries",
-		entries: data.backgrounds.filter(srdOnly),
-	},
+	getSrdMarkedSection("Rerefons d'Exemple", data.backgrounds),
 	getSection(data.phb, ["05d"], ["05e", "0f1", "06f"]), // equipament
 	getSection(data.phb, ["0f2", "102"], ["102s"]), // dots explicació
-	{
-		name: "Dots d'Exemple",
-		type: "entries",
-		entries: data.feats.filter(srdOnly),
-	},
+	getSrdMarkedSection("Dots d'Exemple", data.feats),
 	getSection(data.phb, ["103"], ["13a"]), // emprar puntuacions de característica
 	getSection(data.phb, ["144", "145"]), // time
 	getSection(data.phb, ["144", "146"], ["151", "169"]), // movement, environment (15e), resting (16f), between adventures (172)
@@ -121,29 +118,11 @@ let dataOut = [
 		...getSection(data.phb, ["1e7"], ["216"]),
 		entries: getSection(data.phb, ["1e7"], ["216"]).entries.sort(sortByNameDesc),
 	},
-	{
-		name: "Descripcions dels Conjurs",
-		type: "entries",
-		entries: data.spells
-			.filter(srdOnly)
-			.sort(sortByNameDesc),
-	},
+	getSrdMarkedSection("Descripcions dels Conjurs", data.spells),
 	getSection(data.dmg, ["19f", "211"], ["217"]),
-	{
-		name: "Trampes d'Exemple",
-		type: "entries",
-		entries: data.trapshazards
-			.filter(srdOnly)
-			.sort(sortByNameDesc),
-	},
+	getSrdMarkedSection("Trampes d'Exemple", data.trapshazards),
 	getSection(data.dmg, ["289", "2f6"], ["2f7"]),
-	{
-		name: "Malalties d'Exemple",
-		type: "entries",
-		entries: data.conditionsdiseases.disease
-			.filter(srdOnly)
-			.sort(sortByNameDesc),
-	},
+	getSrdMarkedSection("Malalties d'Exemple", data.conditionsdiseases.disease),
 ]
 
 const outPath = buildDataPath("srd")
