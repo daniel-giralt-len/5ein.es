@@ -23,7 +23,7 @@ const data = {
 	],
 }
 
-const getSection = (source, idsTrail) => {
+const getSection = (source, idsTrail, idsToRemove = []) => {
 	const [currentId, ...restOfIds] = idsTrail
 	const section = source.find(({id}) => currentId === id)
 	if (!section) {
@@ -31,13 +31,18 @@ const getSection = (source, idsTrail) => {
 		return {}
 	}
 	if (restOfIds.length === 0) {
-		return section
+		return {
+			...section,
+			entries: section.entries
+				? section.entries.filter(({id}) => !idsToRemove.includes(id))
+				: null,
+		}
 	}
 	if (!section.entries) {
 		console.err("got section", currentId, "but it has no 'entries'... was going to look for id", restOfIds[0])
 	}
 
-	return getSection(section.entries, restOfIds)
+	return getSection(section.entries, restOfIds, idsToRemove)
 }
 const srdOnly = dataInstance => dataInstance.srd
 const sortByNameDesc = (a, b) => a.name.localeCompare(b.name)
@@ -71,6 +76,7 @@ let dataOut = [
 			.sort((a, b) => sortByNameDesc(a.class, b.class)),
 
 	},
+	getSection(data.phb, ["00e", "029"], ["02a"]),
 ]
 
 const outPath = buildDataPath("srd")
