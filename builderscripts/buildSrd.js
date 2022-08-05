@@ -8,7 +8,7 @@ const data = {
 	"feats": require(buildDataPath("feats")).feat,
 	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
 	"backgrounds": require(buildDataPath("backgrounds")).background,
-	"spells": require(buildDataPath("spells/spells-phb")),
+	"spells": require(buildDataPath("spells/spells-phb")).spell,
 	"classes": [
 		require(buildDataPath("class/class-barbarian")),
 		require(buildDataPath("class/class-bard")),
@@ -118,7 +118,13 @@ let dataOut = [
 		...getSection(data.phb, ["1e7"], ["216"]),
 		entries: getSection(data.phb, ["1e7"], ["216"]).entries.sort(sortByNameDesc),
 	},
-
+	{
+		name: "Descripcions dels Conjurs",
+		type: "entries",
+		entries: data.spells
+			.filter(srdOnly)
+			.sort(sortByNameDesc),
+	},
 ]
 
 const outPath = buildDataPath("srd")
