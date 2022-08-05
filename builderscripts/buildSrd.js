@@ -68,7 +68,7 @@ let dataOut = [
 				classFeature: classFeature ? classFeature.filter(srdOnly) : null,
 				subclassFeature: subclassFeature ? subclassFeature.filter(srdOnly) : null,
 			}))
-			//.sort((a, b) => sortByNameDesc(a.class, b.class)),
+			.sort((a, b) => sortByNameDesc(a.class, b.class)),
 
 	},
 ]
