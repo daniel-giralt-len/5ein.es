@@ -166,6 +166,8 @@ let dataOut = [
 			.filter(i => !data.miscellaneousCreaturesNames.includes(i.name))
 			.sort(sortByNameDesc),
 	},
+	getSection(data.phb, ["1f6"], ["1f6s"]), // conditions explanation
+	//getSrdMarkedSection("Condicions", data.conditionsdiseases.conditions),
 ]
 
 const outPath = buildDataPath("srd")
