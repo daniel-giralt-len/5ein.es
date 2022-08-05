@@ -2,8 +2,8 @@ const fs = require("fs")
 const buildDataPath = fileName => `${process.cwd()}/data/${fileName}.json`
 
 const data = {
-	"phb": require(buildDataPath("book/book-phb")),
-	"races": require(buildDataPath("races")),
+	"phb": require(buildDataPath("book/book-phb")).data,
+	"races": require(buildDataPath("races")).race,
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
 	"spells": require(buildDataPath("spells/spells-phb")),
@@ -29,7 +29,8 @@ const srdOnly = dataInstance => dataInstance.srd
 
 let dataOut = [
 	data.legalinfo[0],
-	getSection(data.phb.data, ["02b", "037", "038"]),
+	getSection(data.phb, ["02b", "037", "038"]),
+    data.races.filter(srdOnly).map(({subraces, ...rest}) => ({...rest, subraces: subraces ? subraces.filter(srdOnly) : null}))
 ]
 
 const outPath = buildDataPath("srd")
