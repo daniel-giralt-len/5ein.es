@@ -167,7 +167,7 @@ let dataOut = [
 			.sort(sortByNameDesc),
 	},
 	getSection(data.phb, ["1f6"], ["1f6s"]), // conditions explanation
-	//getSrdMarkedSection("Condicions", data.conditionsdiseases.conditions),
+	getSrdMarkedSection("Condicions", data.conditionsdiseases.condition), // conditions list
 ]
 
 const outPath = buildDataPath("srd")

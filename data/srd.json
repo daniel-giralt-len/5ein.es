@@ -109266,5 +109266,294 @@
       "Si múltiples efectes imposen la mateixa condició en una mateixa criatura, cada instància té la seva pròpia duració, però ni els efectes ni les duracions s'apilen: o bé una criatura té la condició o bé no la té."
     ],
     "id": "1f6"
+  },
+  {
+    "name": "Condicions",
+    "type": "entries",
+    "entries": [
+      {
+        "name": "Acovardit",
+        "source": "PHB",
+        "page": 290,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura acovardada té desavantatge a tirades d'habilitat i d'impactar mentre pugui veure l'origen de la por",
+              "La criatura no pot acostar-se a l'origen de la por voluntàriament."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Atordit",
+        "source": "PHB",
+        "page": 292,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura atordida està {@condition incapacitat}, no es pot moure i només pot parlar trabadament.",
+              "La criatura falla salvades de Força i Destresa automàticament",
+              "Les tirades d'impacte contra la criatura tenen avantatge."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Eixordat",
+        "source": "PHB",
+        "page": 290,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura eixordada no pot sentir-hi. Falla les tirades d'habilitat que involucrin l'oïda automàticament."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Emmetzinat",
+        "source": "PHB",
+        "page": 292,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura emmetzinada té desavantatge a tirades d'impactar i d'habilitat."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Encegat",
+        "source": "PHB",
+        "page": 290,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura encegada no pot veure. Falla automàticament tota tirada d'habilitat que involucri la vista.",
+              "Les tirades d'impactar contra la criatura tenen avantatge, i les tirades d'impactar de la criatura tenen desavantatge."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Enderrocat",
+        "source": "PHB",
+        "page": 292,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura enderrocada només pot gatejar per moure's. Si s'aixeca es cancel·la la condició.",
+              "La criatura té desavantatge a tirades d'impactar.",
+              "Una tirada per impactar la criatura té avantatge si la criatura atacant hi és a 5 peus. Sinò, té desavantatge."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Exhaust",
+        "source": "PHB",
+        "page": 291,
+        "srd": true,
+        "entries": [
+          "Algunes habilitats i perills ambientals com la inanició o l'exposició al fred poden conduir a l'exhaustió. L'exhaustió té sis nivells. Un efecte pot donar un o mes nivells d'exhaustió a una criatura.",
+          {
+            "type": "table",
+            "colLabels": [
+              "Nivell",
+              "Efecte"
+            ],
+            "colStyles": [
+              "col-1 text-center",
+              "col-11"
+            ],
+            "rows": [
+              [
+                "1",
+                "Desavantatge a tirades d'habilitat"
+              ],
+              [
+                "2",
+                "Velocitat partida en dos"
+              ],
+              [
+                "3",
+                "Desavantatge a tirades d'impacte i de salvació"
+              ],
+              [
+                "4",
+                "Punts de vida màxims partits en dos"
+              ],
+              [
+                "5",
+                "Velocitat 0"
+              ],
+              [
+                "6",
+                "Mort"
+              ]
+            ]
+          },
+          "Si una criatura exhausta rep un altre nivell d'exhaustió, es suma al que ja té.",
+          "Els efectes de l'exhaustió: una criatura amb 2 nivells d'exhaustió tan té desavantatge a tirades d'habilitat com té la velocitat reduïda a la meitat.",
+          "Un efecte que redueixi l'exhaustió en redueix tants nivells com indiqui. El nivell mínim d'exhaustió és 0 (sense efectes d'exhaustió).",
+          "Acabar un Descans Llarg resta 1 nivell d'exhaustió (la criatura ha de menjar i beure). Ressucitar d'entre els morts suma 1 nivell d'exhaustió."
+        ]
+      },
+      {
+        "name": "Fascinat",
+        "source": "PHB",
+        "page": 290,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura fascinada no pot atacar l'origen fascinador ni designar-lo objectiu d'efectes màgics ni habilitats ofensives.",
+              "L'origen fascinador té avantatge a tirades d'interacció social amb la criatura."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Incapacitat",
+        "source": "PHB",
+        "page": 290,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura incapacitada no pot prendre accions ni reaccions."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inconscient",
+        "source": "PHB",
+        "page": 292,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura inconscient està {@condition incapacitat}, no pot moure's ni parlar, i no percep el seu entorn.",
+              "La criatura deixa caure el que estigui subjectant i queda {@condition enderrocat}.",
+              "La criatura falla salvades de Força i Destresa automàticament",
+              "Les tirades d'impacte contra la criatura tenen avantatge.",
+              "Tot atac que impacti la criatura és crític si la criatura atacant hi és a 5 peus."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Invisible",
+        "source": "PHB",
+        "page": 291,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura invisible no es pot veure sense sentits especials o ajut de la màgia. Quant a estar amagada, la criatura es considera molt ofuscada. La criatura es pot localitzar mitjançant sorolls i rastres.",
+              "Les tirades d'impactar contra la criatura tenen desavantatge. Les tirades d'impactar de la criatura tenen avantatge."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Paralitzat",
+        "source": "PHB",
+        "page": 291,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura paralitzada està {@condition incapacitat} i no es pot moure ni parlar.",
+              "La criatura falla salvades de Força i de Destresa automàticament.",
+              "Les tirades d'impacte contra la criatura tenen avantatge.",
+              "Tot atac que impacti a la criatura es un crític si la criatura atacant hi és a 5 peus."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Petrificat",
+        "source": "PHB",
+        "page": 291,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura es torna un objecte sòlid i inanimat (normalment pedra) juntament amb els objectes no màgics que dugui o vesteixi. El seu pes es multiplica per 10 i deixa d'envellir.",
+              "La criatura està {@condition incapacitat}, no pot moure's ni parlar, i no percep el seu entorn.",
+              "Les tirades d'impacte contra la criatura tenen avantatge.",
+              "La criatura falla salvades de Força i Destresa automàticament",
+              "La criatura és resistent a tota mena de dany",
+              "La criatura és immune a metzines i malalties. Qualsevol metzina o malaltia que ja tingués se suspèn però no es neutralitza."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Pres",
+        "source": "PHB",
+        "page": 290,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura presa te una velocitat de 0 i no pot obtenir cap increment a la seva velocitat.",
+              "La condició es cancel·la si l'origen de al presa queda {@condition incapacitat}.",
+              "La condició es cancel·la també si algun efecte allunya la criatura presa de l'origen de la presa. Per exemple, quan una criatura és llançada pel conjur {@spell tronada}."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      },
+      {
+        "name": "Retingut",
+        "source": "PHB",
+        "page": 292,
+        "srd": true,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              "Una criatura retinguda té velocitat 0 i no pot rebre increments a la velocitat.",
+              "Les tirades d'impactar contra la criatura tenen avantatge, i les tirades d'impactar de la criatura tenen desavantatge.",
+              "La criatura té desavanatge a salvades de Destresa."
+            ]
+          }
+        ],
+        "hasFluffImages": true
+      }
+    ]
   }
 ]
