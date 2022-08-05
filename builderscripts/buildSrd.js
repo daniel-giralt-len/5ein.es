@@ -61,7 +61,6 @@ let dataOut = [
 		name: "Classes",
 		type: "entries",
 		entries: data.classes
-			.filter(srdOnly)
 			.map(({class: classes, subclass, classFeature, subclassFeature, ...rest}) => ({
 				...rest,
 				class: classes ? classes.find(srdOnly) : null,
