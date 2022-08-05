@@ -119,10 +119,11 @@ let dataOut = [
 		entries: getSection(data.phb, ["1e7"], ["216"]).entries.sort(sortByNameDesc),
 	},
 	getSrdMarkedSection("Descripcions dels Conjurs", data.spells),
-	getSection(data.dmg, ["19f", "211"], ["217"]),
+	getSection(data.dmg, ["19f", "211"], ["217"]), // traps
 	getSrdMarkedSection("Trampes d'Exemple", data.trapshazards),
-	getSection(data.dmg, ["289", "2f6"], ["2f7"]),
+	getSection(data.dmg, ["289", "2f6"], ["2f7"]), // diseases
 	getSrdMarkedSection("Malalties d'Exemple", data.conditionsdiseases.disease),
+	getSection(data.dmg, ["289", "300"]), // madness
 ]
 
 const outPath = buildDataPath("srd")
