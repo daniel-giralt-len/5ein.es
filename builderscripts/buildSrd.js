@@ -109,9 +109,9 @@ let dataOut = [
 		type: "entries",
 		entries: data.feats.filter(srdOnly),
 	},
-]
+	getSection(data.phb, ["103"], ["13a"]), // emprar puntuacions de característica
 
-// 103 //emprar puntuacions de característica
+]
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))

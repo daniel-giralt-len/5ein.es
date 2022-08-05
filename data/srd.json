@@ -22965,5 +22965,881 @@
         ]
       }
     ]
+  },
+  {
+    "type": "section",
+    "name": "Emprar les Puntuacions de Característica",
+    "page": 173,
+    "entries": [
+      "Tens 6 característiques que descriuen, en general, el atributs físics i mentals del teu personatge:",
+      {
+        "type": "list",
+        "items": [
+          "{@b Força,} el poder físic",
+          "{@b Destresa,} l'agilitat",
+          "{@b Constitució,} la resiliència",
+          "{@b Intel·ligència,} el raonament i la memòria",
+          "{@b Saviesa,} la percepció i la perspicàcia",
+          "{@b Carisma,} la força de la teva personalitat"
+        ]
+      },
+      "Com és un personatge? Brillant i encisador? Àgil i dura de pelar? Les puntuacions de característica defineixen les qualitats del teu personatge... Tant les fortes com les dèbils..",
+      "Les puntuacions de característica són la base de les tres tirades més freqüents del joc: les tirades d'habilitat, les tirades de salvació, i les tirades d'impacte. Les tirades funcionen així: tira un d20, suma-li un modificador d'habilitat (un número derivat de les característiques), i compara el teu resultat contra un número objectiu.",
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Puntuacions i Modificadors de Característica",
+        "page": 173,
+        "entries": [
+          "Cada característica d'una criatura té una puntuació; és un número que defineix la magnitud de la característica. Representa tant la seva potència innata com l'entrenament i la competència amb habilitats relacionades amb la característica.",
+          "Una puntuació de 10 o 11 és la mitja normal humana; tanmateix la gent aventurera i els monstres són més que humans. Un 18 és la més alta que la majoria de gent pot obtenir. Un personatge aventurer pot arribar a un 20; els monstres i les entitats divines poden arribar a 30!",
+          "Tota característica també té un modificador, que s'obté a partir de la puntuació. Així, una puntuació d'1 donarà un modificador de -5, i una puntuació de 30 donarà un modificador de +10. La taula Puntuacions i Modificadors de Característica mostra les relacions entre els dos números, des de l'1 al 30.",
+          "Si no tens la taula, pots calcular el modificador restant 10 a la puntuació i dividint el resultat entre 2 (arrodonint a la baixa).",
+          "Els modificadors de característica afecten gairebé totes les tirades d'impacte, habilitat, i de salvació; per tant és més comú fer-los servir; les puntuacions, en canvi, no es fan servir gairebé mai.",
+          {
+            "type": "table",
+            "caption": "Puntuacions i Modificadors de Característica",
+            "colLabels": [
+              "Puntuació",
+              "Modificador",
+              "Puntuació",
+              "Modificador"
+            ],
+            "colStyles": [
+              "col-3 text-center",
+              "col-3 text-center",
+              "col-3 text-center",
+              "col-3 text-center"
+            ],
+            "rows": [
+              [
+                "1",
+                "-5",
+                "16-17",
+                "+3"
+              ],
+              [
+                "2-3",
+                "-4",
+                "18-19",
+                "+4"
+              ],
+              [
+                "4-5",
+                "-3",
+                "20-21",
+                "+5"
+              ],
+              [
+                "6-7",
+                "-2",
+                "22-23",
+                "+6"
+              ],
+              [
+                "8-9",
+                "-1",
+                "24-25",
+                "+7"
+              ],
+              [
+                "10-11",
+                "+0",
+                "26-27",
+                "+8"
+              ],
+              [
+                "12-13",
+                "+1",
+                "28-29",
+                "+9"
+              ],
+              [
+                "14-15",
+                "+2",
+                "30",
+                "+10"
+              ]
+            ]
+          }
+        ],
+        "id": "104"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Avantage and Desavantage",
+        "page": 173,
+        "entries": [
+          "De vegades, una habilitat especial o un conjur t'otorga avantatge o desavantatge en una tirada d'impacte, habilitat, o de salvació. Quan passa, tires 2d20 i no 1. Si tens avantatge esculls el dau més alt; si tens desavantatge, esculls el dau més alt. Per exemple, si tens desavantatge i tires un 17 i un 5, fas servir el 5; però si tens avantatge, fas servir el 17.",
+          "Si més d'un efecte t'otorga avantatge (o desavantatge), no tires més daus adicionals. Així, si dues situacions d'otorguen avantatge, segueixes tirant 2d20.",
+          "Si, degut a múltiples efectes, la tirada té avantatge i desavantatge, aquestes es cancel·len i només tires 1d20. Fins i tot si tens múltiples avantatges i un desavantatge (o a l'inrevés), se segueixen cancel·lant.",
+          "Quan tens avantatge o desavantatge i algun efecte et deixa tornar a tirar el d20, com ara el tret Astrugància del migerol, només pots re-tirar 1 dels d20. Així, si una mitgerol té avantatge (o desavantatge) en una tirada i treu un 1 i un 13, l'Astrugància li permetria re-tirar l'1, però no els dos.",
+          "Els avantatges i desavantatges se solen rebre gràcies a trets especials, accions, o conjurs. L'inspiració també pot donar avantatge als personatges. El/la/li MM també pot decidir que hi ha circumstàncies especials que causen avantatge o desavantatge."
+        ],
+        "id": "105"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Bonus de Competència",
+        "page": 173,
+        "entries": [
+          "Els personatges tenen un bonus de competència determinat pel seu nivell. Els monstres també, i està incorporat al seu bloc d'estats. Aquest bonus es fa servir quan es tiren habilitats, salvacions, i impactes.",
+          "El teu bonus de competència només se suma un cop a cada tirada. Per exemple, tot i que dues normes diguin que pots sumar el teu bonus de competència a una salvada de Saviesa, només pots afegir-lo un cop.",
+          "En certs casos, el teu bonus de competència pot multiplicar-se o dividir-se (per 2 o entre 2, per exemple) abans que el sumis. Per exemple, la Perícia del brivall li duplica el bonus de competència en certes tirades d'habilitat. Però se segueix sumant només un cop (i multiplicant o dividint un cop), sense importar quantes circumstàncies diguin el contrari.",
+          "Si un tret o efecte et permet multiplicar el teu bonus de competència quan fas una tirada d'habilitat però no hi tens competència, no li sumes el bonus. Per a aquella tirada, el teu bonus es considera 0, i multiplicar 0 segueix sent 0. Per exemple, si no tens competència en {@skill History}, no et pots beneficiar d'un tret que multipliqui el teu bonus de competència per 2 quan fas tirades d'Intel·ligència ({@skill Història}).",
+          "En general, no multipliques el teu bonus de competència en tirades d'atac o d'impacte. Si un tret o efecte t'ho permet, s'apliquen les normes anteriors."
+        ],
+        "id": "106"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Tirades d'Habilitat",
+        "page": 174,
+        "entries": [
+          "Una tirada d'habilitat representa la capacitat d'un personatge o monstre per a superar un repte. El/la/li MM demana una tirada d'habilitat quan un personatge o monstre intenta fer una acció (que no sigui un atac) en que es pot fallar. Si no se sap del cert si la criatura superarà l'obstacle, els daus ho determinen.",
+          "Per tota tirada d'habilitat, el/la/li MM decideix quina de les 6 característiques és rellevant i la dificultat de la tasca, representada per la Classe de Dificultat (CD); com més alta la CD, més difícil serà la tasca. La taula Classes de Dificultat Típiques mostra les CDs més comunes.",
+          {
+            "type": "table",
+            "caption": "Classes de Dificultat Típiques",
+            "colLabels": [
+              "Dificultat de Tasca",
+              "CD"
+            ],
+            "colStyles": [
+              "col-9",
+              "col-3 text-center"
+            ],
+            "rows": [
+              [
+                "Molt fàcil",
+                "5"
+              ],
+              [
+                "Fàcil",
+                "10"
+              ],
+              [
+                "Mitjana",
+                "15"
+              ],
+              [
+                "Difícil",
+                "20"
+              ],
+              [
+                "Molt difícil",
+                "25"
+              ],
+              [
+                "Quasi impossible",
+                "30"
+              ]
+            ]
+          },
+          "Per a fer una tirada d'habilitat, tira un d20 i afegeix-li el modificador de característica adient. Com amb la resta de tirades de d20, suma-li els bonus i aplica els penalitzadors, i compara el resultat amb la CD. Si la tirada és igual o superior a la CD, el personatge o monstre supera la tirada d'habilitat i, així, el repte. Sino, falla, i el personatge o monstre no fa progrés vers a l'objectiu, o fins i tot es topa amb un obstacle determinat per el/la/li MM.",
+          {
+            "type": "entries",
+            "name": "Enfrontament",
+            "page": 174,
+            "entries": [
+              "De vegades les intencions d'un personatge o monstre s'oposen directament a la d'un altre. Per exemple, quan dues criatures intenten fer el mateix, però només una pot aconseguir-ho, com ara agafar un anell màgic del terra; o quan una intenta aturar a l'altre, com quan un monstre prova d'esbotzar una porta que una aventurera esta aguantat. En aquestes situacion es fa una tirada d'habilitat especial: un enfrontament.",
+              "Els participants d'un enfrontament fan tirades d'habilitat i en comparen els resultats. S'apliquen els bonus i penalitzadors com de costum, però no hi ha CD: comparen els totals de les seves tirades. Qui hagi tret una tirada més alta guanya l'enfrontament, i per tant supera l'acció (o impedeix que els altres la superin).",
+              "Si l'enfronament empata, no canvia res. Pot ser que a un participant ja li vagi bé que tot es quedi igual. En un enfrontament per agafar un anell del terra, un empat vol dir que ningú l'agafa. En un enfrontament entre un monstre provant d'obrir la porta i una aventurera tancant-la, un empat significa que la porta roman tancada."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "108"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 3
+            },
+            "name": "Habilitats",
+            "page": 174,
+            "entries": [
+              "Cada característica engloba un ventall ampli d'habilitats, i cada monstre o personatge pot tenir competència en certes d'aqeustes habilitats. Una habilitat representa un aspecte concret d'una característica, i la competència representa el focus d'un personatge en aquell aspecte. Les competències d'habilitat inicials d'un personatge s'escullen quan es crea; les d'un monstre apareixen al bloc d'estats.",
+              "Per exemple, una tirada de Destresa es pot demanar quan un personatge provi de fer piruetes, amagar-se un objecte, o mantenir-se en sigil. Aquests aspectes de la Destresa se'ls representa amb un habilitat: {@skill Acrobàcies}, {@skill Sleight of Hand}, i {@skill Stealth}, respectivament. Un personatge que té competència en {@skill Stealth} és especialment bo a les tirades de Destresa d'amagar-se i ser discret.",
+              "Les habilitats i les seves característiques associades estan llistades a baix (la Constitució no té cap habilitat associada). Les seccions posteriors les descriuen una mica més per a donar idees de com fer-les servir.",
+              {
+                "type": "table",
+                "colLabels": [
+                  "Característica",
+                  "Habilitats"
+                ],
+                "colStyles": [
+                  "col-2",
+                  "col-10"
+                ],
+                "rows": [
+                  [
+                    "Força",
+                    "{@skill Athletics}"
+                  ],
+                  [
+                    "Destresa",
+                    "{@skill Acrobàcies}, {@skill Sleight of Hand}, {@skill Stealth}"
+                  ],
+                  [
+                    "Intel·ligència",
+                    "{@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, {@skill Religion}"
+                  ],
+                  [
+                    "Saviesa",
+                    "{@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, {@skill Survival}"
+                  ],
+                  [
+                    "Carisma",
+                    "{@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}"
+                  ]
+                ]
+              },
+              "De vegades, el/la/li MM pot demanar una tirada d'habilitat amb una habilitat específica: \"Fes una tirada de Saviesa ({@skill Percepció}).\" D'altres, un/a/i jugador/a/i pot demanar si la competència d'una habilitat particular aplica a una tirada en concret. Sigui com sigui, tenir competència en una habilitat vol dir que se li pot sumar el bonus de competència a les tirades d'aquella habilitat. Sense competència, la tirada és una tirada d'habilitat normal i corrent.",
+              "Per exemple, si un personatge vol escalar un cingle perillós, el/la/li MM pot demanar una tirada de Força ({@skill Atletisme}). Si el personatge té competència en {@skill Athletics}, també li suma el bonus de competència a la tirada de Força. Si no ho és, només li suma la Força.",
+              {
+                "type": "entries",
+                "name": "Variant: Habilitats amb Característiques diferents",
+                "page": 175,
+                "entries": [
+                  "En general, la teva competència en una habilitat només s'aplica amb una tirada d'habilitat específica. Per exemple, la competència en {@skill Athletics} se sol aplicar a tirades de Força. Però en certes situacions la competència es pot aplicar a una altra caractrística. En aquests casos el/la/li MM et demanarà que tiris combinant una característica i habilitat inusuals; tu també li ho pots demanar. Per exemple, si has de nadar d'una illa a una altra, el/la/li MM et pot fer tirar per Constitució per veure si pots aguantar l'exercici; però també li podràs afegir la teva comeptència en {@skill Athletics} ja que és exercici. Així, quedarà una tirada de Constitució ({@skill Atletisme}): si tens competència en {@skill Athletics}, li sumes el teu bonus de competència a la teva Constitució.",
+                  "Un altre cas: quan una guerrera nana mostra la seva força bruta per a intimidar a un enemic, el/la/li MM et pot demanar una tirada de Força ({@skill Intimidació}), tot i que l'{@skill Intimidation} normalment va amb Carisma."
+                ],
+                "id": "10a"
+              }
+            ],
+            "id": "109"
+          },
+          {
+            "type": "entries",
+            "name": "Tirades Passives",
+            "page": 175,
+            "entries": [
+              "Una tirada passiva és una tirada especial: no involucra cap dau. Reprersenta el resultat normal de fer una tasca repetidament. Per exemple, buscar portes secretes una vegada rere una altra, o quan un/a/i MM vol determinar si els personatges superen una prova sense fer-los tirar, com ara descobrir un monstre amagat.",
+              "Una tirada passiva es calcula així:",
+              {
+                "type": "abilityGeneric",
+                "text": "10 + tots els modificadors que aplicarien a una tirada normalment"
+              },
+              "Si el personatge fés la tirada amb avantatge, té un +5. Si ho fés amb desavantatge, té un -5. Al joc, el total d'una tirada passiva se li anomena una puntuació.",
+              "Per exemple, si un personatge de nivell 1 té 15 de Saviesa i competència en {@skill Perception}, té una Saviesa ({@skill Percepció}) passiva de 14.",
+              "Les normes d'ocultar-se de la secció \"Destresa\" que ve ara depèn de les tirades passives, així com les regles d'exploració."
+            ],
+            "data": {
+              "quickrefIndex": true
+            },
+            "id": "10b"
+          },
+          {
+            "type": "entries",
+            "name": "Treball en Equip",
+            "page": 175,
+            "entries": [
+              "De vegades dos o més personatges col·laboren en una tasca. Qui lidera el treball (o qui tingui el modificador d'habilitat més alt) pot fer la tirada d'habilitat amb avantatge: representa l'ajuda dels altres personatges. En combat, això és l'acció {@action Ajudar}.",
+              "Un personatge només pot ajudar si és una tasca que ell/a/i podria provar de fer sol/a/i. Per exemple, es necessita competència amb eines de lladre per a forçar un pany; si un personatge no té aquesta competència, no pot ajudar. A més, un personatge només pot ajudar si té lògica que posar-hi més gent milloraria l'intent: filar una agulla no és més fàcil amb més gent.",
+              {
+                "type": "entries",
+                "name": "Tirades en Grup",
+                "page": 175,
+                "entries": [
+                  "Quan tot d'individus intenten assolir quelcom en grup, el/la/li MM pot demanar una tirada d'habilitat en grup, on els personatges que saben fer la tasca ajuden als que no.",
+                  "Per a fer una tirada d'habilitat en grup, tota la gent del grup fa una tirada d'habilitat. Si la meitat o més la superen, el grup la supera. Sinò, el grup la falla.",
+                  "Les tirades en grup no surten gaire sovint: normalment quan els personatges superen o fracassen en grup. Per exemple, quan una colla aventurera viatja per uns aiguamolls, el/la/li MM pot demanar una tirada d'habilitat en grup de Saviesa ({@skill Supervivència}) perquè evitin arenes movedisses, esvorancs, i d'altres perills naturals de l'entorn. Si la meitat o més del grup supera, els que superen guien a la resta perquè evitin el perill. Sino, el grup caurà en un d'aquests obstacles."
+                ],
+                "data": {
+                  "quickrefIndex": true
+                },
+                "id": "10d"
+              }
+            ],
+            "id": "10c"
+          }
+        ],
+        "id": "107"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Emprar Cada Habilitat",
+        "page": 175,
+        "entries": [
+          "Cada tasca que un personatge o monstre provi de fer la cobreix una de les 6 característiques. Aquesta secció dóna més detalls sobre cada característica i com es fan servir al joc.",
+          {
+            "type": "entries",
+            "name": "Força",
+            "page": 175,
+            "entries": [
+              "La Força medeix el poder físic, l'entrenament atlètic, i quanta força física bruta pots fer.",
+              {
+                "type": "entries",
+                "name": "Tirades de Força",
+                "page": 175,
+                "entries": [
+                  "Una tirada de Força pot representar tasques d'aixecar, empènyer, estibar, o trencar quelcom; forçar el teu cos a través d'un espai, o aplicar força bruta en una situació. L'habilitat {@skill Athletics} representa aptitud en certes Tirades de Força.",
+                  {
+                    "type": "entries",
+                    "name": "Atletisme",
+                    "page": 175,
+                    "entries": [
+                      "Una tirada de Força ({@skill Atletisme}) engloba situacions difícils escalant, saltant, o nadant. Per exemple:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Proves d'escalar un cingle que rellisca; evitar obstacles mentre escales; o romandre en una superfície mentre quelcom et vol fer caure.",
+                          "Proves de saltar una distància molt llarga o fer una pirueta a la meitat del salt.",
+                          "Proves de nadar per a no ofegar-te en un cos d'aigua ple de corrents, de tempesta, o d'algues; una altra criatura prova de portart-e aigua endins o interferir amb la teva natació."
+                        ]
+                      }
+                    ],
+                    "id": "111"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Altres tirades de Força",
+                    "page": 175,
+                    "entries": [
+                      "El/la/li MM també pot demanar una tirada de Força quan provis de:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Esbotzar una porta tancada, barrada, o encallada",
+                          "Trencar grillets",
+                          "Passar per un túnnel massa estret",
+                          "Mantenir-te en un carro que t'arrossega",
+                          "Tombar una estàtua",
+                          "Evitar que un roc se'n vagi rodolant"
+                        ]
+                      }
+                    ],
+                    "id": "112"
+                  }
+                ],
+                "id": "110"
+              },
+              {
+                "type": "entries",
+                "name": "Tirades d'Impacte i de Dany",
+                "page": 176,
+                "entries": [
+                  "Quan ataques amb una arma cos a cos com una maça, una destral de guerra, o una javelinaa, sumes el teu modificador de Força a les tirades d'impacte i de dany. Amb les armes cos a cosa fas atacs cos a cos, tot i que alguns poden ser llançats a distància."
+                ],
+                "id": "113"
+              },
+              {
+                "type": "entries",
+                "name": "Aixecar i Carregar",
+                "page": 176,
+                "entries": [
+                  "El teu modificador de Força determina quin pes pots dur a sobre. Es representa en els termes següents.",
+                  {
+                    "type": "entries",
+                    "name": "Capacitat de Càrrega",
+                    "page": 176,
+                    "entries": [
+                      "La teva capacitat de càrrega al teu modificador de Força x 15. És el pes, en lliures, que pots dur a sobre. La majoria de personatges tenen prou Força com per a dur tot el que necessiten.."
+                    ],
+                    "id": "115"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Empènyer, Arrossegar, i Aixecar",
+                    "page": 176,
+                    "entries": [
+                      "Pots empènyer, arrossegar, o aixecar tantes lliures com 2 x la teva capacitat de càrrega (o 30 x el teu modificador de Força). Si proves d'empènyer o arrossegar més pes, la teva velocitat decrementa en 5 peus."
+                    ],
+                    "id": "116"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tamany i Força",
+                    "page": 176,
+                    "entries": [
+                      "Les criatures més grans poden dur més pes, i les petites, menys. Per cada categoria de tamany per sobre de Mitjana, la capacitat de càrrega (i les d'empènyer, arrossegar, i aixecar) es dupliquen. Per a les criatures diminutes, aquestes puntuacions es divideixen en dos."
+                    ],
+                    "id": "117"
+                  }
+                ],
+                "data": {
+                  "quickrefIndex": true
+                },
+                "id": "114"
+              },
+              {
+                "type": "entries",
+                "name": "Variant: Sobrecàrrega",
+                "page": 176,
+                "entries": [
+                  "Les normes d'aixecar i carregar són intencionadament simples. Aquesta variant és per qui vulgui més detalls sobre l'efecte de la càrrega sobre els personatges. Si empres aquesta variant, ignora la columna de Força de la taula d'Armadures.",
+                  "Si carregues més pes que 5 x el teu modificador de Força, pateixes sobrecàrrega: la teva velocitat decrementa en 10 peus.",
+                  "Si carregues més pes que 10 x el teu modificador de Força (però menys que la teva capacitat de càrrega màxima), pateixes una gran sobrecàrrega: la teva velocitat decrementa en 20 peus, i tens desavantatge a les tirade d'habilitat, d'impacte, i de salvació que involucrin Força, Destresa, or Constitució."
+                ],
+                "id": "118"
+              }
+            ],
+            "id": "10f"
+          },
+          {
+            "type": "entries",
+            "name": "Destresa",
+            "page": 176,
+            "entries": [
+              "La Destresa representa l'agilitat, l'equilibri, i els reflexos d'una criatura.",
+              {
+                "type": "entries",
+                "name": "Tirades de Destresa",
+                "page": 176,
+                "entries": [
+                  "Una tirada de Destresa  es fa per comprovar la celeritat, agilitat, o sigil d'un personatge, o per evitar que rellisqui o caigui. Les habilitats {@skill Acrobàcies}, {@skill Sleight of Hand}, i {@skill Stealth} reflexen aquests aspectes en algunes tirades de Destresa.",
+                  {
+                    "type": "entries",
+                    "name": "Acrobàcies",
+                    "page": 176,
+                    "entries": [
+                      "Les tirades de Destresa ({@skill Acrobàcies}) es fan per intentar mantenir-se dempeus en una mala situació, com ara quan corres per damunt de gel, camines per una corda fluixa, o vols mantenir l'equilibri en un vaixell durant una tempesta. El/la/li MM també pot demanar una tirada de Destresa ({@skill Acrobàcies}) per a fer piruetes acrobàtiques, capbussades, tombarelle, mortals, i així."
+                    ],
+                    "id": "11b"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Joc de Mans",
+                    "page": 177,
+                    "entries": [
+                      "Quan intentes cometre un robatori o de prestidigitació, com ara plantar un objecte a la butxaca d'algú o bé amagar-te alguna, sols fer una tirada de Destresa ({@skill Joc de Mans}). El/la/li MM també pot demanar una tirada una tirada de Destresa ({@skill Joc de Mans}) per determinar si pots robar una bossa de diners d'algú altre o robar un objecte d'una butxaca aliena."
+                    ],
+                    "id": "11c"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Sigil",
+                    "page": 177,
+                    "entries": [
+                      "Fas una tirada de Destresa ({@skill Sigil}) quan proves d'ocultar-te dels teus enemics, passar per davant dels guàrdies sense que et vegin, fugir desapercebudament, o acostar-te a algú sense que ho notin."
+                    ],
+                    "id": "11d"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Altres tirades de Destresa",
+                    "page": 177,
+                    "entries": [
+                      "El/la/li MM també pot demanar una tirada de Destresa quan provis de:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Controlar un carro carregat pendent avall",
+                          "Fer girar un carruatge per un gir pronunciat",
+                          "Forçar un pany",
+                          "Desactivar una trampa",
+                          "Lligar a una persona presonera",
+                          "Alliberar-te d'esposes",
+                          "Tocar un instrument de corda",
+                          "Fabricar un objecte petit o detallat"
+                        ]
+                      }
+                    ],
+                    "id": "11e"
+                  }
+                ],
+                "id": "11a"
+              },
+              {
+                "type": "entries",
+                "name": "Tirades d'Impacte i de Dany",
+                "page": 177,
+                "entries": [
+                  "Quan ataques amb una arma a distància com una fona o un arc llarg. sumes el teu modificador de Destresa a les tirades d'impacte i de dany. També ho pots fer amb les armes cos a cosa amb la propietat Subtil, com ara una daga o un estoc."
+                ],
+                "id": "11f"
+              },
+              {
+                "type": "entries",
+                "name": "Classe d'Armadura",
+                "page": 177,
+                "entries": [
+                  "Depenent de l'armadura que vesteixis, pots sumar el teu modificador de Destresa, total o parcialment, a la teva CA."
+                ],
+                "id": "120"
+              },
+              {
+                "type": "entries",
+                "name": "Iniciativa",
+                "page": 177,
+                "entries": [
+                  "A l'inici de cada combat, fas una tirada d'iniciativa, que és una tirada de Destresa. L'iniciativa determina l'ordre dels torns de cada criatura en un combat."
+                ],
+                "id": "121"
+              },
+              {
+                "type": "inset",
+                "data": {
+                  "quickref": 3,
+                  "allowRefDupe": true
+                },
+                "name": "Amagar-se",
+                "page": 177,
+                "entries": [
+                  "El/la/li MM decideix en quines circumstàncies et pots amagar. Quan intentes amagar-te, fes una tirada de Destresa ({@skill Sigil}). Fins que et descobreixin o deixis d'amagar-te, el teu resultat s'enfronta amb les tirades de Saviesa ({@skill Percepció}) de tota criatura que et busqui activament.",
+                  "No pots amagar-te d'una criatura que et vegi clarament. Si fas soroll, com ara un crit o tirar un gerro, la gent sabrà la teva posició. Una criatura {@condition invisible} no pot ésser vista, així que sempre pot provar d'amagar-se; tanmateix pot seguir deixant rastre, i pot fer soroll.",
+                  "En combat, moltes criatures estan molt alerta, i si surts del teu amagatall i t'acostes a una criatura, normalment et veurà. Tanmateix hi ha certes circumstànces on el/la/li MM et pugui permetre seguir amagat/da/di d'una criatura, com ara si està distreta. En aquest cas, tens avantatge a impactar-la amb un atac, i després et detectarà.",
+                  {
+                    "type": "entries",
+                    "name": "Percepció Passiva",
+                    "page": 177,
+                    "entries": [
+                      "Quan t'amagues, sempre hi ha una possibilitat que una criatura no alerta et vegi. El/la/li MM compara la teva tirada de Destresa ({@skill Sigil}) contra la Saviesa ({@skill Percepció}) passiva de la criatura, que és 10 + el modificador de Saviesa de la criatura i d'altres bonus i penalitzadors. Si la criatura té avantatge, té +5. Si té desavantatge, té -5..",
+                      "Per exemple, si un personatge de nivell 1 (amb bonus de competència de +2) té 15 de Saviesa (modificador de +2) i competència en {@skill Perception}, té una Saviesa ({@skill Percepció}) passiva de 14."
+                    ],
+                    "id": "123"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Què pots veure?",
+                    "page": 177,
+                    "entries": [
+                      "Un dels grans factors que determina si pots veure una criatura o objecte amagat és si pots veure l'àrea bé o no. L'àrea pot estar gens, poc, o molt ofuscada, com s'explica a en la secció \"l'Entorn\" més endavant."
+                    ],
+                    "id": "124"
+                  }
+                ],
+                "id": "122"
+              }
+            ],
+            "id": "119"
+          },
+          {
+            "type": "entries",
+            "name": "Constitució",
+            "page": 177,
+            "entries": [
+              "La Constitució representa la salut, la resiliència, i la força vital d'una criatura.",
+              {
+                "type": "entries",
+                "name": "Tirades de Constitució",
+                "page": 177,
+                "entries": [
+                  "Les tirades de Constitució són poc comunes i no tenen habilitats associades. La resiliència que representa és més passiva que un esforç actiu per part del personatge o monstre.",
+                  "Una tirada de Constitució pot representar sobrepassar els teus límits normals.",
+                  "El/la/li MM  pot demanar una tirada de Constitució quan proves de:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Aguantar la respiració",
+                      "Caminar o treballar durant hores sense descansar",
+                      "Mantenir-te despert/a/i",
+                      "Sobreviure sense menjar ni beure",
+                      "Beure't una gerra de cervesa a Sant Hilari"
+                    ]
+                  }
+                ],
+                "id": "126"
+              },
+              {
+                "type": "entries",
+                "name": "Punts de vida",
+                "page": 177,
+                "entries": [
+                  "El teu modificador de Constitució afecta els teus punts de vida. Normalment afegeixes el teu modificador de Constitució a cada tirada de Dau de Vida que tires per a recuperar punts de vida.",
+                  "Si el teu modificador de Constitució canvia, els teus punts de vida màxims també, com si obtinguessis un modificador nou des del 1r nivell. Per exemple, si augmentes la teva puntuació de Constituació a nivell 4, i això fa que el teu modificador de COnstitució passi de +1 a +2, ajustes els teus punts de vida com si sempre haguessis tingut un +2: afegeixes 3 punts de vida, un per cada nivell del 1 al 3, i llavors tires els punts de vida extra que t'otorga el nivell 4 i li sumes la teva nova Constituació. Un altre exemple: si ets a nivell 7 i algun efecte et redueix el teu modificador de Constitució en 1, els teus punts de vida màxims es redueixen en 7, un per cada nivell."
+                ],
+                "id": "127"
+              }
+            ],
+            "id": "125"
+          },
+          {
+            "type": "entries",
+            "name": "Intel·ligència",
+            "page": 177,
+            "entries": [
+              "L'Intel·ligència representa l'agudesa mental, la memòria, i el raonament d'una criatura.",
+              {
+                "type": "entries",
+                "name": "Tirades d'Intel·ligència",
+                "page": 177,
+                "entries": [
+                  "Una tirada d'Intel·ligència es fa quan es necessita lògica, educació, memòria, o raonament deductiu. Les habilitats {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, i {@skill Religion} reflexen certs aspectes de les Tirades d'Intel·ligència.",
+                  {
+                    "type": "entries",
+                    "name": "Arcana",
+                    "page": 177,
+                    "entries": [
+                      "L'Intel·ligència ({@skill Arcana}) medeix la teva capacitat per a recordar coneixements sobre conjurs, objectes màgics, símbols èldritxos, tradicions màgiques, plans d'existència, i dels habitants d'aqueslls plans."
+                    ],
+                    "id": "12a"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Història",
+                    "page": 177,
+                    "entries": [
+                      "L'Intel·ligència ({@skill Història}) medeix la teva capacitat per a recordar coneixement d'esdeveniments històrics, regnes antics, disputes passades, guerres recents, i civilitzacions perdudes."
+                    ],
+                    "id": "12b"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Investigació",
+                    "page": 178,
+                    "entries": [
+                      "Quan busques pistes i fas deduccions sobre les pistes, fas una tirada d'Intel·ligència ({@skill Investigació}). Potser dedueixes on està un objecte amagat, saps quina arma va fer una ferida mirant-la, o determines el punt més dèbil d'un túnnel que el podria ensorrar. Llegir tot de pergamints antics buscant un coneixement específic també podria fer-se amb una tirada d'Intel·ligència ({@skill Investigació})."
+                    ],
+                    "id": "12c"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Natura",
+                    "page": 178,
+                    "entries": [
+                      "L'Intel·ligència ({@skill Natura}) medeix la teva capacitat per a recordar coneixement sobre el terreny, les plantes, els animals, el clima, i els cicles naturals."
+                    ],
+                    "id": "12d"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Religió",
+                    "page": 178,
+                    "entries": [
+                      "L'Intel·ligència ({@skill Religió}) medeix la teva capacitat per a recordar coneixement sobre divinitats, rituals, oracions, jerarquies religioses, símbol sagrats, i pràctiques de cultes secrets."
+                    ],
+                    "id": "12e"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Altres tirades d'Intel·ligència",
+                    "page": 178,
+                    "entries": [
+                      "El/la/li MM  pot demanar una tirada d'Intel·ligència quan proves de:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Communicar-te amb una criatura sense paraules",
+                          "Taxar un objecte preciós",
+                          "Crear una disfressa de guàrdia de la ciutat",
+                          "Falsificar un document",
+                          "Recordar coneixement d'una ofici o art",
+                          "Guanyar un joc d'habilitat"
+                        ]
+                      }
+                    ],
+                    "id": "12f"
+                  }
+                ],
+                "id": "129"
+              },
+              {
+                "type": "entries",
+                "name": "Habilitat de Llançament de Conjurs",
+                "page": 178,
+                "entries": [
+                  "Els mags empren l'Intel·ligència com a habilitat de llançament de conjurs: determina les CD de salvades dels conjurs que llancen."
+                ],
+                "id": "130"
+              }
+            ],
+            "id": "128"
+          },
+          {
+            "type": "entries",
+            "name": "Saviesa",
+            "page": 178,
+            "entries": [
+              "La Saviesa representa la teva harmonia amb el món que envolta a una criatura i representa la seva percepció i intuició.",
+              {
+                "type": "entries",
+                "name": "Tirades de Saviesa",
+                "page": 178,
+                "entries": [
+                  "Una tirada de Saviesa es pot fer per llegir el llenguatge corporal, entendre els sentiments d'algú, percebre coses de l'entorn, o cuidar d'una persona malalta. Les habilitats {@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, i {@skill Survival} representen certes aptituds de les Tirades de Saviesa.",
+                  {
+                    "type": "entries",
+                    "name": "Tracte Animal",
+                    "page": 178,
+                    "entries": [
+                      "Quan s'ha de calmar a un animal domesticat, tranquilitzar una muntura, o intuir les intencions d'una bèstia, el/la/li MM et pot demanar una tirada de Saviesa ({@skill Tracte amb Animals}). També la pots fer per a controlar la teva muntura quan intentes una maniobra perillosa."
+                    ],
+                    "id": "133"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Perspicàcia",
+                    "page": 178,
+                    "entries": [
+                      "La teva Saviesa ({@skill Perspicàcia}) determina si pots endevinar les intencions vertaderes d'una criatura, com ara detectar una mentida o predir el seu següent moviment. Passa per lleguir el llenguatge corporal, verbal, i somàtic de la criatura."
+                    ],
+                    "id": "134"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Medicina",
+                    "page": 178,
+                    "entries": [
+                      "Una tirada de Saviesa ({@skill Medicina}) et permet provar d'estabilitzar un aliat que s'estigui morint, o diagnosticar una malaltia."
+                    ],
+                    "id": "135"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Percepció",
+                    "page": 178,
+                    "entries": [
+                      "La teva Saviesa ({@skill Percepció}) et permet veure, escoltar, o sentir una presència d'algú o alguna cosa. Representa la teva conciència de l'entorn i l'agudesa dels teus sentits."
+                    ],
+                    "id": "136"
+                  },
+                  "Per exemple, pots provar d'escoltar una conversa a porta tancada, espiar sota una finestra oberta, o sentir com uns mostres proven de moure's sigilosament pel bosc. També pots provar de trobar coses ocultes o fàcils de passar per alt, com ara orcs parant una emboscada a la carretera, uns brètols amagant-se en carrerons, o llum d'espelma sota una porta tancada.",
+                  {
+                    "type": "entries",
+                    "name": "Supervivència",
+                    "page": 178,
+                    "entries": [
+                      "Una tirada de Saviesa ({@skill Supervivència}) es fa per seguir rastres, caçar animals per menjar, guiar al grup a través de la tundra, trobar indicis d'un cau de mussolossos, predir el temps, o evitar arenes movedisses i altres paranys de l'entorn."
+                    ],
+                    "id": "137"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Altres tirades de Saviesa",
+                    "page": 178,
+                    "entries": [
+                      "El/la/li MM pot demanar una tirada de Saviesa quan proves de:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Tenir un pressentiment sobre què fer ara",
+                          "Detectar si una criatura que sembla morta és, realment, un no-mort"
+                        ]
+                      }
+                    ],
+                    "id": "138"
+                  }
+                ],
+                "id": "132"
+              },
+              {
+                "type": "entries",
+                "name": "Habilitat de Llançament de Conjurs",
+                "page": 178,
+                "entries": [
+                  "Els clergues, els druides, i els exploradors empren la Saviesa com a habilitat de llançament de conjurs: determina les CD de salvades dels conjurs que llancen."
+                ],
+                "id": "139"
+              }
+            ],
+            "id": "131"
+          },
+          {
+            "type": "entries",
+            "name": "Carisma",
+            "page": 178,
+            "entries": [
+              "La Carisma representa com interactues amb les altres persona. Inclou els factors com l'autoconfiança i l'eloqüència, i representen una personalitat de líder o encisadora.",
+              {
+                "type": "entries",
+                "name": "Tirades de Carisma",
+                "page": 178,
+                "entries": [
+                  "Una tirada de Carisma es fa quan proves d'influenciar els altres, imitar a algú o mentir bé, o també quan vols navegar una situació social complicada. Les habilitats {@skill Deception}, {@skill Intimidation}, {@skill Performance}, i {@skill Persuasion} reflexen certs aspectes de la Tirades de Carisma.",
+                  {
+                    "type": "entries",
+                    "name": "Engany",
+                    "page": 178,
+                    "entries": [
+                      "La Carisma ({@skill Engany}) determina si pots amagar la veritat verbalment o amb les teves accions. L'engany ho engloba tot des de desorientar als altres, expressar opinions ambigues, o mentir descaradament. Per exemple, desoritentar a un guàrdia, enganyar a un mercader, guanyar a les apostes, disfressar-te, calmar a algú amb mantides, o mantenir una cara de pòker mentre menteixes."
+                    ],
+                    "id": "13d"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Intimidació",
+                    "page": 179,
+                    "entries": [
+                      "Quan proves d'influenciar a algú amb amenaces, accions hostils, o violència física, el/la/li MM et pot demanar fer una tirada de Carisma ({@skill Intimidació}). Per exemple: extreure informació d'un presonar, convèncer a un grup de brètols que et deixin en pau, o convèncer a un visir que reconsideri la seva decisió amb l'ajuda d'una ampolla trencada."
+                    ],
+                    "id": "13e"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Faràndula",
+                    "page": 179,
+                    "entries": [
+                      "La Carisma ({@skill Faràndula}) determina la teva habilitat amb la música, dansa, actuacions teatrals, explicar històries, o alguna altra forma d'entreteniment."
+                    ],
+                    "id": "13f"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Persuasió",
+                    "page": 179,
+                    "entries": [
+                      "Quan proves d'influencia a algú amb tacte, gràcia social, o ghonestedat, el/la/li MM et pot demanar fer una tirada de Carisma ({@skill Persuasion}). Típicament, la persuasió et fa actuar de bona fer, crear amistats, demanar coses cordialment, o portar-se bé. Per exemple, convèncer a un guàrdia perquè et deixi veure al rei, ajudar a crear pau entre dues tribus en guerra, o inspirar un poble sencer."
+                    ],
+                    "id": "140"
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Altres tirades de Carisma",
+                    "page": 179,
+                    "entries": [
+                      "El/la/li MM et pot demanar fer una tirada de Carisma quen proves de:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Trobar la millor informant d'informació, curiositats i safareig",
+                          "Fer-te amb la gent i detectar la temàtica de les seves converses"
+                        ]
+                      }
+                    ],
+                    "id": "141"
+                  }
+                ],
+                "id": "13c"
+              },
+              {
+                "type": "entries",
+                "name": "Habilitat de Llançament de Conjurs",
+                "page": 179,
+                "entries": [
+                  "Els bards, els paladins, i els sortillers empren la Carisma com a habilitat de llançament de conjurs: determina les CD de salvades dels conjurs que llancen."
+                ],
+                "id": "142"
+              }
+            ],
+            "id": "13b"
+          }
+        ],
+        "id": "10e"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Tirades de Salvació",
+        "page": 179,
+        "entries": [
+          "Una tirada de salvació (o una salvada) representa l'intent de resistir un conjur, trampa, verí, malaltia, o una amenaça en general. Normalment, no decideixes fer la salvada tu: el risk que pateix el personatge o monstre el força a fer-la.",
+          "Per fer una tirada de salvació, tira un d20 i suma-li el modificador de característica associat. Així, a una salvada de Destresa se li suma el modificador de Destresa.",
+          "Una una tirada de salvació pot ser afectada pel context en forma de bonus, penalitzadors, avantatge, i desavantatge, determinats per el/la/li MM.",
+          "Cada classe otorga competència en 2 o més tirades de salvacions. Per exemple, els mags tenen competència a les tirades d'Intel·ligència. A les tirades de salvació amb les que es té competència se li poden sumar el bonus de competència. Alguns monstres també tenen competència en salvades.",
+          "La Classe de Dificultat d'una salvada ve dictada per l'efecte que la detona. Per exemple, la CD d'una salvada degut a un conjur la determina l'habilitat de llançament de conjurs i bonus de competència de qui llança el conjur.",
+          "El resultat d'una salvada superada o fallada també es determina a l'efecte que detona la tirada. Normalment, superar la salvada vol dir que s'evita el mal o, com a mínim, se'n redueixen els efectes."
+        ],
+        "id": "143"
+      }
+    ],
+    "id": "103"
   }
 ]
