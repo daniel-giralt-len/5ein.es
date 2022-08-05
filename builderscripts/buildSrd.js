@@ -8,6 +8,7 @@ const data = {
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"feats": require(buildDataPath("feats")).feat,
 	"trapshazards": require(buildDataPath("trapshazards")).trap,
+	"conditionsdiseases": require(buildDataPath("conditionsdiseases")),
 	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
 	"backgrounds": require(buildDataPath("backgrounds")).background,
 	"spells": require(buildDataPath("spells/spells-phb")).spell,
@@ -79,7 +80,7 @@ let dataOut = [
 			.map(({subraces, ...rest}) => ({...rest, subraces: subraces ? subraces.filter(srdOnly) : null}))
 			.sort(sortByNameDesc),
 	},
-	{ //TODO: Remove fluff in english
+	{ // TODO: Remove fluff in english
 		name: "Classes",
 		type: "entries",
 		entries: data.classes
@@ -135,9 +136,15 @@ let dataOut = [
 			.filter(srdOnly)
 			.sort(sortByNameDesc),
 	},
+	getSection(data.dmg, ["289", "2f6"], ["2f7"]),
+	{
+		name: "Malalties d'Exemple",
+		type: "entries",
+		entries: data.conditionsdiseases.disease
+			.filter(srdOnly)
+			.sort(sortByNameDesc),
+	},
 ]
-
-
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
