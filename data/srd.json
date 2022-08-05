@@ -24011,6 +24011,264 @@
           }
         ],
         "id": "14c"
+      },
+      {
+        "type": "section",
+        "name": "L'Entorn",
+        "page": 183,
+        "entries": [
+          "Sortir d'aventura involucra endinsar-se en llocs foscos, perillosos, i explorar-ne els seus misteris. Les normes d'aquesta secció abarquen les maneres principals d'interactuar amb aquesta mena d'entorns.",
+          {
+            "type": "entries",
+            "name": "Caure",
+            "page": 183,
+            "entries": [
+              "Caure des de ben amunt és un perill comú per a tota persona aventurera.",
+              "Al final d'una caiguda, una criatura rep {@dice 1d6} de dany contundent per cada 10 peus que hagi caigut, fins a un màxim de {@dice 20d6}. La criatura aterra {@condition enderrocat}, a no ser que pugui evitar tot el dany de la caiguda"
+            ],
+            "id": "15f"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 3
+            },
+            "name": "Ofegar-se",
+            "page": 183,
+            "entries": [
+              "Una criatura pot aguantar la respiració tants minuts com 1 + el seu modificador de Constitució (mínim 30 segons).",
+              "Quan a una criatura runs se li acaba l'aire o s'ennuega, pot sobreviure tantes rondes com el seu modificador de Constitució modifier (minimum d'1). Passat aquest període, al seu torn següent es queda a 0 punts de vida i començarà a morir-se, i no pot recuperar punts de vida ni estabilitzar-se fins que pugui tornar a respirar.",
+              "Per exemple, una criatura amb 14 de Constitució of 14 pot aguantar la respiració durant 3 minuts. Si comença a ofegar-se, té 2 rondes per a obtenir aire d'alguna forma; després, es queda a 0 punts de vida."
+            ],
+            "id": "160"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 3
+            },
+            "name": "Visió i Llum",
+            "page": 183,
+            "alias": [
+              "Visió a cegues",
+              "Visió de Foscor",
+              "Visió veraç"
+            ],
+            "entries": [
+              "Un dels fonaments d'una aventura és detectar perills, trobar objectes amagats, impactar a un enemic durant el combat, o llançar un conjur. Per a fer-ho, la majoria de les accions depenen de la visió d'un personatge. La foscor i d'altres efectes poden dificultar complir aquestes tasques.",
+              "Pot ser que na àrea estigui poc o molt ofuscada. En una àrea {@b poc ofuscada} les criatures tenen desavantatge a tirades d'habilitat de Saviesa ({@skill Percepció}) que involucrin la vista. Una àrea pot estar així degut a llum tènue, boira prima, o sotabosc lleuger",
+              "Una àrea {@b molt ofuscada} bloqueja la visió enterament. Pot estar així degut a la foscor, una boira gruixuda, o un boscatge dens. Una criatura que provi a veure quelcom a dins de l'àrea es considera {@condition encegat}.",
+              "A més, la presència (o absència) de llum en un entorn genera 3 il·luminacions possibles: llum forta, llum tènue, i foscor.",
+              "En {@b llum forta}, la majoria de criatures hi veuen bé. Fins i tot un cel gris fa llum forta; i les torxes, llanternes, focs, i altres fonts de llum fan llum forta fins a uns radis específics.",
+              "En {@b llum tènue}, o ombres, l'àrea està poc ofuscada. Una àrea de llum tènue està en un llindar entre una llum forta (com la d'una torxa) i una foscor que l'embolcalla. La llum de l'ocàs i de l'alba es consideren llum tènue. Una lluna plena especialment brillant també otorga llum tènue.",
+              "A la {@b foscor}, l'àrea està molt ofuscada. La foscor es troba durant la majoria de les nits, a l'interior d'una masmorra sense torxes, en una mina subterrània, o en una àrea de foscor màgica.",
+              {
+                "type": "entries",
+                "name": "Visió a cegues",
+                "page": 183,
+                "entries": [
+                  "Una criatura que té a cegues can percep el seu entorn, sense haver-hi de veure, fins a un radi específic. Per exemple, els llims (que no tenen ulls), o els ratpenats (que tenen ecolocació), els dracs veritables (que tenen sentits superiors) tenen aquest sentit."
+                ],
+                "id": "162"
+              },
+              {
+                "type": "entries",
+                "name": "Visió de Foscor",
+                "page": 183,
+                "entries": [
+                  "Moltes criatures dels móns de fantasia, sobretot les que viuen sota terra, tenen Visió de foscor. Poden veure-hi en llum tènue com si fos llum forta i a la foscor com si fos llum tènue fins a un cert radi d'abast. Tanmateix la visió en aquella foscor és monocroma: només poden veure tons de gris."
+                ],
+                "id": "163"
+              },
+              {
+                "type": "entries",
+                "name": "Visió veraç",
+                "page": 185,
+                "entries": [
+                  "Fins a un cert radi d'abast, una criatura amb visió veraç pot: veure a través de les foscors naturals i les màgiques; veure a les criatures i objectes {@condition invisible}s; detectar il·lusions visuals (i superar-ne les seves salvades) automàticament; i percebre la forma veritable d'un Canviaformes o d'una criatura transformada mitjançant la màgia. La criatura també hi pot veure al Pla Etèri."
+                ],
+                "id": "164"
+              }
+            ],
+            "id": "161"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 3
+            },
+            "name": "Menjar i Beure",
+            "page": 185,
+            "entries": [
+              "Els personatges que no han de menjar ni beure no pateixen els efectes de l'{@condition exhaust} (consulta apèndix PH-A). L'exhaustió causada per inanició no es pot treure fins que el personatge mengi i begui les quantitats que necessita.",
+              {
+                "type": "entries",
+                "name": "Menjar",
+                "page": 185,
+                "entries": [
+                  "Un personatge necessita una lliura de menjar al dia, i la pot fer durar més anant a mitges racions. Menjar-se mitja lliura al dia es considera mig dia sense menjar.",
+                  "Un personatge pot passar tants dies com 3 + el modificador de Constitució (mínim d'1) sense menjar. Després d'això, el personatge pateix 1 nivell d'{@condition exhaust} al final de cada dia que passi.",
+                  "Un dia de menjar normal torna el comptador de dies sense menjar a 0."
+                ],
+                "id": "166"
+              },
+              {
+                "type": "entries",
+                "name": "Beure",
+                "page": 185,
+                "entries": [
+                  "Un personatge necessita un galó d'aigua el dia, o 2 si el clima és calurós. Si un personatge només beu la meitat, ha de salvar per Constitució (CD 15). Si falla, rep 1 nivell d'{@condition exhaust} al final del dia. Si un personatge beu menys de la meitat, rep el nivell automàticament al final del dia.",
+                  "Si el personatge ja té 1 o més nivells d'{@condition exhaust}, rep 2 nivells, i no 1, d'exhaustió degut a la manca de beure."
+                ],
+                "id": "167"
+              }
+            ],
+            "id": "165"
+          },
+          {
+            "type": "entries",
+            "data": {
+              "quickref": 3
+            },
+            "name": "Interactuar amb with Objects",
+            "page": 185,
+            "entries": [
+              "Les interaccions personatge-objecte es solen resoldre fàcilment: una persona jugadora diu a el/la/li MM què vol fer, com ara moure una palanca, i llavors li respòn què passa, si és que passa res.",
+              "Per exemple, un personatge mou una palanca; això fa que s'obri una comporta i ompli la sala amb aigua, o que s'obri una porta secreta. Tanmateix la palanca podria estar rovellada, i el personatge haurà de fer força per a moure-la. En aquests casos, el/la/li MM pot demanar una tirada de Força per determinar si el personatge pot moure la palanca o no. El/la/li també escull la CD de la tirada, depenent de la dificultat de la tasca.",
+              "Els personatges també poden danyar objectes mitjançant armes i conjurs. Els objectes són immunes als danys psíquic i de verí; per la resta, poden rebre dany tal i com si fossin criatures. El/la/li MM determina la CA i els punts de vida dels objectes, i si certs objectes tenen resistències o immunitats a certs tipus d'atacs. Per exemple, és difícil tallar una corda amb dany contundent. Els objecte sempre fallen les salvades de Força i Destresa, i són immunes als efectes que requereixin salvar per altres característiques. Quan un objecte es queda a 0 punts de vida, es trenca.",
+              "Un personatge també pot intentar una tirada de Força per a trencar un objecte. El/la/li MM en determina la CD."
+            ],
+            "id": "168"
+          }
+        ],
+        "id": "15e"
+      },
+      {
+        "type": "section",
+        "data": {
+          "quickref": 3
+        },
+        "name": "Descansar",
+        "page": 186,
+        "entries": [
+          "La gent aventurera pot ser ben heroica, però no poden estar-se tot el dia explorant, interactuant, i combatent. Han de passar temps descansant, menjant, curant-se, guarint les seves ments i esperits per a llançar conjurs, i, en general, preparant-se per la següent aventura.",
+          "La gent aventurera i d'altres criatures poden prendre Descansos Curts durant el dia i un Descans Llarg per a acabar el dia.",
+          {
+            "type": "entries",
+            "name": "Descans Curt",
+            "page": 186,
+            "entries": [
+              "Un descans curt és un període d'1 hora o més. Durant aquest temps una criatura no fa cap activitat esgotadora, a part de menjar, veure, ellegir, i guarir-se.",
+              "Un personatge pot gastar 1 o més Daus de Vida al final d'un descans curt, tants com en tingui. Per cada Dau de Vida que gasti, el/la/li jugador/a/i llança el dau, li suma el modificador de Constitució del personatge, i recupera aquells punts de vida (mínim de 0). Després de cada tirada, es pot (o no) gastar un altre Dau de Vida. Els personatges recuperen Daus de Vida al final d'un Descans Llarg, descrit dessota."
+            ],
+            "id": "170"
+          },
+          {
+            "type": "entries",
+            "name": "Descans Llarg",
+            "page": 186,
+            "entries": [
+              "Un Descans Llarg és un període de 8 o més hores. Durant aquest temps, un personatge dorm 6 hores o més i fa un màxim de 2 hores d'activitat lleugera, com ara llegir, parlar, menjar, o fer guàrdia. Si una activitat esgotadora interrom el descans, com ara 1 hora de caminar, entrar en combat, llançar conjurs, o similar, el personatge ha de tornar a començar el Descans Llarg per a rebre'n els beneficis.",
+              "Al final d'un Descans Llarg, el personatge recupere tots els seus punts de vida. També recuperen Daus de Vida, però no tots: fins la meitat dels Daus de Vida màxims (mínim d'1). Així un personatge pot acabar un Descans Llarg però no tenir tots els Daus de Vida.",
+              "Per exemple, sí un personatg té 8 Daus de Vida, en pot recuperar fins a 4 un cop acabi un descans llarg.",
+              "Un personatge no pot rebre els beneficis d'un Descans Llarg més d'un cop cada 24 hores. Un personatge ha de tenir 1 punt de vida a l'inici del descans per a rebre'n els beneficis."
+            ],
+            "id": "171"
+          }
+        ],
+        "id": "16f"
+      },
+      {
+        "type": "section",
+        "name": "Entre Aventures",
+        "page": 186,
+        "entries": [
+          "Entre les visites a masmorres i les batalles contra mals anciants, els grups aventurers han de descansar, recuperar-se, i preparar-se per la seva següent avenutra. Molta gent aventurera dediquen aquest temps a fer d'altres coses, com ara crear armes i armadures, fer recerca, o gastar-se l'or que s'han guanyat.",
+          "En alguns casos, el temps passa sense cap esdeveniment important. Quan comença una nova aventura, el/la/li MM pot demanar que descriguis breument el que ha fet el teu personatge i ja està. En altres casos, el/la/li MM pot portar un diari més detallat d'esdeveniments que passen amb tu a davant... O sense.",
+          {
+            "type": "entries",
+            "name": "Despeses d'Estil de vida",
+            "page": 187,
+            "entries": [
+              "Entre aventures, esculls un estil de vida i en pagues el cost de mantenir-lo.",
+              "Els estils de vida no tenen un efecte particular en el teu perronatge, però pot afectar la reputació que tingui amb altres grup i individue. Per exemple, un estil de vida aristocràtic et pot permetre una influència major sobre els nobles de la ciutat que si vius de forma pobre."
+            ],
+            "id": "173"
+          },
+          {
+            "type": "entries",
+            "name": "Activitats de Temps Lliure",
+            "page": 187,
+            "entries": [
+              "Entre aventures, el/la/li MM et pot demanar què fa el teu personatge durant el seu temps lliure. Els períodes poden durar més o menys, però cada activitat requereix uns dies per a completar-la. Per a que compti un dia, has de treballar en l'activitat 8 o més hores. Els dies no han de ser consecutius. Si tens més dies disponibles que els que dura l'activitat, pots continuar treballant-hi, o fer una altra tasca.",
+              "A sota hi ha una llista de tasques de temps lliure, però en pots fer una altra. Si tens una idea, proposa-la a el/la/li MM.",
+              {
+                "type": "entries",
+                "name": "Fabricar",
+                "page": 187,
+                "entries": [
+                  "Pots fabricar objectes no-màgics, com ara equipament d'aventures o peces d'art. Has de tenir competència amb les eines que empris amb la fabricació (normalment, eines d'artesania). Potser també requereixes materials o llocs especials per a poder fabricar. Per exemple, algú amb competència amb {@item eines de ferrer|phb} li cal una forja per poder fabricar una espasa o una armadura.",
+                  "Per cada 1 dia que fabriquis, pots fabricar 1 o més objectes; el seu valor combinat ha d'ésser 5 ors o menys. També gastaràs la meitat del preu en materials. Si vols fabricar quelcom que valgui més de 5 ors, pots progressar en increments de 5 ors cada dia fins que arribis al preu dsitjat. Per exemple, una armadura de plaques val 1,500 ors; gastaràs 750 ors en materials, i tardaràs 300 dies en fabricar-la sense ajuda.",
+                  "Múltiples personatges poden combinar els seus esforços per a fer un sol objecte. Cada personatge ha de tenir competència en les eines necessàries i han d'estar treballant al mateix lloc. Cada personatge contribueix els seus 5 ors diaris a l'objecte. Per exemple, 3 presonatge amb la competència en eines necessàries i el lloc adequat poden preparar una armadura de plaques en 100 dies (el cost dels materials és el mateix).",
+                  "Mentre fabriques, pots mantenir un estil de vida modest (i no pagar el 1 d'or diari), o un estil de vida còmode (i pagar la meitat del preu normal)."
+                ],
+                "id": "175"
+              },
+              {
+                "type": "entries",
+                "name": "Exercir un Ofici",
+                "page": 187,
+                "entries": [
+                  "Pots treballar entre aventures. Podràs mantenir un estil de vida modest i no haver de pagar l'1 or diari. Aquest benefici es manté mentre facis l'ofici.",
+                  "Si ets un membre d'una organització que t'ofereix un ofici lucratiu, pots mantenir un estil de vida còmode de franc. Per exemple, un temple o un gremi de lladres.",
+                  "Si tens competència en {@skill Performance} i actues durant el teu temps lliure, pots mantenir un estil de vida ric de franc."
+                ],
+                "id": "176"
+              },
+              {
+                "type": "entries",
+                "name": "Guarir-se",
+                "page": 187,
+                "entries": [
+                  "Pots dedicar el teu temps lliure a recuperar-te d'una ferida debilitant, una malaltia, o un verí.",
+                  "Passats 3 dies de recuperació, pots salvar per Constitució (CD 15). Si superes, escull un dels resultats següents:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Acaba un efecte sobre teu que t'impedeixi recuperar punts de vida.",
+                      "Durant les properes 24 hores, rep avantatge a salvar contra un verí o malaltia que t'afecta."
+                    ]
+                  }
+                ],
+                "id": "177"
+              },
+              {
+                "type": "entries",
+                "name": "Fer Recerca",
+                "page": 187,
+                "entries": [
+                  "El temps entre aventures és ideal per a fer recerca i descobrir misteris que s'han desenvolupat durant la campanya. Pot involucrar llegir piles de llibres i pergamins antics en una llibreria, o també pagar rondes als bars locals per a arrancar rumors i xafarderies dels habitants.",
+                  "Quan comences la teva recerca, el/la/li MM determina: si l'informació està disponible; quants dies tardaràs en obtenir-la; i si hi et trobes amb obstacles, com ara haver de trobar un individu, llibre, o lloc específic. També et pot demanar tirades d'habilitat, com ara una tirada d'Intel·ligència ({@skill Investigació}) per a trobar pistes que et condueixin a la informació o una tirada de Carisma ({@skill Persuasion}) per a convèncer a algú que t'ajudi. Un cop es compleixin aquestes condicions, obténs la informació si està disponible.",
+                  "Per cada dia que gastis fent recerca, has de gastar 1 or, a part del cost del teu estil de vida."
+                ],
+                "id": "178"
+              },
+              {
+                "type": "entries",
+                "name": "Entrenament",
+                "page": 187,
+                "entries": [
+                  "Pots dedicar el teu temps entre aventures aprenent un nou idioma o a fer servir noves eines. El/la/li MM podrà donar-te formes adients d'entrenar.",
+                  "Primer de tot, has de trobar algú que vulgui instruir-te. El/la/li MM determina quant tardes a trobar-ne i si has de fer tirades d'ahbilitat.",
+                  "L'entrenament dura 250 dies i costa 1 or diara. Un cop dediquis el temps i diners suficients, aprèns el nou llenguatge o competència amb l'eina desitjats."
+                ],
+                "id": "179"
+              }
+            ],
+            "id": "174"
+          }
+        ],
+        "id": "172"
       }
     ],
     "id": "146"

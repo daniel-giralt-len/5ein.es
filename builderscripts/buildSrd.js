@@ -111,7 +111,7 @@ let dataOut = [
 	},
 	getSection(data.phb, ["103"], ["13a"]), // emprar puntuacions de característica
 	getSection(data.phb, ["144", "145"]), // time
-	getSection(data.phb, ["144", "146"], ["151", "15e", "169", "16f", "172"]), // movement
+	getSection(data.phb, ["144", "146"], ["151", "169"]), // movement, environment (15e), resting (16f), between adventures (172)
 
 ]
 
