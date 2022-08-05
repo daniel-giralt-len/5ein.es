@@ -5,6 +5,7 @@ const data = {
 	"phb": require(buildDataPath("book/book-phb")).data,
 	"dmg": require(buildDataPath("book/book-dmg")).data,
 	"races": require(buildDataPath("races")).race,
+	"items": require(buildDataPath("items")).item,
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"feats": require(buildDataPath("feats")).feat,
 	"trapshazards": require(buildDataPath("trapshazards")).trap,
@@ -126,9 +127,16 @@ let dataOut = [
 	getSection(data.dmg, ["289", "300"]), // madness
 	getSection(data.dmg, ["289", "2cb"]), // objects
 	getSection(data.dmg, ["289", "2f8"], ["2fe", "2ff", "2fd"]), // poisons
+	{
+		name: "Metzines d'Exemple",
+		type: "entries",
+		entries: data.items
+			.filter(srdOnly)
+			.filter(i => i.verí)
+			.sort(sortByNameDesc),
+	},
+
 ]
-
-
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
