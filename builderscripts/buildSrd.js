@@ -39,7 +39,7 @@ const getSection = (source, idsTrail, idsToRemove = []) => {
 	const [currentId, ...restOfIds] = idsTrail
 	const section = source.find(({id}) => currentId === id)
 	if (!section) {
-		console.err("COULD NOT FIND SECTION", idsTrail[0])
+		console.error("COULD NOT FIND SECTION", idsTrail[0])
 		return {}
 	}
 
@@ -52,7 +52,7 @@ const getSection = (source, idsTrail, idsToRemove = []) => {
 		}
 	}
 	if (!cleanedEntries) {
-		console.err("got section", currentId, "but it has no 'entries'... was going to look for id", restOfIds[0])
+		console.error("got section", currentId, "but it has no 'entries'... was going to look for id", restOfIds[0])
 	}
 
 	return getSection(cleanedEntries, restOfIds, idsToRemove)
@@ -93,6 +93,8 @@ let dataOut = [
 	getSection(data.phb, ["0f2", "0f3"], ["101"]), // multiclasse
 	getSection(data.phb, ["041", "042", "049"], ["04b"]), // alineament
 	getSection(data.phb, ["041", "042", "04c"]), // idiomes
+	getSection(data.phb, ["041", "053"]), // inspiració
+	getSection(data.phb, ["041", "056"], ["05c"]), // referons
 ]
 // 0f2, 102 // feats
 // 103 //emprar puntuacions de característica
