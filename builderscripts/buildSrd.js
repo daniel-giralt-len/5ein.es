@@ -3,9 +3,11 @@ const buildDataPath = fileName => `${process.cwd()}/data/${fileName}.json`
 
 const data = {
 	"phb": require(buildDataPath("book/book-phb")).data,
+	"dmg": require(buildDataPath("book/book-dmg")).data,
 	"races": require(buildDataPath("races")).race,
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"feats": require(buildDataPath("feats")).feat,
+	"trapshazards": require(buildDataPath("trapshazards")).trap,
 	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
 	"backgrounds": require(buildDataPath("backgrounds")).background,
 	"spells": require(buildDataPath("spells/spells-phb")).spell,
@@ -77,7 +79,7 @@ let dataOut = [
 			.map(({subraces, ...rest}) => ({...rest, subraces: subraces ? subraces.filter(srdOnly) : null}))
 			.sort(sortByNameDesc),
 	},
-	{
+	{ //TODO: Remove fluff in english
 		name: "Classes",
 		type: "entries",
 		entries: data.classes
@@ -125,7 +127,17 @@ let dataOut = [
 			.filter(srdOnly)
 			.sort(sortByNameDesc),
 	},
+	getSection(data.dmg, ["19f", "211"], ["217"]),
+	{
+		name: "Trampes d'Exemple",
+		type: "entries",
+		entries: data.trapshazards
+			.filter(srdOnly)
+			.sort(sortByNameDesc),
+	},
 ]
+
+
 
 const outPath = buildDataPath("srd")
 fs.writeFileSync(outPath, JSON.stringify(dataOut, null, 2))
