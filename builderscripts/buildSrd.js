@@ -4,6 +4,7 @@ const buildDataPath = fileName => `${process.cwd()}/data/${fileName}.json`
 const data = {
 	"phb": require(buildDataPath("book/book-phb")).data,
 	"dmg": require(buildDataPath("book/book-dmg")).data,
+	"mm": require(buildDataPath("book/book-mm")).data,
 	"races": require(buildDataPath("races")).race,
 	"items": require(buildDataPath("items")).item,
 	"legalinfo": require(buildDataPath("legalinfo")),
@@ -154,6 +155,9 @@ let dataOut = [
 			.filter(i => i.rarity === "artifact")
 			.sort(sortByNameDesc),
 	},
+	getSection(data.mm, ["000", "002", "00a", "00b"]), // modifying monsters
+	getSection(data.mm, ["000", "00c"], ["023"]), // monsters mechanics
+
 ]
 
 const outPath = buildDataPath("srd")

@@ -73478,5 +73478,779 @@
         "hasFluffImages": true
       }
     ]
+  },
+  {
+    "type": "inset",
+    "name": "Modificar Criatures",
+    "page": 6,
+    "entries": [
+      "Tot i que hi ha molts monstres en aquest llibre, potser no trobes la criatura perfecte per una part de l'aventura. Pots canviar una criatura existent en una altra que et sigui més útil, com ara agafant un tret d'un altre monstre o fent servir un patró o una variant, com els que hi ha en aquest llibre. Recorda que modificar un monstre o aplicar-li un patró pot canviar el seu valor de repte."
+    ],
+    "id": "00b"
+  },
+  {
+    "type": "section",
+    "name": "Estadístiques",
+    "page": 6,
+    "entries": [
+      "Les estadístiques d'un monstre, o bloc d'estats, donen la informació essencial per a jugar com el monstre.",
+      {
+        "type": "entries",
+        "name": "Tamany",
+        "page": 6,
+        "entries": [
+          "Un monstre pot ser Diminut, Petit, Mitjà, Gran, Enorme, o Titànic. La taula Categories de Tamany dicten quant espai una criatura ocupa en combat segons el seu tamany. Consulta el Manual del Jugador per saber més sobre l'espai i tamany d'una criatura.",
+          {
+            "type": "table",
+            "caption": "Categories de Tamany",
+            "colLabels": [
+              "Tamany",
+              "Espai",
+              "Examples"
+            ],
+            "colStyles": [
+              "col-4",
+              "col-4",
+              "col-4"
+            ],
+            "rows": [
+              [
+                "Diminut",
+                "2½ x 2½ peus",
+                "{@creature Imp}, {@creature sprite}"
+              ],
+              [
+                "Petit",
+                "5 x 5 peus",
+                "{@creature Giant rata}, {@creature Gòblin}"
+              ],
+              [
+                "Mitjà",
+                "5 x 5 peus",
+                "{@creature Orc}, {@creature home-llop}"
+              ],
+              [
+                "Gran",
+                "10 x 10 peus",
+                "{@creature Hipògrif}, {@creature ogre}"
+              ],
+              [
+                "Enorme",
+                "15 x 15 peus",
+                "{@creature Gegant del Foc}, {@creature treant}"
+              ],
+              [
+                "Titànic",
+                "20 x 20 ft. or larger",
+                "{@creature Kraken}, {@creature cuc lila}"
+              ]
+            ]
+          }
+        ],
+        "id": "00d"
+      },
+      {
+        "type": "entries",
+        "name": "Tipus",
+        "page": 6,
+        "entries": [
+          "El tipus d'un monstre descriu la seva naturalesa fonamental. Alguns conjurs, objectes màgics, trests de classe, i altres efectes del joc interactuen de formes especials amb criatures de certs tipus. Així, una fletxa d'execució de dracs fa dany extra a dracs i altres criatures de tipus drac, com ara dracs tortuga i wíverns.",
+          "El joc inclou els tipus de monstres següents, que no tenen normes per sí sols.",
+          "Les {@b Aberracions} són éssers foranis a aquesta realitat. Molts tenen habilitats màgiques que surten de la seva ment extranya i no de les forces místiques del món. Exemples: aboleths, espectadors, flagela-ments, i slaadi.",
+          "Les {@b Bèsties} són criatures no humanoides naturals de l'escosistema del món. Alguns tenen poders màgics, però la majoria no són intel·ligents i no viuen en societat ni tenen idioma. Exemples: animals ordinaris, dinosaures, i animals de tamany gegant.",
+          "Els {@b Celestials} són criatures dels Plans Superiors. Moltes són servents de divinitats que envien missatges o fan la seva voluntat al pla mortal (i en altres). Els celestials són bons per naturalesa, i és extrany que un se surti de l'alineament bo. Exemples: angels, couatls, i pegassos.",
+          "Els {@b Constructes} són creats, no nascuts. Alguns se'ls programa amb certes instruccions simples, però a d'altres se'ls otorga consciència i llibertat d'acció. Exemples: qualsevol gòlem. Al pla exterior de Mechanous hi ha molts constructes fets a partir de la matèria pura del pla fets per criatures molt poderoses.",
+          "Els {@b Dracs} són rèptils enormes d'origens ancians i de gran poder. Els dracs vertaders, com ara els dracs metàl·lics bons i els cromàtics malvats, són molt intel·ligents i tenen màgia innata. Com a drac també s'hi inclouen parents llunyans, però no són tant forts, intel·ligents, ni màgics, com ara els wíverns i els pseudo-dracs.",
+          "Els {@b Elementals} són nadius dels plans elementals. Algunes d'aquestes criatures no són més que una mica del seu element animat, com ara una ràfega de vent. D'altres tenen formes biològiques imbuides amb energia elemental. Exemples: djinns, ifrits, que venen de les civilitzacions més importants dels plans elementals. Altres exemples: azers, assetjadors invisibles, i aiguextranyes aigüextranyes.",
+          "Les {@b Fates} són éssers màgics propers a les forces de la natura. Viuen en fagedes de l'ocàs i en boscos boirosos. En alguns mons, estan lligats amb el Pla de les Fates, la Terra Fata. També se'n poden trobar als plans exteriors, com ara l'Arborea i la Terrabèstia. Exemple: dríades, píxis, i sàtirs.",
+          "Els {@b Diastres} són criatures del mal dels plans inferiors. Alguns serveixen a divinitats, però la majoria treballen sota arxidimonis i prínceps demoníacs. Clergues o mags malvats de vegades en convoquen al Pla Material perquè els facin la feina bruta. Un diastre d'alineament bo és gairebé inconcebible. Exemples: Dimonis, diables, cas de l'infern, rakshasas, i yugolòts.",
+          "Els {@b Gegants} són molt més alts que els humans. Tenen forma humanoide tot i que alguns tenen més d'un cap (ettins) o deformitats (fomòrians). Les 6 menes de gegants veritables són: de turó, de pedra, de gel, de foc, de núvol, i de tempesta. A part, també es consideren gegants altres criatures com ara tròls i ogres.",
+          "Els {@b Humanoides} són les gents principals d'un món de fantasia. Són civilitzats o feréstecs, humans i d'altres especies. Tenen idioma i cultura, i de vegades màgia innata (o també poden aprendre llançament de conjurs), i són bípeds. Les races humanoides més communes són jugables: humans, nans, elfs, i mitgerols. També hi ha humanoides salvatges, brutals, i majoritàriament malvats, com ara Gòblinoides (Gòblins, hobgòblins, i osguts), orcs, gnols, llangardents, i kóbolds.",
+          "A variety of humanoids appear throughout this book, but the races detailed in the {@i Manual del Jugador}-with the exception of drow-are dealt with in appendix B. That appendix gives you a number of stat blocks that you can use to make various members of those races.",
+          "Les {@b Monstrositats} són monstres d'una forma estricte: criatures horripilants fora de l'odrinari, antinaturals i gairebé mai bones. Algunes apareixen degut a experiments catastròfics (mussolossos) i d'altres degut a una terrible maledicció (minotaures i yuan-ti). Són incategoritzables, així que en certa forma aquesta és la categoria on hi ha monstres que no encaixen en cap altre tipus.",
+          "Els {@b Llims} són criatures gelatinoses que van canviant la seva forma. Són, sobretot, subterrànis, i habiten coves i masmorres i s'alimenten de deixalles, carronya, i criatures que els creuen el pas. Exemples: cubs gelatinosos, púdings negres.",
+          "Les {@b Plantes}, com a monstres, no són flora ordinària. Moltes poden moure's i algunes són carnívores. Exemples: treants, piles trèmoles. Les criatures fetes de fongs com les espores de gas i els micònids també són plantes.",
+          "Els {@b No-morts} eren vius, abans. Ara han tornat a la no-mort gràcies a una màgia necromàntica o alguna maledicció terrible. Són cadàvers que es mouen. Exemples: vampirs, zombis, i esperits incorporis, com ara fantasmes i espectres.",
+          {
+            "type": "entries",
+            "name": "Etiquetes",
+            "page": 7,
+            "entries": [
+              "Un monstre pot tenir una o més etiquetes en parèntesi que especifiquen el seu tipus. Així, un orc és de tipus {@i humanoide (orc)}. L'etiqueta orc dona una categoria adicional. No tenen normes per sí. Alguns elements del joc, com ara objectes màgics, poden fer referència a certes etiquetes. Així, una llança que causi dany extra als dimonis seria eficaç contra monstres amb l'etiqueta dimoni."
+            ],
+            "id": "00f"
+          }
+        ],
+        "id": "00e"
+      },
+      {
+        "type": "entries",
+        "name": "Alineament",
+        "page": 7,
+        "entries": [
+          "L'alineament d'un monstre ajuda a decidir com teatralitzar-lo o com actuaria en combat. Un monstre caòtic malvat pot ser poc raonable i que ataqui de bones a primeres, i un monstre neutral sol obrir-se a negociar. El {@i Manual del Jugador.} té descripcions dels alineaments.",
+          "El bloc d'estats d'un monstre té un alineament per defecte. Pots canviar-lo lliurement per a que s'alineï amb la teva campanya: un drac verd bo o un gegant de tempesta malvat. Algunes criatures poden tenir qualsevol alineament (l'esculls tu). Alguns alineaments són una tendència: per exemple, un berserkes pot ser qualsevol caòtic (bo, neutral, o malvat), sempre i quan el caos representi la seva naturalesa salvatge.",
+          "Hi ha moltes criatures de poca intel·ligència que no entenen de llei, caos, bé, ni mal. No tenen un codi moral, només instint. Així, estan desalineades."
+        ],
+        "id": "010"
+      },
+      {
+        "type": "entries",
+        "name": "Classe d'Armadura",
+        "page": 7,
+        "entries": [
+          "Un monstre amb armadura o escut té una Classe d'Armadura (CA) que considera la seva armadura, escut, i Destresa. Sinò, la CA d'un monstre es basa en la seva Destresa i la seva armadura natural (si en té). Si el monstre té armadura natural, duu armadura, o un escut, ho tindrà anotat en parèntesi després de la seva CA."
+        ],
+        "id": "011"
+      },
+      {
+        "type": "entries",
+        "name": "Punts de vida",
+        "page": 7,
+        "entries": [
+          "Un monstre, normalment, mor o es destrueix quan es queda a 0 punts de vida. For more on hit points, see the {@i Manual del Jugador.}",
+          "Els punts de vida d'un monstre els representa una formula de daus i la mitjana de la fòrmula. Així, un monstre amb {@dice 2d8} punts de vida té 9 punts de mitja (2 × 4½).",
+          "El tamany d'un monstre determina el dau que s'empra per a calcular els seus punts de vida: consulta la taula Daus de Vida per Tamany.",
+          "El modificador de Constitució d'un monstre també afecta als seus punts de vida: es multiplica pel número de Daus de Vida que té, i se li afegeix als punts de vida màxims. Així, un monstre amb 12 de Constitució (+1) i {@dice 2d8} Daus de Vida tindrà {@dice 2d8 + 2} punts de vida (mitja d'11).",
+          {
+            "type": "table",
+            "caption": "Daus de Vida per Tamany",
+            "colLabels": [
+              "Tamany del Monstre",
+              "Daus de Vida",
+              "Mitja de PV per DV"
+            ],
+            "colStyles": [
+              "col-4",
+              "col-4 text-center",
+              "col-4 text-center"
+            ],
+            "rows": [
+              [
+                "Diminut",
+                "{@dice d4}",
+                "2½"
+              ],
+              [
+                "Petit",
+                "{@dice d6}",
+                "3½"
+              ],
+              [
+                "Mitjà",
+                "{@dice d8}",
+                "4½"
+              ],
+              [
+                "Gran",
+                "{@dice d10}",
+                "5½"
+              ],
+              [
+                "Enorme",
+                "{@dice d12}",
+                "6½"
+              ],
+              [
+                "Titànic",
+                "{@dice d20}",
+                "10½"
+              ]
+            ]
+          }
+        ],
+        "id": "012"
+      },
+      {
+        "type": "entries",
+        "name": "Velocitat",
+        "page": 8,
+        "entries": [
+          "La velocitat d'un monstre t'indica fins on es pot moure durant el seu torn. Per saber-ne més de la velocitat, consulta el {@i Manual del Jugador.}",
+          "Tota criatura té una velocitat de caminar (la velocitat del monstre). Les criatures que no puguin anar pel terra tenen una velocitat de 0 peus.",
+          "Algunes criatures tenen un o més velocitats adicionals.",
+          {
+            "type": "entries",
+            "name": "Excavar",
+            "page": 8,
+            "entries": [
+              "Un monstre amb una velocitat d'excavar té pot emprar la velocitat per a moure's a través de la sorra, el terra, el fang, o el gel, però no a través de pedres sòlides si no hi té una habilitat especial que li ho permeti."
+            ],
+            "id": "014"
+          },
+          {
+            "type": "entries",
+            "name": "Escalada",
+            "page": 8,
+            "entries": [
+              "Un monstre amb velocitat d'escalada pot emprar tot (o part de) el seu moviment per moure's per superfícies verticals sense gastar moviment extra per a escalar."
+            ],
+            "id": "015"
+          },
+          {
+            "type": "entries",
+            "name": "Vol",
+            "page": 8,
+            "entries": [
+              "Un monstre amb una velocitat de vol pot gastar tot (o part de) el seu moviment per volar. Alguns monstres poden flotar, cosa que fa difícil fer-los caure a mig vol (s'explica a les regles de vol del {@i Manual del Jugador}). Els monstres flotadors deixen de flotar quan moren."
+            ],
+            "id": "016"
+          },
+          {
+            "type": "entries",
+            "name": "Natació",
+            "page": 8,
+            "entries": [
+              "Un monstre amb velocitat de natació no ha de gastar moviment extra per nadar."
+            ],
+            "id": "017"
+          }
+        ],
+        "id": "013"
+      },
+      {
+        "type": "entries",
+        "name": "Puntuacions d'habilitat",
+        "page": 8,
+        "entries": [
+          "Tot monstre té 6 puntuacions d'habilitat (Força, Destresa, Constitució, Intel·ligència, Saviesa, and Carisma) i els modificadors corresponents. Consulta'n més al {@i Manual del Jugador.}"
+        ],
+        "id": "018"
+      },
+      {
+        "type": "entries",
+        "name": "Tirades de salvació",
+        "page": 8,
+        "entries": [
+          "Les Tirades de salvació només surten si el monstre és adepte a resistir certa mena d'efectes. Així, una criatura que no es queda {@condition fascinat} o {@condition acovardit} fàcilment poden tenir un bonus a les tirades de salvació de Saviesa. La majoria no tenen bonus a les salvades, i per tant no tenen aquesta secció.",
+          "Un bonus a una tirada de salvació suma el modificador d'habilitat rellevant i el bonus de competència, que es determina pel VR de la criatura (consulta la taula Bonus de Competència per Valor de Repte).",
+          {
+            "type": "table",
+            "caption": "Bonus de Competència per Valor de Repte",
+            "colLabels": [
+              "VR",
+              "Bonus de Competència",
+              "VR",
+              "Bonus de Competència"
+            ],
+            "colStyles": [
+              "col-3 text-center",
+              "col-3 text-center",
+              "col-3 text-center",
+              "col-3 text-center"
+            ],
+            "rows": [
+              [
+                "0",
+                "+2",
+                "14",
+                "+5"
+              ],
+              [
+                "1/8",
+                "+2",
+                "15",
+                "+5"
+              ],
+              [
+                "1/4",
+                "+2",
+                "16",
+                "+5"
+              ],
+              [
+                "1/2",
+                "+2",
+                "17",
+                "+6"
+              ],
+              [
+                "1",
+                "+2",
+                "18",
+                "+6"
+              ],
+              [
+                "2",
+                "+2",
+                "19",
+                "+6"
+              ],
+              [
+                "3",
+                "+2",
+                "20",
+                "+6"
+              ],
+              [
+                "4",
+                "+2",
+                "21",
+                "+7"
+              ],
+              [
+                "5",
+                "+3",
+                "22",
+                "+7"
+              ],
+              [
+                "6",
+                "+3",
+                "23",
+                "+7"
+              ],
+              [
+                "7",
+                "+3",
+                "24",
+                "+7"
+              ],
+              [
+                "8",
+                "+3",
+                "25",
+                "+8"
+              ],
+              [
+                "9",
+                "+4",
+                "26",
+                "+8"
+              ],
+              [
+                "10",
+                "+4",
+                "27",
+                "+8"
+              ],
+              [
+                "11",
+                "+4",
+                "28",
+                "+8"
+              ],
+              [
+                "12",
+                "+4",
+                "29",
+                "+9"
+              ],
+              [
+                "13",
+                "+5",
+                "30",
+                "+9"
+              ]
+            ]
+          }
+        ],
+        "id": "019"
+      },
+      {
+        "type": "entries",
+        "name": "Habilitats",
+        "page": 8,
+        "entries": [
+          "La secció Habilitats només surt si un monstre en té competència en una o més. Així, un monstre perceptiu i sigilós pot tenir bonus a les tirades de Saviesa ({@skill Percepció}) i de Destresa ({@skill Sigil}).",
+          "Un bonus a una habilitat suma el modificador d'habilitat rellevant i el bonus de competència, que es determina pel VR de la criatura (consulta la taula Bonus de Competència per Valor de Repte). Poden sumar-s'hi modificadors adicionals. Així, un monstre pot tenir un bonus superior a l'esperat (normalment el doble del seu bonus de competència) si és especialment habilidós."
+        ],
+        "id": "01a"
+      },
+      {
+        "type": "entries",
+        "name": "Vulnerabilitats, Resistències, i Immunitats",
+        "page": 8,
+        "entries": [
+          "Algunes criatures tenen vulnerabilitat, resistència, o immunitat a certs tipus de dany. Algunes criatures són resistents o immunes a qualsevol dany d'atacs no-màgics. Un atac màgic el fa un conjur, un objecte màgic, o alguna altra font de màgia. A més, algunes criatures són immunes a certes condicions."
+        ],
+        "id": "01b"
+      },
+      {
+        "type": "entries",
+        "name": "Sentits",
+        "page": 8,
+        "entries": [
+          "La secció de Sentits té la puntuació de Saviesa ({@skill Percepció}) del monstre i també els sentits especials que pugui tenir. Els sentits especials es descriuen dessota.",
+          {
+            "type": "entries",
+            "name": "Visió a cegues",
+            "page": 8,
+            "entries": [
+              "Un monstre amb {@sense visió a cegues} percep el seu entorn sense necessitar la vista fins a un cert abast. El tenen criatures sense ulls com ara grímlocs i llims grisos; també les criatures amb ecolocació o sentits aguts com ara ratpenats o dracs veritables.",
+              "Si un monstre és cec per naturalesa, aquest sentit té una nota indicant que l'abast de {@sense visió a cegues} és el seu abast màxim de percepció."
+            ],
+            "id": "01d"
+          },
+          {
+            "type": "entries",
+            "name": "Visió de Foscor",
+            "page": 9,
+            "entries": [
+              "Un monstre amb {@sense visió de foscor} pot veure-hi a la foscor fins a cert abast. El monstre pot veure-hi en llum tènue a dins de l'abast com si fos llum forta, i en foscor com si fos llum tènue. No pot discernir colors a la foscor, només grisos. Moltes criatures que viuen sota terra tenen aquest sentit."
+            ],
+            "id": "01e"
+          },
+          {
+            "type": "entries",
+            "name": "Tremoltecció",
+            "page": 9,
+            "entries": [
+              "A monster with {@sense tremoltecció} pot detectar i localitzar les vibracions a un radi específic si ell i el causant de les vibracions estan en contacte amb el terra o substància per on es transmet. No es pot emprar per a detectar criatures que volen o incorpòries. Moltes criatures excavadores tenen aquest sentit, com ankhegs i umber hulks."
+            ],
+            "id": "01f"
+          },
+          {
+            "type": "entries",
+            "name": "Visió veraç",
+            "page": 9,
+            "entries": [
+              "Un monstre amb {@sense visió veraç} pot: veure-hi a través de foscor màgica o mundana; veure a les criatures i objectes {@condition invisible}; detectar il·lusions visuals automàticament (i salvar contra elles a voluntat); percebre la forma veritable d'un canviaformes o d'una criatura transformada per màgia; i veure-hi al Pla Etèri. Aquest sentit té un cert abast limitat."
+            ],
+            "id": "020"
+          }
+        ],
+        "id": "01c"
+      },
+      {
+        "type": "entries",
+        "name": "Idiomes",
+        "page": 9,
+        "entries": [
+          "Els idiomes d'un monstre es llisten en ordre alfabètic. De vegades un monstre no pot parlar un idioma però sí entendre'l; això s'especifica a la secció. Un \"—\" indica que la criatura ni parla ni entén cap idioma.",
+          {
+            "type": "entries",
+            "name": "Telepatia",
+            "page": 9,
+            "entries": [
+              "La telepatia és una habilitat màgica que permet que un monstre es comuniqui mentalment amb una altra criatura que estigui a dins d'un abast. No cal que comparteixin un idioma per a entendre'l, però sí que ha de saber parlar un idioma. UNa criatura sense telepatía pot rebre i respondre missatges però no pot iniciar ni terminar una conversa.",
+              "Un monstre telepàtic no ha de veure a una criatura contactada, i pot terminar la convers quan vulgui. També es termina quan les dues criatures ja no estan a l'abast o si el monstre contacta telepàticament amb una altra criatura a l'abast. Un monstre telepàtic pot iniciar o terminar una conversa telepàtica sense emprar una acció. Si està {@condition incapacitat}, no pot iniciar cap conversa, i, si n'hi havia alguna d'activa, es termina.",
+              "Una criatura a dins de l'àrea d'un camp antimàgic o en un lloc on la màgia no funciona no pot rebre ni emetre missatges telepàtics."
+            ],
+            "id": "022"
+          }
+        ],
+        "id": "021"
+      },
+      {
+        "type": "entries",
+        "name": "Repte",
+        "page": 9,
+        "entries": [
+          "El Valor de Repte (VR) d'un monstre indica quina mena d'amenaça suposa. Un grup ben equipat i descansat de 4 aventurers hauria de poder derrotar a un monstre amb un VR del seu nivell sense patir cap mort. Així, 4 aventurers de nivell 3 poden encarar-se amb un monstre amb VR 3 i patir, però sobreviure.",
+          "Els monstres molt més dèbils que els personatges de nivell 1 tenen un VR inferior a 1.",
+          "Els monstres amb un VR 0 són insignificants si no van en massa. Aquells que no tenen atacs efectius no valen PX, i els que en tenen valen 10 PX.",
+          "Alguns monstres tenen un VR superior al que es podrien enfrentar un grup d'aventurers de nivell 20; tenen un VR de 21 o superior i estan dissenyats per a reptar l'habilitat de qui juga al joc.",
+          {
+            "type": "entries",
+            "name": "Punts d'Experiència",
+            "page": 9,
+            "entries": [
+              "Un monstre val uns punts d'experiència (XP) proporcionals al seu VR. Normalment es dona PX quan es derrota el monstre, però el/la/li MM pot otorgar-la si es neutralitza una amenaça feta pel monstre sense matar-lo.",
+              "Si res no diu el contrari, un monstre convocat per un conjur o habilitat màgica val la PX que posa al seu bloc d'estats.",
+              {
+                "type": "table",
+                "caption": "Punts d'Experiència per Valor de Repte",
+                "colLabels": [
+                  "VR",
+                  "PX",
+                  "VR",
+                  "PX"
+                ],
+                "colStyles": [
+                  "col-3 text-center",
+                  "col-3 text-center",
+                  "col-3 text-center",
+                  "col-3 text-center"
+                ],
+                "rows": [
+                  [
+                    "0",
+                    "0 or 10",
+                    "14",
+                    "11,500"
+                  ],
+                  [
+                    "1/8",
+                    "25",
+                    "15",
+                    "13,000"
+                  ],
+                  [
+                    "1/4",
+                    "50",
+                    "16",
+                    "15,000"
+                  ],
+                  [
+                    "1/2",
+                    "100",
+                    "17",
+                    "18,000"
+                  ],
+                  [
+                    "1",
+                    "200",
+                    "18",
+                    "20,000"
+                  ],
+                  [
+                    "2",
+                    "450",
+                    "19",
+                    "22,000"
+                  ],
+                  [
+                    "3",
+                    "700",
+                    "20",
+                    "25,000"
+                  ],
+                  [
+                    "4",
+                    "1,100",
+                    "21",
+                    "33,000"
+                  ],
+                  [
+                    "5",
+                    "1,800",
+                    "22",
+                    "41,000"
+                  ],
+                  [
+                    "6",
+                    "2,300",
+                    "23",
+                    "50,000"
+                  ],
+                  [
+                    "7",
+                    "2,900",
+                    "24",
+                    "62,000"
+                  ],
+                  [
+                    "8",
+                    "3,900",
+                    "25",
+                    "75,000"
+                  ],
+                  [
+                    "9",
+                    "5,000",
+                    "26",
+                    "90,000"
+                  ],
+                  [
+                    "10",
+                    "5,900",
+                    "27",
+                    "105,000"
+                  ],
+                  [
+                    "11",
+                    "7,200",
+                    "28",
+                    "120,000"
+                  ],
+                  [
+                    "12",
+                    "8,400",
+                    "29",
+                    "135,000"
+                  ],
+                  [
+                    "13",
+                    "10,000",
+                    "30",
+                    "155,000"
+                  ]
+                ]
+              }
+            ],
+            "id": "025"
+          }
+        ],
+        "id": "024"
+      },
+      {
+        "type": "entries",
+        "name": "Trets Especials",
+        "page": 10,
+        "entries": [
+          "Els trets especials (la secció apareix entre el VR i les accions del monstres) són trets que poden ser rellevants durant un combat i per tant requereixen una explicació.",
+          {
+            "type": "entries",
+            "name": "Llançament de conjurs innat",
+            "page": 10,
+            "entries": [
+              "Un monstre amb una habilitat innata per a llançar conjurs té el tret especial Llançament de Conjurs Innat. En general, un conjur innat de nivell 1 o superior sempre es llança al nivell més baix possible i no es pot llançar a nivells més alts. Si el monstre pot llançar un truc innatament i no té un nivell assignat, fes servir el VR del monstre com a nivell pel truc.",
+              "Un conjur innat pot tenir regles o restriccions especials. Així, un dròu mag pot llançar {@spell levitar} però té la restricció \"només llançador\": així, només pot afectar al drò mag.",
+              "Els conjurs innats d'un monstre no es poden intercanviar per altres conjurs. Si aquests requereixen una tirada d'impacte, no se li suma cap bonus d'impacte."
+            ],
+            "id": "027"
+          },
+          {
+            "type": "entries",
+            "name": "Llançament de Conjurs",
+            "page": 10,
+            "entries": [
+              "Un monstre amb el tret Llançament de Conjurs té un nivell de llançament de conjurs i ranures de conjurs, i els empra per a llançar conjurs de nivells 1 i superior (consulta el {@i Manual del Jugador}). El nivell de llançament de conjurs també afecta els trucs que inclogui aquest tret.",
+              "El monstre té una llista de conjurs coneguts o preparats d'una classe particular. Aquesta també pot incloure conjurs d'un tret d'aquella classe, com ara el Tret de Domini Diví del clergue o un el tret Cercle Druida del druida. El monstre es considera d'aquella classe quan s'ha d'harmonitzar amb un objecte màgic, l'ha d'emprar, o necessita, en general, ser membre d'aquella classe o accés a la seva llista de conjurs.",
+              "Un monstre pot llançar un conjur de la seva llista a nivells superiors si té les ranures per a fer-ho. Així, una maga dròu amb el conjur {@spell llampec} de nivell 3 el pot llançar a nivell 5 gastant una de les seves ranures de nivell 5.",
+              "Pots canviar els conjurs que sàpiga o tingui preparats un monstre: reemplaces un conjur de la llista de coneguts pel monstre amb un altre del mateix nivell i de la mateixa llista de classe. Si ho fas, és possible que augmentis o disminueixis el seu VR i, per tant, l'amenaça que suposa."
+            ],
+            "id": "028"
+          },
+          {
+            "type": "entries",
+            "name": "Psiònics",
+            "page": 10,
+            "entries": [
+              "Un monstre que llança conjurs amb el poder de la seva ment té l'etiqueta psiònic als seus trets de Llançament de Conjurs o Llançament de Conjurs innat. L'etiqueta no comporta regles adicionals en sí, però altres parts del joc potser hi fan referència. Típicament, un monstre amb aquesta etiqueta no necessita components de cap mena per a llançar els conjurs."
+            ],
+            "id": "029"
+          }
+        ],
+        "id": "026"
+      },
+      {
+        "type": "entries",
+        "name": "Accions",
+        "page": 10,
+        "entries": [
+          "Quan un monstre prèn una acció, pot escollir quina de la secció Accions del seu bloc d'estats o bé escollir-ne una de les disponibles per totes les criatures, com ara {@action Córrer} o bé {@action Amagar-se}; consulta el {@i Manual del Jugador.}",
+          {
+            "type": "entries",
+            "name": "Atacs Cos a Cos i a Distància",
+            "page": 10,
+            "entries": [
+              "Les accions més comuns que prèn un monstre en combat són atacs cos a cos i a distància. Poden ser atacs de conjur o armats. L'\"arma\" pot ser un objecte manufacturat o bé una arma natural, com una urpa o una cua amb fibló. Consulta el {@i Manual del Jugador} per saber més dels tipus d'atacs.",
+              {
+                "type": "entries",
+                "name": "Criatura vs. Objectiu",
+                "page": 11,
+                "entries": [
+                  "L'objectiu d'un atac cos a cos o a distància sol ser o bé una criatura o bé un objectiu; una criatura només pot ser una criatura, però un \"objectiu\" pot ser o una criatura o un objecte."
+                ],
+                "id": "02c"
+              },
+              {
+                "type": "entries",
+                "name": "Impacte",
+                "page": 11,
+                "entries": [
+                  "Tot dany o efectes que ocorren degut a que un atac impacta es descriuen després de la nota \"Impacte\". Pots o bé escollir la mitja del dany o tirar els daus de dany: per això hi ha les dues opcions anotades al bloc d'estats."
+                ],
+                "id": "02d"
+              },
+              {
+                "type": "entries",
+                "name": "Fallar",
+                "page": 11,
+                "entries": [
+                  "Si un atac té un efecte quan falla l'impacte, es descriu després de la nota \"Falla:\"."
+                ],
+                "id": "02e"
+              }
+            ],
+            "id": "02b"
+          },
+          {
+            "type": "entries",
+            "name": "Multi-atac",
+            "page": 11,
+            "entries": [
+              "Una criatura que pot fer més d'un atac al seu torn té el tret Multi-atac. No el pot fer servir quan fa un atac d'oportunitat: aquest ha de ser un únic atac cos a cos."
+            ],
+            "id": "02f"
+          },
+          {
+            "type": "entries",
+            "name": "Munició",
+            "page": 11,
+            "entries": [
+              "Un monstre sempre duu prou munició com per a fer atacs a distància. Assumeix que duu {@dice 2d4} unitats de munició d'armes llancívoles, i {@dice 2d10} projectils com ara per a un arc o una ballesta."
+            ],
+            "id": "030"
+          }
+        ],
+        "id": "02a"
+      },
+      {
+        "type": "entries",
+        "name": "Reaccions",
+        "page": 11,
+        "entries": [
+          "Si un monstre pot fer quelcom especial amb una reacció, es descriurà aquí. Si no pot, no hi haurà aquesta secció."
+        ],
+        "id": "031"
+      },
+      {
+        "type": "entries",
+        "name": "Usos Limitats",
+        "page": 11,
+        "entries": [
+          "Certs trets només es poden fer servir un número limitat de cops:",
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "X/Dia",
+                "page": 11,
+                "entries": [
+                  "\"X/Dia\" vol dir que el tret es pot emprar X vegades. Llavors el monstre ha d'acabar un Descans Llarg per a recuperar-ne els usos gastats. Així, \"1/Dia\" vol dir que el tret associat es pot emprar 1 cop i que després el monstre ha d'acabar un Descans Llarg per a tornar-hi."
+                ],
+                "id": "034"
+              },
+              {
+                "type": "entries",
+                "name": "Recarregar X-Y",
+                "page": 11,
+                "entries": [
+                  "\"RecarregarX-Y\" vol dir que el monstre pot emprar el tret 1 cop. A cada torn posterior, hi ha una possibilitat que l'habilitat es recarregui. A l'inici de cada torn del monstre, tira un {@dice d6}. Si el resultat és un dels números a dins del Recarregar, el monstre pot tornar a fer servir el tret. El tret també es recarrega si el monstre acaba un Descans Curt o Llarg. Així, \"Recarregar 5-6\" vol dir que el monstre pot emprar el tret 1 cop. Llavors, a l'inici de cada torn subseqüent del monstre, en recuperarà l'ús si tira un {@dice d6} i treu un 5 o un 6."
+                ],
+                "id": "035"
+              },
+              {
+                "type": "entries",
+                "name": "Recarregar amb un Descans Curt o Llarg",
+                "page": 11,
+                "entries": [
+                  "El monstre pot emprar el tret 1 cop. Llavors, ha d'acabar un Descans Curt o Llarg per a poder tornar a emprar-lo."
+                ],
+                "id": "036"
+              }
+            ],
+            "id": "033"
+          }
+        ],
+        "id": "032"
+      },
+      {
+        "type": "inset",
+        "name": "Regles de Presa pels Monstres",
+        "page": 11,
+        "entries": [
+          "Molts monstres tenen atacs especials que els permeten, també, apresar els objectius. Quan un monstre impacta amb aquests atacs, no cal que faci una tirada de presa adicional (a no ser que l'atac ho estipuli). Simplement, l'apresa.",
+          "Una criatura {@condition grappled} pel monstre pot, com a acció, provar d'escapar-se. Ha de tirar Força ({@skill Atletisme}) o Destresa ({@skill Acrobàcies}) i superar la CD de la presa del bloc d'estats del monstre. Si no hi ha tal CD, es calcula com a 10 + la Força ({@skill Atletisme}) del monstre."
+        ],
+        "id": "037"
+      },
+      {
+        "type": "entries",
+        "name": "Equipament",
+        "page": 11,
+        "entries": [
+          "Alguns cops el bloc d'estats fa referència a l'equipament d'un monstre més enllà de la seva armadura o armes. S'assumeix que una criatura que sol dur roba, com ara un humanoide, en duu.",
+          "Pots equipar els monstres amb equipament i objectes adicionals. També decideixes quant equipament és recuperable un cop es derroti a la criatura, i en quin estat està. Una armadura feta miques d'un monstre és poc valuosa, per exemple.",
+          "Si un monstre que llança conjurs necessita components materials, assumeix que en té prous com per a llançar tot conjur del seu bloc d'estats."
+        ],
+        "id": "038"
+      }
+    ],
+    "id": "00c"
   }
 ]
