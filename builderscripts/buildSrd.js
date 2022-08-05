@@ -9,6 +9,7 @@ const data = {
 	"items": require(buildDataPath("items")).item,
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"miscellaneousCreaturesNames": require(buildDataPath("miscellaneouscreatures")),
+	"npcCharacters": require(buildDataPath("npccharacters")),
 	"feats": require(buildDataPath("feats")).feat,
 	"trapshazards": require(buildDataPath("trapshazards")).trap,
 	"conditionsdiseases": require(buildDataPath("conditionsdiseases")),
@@ -180,6 +181,14 @@ let dataOut = [
 			.sort(sortByNameDesc),
 	},
 	getSection(data.mm, ["040"], ["049"]), // appendix npcs
+	{
+		name: "Llista de PNJs",
+		type: "entries",
+		entries: data.bestiary
+			.filter(srdOnly)
+			.filter(i => data.npcCharacters.includes(i.name))
+			.sort(sortByNameDesc),
+	},
 ]
 
 const outPath = buildDataPath("srd")
