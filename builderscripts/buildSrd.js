@@ -66,6 +66,15 @@ const getSection = (source, idsTrail, idsToRemove = []) => {
 
 	return getSection(cleanedEntries, restOfIds, idsToRemove)
 }
+
+const cleanClass = ({class: classes, subclass, classFeature, subclassFeature, ...rest}) => ({
+	...rest,
+	class: classes ? classes.find(srdOnly) : null,
+	subclass: subclass ? subclass.filter(srdOnly) : null,
+	classFeature: classFeature ? classFeature.filter(srdOnly) : null,
+	subclassFeature: subclassFeature ? subclassFeature.filter(srdOnly) : null,
+})
+
 const srdOnly = dataInstance => dataInstance.srd
 const sortByNameDesc = (a, b) => a.name.localeCompare(b.name)
 const getSrdMarkedSection = (name, data) => ({
@@ -93,13 +102,7 @@ let dataOut = [
 		name: "Classes",
 		type: "entries",
 		entries: data.classes
-			.map(({class: classes, subclass, classFeature, subclassFeature, ...rest}) => ({
-				...rest,
-				class: classes ? classes.find(srdOnly) : null,
-				subclass: subclass ? subclass.filter(srdOnly) : null,
-				classFeature: classFeature ? classFeature.filter(srdOnly) : null,
-				subclassFeature: subclassFeature ? subclassFeature.filter(srdOnly) : null,
-			}))
+			.map(cleanClass)
 			.sort((a, b) => sortByNameDesc(a.class, b.class)),
 
 	},
