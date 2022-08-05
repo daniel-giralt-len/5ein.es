@@ -67,13 +67,16 @@ const getSection = (source, idsTrail, idsToRemove = []) => {
 	return getSection(cleanedEntries, restOfIds, idsToRemove)
 }
 
-const cleanClass = ({class: classes, subclass, classFeature, subclassFeature, ...rest}) => ({
-	...rest,
-	class: classes ? classes.find(srdOnly) : null,
-	subclass: subclass ? subclass.filter(srdOnly) : null,
-	classFeature: classFeature ? classFeature.filter(srdOnly) : null,
-	subclassFeature: subclassFeature ? subclassFeature.filter(srdOnly) : null,
-})
+const cleanClass = ({class: classes, subclass, classFeature, subclassFeature, ...rest}) => {
+	const {fluff, ...restOfClass} = classes.find(srdOnly)
+	return {
+		...rest,
+		class: restOfClass,
+		subclass: subclass ? subclass.filter(srdOnly) : null,
+		classFeature: classFeature ? classFeature.filter(srdOnly) : null,
+		subclassFeature: subclassFeature ? subclassFeature.filter(srdOnly) : null,
+	}
+}
 
 const srdOnly = dataInstance => dataInstance.srd
 const sortByNameDesc = (a, b) => a.name.localeCompare(b.name)
