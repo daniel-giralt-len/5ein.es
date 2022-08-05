@@ -170,6 +170,7 @@ let dataOut = [
 	getSrdMarkedSection("Condicions", data.conditionsdiseases.condition), // conditions list
 	getSection(data.phb, ["1f7"], ["1f9", "1fd", "1f8"]), // pantheons
 	getSection(data.phb, ["205"], ["207b", "207", "208", "20fb", "211", "213", "209s"]), // planes of existence
+	getSection(data.mm, ["03e"], ["03f", "047"]), // appendix misc
 ]
 
 const outPath = buildDataPath("srd")
