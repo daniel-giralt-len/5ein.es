@@ -5,8 +5,9 @@ const data = {
 	"phb": require(buildDataPath("book/book-phb")).data,
 	"races": require(buildDataPath("races")).race,
 	"legalinfo": require(buildDataPath("legalinfo")),
+	"feats": require(buildDataPath("feats")).feat,
 	"bestiary": require(buildDataPath("bestiary/bestiary-mm")),
-	"backgrounds": require(buildDataPath("backgrounds")),
+	"backgrounds": require(buildDataPath("backgrounds")).background,
 	"spells": require(buildDataPath("spells/spells-phb")),
 	"classes": [
 		require(buildDataPath("class/class-barbarian")),
@@ -99,10 +100,15 @@ let dataOut = [
 	{
 		name: "Rerefons d'Exemple",
 		type: "entries",
-		entries: data.backgrounds.background.filter(srdOnly),
+		entries: data.backgrounds.filter(srdOnly),
 	},
 	getSection(data.phb, ["05d"], ["05e", "0f1", "06f"]), // equipament
 	getSection(data.phb, ["0f2", "102"], ["102s"]), // dots explicació
+	{
+		name: "Dots d'Exemple",
+		type: "entries",
+		entries: data.feats.filter(srdOnly),
+	},
 ]
 
 // 103 //emprar puntuacions de característica

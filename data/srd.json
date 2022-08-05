@@ -22934,5 +22934,36 @@
       "Si una dot té requisits, els has de poder complir. Si en algun moment deixes de complir els requisits d'una dot, no la pots emprar fins que els tornis a complir. Així, la dot Aferrar té Força de 13 o més com a requisit. Si la teva força es decrementa a menys de 13, com ara degut a una maledicció que et panseix, no pots emprar la dot Aferrar fins que recuperis la Força necessària."
     ],
     "id": "102"
+  },
+  {
+    "name": "Dots d'Exemple",
+    "type": "entries",
+    "entries": [
+      {
+        "name": "Aferrar",
+        "source": "PHB",
+        "page": 167,
+        "srd": true,
+        "prerequisite": [
+          {
+            "ability": [
+              {
+                "str": 13
+              }
+            ]
+          }
+        ],
+        "entries": [
+          "Has entrenat prou com per a lluitar còmodament fent preses molt de prop. Obténs els beneficis següents:",
+          {
+            "type": "list",
+            "items": [
+              "Tens avantatge a tirades d'impacte contra una criatura que estiguis apresant.",
+              "Pots, com a acció, pots intentar fer-li una clau a una criatura que tinguis {@condition grappled}. Per a fer-ho, fes una altra tirada de presa. Si la superes, tant tu com l'objectiu esteu {@condition restrained} fins que la presa acabi."
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
