@@ -90,7 +90,7 @@ let dataOut = [
 	{
 		name: "Legal Info",
 		type: "section",
-		entries: data.legalinfo[0],
+		entries: data.legalinfo,
 	},
 	getSection(data.phb, ["02b", "037", "038"]), // races explanation
 	{
