@@ -50,7 +50,7 @@ ConverterUtilsItem.BASIC_ARMORS = [
 	"armadura de cuir",
 	"armadura de cuir tatxonada",
 	"armadura de pells",
-	"chain shirt",
+	"samarra de malla",
 	"cota d'escates",
 	"breastplate",
 	"mitja armadura de plaques",

@@ -517,7 +517,7 @@
 		},
 		_MEDIUM: {
 			"armadura de pells": 12,
-			"chain shirt": 13,
+			"samarra de malla": 13,
 			"cota d'escates": 14,
 			"breastplate": 14,
 			"mitja armadura de plaques": 15,
@@ -1120,7 +1120,7 @@
 								}
 							} else {
 								// if we need more, switch to medium, and restart the conversion
-								acItem.from[i]._ = this._replaceTag(acItem.from[i]._, lightTag, `chain shirt|phb`);
+								acItem.from[i]._ = this._replaceTag(acItem.from[i]._, lightTag, `samarra de malla|phb`);
 								acItem.ac = (acItem.ac - tagAc - Parser.getAbilityModNumber(mon.dex)) + 13 + Math.min(2, Parser.getAbilityModNumber(mon.dex));
 								delete acItem._acBeforePreAdjustment;
 								return -1;
