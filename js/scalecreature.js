@@ -827,7 +827,7 @@
 						const fromShield = fromShields[0]._;
 						const idx = acItem.from.findIndex(it => it === fromShield);
 
-						if (fromShield.endsWith("|shields}")) {
+						if (fromShield.endsWith("|escuts}")) {
 							targetNoShield -= DUAL_SHIELD_AC;
 
 							if (!shieldRequired && (acGain <= -DUAL_SHIELD_AC)) {
