@@ -84,7 +84,7 @@
 					"id": "006",
 					"entries": [
 						"DM: All right, Amy, let's see how sneaky you are. Make a Destresa check.",
-						"Amy: With my {@skill Stealth}, right?",
+						"Amy: With my {@skill Sigil}, right?",
 						"DM: You bet.",
 						"Amy (rolling a {@dice d20}): I'm pretty sneaky\u2014that's a 17.",
 						"DM: OK, there's no sign that anyone notices you. And you're looking inside?"
@@ -440,7 +440,7 @@
 								"{@b Destresa}, measuring agility",
 								"{@b Constitució}, measuring endurance",
 								"{@b Intel·ligència}, measuring reasoning and memory",
-								"{@b Saviesa}, measuring perception and insight",
+								"{@b Saviesa}, measuring perception and perspicàcia",
 								"{@b Carisma}, measuring force of personality"
 							]
 						},
@@ -685,7 +685,7 @@
 									"name": "Proficiency Bonus",
 									"id": "029",
 									"entries": [
-										"You might be particularly skilled at a certain kind of task related to an ability check. The character sheets list each character's proficiencies with skills and special tools, and the monster statistics in the adventure book show monsters' proficiencies. If you have proficiency in a skill, such as {@skill Acrobàcies} or {@skill Deception}, you add el teu bonus de competència to ability checks you make that use that skill. If you have proficiency with a certain tool, such as {@item eines de lladre|PHB}, you add el teu bonus de competència to ability checks you make using those tools. You never add el teu bonus de competència more than once to the same {@dice d20} roll.",
+										"You might be particularly skilled at a certain kind of task related to an ability check. The character sheets list each character's proficiencies with skills and special tools, and the monster statistics in the adventure book show monsters' proficiencies. If you have proficiency in a skill, such as {@skill Acrobàcies} or {@skill Engany}, you add el teu bonus de competència to ability checks you make that use that skill. If you have proficiency with a certain tool, such as {@item eines de lladre|PHB}, you add el teu bonus de competència to ability checks you make using those tools. You never add el teu bonus de competència more than once to the same {@dice d20} roll.",
 										{
 											"type": "inset",
 											"id": "02a",
@@ -739,9 +739,9 @@
 									"id": "02d",
 									"entries": [
 										"Each ability covers a broad range of capabilities, including skills that a character can be proficient in. A skill represents a specific aspect of an ability score, and a character's proficiency in a skill demonstrates a focus on that aspect.",
-										"A Destresa check might, for example, reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Destresa has an associated skill: {@skill Acrobàcies}, {@skill Sleight of Hand}, i {@skill Stealth}, respectively. So a character who has proficiency in the {@skill Stealth} is particularly good at Destresa checks related to sneaking and hiding.",
+										"A Destresa check might, for example, reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Destresa has an associated skill: {@skill Acrobàcies}, {@skill Joc de Mans}, i {@skill Sigil}, respectively. So a character who has proficiency in the {@skill Sigil} is particularly good at Destresa checks related to sneaking and hiding.",
 										"Sometimes, the DM might ask fo una tirada d'habilitat amb a specific skill\u2014for example, \"Make una tirada de Saviesa ({@skill Percepció}).\" At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means a character can add his or her proficiency bonus to ability checks that use that skill. Without proficiency in the skill, the character makes a normal ability check.",
-										"For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for una tirada de Força ({@skill Atletisme}). If the character is proficient in {@skill Athletics}, the character's proficiency bonus is added to the Força check. If the character lacks that proficiency, he or she just makes a Força check.",
+										"For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for una tirada de Força ({@skill Atletisme}). If the character is proficient in {@skill Atletisme}, the character's proficiency bonus is added to the Força check. If the character lacks that proficiency, he or she just makes a Força check.",
 										{
 											"type": "inset",
 											"id": "02e",
@@ -793,10 +793,10 @@
 							"name": "Força Checks",
 							"id": "02f",
 							"entries": [
-								"Força measures bodily power, athletic training, and the extent to which you can exert raw physical force. A Força check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Athletics} reflects aptitude in certain kinds of Força checks.",
+								"Força measures bodily power, athletic training, and the extent to which you can exert raw physical force. A Força check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Atletisme} reflects aptitude in certain kinds of Força checks.",
 								{
 									"type": "entries",
-									"name": "Athletics",
+									"name": "Atletisme",
 									"id": "030",
 									"entries": [
 										"Your Força ({@skill Atletisme}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
@@ -818,7 +818,7 @@
 							"name": "Destresa Checks",
 							"id": "031",
 							"entries": [
-								"Destresa measures physical agility, reflexes, and balance. A Destresa check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The {@skill Acrobàcies}, {@skill Sleight of Hand}, i {@skill Stealth} reflect aptitude in certain kinds of Destresa checks.",
+								"Destresa measures physical agility, reflexes, and balance. A Destresa check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The {@skill Acrobàcies}, {@skill Joc de Mans}, i {@skill Sigil} reflect aptitude in certain kinds of Destresa checks.",
 								{
 									"type": "inset",
 									"id": "032",
@@ -848,7 +848,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Sleight of Hand",
+									"name": "Joc de Mans",
 									"id": "034",
 									"entries": [
 										"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make una tirada de Destresa ({@skill Joc de Mans}). The DM might also call for una tirada de Destresa ({@skill Joc de Mans}) to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
@@ -856,7 +856,7 @@
 											"type": "inset",
 											"id": "035",
 											"entries": [
-												"{@comicH1 SLEIGHT OF HAND}",
+												"{@comicH1 JOC DE MANS}",
 												"{@comic Stealing is a time-honored D&D tradition, Morty. Rogues do it, obviously, but everyone else does too.}",
 												"{@b {@i {@comicH4 EVEN CLERICS}!}}",
 												{
@@ -877,7 +877,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Stealth",
+									"name": "Sigil",
 									"id": "036",
 									"entries": [
 										"Make una tirada de Destresa ({@skill Sigil}) when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
@@ -895,7 +895,7 @@
 													"width": 150,
 													"height": 176
 												},
-												"{@comicH1 STEALTH}",
+												"{@comicH1 SIGIL}",
 												"{@comic Sneaking around {@i and} stealing is where it's at, so if you wanna be smart like your grandpa, make sure you crank that Dex up, you dig?}"
 											]
 										},
@@ -908,11 +908,11 @@
 												"You can't hide from a creature that can see you, and if you make noise (such as shouting a warning or knocking over a vase), you give away your position. An {@condition invisible} creature can't be seen, so it can always try to hide. Signs of its passage might still be noticed, however, and it still has to stay quiet.",
 												{
 													"type": "entries",
-													"name": "Passive Perception",
+													"name": "Passive Percepció",
 													"id": "039",
 													"entries": [
 														"When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the DM compares your Destresa ({@skill Sigil}) check with that creature's passive Saviesa ({@skill Percepció}) score, which equals 10 + the creature's Saviesa modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5.",
-														"For example, if a 1st-level character (with a proficiency bonus of +2) has a Saviesa of 15 (a +2 modifier) and proficiency in {@skill Perception}, they have a passive Saviesa ({@skill Percepció}) score of 14."
+														"For example, if a 1st-level character (with a proficiency bonus of +2) has a Saviesa of 15 (a +2 modifier) and proficiency in {@skill Percepció}, they have a passive Saviesa ({@skill Percepció}) score of 14."
 													]
 												},
 												{
@@ -998,7 +998,7 @@
 							"name": "Intel·ligència Checks",
 							"id": "03e",
 							"entries": [
-								"Intel·ligència measures mental acuity, strength of recall, and the ability to reason. An Intel·ligència check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, i {@skill Religion} reflect aptitude in certain kinds of Intel·ligència checks.",
+								"Intel·ligència measures mental acuity, strength of recall, and the ability to reason. An Intel·ligència check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The {@skill Arcana}, {@skill Història}, {@skill Investigació}, {@skill Naturalesa}, i {@skill Religió} reflect aptitude in certain kinds of Intel·ligència checks.",
 								{
 									"type": "entries",
 									"name": "Arcana",
@@ -1009,7 +1009,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "History",
+									"name": "Història",
 									"id": "040",
 									"entries": [
 										"L'Intel·ligència ({@skill Història}) medeix la teva capacitat per a recordar coneixement d'esdeveniments històrics, regnes antics, disputes passades, guerres recents, i civilitzacions perdudes."
@@ -1017,7 +1017,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Investigation",
+									"name": "Investigació",
 									"id": "041",
 									"entries": [
 										"Quan busques pistes i fas deduccions sobre les pistes, fas una tirada d'Intel·ligència ({@skill Investigació}). Potser dedueixes on està un objecte amagat, saps quina arma va fer una ferida mirant-la, o determines el punt més dèbil d'un túnnel que el podria ensorrar. Llegir tot de pergamints antics buscant un coneixement específic també podria fer-se amb una tirada d'Intel·ligència ({@skill Investigació})."
@@ -1025,15 +1025,15 @@
 								},
 								{
 									"type": "entries",
-									"name": "Nature",
+									"name": "Naturalesa",
 									"id": "042",
 									"entries": [
-										"L'Intel·ligència ({@skill Natura}) medeix la teva capacitat per a recall lore about terrain, plants and animals, the weather, and natural cycles."
+										"L'Intel·ligència ({@skill Naturalesa}) medeix la teva capacitat per a recall lore about terrain, plants and animals, the weather, and natural cycles."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Religion",
+									"name": "Religió",
 									"id": "043",
 									"entries": [
 										"L'Intel·ligència ({@skill Religió}) medeix la teva capacitat per a recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
@@ -1063,10 +1063,10 @@
 							"name": "Saviesa Checks",
 							"id": "045",
 							"entries": [
-								"Saviesa reflects how attuned you are to the world around you, representing perceptiveness and intuition. A Saviesa check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The {@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, i {@skill Survival} reflect aptitude in certain kinds of Saviesa checks.",
+								"Saviesa reflects how attuned you are to the world around you, representing perceptiveness and intuition. A Saviesa check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The {@skill Tracte Animal}, {@skill Perspicàcia}, {@skill Medicina}, {@skill Percepció}, i {@skill Supervivència} reflect aptitude in certain kinds of Saviesa checks.",
 								{
 									"type": "entries",
-									"name": "Animal Handling",
+									"name": "Tracte Animal",
 									"id": "046",
 									"entries": [
 										"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for una tirada de Saviesa ({@skill Tracte amb Animals}). You also make una tirada de Saviesa ({@skill Tracte amb Animals}) to control your mount when you attempt a risky maneuver.",
@@ -1084,7 +1084,7 @@
 													"width": 240,
 													"height": 343
 												},
-												"{@comicH1 ANIMAL HANDLING}",
+												"{@comicH1 TRACTE ANIMAL}",
 												"{@comic S-s-some players think they're {@i animal whisperers}, Morty. Don't let them befriend animals in your game. It always starts with one {@b wolf} or {@b squirrel}, then, next thing you know, you're tracking a f***ing {@b {@i {@comicH4 MENAGERIE}}}, each one with their own character sheet. {@i N-n-no pets}!}"
 											]
 										}
@@ -1092,7 +1092,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Insight",
+									"name": "Perspicàcia",
 									"id": "048",
 									"entries": [
 										"Your Saviesa ({@skill Perspicàcia}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
@@ -1100,7 +1100,7 @@
 											"type": "inset",
 											"id": "049",
 											"entries": [
-												"{@comicH1 INSIGHT}",
+												"{@comicH1 PERSPICÀCIA}",
 												"{@comic S-s-some players use Insight on {@comicH3 everything}, Morty. They think they're Sherlock Holmes, analyzing every word they hear, looking for hidden meanings.}",
 												"{@comic There's no meaning to any of this, Morty. Not D&D, not life, nothing. So here's how you deal with this:}",
 												"{@comic Tell them that there's something {@i fishy} going on, but refuse to elaborate, no matter how high they roll.}",
@@ -1123,7 +1123,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Medicine",
+									"name": "Medicina",
 									"id": "04a",
 									"entries": [
 										"una tirada de Saviesa ({@skill Medicina}) lets you try to stabilize a dying companion or diagnose an illness.",
@@ -1141,7 +1141,7 @@
 													"width": 250,
 													"height": 366
 												},
-												"{@comicH1 Medicine}",
+												"{@comicH1 Medicina}",
 												"{@comic Medieval medicine isn't pretty, Morty. Even in a fantasy world, they don't know jack about germs or pathogens or antib-b-b-*BURP*-biotics.}"
 											]
 										}
@@ -1149,7 +1149,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Perception",
+									"name": "Percepció",
 									"id": "04c",
 									"entries": [
 										"Your Saviesa ({@skill Percepció}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
@@ -1167,7 +1167,7 @@
 													"width": 160,
 													"height": 191
 												},
-												"{@comicH1 PERCEPTION}",
+												"{@comicH1 PERCEPCIÓ}",
 												"{@comic That Insight stuff I mentioned earlier goes {@comicH3 double} for Perception, Morty.}",
 												"{@comic Some players just can't stop staring and listening and sniffing instead of {@i doing}. It can't all be that interesting, but they're gonna try anyway.}"
 											]
@@ -1176,7 +1176,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Survival",
+									"name": "Supervivència",
 									"id": "04e",
 									"entries": [
 										"The DM might ask you to make una tirada de Saviesa ({@skill Supervivència}) to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that mussolóssos live nearby, predict the weather, or avoid quicksand and other natural hazards.",
@@ -1194,7 +1194,7 @@
 													"width": 419,
 													"height": 218
 												},
-												"{@comicH1 SURVIVAL}",
+												"{@comicH1 SUPERVIVÈNCIA}",
 												"{@comic If a player {@i really} pisses you off, make them roll Saviesa (Survival) for {@comicH3 everything}:}",
 												"{@comicH1 make their butt cheeks clench in fear every time you look in their direction.}"
 											]
@@ -1208,10 +1208,10 @@
 							"name": "Carisma Checks",
 							"id": "050",
 							"entries": [
-								"Carisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence. A Carisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The {@skill Deception}, {@skill Intimidation}, {@skill Performance}, i {@skill Persuasion} reflect aptitude in certain kinds of Carisma checks.",
+								"Carisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence. A Carisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The {@skill Engany}, {@skill Intimidació}, {@skill Faràndula}, i {@skill Persuasió} reflect aptitude in certain kinds of Carisma checks.",
 								{
 									"type": "entries",
-									"name": "Deception",
+									"name": "Engany",
 									"id": "051",
 									"entries": [
 										"Your Carisma ({@skill Engany}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
@@ -1219,7 +1219,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Intimidation",
+									"name": "Intimidació",
 									"id": "052",
 									"entries": [
 										"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the DM might ask you to make una tirada de Carisma ({@skill Intimidació}). Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."
@@ -1227,7 +1227,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Performance",
+									"name": "Faràndula",
 									"id": "053",
 									"entries": [
 										"Your Carisma ({@skill Persuasió}) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
@@ -1235,10 +1235,10 @@
 								},
 								{
 									"type": "entries",
-									"name": "Persuasion",
+									"name": "Persuasió",
 									"id": "054",
 									"entries": [
-										"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make una tirada de Carisma ({@skill Persuasion}). Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
+										"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make una tirada de Carisma ({@skill Persuasió}). Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
 										{
 											"type": "inset",
 											"name": "Finding a Hidden Object",
