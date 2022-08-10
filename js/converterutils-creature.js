@@ -58,7 +58,7 @@ class AcConvert {
 						case "suave defense":
 						case "armor scraps":
 						case "barding scraps":
-						case "patchwork armor":
+						case "armadura de pedaços":
 						case "see natural armor feature":
 						case "pell d'escorça trait":
 						case "silvà warrior":
