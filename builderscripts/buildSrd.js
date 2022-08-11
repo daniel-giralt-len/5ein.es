@@ -148,7 +148,7 @@ let dataOut = {
 		},
 		getSection(data.dmg, ["23c", "248"], ["249", "24a", "24b", "24e", "24f", "263", "266", "267", "268"]), // magic items
 		{
-			name: "Objectes Màgics",
+			name: "Llista d'Objectes Màgics",
 			type: "entries",
 			entries: data.items
 				.filter(srdOnly)
@@ -177,7 +177,7 @@ let dataOut = {
 				.sort(sortByNameDesc),
 		},
 		getSection(data.phb, ["1f6"], ["1f6s"]), // conditions explanation
-		getSrdMarkedSection("Condicions", data.conditionsdiseases.condition), // conditions list
+		getSrdMarkedSection("Llista de Condicions", data.conditionsdiseases.condition), // conditions list
 		getSection(data.phb, ["1f7"], ["1f9", "1fd", "1f8"]), // pantheons
 		getSection(data.phb, ["205"], ["207b", "207", "208", "20fb", "211", "213", "209s"]), // planes of existence
 		getSection(data.mm, ["03e"], ["03f", "047"]), // appendix misc
