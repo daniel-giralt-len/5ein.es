@@ -45,7 +45,7 @@
 				"rarity": "rar",
 				"bonusAc": "+1",
 				"entries": [
-					"Tens un +{=bonusAc} a la CA mentre vesteixis l'armadura."
+					"Tens un {=bonusAc} a la CA mentre vesteixis l'armadura."
 				]
 			}
 		},
@@ -70,7 +70,7 @@
 				"rarity": "poc comú",
 				"bonusAc": "+1",
 				"entries": [
-					"Mentre duguis l'escut, tens un +{=bonusAc} a la CA. Aquest bonus es suma al bonus normal de l'escut."
+					"Mentre duguis l'escut, tens un {=bonusAc} a la CA. Aquest bonus es suma al bonus normal de l'escut."
 				]
 			}
 		},
@@ -166,7 +166,7 @@
 				"rarity": "molt rar",
 				"bonusAc": "+2",
 				"entries": [
-					"Tens un +{=bonusAc} a la CA mentre vesteixis l'armadura."
+					"Tens un {=bonusAc} a la CA mentre vesteixis l'armadura."
 				]
 			}
 		},
@@ -191,7 +191,7 @@
 				"rarity": "rar",
 				"bonusAc": "+2",
 				"entries": [
-					"Mentre duguis l'escut, tens un +{=bonusAc} a la CA. Aquest bonus es suma al bonus normal de l'escut."
+					"Mentre duguis l'escut, tens un {=bonusAc} a la CA. Aquest bonus es suma al bonus normal de l'escut."
 				]
 			}
 		},
@@ -287,7 +287,7 @@
 				"rarity": "llegendari",
 				"bonusAc": "+3",
 				"entries": [
-					"Tens un +{=bonusAc} a la CA mentre vesteixis l'armadura."
+					"Tens un {=bonusAc} a la CA mentre vesteixis l'armadura."
 				]
 			}
 		},
@@ -312,7 +312,7 @@
 				"rarity": "molt rar",
 				"bonusAc": "+3",
 				"entries": [
-					"Mentre duguis l'escut, tens un +{=bonusAc} a la CA. Aquest bonus es suma al bonus normal de l'escut."
+					"Mentre duguis l'escut, tens un {=bonusAc} a la CA. Aquest bonus es suma al bonus normal de l'escut."
 				]
 			}
 		},
@@ -813,8 +813,8 @@
 				"tier": "minor",
 				"rarity": "molt rar",
 				"entries": [
-					"{=baseName/at} {=baseName/l} of slaying és una arma màgica meant to slay a particular kind of creature. Some are more focused than others; for example, there are both {@i {=baseName/l}s of dragon slaying} and {@i {=baseName/l}s of blue dragon slaying}. If a creature belonging to the type, race, or group associated with {=baseName/a} {=baseName/l} of slaying takes damage from the {=baseName/l}, la criatura ha de salvar per Constitució (CD 17), taking an extra {@dice 6d10} de dany perforant si falla, or half as much extra damage on a successful one.",
-					"Once {=baseName/a} {=baseName/l} of slaying deals its extra damage to a creature, it becomes a nonmagical {=baseName/l}."
+					"Una {@italic fletxa d'execució} és una arma màgica que executa un tipus específic de criatura. Algunes són més restrictives que d'altres: hi ha tant {@italic fletxes d'execució de dracs} com {@italic fletxes d'execució de dracs blaus}. Si una criatura és del tipus, raça, o grup determinat a la {@italic fletxa d'execució} i aquesta l'impacta, la criatura ha de salvar per Constitució (CD 17). Si falla, rep {@dice 6d10} de dany perforant extra. Si supera, en rep la meitat.",
+    				"Quan una {@italic fletxa d'execució} causa dany a una criatura, es torna no-màgica."
 				]
 			},
 			"hasFluffImages": true
@@ -1044,7 +1044,7 @@
 				"rarity": "unknown (magic)",
 				"bonusAc": "+1",
 				"entries": [
-					"Tens un +{=bonusAc} a la CA mentre vesteixis l'armadura. This armor loses its enchantment bonus permanently if it is exposed to sunlight durant 1 hora or longer."
+					"Tens un {=bonusAc} a la CA mentre vesteixis l'armadura. This armor loses its enchantment bonus permanently if it is exposed to sunlight durant 1 hora or longer."
 				]
 			}
 		},
@@ -1528,7 +1528,7 @@
 				"rarity": "molt rar",
 				"bonusAc": "+1",
 				"entries": [
-					"Tens un +{=bonusAc} a la CA mentre vesteixis l'armadura, which shimmers softly.",
+					"Tens un {=bonusAc} a la CA mentre vesteixis l'armadura, which shimmers softly.",
 					"If you die while wearing the armor, it is destroyed, and each celestial, fey, and diastre with 30 feet of you ha de salvar per Carisma (CD 15). Si falla, be banished to its home plane of existence, unless it is already there."
 				]
 			}
@@ -1712,7 +1712,7 @@
 				"bonusAc": "+1",
 				"sigil": false,
 				"entries": [
-					"Tens un +{=bonusAc} a la CA mentre vesteixis l'armadura.",
+					"Tens un {=bonusAc} a la CA mentre vesteixis l'armadura.",
 					"Mitrall is a light, flexible metal. A mitrall samarra de malla or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Destresa ({@skill Sigil}) or has a Força requirement, the mitrall version of the armor doesn't."
 				]
 			}
@@ -2306,8 +2306,7 @@
 				"rarity": "rar",
 				"reqAttune": true,
 				"entries": [
-					"Quan ataques a aquesta criatura amb una arma màgica i treus un 20 a impactar, l'objectiu rep 10 de dany necròtic si no és un constructe o un no-mort; també obténs 10 punts de vida temporals.",
-					"{@i Note: According to the SRD, it is an extra {@dice 3d6} de dany necròtic, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+					"Quan ataques a aquesta criatura amb una arma màgica i treus un 20 a impactar, l'objectiu rep 10 de dany necròtic si no és un constructe o un no-mort; també obténs 10 punts de vida temporals."
 				],
 				"lootTables": [
 					"Taula d'Objectes Màgics G"
@@ -2414,8 +2413,7 @@
 				"net": true
 			},
 			"entries": [
-				"When you roll a 20 with this arma màgica, the target takes an extra 7 damage of the weapon's type.",
-				"{@i Note: According to the SRD, it is an extra {@dice 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+				"When you roll a 20 with this arma màgica, the target takes an extra 7 damage of the weapon's type."
 			],
 			"inherits": {
 				"namePrefix": "Vicious +1 ",
@@ -2425,8 +2423,7 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to a les tirades d'impacte i de dany fetes amb aquesta weapon.",
-					"When you roll a 20 with this arma màgica, the target takes an extra 7 {=dmgType} damage.",
-					"{@i Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+					"When you roll a 20 with this arma màgica, the target takes an extra 7 {=dmgType}."
 				]
 			}
 		},
@@ -2442,8 +2439,7 @@
 				"net": true
 			},
 			"entries": [
-				"Quan treus un 20 a impactar amb aquesta arma màgica, l'objectiu rep 7 de dany extra del tipus de l'arma.",
-				"{@i Note: According to the SRD, it is an extra {@dice 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+				"Quan treus un 20 a impactar amb aquesta arma màgica, l'objectiu rep 7 de dany extra del tipus de l'arma."
 			],
 			"inherits": {
 				"namePrefix": "Vicious ",
@@ -2453,8 +2449,7 @@
 				"tier": "major",
 				"rarity": "rar",
 				"entries": [
-					"When you roll a 20 with this arma màgica, the target takes an extra 7 {=dmgType} damage.",
-					"{@i Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+					"When you roll a 20 with this arma màgica, the target takes an extra 7 {=dmgType}."
 				],
 				"lootTables": [
 					"Taula d'Objectes Màgics G"
