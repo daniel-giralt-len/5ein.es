@@ -7,6 +7,7 @@ const data = {
 	"mm": require(buildDataPath("book/book-mm")).data,
 	"races": require(buildDataPath("races")).race,
 	"items": require(buildDataPath("items")).item,
+	"magicvariants": require(buildDataPath("magicvariants")).variant,
 	"legalinfo": require(buildDataPath("legalinfo")),
 	"miscellaneousCreaturesNames": require(buildDataPath("miscellaneouscreatures")),
 	"npcCharacters": require(buildDataPath("npccharacters")),
@@ -150,11 +151,16 @@ let dataOut = {
 		{
 			name: "Llista d'Objectes Màgics",
 			type: "entries",
-			entries: data.items
-				.filter(srdOnly)
-				.filter(i => !i.verí)
-				.filter(i => !["none", "artifact"].includes(i.rarity))
-				.sort(sortByNameDesc),
+			entries: [
+				...data.items
+					.filter(srdOnly)
+					.filter(i => !i.verí)
+					.filter(i => !["none", "artifact"].includes(i.rarity)),
+				...data.magicvariants.map(({name, inherits}) => ({name, ...inherits}))
+					.filter(srdOnly)
+					.filter(i => !i.verí)
+					.filter(i => !["none", "artifact"].includes(i.rarity)),
+			].sort(sortByNameDesc),
 		},
 		getSection(data.dmg, ["23c", "26a"], ["270", "273"]), // sentient items
 		{
