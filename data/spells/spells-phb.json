@@ -7779,7 +7779,7 @@
 				"Convoques a un servent elemental. Escull un cub de 10 peus de costat a l'abast ple d'aire, terra, foc, o bé aigua. Un {@filter elemental amb un valor de repte de 5 o menor|bestiary|challenge rating=[&0;&5]|type=elemental|miscellaneous=!swarm} d'aquell element apareix en un espai desocupat a 10 peus de l'àrea. Així, un {@creature elemental de foc} sorgirà d'una foguera, o un {@creature elemental de terra} emergirà del terra. L'elemental desapareix quan es queda a 0 punts de vida o quan s'acaba el conjur.",
 				"L'elemental és amistós vers a tu i als teus aliats durant la duració del conjur. Tira l'iniciativa per l'elemental (té els seus propis torns). Obeeix qualsevol ordre verbal que l'hi donis (pots fer-ho sense gastar acció). Si no en dones, es defensarà de criatures hostils i res més.",
 				"Si se't trenca la concentració l'elemental no desapareixerà; però en perdràs el control. Esdevé hostil vers a tu i als teus aliats i podria atacar-vos. No pots desconvocar a un elemental que no controlis. Desapareixerà passada 1 hora després de la convocació.",
-				"El/la/li MM té el bloc d'estadístiques de the elemental."
+				"El/la/li MM té el bloc d'estadístiques de l'elemental."
 			],
 			"entriesHigherLevel": [
 				{
@@ -7895,8 +7895,8 @@
 			],
 			"entries": [
 				"Convoques a una {@filter criatura faèrica amb un valor de repte de 6 o menor|bestiary|challenge rating=[&0;&6]|type=fey|miscellaneous=!swarm}, o a un esperit faèric en forma de {@filter bèstia amb un valor de repte de 6 o menor|bestiary|challenge rating=[&0;&6]|type=beast|miscellaneous=!swarm}. Apareix en un espai desocupat que puguis veure a l'abast. La criatura desapareix quan es queda a 0 punts de vida o quan s'acaba el conjur.",
-				"La fata és amistós vers a tu i als teus aliats durant la duració del conjur. Tira l'iniciativa per la criatura (té els seus propis torns). Obeeix qualsevol ordre verbal que l'hi donis (pots fer-ho sense gastar acció), mentre no contradigui el seu alineament. Si no en dones, es defensarà de criatures hostils i res més.",
-				"Si se't trenca la concentració la fata no desapareixerà; però en perdràs el control. Esdevé hostil vers a tu i als teus aliats i podria atacar-vos. No pots desconvocar a una fata que no controlis. Desapareixerà passada 1 hora després de la convocació.",
+				"La fata és amistósa respecte a tu i als teus aliats durant la duració del conjur. Tira l'iniciativa per la criatura (té els seus propis torns). Obeeix qualsevol ordre verbal que l'hi donis (pots fer-ho sense gastar acció), mentre no contradigui el seu alineament. Si no en dones, només es defensarà de criatures hostils.",
+				"Si se't trenca la concentració la fata no desapareix, però en perds el control. Esdevé hostil vers a tu i als teus aliats i podria atacar-vos. No pots desconvocar a una fata que no controlis. Desapareixerà passada 1 hora després de la convocació.",
 				"El/la/li MM té el bloc d'estadístiques de la fata."
 			],
 			"entriesHigherLevel": [
@@ -7970,7 +7970,7 @@
 						"Vuit {@filter elementals amb un valor de repte de 1/4 o menor|bestiary|challenge rating=[&0;&1/4]|type=elemental|miscellaneous=!swarm}."
 					]
 				},
-				"Tot elemental convocat amb aquest conjur desapareix quan es queda a 0 punts de vida o quan s'acaba el conjur.",
+				"Qualsevol elemental convocat amb aquest conjur desapareix quan es queda a 0 punts de vida o quan s'acaba el conjur.",
 				"Les criatures convocades són amistoses vers a tu i als teus aliats. Tira l'iniciativa pel grup de criatures (comparteixen el torn). Obeeixen qualsevol ordre verbal que els donis (pots fer-ho sense gastar acció). Si no en dones, es defensaran de criatures hostils i res més.",
 				"El/la/li MM té el bloc d'estadístiques de les criatures."
 			],
@@ -7979,7 +7979,7 @@
 					"type": "entries",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llancis aquest conjur a nivells superiors el nombre de criatures convocades es multiplica. Es duplica amb una ranura de nivell 6 o superior; i es triplica amb una ranura de nivell 8 o superior."
+						"Quan llancis aquest conjur a nivells superiors el nombre de criatures convocades es multiplica. Es duplica amb una ranura de nivell 6 o superior i es triplica amb una ranura de nivell 8 o superior."
 					]
 				}
 			],
@@ -8200,7 +8200,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Contactes, mentalment, amb un semidéu, l'esperit d'algú savi mort fa molt, o alguna mena d'entitat misteriosa d'un altre plà. La comunicació pot fatigar-te la ment o esberlar-te-la. Quan llances el conjur has de salvar per Intel·ligència (CD 15). Si falles, reps {@damage 6d6} de dany psíquic i embogeixes fins que facis un Descans Llarg. Si embogeixes no pots prendre accions, no comprèns el que diuen altres criatures, no pots llegir, i només pots barbotejar. Una {@spell restabliment superior} acaba aquest efecte prematurament.",
+				"Contactes, mentalment, amb un semidéu, l'esperit d'algú savi mort fa molt, o alguna mena d'entitat misteriosa d'un altre plà. La comunicació pot fatigar-te o esberlar-te la ment. Quan llances el conjur has de salvar per Intel·ligència (CD 15). Si falles, reps {@damage 6d6} de dany psíquic i embogeixes fins que facis un Descans Llarg. Si embogeixes no pots prendre accions, no comprèns el que diuen altres criatures, no pots llegir, i només pots barbotejar. Un {@spell restabliment superior} acaba aquest efecte prematurament.",
 				"Si superes la salvada, pots fer-li fins a cinc preguntes a l'entitat. Les has de formular abans no acabi el conjur. El/la/li MM respondrà les preguntes amb una sola paraula, com ara \"sí,\" \"no,\" \"potser,\" \"mai,\" \"irrellevant,\"; o \"incert\" si l'entitat no en coneix la resposta. Si una resposta d'una sola paraula fos poc clara, el/la/li MM pot decidir replicar amb una resposta curta."
 			],
 			"damageInflict": [
@@ -8263,7 +8263,7 @@
 			],
 			"entries": [
 				"Escampes malalties per tot el que toques. Fes un atac màgic cos a cos contra una criatura al teu abast. Si impacta, l'objectiu està {@condition emmetzinat}.",
-				"Al final de cada torn de l'objectiu {@condition emmetzinat} ha de salvar per Constitució. Si supera tres vegades ja no està {@condition emmetzinat} i el conjur acaba. Si falla tres cops l'objectiu ja no està {@condition emmetzinat} però rep una de les malalties següents, que durarà la duració del conjur.",
+				"Al final de cada torn de l'objectiu {@condition emmetzinat} ha de salvar per Constitució. Si supera tres vegades ja no està {@condition emmetzinat} i el conjur acaba. Si falla tres vegades l'objectiu ja no està {@condition emmetzinat} però rep una de les malalties següents, que durarà la duració del conjur.",
 				"Com que la malaltia és natural, tot efecte (màgic o comú) que curi (o alleugi) una malaltia l'afectarà.",
 				{
 					"type": "entries",
@@ -8276,14 +8276,14 @@
 					"type": "entries",
 					"name": "Febre Fastigosa",
 					"entries": [
-						"Una febre altíssima s'apodera del cos de la criatura. Té desavantatge a tota tirada de Força (simples, habilitats, i salvades) i a tirades d'impacte que involucrin Força."
+						"Una febre altíssima s'escampa pel cos de la criatura. Té desavantatge a tota tirada de Força (simples, habilitats, i salvades) i a tirades d'impacte que involucrin Força."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Podridora",
 					"entries": [
-						"La carn de la criatura es descompòn. Té desavantatge a tirades de Carisma (simples i habilitats) i és vulnerable a tot tipus de dany."
+						"La carn de la criatura es descompon. Té desavantatge a tirades de Carisma (simples i habilitats) i és vulnerable a tot tipus de dany."
 					]
 				},
 				{
@@ -8460,7 +8460,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "pols de robí que valgui 50 ors (el conjur ho consumeix)",
+					"text": "pols de rubí que valgui 50 ors (el conjur ho consumeix)",
 					"cost": 5000,
 					"consume": true
 				}
@@ -8474,7 +8474,7 @@
 				}
 			],
 			"entries": [
-				"Una flama sorgeix d'un objecte que toquis. Té la luminositat d'una torxa però no desprèn calor ni requereix oxigen. Pots tapar un for perenne per tapar-ne la llum però no el pots apagar."
+				"Una flama sorgeix d'un objecte que toquis. Té la luminositat d'una torxa però no desprèn calor ni requereix oxigen. Pots tapar un foc perenne per tapar-ne la llum però no el pots apagar."
 			],
 			"classes": {
 				"fromClassList": [
@@ -8557,7 +8557,7 @@
 				}
 			],
 			"entries": [
-				"Mentre duri el conjur, pots controlar qualsevol massa d'aigua lliure (que no estigui a dins de receptacles). Pots controlar-ne un fins a un cub de 100 peus de costat. Durant un torn hi causes un dels efectes següents (esculls quan llances el conjur). Pots tornar a causar un efecte durant el teu torn com a acció.",
+				"Mentre duri el conjur, pots controlar qualsevol massa d'aigua lliure (que no estigui a dins de receptacles). Pots controlar-ne fins a un cub de 100 peus de costat. Durant un torn hi causes un dels efectes següents (a escollir quan llances el conjur). Pots tornar a causar un efecte durant el teu torn com a acció.",
 				{
 					"type": "entries",
 					"name": "Marea",
@@ -8571,21 +8571,21 @@
 					"type": "entries",
 					"name": "Partir les Aigües",
 					"entries": [
-						"Separes l'aigua i crees un esvoranc a tota l'àrea. Es creen parets a dos costats de la zona. L'esvoranc es mantè mentre duri el conjur o fins que en canviïs l'efecte. Quan s'acaba, l'esvoranc es reomple lentament i s'omple per complet amb una ronda."
+						"Separes l'aigua i crees un esvoranc a tota l'àrea. Es creen parets als dos costats de la zona. L'esvoranc es mantè mentre duri el conjur o fins que en canviïs l'efecte. Quan s'acaba, l'esvoranc es reomple lentament i s'omple per complet en una ronda."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Canviar Corrent",
 					"entries": [
-						"L'aigua es mou en una direcció que escullis, fins i tot si ha de passar obstacles, escalar parets, o d'altres reptes improbables. Fora de la zona la corrent no es veu afectada. El correntes mantè mentre duri el conjur o fins que en canviïs l'efecte."
+						"L'aigua es mou en una direcció que escullis, fins i tot si ha de passar obstacles, escalar parets, o d'altres reptes improbables. Fora de la zona la corrent no es veu afectada. El corrent es mantè mentre duri el conjur o fins que en canviïs l'efecte."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Remolí",
 					"entries": [
-						"Aquest efecte requereix 50 peus quadrats de superfície i 25 peus de profunditat. Crees un remolí al centre de l'àrea. El fons és de 5 peus de costat i l'entrada pot tenir fins a 50 peus de costat. Pot ser fins a 25 peus d'alt. Tota criatura o objecte dins de l'aigua a 25 peus d'abast del remolí hi és atreta 10 peus. Una criatura pot resistir aquest moviment nadant amb una tirada de Força ({@skill Atletisme}) contra la teva CD de salvació de conjur.",
+						"Aquest efecte requereix 50 peus quadrats de superfície i 25 peus de profunditat. Crees un remolí al centre de l'àrea. La base del fons és de 5 peus de costat i l'entrada pot tenir fins a 50 peus de costat. Pot ser fins a 25 peus d'alt. Tota criatura o objecte dins de l'aigua a 25 peus d'abast del remolí hi és atreta 10 peus. Una criatura pot resistir aquest moviment nadant amb una tirada de Força ({@skill Atletisme}) contra la teva CD de salvació de conjur.",
 						"Quan una criatura entra el remolí per primer cop en un torn o hi començi el torn, ha de salvar per Força. Si falla, rep {@damage 2d8} de dany contundent i queda atrapada dins del remolí mentre duri el conjur. Si supera, rep la meitat del dany i no hi queda atrapada. Tota criatura atrapada al remolí pot, com a acció, repetir la tirada de Força ({@skill Atletisme}) per escapar-ne, però amb desavantatge.",
 						"El primer cop que un objecte entri al remolí, rep {@damage 2d8} de dany contundent, i es repeteix a cada ronda que estigui dins del remolí."
 					]
@@ -8751,7 +8751,7 @@
 				}
 			],
 			"entries": [
-				"Controles el temps a 5 milles d'abast durant la duració del conjur. Has d'estar a fora per poder llançar-lo. Si en algun moment no pots veure el cel el conjur s'acaba.",
+				"Controles el temps a 5 milles d'abast durant la duració del conjur. Has d'estar a l'aire lliure per poder llançar-lo. Si en algun moment no pots veure el cel el conjur s'acaba.",
 				"Quan llances el conjur canvies el temps que fa d'acord amb el clima i estació determinades pel/per la MM. Canvies la precipitació, la temperatura, i el vent. Calen {@dice 1d4 × 10} minuts perquè l'efecte comenci. Un cap passi aquest temps, pots tornar a canviar el temps. Quan el conjur s'acaba el temps torna a la normalitat gradualment.",
 				"Per canviar el temps busca quin d'aquests estats s'assembla més a l'actual i puja'l o baixa'l un grau. Quant al vent, també en pots canviar la direcció.",
 				{
@@ -8806,7 +8806,7 @@
 						],
 						[
 							"2",
-							"Xafugor"
+							"Xafogor"
 						],
 						[
 							"3",
@@ -8822,7 +8822,7 @@
 						],
 						[
 							"6",
-							"Fred glaçat"
+							"Fred extem"
 						]
 					]
 				},
@@ -8844,7 +8844,7 @@
 						],
 						[
 							"2",
-							"Aire"
+							"Brisa"
 						],
 						[
 							"3",
@@ -8856,7 +8856,7 @@
 						],
 						[
 							"5",
-							"Tempesta"
+							"Vendaval"
 						]
 					]
 				}
@@ -8972,7 +8972,7 @@
 				}
 			],
 			"entries": [
-				"Proves d'interrompre el llançament d'un conjur d'una criatura. Si el nivell del seu conjur és 3 o menys, fallarà i no tindrà efecte. Si és superior, tira una tirada d'habilitat amb la teva habilitat de llançament de conjurs; la CD és 10 + el nivell del conjur objectiu. Si superes, el conjur objectiu fallarà i no tindrà efecte."
+				"Proves d'interrompre el llançament de conjur d'una criatura. Si el nivell del seu conjur és 3 o menys, fallarà i no tindrà efecte. Si és superior, tira una tirada d'habilitat amb la teva habilitat de llançament de conjurs; la CD és 10 + el nivell del conjur objectiu. Si superes, el conjur objectiu fallarà i no tindrà efecte."
 			],
 			"entriesHigherLevel": [
 				{
@@ -9096,7 +9096,7 @@
 				}
 			],
 			"entries": [
-				"Crees 45 lliures de menjar i 30 galons d'aigua, o bé al terra o dins de contenidors a l'abast. Pot mantenir a 15 humanoides o bé a 5 montures durant 24 hores. El menjar és insípid però nutritiu i es fa malbé passades 24 hores. L'aigua és potable i no es fa malbé."
+				"Crees 45 lliures de menjar i 30 galons d'aigua al terra o dins de contenidors a l'abast. Pot mantenir a 15 humanoides o a 5 montures durant 24 hores. El menjar és insípid però nutritiu i es fa malbé passades 24 hores. L'aigua és potable i no es fa malbé."
 			],
 			"classes": {
 				"fromClassList": [
@@ -9332,8 +9332,8 @@
 			],
 			"entries": [
 				"Només pots llançar aquest conjur a la nit. Escull fins a 3 cadàvers d'humanoides Mitjans o Petits a l'abast. Cada cadàver esdevè un {@creature gul} que controles. (El/la/li MM en té el bloc d'estadístiques.)",
-				"A cada torn teu pots, com a acció bonus, donar ordres a qualsevol criatura creada amb aquest conjur si és a 120 peus d'abast (si controles a múltiples criatures pots donar la mateixa ordre a més d'una alhora). Esculls l'acció i el moviment de la criatura durant el seu proper torn, o li pots donar una ordre general (patrullar una cambra o passadís). Si no dones ordres, la criatura es defensarà contra criatures hostils i prous. La criatura seguirà una ordre fins que la completi.",
-				"Tens control de la criatura durant 24 hores; després deixa d'obeïr-te. Per mantenir el control 24 hores més has de re-llançar aquest conjur sobre la criatura abans no passin les 24 hores inicials. Si llances aquest conjur per allargar-ne la duració d'aquesta manera, pots llançar-lo sobre fins a tres criatures."
+				"A cada torn teu pots, com a acció bonus, donar ordres a qualsevol criatura creada amb aquest conjur si és a 120 peus d'abast (si controles a múltiples criatures pots donar la mateixa ordre a més d'una alhora). Esculls l'acció i el moviment de la criatura durant el seu proper torn, o li pots donar una ordre general (patrullar una cambra o passadís). Si no dones ordres, la criatura es defensarà contra criatures hostils i prou. La criatura seguirà una ordre fins que la completi.",
+				"Tens el control de la criatura durant 24 hores; després deixa d'obeïr-te. Per mantenir el control 24 hores més has de re-llançar aquest conjur sobre la criatura abans no passin les 24 hores inicials. Si llances aquest conjur per allargar-ne la duració d'aquesta manera, pots llançar-lo sobre fins a tres criatures."
 			],
 			"entriesHigherLevel": [
 				{
@@ -9396,8 +9396,8 @@
 				}
 			],
 			"entries": [
-				"Extraus matèria d'ombra de l'Erm de l'Ombra per a crear un objecte fet de material no vivent o vegetal: alguns queviures, corda, fusta, etc. També poden ser objectes minerals com pedra, vidre, o metall. L'objecte ha de cabre en un cup de 5 peus de costat i has d'haver vist el material.",
-				"La duració depèn del material de l'objecte; si n'està composat de diversos, serà la duració més curta.",
+				"Extreus matèria d'ombra de l'Erm de l'Ombra per crear un objecte fet de material no vivent o vegetal: alguns queviures, corda, fusta, etc. També poden ser objectes minerals com pedra, vidre, o metall. L'objecte ha de cabre en un cub de 5 peus de costat i has d'haver vist el material abans.",
+				"La duració depèn del material de l'objecte; si està composat de diversos, serà la duració més curta.",
 				{
 					"type": "table",
 					"caption": "Creació",
@@ -9412,23 +9412,23 @@
 					"rows": [
 						[
 							"Material Vegetal",
-							"1 day"
+							"1 dia"
 						],
 						[
 							"Pedra o vidre/cristall",
-							"12 hours"
+							"12 hores"
 						],
 						[
 							"Metalls preciosos",
-							"1 hour"
+							"1 hora"
 						],
 						[
 							"Gemes",
-							"10 minutes"
+							"10 minuts"
 						],
 						[
 							"Adamantí or mitrall",
-							"1 minute"
+							"1 minut"
 						]
 					]
 				},
@@ -9439,7 +9439,7 @@
 					"type": "entries",
 					"name": "A Nivells Superiors",
 					"entries": [
-						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, el cub incrementa en 5 peus cada nivell per sobre de 5."
+						"Quan llances aquest conjur emprant una ranura de nivell 6 o superior, el cub incrementa en 5 peus per cada nivell per sobre de 5."
 					]
 				}
 			],
@@ -9564,8 +9564,8 @@
 				}
 			],
 			"entries": [
-				"Escull un humanoide que puguis veure a l'abast. Ha de salvar per Saviesa. Si falla, esdevé {@condition fascinat} per tu mentre duri el conjur. En aquesta condició li apareix una corona de ferro dentada i els ulls li cremen de follia.",
-				"L'objectiu ha de, com a acció abans del seu moviment, fer una tac cos a cos contra una criatura (ell no) que escullis tu mentalment. Si no en tries cap o no en té cap a l'abast, pot prendre el seu torn normalment.",
+				"Escull un humanoide que puguis veure a l'abast. Ha de salvar per Saviesa. Si falla, esdevé {@condition fascinat} per tu mentre duri el conjur. En aquesta condició li apareix una corona de ferro dentada i els ulls se li omplen de follia.",
+				"L'objectiu ha de, com a acció abans del seu moviment, fer un atac cos a cos contra una criatura (diferent a si mateixa) que escullis tu mentalment. Si no en tries cap o no en té cap a l'abast, pot prendre el seu torn normalment.",
 				"En els teus torns posteriors has de, com a acció, mantenir el control sobre l'objectiu; sinò, el conjur s'acaba. A més, l'objectiu pot salvar per Saviesa al final de cada torn seu. Si supera, el conjur s'acaba."
 			],
 			"conditionInflict": [
@@ -9734,7 +9734,7 @@
 				}
 			],
 			"entries": [
-				"Toques a una criatura i recupera {@dice 1d8} + el teu modificador de llançament de conjurs. Aquest conjur no afecta a no-morts ni a constructes."
+				"Toques a una criatura i recupera {@dice 1d8} + el teu modificador de llançament de conjurs punts de cop. Aquest conjur no afecta a no-morts ni a constructes."
 			],
 			"entriesHigherLevel": [
 				{
@@ -9877,7 +9877,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "uns mica de fòsfor o una pedre foguera o una cuca de llum"
+				"m": "uns mica de fòsfor o una pedra foguera o una cuca de llum"
 			},
 			"duration": [
 				{
@@ -10259,7 +10259,7 @@
 			],
 			"entries": [
 				"Una llum sorgeix d'un punt a l'abast que esculls. Radia llum forta en una esfera de 60 peus i radia llum tènue uns 60 peus adicionals.",
-				"Si el punt que esculls és en un objecte que duus o que no duu ni vesteix ningú més la llum emanarà i es mourà amb l'objecte. Cobrir la font de la llum amb un objecte opac com ara un bol o un casc bloqueja la llum.",
+				"Si el punt que esculls és en un objecte que duus o que no duu ni vesteix ningú, la llum emanarà i es mourà amb l'objecte. Cobrir la font de la llum amb un objecte opac com ara un bol o un casc bloqueja la llum.",
 				"Si alguna part de l'àrea d'aquest conjur intersecta amb àrea d'una foscor màgica d'un conjur de nivell 3 o menor, el conjur que ha creat la foscor es dissipa."
 			],
 			"areaTags": [
@@ -10579,10 +10579,10 @@
 				}
 			],
 			"entries": [
-				"Un raig de llum groga surt del teu dit i es condensa en un punt a l'abast. Apareix com una canica flotant que brilla. Quan el conjur acaba, ja sigui perquè ho decideixes o perquè se't trenca la concentració, de la canica en floreix una explosió de foc terrible que s'extén per les cantonades. Tota criatura en una esfera de $1 peus de radi centrada en aquell punt ha de salvar per Destresa. Qui falli rep el dany acumulat total; qui superi, en rep la meitat.",
+				"Un raig de llum groga surt del teu dit i es condensa en un punt a l'abast. Apareix com una canica flotant que brilla. Quan el conjur acaba, ja sigui perquè ho decideixes o perquè se't trenca la concentració, de la canica en floreix una explosió de foc terrible que s'extén per les cantonades. Tota criatura en una esfera d'1 peu de radi centrada en aquell punt ha de salvar per Destresa. Qui falli rep el dany acumulat total; qui superi, en rep la meitat.",
 				"El dany base del conjur és {@damage 12d6}. Si la canica no ha detonat al final del teu torn, el dany incrementa en {@dice 1d6}.",
 				"Si la canica és tocada abans que s'hagi acabat el conjur, la criatura que la toca ha de salvar per Destresa. Si falla, el conjur s'acaba i la canica explota. Si supera, la criatura pot llançar la canica fins a 40 peus. Quan impacti contra una criatura o objecte sòlid el conjur acaba i la canica explota.",
-				"El foc danya els objectes a l'àrea i encén els inflamables que ningú estigui portant o vestint."
+				"El foc danya els objectes a l'àrea i encén els objectes inflamables que ningú estigui portant o vestint."
 			],
 			"entriesHigherLevel": [
 				{
@@ -11095,7 +11095,7 @@
 			],
 			"entries": [
 				"Mentre duri el conjur pots llegir els pensaments de certes criatures. Quan llances el conjur (i com a acció a cada torn teu) mentre duri el conjur, pots centrar-te en la ment d'una criatura que puguis veure a 30 peus d'abast. Si té una Intel·ligència de 3 o menor o no parla cap llenguatge, el conjur no fa efecte.",
-				"Inicialment llegeixes els pensaments superficials de la criatura: el que més té al cap ara mateix. Com a acció, pots o canviar de criatura o intentar indagar a la ment de la criatura. Si indagues l'objectiu ha de salvar per Saviesa. Su falla, comprèns el seu raonament (si en té), el seu estat emocional, i d'una cosa que la capfiqui en general (d'alguna cosa que la faci preocupar, que odiï, o que estimi). Si supera, el conjur acaba. De qualsevol manera la criatura sap que estàs indagant a la seva ment. Si no pares, pot fer una tirada d'Intel·ligència contra una de teva; si supera, el conjur s'acaba.",
+				"Inicialment llegeixes els pensaments superficials de la criatura: el que té al cap ara mateix. Com a acció, pots o canviar de criatura o intentar indagar més a la ment. Si indagues l'objectiu ha de salvar per Saviesa. Su falla, comprèns el seu raonament (si en té), el seu estat emocional, i d'una cosa que la capfiqui en general (d'alguna cosa que la faci preocupar, que odiï, o que estimi). Si supera, el conjur acaba. De qualsevol manera la criatura sap que estàs indagant a la seva ment. Si no pares, pot fer una tirada d'Intel·ligència contra una de teva; si supera, el conjur s'acaba.",
 				"Tota pregunta dirigida verbalment a l'objectiu li canvia els pensaments; així, aquest conjur va molt bé per a interrogar.",
 				"També pots detectar la presència de criatures racionals que no puguis veure. Quan llances el conjur (i com a acció a cada torn teu) pots buscar pensaments a 30 peus d'abast. Aquest conjur pot penetrar moltes barreres però el bloqueja 2 peus de pedra, 2 polzades de metall, o bé una fulla prima de plom. No pots detectar a una criatura que té una Intel·ligència de 3 o menor o no parla cap llenguatge.",
 				"Un cop detectis a una criatura així li pots llegir els pensaments com dicta el conjur; no cal que la vegis, però ha d'esar a l'abast."
@@ -11229,9 +11229,9 @@
 				}
 			],
 			"entries": [
-				"Et teleportes del lloc on ets a un altre lloc a l'abast. Pot ser un lloc que vegis, que et puguis imaginar, o que puguis descriure amb direcció i distància: \"200 peus cap avall\" o bé \"Nord-oest cap amunt a 45º, 300 peus.\"",
-				"Pots portar tants objectes com puguis portar, i a una criatura voluntària del teu tamany o menor que porti fins a tant pes com pugui portar. També ha d'estar a 5 peus d'abast quan llances el conjur.",
-				"Si el destí que has escollit està ocupat, tu i qualsevol criatura que duguis rebeu {@damage 4d6} de dany de força i el conjur no et teleporta."
+				"Et teletransportes del lloc on ets a un altre lloc a l'abast. Pot ser un lloc que vegis, que et puguis imaginar, o que puguis descriure amb direcció i distància: \"200 peus cap avall\" o bé \"Nord-oest cap amunt a 45º, 300 peus.\"",
+				"Pots teletransportar tants objectes com puguis portar, i a una criatura voluntària del teu tamany o menor que porti fins a tant pes com pugui portar. També ha d'estar a 5 peus d'abast quan llances el conjur.",
+				"Si el destí que has escollit està ocupat, tu i qualsevol criatura que duguis rebeu {@damage 4d6} de dany de força i el conjur no us teletransporta."
 			],
 			"damageInflict": [
 				"força"
